@@ -6,11 +6,17 @@
   <Confirm>Подтвердить</Confirm>
   <GoBack>Вернуться</GoBack>
   <OK>Да</OK>
+  <!-- Save/load -->
+  <SaveGameButton>Сохранить</SaveGameButton>
+  <OverwriteButton>Перезаписать</OverwriteButton>
+  <LoadGameButton>Загрузить</LoadGameButton>
   <ConfirmDelete>Действительно удалить {0}?</ConfirmDelete>
   <DeleteThisSavegame>Удалить это сохранение.</DeleteThisSavegame>
-  <OverwriteButton>Перезаписать</OverwriteButton>
+
   <SavedAs>Сохранено как {0}.</SavedAs>
   <NeedAName>Пожалуйста, введите имя.</NeedAName>
+  <LoadingLongEvent>Загрузка...</LoadingLongEvent>
+ 
  
  
   <NameColonyMessage>Все знают, что вы собираетесь оставаться на этой скале надолго. Но {0} предполагается, что вы все таки дадите имя вашей колонии.\n\nТак как она должна назвываться?</NameColonyMessage>
@@ -21,30 +27,28 @@
   <ZoneNameIsInvalid>Пожалуйста, введите корректное имя зоны.</ZoneNameIsInvalid>
  
  
-  <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
- 
- 
+  <!-- Res change dialog -->
   <ConfirmResolutionChange>Вы поменяли разрешение экрана. Новое работает правильно?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Оставить</ResolutionKeep>
   <ResolutionRevert>Вернуть</ResolutionRevert>
  
- 
+  <!-- Overview -->
   <OverviewOf>Обзор {0}</OverviewOf>
  
-   
-  <Research>Исследования</Research>
+  <!-- Research -->
+  <Research>Исследование</Research>
   <Researched>Исследовано</Researched>
   <Unresearched>Не исследовано</Unresearched>
   <Finished>Закончено</Finished>
   <InProgress>В процессе</InProgress>
  
- 
+  <!-- Advanced game start options -->
   <MapSizePerformanceWarning>Внимание: Так как игра еще не оптимизирована до конца, производительность будет деградировать при больших размерах карты. Рекомендуемый размер 200х200, поэтому, пожалуйста, придерживайтесь этого, если у вас не машина-зверь и вы готовы столкнуться с проблемами производительности.</MapSizePerformanceWarning>
   <MapSize>Размер карты</MapSize>
   <MapSizeDesc>{0}x{0} ({1} квадратов)</MapSizeDesc>
  
  
- 
+  <!-- Bill config -->
   <Suspended>Остановлено</Suspended>
   <NotSuspended>Не остановлено</NotSuspended>
   <SuspendedAllCaps>SUSPENDED</SuspendedAllCaps>
@@ -61,9 +65,12 @@
   <DoForever>Делать все время</DoForever>
  
  
- 
+  <!-- Trade -->
   <TradeGoodsNearBeaconLesson>To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON outdoors and place a stockpile of items near it.</TradeGoodsNearBeaconLesson>
   <YourTradeableSilver>Серебра для торговли: {0}</YourTradeableSilver>
+
+  <!-- Comms -->
+  <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
  
  
 </LanguageData>

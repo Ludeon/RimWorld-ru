@@ -1,6 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
+  <!-- Various -->
+    <WorkLeft>Work left</WorkLeft>
+  <Contents>Содержание</Contents>
+  <ForPrisonerUse>Используется заключенными</ForPrisonerUse>
+  <ForColonistUse>Используется колонистами</ForColonistUse>
+  <Owner>Владелец</Owner>
+  <Nobody>нет</Nobody>
+  <Unowned>свободно</Unowned>
+  <GunInstalled>Установлено</GunInstalled>
+  <DeadTime>Умер {0}</DeadTime>
+  <WalkSpeed>walk speed {0}</WalkSpeed>
+  <DyingLower>dying</DyingLower>
+  <PercentGrowth>{0}% growth</PercentGrowth>
+  <PawnEffectiveness>Effectiveness</PawnEffectiveness>
+  <FilthOnFeet>Filth on feet:</FilthOnFeet>
  
+  <!-- Thoughts -->
+  <Loyalty>Loyalty</Loyalty>
+  <Happiness>Happiness</Happiness>
+  <Fear>Fear</Fear>
+  <ThoughtExpiresIn>Expires in: {0}</ThoughtExpiresIn>
+  <ThoughtStartsExpiringIn>Starts expiring in: {0}</ThoughtStartsExpiringIn>
+  <ThoughtFinishesExpiringIn>Finishes expiring in: {0}</ThoughtFinishesExpiringIn>
  
   <!-- Time indicator-->
   <ClockDay>День</ClockDay>
@@ -12,31 +35,34 @@
   <Faction>Фракция</Faction>
   <Equipped>Экипирован</Equipped>
   <EquippedNothing>Ничего</EquippedNothing>
-  <Incapacitated>Выведенный из строя</Incapacitated>
+  <Incapacitated>Выведен из строя</Incapacitated>
   <InRestraints>В наручниках (замедленный)</InRestraints>
+  <SelectNextInSquareTip>Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again.</SelectNextInSquareTip>
  
+  <!-- ITab titles -->
+  <TabBills>Bills</TabBills>
+  <TabGrowing>Growing</TabGrowing>
+  <TabCharacter>Персона</TabCharacter>
+  <TabNeeds>Нужды</TabNeeds>
+  <TabPrisoner>Prisoner</TabPrisoner>
+  <TabThoughts>Мысли</TabThoughts>
+  <TabStorage>Storage</TabStorage>
+  
   <!-- Tooltip -->
   <Loyalty>Лояльность</Loyalty>
   <Carrying>Несет</Carrying>
   <ShotBy>Выстрел {0}</ShotBy>
   <CannotHit>Не может поразить цель.</CannotHit>
  
- 
- 
- 
-  <WorkLeft>Осталось работы</WorkLeft>
-  <Contents>Содержание</Contents>
- 
- 
-  <ForPrisonerUse>Используется заключенными</ForPrisonerUse>
-  <ForColonistUse>Используется колонистами</ForColonistUse>
-  <Owner>Владелец</Owner>
-  <Nobody>Никто</Nobody>
-  <Unowned>Бесхозно</Unowned>
-  <GunInstalled>Установлен</GunInstalled>
-  <DeadTime>Умер {0}</DeadTime>
- 
- 
+  <!-- Storage priority labels -->
+  <StoragePriorityUnstored>не использовать</StoragePriorityUnstored>
+  <StoragePriorityLow>низкий</StoragePriorityLow>
+  <StoragePriorityNormal>обычный</StoragePriorityNormal>
+  <StoragePriorityPreferred>повышенный</StoragePriorityPreferred>
+  <StoragePriorityImportant>высокий</StoragePriorityImportant>
+  <StoragePriorityCritical>максимальный</StoragePriorityCritical>
+
+  <!-- Meal -->
   <TimeToSpoil>Spoils in {0}</TimeToSpoil>
   <Ingredients>Ингредиенты</Ingredients>
  
@@ -55,11 +81,22 @@
   <Stockpile>Хранилище</Stockpile>
   <DumpingStockpile>Свалка</DumpingStockpile>
   <SellingStockpile>Продажа запасов</SellingStockpile>
-  <HomeZone>Дом</HomeZone>
- 
- 
+  <Priority>Priority</Priority>
+  
   <!-- General use time stuff -->
-  <Days>дней</Days>
-  <Seconds>секунд</Seconds>
+  <DaysLower>дней</DaysLower>
+  <SecondsLower>секунд</SecondsLower>
  
+  <!-- Mouseover indicator -->
+  <Undiscovered>Неизведанно</Undiscovered>
+  
+  <!-- Buttons -->
+  <ZoneVisibilityToggleButton>Toggle visiblity of zones.</ZoneVisibilityToggleButton>
+  
+  <!-- Fire -->
+  <Fire>Fire</Fire>
+  <FireOn>Fire on {0}</FireOn>
+  <Burning>Burning</Burning>
+  <FireSizeLower>fire size {0}</FireSizeLower>
+  
 </LanguageData>
