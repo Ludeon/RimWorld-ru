@@ -15,33 +15,48 @@
   <DyingLower>умирает</DyingLower>
   <PawnEffectiveness>Эффективность</PawnEffectiveness>
   <FilthOnFeet>Грязь на ногах:</FilthOnFeet>
-  <Food>Питание</Food>
-  <Rest>Отдых</Rest>
-	
-	<!-- Job reports -->
-	<ReportHaulingTo>Несет {0} к {1}.</ReportHaulingTo>
-	<ReportHauling>Несет {0}.</ReportHauling>
-	
-	<!-- Shooting report -->
-	<RangeSlashSkill>Range/skill</RangeSlashSkill>
-	<RangeSlashEquipment>Range/equipment</RangeSlashEquipment>
-	<Darkness>Darkness</Darkness>
-	<TargetProne>Target prone</TargetProne>
-	<TargetSize>Target size</TargetSize>
-	<Weather>Погода</Weather>
-	<ShootingCover>Cover</ShootingCover>
-	<CoverThingBlocksPercentOfShots>{0} stops {1}</CoverThingBlocksPercentOfShots>
-	<NoCoverLower>no cover</NoCoverLower>
  
 
-  <!-- Thoughts -->
-  <Loyalty>Лояльность</Loyalty>
+  <!-- Job reports -->
+  <ReportHaulingTo>Несет {0} на {1}.</ReportHaulingTo>
+  <ReportHauling>Несет {0}.</ReportHauling>
+ 
+  <!-- Shooting report -->
+  <RangeSlashSkill>Range/skill</RangeSlashSkill>
+  <RangeSlashEquipment>Range/equipment</RangeSlashEquipment>
+  <Darkness>Темнота</Darkness>
+  <TargetProne>Target prone</TargetProne>
+  <TargetSize>Target size</TargetSize>
+  <Weather>Погода</Weather>
+  <ShootingCover>Укрытие</ShootingCover>
+  <CoverThingBlocksPercentOfShots>{0} stops {1}</CoverThingBlocksPercentOfShots>
+  <NoCoverLower>нет укрытия</NoCoverLower>
+ 
+	<!-- Status levels -->
+  <Loyalty>Преданность</Loyalty>
+  <LoyaltyTip>Loyalty represents a person's belief in the colony. If it falls too low, a person may give up, become irrational, or go insane.\n\nLoyalty is equal to Happiness or Fear - whichever is greatest.</LoyaltyTip>
   <Happiness>Счастье</Happiness>
+  <HappinessTip>Happiness is sustained by fulfilling physical and psychological needs.</HappinessTip>
   <Fear>Страх</Fear>
+  <FearTip>Fear represents how intimidated someone is by their environment.\n\nIt rises witnesses threats, brutality, and displays of power.</FearTip>
+  <Food>Пища</Food>
+  <FoodTip>Food is how satisfied someone is with their meals.\n\nFood resets when someone eats. After a while, it will begin falling until they eat again. At zero food, a person will take starvation damage.</FoodTip>
+  <Rest>Отдых</Rest>
+  <RestTip>Rest is how much quality relaxation and sleep a person gets.\n\nIt rises to a maximum when someone sleeps in a bed. Outside of bed, it falls over time.</RestTip>
+  <Environment>Окружение</Environment>
+  <EnvironmentTip>Environment reflects how pleasing a person finds their surroundings.\n\nEnvironment is high when people are in spacious rooms with beautiful decorations. It is poor when their surroundings are ugly.</EnvironmentTip>
+  <Openness>Openness</Openness>
+
+
+
+  <!-- Thoughts -->
   <ThoughtExpiresIn>Истекает через: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Начнет истекать через: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Закончит истекать через: {0}</ThoughtFinishesExpiringIn>
+  <MentalBreakThreshold>Mental break threshold</MentalBreakThreshold>
  
+
+
   <!--Effectiveness-->
   <EffectivenessFull>полная</EffectivenessFull>
   <EffectivenessReduced>заниженная</EffectivenessReduced>
@@ -71,38 +86,43 @@
   <TabThoughts>Мысли</TabThoughts>
   <TabStorage>Склад</TabStorage>
   
-	<!-- ITabs -->
-	<AddBill>Добавить задание</AddBill>
-	<RecipeRequiresSkills>The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill.</RecipeRequiresSkills>
-	<BillConfig>Настройки</BillConfig>
-	<SuspendedCaps>ПАУЗА</SuspendedCaps>
-	<PlantVerb>Plant</PlantVerb>
-	<RecruitmentDifficulty>Сложность вербовки</RecruitmentDifficulty>
-	<PrisonerGetsFood>Получает питанание</PrisonerGetsFood>
-	<ShouldTryToRecruit>Попытка вербовки</ShouldTryToRecruit>
-	<PrisonerNoInteraction>Никакого взаимодействия</PrisonerNoInteraction>
-	<PrisonerFriendlyChat>Дружеская беседа</PrisonerFriendlyChat>
-	<PrisonerMildBeating>Легкое избиение</PrisonerMildBeating>
-	<PrisonerViciousBeating>Сильное избиение</PrisonerViciousBeating>
-	<PrisonerExecution>Казнь</PrisonerExecution>
+  <!-- ITabs -->
+  <AddBill>Добавить задание</AddBill>
+  <RecipeRequiresSkills>The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill.</RecipeRequiresSkills>
+  <BillConfig>Настройки</BillConfig>
+  <SuspendedCaps>ПАУЗА</SuspendedCaps>
+  <PlantVerb>Plant</PlantVerb>
+  <RecruitmentDifficulty>Сложность вербовки</RecruitmentDifficulty>
+  <PrisonerGetsFood>Получает питанание</PrisonerGetsFood>
+  <ShouldTryToRecruit>Попытка вербовки</ShouldTryToRecruit>
+  <PrisonerNoInteraction>Никакого взаимодействия</PrisonerNoInteraction>
+  <PrisonerFriendlyChat>Дружеская беседа</PrisonerFriendlyChat>
+  <PrisonerMildBeating>Легкое избиение</PrisonerMildBeating>
+  <PrisonerViciousBeating>Сильное избиение</PrisonerViciousBeating>
+  <PrisonerExecution>Казнь</PrisonerExecution>
 
-	<!-- like 'Blood of John' -->
-	<OfLower></OfLower>
+  <!-- like 'Blood of John' -->
+  <OfLower></OfLower>
 
-	<!-- Power readout -->
-	<PowerNotConnected>Не подключено к сети.</PowerNotConnected>
-	<PowerConnectedRate>Потребляемая мощность: {0}Вт</PowerConnectedRate>
-	<PowerConnectedStored>Доступная мощность: {0}Вт</PowerConnectedStored>
-
-	<!--Rotting-->
-	<RotStateFresh>Свежее</RotStateFresh>
-	<RotStateRotting>Загнивающее</RotStateRotting>
-	<RotStateDessicated>Засохло</RotStateDessicated>
+  <!-- Power readout -->
+  <PowerNotConnected>Не подключено к сети.</PowerNotConnected>
+  <PowerConnectedRate>Потребляемая мощность: {0}Вт</PowerConnectedRate>
+  <PowerConnectedStored>Доступная мощность: {0}Вт</PowerConnectedStored>
+  <PowerNeeded>Power needed</PowerNeeded>
+  <PowerOutput>Power output</PowerOutput>
+  <PowerBatteryStored>Stored</PowerBatteryStored>
+  <PowerBatteryEfficiency>Efficiency</PowerBatteryEfficiency>
+  
+  
+  <!--Rotting-->
+  <RotStateFresh>Свежее</RotStateFresh>
+  <RotStateRotting>Загнивающее</RotStateRotting>
+  <RotStateDessicated>Засохло</RotStateDessicated>
 
   <!-- Tooltip -->
   <Carrying>Несет</Carrying>
   <ShotBy>Выстрел {0}</ShotBy>
-  <CannotHit>Не может поразить цель.</CannotHit>
+  <CannotHit>не попадет в цель.</CannotHit>
  
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>не использовать</StoragePriorityUnstored>
@@ -113,7 +133,7 @@
   <StoragePriorityCritical>максимальный</StoragePriorityCritical>
 
   <!-- Meal -->
-  <TimeToSpoil>Spoils in {0}</TimeToSpoil>
+  <TimeToSpoil>Собрано {0}</TimeToSpoil>
   <Ingredients>Ингредиенты</Ingredients>
  
   <!-- Plants -->
@@ -148,5 +168,11 @@
   <FireOn>Огонь на {0}</FireOn>
   <Burning>Горение</Burning>
   <FireSizeLower>площадь пожара {0}</FireSizeLower>
+  
+  <!-- Map conditions (eclipse, solar flare, etc )-->
+  <MapConditionsTip>Special conditions affecting the area right now.</MapConditionsTip>
+  <SolarFlare>Solar flare</SolarFlare>
+  <Eclipse>Eclipse</Eclipse>
+  
   
 </LanguageData>
