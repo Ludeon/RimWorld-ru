@@ -5,76 +5,82 @@
  
   <Confirm>Подтвердить</Confirm>
   <GoBack>Вернуться</GoBack>
-  <OK>Да</OK>
+  <OK>Хорошо</OK>
+  
   <!-- Save/load -->
   <SaveGameButton>Сохранить</SaveGameButton>
   <OverwriteButton>Перезаписать</OverwriteButton>
   <LoadGameButton>Загрузить</LoadGameButton>
   <ConfirmDelete>Действительно удалить {0}?</ConfirmDelete>
   <DeleteThisSavegame>Удалить это сохранение.</DeleteThisSavegame>
-
   <SavedAs>Сохранено как {0}.</SavedAs>
-  <NeedAName>Пожалуйста, введите имя.</NeedAName>
+  <NeedAName>Пожалуйста, введите название.</NeedAName>
   <LoadingLongEvent>Загрузка...</LoadingLongEvent>
  
  
- 
-  <NameColonyMessage>Все знают, что вы собираетесь оставаться на этой скале надолго. Но {0} предполагается, что вы все таки дадите имя вашей колонии.\n\nТак как она должна назвываться?</NameColonyMessage>
+  <!-- Colony naming-->
+  <NameColonyMessage>Все знают, что вы не хотите застрять в этой дыре надолго. Но {0}, предлагает все же дать название колонии.\n\nТак как она должна назвываться?</NameColonyMessage>
   <ColonyGainsName>Теперь колония известна как {0}.</ColonyGainsName>
-  <ColonyNameIsInvalid>Это имя не подходит для колонии.</ColonyNameIsInvalid>
+  <ColonyNameIsInvalid>Это не подходящее имя для колонии.</ColonyNameIsInvalid>
  
-  <ZoneGainsName>Зона теперь называется {0}.</ZoneGainsName>
-  <ZoneNameIsInvalid>Пожалуйста, введите корректное имя зоны.</ZoneNameIsInvalid>
- 
+  <!-- Zone naming -->
+  <ZoneGainsName>Теперь эта зона называется - {0}.</ZoneGainsName>
+  <ZoneNameIsInvalid>Пожалуйста, укажите название зоны.</ZoneNameIsInvalid>
+
+  <!-- Save game incompatible warning -->
+  <SaveGameIncompatibleWarningText>Конфликт версий: карта была сохранена в версии игры {0}, сейчас версия {1}.\n\n Загрузка сохранения, вероятно, вызовет ошибки и сбои в игре.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningTitle>Save game incompatibility</SaveGameIncompatibleWarningTitle>
  
   <!-- Res change dialog -->
-  <ConfirmResolutionChange>Вы поменяли разрешение экрана. Новое работает правильно?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
-  <ResolutionKeep>Оставить</ResolutionKeep>
-  <ResolutionRevert>Вернуть</ResolutionRevert>
+  <ConfirmResolutionChange>Вы изменили разрешение экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
+  <ResolutionKeep>Сохранить</ResolutionKeep>
+  <ResolutionRevert>Отменить</ResolutionRevert>
  
   <!-- Overview -->
   <OverviewOf>Обзор {0}</OverviewOf>
  
   <!-- Research -->
-  <Research>Исследование</Research>
-  <Researched>Исследовано</Researched>
-  <Unresearched>Не исследовано</Unresearched>
-  <Finished>Закончено</Finished>
+  <Research>Исследования</Research>
+  <Researched>Изучено</Researched>
+  <Unresearched>Не изучено</Unresearched>
+  <Finished>Завершено</Finished>
   <InProgress>В процессе</InProgress>
  
   <!-- Advanced game start options -->
-  <MapSizePerformanceWarning>Внимание: Так как игра еще не оптимизирована до конца, производительность будет деградировать при больших размерах карты. Рекомендуемый размер 200х200, поэтому, пожалуйста, придерживайтесь этого, если у вас не машина-зверь и вы готовы столкнуться с проблемами производительности.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>Внимание: игра еще не оптимизирована до конца, поэтому производительность сильно упадет при больших размерах карты. Рекомендуемый размер 200х200, поэтому, пожалуйста, придерживайтесь этого, если у вас не машина-зверь и вы готовы столкнуться с проблемами производительности.</MapSizePerformanceWarning>
   <MapSize>Размер карты</MapSize>
   <MapSizeDesc>{0}x{0} ({1} квадратов)</MapSizeDesc>
  
  
   <!-- Bill config -->
-  <Suspended>Остановлено</Suspended>
-  <NotSuspended>Не остановлено</NotSuspended>
-  <SuspendedAllCaps>SUSPENDED</SuspendedAllCaps>
-  <RepeatCount>Повторить: {0}</RepeatCount>
-  <Forever>Всегда</Forever>
+  <Suspended>Продолжить</Suspended>
+  <NotSuspended>Приостановить</NotSuspended>
+  <SuspendedAllCaps>ПАУЗА</SuspendedAllCaps>
+  <RepeatCount>Сделать: {0}</RepeatCount>
+  <Forever>Бесконечно</Forever>
   <IngredientSearchRadius>Радиус поиска ингредиентов</IngredientSearchRadius>
   <TargetCount>Делать до: {0}</TargetCount>
   <Infinite>Бесконечно</Infinite>
-  <RecipeCannotHaveTargetCount>(This recipe cannot have a target count because it has multiple or unpredictable products.)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>Разрешенные ингредиенты</PermittedIngredients>
+  <RecipeCannotHaveTargetCount>(Этот задание нельзя повторять, так как результат может быть разным.)</RecipeCannotHaveTargetCount>
+  <PermittedIngredients>Выбор ингредиентов:</PermittedIngredients>
   <MinimumSkills>Минимальные навыки:</MinimumSkills>
   <DoXTimes>Сделать X раз</DoXTimes>
-  <DoUntilYouHaveX>Сделать до X</DoUntilYouHaveX>
-  <DoForever>Делать все время</DoForever>
+  <DoUntilYouHaveX>Повторять до X</DoUntilYouHaveX>
+  <DoForever>Бесконечно</DoForever>
+  <BillRepeatTargetCountShort>До {0}</BillRepeatTargetCountShort>
  
  
   <!-- Trade -->
-  <TradeGoodsNearBeaconLesson>To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON outdoors and place a stockpile of items near it.</TradeGoodsNearBeaconLesson>
+  <TradeGoodsNearBeaconLesson>Чтобы отправить предметы или серебро торговцам, вам нужно построить маяк под открытым небом и разместить рядом склад.</TradeGoodsNearBeaconLesson>
   <YourTradeableSilver>Серебра для торговли: {0}</YourTradeableSilver>
+  <YourTradeableSilverTip>You can only trade with silver that is near an orbital trade beacon and not under a roof.</YourTradeableSilverTip>
 
   <!-- Comms -->
   <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
  
 
-	<!--Other-->
-	<ResearchFinished>Исследование: {0} - завершено</ResearchFinished>
-	<ResearchScreen>Экран исследовании</ResearchScreen>
+  <!--Other-->
+  <ResearchFinished>Исследование: {0} - завершено</ResearchFinished>
+  <ResearchScreen>Экран исследований</ResearchScreen>
 	
 </LanguageData>
