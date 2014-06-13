@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
  
+   <!--=========== Main menu ==========-->
   <NewColony>Новая колония</NewColony>
   <BackToGame>Назад в игру</BackToGame>
   <Save>Сохранить</Save>
@@ -17,43 +18,51 @@
   <TynansTwitter>Твиттер Тайнена</TynansTwitter>
   <TynansDesignBook>Книга Тайнена</TynansDesignBook>
 
-
-	<BuildNowAvailable>Новая версия {0} доступна. Вам лучше ее скачать.</BuildNowAvailable>
-	<BuildUpToDate>У вас последняя версия.</BuildUpToDate>
-	<ErrorGettingVersionInfo>Ошибка получения данных о версии: {0}</ErrorGettingVersionInfo>
-	<LoadingVersionInfo>Загрузка данных о версии...</LoadingVersionInfo>
+  <!--=========== Version info ==========-->
+  <BuildNowAvailable>Доступна новая версия {0}. Вам лучше ее скачать.</BuildNowAvailable>
+  <BuildUpToDate>У вас последняя версия.</BuildUpToDate>
+  <ErrorGettingVersionInfo>Ошибка получения данных о версии: {0}</ErrorGettingVersionInfo>
+  <LoadingVersionInfo>Загрузка данных о версии...</LoadingVersionInfo>
  
+  <!--=========== Mods screen ==========-->
   <GetMods>Скачать моды</GetMods>
   <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все основные возможности.\n\nПомните, другие модификации могут переопределять значения ядра с помощью таких же значенийы.</ConfirmDisableCoreMod>
   <Author>Автор</Author>
- 
-  <Gameplay>Геймплей</Gameplay>
- 
-  <ChooseAIStoryteller>Выбор ИИ рассказчика</ChooseAIStoryteller>
- 
+  
+  
+  <!--=========== Storyteller chooser ==========-->
+    <ChooseAIStoryteller>Выбор ИИ рассказчика</ChooseAIStoryteller>
+  <HowStorytellersWork>ИИ Рассказчик создает события, такие как пиратские набеги, падения ресурсов и нападения животных. Их выбор будет влиять на историю вашей колонии.</HowStorytellersWork>
+
+  <!--=========== Character chooser ==========-->
   <CreateCharacters>Выбор персонажей</CreateCharacters>
-  <FirstNameDesc>Имя персонажа.\n\nОтображается только в определенных меню.</FirstNameDesc>
+  <FirstNameDesc>Имя персонажа.\n\nОтображается только в некоторых меню.</FirstNameDesc>
   <ShortIdentifierDesc>Короткий идентификатор персонажа.\n\nОтображается везде. Может быть именем, фамилией, или прозвищем.</ShortIdentifierDesc>
-  <LastNameDesc>Фамилия персонажа.\n\nОтображается только в определенных меню.</LastNameDesc>
+  <LastNameDesc>Фамилия персонажа.\n\nОтображается только в некоторых меню.</LastNameDesc>
   <Randomize>Случайно</Randomize>
   <AgeIndicator>возраст {0}</AgeIndicator>
   <Backstory>Предыстория</Backstory>
   <IncapableOf>Некомпетентность</IncapableOf>
   <Traits>Черты</Traits>
-  <TraitsDoNothing>Черты просто часть забавной истории, большинство из них ни на что не влияют. Это должно измениться в будущих версиях.</TraitsDoNothing>
+  <TraitsDoNothing>Просто часть забавной истории, большинство из них ни на что не влияют.</TraitsDoNothing>
   <Skills>Навыки</Skills>
   <NoneLower>отсутствует</NoneLower>
   <Adulthood>Зрелость</Adulthood>
   <Childhood>Детство</Childhood>
-  <Male>Мужчина</Male>
-  <Female>Женщина</Female>
- 
+  <Male>Он</Male>
+  <Female>Она</Female>
+  
+  
+  <!--=========== Misc ==========-->
   <Start>Начать</Start>
   <Advanced>Дополнительно</Advanced>
   <Next>Дальше</Next>
   <Back>Назад</Back>
  
+   <Gameplay>Геймплей</Gameplay>
+   
   <ConfirmQuit>Действительно выйти? Вы потеряете весь несохраненный прогресс.</ConfirmQuit>
+  
   <EveryoneNeedsValidName>Каждому человеку нужно правильное имя.</EveryoneNeedsValidName>
  
   <GeneratingWorld>Создание мира...</GeneratingWorld>

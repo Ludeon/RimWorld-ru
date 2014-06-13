@@ -10,9 +10,12 @@
   <DesignatorDeconstruct>Разобрать</DesignatorDeconstruct>
   <DesignatorDeconstructDesc>Разобрать постройку и вернуть часть ресурсов.</DesignatorDeconstructDesc>
  
-  <DesignatorHarvestPlants>Собрать</DesignatorHarvestPlants>
-  <DesignatorHarvestPlantsDesc>Используется для обозначения растений с которых надо собрать еду. Будет собрано максимально возможное количество еды, при этом растение останется.</DesignatorHarvestPlantsDesc>
+  <DesignatorHarvestFood>Собрать</DesignatorHarvestFood>
+  <DesignatorHarvestFoodDesc>Используется для обозначения растений с которых надо собрать еду. Будет собрано максимально возможное количество еды, при этом растение останется.</DesignatorHarvestFoodDesc>
  
+  <DesignatorHarvestWood>Срубить</DesignatorHarvestWood>
+  <DesignatorHarvestWoodDesc>СРубить деревья, чтобы получить строительные брёвна.</DesignatorHarvestWoodDesc>
+
   <DesignatorHaulThings>Убрать</DesignatorHaulThings>
   <DesignatorHaulThingsDesc>Используется для отметки мусора, который будет перенесен на свалку.</DesignatorHaulThingsDesc>
   <NothingToHaulHere>Здесь нечего убирать.</NothingToHaulHere>
@@ -60,11 +63,11 @@
   <CannotPlaceInUndiscovered>Нельзя разместить в неразведанной зоне.</CannotPlaceInUndiscovered>
   <InteractionSpotBlocked>Место действия заблокировано.</InteractionSpotBlocked>
   <InteractionSpotWillBeBlocked>Место действия будет заблокировано.</InteractionSpotWillBeBlocked>
-  <WouldBlockInteractionSpot>{0} would block {1}'s interaction square.</WouldBlockInteractionSpot>
+  <WouldBlockInteractionSpot>{0} заблокировано {1}'s interaction square.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Тут уже {0}.</TerrainIsAlready>
   <IdenticalThingExists>Идентичная вещь уже размещена здесь.</IdenticalThingExists>
-  <IdenticalBlueprintExists>Identical blueprint already exists here.</IdenticalBlueprintExists>
-  <TerrainCannotSupport>The terrain here cannot support this.</TerrainCannotSupport>
+  <IdenticalBlueprintExists>Идентичные проект уже существует здесь.</IdenticalBlueprintExists>
+  <TerrainCannotSupport>Местность здесь не поддерживает это.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Место уже занято.</SpaceAlreadyOccupied>
  
   <!-- placement of zones -->

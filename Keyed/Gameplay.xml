@@ -4,13 +4,13 @@
   <!-- Various -->
   <WorkLeft>Работы осталось</WorkLeft>
   <Contents>Содержание</Contents>
-  <ForPrisonerUse>Используется заключенными</ForPrisonerUse>
-  <ForColonistUse>Используется колонистами</ForColonistUse>
-  <Owner>Владелец</Owner>
-  <Nobody>нет</Nobody>
-  <Unowned>свободно</Unowned>
+  <ForPrisonerUse>Для заключенных</ForPrisonerUse>
+  <ForColonistUse>Для колонистов</ForColonistUse>
+  <Owner>Числится за</Owner>
+  <Nobody>никем</Nobody>
+  <Unowned>Ничья</Unowned>
   <GunInstalled>Установлено</GunInstalled>
-  <DeadTime>Умер {0}</DeadTime>
+  <DeadTime>Умер уже {0}</DeadTime>
   <WalkSpeed>скорость {0}</WalkSpeed>
   <DyingLower>умирает</DyingLower>
   <PawnEffectiveness>Эффективность</PawnEffectiveness>
@@ -22,38 +22,39 @@
   <ReportHauling>Несет {0}.</ReportHauling>
  
   <!-- Shooting report -->
-  <RangeSlashSkill>Range/skill</RangeSlashSkill>
-  <RangeSlashEquipment>Range/equipment</RangeSlashEquipment>
+  <WeaponMissRadius>Вне радиуса оружия</WeaponMissRadius>
+  <RangeSlashSkill>расстояние/умение</RangeSlashSkill>
+  <RangeSlashEquipment>расстояние/вооружение</RangeSlashEquipment>
   <Darkness>Темнота</Darkness>
-  <TargetProne>Target prone</TargetProne>
-  <TargetSize>Target size</TargetSize>
+  <TargetProne>аодверженная цель</TargetProne>
+  <TargetSize>Размер цели</TargetSize>
   <Weather>Погода</Weather>
   <ShootingCover>Укрытие</ShootingCover>
-  <CoverThingBlocksPercentOfShots>{0} stops {1}</CoverThingBlocksPercentOfShots>
+  <CoverThingBlocksPercentOfShots>{0} прекратил {1}</CoverThingBlocksPercentOfShots>
   <NoCoverLower>нет укрытия</NoCoverLower>
  
+	
 	<!-- Status levels -->
-  <Loyalty>Преданность</Loyalty>
-  <LoyaltyTip>Loyalty represents a person's belief in the colony. If it falls too low, a person may give up, become irrational, or go insane.\n\nLoyalty is equal to Happiness or Fear - whichever is greatest.</LoyaltyTip>
+  <Loyalty>Лояльность</Loyalty>
+  <LoyaltyTip>Отображает преданность человека колонии. Если она упадет слишком низко, человек может все бросить и уйти из колонии или сойти с ума.\n\Лоляльность эквивале́нт счастья или страха, зависит от ваших предпочтений.</LoyaltyTip>
   <Happiness>Счастье</Happiness>
-  <HappinessTip>Happiness is sustained by fulfilling physical and psychological needs.</HappinessTip>
+  <HappinessTip>Отражает изменения в физических и психологических потребностях колониста.</HappinessTip>
   <Fear>Страх</Fear>
-  <FearTip>Fear represents how intimidated someone is by their environment.\n\nIt rises witnesses threats, brutality, and displays of power.</FearTip>
-  <Food>Пища</Food>
-  <FoodTip>Food is how satisfied someone is with their meals.\n\nFood resets when someone eats. After a while, it will begin falling until they eat again. At zero food, a person will take starvation damage.</FoodTip>
+  <FearTip>Отображает насколько персонаж запуган окружением.\n\nВозрастает при угрозах, проявлениях грубости или власти.</FearTip>
+  <Food>Сытость</Food>
+  <FoodTip>Показывает насколько колонист доволен питанием.\n\nПоказатель сбрасывается после каждого приема пищи и падает через какое-то время. При достижении нуля персонаж получает урон от голодания.</FoodTip>
   <Rest>Отдых</Rest>
-  <RestTip>Rest is how much quality relaxation and sleep a person gets.\n\nIt rises to a maximum when someone sleeps in a bed. Outside of bed, it falls over time.</RestTip>
+  <RestTip>Показывает качество отдыха и количество сна.\n\nПоказатель достигает максимума после сна и падает когда персонаж покидает кровать.</RestTip>
   <Environment>Окружение</Environment>
-  <EnvironmentTip>Environment reflects how pleasing a person finds their surroundings.\n\nEnvironment is high when people are in spacious rooms with beautiful decorations. It is poor when their surroundings are ugly.</EnvironmentTip>
-  <Openness>Openness</Openness>
+  <EnvironmentTip>Показывает насколько приятна окружающая обстановка.\n\nПоказатель повышается, когда люди находятся в просторных комнатах с красивой отделкой и падает при плохом окружении.</EnvironmentTip>
+  <Openness>Открытость</Openness>
 
-
-
+  
   <!-- Thoughts -->
   <ThoughtExpiresIn>Истекает через: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Начнет истекать через: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Закончит истекать через: {0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThreshold>Mental break threshold</MentalBreakThreshold>
+  <MentalBreakThreshold>Граница психоза</MentalBreakThreshold>
  
 
 
@@ -70,28 +71,40 @@
  
   <!-- Inspector -->
   <Health>Здоровье</Health>
+  <PawnMainDescWithFactionGendered>{0} {1} of {2}</PawnMainDescWithFactionGendered>
+  <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
+  <PawnMainDescWithFactionGenderless>{0} of {1}</PawnMainDescWithFactionGenderless>
+  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
   <Faction>Фракция</Faction>
-  <Equipped>Вооружен</Equipped>
+  <Equipped>Снаряжение</Equipped>
   <EquippedNothing>Не вооружен</EquippedNothing>
   <Incapacitated>Выведен из строя</Incapacitated>
   <InRestraints>В плену (задержан)</InRestraints>
-  <SelectNextInSquareTip>Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again.</SelectNextInSquareTip>
- 
+  <Carrying>Carrying</Carrying>
+  <SanityDazedWander>Сломлен: Ошеломлен и блуждает</SanityDazedWander>
+  <SanityGiveUpExit>Сломлен: Сдался и уходит</SanityGiveUpExit>
+  <SanityPanicFlee>Сломлен: Спасаеться в панике</SanityPanicFlee>
+  <SanityPsychotic>Сломлен: Обезумел</SanityPsychotic>
+
+
+  <!-- Inspector general stuff -->
+  <SelectNextInSquareTip>Выберать другой предмет на той же площади.\n\nКлавиша: {0}\n\nВы также можете сделать это, медленно нажимая на той же площади снова.</SelectNextInSquareTip>
+
   <!-- ITab titles -->
   <TabBills>Задания</TabBills>
   <TabGrowing>Посадки</TabGrowing>
   <TabCharacter>Персона</TabCharacter>
   <TabNeeds>Нужды</TabNeeds>
-  <TabPrisoner>Заключенный</TabPrisoner>
+  <TabPrisoner>Узник</TabPrisoner>
   <TabThoughts>Мысли</TabThoughts>
   <TabStorage>Склад</TabStorage>
   
   <!-- ITabs -->
   <AddBill>Добавить задание</AddBill>
-  <RecipeRequiresSkills>The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>Для того чтобы {0} требуется навык больше, чем есть сейчас у ваших колонистов, так что никто не будет делать это.\n\nПопробуйте начать с чего-то полегче.</RecipeRequiresSkills>
   <BillConfig>Настройки</BillConfig>
   <SuspendedCaps>ПАУЗА</SuspendedCaps>
-  <PlantVerb>Plant</PlantVerb>
+  <PlantVerb>растение</PlantVerb>
   <RecruitmentDifficulty>Сложность вербовки</RecruitmentDifficulty>
   <PrisonerGetsFood>Получает питанание</PrisonerGetsFood>
   <ShouldTryToRecruit>Попытка вербовки</ShouldTryToRecruit>
@@ -106,12 +119,12 @@
 
   <!-- Power readout -->
   <PowerNotConnected>Не подключено к сети.</PowerNotConnected>
-  <PowerConnectedRate>Потребляемая мощность: {0}Вт</PowerConnectedRate>
-  <PowerConnectedStored>Доступная мощность: {0}Вт</PowerConnectedStored>
-  <PowerNeeded>Power needed</PowerNeeded>
-  <PowerOutput>Power output</PowerOutput>
-  <PowerBatteryStored>Stored</PowerBatteryStored>
-  <PowerBatteryEfficiency>Efficiency</PowerBatteryEfficiency>
+  <PowerConnectedRate>Мощность сети: {0} W</PowerConnectedRate>
+  <PowerConnectedStored>Накопленная энергия: {0} W</PowerConnectedStored>
+  <PowerNeeded>Потребляемая мощность</PowerNeeded>
+  <PowerOutput>Энерговыработка</PowerOutput>
+  <PowerBatteryStored>Заряд</PowerBatteryStored>
+  <PowerBatteryEfficiency>КПД</PowerBatteryEfficiency>
   
   
   <!--Rotting-->
@@ -119,8 +132,7 @@
   <RotStateRotting>Загнивающее</RotStateRotting>
   <RotStateDessicated>Засохло</RotStateDessicated>
 
-  <!-- Tooltip -->
-  <Carrying>Несет</Carrying>
+  <!-- Shooting tooltip -->
   <ShotBy>Выстрел {0}</ShotBy>
   <CannotHit>не попадет в цель.</CannotHit>
  
@@ -143,7 +155,7 @@
   <HarvestableIn>Урожай через {0}.</HarvestableIn>
   <FullyGrownIn>Вырастет через {0}.</FullyGrownIn>
   <ReadyToHarvest>можно собирать</ReadyToHarvest>
-  <Mature>полностью выросло</Mature>
+  <Mature>полностью вырос</Mature>
  
   <!-- Zones -->
   <Zone>Зона</Zone>
@@ -153,7 +165,7 @@
   <SellingStockpile>Космопорт</SellingStockpile>
   <Priority>Приоритет</Priority>
   
-  <!-- General use time stuff -->
+  <!-- General time stuff -->
   <DaysLower>дней</DaysLower>
   <SecondsLower>секунд</SecondsLower>
  
@@ -170,9 +182,8 @@
   <FireSizeLower>площадь пожара {0}</FireSizeLower>
   
   <!-- Map conditions (eclipse, solar flare, etc )-->
-  <MapConditionsTip>Special conditions affecting the area right now.</MapConditionsTip>
-  <SolarFlare>Solar flare</SolarFlare>
-  <Eclipse>Eclipse</Eclipse>
+  <MapConditionsTip>Особые условия, влияющие на площадь в данный момент.</MapConditionsTip>
   
   
+
 </LanguageData>

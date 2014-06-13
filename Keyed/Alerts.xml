@@ -2,8 +2,13 @@
 <LanguageData>
 
  <ClickToJumpToProblem>Нажмите, чтобы перейти к проблеме</ClickToJumpToProblem>
- 
-
+ <!--
+  <NeedSawmill>Need sawmill</NeedSawmill>
+  <NeedSawmillDesc>You need some kind of sawmill to chop logs into more versatile wood planks.\n\nBuild a HAND SAWMILL or an ELECTRIC SAWMILL.</NeedSawmillDesc>
+  
+  <EquipStartingEquipment>Take your equipment</EquipStartingEquipment>
+  <EquipStartingEquipmentDesc>You landed with some weapons. Take them from your landing site.\n\nTo equip something, select a colonist and right-click the item you want to equip.</EquipStartingEquipmentDesc>
+-->
   <MentalBreakSoon>Возможен психоз</MentalBreakSoon>
   <MentalBreakSoonDesc>У этих колонистов возможно психическое расстройство:\n\n{0}\nУлучшите психологическое состояние как можно быстрее или случится беда.</MentalBreakSoonDesc>
  
@@ -20,7 +25,7 @@
   <NeedGrowingZone>Нужны грядки</NeedGrowingZone>
   <NeedGrowingZoneDesc>У вас нет зон для выращивания пищи.\n\nРазместите зону посадок на земле через меню СОЗДАНИЕ.</NeedGrowingZoneDesc>
 
-  <NeedDefenses>Нужна оборона</NeedDefenses>
+  <NeedDefenses>Нужна защита</NeedDefenses>
   <NeedDefensesDesc>Вы здесь уже относительно долго и верояно вас заметили. В ближайшее время возможны атаки.\n\nВы должны подготовить оборону.\n\nПостройте несколько охранных турелей.</NeedDefensesDesc>
 
   <NeedDoctor>Требуется врач</NeedDoctor>
@@ -45,7 +50,7 @@
   <ExhaustionDesc>Эти колонисты устали и нуждаются в отдыхе:\n\n{0}\nДайте им немного времени отдохнуть. Им понадобится кровать, отмеченная для использования колонистами. Также, убедитесь, что они не в боевом режиме.</ExhaustionDesc>
 
   <NeedFoodHopper>Нужен хоппер</NeedFoodHopper>
-  <NeedFoodHopperDesc>Ваш дозатор пищи без хоппера.\n\nДля работы Дозатора, разметите хоппер рядом с ним и колонисты наполнят его сырой едой.\n\nПристройте хоппер рядом с дозатором пищи.</NeedFoodHopperDesc>
+  <NeedFoodHopperDesc>Ваш дозатор пищи без хоппера.\n\nДля работы дозатора, разметите хоппер рядом с ним и колонисты наполнят его сырой едой.\n\nПостройте ХОППЕР рядом с дозатором пищи.</NeedFoodHopperDesc>
   
   <BuildingNeedsPower>Нужна энергия</BuildingNeedsPower>
   <BuildingsNeedPower>Нужна энергия</BuildingsNeedPower>
@@ -53,7 +58,10 @@
   <AndMore>и более</AndMore>
   
   <NeedMealSource>Нужна готовая еда</NeedMealSource>
-  <NeedMealSourceDesc>У вас нет способа получения готовых блюд.\n\nПостройте дозатор пищи или плиту.\n\n(Не может находиться в комнате для заключенных, колонисты не смогут его использовать.)</NeedMealSourceDesc>
+  <NeedMealSourceDesc>У вас нет способа получения готовых блюд.\n\nПостройте ДОЗАТОР ПИЩИ или ПЛИТУ.\n\n(Не может находиться в комнате для заключенных, колонисты не смогут его использовать.)</NeedMealSourceDesc>
+
+  <NeedHomeRegion>Территория дома</NeedHomeRegion>
+  <NeedHomeRegionDesc>Вы должны определить домашнию территорию, где ваши колонисты будут заниматься уборкой, тушением пожаров, и ремонтом вещей и сооружений.\n\nОпределите домашнего региона, используя раздел зон меню СОЗДАНИЯ.</NeedHomeRegionDesc>
 
   <NeedBatteries>Нужны аккумуляторы</NeedBatteries>
   <NeedBatteriesDesc>У вас есть солнечные батареи, но нет аккумуляторов. Это значит, что вы будете терять энергию каждый раз после заката.\n\nПостройте один или пару для запаса на ночь.</NeedBatteriesDesc>
@@ -70,7 +78,7 @@
   <NeedGrave>Нужна могила</NeedGrave>
   <NeedGraveDesc>На земле лежит труп и его нельзя никуда отнести.\n\nПостройте могилу или свалку и задайте параметры хранения.</NeedGraveDesc>
 
-  <ColonistsIdle>Колонисты без работы: {0}</ColonistsIdle>
+  <ColonistsIdle>{0} без дела</ColonistsIdle>
   <ColonistsIdleDesc>Эти колонисты бездельничают:\n\n{0}\nВам, следует найти им работу.</ColonistsIdleDesc>
   
   <TableNeedsChairs>К столу нужны стулья</TableNeedsChairs>
