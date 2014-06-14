@@ -15,23 +15,23 @@
   <DyingLower>умирает</DyingLower>
   <PawnEffectiveness>Эффективность</PawnEffectiveness>
   <FilthOnFeet>Грязь на ногах:</FilthOnFeet>
- 
+  <NotEnoughStoredLower>Слишком мало</NotEnoughStoredLower>
 
   <!-- Job reports -->
   <ReportHaulingTo>Несет {0} на {1}.</ReportHaulingTo>
   <ReportHauling>Несет {0}.</ReportHauling>
  
   <!-- Shooting report -->
-  <WeaponMissRadius>Вне радиуса оружия</WeaponMissRadius>
-  <RangeSlashSkill>расстояние/умение</RangeSlashSkill>
-  <RangeSlashEquipment>расстояние/вооружение</RangeSlashEquipment>
-  <Darkness>Темнота</Darkness>
-  <TargetProne>аодверженная цель</TargetProne>
-  <TargetSize>Размер цели</TargetSize>
-  <Weather>Погода</Weather>
-  <ShootingCover>Укрытие</ShootingCover>
-  <CoverThingBlocksPercentOfShots>{0} прекратил {1}</CoverThingBlocksPercentOfShots>
-  <NoCoverLower>нет укрытия</NoCoverLower>
+  <WeaponMissRadius>Диапазон промаха оружия</WeaponMissRadius>
+  <RangeSlashSkill>Дальность/умение</RangeSlashSkill>
+  <RangeSlashEquipment>Дальность/оружие     </RangeSlashEquipment>
+  <Darkness>Темнота          </Darkness>
+  <TargetProne>Воспреимчевость  </TargetProne>
+  <TargetSize>Размер цели           </TargetSize>
+  <Weather>Погода                      </Weather>
+  <ShootingCover>Укрытие     </ShootingCover>
+  <CoverThingBlocksPercentOfShots>{0} блокирует     {1}</CoverThingBlocksPercentOfShots>
+  <NoCoverLower>  нет укрытия</NoCoverLower>
  
 	
 	<!-- Status levels -->
@@ -51,16 +51,16 @@
 
   
   <!-- Thoughts -->
-  <ThoughtExpiresIn>Истекает через: {0}</ThoughtExpiresIn>
+  <ThoughtExpiresIn>Истечёт через: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Начнет истекать через: {0}</ThoughtStartsExpiringIn>
-  <ThoughtFinishesExpiringIn>Закончит истекать через: {0}</ThoughtFinishesExpiringIn>
+  <ThoughtFinishesExpiringIn>Закончетсья через: {0}</ThoughtFinishesExpiringIn>
   <MentalBreakThreshold>Граница психоза</MentalBreakThreshold>
  
 
 
   <!--Effectiveness-->
   <EffectivenessFull>полная</EffectivenessFull>
-  <EffectivenessReduced>заниженная</EffectivenessReduced>
+  <EffectivenessReduced>пониженная</EffectivenessReduced>
   <EffectivenessImpaired>низкая</EffectivenessImpaired>
   <EffectivenessIncapacitated>отстутствует</EffectivenessIncapacitated>
 
@@ -71,16 +71,16 @@
  
   <!-- Inspector -->
   <Health>Здоровье</Health>
-  <PawnMainDescWithFactionGendered>{0} {1} of {2}</PawnMainDescWithFactionGendered>
+  <PawnMainDescWithFactionGendered>{0} {1} из {2}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
-  <PawnMainDescWithFactionGenderless>{0} of {1}</PawnMainDescWithFactionGenderless>
+  <PawnMainDescWithFactionGenderless>{0} из {1}</PawnMainDescWithFactionGenderless>
   <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
   <Faction>Фракция</Faction>
-  <Equipped>Снаряжение</Equipped>
+  <Equipped>Вооружен</Equipped>
   <EquippedNothing>Не вооружен</EquippedNothing>
   <Incapacitated>Выведен из строя</Incapacitated>
   <InRestraints>В плену (задержан)</InRestraints>
-  <Carrying>Carrying</Carrying>
+  <Carrying>В Руках</Carrying>
   <SanityDazedWander>Сломлен: Ошеломлен и блуждает</SanityDazedWander>
   <SanityGiveUpExit>Сломлен: Сдался и уходит</SanityGiveUpExit>
   <SanityPanicFlee>Сломлен: Спасаеться в панике</SanityPanicFlee>
@@ -120,7 +120,7 @@
   <!-- Power readout -->
   <PowerNotConnected>Не подключено к сети.</PowerNotConnected>
   <PowerConnectedRate>Мощность сети: {0} W</PowerConnectedRate>
-  <PowerConnectedStored>Накопленная энергия: {0} W</PowerConnectedStored>
+  <PowerConnectedStored>Аккумулированная энергия: {0} W</PowerConnectedStored>
   <PowerNeeded>Потребляемая мощность</PowerNeeded>
   <PowerOutput>Энерговыработка</PowerOutput>
   <PowerBatteryStored>Заряд</PowerBatteryStored>
@@ -178,8 +178,8 @@
   <!-- Fire -->
   <Fire>Огонь</Fire>
   <FireOn>Огонь на {0}</FireOn>
-  <Burning>Горение</Burning>
-  <FireSizeLower>площадь пожара {0}</FireSizeLower>
+  <Burning>Горит</Burning>
+  <FireSizeLower>степень огня {0}</FireSizeLower>
   
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Особые условия, влияющие на площадь в данный момент.</MapConditionsTip>
