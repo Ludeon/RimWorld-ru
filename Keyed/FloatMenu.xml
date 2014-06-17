@@ -12,15 +12,18 @@
   <CannotHitTarget>вне зоны видимости</CannotHitTarget>
   <CannotFight>{0} не умеет</CannotFight>
 
+  <OrderManThing>Man {0}</OrderManThing>
+  
   <MeleeAttack>Ближний бой с {0}</MeleeAttack>
   <MeleeAttackToDeath>Добить {0}</MeleeAttackToDeath>
   <NoPath>нет пути</NoPath>
 
-  <ForbiddenLower>запрещено</ForbiddenLower>
-  <SociallyImproperLower>социально не адаптирован </SociallyImproperLower>
-  <BurningLower>горит</BurningLower>
-  <NoEmptyPlaceLower>нет места для хранения</NoEmptyPlaceLower>
-  <AlreadyFilledLower>заполнен</AlreadyFilledLower>
+	<ForbiddenLower>запрещено</ForbiddenLower>
+	<SociallyImproperLower>социально не адаптирован</SociallyImproperLower>
+	<BurningLower>горит</BurningLower>
+	<NoEmptyPlaceLower>нет места для хранения</NoEmptyPlaceLower>
+	<AlreadyFilledLower>заполнен</AlreadyFilledLower>
+	<MissingMaterials>need materials</MissingMaterials>
  
  
   <CannotGoNoPath>Не может пройти сюда (нет пути)</CannotGoNoPath>
@@ -44,25 +47,36 @@
  
   <Equip>Взять {0}</Equip>
   <CannotEquip>Не могу взять {0}</CannotEquip>
- 
+  
+  <Wear>Wear {0}</Wear>
+  <CannotWear>Cannot wear {0}</CannotWear>
+  
+  <Strip>Strip {0}</Strip>
+  <CannotStrip>Cannot strip {0}</CannotStrip>
+
   <Deposit>Положить {0} в {1}</Deposit>
   <CannotDeposit>Нельзя положить {0} в {1}</CannotDeposit>
  
   <Drop>Бросить {0}</Drop>
- 
+
+  <!-- Specific thing interactions -->
+  <EnterLongsleepPod>Enter longsleep pod</EnterLongsleepPod>
+  
+  
+  
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>Не могу {0} {1}</CannotGenericWork>
- 
+
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotGenericAlreadyAm>Уже {0} {1}</CannotGenericAlreadyAm>
- 
+
   <CannotPrioritizeIsNotA>Сейчас нельзя ({0} не {1})</CannotPrioritizeIsNotA>
- 
-  <CannotPrioritizeResearch>Сейчас нельзя (исследование-это долгосрочная задача)</CannotPrioritizeResearch>
- 
+
+  <CannotPrioritizeResearch>Сейчас нельзя (исследование - долгосрочная задача)</CannotPrioritizeResearch>
+
   <CannotPrioritizeForbidden>Сейчас нельзя ({0} запрещен)</CannotPrioritizeForbidden>
- 
+
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Немедленно {0} {1}</PrioritizeGeneric>
- 
+  
 </LanguageData>

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
- 
+
   <AnimalInsanitySingle>{0} сошел(а) с ума. Будет атаковать любого кого увидит.</AnimalInsanitySingle>
   <AnimalInsanityMultiple>Некое подобие психической волны прошло по земле. Ваши колонисты вроде в порядке, но...\n\nПохоже, все предстовители вида {0} сошли с ума..</AnimalInsanityMultiple>
- 
+
   <CropBlight>Мистические силы уничтожили все ваши посевы.</CropBlight>
- 
+
   <EclipseIncident>Одна из лун этой планеты вышла на орбиту перед солнцем. Начинается затмение.</EclipseIncident>
- 
+
   <MiracleHeal>{0} пережил чудесное восстановление!</MiracleHeal>
- 
- 
+
+  
   <!-- Enemy raids -->
   <EnemyRaidWalkIn>Группа рейдеров из {0} расположилась поблизости.</EnemyRaidWalkIn>
   <EnemyRaidEdgeDrop>Группа рейдеров из {0} высадилась с орбиты неподалеку.</EnemyRaidEdgeDrop>
@@ -18,8 +18,8 @@
   <EnemyRaidStageThenAttack>У них уйдет какое-то время на подготовку перед атакой.\n\nПриготовьтесь к обороне или нанесите упреждающий удар.</EnemyRaidStageThenAttack>
   <EnemyRaidImmediateAttack>Они нападают сразу.</EnemyRaidImmediateAttack>
   <EnemyRaidBesiege>Похоже они собираются устроить осаду колонии.</EnemyRaidBesiege>
- 
- 
+
+
   <!-- Friendly raids -->
   <FriendlyRaidWalkIn>Группа дружественных бойцов из {0} расположилась поблизости.</FriendlyRaidWalkIn>
   <FriendlyRaidEdgeDrop>Группа дружественных бойцов из {0} высадилась с орбиты неподалеку.</FriendlyRaidEdgeDrop>
@@ -27,28 +27,45 @@
   <FriendlyRaidStageThenAttack>У них уйдет какое-то время на подготовку прежде, чем они помогут вам.</FriendlyRaidStageThenAttack>
   <FriendlyRaidImmediateAttack>Они немедленно выдвигаются на помощь.</FriendlyRaidImmediateAttack>
   <FriendlyRaidBesiege>Похоже, они хотят использовать позиционную тактику, чтобы помочь вам.</FriendlyRaidBesiege>
- 
+
   <RefugeePodCrash>Вы засекли спасательную капсулу и она упала поблизости.\n\nЕсли кто-то пережил последствия, то будет тяжело ранен.</RefugeePodCrash>
- 
+
   <CargoPodCrash>Вы засекли несколько грузовых контейнеров, которые упали недалеко.\n\nВозможно, вы найдете что-то полезное в обломках.</CargoPodCrash>
- 
+
   <AnElectricalConduit>Электропровод</AnElectricalConduit>
   <AWallsPowerConduit>Стена с электропроводкой</AWallsPowerConduit>
-  <ShortCircuit>Неисправность в {0} вызвала короткое замыкание.\n\nВсе {1}W запасов энергии в аккамуляторах потеряны.</ShortCircuit>
+  <ShortCircuit>Неисправность в {0} вызвала короткое замыкание.\n\nВсе {1}W энергии в аккамуляторах потеряны.</ShortCircuit>
   <ShortCircuitWasLarge>Это большое количество энергии создало взрыв больших размеров.</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>Это действительно огромный взрыв. Ничего себе!!!</ShortCircuitWasHuge>
- 
+
   <LetterSolarFlare>Произошла большая вспышка на солнце.\n\nИнтенсивное излучение выключит все электроприборы.\n\nОно должно закончится примерно через день.</LetterSolarFlare>
- 
+
   <TraderArrival>Торговый корабль пролетает рядом.\n\nИзвестен как {0} и он {1}.</TraderArrival>
- 
+
   <SingleTravelerPassing>{0} из {1} проходит мимо. HECAP {2}.</SingleTravelerPassing>
   <GroupTravelersPassing>Группа путешественников из {0} проходят мимо.</GroupTravelersPassing>
- 
+
   <SingleVisitorArrives>{0} из {1} посещает колонию.\n\nHECAP {2}.</SingleVisitorArrives>
   <GroupVisitorsArrive>Группа из {0} посещает вашу колонию.</GroupVisitorsArrive>
   <VisitorsLeaving>Гости из {0} уходят.</VisitorsLeaving>
- 
+
   <WandererJoin>{0} по имени NAME прибыл и решил присоеденился к колонии. HECAP {1}.</WandererJoin>
- 
+  
+  
+  <!-- Crashed ship part-->
+  <SpaceshipPartCrash>A large piece of an ancient ship has crashed nearby.\n\nYour colonists can feel it in the back of their mind, exhorting unspeakable acts. It must have an onboard AI persona with psychic projection ability. And this AI is not friendly.\n\nDestroy is as soon as possible.</SpaceshipPartCrash>
+  <MessageAnimalInsanityPulse>The ancient structure has emitted a psychic pulse that has driven nearby animals mad.</MessageAnimalInsanityPulse>
+  <LetterShipPartDroveColonistInsane>The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane.</LetterShipPartDroveColonistInsane>
+  <AwokeDaysAgo>Awoke {0} days ago</AwokeDaysAgo>
+  <PsychicDroneLevel>Psychic drone level: {0}</PsychicDroneLevel>
+  <PsychicDroneLevelLow>Low</PsychicDroneLevelLow>
+  <PsychicDroneLevelMedium>Medium</PsychicDroneLevelMedium>
+  <PsychicDroneLevelHigh>High</PsychicDroneLevelHigh>
+  <PsychicDroneLevelExtreme>Extreme</PsychicDroneLevelExtreme>
+  <LetterPsychicDroneLevelIncreased>The crashed ship part is now emanating a more powerful kind of psychic drone. Every humanoid in the area now feels more disturbed, terrified, and paranoid.</LetterPsychicDroneLevelIncreased>
+  
+  <!-- Agent revealed -->
+  <LetterAgentRevealed>{0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now.</LetterAgentRevealed>
+  
+  
 </LanguageData>

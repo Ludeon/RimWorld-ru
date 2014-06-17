@@ -4,39 +4,41 @@
   <!-- Various -->
   <WorkLeft>Работы осталось</WorkLeft>
   <Contents>Содержание</Contents>
+  <ContainedResources>Contained resources</ContainedResources>
   <ForPrisonerUse>Для заключенных</ForPrisonerUse>
   <ForColonistUse>Для колонистов</ForColonistUse>
   <Owner>Числится за</Owner>
   <Nobody>никем</Nobody>
   <Unowned>Ничья</Unowned>
   <GunInstalled>Установлено</GunInstalled>
-  <DeadTime>Умер уже {0}</DeadTime>
+  <DeadTime>Мёртв уже {0}</DeadTime>
   <WalkSpeed>скорость {0}</WalkSpeed>
   <DyingLower>умирает</DyingLower>
   <PawnEffectiveness>Эффективность</PawnEffectiveness>
   <FilthOnFeet>Грязь на ногах:</FilthOnFeet>
   <NotEnoughStoredLower>Слишком мало</NotEnoughStoredLower>
-
+  <NothingLower>nothing</NothingLower>
+  
   <!-- Job reports -->
   <ReportHaulingTo>Несет {0} на {1}.</ReportHaulingTo>
   <ReportHauling>Несет {0}.</ReportHauling>
- 
-  <!-- Shooting report -->
+
+	<!-- Shooting report -->
   <WeaponMissRadius>Диапазон промаха оружия</WeaponMissRadius>
-  <RangeSlashSkill>Дальность/умение</RangeSlashSkill>
-  <RangeSlashEquipment>Дальность/оружие     </RangeSlashEquipment>
-  <Darkness>Темнота          </Darkness>
-  <TargetProne>Воспреимчевость  </TargetProne>
-  <TargetSize>Размер цели           </TargetSize>
-  <Weather>Погода                      </Weather>
-  <ShootingCover>Укрытие     </ShootingCover>
-  <CoverThingBlocksPercentOfShots>{0} блокирует     {1}</CoverThingBlocksPercentOfShots>
-  <NoCoverLower>  нет укрытия</NoCoverLower>
- 
+	<ShootReportSkill>Умение</ShootReportSkill>
+	<ShootReportWeapon>Оружие</ShootReportWeapon>
+	<Darkness>Темнота</Darkness>
+	<TargetProne>Восприимчивость</TargetProne>
+	<TargetSize>Размер цели</TargetSize>
+	<Weather>Погода</Weather>
+	<ShootingCover>Укрытие</ShootingCover>
+	<CoverThingBlocksPercentOfShots>{0} блокирует     {1}</CoverThingBlocksPercentOfShots>
+	<NoCoverLower>нет укрытия</NoCoverLower>
+	
 	
 	<!-- Status levels -->
   <Loyalty>Лояльность</Loyalty>
-  <LoyaltyTip>Отображает преданность человека колонии. Если она упадет слишком низко, человек может все бросить и уйти из колонии или сойти с ума.\n\Лоляльность эквивале́нт счастья или страха, зависит от ваших предпочтений.</LoyaltyTip>
+  <LoyaltyTip>Отображает преданность человека колонии. Если она упадёт слишком низко, человек может все бросить и уйти из колонии или сойти с ума.\n\Лоляльность эквивале́нт счастья или страха, зависит от ваших предпочтений.</LoyaltyTip>
   <Happiness>Счастье</Happiness>
   <HappinessTip>Отражает изменения в физических и психологических потребностях колониста.</HappinessTip>
   <Fear>Страх</Fear>
@@ -47,7 +49,7 @@
   <RestTip>Показывает качество отдыха и количество сна.\n\nПоказатель достигает максимума после сна и падает когда персонаж покидает кровать.</RestTip>
   <Environment>Окружение</Environment>
   <EnvironmentTip>Показывает насколько приятна окружающая обстановка.\n\nПоказатель повышается, когда люди находятся в просторных комнатах с красивой отделкой и падает при плохом окружении.</EnvironmentTip>
-  <Openness>Открытость</Openness>
+  <Openness>Просторность</Openness>
 
   
   <!-- Thoughts -->
@@ -55,7 +57,7 @@
   <ThoughtStartsExpiringIn>Начнет истекать через: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Закончетсья через: {0}</ThoughtFinishesExpiringIn>
   <MentalBreakThreshold>Граница психоза</MentalBreakThreshold>
- 
+
 
 
   <!--Effectiveness-->
@@ -64,12 +66,8 @@
   <EffectivenessImpaired>низкая</EffectivenessImpaired>
   <EffectivenessIncapacitated>отстутствует</EffectivenessIncapacitated>
 
-  <!-- Time indicator-->
-  <ClockDay>День</ClockDay>
-  <ClockTime>Время</ClockTime>
-  <ClockTip>Время суток и количество дней с момента вашего прибытия.</ClockTip>
- 
-  <!-- Inspector -->
+
+  <!-- Pawn info readout -->
   <Health>Здоровье</Health>
   <PawnMainDescWithFactionGendered>{0} {1} из {2}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
@@ -88,18 +86,20 @@
 
 
   <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>Выберать другой предмет на той же площади.\n\nКлавиша: {0}\n\nВы также можете сделать это, медленно нажимая на той же площади снова.</SelectNextInSquareTip>
-
+  <SelectNextInSquareTip>Выбрать другой предмет на той же площади.\n\nКлавиша: {0}\n\nВы также можете сделать это, медленно нажимая на той же площади снова.</SelectNextInSquareTip>
+  <DefInfoTip>View information about this object.</DefInfoTip>
+  
   <!-- ITab titles -->
   <TabBills>Задания</TabBills>
   <TabGrowing>Посадки</TabGrowing>
   <TabCharacter>Персона</TabCharacter>
   <TabNeeds>Нужды</TabNeeds>
   <TabPrisoner>Узник</TabPrisoner>
+  <TabGear>Gear</TabGear>
   <TabThoughts>Мысли</TabThoughts>
   <TabStorage>Склад</TabStorage>
-  
-  <!-- ITabs -->
+
+	<!-- ITabs -->
   <AddBill>Добавить задание</AddBill>
   <RecipeRequiresSkills>Для того чтобы {0} требуется навык больше, чем есть сейчас у ваших колонистов, так что никто не будет делать это.\n\nПопробуйте начать с чего-то полегче.</RecipeRequiresSkills>
   <BillConfig>Настройки</BillConfig>
@@ -113,11 +113,19 @@
   <PrisonerMildBeating>Легкое избиение</PrisonerMildBeating>
   <PrisonerViciousBeating>Сильное избиение</PrisonerViciousBeating>
   <PrisonerExecution>Казнь</PrisonerExecution>
+	<Equipment>Equipment</Equipment>
+	<Apparel>Apparel</Apparel>
+	<Inventory>Inventory</Inventory>
+	<ThingInfo>Information</ThingInfo>
+	<DropThing>Drop</DropThing>
+	<TotalModifiers>Total modifiers</TotalModifiers>
+	<DamageAbsorption>Damage absorption</DamageAbsorption>
+	<MoveSpeed>Move speed</MoveSpeed>
 
-  <!-- like 'Blood of John' -->
+	<!-- like 'Blood of John' -->
   <OfLower></OfLower>
 
-  <!-- Power readout -->
+	<!-- Power readout -->
   <PowerNotConnected>Не подключено к сети.</PowerNotConnected>
   <PowerConnectedRate>Мощность сети: {0} W</PowerConnectedRate>
   <PowerConnectedStored>Аккумулированная энергия: {0} W</PowerConnectedStored>
@@ -127,15 +135,15 @@
   <PowerBatteryEfficiency>КПД</PowerBatteryEfficiency>
   
   
-  <!--Rotting-->
+	<!--Rotting-->
   <RotStateFresh>Свежее</RotStateFresh>
   <RotStateRotting>Загнивающее</RotStateRotting>
   <RotStateDessicated>Засохло</RotStateDessicated>
-
+	
   <!-- Shooting tooltip -->
   <ShotBy>Выстрел {0}</ShotBy>
   <CannotHit>не попадет в цель.</CannotHit>
- 
+
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>не использовать</StoragePriorityUnstored>
   <StoragePriorityLow>низкий</StoragePriorityLow>
@@ -147,7 +155,7 @@
   <!-- Meal -->
   <TimeToSpoil>Собрано {0}</TimeToSpoil>
   <Ingredients>Ингредиенты</Ingredients>
- 
+
   <!-- Plants -->
   <PercentGrowth>{0}% роста</PercentGrowth>
   <Growing></Growing>
@@ -156,34 +164,60 @@
   <FullyGrownIn>Вырастет через {0}.</FullyGrownIn>
   <ReadyToHarvest>можно собирать</ReadyToHarvest>
   <Mature>полностью вырос</Mature>
- 
+  
   <!-- Zones -->
   <Zone>Зона</Zone>
   <GrowingZone>Посадки</GrowingZone>
   <Stockpile>Склад</Stockpile>
   <DumpingStockpile>Свалка</DumpingStockpile>
-  <SellingStockpile>Космопорт</SellingStockpile>
   <Priority>Приоритет</Priority>
-  
+
   <!-- General time stuff -->
   <DaysLower>дней</DaysLower>
   <SecondsLower>секунд</SecondsLower>
- 
+  
   <!-- Mouseover indicator -->
   <Undiscovered>Неизведанно</Undiscovered>
   
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Переключение видимости зон.</ZoneVisibilityToggleButton>
-  
+  <AutoHomeRegionToggleButton>Toggle automatically adding the home region around new constructions.</AutoHomeRegionToggleButton>
+
+
   <!-- Fire -->
   <Fire>Огонь</Fire>
   <FireOn>Огонь на {0}</FireOn>
   <Burning>Горит</Burning>
   <FireSizeLower>степень огня {0}</FireSizeLower>
   
+
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Особые условия, влияющие на площадь в данный момент.</MapConditionsTip>
-  
-  
 
+  
+  
+  <!-- Building placement restricters -->
+  <MustPlaceUnroofed>Cannot be placed under a roof.</MustPlaceUnroofed>
+  <MustPlaceHeadOnShipBeam>Must place with head attached to ship structural beam.</MustPlaceHeadOnShipBeam>
+  <MustPlaceNextToHopperAccepter>Must be placed next to something that needs a hopper.</MustPlaceNextToHopperAccepter>
+  <MustPlaceOnSteamGeyser>Must be placed directly on a steam geyser.</MustPlaceOnSteamGeyser>
+  
+  <!-- Longsleep pod -->
+  <PodContains>Contains</PodContains>
+
+  <!-- Ship launch report -->
+  <ShipReportCannotLaunch>Cannot launch.</ShipReportCannotLaunch>
+  <ShipReportCanLaunch>Ready for launch.</ShipReportCanLaunch>
+  <ShipReportMissingPart>Missing critical component</ShipReportMissingPart>
+  <ShipReportNoFullPods>No full longsleep pods</ShipReportNoFullPods>
+
+  
+  
+  <!-- Game over -->
+  <GameOverEveryoneDead>Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place.</GameOverEveryoneDead>
+  <GameOverShipLaunched>You've launched the ship! These colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nYour AI will now try to guide the ship to a safe place. It might deposit you on a better planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for a better epoch.\n\nYou'll find out when you wake up.</GameOverShipLaunched>
+  <GameOverKeepPlaying>Keep playing</GameOverKeepPlaying>
+  <GameOverMainMenu>Main menu</GameOverMainMenu>
+  
+  
 </LanguageData>
