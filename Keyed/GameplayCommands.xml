@@ -18,11 +18,14 @@
   <CommandToggleDraftDesc>Переключение в боевой режим.\n\nВ этом режиме колонисты получают приказы и сражаются. Они не будут работать, есть или отдыхать.</CommandToggleDraftDesc>
   <IsIncapped>{0} выведен из строя.</IsIncapped>
 
+  
   <CommandCancelConstructionLabel>Отменить</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Отмена строительства.</CommandCancelConstructionDesc>
 
+  
   <CommandBedSetForPrisonersLabel>Назначить заключенным</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Назначить кровати в этой комнате для использования заключенными.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>Невозможно сделать кровати для заключенных под открытым небом.</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetForColonistsLabel>Назначить колонистам</CommandBedSetForColonistsLabel>
   <CommandBedSetForColonistsDesc> Назначить кровати в этой комнате для использования колонистами.</CommandBedSetForColonistsDesc>
   <TurningOnPrisonerBedWarning>Включение режима для заключенных повлияет на всю комнату (колонисты и заключенные не могут спать в одной комнате).\n\nЭти люди потеряют права на свои кровати:</TurningOnPrisonerBedWarning>
@@ -43,6 +46,16 @@
 
   <CommandDeleteZoneDesc>Удалить зону.</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>Удалить</CommandDeleteZoneLabel>
+  
+  
+  <!-- Artillery -->
+  <CommandSetForceAttackTarget>Выбрать цель обстрела</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTargetDesc>Устанавливает цель, эта турель будет атаковать непрерывно до тех пор, пока будет возможно.</CommandSetForceAttackTargetDesc>
+  <CommandStopForceAttack>Остановить обстрел</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>Прекращает обстрел и позволяет туреле стрелять по своему усмотрению.</CommandStopForceAttackDesc>
+  <CommandStopAttackFailNotForceAttacking>Сейчас невозможно произвести обстрел.</CommandStopAttackFailNotForceAttacking>
+  <MessageTargetBeyondMaximumRange>Цель слишком далеко.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>Цель слишком близко.</MessageTargetBelowMinimumRange>
   
   
   <!-- Ship computer core -->
