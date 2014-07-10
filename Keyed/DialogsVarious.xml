@@ -19,16 +19,16 @@
   
   
   <!-- Colony naming-->
-  <NameColonyMessage>Все знают, что вы не хотите застрять в этой дыре надолго. Но {0}, предлагает все же дать название колонии.\n\nТак как она должна назвываться?</NameColonyMessage>
+  <NameColonyMessage>Все знают, что вы не хотите застрять в этой дыре надолго. Но {0} предлагает все же дать название колонии.\n\nТак как она должна назвываться?</NameColonyMessage>
   <ColonyGainsName>Теперь колония известна как {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Это не подходящее имя для колонии.</ColonyNameIsInvalid>
 
   <!-- Zone naming -->
-  <ZoneGainsName>Теперь эта зона называется - {0}.</ZoneGainsName>
-  <ZoneNameIsInvalid>Пожалуйста, укажите название зоны.</ZoneNameIsInvalid>
+  <ZoneGainsName>Теперь эта зона называется {0}.</ZoneGainsName>
+  <ZoneNameIsInvalid>Пожалуйста, укажите подходящее название зоны.</ZoneNameIsInvalid>
 
   <!-- Save game incompatible warning -->
-  <SaveGameIncompatibleWarningText>Это сохранение из версии {0}, сейчас вы используете {1}.\n\n Загрузка сохранения, вероятно, вызовет ошибки и сбои в игре.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningText>Несовпадение версий: это сохранение из версии {0}, сейчас вы используете версию {1}.\n\n Загрузка сохранения, вероятно, вызовет ошибки и сбои в игре.</SaveGameIncompatibleWarningText>
   <SaveGameIncompatibleWarningTitle>Конфликт версий</SaveGameIncompatibleWarningTitle>
   
   <!-- Resolution change dialog -->
@@ -40,7 +40,7 @@
   <OverviewOf>Обзор {0}</OverviewOf>
 
   <!-- Research -->
-  <Research>Исследования</Research>
+  <Research>Исследование</Research>
   <Researched>Изучено</Researched>
   <Unresearched>Не изучено</Unresearched>
   <Finished>Завершено</Finished>
@@ -93,10 +93,10 @@
   <BurstShotFireRate>Темп огня</BurstShotFireRate>
   <Range>Дальность</Range>
   <GrowsWild>Дикиое</GrowsWild>
-  <Harvestable>Собираймое</Harvestable>
-  <LimitedLifespan>Недолговечный</LimitedLifespan>
+  <Harvestable>Собираемое</Harvestable>
+  <LimitedLifespan>Недолговечное</LimitedLifespan>
   <GrowingTime>Время созревания</GrowingTime>
-  <Days>Дней</Days>
+  <Days>дней</Days> <!-- keep lowercase! -->
   <FertilityRequirement>Качество почвы</FertilityRequirement>
   <LightRequirement>Требование света</LightRequirement>
   <Attributes>Атрибуты</Attributes>
@@ -114,7 +114,7 @@
 
   <!-- Trade -->
   <YourTradeableSilver>Серебра для торговли: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Вы можете торговать тем серебром, которое расположено недалеко от орбитального маяка, и не под крышей.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Вы можете торговать только тем серебром, которое расположено недалеко от орбитального маяка и находится не под крышей.</YourTradeableSilverTip>
 
   <!-- Comms -->
   <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
@@ -124,8 +124,8 @@
   <ResearchScreen>Экран исследований</ResearchScreen>
   
   <!--HistoryUpload-->
-  <HistoryUploadMessage>Вы хотите загрузить свои записи геймплея на сервер RimWorld для того, чтобы помочь разработчикам сбалансировать игру? Если вы согласны, ваша записи будут загружаться каждые {0} дней.</HistoryUploadMessage>
-  <HistoryUploadMessagePlayerName>Несмотря на то, что история пишеться анонимно, вы можете подписать свое имя.</HistoryUploadMessagePlayerName>
+  <HistoryUploadMessage>Вы хотите загрузить свои записи геймплея на сервер RimWorld для того, чтобы помочь разработчикам сбалансировать игру? Если вы согласны, ваши записи будут загружаться каждые {0} дней (и в некоторых редких случаях, например в конце игры). Настройки приватности могут быть изменены позже в меню настроек.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>Несмотря на то, что записи анонимны, вы можете оставить свое имя.</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>Разрешить загрузки геймплейных данных</HistoryUploadYes>
   <HistoryUploadNo>Не разрешать загрузки геймплейных данных</HistoryUploadNo>
   <HistoryUploadYesOnce>Загрузить только сейчас</HistoryUploadYesOnce>
