@@ -3,37 +3,37 @@
 
   <!-- Various -->
   <WorkLeft>Работы осталось</WorkLeft>
-  <Contents>Содержание</Contents>
-  <ContainedResources>Содержание ресурсов</ContainedResources>
-  <ForPrisonerUse>Для заключенных</ForPrisonerUse>
+  <Contents>Содержит</Contents>
+  <ContainedResources>Содержащиеся ресурсы</ContainedResources>
+  <ForPrisonerUse>Для заключённых</ForPrisonerUse>
   <ForColonistUse>Для колонистов</ForColonistUse>
-  <Owner>Числится за</Owner>
-  <Nobody>никем</Nobody>
+  <Owner>Владелец</Owner>
+  <Nobody>Никто</Nobody>
   <Unowned>Ничья</Unowned>
   <DeadTime>Мёртв уже {0}</DeadTime>
   <WalkSpeed>скорость {0}</WalkSpeed>
   <DyingLower>умирает</DyingLower>
   <PawnEffectiveness>Эффективность</PawnEffectiveness>
   <FilthOnFeet>Грязь на ногах:</FilthOnFeet>
-  <NotEnoughStoredLower>слишком мало</NotEnoughStoredLower>
+  <NotEnoughStoredLower>недостаточно хранимого</NotEnoughStoredLower>
   <NothingLower>ничего</NothingLower>
 
   <!-- Turrets -->
   <GunInstalled>Установлено</GunInstalled>
   <MinimumRange>Минимальная дальность</MinimumRange>
   <CanFireIn>Перезарядка через</CanFireIn>
-
-
+  
+  
   <!-- Job reports -->
-  <ReportHaulingTo>Несет {0} на {1}.</ReportHaulingTo>
-  <ReportHauling>Несет {0}.</ReportHauling>
+	<ReportHaulingTo>Несёт {0} на {1}.</ReportHaulingTo>
+	<ReportHauling>Несёт {0}.</ReportHauling>
 
 	<!-- Shooting report -->
-  <WeaponMissRadius>Диапазон промаха оружия</WeaponMissRadius>
+  <WeaponMissRadius>Разброс оружия</WeaponMissRadius>
 	<ShootReportSkill>Умение</ShootReportSkill>
 	<ShootReportWeapon>Оружие</ShootReportWeapon>
 	<Darkness>Темнота</Darkness>
-	<TargetProne>Восприимчивость</TargetProne>
+	<TargetProne>Восприимчивость цели</TargetProne>
 	<TargetSize>Размер цели</TargetSize>
 	<Weather>Погода</Weather>
 	<ShootingCover>Укрытие</ShootingCover>
@@ -43,19 +43,13 @@
 	
 	<!-- Status levels -->
   <Mood>Настроение</Mood>
-  <MoodTip>Настроение зависит от выполнении физических и психологических потребностей.\n\nЕсли чьё-то настроение становится слишком низким, они могут страдать от психических срывов.</MoodTip>
- 	<!-- <Loyalty>Лояльность</Loyalty>
-  <LoyaltyTip>Отображает преданность человека колонии. Если она упадёт слишком низко, человек может все бросить и уйти из колонии или сойти с ума.\n\Лоляльность эквивалент счастья или страха, зависит от ваших предпочтений.</LoyaltyTip>
-  <Happiness>Счастье</Happiness>
-  <HappinessTip>Отражает изменения в физических и психологических потребностях колониста.</HappinessTip>
-  <Fear>Страх</Fear>
-  <FearTip>Отображает насколько персонаж запуган окружением.\n\nВозрастает при угрозах, проявлениях грубости или власти.</FearTip>-->
-  <Food>Сытость</Food>
-  <FoodTip>Показывает насколько колонист доволен питанием.\n\nПоказатель сбрасывается после каждого приема пищи и падает через какое-то время. При достижении нуля персонаж получает урон от голодания.</FoodTip>
+  <MoodTip>Настроение зависит от осуществления физических и психологических потребностей.\n\nЕсли чьё-то настроение становится слишком низким, они могут страдать от нервных срывов.</MoodTip>
+  <Food>Пища</Food>
+  <FoodTip>Пища показывает, насколько колонист доволен питанием.\n\nПоказатель сбрасывается после каждого приёма пищи и падает через какое-то время. При достижении нуля персонаж получает урон от голодания.</FoodTip>
   <Rest>Отдых</Rest>
-  <RestTip>Показывает качество отдыха и количество сна.\n\nПоказатель достигает максимума после сна и падает когда персонаж покидает кровать.</RestTip>
+  <RestTip>Отдых показывает качество расслабления и количество сна, получаемое колонистом.\n\nПоказатель достигает максимума, когда персонаж спит в кровати. Вне кровати, со временем, падает.</RestTip>
   <Environment>Окружение</Environment>
-  <EnvironmentTip>Показывает насколько приятна окружающая обстановка.\n\nПоказатель повышается, когда люди находятся в просторных комнатах с красивой отделкой и падает при плохом окружении.</EnvironmentTip>
+  <EnvironmentTip>Окружение показывает ,насколько приятна персонажу окружающая обстановка.\n\nПоказатель высок, когда люди находятся в просторных комнатах с красивой отделкой. Мал, когда окружение безобразно.</EnvironmentTip>
   <Openness>Просторность</Openness>
 
   
@@ -63,7 +57,7 @@
   <ThoughtExpiresIn>Истечёт через: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Начнет истекать через: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Закончится через: {0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThreshold>Граница психоза</MentalBreakThreshold>
+  <MentalBreakThreshold>Порог нервного срыва</MentalBreakThreshold>
 
 
 
@@ -71,7 +65,7 @@
   <EffectivenessFull>полная</EffectivenessFull>
   <EffectivenessReduced>пониженная</EffectivenessReduced>
   <EffectivenessImpaired>низкая</EffectivenessImpaired>
-  <EffectivenessIncapacitated>отстутствует</EffectivenessIncapacitated>
+  <EffectivenessIncapacitated>обездвижен</EffectivenessIncapacitated>
 
 
   <!-- Pawn info readout -->
@@ -81,19 +75,19 @@
   <PawnMainDescWithFactionGenderless>{0} из {1}</PawnMainDescWithFactionGenderless>
   <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
   <Faction>Фракция</Faction>
-  <Equipped>Вооружен</Equipped>
-  <EquippedNothing>Не вооружен</EquippedNothing>
+  <Equipped>Вооружён</Equipped>
+  <EquippedNothing>Не вооружён</EquippedNothing>
   <Incapacitated>Выведен из строя</Incapacitated>
-  <InRestraints>В плену (задержан)</InRestraints>
-  <Carrying>В руках</Carrying>
-  <SanityDazedWander>Сломлен: Ошеломлен и блуждает</SanityDazedWander>
-  <SanityGiveUpExit>Сломлен: Сдался и уходит</SanityGiveUpExit>
-  <SanityPanicFlee>Сломлен: Спасается в панике</SanityPanicFlee>
-  <SanityPsychotic>Сломлен: Обезумел</SanityPsychotic>
+  <InRestraints>В плену (замедлен)</InRestraints>
+  <Carrying>Переносит</Carrying>
+  <SanityDazedWander>Сломлен: ошеломлен и блуждает</SanityDazedWander>
+  <SanityGiveUpExit>Сломлен: сдался и уходит</SanityGiveUpExit>
+  <SanityPanicFlee>Сломлен: спасается в панике</SanityPanicFlee>
+  <SanityPsychotic>Сломлен: психотическое буйство</SanityPsychotic>
 
 
   <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>Выбрать другой предмет на той же площади.\n\nКлавиша: {0}\n\nВы также можете сделать это медленно нажимая на той же площади снова.</SelectNextInSquareTip>
+  <SelectNextInSquareTip>Выбрать другой предмет на той же клетке.\n\nКлавиша: {0}\n\nВы также можете сделать это, медленно кликая по той же клетке снова.</SelectNextInSquareTip>
   <DefInfoTip>Просмотр информации о данном объекте.</DefInfoTip>
   
   <!-- ITab titles -->
@@ -102,50 +96,50 @@
   <TabCharacter>Персона</TabCharacter>
   <TabNeeds>Нужды</TabNeeds>
   <TabPrisoner>Узник</TabPrisoner>
-  <TabGear>Броня</TabGear>
+  <TabGear>Одежда</TabGear>
   <TabThoughts>Мысли</TabThoughts>
   <TabStorage>Склад</TabStorage>
 
 	<!-- ITabs -->
-  <AddBill>Добавить задание</AddBill>
-  <RecipeRequiresSkills>Для того чтобы {0} требуется навык больше, чем есть сейчас у ваших колонистов, так что никто не будет делать это.\n\nПопробуйте начать с чего-то полегче.</RecipeRequiresSkills>
-  <BillConfig>Настройки</BillConfig>
-  <SuspendedCaps>ПАУЗА</SuspendedCaps>
-  <PlantVerb>Посадить</PlantVerb>
-  <RecruitmentDifficulty>Сложность вербовки</RecruitmentDifficulty>
-  <PrisonerGetsFood>Получает питанание</PrisonerGetsFood>
-  <ShouldTryToRecruit>Попытка вербовки</ShouldTryToRecruit>
-  <PrisonerNoInteraction>Никакого взаимодействия</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>Дружеская беседа</PrisonerFriendlyChat>
-  <PrisonerMildBeating>Легкое избиение</PrisonerMildBeating>
-  <PrisonerViciousBeating>Сильное избиение</PrisonerViciousBeating>
-  <PrisonerExecution>Казнь</PrisonerExecution>
+	<AddBill>Добавить задание</AddBill>
+	<RecipeRequiresSkills>Для того чтобы {0} требуется навык больше, чем есть сейчас у ваших колонистов, так что никто не будет делать это.\n\nПопробуйте начать с чего-то полегче.</RecipeRequiresSkills>
+	<BillConfig>Настройки</BillConfig>
+	<SuspendedCaps>ПАУЗА</SuspendedCaps>
+	<PlantVerb>Посадить</PlantVerb>
+	<RecruitmentDifficulty>Сложность вербовки</RecruitmentDifficulty>
+	<PrisonerGetsFood>Получает пищу</PrisonerGetsFood>
+	<ShouldTryToRecruit>Пытаться вербовать</ShouldTryToRecruit>
+	<PrisonerNoInteraction>Никакого взаимодействия</PrisonerNoInteraction>
+	<PrisonerFriendlyChat>Дружеская беседа</PrisonerFriendlyChat>
+	<PrisonerMildBeating>Легкое избиение</PrisonerMildBeating>
+	<PrisonerViciousBeating>Сильное избиение</PrisonerViciousBeating>
+	<PrisonerExecution>Казнь</PrisonerExecution>
 	<Equipment>Снаряжение</Equipment>
 	<Apparel>Одежда</Apparel>
 	<Inventory>Инвентарь</Inventory>
-	<ThingInfo>Инфо</ThingInfo>
+	<ThingInfo>Информация</ThingInfo>
 	<DropThing>Выкинуть</DropThing>
 	<TotalModifiers>Модификаторы</TotalModifiers>
 	<DamageAbsorption>Поглощение урона</DamageAbsorption>
 	<MoveSpeed>Скорость передвижения</MoveSpeed>
 
 	<!-- like 'Blood of John' -->
-  <OfLower></OfLower>
+	<OfLower></OfLower>
 
 	<!-- Power readout -->
-  <PowerNotConnected>Не подключено к сети.</PowerNotConnected>
-  <PowerConnectedRate>Мощность сети: {0} W</PowerConnectedRate>
-  <PowerConnectedStored>Аккумулированная энергия: {0} W</PowerConnectedStored>
+	<PowerNotConnected>Не подключено к сети.</PowerNotConnected>
+	<PowerConnectedRate>Мощность сети: {0} W</PowerConnectedRate>
+	<PowerConnectedStored>Аккумулированная энергия: {0}W</PowerConnectedStored>
   <PowerNeeded>Потребляемая мощность</PowerNeeded>
   <PowerOutput>Энерговыработка</PowerOutput>
-  <PowerBatteryStored>Заряд</PowerBatteryStored>
-  <PowerBatteryEfficiency>КПД</PowerBatteryEfficiency>
+  <PowerBatteryStored>Хранит</PowerBatteryStored>
+  <PowerBatteryEfficiency>Эффективность</PowerBatteryEfficiency>
   
   
 	<!--Rotting-->
-  <RotStateFresh>Свежее</RotStateFresh>
-  <RotStateRotting>Загнивающее</RotStateRotting>
-  <RotStateDessicated>Засохло</RotStateDessicated>
+	<RotStateFresh>Свежее</RotStateFresh>
+	<RotStateRotting>Загнивающее</RotStateRotting>
+	<RotStateDessicated>Засохло</RotStateDessicated>
 	
   <!-- Shooting tooltip -->
   <ShotBy>Выстрел {0}</ShotBy>
@@ -165,12 +159,11 @@
 
   <!-- Plants -->
   <PercentGrowth>{0}% роста</PercentGrowth>
-  <Growing></Growing>
-  <NotGrowingNow>Не растет (должно быть {0}).</NotGrowingNow>
+  <Growing>Растёт</Growing>
+  <NotGrowingNow>Не растёт (должно быть {0}).</NotGrowingNow>
   <FullyGrownIn>Вырастет через {0}.</FullyGrownIn>
-  <!--<HarvestableIn>Урожай через {0}.</HarvestableIn>-->
-  <ReadyToHarvest>Можно собирать</ReadyToHarvest>
-  <Mature>Полностью вырос</Mature>
+  <ReadyToHarvest>Можно собирать.</ReadyToHarvest>
+  <Mature>Полностью вырос.</Mature>
   
   <!-- Zones -->
   <Zone>Зона</Zone>
@@ -184,18 +177,18 @@
   <SecondsLower>секунд</SecondsLower>
   
   <!-- Mouseover indicator -->
-  <Undiscovered>Неизведанно</Undiscovered>
+  <Undiscovered>Не разведано</Undiscovered>
   
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Переключение видимости зон.</ZoneVisibilityToggleButton>
-  <AutoHomeRegionToggleButton>Автоматически добавлять домашнюю зону с новыми постройками.</AutoHomeRegionToggleButton>
+  <AutoHomeRegionToggleButton>Переключение автоматического добавления домашней области вокруг новых построек.</AutoHomeRegionToggleButton>
 
 
   <!-- Fire -->
   <Fire>Огонь</Fire>
   <FireOn>Огонь на {0}</FireOn>
   <Burning>Горит</Burning>
-  <FireSizeLower>степень огня {0}</FireSizeLower>
+  <FireSizeLower>размер огня {0}</FireSizeLower>
   
 
   <!-- Map conditions (eclipse, solar flare, etc )-->
@@ -205,8 +198,8 @@
   
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>Не может быть размещено под крышей.</MustPlaceUnroofed>
-  <MustPlaceHeadOnShipBeam>Должен быть установлен целиком на корабле structural beam.</MustPlaceHeadOnShipBeam>
-  <MustPlaceNextToHopperAccepter>Должно быть установлено в пределах досягаемости хоппера.</MustPlaceNextToHopperAccepter>
+  <MustPlaceHeadOnShipBeam>Должно быть размещено заголовьем рядом с центральной балкой корабля.</MustPlaceHeadOnShipBeam>
+  <MustPlaceNextToHopperAccepter>Должно быть размещено рядом с чем-нибудь, что требует загрузочного бункера.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Должен быть размещён непосредственно на паровом гейзере.</MustPlaceOnSteamGeyser>
   
   <!-- Cryptosleep pod -->
@@ -216,7 +209,7 @@
   <ShipReportCannotLaunch>Нельзя запустить.</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Готов к запуску.</ShipReportCanLaunch>
   <ShipReportMissingPart>Нет критически важных модулей.</ShipReportMissingPart>
-  <ShipReportNoFullPods>Не хватает капсул крио-сна.</ShipReportNoFullPods>
+  <ShipReportNoFullPods>Не заполнены капсулы криосна.</ShipReportNoFullPods>
 
   
   

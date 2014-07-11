@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <CommandForbiddenDesc>Запрещено - колонисты не смогут это использовать.</CommandForbiddenDesc>
-  <CommandNotForbiddenDesc>Разрешено - колонисты смогут это использовать.</CommandNotForbiddenDesc>
+	<CommandForbiddenDesc>Запрещено - колонисты не будут взаимодействовать с этим.</CommandForbiddenDesc>
+	<CommandNotForbiddenDesc>Разрешено - колонисты могут взаимодействовать с этим.</CommandNotForbiddenDesc>
 
   <CommandTogglePowerDesc>Включение и отключение подачи энергии.</CommandTogglePowerDesc>
   <CommandTogglePowerLabel>Выключатель</CommandTogglePowerLabel>
 
   <CommandGatherSpotToggleLabel>Место сбора</CommandGatherSpotToggleLabel>
   <CommandGatherSpotToggleDescActive>Активно - колонисты будут собираться рядом.</CommandGatherSpotToggleDescActive>
-  <CommandGatherSpotToggleDescInactive>Не активно - колонисты не будут собираться рядом.</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleDescInactive>Неактивно - колонисты не будут собираться рядом.</CommandGatherSpotToggleDescInactive>
   
   
   
-  <CommandDraftLabel>К бою!</CommandDraftLabel>
-  <CommandUndraftLabel>Вернуться к работе</CommandUndraftLabel>
-  <CommandToggleDraftDesc>Переключение в боевой режим.\n\nВ этом режиме колонисты получают приказы и сражаются. Они не будут работать, есть или отдыхать.</CommandToggleDraftDesc>
+  <CommandDraftLabel>Призыв</CommandDraftLabel>
+  <CommandUndraftLabel>Распустить</CommandUndraftLabel>
+  <CommandToggleDraftDesc>Переключение в режим воинского призыва.\n\nВ этом режиме колонисты получают приказы и сражаются. Они не будут работать, есть или отдыхать.</CommandToggleDraftDesc>
   <IsIncapped>{0} выведен из строя.</IsIncapped>
 
   
@@ -23,22 +23,22 @@
   <CommandCancelConstructionDesc>Отмена строительства.</CommandCancelConstructionDesc>
 
   
-  <CommandBedSetForPrisonersLabel>Назначить заключенным</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersLabel>Назначить заключённым</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Назначить кровати в этой комнате для использования заключенными.</CommandBedSetForPrisonersDesc>
-  <CommandBedSetForPrisonersFailOutdoors>Невозможно сделать кровати для заключенных под открытым небом.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForPrisonersFailOutdoors>Невозможно сделать кровати для заключённых под открытым небом.</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetForColonistsLabel>Назначить колонистам</CommandBedSetForColonistsLabel>
-  <CommandBedSetForColonistsDesc> Назначить кровати в этой комнате для использования колонистами.</CommandBedSetForColonistsDesc>
-  <TurningOnPrisonerBedWarning>Включение режима для заключенных повлияет на всю комнату (колонисты и заключенные не могут спать в одной комнате).\n\nЭти люди потеряют права на свои кровати:</TurningOnPrisonerBedWarning>
-  <TurningOffPrisonerBedWarning>Выключение режима для заключенных повлияет на всю комнату (колонисты и заключенные не могут спать в одной комнате).\n\nЭти люди потеряют права на свои кровати:</TurningOffPrisonerBedWarning>
-  <AreYouSure>Вы уверены что хотите сделать это?</AreYouSure>
+  <CommandBedSetForColonistsDesc>Назначить кровати в этой комнате для использования колонистами.</CommandBedSetForColonistsDesc>
+  <TurningOnPrisonerBedWarning>Включение режима для заключённых повлияет на всю комнату (колонисты и заключённые не могут спать в одной комнате).\n\nЭти люди потеряют права на свои кровати:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Выключение режима для заключённых повлияет на всю комнату (колонисты и заключённые не могут спать в одной комнате).\n\nЭти люди потеряют права на свои кровати:</TurningOffPrisonerBedWarning>
+  <AreYouSure>Вы уверены, что хотите сделать это?</AreYouSure>
 
   
   
-  <CommandDetonateDesc>Начать отсчет к детонации.</CommandDetonateDesc>
+  <CommandDetonateDesc>Начать отсчёт к детонации.</CommandDetonateDesc>
   <CommandDetonateLabel>Подорвать</CommandDetonateLabel>
 
   <CommandRenameZoneDesc>Переименовать зону.</CommandRenameZoneDesc>
-  <CommandRenameZoneLabel>Сменить название</CommandRenameZoneLabel>
+  <CommandRenameZoneLabel>Переименовать</CommandRenameZoneLabel>
 
   <CommandHideZoneDesc>Скрыть/показать зону.</CommandHideZoneDesc>
   <CommandHideZoneLabel>Скрыть</CommandHideZoneLabel>
@@ -62,12 +62,12 @@
   <CommandShipLaunch>Запустить корабль</CommandShipLaunch>
   <CommandShipLaunchDesc>Запустить корабль с текущей конфигурацией.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Показать стартовый отчёт</CommandShipLaunchReport>
-  <CommandShipLaunchReportDesc>Показать отчет о готовности корабля к запуску.</CommandShipLaunchReportDesc>
+  <CommandShipLaunchReportDesc>Показать отчёт о готовности корабля к запуску.</CommandShipLaunchReportDesc>
 
 
   <!-- Pod -->
   <CommandPodEject>Извлечь спящего</CommandPodEject>
   <CommandPodEjectDesc>Разбудить спящего и вытащить его.</CommandPodEjectDesc>
-  <CommandPodEjectFailEmpty>Капсула пуста.</CommandPodEjectFailEmpty>
+  <CommandPodEjectFailEmpty>Внутри никого.</CommandPodEjectFailEmpty>
 
 </LanguageData>

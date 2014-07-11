@@ -3,85 +3,84 @@
 
 
   
-  <CallOnRadio>Связаться с {0}</CallOnRadio>
-  <CannotUseSolarFlare>Нельзя использовать (солнечное затмение)</CannotUseSolarFlare>
-  <CannotUseNoPower>Нельзя использовать (нет энергии)</CannotUseNoPower>
-  <CannotUseNoPath>Нельзя использовать (нельзя пройти)</CannotUseNoPath>
-  <CannotUseReserved>Нельзя использовать (занято)</CannotUseReserved>
-  <CannotUseFull>Нельзя использовать (заполнено)</CannotUseFull>
-
+	<CallOnRadio>Связаться с {0}</CallOnRadio>
+	<CannotUseSolarFlare>Невозможно использовать (солнечная вспышка)</CannotUseSolarFlare>
+	<CannotUseNoPower>Невозможно использовать (нет энергии)</CannotUseNoPower>
+	<CannotUseNoPath>Невозможно использовать (нельзя пройти)</CannotUseNoPath>
+  <CannotUseReserved>Невозможно использовать (занято)</CannotUseReserved>
+  <CannotUseFull>Невозможно использовать (заполнено)</CannotUseFull>
+  
   <FireAt>Стрелять в {0}</FireAt>
 
-  <OutOfRange>очень далеко</OutOfRange>
-  <CannotHitTarget>вне зоны видимости</CannotHitTarget>
-  <CannotFight>{0} не умеет</CannotFight>
+  <OutOfRange>вне зоны поражения</OutOfRange>
+  <CannotHitTarget>невозможно попасть в цель</CannotHitTarget>
+  <CannotFight>{0} не может сражаться</CannotFight>
 
   <OrderManThing>Занять {0}</OrderManThing>
   
   <MeleeAttack>Ближний бой с {0}</MeleeAttack>
-  <MeleeAttackToDeath>Добить {0}</MeleeAttackToDeath>
-  <NoPath>нет пути</NoPath>
+  <MeleeAttackToDeath>Добить {0} врукопашную</MeleeAttackToDeath>
+  <NoPath>нет прохода</NoPath>
 
 	<ForbiddenLower>запрещено</ForbiddenLower>
-	<SociallyImproperLower>социально не адаптирован</SociallyImproperLower>
+	<SociallyImproperLower>социально неадаптирован</SociallyImproperLower>
 	<BurningLower>горит</BurningLower>
-	<NoEmptyPlaceLower>нет места для хранения</NoEmptyPlaceLower>
-	<AlreadyFilledLower>заполнен</AlreadyFilledLower>
+	<NoEmptyPlaceLower>нет свободного места, настроенного для хранения этого</NoEmptyPlaceLower>
+	<AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
 	<MissingMaterials>нужны материалы</MissingMaterials>
- 
- 
-  <CannotGoNoPath>Не может пройти сюда (нет пути)</CannotGoNoPath>
+	
+	
+  <CannotGoNoPath>Невозможно пройти сюда (нет прохода)</CannotGoNoPath>
   <GoHere>Идти сюда</GoHere>
- 
+  
   <Arrest>Арестовать {0}</Arrest>
-  <CannotArrest>Не может арестовать</CannotArrest>
- 
+  <CannotArrest>Невозможно арестовать</CannotArrest>
+
   <Capture>Захватить {0}</Capture>
-  <CannotCapture>Не может захватить</CannotCapture>
- 
+  <CannotCapture>Невозможно захватить</CannotCapture>
+
   <Rescue>Спасти {0}</Rescue>
-  <CannotRescue>Не может спасти</CannotRescue>
- 
-  <NoPrisonerBed>Нет доступных кроватей для заключенных.</NoPrisonerBed>
+  <CannotRescue>Невозможно спасти</CannotRescue>
+
+  <NoPrisonerBed>Нет доступных кроватей для заключённых.</NoPrisonerBed>
   <NoNonPrisonerBed>Нет доступных кроватей для колонистов.</NoNonPrisonerBed>
   <Reserved>Занято кем-то другим.</Reserved>
   <ReservedBy>Занято {0}.</ReservedBy>
   <IsReservedBy>{0} занято {1}.</IsReservedBy>
- 
- 
-  <Equip>Взять {0}</Equip>
-  <CannotEquip>Не могу взять {0}</CannotEquip>
+
+
+  <Equip>Экипировать {0}</Equip>
+  <CannotEquip>Невозможно экипировать {0}</CannotEquip>
   
   <Wear>Надеть {0}</Wear>
-  <CannotWear>Не может надеть {0}</CannotWear>
+  <CannotWear>Невозможно надеть {0}</CannotWear>
   
   <Strip>Снять {0}</Strip>
-  <CannotStrip>Не может снять {0}</CannotStrip>
+  <CannotStrip>Невозможно снять {0}</CannotStrip>
 
   <Deposit>Положить {0} в {1}</Deposit>
-  <CannotDeposit>Нельзя положить {0} в {1}</CannotDeposit>
- 
+  <CannotDeposit>Невозможно положить {0} в {1}</CannotDeposit>
+
   <Drop>Бросить {0}</Drop>
 
   <!-- Specific thing interactions -->
-  <EnterCryptosleepPod>Введите продолжительность крипто-сна</EnterCryptosleepPod>
-  <!--<EnterLongsleepPod>Введите продолжительность сна</EnterLongsleepPod>-->
+  <EnterCryptosleepPod>Войти в капсулу криосна</EnterCryptosleepPod>
   
   
   
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
-  <CannotGenericWork>Не могу {0} {1}</CannotGenericWork>
+  <CannotGenericWork>Невозможно {0} {1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotGenericAlreadyAm>Уже {0} {1}</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeIsNotA>Сейчас нельзя ({0} не {1})</CannotPrioritizeIsNotA>
+  <CannotPrioritizeIsNotA>Невозможно приоритизировать ({0} не {1})</CannotPrioritizeIsNotA>
 
-  <CannotPrioritizeResearch>Сейчас нельзя (исследование - долгосрочная задача)</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>Невозможно приоритизировать (исследование - долгосрочная задача)</CannotPrioritizeResearch>
 
-  <CannotPrioritizeForbidden>Сейчас нельзя ({0} запрещен)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>Невозможно приоритизировать ({0} запрещен)</CannotPrioritizeForbidden>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
-  <PrioritizeGeneric>Немедленно {0} {1}</PrioritizeGeneric>
+  <PrioritizeGeneric>Приоритизировать {0} {1}</PrioritizeGeneric>
   
 </LanguageData>
