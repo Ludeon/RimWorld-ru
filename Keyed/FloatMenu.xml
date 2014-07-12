@@ -3,17 +3,17 @@
 
 
   
-	<CallOnRadio>Связаться с {0}</CallOnRadio>
-	<CannotUseSolarFlare>Невозможно использовать (солнечная вспышка)</CannotUseSolarFlare>
-	<CannotUseNoPower>Невозможно использовать (нет энергии)</CannotUseNoPower>
-	<CannotUseNoPath>Невозможно использовать (нельзя пройти)</CannotUseNoPath>
+  <CallOnRadio>Связаться с {0}</CallOnRadio>
+  <CannotUseSolarFlare>Невозможно использовать (солнечная вспышка)</CannotUseSolarFlare>
+  <CannotUseNoPower>Невозможно использовать (нет энергии)</CannotUseNoPower>
+  <CannotUseNoPath>Невозможно использовать (нельзя пройти)</CannotUseNoPath>
   <CannotUseReserved>Невозможно использовать (занято)</CannotUseReserved>
   <CannotUseFull>Невозможно использовать (заполнено)</CannotUseFull>
-  
+
   <FireAt>Стрелять в {0}</FireAt>
 
-  <OutOfRange>вне зоны поражения</OutOfRange>
-  <CannotHitTarget>невозможно попасть в цель</CannotHitTarget>
+  <OutOfRange>очень далеко</OutOfRange>
+  <CannotHitTarget>нет прямой видимости</CannotHitTarget>
   <CannotFight>{0} не может сражаться</CannotFight>
 
   <OrderManThing>Занять {0}</OrderManThing>
@@ -23,16 +23,16 @@
   <NoPath>нет прохода</NoPath>
 
 	<ForbiddenLower>запрещено</ForbiddenLower>
-	<SociallyImproperLower>социально неадаптирован</SociallyImproperLower>
+	<SociallyImproperLower>социально не адаптирован</SociallyImproperLower>
 	<BurningLower>горит</BurningLower>
 	<NoEmptyPlaceLower>нет свободного места, настроенного для хранения этого</NoEmptyPlaceLower>
 	<AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
 	<MissingMaterials>нужны материалы</MissingMaterials>
-	
-	
+ 
+ 
   <CannotGoNoPath>Невозможно пройти сюда (нет прохода)</CannotGoNoPath>
   <GoHere>Идти сюда</GoHere>
-  
+ 
   <Arrest>Арестовать {0}</Arrest>
   <CannotArrest>Невозможно арестовать</CannotArrest>
 
@@ -64,7 +64,8 @@
   <Drop>Бросить {0}</Drop>
 
   <!-- Specific thing interactions -->
-  <EnterCryptosleepPod>Войти в капсулу криосна</EnterCryptosleepPod>
+  <EnterCryptosleepPod>Войти в капсулу крипто-сна</EnterCryptosleepPod>
+  <!--<EnterLongsleepPod>Введите продолжительность сна</EnterLongsleepPod>-->
   
   
   
@@ -74,13 +75,13 @@
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotGenericAlreadyAm>Уже {0} {1}</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeIsNotA>Невозможно приоритизировать ({0} не {1})</CannotPrioritizeIsNotA>
+  <CannotPrioritizeIsNotA>Сейчас нельзя ({0} не {1})</CannotPrioritizeIsNotA>
 
-  <CannotPrioritizeResearch>Невозможно приоритизировать (исследование - долгосрочная задача)</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>Сейчас нельзя (исследование - долгосрочная задача)</CannotPrioritizeResearch>
 
-  <CannotPrioritizeForbidden>Невозможно приоритизировать ({0} запрещен)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>Сейчас нельзя ({0} запрещен)</CannotPrioritizeForbidden>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
-  <PrioritizeGeneric>Приоритизировать {0} {1}</PrioritizeGeneric>
+  <PrioritizeGeneric>Немедленно {0} {1}</PrioritizeGeneric>
   
 </LanguageData>
