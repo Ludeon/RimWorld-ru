@@ -3,12 +3,12 @@
 
   <!-- Various -->
   <WorkLeft>Работы осталось</WorkLeft>
-  <Contents>Содержание</Contents>
-  <ContainedResources>Ресурсы</ContainedResources>
+  <Contents>Содержит</Contents>
+  <ContainedResources>Содержащиеся ресурсы</ContainedResources>
   <ForPrisonerUse>Для заключённых</ForPrisonerUse>
   <ForColonistUse>Для колонистов</ForColonistUse>
-  <Owner>Числится за</Owner>
-  <Nobody>никем</Nobody>
+  <Owner>Владелец</Owner>
+  <Nobody>никто</Nobody>
   <Unowned>Ничья</Unowned>
   <DeadTime>Мёртв уже {0}</DeadTime>
   <WalkSpeed>скорость {0}</WalkSpeed>
@@ -34,10 +34,10 @@
 	<ShootReportWeapon>Оружие</ShootReportWeapon>
 	<Darkness>Темнота</Darkness>
 	<TargetProne>Восприимчивость</TargetProne>
-	<TargetSize>Размер цели     </TargetSize>
-	<Weather>Погода     </Weather>
-	<ShootingCover>Укрытие     </ShootingCover>
-	<CoverThingBlocksPercentOfShots>{0} блокирует     {1}</CoverThingBlocksPercentOfShots>
+	<TargetSize>Размер цели</TargetSize>
+	<Weather>Погода</Weather>
+	<ShootingCover>Укрытие</ShootingCover>
+	<CoverThingBlocksPercentOfShots>{0} блокирует {1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>нет укрытия</NoCoverLower>
 	
 	
@@ -51,7 +51,7 @@
   <Fear>Страх</Fear>
   <FearTip>Отображает насколько персонаж запуган окружением.\n\nВозрастает при угрозах, проявлениях грубости или власти.</FearTip>-->
   <Food>Сытость</Food>
-  <FoodTip>Показывает насколько колонист доволен питанием.\n\nПоказатель сбрасывается после каждого приема пищи и падает через какое-то время. При достижении нуля персонаж получает урон от голодания.</FoodTip>
+  <FoodTip>Показывает насколько колонист доволен питанием.\n\nПоказатель обновляется после каждого приема пищи и уменьшается со временем. При достижении нуля персонаж получает урон от голодания.</FoodTip>
   <Rest>Отдых</Rest>
   <RestTip>Отдых показывает качество и количество сна, получаемое колонистом.\n\nПоказатель достигает максимума, когда персонаж спит в кровати. Вне кровати, со временем, падает.</RestTip>
   <Environment>Окружение</Environment>
@@ -149,7 +149,7 @@
 	
   <!-- Shooting tooltip -->
   <ShotBy>Выстрел {0}</ShotBy>
-  <CannotHit>Не может попасть в цель.</CannotHit>
+  <CannotHit> не может попасть в цель.</CannotHit><!-- необходим лидирующий пробел для читаемости -->
 
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>Не использовать</StoragePriorityUnstored>
@@ -169,8 +169,8 @@
   <NotGrowingNow>Не растёт (должно быть {0}).</NotGrowingNow>
   <FullyGrownIn>Вырастет через {0}.</FullyGrownIn>
   <!--<HarvestableIn>Урожай через {0}.</HarvestableIn>-->
-  <ReadyToHarvest>Можно собирать</ReadyToHarvest>
-  <Mature>Полностью вырос</Mature>
+  <ReadyToHarvest>Можно собирать.</ReadyToHarvest>
+  <Mature>Полностью вырос.</Mature>
   
   <!-- Zones -->
   <Zone>Зона</Zone>
@@ -206,7 +206,7 @@
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>Не может быть размещено под крышей.</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>Должно быть размещено заголовьем рядом с центральной балкой корабля.</MustPlaceHeadOnShipBeam>
-  <MustPlaceNextToHopperAccepter>Должно быть размещено рядом с чем-нибудь, что требует загрузочнный хоппер.</MustPlaceNextToHopperAccepter>
+  <MustPlaceNextToHopperAccepter>Должно быть размещено рядом с чем-нибудь, что требует загрузочного бункера.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Должен быть размещён непосредственно на паровом гейзере.</MustPlaceOnSteamGeyser>
   
   <!-- Cryptosleep pod -->
@@ -216,7 +216,7 @@
   <ShipReportCannotLaunch>Нельзя запустить.</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Готов к запуску.</ShipReportCanLaunch>
   <ShipReportMissingPart>Нет критически важных модулей.</ShipReportMissingPart>
-  <ShipReportNoFullPods>Не хватает капсул крипто-сна.</ShipReportNoFullPods>
+  <ShipReportNoFullPods>Нет заполненных капсул крипто-сна.</ShipReportNoFullPods>
 
   
   
