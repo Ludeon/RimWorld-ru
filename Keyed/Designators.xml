@@ -2,24 +2,24 @@
 <LanguageData>
  
   <DesignatorCancel>Отменить</DesignatorCancel>
-  <DesignatorCancelDesc>Отмена строительства, добычи, переноса, уборки урожая и другой деятельности.</DesignatorCancelDesc>
+  <DesignatorCancelDesc>Отменить указанное строительство, добычу, перенос, сбор урожая и другие указания.</DesignatorCancelDesc>
  
-  <DesignatorCutPlants>Убрать растительность</DesignatorCutPlants>
-  <DesignatorCutPlantsDesc>Используется для обозначения растений, которые надо срезать. При этом растения будут полностью удалены, а любая еда собрана.</DesignatorCutPlantsDesc>
+  <DesignatorCutPlants>Срезать</DesignatorCutPlants>
+  <DesignatorCutPlantsDesc>Отметить растения для срезания и уничтожения. Растения будут полностью удалены, а любая еда собрана.</DesignatorCutPlantsDesc>
  
   <DesignatorDeconstruct>Разобрать</DesignatorDeconstruct>
-  <DesignatorDeconstructDesc>Разобрать постройку и вернуть часть ресурсов.</DesignatorDeconstructDesc>
+  <DesignatorDeconstructDesc>Разобрать постройки и вернуть часть ресурсов.</DesignatorDeconstructDesc>
  
-  <DesignatorHarvestFood>Собрать пищу</DesignatorHarvestFood>
+  <DesignatorHarvestFood>Собрать</DesignatorHarvestFood>
   <DesignatorHarvestFoodDesc>Отметить растения для сбора пищи. Будет собрано максимально возможное количество, при этом растение само по себе останется.</DesignatorHarvestFoodDesc>
  
   <DesignatorHarvestWood>Срубить</DesignatorHarvestWood>
-  <DesignatorHarvestWoodDesc>Отметить деревья для рубки что бы получения брёвен.</DesignatorHarvestWoodDesc>
+  <DesignatorHarvestWoodDesc>Отметить деревья, чтобы срубить их для получения брёвен.</DesignatorHarvestWoodDesc>
 
   <DesignatorHaulThings>Убрать</DesignatorHaulThings>
   <DesignatorHaulThingsDesc>Отметить куски породы и другие объекты для переноса на свалку. Не требуется для предметов вроде еды или трупов, которые всегда переносимы.</DesignatorHaulThingsDesc>
   <NothingToHaulHere>Здесь нечего убирать.</NothingToHaulHere>
-  <MustHaulHaulables>Возможно обозначать переносимыми только неавтоматические вещи (например, обломков скал).</MustHaulHaulables>
+  <MustHaulHaulables>Возможно обозначать переносимыми только неавтоматические вещи (например, куски породы).</MustHaulHaulables>
  
   <DesignatorHunt>Охотиться</DesignatorHunt>
   <DesignatorHuntDesc>Отметить животных для добычи вашими охотниками.</DesignatorHuntDesc>
@@ -33,10 +33,10 @@
   <DesignatorPlanRemove>Удалить планировку</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Удалить обозначения планировки.</DesignatorPlanRemoveDesc>
  
-  <DesignatorHomeRegionAdd>Добавить домашнюю зону</DesignatorHomeRegionAdd>
+  <DesignatorHomeRegionAdd>Добавить домашнюю область</DesignatorHomeRegionAdd>
   <DesignatorHomeRegionAddDesc>Колонисты будут заниматься уборкой, тушением пожаров и ремонтом объектов только в домашней области.</DesignatorHomeRegionAddDesc>
  
-  <DesignatorHomeRegionRemove>Удалить домашнюю зону</DesignatorHomeRegionRemove>
+  <DesignatorHomeRegionRemove>Удалить домашнюю область</DesignatorHomeRegionRemove>
   <DesignatorHomeRegionRemoveDesc>Удаление домашней зоны. Колонисты больше не будут заниматься здесь уборкой, тушением пожаров и ремонтом объектов.</DesignatorHomeRegionRemoveDesc>
  
   <DesignatorRegionNoRoofAdd>Создать область без крыши</DesignatorRegionNoRoofAdd>
@@ -51,12 +51,13 @@
  
   <DesignatorZoneCreateStorageDumpingDesc>Создание зоны для хранения мусора.\nТакже позволяет расширить уже существующую свалку.</DesignatorZoneCreateStorageDumpingDesc>
  
- 
   <DesignatorZoneDelete>Удалить зоны</DesignatorZoneDelete>
-  <DesignatorZoneDeleteDesc>Удаление зон, таких как склад или свалка.</DesignatorZoneDeleteDesc>
- 
- 
- 
+  <DesignatorZoneDeleteDesc>Удаление зон, таких как посадки, склад или свалка.</DesignatorZoneDeleteDesc>
+  
+  <DesignatorClaim>Требование</DesignatorClaim>
+  <DesignatorClaimDesc>Отметить вещи, которые будут востребованы вашей фракции.</DesignatorClaimDesc>
+  
+  
   <!-- placement of blueprints -->
   <TooCloseToMapEdge>Слишком близко к краю карты.</TooCloseToMapEdge>
   <OutOfBounds>За пределами.</OutOfBounds>
@@ -64,7 +65,7 @@
   <InteractionSpotBlocked>Точка взаимодействия заблокирована.</InteractionSpotBlocked>
   <InteractionSpotWillBeBlocked>Место взаимодействия будет заблокировано.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} будет блокировать квадрат взаимодействия {1}.</WouldBlockInteractionSpot>
-  <TerrainIsAlready>Тут уже {0}.</TerrainIsAlready>
+  <TerrainIsAlready>Местность здесь уже {0}.</TerrainIsAlready>
   <IdenticalThingExists>Идентичная вещь уже размещена здесь.</IdenticalThingExists>
   <IdenticalBlueprintExists>Идентичный проект уже существует здесь.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Местность здесь не поддерживает это.</TerrainCannotSupport>
@@ -73,10 +74,10 @@
   <!-- placement of zones -->
   <ExpandOrCreateZone>Расширить {0} или\nСоздать {1}</ExpandOrCreateZone>
   <CreateNewZone>Создать {0}</CreateNewZone>
-  
-  
+ 
+ 
   <!-- desc helpers -->
   <TransmitsPower>Передаёт энергию</TransmitsPower>
-
-
+ 
+ 
 </LanguageData>

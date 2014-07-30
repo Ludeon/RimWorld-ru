@@ -9,11 +9,11 @@
   <CannotUseNoPath>Невозможно использовать (нельзя пройти)</CannotUseNoPath>
   <CannotUseReserved>Невозможно использовать (занято)</CannotUseReserved>
   <CannotUseFull>Невозможно использовать (заполнено)</CannotUseFull>
-
+  
   <FireAt>Стрелять в {0}</FireAt>
 
-  <OutOfRange>очень далеко</OutOfRange>
-  <CannotHitTarget>нет прямой видимости</CannotHitTarget>
+  <OutOfRange>вне зоны поражения</OutOfRange>
+  <CannotHitTarget>невозможно попасть в цель</CannotHitTarget>
   <CannotFight>{0} не может сражаться</CannotFight>
 
   <OrderManThing>Занять {0}</OrderManThing>
@@ -23,16 +23,17 @@
   <NoPath>нет прохода</NoPath>
 
 	<ForbiddenLower>запрещено</ForbiddenLower>
-	<SociallyImproperLower>социально не адаптирован</SociallyImproperLower>
+	<SociallyImproperLower>социально неадаптирован</SociallyImproperLower>
+	<PrisonerRoomLower>тюремное помещение</PrisonerRoomLower>
 	<BurningLower>горит</BurningLower>
 	<NoEmptyPlaceLower>нет свободного места, настроенного для хранения этого</NoEmptyPlaceLower>
 	<AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
 	<MissingMaterials>нужны материалы</MissingMaterials>
- 
- 
+	
+	
   <CannotGoNoPath>Невозможно пройти сюда (нет прохода)</CannotGoNoPath>
   <GoHere>Идти сюда</GoHere>
- 
+  
   <Arrest>Арестовать {0}</Arrest>
   <CannotArrest>Невозможно арестовать</CannotArrest>
 
@@ -62,10 +63,13 @@
   <CannotDeposit>Невозможно положить {0} в {1}</CannotDeposit>
 
   <Drop>Бросить {0}</Drop>
+  
+  <UseMedicalBed>Отдых до полного восстановления</UseMedicalBed>
+  <NotInjured>Не ранен</NotInjured>
+  <SomeoneElseSleeping>Оккупированный</SomeoneElseSleeping>
 
   <!-- Specific thing interactions -->
-  <EnterCryptosleepPod>Войти в капсулу крипто-сна</EnterCryptosleepPod>
-  <!--<EnterLongsleepPod>Введите продолжительность сна</EnterLongsleepPod>-->
+  <EnterCryptosleepPod>Войти в капсулу криптосна</EnterCryptosleepPod>
   
   
   

@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-
   <Confirm>Подтвердить</Confirm>
   <GoBack>Вернуться</GoBack>
-  <OK>ОК</OK>
+  <OK>OK</OK>
   
   <!-- Save/load -->
   <SaveGameButton>Сохранить</SaveGameButton>
@@ -17,8 +15,7 @@
   <NeedAName>Пожалуйста, введите название.</NeedAName>
   <LoadingLongEvent>Загрузка...</LoadingLongEvent>
   
-  
-  <!-- Colony naming-->
+    <!-- Colony naming-->
   <NameColonyMessage>Все знают, что вы не хотите застрять в этой дыре надолго. Но {0} всё же предлагает дать название колонии.\n\nТак как она должна называться?</NameColonyMessage>
   <ColonyGainsName>Теперь колония известна как {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Это имя для колонии недопустимо.</ColonyNameIsInvalid>
@@ -26,10 +23,13 @@
   <!-- Zone naming -->
   <ZoneGainsName>Теперь эта зона называется {0}.</ZoneGainsName>
   <ZoneNameIsInvalid>Пожалуйста введите допустимое название зоны.</ZoneNameIsInvalid>
+  
+  <!-- Pawn naming -->
+  <PawnGainsName>Прозвище у колониста теперь {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
   <SaveGameIncompatibleWarningText>Несовпадение версий: карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\n Загрузка сохранения, вероятно, вызовет ошибки и сбои.</SaveGameIncompatibleWarningText>
-  <SaveGameIncompatibleWarningTitle>Конфликт версий</SaveGameIncompatibleWarningTitle>
+  <SaveGameIncompatibleWarningTitle>Несовместимость сохранения</SaveGameIncompatibleWarningTitle>
   
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Вы изменили разрешение экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
@@ -45,19 +45,16 @@
   <Unresearched>Не изучено</Unresearched>
   <Finished>Завершено</Finished>
   <InProgress>В процессе</InProgress>
-  <ResearchMenuWithoutBench>Пока вы не построите ИССЛЕДОВАТЕЛЬСКИЙ СТОЛ, ваши колонисты не смогут приступить к исследованиям.\n\nТем не менее, вы все равно можете посмотреть и выбрать исследовательский проект прямо сейчас.</ResearchMenuWithoutBench>
-  
-  
+  <ResearchMenuWithoutBench>Пока вы не построите исследовательский стол, ваши колонисты не смогут приступить к исследованиям.\n\nТем не менее, вы всё равно можете посмотреть и выбрать исследовательский проект прямо сейчас.</ResearchMenuWithoutBench>
+    
   <!-- Advanced game start options -->
-  <MapSizePerformanceWarning>ВНИМАНИЕ: Производительность может снизиться при больших размерах карты.\n\nЕсли у вас не машина-зверь выберите карту поменьши\n\nОгромный размер не тестировался и почти наверняка будут проблемы с производительностью.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>ВНИМАНИЕ: производительность может снизиться при больших размерах карты, если ваш компьютер недостаточно мощный.\n\nЕсли у вас слабая машина, выберите "Маленькая"\n\nОгромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
   <MapSize>Размер карты</MapSize>
   <MapSizeDesc>{0}x{0} ({1} квадратов)</MapSizeDesc>
   <MapSizeSmall>Маленькая</MapSizeSmall>
   <MapSizeMedium>Средняя</MapSizeMedium>
   <MapSizeLarge>Большая</MapSizeLarge>
   <MapSizeExtreme>Огромная</MapSizeExtreme>
-
-
 
   <!-- Bill config -->
   <Suspended>Продолжить</Suspended>
@@ -75,7 +72,9 @@
   <DoUntilYouHaveX>Повторять до X</DoUntilYouHaveX>
   <DoForever>Бесконечно</DoForever>
   <BillRepeatTargetCountShort>До {0}</BillRepeatTargetCountShort>
-  
+  <BillStoreMode_DropOnFloor>Положить на пол</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>Принести на лучший склад</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Принести на ближайший склад</BillStoreMode_NearestStockpileAnyPriority>
   
   <!-- Def Card -->
   <Type>Тип</Type>
@@ -98,7 +97,7 @@
   <GrowingTime>Время созревания</GrowingTime>
   <Days>дней</Days>
   <FertilityRequirement>Требования к почве</FertilityRequirement>
-  <LightRequirement>Требование света</LightRequirement>
+  <LightRequirement>Требования к свету</LightRequirement>
   <Attributes>Атрибуты</Attributes>
   <LifeSpan>Рост</LifeSpan>
   <Nutrition>Питательность</Nutrition>
@@ -106,21 +105,21 @@
   <WalkSpeedProperty>Скорость бега</WalkSpeedProperty>
   <MeleeDamage>Урон врукопашную</MeleeDamage>
   <MeatAmount>Мясо</MeatAmount>
-  <MinFoodQuality>Минимальный тип еды</MinFoodQuality>
+  <MinFoodQuality>Мин. тип еды</MinFoodQuality>
   <Diet>Образ жизни</Diet>
-  <!--<Properties>Свойства</Properties>-->
   <RecruitDifficulty>Сложность вербовки</RecruitDifficulty>
   <BasePrice>Базовая цена</BasePrice>
+  <Covers>Покров</Covers>
   
   <!-- Trade -->
   <YourTradeableSilver>Серебра для торговли: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Вы можете торговать только тем серебром, которое расположено недалеко от орбитального маяка и находится не под крышей.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Вы можете торговать только тем серебром, которое расположено недалеко от маяка орбитальной торговли и находится не под крышей.</YourTradeableSilverTip>
 
   <!-- Comms -->
   <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
 
   <!--Other-->
-  <ResearchFinished>Исследование: {0} - завершено</ResearchFinished>
+  <ResearchFinished>Исследование завершено: {0}</ResearchFinished>
   <ResearchScreen>Экран исследований</ResearchScreen>
   
   <!--HistoryUpload-->

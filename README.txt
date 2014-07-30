@@ -1,4 +1,4 @@
-ru-RU
+RimWorld-RU
 =====
 
 Russian Localization for RimWorld
