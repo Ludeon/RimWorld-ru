@@ -18,9 +18,9 @@
   <FilthOnFeet>Грязь на ногах:</FilthOnFeet>
   <NotEnoughStoredLower>недостаточно</NotEnoughStoredLower>
   <NothingLower>ничего</NothingLower>
-  <Adapted>адаптированный</Adapted>
+  <Adapted>Пригодный</Adapted>
   <Headshot>В голову</Headshot>
-  <FreshMissingBodyPart>сырое</FreshMissingBodyPart>
+  <FreshMissingBodyPart>недавно</FreshMissingBodyPart>
 
   <!-- Turrets -->
   <GunInstalled>Установлено</GunInstalled>
@@ -93,16 +93,16 @@
   <None>Нет</None>
   <VeryPoor>Очень плохо</VeryPoor>
   <Poor>Плохо</Poor>
-  <Weakened>Ослабленно</Weakened>
+  <Weakened>Ослаблено</Weakened>
   <GoodCondition>Хорошо</GoodCondition>
-  <SeriouslyImpaired>Серьезные повреждения</SeriouslyImpaired>
-  <Impaired>Повреждения</Impaired>
-  <SlightlyImpaired>Лёгкие повреждения</SlightlyImpaired>
+  <SeriouslyImpaired>Серьёзное ранение</SeriouslyImpaired>
+  <Impaired>Ранение</Impaired>
+  <SlightlyImpaired>Лёгкое ранение</SlightlyImpaired>
   <NoPain>Нет</NoPain>
   <LittlePain>Лёгкая</LittlePain>
   <MediumPain>Средняя</MediumPain>
   <SeverePain>Сильная</SeverePain>
-  <ExtremePain>Критическая</ExtremePain>
+  <ExtremePain>Ужасная</ExtremePain>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Выбрать другой предмет на той же клетке.\n\nКлавиша: {0}\n\nВы также можете сделать это, медленно нажимая по той же клетке снова.</SelectNextInSquareTip>
@@ -141,20 +141,20 @@
 	<DamageAbsorption>Поглощение урона</DamageAbsorption>
 	<MoveSpeed>Скорость передвижения</MoveSpeed>
 	<Efficiency>КПД</Efficiency>
-	<MissingBodyPart>Удалено</MissingBodyPart>
-	<DestroyedBodyPart>Уничтожено</DestroyedBodyPart>
-	<ShatteredBodyPart>Расколото</ShatteredBodyPart>
+	<MissingBodyPart>Отсутствует</MissingBodyPart>
+	<DestroyedBodyPart>Уничножено</DestroyedBodyPart>
+	<ShatteredBodyPart>Разорван</ShatteredBodyPart>
 	<Healthy>Здоров</Healthy>
 	<InPain>В боли</InPain>
 	<PainLevel>Боль</PainLevel>
 	<Dead>Мёртв</Dead>
-	<Unconscious>Бессознание</Unconscious>
-	<PainShock>В шоке</PainShock>
-	<NoInjuries>(нет повреждений)</NoInjuries>
-	<WholeBody>Все тело</WholeBody>
+	<Unconscious>Без сознания</Unconscious>
+	<PainShock>В состоянии шока</PainShock>
+	<NoInjuries>(нет ранений)</NoInjuries>
+	<WholeBody>Всё тело</WholeBody>
 	<RenameColonist>Переименовать</RenameColonist>
 	<DataProcessing>Обработка данных</DataProcessing>
-	<Communication>Коммуникация</Communication>
+	<Communication>Связь</Communication>
 
 	<!-- like 'Blood of John' -->
   <OfLower></OfLower>
@@ -176,7 +176,7 @@
 	
   <!-- Shooting tooltip -->
   <ShotBy>Выстрел {0}</ShotBy>
-  <CannotHit> не может попасть в цель.</CannotHit>
+  <CannotHit> не может попасть в цель.</CannotHit><!-- необходим лидирующий пробел для читаемости -->
 
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>Не использовать</StoragePriorityUnstored>
@@ -249,7 +249,7 @@
   
   <!-- Game over -->
   <GameOverEveryoneDead>Все либо мертвы, либо ушли. Эта история закончилась.\n\nВозможно, кто-то сможет найти этим руинам применение.</GameOverEveryoneDead>
-  <GameOverShipLaunched>Вы запустили корабль! Эти колонисты спаслись:\n\n{0}\nЭти колонисты остались позади:\n\n{1}\nВаш ИИ теперь будет пытаться направить корабль в безопасное место. Он может перевезти вас на лучшую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лед на астероиде на несколько тысяч лет, ожидая лучшей эпохи.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
+  <GameOverShipLaunched>Вы запустили корабль! Эти колонисты спаслись:\n\n{0}\nЭти колонисты остались позади:\n\n{1}\nВаш ИИ теперь будет пытаться направить корабль в безопасное место. Он может перевезти вас на лучшую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая лучшего исторического периода.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
   <GameOverKeepPlaying>Продолжить играть</GameOverKeepPlaying>
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
   
