@@ -2,6 +2,7 @@
 <LanguageData>
 
   <!--=========== Main menu ==========-->
+  <CreateWorld>Создать мир</CreateWorld>
   <NewColony>Новая колония</NewColony>
   <BackToGame>Назад в игру</BackToGame>
   <Save>Сохранить</Save>
@@ -9,7 +10,7 @@
   <Options>Настройки</Options>
   <Mods>Моды</Mods>
   <Credits>Создатели</Credits>
-  <QuitToMainMenu>Выход в главное меню</QuitToMainMenu>
+  <QuitToMainMenu>Выйти в главное меню</QuitToMainMenu>
   <QuitToOS>Выйти в систему</QuitToOS>
   <FictionPrimer>О сюжете</FictionPrimer>
   <LudeonBlog>Блог Ludeon</LudeonBlog>
@@ -19,22 +20,77 @@
   <TynansDesignBook>Книга Тайнена</TynansDesignBook>
   <HelpTranslate>Помощь в переводе RimWorld</HelpTranslate>
 
+  <!--=========== Create/review world ================-->
+  <ReviewWorld>Просмотр мира</ReviewWorld>
+  <WorldGenerate>Генерировать</WorldGenerate>
+  <WorldSaveAndFinish>Сохранить и закрыть</WorldSaveAndFinish>
+  <Reset>Сбросить</Reset>
+  <WorldSize>Размер</WorldSize>
+  <WorldSeed>Базовое значение</WorldSeed>
+  <RandomizeSeed>Случайное базовое значение</RandomizeSeed>
+
+
+  <!--=========== Select world ===================-->
+  <SelectWorld>Выбор мира</SelectWorld>
+  <WorldChooseButton>Выбрать</WorldChooseButton>
+  <NoWorldsFilesFound>Файлов мира не найдено. Сначала создайте мир.</NoWorldsFilesFound>
+
   <!--=========== Version info ==========-->
   <BuildNowAvailable>Доступна новая версия {0}. Зайдите на ludeon.com для получения информации.</BuildNowAvailable>
   <BuildUpToDate>У вас последняя версия.</BuildUpToDate>
   <ErrorGettingVersionInfo>Ошибка получения данных о версии: {0}</ErrorGettingVersionInfo>
   <LoadingVersionInfo>Загрузка данных о версии...</LoadingVersionInfo>
 
+  <!--=========== World generator =========-->
+  <GenerateWorld>Генерировать мир</GenerateWorld>
+
   <!--=========== Mods screen ==========-->
   <GetMods>Скачать моды</GetMods>
   <OpenModsDataFolder>Открыть папку модов</OpenModsDataFolder>
   <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все основные возможности.\n\nПомните, другие модификации могут переопределять значения ядра с помощью таких же значений.</ConfirmDisableCoreMod>
   <Author>Автор</Author>
-  
+
 
   <!--=========== Storyteller chooser ==========-->
-    <ChooseAIStoryteller>Выбор ИИ Рассказчика</ChooseAIStoryteller>
+  <ChooseAIStoryteller>Выбор ИИ Рассказчика</ChooseAIStoryteller>
   <HowStorytellersWork>ИИ Рассказчик создаёт события, такие как пиратские рейды, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашей колонии.</HowStorytellersWork>
+  <MustChooseChallengeScale>Пожалуйста, выберите сложность.</MustChooseChallengeScale>
+  <ChallengeScale_BuilderMode>Строительный режим</ChallengeScale_BuilderMode>
+  <ChallengeScale_Casual>Обычный</ChallengeScale_Casual>
+  <ChallengeScale_Rough>Суровый</ChallengeScale_Rough>
+  <ChallengeScale_Challenge>Испытание</ChallengeScale_Challenge>
+  <ChallengeScale_SeriousChallegne>Серьёзное испытание</ChallengeScale_SeriousChallegne>
+  <ChallengeScale_ExtremeChallenge>Экстремальное испытание</ChallengeScale_ExtremeChallenge>
+
+
+
+
+
+
+
+
+
+
+
+  <!--=========== Landing site select =========-->
+  <SelectLandingSite>Выбор места для посадки</SelectLandingSite>
+  <SelectSite>Выбрать место</SelectSite>
+  <MustSelectLandingSite>Пожалуйста, выберите место для посадки.</MustSelectLandingSite>
+  <CannotLandBiome>Вы не можете высадиться на этот биом: {0}</CannotLandBiome>
+  <WorldRenderMode>Режим</WorldRenderMode>
+  <WorldRenderModeFull>Полный</WorldRenderModeFull>
+  <WorldRenderModeTemperature>Температура</WorldRenderModeTemperature>
+  <WorldRenderModeElevation>Высота</WorldRenderModeElevation>
+  <WorldRenderModeFertility>Плодородность</WorldRenderModeFertility>
+  <WorldRenderModeRainfall>Осадки</WorldRenderModeRainfall>
+  <WorldRenderModeBiomes>Биомы</WorldRenderModeBiomes>
+  <BiomeNotImplemented>не реализовано</BiomeNotImplemented>
+  <Biome>Биом</Biome>
+  <Terrain>Поверхность</Terrain>
+  <Elevation>Высота</Elevation>
+  <Fertility>Плодородность</Fertility>
+  <AvgTemp>Ср. температура</AvgTemp>
+  <Rainfall>Осадки</Rainfall>
 
   <!--=========== Character chooser ==========-->
   <CreateCharacters>Создание персонажей</CreateCharacters>
@@ -53,20 +109,20 @@
   <Childhood>Детство</Childhood>
   <Male>Он</Male>
   <Female>Она</Female>
-  
-  
+
+
   <!--=========== Misc ==========-->
   <Start>Начать</Start>
   <Advanced>Дополнительно</Advanced>
   <Next>Дальше</Next>
   <Back>Назад</Back>
- 
+
    <Gameplay>Геймплей</Gameplay>
-   
+
   <ConfirmQuit>Действительно выйти? Вы потеряете весь несохранённый прогресс.</ConfirmQuit>
-  
+
   <EveryoneNeedsValidName>Каждому человеку нужно корректное имя.</EveryoneNeedsValidName>
- 
+
   <GeneratingWorld>Создание мира...</GeneratingWorld>
- 
+
 </LanguageData>
