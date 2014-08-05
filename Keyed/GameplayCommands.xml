@@ -4,11 +4,12 @@
 	<CommandForbiddenDesc>Запрещено - колонисты не будут взаимодействовать с этим.</CommandForbiddenDesc>
 	<CommandNotForbiddenDesc>Разрешено - колонисты могут взаимодействовать с этим.</CommandNotForbiddenDesc>
 
-  <CommandTogglePowerDesc>Включение и отключение подачи энергии.</CommandTogglePowerDesc>
+  <!-- Power -->
   <CommandTogglePowerLabel>Выключатель</CommandTogglePowerLabel>
+  <CommandTogglePowerDesc>Включение и отключение подачи энергии.</CommandTogglePowerDesc>
 
   <CommandTryReconnectLabel>Переподключить</CommandTryReconnectLabel>
-  <CommandTryReconnectDesc>Попытаться переподключить к другому источнику энергии в радиусе подключения. Это полезно, если я подключён к незапитанной сети, но рядом есть другая сеть с электроэнергией.</CommandTryReconnectDesc>
+  <CommandTryReconnectDesc>Попытаться переподключить к другому источнику энергии в радиусе подключения. Это удобно для отключения от сети без генератора, если рядом есть сеть с генератором.</CommandTryReconnectDesc>
 
 
   <CommandGatherSpotToggleLabel>Место сбора</CommandGatherSpotToggleLabel>
@@ -16,9 +17,9 @@
   <CommandGatherSpotToggleDescInactive>Неактивно - колонисты не будут собираться рядом.</CommandGatherSpotToggleDescInactive>
   
   
-  
+  <!-- Drafting -->
   <CommandDraftLabel>К бою!</CommandDraftLabel>
-  <CommandUndraftLabel>Вернуться к работе</CommandUndraftLabel>
+  <CommandUndraftLabel>Роспуск</CommandUndraftLabel>
   <CommandToggleDraftDesc>Переключение в боевой режим.\n\nВ этом режиме колонисты получают приказы и сражаются. Они не будут работать, есть или отдыхать.</CommandToggleDraftDesc>
   <IsIncapped>{0} выведен из строя.</IsIncapped>
 
@@ -26,16 +27,21 @@
   <CommandCancelConstructionLabel>Отменить</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Отмена строительства.</CommandCancelConstructionDesc>
 
-  
+  <CommandGetOutOfBedLabel>Уйти с кровати</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedDesc>Уйти из текущей кровати.</CommandGetOutOfBedDesc>
+
+  <CommandBedSetOwnerLabel>Назначить</CommandBedSetOwnerLabel>
+  <CommandBedSetOwnerDesc>Назначить эту кровать, чтобы дать в собственность конкретному колонисту.</CommandBedSetOwnerDesc>
+  <BedAssign>Назначить</BedAssign>
   <CommandBedSetForPrisonersLabel>Назначить заключённым</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Назначить кровати в этой комнате для использования заключенными.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>Невозможно сделать кровати для заключённых под открытым небом.</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetForColonistsLabel>Назначить колонистам</CommandBedSetForColonistsLabel>
   <CommandBedSetForColonistsDesc>Назначить кровати в этой комнате для использования колонистами.</CommandBedSetForColonistsDesc>
-  <CommandBedSetAsMedicalLabel>Назначить медицинской</CommandBedSetAsMedicalLabel>
-  <CommandBedSetAsMedicalDesc>Назначить эту кровать для медицинского использования.</CommandBedSetAsMedicalDesc>
-  <CommandBedSetAsNonMedicalLabel>Назначить как не медицинскую</CommandBedSetAsNonMedicalLabel>
-  <CommandBedSetAsNonMedicalDesc>Назначить эту кровать для немедицинского использования.</CommandBedSetAsNonMedicalDesc>
+  <CommandBedSetAsMedicalLabel>Назначить мед. кровать</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalDesc>Назначить эту кровать для использования в медицинских целях.</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsNonMedicalLabel>Убрать мед. назначение</CommandBedSetAsNonMedicalLabel>
+  <CommandBedSetAsNonMedicalDesc>Назначить эту кровать для обычных целей.</CommandBedSetAsNonMedicalDesc>
   <TurningOnPrisonerBedWarning>Включение режима для заключённых повлияет на всю комнату (колонисты и заключённые не могут спать в одной комнате).\n\nЭти люди потеряют права на свои кровати:</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>Выключение режима для заключённых повлияет на всю комнату (колонисты и заключённые не могут спать в одной комнате).\n\nЭти люди потеряют права на свои кровати:</TurningOffPrisonerBedWarning>
   <AreYouSure>Вы уверены, что хотите сделать это?</AreYouSure>

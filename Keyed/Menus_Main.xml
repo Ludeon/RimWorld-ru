@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!--=========== Main menu ==========-->
+  <!--=========== Главное меню ==========-->
   <CreateWorld>Создать мир</CreateWorld>
   <NewColony>Новая колония</NewColony>
   <BackToGame>Назад в игру</BackToGame>
@@ -20,9 +20,9 @@
   <TynansDesignBook>Книга Тайнена</TynansDesignBook>
   <HelpTranslate>Помощь в переводе RimWorld</HelpTranslate>
 
-  <!--=========== Create/review world ================-->
+  <!--=========== Создать/просмотреть мир ================-->
   <ReviewWorld>Просмотр мира</ReviewWorld>
-  <WorldGenerate>Генерировать</WorldGenerate>
+  <WorldGenerate>Создать</WorldGenerate>
   <WorldSaveAndFinish>Сохранить и закрыть</WorldSaveAndFinish>
   <Reset>Сбросить</Reset>
   <WorldSize>Размер</WorldSize>
@@ -33,8 +33,8 @@
   <!--=========== Select world ===================-->
   <SelectWorld>Выбор мира</SelectWorld>
   <WorldChooseButton>Выбрать</WorldChooseButton>
-  <NoWorldsFilesFound>Файлов мира не найдено. Сначала создайте мир.</NoWorldsFilesFound>
-
+  <NoWorldsFilesFound>Файлов мира не найдено. Сперва создайте мир.</NoWorldsFilesFound>
+  
   <!--=========== Version info ==========-->
   <BuildNowAvailable>Доступна новая версия {0}. Зайдите на ludeon.com для получения информации.</BuildNowAvailable>
   <BuildUpToDate>У вас последняя версия.</BuildUpToDate>
@@ -42,7 +42,7 @@
   <LoadingVersionInfo>Загрузка данных о версии...</LoadingVersionInfo>
 
   <!--=========== World generator =========-->
-  <GenerateWorld>Генерировать мир</GenerateWorld>
+  <GenerateWorld>Создать мир</GenerateWorld>
 
   <!--=========== Mods screen ==========-->
   <GetMods>Скачать моды</GetMods>
@@ -51,32 +51,25 @@
   <Author>Автор</Author>
 
 
-  <!--=========== Storyteller chooser ==========-->
-  <ChooseAIStoryteller>Выбор ИИ Рассказчика</ChooseAIStoryteller>
+  <!--=========== Выбрать разказчик ==========-->
+    <ChooseAIStoryteller>Выбор ИИ рассказчика</ChooseAIStoryteller>
   <HowStorytellersWork>ИИ Рассказчик создаёт события, такие как пиратские рейды, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашей колонии.</HowStorytellersWork>
   <MustChooseChallengeScale>Пожалуйста, выберите сложность.</MustChooseChallengeScale>
-  <ChallengeScale_BuilderMode>Строительный режим</ChallengeScale_BuilderMode>
+  <ChallengeScale>Сложность</ChallengeScale>
+  <ChallengeScaleTip>Уровень угроз, создаваемых ИИ, будет составлять {0} от сложности "Вызов".</ChallengeScaleTip>
+  <ChallengeScale_BuilderMode>Режим строителя</ChallengeScale_BuilderMode>
   <ChallengeScale_Casual>Обычный</ChallengeScale_Casual>
-  <ChallengeScale_Rough>Суровый</ChallengeScale_Rough>
-  <ChallengeScale_Challenge>Испытание</ChallengeScale_Challenge>
-  <ChallengeScale_SeriousChallegne>Серьёзное испытание</ChallengeScale_SeriousChallegne>
+  <ChallengeScale_Rough>Сложный</ChallengeScale_Rough>
+  <ChallengeScale_Challenge>Вызов</ChallengeScale_Challenge>
+  <ChallengeScale_SeriousChallegne>Серьёзный вызов </ChallengeScale_SeriousChallegne>
   <ChallengeScale_ExtremeChallenge>Экстремальное испытание</ChallengeScale_ExtremeChallenge>
 
 
-
-
-
-
-
-
-
-
-
   <!--=========== Landing site select =========-->
-  <SelectLandingSite>Выбор места для посадки</SelectLandingSite>
+  <SelectLandingSite>Выбор места посадки</SelectLandingSite>
   <SelectSite>Выбрать место</SelectSite>
-  <MustSelectLandingSite>Пожалуйста, выберите место для посадки.</MustSelectLandingSite>
-  <CannotLandBiome>Вы не можете высадиться на этот биом: {0}</CannotLandBiome>
+  <MustSelectLandingSite>Пожалуйста, выберите место посадки.</MustSelectLandingSite>
+  <CannotLandBiome>Вы не можете приземлиться на этот биом: {0}</CannotLandBiome>
   <WorldRenderMode>Режим</WorldRenderMode>
   <WorldRenderModeFull>Полный</WorldRenderModeFull>
   <WorldRenderModeTemperature>Температура</WorldRenderModeTemperature>
@@ -91,6 +84,12 @@
   <Fertility>Плодородность</Fertility>
   <AvgTemp>Ср. температура</AvgTemp>
   <Rainfall>Осадки</Rainfall>
+  <HasCoast0>Побережье с севера</HasCoast0>
+  <HasCoast1>Побережье с востока</HasCoast1>
+  <HasCoast2>Побережье с юга</HasCoast2>
+  <HasCoast3>Побережье с запада</HasCoast3>
+
+
 
   <!--=========== Character chooser ==========-->
   <CreateCharacters>Создание персонажей</CreateCharacters>
@@ -109,20 +108,21 @@
   <Childhood>Детство</Childhood>
   <Male>Он</Male>
   <Female>Она</Female>
-
-
+  
+  
   <!--=========== Misc ==========-->
   <Start>Начать</Start>
   <Advanced>Дополнительно</Advanced>
   <Next>Дальше</Next>
   <Back>Назад</Back>
-
+  
    <Gameplay>Геймплей</Gameplay>
 
   <ConfirmQuit>Действительно выйти? Вы потеряете весь несохранённый прогресс.</ConfirmQuit>
-
+  
   <EveryoneNeedsValidName>Каждому человеку нужно корректное имя.</EveryoneNeedsValidName>
 
   <GeneratingWorld>Создание мира...</GeneratingWorld>
+  <GeneratingMap>Создание карты...</GeneratingMap>
 
 </LanguageData>

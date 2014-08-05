@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-
   <Confirm>Подтвердить</Confirm>
   <GoBack>Вернуться</GoBack>
   <OK>OK</OK>
@@ -17,8 +15,7 @@
   <NeedAName>Пожалуйста, введите название.</NeedAName>
   <LoadingLongEvent>Загрузка...</LoadingLongEvent>
   
-  
-  <!-- Colony naming-->
+    <!-- Colony naming-->
   <NameColonyMessage>Все знают, что вы не хотите застрять в этой дыре надолго. Но {0} всё же предлагает дать название колонии.\n\nТак как она должна называться?</NameColonyMessage>
   <ColonyGainsName>Теперь колония известна как {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Это имя для колонии недопустимо.</ColonyNameIsInvalid>
@@ -26,9 +23,9 @@
   <!-- Zone naming -->
   <ZoneGainsName>Теперь эта зона называется {0}.</ZoneGainsName>
   <ZoneNameIsInvalid>Пожалуйста, введите допустимое название зоны.</ZoneNameIsInvalid>
-    
+  
   <!-- Pawn naming -->
-  <PawnGainsName>Теперь кличка колониста {0}.</PawnGainsName>  
+  <PawnGainsName>Прозвище колониста теперь {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
   <SaveGameIncompatibleWarningText>Несовпадение версий: карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\n Загрузка сохранения, вероятно, вызовет ошибки и сбои.</SaveGameIncompatibleWarningText>
@@ -49,8 +46,7 @@
   <Finished>Завершено</Finished>
   <InProgress>В процессе</InProgress>
   <ResearchMenuWithoutBench>Пока вы не построите исследовательский стол, ваши колонисты не смогут приступить к исследованиям.\n\nТем не менее, вы всё равно можете посмотреть и выбрать исследовательский проект прямо сейчас.</ResearchMenuWithoutBench>
-  
-  
+    
   <!-- Advanced game start options -->
   <MapSizePerformanceWarning>ВНИМАНИЕ: производительность может снизиться при больших размерах карты, если ваш компьютер недостаточно мощный.\n\nЕсли у вас слабая машина, выберите "Маленькая"\n\nОгромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
   <MapSize>Размер карты</MapSize>
@@ -59,8 +55,6 @@
   <MapSizeMedium>Средняя</MapSizeMedium>
   <MapSizeLarge>Большая</MapSizeLarge>
   <MapSizeExtreme>Огромная</MapSizeExtreme>
-
-
 
   <!-- Bill config -->
   <Suspended>Продолжить</Suspended>
@@ -72,13 +66,15 @@
   <TargetCount>Делать до: {0}</TargetCount>
   <Infinite>Бесконечно</Infinite>
   <RecipeCannotHaveTargetCount>(Это задание нельзя повторять, так как результат может быть разным.)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>Разрешённые ингредиенты:</PermittedIngredients>
+  <PermittedIngredients>Разрешённые ингредиенты</PermittedIngredients>
   <MinimumSkills>Минимальные навыки:</MinimumSkills>
   <DoXTimes>Сделать X раз</DoXTimes>
   <DoUntilYouHaveX>Повторять до X</DoUntilYouHaveX>
   <DoForever>Бесконечно</DoForever>
   <BillRepeatTargetCountShort>До {0}</BillRepeatTargetCountShort>
-  
+  <BillStoreMode_DropOnFloor>Положить на пол</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>Принести на лучший склад</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Принести на ближайший склад</BillStoreMode_NearestStockpileAnyPriority>
   
   <!-- Def Card -->
   <Type>Тип</Type>
@@ -111,9 +107,9 @@
   <MeatAmount>Мясо</MeatAmount>
   <MinFoodQuality>Мин. тип еды</MinFoodQuality>
   <Diet>Образ жизни</Diet>
-  <!--<Properties>Свойства</Properties>-->
   <RecruitDifficulty>Сложность вербовки</RecruitDifficulty>
   <BasePrice>Базовая цена</BasePrice>
+  <Covers>Покров</Covers>
   
   <!-- Trade -->
   <YourTradeableSilver>Серебра для торговли: {0}</YourTradeableSilver>
