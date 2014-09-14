@@ -22,14 +22,23 @@
   <MeatLabel>{0} мясо</MeatLabel>
   <MeatDesc>Сырое мясо {0}.</MeatDesc>
 
-	<CorpseLabel>{0} тело</CorpseLabel>
-	<CorpseDesc>Мёртвое тело {0}.</CorpseDesc>
+  <LeatherLabel>Кожа {0}</LeatherLabel>
+  <LeatherDesc>Кожа, выделанная из шкуры {0}.</LeatherDesc>
+
+  <CorpseLabel>Труп {0}</CorpseLabel>
+	<CorpseDesc>Мертвое тело {0}.</CorpseDesc>
+  <DeadLabel>{0} (мертв)</DeadLabel>
 
 
 	<BlueprintLabelExtra> (проект)</BlueprintLabelExtra>
   <FrameLabelExtra> (постройка)</FrameLabelExtra>
-  
-  
+
+  <!-- Для вещей, сделанных из чего-либо, напр. "Каменная кровать" -->
+  <!-- 0 это nameAsStuff в stuffProps и 1 это название вещи -->
+  <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
+
+  <VariousLabel>(различное)</VariousLabel>
+
   <!-- History events -->
   <ColonistDied>Колонист погиб</ColonistDied>
   

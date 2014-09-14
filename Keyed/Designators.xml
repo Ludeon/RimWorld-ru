@@ -10,8 +10,8 @@
   <DesignatorDeconstruct>Разобрать</DesignatorDeconstruct>
   <DesignatorDeconstructDesc>Разобрать постройки и вернуть часть ресурсов.</DesignatorDeconstructDesc>
  
-  <DesignatorHarvestFood>Собрать</DesignatorHarvestFood>
-  <DesignatorHarvestFoodDesc>Отметить растения для сбора пищи. Будет собрано максимально возможное количество, при этом растение само по себе останется.</DesignatorHarvestFoodDesc>
+  <DesignatorHarvest>Собрать</DesignatorHarvest>
+  <DesignatorHarvestDesc>Отметить растения для сбора пищи или другой продукции.</DesignatorHarvestDesc>
  
   <DesignatorHarvestWood>Срубить</DesignatorHarvestWood>
   <DesignatorHarvestWoodDesc>Отметить деревья, чтобы срубить их для получения брёвен.</DesignatorHarvestWoodDesc>
@@ -59,11 +59,13 @@
   
   
   <!-- placement of blueprints -->
+  <UnchosenStuff>Примерный материал</UnchosenStuff><!-- Unchosen material -->
   <TooCloseToMapEdge>Слишком близко к краю карты.</TooCloseToMapEdge>
   <OutOfBounds>За пределами.</OutOfBounds>
   <CannotPlaceInUndiscovered>Нельзя разместить в неразведанной зоне.</CannotPlaceInUndiscovered>
-  <InteractionSpotBlocked>Точка взаимодействия заблокирована.</InteractionSpotBlocked>
-  <InteractionSpotWillBeBlocked>Место взаимодействия будет заблокировано.</InteractionSpotWillBeBlocked>
+  <InteractionSpotBlocked>Точка взаимодействия заблокирована {0}.</InteractionSpotBlocked>
+  <InteractionSpotOutOfBounds>Точка взаимодействия находится вне границ.</InteractionSpotOutOfBounds> <!--Interaction spot is out of bounds.-->
+  <InteractionSpotWillBeBlocked>Место взаимодействия будет заблокировано {0}.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} будет блокировать квадрат взаимодействия {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Местность здесь уже {0}.</TerrainIsAlready>
   <IdenticalThingExists>Идентичная вещь уже размещена здесь.</IdenticalThingExists>
