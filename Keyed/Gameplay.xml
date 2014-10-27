@@ -9,8 +9,8 @@
   <ForColonistUse>Для колонистов</ForColonistUse>
   <MedicalBed>Медицинская</MedicalBed>
   <Owner>Владелец</Owner>
-  <Nobody>никто</Nobody>
-  <Unowned>Ничья</Unowned>
+  <Nobody>Никто</Nobody>
+  <Unowned>Свободна</Unowned>
   <DeadTime>Мёртв уже {0}</DeadTime>
   <WalkSpeed>скорость {0}</WalkSpeed>
   <DyingLower>умирает</DyingLower>
@@ -22,7 +22,7 @@
   <FreshMissingBodyPart>недавно</FreshMissingBodyPart>
   <UntreatedLower>невылечен</UntreatedLower>
   <RecoveringDiseaseLower>восстановление</RecoveringDiseaseLower>
-  <InjuryRequiresTreatment>требует лечения для исцеления</InjuryRequiresTreatment>
+  <InjuryRequiresTreatment>требует лечения для заживления</InjuryRequiresTreatment>
   <NextTreatmentAfter>Следующее лечение через {0} дней</NextTreatmentAfter>
   <MissingMedicalBillIngredient>нет {0}</MissingMedicalBillIngredient>
   <ImmunityDevelopmentProgress>прогресс выработки иммунитета</ImmunityDevelopmentProgress>
@@ -54,7 +54,7 @@
 	
 	<!-- Status levels -->
   <Mood>Настроение</Mood>
-  <MoodTip>Настроение зависит от осуществления физических и психологических потребностей.\n\nЕсли чьё-то настроение становится слишком низким, они могут страдать от нервных срывов.</MoodTip>
+  <MoodTip>Настроение зависит от удовлетворения физических и психологических потребностей.\n\nЕсли чьё-то настроение становится слишком низким, может случиться нервный срыв.</MoodTip>
   <Food>Сытость</Food>
   <FoodTip>Сытость показывает количество питательных веществ, недавно поглощённых существом. При достижении нуля существо получает урон от голодания.</FoodTip>
   <Rest>Отдых</Rest>
@@ -88,7 +88,7 @@
   <Faction>Фракция</Faction>
   <Equipped>Вооружён</Equipped>
   <EquippedNothing>Не вооружён</EquippedNothing>
-  <Incapacitated>Выведен из строя</Incapacitated>
+  <Incapacitated>Без сознания</Incapacitated>
   <InRestraints>В плену (задержан)</InRestraints>
   <Carrying>Переносит</Carrying>
   <SanityDazedWander>Сломлен: ошеломлен и блуждает</SanityDazedWander>
@@ -110,10 +110,10 @@
   <LittlePain>Лёгкая</LittlePain>
   <MediumPain>Средняя</MediumPain>
   <SeverePain>Сильная</SeverePain>
-  <ExtremePain>Ужасная</ExtremePain>
+  <ExtremePain>Жуткая</ExtremePain>
 
   <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>Выбрать другой предмет на той же клетке.\n\nКлавиша: {0}\n\nВы также можете сделать это, медленно нажимая по той же клетке снова.</SelectNextInSquareTip>
+  <SelectNextInSquareTip>Выбрать другой предмет на той же клетке.\n\nКлавиша: {0}\n\nТо же самое можно сделать, щёлкнув по этой клетке ещё раз.</SelectNextInSquareTip>
   <DefInfoTip>Просмотр информации о данном объекте.</DefInfoTip>
   
   <!-- ITab titles -->
@@ -131,7 +131,7 @@
 
 	<!-- ITabs -->
   <AddBill>Добавить задание</AddBill>
-  <RecipeRequiresSkills>Для того чтобы {0} требуется навык больше, чем есть сейчас у ваших колонистов, так что никто не будет делать это.\n\nПопробуйте начать с чего-то полегче.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>Никто из ваших колонистов не обладает достаточными навыками для того, чтобы {0}.\n\nПопробуйте начать с чего-то полегче.</RecipeRequiresSkills>
   <BillConfig>Настройки</BillConfig>
   <SuspendedCaps>ПАУЗА</SuspendedCaps>
   <PlantVerb>Посадить</PlantVerb>
@@ -160,15 +160,15 @@
 	<ShatteredBodyPart>Разорвано</ShatteredBodyPart>
   <RemovedBodyPart>Удалено</RemovedBodyPart>
 	<Healthy>Здоров</Healthy>
-	<InPain>В боли</InPain>
+	<InPain>Чувствует боль</InPain>
 	<PainLevel>Боль</PainLevel>
 	<Dead>Мёртв</Dead>
 	<Unconscious>Без сознания</Unconscious>
-	<PainShock>В состоянии шока</PainShock>
-	<Injured>Ранен</Injured>
+	<PainShock>Болевой шок</PainShock>
+	<Injured>Ранение</Injured>
 	<NoInjuries>(нет ранений)</NoInjuries>
 	<WholeBody>Всё тело</WholeBody>
-	<RenameColonist>Переименовать</RenameColonist>
+	<RenameColonist>Сменить имя</RenameColonist>
 	<DataProcessing>Обработка данных</DataProcessing>
 	<Communication>Связь</Communication>
 	<AffectsLower>влияет</AffectsLower>
@@ -194,7 +194,7 @@
   
 	<!--Rotting-->
   <RotStateFresh>Свежее</RotStateFresh>
-  <RotStateRotting>Загнивающее</RotStateRotting>
+  <RotStateRotting>Гниёт</RotStateRotting>
   <RotStateDessicated>Засохло</RotStateDessicated>
 	
   <!-- Shooting tooltip -->
@@ -214,7 +214,7 @@
   <Ingredients>Ингредиенты</Ingredients>
 
   <!-- Plants -->
-  <PercentGrowth>{0}% роста</PercentGrowth>
+  <PercentGrowth>Выросло на {0}%</PercentGrowth>
   <Growing>Растёт</Growing>
   <NotGrowingNow>Не растёт (должно быть {0}).</NotGrowingNow>
   <NotGrowingNowNight>Не растёт (ночь).</NotGrowingNowNight>
@@ -239,27 +239,27 @@
   
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Переключение видимости зон.</ZoneVisibilityToggleButton>
-  <AutoHomeRegionToggleButton>Переключение автоматического добавления домашней области вокруг новых построек.</AutoHomeRegionToggleButton>
-  <CategorizedResourceReadoutToggleButton>Переключение отображения количества ресурсов на складах.</CategorizedResourceReadoutToggleButton>
+  <AutoHomeRegionToggleButton>Переключение автоматического добавления домашней области для новых построек.</AutoHomeRegionToggleButton>
+  <CategorizedResourceReadoutToggleButton>Отображать количество ресурсов на складах полностью или по категориям.</CategorizedResourceReadoutToggleButton>
 
 
   <!-- Fire -->
   <Fire>Огонь</Fire>
   <FireOn>Огонь на {0}</FireOn>
   <Burning>Горит</Burning>
-  <FireSizeLower>размер огня {0}</FireSizeLower>
+  <FireSizeLower>площадь возгорания {0}</FireSizeLower>
   
 
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Особые условия, влияющие на местность в данный момент.</MapConditionsTip>
 
   <!-- Building placement -->
-  <NoStuffsToBuildWith>У вас нет материалов, из которых можно построить это.</NoStuffsToBuildWith>
+  <NoStuffsToBuildWith>У вас нет подходящих материалов.</NoStuffsToBuildWith>
 
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>Не может быть размещено под крышей.</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>Должно быть размещено заголовьем рядом с центральной балкой корабля.</MustPlaceHeadOnShipBeam>
-  <MustPlaceNextToHopperAccepter>Должно быть размещено рядом с чем-нибудь, что требует хоппера.</MustPlaceNextToHopperAccepter>
+  <MustPlaceNextToHopperAccepter>Должен быть размещен только рядом с устройством, которому нужен бункер.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Должен быть размещён непосредственно на паровом гейзере.</MustPlaceOnSteamGeyser>
   
   <!-- Cryptosleep pod -->
@@ -277,8 +277,8 @@
   
   
   <!-- Game over -->
-  <GameOverEveryoneDead>Все либо мертвы, либо ушли. Эта история закончилась.\n\nВозможно, кто-то сможет найти этим руинам применение.</GameOverEveryoneDead>
-  <GameOverShipLaunched>Вы запустили корабль! Эти колонисты спаслись:\n\n{0}\nЭти колонисты остались позади:\n\n{1}\nВаш ИИ теперь будет пытаться направить корабль в безопасное место. Он может перевезти вас на лучшую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая лучшего исторического периода.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
+  <GameOverEveryoneDead>Все колонисты либо мертвы, либо ушли. Конец истории.\n\nВозможно, кто-то другой сможет найти применение этим руинам.</GameOverEveryoneDead>
+  <GameOverShipLaunched>Вы запустили корабль! Эти колонисты спаслись:\n\n{0}\nЭти колонисты остались:\n\n{1}\nВаш ИИ теперь будет пытаться направить корабль в безопасное место. Он может перевезти вас на лучшую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая лучшего исторического периода.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
   <GameOverKeepPlaying>Продолжить играть</GameOverKeepPlaying>
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
   
