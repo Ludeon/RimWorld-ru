@@ -13,25 +13,25 @@
 
 
   <CommandGatherSpotToggleLabel>Место сбора</CommandGatherSpotToggleLabel>
-  <CommandGatherSpotToggleDescActive>Активно - колонисты будут собираться рядом.</CommandGatherSpotToggleDescActive>
-  <CommandGatherSpotToggleDescInactive>Неактивно - колонисты не будут собираться рядом.</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleDescActive>Активно - колонисты будут собираться поблизости.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>Неактивно - колонисты не будут собираться поблизости.</CommandGatherSpotToggleDescInactive>
   
   
   <!-- Drafting -->
   <CommandDraftLabel>К бою!</CommandDraftLabel>
   <CommandUndraftLabel>Роспуск</CommandUndraftLabel>
   <CommandToggleDraftDesc>Переключение в боевой режим.\n\nВ этом режиме колонисты получают приказы и сражаются. Они не будут работать, есть или отдыхать.</CommandToggleDraftDesc>
-  <IsIncapped>{0} выведен из строя.</IsIncapped>
+  <IsIncapped>{0} без сознания.</IsIncapped>
 
   
   <CommandCancelConstructionLabel>Отменить</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Отмена строительства.</CommandCancelConstructionDesc>
 
-  <CommandGetOutOfBedLabel>Уйти с кровати</CommandGetOutOfBedLabel>
-  <CommandGetOutOfBedDesc>Уйти из текущей кровати.</CommandGetOutOfBedDesc>
+  <CommandGetOutOfBedLabel>Освободить кровать</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedDesc>Освободить занятую кровать.</CommandGetOutOfBedDesc>
 
-  <CommandBedSetOwnerLabel>Назначить</CommandBedSetOwnerLabel>
-  <CommandBedSetOwnerDesc>Назначить эту кровать, чтобы дать в собственность конкретному колонисту.</CommandBedSetOwnerDesc>
+  <CommandBedSetOwnerLabel>Назначить кровать</CommandBedSetOwnerLabel>
+  <CommandBedSetOwnerDesc>Назначить кровать конкретному колонисту.</CommandBedSetOwnerDesc>
   <BedAssign>Назначить</BedAssign>
   <CommandBedSetForPrisonersLabel>Назначить заключённым</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Назначить кровати в этой комнате для использования заключенными.</CommandBedSetForPrisonersDesc>
@@ -42,13 +42,13 @@
   <CommandBedSetAsMedicalDesc>Назначить эту кровать для использования в медицинских целях.</CommandBedSetAsMedicalDesc>
   <CommandBedSetAsNonMedicalLabel>Убрать мед. назначение</CommandBedSetAsNonMedicalLabel>
   <CommandBedSetAsNonMedicalDesc>Назначить эту кровать для обычных целей.</CommandBedSetAsNonMedicalDesc>
-  <TurningOnPrisonerBedWarning>Включение режима для заключённых повлияет на всю комнату (колонисты и заключённые не могут спать в одной комнате).\n\nЭти люди потеряют права на свои кровати:</TurningOnPrisonerBedWarning>
-  <TurningOffPrisonerBedWarning>Выключение режима для заключённых повлияет на всю комнату (колонисты и заключённые не могут спать в одной комнате).\n\nЭти люди потеряют права на свои кровати:</TurningOffPrisonerBedWarning>
-  <AreYouSure>Вы уверены, что хотите сделать это?</AreYouSure>
+  <TurningOnPrisonerBedWarning>Включение режима для заключённых повлияет на всю комнату (колонисты и заключённые не могут спать в одной комнате).\n\nСледующие колонисты потеряют права на свои кровати:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Выключение режима для заключённых повлияет на всю комнату (колонисты и заключённые не могут спать в одной комнате).\n\nСледующие заключённые потеряют права на свои кровати:</TurningOffPrisonerBedWarning>
+  <AreYouSure>Вы уверены?</AreYouSure>
 
   
   
-  <CommandDetonateDesc>Начать отсчёт к детонации.</CommandDetonateDesc>
+  <CommandDetonateDesc>Начать обратный отсчёт.</CommandDetonateDesc>
   <CommandDetonateLabel>Подорвать</CommandDetonateLabel>
 
   <CommandRenameZoneDesc>Переименовать зону.</CommandRenameZoneDesc>
@@ -65,8 +65,8 @@
   <!-- Artillery -->
   <CommandSetForceAttackTarget>Выбрать цель обстрела</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Устанавливает цель, которую эта турель будет атаковать непрерывно до тех пор, пока это будет возможно.</CommandSetForceAttackTargetDesc>
-  <CommandStopForceAttack>Остановить обстрел</CommandStopForceAttack>
-  <CommandStopForceAttackDesc>Прекращает обстрел и позволяет турели стрелять по своему усмотрению.</CommandStopForceAttackDesc>
+  <CommandStopForceAttack>Отменить цель обстрела</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>Прекращает обстрел указанной цели и переводит турель в режим самонаведения.</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>Сейчас невозможно остановить обстрел.</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>Цель слишком далеко.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Цель слишком близко.</MessageTargetBelowMinimumRange>
@@ -82,7 +82,7 @@
   <!-- Pod -->
   <CommandPodEject>Извлечь спящего</CommandPodEject>
   <CommandPodEjectDesc>Разбудить спящего и вытащить его.</CommandPodEjectDesc>
-  <CommandPodEjectFailEmpty>Внутри никого.</CommandPodEjectFailEmpty>
+  <CommandPodEjectFailEmpty>Внутри никого нет.</CommandPodEjectFailEmpty>
   
   <!-- Door -->
   <CommandToggleDoorLock>Переключить блокировку</CommandToggleDoorLock>
