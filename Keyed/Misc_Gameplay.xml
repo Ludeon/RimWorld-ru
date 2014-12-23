@@ -26,12 +26,26 @@
   <NextTreatmentAfter>Следующее лечение через {0} дней</NextTreatmentAfter>
   <MissingMedicalBillIngredient>нет {0}</MissingMedicalBillIngredient>
   <ImmunityDevelopmentProgress>прогресс выработки иммунитета</ImmunityDevelopmentProgress>
+  <Race>Раса</Race>
+  <Description>Описание</Description>
+  <Apparel>Одежда</Apparel>
+	<Inventory>Инвентарь</Inventory>
+	<ThingInfo>Информация</ThingInfo>
+	<DropThing>Выкинуть</DropThing>
+  <RenameColonist>Переименовать</RenameColonist>
+  <UnknownLower>неизвестно</UnknownLower>
+
+  <!-- Snow -->
+  <SnowNone>Нет снега</SnowNone>
+  <SnowDusting>Снег (лёгкий)</SnowDusting>
+  <SnowThin>Снег (мелкий)</SnowThin>
+  <SnowMedium>Снег (средний)</SnowMedium>
+  <SnowThick>Снег (глубокий)</SnowThick>
 
   <!-- Turrets -->
   <GunInstalled>Установлено</GunInstalled>
   <MinimumRange>Минимальная дальность</MinimumRange>
   <CanFireIn>Перезарядка через</CanFireIn>
-
 
   <!-- Job reports -->
 	<ReportHaulingTo>Несёт {0} на {1}.</ReportHaulingTo>
@@ -50,8 +64,11 @@
 	<ShootingCover>Укрытие</ShootingCover>
 	<CoverThingBlocksPercentOfShots>{0} блокирует {1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>нет укрытия</NoCoverLower>
-	
-	
+
+  <!-- Generated recipes -->
+  <RecipeMake>Сделать {0}</RecipeMake>
+  <RecipeMakeJobString>Делает {0}.</RecipeMakeJobString>
+
 	<!-- Status levels -->
   <Mood>Настроение</Mood>
   <MoodTip>Настроение зависит от осуществления физических и психологических потребностей.\n\nЕсли чьё-то настроение становится слишком низким, они могут страдать от нервных срывов.</MoodTip>
@@ -63,21 +80,11 @@
   <EnvironmentTip>Окружение показывает, насколько приятна обстановка.\n\nПоказатель высок, когда люди находятся в просторных комнатах с красивой отделкой. Мал, когда окружение безобразно.</EnvironmentTip>
   <Openness>Просторность</Openness>
 
-  
   <!-- Thoughts -->
   <ThoughtExpiresIn>Истечёт через: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Начнет истекать через: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Закончится через: {0}</ThoughtFinishesExpiringIn>
   <MentalBreakThreshold>Порог нервного срыва</MentalBreakThreshold>
-
-
-
-  <!--Effectiveness
-  <EffectivenessFull>полная</EffectivenessFull>
-  <EffectivenessReduced>пониженная</EffectivenessReduced>
-  <EffectivenessImpaired>низкая</EffectivenessImpaired>
-  <EffectivenessIncapacitated>обездвижен</EffectivenessIncapacitated>
--->
 
   <!-- Pawn info readout -->
   <Health>Здоровье</Health>
@@ -95,90 +102,10 @@
   <SanityGiveUpExit>Сломлен: сдался и уходит</SanityGiveUpExit>
   <SanityPanicFlee>Сломлен: спасается в панике</SanityPanicFlee>
   <SanityPsychotic>Сломлен: обезумел</SanityPsychotic>
-  
-  <!-- Тело и деятельность состояние -->
-  <None>Нет</None>
-  <VeryPoor>Ужасно</VeryPoor>
-  <Poor>Плохо</Poor>
-  <Weakened>Ослаблено</Weakened>
-  <GoodCondition>Хорошо</GoodCondition>
-  <Enhanced>Улучшено</Enhanced>
-  <SeriouslyImpaired>Серьёзное ранение</SeriouslyImpaired>
-  <Impaired>Ранение</Impaired>
-  <SlightlyImpaired>Лёгкое ранение</SlightlyImpaired>
-  <NoPain>Нет</NoPain>
-  <LittlePain>Лёгкая</LittlePain>
-  <MediumPain>Средняя</MediumPain>
-  <SeverePain>Сильная</SeverePain>
-  <ExtremePain>Ужасная</ExtremePain>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Выбрать другой предмет на той же клетке.\n\nКлавиша: {0}\n\nВы также можете сделать это, медленно нажимая по той же клетке снова.</SelectNextInSquareTip>
   <DefInfoTip>Просмотр информации о данном объекте.</DefInfoTip>
-  
-  <!-- ITab titles -->
-  <TabBills>Задания</TabBills>
-  <TabGrowing>Посадки</TabGrowing>
-  <TabCharacter>Персона</TabCharacter>
-  <TabPrisoner>Узник</TabPrisoner>
-  <TabGear>Вещи</TabGear>
-  <TabThoughts>Мысли</TabThoughts>
-  <TabStorage>Склад</TabStorage>
-  <TabHealth>Здоровье</TabHealth>
-  <TabRace>Раса</TabRace>
-  <TabBasics>Основное</TabBasics>
-  <TabStats>Статистика</TabStats>
-
-	<!-- ITabs -->
-  <AddBill>Добавить задание</AddBill>
-  <RecipeRequiresSkills>Для того чтобы {0} требуется навык больше, чем есть сейчас у ваших колонистов, так что никто не будет делать это.\n\nПопробуйте начать с чего-то полегче.</RecipeRequiresSkills>
-  <BillConfig>Настройки</BillConfig>
-  <SuspendedCaps>ПАУЗА</SuspendedCaps>
-  <PlantVerb>Посадить</PlantVerb>
-  <RecruitmentDifficulty>Сложность вербовки</RecruitmentDifficulty>
-  <PrisonerGetsFood>Получает пищу</PrisonerGetsFood>
-  <DoctorsCare>Врачебный уход</DoctorsCare>
-  <PrisonerGetsMedicine>Получает медикаменты</PrisonerGetsMedicine>
-  <ShouldTryToRecruit>Попытка вербовки</ShouldTryToRecruit>
-  <PrisonerNoInteraction>Никакого взаимодействия</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>Дружеская беседа</PrisonerFriendlyChat>
-  <PrisonerMildBeating>Легкое избиение</PrisonerMildBeating>
-  <PrisonerViciousBeating>Сильное избиение</PrisonerViciousBeating>
-  <PrisonerExecution>Казнь</PrisonerExecution>
-	<Equipment>Снаряжение</Equipment>
-	<Apparel>Одежда</Apparel>
-	<Inventory>Инвентарь</Inventory>
-	<ThingInfo>Информация</ThingInfo>
-	<DropThing>Выкинуть</DropThing>
-	<TotalModifiers>Модификаторы</TotalModifiers>
-	<DamageAbsorption>Поглощение урона</DamageAbsorption>
-	<DamageDeflection>Сопротивление урону</DamageDeflection>
-	<MoveSpeed>Скорость передвижения</MoveSpeed>
-	<Efficiency>Эффективность</Efficiency>
-	<MissingBodyPart>Отсутствует</MissingBodyPart>
-	<DestroyedBodyPart>Уничножено</DestroyedBodyPart>
-	<ShatteredBodyPart>Разорвано</ShatteredBodyPart>
-  <RemovedBodyPart>Удалено</RemovedBodyPart>
-	<Healthy>Здоров</Healthy>
-	<InPain>В боли</InPain>
-	<PainLevel>Боль</PainLevel>
-	<Dead>Мёртв</Dead>
-	<Unconscious>Без сознания</Unconscious>
-	<PainShock>В состоянии шока</PainShock>
-	<Injured>Ранен</Injured>
-	<NoInjuries>(нет ранений)</NoInjuries>
-	<WholeBody>Всё тело</WholeBody>
-	<RenameColonist>Переименовать</RenameColonist>
-	<DataProcessing>Обработка данных</DataProcessing>
-	<Communication>Связь</Communication>
-	<AffectsLower>влияет</AffectsLower>
-	<BleedingRate>Кровотечение</BleedingRate>
-	<HealthOverview>Обзор</HealthOverview>
-	<MedicalOperationsShort>Операции ({0})</MedicalOperationsShort>
-	<MedicalOperationsMechanoidsShort>Модификации ({0})</MedicalOperationsMechanoidsShort>
-	<MedicalOperations>Медицинские операции</MedicalOperations>
-	<Amputate>Ампутировать</Amputate>
-	<Harvest>Извлечь</Harvest>
 
 	<!-- like 'Blood of John' -->
   <OfLower></OfLower>
@@ -190,13 +117,22 @@
   <PowerOutput>Энерговыработка</PowerOutput>
   <PowerBatteryStored>Заряд</PowerBatteryStored>
   <PowerBatteryEfficiency>КПД</PowerBatteryEfficiency>
-  
-  
+
+  <!-- Temperature control -->
+  <TargetTemperature>Заданная температура</TargetTemperature>
+  <PowerConsumptionMode>Потребление энергии</PowerConsumptionMode>
+  <PowerConsumptionHigh>Высокое</PowerConsumptionHigh>
+  <PowerConsumptionLow>Низкое</PowerConsumptionLow>
+
+  <!-- Temperature readout -->
+  <Indoors>Внутри</Indoors>
+  <Outdoors>Снаружи</Outdoors>
+
 	<!--Rotting-->
   <RotStateFresh>Свежее</RotStateFresh>
   <RotStateRotting>Загнивающее</RotStateRotting>
   <RotStateDessicated>Засохло</RotStateDessicated>
-	
+
   <!-- Shooting tooltip -->
   <ShotBy>Выстрел {0}</ShotBy>
   <CannotHit> не может попасть в цель.</CannotHit><!-- необходим лидирующий пробел для читаемости -->
@@ -209,6 +145,12 @@
   <StoragePriorityImportant>Высокий</StoragePriorityImportant>
   <StoragePriorityCritical>Максимальный</StoragePriorityCritical>
 
+  <!-- Rotting -->
+  <CurrentlyFrozen>Замороженное (не испортится)</CurrentlyFrozen>
+  <CurrentlyRefrigerated>Охлаждённое (Испортится через {0})</CurrentlyRefrigerated>
+  <NotRefrigerated>Не охлаждённое (Испортится через {0})</NotRefrigerated>
+  <OverADecade>больше 10 лет</OverADecade>
+
   <!-- Meal -->
   <TimeToSpoil>Испортится через {0}</TimeToSpoil>
   <Ingredients>Ингредиенты</Ingredients>
@@ -219,36 +161,37 @@
   <NotGrowingNow>Не растёт (должно быть {0}).</NotGrowingNow>
   <NotGrowingNowNight>Не растёт (ночь).</NotGrowingNowNight>
   <FullyGrownIn>Вырастет через {0}.</FullyGrownIn>
+  <OutOfIdealTemperatureRange>Вне комфортной температуры (скорость роста {0}%)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRangeNotGrowing>Вне комфортной температуры (не растёт)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Можно собирать.</ReadyToHarvest>
   <Mature>Полностью выросло.</Mature>
   <SeedLabel>{0} зерно</SeedLabel>
-  
+  <OutdoorGrowingPeriod>Период роста: {0}</OutdoorGrowingPeriod>
+  <NoGrowingPeriod>Никогда</NoGrowingPeriod>
+  <GrowYearRound>Круглый год</GrowYearRound>
+  <CannotGrowTooCold>Не может расти - слишком холодно.</CannotGrowTooCold>
+
   <!-- Zones -->
   <Zone>Зона</Zone>
   <GrowingZone>Посадки</GrowingZone>
   <Stockpile>Склад</Stockpile>
   <DumpingStockpile>Свалка</DumpingStockpile>
   <Priority>Приоритет</Priority>
+  <ClearAll>Очистить всё</ClearAll>
 
-  <!-- General time stuff -->
-  <DaysLower>дней</DaysLower>
-  <SecondsLower>секунд</SecondsLower>
-  
   <!-- Mouseover indicator -->
   <Undiscovered>Не разведано</Undiscovered>
-  
+
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Переключение видимости зон.</ZoneVisibilityToggleButton>
   <AutoHomeRegionToggleButton>Переключение автоматического добавления домашней области вокруг новых построек.</AutoHomeRegionToggleButton>
   <CategorizedResourceReadoutToggleButton>Переключение отображения количества ресурсов на складах.</CategorizedResourceReadoutToggleButton>
-
 
   <!-- Fire -->
   <Fire>Огонь</Fire>
   <FireOn>Огонь на {0}</FireOn>
   <Burning>Горит</Burning>
   <FireSizeLower>размер огня {0}</FireSizeLower>
-  
 
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Особые условия, влияющие на местность в данный момент.</MapConditionsTip>
@@ -261,26 +204,48 @@
   <MustPlaceHeadOnShipBeam>Должно быть размещено заголовьем рядом с центральной балкой корабля.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>Должно быть размещено рядом с чем-нибудь, что требует хоппера.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Должен быть размещён непосредственно на паровом гейзере.</MustPlaceOnSteamGeyser>
-  
-  <!-- Cryptosleep pod -->
-  <PodContains>Содержит</PodContains>
+  <MustPlaceCoolerWithFreeSpaces>И горячая и холодная стороны кондиционера должны быть открыты</MustPlaceCoolerWithFreeSpaces>
+
+  <!-- Wind Turbine -->
+  <WindTurbine_WindPathIsBlockedBy>Заблокировано </WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedByRoof>Заблокировано крышей</WindTurbine_WindPathIsBlockedByRoof>
+
+  <!-- Cryptosleep casket -->
+  <CasketContains>Содержит</CasketContains>
+  <CasketUnknownContents>Неизвестно</CasketUnknownContents>
+  <CasketWarning>Внимание!\n\nNAME - ваш последний колонист. Если вы посадите HIS в этот контейнер, вы, возможно, не сможете продолжить игру. Вы точно хотите сделать это?</CasketWarning>
 
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>Нельзя запустить.</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Готов к запуску.</ShipReportCanLaunch>
   <ShipReportMissingPart>Нет критически важных модулей</ShipReportMissingPart>
-  <ShipReportNoFullPods>Нет заполненных капсул крипто-сна.</ShipReportNoFullPods>
+  <ShipReportNoFullPods>Нет заполненных контейнеров крипто-сна.</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
   <UseNeurotrainer>Использовать нейротренер, чтобы выучить {0}</UseNeurotrainer>
   <NeurotrainerUsed>{0} использовал {1} нейротренер, чтобы перейти с уровня {2} на уровень {3}.</NeurotrainerUsed>
-  
-  
+
+  <!-- Minification -->
+  <Installed>Установлено</Installed>
+  <NotInstalled>Не установлено</NotInstalled>
+
+  <!-- Art -->
+  <Title>Название</Title>
+  <Untitled>Без названия</Untitled>
+
+  <!-- Unfinished thing -->
+  <UnfinishedItem>Незаконченная {0}</UnfinishedItem>
+  <UnfinishedItemWithStuff>Незаконченная {0} {1}</UnfinishedItemWithStuff>
+
+  <!-- Quality -->
+  <Quality>Качество</Quality>
+  <QualityDescription>Качество предмета отражает насколько хорошо он был сделан.</QualityDescription>
+  <QualityIs>Качество: {0}</QualityIs>
+
   <!-- Game over -->
   <GameOverEveryoneDead>Все либо мертвы, либо ушли. Эта история закончилась.\n\nВозможно, кто-то сможет найти этим руинам применение.</GameOverEveryoneDead>
-  <GameOverShipLaunched>Вы запустили корабль! Эти колонисты спаслись:\n\n{0}\nЭти колонисты остались позади:\n\n{1}\nВаш ИИ теперь будет пытаться направить корабль в безопасное место. Он может перевезти вас на лучшую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая лучшего исторического периода.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
+  <GameOverShipLaunched>Вы запустили корабль! Эти колонисты спаслись:\n\n{0}\nЭти колонисты остались позади:\n\n{1}\nВаш ИИ теперь будет пытаться направить корабль в безопасное место. Он может найти для вас процветающую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая пока кто-нибудь не выстроит здесь новый технологичный мир.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
   <GameOverKeepPlaying>Продолжить играть</GameOverKeepPlaying>
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
-  
-  
+
 </LanguageData>

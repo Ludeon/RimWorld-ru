@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-  
   <CallOnRadio>Связаться с {0}</CallOnRadio>
   <CannotUseSolarFlare>Невозможно использовать (солнечная вспышка)</CannotUseSolarFlare>
   <CannotUseNoPower>Невозможно использовать (нет энергии)</CannotUseNoPower>
   <CannotUseNoPath>Невозможно использовать (нельзя пройти)</CannotUseNoPath>
   <CannotUseReserved>Невозможно использовать (занято)</CannotUseReserved>
   <CannotUseFull>Невозможно использовать (заполнено)</CannotUseFull>
-  
+
   <FireAt>Стрелять в {0}</FireAt>
 
   <OutOfRange>вне зоны поражения</OutOfRange>
@@ -17,23 +15,22 @@
   <CannotFight>{0} не может сражаться</CannotFight>
 
   <OrderManThing>Занять {0}</OrderManThing>
-  
+
   <MeleeAttack>Ближний бой с {0}</MeleeAttack>
   <MeleeAttackToDeath>Добить {0} врукопашную</MeleeAttackToDeath>
   <NoPath>нет прохода</NoPath>
 
-	<ForbiddenLower>запрещено</ForbiddenLower>
-	<SociallyImproperLower>социально неадаптирован</SociallyImproperLower>
-	<PrisonerRoomLower>тюремное помещение</PrisonerRoomLower>
-	<BurningLower>горит</BurningLower>
-	<NoEmptyPlaceLower>нет свободного места, настроенного для хранения этого</NoEmptyPlaceLower>
-	<AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
-	<MissingMaterials>нужны материалы</MissingMaterials>
-	
-	
+  <ForbiddenLower>запрещено</ForbiddenLower>
+  <SociallyImproperLower>социально неадаптирован</SociallyImproperLower>
+  <PrisonerRoomLower>тюремное помещение</PrisonerRoomLower>
+  <BurningLower>горит</BurningLower>
+  <NoEmptyPlaceLower>нет свободного места, настроенного для хранения этого</NoEmptyPlaceLower>
+  <AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
+  <MissingMaterials>нужны материалы</MissingMaterials>
+
   <CannotGoNoPath>Невозможно пройти сюда (нет прохода)</CannotGoNoPath>
   <GoHere>Идти сюда</GoHere>
-  
+
   <Arrest>Арестовать {0}</Arrest>
   <CannotArrest>Невозможно арестовать</CannotArrest>
 
@@ -43,10 +40,14 @@
   <Rescue>Спасти {0}</Rescue>
   <CannotRescue>Невозможно спасти</CannotRescue>
 
+  <CarryToCryptosleepCasket>Перенести {0} в контейнер крипто-сна</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Невозможно перенести в контейнер крипто-сна</CannotCarryToCryptosleepCasket>
+
+  <NoCryptosleepCasket>Нет доступных контейнеров крипто-сна.</NoCryptosleepCasket>
   <NoPrisonerBed>Нет доступных кроватей для заключённых.</NoPrisonerBed>
   <NoNonPrisonerBed>Нет доступных кроватей для колонистов.</NoNonPrisonerBed>
   <Reserved>Занято кем-то другим.</Reserved>
-  <ReservedBy>Занято {0}.</ReservedBy>
+  <ReservedBy>Занято {0}</ReservedBy>
   <IsReservedBy>{0} занято {1}.</IsReservedBy>
 
   <NoManipulationSkill>неспособен</NoManipulationSkill>
@@ -54,31 +55,35 @@
   <Equip>Экипировать {0}</Equip>
   <EquipWarningBrawler>(дебошир будет недоволен)</EquipWarningBrawler>
   <CannotEquip>Невозможно экипировать {0}</CannotEquip>
-  
+
   <Wear>Надеть {0}</Wear>
   <CannotWear>Невозможно надеть {0}</CannotWear>
-  
+
   <Strip>Раздеть {0}</Strip>
   <CannotStrip>Невозможно раздеть {0}</CannotStrip>
 
   <Deposit>Положить {0} в {1}</Deposit>
   <CannotDeposit>Невозможно положить {0} в {1}</CannotDeposit>
 
+  <SelfDestructHere>Самоуничтожиться здесь</SelfDestructHere>
+
   <Drop>Бросить {0}</Drop>
-  
+
   <UseMedicalBed>Отдых до полного восстановления</UseMedicalBed>
   <NotInjured>Не ранен</NotInjured>
   <SomeoneElseSleeping>Спит кто-то ещё</SomeoneElseSleeping>
 
   <!-- Specific thing interactions -->
-  <EnterCryptosleepPod>Войти в капсулу криптосна</EnterCryptosleepPod>
-  
-  
-  
+  <EnterCryptosleepCasket>Войти в контейнер крипто-сна</EnterCryptosleepCasket>
+  <OpenCryptosleepCasket>Открыть контейнер крипто-сна</OpenCryptosleepCasket>
+
+
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>Невозможно {0} {1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <CannotMissingHealthActivities>Сейчас нельзя (Проблема со здоровьем: {0})</CannotMissingHealthActivities>
+
   <CannotGenericAlreadyAm>Уже {0} {1}</CannotGenericAlreadyAm>
 
   <CannotPrioritizeIsNotA>Сейчас нельзя ({0} не {1})</CannotPrioritizeIsNotA>
@@ -89,5 +94,5 @@
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Немедленно {0} {1}</PrioritizeGeneric>
-  
+
 </LanguageData>

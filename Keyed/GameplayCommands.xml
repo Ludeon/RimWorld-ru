@@ -15,15 +15,15 @@
   <CommandGatherSpotToggleLabel>Место сбора</CommandGatherSpotToggleLabel>
   <CommandGatherSpotToggleDescActive>Активно - колонисты будут собираться рядом.</CommandGatherSpotToggleDescActive>
   <CommandGatherSpotToggleDescInactive>Неактивно - колонисты не будут собираться рядом.</CommandGatherSpotToggleDescInactive>
-  
-  
+
+
   <!-- Drafting -->
   <CommandDraftLabel>К бою!</CommandDraftLabel>
   <CommandUndraftLabel>Роспуск</CommandUndraftLabel>
   <CommandToggleDraftDesc>Переключение в боевой режим.\n\nВ этом режиме колонисты получают приказы и сражаются. Они не будут работать, есть или отдыхать.</CommandToggleDraftDesc>
   <IsIncapped>{0} выведен из строя.</IsIncapped>
 
-  
+
   <CommandCancelConstructionLabel>Отменить</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Отмена строительства.</CommandCancelConstructionDesc>
 
@@ -46,8 +46,8 @@
   <TurningOffPrisonerBedWarning>Выключение режима для заключённых повлияет на всю комнату (колонисты и заключённые не могут спать в одной комнате).\n\nЭти люди потеряют права на свои кровати:</TurningOffPrisonerBedWarning>
   <AreYouSure>Вы уверены, что хотите сделать это?</AreYouSure>
 
-  
-  
+
+
   <CommandDetonateDesc>Начать отсчёт к детонации.</CommandDetonateDesc>
   <CommandDetonateLabel>Подорвать</CommandDetonateLabel>
 
@@ -60,8 +60,8 @@
 
   <CommandDeleteZoneDesc>Удалить зону.</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>Удалить</CommandDeleteZoneLabel>
-  
-  
+
+
   <!-- Artillery -->
   <CommandSetForceAttackTarget>Выбрать цель обстрела</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Устанавливает цель, которую эта турель будет атаковать непрерывно до тех пор, пока это будет возможно.</CommandSetForceAttackTargetDesc>
@@ -70,8 +70,8 @@
   <CommandStopAttackFailNotForceAttacking>Сейчас невозможно остановить обстрел.</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>Цель слишком далеко.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Цель слишком близко.</MessageTargetBelowMinimumRange>
-  
-  
+
+
   <!-- Ship computer core -->
   <CommandShipLaunch>Запустить корабль</CommandShipLaunch>
   <CommandShipLaunchDesc>Запустить корабль с текущей конфигурацией.</CommandShipLaunchDesc>
@@ -83,10 +83,19 @@
   <CommandPodEject>Извлечь спящего</CommandPodEject>
   <CommandPodEjectDesc>Разбудить спящего и вытащить его.</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>Внутри никого.</CommandPodEjectFailEmpty>
-  
+
   <!-- Door -->
   <CommandToggleDoorLock>Переключить блокировку</CommandToggleDoorLock>
   <CommandToggleDoorLockDesc>Заблокировать либо разблокировать дверь. Заблокированные двери не открываются ни для кого.</CommandToggleDoorLockDesc>
 
+  <!-- Temperature control -->
+  <CommandResetTemp>Сброс</CommandResetTemp>
+  <CommandResetTempDesc>Задать температуру комнаты.</CommandResetTempDesc>
+  <CommandRaiseTempDesc>Повысить заданную температуру.</CommandRaiseTempDesc>
+  <CommandLowerTempDesc>Понизить заданную температуру.</CommandLowerTempDesc>
+
+  <!-- Art -->
+  <CommandInstall>Установить</CommandInstall>
+  <CommandInstallDesc>Этот предмет упакован для хранения и транспортировки. Используйте эту команду для установки предмета, чтобы его могли видеть или использовать.</CommandInstallDesc>
 
 </LanguageData>

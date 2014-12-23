@@ -4,7 +4,7 @@
   <Confirm>Подтвердить</Confirm>
   <GoBack>Вернуться</GoBack>
   <OK>OK</OK>
-  
+
   <!-- Save/load -->
   <SaveGameButton>Сохранить</SaveGameButton>
   <OverwriteButton>Перезаписать</OverwriteButton>
@@ -14,8 +14,8 @@
   <SavedAs>Сохранено как {0}.</SavedAs>
   <NeedAName>Пожалуйста, введите название.</NeedAName>
   <LoadingLongEvent>Загрузка...</LoadingLongEvent>
-  
-    <!-- Colony naming-->
+
+  <!-- Colony naming-->
   <NameColonyMessage>Все знают, что вы не хотите застрять в этой дыре надолго. Но {0} всё же предлагает дать название колонии.\n\nТак как она должна называться?</NameColonyMessage>
   <ColonyGainsName>Теперь колония известна как {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Это имя для колонии недопустимо.</ColonyNameIsInvalid>
@@ -23,14 +23,14 @@
   <!-- Zone naming -->
   <ZoneGainsName>Теперь эта зона называется {0}.</ZoneGainsName>
   <ZoneNameIsInvalid>Пожалуйста, введите допустимое название зоны.</ZoneNameIsInvalid>
-  
+
   <!-- Pawn naming -->
   <PawnGainsName>Прозвище колониста теперь {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
   <SaveGameIncompatibleWarningText>Несовпадение версий: карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\n Загрузка сохранения, вероятно, вызовет ошибки и сбои.</SaveGameIncompatibleWarningText>
   <SaveGameIncompatibleWarningTitle>Несовместимость сохранения</SaveGameIncompatibleWarningTitle>
-  
+
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Вы изменили настройки экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Сохранить</ResolutionKeep>
@@ -46,15 +46,18 @@
   <Finished>Завершено</Finished>
   <InProgress>В процессе</InProgress>
   <ResearchMenuWithoutBench>Пока вы не построите исследовательский стол, ваши колонисты не смогут приступить к исследованиям.\n\nТем не менее, вы всё равно можете посмотреть и выбрать исследовательский проект прямо сейчас.</ResearchMenuWithoutBench>
-    
+
   <!-- Advanced game start options -->
-  <MapSizePerformanceWarning>ВНИМАНИЕ: производительность может снизиться при больших размерах карты, если ваш компьютер недостаточно мощный.\n\nЕсли у вас слабая машина, выберите "Маленькая"\n\nОгромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>ВНИМАНИЕ: производительность может снизиться при больших размерах карты. Огромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>ВНИМАНИЕ: вы приземлитесь в заморозки. Выживание там может быть очень сложным или нереальным. Если вы не хотите бросать себе экстремальный вызов, выберите другое место или месяц.</MapTemperatureDangerWarning>
   <MapSize>Размер карты</MapSize>
   <MapSizeDesc>{0}x{0} ({1} квадратов)</MapSizeDesc>
   <MapSizeSmall>Маленькая</MapSizeSmall>
   <MapSizeMedium>Средняя</MapSizeMedium>
   <MapSizeLarge>Большая</MapSizeLarge>
   <MapSizeExtreme>Огромная</MapSizeExtreme>
+  <MapStartMonth>Начальный месяц:</MapStartMonth>
+  <MapStartMonthDefault>Авто</MapStartMonthDefault>
 
   <!-- Bill config -->
   <Suspended>Продолжить</Suspended>
@@ -67,8 +70,10 @@
   <Infinite>Бесконечно</Infinite>
   <RecipeCannotHaveTargetCount>(Это задание нельзя повторять, так как результат может быть разным.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Разрешённые ингредиенты</PermittedIngredients>
+  <WorkAmount>Объем работ</WorkAmount>
   <MinimumSkills>Минимальные навыки:</MinimumSkills>
   <BillRequires>Требуется {0} {1}</BillRequires>
+  <BillRequiresMayVary>(Количества могут измениться в зависимости от материала.)</BillRequiresMayVary>
   <UsableIngredients>пригодные ингредиенты</UsableIngredients>
   <DoXTimes>Сделать X раз</DoXTimes>
   <DoUntilYouHaveX>Повторять до X</DoUntilYouHaveX>
@@ -77,15 +82,8 @@
   <BillStoreMode_DropOnFloor>Положить на пол</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>Принести на лучший склад</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>Принести на ближайший склад</BillStoreMode_NearestStockpileAnyPriority>
-  
-  <!-- Def Card -->
-  <Type>Тип</Type>
-  <GunType>Оружие</GunType>
-  <PlantType>Растение</PlantType>
-  <FoodType>Пища</FoodType>
-  <HumanType>Люди</HumanType>
-  <AnimalType>Животные</AnimalType>
-  <MechanoidType>Механоиды</MechanoidType>
+
+  <!-- Info card -->
   <Damage>Урон</Damage>
   <Accuracy>Точность</Accuracy>
   <BurstShotCount>Выстрелов</BurstShotCount>
@@ -110,11 +108,10 @@
   <MinFoodQuality>Мин. тип еды</MinFoodQuality>
   <Diet>Образ жизни</Diet>
   <RecruitDifficulty>Сложность вербовки</RecruitDifficulty>
-  <baseMarketValue>Базовая цена</baseMarketValue>
+  <MarketValue>Базовая цена</MarketValue>
   <Covers>Покрывает</Covers>
-  <NaturalArmorCovers>Естественная броня</NaturalArmorCovers>
   <BodyPartEfficiency>Эффективность части тела</BodyPartEfficiency>
-  
+
   <!-- Trade -->
   <DragToTrade>Тяните для торговли</DragToTrade>
   <BuyPriceDesc>Цена, которую вы платите для покупки.</BuyPriceDesc>
@@ -134,23 +131,10 @@
   <!-- Comms -->
   <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
 
-  <!-- Stats report -->
-  <StatsReport_BaseValue>Базовое значение</StatsReport_BaseValue>
-  <StatsReport_RelevantTraits>Влияющие черты</StatsReport_RelevantTraits>
-  <StatsReport_RelevantGear>Влияющие вещи</StatsReport_RelevantGear>
-  <StatsReport_Material>Материал</StatsReport_Material>
-  <StatsReport_CharacterQuality>Черты характера</StatsReport_CharacterQuality>
-  <StatsReport_Skills>Факторы навыков</StatsReport_Skills>
-  <StatsReport_OtherStats>Остальные факторы</StatsReport_OtherStats>
-  <StatsReport_HealthFactors>Факторы здоровья</StatsReport_HealthFactors>
-  <HealthFactorPercentImpact>{0} важность</HealthFactorPercentImpact>
-  <StatsReport_PostProcessed>Пост-обработка кривыми</StatsReport_PostProcessed>
-  <StatsReport_FinalValue>Итого</StatsReport_FinalValue>
-  
   <!--Research-->
   <ResearchFinished>Исследование завершено: {0}</ResearchFinished>
   <ResearchScreen>Экран исследований</ResearchScreen>
-  
+
   <!--HistoryUpload-->
   <HistoryUploadMessage>Вы хотите загрузить свои записи геймплея на сервер RimWorld для того, чтобы помочь разработчикам сбалансировать игру? Если вы согласны, ваши записи будут загружаться каждые {0} дней (и в некоторых редких случаях, например в конце игры). Настройки приватности могут быть изменены позже в меню настроек.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Несмотря на то, что записи анонимны, вы можете оставить своё имя.</HistoryUploadMessagePlayerName>
@@ -158,5 +142,5 @@
   <HistoryUploadNo>Не разрешать загрузку геймплейных данных</HistoryUploadNo>
   <HistoryUploadYesOnce>Загрузить только в этот раз</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>В этот раз не загружать, спросить позже</HistoryUploadNoOnce>
-  
+
 </LanguageData>
