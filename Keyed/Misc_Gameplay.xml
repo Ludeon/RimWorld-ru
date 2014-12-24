@@ -20,18 +20,19 @@
   <Adapted>Устойчив</Adapted>
   <Headshot>В голову</Headshot>
   <FreshMissingBodyPart>недавно</FreshMissingBodyPart>
-  <UntreatedLower>невылечен</UntreatedLower>
-  <RecoveringDiseaseLower>восстановление</RecoveringDiseaseLower>
+  <UntreatedLower>невылечено</UntreatedLower>
+  <DevelopedImmunityLower>выработан иммунитет</DevelopedImmunityLower>
   <InjuryRequiresTreatment>требует лечения для исцеления</InjuryRequiresTreatment>
   <NextTreatmentAfter>Следующее лечение через {0} дней</NextTreatmentAfter>
   <MissingMedicalBillIngredient>нет {0}</MissingMedicalBillIngredient>
-  <ImmunityDevelopmentProgress>прогресс выработки иммунитета</ImmunityDevelopmentProgress>
+  <ImmunityDevelopmentProgress>Выработка иммунитета</ImmunityDevelopmentProgress>
   <Race>Раса</Race>
   <Description>Описание</Description>
+  <Equipment>Вооружение</Equipment>
   <Apparel>Одежда</Apparel>
-	<Inventory>Инвентарь</Inventory>
-	<ThingInfo>Информация</ThingInfo>
-	<DropThing>Выкинуть</DropThing>
+  <Inventory>Инвентарь</Inventory>
+  <ThingInfo>Информация</ThingInfo>
+  <DropThing>Выкинуть</DropThing>
   <RenameColonist>Переименовать</RenameColonist>
   <UnknownLower>неизвестно</UnknownLower>
 
@@ -48,28 +49,28 @@
   <CanFireIn>Перезарядка через</CanFireIn>
 
   <!-- Job reports -->
-	<ReportHaulingTo>Несёт {0} на {1}.</ReportHaulingTo>
-	<ReportHauling>Несёт {0}.</ReportHauling>
-	<ReportSleeping>Спит.</ReportSleeping>
-	<ReportResting>Отдыхает.</ReportResting>
+  <ReportHaulingTo>Несёт {0} на {1}.</ReportHaulingTo>
+  <ReportHauling>Несёт {0}.</ReportHauling>
+  <ReportSleeping>Спит.</ReportSleeping>
+  <ReportResting>Отдыхает.</ReportResting>
 
-	<!-- Shooting report -->
-	<WeaponMissRadius>Разброс оружия</WeaponMissRadius>
-	<ShootReportShooterAbility>Стрелок</ShootReportShooterAbility>
-	<ShootReportWeapon>Оружие</ShootReportWeapon>
-	<Darkness>Темнота</Darkness>
-	<TargetProne>Восприимчивость</TargetProne>
-	<TargetSize>Размер цели</TargetSize>
-	<Weather>Погода</Weather>
-	<ShootingCover>Укрытие</ShootingCover>
-	<CoverThingBlocksPercentOfShots>{0} блокирует {1}</CoverThingBlocksPercentOfShots>
-	<NoCoverLower>нет укрытия</NoCoverLower>
+  <!-- Shooting report -->
+  <WeaponMissRadius>Разброс оружия</WeaponMissRadius>
+  <ShootReportShooterAbility>Стрелок</ShootReportShooterAbility>
+  <ShootReportWeapon>Оружие</ShootReportWeapon>
+  <Darkness>Темнота</Darkness>
+  <TargetProne>Восприимчивость</TargetProne>
+  <TargetSize>Размер цели</TargetSize>
+  <Weather>Погода</Weather>
+  <ShootingCover>Укрытие</ShootingCover>
+  <CoverThingBlocksPercentOfShots>{0} блокирует {1}</CoverThingBlocksPercentOfShots>
+  <NoCoverLower>нет укрытия</NoCoverLower>
 
   <!-- Generated recipes -->
   <RecipeMake>Сделать {0}</RecipeMake>
   <RecipeMakeJobString>Делает {0}.</RecipeMakeJobString>
 
-	<!-- Status levels -->
+  <!-- Status levels -->
   <Mood>Настроение</Mood>
   <MoodTip>Настроение зависит от осуществления физических и психологических потребностей.\n\nЕсли чьё-то настроение становится слишком низким, они могут страдать от нервных срывов.</MoodTip>
   <Food>Сытость</Food>
@@ -82,7 +83,7 @@
 
   <!-- Thoughts -->
   <ThoughtExpiresIn>Истечёт через: {0}</ThoughtExpiresIn>
-  <ThoughtStartsExpiringIn>Начнет истекать через: {0}</ThoughtStartsExpiringIn>
+  <ThoughtStartsExpiringIn>Начнёт истекать через: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Закончится через: {0}</ThoughtFinishesExpiringIn>
   <MentalBreakThreshold>Порог нервного срыва</MentalBreakThreshold>
 
@@ -98,7 +99,7 @@
   <Incapacitated>Выведен из строя</Incapacitated>
   <InRestraints>В плену (задержан)</InRestraints>
   <Carrying>Переносит</Carrying>
-  <SanityDazedWander>Сломлен: ошеломлен и блуждает</SanityDazedWander>
+  <SanityDazedWander>Сломлен: ошеломлён и блуждает</SanityDazedWander>
   <SanityGiveUpExit>Сломлен: сдался и уходит</SanityGiveUpExit>
   <SanityPanicFlee>Сломлен: спасается в панике</SanityPanicFlee>
   <SanityPsychotic>Сломлен: обезумел</SanityPsychotic>
@@ -107,10 +108,10 @@
   <SelectNextInSquareTip>Выбрать другой предмет на той же клетке.\n\nКлавиша: {0}\n\nВы также можете сделать это, медленно нажимая по той же клетке снова.</SelectNextInSquareTip>
   <DefInfoTip>Просмотр информации о данном объекте.</DefInfoTip>
 
-	<!-- like 'Blood of John' -->
+  <!-- like 'Blood of John' -->
   <OfLower></OfLower>
 
-	<!-- Power readout -->
+  <!-- Power readout -->
   <PowerNotConnected>Не подключено к сети.</PowerNotConnected>
   <PowerConnectedRateStored>Мощность сети/аккумулировано: {0} Вт / {1} Вт*дней</PowerConnectedRateStored>
   <PowerNeeded>Потребляемая мощность</PowerNeeded>
@@ -128,7 +129,7 @@
   <Indoors>Внутри</Indoors>
   <Outdoors>Снаружи</Outdoors>
 
-	<!--Rotting-->
+  <!--Rotting-->
   <RotStateFresh>Свежее</RotStateFresh>
   <RotStateRotting>Загнивающее</RotStateRotting>
   <RotStateDessicated>Засохло</RotStateDessicated>
@@ -152,7 +153,6 @@
   <OverADecade>больше 10 лет</OverADecade>
 
   <!-- Meal -->
-  <TimeToSpoil>Испортится через {0}</TimeToSpoil>
   <Ingredients>Ингредиенты</Ingredients>
 
   <!-- Plants -->
@@ -234,8 +234,8 @@
   <Untitled>Без названия</Untitled>
 
   <!-- Unfinished thing -->
-  <UnfinishedItem>Незаконченная {0}</UnfinishedItem>
-  <UnfinishedItemWithStuff>Незаконченная {0} {1}</UnfinishedItemWithStuff>
+  <UnfinishedItem>Незак. {0}</UnfinishedItem>
+  <UnfinishedItemWithStuff>Незак. {1} из {0}</UnfinishedItemWithStuff>
 
   <!-- Quality -->
   <Quality>Качество</Quality>
