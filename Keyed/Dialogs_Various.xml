@@ -80,8 +80,8 @@
   <DoForever>Бесконечно</DoForever>
   <BillRepeatTargetCountShort>До {0}</BillRepeatTargetCountShort>
   <BillStoreMode_DropOnFloor>Положить на пол</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>Принести на лучший склад</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>Принести на ближайший склад</BillStoreMode_NearestStockpileAnyPriority>
+  <BillStoreMode_BestStockpile>Отнести на лучший склад</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Отнести на ближайший склад</BillStoreMode_NearestStockpileAnyPriority>
 
   <!-- Info card -->
   <Damage>Урон</Damage>
@@ -114,19 +114,19 @@
 
   <!-- Trade -->
   <DragToTrade>Тяните для торговли</DragToTrade>
-  <BuyPriceDesc>Цена, которую вы платите для покупки.</BuyPriceDesc>
-  <SellPriceDesc>Цена, которую вы получаете после продажи.</SellPriceDesc>
-  <PriceTypeDesc>Для данного предмета это {0} цена.</PriceTypeDesc>
-  <ColonyCount>Количество данного предмета, которое есть у колонии на продажу.\n\nВы можете продавать предметы орбитальным торговцам только если они находятся не под крышей и около маяка орбитальной торговли.</ColonyCount>
-  <TraderCount>Количество данного предмета, которое есть у торговца на продажу.</TraderCount>
+  <BuyPriceDesc>Цена, по которой можно купить товар.</BuyPriceDesc>
+  <SellPriceDesc>Цена, по которой можно продать товар.</SellPriceDesc>
+  <PriceTypeDesc>Для данного товара это {0} цена.</PriceTypeDesc>
+  <ColonyCount>Количество товара, которое есть на продажу у колонии.\n\nПродавать товары орбитальным торговцам можно, только если они находятся около торгового маяка и не под крышей.</ColonyCount>
+  <TraderCount>Количество товара, которое есть на продажу у торговца.</TraderCount>
   <AcceptButton>Принять</AcceptButton>
   <ResetButton>Сбросить</ResetButton>
   <CancelButton>Отменить</CancelButton>
   <YourTradeableSilver>Серебра для торговли: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Вы можете торговать только тем серебром, которое расположено недалеко от маяка орбитальной торговли и находится не под крышей.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Вы можете торговать только тем серебром, которое находится рядом с торговым маяком и не под крышей.</YourTradeableSilverTip>
   <TraderHasNoMore>У торговца нет больше.</TraderHasNoMore>
   <ColonyHasNoMore>Больше нет на продажу.</ColonyHasNoMore>
-  <TraderWillNotTrade>Торговец не желает торговать этим предметом.</TraderWillNotTrade>
+  <TraderWillNotTrade>Торговец не желает торговать этим товаром.</TraderWillNotTrade>
 
   <!-- Comms -->
   <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
@@ -136,10 +136,10 @@
   <ResearchScreen>Экран исследований</ResearchScreen>
 
   <!--HistoryUpload-->
-  <HistoryUploadMessage>Вы хотите загрузить свои записи геймплея на сервер RimWorld для того, чтобы помочь разработчикам сбалансировать игру? Если вы согласны, ваши записи будут загружаться каждые {0} дней (и в некоторых редких случаях, например в конце игры). Настройки приватности могут быть изменены позже в меню настроек.</HistoryUploadMessage>
+  <HistoryUploadMessage>Хотите загрузить записи своей игры на сервер RimWorld, чтобы помочь разработчикам в настройке баланса? Если да, ваши записи будут загружаться каждые {0} дней (и в некоторых редких случаях, например, в конце игры). Параметры приватности можно изменить позже в меню настроек.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Несмотря на то, что записи анонимны, вы можете оставить своё имя.</HistoryUploadMessagePlayerName>
-  <HistoryUploadYes>Разрешить загрузку геймплейных данных</HistoryUploadYes>
-  <HistoryUploadNo>Не разрешать загрузку геймплейных данных</HistoryUploadNo>
+  <HistoryUploadYes>Разрешить загрузку игровых данных</HistoryUploadYes>
+  <HistoryUploadNo>Запретить загрузку игровых данных</HistoryUploadNo>
   <HistoryUploadYesOnce>Загрузить только в этот раз</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>В этот раз не загружать, спросить позже</HistoryUploadNoOnce>
 

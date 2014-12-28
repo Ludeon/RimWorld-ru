@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <!-- =========== Еда ===============-->
+
   <rep>
     <path>AteRawFood.stages[0].label</path>
     <trans>съел сырую пищу</trans>
   </rep>
   <rep>
     <path>AteRawFood.stages[0].description</path>
-    <trans>Мне пришлось питаться сырыми продуктами. Мы можем готовить или, хотя бы, синтезировать питательную пасту?</trans>
+    <trans>Мне пришлось есть сырые продукты. Разве мы не можем их приготовить или, хотя бы, синтезировать питательную пасту?</trans>
   </rep>
 
   <rep>
@@ -16,28 +18,28 @@
   </rep>
   <rep>
     <path>AteNutrientPasteMeal.stages[0].description</path>
-    <trans>Я должен был съесть питательную пасту. Я знаю, что это поможет мне остаться в живых, но никто не захочет глотать эту бурду.</trans>
+    <trans>Пришлось есть питательную пасту. Я знаю, что она помогает не умереть от голода, но кому нравится глотать эту бурду?</trans>
   </rep>
 
   <rep>
     <path>AteFineMeal.stages[0].label</path>
-    <trans>съел хорошую еду</trans>
+    <trans>съел хорошее блюдо</trans>
   </rep>
   <rep>
     <path>AteFineMeal.stages[0].description</path>
-    <trans>Я съел по-настоящему вкусное блюдо. Ням-ням!</trans>
+    <trans>По-настоящему вкусное блюдо. Ням-ням!</trans>
   </rep>
 
   <rep>
     <path>AteLavishMeal.stages[0].label</path>
-    <trans>съел роскошную еду</trans>
+    <trans>съел шикарное блюдо</trans>
   </rep>
   <rep>
     <path>AteLavishMeal.stages[0].description</path>
-    <trans>Роскошное пиршество было просто удивительно. Оно питает мое тело и душу.</trans>
+    <trans>Роскошное, удивительное блюдо! Оно питает мое тело и душу.</trans>
   </rep>
 
-	<!-- =========== Cannibalism ===============-->
+  <!-- =========== Канибализм ===============-->
 
   <rep>
     <path>AteHumanoidMeatDirect.stages[0].label</path>
@@ -45,7 +47,7 @@
   </rep>
   <rep>
     <path>AteHumanoidMeatDirect.stages[0].description</path>
-    <trans>Я съел мясо другого человека, сырым, как животное. Это кошмар.</trans>
+    <trans>Я съел мясо другого человека, сырым, как зверь. Какой кошмар!</trans>
   </rep>
 
   <rep>
@@ -63,7 +65,7 @@
   </rep>
   <rep>
     <path>AteHumanoidMeatDirectCannibal.stages[0].description</path>
-    <trans>Я съел мясо другого человека, сырым, как животное. Это было так... сочно.</trans>
+    <trans>Я съел мясо другого человека, сырым, как зверь. Оно было такое... сочное.</trans>
   </rep>
 
   <rep>
@@ -72,8 +74,10 @@
   </rep>
   <rep>
     <path>AteHumanoidMeatAsIngredientCannibal.stages[0].description</path>
-    <trans>Я съел блюдо, приготовленное из мяса другого человека. Такое удовольствие. Если бы только у меня было немного бобов и хорошее кьянти.</trans>
+    <trans>Я съел блюдо, приготовленное из мяса другого человека. Такое вкусно! Если бы только у меня было немного бобов и хорошее кьянти.</trans>
   </rep>
+
+  <!-- =========== Еда - другое ===============-->
 
   <rep>
     <path>ButcheredHumanoidCorpse.stages[0].label</path>
@@ -81,7 +85,7 @@
   </rep>
   <rep>
     <path>ButcheredHumanoidCorpse.stages[0].description</path>
-    <trans>Я только что разделал кого-то будто животное.</trans>
+    <trans>Я только что разделал человека будто животное.</trans>
   </rep>
 
   <rep>
@@ -90,10 +94,10 @@
   </rep>
   <rep>
     <path>AteWithoutTable.stages[0].description</path>
-    <trans>Мне пришлось есть еду на земле. Не могли бы мы сделать стол?</trans>
+    <trans>Мне пришлось есть прямо на земле. Не могли бы мы сделать стол?</trans>
   </rep>
 
-	<!-- Combat -->
+  <!-- =========== Боевое ===============-->
 
   <rep>
     <path>ObservedLayingCorpse.stages[0].label</path>
@@ -110,7 +114,7 @@
   </rep>
   <rep>
     <path>ObservedLayingRottingCorpse.stages[0].description</path>
-    <trans>Я видел гниющий труп, лежащий на земле. Это было отвратительно.</trans>
+    <trans>Я видел гниющий труп... Отвратительно.</trans>
   </rep>
 
   <rep>
@@ -119,7 +123,7 @@
   </rep>
   <rep>
     <path>WitnessedDeathAlly.stages[0].description</path>
-    <trans>Я видел как один из наших умер. Еще мгновение назад он был жив, и через секунду он мертв.</trans>
+    <trans>Один из наших умер. Еще мгновение назад он был жив, и через секунду - мертв.</trans>
   </rep>
 
   <rep>
@@ -128,7 +132,7 @@
   </rep>
   <rep>
     <path>WitnessedDeathStranger.stages[0].description</path>
-    <trans>Я видел как кто-то умер. Еще мгновение назад он был жив, и через секунду он мертв.</trans>
+    <trans>Я видел смерть человека. Еще мгновение назад он был жив, и через секунду уже мертв.</trans>
   </rep>
 
   <rep>
@@ -137,7 +141,7 @@
   </rep>
   <rep>
     <path>WitnessedDeathStrangerBloodlust.stages[0].description</path>
-    <trans>Я видел как кто-то умер! Это было захватывающе!</trans>
+    <trans>Я видел как кто-то умер! Вот это было зрелище!</trans>
   </rep>
 
   <rep>
@@ -146,7 +150,7 @@
   </rep>
   <rep>
     <path>KilledHumanoidBloodlust.stages[0].description</path>
-    <trans>Я убил кого-то! Вот это раж!</trans>
+    <trans>Я убил человека! Вот это раж!</trans>
   </rep>
 
   <rep>
@@ -155,16 +159,18 @@
   </rep>
   <rep>
     <path>BattleWounded.stages[0].description</path>
-    <trans>Это моя кровь! Я был ранен в бою!</trans>
+    <trans>Это же моя кровь! Меня ранили в бою!</trans>
   </rep>
+
+  <!-- =========== Оптимизм колонии ===============-->
 
   <rep>
     <path>NewColonyOptimism.stages[0].label</path>
-    <trans>оптимизм новой колонии</trans>
+    <trans>оптимизм колониста</trans>
   </rep>
   <rep>
     <path>NewColonyOptimism.stages[0].description</path>
-    <trans>Мы только что приземлились здесь. Это трудная ситуация, но мне очень интересно основать новую колонию.</trans>
+    <trans>Мы только что приземлились. Ситуация трудная, но мне очень интересно основать новую колонию.</trans>
   </rep>
 
   <rep>
@@ -173,8 +179,10 @@
   </rep>
   <rep>
     <path>NewColonyHope.stages[0].description</path>
-    <trans>Я привыкаю к такому положению дел, и это все еще интересно. Я надеюсь, что это не надолго...</trans>
+    <trans>Понемногу привыкаю к такому положению дел, но интерес пока не пропал. Надеюсь, так будет и дальше...</trans>
   </rep>
+
+  <!-- =========== Сон ===============-->
 
   <rep>
     <path>SleptOutside.stages[0].label</path>
@@ -182,7 +190,7 @@
   </rep>
   <rep>
     <path>SleptOutside.stages[0].description</path>
-    <trans>Мне пришлось спать на открытом воздухе, без всякой защиты от врагов.</trans>
+    <trans>Мне пришлось спать на открытом воздухе, безо всякой защиты.</trans>
   </rep>
 
   <rep>
@@ -191,7 +199,7 @@
   </rep>
   <rep>
     <path>SleptOnGround.stages[0].description</path>
-    <trans>Пришлось спать на земле, как животное.</trans>
+    <trans>Пришлось спать на земле, будто животное.</trans>
   </rep>
 
   <rep>
@@ -212,13 +220,15 @@
     <trans>Мне пришлось спать в неперемосимую жару. Может мы поставим кондиционер?</trans>
   </rep>
 
+  <!-- =========== Заключённые ===============-->
+
   <rep>
     <path>KnowPrisonerSold.stages[0].label</path>
     <trans>заключённый был продан</trans>
   </rep>
   <rep>
     <path>KnowPrisonerSold.stages[0].description</path>
-    <trans>Эта колония продает заключённых в рабство. Это тревожный сигнал.</trans>
+    <trans>Колония продает заключённых в рабство. Это тревожный сигнал.</trans>
   </rep>
 
   <rep>
@@ -227,7 +237,7 @@
   </rep>
   <rep>
     <path>KnowPrisonerExecuted.stages[0].description</path>
-    <trans>Заключённый был хладнокровно убит. Эта колония становится хуже день ото дня.</trans>
+    <trans>Они хладнокровно казнили заключенного. Население колонии становится всё более жестоким.</trans>
   </rep>
 
   <rep>
@@ -263,8 +273,10 @@
   </rep>
   <rep>
     <path>PrisonerFriendlyChat.stages[0].description</path>
-    <trans>Охранник и я разговаривали о колонии. По его словам это хорошее место...</trans>
+    <trans>Надзиратель рассказывал мне о колонии. Похоже, это хорошее место...</trans>
   </rep>
+
+  <!-- =========== Общение ===============-->
 
   <rep>
     <path>SocialTalk.stages[0].label</path>
@@ -281,8 +293,10 @@
   </rep>
   <rep>
     <path>AbrasiveTalk.stages[0].description</path>
-    <trans>Кто-то был груб со мной. Самое плохое, что, по-моему, этот человек даже не осознал этого...</trans>
+    <trans>Мне нагрубили. И самое плохое, что, по-моему, человек даже не осознал этого...</trans>
   </rep>
+
+  <!-- =========== Разное ===============-->
 
   <rep>
     <path>GreenThumbHappy.stages[0].label</path>
@@ -290,7 +304,7 @@
   </rep>
   <rep>
     <path>GreenThumbHappy.stages[0].description</path>
-    <trans>Больше растений - это то, что нужно миру.</trans>
+    <trans>Растения спасут мир!</trans>
   </rep>
 
   <rep>
