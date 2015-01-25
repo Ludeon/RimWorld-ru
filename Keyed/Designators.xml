@@ -18,8 +18,7 @@
 
   <DesignatorHaulThings>Убрать</DesignatorHaulThings>
   <DesignatorHaulThingsDesc>Отметить куски породы и другие объекты для переноса на свалку. Не требуется для предметов вроде еды или трупов, которые всегда переносимы.</DesignatorHaulThingsDesc>
-  <NothingToHaulHere>Здесь нечего убирать.</NothingToHaulHere>
-  <MustHaulHaulables>Возможно обозначать переносимыми только неавтоматические предметы (например, куски породы).</MustHaulHaulables>
+  <MustHaulHaulables>Можно отметить переносимые, но не автоматически собираемые предметы (например, обломки скалы).</MustHaulHaulables>
 
   <DesignatorHunt>Охотиться</DesignatorHunt>
   <DesignatorHuntDesc>Отметить животных для ваших охотников.</DesignatorHuntDesc>
@@ -28,7 +27,7 @@
   <DesignatorMineDesc>Обозначить скалы для проведения горных работ.</DesignatorMineDesc>
 
   <DesignatorSmoothFloor>Выровнять пол</DesignatorSmoothFloor>
-  <DesignatorSmoothFloorDesc>Обозначить каменный пол для выравнивания.</DesignatorSmoothFloorDesc>
+  <DesignatorSmoothFloorDesc>Обозначить каменистую поверхность для выравнивания.</DesignatorSmoothFloorDesc>
 
   <DesignatorPlan>Планировка</DesignatorPlan>
   <DesignatorPlanDesc>Разместить обозначения планировки. Они не служат ничему, кроме помощи в планировании ваших дальнейших расширений.</DesignatorPlanDesc>
@@ -66,17 +65,17 @@
   <DesignatorClaim>Захватить</DesignatorClaim>
   <DesignatorClaimDesc>Присоединить к колонии нейтральные строения, включая древние руины и заброшенные осадные базы. Ваши колонисты смогут отремонтировать и обслуживать захваченные строения.</DesignatorClaimDesc>
 
-
-  <!-- placement of blueprints -->
-  <UnchosenStuff>Невыбранный материал</UnchosenStuff><!-- Unchosen material -->
+  <!-- Failure messages -->
+  <UnchosenStuff>Невыбранный материал</UnchosenStuff>
   <TooCloseToMapEdge>Слишком близко к краю карты.</TooCloseToMapEdge>
   <OutOfBounds>За пределами.</OutOfBounds>
   <CannotPlaceInUndiscovered>Нельзя разместить в неразведанной зоне.</CannotPlaceInUndiscovered>
   <InteractionSpotBlocked>Точка взаимодействия заблокирована {0}.</InteractionSpotBlocked>
   <InteractionSpotOutOfBounds>Точка взаимодействия находится вне границ.</InteractionSpotOutOfBounds>
   <InteractionSpotWillBeBlocked>Место взаимодействия будет заблокировано {0}.</InteractionSpotWillBeBlocked>
-  <WouldBlockInteractionSpot>{0} будет блокировать квадрат взаимодействия {1}.</WouldBlockInteractionSpot>
+  <WouldBlockInteractionSpot>{0} будет блокировать точку взаимодействия {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Местность здесь уже {0}.</TerrainIsAlready>
+  <TerrainBeingSmoothed>Местность уже отмечена для выравнивания.</TerrainBeingSmoothed>
   <IdenticalThingExists>Такой объект здесь уже есть.</IdenticalThingExists>
   <IdenticalBlueprintExists>Такой проект здесь уже есть.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Местная почва не удержит такую конструцию.</TerrainCannotSupport>
@@ -86,9 +85,7 @@
   <ExpandOrCreateZone>Расширить {0} или\nСоздать {1}</ExpandOrCreateZone>
   <CreateNewZone>Создать {0}</CreateNewZone>
 
-
   <!-- desc helpers -->
   <TransmitsPower>Передаёт энергию</TransmitsPower>
-
 
 </LanguageData>

@@ -3,15 +3,6 @@
 
   <ClickToJumpToProblem>Нажмите, чтобы перейти к проблеме</ClickToJumpToProblem>
 
-  <AlertNeedStockpile>Нужен склад</AlertNeedStockpile>
-  <AlertNeedStockpileDesc>Вашим колонистам нужно где-то хранить вещи. Обозначьте для них склад.\n\nЧтобы разместить склад, зайдите во вкладку "Зоны" меню "Создать" в левом нижнем углу экрана.</AlertNeedStockpileDesc>
-
-  <AlertUnforbidStartingResources>Разрешите ресурсы</AlertUnforbidStartingResources>
-  <AlertUnforbidStartingResourcesDesc>Начальные ресурсы на карте помечены как запрещённые.\n\nЧтобы колонисты могли их взять, вы должны разрешить их. Выберите ресурсы и нажмите кнопку "Разрешить" внизу экрана.</AlertUnforbidStartingResourcesDesc>
-
-  <AlertEquipStartingWeapons>Вооружитесь</AlertEquipStartingWeapons>
-  <AlertEquipStartingWeaponsDesc>Ваши колонисты прибыли с кое-каким оружием. Экипируйте их!\n\nВыделите каждого колониста и нажмите правую кнопку мыши на оружии.</AlertEquipStartingWeaponsDesc>
-
   <NeedSawmill>Нужна пилорама</NeedSawmill>
   <NeedSawmillDesc>Вам нужна какая-нибудь пилорама для распила брёвен на более универсальные доски.\n\nПостройте ручную или электрическую пилораму.</NeedSawmillDesc>
 
@@ -27,9 +18,6 @@
 
   <BuildARoom>Постройте помещение</BuildARoom>
   <BuildARoomDesc>Помещение состоит из стен и двери.\n\nИспользуйте меню "Создать" в левой нижней части экрана, чтобы указать места для строительства. После того, как вы запланируете постройку, ваши колонисты выполнят работу, когда смогут.</BuildARoomDesc>
-
-  <NeedGrowingZone>Нужна грядка</NeedGrowingZone>
-  <NeedGrowingZoneDesc>У вас нет зон для выращивания.\n\nРазместите зону посадок на плодородной почве через меню "Создать".</NeedGrowingZoneDesc>
 
   <NeedDefenses>Нужны оборонительные сооружения</NeedDefenses>
   <NeedDefensesDesc>Вы здесь уже относительно давно и вас, скорее всего, заметили. Скоро начнутся нападения.\n\nНужно подготовить оборонительные сооружения.\n\nПостройте несколько турелей.</NeedDefensesDesc>
@@ -82,6 +70,9 @@
   <BrawlerHasRangedWeapon>Дебошир носит пушку</BrawlerHasRangedWeapon>
   <BrawlerHasRangedWeaponDesc>Один из ваших колонистов - дебошир, но он вооружён стрелковым оружием. Это раздражает его.</BrawlerHasRangedWeaponDesc>
 
+  <ShieldUserHasRangedWeapon>Человек со щитом носит пушку</ShieldUserHasRangedWeapon>
+  <ShieldUserHasRangedWeaponDesc>Один из ваших колонистов имеет личный щит и вооружён стрелковым оружием. Он не сможет стрелять из него через щит (кроме целей в упор).</ShieldUserHasRangedWeaponDesc>
+
   <NeedResearchProject>Нет исследования</NeedResearchProject>
   <NeedResearchProjectDesc>У вас есть оборудование для исследований, но не выбран проект.\n\nОткройте меню исследований и назначьте проект.</NeedResearchProjectDesc>
 
@@ -97,9 +88,6 @@
   <HaltedConstructions>Строек без материалов: {0}</HaltedConstructions>
   <HaltedConstructionsDesc>Для этих конструкций отсутствуют материалы:\n\n{0}\nВам, вероятно, следует сделать необходимые материалы доступными для колонистов.</HaltedConstructionsDesc>
 
-  <TableNeedsChairs>К столу нужны стулья</TableNeedsChairs>
-  <TableNeedsChairsDesc>У вас есть стол, но рядом с ним нет стульев. Столы бесполезны, если люди не могут за ними сидеть.</TableNeedsChairsDesc>
-
   <ColonistNeedsTreatment>Нужно лечение</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>Эти колонисты нуждаются в лечении. Без медицинской помощи, они могут умереть от ран, или их раны могут стать неизлечимыми.\n\n{0}\nВылечите колонистов, отправив их в медицинские кровати.\n\n(Сначала, сделайте какую-нибудь кровать медицинской, выбрав её и переключив в медицинский режим. Затем, выберите раненых колонистов и щёлкните правой кнопкой мыши на медицинской кровати, чтобы сделать их пациентами.)</ColonistNeedsTreatmentDesc>
 
@@ -108,6 +96,9 @@
 
   <ColonistsAwaitingMedicalOperation>{0} колонистов ожидают мед. операций</ColonistsAwaitingMedicalOperation>
   <ColonistsAwaitingMedicalOperationDesc>Эти колонисты ожидают медицинских операций:\n\n{0}\nУбедитесь, что у вас есть все необходимые медицинские инструменты и свободный врач.</ColonistsAwaitingMedicalOperationDesc>
+
+  <FireInHomeRegion>Пожар!</FireInHomeRegion>
+  <FireInHomeRegionDesc>Пожар в домашней области.</FireInHomeRegionDesc>
 
   <PawnsWithLifeThreateningDisease>Смертельные болезни</PawnsWithLifeThreateningDisease>
   <PawnsWithLifeThreateningDiseaseDesc>Люди, подверженные смертельному риску из-за серьёзных болезней:\n\n{0}\nУбедитесь, что они получают весь возможный врачебный уход.</PawnsWithLifeThreateningDiseaseDesc>

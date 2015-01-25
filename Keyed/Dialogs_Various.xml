@@ -28,8 +28,9 @@
   <PawnGainsName>Прозвище колониста теперь {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
-  <SaveGameIncompatibleWarningText>Несовпадение версий: карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\n Загрузка сохранения, вероятно, вызовет ошибки и сбои.</SaveGameIncompatibleWarningText>
-  <SaveGameIncompatibleWarningTitle>Несовместимость сохранения</SaveGameIncompatibleWarningTitle>
+  <VersionMismatch>Несовпадение версий</VersionMismatch>
+  <SaveGameIncompatibleWarningText>Внимание: эта карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка сохранения, вероятно, вызовет ошибки и сбои.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Внимание: этот мир был сохранён в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого мира, вероятно, вызовет ошибки и сбои. Мы рекомендуем создать новый мир заново.</WorldFileVersionMismatch>
 
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Вы изменили настройки экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
@@ -66,15 +67,17 @@
   <RepeatCount>Сделать: {0}</RepeatCount>
   <Forever>Бесконечно</Forever>
   <IngredientSearchRadius>Радиус поиска ингредиентов</IngredientSearchRadius>
-  <TargetCount>Делать до: {0}</TargetCount>
+  <CurrentlyHave>Имеется</CurrentlyHave>
+  <CountingProducts>Подсчёт</CountingProducts>
   <Infinite>Бесконечно</Infinite>
   <RecipeCannotHaveTargetCount>(Это задание нельзя повторять, так как результат может быть разным.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Разрешённые ингредиенты</PermittedIngredients>
   <WorkAmount>Объем работ</WorkAmount>
   <MinimumSkills>Минимальные навыки:</MinimumSkills>
   <BillRequires>Требуется {0} {1}</BillRequires>
-  <BillRequiresMayVary>(Количества могут измениться в зависимости от материала.)</BillRequiresMayVary>
-  <UsableIngredients>пригодные ингредиенты</UsableIngredients>
+  <BillRequiresMayVary>Заметка: ингредиенты малого объёма, такие как золото, требуют в 20 раз больше.</BillRequiresMayVary>
+  <ThisIsSmallVolume>Этот ингредиент имеет малый объём. Это значит, что каждый "кусочек" - это только 1/20 объёма обычного ингредиента. Чтобы выполнить требования по ингредиентам, вам понадобится в 20 раз больше материала.</ThisIsSmallVolume>
+  <UsableIngredients>ингредиенты</UsableIngredients>
   <DoXTimes>Сделать X раз</DoXTimes>
   <DoUntilYouHaveX>Повторять до X</DoUntilYouHaveX>
   <DoForever>Бесконечно</DoForever>
