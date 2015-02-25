@@ -14,3 +14,7 @@ Official Translators:
 - Tarakanhb
 - Dandi
 - AcDie (inactive)
+
+Active Contributors:
+--------------------
+- Zenya135
