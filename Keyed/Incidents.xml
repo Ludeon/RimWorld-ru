@@ -1,13 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <LetterLabelAnimalInsanitySingle>Бешенное\nживотное</LetterLabelAnimalInsanitySingle>
   <AnimalInsanitySingle>{0} в бешенстве и будет атаковать любого, кого увидит.</AnimalInsanitySingle>
+  <LetterLabelAnimalInsanityMultiple>Бешенные\nживотные!</LetterLabelAnimalInsanityMultiple>
   <AnimalInsanityMultiple>Некое подобие психической волны прошло по земле. Ваши колонисты в порядке, но...\n\nПохоже, многие представители вида {0} сошли с ума.</AnimalInsanityMultiple>
 
+  <LetterLabelCropBlight>Болезнь\nрастений</LetterLabelCropBlight>
   <CropBlight>Загадочное заболевание уничтожило все ваши посевы.</CropBlight>
-
-  <EclipseIncident>Одна из лун этой планеты вышла на орбиту перед солнцем. Начинается затмение.</EclipseIncident>
-
+  <!-- 
+  <EclipseIncident>Одна из лун этой планеты вышла на орбиту перед солнцем. Начинается затмение.</EclipseIncident> -->
+  
+  <LetterLabelMiracleHeal>Чудо</LetterLabelMiracleHeal>
   <MiracleHeal>{0} пережил чудесное восстановление!</MiracleHeal>
 
 
@@ -15,29 +19,60 @@
   <EnemyRaidWalkIn>Враждебные {0} из {1} расположились поблизости.</EnemyRaidWalkIn>
   <EnemyRaidEdgeDrop>Враждебные {0} из {1} высадились с орбиты неподалеку.</EnemyRaidEdgeDrop>
   <EnemyRaidCenterDrop>Враждебные {0} из {1} высаживаются прямо на вашу колонию!</EnemyRaidCenterDrop>
+  <!--
   <EnemyRaidStageThenAttack>У них уйдёт какое-то время на подготовку перед атакой.\n\nПриготовьтесь к обороне или нанесите упреждающий удар.</EnemyRaidStageThenAttack>
   <EnemyRaidImmediateAttack>Они нападают сразу.</EnemyRaidImmediateAttack>
   <EnemyRaidBesiege>Похоже, они собираются устроить осаду колонии.</EnemyRaidBesiege>
-
+  -->
 
   <!-- Friendly raids -->
   <FriendlyRaidWalkIn>Дружественные {0} из {1} расположились поблизости.</FriendlyRaidWalkIn>
   <FriendlyRaidEdgeDrop>Дружественные {0} из {1} высадились с орбиты неподалеку.</FriendlyRaidEdgeDrop>
   <FriendlyRaidCenterDrop>Дружественные {0} из {1} высаживаются прямо на вашу колонию!</FriendlyRaidCenterDrop>
-  <FriendlyRaidStageThenAttack>У них уйдёт какое-то время на подготовку прежде, чем они помогут вам.</FriendlyRaidStageThenAttack>
-  <FriendlyRaidImmediateAttack>Они немедленно выдвигаются на помощь.</FriendlyRaidImmediateAttack>
-  <FriendlyRaidBesiege>Похоже, они хотят использовать позиционную тактику, чтобы помочь вам.</FriendlyRaidBesiege>
-
-  <RefugeePodCrash>Вы засекли спасательную капсулу, упавшую поблизости.\n\nЕсли кто-то пережил последствия, то будет тяжело ранен.</RefugeePodCrash>
-
-  <CargoPodCrash>Вы засекли несколько грузовых контейнеров, упавших поблизости.\n\nВозможно, вы найдёте что-то полезное в обломках.</CargoPodCrash>
-
+  
+  <LetterLabelRefugeePodCrash>Спасательная\nкапсула</LetterLabelRefugeePodCrash>
+  <RefugeePodCrash>Вы обнаружили крушение спасательной капсулы поблизости. \n\nЕсли кто и выжил при падении, то они будут тяжело ранены.</RefugeePodCrash>
+  
+  <LetterLabelCargoPodCrash>Грузовой\nконтейнер</LetterLabelCargoPodCrash>
+  <CargoPodCrash>Вы обнаружили несколько грузовых контейнеров упавших поблизости. \n\nВозможно вы найдёте что-то полезное в обломках</CargoPodCrash>
+  
   <AnElectricalConduit>электропроводе</AnElectricalConduit>
-  <AWallsPowerConduit>стене с электропроводкой</AWallsPowerConduit>
   <ShortCircuit>Неисправность в {0} вызвала короткое замыкание.\n\nВсе {1} Вт энергии в подключённых аккумуляторах потеряны.</ShortCircuit>
-  <ShortCircuitWasLarge>Это большое количество энергии создало взрыв больших размеров.</ShortCircuitWasLarge>
+  <ShortCircuitWasLarge>Это большое количество энергии создало взрыв немалых размеров.</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>Это действительно огромный взрыв. Ничего себе!</ShortCircuitWasHuge>
-
+  
+  <TraderArrival>Торговый корабль пролетает неподалеку.\n\nОн известен как {0}. Он {1}.</TraderArrival>
+  
+  <SingleTravelerPassing>{0} из {1} проходит мимо. HECAP назван {2}.</SingleTravelerPassing>
+  <GroupTravelersPassing>Группа путешественников и {0} проходит мимо.</GroupTravelersPassing>
+  
+  <LetterLabelSingleVisitorArrives>Посетители</LetterLabelSingleVisitorArrives>
+  <SingleVisitorArrives>{0} из {1} посещают колонию.\n\nHECAP назван {2}.</SingleVisitorArrives>
+  <LetterLabelGroupVisitorsArrive>Постеители</LetterLabelGroupVisitorsArrive>
+  <GroupVisitorsArrive>Группа из {0} посещают колонию.</GroupVisitorsArrive>
+  <VisitorsLeaving>Посетители из {0} покидают колнию.</VisitorsLeaving>
+  
+  <LetterLabelWandererJoin>Странник присоединяется</LetterLabelWandererJoin>
+  <WandererJoin>{0} по имени NAME прибыл и присоединился к вашей колонии. HECAP является {1}.</WandererJoin>
+  
+  <LetterLabelManhunterPackArrived>Группа\nохотников на людей</LetterLabelManhunterPackArrived>
+  <ManhunterPackArrived>Прибыла группа охотников на людей {0}. Они будут охотиться на гуманоидов в области вашей колонии. \n\n Охотники не могут пройти через двери, так что, если колонисты будут оставаться в помещении, они будут в безопасности. \n\n Группа покинет область колонии через несколько дней.</ManhunterPackArrived>
+  
+  <!-- Crashed ship part-->
+  <LetterLabelSpaceshipPartCrash>Враждебный корабль</LetterLabelSpaceshipPartCrash>
+  <SpaceshipPartCrash>Большой кусок древнего корабля разбился неподалёку.\n\nВаши колонисты чувствуют это на задворках их разума, у них появляются отвратительные мысли. Он, должно быть, имеет бортовой ИИ со способностью психического манипулирования. И этот ИИ не дружелюбен.\n\nУничтожьте его так быстро, как это только возможно.</SpaceshipPartCrash>
+  <MessageAnimalInsanityPulse>Древнее сооружение излучает психический импульс, который вызвает бешенство у находязихся рядом животных.</MessageAnimalInsanityPulse>
+  <LetterShipPartDroveColonistInsane>Разбившаяся часть корабля испустила направленный психический импульс который свел колониста {0} с ума.</LetterShipPartDroveColonistInsane>
+  <AwokeDaysAgo>Разбужен через {0} дней</AwokeDaysAgo>
+  <PsychicDroneLevel>Психозонд {0} уровня</PsychicDroneLevel>
+  <PsychicDroneLevelLow>низкого</PsychicDroneLevelLow>
+  <PsychicDroneLevelMedium>среднего</PsychicDroneLevelMedium>
+  <PsychicDroneLevelHigh>высокого</PsychicDroneLevelHigh>
+  <PsychicDroneLevelExtreme>экстремального</PsychicDroneLevelExtreme>
+  <LetterLabelPsychicDroneLevelIncreased>Зонд усиливается</LetterLabelPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>От части разбившигося корабля теперь исходит более мощный вид психической активности. Каждый гуманоид в этой местности теперь чувствует себя более обеспокоенным, напуганным и параноидальным.</LetterPsychicDroneLevelIncreased>
+  
+  <!-- 
   <LetterSolarFlare>Произошла большая вспышка на солнце.\n\nИнтенсивное излучение выключит все электроприборы.\n\nОно должно закончиться примерно через день.</LetterSolarFlare>
 
   <LetterHeatWave>Началась необычная жара. Берегитесь тепловых ударов.</LetterHeatWave>
@@ -55,27 +90,26 @@
   <VisitorsLeaving>Гости из {0} уходят.</VisitorsLeaving>
 
   <WandererJoin>{0} прибыл и решил присоединиться к колонии.\n\nHISCAP зовут NAME, и HE {1}.</WandererJoin>
-
-
-  <!-- Crashed ship part-->
-  <SpaceshipPartCrash>Большой кусок древнего корабля разбился неподалёку.\n\nВаши колонисты чувствуют это на задворках их разума, у них появляются отвратительные мысли. Он, должно быть, имеет бортовой ИИ со способностью психического манипулирования. И этот ИИ не дружелюбен.\n\nУничтожьте его так быстро, как это только возможно.</SpaceshipPartCrash>
-  <MessageAnimalInsanityPulse>Древнее сооружение испустило психический импульс, который вызвал ярость у ближайших животных.</MessageAnimalInsanityPulse>
-  <LetterShipPartDroveColonistInsane>Часть разбившегося корабля испустила целенаправленный психический импульс, и ваш колонист {0} сошёл с ума.</LetterShipPartDroveColonistInsane>
-  <AwokeDaysAgo>Проснулся {0} дней назад</AwokeDaysAgo>
-  <PsychicDroneLevel>Психозонд, уровень: {0}</PsychicDroneLevel>
-  <PsychicDroneLevelLow>низкий</PsychicDroneLevelLow>
-  <PsychicDroneLevelMedium>средний</PsychicDroneLevelMedium>
-  <PsychicDroneLevelHigh>высокий</PsychicDroneLevelHigh>
-  <PsychicDroneLevelExtreme>сверхвысокий</PsychicDroneLevelExtreme>
-  <LetterPsychicDroneLevelIncreased>От части разбившигося корабля теперь исходит более мощный вид психической активности. Каждый гуманоид в этой местности теперь чувствует себя более обеспокоенным, напуганным и параноидальным.</LetterPsychicDroneLevelIncreased>
-
+  -->
   <!-- Agent revealed -->
+  <LetterLabelAgentRevealed>Агент</LetterLabelAgentRevealed>
   <LetterAgentRevealed>Вражеский агент {0} из {1} раскрыт.\n\nСейчас пытается бежать из колонии.</LetterAgentRevealed>
 
   <!-- Distant psychic drone -->
-  <LetterIncidentPsychicDrone>Головная боль пронзает череп ваших колонистов словно гвоздь!\n\nНекий древний бесчеловечный механизм пробуждается. Излучение мощного психического зонда пронизывает эту местность. В течение нескольких дней настроение у некоторых людей будет немного хуже.</LetterIncidentPsychicDrone>
+  <LetterLabelPsychicDrone>Психодрон</LetterLabelPsychicDrone>
+  <LetterIncidentPsychicDrone>Каждый колонист из {0} корчится на полу от боли. \n\nНекий древний нечеловеческий механизм пробуждается. Излучение мощного психологического зонда пронизывает всю местность. В течение нескольких дней настроение у некоторых людей будет немного хуже.</LetterIncidentPsychicDrone>
+
+  <LetterLabelPsychicSoothe>Психическое успокоение</LetterLabelPsychicSoothe>
+  <LetterIncidentPsychicSoothe>Каждый колонист из {0} улыбается от удовольствия. \n\nНеподалеку заработал псих зонд счастья. Излучение мощного психологического зонда пронизывает всю местность, которая повлияла только на  {0}. В течение нескольких дней настроение у некоторых людей будет немного лучше.</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
+  <LetterLabelBeaversArrived>Бобры!</LetterLabelBeaversArrived>
   <BeaversArrived>Только что была замечена группа голодных альфабобров.\n\nПостарайтесь избавиться от них прежде, чем они уничтожат последнее дерево в округе.</BeaversArrived>
+  
+  <!-- Refugee chased -->
+  <RefugeeChasedInitial>{1} по имени {0} недалеко от вас. HECAP За ним гонятся {2} из {3}!\n\nHECAP умоляет о помощи и готов вступить в вашу колонию, ему {4} лет.\n\nБудьте осторожны - если вы согласны, вам придется отбиться от  {2} которые сидят у него на хвосте .</RefugeeChasedInitial>
+  <RefugeeChasedInitial_Accept>Предложить укрытие</RefugeeChasedInitial_Accept>
+  <RefugeeChasedInitial_Reject>Игнорировать сообщение</RefugeeChasedInitial_Reject>
+  <RefugeeChasedRejected>{0} кричит в панике через жестяной динамик до того, как вы отрезали передачи.</RefugeeChasedRejected>
 
 </LanguageData>

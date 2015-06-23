@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <CommandForbiddenDesc>Запрещено - колонисты не будут это использовать.</CommandForbiddenDesc>
-  <CommandNotForbiddenDesc>Разрешено - колонисты могут это использовать.</CommandNotForbiddenDesc>
+    <CommandForbiddenDesc>Запрещено - колонисты не будут это использовать.</CommandForbiddenDesc>
+    <CommandNotForbiddenDesc>Разрешено - колонисты могут это использовать.</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <CommandTogglePowerLabel>Вкл./выкл.</CommandTogglePowerLabel>
@@ -49,26 +49,32 @@
   <TurningOffPrisonerBedWarning>Выключение режима для заключённых повлияет на всю комнату (колонисты и заключённые не могут спать в одной комнате).\n\nСледующие заключённые потеряют права на свои кровати:</TurningOffPrisonerBedWarning>
   <AreYouSure>Вы уверены?</AreYouSure>
 
-
-
   <CommandDetonateDesc>Начать обратный отсчёт.</CommandDetonateDesc>
   <CommandDetonateLabel>Подорвать</CommandDetonateLabel>
 
-  <CommandRenameZoneDesc>Переименовать зону.</CommandRenameZoneDesc>
+  <CommandRenameZoneDesc>Переименовать область.</CommandRenameZoneDesc>
   <CommandRenameZoneLabel>Сменить название</CommandRenameZoneLabel>
 
-  <CommandHideZoneDesc>Скрыть/показать зону.</CommandHideZoneDesc>
+  <CommandHideZoneDesc>Скрыть/показать область.</CommandHideZoneDesc>
   <CommandHideZoneLabel>Скрыть</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>Показать</CommandUnhideZoneLabel>
 
-  <CommandDeleteZoneDesc>Удалить зону.</CommandDeleteZoneDesc>
+  <CommandDeleteZoneDesc>Удалить область.</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>Удалить</CommandDeleteZoneLabel>
 
+  <CommandCopyZoneSettingsLabel>Копировать настройки</CommandCopyZoneSettingsLabel>
+  <CommandCopyZoneSettingsDesc>Скопируйте настройки этой области в буфер обмена и вы сможете применить их для другой области.</CommandCopyZoneSettingsDesc>
+  
+  <CommandPasteZoneSettingsLabel>Применить настройки</CommandPasteZoneSettingsLabel>
+  <CommandPasteZoneSettingsDesc>Применить к этой области ранее скопированные настройки из буфера обмена.</CommandPasteZoneSettingsDesc>
+  
+  <CommandAllowSow>Разрешить посев</CommandAllowSow>
+  <CommandAllowSowDesc>При отключении, колонисты никогда не будут сеять растения в этой области. Но будут по прежнему собирать урожай.</CommandAllowSowDesc>
 
   <!-- Artillery -->
-  <CommandSetForceAttackTarget>Выбрать цель обстрела</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTarget>Выбрать цель для обстрела</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Устанавливает цель, которую эта турель будет атаковать непрерывно до тех пор, пока это будет возможно.</CommandSetForceAttackTargetDesc>
-  <CommandStopForceAttack>Отменить цель обстрела</CommandStopForceAttack>
+  <CommandStopForceAttack>Отменить принудительный обстрел</CommandStopForceAttack>
   <CommandStopForceAttackDesc>Прекращает обстрел указанной цели и переводит турель в режим самонаведения.</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>Сейчас невозможно остановить обстрел.</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>Цель слишком далеко.</MessageTargetBeyondMaximumRange>
@@ -88,9 +94,14 @@
   <CommandPodEjectFailEmpty>Внутри никого нет.</CommandPodEjectFailEmpty>
 
   <!-- Door -->
-  <CommandToggleDoorLock>Переключить блокировку</CommandToggleDoorLock>
+  <!-- <CommandToggleDoorLock>Переключить блокировку</CommandToggleDoorLock>
   <CommandToggleDoorLockDesc>Заблокировать либо разблокировать дверь. Заблокированные двери не открываются ни для кого.</CommandToggleDoorLockDesc>
-
+  -->
+  <CommandToggleDoorForbid>Запретить проход</CommandToggleDoorForbid>
+  <CommandToggleDoorForbidDesc>Если проход через дверь запрещен, то колонисты и союзники не будут ею пользоваться. Но это никак не влияет на врагов и животных.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorHoldOpen>Не закрывать</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpenDesc>Ваши колонисты не будут закрывать эту дверь. Если это автоматическая дверь и к ней подведено питание, то она немедленно откроется.</CommandToggleDoorHoldOpenDesc>
+  
   <!-- Temperature control -->
   <CommandResetTemp>Сброс</CommandResetTemp>
   <CommandResetTempDesc>Задать температуру комнаты.</CommandResetTempDesc>
@@ -99,10 +110,18 @@
 
   <!-- Art -->
   <CommandInstall>Установить</CommandInstall>
-  <CommandInstallDesc>Этот предмет упакован для хранения и транспортировки. Используйте эту команду для установки предмета, чтобы его могли видеть или использовать.</CommandInstallDesc>
+  <CommandInstallDesc>Этот предмет упакован для хранения и транспортировки. Используйте эту команду для установки предмета, чтобы его могли видеть или воспользоваться им.</CommandInstallDesc>
 
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileLabel>Создать склад</CommandMakeBeaconStockpileLabel>
   <CommandMakeBeaconStockpileDesc>Создать вокруг этого строения склад, точно повторяющий форму радиуса отправки маяка.</CommandMakeBeaconStockpileDesc>
 
+   <!-- Sun lamp -->
+  <CommandSunLampMakeGrowingZoneDesc>Создаёт зону роста вокрут строений, форма которой совпадает с световым радиусом лампы</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneLabel>Создать зону роста</CommandSunLampMakeGrowingZoneLabel>
+
+  <!-- Trap -->
+  <CommandAutoRearm>Автоматическая перерезарядка</CommandAutoRearm>
+  <CommandAutoRearmDesc>Если опция включена, то ловушка будет назначена на перезарядку, когда она сработает</CommandAutoRearmDesc>
+  
 </LanguageData>

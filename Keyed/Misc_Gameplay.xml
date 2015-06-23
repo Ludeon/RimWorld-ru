@@ -33,11 +33,18 @@
   <Inventory>Инвентарь</Inventory>
   <ThingInfo>Информация</ThingInfo>
   <DropThing>Выкинуть</DropThing>
+  <Rename>Переименовать</Rename>
   <RenameColonist>Переименовать</RenameColonist>
   <UnknownLower>неизвестно</UnknownLower>
   <On>Вкл</On>
   <Off>Выкл</Off>
   <PowerSwitch_Power>Питание</PowerSwitch_Power>
+  <JoyTolerances>Толерантность</JoyTolerances>
+  <BrokenLetterLabel>Сломанный</BrokenLetterLabel>
+  <AreaDefaultLabel>Область {0}</AreaDefaultLabel>
+  <NoAreaAllowed>Неограниченный</NoAreaAllowed>
+  <NewArea>новая область</NewArea>
+  <InvertArea>Инвертировать</InvertArea>
 
   <!-- Control -->
   <CannotOrderNonControlled>Нельзя приказать неконтролируемые юниты.</CannotOrderNonControlled>
@@ -59,28 +66,36 @@
   <ShellNotLoaded>Не заряжено</ShellNotLoaded>
 
   <!-- Job reports -->
-  <ReportHaulingTo>Несёт {0} на {1}.</ReportHaulingTo>
-  <ReportHauling>Несёт {0}.</ReportHauling>
+    <ReportHaulingTo>Несёт {0} на {1}.</ReportHaulingTo>
+    <ReportHauling>Несёт {0}.</ReportHauling>
   <ReportSleeping>Спит.</ReportSleeping>
   <ReportResting>Отдыхает.</ReportResting>
+  <WatchingSunrise>Наблюдает за восходом солнца</WatchingSunrise>
+  <CloudWatching>Смотрит на облака</CloudWatching>
+  <WatchingSunset>Смотрит на закат</WatchingSunset>
+  <Stargazing>Смотрит на звезды</Stargazing>
+  <WatchingEclipse>Наблюдает затмение</WatchingEclipse>
+  <DeliveringFood>Несет еду до {0}.</DeliveringFood>
+  <UsingVerb>Использует {0} на {1}.</UsingVerb>
+  <AreaLower>область</AreaLower>
 
   <!-- Shooting report -->
   <WeaponMissRadius>Разброс оружия</WeaponMissRadius>
-  <ShootReportShooterAbility>Стрелок</ShootReportShooterAbility>
-  <ShootReportWeapon>Оружие</ShootReportWeapon>
-  <Darkness>Темнота</Darkness>
-  <TargetProne>Восприимчивость</TargetProne>
-  <TargetSize>Размер цели</TargetSize>
-  <Weather>Погода</Weather>
-  <ShootingCover>Укрытие</ShootingCover>
-  <CoverThingBlocksPercentOfShots>{0} блокирует {1}</CoverThingBlocksPercentOfShots>
-  <NoCoverLower>нет укрытия</NoCoverLower>
+    <ShootReportShooterAbility>Стрелок</ShootReportShooterAbility>
+    <ShootReportWeapon>Оружие</ShootReportWeapon>
+    <Darkness>Темнота</Darkness>
+    <TargetProne>Восприимчивость</TargetProne>
+    <TargetSize>Размер цели</TargetSize>
+    <Weather>Погода</Weather>
+    <ShootingCover>Укрытие</ShootingCover>
+    <CoverThingBlocksPercentOfShots>{0} блокирует {1}</CoverThingBlocksPercentOfShots>
+    <NoCoverLower>нет укрытия</NoCoverLower>
 
   <!-- Generated recipes -->
   <RecipeMake>Сделать {0}</RecipeMake>
   <RecipeMakeJobString>Делает {0}.</RecipeMakeJobString>
 
-  <!-- Status levels -->
+  <!-- Status levels 
   <Mood>Настроение</Mood>
   <MoodTip>Настроение зависит от удовлетворения физических и психологических потребностей.\n\nЕсли чьё-то настроение становится слишком низким, может случиться нервный срыв.</MoodTip>
   <Food>Сытость</Food>
@@ -89,7 +104,7 @@
   <RestTip>Отдых показывает качество и количество сна, получаемое человеком.\n\nПоказатель достигает максимума, когда персонаж спит в кровати. Вне кровати, со временем, падает.</RestTip>
   <Environment>Окружение</Environment>
   <EnvironmentTip>Окружение показывает, насколько приятна обстановка.\n\nПоказатель высок, когда люди находятся в просторных комнатах с красивой отделкой. Мал, когда окружение безобразно.</EnvironmentTip>
-  <Openness>Просторность</Openness>
+  <Openness>Просторность</Openness> -->
 
   <!-- Thoughts -->
   <ThoughtExpiresIn>Истечёт через: {0}</ThoughtExpiresIn>
@@ -187,7 +202,13 @@
   <DumpingStockpile>Свалка</DumpingStockpile>
   <Priority>Приоритет</Priority>
   <ClearAll>Убрать всё</ClearAll>
+  <AllowAll>Разрешить всё</AllowAll>
 
+  <!-- ThingFilter -->
+  <HitPoints>{0} прочности</HitPoints>
+  <AnyQuality>любое качество</AnyQuality>
+  <OnlyQuality>{0} только</OnlyQuality>
+	
   <!-- Mouseover indicator -->
   <Undiscovered>Не разведано</Undiscovered>
 
@@ -214,7 +235,9 @@
   <MustPlaceHeadOnShipBeam>Должно быть размещено заголовьем рядом с центральной балкой корабля.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>Должен быть размещен только рядом с устройством, которому нужен хоппер.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Должен быть размещён непосредственно на паровом гейзере.</MustPlaceOnSteamGeyser>
-  <MustPlaceCoolerWithFreeSpaces>И горячая и холодная стороны кондиционера должны быть открыты</MustPlaceCoolerWithFreeSpaces>
+  <MustPlaceCoolerWithFreeSpaces>И горячая и холодная стороны кондиционера должны быть открыты.</MustPlaceCoolerWithFreeSpaces>
+  	<MustPlaceVentWithFreeSpaces>Обе стороны должны быть открыты для свободного прохождения воздуха.</MustPlaceVentWithFreeSpaces>
+	<MustPlaceAdjacentStandable>Должны быть размещены со свободным пространством со всех сторон.</MustPlaceAdjacentStandable>
 
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Заблокировано </WindTurbine_WindPathIsBlockedBy>
@@ -258,7 +281,7 @@
   <Mood_OnEdge>на грани</Mood_OnEdge>
   <Mood_Stressed>стресс</Mood_Stressed>
   <Mood_Neutral>нейтрален</Mood_Neutral>
-  <Mood_Content>доволен</Mood_Content>
+    <Mood_Content>доволен</Mood_Content>
   <Mood_Happy>счастлив</Mood_Happy>
 
   <!-- Game over -->
@@ -266,5 +289,12 @@
   <GameOverShipLaunched>Вы запустили корабль! Эти колонисты спаслись:\n\n{0}\nЭти колонисты остались:\n\n{1}\nВаш ИИ теперь будет пытаться направить корабль в безопасное место. Он может найти для вас процветающую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая пока кто-нибудь не выстроит здесь новый технологичный мир.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
   <GameOverKeepPlaying>Продолжить играть</GameOverKeepPlaying>
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
+  
+  <!-- Generic lifespan -->
+  <LifespanExpiry>Истекает в:</LifespanExpiry>
 
+  <!-- Traps -->
+  <TrapArmed>Вооружен</TrapArmed>
+  <TrapNotArmed>Не вооружен</TrapNotArmed>
+  <TrapRearmingCost>Стоимость перевооружения: {0}</TrapRearmingCost>
 </LanguageData>

@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+
+
   <Confirm>Подтвердить</Confirm>
   <GoBack>Вернуться</GoBack>
   <OK>OK</OK>
@@ -14,16 +16,24 @@
   <SavedAs>Сохранено как {0}.</SavedAs>
   <NeedAName>Пожалуйста, введите название.</NeedAName>
   <LoadingLongEvent>Загрузка...</LoadingLongEvent>
+  <SaveIsFromDifferentGameVersion>Мы работаем на версии {0} но сохраненные данные от {1}, которая полностью отличается.\n\nПопытка загрузить эти данные, вероятно, не сработает.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>Мы работаем на версии {0} но сохраненные данные от {1}, которая полностью отличается.\n\nПопытка загрузить эти данные, вероятно, не сработает.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Данные о прогрессе сохранены с актуальной версии игры и должы работать без проблем</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Данные о прогрессе сохранены в неизвестном формате, и почти навярняка не загрузятся должным образом.</SaveIsUnknownFormat>
 
   <!-- Colony naming-->
   <NameColonyMessage>Все знают, что вы не хотите застрять в этой дыре надолго. Но {0} всё же предлагает дать название колонии.\n\nТак как она должна называться?</NameColonyMessage>
   <ColonyGainsName>Теперь колония известна как {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Это имя для колонии недопустимо.</ColonyNameIsInvalid>
 
-  <!-- Zone naming -->
-  <ZoneGainsName>Теперь эта зона называется {0}.</ZoneGainsName>
+  <!-- Renaming -->
+  <NameIsInvalid>Пожалуйста, введите корректное название.</NameIsInvalid>
+  <NameIsInUse>название уже используется.</NameIsInUse>
+  <ZoneGainsName>Теперь зона называется {0}.</ZoneGainsName>
+  <!--
   <ZoneNameIsInvalid>Пожалуйста, введите допустимое название зоны.</ZoneNameIsInvalid>
-
+  -->
+  
   <!-- Pawn naming -->
   <PawnGainsName>Прозвище колониста теперь {0}.</PawnGainsName>
 
@@ -31,6 +41,8 @@
   <VersionMismatch>Несовпадение версий</VersionMismatch>
   <SaveGameIncompatibleWarningText>Внимание: эта карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка сохранения, вероятно, вызовет ошибки и сбои.</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>Внимание: этот мир был сохранён в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого мира, вероятно, вызовет ошибки и сбои. Мы рекомендуем создать новый мир заново.</WorldFileVersionMismatch>
+  <ModsMismatchWarningTitle>Несовпадение модов</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Мир был сохранен с модами которые в данный момент не активны. Это может вызвать проблемы в зависимости от функционала модов.\n\nМир был сохранен с (в этом порядке):\n\n{0}\n\nСейчас активны:\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Вы изменили настройки экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
@@ -66,12 +78,17 @@
   <SuspendedAllCaps>ПАУЗА</SuspendedAllCaps>
   <RepeatCount>Сделать: {0}</RepeatCount>
   <Forever>Бесконечно</Forever>
+    <Details>Детали</Details>
   <IngredientSearchRadius>Радиус поиска ингредиентов</IngredientSearchRadius>
   <CurrentlyHave>Имеется</CurrentlyHave>
   <CountingProducts>Подсчёт</CountingProducts>
   <Infinite>Бесконечно</Infinite>
+  <MinimumSkillLevel>Минимальный уровень умения {0}</MinimumSkillLevel>
+  
   <RecipeCannotHaveTargetCount>(Это задание нельзя повторять, так как результат может быть разным.)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>Разрешённые ингредиенты</PermittedIngredients>
+  <!-- 
+  <PermittedIngredients>Разрешённые ингредиенты</PermittedIngredients> 
+  -->
   <WorkAmount>Объем работ</WorkAmount>
   <MinimumSkills>Минимальные навыки:</MinimumSkills>
   <BillRequires>Требуется {0} {1}</BillRequires>
@@ -91,6 +108,7 @@
   <Accuracy>Точность</Accuracy>
   <BurstShotCount>Выстрелов</BurstShotCount>
   <WarmupTime>Изготовка</WarmupTime>
+  <MeleeWarmupTime>Разминка для ближнего боя</MeleeWarmupTime>
   <CooldownTime>Перезарядка</CooldownTime>
   <BurstShotFireRate>Темп стрельбы</BurstShotFireRate>
   <Range>Дальность</Range>
@@ -105,6 +123,7 @@
   <Attributes>Атрибуты</Attributes>
   <LifeSpan>Рост</LifeSpan>
   <Nutrition>Питательность</Nutrition>
+  <Joy>Радость</Joy>
   <FoodQuality>Тип еды</FoodQuality>
   <WalkSpeedProperty>Скорость бега</WalkSpeedProperty>
   <MeatAmount>Мясо</MeatAmount>
@@ -126,12 +145,13 @@
   <ResetButton>Сбросить</ResetButton>
   <CancelButton>Отменить</CancelButton>
   <YourTradeableSilver>Серебра для торговли: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Вы можете торговать только тем серебром, которое находится рядом с торговым маяком и не под крышей.</YourTradeableSilverTip>
+    <YourTradeableSilverTip>Вы можете торговать только тем серебром, которое находится рядом с торговым маяком и не под крышей.</YourTradeableSilverTip>
   <TraderHasNoMore>У торговца нет больше.</TraderHasNoMore>
   <ColonyHasNoMore>Больше нет на продажу.</ColonyHasNoMore>
   <TraderWillNotTrade>Торговец не желает торговать этим товаром.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием здорового переговорщика.</NegotiatorTalkingImpaired>
-
+  <ConfirmTraderShortFunds>У продавца недостаточна серебра, что бы полностью покрыть сделку. Всеравно продолжить?</ConfirmTraderShortFunds>
+  
   <!-- Comms -->
   <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
 
@@ -146,5 +166,13 @@
   <HistoryUploadNo>Запретить загрузку игровых данных</HistoryUploadNo>
   <HistoryUploadYesOnce>Загрузить только в этот раз</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>В этот раз не загружать, спросить позже</HistoryUploadNoOnce>
+  
+  <!-- Outfit management -->
+  <Outfit>Снаряжение</Outfit>
+  <SelectOutfit>Выбрать снаряжение...</SelectOutfit>
+  <NewOutfit>Новое снаряжение</NewOutfit>
+  <DeleteOutfit>Удалить сраняжение...</DeleteOutfit>
+  <OutfitInUse>Использовать снаряжение {0}.</OutfitInUse>
+  <NoOutfitSelected>Не выбрано снаряжение</NoOutfitSelected>
 
 </LanguageData>
