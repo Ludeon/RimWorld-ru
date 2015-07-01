@@ -1,35 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- Major breaks-->
+	<!-- Major breaks-->
+  
+	<Berserk.label>психоз</Berserk.label>
+	<Berserk.beginLetterLabel>Псих</Berserk.beginLetterLabel>
+	<Berserk.beginLetter>{0} кидается на всех в ярости.</Berserk.beginLetter>
+	<Berserk.recoveryMessage>{0} более не опасен.</Berserk.recoveryMessage>
+	<Berserk.inspectLine>Сломлен: психоз</Berserk.inspectLine>
+	<!-- Minor breaks-->
 
-  <Psychotic.label>психоз</Psychotic.label>
-  <Psychotic.beginLetter>{0} обуяла ярость.</Psychotic.beginLetter>
-  <Psychotic.recoveryMessage>{0} более не опасен.</Psychotic.recoveryMessage>
-  <Psychotic.inspectLine>Сломлен: психоз</Psychotic.inspectLine>
+	<DazedWander.label>ошеломлённо блуждает</DazedWander.label>
+	<DazedWander.beginLetterLabel>Ошарашен</DazedWander.beginLetterLabel>
+	<DazedWander.beginLetter>{0} сломлен и ошеломлённо блуждает.</DazedWander.beginLetter>
+	<DazedWander.recoveryMessage>{0} более не ошарашен.</DazedWander.recoveryMessage>
+	<DazedWander.inspectLine>Сломлен: потрясён и блуждает</DazedWander.inspectLine>
 
-  <!-- Minor breaks-->
+	<BingingAlcohol.label>налегает на алкоголь</BingingAlcohol.label>
+	<BingingAlcohol.beginLetterLabel>Пьян</BingingAlcohol.beginLetterLabel>
+	<BingingAlcohol.beginLetter>{0} напивается до упаду.</BingingAlcohol.beginLetter>
+	<BingingAlcohol.recoveryMessage>{0} перестал пить.</BingingAlcohol.recoveryMessage>
+	<BingingAlcohol.inspectLine>Сломлен: напивается</BingingAlcohol.inspectLine>
 
-  <DazedWander.label>изумлённо блуждает</DazedWander.label>
-  <DazedWander.beginLetter>{0} сломлен и ошеломлённо блуждает.</DazedWander.beginLetter>
-  <DazedWander.recoveryMessage>{0} более не ошарашен.</DazedWander.recoveryMessage>
-  <DazedWander.inspectLine>Сломлен: потрясён и блуждает</DazedWander.inspectLine>
+	<!-- Special breaks-->
 
-  <BingingAlcohol.label>налегает на алкоголь</BingingAlcohol.label>
-  <BingingAlcohol.beginLetter>{0} напивается до упаду.</BingingAlcohol.beginLetter>
-  <BingingAlcohol.recoveryMessage>{0} перестал пить.</BingingAlcohol.recoveryMessage>
-  <BingingAlcohol.inspectLine>Сломлен: напивается</BingingAlcohol.inspectLine>
-
-  <!-- Special breaks-->
-
-  <PanicFlee.label>спасается бегством</PanicFlee.label>
-  <PanicFlee.beginLetter>{0} бежит в панике.</PanicFlee.beginLetter>
-  <PanicFlee.recoveryMessage>{0} больше не паникует.</PanicFlee.recoveryMessage>
-  <PanicFlee.inspectLine>Сломлен: спасается бегством</PanicFlee.inspectLine>
-
-  <GiveUpExit.label>сдался и уходит</GiveUpExit.label>
-  <GiveUpExit.beginLetter>{0} сдался и покидает колонию.</GiveUpExit.beginLetter>
-  <GiveUpExit.recoveryMessage>{0} изменил свое мнение и возвращается в колонию.</GiveUpExit.recoveryMessage>
-  <GiveUpExit.inspectLine>Сломлен: сдался и уходит</GiveUpExit.inspectLine>
+	<PanicFlee.label>спасается бегством</PanicFlee.label>
+	<PanicFlee.beginLetterLabel>Трус</PanicFlee.beginLetterLabel>
+	<PanicFlee.beginLetter>{0} бежит в панике.</PanicFlee.beginLetter>
+	<PanicFlee.recoveryMessage>{0} больше не паникует.</PanicFlee.recoveryMessage>
+	<PanicFlee.inspectLine>Сломлен: спасается бегством</PanicFlee.inspectLine>
+	
+    <Manhunter.label>жаждет крови</Manhunter.label>
+    <Manhunter.beginLetterLabel>Убийца</Manhunter.beginLetterLabel>
+    <Manhunter.beginLetter>{0} теперь убивает всех без разбору!</Manhunter.beginLetter>
+    <Manhunter.recoveryMessage>{0} успокоился, жажда крови закончилась.</Manhunter.recoveryMessage>
+    <Manhunter.inspectLine>Сломлен: жажда крови</Manhunter.inspectLine>
+  
+	<!-- Unused? -->
+  
+	<GiveUpExit.label>сдался и уходит</GiveUpExit.label>
+	<GiveUpExit.beginLetterLabel>Слабак</GiveUpExit.beginLetterLabel>
+	<GiveUpExit.beginLetter>{0} сдался и покидает поселение.</GiveUpExit.beginLetter>
+	<GiveUpExit.recoveryMessage>{0} изменил свое мнение и возвращается в поселение.</GiveUpExit.recoveryMessage>
+	<GiveUpExit.inspectLine>Сломлен: сдался и уходит</GiveUpExit.inspectLine>
 
 </LanguageData>

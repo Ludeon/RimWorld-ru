@@ -3,11 +3,11 @@
 
 
 
-    <CallOnRadio>Связаться с {0}</CallOnRadio>
+  <CallOnRadio>Связаться с {0}</CallOnRadio>
   <CannotUseReason>Невозможно использовать ({0})</CannotUseReason>
-    <CannotUseSolarFlare>Невозможно использовать (солнечная вспышка)</CannotUseSolarFlare>
-    <CannotUseNoPower>Невозможно использовать (нет энергии)</CannotUseNoPower>
-    <CannotUseNoPath>Невозможно использовать (нельзя пройти)</CannotUseNoPath>
+  <CannotUseSolarFlare>Невозможно использовать (солнечная вспышка)</CannotUseSolarFlare>
+  <CannotUseNoPower>Невозможно использовать (нет энергии)</CannotUseNoPower>
+  <CannotUseNoPath>Невозможно использовать (нельзя пройти)</CannotUseNoPath>
   <CannotUseReserved>Невозможно использовать (занято)</CannotUseReserved>
   <CannotUseFull>Невозможно использовать (заполнено)</CannotUseFull>
 
@@ -23,14 +23,14 @@
   <MeleeAttackToDeath>Добить {0} врукопашную</MeleeAttackToDeath>
   <NoPath>нет прохода</NoPath>
 
-    <ForbiddenLower>запрещено</ForbiddenLower>
-    <SociallyImproperLower>социально неадаптирован</SociallyImproperLower>
+  <ForbiddenLower>запрещено</ForbiddenLower>
+  <SociallyImproperLower>социально неадаптирован</SociallyImproperLower>
   <PrisonerRoomLower>тюремное помещение</PrisonerRoomLower>
-    <BurningLower>горит</BurningLower>
-    <NoEmptyPlaceLower>нет свободного места, настроенного для хранения этого</NoEmptyPlaceLower>
-    <AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
-    <MissingMaterials>нужны материалы</MissingMaterials>
-  <MissingSkill>Недостаточный уровень умения</MissingSkill>
+  <BurningLower>горит</BurningLower>
+  <NoEmptyPlaceLower>нет свободного места, настроенного для хранения этого</NoEmptyPlaceLower>
+  <AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
+  <MissingMaterials>нужны материалы</MissingMaterials>
+  <MissingSkill>Недостаточный уровень навыка</MissingSkill>
 
   
   <ConsumeThing>Употребить {0}</ConsumeThing>
@@ -54,19 +54,19 @@
 
   <NoCryptosleepCasket>Нет доступных контейнеров крипто-сна.</NoCryptosleepCasket>
   <NoPrisonerBed>Не хватает кроватей для заключённых.</NoPrisonerBed>
-  <NoNonPrisonerBed>Не хватает кроватей для колонистов.</NoNonPrisonerBed>
+  <NoNonPrisonerBed>Не хватает кроватей для поселенецов.</NoNonPrisonerBed>
   <Reserved>Занято кем-то другим.</Reserved>
-  <ReservedBy>Занято {0}</ReservedBy>
-  <IsReservedBy>{0} занято {1}.</IsReservedBy>
-  <!-- <NoManipulationSkill>неспособен</NoManipulationSkill> -->
-  <Incapable>неспособный</Incapable>
-  <IncapableOfCapacity>не в состояние {0}</IncapableOfCapacity>
+  <ReservedBy>Занято: "{0}"</ReservedBy>
+  <IsReservedBy>{0}: "занято {1}".</IsReservedBy>
+
+  <incapable>неспособен</incapable>
+  <IncapableOfCapacity>неспособен {0}</IncapableOfCapacity>
 
   <Equip>Экипировать {0}</Equip>
   <EquipWarningBrawler>(дебошир будет недоволен)</EquipWarningBrawler>
   <CannotEquip>Невозможно экипировать {0}</CannotEquip>
 
-  <Wear>Надеть {0}</Wear>
+  <ForceWear>надеть {0}</ForceWear>
   <CannotWear>Невозможно надеть {0}</CannotWear>
 
   <Strip>Раздеть {0}</Strip>
@@ -87,15 +87,15 @@
   <EnterCryptosleepCasket>Войти в контейнер крипто-сна</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>Открыть контейнер крипто-сна</OpenCryptosleepCasket>
 
-
   
+
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
-  <CannotGenericWork>Невозможно {0} {1}</CannotGenericWork>
+  <CannotGenericWork>Невозможно {0}: "{1}"</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotMissingHealthActivities>Сейчас нельзя (Проблема со здоровьем: {0})</CannotMissingHealthActivities>
 
-  <CannotGenericAlreadyAm>Уже {0} {1}</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>Уже {0}: "{1}"</CannotGenericAlreadyAm>
 
   <CannotPrioritizeIsNotA>Сейчас нельзя ({0} не {1})</CannotPrioritizeIsNotA>
 
@@ -105,6 +105,6 @@
 
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
-  <PrioritizeGeneric>Немедленно {0} {1}</PrioritizeGeneric>
+  <PrioritizeGeneric>{0}: "{1}"</PrioritizeGeneric>
 
 </LanguageData>

@@ -7,46 +7,47 @@
   <LitBrightly>Очень светло</LitBrightly>
 
   <!-- diet type -->
-  <NeverEats>Никогда не ест</NeverEats>
+  <NeverEats>Не ест</NeverEats>
   <Omnivorous>Всеядный</Omnivorous>
   <Herbivorous>Травоядный</Herbivorous>
   <Carnivorous>Плотоядный</Carnivorous>
   <Dendrovorous>Древоядный</Dendrovorous>
-  
+
   <!-- history upload pref -->
-  <Unspecified>Нерешительный</Unspecified>
+  <Unspecified>Ещё не решено</Unspecified>
   <Always>Позволять</Always>
   <Never>Не позволять</Never>
-  
-  <!-- Price types -->
-  <PriceTypeVeryCheap>очень дешево</PriceTypeVeryCheap>
-  <PriceTypeCheap>дешево</PriceTypeCheap>
-  <PriceTypeNormal>нормально</PriceTypeNormal>
-  <PriceTypeExpensive>дорогой</PriceTypeExpensive>
-  <PriceTypeExorbitant>непомерно дорогой</PriceTypeExorbitant>
-  
-    <!-- Quality category -->
-  <QualityCategory_Awful>ужасное</QualityCategory_Awful>
-  <QualityCategory_Shoddy>низкопробный</QualityCategory_Shoddy>
-  <QualityCategory_Poor>плохое</QualityCategory_Poor>
-  <QualityCategory_Normal>нормальное</QualityCategory_Normal>
-  <QualityCategory_Good>хорошее</QualityCategory_Good>
-  <QualityCategory_Superior>превосходное</QualityCategory_Superior>
-  <QualityCategory_Excellent>отличное</QualityCategory_Excellent>
-  <QualityCategory_Masterwork>мастерское</QualityCategory_Masterwork>
-  <QualityCategory_Legendary>легендарное</QualityCategory_Legendary>
 
-  <QualityCategoryShort_Awful>ужсн</QualityCategoryShort_Awful>
-  <QualityCategoryShort_Shoddy>низкопроб</QualityCategoryShort_Shoddy>
+  <!-- Price types -->
+  <PriceTypeVeryCheap>очень дешевая</PriceTypeVeryCheap>
+  <PriceTypeCheap>дешевая</PriceTypeCheap>
+  <PriceTypeNormal>нормальная</PriceTypeNormal>
+  <PriceTypeExpensive>дорогая</PriceTypeExpensive>
+  <PriceTypeExorbitant>непомерная</PriceTypeExorbitant>
+
+  <!-- Quality category -->
+  <QualityCategory_Awful>ужасно -3</QualityCategory_Awful>
+  <QualityCategory_Shoddy>отвратно -2</QualityCategory_Shoddy>
+  <QualityCategory_Poor>плохо -1</QualityCategory_Poor>
+  <QualityCategory_Normal>стандарт 0</QualityCategory_Normal>
+  <QualityCategory_Good>хорошо 1</QualityCategory_Good>
+  <QualityCategory_Superior>отлично 2</QualityCategory_Superior>
+  <QualityCategory_Excellent>превосходно 3</QualityCategory_Excellent>
+  <QualityCategory_Masterwork>шедевр 4</QualityCategory_Masterwork>
+  <QualityCategory_Legendary>легенда 5</QualityCategory_Legendary>
+
+  <QualityCategoryShort_Awful>ужасн</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Shoddy>отвр</QualityCategoryShort_Shoddy>
   <QualityCategoryShort_Poor>плох</QualityCategoryShort_Poor>
-  <QualityCategoryShort_Normal>норм</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Normal>стнд</QualityCategoryShort_Normal>
   <QualityCategoryShort_Good>хор</QualityCategoryShort_Good>
-  <QualityCategoryShort_Superior>supr</QualityCategoryShort_Superior>
-  <QualityCategoryShort_Excellent>отл</QualityCategoryShort_Excellent>
-  <QualityCategoryShort_Masterwork>маст</QualityCategoryShort_Masterwork>
-  <QualityCategoryShort_Legendary>легенд</QualityCategoryShort_Legendary>
+  <QualityCategoryShort_Superior>отл</QualityCategoryShort_Superior>
+  <QualityCategoryShort_Excellent>прев</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Masterwork>шедевр</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Legendary>леген</QualityCategoryShort_Legendary>
+
   
-    <!-- Hunger -->
+  <!-- Hunger -->
   <HungerLevel_Starving>Голодает</HungerLevel_Starving>
   <HungerLevel_UrgentlyHungry>Недоедает</HungerLevel_UrgentlyHungry>
   <HungerLevel_Hungry>Хочет есть</HungerLevel_Hungry>
@@ -57,73 +58,11 @@
   <HungerLevel_VeryTired>Очень устал</HungerLevel_VeryTired>
   <HungerLevel_Tired>Устал</HungerLevel_Tired>
   <HungerLevel_Rested>Отдохнул</HungerLevel_Rested>
-  
-  <!-- Hilliness -->
+
+    <!-- Hilliness -->
   <Hilliness_Flat>Равнина</Hilliness_Flat>
   <Hilliness_SmallHills>Небольшие холмы</Hilliness_SmallHills>
   <Hilliness_LargeHills>Большие холмы</Hilliness_LargeHills>
   <Hilliness_Mountainous>Горы</Hilliness_Mountainous>
-  
-  <!--
-  <!-- food quality 
-  <NoneQuality>Нет</NoneQuality>
-  <PlantQuality>Растения</PlantQuality>
-  <RawQuality>Сырое</RawQuality>
-  <MealAwfulQuality>Плохое</MealAwfulQuality>
-  <MealSimpleQuality>Простое</MealSimpleQuality>
-  <MealFineQuality>Отличное</MealFineQuality>
-  <MealLavishLavish>Прекрасное</MealLavishLavish>
 
-  <!-- diet type 
-  <NeverEats>Не ест</NeverEats>
-  <Omnivorous>Всеядный</Omnivorous>
-  <Herbivorous>Травоядный</Herbivorous>
-  <Carnivorous>Плотоядный</Carnivorous>
-  <Dendrovorous>Древоядный</Dendrovorous>
-
-  <!-- history upload pref 
-  <Unspecified>Ещё не решено</Unspecified>
-  <Always>Позволять</Always>
-  <Never>Не позволять</Never>
-
-  <!-- Price types 
-  <PriceTypeVeryCheap>очень дешевая</PriceTypeVeryCheap>
-  <PriceTypeCheap>дешевая</PriceTypeCheap>
-  <PriceTypeNormal>нормальная</PriceTypeNormal>
-  <PriceTypeExpensive>дорогая</PriceTypeExpensive>
-  <PriceTypeExorbitant>непомерная</PriceTypeExorbitant>
-
-  <!-- Quality category 
-  <QualityCategory_Awful>отвратно</QualityCategory_Awful>
-  <QualityCategory_Shoddy>ужасно</QualityCategory_Shoddy>
-  <QualityCategory_Poor>плохо</QualityCategory_Poor>
-  <QualityCategory_Normal>средне</QualityCategory_Normal>
-  <QualityCategory_Good>неплохо</QualityCategory_Good>
-  <QualityCategory_Superior>хорошо</QualityCategory_Superior>
-  <QualityCategory_Excellent>отлично</QualityCategory_Excellent>
-  <QualityCategory_Masterwork>шедевр</QualityCategory_Masterwork>
-  <QualityCategory_Legendary>легенда</QualityCategory_Legendary>
-
-  <QualityCategoryShort_Awful>отвр</QualityCategoryShort_Awful>
-  <QualityCategoryShort_Shoddy>ужасн</QualityCategoryShort_Shoddy>
-  <QualityCategoryShort_Poor>плох</QualityCategoryShort_Poor>
-  <QualityCategoryShort_Normal>средн</QualityCategoryShort_Normal>
-  <QualityCategoryShort_Good>неплох</QualityCategoryShort_Good>
-  <QualityCategoryShort_Superior>хор</QualityCategoryShort_Superior>
-  <QualityCategoryShort_Excellent>отл</QualityCategoryShort_Excellent>
-  <QualityCategoryShort_Masterwork>шедевр</QualityCategoryShort_Masterwork>
-  <QualityCategoryShort_Legendary>леген</QualityCategoryShort_Legendary>
-
-  <!-- Hunger 
-  <HungerLevel_Starving>Голодает</HungerLevel_Starving>
-  <HungerLevel_UrgentlyHungry>Недоедает</HungerLevel_UrgentlyHungry>
-  <HungerLevel_Hungry>Хочет есть</HungerLevel_Hungry>
-  <HungerLevel_Fed>Накормлен</HungerLevel_Fed>
-
-  <!-- -Fatigue 
-  <HungerLevel_Exhausted>Обессилел</HungerLevel_Exhausted>
-  <HungerLevel_VeryTired>Очень устал</HungerLevel_VeryTired>
-  <HungerLevel_Tired>Устал</HungerLevel_Tired>
-  <HungerLevel_Rested>Отдохнул</HungerLevel_Rested>
-  -->
 </LanguageData>

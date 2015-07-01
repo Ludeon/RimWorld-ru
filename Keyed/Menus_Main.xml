@@ -3,7 +3,7 @@
 
   <!--=========== Главное меню ==========-->
   <CreateWorld>Создать мир</CreateWorld>
-  <NewColony>Новая колония</NewColony>
+  <NewColony>Новое поселение</NewColony>
   <BackToGame>Назад в игру</BackToGame>
   <Save>Сохранить</Save>
   <Load>Загрузить</Load>
@@ -37,9 +37,9 @@
 
   <!--=========== Version info ==========-->
   <BuildNowAvailable>Доступна новая версия {0}. Зайдите на ludeon.com для получения информации.</BuildNowAvailable>
-    <BuildUpToDate>У вас последняя версия.</BuildUpToDate>
-    <ErrorGettingVersionInfo>Ошибка получения данных о версии: {0}</ErrorGettingVersionInfo>
-    <LoadingVersionInfo>Загрузка данных о версии...</LoadingVersionInfo>
+  <BuildUpToDate>У вас последняя версия.</BuildUpToDate>
+  <ErrorGettingVersionInfo>Ошибка получения данных о версии: {0}</ErrorGettingVersionInfo>
+  <LoadingVersionInfo>Загрузка данных о версии...</LoadingVersionInfo>
 
   <!--=========== World generator =========-->
   <GenerateWorld>Создать мир</GenerateWorld>
@@ -53,20 +53,13 @@
 
   <!--=========== Выбрать разказчик ==========-->
   <ChooseAIStoryteller>Выбор ИИ рассказчика</ChooseAIStoryteller>
-  <HowStorytellersWork>ИИ Рассказчик создаёт события, такие как пиратские рейды, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашей колонии.</HowStorytellersWork>
-  <MustChooseDifficulty>Пожалуйста, выберите уровень сложности.</MustChooseDifficulty>
+  <HowStorytellersWork>ИИ Рассказчик создаёт события, такие как пиратские нападения, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашего поселения.</HowStorytellersWork>
+  <MustChooseDifficulty>Пожалуйста, выберите сложность.</MustChooseDifficulty>
   <Difficulty>Сложность</Difficulty>
-  <!--
-  <MustChooseChallengeScale>Пожалуйста, выберите сложность.</MustChooseChallengeScale>
-  <ChallengeScale>Сложность</ChallengeScale>
-  <ChallengeScaleTip>Уровень угроз, создаваемых ИИ, будет составлять {0} от сложности "Вызов".</ChallengeScaleTip>
-  <ChallengeScale_BuilderMode>Режим строителя</ChallengeScale_BuilderMode>
-  <ChallengeScale_Casual>Обычный</ChallengeScale_Casual>
-  <ChallengeScale_Rough>Сложный</ChallengeScale_Rough>
-  <ChallengeScale_Challenge>Вызов</ChallengeScale_Challenge>
-  <ChallengeScale_SeriousChallegne>Серьёзный вызов </ChallengeScale_SeriousChallegne>
-  <ChallengeScale_ExtremeChallenge>Экстремальное испытание</ChallengeScale_ExtremeChallenge>
-  -->
+
+
+
+
   <!--=========== Landing site select =========-->
   <SelectLandingSite>Выбор места посадки</SelectLandingSite>
   <SelectSite>Выбрать место</SelectSite>
@@ -104,10 +97,9 @@
   <LastNameDesc>Фамилия персонажа.\n\nОтображается только в некоторых меню.</LastNameDesc>
   <Randomize>Случайно</Randomize>
   <AgeIndicator>возраст {0}</AgeIndicator>
-  <Backstory>Биография</Backstory>
-  <IncapableOf>Некомпетентность</IncapableOf>
-  <Traits>Черты</Traits>
-  <!--<TraitsDoNothing>Просто часть забавной истории, большинство из них ни на что не влияют. Это изменится в будущих версиях.</TraitsDoNothing>-->
+  <Backstory>Предыстория</Backstory>
+  <IncapableOf>Минусы</IncapableOf>
+  <Traits>Особенности</Traits>
   <PermanentMoodEffect>Постоянный эффект настроения</PermanentMoodEffect>
   <Skills>Навыки</Skills>
   <NoneLower>отсутствует</NoneLower>
@@ -124,9 +116,9 @@
   <Next>Дальше</Next>
   <Back>Назад</Back>
 
-   <Gameplay>Игра</Gameplay>
+  <Gameplay>Игра</Gameplay>
 
-  <ConfirmQuit>Действительно выйти? Вы потеряете весь несохранённый прогресс.</ConfirmQuit>
+  <ConfirmQuit>Вы потеряете весь несохранённый прогресс, если выйдете прямо сейчас.</ConfirmQuit>
 
   <EveryoneNeedsValidName>Каждому человеку нужно корректное имя.</EveryoneNeedsValidName>
 
