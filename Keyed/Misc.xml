@@ -2,11 +2,11 @@
 <LanguageData>
 
   <Autosaving>Автосохранение</Autosaving>
-  
-  <GameStartDialog>Вы трое проснулись в своих саркофагах крипто-сна под звук сирен и скрежет металла. Едва вы успели добраться до спасательных капсул, как корабль развалился на части.\n\nНекоторое время спустя вы приземлились на эту неизвестную планету Rimworld.\n\nПод звездопад из обломков корабля, вы начинаете строить планы по выживанию.</GameStartDialog>
 
-  <Colony>колонии</Colony> 
-  
+  <GameStartDialog>Вы трое проснулись в своих саркофагах крипто-сна под звук сирен и скрежет металла. Едва вы успели добраться до спасательных капсул, как корабль развалился на части.\n\nНекоторое время спустя вы приземлились на эту неизвестную планету.\n\nПод звездопад из обломков корабля, вы начинаете строить планы по выживанию.</GameStartDialog>
+
+  <Colony>Поселения</Colony>
+
   <ChangeLanguageFromMainMenu>Язык можно сменить только в главном меню.</ChangeLanguageFromMainMenu>
 
   <AndLower>и</AndLower>
@@ -14,25 +14,36 @@
 
   <CloseButton>Закрыть</CloseButton>
 
-
+  
   <VersionIndicator>Версия {0}</VersionIndicator>
   <DevelopmentBuildLower>только для тестеров</DevelopmentBuildLower>
   <CompiledOn>Сборка от {0}</CompiledOn>
+
+  
+  
+  <!-- Content generation-->
 
   <MeatLabel>{0} мясо</MeatLabel>
   <MeatDesc>Сырое мясо {0}.</MeatDesc>
 
   <LeatherLabel>Кожа {0}</LeatherLabel>
-  <LeatherDesc>Кожа, выделанная из шкуры {0}.</LeatherDesc>
+  <LeatherDesc>Кожа, содранная с {0}.</LeatherDesc>
 
   <CorpseLabel>Труп {0}</CorpseLabel>
-	<CorpseDesc>Мертвое тело {0}.</CorpseDesc>
-  <DeadLabel>{0} (мертв)</DeadLabel>
+  <CorpseDesc>Мёртвое тело {0}.</CorpseDesc>
+  <DeadLabel>{0} (мёртв)</DeadLabel>
 
+  <RoughStoneTerrainLabel>неровный {0}</RoughStoneTerrainLabel>
+  <RoughStoneTerrainDesc>Невыровненный {0} пол.</RoughStoneTerrainDesc>
+  <RoughHewnStoneTerrainLabel>неотёсанный {0}</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainDesc>Неотёсанный {0} пол.</RoughHewnStoneTerrainDesc>
+  <SmoothStoneTerrainLabel>ровный {0}</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainDesc>Выровненный {0} пол.</SmoothStoneTerrainDesc>
 
-	<BlueprintLabelExtra> (проект)</BlueprintLabelExtra>
+  <BlueprintLabelExtra> (проект)</BlueprintLabelExtra>
   <FrameLabelExtra> (постройка)</FrameLabelExtra>
 
+  
   <!-- Для вещей, сделанных из чего-либо, напр. "Кровать из камня" -->
   <!-- 0 это nameAsStuff в stuffProps (см. Items_Resources.xml) и 1 это название вещи -->
   <ThingMadeOfStuffLabel>{1} из {0}</ThingMadeOfStuffLabel>
@@ -40,6 +51,8 @@
   <VariousLabel>(различное)</VariousLabel>
 
   <!-- History events -->
-  <ColonistDied>Колонист погиб</ColonistDied>
+  <ColonistDied>Поселенец погиб</ColonistDied>
+
+  
   
 </LanguageData>

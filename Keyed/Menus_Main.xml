@@ -3,7 +3,7 @@
 
   <!--=========== Главное меню ==========-->
   <CreateWorld>Создать мир</CreateWorld>
-  <NewColony>Новая колония</NewColony>
+  <NewColony>Новое поселение</NewColony>
   <BackToGame>Назад в игру</BackToGame>
   <Save>Сохранить</Save>
   <Load>Загрузить</Load>
@@ -34,7 +34,7 @@
   <SelectWorld>Выбор мира</SelectWorld>
   <WorldChooseButton>Выбрать</WorldChooseButton>
   <NoWorldsFilesFound>Нет ни одного созданного мира. Сперва создайте мир.</NoWorldsFilesFound>
-  
+
   <!--=========== Version info ==========-->
   <BuildNowAvailable>Доступна новая версия {0}. Зайдите на ludeon.com для получения информации.</BuildNowAvailable>
   <BuildUpToDate>У вас последняя версия.</BuildUpToDate>
@@ -52,45 +52,42 @@
 
 
   <!--=========== Выбрать разказчик ==========-->
-    <ChooseAIStoryteller>Выбор ИИ рассказчика</ChooseAIStoryteller>
-  <HowStorytellersWork>ИИ Рассказчик создаёт события, такие как пиратские рейды, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашей колонии.</HowStorytellersWork>
-  <MustChooseChallengeScale>Пожалуйста, выберите сложность.</MustChooseChallengeScale>
-  <ChallengeScale>Сложность</ChallengeScale>
-  <ChallengeScaleTip>Уровень угроз, создаваемых ИИ, будет составлять {0} от сложности "Вызов".</ChallengeScaleTip>
-  <ChallengeScale_BuilderMode>Режим строителя</ChallengeScale_BuilderMode>
-  <ChallengeScale_Casual>Обычный</ChallengeScale_Casual>
-  <ChallengeScale_Rough>Сложный</ChallengeScale_Rough>
-  <ChallengeScale_Challenge>Вызов</ChallengeScale_Challenge>
-  <ChallengeScale_SeriousChallegne>Серьёзный вызов </ChallengeScale_SeriousChallegne>
-  <ChallengeScale_ExtremeChallenge>Экстремальное испытание</ChallengeScale_ExtremeChallenge>
+  <ChooseAIStoryteller>Выбор ИИ рассказчика</ChooseAIStoryteller>
+  <HowStorytellersWork>ИИ Рассказчик создаёт события, такие как пиратские нападения, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашего поселения.</HowStorytellersWork>
+  <MustChooseDifficulty>Пожалуйста, выберите сложность.</MustChooseDifficulty>
+  <Difficulty>Сложность</Difficulty>
+
+
 
 
   <!--=========== Landing site select =========-->
   <SelectLandingSite>Выбор места посадки</SelectLandingSite>
   <SelectSite>Выбрать место</SelectSite>
   <MustSelectLandingSite>Пожалуйста, выберите место посадки.</MustSelectLandingSite>
-  <CannotLandBiome>Вы не можете приземлиться на этот биом: {0}</CannotLandBiome>
+  <CannotLandBiome>Вы не можете приземлиться в этом регионе: {0}</CannotLandBiome>
   <WorldRenderMode>Режим</WorldRenderMode>
   <WorldRenderModeFull>Полный</WorldRenderModeFull>
   <WorldRenderModeTemperature>Температура</WorldRenderModeTemperature>
   <WorldRenderModeElevation>Высота</WorldRenderModeElevation>
   <WorldRenderModeFertility>Плодородность</WorldRenderModeFertility>
   <WorldRenderModeRainfall>Осадки</WorldRenderModeRainfall>
-  <WorldRenderModeBiomes>Биомы</WorldRenderModeBiomes>
-  <BiomeNotImplemented>биом не реализован</BiomeNotImplemented>
+  <WorldRenderModeBiomes>Регионы</WorldRenderModeBiomes>
+  <BiomeNotImplemented>Регион не реализован</BiomeNotImplemented>
   <BaseAlreadyThere>{0} уже разместили там базу.</BaseAlreadyThere>
-  <Biome>Биом</Biome>
+  <Biome>Регион</Biome>
   <Terrain>Поверхность</Terrain>
   <Elevation>Высота</Elevation>
   <Fertility>Плодородность</Fertility>
   <AvgTemp>Ср. температура</AvgTemp>
+  <AvgJanTemp>Ср. темп. (Янв): {0}</AvgJanTemp>
+  <AvgJulTemp>Ср. темп. (Июл): {0}</AvgJulTemp>
   <Rainfall>Осадки</Rainfall>
   <HasCoast0>Побережье с севера</HasCoast0>
   <HasCoast1>Побережье с востока</HasCoast1>
   <HasCoast2>Побережье с юга</HasCoast2>
   <HasCoast3>Побережье с запада</HasCoast3>
   <FactionBase>База фракции</FactionBase>
-
+  <StoneTypesHere>Типы пород</StoneTypesHere>
 
 
   <!--=========== Character chooser ==========-->
@@ -101,9 +98,8 @@
   <Randomize>Случайно</Randomize>
   <AgeIndicator>возраст {0}</AgeIndicator>
   <Backstory>Предыстория</Backstory>
-  <IncapableOf>Некомпетентность</IncapableOf>
-  <Traits>Черты</Traits>
-  <TraitsDoNothing>Просто часть забавной истории, большинство из них ни на что не влияют. Это изменится в будущих версиях.</TraitsDoNothing>
+  <IncapableOf>Минусы</IncapableOf>
+  <Traits>Особенности</Traits>
   <PermanentMoodEffect>Постоянный эффект настроения</PermanentMoodEffect>
   <Skills>Навыки</Skills>
   <NoneLower>отсутствует</NoneLower>
@@ -112,18 +108,18 @@
   <Male>Он</Male>
   <Female>Она</Female>
   <Pain>Боль</Pain>
-  
-  
+
+
   <!--=========== Misc ==========-->
   <Start>Начать</Start>
   <Advanced>Дополнительно</Advanced>
   <Next>Дальше</Next>
   <Back>Назад</Back>
-  
-   <Gameplay>Геймплей</Gameplay>
 
-  <ConfirmQuit>Действительно выйти? Вы потеряете весь несохранённый прогресс.</ConfirmQuit>
-  
+  <Gameplay>Игра</Gameplay>
+
+  <ConfirmQuit>Вы потеряете весь несохранённый прогресс, если выйдете прямо сейчас.</ConfirmQuit>
+
   <EveryoneNeedsValidName>Каждому человеку нужно корректное имя.</EveryoneNeedsValidName>
 
   <GeneratingWorld>Создание мира...</GeneratingWorld>

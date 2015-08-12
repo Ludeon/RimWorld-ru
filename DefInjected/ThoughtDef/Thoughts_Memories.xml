@@ -1,101 +1,328 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<AteRawFood.label>съел сырую пищу</AteRawFood.label>
-	<AteRawFood.description>Мне пришлось питаться сырыми продуктами. Мы можем готовить или, хотя бы, синтезировать питательную пасту?</AteRawFood.description>
+  <rep>
+    <path>SleepDisturbed.stages[0].label</path>
+    <trans>беспокойный сон</trans>
+  </rep>
+  <rep>
+    <path>SleepDisturbed.stages[0].description</path>
+    <trans>Во время сна меня беспокоили люди, которые ходили туда-сюда по моей комнате.</trans>
+  </rep>
 
-	<AteNutrientPasteMeal.label>съел питательную пасту</AteNutrientPasteMeal.label>
-	<AteNutrientPasteMeal.description>Я должен был съесть питательную пасту. Я знаю, что это поможет мне остаться в живых, но никто не захочет глотать эту бурду.</AteNutrientPasteMeal.description>
+  <!-- =========== Еда ===============-->
 
-	<AteFineMeal.label>съел хорошую еду</AteFineMeal.label>
-	<AteFineMeal.description>Я съел по-настоящему вкусное блюдо. Ням-ням!</AteFineMeal.description>
+  <rep>
+    <path>AteRawFood.stages[0].label</path>
+    <trans>съел сырую пищу</trans>
+  </rep>
+  <rep>
+    <path>AteRawFood.stages[0].description</path>
+    <trans>Мне пришлось есть сырые продукты. Разве мы не можем их приготовить или, хотя бы, синтезировать питательную пасту?</trans>
+  </rep>
 
-	<AteLavishMeal.label>съел роскошную еду</AteLavishMeal.label>
-	<AteLavishMeal.description>Роскошное пиршество было просто удивительно. Оно питает мое тело и душу.</AteLavishMeal.description>
+  <rep>
+    <path>AteNutrientPasteMeal.stages[0].label</path>
+    <trans>съел питательную пасту</trans>
+  </rep>
+  <rep>
+    <path>AteNutrientPasteMeal.stages[0].description</path>
+    <trans>Пришлось есть питательную пасту. Я знаю, что она помогает не умереть от голода, но кому нравится глотать эту бурду?</trans>
+  </rep>
 
-	<!-- =========== Cannibalism ===============-->
+  <rep>
+    <path>AteFineMeal.stages[0].label</path>
+    <trans>съел хорошее блюдо</trans>
+  </rep>
+  <rep>
+    <path>AteFineMeal.stages[0].description</path>
+    <trans>По-настоящему вкусное блюдо. Ням-ням!</trans>
+  </rep>
 
-	<AteHumanoidMeatDirect.label>съел сырую человечину</AteHumanoidMeatDirect.label>
-	<AteHumanoidMeatDirect.description>Я съел мясо другого человека, сырым, как животное. Это кошмар.</AteHumanoidMeatDirect.description>
+  <rep>
+    <path>AteLavishMeal.stages[0].label</path>
+    <trans>съел шикарное блюдо</trans>
+  </rep>
+  <rep>
+    <path>AteLavishMeal.stages[0].description</path>
+    <trans>Роскошное, удивительное блюдо! Оно питает мое тело и душу.</trans>
+  </rep>
 
-	<AteHumanoidMeatAsIngredient.label>съел блюдо с человечиной</AteHumanoidMeatAsIngredient.label>
-	<AteHumanoidMeatAsIngredient.description>Я съел блюдо, приготовленное из мяса другого человека. Это ужасно.</AteHumanoidMeatAsIngredient.description>
+  <!-- =========== Канибализм ===============-->
 
-	<AteHumanoidMeatDirectCannibal.label>съел сырую человечину</AteHumanoidMeatDirectCannibal.label>
-	<AteHumanoidMeatDirectCannibal.description>Я съел мясо другого человека, сырым, как животное. Это было так... сочно.</AteHumanoidMeatDirectCannibal.description>
+  <rep>
+    <path>AteHumanlikeMeatDirect.stages[0].label</path>
+    <trans>съел сырую человечину</trans>
+  </rep>
+  <rep>
+    <path>AteHumanlikeMeatDirect.stages[0].description</path>
+    <trans>Я съел мясо другого человека, сырым, как зверь. Какой кошмар!</trans>
+  </rep>
 
-	<AteHumanoidMeatAsIngredientCannibal.label>съел блюдо с человечиной</AteHumanoidMeatAsIngredientCannibal.label>
-	<AteHumanoidMeatAsIngredientCannibal.description>Я съел блюдо, приготовленное из мяса другого человека. Такое удовольствие. Если бы только у меня было немного бобов и хорошее кьянти. </AteHumanoidMeatAsIngredientCannibal.description>
+  <rep>
+    <path>AteHumanlikeMeatAsIngredient.stages[0].label</path>
+    <trans>съел блюдо с человечиной</trans>
+  </rep>
+  <rep>
+    <path>AteHumanlikeMeatAsIngredient.stages[0].description</path>
+    <trans>Я съел блюдо, приготовленное из мяса другого человека. Это ужасно.</trans>
+  </rep>
 
-	<ButcheredHumanoidCorpse.label>разделал человека</ButcheredHumanoidCorpse.label>
-	<ButcheredHumanoidCorpse.description>Я только что разделал кого-то будто животное.</ButcheredHumanoidCorpse.description>
+  <rep>
+    <path>AteHumanlikeMeatDirectCannibal.stages[0].label</path>
+    <trans>съел сырую человечину</trans>
+  </rep>
+  <rep>
+    <path>AteHumanlikeMeatDirectCannibal.stages[0].description</path>
+    <trans>Я съел мясо другого человека, сырым, как зверь. Оно было такое... сочное.</trans>
+  </rep>
 
-	<AteWithoutTable.label>ел на полу</AteWithoutTable.label>
-	<AteWithoutTable.description>Мне пришлось есть еду на земле. Не могли бы мы сделать стол?</AteWithoutTable.description>
+  <rep>
+    <path>AteHumanlikeMeatAsIngredientCannibal.stages[0].label</path>
+    <trans>съел блюдо с человечиной</trans>
+  </rep>
+  <rep>
+    <path>AteHumanlikeMeatAsIngredientCannibal.stages[0].description</path>
+    <trans>Я съел блюдо, приготовленное из мяса другого человека. Такое вкусно! Если бы только у меня было немного бобов и хорошее кьянти.</trans>
+  </rep>
 
-	<!-- Combat -->
+  <!-- =========== Еда - другое ===============-->
 
-	<ObservedLayingCorpse.label>видел труп</ObservedLayingCorpse.label>
-	<ObservedLayingCorpse.description>Я видел мертвое тело, лежащее на земле.</ObservedLayingCorpse.description>
+  <rep>
+    <path>ButcheredHumanlikeCorpse.stages[0].label</path>
+    <trans>разделал человека</trans>
+  </rep>
+  <rep>
+    <path>ButcheredHumanlikeCorpse.stages[0].description</path>
+    <trans>Я только что разделал человека будто животное.</trans>
+  </rep>
 
-	<ObservedLayingRottingCorpse.label>видел гниющий труп</ObservedLayingRottingCorpse.label>
-	<ObservedLayingRottingCorpse.description>Я видел гниющий труп, лежащий на земле. Это было отвратительно.</ObservedLayingRottingCorpse.description>
+  <rep>
+    <path>AteWithoutTable.stages[0].label</path>
+    <trans>Еда на земле</trans>
+  </rep>
+  <rep>
+    <path>AteWithoutTable.stages[0].description</path>
+    <trans>Мне пришлось есть прямо на земле. Не могли бы мы сделать стол?</trans>
+  </rep>
 
-	<WitnessedDeathAlly.label>свидетель смерти союзника</WitnessedDeathAlly.label>
-	<WitnessedDeathAlly.description>Я видел как один из наших умер. Еще мгновение назад он был жив, и через секунду он мертв.</WitnessedDeathAlly.description>
+  <!-- =========== Боевое ===============-->
 
-	<WitnessedDeathStranger.label>свидетель смерти незнакомца</WitnessedDeathStranger.label>
-	<WitnessedDeathStranger.description>Я видел как кто-то умер. Еще мгновение назад он был жив, и через секунду он мертв.</WitnessedDeathStranger.description>
+  <rep>
+    <path>ObservedLayingCorpse.stages[0].label</path>
+    <trans>видел труп</trans>
+  </rep>
+  <rep>
+    <path>ObservedLayingCorpse.stages[0].description</path>
+    <trans>Я видел мёртвое тело, лежащее на земле.</trans>
+  </rep>
 
-	<WitnessedDeathStrangerBloodlust.label>свидетель смерти незнакомца</WitnessedDeathStrangerBloodlust.label>
-	<WitnessedDeathStrangerBloodlust.description>Я видел как кто-то умер! Это было захватывающе!</WitnessedDeathStrangerBloodlust.description>
+  <rep>
+    <path>ObservedLayingRottingCorpse.stages[0].label</path>
+    <trans>видел гниющий труп</trans>
+  </rep>
+  <rep>
+    <path>ObservedLayingRottingCorpse.stages[0].description</path>
+    <trans>Я видел гниющий труп... Отвратительно.</trans>
+  </rep>
 
-	<KilledHumanoidBloodlust.label>убил человека</KilledHumanoidBloodlust.label>
-	<KilledHumanoidBloodlust.description>Я убил кого-то! Вот это раж!</KilledHumanoidBloodlust.description>
+  <rep>
+    <path>WitnessedDeathAlly.stages[0].label</path>
+    <trans>свидетель смерти союзника</trans>
+  </rep>
+  <rep>
+    <path>WitnessedDeathAlly.stages[0].description</path>
+    <trans>Один из наших умер. Еще мгновение назад он был жив, и через секунду - мёртв.</trans>
+  </rep>
 
-	<BattleWounded.label>раненный</BattleWounded.label>
-	<BattleWounded.description>Это моя кровь! Я был ранен в бою!</BattleWounded.description>
+  <rep>
+    <path>WitnessedDeathStranger.stages[0].label</path>
+    <trans>свидетель смерти незнакомца</trans>
+  </rep>
+  <rep>
+    <path>WitnessedDeathStranger.stages[0].description</path>
+    <trans>Я видел смерть человека. Еще мгновение назад он был жив, и через секунду уже мёртв.</trans>
+  </rep>
 
-	<NewColonyOptimism.label>оптимизм новой колонии</NewColonyOptimism.label>
-	<NewColonyOptimism.description>Мы только что приземлились здесь. Это трудная ситуация, но мне очень интересно основать новую колонию.</NewColonyOptimism.description>
+  <rep>
+    <path>WitnessedDeathStrangerBloodlust.stages[0].label</path>
+    <trans>свидетель смерти незнакомца</trans>
+  </rep>
+  <rep>
+    <path>WitnessedDeathStrangerBloodlust.stages[0].description</path>
+    <trans>Я видел как кто-то умер! Вот это было зрелище!</trans>
+  </rep>
 
-	<NewColonyHope.label>новая колония, новая надежда</NewColonyHope.label>
-	<NewColonyHope.description>Я привыкаю к такому положению дел, и это все еще интересно. Я надеюсь, что это не надолго...</NewColonyHope.description>
+  <rep>
+    <path>KilledHumanlikeBloodlust.stages[0].label</path>
+    <trans>убил человека</trans>
+  </rep>
+  <rep>
+    <path>KilledHumanlikeBloodlust.stages[0].description</path>
+    <trans>Я убил человека! Вот это раж!</trans>
+  </rep>
 
-	<SleptOutside.label>спал на улице</SleptOutside.label>
-	<SleptOutside.description>Мне пришлось спать на открытом воздухе, без всякой защиты от врагов.</SleptOutside.description>
+  <rep>
+    <path>BattleWounded.stages[0].label</path>
+    <trans>раненный</trans>
+  </rep>
+  <rep>
+    <path>BattleWounded.stages[0].description</path>
+    <trans>Это же моя кровь! Меня ранили в бою!</trans>
+  </rep>
 
-	<SleptOnGround.label>спал на земле</SleptOnGround.label>
-	<SleptOnGround.description>Приходится спать на земле, как животное.</SleptOnGround.description>
+  <!-- =========== Оптимизм поселения ===============-->
 
-	<KnowPrisonerBeaten.label>заключенный был избит</KnowPrisonerBeaten.label>
-	<KnowPrisonerBeaten.description>Они избили заключенного.</KnowPrisonerBeaten.description>
+  <rep>
+    <path>NewColonyOptimism.stages[0].label</path>
+    <trans>оптимизм поселенца</trans>
+  </rep>
+  <rep>
+    <path>NewColonyOptimism.stages[0].description</path>
+    <trans>Мы только что приземлились. Ситуация трудная, но мне очень интересно основать новое поселение.</trans>
+  </rep>
 
-	<KnowPrisonerSold.label>заключенный был продан</KnowPrisonerSold.label>
-	<KnowPrisonerSold.description>Эта колония продает заключенных в рабство. Это тревожный сигнал.</KnowPrisonerSold.description>
+  <rep>
+    <path>NewColonyHope.stages[0].label</path>
+    <trans>новое поселение, новая надежда</trans>
+  </rep>
+  <rep>
+    <path>NewColonyHope.stages[0].description</path>
+    <trans>Понемногу привыкаю к такому положению дел, но интерес пока не пропал. Надеюсь, так будет и дальше...</trans>
+  </rep>
 
-	<KnowPrisonerExecuted.label>заключенный был казнён</KnowPrisonerExecuted.label>
-	<KnowPrisonerExecuted.description>Заключенный был казнён. Эта колония, кажется, полна зла.</KnowPrisonerExecuted.description>
+  <!-- =========== Сон ===============-->
 
-	<JustImprisoned.label>попал в тюрьму</JustImprisoned.label>
-	<JustImprisoned.description>Меня только что бросили в тюрьму. Нужно держать себя в руках и тогда я справлюсь с этим.</JustImprisoned.description>
+  <rep>
+    <path>SleptOutside.stages[0].label</path>
+    <trans>сон на улице</trans>
+  </rep>
+  <rep>
+    <path>SleptOutside.stages[0].description</path>
+    <trans>Мне пришлось спать на открытом воздухе, безо всякой защиты.</trans>
+  </rep>
 
-	<PrisonerFriendlyChat.label>убеждён охранником</PrisonerFriendlyChat.label>
-	<PrisonerFriendlyChat.description>Охранник и я разговаривали о колонии. Он говорит, что это хорошее место...</PrisonerFriendlyChat.description>
+  <rep>
+    <path>SleptOnGround.stages[0].label</path>
+    <trans>сон на земле</trans>
+  </rep>
+  <rep>
+    <path>SleptOnGround.stages[0].description</path>
+    <trans>Пришлось спать на земле, будто животное.</trans>
+  </rep>
 
-	<PrisonerBeatenMild.label>избит охранником</PrisonerBeatenMild.label>
-	<PrisonerBeatenMild.description>Этот охранник только что избил меня. Он ничего мне не сломал, но, черт возьми, это больно.</PrisonerBeatenMild.description>
+  <rep>
+    <path>SleptInCold.stages[0].label</path>
+    <trans>сон на холоде</trans>
+  </rep>
+  <rep>
+    <path>SleptInCold.stages[0].description</path>
+    <trans>Мне пришлось спать на холоде. Нам нужны обогреватели.</trans>
+  </rep>
 
-	<PrisonerBeatenVicious.label>жестоко избит охранником</PrisonerBeatenVicious.label>
-	<PrisonerBeatenVicious.description>Этот охранник окунул меня в ад. Я мог умереть от этого...</PrisonerBeatenVicious.description>
+  <rep>
+    <path>SleptInHeat.stages[0].label</path>
+    <trans>сон на жаре</trans>
+  </rep>
+  <rep>
+    <path>SleptInHeat.stages[0].description</path>
+    <trans>Мне пришлось спать в неперемосимую жару. Может мы поставим кондиционер?</trans>
+  </rep>
 
-	<SocialTalk.label>простое общение</SocialTalk.label>
-	<SocialTalk.description>Я только что вдоволь наговорился.</SocialTalk.description>
+  <!-- =========== Заключённые ===============-->
 
-	<AbrasiveTalk.label>неприятная беседа</AbrasiveTalk.label>
-	<AbrasiveTalk.description>Кто-то был груб со мной. Самое плохое, что, по-моему, этот человек даже не осознал этого...</AbrasiveTalk.description>
+  <rep>
+    <path>KnowPrisonerSold.stages[0].label</path>
+    <trans>заключённый был продан</trans>
+  </rep>
+  <rep>
+    <path>KnowPrisonerSold.stages[0].description</path>
+    <trans>Поселение продает заключённых в рабство. Это тревожный сигнал.</trans>
+  </rep>
 
-	<GreenThumbHappy.label>посадил растение</GreenThumbHappy.label>
-	<GreenThumbHappy.description>Больше растений - это то, что нужно миру.</GreenThumbHappy.description>
+  <rep>
+    <path>KnowPrisonerExecuted.stages[0].label</path>
+    <trans>заключённый был казнён</trans>
+  </rep>
+  <rep>
+    <path>KnowPrisonerExecuted.stages[0].description</path>
+    <trans>Они хладнокровно казнили заключенного. Местное население становится всё более жестоким.</trans>
+  </rep>
+
+  <rep>
+    <path>KnowPrisonerOrganHarvested.stages[0].label</path>
+    <trans>у заключённого взяли орган</trans>
+  </rep>
+  <rep>
+    <path>KnowPrisonerOrganHarvested.stages[0].description</path>
+    <trans>Поселенцы забрали части тела у заключённого. Это ужасно, разбирать людей на части, когда у них нет иного выбора.</trans>
+  </rep>
+
+  <rep>
+    <path>MePrisonerOrganHarvested.stages[0].label</path>
+    <trans>забрали орган</trans>
+  </rep>
+  <rep>
+    <path>MePrisonerOrganHarvested.stages[0].description</path>
+    <trans>Поселенцы забрали у меня часть тела! Они разбирают меня на запчасти как старый двигатель!</trans>
+  </rep>
+
+  <rep>
+    <path>WasImprisoned.stages[0].label</path>
+    <trans>был в тюрьме</trans>
+  </rep>
+  <rep>
+    <path>WasImprisoned.stages[0].description</path>
+    <trans>Я был в заключении, будто зверушка в клетке.</trans>
+  </rep>
+
+  <rep>
+    <path>PrisonerFriendlyChat.stages[0].label</path>
+    <trans>убеждён охранником</trans>
+  </rep>
+  <rep>
+    <path>PrisonerFriendlyChat.stages[0].description</path>
+    <trans>Надзиратель рассказывал мне о поселении. Похоже, это хорошее место...</trans>
+  </rep>
+
+  <!-- =========== Общение ===============-->
+
+  <rep>
+    <path>SocialTalk.stages[0].label</path>
+    <trans>простое общение</trans>
+  </rep>
+  <rep>
+    <path>SocialTalk.stages[0].description</path>
+    <trans>Я только что вдоволь наговорился.</trans>
+  </rep>
+
+  <rep>
+    <path>AbrasiveTalk.stages[0].label</path>
+    <trans>неприятная беседа</trans>
+  </rep>
+  <rep>
+    <path>AbrasiveTalk.stages[0].description</path>
+    <trans>Мне нагрубили. И самое плохое, что, по-моему, человек даже не осознал этого...</trans>
+  </rep>
+
+  <!-- =========== Разное ===============-->
+
+  <rep>
+    <path>GreenThumbHappy.stages[0].label</path>
+    <trans>посадил растение</trans>
+  </rep>
+  <rep>
+    <path>GreenThumbHappy.stages[0].description</path>
+    <trans>Растения спасут мир!</trans>
+  </rep>
+
+  <rep>
+    <path>Catharsis.stages[0].label</path>
+    <trans>Раскаяние</trans>
+  </rep>
+  <rep>
+    <path>Catharsis.stages[0].description</path>
+    <trans>То что произошло... Это был не я. Я знаю, что я могу лучше.</trans>
+  </rep>
 
 </LanguageData>

@@ -6,20 +6,12 @@
   <Lit>Светло</Lit>
   <LitBrightly>Очень светло</LitBrightly>
 
-  <!-- food quality -->
-  <NoneQuality>Нет</NoneQuality>
-  <PlantQuality>Растения</PlantQuality>
-  <RawQuality>Сырое</RawQuality>
-  <MealAwfulQuality>Плохое</MealAwfulQuality>
-  <MealSimpleQuality>Простое</MealSimpleQuality>
-  <MealFineQuality>Отличное</MealFineQuality>
-  <MealLavishLavish>Прекрасное</MealLavishLavish>
-
   <!-- diet type -->
   <NeverEats>Не ест</NeverEats>
   <Omnivorous>Всеядный</Omnivorous>
   <Herbivorous>Травоядный</Herbivorous>
   <Carnivorous>Плотоядный</Carnivorous>
+  <Dendrovorous>Древоядный</Dendrovorous>
 
   <!-- history upload pref -->
   <Unspecified>Ещё не решено</Unspecified>
@@ -33,31 +25,44 @@
   <PriceTypeExpensive>дорогая</PriceTypeExpensive>
   <PriceTypeExorbitant>непомерная</PriceTypeExorbitant>
 
-  <!-- stat category -->
-  <StatCategory_General>Общее</StatCategory_General>
-  <StatCategory_GeneralNonPawn>Общее</StatCategory_GeneralNonPawn>
-  <StatCategory_Armor>Защита</StatCategory_Armor>
-  <StatCategory_PawnPrimary>Главное</StatCategory_PawnPrimary>
-  <StatCategory_PawnWork>Работа</StatCategory_PawnWork>
-  <StatCategory_PawnCombat>Бой</StatCategory_PawnCombat>
-  <StatCategory_PawnSocial>Социальное</StatCategory_PawnSocial>
-  <StatCategory_PawnMisc>Разное</StatCategory_PawnMisc>
-  <StatCategory_Building>Строительство</StatCategory_Building>
+  <!-- Quality category -->
+  <QualityCategory_Awful>ужасно -3</QualityCategory_Awful>
+  <QualityCategory_Shoddy>отвратно -2</QualityCategory_Shoddy>
+  <QualityCategory_Poor>плохо -1</QualityCategory_Poor>
+  <QualityCategory_Normal>стандарт 0</QualityCategory_Normal>
+  <QualityCategory_Good>хорошо 1</QualityCategory_Good>
+  <QualityCategory_Superior>отлично 2</QualityCategory_Superior>
+  <QualityCategory_Excellent>превосходно 3</QualityCategory_Excellent>
+  <QualityCategory_Masterwork>шедевр 4</QualityCategory_Masterwork>
+  <QualityCategory_Legendary>легенда 5</QualityCategory_Legendary>
 
-  <EquippedStatOffsets>Модификаторы при экипировке</EquippedStatOffsets>
-  <StuffOfEquipmentStatModifiers>Модификаторы, если вещь сделана из этого</StuffOfEquipmentStatModifiers>
+  <QualityCategoryShort_Awful>ужасн</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Shoddy>отвр</QualityCategoryShort_Shoddy>
+  <QualityCategoryShort_Poor>плох</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Normal>стнд</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Good>хор</QualityCategoryShort_Good>
+  <QualityCategoryShort_Superior>отл</QualityCategoryShort_Superior>
+  <QualityCategoryShort_Excellent>прев</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Masterwork>шедевр</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Legendary>леген</QualityCategoryShort_Legendary>
 
-  <!-- pawn activity
-  <Consciousness>Сознание</Consciousness>
-  <Sight>Зрение</Sight>
-  <Hearing>Слух</Hearing>
-  <Moving>Перемещение</Moving>
-  <Working>Работоспособность</Working>
-  <Talking>Речь</Talking>
-  <Eating>Питание</Eating>
-  <Breathing>Дыхание</Breathing>
-  <BloodFiltration>Фильтрация крови</BloodFiltration>
-  <BloodPumping>Давление крови</BloodPumping>
-  <Metabolism>Метаболизм</Metabolism> -->
+  
+  <!-- Hunger -->
+  <HungerLevel_Starving>Голодает</HungerLevel_Starving>
+  <HungerLevel_UrgentlyHungry>Недоедает</HungerLevel_UrgentlyHungry>
+  <HungerLevel_Hungry>Хочет есть</HungerLevel_Hungry>
+  <HungerLevel_Fed>Накормлен</HungerLevel_Fed>
+
+  <!-- -Fatigue -->
+  <HungerLevel_Exhausted>Обессилел</HungerLevel_Exhausted>
+  <HungerLevel_VeryTired>Очень устал</HungerLevel_VeryTired>
+  <HungerLevel_Tired>Устал</HungerLevel_Tired>
+  <HungerLevel_Rested>Отдохнул</HungerLevel_Rested>
+
+    <!-- Hilliness -->
+  <Hilliness_Flat>Равнина</Hilliness_Flat>
+  <Hilliness_SmallHills>Небольшие холмы</Hilliness_SmallHills>
+  <Hilliness_LargeHills>Большие холмы</Hilliness_LargeHills>
+  <Hilliness_Mountainous>Горы</Hilliness_Mountainous>
 
 </LanguageData>
