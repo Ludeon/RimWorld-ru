@@ -51,55 +51,55 @@
   <!-- =========== Канибализм ===============-->
 
   <rep>
-    <path>AteHumanoidMeatDirect.stages[0].label</path>
+    <path>AteHumanlikeMeatDirect.stages[0].label</path>
     <trans>съел сырую человечину</trans>
   </rep>
   <rep>
-    <path>AteHumanoidMeatDirect.stages[0].description</path>
+    <path>AteHumanlikeMeatDirect.stages[0].description</path>
     <trans>Я съел мясо другого человека, сырым, как зверь. Какой кошмар!</trans>
   </rep>
 
   <rep>
-    <path>AteHumanoidMeatAsIngredient.stages[0].label</path>
+    <path>AteHumanlikeMeatAsIngredient.stages[0].label</path>
     <trans>съел блюдо с человечиной</trans>
   </rep>
   <rep>
-    <path>AteHumanoidMeatAsIngredient.stages[0].description</path>
+    <path>AteHumanlikeMeatAsIngredient.stages[0].description</path>
     <trans>Я съел блюдо, приготовленное из мяса другого человека. Это ужасно.</trans>
   </rep>
 
   <rep>
-    <path>AteHumanoidMeatDirectCannibal.stages[0].label</path>
+    <path>AteHumanlikeMeatDirectCannibal.stages[0].label</path>
     <trans>съел сырую человечину</trans>
   </rep>
   <rep>
-    <path>AteHumanoidMeatDirectCannibal.stages[0].description</path>
+    <path>AteHumanlikeMeatDirectCannibal.stages[0].description</path>
     <trans>Я съел мясо другого человека, сырым, как зверь. Оно было такое... сочное.</trans>
   </rep>
 
   <rep>
-    <path>AteHumanoidMeatAsIngredientCannibal.stages[0].label</path>
+    <path>AteHumanlikeMeatAsIngredientCannibal.stages[0].label</path>
     <trans>съел блюдо с человечиной</trans>
   </rep>
   <rep>
-    <path>AteHumanoidMeatAsIngredientCannibal.stages[0].description</path>
+    <path>AteHumanlikeMeatAsIngredientCannibal.stages[0].description</path>
     <trans>Я съел блюдо, приготовленное из мяса другого человека. Такое вкусно! Если бы только у меня было немного бобов и хорошее кьянти.</trans>
   </rep>
 
   <!-- =========== Еда - другое ===============-->
 
   <rep>
-    <path>ButcheredHumanoidCorpse.stages[0].label</path>
+    <path>ButcheredHumanlikeCorpse.stages[0].label</path>
     <trans>разделал человека</trans>
   </rep>
   <rep>
-    <path>ButcheredHumanoidCorpse.stages[0].description</path>
+    <path>ButcheredHumanlikeCorpse.stages[0].description</path>
     <trans>Я только что разделал человека будто животное.</trans>
   </rep>
 
   <rep>
     <path>AteWithoutTable.stages[0].label</path>
-    <trans>ел на полу</trans>
+    <trans>Еда на земле</trans>
   </rep>
   <rep>
     <path>AteWithoutTable.stages[0].description</path>
@@ -154,11 +154,11 @@
   </rep>
 
   <rep>
-    <path>KilledHumanoidBloodlust.stages[0].label</path>
+    <path>KilledHumanlikeBloodlust.stages[0].label</path>
     <trans>убил человека</trans>
   </rep>
   <rep>
-    <path>KilledHumanoidBloodlust.stages[0].description</path>
+    <path>KilledHumanlikeBloodlust.stages[0].description</path>
     <trans>Я убил человека! Вот это раж!</trans>
   </rep>
 
@@ -171,20 +171,20 @@
     <trans>Это же моя кровь! Меня ранили в бою!</trans>
   </rep>
 
-  <!-- =========== Оптимизм колонии ===============-->
+  <!-- =========== Оптимизм поселения ===============-->
 
   <rep>
     <path>NewColonyOptimism.stages[0].label</path>
-    <trans>оптимизм колониста</trans>
+    <trans>оптимизм поселенца</trans>
   </rep>
   <rep>
     <path>NewColonyOptimism.stages[0].description</path>
-    <trans>Мы только что приземлились. Ситуация трудная, но мне очень интересно основать новую колонию.</trans>
+    <trans>Мы только что приземлились. Ситуация трудная, но мне очень интересно основать новое поселение.</trans>
   </rep>
 
   <rep>
     <path>NewColonyHope.stages[0].label</path>
-    <trans>новая колония, новая надежда</trans>
+    <trans>новое поселение, новая надежда</trans>
   </rep>
   <rep>
     <path>NewColonyHope.stages[0].description</path>
@@ -195,7 +195,7 @@
 
   <rep>
     <path>SleptOutside.stages[0].label</path>
-    <trans>спал на улице</trans>
+    <trans>сон на улице</trans>
   </rep>
   <rep>
     <path>SleptOutside.stages[0].description</path>
@@ -204,7 +204,7 @@
 
   <rep>
     <path>SleptOnGround.stages[0].label</path>
-    <trans>спал на земле</trans>
+    <trans>сон на земле</trans>
   </rep>
   <rep>
     <path>SleptOnGround.stages[0].description</path>
@@ -213,7 +213,7 @@
 
   <rep>
     <path>SleptInCold.stages[0].label</path>
-    <trans>спал на холоде</trans>
+    <trans>сон на холоде</trans>
   </rep>
   <rep>
     <path>SleptInCold.stages[0].description</path>
@@ -222,7 +222,7 @@
 
   <rep>
     <path>SleptInHeat.stages[0].label</path>
-    <trans>спал на жаре</trans>
+    <trans>сон на жаре</trans>
   </rep>
   <rep>
     <path>SleptInHeat.stages[0].description</path>
@@ -237,35 +237,35 @@
   </rep>
   <rep>
     <path>KnowPrisonerSold.stages[0].description</path>
-    <trans>Колония продает заключённых в рабство. Это тревожный сигнал.</trans>
+    <trans>Поселение продает заключённых в рабство. Это тревожный сигнал.</trans>
   </rep>
 
-  <rep>
+  <!--<rep>
     <path>KnowPrisonerExecuted.stages[0].label</path>
     <trans>заключённый был казнён</trans>
   </rep>
   <rep>
     <path>KnowPrisonerExecuted.stages[0].description</path>
-    <trans>Они хладнокровно казнили заключенного. Население колонии становится всё более жестоким.</trans>
-  </rep>
+    <trans>Они хладнокровно казнили заключенного. Местное население становится всё более жестоким.</trans>
+  </rep>-->
 
-  <rep>
+  <!--<rep>
     <path>KnowPrisonerOrganHarvested.stages[0].label</path>
     <trans>у заключённого взяли орган</trans>
   </rep>
   <rep>
     <path>KnowPrisonerOrganHarvested.stages[0].description</path>
-    <trans>Колония забрала части тела у заключённого. Это ужасно, разбирать людей на части, когда у них нет иного выбора.</trans>
-  </rep>
+    <trans>Поселенцы забрали части тела у заключённого. Это ужасно, разбирать людей на части, когда у них нет иного выбора.</trans>
+  </rep>-->
 
-  <rep>
+  <!--<rep>
     <path>MePrisonerOrganHarvested.stages[0].label</path>
     <trans>забрали орган</trans>
   </rep>
   <rep>
     <path>MePrisonerOrganHarvested.stages[0].description</path>
-    <trans>Колония забрала у меня часть тела! Они разбирают меня на запчасти как старый двигатель!</trans>
-  </rep>
+    <trans>Поселенцы забрали у меня часть тела! Они разбирают меня на запчасти как старый двигатель!</trans>
+  </rep>-->
 
   <rep>
     <path>WasImprisoned.stages[0].label</path>
@@ -282,7 +282,7 @@
   </rep>
   <rep>
     <path>PrisonerFriendlyChat.stages[0].description</path>
-    <trans>Надзиратель рассказывал мне о колонии. Похоже, это хорошее место...</trans>
+    <trans>Надзиратель рассказывал мне о поселении. Похоже, это хорошее место...</trans>
   </rep>
 
   <!-- =========== Общение ===============-->
@@ -318,7 +318,7 @@
 
   <rep>
     <path>Catharsis.stages[0].label</path>
-    <trans>катарсис</trans>
+    <trans>Раскаяние</trans>
   </rep>
   <rep>
     <path>Catharsis.stages[0].description</path>

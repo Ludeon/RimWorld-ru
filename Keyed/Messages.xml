@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <MessageSiegersAssaulting>Осаждающие {0} из {1} начали штурм колонии.</MessageSiegersAssaulting>
+
+  <MessageSiegersAssaulting>Осаждающие {0} из {1} начали штурм поселения.</MessageSiegersAssaulting>
 
   <MessageRaidersBeginningAssault>{0} из {1} начинают штурм.</MessageRaidersBeginningAssault>
   <MessageRaidersDetectedEarlyAssault>{0} из {1} обнаружили вас и начали штурм раньше.</MessageRaidersDetectedEarlyAssault>
@@ -14,6 +15,8 @@
   <MessageFightersFleeing>{0} из {1} спасаются бегством.</MessageFightersFleeing>
   <MessageFriendlyFightersLeaving>Дружественные {0} из {1} уходят.</MessageFriendlyFightersLeaving>
 
+  <MessageVisitorsTakingWounded>{0} из {1} забирают с собой, раненого гостя.</MessageVisitorsTakingWounded>
+  
   <MessageWornApparelDeterioratedAway>{0} носимое {1} износилось в пыль.</MessageWornApparelDeterioratedAway>
 
   <MessageSeasonBegun>Новый сезон: {0}.</MessageSeasonBegun>
@@ -22,7 +25,7 @@
 
   <MessageNeedBeaconToTradeWithShip>Для торговли с кораблём вам нужен торговый маяк.</MessageNeedBeaconToTradeWithShip>
 
-  <MessageBillComplete>Задание завершено: {0}.</MessageBillComplete>
+  <MessageBillComplete>Задача завершена: {0}.</MessageBillComplete>
 
   <MessageFullyHealed>{0} полностью исцелён.</MessageFullyHealed>
 
@@ -30,17 +33,18 @@
 
   <MessageOutOfNearbyShellsFor>{0} не может найти снарядов для {1}.</MessageOutOfNearbyShellsFor>
 
+  <MessageAnimalsGoPsychoHunted>Внимание: {0} будут нападать как обычно.</MessageAnimalsGoPsychoHunted>
+
+  <LetterLabelMessageRecruitSuccess>Новый рекрут</LetterLabelMessageRecruitSuccess>
   <MessageRecruitSuccess>{0} успешно завербовал {1} (с шансом {2}).</MessageRecruitSuccess>
   <MessageRecruitFail>{0} не удалось завербовать {1} (шанс {2}).</MessageRecruitFail>
-  <MessageRecruitFailBecauseLoyalty>{0} не удалось завербовать {1} (заключённый ниже порога лояльности).</MessageRecruitFailBecauseLoyalty>
+  <MessageRecruitFailBecauseMood>{0} не удалось завербовать {1} (заключённый ниже порога лояльности).</MessageRecruitFailBecauseMood>
 
   <MessagePoorlyTreated>{1} оказал мед. помощь {0} (некачественно, шанс качественной помощи {2}).</MessagePoorlyTreated>
   <MessageWellTreated>{1} оказал мед. помощь {0} (качественно, шанс качественной помощи {2}).</MessageWellTreated>
 
-  <MessageTraderCannotAfford>Торговец не может позволить себе эту сделку.</MessageTraderCannotAfford>
-  <MessageColonyCannotAfford>Колония не может позволить себе эту сделку.</MessageColonyCannotAfford>
+  <MessageColonyCannotAfford>Поселение не может позволить себе эту сделку.</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>Вам не хватает серебра.</MessageColonyNotEnoughSilver>
-  <MessageTraderNotEnoughSilver>Торговцу не хватает серебра.</MessageTraderNotEnoughSilver>
 
   <MessageCriticalAlert>ВНИМАНИЕ: {0}</MessageCriticalAlert>
 
@@ -52,14 +56,25 @@
   <MessageMustDesignateHuntable>Нужно указать животных, пригодных для охоты.</MessageMustDesignateHuntable>
   <MessageMustDesignateClaimable>Нужно указать древние заброшенные сооружения.</MessageMustDesignateClaimable>
   <MessageMustDesignateSmoothableFloor>Нужно указать неровную каменную поверхность.</MessageMustDesignateSmoothableFloor>
+  <MessageNothingCanRemoveThickRoofs>Толстые каменные потолки, удалить невозможно.</MessageNothingCanRemoveThickRoofs>
+  <MessageAlreadyInStorage>Находится на хранении, по мере необходимости, будет перемещено в первую очередь.</MessageAlreadyInStorage>
+  <MessageMustDesignateStrippable>Отличать трупы от раненых.</MessageMustDesignateStrippable>
 
+  <MessageRefusedArrest>{0} сопротивляется аресту!</MessageRefusedArrest>
+  
   <MessageNoMedicalBeds>Нет доступных мед. кроватей.</MessageNoMedicalBeds>
 
   <PawnDiedBecauseOf>{0} умер из-за {1}.</PawnDiedBecauseOf>
 
   <MessageNoLongerDowned>{0} снова может ходить.</MessageNoLongerDowned>
+  
+  <MessageInvoluntarySleep>{0} упал в обморок от истощения.</MessageInvoluntarySleep>
 
   <MessageMedicalOperationFailureCatastrophic>{0} катастрофически провалилось во время оперирования {1}.</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureMinor>{0} провалилось во время оперирования {1}.</MessageMedicalOperationFailureMinor>
+
+  <MessageMedicalOperationWillAngerFaction>Эта операция вызовит возмущение у {0}.</MessageMedicalOperationWillAngerFaction>
+
+  <MessagePawnExitMapRelationsGain>Так как {0} был вылечен, то отношения с {1}, улучшились на {2}%.</MessagePawnExitMapRelationsGain>
 
 </LanguageData>
