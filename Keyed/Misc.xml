@@ -5,7 +5,7 @@
 
   <GameStartDialog>Вы трое проснулись в своих саркофагах крипто-сна под звук сирен и скрежет металла. Едва вы успели добраться до спасательных капсул, как корабль развалился на части.\n\nНекоторое время спустя вы приземлились на эту неизвестную планету.\n\nПод звездопад из обломков корабля, вы начинаете строить планы по выживанию.</GameStartDialog>
 
-  <Colony>колонии</Colony>
+  <Colony>Поселения</Colony>
 
   <ChangeLanguageFromMainMenu>Язык можно сменить только в главном меню.</ChangeLanguageFromMainMenu>
 
@@ -13,18 +13,20 @@
   <DisabledLower>недоступно</DisabledLower>
 
   <CloseButton>Закрыть</CloseButton>
-
+  
   <VersionIndicator>Версия {0}</VersionIndicator>
   <DevelopmentBuildLower>только для тестеров</DevelopmentBuildLower>
   <CompiledOn>Сборка от {0}</CompiledOn>
-
+  <LoggedIntoSteamAs>Вы вошли в Steam как {0}</LoggedIntoSteamAs>
+  
+  
   <!-- Content generation-->
 
   <MeatLabel>{0} мясо</MeatLabel>
   <MeatDesc>Сырое мясо {0}.</MeatDesc>
 
   <LeatherLabel>Кожа {0}</LeatherLabel>
-  <LeatherDesc>Кожа, выделанная из шкуры {0}.</LeatherDesc>
+  <LeatherDesc>Кожа, содранная с {0}.</LeatherDesc>
 
   <CorpseLabel>Труп {0}</CorpseLabel>
   <CorpseDesc>Мёртвое тело {0}.</CorpseDesc>
@@ -40,13 +42,18 @@
   <BlueprintLabelExtra> (проект)</BlueprintLabelExtra>
   <FrameLabelExtra> (постройка)</FrameLabelExtra>
 
+
   <!-- Для вещей, сделанных из чего-либо, напр. "Кровать из камня" -->
   <!-- 0 это nameAsStuff в stuffProps (см. Items_Resources.xml) и 1 это название вещи -->
   <ThingMadeOfStuffLabel>{1} из {0}</ThingMadeOfStuffLabel>
 
+  <!-- To express ownership. -->
+  <!-- For example Jack's Bedroom -->
+  <SomeonesSomething>{1} в собственности у {0}а</SomeonesSomething>
+  
   <VariousLabel>(различное)</VariousLabel>
 
   <!-- History events -->
-  <ColonistDied>Колонист погиб</ColonistDied>
+  <ColonistDied>Поселенец погиб</ColonistDied>
 
 </LanguageData>

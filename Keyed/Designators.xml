@@ -9,12 +9,15 @@
 
   <DesignatorDeconstruct>Разобрать</DesignatorDeconstruct>
   <DesignatorDeconstructDesc>Разобрать постройки и вернуть часть ресурсов.</DesignatorDeconstructDesc>
-
+  
+  <DesignatorUninstall>Убрать</DesignatorUninstall>
+  <DesignatorUninstallDesc>Убрать, чтобы перенести на склад или в другое место.</DesignatorUninstallDesc>
+  
   <DesignatorHarvest>Собрать</DesignatorHarvest>
   <DesignatorHarvestDesc>Отметить растения для сбора пищи или другой продукции.</DesignatorHarvestDesc>
 
   <DesignatorHarvestWood>Срубить</DesignatorHarvestWood>
-  <DesignatorHarvestWoodDesc>Отметить деревья, которые нужно срубить для получения брёвен.</DesignatorHarvestWoodDesc>
+  <DesignatorHarvestWoodDesc>Отметить деревья, которые нужно срубить для получения древесины.</DesignatorHarvestWoodDesc>
 
   <DesignatorHaulThings>Убрать</DesignatorHaulThings>
   <DesignatorHaulThingsDesc>Отметить куски породы и другие объекты для переноса на свалку. Не требуется для предметов вроде еды или трупов, которые всегда переносимы.</DesignatorHaulThingsDesc>
@@ -34,26 +37,29 @@
 
   <DesignatorPlanRemove>Удалить планировку</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Удалить обозначения планировки.</DesignatorPlanRemoveDesc>
+  
+  <DesignatorAreaHomeExpand>Добавить домашнюю область</DesignatorAreaHomeExpand>
+  <DesignatorAreaHomeExpandDesc>Поселенцы будут заниматься уборкой, тушением пожаров и ремонтом объектов только в домашней области.</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeClear>Удалить домашнюю область</DesignatorAreaHomeClear>
+  <DesignatorAreaHomeClearDesc>Удаление домашней области. Поселенцы больше не будут заниматься здесь уборкой, тушением пожаров и ремонтом объектов.</DesignatorAreaHomeClearDesc>
 
-  <DesignatorHomeRegionAdd>Добавить домашнюю область</DesignatorHomeRegionAdd>
-  <DesignatorHomeRegionAddDesc>Колонисты будут заниматься уборкой, тушением пожаров и ремонтом объектов только в домашней области.</DesignatorHomeRegionAddDesc>
+  <DesignatorAreaNoRoofExpand>Добавить область без крыши</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpandDesc>Обозначить область, в которой не будет крыши. Поселенцы также снесут любую существующую здесь крышу.</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofClear>Удалить область без крыши</DesignatorAreaNoRoofClear>
+  <DesignatorAreaNoRoofClearDesc>Удалить область без крыши. На пустых участках появится крыша, а участки с крышей останутся не тронутыми.</DesignatorAreaNoRoofClearDesc>
 
-  <DesignatorHomeRegionRemove>Удалить домашнюю область</DesignatorHomeRegionRemove>
-  <DesignatorHomeRegionRemoveDesc>Удаление домашней области. Колонисты больше не будут заниматься здесь уборкой, тушением пожаров и ремонтом объектов.</DesignatorHomeRegionRemoveDesc>
+  <DesignatorAreaSnowClearExpand>Добавить область без снега</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowClearExpandDesc>Создать область, которую поселенцы будут чистить от снега.</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowClearClear>Удалить область без снега</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowClearClearDesc>Удалить область чистки снега. Поселенцы больше не будут чистить снег в данной области.</DesignatorAreaSnowClearClearDesc>
 
-  <DesignatorRegionNoRoofAdd>Добавить область без крыши</DesignatorRegionNoRoofAdd>
-  <DesignatorRegionNoRoofAddDesc>Обозначить область, в которой не будет крыши. Колонисты также снесут любую существующую здесь крышу.</DesignatorRegionNoRoofAddDesc>
+  <DesignatorExpandAreaAllowed>Добавить доступную область</DesignatorExpandAreaAllowed>
+  <DesignatorExpandAreaAllowedDesc>Доступные области - назначены для колонистов. Колонисты не будут ничего делать за пределами этой области.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorClearAreaAllowed>Убрать доступную область</DesignatorClearAreaAllowed>
+  <DesignatorClearAreaAllowedDesc>Доступные области - назначены для колонистов. Колонисты не будут ничего делать за пределами этой области.</DesignatorClearAreaAllowedDesc>
+  <ManageAreas>Управление областями..</ManageAreas>
 
-  <DesignatorRegionNoRoofRemove>Удалить область без крыши</DesignatorRegionNoRoofRemove>
-  <DesignatorRegionNoRoofRemoveDesc>Удалить область без крыши. На пустых участках появится крыша, а участки с крышей останутся не тронутыми.</DesignatorRegionNoRoofRemoveDesc>
-
-  <DesignatorRegionSnowClearAdd>Добавить область без снега</DesignatorRegionSnowClearAdd>
-  <DesignatorRegionSnowClearAddDesc>Создать область, которую колонисты будут чистить от снега.</DesignatorRegionSnowClearAddDesc>
-
-  <DesignatorRegionSnowClearRemove>Удалить область без снега</DesignatorRegionSnowClearRemove>
-  <DesignatorRegionSnowClearRemoveDesc>Удалить область чистки снега. Колонисты больше не будут чистить снег в данной области.</DesignatorRegionSnowClearRemoveDesc>
-
-  <DesignatorGrowingZoneDesc>Создать зону, где ваши колонисты будут выращивать определённый тип растений.</DesignatorGrowingZoneDesc>
+  <DesignatorGrowingZoneDesc>Создать зону, где ваши поселенцы будут выращивать определённый тип растений.</DesignatorGrowingZoneDesc>
 
   <DesignatorZoneCreateStorageResourcesDesc>Создать зону для хранения различных ресурсов.\nТакже позволяет расширить уже существующий склад.</DesignatorZoneCreateStorageResourcesDesc>
 
@@ -63,7 +69,26 @@
   <DesignatorZoneDeleteDesc>Удаление зон, таких как склад или посадки.</DesignatorZoneDeleteDesc>
 
   <DesignatorClaim>Захватить</DesignatorClaim>
-  <DesignatorClaimDesc>Присоединить к колонии нейтральные строения, включая древние руины и заброшенные осадные базы. Ваши колонисты смогут отремонтировать и обслуживать захваченные строения.</DesignatorClaimDesc>
+  <DesignatorClaimDesc>Нейтральные строения, включая древние руины и заброшенные осадные базы, присоединить к поселению. Ваши поселенцы смогут отремонтировать и обслуживать захваченные строения.</DesignatorClaimDesc>
+
+  <DesignatorRemoveFloor>Снять пол</DesignatorRemoveFloor>
+  <DesignatorRemoveFloorDesc>Снять пол, чтобы добраться до природного ландшафта.</DesignatorRemoveFloorDesc>
+
+  <DesignatorStrip>Мародёрство</DesignatorStrip>
+  <DesignatorStripDesc>Снять одежду с трупов и раненых</DesignatorStripDesc>
+
+  <DesignatorRearmTrap>Зарядить капкан</DesignatorRearmTrap>
+  <DesignatorRearmTrapDesc>Зарядить капкан для очередного использования.</DesignatorRearmTrapDesc>
+  
+  <DesignatorOpen>Открыть</DesignatorOpen>
+  <DesignatorOpenDesc>Открыть контейнеры.</DesignatorOpenDesc>
+  
+  <DesignatorSlaughter>Заколоть</DesignatorSlaughter>
+  <DesignatorSlaughterDesc>Заколоть домашнее животное.</DesignatorSlaughterDesc>
+
+  <DesignatorTame>Приручить</DesignatorTame>
+  <DesignatorTameDesc>Приручить дикое животное.</DesignatorTameDesc>
+
 
   <!-- Failure messages -->
   <UnchosenStuff>Невыбранный материал</UnchosenStuff>
@@ -74,18 +99,22 @@
   <InteractionSpotOutOfBounds>Точка взаимодействия находится вне границ.</InteractionSpotOutOfBounds>
   <InteractionSpotWillBeBlocked>Место взаимодействия будет заблокировано {0}.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} будет блокировать точку взаимодействия {1}.</WouldBlockInteractionSpot>
-  <TerrainIsAlready>Местность здесь уже {0}.</TerrainIsAlready>
+  <TerrainIsAlready>Местность уже занята объектом: "{0}".</TerrainIsAlready>
   <TerrainBeingSmoothed>Местность уже отмечена для выравнивания.</TerrainBeingSmoothed>
   <IdenticalThingExists>Такой объект здесь уже есть.</IdenticalThingExists>
   <IdenticalBlueprintExists>Такой проект здесь уже есть.</IdenticalBlueprintExists>
-  <TerrainCannotSupport>Местная почва не удержит такую конструцию.</TerrainCannotSupport>
+  <TerrainCannotSupport>Местная территория не удержит конструкцию.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Место уже занято.</SpaceAlreadyOccupied>
+  <TerrainMustBeRemovable>Должно быть предназначено для замены полов.</TerrainMustBeRemovable>
 
-  <!-- placement of zones -->
+    
+  <!-- Mouse attachments -->
   <ExpandOrCreateZone>Расширить {0} или\nСоздать {1}</ExpandOrCreateZone>
   <CreateNewZone>Создать {0}</CreateNewZone>
 
-  <!-- desc helpers -->
+  
+  <!-- Desc helpers -->
   <TransmitsPower>Передаёт энергию</TransmitsPower>
 
+    
 </LanguageData>

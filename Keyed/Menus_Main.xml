@@ -3,7 +3,7 @@
 
   <!--=========== Главное меню ==========-->
   <CreateWorld>Создать мир</CreateWorld>
-  <NewColony>Новая колония</NewColony>
+  <NewColony>Новое поселение</NewColony>
   <BackToGame>Назад в игру</BackToGame>
   <Save>Сохранить</Save>
   <Load>Загрузить</Load>
@@ -45,28 +45,35 @@
   <GenerateWorld>Создать мир</GenerateWorld>
 
   <!--=========== Mods screen ==========-->
-  <GetMods>Скачать моды</GetMods>
+  <OpenSteamWorkshop>Открыть "Steam Workshop"</OpenSteamWorkshop>
+  <GetModsFromForum>Скачать моды</GetModsFromForum>
   <OpenModsDataFolder>Открыть папку модов</OpenModsDataFolder>
   <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все основные возможности.\n\nПомните, другие модификации могут переопределять значения ядра с помощью таких же значений.</ConfirmDisableCoreMod>
+  <ConfirmDeleteMod>Вы уверены, что хотите удалить {0}?</ConfirmDeleteMod>
+  <Unsubscribe>Деактивировать</Unsubscribe>
+  <ConfirmUnsubscribe>Вы уверены что хотите деактивировать {0}?</ConfirmUnsubscribe>
   <Author>Автор</Author>
+  <WorkshopPage>Страница "Steam Workshop"</WorkshopPage>
+  <UploadToSteamWorkshop>Загрузка "Steam Workshop"</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>Обновление "Steam Workshop"</UpdateOnSteamWorkshop>
+  <UploadAlreadyInProgress>Процесс загрузки.</UploadAlreadyInProgress>
+  <WorkshopSubmissionFailed>Подключение прервано.\n\nПричина: {0}</WorkshopSubmissionFailed>
+  <YouAgreeToSteamWorkshopLegal>Представляя этот мод, вы соглашаетесь на определённые условия, для пояснинения, кликните сюда.</YouAgreeToSteamWorkshopLegal>
+  <WorkshopUploadSucceeded>Успешно загружено {0}.</WorkshopUploadSucceeded>
+  <DownloadingMod>Загрузить {0}</DownloadingMod>
+
+  <!--=========== Выбрать рассказчика ==========-->
+  <ChooseAIStoryteller>Выбор ИИ рассказчика</ChooseAIStoryteller>
+  <HowStorytellersWork>ИИ Рассказчик создаёт события, такие как пиратские нападения, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашего поселения.</HowStorytellersWork>
+  <MustChooseDifficulty>Пожалуйста, выберите сложность.</MustChooseDifficulty>
+  <Difficulty>Сложность</Difficulty>
 
 
-  <!--=========== Выбрать разказчик ==========-->
-    <ChooseAIStoryteller>Выбор ИИ рассказчика</ChooseAIStoryteller>
-  <HowStorytellersWork>ИИ Рассказчик создаёт события, такие как пиратские рейды, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашей колонии.</HowStorytellersWork>
-  <MustChooseChallengeScale>Пожалуйста, выберите сложность.</MustChooseChallengeScale>
-  <ChallengeScale>Сложность</ChallengeScale>
-  <ChallengeScaleTip>Уровень угроз, создаваемых ИИ, будет составлять {0} от сложности "Вызов".</ChallengeScaleTip>
-  <ChallengeScale_BuilderMode>Режим строителя</ChallengeScale_BuilderMode>
-  <ChallengeScale_Casual>Обычный</ChallengeScale_Casual>
-  <ChallengeScale_Rough>Сложный</ChallengeScale_Rough>
-  <ChallengeScale_Challenge>Вызов</ChallengeScale_Challenge>
-  <ChallengeScale_SeriousChallegne>Серьёзный вызов </ChallengeScale_SeriousChallegne>
-  <ChallengeScale_ExtremeChallenge>Экстремальное испытание</ChallengeScale_ExtremeChallenge>
 
 
   <!--=========== Landing site select =========-->
   <SelectLandingSite>Выбор места посадки</SelectLandingSite>
+  <SelectRandomSite>Случайное место посадки</SelectRandomSite>
   <SelectSite>Выбрать место</SelectSite>
   <MustSelectLandingSite>Пожалуйста, выберите место посадки.</MustSelectLandingSite>
   <CannotLandBiome>Вы не можете приземлиться в этом регионе: {0}</CannotLandBiome>
@@ -103,9 +110,8 @@
   <Randomize>Случайно</Randomize>
   <AgeIndicator>возраст {0}</AgeIndicator>
   <Backstory>Предыстория</Backstory>
-  <IncapableOf>Некомпетентность</IncapableOf>
-  <Traits>Черты</Traits>
-  <TraitsDoNothing>Просто часть забавной истории, большинство из них ни на что не влияют. Это изменится в будущих версиях.</TraitsDoNothing>
+  <IncapableOf>Минусы</IncapableOf>
+  <Traits>Особенности</Traits>
   <PermanentMoodEffect>Постоянный эффект настроения</PermanentMoodEffect>
   <Skills>Навыки</Skills>
   <NoneLower>отсутствует</NoneLower>
@@ -122,9 +128,9 @@
   <Next>Дальше</Next>
   <Back>Назад</Back>
 
-   <Gameplay>Игра</Gameplay>
+  <Gameplay>Игра</Gameplay>
 
-  <ConfirmQuit>Действительно выйти? Вы потеряете весь несохранённый прогресс.</ConfirmQuit>
+  <ConfirmQuit>Вы потеряете весь несохранённый прогресс, если выйдете прямо сейчас.</ConfirmQuit>
 
   <EveryoneNeedsValidName>Каждому человеку нужно корректное имя.</EveryoneNeedsValidName>
 

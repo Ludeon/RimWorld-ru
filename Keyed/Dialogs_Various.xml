@@ -4,41 +4,53 @@
   <Confirm>Подтвердить</Confirm>
   <GoBack>Вернуться</GoBack>
   <OK>OK</OK>
-
+  
+  <!-- Recovered from errors caused by mods -->
+  <RecoveredFromErrorsDialogTitle>Восстановленние от несовместимых или поврежденные модов</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Кажется, что некоторые из актевированных модов вызвали ошибки.\n\nОни были несовместимы друг с другом, или предназначены для другой версии RimWorld, либо поврежден.\n\nВсе моды были отключены и могут быть активированы повторно в меню модов.</RecoveredFromErrorsText>
+  
   <!-- Save/load -->
   <SaveGameButton>Сохранить</SaveGameButton>
   <OverwriteButton>Перезаписать</OverwriteButton>
   <LoadGameButton>Загрузить</LoadGameButton>
-  <ConfirmDelete>Действительно удалить {0}?</ConfirmDelete>
+  <ConfirmDelete>Удалить {0}?</ConfirmDelete>
   <DeleteThisSavegame>Удалить это сохранение.</DeleteThisSavegame>
   <SavedAs>Сохранено как {0}.</SavedAs>
   <NeedAName>Пожалуйста, введите название.</NeedAName>
   <LoadingLongEvent>Загрузка...</LoadingLongEvent>
-
+  <SaveIsFromDifferentGameVersion>Версия игры {0}, данное сохранение относится к {1} версии игры, \n\n Возможно данное сохранение, будет не работоспособно.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>Версия игры {0}, вы пытаетесь сохранить их в {1} версии игры, \n\n Возможно у вас что-то может ещё получиться.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Рабочее сохранение.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Сохранение повреждено, и вряд ли у вас получится им воспользоваться.</SaveIsUnknownFormat>
+  <ProblemSavingFile>Были проблемы с сохранением файла {0}:\n\n{1}</ProblemSavingFile>
+    
   <!-- Colony naming-->
-  <NameColonyMessage>Все знают, что вы не хотите застрять в этой дыре надолго. Но {0} всё же предлагает дать название колонии.\n\nТак как она должна называться?</NameColonyMessage>
-  <ColonyGainsName>Теперь колония известна как {0}.</ColonyGainsName>
-  <ColonyNameIsInvalid>Это имя для колонии недопустимо.</ColonyNameIsInvalid>
+  <NameColonyMessage>Все знают, что вы не хотите застрять в этой дыре надолго. Но {0} всё же предлагает дать название поселения.\n\nТак как она должна называться?</NameColonyMessage>
+  <ColonyGainsName>Теперь поселение известно как {0}.</ColonyGainsName>
+  <ColonyNameIsInvalid>Это имя для поселения недопустимо.</ColonyNameIsInvalid>
 
-  <!-- Zone naming -->
-  <ZoneGainsName>Теперь эта зона называется {0}.</ZoneGainsName>
-  <ZoneNameIsInvalid>Пожалуйста, введите допустимое название зоны.</ZoneNameIsInvalid>
+  <!-- Renaming -->
+  <NameIsInvalid>Пожалуйста, введите корректное имя.</NameIsInvalid>
+  <NameIsInUse>Такое название уже используется.</NameIsInUse>
+  <ZoneGainsName>Зона теперь называется: "{0}".</ZoneGainsName>
 
   <!-- Pawn naming -->
-  <PawnGainsName>Прозвище колониста теперь {0}.</PawnGainsName>
+  <PawnGainsName>Прозвище поселенца теперь {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>Несовпадение версий</VersionMismatch>
   <SaveGameIncompatibleWarningText>Внимание: эта карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка сохранения, вероятно, вызовет ошибки и сбои.</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>Внимание: этот мир был сохранён в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого мира, вероятно, вызовет ошибки и сбои. Мы рекомендуем создать новый мир заново.</WorldFileVersionMismatch>
-
+  <ModsMismatchWarningTitle>Несоответствие модов</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>В этом сохранении, использовались модификации которые в данный момент отключены или отсутствуют.\n\nУбедитесь что все необходимые моды подключены:\n\n{0}\n\nВерсия:\n\n{1}</ModsMismatchWarningText>
+  
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Вы изменили настройки экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Сохранить</ResolutionKeep>
   <ResolutionRevert>Отменить</ResolutionRevert>
 
   <!-- Overview -->
-  <OverviewOf>Обзор {0}</OverviewOf>
+  <!--<OverviewOf>Обзор {0}</OverviewOf>-->
 
   <!-- Research -->
   <Research>Исследование</Research>
@@ -46,11 +58,12 @@
   <Unresearched>Не изучено</Unresearched>
   <Finished>Завершено</Finished>
   <InProgress>В процессе</InProgress>
-  <ResearchMenuWithoutBench>Пока вы не построите исследовательский стол, ваши колонисты не смогут приступить к исследованиям.\n\nТем не менее, вы всё равно можете посмотреть и выбрать исследовательский проект прямо сейчас.</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>Пока вы не построите исследовательский стол, ваши поселенцы не смогут приступить к исследованиям.\n\nТем не менее, вы всё равно можете посмотреть и выбрать исследовательский проект прямо сейчас.</ResearchMenuWithoutBench>
 
+  
   <!-- Advanced game start options -->
-  <MapSizePerformanceWarning>ВНИМАНИЕ: производительность может снизиться при больших размерах карты. Огромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
   <MapTemperatureDangerWarning>ВНИМАНИЕ: вы приземлитесь в заморозки. Выживание там может быть очень сложным или нереальным. Если вы не хотите бросать себе экстремальный вызов, выберите другое место или месяц.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>ВНИМАНИЕ: производительность может снизиться при больших размерах карты. Огромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
   <MapSize>Размер карты</MapSize>
   <MapSizeDesc>{0}x{0} ({1} клеток)</MapSizeDesc>
   <MapSizeSmall>Маленькая</MapSizeSmall>
@@ -66,15 +79,18 @@
   <SuspendedAllCaps>ПАУЗА</SuspendedAllCaps>
   <RepeatCount>Сделать: {0}</RepeatCount>
   <Forever>Бесконечно</Forever>
+  <Details>Детали</Details>
   <IngredientSearchRadius>Радиус поиска ингредиентов</IngredientSearchRadius>
   <CurrentlyHave>Имеется</CurrentlyHave>
   <CountingProducts>Подсчёт</CountingProducts>
   <Infinite>Бесконечно</Infinite>
+  <MinimumSkillLevel>Минимальный уровень навыка {0}</MinimumSkillLevel>
+  
   <RecipeCannotHaveTargetCount>(Это задание нельзя повторять, так как результат может быть разным.)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>Разрешённые ингредиенты</PermittedIngredients>
   <WorkAmount>Объем работ</WorkAmount>
   <MinimumSkills>Минимальные навыки:</MinimumSkills>
   <BillRequires>Требуется {0} {1}</BillRequires>
+  <BillRequiresNutrition>Требуется {0} питание(Dialogs_Various.xml)</BillRequiresNutrition>
   <BillRequiresMayVary>Заметка: ингредиенты малого объёма, такие как золото, требуют в 20 раз больше.</BillRequiresMayVary>
   <ThisIsSmallVolume>Этот ингредиент имеет малый объём. Это значит, что каждый "кусочек" - это только 1/20 объёма обычного ингредиента. Чтобы выполнить требования по ингредиентам, вам понадобится в 20 раз больше материала.</ThisIsSmallVolume>
   <UsableIngredients>ингредиенты</UsableIngredients>
@@ -85,12 +101,13 @@
   <BillStoreMode_DropOnFloor>Положить на пол</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>Отнести на лучший склад</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>Отнести на ближайший склад</BillStoreMode_NearestStockpileAnyPriority>
-
+  
   <!-- Info card -->
   <Damage>Урон</Damage>
   <Accuracy>Точность</Accuracy>
   <BurstShotCount>Выстрелов</BurstShotCount>
   <WarmupTime>Изготовка</WarmupTime>
+  <MeleeWarmupTime>Тренировка</MeleeWarmupTime>
   <CooldownTime>Перезарядка</CooldownTime>
   <BurstShotFireRate>Темп стрельбы</BurstShotFireRate>
   <Range>Дальность</Range>
@@ -105,22 +122,25 @@
   <Attributes>Атрибуты</Attributes>
   <LifeSpan>Рост</LifeSpan>
   <Nutrition>Питательность</Nutrition>
+  <Joy>Развлечение</Joy>
   <FoodQuality>Тип еды</FoodQuality>
   <WalkSpeedProperty>Скорость бега</WalkSpeedProperty>
-  <MeatAmount>Мясо</MeatAmount>
   <MinFoodQuality>Мин. тип еды</MinFoodQuality>
   <Diet>Образ жизни</Diet>
   <RecruitDifficulty>Сложность вербовки</RecruitDifficulty>
   <MarketValue>Базовая цена</MarketValue>
   <Covers>Покрывает</Covers>
   <BodyPartEfficiency>Эффективность части тела</BodyPartEfficiency>
-
+  <MoodChange>Смена настроения</MoodChange>
+  <Wildness>Дикость</Wildness>
+  <WildnessExplanation>Диких существ, естественно сложно приручить, натренировать и с ними оброщаться.</WildnessExplanation>
+  
   <!-- Trade -->
   <DragToTrade>Тяните для торговли</DragToTrade>
   <BuyPriceDesc>Цена, по которой можно купить товар.</BuyPriceDesc>
   <SellPriceDesc>Цена, по которой можно продать товар.</SellPriceDesc>
   <PriceTypeDesc>Для данного товара это {0} цена.</PriceTypeDesc>
-  <ColonyCount>Количество товара, которое есть на продажу у колонии.\n\nПродавать товары орбитальным торговцам можно, только если они находятся около торгового маяка и не под крышей.</ColonyCount>
+  <ColonyCount>Количество товара, которое есть на продажу у поселения.\n\nПродавать товары орбитальным торговцам можно, только если они находятся около торгового маяка и не под крышей.</ColonyCount>
   <TraderCount>Количество товара, которое есть на продажу у торговца.</TraderCount>
   <AcceptButton>Принять</AcceptButton>
   <ResetButton>Сбросить</ResetButton>
@@ -131,7 +151,9 @@
   <ColonyHasNoMore>Больше нет на продажу.</ColonyHasNoMore>
   <TraderWillNotTrade>Торговец не желает торговать этим товаром.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием здорового переговорщика.</NegotiatorTalkingImpaired>
-
+  <ConfirmTraderShortFunds>У торговца, недостаточно серебра, чтобы завершить эту сделку. Вам стоит выбрать другие варианты.</ConfirmTraderShortFunds>
+  <SortBy>Сортировать по</SortBy>
+ 
   <!-- Comms -->
   <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
 
@@ -147,4 +169,12 @@
   <HistoryUploadYesOnce>Загрузить только в этот раз</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>В этот раз не загружать, спросить позже</HistoryUploadNoOnce>
 
+    <!-- Outfit management -->
+  <Outfit>Набор одежды</Outfit>
+  <SelectOutfit>Выберите набор...</SelectOutfit>
+  <NewOutfit>Новая набор</NewOutfit>
+  <DeleteOutfit>Удалить набор...</DeleteOutfit>
+  <OutfitInUse>Одежда используется {0}.</OutfitInUse>
+  <NoOutfitSelected>Набор одежды не выбран</NoOutfitSelected>
+  
 </LanguageData>

@@ -1,13 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+
+  
   <CallOnRadio>Связаться с {0}</CallOnRadio>
+  <CannotUseReason>Невозможно использовать ({0})</CannotUseReason>
   <CannotUseSolarFlare>Невозможно использовать (солнечная вспышка)</CannotUseSolarFlare>
   <CannotUseNoPower>Невозможно использовать (нет энергии)</CannotUseNoPower>
   <CannotUseNoPath>Невозможно использовать (нельзя пройти)</CannotUseNoPath>
   <CannotUseReserved>Невозможно использовать (занято)</CannotUseReserved>
   <CannotUseFull>Невозможно использовать (заполнено)</CannotUseFull>
-
+  
   <FireAt>Стрелять в {0}</FireAt>
 
   <OutOfRange>вне зоны поражения</OutOfRange>
@@ -27,6 +30,11 @@
   <NoEmptyPlaceLower>нет свободного места, настроенного для хранения этого</NoEmptyPlaceLower>
   <AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
   <MissingMaterials>нужны материалы</MissingMaterials>
+  <MissingSkill>Недостаточный уровень навыка</MissingSkill>
+  <NoEmptyGraveLower>не пустой могила пока настроен для ее хранения(FloatMenu.xml)</NoEmptyGraveLower>
+  <AnimalInteractedTooRecently>животное обучалось совсем недавно</AnimalInteractedTooRecently>
+  <NoUsableFood>нет кушать пищу</NoUsableFood>
+  <AnimalsSkillTooLow>Животное слишком глупо</AnimalsSkillTooLow>
 
   <ConsumeThing>Употребить {0}</ConsumeThing>
 
@@ -34,6 +42,7 @@
   <GoHere>Идти сюда</GoHere>
 
   <Arrest>Арестовать {0}</Arrest>
+  <TryToArrest>Попытаться арестовать {0}</TryToArrest>
   <CannotArrest>Невозможно арестовать</CannotArrest>
 
   <Capture>Захватить {0}</Capture>
@@ -47,18 +56,19 @@
 
   <NoCryptosleepCasket>Нет доступных контейнеров крипто-сна.</NoCryptosleepCasket>
   <NoPrisonerBed>Не хватает кроватей для заключённых.</NoPrisonerBed>
-  <NoNonPrisonerBed>Не хватает кроватей для колонистов.</NoNonPrisonerBed>
+  <NoNonPrisonerBed>Не хватает кроватей для поселенецев.</NoNonPrisonerBed>
   <Reserved>Занято кем-то другим.</Reserved>
-  <ReservedBy>Занято {0}</ReservedBy>
-  <IsReservedBy>{0} занято {1}.</IsReservedBy>
+  <ReservedBy>Занято: "{0}"</ReservedBy>
+  <IsReservedBy>{0} используеться: "{1}".</IsReservedBy>
 
-  <NoManipulationSkill>неспособен</NoManipulationSkill>
+  <Incapable>неспособен</Incapable>
+  <IncapableOfCapacity>неспособен {0}</IncapableOfCapacity>
 
   <Equip>Экипировать {0}</Equip>
   <EquipWarningBrawler>(дебошир будет недоволен)</EquipWarningBrawler>
   <CannotEquip>Невозможно экипировать {0}</CannotEquip>
 
-  <Wear>Надеть {0}</Wear>
+  <ForceWear>Надеть {0}</ForceWear>
   <CannotWear>Невозможно надеть {0}</CannotWear>
 
   <Strip>Раздеть {0}</Strip>
@@ -81,12 +91,12 @@
 
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
-  <CannotGenericWork>Невозможно {0} {1}</CannotGenericWork>
+  <CannotGenericWork>Невозможно {0}: "{1}"</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotMissingHealthActivities>Сейчас нельзя (Проблема со здоровьем: {0})</CannotMissingHealthActivities>
 
-  <CannotGenericAlreadyAm>Уже {0} {1}</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>Уже {0}: "{1}"</CannotGenericAlreadyAm>
 
   <CannotPrioritizeIsNotA>Сейчас нельзя ({0} не {1})</CannotPrioritizeIsNotA>
 
@@ -95,6 +105,6 @@
   <CannotPrioritizeForbidden>Сейчас нельзя ({0} запрещен)</CannotPrioritizeForbidden>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
-  <PrioritizeGeneric>Немедленно {0} {1}</PrioritizeGeneric>
+  <PrioritizeGeneric>{0}: "{1}"</PrioritizeGeneric>
 
 </LanguageData>
