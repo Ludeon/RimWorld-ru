@@ -18,3 +18,4 @@ Official Translators:
 Active Contributors:
 --------------------
 - Zenya135
+- Dimonasdf
