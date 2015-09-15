@@ -13,10 +13,10 @@ Official Translators:
 ---------------------
 - Tarakanhb
 - Dandi
-_ Markell
+- Dimonasdf
+- Markell
 - AcDie (inactive)
 
 Active Contributors:
 --------------------
 - Zenya135
-- Dimonasdf
