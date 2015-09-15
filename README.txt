@@ -13,6 +13,7 @@ Official Translators:
 ---------------------
 - Tarakanhb
 - Dandi
+_ Markell
 - AcDie (inactive)
 
 Active Contributors:
