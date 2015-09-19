@@ -45,13 +45,13 @@
   <WoolGrowth>Выросло шерсти</WoolGrowth>
   <EggProgress>Яйцо</EggProgress>
   <Fertilized>Оплодотворенный</Fertilized>
-  <ProgressStoppedUntilFertilized>Прогресс остановился до оплодотворенная</ProgressStoppedUntilFertilized>
+  <ProgressStoppedUntilFertilized>Прогресс остановился до оплодотворения</ProgressStoppedUntilFertilized>
   <SkillTooLow>нужен {0} уровень {2}, сейчас {1}</SkillTooLow>
   
   <!--TextMotes-->
   <Headshot>В голову</Headshot>
   <TreatQuality>качество лечения {0}</TreatQuality>
-  <PoorResult>неудалось</PoorResult>
+  <PoorResult>неудачно</PoorResult>
   <GoodResult>успех</GoodResult>
   <TextMote_TreatSuccess>Вылечено!\n{0} шанс</TextMote_TreatSuccess>
   <TextMote_TreatFailed>Не вылечено\n{0} шанс</TextMote_TreatFailed>
@@ -64,18 +64,18 @@
 <!-- Areas -->
   <Home>Домашняя</Home>
   <NoRoof>Без крыши</NoRoof>
-  <SnowClear>Без снега</SnowClear>
-  <AreaDefaultLabel>Облость {0}</AreaDefaultLabel>
+  <SnowClear>Уборка снега</SnowClear>
+  <AreaDefaultLabel>Область {0}</AreaDefaultLabel>
   <AreaAnimalDefaultLabel>Область для животных {0}</AreaAnimalDefaultLabel>
-  <NoAreaAllowed>Неограничено</NoAreaAllowed>
+  <NoAreaAllowed>Не ограничено</NoAreaAllowed>
   <NewArea>Новая область</NewArea>
   <NewAreaAnimal>Новая область для животных</NewAreaAnimal>
   <InvertArea>Инвертировать</InvertArea>
   
   <!-- Control -->
-  <CannotOrderNonControlled>Нельзя приказать неконтролируемые юниты.</CannotOrderNonControlled>
-  <IsIncapableOfViolence>{0} неспособен к насилию.</IsIncapableOfViolence>
-  <IsIncapableOfViolenceShort>не в состоянии насилия</IsIncapableOfViolenceShort>
+  <CannotOrderNonControlled>Нельзя отдавать приказы неконтролируемым юнитам.</CannotOrderNonControlled>
+  <IsIncapableOfViolence>{0} не в состоянии учинить насилие.</IsIncapableOfViolence>
+  <IsIncapableOfViolenceShort>неспособен к насилию</IsIncapableOfViolenceShort>
   <IsNotDrafted>{0} не в режиме призыва.</IsNotDrafted>
 
   <!-- Snow -->
@@ -104,7 +104,7 @@
   <WatchingEclipse>Наблюдает за затмением</WatchingEclipse>
   <DeliveringFood>Несёт еду для {0}.</DeliveringFood>
   <UsingVerb>Использует {0} на {1}.</UsingVerb>
-  <AreaLower>Область</AreaLower>
+  <AreaLower>область</AreaLower>
 
   <!-- Shooting report -->
   <WeaponMissRadius>Разброс оружия</WeaponMissRadius>
@@ -147,7 +147,7 @@
   <DefInfoTip>Просмотр информации о данном объекте.</DefInfoTip>
 
   <!-- like 'Blood of John' -->
-  <OfLower></OfLower>
+  <OfLower> </OfLower>
 
   <!-- Power readout -->
   <PowerNotConnected>Не подключено к сети.</PowerNotConnected>
@@ -175,7 +175,7 @@
 
   <!-- Shooting tooltip -->
   <ShotBy>Выстрел {0}</ShotBy>
-  <CannotHit> не может попасть в цель.</CannotHit><!-- необходим лидирующий пробел для читаемости -->
+  <CannotHit> Не может попасть в цель.</CannotHit><!-- необходим лидирующий пробел для читаемости -->
 
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>Не использовать</StoragePriorityUnstored>
@@ -200,11 +200,11 @@
   <FullyGrownIn>Вырастет через {0}.</FullyGrownIn>
   <PlantNeedsLightLevel>Не растёт (Нужен свет)</PlantNeedsLightLevel>
   <PlantResting>Спит</PlantResting>
-  <OutOfIdealTemperatureRange>Не подходящая температура.</OutOfIdealTemperatureRange>
-  <OutOfIdealTemperatureRangeNotGrowing>Температура влияет на скорость роста.</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRange>Неподходящая температура (растёт со скоростью {0}% от нормы)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRangeNotGrowing>Неподходящая температура (не растёт)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Можно собирать.</ReadyToHarvest>
   <Mature>Созрело.</Mature>
-  <SeedLabel>зерно: "{0}"</SeedLabel>
+  <SeedLabel>зерно {0}</SeedLabel>
   <OutdoorGrowingPeriod>Период роста: {0}</OutdoorGrowingPeriod>
   <NoGrowingPeriod>Никогда</NoGrowingPeriod>
   <GrowYearRound>Круглый год</GrowYearRound>
@@ -234,7 +234,7 @@
   <ShowRoomStatsToggleButton>Переключение видимости параметров комнат.\n\nОтображает параметры комнаты на которую наведен курсор.</ShowRoomStatsToggleButton>
   <AutoHomeAreaToggleButton>Переключение автоматического добавления домашней области для новых построек.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Отображать количество ресурсов на складах полностью или по категориям.</CategorizedResourceReadoutToggleButton>
-  <ShowAnimalNamesToggleButton>Переключение видимости имен прирученых животных.</ShowAnimalNamesToggleButton>
+  <ShowAnimalNamesToggleButton>Переключение видимости имён прирученых животных.</ShowAnimalNamesToggleButton>
   
 
   <!-- Fire -->
@@ -252,11 +252,11 @@
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>Не может быть размещено под крышей.</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>Должно быть размещено заголовьем рядом с центральной балкой корабля.</MustPlaceHeadOnShipBeam>
-  <MustPlaceNextToHopperAccepter>Должен быть размещен только рядом с устройством, которому нужен хоппер.</MustPlaceNextToHopperAccepter>
+  <MustPlaceNextToHopperAccepter>Должен быть размещён только рядом с устройством, которому нужен хоппер.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Должен быть размещён непосредственно на паровом гейзере.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>И горячая и холодная стороны кондиционера должны быть открыты.</MustPlaceCoolerWithFreeSpaces>
   <MustPlaceVentWithFreeSpaces>Обе стороны должны быть свободны, для циркуляции воздуха.</MustPlaceVentWithFreeSpaces>
-  <MustPlaceAdjacentStandable>Должно быть установлено в свободное со всех сторон, пространство.</MustPlaceAdjacentStandable>
+  <MustPlaceAdjacentStandable>Должно быть установлено в свободное со всех сторон пространство.</MustPlaceAdjacentStandable>
   
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Заблокировано </WindTurbine_WindPathIsBlockedBy>
@@ -321,6 +321,6 @@
   <TrapRearmingCost>Затраты на перезарядку: {0}</TrapRearmingCost>
   
   <!-- Facilities -->
-  <InactiveFacility>Отключён</InactiveFacility>
+  <InactiveFacility>отключён</InactiveFacility>
   
 </LanguageData>
