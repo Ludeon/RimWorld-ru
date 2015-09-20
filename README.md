@@ -12,7 +12,8 @@ Russian Localization for RimWorld
 * [AcDie (inactive)](https://github.com/AcDie)
 
 
-## Active Contributors
+## Contributors
+* [hazestalker](https://github.com/hazestalker)
 * [Zenya135](https://github.com/Zenya135)
 
 
