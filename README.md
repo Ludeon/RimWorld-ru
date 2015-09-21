@@ -13,7 +13,12 @@ Russian Localization for RimWorld
 
 
 ## Contributors
+* [Lirryc](https://github.com/Lirryc)
 * [hazestalker](https://github.com/hazestalker)
+* [M-r-A](https://github.com/M-r-A)
+* [rooqie](https://github.com/rooqie)
+* [0wnag3](https://github.com/0wnag3)
+* [Sergemiuss](https://github.com/Sergemiuss)
 * [Zenya135](https://github.com/Zenya135)
 
 
