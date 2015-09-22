@@ -130,11 +130,22 @@
   <MentalBreakThresholdSoft>Порог лёгкого нервного срыва</MentalBreakThresholdSoft>
 
   <!-- Pawn info readout -->
+  
+  <!--очень старое, не работает-->
   <!--<hitPoints>Здоровье</hitPoints>
   <PawnMainDescWithFactionGendered>{0} {1} из {2}</PawnMainDescWithFactionGendered>-->
-  <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
+ 
+   <!-- Так было в русской версии, работало некорректно-->
+  <!--<PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
   <PawnMainDescWithFactionGenderless>{0} "{1}"</PawnMainDescWithFactionGenderless>
-  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
+  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>-->
+  
+  <!-- Английская, модифицированная, работает-->
+  <PawnMainDescGendered>{0}, {1}</PawnMainDescGendered>
+  <PawnMainDescFactionedWrap>{0} {1}</PawnMainDescFactionedWrap>
+  <!-- Строка из английской, в русской смотрится странно, но без нее вообще вылезает английский. Единственное visible в файле LifeStages.xml. Хз, как и зачем, тому же возраст и так есть.-->
+  <PawnMainDescLifestageWrap>{1}, {0}</PawnMainDescLifestageWrap>
+
   <Faction>Фракция</Faction>
   <Equipped>Вооружён</Equipped>
   <EquippedNothing>Не вооружён</EquippedNothing>

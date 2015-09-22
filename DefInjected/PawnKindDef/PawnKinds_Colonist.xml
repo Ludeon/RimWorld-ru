@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<Colonist.label>поселенец</Colonist.label>
+
+	<!--Необходимо для избежания тавтологии "поселенец Поселения"
+	Все трое первых будут называться колонистами, последующим присваевается звание "житель", в соответствии с PawnKinds_Outlander.xml-->
+	
+	<Colonist.label>колонист</Colonist.label>
 
 </LanguageData>
