@@ -24,3 +24,5 @@ Russian Localization for RimWorld
 
 ## See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
+
+Если хотите помочь переводу - прочитайте сначала wiki справа. Там пока немного, но оно важно.
