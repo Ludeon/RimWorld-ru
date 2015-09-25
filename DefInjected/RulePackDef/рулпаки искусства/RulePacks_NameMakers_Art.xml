@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+	
+  <rep>
+    <path>NamerWeapon.rulePack.rulesStrings[0]</path>
+    <trans>name->[personname]'s [badassconcept]</trans>
+  </rep>
+  <rep>
+    <path>NamerWeapon.rulePack.rulesStrings[1]</path>
+    <trans>name->[badassconcept]</trans>
+  </rep>
+  <rep>
+    <path>NamerWeapon.rulePack.rulesStrings[2]</path>
+    <trans>name->[badassanimal]</trans>
+  </rep>
+  <rep>
+    <path>NamerWeapon.rulePack.rulesStrings[3]</path>
+    <trans>name->[badassadjective] [badassanimal]</trans>
+  </rep>
+  <rep>
+    <path>NamerWeapon.rulePack.rulesStrings[4]</path>
+    <trans>name->[badasscolor] [badassperson]</trans>
+  </rep>
+  <rep>
+    <path>NamerWeapon.rulePack.rulesStrings[5]</path>
+    <trans>name->[badasscolor] [badassanimal]</trans>
+  </rep>
+  <rep>
+    <path>NamerWeapon.rulePack.rulesStrings[6]</path>
+    <trans>name->[badassconcept] [badasscolor]</trans>
+  </rep>
+  
+	
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[0]</path>
+    <trans>name->[artname]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[1]</path>
+    <trans>name->[personname]'s [artname]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[2]</path>
+    <trans>name->[artname] [trans] [personname]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[3]</path>
+    <trans>name->[artname] [trans] [concept]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[4]</path>
+    <trans>name->[concept] [trans] [personname]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[5]</path>
+    <trans>name->[concept]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[6]</path>
+    <trans>name->[color] [concept]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[7]</path>
+    <trans>name->[color] [artname]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[8]</path>
+    <trans>name->[personname] [trans] [color]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[9]</path>
+    <trans>name->[color] [terrainfeature]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[10]</path>
+    <trans>name->Eine [art_adjective] [concept]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[11]</path>
+    <trans>name->[artname] [romannumeral]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[12]</path>
+    <trans>name->[concept] Nr. [digit]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[13]</path>
+    <trans>name->[artname] Nr. [digit]</trans>
+  </rep>
+  <rep>
+    <path>NamerSculpture.rulePack.rulesStrings[14]</path>
+    <trans>name->[artname] Nr. [digit][digit]</trans>
+  </rep>
+	
+	<NamerFurniture.rulePack.rulesStrings.0>name->[personname]'s [positiveconcept]</NamerFurniture.rulePack.rulesStrings.0>
+	<NamerFurniture.rulePack.rulesStrings.1>name->[positiveconcept]</NamerFurniture.rulePack.rulesStrings.1>
+	<NamerFurniture.rulePack.rulesStrings.2>name->[animal]</NamerFurniture.rulePack.rulesStrings.2>
+	<NamerFurniture.rulePack.rulesStrings.3>name->[badasscolor] [animal]</NamerFurniture.rulePack.rulesStrings.3>
+	
+	<NamerSarcophagusPlate.rulePack.rulesStrings.0>name->[angstyadjective] [badassperson]</NamerSarcophagusPlate.rulePack.rulesStrings.0>
+	<NamerSarcophagusPlate.rulePack.rulesStrings.1>name->The [badassperson]</NamerSarcophagusPlate.rulePack.rulesStrings.1>
+	<NamerSarcophagusPlate.rulePack.rulesStrings.2>name->[color] [badassperson]</NamerSarcophagusPlate.rulePack.rulesStrings.2>
+	<NamerSarcophagusPlate.rulePack.rulesStrings.3>name->[angstyadjective] [angstyconcept]</NamerSarcophagusPlate.rulePack.rulesStrings.3>
+	<NamerSarcophagusPlate.rulePack.rulesStrings.4>name->[angstyadjective] [badassconcept]</NamerSarcophagusPlate.rulePack.rulesStrings.4>
+	
+</LanguageData>
+
+
+
+
+
+
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerMeleeWeapon</defName>
+    <include>
+      <li>NamerWeapon</li>
+    </include>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerGun</defName>
+    <include>
+      <li>NamerWeapon</li>
+    </include>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>NamerWeapon</defName>
+    <include>
+      <li>NamerArtUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[personname]'s [badassconcept]</li>
+        <li>name->[badassconcept]</li>
+        <li>name->The [badassanimal]</li>
+        <li>name->[badassadjective] [badassanimal]</li>
+        <li>name->[badasscolor] [badassperson]</li>
+        <li>name->[badasscolor] [badassanimal]</li>
+        <li>name->[badassconcept] [badasscolor]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>badassconcept</keyword>
+          <path>NameBanks/Nouns_Concepts_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassanimal</keyword>
+          <path>NameBanks/Nouns_BadassAnimals</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassadjective</keyword>
+          <path>NameBanks/Adjectives_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassperson</keyword>
+          <path>NameBanks/Nouns_BadassPersons</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassconcept</keyword>
+          <path>NameBanks/Nouns_Concepts_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badasscolor</keyword>
+          <path>NameBanks/ColorsBadass</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+
+
+  <RulePackDef>
+    <defName>NamerSculpture</defName>
+    <include>
+      <li>NamerArtUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[artname]</li>
+        <li>name->[personname]'s [artname]</li>
+        <li>name->[artname] [trans] [personname]</li>
+        <li>name->[artname] [trans] [concept]</li>
+        <li>name->[concept] [trans] [personname]</li>
+        <li>name->[concept]</li>
+        <li>name->[color] [concept]</li>
+        <li>name->[color] [artname]</li>
+        <li>name->[personname] [trans] [color]</li>
+        <li>name->[color] [terrainfeature]</li>
+        <li>name->A [art_adjective] [concept]</li>
+        <li>name->[artname] [romannumeral]</li>
+        <li>name->[concept] No. [digit]</li>
+        <li>name->[artname] No. [digit]</li>
+        <li>name->[artname] No. [digit][digit]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>NamerFurniture</defName>
+    <include>
+      <li>NamerArtUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[personname]'s [positiveconcept]</li>
+        <li>name->[positiveconcept]</li>
+        <li>name->The [animal]</li>
+        <li>name->[badasscolor] [animal]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>positiveconcept</keyword>
+          <path>NameBanks/Nouns_Concepts_Positive</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>animal</keyword>
+          <path>NameBanks/Nouns_Animals</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badasscolor</keyword>
+          <path>NameBanks/ColorsBadass</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  
+  <RulePackDef>
+    <defName>NamerSarcophagusPlate</defName>
+    <include>
+      <li>NamerArtUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[angstyadjective] [badassperson]</li>
+        <li>name->The [badassperson]</li>
+        <li>name->[color] [badassperson]</li>
+        <li>name->[angstyadjective] [angstyconcept]</li>
+        <li>name->[angstyadjective] [badassconcept]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>angstyadjective</keyword>
+          <path>NameBanks/Adjectives_Angsty</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassperson</keyword>
+          <path>NameBanks/Nouns_BadassPersons</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>color</keyword>
+          <path>NameBanks/Colors</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>angstyconcept</keyword>
+          <path>NameBanks/Nouns_Concepts_Angsty</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassconcept</keyword>
+          <path>NameBanks/Nouns_Concepts_Badass</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

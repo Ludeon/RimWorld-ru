@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+	
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[0]</path>
+    <trans>image->einem [outlander] der von [quantity_adjphrase] [outlander]n umstellt ist. [part2]</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[1]</path>
+    <trans>image->einem [outlander] der mit mehreren [outlander]n eine Partie [game] spielt. [part2]</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[2]</path>
+    <trans>image->einem [outlander] mit [weapon] [subject_desc]. [part2]</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[3]</path>
+    <trans>image->einem einsamen [outlander]. [part2]</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[4]</path>
+    <trans>image->einem [adjective] [outlander] mit [apparel]. [part2]</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[5]</path>
+    <trans>image->einem leeren [apparel] [subject_desc]. [part2]</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[6]</path>
+    <trans>image->einem [adjective] [terrainfeature]. [part2]</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[7]</path>
+    <trans>image->[animal]s die [game] spielen. [part2]</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[8]</path>
+    <trans>image->einem [animal] mit [apparel] [subject_desc]. [part2]</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[9]</path>
+    <trans>part2->[artextra_sentence] [artextra_sentence]</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[10]</path>
+    <trans>subject_desc->in der Luft fliegend</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[11]</path>
+    <trans>subject_desc->in der Luft schwebend</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[12]</path>
+    <trans>subject_desc->am Boden stehend</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[13]</path>
+    <trans>subject_desc->nach links gehend</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[14]</path>
+    <trans>subject_desc->nach rechts gehend</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[15]</path>
+    <trans>subject_desc->auf einem Tisch sitzend</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[16]</path>
+    <trans>subject_desc->spiegelbildlich gesehen</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[17]</path>
+    <trans>subject_desc->als Schemen dargestellt</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[18]</path>
+    <trans>subject_desc-> auf [animal] mit [apparel] reitend</trans>
+  </rep>
+  <rep>
+    <path>TalelessImages.rulePack.rulesStrings[19]</path>
+    <trans>subject_desc->[adjective] schauend</trans>
+  </rep>
+	
+	
+</LanguageData>
+
+
+
+
+
+<Defs>
+
+  <RulePackDef>
+    <defName>TalelessImages</defName>
+    <include>
+      <li>ArtUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>image->a [outlander] surrounded by [outlander]s. [part2]</li>
+        <li>image->a [outlander] playing [game] with [quantity_adjphrase] [outlander]s. [part2]</li>
+        <li>image->a [outlander] [subject_desc] holding a [weapon]. [part2]</li>
+        <li>image->a solitary [outlander]. [part2]</li>
+        <li>image->a [adjective] [outlander] wearing a [apparel]. [part2]</li>
+        <li>image->an empty [apparel] [subject_desc]. [part2]</li>
+        <li>image->a [adjective] [terrainfeature]. [part2]</li>
+        <li>image->[animal]s playing [game]. [part2]</li>
+        <li>image->a [animal] wearing a [apparel] [subject_desc]. [part2]</li>
+        <li>part2->[artextra_sentence] [artextra_sentence]</li>
+        <li>subject_desc->flying through the air</li>
+        <li>subject_desc->suspended in the air</li>
+        <li>subject_desc->standing on the ground</li>
+        <li>subject_desc->moving to the left</li>
+        <li>subject_desc->moving to the right</li>
+        <li>subject_desc->sitting on a table</li>
+        <li>subject_desc->seen through a looking glass</li>
+        <li>subject_desc->rendered in silhouette</li>
+        <li>subject_desc->riding on a [animal] wearing a [apparel]</li>
+        <li>subject_desc->looking [adjective]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+</Defs>

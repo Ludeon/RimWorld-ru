@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+	<NamerAnimalGeneric.rulePack.rulesStrings.0>name->[animalnameunisex]</NamerAnimalGeneric.rulePack.rulesStrings.0>
+	<NamerAnimalGeneric.rulePack.rulesStrings.1>name->[animalnameunisex]</NamerAnimalGeneric.rulePack.rulesStrings.1>
+	<NamerAnimalGeneric.rulePack.rulesStrings.2>name->[animalnameunisex]</NamerAnimalGeneric.rulePack.rulesStrings.2>
+	<NamerAnimalGeneric.rulePack.rulesStrings.3>name->[animalnamemale]</NamerAnimalGeneric.rulePack.rulesStrings.3>
+	<NamerAnimalGeneric.rulePack.rulesStrings.4>name->[animalnamefemale]</NamerAnimalGeneric.rulePack.rulesStrings.4>
+	<NamerAnimalGeneric.rulePack.rulesStrings.5>name->[personname]</NamerAnimalGeneric.rulePack.rulesStrings.5>
+	<NamerAnimalGeneric.rulePack.rulesStrings.6>name->[exoticname]</NamerAnimalGeneric.rulePack.rulesStrings.6>
+	<NamerAnimalGeneric.rulePack.rulesStrings.7>exoticname->[badassadjective]</NamerAnimalGeneric.rulePack.rulesStrings.7>
+	<NamerAnimalGeneric.rulePack.rulesStrings.8>exoticname->[concept]</NamerAnimalGeneric.rulePack.rulesStrings.8>
+	<NamerAnimalGeneric.rulePack.rulesStrings.9>exoticname->[badassadjective]</NamerAnimalGeneric.rulePack.rulesStrings.9>
+	<NamerAnimalGeneric.rulePack.rulesStrings.10>exoticname->[concept]</NamerAnimalGeneric.rulePack.rulesStrings.10>
+	<NamerAnimalGeneric.rulePack.rulesStrings.11>exoticname->[color]</NamerAnimalGeneric.rulePack.rulesStrings.11>
+
+</LanguageData>
+
+
+
+
+
+
+
+
+
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerAnimalGeneric</defName>
+    <include>
+      <li>NamerArtUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[animalnameunisex]</li>
+        <li>name->[animalnameunisex]</li>
+        <li>name->[animalnameunisex]</li>
+        <li>name->[animalnamemale]</li>
+        <li>name->[animalnamefemale]</li>
+        <li>name->[personname]</li>
+        <li>name->[exoticname]</li>
+        <li>exoticname->[badassadjective]</li>
+        <li>exoticname->[concept]</li>
+        <li>exoticname->[badassadjective]</li>
+        <li>exoticname->[concept]</li>   
+        <li>exoticname->[color]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>animalnameunisex</keyword>
+          <path>NameBanks/Names_Animal_Unisex</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>animalnamemale</keyword>
+          <path>NameBanks/Names_Animal_Male</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>animalnamefemale</keyword>
+          <path>NameBanks/Names_Animal_Female</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassconcept</keyword>
+          <path>NameBanks/Nouns_Concepts_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassanimal</keyword>
+          <path>NameBanks/Nouns_BadassAnimals</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassadjective</keyword>
+          <path>NameBanks/Adjectives_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassperson</keyword>
+          <path>NameBanks/Nouns_BadassPersons</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassconcept</keyword>
+          <path>NameBanks/Nouns_Concepts_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badasscolor</keyword>
+          <path>NameBanks/ColorsBadass</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
