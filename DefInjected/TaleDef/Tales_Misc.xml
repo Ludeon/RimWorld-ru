@@ -1,73 +1,92 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	
-  <!-- PawnAndItem -->
+<!--
+Не получается убрать перед [circumstance_group] пробелы, чтобы добавить их в текст [circumstance_phrase], добавленные пробелы игнорируются, alt+255 не помогает
+
+[pawn_nameFull] и [pawn_nameShortDefinite] - имена персонажа
+
+[pawn_pronoun] - he/she - он/она - как HE
+[pawn_possessive] - his/her - его/её - как HIS
+[pawn_objective] - him/her - него/неё - как нHIS :D
+-->
 	
-  <CraftedArt.rulePack.rulesStrings.0>image->[pawn_nameFull] делает [thing_labelIndefinite] [circumstance_group]. [quality_sentence] [title_sentence] [desc_sentence_group]</CraftedArt.rulePack.rulesStrings.0>
-  <CraftedArt.rulePack.rulesStrings.1>image->[pawn_nameFull] завершает работу по [thing_labelIndefinite] [circumstance_group]. [quality_sentence] [title_sentence] [desc_sentence_group]</CraftedArt.rulePack.rulesStrings.1>
-  <CraftedArt.rulePack.rulesStrings.2>image->[pawn_nameFull] работает над [thing_labelIndefinite] [circumstance_group]. [quality_sentence] [title_sentence] [desc_sentence_group]</CraftedArt.rulePack.rulesStrings.2>
-  <CraftedArt.rulePack.rulesStrings.3>image->[pawn_nameFull] оформляет [thing_labelIndefinite] [circumstance_group]. [quality_sentence] [title_sentence] [desc_sentence_group]</CraftedArt.rulePack.rulesStrings.3>
-  <CraftedArt.rulePack.rulesStrings.4>circumstance_phrase->сконцентрировавшись</CraftedArt.rulePack.rulesStrings.4>
-  <CraftedArt.rulePack.rulesStrings.5>circumstance_phrase->с выражением удовлетворения смотрит на надпись: "[pawn_possessive]"</CraftedArt.rulePack.rulesStrings.5>
-  <CraftedArt.rulePack.rulesStrings.6>circumstance_phrase->ставит [pawn_possessive] на верстак</CraftedArt.rulePack.rulesStrings.6>
-  <CraftedArt.rulePack.rulesStrings.7>circumstance_phrase->с большей интенсивностью</CraftedArt.rulePack.rulesStrings.7>
-  <CraftedArt.rulePack.rulesStrings.8>desc_sentence->Инструменты повсюду разбросаны.</CraftedArt.rulePack.rulesStrings.8>
-  <CraftedArt.rulePack.rulesStrings.9>desc_sentence->[pawn_pronoun] имеет царапины и шрамы от производственных травм.</CraftedArt.rulePack.rulesStrings.9>
-  <CraftedArt.rulePack.rulesStrings.10>desc_sentence->[pawn_pronoun] покрывается испариной.</CraftedArt.rulePack.rulesStrings.10>
-  <CraftedArt.rulePack.rulesStrings.11>desc_sentence->Высокорганизованная рабочая зона, где каждый инструмент, лежит на своём месте.</CraftedArt.rulePack.rulesStrings.11>
-  <CraftedArt.rulePack.rulesStrings.12>desc_sentence->[pawn_pronoun] преувеличивает свои возможности, чтобы выглядеть более сильным</CraftedArt.rulePack.rulesStrings.12>
-  <CraftedArt.rulePack.rulesStrings.13>desc_sentence->[item_labelDefinite] имеет явное преувеличение, подчёркивающее его важность.</CraftedArt.rulePack.rulesStrings.13>
+	
+  <!-- craft -->
+	
+  <CraftedArt.rulePack.rulesStrings.0>image->[pawn_nameFull], делающего(ую) [thing_labelIndefinite] [circumstance_group]. [quality_sentence] [title_sentence] [desc_sentence_group]</CraftedArt.rulePack.rulesStrings.0>
+  <CraftedArt.rulePack.rulesStrings.1>image->[pawn_nameFull], завершающего(ую) свою работу над [thing_labelIndefinite] [circumstance_group]. [quality_sentence] [title_sentence] [desc_sentence_group]</CraftedArt.rulePack.rulesStrings.1>
+  <CraftedArt.rulePack.rulesStrings.2>image->[pawn_nameFull], работающего(ую) над [thing_labelIndefinite] [circumstance_group]. [quality_sentence] [title_sentence] [desc_sentence_group]</CraftedArt.rulePack.rulesStrings.2>
+  <CraftedArt.rulePack.rulesStrings.3>image->[pawn_nameFull], делающего(ую) [thing_labelIndefinite] [circumstance_group]. [quality_sentence] [title_sentence] [desc_sentence_group]</CraftedArt.rulePack.rulesStrings.3>
+
+  <CraftedArt.rulePack.rulesStrings.4>circumstance_phrase-> с полной концентрацией</CraftedArt.rulePack.rulesStrings.4>
+  <CraftedArt.rulePack.rulesStrings.5>circumstance_phrase-> с выражением удовлетворения на [pawn_possessive] лице</CraftedArt.rulePack.rulesStrings.5>
+  <CraftedArt.rulePack.rulesStrings.6>circumstance_phrase-> за своим верстаком</CraftedArt.rulePack.rulesStrings.6>
+  <CraftedArt.rulePack.rulesStrings.7>circumstance_phrase-> с большой интенсивностью</CraftedArt.rulePack.rulesStrings.7>
+
+  <CraftedArt.rulePack.rulesStrings.8>desc_sentence->Повсюду разбросаны инструменты.</CraftedArt.rulePack.rulesStrings.8>
+  <CraftedArt.rulePack.rulesStrings.9>desc_sentence->У [pawn_objective] видны царапины и шрамы от производственных травм.</CraftedArt.rulePack.rulesStrings.9>
+  <CraftedArt.rulePack.rulesStrings.10>desc_sentence->[pawn_pronoun] покрывает(а) потом.</CraftedArt.rulePack.rulesStrings.10>
+  <CraftedArt.rulePack.rulesStrings.11>desc_sentence->Рабочая зона хорошо организована, каждый инструмент лежит на своём месте.</CraftedArt.rulePack.rulesStrings.11>
+  <CraftedArt.rulePack.rulesStrings.12>desc_sentence->[pawn_pronoun] изображен(а) в несколько преувеличенной манере, чтобы выглядеть сильнее.</CraftedArt.rulePack.rulesStrings.12>
+  <CraftedArt.rulePack.rulesStrings.13>desc_sentence->Размер [item_labelDefinite] явно преувеличен, чтобы подчеркнуть его важность.</CraftedArt.rulePack.rulesStrings.13>
   <CraftedArt.rulePack.rulesStrings.14>desc_sentence->[item_labelDefinite] кажется почти ангельским, так как ему добавлено художественное свечение.</CraftedArt.rulePack.rulesStrings.14>
-  <CraftedArt.rulePack.rulesStrings.15>desc_sentence->[pawn_nameShortDefinite] отходит на второй план, так как [pawn_possessive] специально подчёркивается.</CraftedArt.rulePack.rulesStrings.15>
-  <CraftedArt.rulePack.rulesStrings.16>desc_sentence->группа зевак окружило [pawn_objective].</CraftedArt.rulePack.rulesStrings.16>
-  <CraftedArt.rulePack.rulesStrings.17>desc_sentence->толпа ликует от фона.</CraftedArt.rulePack.rulesStrings.17>
-  <CraftedArt.rulePack.rulesStrings.18>quality_sentence->[thing_labelDefinite] выглядит как [thing_quality].</CraftedArt.rulePack.rulesStrings.18>
-  <CraftedArt.rulePack.rulesStrings.19>quality_sentence->[thing_labelDefinite] имеет знак качества, на уровне [thing_quality].</CraftedArt.rulePack.rulesStrings.19>
-  <CraftedArt.rulePack.rulesStrings.20>quality_sentence->Работа автора по имени [pawn_nameShortDefinite] определённо заслуживает метки качества [thing_quality].</CraftedArt.rulePack.rulesStrings.20>
-  <CraftedArt.rulePack.rulesStrings.21>title_sentence->Автор [pawn_nameShortDefinite], название [thing_labelDefinite] под ним написано: [thing_title].</CraftedArt.rulePack.rulesStrings.21>
-  <CraftedArt.rulePack.rulesStrings.22>title_sentence->На предмете: "[thing_labelDefinite]", красуется название: "[thing_title]".</CraftedArt.rulePack.rulesStrings.22>
-  <CraftedArt.rulePack.rulesStrings.23>title_sentence->Звание [thing_labelDefinite], [thing_title], висит в фоновом режиме.</CraftedArt.rulePack.rulesStrings.23>
+  <CraftedArt.rulePack.rulesStrings.15>desc_sentence->[pawn_nameShortDefinite] отведён на второй план, чтобы сделать акцент на [pawn_possessive] новом произведении.</CraftedArt.rulePack.rulesStrings.15>
+  <CraftedArt.rulePack.rulesStrings.16>desc_sentence->[pawn_possessive] окружает группа зрителей.</CraftedArt.rulePack.rulesStrings.16>
+  <CraftedArt.rulePack.rulesStrings.17>desc_sentence->На фоне ликует толпа.</CraftedArt.rulePack.rulesStrings.17>
+
+  <CraftedArt.rulePack.rulesStrings.18>quality_sentence->Похоже, [thing_labelDefinite] качества - [thing_quality].</CraftedArt.rulePack.rulesStrings.18>
+  <CraftedArt.rulePack.rulesStrings.19>quality_sentence->[thing_labelDefinite] качества - [thing_quality].</CraftedArt.rulePack.rulesStrings.19>
+  <CraftedArt.rulePack.rulesStrings.20>quality_sentence->Работа автора по имени [pawn_nameShortDefinite] определённо качества - [thing_quality].</CraftedArt.rulePack.rulesStrings.20>
+
+  <CraftedArt.rulePack.rulesStrings.21>title_sentence->Название [thing_labelDefinite] автора [pawn_nameShortDefinite] написано снизу: [thing_title].</CraftedArt.rulePack.rulesStrings.21>
+  <CraftedArt.rulePack.rulesStrings.22>title_sentence->На предмете [thing_labelDefinite] красуется название: [thing_title].</CraftedArt.rulePack.rulesStrings.22>
+  <CraftedArt.rulePack.rulesStrings.23>title_sentence->Название [thing_labelDefinite], [thing_title], висит сзади.</CraftedArt.rulePack.rulesStrings.23>
   <CraftedArt.rulePack.rulesStrings.24>title_sentence-></CraftedArt.rulePack.rulesStrings.24> <!-- needed for when we craft something that has no title -->
   
+  <!-- mine -->
   
-  <StruckMineable.rulePack.rulesStrings.0>image->[pawn_nameFull] поражает [thing_label] [circumstance_group]. [desc_sentence_group]</StruckMineable.rulePack.rulesStrings.0>
-  <StruckMineable.rulePack.rulesStrings.1>circumstance_phrase->в то время как добыча</StruckMineable.rulePack.rulesStrings.1>
+  <StruckMineable.rulePack.rulesStrings.0>image->[pawn_nameFull], ударяющего(ую) по [thing_label] [circumstance_group]. [desc_sentence_group]</StruckMineable.rulePack.rulesStrings.0>
+
+  <StruckMineable.rulePack.rulesStrings.1>circumstance_phrase->во время проведения горных работ</StruckMineable.rulePack.rulesStrings.1>
   <StruckMineable.rulePack.rulesStrings.2>circumstance_phrase->во время рытья</StruckMineable.rulePack.rulesStrings.2>
   <StruckMineable.rulePack.rulesStrings.3>circumstance_phrase->при прокладке туннелей</StruckMineable.rulePack.rulesStrings.3>
-  <StruckMineable.rulePack.rulesStrings.4>circumstance_phrase->удивленно</StruckMineable.rulePack.rulesStrings.4>
-  <StruckMineable.rulePack.rulesStrings.5>circumstance_phrase->с довольным выражением</StruckMineable.rulePack.rulesStrings.5>
-  <StruckMineable.rulePack.rulesStrings.6>desc_sentence->[pawn_nameShortDefinite] уничтожает [pawn_possessive] брови.</StruckMineable.rulePack.rulesStrings.6>
+  <StruckMineable.rulePack.rulesStrings.4>circumstance_phrase->с удивлённым видом</StruckMineable.rulePack.rulesStrings.4>
+  <StruckMineable.rulePack.rulesStrings.5>circumstance_phrase->с удовлетворённым выражением лица</StruckMineable.rulePack.rulesStrings.5>
+
+  <StruckMineable.rulePack.rulesStrings.6>desc_sentence->[pawn_nameShortDefinite] вытирает [pawn_possessive] лоб.</StruckMineable.rulePack.rulesStrings.6>
   <StruckMineable.rulePack.rulesStrings.7>desc_sentence->[pawn_nameShortDefinite] вытирает [pawn_possessive] лоб.</StruckMineable.rulePack.rulesStrings.7>
   <StruckMineable.rulePack.rulesStrings.8>desc_sentence-> [pawn_nameShortDefinite] прыгает от радости.</StruckMineable.rulePack.rulesStrings.8>
   <StruckMineable.rulePack.rulesStrings.9>desc_sentence->[pawn_nameShortDefinite] хлопает друга по плечу.</StruckMineable.rulePack.rulesStrings.9>
   <StruckMineable.rulePack.rulesStrings.10>desc_sentence->[pawn_nameShortDefinite] кричит от счастья.</StruckMineable.rulePack.rulesStrings.10>
   <StruckMineable.rulePack.rulesStrings.11>desc_sentence->[pawn_nameShortDefinite] неудержимо хохочет.</StruckMineable.rulePack.rulesStrings.11>
-  <StruckMineable.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDefinite] потный и грязный от работы.</StruckMineable.rulePack.rulesStrings.12>
+  <StruckMineable.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDefinite] потный(ая) и грязный(ая) от работы.</StruckMineable.rulePack.rulesStrings.12>
   
-  	
-  <!-- Special -->
+  <!-- killed -->
 	
-  <KilledBy.rulePack.rulesStrings.0>image->[victim_nameFull] убивает [killer_nameFull] [circumstance_group]. [desc_sentence_group]</KilledBy.rulePack.rulesStrings.0>
-  <KilledBy.rulePack.rulesStrings.1>image->[killer_nameFull] совершил убийство [victim_nameFull] [circumstance_group]. [desc_sentence_group]</KilledBy.rulePack.rulesStrings.1>
-  <KilledBy.rulePack.rulesStrings.2>image->[killer_nameFull] покончил с жизнью противника по имени [victim_nameFull] [circumstance_group]. [desc_sentence_group]</KilledBy.rulePack.rulesStrings.2>
-  <KilledBy.rulePack.rulesStrings.3>image->[killer_nameFull] жестоко убивает [victim_nameFull] [circumstance_group]. [desc_sentence_group]</KilledBy.rulePack.rulesStrings.3>
-  <KilledBy.rulePack.rulesStrings.4>image->[victim_nameFull] убивает [circumstance_group]. [desc_sentence_group].</KilledBy.rulePack.rulesStrings.4>
-  <KilledBy.rulePack.rulesStrings.5>circumstance_phrase->казалось бы, без угрызений совести</KilledBy.rulePack.rulesStrings.5>
+  <KilledBy.rulePack.rulesStrings.0>image->[victim_nameFull], которого(ую) убивает [killer_nameFull] [circumstance_group]. [desc_sentence_group]</KilledBy.rulePack.rulesStrings.0>
+  <KilledBy.rulePack.rulesStrings.1>image->[killer_nameFull], убивающего(ую) [victim_nameFull] [circumstance_group]. [desc_sentence_group]</KilledBy.rulePack.rulesStrings.1>
+  <KilledBy.rulePack.rulesStrings.2>image->[killer_nameFull], заканчивающего(ая) жизнь противника по имени [victim_nameFull] [circumstance_group]. [desc_sentence_group]</KilledBy.rulePack.rulesStrings.2>
+  <KilledBy.rulePack.rulesStrings.3>image->[killer_nameFull], жестоко убивающего(ая) [victim_nameFull] [circumstance_group]. [desc_sentence_group]</KilledBy.rulePack.rulesStrings.3>
+  <KilledBy.rulePack.rulesStrings.4>image->[victim_nameFull], которого(ую) убивают [circumstance_group]. [desc_sentence_group].</KilledBy.rulePack.rulesStrings.4>
+
+  <KilledBy.rulePack.rulesStrings.5>circumstance_phrase->без сожалений</KilledBy.rulePack.rulesStrings.5>
   <KilledBy.rulePack.rulesStrings.6>circumstance_phrase->с холодной эффективностью</KilledBy.rulePack.rulesStrings.6>
   <KilledBy.rulePack.rulesStrings.7>circumstance_phrase->со страстной яростью</KilledBy.rulePack.rulesStrings.7>
-  <KilledBy.rulePack.rulesStrings.8>circumstance_phrase->с быстрым, эффективным движений</KilledBy.rulePack.rulesStrings.8>
-  <KilledBy.rulePack.rulesStrings.9>circumstance_phrase->без эмоций или выражение</KilledBy.rulePack.rulesStrings.9>
-  <KilledBy.rulePack.rulesStrings.10>circumstance_phrase->из мрачной необходимости</KilledBy.rulePack.rulesStrings.10>
-  <KilledBy.rulePack.rulesStrings.11>circumstance_phrase->как трус, из малодушия</KilledBy.rulePack.rulesStrings.11>
-  <KilledBy.rulePack.rulesStrings.12>desc_sentence->Солнце садилось за горизонт, как молчаливый свидетель событий</KilledBy.rulePack.rulesStrings.12>
-  <KilledBy.rulePack.rulesStrings.13>desc_sentence->Группа животных, выглядящих как [animal], хорошо видна.</KilledBy.rulePack.rulesStrings.13>
-  <KilledBy.rulePack.rulesStrings.14>desc_sentence->[outlander] издали, молча наблюдает за происходящим.</KilledBy.rulePack.rulesStrings.14>
-  <KilledBy.rulePack.rulesStrings.15>desc_sentence->Кровь пролилась около тела [victim_nameShortDefinite].</KilledBy.rulePack.rulesStrings.15>
-  <KilledBy.rulePack.rulesStrings.16>desc_sentence->Глаза противника по имени [victim_nameShortDefinite], стали безжизненными как стёкла.</KilledBy.rulePack.rulesStrings.16>
-  <KilledBy.rulePack.rulesStrings.17>desc_sentence->[killer_nameShortDefinite] оскалил зубы показывая отношение к противнику по имени [killer_possessive].</KilledBy.rulePack.rulesStrings.17>
-  <KilledBy.rulePack.rulesStrings.18>desc_sentence->[killer_nameShortDefinite] вроде остался доволен.</KilledBy.rulePack.rulesStrings.18>
-  <KilledBy.rulePack.rulesStrings.19>desc_sentence->[killer_nameShortDefinite] выглядит проблемным на что [killer_pronoun] это делаешь.</KilledBy.rulePack.rulesStrings.19>
-  <KilledBy.rulePack.rulesStrings.20>desc_sentence->[killer_nameShortDefinite] выглядит притягательно, в такой ситуации.</KilledBy.rulePack.rulesStrings.20>
+  <KilledBy.rulePack.rulesStrings.8>circumstance_phrase->быстрыми, эффективными движениями</KilledBy.rulePack.rulesStrings.8>
+  <KilledBy.rulePack.rulesStrings.9>circumstance_phrase->без эмоций</KilledBy.rulePack.rulesStrings.9>
+  <KilledBy.rulePack.rulesStrings.10>circumstance_phrase->из суровой необходимости</KilledBy.rulePack.rulesStrings.10>
+  <KilledBy.rulePack.rulesStrings.11>circumstance_phrase->трусливо, малодушно</KilledBy.rulePack.rulesStrings.11>
+
+  <KilledBy.rulePack.rulesStrings.12>desc_sentence->Позади, солнце, как молчаливый свидетель событий, садится за горизонт.</KilledBy.rulePack.rulesStrings.12>
+  <KilledBy.rulePack.rulesStrings.13>desc_sentence->Группа животных, выглядящих как [animal], наблюдают за этим.</KilledBy.rulePack.rulesStrings.13>
+  <KilledBy.rulePack.rulesStrings.14>desc_sentence->[outlander] молча издали наблюдает за происходящим.</KilledBy.rulePack.rulesStrings.14>
+  <KilledBy.rulePack.rulesStrings.15>desc_sentence->Около тела [victim_nameShortDefinite] лужа крови.</KilledBy.rulePack.rulesStrings.15>
+  <KilledBy.rulePack.rulesStrings.16>desc_sentence->Глаза [victim_nameShortDefinite] очень реалистично изображены безжизненными, как стёкла.</KilledBy.rulePack.rulesStrings.16>
+  <KilledBy.rulePack.rulesStrings.17>desc_sentence->[killer_nameShortDefinite] скалит зубы.</KilledBy.rulePack.rulesStrings.17>
+  <KilledBy.rulePack.rulesStrings.18>desc_sentence->[killer_nameShortDefinite] выглядит удовлетворённым(ой).</KilledBy.rulePack.rulesStrings.18>
+  <KilledBy.rulePack.rulesStrings.19>desc_sentence->[killer_nameShortDefinite] выглядит поражённым(ой) от того, что [killer_pronoun] делает.</KilledBy.rulePack.rulesStrings.19>
+  <KilledBy.rulePack.rulesStrings.20>desc_sentence->[killer_nameShortDefinite] выглядит довольным(ой) ситуацией.</KilledBy.rulePack.rulesStrings.20>
   <KilledBy.rulePack.rulesStrings.21>desc_sentence->[killer_nameShortDefinite] выглядит триумфально.</KilledBy.rulePack.rulesStrings.21>
   
   	
