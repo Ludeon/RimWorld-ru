@@ -1,6 +1,6 @@
 # RimWorld-RU
 Russian Localization for RimWorld
-
+Для установки перевода скопировать с заменой все файлы в (папка_с_игрой)\Mods\Core\Languages\Russian\
 
 
 
