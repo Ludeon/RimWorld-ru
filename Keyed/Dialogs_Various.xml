@@ -6,27 +6,50 @@
   <OK>OK</OK>
   
   <!-- Recovered from errors caused by mods -->
-  <RecoveredFromErrorsDialogTitle>Восстановленние от несовместимых или поврежденные модов</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>Кажется, что некоторые из актевированных модов вызвали ошибки.\n\nОни были несовместимы друг с другом, или предназначены для другой версии RimWorld, либо поврежден.\n\nВсе моды были отключены и могут быть активированы повторно в меню модов.</RecoveredFromErrorsText>
+  <RecoveredFromErrorsDialogTitle>Восстановлено после несовместимых или поврежденных модов</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Видимо, некоторые из активированных модов вызывали ошибки.\n\nОни были несовместимы друг с другом, предназначены для другой версии RimWorld либо повреждены.\n\nВсе моды были отключены и могут быть активированы повторно в меню модов.</RecoveredFromErrorsText>
+   
+  <!-- Errors during loading -->
+  <ErrorWhileLoadingAssetsTitle>Ошибка при загрузке ассетов</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>Произошла ошибка при загрузке ассетов. Посмотрите лог для подробной информации.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>Игра запущена с кастомными модами - они могут вызывать, а могут и не вызывать этих проблем.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>Ошибка при генерации карты</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>Произошла ошибка при генерации карты. Посмотрите лог для подробной информации.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Ошибка при загрузке карты</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>Произошла ошибка при загрузке карты. Посмотрите лог для подробной информации.</ErrorWhileLoadingMap>
   
+  <!-- Long events -->
+  <InitializingInterface>Инициализация интерфейса</InitializingInterface>
+  <UnloadingUnusedAssets>Выгрузка неиспользуемых ассетов</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Загрузка всех активированных модов</LoadingAllActiveMods>
+  <LoadingDefs>Загрузка дефов</LoadingDefs>
+  <LoadingAssets>Загрузка ассетов</LoadingAssets>
+  <Initializing>Инициализация</Initializing>
+  <LoadingWorld>Загрузка мира</LoadingWorld>
+  <LoadingMap>Загрузка карты</LoadingMap>
+  <InitializingMap>Инициализация карты</InitializingMap>
+  <SpawningAllThings>Спавн объектов</SpawningAllThings>
+   
   <!-- Save/load -->
   <SaveGameButton>Сохранить</SaveGameButton>
   <OverwriteButton>Перезаписать</OverwriteButton>
   <LoadGameButton>Загрузить</LoadGameButton>
-  <ConfirmDelete>Удалить {0}?</ConfirmDelete>
+  <ConfirmDelete>Действительно удалить {0}?</ConfirmDelete>
   <DeleteThisSavegame>Удалить это сохранение.</DeleteThisSavegame>
   <SavedAs>Сохранено как {0}.</SavedAs>
   <NeedAName>Пожалуйста, введите название.</NeedAName>
-  <LoadingLongEvent>Загрузка...</LoadingLongEvent>
-  <SaveIsFromDifferentGameVersion>Версия игры {0}, данное сохранение относится к {1} версии игры, \n\n Возможно данное сохранение, будет не работоспособно.</SaveIsFromDifferentGameVersion>
-  <SaveIsFromDifferentGameBuild>Версия игры {0}, вы пытаетесь сохранить их в {1} версии игры, \n\n Возможно у вас что-то может ещё получиться.</SaveIsFromDifferentGameBuild>
-  <SaveIsFromThisGameBuild>Рабочее сохранение.</SaveIsFromThisGameBuild>
-  <SaveIsUnknownFormat>Сохранение повреждено, и вряд ли у вас получится им воспользоваться.</SaveIsUnknownFormat>
+  <LoadingLongEvent>Загрузка</LoadingLongEvent>
+  <SavingLongEvent>Сохранение</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(Пермасмерть)</PermadeathModeSaveSuffix>
+  <SaveIsFromDifferentGameVersion>Версия игры {0}, данное сохранение относится к {1}, совершенно другой версии игры. \n\n Попытка загрузки данного сохранения скорее всего не увенчается успехом.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>Версия игры {0}, данное сохранение относится к {1}, другому билду той же версии. \n\n Попытка загрузки данного сохранения может оказаться успешной.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Данные сохранены этой версией игры и должны работать без проблем.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Данные сохранены в неизвестном формате и скорее всего не загрузятся корректно.</SaveIsUnknownFormat>
   <ProblemSavingFile>Были проблемы с сохранением файла {0}:\n\n{1}</ProblemSavingFile>
     
   <!-- Colony naming-->
-  <NameColonyMessage>Все знают, что вы не хотите застрять в этой дыре надолго. Но {0} всё же предлагает дать название поселения.\n\nТак как она должна называться?</NameColonyMessage>
-  <ColonyGainsName>Теперь поселение известно как {0}.</ColonyGainsName>
+  <NameColonyMessage>Похоже, вы тут надолго. {0} предлагает дать поселению название.\n\nКак вы назовёте его?</NameColonyMessage>
+  <ColonyGainsName>Поселение теперь известно как {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Это имя для поселения недопустимо.</ColonyNameIsInvalid>
 
   <!-- Renaming -->
@@ -39,10 +62,10 @@
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>Несовпадение версий</VersionMismatch>
-  <SaveGameIncompatibleWarningText>Внимание: эта карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка сохранения, вероятно, вызовет ошибки и сбои.</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>Внимание: этот мир был сохранён в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого мира, вероятно, вызовет ошибки и сбои. Мы рекомендуем создать новый мир заново.</WorldFileVersionMismatch>
+  <SaveGameIncompatibleWarningText>Внимание: Эта карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого сохранения может вызвать ошибки и сбои.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Внимание: Этот мир был сгенерирован в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого мира, вероятно, вызовет ошибки и сбои. Рекомендуется сгенерировать новый мир.</WorldFileVersionMismatch>
   <ModsMismatchWarningTitle>Несоответствие модов</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>В этом сохранении, использовались модификации которые в данный момент отключены или отсутствуют.\n\nУбедитесь что все необходимые моды подключены:\n\n{0}\n\nВерсия:\n\n{1}</ModsMismatchWarningText>
+  <ModsMismatchWarningText>Внимание: Эта карта была сохранена с набором модов, отличным от текущего. Это может вызвать, а может и не вызвать проблемы, в зависимости от содержания модов.\n\nКарта была сохранена с:\n\n{0}\n\nСейчас подключены:\n\n{1}</ModsMismatchWarningText>
   
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Вы изменили настройки экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
@@ -58,26 +81,31 @@
   <Unresearched>Не изучено</Unresearched>
   <Finished>Завершено</Finished>
   <InProgress>В процессе</InProgress>
+  <Locked>Заблокировано</Locked>
   <ResearchMenuWithoutBench>Пока вы не построите исследовательский стол, ваши поселенцы не смогут приступить к исследованиям.\n\nТем не менее, вы всё равно можете посмотреть и выбрать исследовательский проект прямо сейчас.</ResearchMenuWithoutBench>
-
+  <ResearchPrerequisites>Требуемые иследования</ResearchPrerequisites>
+  <RequiredResearchBench>Требуемый исследовательский стол</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>Требуемое оборудование для исследовательского стола</RequiredResearchBenchFacilities>
   
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>ВНИМАНИЕ: вы приземлитесь в заморозки. Выживание там может быть очень сложным или нереальным. Если вы не хотите бросать себе экстремальный вызов, выберите другое место или месяц.</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>ВНИМАНИЕ: производительность может снизиться при больших размерах карты. Огромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>Внимание: Вы приземлитесь в обледенелой местности. Выживание там может быть очень сложным или нереальным. Если вы не хотите бросать себе экстремальный вызов, выберите другое место или сезон.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Внимание: Производительность может падать с увеличением размера карты. Огромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
   <MapSize>Размер карты</MapSize>
   <MapSizeDesc>{0}x{0} ({1} клеток)</MapSizeDesc>
   <MapSizeSmall>Маленькая</MapSizeSmall>
   <MapSizeMedium>Средняя</MapSizeMedium>
   <MapSizeLarge>Большая</MapSizeLarge>
   <MapSizeExtreme>Огромная</MapSizeExtreme>
-  <MapStartMonth>Начальный месяц:</MapStartMonth>
+  <MapStartMonth>Начальный сезон:</MapStartMonth>
   <MapStartMonthDefault>Авто</MapStartMonthDefault>
+  <PermadeathMode>Режим перманентной смерти</PermadeathMode>
+  <PermadeathModeInfo>В режиме перманентной смерти вам доступна лишь одна ячейка сохранения, а сохраняться вы можете только при выходе из игры. Вы не можете перезагружаться, чтобы исправить ошибки, а если колония погибает - это конец.\n\nЭто именно тот режим, в котором RimWorld и задумывался изначально, где любой поворот судьбы - печальный или удачный - отыгрывается в полную силу.</PermadeathModeInfo>
 
   <!-- Bill config -->
   <Suspended>Продолжить</Suspended>
   <NotSuspended>Приостановить</NotSuspended>
   <SuspendedAllCaps>ПАУЗА</SuspendedAllCaps>
-  <RepeatCount>Сделать: {0}</RepeatCount>
+  <RepeatCount>Повторять: {0}</RepeatCount>
   <Forever>Бесконечно</Forever>
   <Details>Детали</Details>
   <IngredientSearchRadius>Радиус поиска ингредиентов</IngredientSearchRadius>
@@ -91,8 +119,8 @@
   <MinimumSkills>Минимальные навыки:</MinimumSkills>
   <BillRequires>Требуется {0} {1}</BillRequires>
   <BillRequiresNutrition>Требуется {0} ресурса</BillRequiresNutrition>
-  <BillRequiresMayVary>Заметка: ингредиенты малого объёма, такие как золото, требуют в 20 раз больше.</BillRequiresMayVary>
-  <ThisIsSmallVolume>Этот ингредиент имеет малый объём. Это значит, что каждый "кусочек" - это только 1/20 объёма обычного ингредиента. Чтобы выполнить требования по ингредиентам, вам понадобится в 20 раз больше материала.</ThisIsSmallVolume>
+  <BillRequiresMayVary>Заметка: ингредиенты малого объёма, такие как золото, требуются в 20 раз больше.</BillRequiresMayVary>
+  <ThisIsSmallVolume>Этот ингредиент имеет малый объём. Это значит, что каждый "кусочек" - лишь от 1/20 объёма обычного ингредиента. Чтобы выполнить требования по ингредиентам вам понадобится в 20 раз больше материала.</ThisIsSmallVolume>
   <UsableIngredients>ингредиенты</UsableIngredients>
   <DoXTimes>Сделать X раз</DoXTimes>
   <DoUntilYouHaveX>Повторять до X</DoUntilYouHaveX>
@@ -123,9 +151,9 @@
   <LifeSpan>Рост</LifeSpan>
   <Nutrition>Питательность</Nutrition>
   <Joy>Развлечение</Joy>
-  <FoodQuality>Тип еды</FoodQuality>
-  <WalkSpeedProperty>Скорость бега</WalkSpeedProperty>
-  <MinFoodQuality>Мин. тип еды</MinFoodQuality>
+  <FoodQuality>Качество еды</FoodQuality>
+  <WalkSpeedProperty>Скорость ходьбы</WalkSpeedProperty>
+  <MinFoodQuality>Мин. качество еды</MinFoodQuality>
   <Diet>Образ жизни</Diet>
   <RecruitDifficulty>Сложность вербовки</RecruitDifficulty>
   <MarketValue>Базовая цена</MarketValue>
@@ -133,7 +161,11 @@
   <BodyPartEfficiency>Эффективность части тела</BodyPartEfficiency>
   <MoodChange>Смена настроения</MoodChange>
   <Wildness>Дикость</Wildness>
-  <WildnessExplanation>Диких существ, естественно сложно приручить, натренировать и с ними оброщаться.</WildnessExplanation>
+  <WildnessExplanation>Диких существ сложнее приручить, натренировать и с ними обращаться.</WildnessExplanation>
+  <AnimalFilthRate>Скорость загрязнения животными</AnimalFilthRate>
+  <AnimalFilthRateExplanation>Животные загрязняют полы. Это среднее количество грязи, производимой животным на {0} пройденных им клеток.\n\nБолее крупные и менее домашние животные производят больше грязи.</AnimalFilthRateExplanation>
+  <TimeRecordsCategory>Время</TimeRecordsCategory>
+  <MiscRecordsCategory>Прочее</MiscRecordsCategory>
   
   <!-- Trade -->
   <DragToTrade>Тяните для торговли</DragToTrade>
@@ -150,8 +182,8 @@
   <TraderHasNoMore>У торговца нет больше.</TraderHasNoMore>
   <ColonyHasNoMore>Больше нет на продажу.</ColonyHasNoMore>
   <TraderWillNotTrade>Торговец не желает торговать этим товаром.</TraderWillNotTrade>
-  <NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием здорового переговорщика.</NegotiatorTalkingImpaired>
-  <ConfirmTraderShortFunds>У торговца, недостаточно серебра, чтобы завершить эту сделку. Вам стоит выбрать другие варианты.</ConfirmTraderShortFunds>
+  <NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием более здорового переговорщика.</NegotiatorTalkingImpaired>
+  <ConfirmTraderShortFunds>У торговца недостаточно серебра, чтобы завершить эту сделку.  Продолжить всё равно?</ConfirmTraderShortFunds>
   <SortBy>Сортировать по</SortBy>
  
   <!-- Comms -->

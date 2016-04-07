@@ -4,13 +4,15 @@
   <ClockTime>Время</ClockTime>
   <ClockDate>Дата</ClockDate>
   <ClockYear>Год</ClockYear>
-  <DateReadoutTip>С момента вашего прибытия дней прошло: {0}.\nВ каждом месяце {1} дней.\nТекущий сезон: {2}</DateReadoutTip>
 
+  <DateReadoutTip>Дней с вашего прибытия: {0}.\nВ каждом сезоне {1} дней.\nТекущий сезон: {2}</DateReadoutTip>
 
-
-  <FullDate>"{1} {0} {2}"</FullDate>
-  <MonthFullDate>{0} {1}</MonthFullDate>
+  <FullDate>{1} {0}, {2}</FullDate>
+	<DateReadout>{1} {0}, {2}</DateReadout>
+  <SeasonFullDate>{1} {0}</SeasonFullDate>
+  <WholeYear>Круглый год</WholeYear>
   
+  <!--
   <MonthFullJanuary>Январь</MonthFullJanuary>
   <MonthFullFebruary>Февраль</MonthFullFebruary>
   <MonthFullMarch>Март</MonthFullMarch>
@@ -36,6 +38,6 @@
   <MonthShortOctober>Окт</MonthShortOctober>
   <MonthShortNovember>Ноя</MonthShortNovember>
   <MonthShortDecember>Дек</MonthShortDecember>
-    
+  -->
     
 </LanguageData>

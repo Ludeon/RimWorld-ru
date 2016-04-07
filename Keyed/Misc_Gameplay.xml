@@ -9,6 +9,7 @@
   <ForColonistUse>Для поселенецев</ForColonistUse>
   <MedicalBed>Медицинская</MedicalBed>
   <Owner>Владелец</Owner>
+  <Owners>Владельцы</Owners>
   <AssignedColonist>Назначенный поселенец</AssignedColonist>
   <Nobody>Никто</Nobody>
   <Unowned>Ничья</Unowned>
@@ -105,6 +106,7 @@
   <DeliveringFood>Несёт еду для {0}.</DeliveringFood>
   <UsingVerb>Использует {0} на {1}.</UsingVerb>
   <AreaLower>область</AreaLower>
+  <ReportCowering>Покрывает.</ReportCowering>
 
   <!-- Shooting report -->
   <WeaponMissRadius>Разброс оружия</WeaponMissRadius>
@@ -157,6 +159,10 @@
   <SelectNextInSquareTip>Выбрать другой предмет на той же клетке.\n\nКлавиша: {0}\n\nТо же самое можно сделать, щёлкнув по этой клетке ещё раз.</SelectNextInSquareTip>
   <DefInfoTip>Просмотр информации о данном объекте.</DefInfoTip>
 
+  <!-- Hostility response -->
+  <HostilityReponseTip>Выберите, как поселенцам реагировать на врагов, когда они не находятся в режиме призыва.</HostilityReponseTip>
+  <HostilityResponseCurrentMode>Текущий режим</HostilityResponseCurrentMode>
+  
   <!-- like 'Blood of John' -->
   <OfLower></OfLower>
 
@@ -201,6 +207,7 @@
   <CurrentlyRefrigerated>Охлаждённое (Испортится через {0})</CurrentlyRefrigerated>
   <NotRefrigerated>Не охлаждённое (Испортится через {0})</NotRefrigerated>
   <OverADecade>больше 10 лет</OverADecade>
+  <LessThanADay>менее суток</LessThanADay>
 
   <!-- Meal -->
   <Ingredients>Ингредиенты</Ingredients>
@@ -290,6 +297,8 @@
 
   <!-- Artifact -->
   <UseArtifact>Активировать</UseArtifact>
+  <!-- Firefoam popper -->
+  <TriggerFirefoamPopper>Задействовать хлопушку с пожарной пеной</TriggerFirefoamPopper>
   
   <!-- Minification -->
   <Installed>Установлено</Installed>
@@ -309,6 +318,8 @@
   <QualityIs>Качество: {0}</QualityIs>
 
   <!-- Mood descriptions -->
+
+  <Mood_MentalState>психологическое состояние</Mood_MentalState>
   <Mood_Broken>сломлен</Mood_Broken>
   <Mood_AboutToBreak>почти сломлен</Mood_AboutToBreak>
   <Mood_OnEdge>на грани</Mood_OnEdge>
@@ -334,4 +345,8 @@
   <!-- Facilities -->
   <InactiveFacility>отключён</InactiveFacility>
   
+  <!-- Hediffs growth modes -->
+  <DiseaseGrowthModeChanged_Growing>{1} {0} растёт.</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Stable>{1} {0} стабильно.</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Remission>{1} {0} в стадии ремиссии.</DiseaseGrowthModeChanged_Remission>
 </LanguageData>

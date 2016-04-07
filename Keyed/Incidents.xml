@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
+  
+  <!--нHIS и т.д. - не опечатки, а необходимости, продиктованные суровой реальностью. Преобразует "его/её" в "него/неё".-->
+  
   <LetterLabelAnimalInsanitySingle>Бешеное животное</LetterLabelAnimalInsanitySingle>
   <AnimalInsanitySingle>{0} в бешенстве и будет атаковать любого, кого увидит.</AnimalInsanitySingle>
   <LetterLabelAnimalInsanityMultiple>Бешеные животные!</LetterLabelAnimalInsanityMultiple>
@@ -39,9 +41,11 @@
   <GroupTravelersPassing>Группа путешественников из поселения {0} проходят мимо.</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>Гость</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>{0} из {1} посещает поселение.\n\nHISCAP зовут {2}.</SingleVisitorArrives>
+  <SingleVisitorArrives>{0} из {1} посещает поселение.\n\nHISCAP зовут {2}.{3}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\nКажется у нHIS есть какие-то предметы для обмена.</SingleVisitorArrivesTraderInfo>
   <LetterLabelGroupVisitorsArrive>Гости</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>Группа из {0} посещает ваше поселение.</GroupVisitorsArrive>
+  <GroupVisitorsArriveTraderInfo>\n\nКажется, у них есть какие-то предметы для обмена.</GroupVisitorsArriveTraderInfo>
   <VisitorsLeaving>Гости из поселения {0} уходят.</VisitorsLeaving>
 
   <LetterLabelWandererJoin>Пополнение</LetterLabelWandererJoin>
@@ -64,7 +68,7 @@
 
   <!-- Agent revealed -->
   <LetterLabelAgentRevealed>Шпион</LetterLabelAgentRevealed>
-  <LetterAgentRevealed>Вражеский шпион {0} из {1} раскрыт.\n\nСейчас пытается бежать из поселения.</LetterAgentRevealed>
+  <LetterAgentRevealed>Вражеский шпион {0} из {1} раскрыт.\n\nСейчас HE пытается бежать из поселения.</LetterAgentRevealed>
 
   <!-- Distant psychic drone -->
   <LetterLabelPsychicDrone>Раздражение</LetterLabelPsychicDrone>
@@ -74,15 +78,14 @@
   <LetterIncidentPsychicSoothe>Волна блаженства проносится по всему поселению!\n\nИзлучение некого древнего генератора счастья пронизывает эту область. В течение нескольких дней настроение у некоторых людей ({0}) будет немного лучше.</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
-  <LetterLabelBeaversArrived>Альфабобры!</LetterLabelBeaversArrived>
+  <LetterLabelBeaversArrived>Бобры!</LetterLabelBeaversArrived>
   <BeaversArrived>Только что была замечена группа голодных альфабобров.\n\nПостарайтесь избавиться от них прежде, чем они уничтожат последнее дерево в округе.</BeaversArrived>
 
   <!-- Refugee chased -->
   <RefugeeChasedInitial>{1} по имени {0} бежит и зовёт на помощь. HECAP говорит, что HIS преследуют {2} из поселения {3}!\n\nHECAP умоляет о помощи и взамен предлагает присоединиться к поселению. HIS биологический возраст: {4} лет.\n\nЕсли вы согласны принять HIS, вам придется сражаться с {2} у нHIS на хвосте.</RefugeeChasedInitial>
-  <!--нHIS - не опечатка, а необходимость, продиктованная суровой реальностью.-->
   <RefugeeChasedInitial_Accept>Предложить укрытие</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Игнорировать это сообщение</RefugeeChasedInitial_Reject>
-  <RefugeeChasedRejected>{0} отчаянно кричит в напрасной надежде, а потом замолкает.</RefugeeChasedRejected>
+  <RefugeeChasedRejected>{0} отчаянно кричит в динамик, пока вы не прерываете трансляцию.</RefugeeChasedRejected>
 
   <!-- Self-tame -->
   <LetterLabelAnimalSelfTame>Животное одомашнилось</LetterLabelAnimalSelfTame>
@@ -97,5 +100,13 @@
   <!-- Thrumbo passes -->
   <LetterLabelThrumboPasses>Редкие трумбы</LetterLabelThrumboPasses>
   <LetterThrumboPasses>Небольшое стадо трумбов забрело в этот район.\n\nЭти редкие и миролюбивые по своей природе существа тем не менее чрезвычайно опасны при столкновении. Отчасти поэтому некоторые торговцы готовы заплатить огромные деньги за их драгоценные рога и кожу.\n\nТрумбы покинут эту зону в течение нескольких дней.</LetterThrumboPasses>
-
+  
+  <!-- Trader caravan -->
+  <LetterLabelTraderCaravanArrival>Торговец из {0}</LetterLabelTraderCaravanArrival>
+  <LetterTraderCaravanArrival>Приближается торговый караван из {0}.\n\nОни побудут в колонии несколько дней, прежде чем двинуться дальше. Вы можете атаковать их, но это разозлит всю их фракцию!</LetterTraderCaravanArrival>
+  
+  <!-- Building breaks down -->
+  <LetterLabelBuildingBrokenDown>Поломка: {0}</LetterLabelBuildingBrokenDown>
+  <LetterBuildingBrokenDown>Один из ваших механизмов ({0}) сломался. Он не заработает, пока поселенец-ремонтник не починит его.</LetterBuildingBrokenDown>
+  
 </LanguageData>
