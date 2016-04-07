@@ -15,7 +15,9 @@
 
   <OutOfRange>вне зоны поражения</OutOfRange>
   <CannotHitTarget>невозможно попасть в цель</CannotHitTarget>
-  <CannotFight>{0} не может сражаться</CannotFight>
+  <CannotFight>{0} не способен на насилие</CannotFight>
+  <IsNotDraftedLower>{0} не призван</IsNotDraftedLower>
+  <CannotOrderNonControlledLower>нельзя отдавать приказы неподконтрольной единице</CannotOrderNonControlledLower>
 
   <OrderManThing>Занять {0}</OrderManThing>
 
@@ -30,14 +32,17 @@
   <NoEmptyPlaceLower>нет свободного места, настроенного для хранения этого</NoEmptyPlaceLower>
   <AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
   <MissingMaterials>нужны материалы</MissingMaterials>
-  <MissingSkill>Недостаточный уровень навыка</MissingSkill>
-  <NoEmptyGraveLower>не пустой могила пока настроен для ее хранения(FloatMenu.xml)</NoEmptyGraveLower>
+  <MissingSkill>недостаточный уровень навыка</MissingSkill>
+  <NoEmptyGraveLower>нет пустой могилы, предназначенной для этого</NoEmptyGraveLower>
   <AnimalInteractedTooRecently>животное обучалось совсем недавно</AnimalInteractedTooRecently>
-  <NoUsableFood>Нужная еда отсуствует.</NoUsableFood>
-  <AnimalsSkillTooLow>Животное слишком глупо</AnimalsSkillTooLow>
-
+  <NoUsableFood>нет применимой еды</NoUsableFood>
+  <AnimalsSkillTooLow>Животное недостаточно умно</AnimalsSkillTooLow>
+  <NoComponentsToRepair>нужны компоненты</NoComponentsToRepair>
+  <NoFuelToRefuel>нужно {0}</NoFuelToRefuel>
+	
   <ConsumeThing>Употребить {0}</ConsumeThing>
-
+  <Teetotaler>трезвенник</Teetotaler>
+  
   <CannotGoNoPath>Невозможно пройти сюда (нет прохода)</CannotGoNoPath>
   <GoHere>Идти сюда</GoHere>
 
@@ -55,8 +60,9 @@
   <CannotCarryToCryptosleepCasket>Невозможно перенести в контейнер крипто-сна</CannotCarryToCryptosleepCasket>
 
   <NoCryptosleepCasket>Нет доступных контейнеров крипто-сна.</NoCryptosleepCasket>
-  <NoPrisonerBed>Не хватает кроватей для заключённых.</NoPrisonerBed>
-  <NoNonPrisonerBed>Не хватает кроватей для поселенецев.</NoNonPrisonerBed>
+  <NoPrisonerBed>Нет доступных свободных кроватей для заключённых в закрытом помещении.</NoPrisonerBed>
+  <NoNonPrisonerBed>Нет доступных свободных кроватей для поселенецев.</NoNonPrisonerBed>
+  <NoAnimalBed>Нет доступных свободных кроватей для животных.</NoAnimalBed>
   <Reserved>Занято кем-то другим.</Reserved>
   <ReservedBy>Занято: {0}</ReservedBy>
   <IsReservedBy>{0} уже используется: {1}.</IsReservedBy>
@@ -70,7 +76,8 @@
 
   <ForceWear>Надеть {0}</ForceWear>
   <CannotWear>Невозможно надеть {0}</CannotWear>
-
+  <CannotWearBecauseOfMissingBodyParts>отсутствуют части тела</CannotWearBecauseOfMissingBodyParts>
+  
   <Strip>Раздеть {0}</Strip>
   <CannotStrip>Невозможно раздеть {0}</CannotStrip>
 
@@ -81,10 +88,13 @@
 
   <Drop>Бросить {0}</Drop>
 
-  <UseMedicalBed>Отдых и лечение</UseMedicalBed>
+  <UseMedicalBed>Отдыхать до выздоровления</UseMedicalBed>
   <NotInjured>Не ранен</NotInjured>
   <SomeoneElseSleeping>Спит кто-то ещё</SomeoneElseSleeping>
 
+  <TradeWith>Торговать с {0}</TradeWith>
+  <CannotTrade>Не может торговать</CannotTrade>
+  
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>Войти в контейнер крипто-сна</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>Открыть контейнер крипто-сна</OpenCryptosleepCasket>

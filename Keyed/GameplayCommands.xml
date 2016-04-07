@@ -36,9 +36,8 @@
   <CommandBedSetOwnerDesc>Назначить кровать конкретному поселенцу.</CommandBedSetOwnerDesc>
   <CommandGraveAssignColonistLabel>Назначить поселенца</CommandGraveAssignColonistLabel>
   <CommandGraveAssignColonistDesc>Назначить эту могилу в собственнось конкретному поселенцу.</CommandGraveAssignColonistDesc>
-  <CommandGraveSetToUnassignedLabel>Освободить</CommandGraveSetToUnassignedLabel>
-  <CommandGraveSetToUnassignedDesc>Назначить эту могилу свободной, что бы была не присвоена никому.</CommandGraveSetToUnassignedDesc>
   <BuildingAssign>Назначить</BuildingAssign>
+  <BuildingUnassign>Снять назначение</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>Назначить заключённым</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Назначить кровати в этой комнате для использования заключенными.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>Невозможно сделать кровати для заключённых под открытым небом.</CommandBedSetForPrisonersFailOutdoors>
@@ -83,13 +82,11 @@
   <MessageTargetBeyondMaximumRange>Слишком далеко.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Слишком близко.</MessageTargetBelowMinimumRange>
   
-  
-  <!-- Ship computer core -->
+    <!-- Ship computer core -->
   <CommandShipLaunch>Запустить корабль</CommandShipLaunch>
   <CommandShipLaunchDesc>Запустить корабль с текущей конфигурацией.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Показать стартовый отчёт</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>Показать отчёт о готовности корабля к запуску.</CommandShipLaunchReportDesc>
-
 
   <!-- Pod -->
   <CommandPodEject>Извлечь спящего</CommandPodEject>
@@ -98,36 +95,42 @@
 
   <!-- Door -->
   <CommandToggleDoorForbid>Переключить блокировку</CommandToggleDoorForbid>
-  <CommandToggleDoorForbidDesc>Заблокировать либо разблокировать дверь. Заблокированные двери не открываются ни для кого.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>Заблокировать либо разблокировать дверь. Поселенцы и союзники не смогут проходить через эту дверь, однако на поведение врагов и животных эта функция не окажет влияния.</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>Держать открытой</CommandToggleDoorHoldOpen>
-  <CommandToggleDoorHoldOpenDesc>Пока функция активна поселенцы не будут закрывать эту дверь, если деактивировать эту функцию, дверь закроется автоматически за следующим поселенцем.</CommandToggleDoorHoldOpenDesc>
+  <CommandToggleDoorHoldOpenDesc>Пока функция активна поселенцы не будут закрывать эту дверь за собой. Если деактивировать эту функцию, дверь закроется автоматически за следующим поселенцем.</CommandToggleDoorHoldOpenDesc>
 
 
   <!-- Temperature control -->
   <CommandResetTemp>Сброс</CommandResetTemp>
-  <CommandResetTempDesc>Задать температуру.</CommandResetTempDesc>
-  <CommandRaiseTempDesc>Повысить температуру.</CommandRaiseTempDesc>
-  <CommandLowerTempDesc>Понизить температуру.</CommandLowerTempDesc>
+  <CommandResetTempDesc>Сбросить целевую температуру до температуры комнаты.</CommandResetTempDesc>
+  <CommandRaiseTempDesc>Повысить целевую температуру.</CommandRaiseTempDesc>
+  <CommandLowerTempDesc>Понизить целевую температуру.</CommandLowerTempDesc>
 
   <!-- Art -->
   <CommandInstall>Установить</CommandInstall>
   <CommandInstallDesc>Этот предмет упакован для хранения и транспортировки. Используйте эту команду для установки предмета, чтобы его могли видеть или использовать.</CommandInstallDesc>
-
+  <CommandReinstall>Переустановить...</CommandReinstall>
+  <CommandReinstallDesc>Назначьте этот предмет для демонтажа и установки в другом месте.</CommandReinstallDesc>
+  
   <!-- Trade beacon -->
-  <CommandMakeBeaconStockpileDesc>Создать вокруг этого строения склад, точно повторяющий форму радиуса отправки маяка.</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileDesc>Создать вокруг этого строения склад, соответствующий радиусу отправки маяка.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Создать склад</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
-  <CommandSunLampMakeGrowingZoneDesc>Создать вокруг этого строения зону роста, точно повторяющую форму радиуса солнечной лампы.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneDesc>Создать вокруг этого строения зону роста, соответствующую радиусу действия солнечной лампы.</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>Создать зону роста.</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <CommandAutoRearm>Автокапкан</CommandAutoRearm>
-  <CommandAutoRearmDesc>Если активно, капкан будет перезаряжаться автоматически.</CommandAutoRearmDesc>
+  <CommandAutoRearm>Автоперезарядка</CommandAutoRearm>
+  <CommandAutoRearmDesc>Если активно, капкан будет автоматически назначаться для перезарядки после срабатывания.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
   <CommandReleaseAnimalsLabel>Спустить с поводка</CommandReleaseAnimalsLabel>
   <CommandReleaseAnimalsDesc>Отправляет прирученных животных в атаку. Если не включено, животные остаются вблизи и охраняют хозяина.</CommandReleaseAnimalsDesc>
-  
+   
+  <!-- Squad attack -->
+  <CommandSquadAttack>Атаковать</CommandSquadAttack>
+  <CommandSquadAttackDesc>Приказ выбранным поселенцам вместе атаковать заданную цель.</CommandSquadAttackDesc>
+ 
   
 </LanguageData>

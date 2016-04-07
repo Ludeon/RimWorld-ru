@@ -11,7 +11,9 @@
   <Mods>Моды</Mods>
   <Credits>Создатели</Credits>
   <QuitToMainMenu>Выйти в главное меню</QuitToMainMenu>
+  <SaveAndQuitToMainMenu>Сохранить и выйти в меню</SaveAndQuitToMainMenu>
   <QuitToOS>Выйти в систему</QuitToOS>
+  <SaveAndQuitToOS>Сохранить и выйти в систему</SaveAndQuitToOS>
   <FictionPrimer>О сюжете</FictionPrimer>
   <LudeonBlog>Блог Ludeon</LudeonBlog>
   <Forums>Форумы</Forums>
@@ -19,7 +21,8 @@
   <TynansTwitter>Твиттер Тайнена</TynansTwitter>
   <TynansDesignBook>Книга Тайнена</TynansDesignBook>
   <HelpTranslate>Помощь в переводе RimWorld</HelpTranslate>
-
+  <BuySoundtrack>Купить саундтрек</BuySoundtrack>
+  
   <!--=========== Создать/просмотреть мир ================-->
   <ReviewWorld>Просмотр мира</ReviewWorld>
   <WorldGenerate>Создать</WorldGenerate>
@@ -28,7 +31,6 @@
   <WorldSize>Размер</WorldSize>
   <WorldSeed>Базовое зерно</WorldSeed>
   <RandomizeSeed>Случайное зерно</RandomizeSeed>
-
 
   <!--=========== Select world ===================-->
   <SelectWorld>Выбор мира</SelectWorld>
@@ -46,9 +48,9 @@
 
   <!--=========== Mods screen ==========-->
   <OpenSteamWorkshop>Открыть "Steam Workshop"</OpenSteamWorkshop>
-  <GetModsFromForum>Скачать моды</GetModsFromForum>
+  <GetModsFromForum>Скачать модыс форума</GetModsFromForum>
   <OpenModsDataFolder>Открыть папку модов</OpenModsDataFolder>
-  <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все основные возможности.\n\nПомните, другие модификации могут переопределять значения ядра с помощью таких же значений.</ConfirmDisableCoreMod>
+  <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все основные возможности.\n\nПомните, другие модификации могут переопределять значения ядра с помощью таких же значений defName.</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>Вы уверены, что хотите удалить {0}?</ConfirmDeleteMod>
   <Unsubscribe>Деактивировать</Unsubscribe>
   <ConfirmUnsubscribe>Вы уверены что хотите деактивировать {0}?</ConfirmUnsubscribe>
@@ -60,15 +62,13 @@
   <WorkshopSubmissionFailed>Подключение прервано.\n\nПричина: {0}</WorkshopSubmissionFailed>
   <YouAgreeToSteamWorkshopLegal>Представляя этот мод, вы соглашаетесь на определённые условия, для пояснинения, кликните сюда.</YouAgreeToSteamWorkshopLegal>
   <WorkshopUploadSucceeded>Успешно загружено {0}.</WorkshopUploadSucceeded>
-  <DownloadingMod>Загрузить {0}</DownloadingMod>
+  <DownloadingMod>Скачивается: {0}</DownloadingMod>
 
   <!--=========== Выбрать рассказчика ==========-->
-  <ChooseAIStoryteller>Выбор ИИ рассказчика</ChooseAIStoryteller>
-  <HowStorytellersWork>ИИ Рассказчик создаёт события, такие как пиратские нападения, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашего поселения.</HowStorytellersWork>
+  <ChooseAIStoryteller>Выбор ИИ-рассказчика</ChooseAIStoryteller>
+  <HowStorytellersWork>ИИ-Рассказчик создаёт события, такие как пиратские нападения, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашего поселения.</HowStorytellersWork>
   <MustChooseDifficulty>Пожалуйста, выберите сложность.</MustChooseDifficulty>
   <Difficulty>Сложность</Difficulty>
-
-
 
 
   <!--=========== Landing site select =========-->
@@ -120,7 +120,8 @@
   <Male>он</Male>
   <Female>она</Female>
   <Pain>Боль</Pain>
-
+  <Health>Здоровье</Health>
+  <Relations>Отношения</Relations>
 
   <!--=========== Misc ==========-->
   <Start>Начать</Start>

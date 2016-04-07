@@ -6,13 +6,14 @@
   <Lit>Светло</Lit>
   <LitBrightly>Очень светло</LitBrightly>
 
-  <!-- diet type -->
+  <!-- diet type
   <NeverEats>Не ест</NeverEats>
   <Omnivorous>Всеядный</Omnivorous>
   <Herbivorous>Травоядный</Herbivorous>
   <Carnivorous>Плотоядный</Carnivorous>
   <Dendrovorous>Древоядный</Dendrovorous>
-
+  -->
+  
   <!-- history upload pref -->
   <Unspecified>Ещё не решено</Unspecified>
   <Always>Позволять</Always>
@@ -22,8 +23,21 @@
   <PriceTypeVeryCheap>очень дешевая</PriceTypeVeryCheap>
   <PriceTypeCheap>дешевая</PriceTypeCheap>
   <PriceTypeNormal>нормальная</PriceTypeNormal>
-  <PriceTypeExpensive>дорогая</PriceTypeExpensive>
+  <PriceTypeExpensive>высокая</PriceTypeExpensive>
   <PriceTypeExorbitant>непомерная</PriceTypeExorbitant>
+
+  <!-- Food type flags -->
+  <FoodTypeFlags_VegetableOrFruit>овощи/фрукты</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_Meat>сырое мясо</FoodTypeFlags_Meat>
+  <FoodTypeFlags_Corpse>тела</FoodTypeFlags_Corpse>
+  <FoodTypeFlags_Seeds>семена</FoodTypeFlags_Seeds>
+  <FoodTypeFlags_AnimalProduct>животные продукты</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_Plant>живые растения</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Tree>живые деревья</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Meal>блюда</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Processed>обработанная пища</FoodTypeFlags_Processed>
+  <FoodTypeFlags_NutritionalDrug>спиртное</FoodTypeFlags_NutritionalDrug>
+  <FoodTypeFlags_AnimalKibble>еда для животных</FoodTypeFlags_AnimalKibble>
 
   <!-- Quality category -->
   <QualityCategory_Awful>ужасно -3</QualityCategory_Awful>
@@ -73,16 +87,28 @@
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Загрузка содержимого</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Загрузка предварительного просмотра файла</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Зафиксировать изменения</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
-<!-- Trainable intelligence -->
+
+  <!-- Trainable intelligence -->
   <TrainableIntelligence_None>Минимальная</TrainableIntelligence_None>
   <TrainableIntelligence_Simple>Низкая</TrainableIntelligence_Simple>
   <TrainableIntelligence_Intermediate>Обычная</TrainableIntelligence_Intermediate>
   <TrainableIntelligence_Advanced>Высокая</TrainableIntelligence_Advanced>
-<!-- Medical care category -->
+
+  <!-- Medical care category -->
   <MedicalCareCategory_NoCare>Без медицинской помощи</MedicalCareCategory_NoCare>
   <MedicalCareCategory_NoMeds>Врачебный уход, но без лекарств</MedicalCareCategory_NoMeds>
   <MedicalCareCategory_HerbalOrWorse>Врачебный уход и лечебные травы</MedicalCareCategory_HerbalOrWorse>
   <MedicalCareCategory_NormalOrWorse>Медикаменты или хуже</MedicalCareCategory_NormalOrWorse>
   <MedicalCareCategory_Best>Лучшие медицинские препараты</MedicalCareCategory_Best>
+
+ <!-- Hostility response mode -->
+  <HostilityResponseMode_Ignore>Игнорировать</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Attack>Атаковать</HostilityResponseMode_Attack>
+  <HostilityResponseMode_Flee>Убегать</HostilityResponseMode_Flee>
+  
+  <!-- HediffGrowthMode -->
+  <HediffGrowthMode_Growing>растёт</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Stable>стабильно</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Remission>ремиссия</HediffGrowthMode_Remission>
 
 </LanguageData>
