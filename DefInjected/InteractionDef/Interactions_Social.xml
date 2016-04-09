@@ -3,55 +3,19 @@
 
   <!-- Random social interactions -->
 
+	<Chitchat.label>беседа</Chitchat.label>
+	<!-- Мысли в Thoughts_SocialInteractions.xml, тут всё ок. -->
+	<Chitchat.logRulesInitiator.rulesStrings.0>logentry->Хорошая беседа с [other_nameShortIndef]</Chitchat.logRulesInitiator.rulesStrings.0>
 
-    <Chitchat.label>беседа</Chitchat.label>
-<!--
-    <logRulesInitiator>
-      <rulesStrings>
-        <li>logentry->Had a nice chat with [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesInitiator>
-  </InteractionDef>
--->
-  
     <DeepTalk.label>глубокий разговор</DeepTalk.label>
-<!--
-    <logRulesInitiator>
-      <rulesStrings>
-        <li>logentry->Had a deep talk with [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesInitiator>
-  </InteractionDef>
--->
-  
+	<DeepTalk.logRulesInitiator.rulesStrings.0>logentry->Глубокий разговор с [other_nameShortIndef].</DeepTalk.logRulesInitiator.rulesStrings.0>
+
     <Slight.label>пренебрежение</Slight.label>
-<!--
-    <logRulesInitiator>
-      <rulesStrings>
-        <li>logentry->Slighted [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesInitiator>
-    <logRulesRecipient>
-      <rulesStrings>
-        <li>logentry->Was slighted by [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesRecipient>
-  </InteractionDef>
--->  
+	<Slight.logRulesInitiator.rulesStrings.0>logentry->Пренебрежение [other_nameShortIndef].</Slight.logRulesInitiator.rulesStrings.0>
+	<Slight.logRulesRecipient.rulesStrings.0>logentry->Пренебрежение со стороны [other_nameShortIndef].</Slight.logRulesRecipient.rulesStrings.0>
 
     <Insult.label>оскорбление</Insult.label>
-<!--
-    <logRulesInitiator>
-      <rulesStrings>
-        <li>logentry->Insulted [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesInitiator>
-    <logRulesRecipient>
-      <rulesStrings>
-        <li>logentry->Was insulted by [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesRecipient>
-  </InteractionDef>
--->  
-  
+	<Insult.logRulesInitiator.rulesStrings.0>logentry->Оскорбление [other_nameShortIndef].</Insult.logRulesInitiator.rulesStrings.0>
+	<Insult.logRulesRecipient.rulesStrings.0>logentry->Оскорбление от [other_nameShortIndef].</Insult.logRulesRecipient.rulesStrings.0>
+
 </LanguageData>

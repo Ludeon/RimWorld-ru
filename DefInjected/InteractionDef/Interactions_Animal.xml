@@ -1,51 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	
-	<AnimalChat.label>общение с животным</AnimalChat.label>
-	<!-- Надо это? Не пойму.-->
-<!--
-  <logRulesInitiator>
-      <rulesStrings>
-        <li>logentry->Communicated with [other_nameShortIndef], attempting to build rapport.</li>
-      </rulesStrings>
-    </logRulesInitiator>
-    <logRulesRecipient>
-      <rulesStrings>
-        <li>logentry->Responded to [other_nameShortIndef]'s friendly communication.</li>
-      </rulesStrings>
-    </logRulesRecipient>
-  </InteractionDef>
--->
+  <AnimalChat.label>общение с животным</AnimalChat.label>
+  <AnimalChat.logRulesInitiator.rulesStrings.0>logentry->Общение с [other_nameShortIndef], попытка наладить взаимопонимание.</AnimalChat.logRulesInitiator.rulesStrings.0>
+  <AnimalChat.logRulesRecipient.rulesStrings.0>logentry->Ко мне проявили дружелюбие - [other_nameShortIndef].</AnimalChat.logRulesRecipient.rulesStrings.0>
 
-    <TrainAttempt.label>попытка натренировать</TrainAttempt.label>
-<!--
-    <logRulesInitiator>
-      <rulesStrings>
-        <li>logentry->Trained [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesInitiator>
-    <logRulesRecipient>
-      <rulesStrings>
-        <li>logentry->Was trained by [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesRecipient>
-  </InteractionDef>
---> 
+  <TrainAttempt.label>попытка натренировать</TrainAttempt.label>
+  <TrainAttempt.logRulesInitiator.rulesStrings.0>logentry->Тренировка [other_nameShortIndef].</TrainAttempt.logRulesInitiator.rulesStrings.0>
+  <TrainAttempt.logRulesRecipient.rulesStrings.0>logentry->Тренировка от [other_nameShortIndef].</TrainAttempt.logRulesRecipient.rulesStrings.0>
 
-	<TameAttempt.label>попытка приручить</TameAttempt.label>
-<!--
-    <logRulesInitiator>
-      <rulesStrings>
-        <li>logentry->Attempted to tame [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesInitiator>
-    <logRulesRecipient>
-      <rulesStrings>
-        <li>logentry->Watches [other_nameShortIndef] attempt to tame me.</li>
-      </rulesStrings>
-    </logRulesRecipient>
-  </InteractionDef>
--->
+  <TameAttempt.label>попытка приручить</TameAttempt.label>
+  <TameAttempt.logRulesInitiator.rulesStrings.0>logentry->Попытка приручить [other_nameShortIndef].</TameAttempt.logRulesInitiator.rulesStrings.0>
+  <TameAttempt.logRulesRecipient.rulesStrings.0>logentry->Меня пытается приручить [other_nameShortIndef].</TameAttempt.logRulesRecipient.rulesStrings.0>
 
 </LanguageData>
