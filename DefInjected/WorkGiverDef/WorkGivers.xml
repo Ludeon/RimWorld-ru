@@ -1,183 +1,296 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<!-- ============= Mics. ============= -->
 
-	<Mine.verb>копает</Mine.verb>
-	<Mine.gerund>Копать</Mine.gerund>
+  <!-- ============= Firefighter ============= -->
+  
+  <FightFires.label>тушить пожары</FightFires.label>
+  <FightFires.gerund>Тушить</FightFires.gerund>
+  <FightFires.verb>тушить</FightFires.verb>
+  
+  <!-- ============= PatientEmergency ============= -->
+  
+  <PatientGoToBedEmergency.label>отправиться в кровать, чтобы получить неотложное лечение</PatientGoToBedEmergency.label>
+  <PatientGoToBedEmergency.gerund>Получить лечение в</PatientGoToBedEmergency.gerund>
+  <PatientGoToBedEmergency.verb>получать лечение в</PatientGoToBedEmergency.verb>
+  
+  <!-- ============= Doctor ============= -->
+  
+  <DoctorTreatEmergency.label>оказать скорую помощь</DoctorTreatEmergency.label>
+  <DoctorTreatEmergency.gerund>Оказать помощь</DoctorTreatEmergency.gerund>
+  <DoctorTreatEmergency.verb>оказывать помощь</DoctorTreatEmergency.verb>
+  
+  <DoctorRescue.label>спасти союзников без сознания</DoctorRescue.label>
+  <DoctorRescue.gerund>Спасти</DoctorRescue.gerund>
+  <DoctorRescue.verb>спасать</DoctorRescue.verb>
+  
+  <DoBillsMedicalHumanOperation.label>оперировать людей</DoBillsMedicalHumanOperation.label>
+  <DoBillsMedicalHumanOperation.gerund>Оперировать</DoBillsMedicalHumanOperation.gerund>
+  <DoBillsMedicalHumanOperation.verb>оперировать</DoBillsMedicalHumanOperation.verb>
+  
+  <DoBillsMedicalAnimalOperation.label>оперировать животных</DoBillsMedicalAnimalOperation.label>
+  <DoBillsMedicalAnimalOperation.gerund>Оперировать</DoBillsMedicalAnimalOperation.gerund>
+  <DoBillsMedicalAnimalOperation.verb>оперировать</DoBillsMedicalAnimalOperation.verb>
 
-	<Research.verb>исследовать</Research.verb>
-	<Research.gerund>Исследовать, используя</Research.gerund>
+  <DoctorTreat.label>оказать помощь</DoctorTreat.label>
+  <DoctorTreat.gerund>Оказать помощь</DoctorTreat.gerund>
+  <DoctorTreat.verb>оказать помощь</DoctorTreat.verb>
+  
+  <DoctorFeed.label>кормить пациентов</DoctorFeed.label>
+  <DoctorFeed.gerund>Кормить</DoctorFeed.gerund>
+  <DoctorFeed.verb>кормить</DoctorFeed.verb>
+  
+  <TakeToBedToOperate.label>отнести пациента в кровать для проведения операции</TakeToBedToOperate.label>
+  <TakeToBedToOperate.gerund>Отнести на операцию</TakeToBedToOperate.gerund>
+  <TakeToBedToOperate.verb>нести на операцию</TakeToBedToOperate.verb>
+  
+  <VisitSickPawn.label>навестить больных</VisitSickPawn.label>
+  <VisitSickPawn.gerund>Навестить</VisitSickPawn.gerund>
+  <VisitSickPawn.verb>навещать</VisitSickPawn.verb>
+  
+  <!-- ============= PatientBedRest ============= -->
+  
+  <PatientGoToBed.label>восстановить силы в кровати</PatientGoToBed.label>
+  <PatientGoToBed.gerund>Отдохнуть в</PatientGoToBed.gerund>
+  <PatientGoToBed.verb>отдыхать</PatientGoToBed.verb>
+  
+  <!-- ============= Flicker ============= -->
 
-	<PlantsCut.verb>срезать</PlantsCut.verb>
-	<PlantsCut.gerund>Срезать</PlantsCut.gerund>
+  <Flick.label>переключать выключатели</Flick.label>
+  <Flick.gerund>Переключить выключатель</Flick.gerund>
+  <Flick.verb>переключить выключатель</Flick.verb>
 
-	<FightFires.verb>тушить</FightFires.verb>
-	<FightFires.gerund>Тушить</FightFires.gerund>
+  <!-- ============= Warden ============= -->
 
-	<Warden.verb>осматривает</Warden.verb>
-	<Warden.gerund>Осмотреть</Warden.gerund>
+  <DoExecution.label>казнить заключённых</DoExecution.label>
+  <DoExecution.gerund>Казнить</DoExecution.gerund>
+  <DoExecution.verb>казнить</DoExecution.verb>
+  
+  <ReleasePrisoner.label>отпустить заключёных</ReleasePrisoner.label>
+  <ReleasePrisoner.gerund>Отпустить</ReleasePrisoner.gerund>
+  <ReleasePrisoner.verb>отпустить</ReleasePrisoner.verb>
+  
+  <TakePrisonerToBed.label>относить заключённых в кровати</TakePrisonerToBed.label>
+  <TakePrisonerToBed.gerund>Отнести в кровать</TakePrisonerToBed.gerund>
+  <TakePrisonerToBed.verb>нести в кровать</TakePrisonerToBed.verb>
+  
+  <FeedPrisoner.label>кормить заключённых</FeedPrisoner.label>
+  <FeedPrisoner.gerund>Кормить</FeedPrisoner.gerund>
+  <FeedPrisoner.verb>кормить</FeedPrisoner.verb>
+  
+  <DeliverFoodToPrisoner.label>относить еду заключённым</DeliverFoodToPrisoner.label>
+  <DeliverFoodToPrisoner.gerund>Отнести еду</DeliverFoodToPrisoner.gerund>
+  <DeliverFoodToPrisoner.verb>нести еду</DeliverFoodToPrisoner.verb>
+  
+  <ChatWithPrisoner.label>разговаривать с заключёнными</ChatWithPrisoner.label>
+  <ChatWithPrisoner.gerund>Разговаривать с</ChatWithPrisoner.gerund>
+  <ChatWithPrisoner.verb>разговаривать с</ChatWithPrisoner.verb>
 
-	<HunterHunt.verb>охотиться</HunterHunt.verb>
-	<HunterHunt.gerund>Охотиться на животное</HunterHunt.gerund>
-	
-	<PatientGoToBed.verb>лечиться в</PatientGoToBed.verb>
-	<PatientGoToBed.gerund>Лечиться в</PatientGoToBed.gerund>
+  <!-- ============= Handling ============= -->
 
-	<!-- ============= Animal handling ============= -->
+  <Slaughter.label>закалывать животных</Slaughter.label>
+  <Slaughter.gerund>Заколоть</Slaughter.gerund>
+  <Slaughter.verb>закалоть</Slaughter.verb>
+  
+  <Milk.label>доить животных</Milk.label>
+  <Milk.gerund>Доить</Milk.gerund>
+  <Milk.verb>доить</Milk.verb>
+  
+  <Shear.label>стричь животных</Shear.label>
+  <Shear.gerund>Стричь</Shear.gerund>
+  <Shear.verb>стричь</Shear.verb>
+  
+  <Tame.label>приручать животных</Tame.label>
+  <Tame.gerund>Попытаться приручить</Tame.gerund>
+  <Tame.verb>приручить</Tame.verb>
+  
+  <Train.label>тренировать животных</Train.label>
+  <Train.gerund>Тренировать</Train.gerund>
+  <Train.verb>тренировать</Train.verb>
+  
+  <!-- ============= Cooking ============= -->
 
-	<Slaughter.verb>зарезать</Slaughter.verb>
-	<Slaughter.gerund>Зарезать</Slaughter.gerund>
-	<Milk.verb>подоить</Milk.verb>
-	<Milk.gerund>Подоить</Milk.gerund>
-	<Shear.verb>подстричь</Shear.verb>
-	<Shear.gerund>Подстричь</Shear.gerund>
-	<Tame.verb>приручить</Tame.verb>
-	<Tame.gerund>Приручить</Tame.gerund>
-	<Train.verb>тренировать</Train.verb>
-	<Train.gerund>Тренировать</Train.gerund>
-	
-	<!-- ============= Cleaning ============= -->
+  <DoBillsCook.label>готовить блюда у плиты</DoBillsCook.label>
+  <DoBillsCook.gerund>Готовить, используя</DoBillsCook.gerund>
+  <DoBillsCook.verb>готовить</DoBillsCook.verb>
+  
+  <DoBillsCookCampfire.label>готовить блюда на костре</DoBillsCookCampfire.label>
+  <DoBillsCookCampfire.gerund>Жарить, используя</DoBillsCookCampfire.gerund>
+  <DoBillsCookCampfire.verb>жарить</DoBillsCookCampfire.verb>
+  
+  <DoBillsBrew.label>делать алкоголь</DoBillsBrew.label>
+  <DoBillsBrew.gerund>Варить, используя</DoBillsBrew.gerund>
+  <DoBillsBrew.verb>варить</DoBillsBrew.verb>
+  
+  <DoBillsButcherFlesh.label>разделывать животных</DoBillsButcherFlesh.label>
+  <DoBillsButcherFlesh.gerund>Разделывать, используя</DoBillsButcherFlesh.gerund>
+  <DoBillsButcherFlesh.verb>разделывать</DoBillsButcherFlesh.verb>
+  
+  <CookFillHopper.label>наполнять загрузочные воронки</CookFillHopper.label>
+  <CookFillHopper.gerund>Наполнить</CookFillHopper.gerund>
+  <CookFillHopper.verb>наполнить</CookFillHopper.verb>
+  
+  <!-- ============= Hunting ============= -->
+  
+  <HunterHunt.label>охотиться</HunterHunt.label>
+  <HunterHunt.gerund>Охотиться на животное</HunterHunt.gerund>
+  <HunterHunt.verb>охотиться</HunterHunt.verb>
+  
+  <!-- ============= Construction ============= -->
 
-	<CleanClearSnow.verb>почистить снег</CleanClearSnow.verb>
-	<CleanClearSnow.gerund>Почистить снег</CleanClearSnow.gerund>
+  <Deconstruct.label>разбирать постройки</Deconstruct.label>
+  <Deconstruct.gerund>Разобрать</Deconstruct.gerund>
+  <Deconstruct.verb>разобрать</Deconstruct.verb>
+  
+  <Uninstall.label>демонтировать предмет</Uninstall.label>
+  <Uninstall.gerund>Демонтировать</Uninstall.gerund>
+  <Uninstall.verb>демонтировать</Uninstall.verb>
+  
+  <ConstructFinishFrames.label>завершать постройки</ConstructFinishFrames.label>
+  <ConstructFinishFrames.gerund>Строить</ConstructFinishFrames.gerund>
+  <ConstructFinishFrames.verb>строить</ConstructFinishFrames.verb>
+  
+  <ConstructDeliverResourcesToFrames.label>доставлять ресурсы для построек</ConstructDeliverResourcesToFrames.label>
+  <ConstructDeliverResourcesToFrames.gerund>Работать над</ConstructDeliverResourcesToFrames.gerund>
+  <ConstructDeliverResourcesToFrames.verb>работать над</ConstructDeliverResourcesToFrames.verb>
+  
+  <ConstructDeliverResourcesToBlueprints.label>доставлять ресурсы для проектов</ConstructDeliverResourcesToBlueprints.label>
+  <ConstructDeliverResourcesToBlueprints.gerund>Работать над</ConstructDeliverResourcesToBlueprints.gerund>
+  <ConstructDeliverResourcesToBlueprints.verb>работать над</ConstructDeliverResourcesToBlueprints.verb>
+  
+  <ConstructRemoveFloors.label>снимать полы</ConstructRemoveFloors.label>
+  <ConstructRemoveFloors.gerund>Снять пол</ConstructRemoveFloors.gerund>
+  <ConstructRemoveFloors.verb>снимать полы</ConstructRemoveFloors.verb>
+  
+  <ConstructSmoothFloors.label>отшлифовывать полы</ConstructSmoothFloors.label>
+  <ConstructSmoothFloors.gerund>Шлифовать</ConstructSmoothFloors.gerund>
+  <ConstructSmoothFloors.verb>шлифовать</ConstructSmoothFloors.verb>
+  
+  <!-- ============= Repair ============= -->
 
-	<CleanFilth.verb>почистить</CleanFilth.verb>
-	<CleanFilth.gerund>Почистить и убрать</CleanFilth.gerund>
+  <FixBrokenDownBuilding.label>чинить сломанные вещи</FixBrokenDownBuilding.label>
+  <FixBrokenDownBuilding.gerund>Заменить сломанные компоненты в</FixBrokenDownBuilding.gerund>
+  <FixBrokenDownBuilding.verb>заменить сломанные компоненты в</FixBrokenDownBuilding.verb>
+  
+  <Repair.label>чинить повреждённые вещи</Repair.label>
+  <Repair.gerund>Чинить</Repair.gerund>
+  <Repair.verb>чинить</Repair.verb>
 
-	<!-- ============= Control ============= -->
+  <DoBillsMedicalMechanoidOperation.label>работать с механоидами</DoBillsMedicalMechanoidOperation.label>
+  <DoBillsMedicalMechanoidOperation.gerund>Модифицировать</DoBillsMedicalMechanoidOperation.gerund>
+  <DoBillsMedicalMechanoidOperation.verb>модифицировать</DoBillsMedicalMechanoidOperation.verb>
+  
+  <!-- ============= Growing ============= -->
 
-	<Flick.verb>переключить питание</Flick.verb>
-	<Flick.gerund>Переключить питание</Flick.gerund>
+  <GrowerHarvest.label>собирать урожай</GrowerHarvest.label>
+  <GrowerHarvest.gerund>Собрать</GrowerHarvest.gerund>
+  <GrowerHarvest.verb>собирать</GrowerHarvest.verb>
+  
+  <GrowerSow.label>сажать растения</GrowerSow.label>
+  <GrowerSow.gerund>Сажать</GrowerSow.gerund>
+  <GrowerSow.verb>сажать</GrowerSow.verb>
+  
+  <!-- ============= Mining ============= -->
 
-	<!-- ============= Hauling ============= -->
+  <Mine.label>копать</Mine.label>
+  <Mine.gerund>Копать</Mine.gerund>
+  <Mine.verb>копать</Mine.verb>
+  
+  <!-- ============= PlantCutting ============= -->
+  
+  <PlantsCut.label>срезать растения</PlantsCut.label>
+  <PlantsCut.gerund>Срубить</PlantsCut.gerund>
+  <PlantsCut.verb>рубить</PlantsCut.verb>
+  
+  <!-- ============= Smithing ============= -->
+  
+  <DoBillsMakeWeapons.label>изготавливать оружие</DoBillsMakeWeapons.label>
+  <DoBillsMakeWeapons.gerund>Изготовить, используя</DoBillsMakeWeapons.gerund>
+  <DoBillsMakeWeapons.verb>изготавливать</DoBillsMakeWeapons.verb>
 
-	<RearmTraps.verb>перезарядить</RearmTraps.verb>
-	<RearmTraps.gerund>Перезарядить</RearmTraps.gerund>
+  <DoBillsMachiningTable.label>работать за верстаком</DoBillsMachiningTable.label>
+  <DoBillsMachiningTable.gerund>Работать, используя</DoBillsMachiningTable.gerund>
+  <DoBillsMachiningTable.verb>работать</DoBillsMachiningTable.verb>
+  
+  <DoBillsComponentAssemblyBench.label>собирать компоненты</DoBillsComponentAssemblyBench.label>
+  <DoBillsComponentAssemblyBench.gerund>Производить компоненты, используя</DoBillsComponentAssemblyBench.gerund>
+  <DoBillsComponentAssemblyBench.verb>производить компоненты</DoBillsComponentAssemblyBench.verb>
+  
+  <!-- ============= Tailoring ============= -->
+  
+  <DoBillsMakeApparel.label>изготавливать одежду</DoBillsMakeApparel.label>
+  <DoBillsMakeApparel.gerund>Шить, используя</DoBillsMakeApparel.gerund>
+  <DoBillsMakeApparel.verb>изготавливать</DoBillsMakeApparel.verb>
+  
+  <!-- ============= Art ============= -->
+  
+  <DoBillsSculpt.label>ваять скульптуры</DoBillsSculpt.label>
+  <DoBillsSculpt.gerund>Ваять, используя</DoBillsSculpt.gerund>
+  <DoBillsSculpt.verb>ваять</DoBillsSculpt.verb>
+  
+  <!-- ============= Crafting ============= -->
+  
+  <DoBillsUseCraftingSpot.label>выполнять задания на рабочем месте</DoBillsUseCraftingSpot.label>
+  <DoBillsUseCraftingSpot.gerund>Изготавливать, используя</DoBillsUseCraftingSpot.gerund>
+  <DoBillsUseCraftingSpot.verb>изготавливать на</DoBillsUseCraftingSpot.verb>
 
-	<Strip.verb>раздеть</Strip.verb>
-	<Strip.gerund>Раздеть</Strip.gerund>
+  <DoBillsStonecut.label>обтёсывать камень</DoBillsStonecut.label>
+  <DoBillsStonecut.gerund>Тесать камень, используя</DoBillsStonecut.gerund>
+  <DoBillsStonecut.verb>тесать камень</DoBillsStonecut.verb>
 
-	<DoBillsCremate.verb>кремировать</DoBillsCremate.verb>
-	<DoBillsCremate.gerund>Кремировать в</DoBillsCremate.gerund>
+  <DoBillsSmelter.label>плавить предметы</DoBillsSmelter.label>
+  <DoBillsSmelter.gerund>Плавить, используя</DoBillsSmelter.gerund>
+  <DoBillsSmelter.verb>плавить</DoBillsSmelter.verb>
+  
+  <!-- ============= Hauling ============= -->
+  
+  <Refuel.label>добавлять топливо в необходимые постройки</Refuel.label>
+  <Refuel.gerund>Заправить</Refuel.gerund>
+  <Refuel.verb>заправлять</Refuel.verb>
+  
+  <RearmTraps.label>перезаряжать ловушки</RearmTraps.label>
+  <RearmTraps.gerund>Перезарядить</RearmTraps.gerund>
+  <RearmTraps.verb>перезаряжать</RearmTraps.verb>
+  
+  <Strip.label>раздевать трупы</Strip.label>
+  <Strip.gerund>Раздеть</Strip.gerund>
+  <Strip.verb>раздеть</Strip.verb>
+  
+  <Open.label>открывать контейнеры</Open.label>
+  <Open.gerund>Открыть</Open.gerund>
+  <Open.verb>открыть</Open.verb>
+  
+  <DoBillsCremate.label>кремировать трупы</DoBillsCremate.label>
+  <DoBillsCremate.gerund>Кремировать, используя</DoBillsCremate.gerund>
+  <DoBillsCremate.verb>кремировать</DoBillsCremate.verb>
+  
+  <BuryCorpses.label>хоронить тела</BuryCorpses.label>
+  <BuryCorpses.gerund>Похоронить</BuryCorpses.gerund>
+  <BuryCorpses.verb>похоронить</BuryCorpses.verb>
+  
+  <HaulCorpses.label>переносить трупы</HaulCorpses.label>
+  <HaulCorpses.gerund>Перенести</HaulCorpses.gerund>
+  <HaulCorpses.verb>перенести</HaulCorpses.verb>
+  
+  <HaulGeneral.label>переносить вещи</HaulGeneral.label>
+  <HaulGeneral.gerund>Перенести</HaulGeneral.gerund>
+  <HaulGeneral.verb>перенести</HaulGeneral.verb>
+  
+  <!-- ============= Cleaning ============= -->
+  
+  <CleanClearSnow.label>чистить снег</CleanClearSnow.label>
+  <CleanClearSnow.gerund>Чистить снег</CleanClearSnow.gerund>
+  <CleanClearSnow.verb>чистить снег</CleanClearSnow.verb>
+  
+  <CleanFilth.label>убирать грязь</CleanFilth.label>
+  <CleanFilth.gerund>Убрать</CleanFilth.gerund>
+  <CleanFilth.verb>убирать</CleanFilth.verb>
+  
+  <!-- ============= Research ============= -->
+  
+  <Research.label>проводить исследования</Research.label>
+  <Research.gerund>Исследовать</Research.gerund>
+  <Research.verb>исследовать</Research.verb>
 
-	<HaulGeneral.verb>перенести</HaulGeneral.verb>
-	<HaulGeneral.gerund>Перенести</HaulGeneral.gerund>
-
-	<BuryCorpses.verb>похоронить</BuryCorpses.verb>
-	<BuryCorpses.gerund>Похоронить</BuryCorpses.gerund>
-
-	<!-- ============= Growing ============= -->
-
-	<GrowerSow.verb>вырастить</GrowerSow.verb>
-	<GrowerSow.gerund>Вырастить</GrowerSow.gerund>
-
-	<GrowerHarvest.verb>собрать</GrowerHarvest.verb>
-	<GrowerHarvest.gerund>Собрать</GrowerHarvest.gerund>
-
-	<!-- ============= Repair ============= -->
-
-	<Repair.verb>чинить</Repair.verb>
-	<Repair.gerund>Чинить</Repair.gerund>
-
-	<DoBillsMedicalMechanoidOperation.verb>модифицировать</DoBillsMedicalMechanoidOperation.verb>
-	<DoBillsMedicalMechanoidOperation.gerund>Модифицировать</DoBillsMedicalMechanoidOperation.gerund>
-
-	<!-- ============= Doctor ============= -->
-
-	<DoctorTreatEmergency.verb>лечить</DoctorTreatEmergency.verb>
-	<DoctorTreatEmergency.gerund>Лечить</DoctorTreatEmergency.gerund>
-	
-	<DoctorRescue.verb>спасти</DoctorRescue.verb>
-	<DoctorRescue.gerund>Спасти</DoctorRescue.gerund>
-	
-	<DoctorTreat.verb>лечить</DoctorTreat.verb>
-	<DoctorTreat.gerund>Лечить</DoctorTreat.gerund>
-
-	<DoctorFeed.verb>кормить</DoctorFeed.verb>
-	<DoctorFeed.gerund>Кормить</DoctorFeed.gerund>
-
-	<DoBillsMedicalHumanOperation.verb>оперировать</DoBillsMedicalHumanOperation.verb>
-	<DoBillsMedicalHumanOperation.gerund>Оперировать</DoBillsMedicalHumanOperation.gerund>
-
-	<DoBillsMedicalAnimalOperation.verb>оперировать</DoBillsMedicalAnimalOperation.verb>
-	<DoBillsMedicalAnimalOperation.gerund>Оперировать</DoBillsMedicalAnimalOperation.gerund>
-
-	<TakeToBedToOperate.verb>взять на операцию</TakeToBedToOperate.verb>
-	<TakeToBedToOperate.gerund>Взять на операцию</TakeToBedToOperate.gerund>
-
-	<!-- ============= Construction ============= -->
-
-	<Deconstruct.verb>разобрать</Deconstruct.verb>
-	<Deconstruct.gerund>Разобрать</Deconstruct.gerund>
-	
-	<Uninstall.verb>удалить</Uninstall.verb>
-	<Uninstall.gerund>Удалить</Uninstall.gerund>
-	
-	<ConstructFinishFrames.verb>построить</ConstructFinishFrames.verb>
-	<ConstructFinishFrames.gerund>Построить</ConstructFinishFrames.gerund>
-
-	<ConstructDeliverResourcesToFrames.verb>работать над</ConstructDeliverResourcesToFrames.verb>
-	<ConstructDeliverResourcesToFrames.gerund>Работать над</ConstructDeliverResourcesToFrames.gerund>
-
-	<ConstructDeliverResourcesToBlueprints.verb>работать над</ConstructDeliverResourcesToBlueprints.verb>
-	<ConstructDeliverResourcesToBlueprints.gerund>Работать над</ConstructDeliverResourcesToBlueprints.gerund>
-	
-	<ConstructRemoveFloors.verb>снять пол</ConstructRemoveFloors.verb>
-	<ConstructRemoveFloors.gerund>Снять пол</ConstructRemoveFloors.gerund>
-	
-	<ConstructSmoothFloors.verb>отшлифовать</ConstructSmoothFloors.verb>
-	<ConstructSmoothFloors.gerund>Отшлифовать</ConstructSmoothFloors.gerund>
-
-	<!-- ============= Cooking ============= -->
-
-	<DoBillsCook.verb>готовить</DoBillsCook.verb>
-	<DoBillsCook.gerund>Готовить, используя</DoBillsCook.gerund>
-	
-	<DoBillsCookCampfire.verb>жарить</DoBillsCookCampfire.verb>
-	<DoBillsCookCampfire.gerund>Жарить, используя</DoBillsCookCampfire.gerund>
-	
-	<DoBillsBrew.verb>варить</DoBillsBrew.verb>
-	<DoBillsBrew.gerund>Варить, используя</DoBillsBrew.gerund>
-
-	<DoBillsButcherFlesh.verb>разделывать</DoBillsButcherFlesh.verb>
-	<DoBillsButcherFlesh.gerund>Разделывать, используя</DoBillsButcherFlesh.gerund>
-
-	<CookFillHopper.verb>наполнить</CookFillHopper.verb>
-	<CookFillHopper.gerund>Наполнить</CookFillHopper.gerund>
-
-	<!-- ============= Crafting - art - sculpture ============= -->
-
-	<DoBillsSculpt.verb>ваять</DoBillsSculpt.verb>
-	<DoBillsSculpt.gerund>Ваять</DoBillsSculpt.gerund>
-
-	<!-- ============= Crafting - weapons ============= -->
-
-
-	<DoBillsMakeWeapons.verb>ковать</DoBillsMakeWeapons.verb>
-	<DoBillsMakeWeapons.gerund>Ковать</DoBillsMakeWeapons.gerund>
-
-	<!-- ============= Crafting - apparel ============= -->
-
-
-	<DoBillsMakeApparel.verb>шить одежду</DoBillsMakeApparel.verb>
-	<DoBillsMakeApparel.gerund>Шить одежду</DoBillsMakeApparel.gerund>
-
-	<!-- ============= Crafting - misc ============= -->
-
-	<DoBillsStonecut.verb>обрабатывать камни</DoBillsStonecut.verb>
-	<DoBillsStonecut.gerund>Обрабатывать камни, используя</DoBillsStonecut.gerund>
-
-	<DoBillsSmelter.verb>перерабатывать</DoBillsSmelter.verb>
-	<DoBillsSmelter.gerund>Перерабатывать</DoBillsSmelter.gerund>
-
-	<DoBillsMachiningTable.verb>разбирать</DoBillsMachiningTable.verb>
-	<DoBillsMachiningTable.gerund>Разбирать</DoBillsMachiningTable.gerund>
-
-	<!--<DoBillsMakeWoodPlanks_Electric.verb>распилить</DoBillsMakeWoodPlanks_Electric.verb>
-	<DoBillsMakeWoodPlanks_Electric.gerund>распилить</DoBillsMakeWoodPlanks_Electric.gerund>
-
-	<DoBillsMakeWoodPlanks_Hand.verb>распилить</DoBillsMakeWoodPlanks_Hand.verb>
-	<DoBillsMakeWoodPlanks_Hand.gerund>распилить</DoBillsMakeWoodPlanks_Hand.gerund>-->
 
 </LanguageData>

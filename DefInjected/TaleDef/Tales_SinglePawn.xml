@@ -8,7 +8,7 @@
 
 [pawn_pronoun] - he/she - он/она - как HE
 [pawn_possessive] - his/her - его/её - как HIS
-[pawn_objective] - him/her - него/неё - как нHIS :D
+[pawn_objective] - him/her - ему/ей
 
 Возможно, придётся делать "[circumstance_group]" -> "[circumstance_group]. [desc_sentence_group]"
 Кажется, не надо.
@@ -61,7 +61,7 @@
   <Vomited.rulePack.rulesStrings.6>circumstance_phrase-> с большим позором</Vomited.rulePack.rulesStrings.6>
   <Vomited.rulePack.rulesStrings.7>circumstance_phrase->, в то время как другие просто наблюдают</Vomited.rulePack.rulesStrings.7>
 
-  <Vomited.rulePack.rulesStrings.8>desc_sentence->[pawn_pronoun], кажется, совершенно не замечает, что находится вокруг [pawn_objective].</Vomited.rulePack.rulesStrings.8>
+  <Vomited.rulePack.rulesStrings.8>desc_sentence->[pawn_pronoun], кажется, совершенно не замечает, что находится вокруг н[pawn_possessive].</Vomited.rulePack.rulesStrings.8>
   <Vomited.rulePack.rulesStrings.9>desc_sentence->Само [pawn_possessive] лицо, кажется, отекло.</Vomited.rulePack.rulesStrings.9>
   <Vomited.rulePack.rulesStrings.10>desc_sentence->[pawn_pronoun] практически без сознания, [pawn_possessive] язык вывалился и свисает.</Vomited.rulePack.rulesStrings.10>
   <Vomited.rulePack.rulesStrings.11>desc_sentence->[pawn_pronoun] бьётся в конвульсиях.</Vomited.rulePack.rulesStrings.11>
@@ -83,7 +83,7 @@
   <Drunk.rulePack.rulesStrings.3>image->[pawn_nameFull], жадно собирающего(ую) бутылки спиртного [circumstance_group]</Drunk.rulePack.rulesStrings.3>
   <Drunk.rulePack.rulesStrings.4>image->[pawn_nameFull], пьянствующего(ую)  [circumstance_group]</Drunk.rulePack.rulesStrings.4>
   
-  <Drunk.rulePack.rulesStrings.5>circumstance_phrase->, совершенно забывшего(ую) про всё, что находится вокруг [pawn_objective]</Drunk.rulePack.rulesStrings.5>
+  <Drunk.rulePack.rulesStrings.5>circumstance_phrase->, совершенно забывшего(ую) про всё, что находится вокруг н[pawn_possessive]</Drunk.rulePack.rulesStrings.5>
   <Drunk.rulePack.rulesStrings.6>circumstance_phrase-> в задумчивом ступоре</Drunk.rulePack.rulesStrings.6>
   <Drunk.rulePack.rulesStrings.7>circumstance_phrase->, сомневаясь в своём собственном существовании</Drunk.rulePack.rulesStrings.7>
   <Drunk.rulePack.rulesStrings.8>circumstance_phrase-> со слезами на глазах</Drunk.rulePack.rulesStrings.8>
@@ -99,7 +99,7 @@
   <Drunk.rulePack.rulesStrings.18>circumstance_phrase->, похотливо сверкаюего(ую) глазами</Drunk.rulePack.rulesStrings.18>
   <Drunk.rulePack.rulesStrings.19>circumstance_phrase->, глядящего(ую) на маячащих призраков [pawn_possessive] прошлого</Drunk.rulePack.rulesStrings.19>
   
-  <Drunk.rulePack.rulesStrings.20>desc_sentence->[pawn_pronoun], кажется, совершенно не замечает, что находится вокруг [pawn_objective].</Drunk.rulePack.rulesStrings.20>
+  <Drunk.rulePack.rulesStrings.20>desc_sentence->[pawn_pronoun], кажется, совершенно не замечает, что находится вокруг н[pawn_possessive].</Drunk.rulePack.rulesStrings.20>
   <Drunk.rulePack.rulesStrings.21>desc_sentence->Само [pawn_possessive] лицо, кажется, отекло.</Drunk.rulePack.rulesStrings.21>
   <Drunk.rulePack.rulesStrings.22>desc_sentence->[pawn_pronoun] практически без сознания, [pawn_possessive] язык вывалился и свисает, с него капает слюна.</Drunk.rulePack.rulesStrings.22>
   <Drunk.rulePack.rulesStrings.23>desc_sentence->[pawn_pronoun] выглядит одновременно и счастливо, и грустно.</Drunk.rulePack.rulesStrings.23>
@@ -190,7 +190,7 @@
   <MentalStateGaveUp.rulePack.rulesStrings.11>desc_sentence->[pawn_pronoun] смеётся в глубинах своей депрессии.</MentalStateGaveUp.rulePack.rulesStrings.11>
   <MentalStateGaveUp.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDef] смотрит вверх, словно прося о помощи свыше.</MentalStateGaveUp.rulePack.rulesStrings.12>
   <MentalStateGaveUp.rulePack.rulesStrings.13>desc_sentence->[pawn_pronoun] рвёт на себе одежду.</MentalStateGaveUp.rulePack.rulesStrings.13>
-  <MentalStateGaveUp.rulePack.rulesStrings.14>desc_sentence->[pawn_pronoun], кажется, абсолютно не замечает, что происходит вокруг [pawn_objective].</MentalStateGaveUp.rulePack.rulesStrings.14>
+  <MentalStateGaveUp.rulePack.rulesStrings.14>desc_sentence->[pawn_pronoun], кажется, абсолютно не замечает, что происходит вокруг н[pawn_possessive].</MentalStateGaveUp.rulePack.rulesStrings.14>
   <MentalStateGaveUp.rulePack.rulesStrings.15>desc_sentence->[pawn_pronoun] выглядит одновременно счастливо и грустно.</MentalStateGaveUp.rulePack.rulesStrings.15>
   <MentalStateGaveUp.rulePack.rulesStrings.16>desc_sentence->У [pawn_objective] спереди какие-то пятна.</MentalStateGaveUp.rulePack.rulesStrings.16>
   <MentalStateGaveUp.rulePack.rulesStrings.17>desc_sentence->[pawn_pronoun], кажется, потерял(а) ботинок.</MentalStateGaveUp.rulePack.rulesStrings.17>
