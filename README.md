@@ -4,7 +4,7 @@
 
 
 
-## Официальные переводчики
+## Официальные переводчики:
 * [AcDie (inactive)](https://github.com/AcDie)
 * [Dandi (inactive)](https://github.com/Dandi91)
 * [Dimonasdf](https://github.com/Dimonasdf)
@@ -25,7 +25,7 @@
 * [Markell](https://github.com/Markell)
 * [Xelogian](https://github.com/Xelogian)
 
-## Больше информации об лицензии:
+## Больше информации о лицензии:
 http://ludeon.com/forums/index.php?topic=2933.0
 
 ## Если хотите помочь переводу - прочитайте сначала wiki справа. Там пока немного, но оно важно.
