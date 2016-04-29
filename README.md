@@ -1,10 +1,10 @@
 # RimWorld-RU
-Русская Локализация для RimWorld
+Русская Локализация RimWorld
 
 
 
 
-## Оффициальные переводчики
+## Официальные переводчики
 * [AcDie (inactive)](https://github.com/AcDie)
 * [Dandi (inactive)](https://github.com/Dandi91)
 * [Dimonasdf](https://github.com/Dimonasdf)
