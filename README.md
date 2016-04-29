@@ -1,10 +1,10 @@
 # RimWorld-RU
-Russian Localization for RimWorld
+Русская Локализация для Rim World
 
 
 
 
-## Official Translators
+## Оффициальные переводчики
 * [AcDie (inactive)](https://github.com/AcDie)
 * [Dandi (inactive)](https://github.com/Dandi91)
 * [Dimonasdf](https://github.com/Dimonasdf)
@@ -13,7 +13,7 @@ Russian Localization for RimWorld
 
 
 
-## Contributors
+## Сделавшие вклад:
 * [Humort](https://github.com/Humort)
 * [Lirryc](https://github.com/Lirryc)
 * [hazestalker](https://github.com/hazestalker)
@@ -24,7 +24,7 @@ Russian Localization for RimWorld
 * [Zenya135](https://github.com/Zenya135)
 * [Markell](https://github.com/Markell)
 
-## See this page for license info:
+## Больше информации об лицензии:
 http://ludeon.com/forums/index.php?topic=2933.0
 
 ## Если хотите помочь переводу - прочитайте сначала wiki справа. Там пока немного, но оно важно.
