@@ -1,5 +1,5 @@
 # RimWorld-RU
-Русская Локализация для Rim World
+Русская Локализация для RimWorld
 
 
 
@@ -23,6 +23,7 @@
 * [Sergemiuss](https://github.com/Sergemiuss)
 * [Zenya135](https://github.com/Zenya135)
 * [Markell](https://github.com/Markell)
+* [Xelogian](https://github.com/Xelogian)
 
 ## Больше информации об лицензии:
 http://ludeon.com/forums/index.php?topic=2933.0
