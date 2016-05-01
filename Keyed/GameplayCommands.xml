@@ -4,7 +4,7 @@
   <CommandForbiddenDesc>Запрещено - поселенцы не будут это использовать.</CommandForbiddenDesc>
   <CommandNotForbiddenDesc>Разрешено - поселенцы могут это использовать.</CommandNotForbiddenDesc>
 
-  <!-- Питание -->
+  <!-- Power -->
   <CommandTogglePowerLabel>Вкл./выкл.</CommandTogglePowerLabel>
   <CommandTogglePowerDesc>Включить или отключить питание.</CommandTogglePowerDesc>
   
@@ -19,7 +19,7 @@
   <CommandGatherSpotToggleDescInactive>Неактивно - поселенцы не будут собираться поблизости.</CommandGatherSpotToggleDescInactive>
   
   
-  <!-- Бой -->
+  <!-- Drafting -->
   <CommandDraftLabel>К бою!</CommandDraftLabel>
   <CommandUndraftLabel>Роспуск</CommandUndraftLabel>
   <CommandToggleDraftDesc>Переключение в боевой режим.\n\nВ этом режиме поселенцы получают приказы и сражаются. Они не будут работать, есть или отдыхать.</CommandToggleDraftDesc>
@@ -35,7 +35,7 @@
   <CommandBedSetOwnerLabel>Назначить кровать</CommandBedSetOwnerLabel>
   <CommandBedSetOwnerDesc>Назначить кровать конкретному поселенцу.</CommandBedSetOwnerDesc>
   <CommandGraveAssignColonistLabel>Назначить поселенца</CommandGraveAssignColonistLabel>
-  <CommandGraveAssignColonistDesc>Назначить эту могилу в собственность конкретному поселенцу.</CommandGraveAssignColonistDesc>
+  <CommandGraveAssignColonistDesc>Назначить эту могилу в собственнось конкретному поселенцу.</CommandGraveAssignColonistDesc>
   <BuildingAssign>Назначить</BuildingAssign>
   <BuildingUnassign>Снять назначение</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>Назначить заключённым</CommandBedSetForPrisonersLabel>
@@ -73,7 +73,7 @@
   <CommandAllowSow>Разрешить сеять</CommandAllowSow>
   <CommandAllowSowDesc>Отключив этот параметр, вы запретите сеять поселенцам, однако они продолжат собирать урожай.</CommandAllowSowDesc>
 
-  <!-- Артиллерия -->
+  <!-- Artillery -->
   <CommandSetForceAttackTarget>Выбрать цель обстрела</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Устанавливает цель, которую эта турель будет атаковать непрерывно до тех пор, пока это будет возможно.</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>Отменить обстрел</CommandStopForceAttack>
@@ -82,7 +82,7 @@
   <MessageTargetBeyondMaximumRange>Слишком далеко.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Слишком близко.</MessageTargetBelowMinimumRange>
   
-    <!-- Ядро компьтера корабля -->
+    <!-- Ship computer core -->
   <CommandShipLaunch>Запустить корабль</CommandShipLaunch>
   <CommandShipLaunchDesc>Запустить корабль с текущей конфигурацией.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Показать стартовый отчёт</CommandShipLaunchReport>
@@ -93,42 +93,42 @@
   <CommandPodEjectDesc>Разбудить спящего и вытащить его.</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>Внутри никого нет.</CommandPodEjectFailEmpty>
 
-  <!-- Дверь -->
+  <!-- Door -->
   <CommandToggleDoorForbid>Переключить блокировку</CommandToggleDoorForbid>
   <CommandToggleDoorForbidDesc>Заблокировать либо разблокировать дверь. Поселенцы и союзники не смогут проходить через эту дверь, однако на поведение врагов и животных эта функция не окажет влияния.</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>Держать открытой</CommandToggleDoorHoldOpen>
   <CommandToggleDoorHoldOpenDesc>Пока функция активна поселенцы не будут закрывать эту дверь за собой. Если деактивировать эту функцию, дверь закроется автоматически за следующим поселенцем.</CommandToggleDoorHoldOpenDesc>
 
 
-  <!-- Контроль температуры -->
+  <!-- Temperature control -->
   <CommandResetTemp>Сброс</CommandResetTemp>
   <CommandResetTempDesc>Сбросить целевую температуру до температуры комнаты.</CommandResetTempDesc>
   <CommandRaiseTempDesc>Повысить целевую температуру.</CommandRaiseTempDesc>
   <CommandLowerTempDesc>Понизить целевую температуру.</CommandLowerTempDesc>
 
-  <!-- Исскуство -->
+  <!-- Art -->
   <CommandInstall>Установить</CommandInstall>
   <CommandInstallDesc>Этот предмет упакован для хранения и транспортировки. Используйте эту команду для установки предмета, чтобы его могли видеть или использовать.</CommandInstallDesc>
   <CommandReinstall>Переустановить...</CommandReinstall>
   <CommandReinstallDesc>Назначьте этот предмет для демонтажа и установки в другом месте.</CommandReinstallDesc>
   
-  <!-- Торговый маяк -->
+  <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>Создать вокруг этого строения склад, соответствующий радиусу отправки маяка.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Создать склад</CommandMakeBeaconStockpileLabel>
 
-  <!-- Солнечная лампа -->
+  <!-- Sun lamp -->
   <CommandSunLampMakeGrowingZoneDesc>Создать вокруг этого строения зону роста, соответствующую радиусу действия солнечной лампы.</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>Создать зону роста.</CommandSunLampMakeGrowingZoneLabel>
 
-  <!-- Ловушка -->
+  <!-- Trap -->
   <CommandAutoRearm>Автоперезарядка</CommandAutoRearm>
   <CommandAutoRearmDesc>Если активно, капкан будет автоматически назначаться для перезарядки после срабатывания.</CommandAutoRearmDesc>
   
-  <!-- Контроль животных -->
+  <!-- Animal control -->
   <CommandReleaseAnimalsLabel>Спустить с поводка</CommandReleaseAnimalsLabel>
   <CommandReleaseAnimalsDesc>Отправляет прирученных животных в атаку. Если не включено, животные остаются вблизи и охраняют хозяина.</CommandReleaseAnimalsDesc>
    
-  <!-- Атака отрядом -->
+  <!-- Squad attack -->
   <CommandSquadAttack>Атаковать</CommandSquadAttack>
   <CommandSquadAttackDesc>Приказ выбранным поселенцам вместе атаковать заданную цель.</CommandSquadAttackDesc>
  
