@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- яркость -->
+  <!-- glow -->
   <Dark>Темно</Dark>
   <Lit>Светло</Lit>
   <LitBrightly>Очень светло</LitBrightly>
 
-  <!-- тип диеты
+  <!-- diet type
   <NeverEats>Не ест</NeverEats>
   <Omnivorous>Всеядный</Omnivorous>
   <Herbivorous>Травоядный</Herbivorous>
@@ -19,14 +19,14 @@
   <Always>Позволять</Always>
   <Never>Не позволять</Never>
 
-  <!-- Типы цен -->
+  <!-- Price types -->
   <PriceTypeVeryCheap>очень дешёвая</PriceTypeVeryCheap>
   <PriceTypeCheap>дешёвая</PriceTypeCheap>
   <PriceTypeNormal>нормальная</PriceTypeNormal>
   <PriceTypeExpensive>высокая</PriceTypeExpensive>
   <PriceTypeExorbitant>непомерная</PriceTypeExorbitant>
 
-  <!-- Виды еды -->
+  <!-- Food type flags -->
   <FoodTypeFlags_VegetableOrFruit>овощи/фрукты</FoodTypeFlags_VegetableOrFruit>
   <FoodTypeFlags_Meat>сырое мясо</FoodTypeFlags_Meat>
   <FoodTypeFlags_Corpse>тела</FoodTypeFlags_Corpse>
@@ -39,7 +39,7 @@
   <FoodTypeFlags_NutritionalDrug>спиртное</FoodTypeFlags_NutritionalDrug>
   <FoodTypeFlags_AnimalKibble>еда для животных</FoodTypeFlags_AnimalKibble>
 
-  <!-- Виды качества -->
+  <!-- Quality category -->
   <QualityCategory_Awful>ужасно -3</QualityCategory_Awful>
   <QualityCategory_Shoddy>отвратно -2</QualityCategory_Shoddy>
   <QualityCategory_Poor>плохо -1</QualityCategory_Poor>
@@ -60,25 +60,25 @@
   <QualityCategoryShort_Masterwork>шедевр</QualityCategoryShort_Masterwork>
   <QualityCategoryShort_Legendary>леген</QualityCategoryShort_Legendary>
 
-  <!-- Состояния голода -->
+  <!-- Hunger -->
   <HungerLevel_Starving>Голодает</HungerLevel_Starving>
   <HungerLevel_UrgentlyHungry>Недоедает</HungerLevel_UrgentlyHungry>
   <HungerLevel_Hungry>Хочет есть</HungerLevel_Hungry>
   <HungerLevel_Fed>Накормлен</HungerLevel_Fed>
 
-  <!-- Состояния отдыха -->
+  <!-- -Fatigue -->
   <HungerLevel_Exhausted>Обессилел(а)</HungerLevel_Exhausted>
   <HungerLevel_VeryTired>Очень устал(а)</HungerLevel_VeryTired>
   <HungerLevel_Tired>Устал(а)</HungerLevel_Tired>
   <HungerLevel_Rested>Отдохнул(а)</HungerLevel_Rested>
 
-    <!-- Тип местности -->
+    <!-- Hilliness -->
   <Hilliness_Flat>Равнина</Hilliness_Flat>
   <Hilliness_SmallHills>Возвышенности</Hilliness_SmallHills>
   <Hilliness_LargeHills>Большие холмы</Hilliness_LargeHills>
   <Hilliness_Mountainous>Горы</Hilliness_Mountainous>
  
-  <!-- Интеграция с Мастерской Steam -->
+  <!-- Steam workshop interaction -->
   <WorkshopInteractStage_CreatingItem>Создать</WorkshopInteractStage_CreatingItem>
   <WorkshopInteractStage_SubmittingItem>Представить</WorkshopInteractStage_SubmittingItem>
   <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Недоступно</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
@@ -88,25 +88,25 @@
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Загрузка предварительного просмотра файла</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Зафиксировать изменения</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
-  <!-- Возможность обучения  -->
+  <!-- Trainable intelligence -->
   <TrainableIntelligence_None>Минимальная</TrainableIntelligence_None>
   <TrainableIntelligence_Simple>Низкая</TrainableIntelligence_Simple>
   <TrainableIntelligence_Intermediate>Обычная</TrainableIntelligence_Intermediate>
   <TrainableIntelligence_Advanced>Высокая</TrainableIntelligence_Advanced>
 
-  <!-- Виды медицинского ухода -->
+  <!-- Medical care category -->
   <MedicalCareCategory_NoCare>Без медицинской помощи</MedicalCareCategory_NoCare>
   <MedicalCareCategory_NoMeds>Врачебный уход, но без лекарств</MedicalCareCategory_NoMeds>
   <MedicalCareCategory_HerbalOrWorse>Врачебный уход и лечебные травы</MedicalCareCategory_HerbalOrWorse>
   <MedicalCareCategory_NormalOrWorse>Медикаменты или хуже</MedicalCareCategory_NormalOrWorse>
   <MedicalCareCategory_Best>Лучшие медицинские препараты</MedicalCareCategory_Best>
 
- <!-- Действия при обнаружении противника -->
+ <!-- Hostility response mode -->
   <HostilityResponseMode_Ignore>Игнорировать</HostilityResponseMode_Ignore>
   <HostilityResponseMode_Attack>Атаковать</HostilityResponseMode_Attack>
   <HostilityResponseMode_Flee>Убегать</HostilityResponseMode_Flee>
   
-  <!-- Состояние роста -->
+  <!-- HediffGrowthMode -->
   <HediffGrowthMode_Growing>растёт</HediffGrowthMode_Growing>
   <HediffGrowthMode_Stable>стабильно</HediffGrowthMode_Stable>
   <HediffGrowthMode_Remission>ремиссия</HediffGrowthMode_Remission>
