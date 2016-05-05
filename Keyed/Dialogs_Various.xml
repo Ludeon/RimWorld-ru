@@ -7,7 +7,7 @@
   
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>Восстановлено после несовместимых или поврежденных модов</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>Видимо, некоторые из активированных модов вызывали ошибки.\n\nОни были несовместимы друг с другом, предназначены для другой версии RimWorld либо повреждены.\n\nВсе моды были отключены и могут быть активированы повторно в меню модов.</RecoveredFromErrorsText>
+  <RecoveredFromErrorsText>Видимо, некоторые из активированных модов вызывали ошибки.\n\nОни были несовместимы друг с другом, предназначены для другой версии RimWorld либо повреждены.\n\nВсе моды были отключены и могут быть активированы повторно в соответствующем разделе меню.</RecoveredFromErrorsText>
    
   <!-- Errors during loading -->
   <ErrorWhileLoadingAssetsTitle>Ошибка при загрузке ассетов</ErrorWhileLoadingAssetsTitle>
@@ -81,14 +81,14 @@
   <Unresearched>Не изучено</Unresearched>
   <Finished>Завершено</Finished>
   <InProgress>В процессе</InProgress>
-  <Locked>Закрыто</Locked>
+  <Locked>Недоступно</Locked>
   <ResearchMenuWithoutBench>Пока вы не построите исследовательский стол, ваши поселенцы не смогут приступить к исследованиям.\n\nТем не менее, вы всё равно можете посмотреть и выбрать исследовательский проект прямо сейчас.</ResearchMenuWithoutBench>
   <ResearchPrerequisites>Требуемые иследования</ResearchPrerequisites>
   <RequiredResearchBench>Требуемый исследовательский стол</RequiredResearchBench>
   <RequiredResearchBenchFacilities>Требуемое оборудование для исследовательского стола</RequiredResearchBenchFacilities>
   
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>Внимание: Вы приземлитесь в обледенелой местности. Выживание там может быть очень сложным или нереальным. Если вы не хотите бросать себе экстремальный вызов, выберите другое место или сезон.</MapTemperatureDangerWarning>
+  <MapTemperatureDangerWarning>Внимание: вы приземлитесь в обледенелой местности. Выживание там может быть очень сложным или нереальным. Если не собираетесь бросать себе экстремальный вызов, выберите другое место или сезон.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Внимание: Производительность может падать с увеличением размера карты. Огромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
   <MapSize>Размер карты</MapSize>
   <MapSizeDesc>{0}x{0} ({1} клеток)</MapSizeDesc>
@@ -98,8 +98,8 @@
   <MapSizeExtreme>Огромная</MapSizeExtreme>
   <MapStartSeason>Начальный сезон:</MapStartSeason>
   <MapStartSeasonDefault>Авто</MapStartSeasonDefault>
-  <PermadeathMode>Перманентная смерть</PermadeathMode>
-  <PermadeathModeInfo>В режиме перманентной смерти вам доступна лишь одна ячейка сохранения, а сохраняться вы можете только при выходе из игры. Вы не можете перезагружаться, чтобы исправить ошибки, а если поселение погибает - это конец.\n\nЭто именно тот режим, в котором RimWorld и задумывался изначально, где любой поворот судьбы - печальный или удачный - отыгрывается в полную силу.</PermadeathModeInfo>
+  <PermadeathMode>"Хардкор"</PermadeathMode>
+  <PermadeathModeInfo>В этом режиме доступна лишь одна ячейка сохранения, а сохраняться возможно только при выходе из игры. Нельзя перезагружаться, чтобы исправить ошибки, а если колония погибает - это конец.\n\nЭто именно тот режим, в котором RimWorld и задумывался изначально, где любой поворот судьбы - печальный или удачный - отыгрывается в полную силу.</PermadeathModeInfo>
 
   <!-- Bill config -->
   <Suspended>Продолжить</Suspended>
@@ -186,7 +186,7 @@
   <TraderWillNotTrade>Торговец не желает торговать этим товаром.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием более здорового переговорщика.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>У торговца недостаточно серебра, чтобы завершить эту сделку.  Продолжить всё равно?</ConfirmTraderShortFunds>
-  <SortBy>Сортировать по</SortBy>
+  <SortBy>Подбор по</SortBy>
  
   <!-- Comms -->
   <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
