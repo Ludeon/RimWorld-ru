@@ -24,6 +24,7 @@
 * [Zenya135](https://github.com/Zenya135)
 * [Markell](https://github.com/Markell)
 * [Xelogian](https://github.com/Xelogian)
+* [dragomano](https://github.com/dragomano)
 
 ## Больше информации о лицензии:
 http://ludeon.com/forums/index.php?topic=2933.0
