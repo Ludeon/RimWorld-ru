@@ -1,43 +1,56 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Tier 2 Misc -->
+  <!--================================ Tier 2: Basic electricity ====================================-->
+  
+    <Batteries.label>аккумуляторы</Batteries.label>
+	<Batteries.description>Создание аккумуляторов для хранения электроэнергии.</Batteries.description>
+	
+	<NutrientPaste.label>питательная паста</NutrientPaste.label>
+	<NutrientPaste.description>Создание дозаторов для эффективного производства пищевых блюд из различного сырья.</NutrientPaste.description>
+	
+	<SolarPanels.label>солнечные панели</SolarPanels.label>
+	<SolarPanels.description>Создание панелей с солнечными батареями для выработки электроэнергии.</SolarPanels.description>
+	
+	<AirConditioning.label>кондиционер</AirConditioning.label>
+	<AirConditioning.description>Создание кондиционеров для поддержания различной температуры в помещениях.</AirConditioning.description>
+	
+	<Autodoors.label>автодвери</Autodoors.label>
+	<Autodoors.description>Создание дверей, автоматически открывающихся при приближении поселенцев.</Autodoors.description>
+  
+  	<Hydroponics.label>гидропоника</Hydroponics.label>
+	<Hydroponics.description>Позволяет строить столы с гидропоникой для быстрого выращивания растений в помещении вне зависимости от почвы и погоды снаружи.</Hydroponics.description>
+	
+	<ElectricSmelting.label>электроплавка</ElectricSmelting.label>
+	<ElectricSmelting.description>Позволяет строить электрические плавильни и кузни.\n\nЭлектрокузни позволяют ковать предметы без затрат топлива, а электроплавильни - извлекать металл из кусков шлака и других предметов при помощи сильных электромагнитов и высоких температур.</ElectricSmelting.description>
 
-	<Firefoam.label>пожарная пена</Firefoam.label>
-	<Firefoam.description>Позволяет поселенцам конструировать шлопушки с пожарной пеной - противопожарные устройства, которые при наступлении огня разбрасывают вокруг себя огнезащитную пену.</Firefoam.description>
+	<ElectricCremation.label>кремация</ElectricCremation.label>
+	<ElectricCremation.description>Позволяет строить крематории, в которых можно сжигать нежелательные трупы.</ElectricCremation.description>
+	
+	<ColoredLights.label>цветное освещение</ColoredLights.label>
+	<ColoredLights.description>Позволяет поселенцам создавать цветные лампы для украшения.</ColoredLights.description>
+	
+	<Machining.label>механика</Machining.label>
+	<Machining.description>Позволяет строить верстаки, на которых может быть создано оружие и оборудование, а мёртвые механоиды могут быть разобраны на металл.</Machining.description>
+	
+	<Mortars.label>миномёты</Mortars.label>
+	<Mortars.description>Позволяет строить миномёты, которые могут запускать снаряды на большие расстояния над стенами.</Mortars.description>
+	
+	<IEDBomb.label>взрывные СВУ</IEDBomb.label>
+	<IEDBomb.description>Позволяет поселенцам создавать взрывные образцы СВУ (самодельные взрывные устройства) из артиллерийских снарядов.</IEDBomb.description>
 
-	<GeothermalPower.label>геотермальная энергия</GeothermalPower.label>
-	<GeothermalPower.description>Позволяет строить геотермальные электростанции на паровых гейзерах для непрерывной выработки электроэнергии.</GeothermalPower.description>
+	<IEDIncendiary.label>зажигательные СВУ</IEDIncendiary.label>
+	<IEDIncendiary.description>Позволяет поселенцам создавать зажигательные образцы СВУ (самодельные взрывные устройства) из артиллерийских снарядов.</IEDIncendiary.description>
+	
+	<MicroelectronicsBasics.label>основы микроэлектроники</MicroelectronicsBasics.label>
+	<MicroelectronicsBasics.description>Основы работы с тонкой и сложной электроникой. Это знание открывает высокотехнологичый исследовательский верстак, консоль связи, а также другие проекты, такие как телевидение и контейнеры крипто-сна.</MicroelectronicsBasics.description>
+	
+  <!--=============================== Tier 2.5 Microelectronics ===================================-->
 
-	<HospitalBed.label>больничные койки</HospitalBed.label>
-	<HospitalBed.description>Позволяет поселенцам строить больничные койки, которые увеличивают шанс успешных медицинских операций.</HospitalBed.description>
-
-	<MultiAnalyzer.label>мульти-анализаторы</MultiAnalyzer.label>
-	<MultiAnalyzer.description>Позволяет поселенцам конструировать мульти-анализаторы, которые увеличивают скорость исследований, а также открывают доступ к исследованиям более высокого уровня, если они расположены рядом с исследовательским столом.</MultiAnalyzer.description>
-
-	<!-- Tier 2.5 Misc -->
-
-	<VitalsMonitor.label>мониторы жизн. показателей</VitalsMonitor.label>
-	<VitalsMonitor.description>Позволяет поселенцам конструировать мониторы жизненных показателей - приборы, улучшающие качество лечения пациентов при размещении рядом с медицинскими кроватями.</VitalsMonitor.description>
-
-	<Cryptosleep.label>контейнеры крипто-сна</Cryptosleep.label>
-	<Cryptosleep.description>Позволяет поселенцам строить контейнеры крипто-сна, которые могут на время погружать живых существ в состояние анабиоза.</Cryptosleep.description>
-
-	<ComponentAssembly.label>сборка компонентов</ComponentAssembly.label>
-	<ComponentAssembly.description>Позволяет вам строить специальные верстаки, где поселенцы смогут собирать из простых материалов необходимые для поселения компоненты.</ComponentAssembly.description>
-
-	<PoweredArmor.label>силовая броня</PoweredArmor.label>
-	<PoweredArmor.description>Робототехника на основе нейронных систем и продвинутые технологии в области изготовления предметов из пластали позволяют вам создавать силовую броню и шлемы силовой брони.</PoweredArmor.description>
-
-	<ChargedShot.label>энергетическое оружие</ChargedShot.label>
-	<ChargedShot.description>Понимание секретов импульсно-зарядных энергетических патронов. Позволяет вам создавать импульсные винтовки.</ChargedShot.description>
-
-	<MultibarrelWeapons.label>многоствольное оружие</MultibarrelWeapons.label>
-	<MultibarrelWeapons.description>Позволяет вам создавать миниганы.</MultibarrelWeapons.description>
-
-  <!--неактивные исследования
-	<LargeRockets.label>largerockets</LargeRockets.label>
-	<LargeRockets.description>Allows you to build doomsday rocket launchers and triple rocket launchers, one-shot assault weapons that pack a massive punch.</LargeRockets.description>
-  -->
+	<TubeTelevision.label>ЭЛТ телевидение</TubeTelevision.label>
+	<TubeTelevision.description>Позволяет создавать телевизоры на электоронно-лучевых трубках.</TubeTelevision.description>
+	
+	<GunTurrets.label>пулеметные турели</GunTurrets.label>
+	<GunTurrets.description>Позволяет создавать автоматизированные пулеметные турели.</GunTurrets.description>
   
 </LanguageData>
