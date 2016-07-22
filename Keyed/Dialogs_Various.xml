@@ -40,7 +40,7 @@
   <NeedAName>Пожалуйста, введите название.</NeedAName>
   <LoadingLongEvent>Загрузка</LoadingLongEvent>
   <SavingLongEvent>Сохранение</SavingLongEvent>
-  <PermadeathModeSaveSuffix>(Пермасмерть)</PermadeathModeSaveSuffix>
+  <PermadeathModeSaveSuffix>(Хардкор)</PermadeathModeSaveSuffix>
   <SaveIsFromDifferentGameVersion>Версия игры {0}, данное сохранение относится к {1}, совершенно другой версии игры. \n\n Попытка загрузки данного сохранения скорее всего не увенчается успехом.</SaveIsFromDifferentGameVersion>
   <SaveIsFromDifferentGameBuild>Версия игры {0}, данное сохранение относится к {1}, другому билду той же версии. \n\n Попытка загрузки данного сохранения может оказаться успешной.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Данные сохранены этой версией игры и должны работать без проблем.</SaveIsFromThisGameBuild>
@@ -135,9 +135,11 @@
   <Accuracy>Точность</Accuracy>
   <BurstShotCount>Выстрелов</BurstShotCount>
   <WarmupTime>Изготовка</WarmupTime>
+  <WarmupTimeFormat>{0} сек</WarmupTimeFormat>
   <MeleeWarmupTime>Тренировка</MeleeWarmupTime>
   <CooldownTime>Перезарядка</CooldownTime>
   <BurstShotFireRate>Темп стрельбы</BurstShotFireRate>
+<!-- Не тот код. Не знаю, какой он должен быть, и в каком файле. <BurstShotFireRateFormat>{0} п/мин</BurstShotFireRateFormat> -->
   <Range>Дальность</Range>
   <GrowsWild>Дикое</GrowsWild>
   <Harvestable>Собираемое</Harvestable>

@@ -6,6 +6,14 @@
   <Lit>Светло</Lit>
   <LitBrightly>Очень светло</LitBrightly>
 
+  <!-- diet type
+  <NeverEats>Не ест</NeverEats>
+  <Omnivorous>Всеядный</Omnivorous>
+  <Herbivorous>Травоядный</Herbivorous>
+  <Carnivorous>Плотоядный</Carnivorous>
+  <Dendrovorous>Древоядный</Dendrovorous>
+  -->
+  
   <!-- history upload pref -->
   <Unspecified>Ещё не решено</Unspecified>
   <Always>Позволять</Always>
@@ -17,14 +25,6 @@
   <PriceTypeNormal>нормальная</PriceTypeNormal>
   <PriceTypeExpensive>высокая</PriceTypeExpensive>
   <PriceTypeExorbitant>непомерная</PriceTypeExorbitant>
-  
-  <!-- Storage priority labels -->
-  <StoragePriorityUnstored>Не использовать</StoragePriorityUnstored>
-  <StoragePriorityLow>Низкий</StoragePriorityLow>
-  <StoragePriorityNormal>Обычный</StoragePriorityNormal>
-  <StoragePriorityPreferred>Повышенный</StoragePriorityPreferred>
-  <StoragePriorityImportant>Высокий</StoragePriorityImportant>
-  <StoragePriorityCritical>Максимальный</StoragePriorityCritical>
 
   <!-- Food type flags -->
   <FoodTypeFlags_VegetableOrFruit>овощи/фрукты</FoodTypeFlags_VegetableOrFruit>
@@ -49,6 +49,7 @@
   <QualityCategory_Excellent>превосходно 3</QualityCategory_Excellent>
   <QualityCategory_Masterwork>шедевр 4</QualityCategory_Masterwork>
   <QualityCategory_Legendary>легенда 5</QualityCategory_Legendary>
+
   <QualityCategoryShort_Awful>ужасн</QualityCategoryShort_Awful>
   <QualityCategoryShort_Shoddy>отвр</QualityCategoryShort_Shoddy>
   <QualityCategoryShort_Poor>плох</QualityCategoryShort_Poor>
@@ -86,10 +87,6 @@
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Загрузка содержимого</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Загрузка предварительного просмотра файла</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Зафиксировать изменения</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
-  
-  <!-- Mod sources -->
-  <ContentSource_LocalFolder>локальная директория</ContentSource_LocalFolder>
-  <ContentSource_SteamWorkshop>Мастерская Steam</ContentSource_SteamWorkshop>
 
   <!-- Trainable intelligence -->
   <TrainableIntelligence_None>Минимальная</TrainableIntelligence_None>
@@ -113,34 +110,5 @@
   <HediffGrowthMode_Growing>растёт</HediffGrowthMode_Growing>
   <HediffGrowthMode_Stable>стабильно</HediffGrowthMode_Stable>
   <HediffGrowthMode_Remission>ремиссия</HediffGrowthMode_Remission>
-  
-  <!-- TechLevel -->
-  <TechLevel_Animal>животные</TechLevel_Animal>
-  <TechLevel_Neolithic>неолит</TechLevel_Neolithic>
-  <TechLevel_Medieval>средневековье</TechLevel_Medieval>
-  <TechLevel_Industrial>индустриальный</TechLevel_Industrial>
-  <TechLevel_Spacer>spacer</TechLevel_Spacer>
-  <TechLevel_Ultra>ультра</TechLevel_Ultra>
-  <TechLevel_Transcendent>трансцендентальный</TechLevel_Transcendent>
-
-  <!-- Player pawns arrive method -->
-  <PlayerPawnsArriveMethod_Standing>Стоя</PlayerPawnsArriveMethod_Standing>
-  <PlayerPawnsArriveMethod_DropPods>В капсулах</PlayerPawnsArriveMethod_DropPods>
-
-  <!-- Pawn generation context -->
-  <PawnGenerationContext_All>все персонажи</PawnGenerationContext_All>
-  <PawnGenerationContext_PlayerStarter>персонажи игрока</PawnGenerationContext_PlayerStarter>
-  <PawnGenerationContext_NonPlayer>неигровые персонажи</PawnGenerationContext_NonPlayer>
-  
-  <!-- Animal name display mode -->
-  <ShowAnimalNames>Названия животных</ShowAnimalNames>
-  <AnimalNameDisplayMode_TameNamed>Прирученные (только имена)</AnimalNameDisplayMode_TameNamed>
-  <AnimalNameDisplayMode_TameAll>Прирученные (все)</AnimalNameDisplayMode_TameAll>
-  
-  <!-- Temperature -->
-  <Celsius>Цельсий</Celsius>
-  <Fahrenheit>Фаренгейт</Fahrenheit>
-  <Kelvin>Кельвин</Kelvin>
-  
 
 </LanguageData>

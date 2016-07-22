@@ -6,7 +6,7 @@
   <GameStartDialog>Вы трое проснулись в своих саркофагах крипто-сна под звук сирен и скрежет металла. Едва вы успели добраться до спасательных капсул, как корабль развалился на части.\n\nНекоторое время спустя вы приземлились на эту неизвестную планету.\n\nПод звездопадом из обломков корабля вы начинаете строить планы по выживанию.</GameStartDialog>
 
   <!--Эта <Colony> не изменяется динамически, - не подставляется данное поселению имя, это недоработка автора. Из-за этого же она не изменяется при перезагрузке перевода, только при создании нового поселения.-->
-  <Colony>поселения</Colony>
+  <Colony>Поселения</Colony>
 
   <ChangeLanguageFromMainMenu>Язык можно сменить только в главном меню.</ChangeLanguageFromMainMenu>
 
@@ -20,17 +20,6 @@
   <CompiledOn>Сборка от {0}</CompiledOn>
   <LoggedIntoSteamAs>Вы вошли в Steam как {0}</LoggedIntoSteamAs>
   
-  <!-- General-use words -->
-  <Yes>Да</Yes>
-  <No>Нет</No>
-  <min>мин</min>
-  <max>макс</max>
-  <chance>вероятность</chance>
-  <context>обстановка</context>
-  <multiplier>коэффициент</multiplier>
-  <damage>урон</damage>
-  <radius>радиус</radius>
-  <durationDays>продолжительность (дней)</durationDays>  
   
   <!-- Content generation-->
 
@@ -59,7 +48,11 @@
   <!-- 0 это nameAsStuff в stuffProps (см. Items_Resources.xml) и 1 это название вещи -->
   <ThingMadeOfStuffLabel>{1} из {0}</ThingMadeOfStuffLabel>
 
-  <SomeonesRoom>{1} в собственности у: {0}</SomeonesRoom>
+  <!-- Чтобы выразить принадлежность. -->
+  <!-- Например: "Jack's Bedroom" -->
+  <!-- Проблема с женским родом в ру-версии. "В собственности у Джон(а)", но "в собственности у Фиби(а)". Поэтому не окончание, а двоеточие.-->
+  <SomeonesSomething>{1} в собственности у: {0}</SomeonesSomething>
+  <SomeonesRoom>{1} {0}</SomeonesRoom>
   <CouplesRoom>{2} {0} и {1}</CouplesRoom>
    
   <VariousLabel>(различное)</VariousLabel>
