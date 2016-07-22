@@ -1,56 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- ==================== Bases ========================== -->
-<!--
-  <ThingDef Name="BaseEquipment" Abstract="True">
-    <equipmentType>Secondary</equipmentType>
-***    <label>equipment lacks label</label>
-    <thingClass>ThingWithComps</thingClass>
-    <category>Item</category>
-    <useHitPoints>true</useHitPoints>
-    <selectable>true</selectable>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <description>Equipment lacks desc.</description>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
-    </comps>
-    <alwaysHaulable>true</alwaysHaulable>
-    <tickerType>Never</tickerType>
-  </ThingDef>
-
-
-  <ThingDef Name="BaseGrenadeProjectile" Abstract="True">
-    <category>Projectile</category>
-    <altitudeLayer>Projectile</altitudeLayer>
-    <thingClass>Projectile_Explosive</thingClass>
-***    <label>projectile</label>
-    <tickerType>Normal</tickerType>
-    <useHitPoints>False</useHitPoints>
-    <neverMultiSelect>True</neverMultiSelect>
-    <graphicData>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <projectile>
-      <speed>12</speed>
-      <flyOverhead>false</flyOverhead>
-    </projectile>
-  </ThingDef>
--->
-
 	<!-- ==================== Frag grenade ========================== -->
 
 	<Proj_GrenadeFrag.label>граната</Proj_GrenadeFrag.label>
