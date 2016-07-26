@@ -15,7 +15,7 @@
   <Unowned>Ничья</Unowned>
   <DeadTime>Мёртв уже {0}</DeadTime>
   <WalkSpeed>скорость {0}</WalkSpeed>
-  <FertShort>плодород-ть</FertShort>
+  <FertShort>плодородность</FertShort>
   <DyingLower>умирает</DyingLower>
   <FilthOnFeet>Грязь на ногах:</FilthOnFeet>
   <NotEnoughStoredLower>недостаточно</NotEnoughStoredLower>
@@ -57,7 +57,7 @@
   <Enemies>врагов</Enemies>
   <TimePassed>времени прошло</TimePassed>
   <CurrentRadius>текущий радиус</CurrentRadius>
-  <RadiusExpandsIn>radius expands in</RadiusExpandsIn>
+  <RadiusExpandsIn>радиус увеличится через</RadiusExpandsIn>
   <Permanent>постоянный</Permanent>
   
   <!--TextMotes-->  
@@ -76,8 +76,7 @@
   <TextMote_FixBrokenDownBuildingFail>Не получилось\nпочинить</TextMote_FixBrokenDownBuildingFail>
   <TextMote_ConstructionFail>Строительство\nнеудачно</TextMote_ConstructionFail>
   
-  
-  <!-- Areas -->
+    <!-- Areas -->
   <Home>Домашняя</Home>
   <BuildRoof>Построить крышу</BuildRoof>
   <NoRoof>Без крыши</NoRoof>
@@ -110,21 +109,21 @@
   <ShellNotLoaded>Не заряжено</ShellNotLoaded>
 
   <!-- Job reports -->  
-  <ReportHaulingTo>Несёт {0} на (для) {1}.</ReportHaulingTo>
-  <ReportHauling>Несёт {0}.</ReportHauling>
-  <ReportSleeping>Спит.</ReportSleeping>
-  <ReportResting>Отдыхает.</ReportResting>
-  <WatchingSunrise>Наблюдет за восходом.</WatchingSunrise>
-  <CloudWatching>Наблюдает за облаками.</CloudWatching>
-  <WatchingSunset>Наблюдает за закатом.</WatchingSunset>
-  <Stargazing>Мечтает.</Stargazing>
-  <WatchingEclipse>Наблюдает за затмением.</WatchingEclipse>
-  <UsingVerb>Использует {0} на {1}.</UsingVerb>
+  <ReportHaulingTo>несёт {0} на (для) {1}.</ReportHaulingTo>
+  <ReportHauling>несёт {0}.</ReportHauling>
+  <ReportSleeping>спит.</ReportSleeping>
+  <ReportResting>отдыхает.</ReportResting>
+  <WatchingSunrise>наблюдет за восходом.</WatchingSunrise>
+  <CloudWatching>наблюдает за облаками.</CloudWatching>
+  <WatchingSunset>наблюдает за закатом.</WatchingSunset>
+  <Stargazing>мечтает.</Stargazing>
+  <WatchingEclipse>наблюдает за затмением.</WatchingEclipse>
+  <UsingVerb>использует {0} на {1}.</UsingVerb>
   <AreaLower>область</AreaLower>
-  <ReportCowering>Прикрывает.</ReportCowering> 
-  <ReportStanding>standing.</ReportStanding>
+  <ReportCowering>пятится.</ReportCowering> 
+  <ReportStanding>стоит.</ReportStanding>
   <ReportExtinguishingFire>тушит пожар.</ReportExtinguishingFire>
-  <ReportExtinguishingFireOn>тушит пожар на {0}.</ReportExtinguishingFireOn>
+  <ReportExtinguishingFireOn>сбивает огонь с {0}.</ReportExtinguishingFireOn>
   
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>Посещает церемонию бракосочетания</LordReportAttendingMarriageCeremony>
@@ -141,7 +140,7 @@
   <ShootingCover>Укрытие</ShootingCover>
   <CoverThingBlocksPercentOfShots>{0} блокирует {1}</CoverThingBlocksPercentOfShots>
   <NoCoverLower>нет укрытия</NoCoverLower>
-  <Execution>Execution</Execution>
+  <Execution>Казнь</Execution>
 
   <!-- Generated recipes -->  
   <RecipeMake>Сделать {0}</RecipeMake>
@@ -163,7 +162,7 @@
   <Equipped>Вооружён</Equipped>
   <EquippedNothing>Не вооружён</EquippedNothing>
   <Incapacitated>Без сознания</Incapacitated>
-  <InRestraints>В плену (задержан)</InRestraints>
+  <InRestraints>В оковах (замедлен)</InRestraints>
   <Carrying>Переносит</Carrying>
 
   <!-- Inspector general stuff -->
@@ -188,8 +187,8 @@
   <!-- Temperature control -->
   <TargetTemperature>Заданная температура</TargetTemperature>
   <PowerConsumptionMode>Потребление энергии</PowerConsumptionMode>
-  <PowerConsumptionHigh>Высокое</PowerConsumptionHigh>
-  <PowerConsumptionLow>Низкое</PowerConsumptionLow>
+  <PowerConsumptionHigh>высокое</PowerConsumptionHigh>
+  <PowerConsumptionLow>низкое</PowerConsumptionLow>
 
   <!-- Temperature readout -->
   <Indoors>Внутри</Indoors>
@@ -327,7 +326,7 @@
   <!-- Game over -->
   <GameOverEveryoneDead>Все поселенцы либо мертвы, либо ушли. Конец истории.\n\nВозможно, кто-то другой сможет найти применение этим руинам.</GameOverEveryoneDead>
   <GameOverShipLaunched>Вы запустили корабль! Эти поселенцы спаслись:\n\n{0}\nЭти поселенцы остались:\n\n{1}\nВаш ИИ теперь будет пытаться направить корабль в безопасное место. Он может найти для вас процветающую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая пока кто-нибудь не выстроит здесь новый технологичный мир.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
-  <GameOverPlanetkillerImpact>At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive.</GameOverPlanetkillerImpact>
+  <GameOverPlanetkillerImpact>С близкой к световой скоростью разрушитель планет врезался в поверхность с силой триллиона водородных бомб. Подобно наполненному водой воздушному шарику, простреленному из ружья, этот мир расплавился от столкновения и разбрызгал свои внутренности по космосу.\n\nЧасти {0} теперь составляют пояс астероидов. Всё остальное - расплавленный радиоактивный адский пейзаж, непрерывно сотрясаемый многими километрами в высоту землетрясениями.\n\nВы не выжили.</GameOverPlanetkillerImpact>
   <GameOverKeepPlaying>Продолжить играть</GameOverKeepPlaying>
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
 
@@ -348,15 +347,15 @@
   <DiseaseGrowthModeChanged_Remission>{1} {0} в стадии ремиссии.</DiseaseGrowthModeChanged_Remission>
   
   <!-- Marriage spot -->
-  <MarriageSpotUsable>Usable now.</MarriageSpotUsable>
-  <MarriageSpotNotUsable>Not usable: {0}.</MarriageSpotNotUsable>
-  <MarriageSpotNotStandable>blocked</MarriageSpotNotStandable>
-  <MarriageSpotDangerous>too dangerous for {0}</MarriageSpotDangerous>
-  <MarriageSpotForbidden>forbidden for {0}</MarriageSpotForbidden>
-  <MarriageSpotReserved>reserved</MarriageSpotReserved>
-  <MarriageSpotUnreachable>unreachable for {0}</MarriageSpotUnreachable>
-  <MarriageSpotInPrisonCell>in prison cell</MarriageSpotInPrisonCell>
-  <NotEnjoyableOutsideTemperature>uncomfortable temperature</NotEnjoyableOutsideTemperature>
+  <MarriageSpotUsable>Может быть использовано.</MarriageSpotUsable>
+  <MarriageSpotNotUsable>Не может быть использовано: {0}.</MarriageSpotNotUsable>
+  <MarriageSpotNotStandable>заблокировано</MarriageSpotNotStandable>
+  <MarriageSpotDangerous>слишком опасно для {0}</MarriageSpotDangerous>
+  <MarriageSpotForbidden>запрещено для {0}</MarriageSpotForbidden>
+  <MarriageSpotReserved>зарезервировано</MarriageSpotReserved>
+  <MarriageSpotUnreachable>недостижимо для {0}</MarriageSpotUnreachable>
+  <MarriageSpotInPrisonCell>в тюремной камере</MarriageSpotInPrisonCell>
+  <NotEnjoyableOutsideTemperature>некомфортная температура</NotEnjoyableOutsideTemperature>
   
   <!-- Colonist bar -->
   <ActivityIconMedicalRest>Отдыхает</ActivityIconMedicalRest>
@@ -364,10 +363,10 @@
   <ActivityIconFleeing>Убегает</ActivityIconFleeing>
   <ActivityIconAttacking>Воюет</ActivityIconAttacking>
   <ActivityIconIdle>Бездельничает</ActivityIconIdle>
-  <ActivityIconBurning>Burning</ActivityIconBurning>
+  <ActivityIconBurning>Горит</ActivityIconBurning>
 
   <!-- Maintainable -->
-  <DueForMaintenance>Due for maintenance.</DueForMaintenance>
-  <DeterioratingDueToLackOfMaintenance>Ухудшается из-за отсутствия технического обслуживания.</DeterioratingDueToLackOfMaintenance>
+  <DueForMaintenance>Необходимо обслуживание.</DueForMaintenance>
+  <DeterioratingDueToLackOfMaintenance>Ветшает из-за отсутствия технического обслуживания.</DeterioratingDueToLackOfMaintenance>
 
 </LanguageData>

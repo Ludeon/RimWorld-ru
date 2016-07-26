@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <Confirm>Подтвердить</Confirm>
@@ -17,6 +17,9 @@
   <ErrorWhileGeneratingMap>Произошла ошибка при генерации карты. Посмотрите лог для подробной информации.</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>Ошибка при загрузке карты</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>Произошла ошибка при загрузке карты. Посмотрите лог для подробной информации.</ErrorWhileLoadingMap>
+  
+  <!-- Missing Steam -->
+  <SteamClientMissing>Невозможно инициализировать Steam API. Возможные причины:\n\n-Steam не запущен.\n-Игра запущена из Steam при отсутствующем на месте steam_appid.txt.\n-Игра запущена с отличающимися от запуска Steam привилегиями (например "от имени администратора").\n\nВ большинстве случаев перезагрузка компьютера решит проблему.\n\nЭто Steam-версия игры, и так как для неё требуется Steam, игра сейчас будет закрыта.</SteamClientMissing>
   
   <!-- Long events -->
   <InitializingInterface>Инициализация интерфейса</InitializingInterface>
@@ -46,7 +49,8 @@
   <SaveIsFromThisGameBuild>Данные сохранены этой версией игры и должны работать без проблем.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Данные сохранены в неизвестном формате и скорее всего не загрузятся корректно.</SaveIsUnknownFormat>
   <ProblemSavingFile>Были проблемы с сохранением файла {0}:\n\n{1}</ProblemSavingFile>
-    
+  <LoadAnyway>Загрузить в любом случае</LoadAnyway>
+   
   <!-- Colony naming-->
   <NameColonyMessage>Похоже, вы тут надолго. {0} предлагает дать поселению название.\n\nКак вы назовёте его?</NameColonyMessage>
   <ColonyGainsName>Поселение теперь известно как {0}.</ColonyGainsName>
@@ -62,8 +66,9 @@
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>Несовпадение версий</VersionMismatch>
-  <SaveGameIncompatibleWarningText>Внимание: Эта карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого сохранения может вызвать ошибки и сбои.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningText>Внимание: Эта игра была сохранена в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого сохранения может вызвать ошибки и сбои.</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>Внимание: Этот мир был сгенерирован в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого мира, вероятно, вызовет ошибки и сбои. Рекомендуется сгенерировать новый мир.</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>Внимание: Этот файл был сохранён в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого файла может вызвать ошибки и сбои.</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>Несоответствие модов</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>Внимание: Эта карта была сохранена с набором модов, отличным от текущего. Это может вызвать, а может и не вызвать проблемы, в зависимости от содержания модов.\n\nКарта была сохранена с:\n\n{0}\n\nСейчас подключены:\n\n{1}</ModsMismatchWarningText>
   
@@ -71,9 +76,6 @@
   <ConfirmResolutionChange>Вы изменили настройки экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Сохранить</ResolutionKeep>
   <ResolutionRevert>Отменить</ResolutionRevert>
-
-  <!-- Overview -->
-  <!--<OverviewOf>Обзор {0}</OverviewOf>-->
 
   <!-- Research -->
   <Research>Исследование</Research>
@@ -145,7 +147,10 @@
   <GrowingTime>Время созревания</GrowingTime>
   <GrowingTimeDesc>Растения растут только часть дня и только когда светло. Этот показатель измеряет время, в течении которого растение должно непрерывно расти, чтобы вырасти полностью. Реальное время будет примерно в два раза больше. Низкие температуры также замедляют рост.</GrowingTimeDesc>
   <Days>дней</Days>
+  <MinGrowingSkillToSow>Минимальный необходимый уровень навыка выращивания для засевания</MinGrowingSkillToSow>
   <FertilityRequirement>Требования к почве</FertilityRequirement>
+  <SoilFertilitySensitivityGrowthRate>Чуствительность к плодородности земли (скорость роста)</SoilFertilitySensitivityGrowthRate>
+  <SoilFertilitySensitivityPlantChance>Чуствительность к плодородности земли (шанс прижиться)</SoilFertilitySensitivityPlantChance>
   <LightRequirement>Требования к свету</LightRequirement>
   <Attributes>Атрибуты</Attributes>
   <LifeSpan>Рост</LifeSpan>
@@ -158,6 +163,7 @@
   <RecruitDifficulty>Сложность вербовки</RecruitDifficulty>
   <MarketValue>Базовая цена</MarketValue>
   <Covers>Покрывает</Covers>
+  <MedicineXpGainFactor>Фактор прироста опыта</MedicineXpGainFactor>
   <BodyPartEfficiency>Эффективность части тела</BodyPartEfficiency>
   <MoodChange>Смена настроения</MoodChange>
   <Wildness>Дикость</Wildness>
@@ -168,7 +174,7 @@
   <MiscRecordsCategory>Прочее</MiscRecordsCategory>
   
   <!-- Trade -->
-  <DragToTrade>Тяните для торговли</DragToTrade>
+  <PositiveBuysNegativeSells>Положительное число - покупка.\nОтрицательное число - продажа.</PositiveBuysNegativeSells>
   <BuyPriceDesc>Цена, по которой можно купить товар.</BuyPriceDesc>
   <SellPriceDesc>Цена, по которой можно продать товар.</SellPriceDesc>
   <PriceTypeDesc>Для данного товара это {0} цена.</PriceTypeDesc>
@@ -209,4 +215,7 @@
   <OutfitInUse>Одежда используется {0}.</OutfitInUse>
   <NoOutfitSelected>Набор одежды не выбран</NoOutfitSelected>
   
+  <!-- Growing -->
+  <NoGrowerCanPlant>{0} требует уровня {1} в Выращивании для посадки.\n\nНикто из ваших находящихся в сознании садоводов не обладает достаточным навыком, поэтому данное растение не будет высаживаться.</NoGrowerCanPlant>
+
 </LanguageData>

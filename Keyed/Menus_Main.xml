@@ -5,7 +5,7 @@
   <CreateWorld>Создать мир</CreateWorld>
   <NewColony>Новое поселение</NewColony>
   <BackToGame>Назад в игру</BackToGame>
-  <ReviewScenario>Посмотреть историю</ReviewScenario>
+  <ReviewScenario>Обзор сценария</ReviewScenario>
   <Save>Сохранить</Save>
   <LoadGame>Загрузить</LoadGame>
   <Options>Настройки</Options>
@@ -23,7 +23,7 @@
   <TynansDesignBook>Книга Тайнена</TynansDesignBook>
   <HelpTranslate>Помощь в переводе RimWorld</HelpTranslate>
   <BuySoundtrack>Купить саундтрек</BuySoundtrack>
-
+  
   <!--=========== Создать/просмотреть мир ================-->
   <ReviewWorld>Просмотр мира</ReviewWorld>
   <WorldGenerate>Создать</WorldGenerate>
@@ -31,14 +31,14 @@
   <Reset>Сбросить</Reset>
   <WorldSize>Размер</WorldSize>
   <WorldSeed>Карта</WorldSeed>
-  <RandomizeSeed>Случайное зерно</RandomizeSeed>
+  <RandomizeSeed>Случайная карта</RandomizeSeed>
 
   <!--=========== Выбор мира ===================-->
   <SelectWorld>Выбор мира</SelectWorld>
   <WorldChooseButton>Выбрать</WorldChooseButton>
   <NoWorldsFilesFound>Нет ни одного созданного мира. Сперва создайте мир.</NoWorldsFilesFound>
 
-  <!--=========== Информация о версии ==========-->
+  <!--=========== Сведения о версии ==========-->
   <BuildNowAvailable>Доступна новая версия {0}. Зайдите на ludeon.com для получения информации.</BuildNowAvailable>
   <BuildUpToDate>У вас последняя версия.</BuildUpToDate>
   <ErrorGettingVersionInfo>Ошибка получения данных о версии: {0}</ErrorGettingVersionInfo>
@@ -47,52 +47,50 @@
   <!--=========== Генератор мира =========-->
   <GenerateWorld>Создать мир</GenerateWorld>
 
-  <!--=========== Настройка модификаций ==========-->
-  <OpenSteamWorkshop>Открыть "Steam Workshop"</OpenSteamWorkshop>
+  <!--=========== Страница модов ==========-->
+  <OpenSteamWorkshop>Открыть Мастерскую Steam</OpenSteamWorkshop>
   <GetModsFromForum>Скачать моды с форума</GetModsFromForum>
-  <OpenModsDataFolder>Открыть папку с модами</OpenModsDataFolder>
+  <OpenModsDataFolder>Открыть папку модов</OpenModsDataFolder>
   <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все основные возможности.\n\nПомните, другие модификации могут переопределять значения ядра с помощью таких же значений defName.</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>Вы уверены, что хотите удалить {0}?</ConfirmDeleteMod>
   <Unsubscribe>Деактивировать</Unsubscribe>
-  <ConfirmUnsubscribe>Вы уверены что хотите деактивировать {0}?</ConfirmUnsubscribe>
+  <ConfirmUnsubscribe>Вы уверены, что хотите деактивировать {0}?</ConfirmUnsubscribe>
   <Author>Автор</Author>
-  <WorkshopPage>Страница "Steam Workshop"</WorkshopPage>
-  <UploadToSteamWorkshop>Загрузить в "Steam Workshop"</UploadToSteamWorkshop>
-  <UpdateOnSteamWorkshop>Обновить в "Steam Workshop"</UpdateOnSteamWorkshop>
+  <WorkshopPage>Мастерская Steam</WorkshopPage>
+  <UploadToSteamWorkshop>Загрузить в Мастерскую Steam</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>Обновить в Мастерской Steam</UpdateOnSteamWorkshop>
   <UploadAlreadyInProgress>Процесс загрузки.</UploadAlreadyInProgress>
   <WorkshopSubmissionFailed>Подключение прервано.\n\nПричина: {0}</WorkshopSubmissionFailed>
   <WorkshopUploadSucceeded>Успешно загружено {0}.</WorkshopUploadSucceeded>
-  <Downloading>Скачивается: {0}</Downloading>
+  <Downloading>Скачивается</Downloading>
   <Source>Источник</Source>
   <ModTargetVersion>Необходимая версия: {0}</ModTargetVersion>
   <ModNotMadeForThisVersion>Эта модификация была разработана не для этой версии Rimworld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion>
-  <MessageModNeedsWellFormattedTargetVersion>Модификации требуется грамотно отформатированная версия в About.xml. Например: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
-  <!--<YouAgreeToSteamWorkshopLegal>Представляя этот мод, вы соглашаетесь на определённые условия, для пояснинения, кликните сюда.</YouAgreeToSteamWorkshopLegal> -->
-
+  <MessageModNeedsWellFormattedTargetVersion>Модификации требуется правильно отформатированная версия в About.xml. Например: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
 
   <!--=========== Выбор сценария =============-->
-  <ChooseScenario>Выбрать сценарий</ChooseScenario>
-  <ScenariosCustom>Свой сценарий</ScenariosCustom>
-  <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
-  <ScenarioEditor>Редактор сценария</ScenarioEditor>
+  <ChooseScenario>Выбор сценария</ChooseScenario>
+  <ScenariosCustom>Пользовательский</ScenariosCustom>
+  <ScenariosSteamWorkshop>Мастерская Steam</ScenariosSteamWorkshop>
+  <ScenarioEditor>Редактор сценариев</ScenarioEditor>
   <Delete>Удалить</Delete>
-
-  <!--============ Редактор сценария ===============-->
+  
+  <!--============ Редактор сценариев ===============-->
   <Seed>Карта</Seed>
   <Load>Загрузить</Load>
-  <EditMode>Режим редактирования</EditMode>
+  <EditMode>режим редактирования</EditMode>
   <Summary>Краткие сведения</Summary>
   <AddPart>Добавить особенность</AddPart>
   <TextFieldsMustBeFilled>Все текстовые поля должны быть заполнены.</TextFieldsMustBeFilled>
-  <ConfirmSteamWorkshopUpload>Вы уверены, что хотите загрузить сценарий в Steam Workshop?\n\nВы должны принять условия использования Steam Workshop. Подробнее об условиях использования читайте здесь:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmSteamWorkshopUpload>Вы уверены, что хотите загрузить это в Мастерскую Steam?\n\nНеобходимо принять условия использования Мастерской Steam. Ознакомиться с ними можно по ссылке:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <ConfirmContentAuthor>Очевидно, что вы должны загружать только то, что сделали сами.\n\nВы точно являетесь автором этого контента?</ConfirmContentAuthor>
   <Incompatible>Несовместимо</Incompatible>
-  <TooMany>Слишком много (max {0}): </TooMany>
-  <CanBeUpdatedOnWorkshop>Можно обновить в Workshop, поскольку вы являетесь автором.</CanBeUpdatedOnWorkshop>
-
-  <!--=========== Выбрать рассказчика ==========-->
+  <TooMany>Слишком много (максимум {0}): </TooMany>
+  <CanBeUpdatedOnWorkshop>Может быть обновлено в Мастерской, поскольку вы автор данного контента.</CanBeUpdatedOnWorkshop>
+  
+  <!--=========== Выбор рассказчика ==========-->
   <ChooseAIStoryteller>Выбор ИИ-рассказчика</ChooseAIStoryteller>
-  <HowStorytellersWork>ИИ-Рассказчик создаёт события такие, как пиратские нападения, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашего поселения.</HowStorytellersWork>
+  <HowStorytellersWork>ИИ-рассказчик создаёт события такие, как пиратские нападения, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашего поселения.</HowStorytellersWork>
   <MustChooseDifficulty>Пожалуйста, выберите сложность.</MustChooseDifficulty>
   <Difficulty>Сложность</Difficulty>
 
@@ -119,14 +117,14 @@
   <AvgWinterTemp>Ср. темп. (зима): {0}</AvgWinterTemp>
   <AvgSummerTemp>Ср. темп. (лето): {0}</AvgSummerTemp>
   <Rainfall>Осадки</Rainfall>
-  <HasCoast0>Побережье с севера</HasCoast0>
-  <HasCoast1>Побережье с востока</HasCoast1>
-  <HasCoast2>Побережье с юга</HasCoast2>
-  <HasCoast3>Побережье с запада</HasCoast3>
+  <HasCoast0>Северное побережье</HasCoast0>
+  <HasCoast1>Восточное побережье</HasCoast1>
+  <HasCoast2>Южное побережье</HasCoast2>
+  <HasCoast3>Западное побережье</HasCoast3>
   <FactionBase>База фракции</FactionBase>
   <StoneTypesHere>Типы пород</StoneTypesHere>
 
-  <!--=========== Character chooser ==========-->
+  <!--=========== Выбор персонажей ==========-->
   <CreateCharacters>Создание персонажей</CreateCharacters>
   <FirstNameDesc>Имя персонажа.\n\nОтображается только в некоторых меню.</FirstNameDesc>
   <ShortIdentifierDesc>Короткий идентификатор персонажа.\n\nОтображается везде. Может быть именем, фамилией или прозвищем.</ShortIdentifierDesc>
@@ -147,7 +145,7 @@
   <Health>Здоровье</Health>
   <Relations>Отношения</Relations>
 
-  <!--=========== Misc ==========-->
+  <!--=========== Разное ==========-->
   <Start>Начать</Start>
   <Advanced>Дополнительно</Advanced>
   <Next>Дальше</Next>

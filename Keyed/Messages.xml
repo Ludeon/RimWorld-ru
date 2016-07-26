@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <MessageSiegersAssaulting>Осаждающие {0} из {1} начали штурм поселения.</MessageSiegersAssaulting>
@@ -6,6 +6,7 @@
   <MessageRaidersBeginningAssault>{0} из {1} начинают штурм.</MessageRaidersBeginningAssault>
   <MessageRaidersDetectedEarlyAssault>{0} из {1} обнаружили вас и начали штурм раньше.</MessageRaidersDetectedEarlyAssault>
   <MessageRaidersKidnapping>{0} из {1} решили похитить, кого смогут, и уйти.</MessageRaidersKidnapping>
+  <MessageRaidersStealing>{0} из {1} решили украсть, что смогут, и уйти.</MessageRaidersStealing>
 
   <MessageRaidersLeaving>{0} из {1} отступают.</MessageRaidersLeaving>
   <MessageRaidersGivenUpLeaving>{0} из {1} сдались и уходят.</MessageRaidersGivenUpLeaving>
@@ -15,7 +16,8 @@
   <MessageFriendlyFightersLeaving>Дружественные {0} из {1} уходят.</MessageFriendlyFightersLeaving>
 
   <MessageVisitorsTakingWounded>{0} из {1} забирают с собой раненого гостя.</MessageVisitorsTakingWounded>
-
+  <MessageVisitorsTrappedLeaving>{0} из {1} попали в ловушку и пытаются выбраться на свободу.</MessageVisitorsTrappedLeaving>
+ 
   <MessageWornApparelDeterioratedAway>{0}, носимое {1}, износилось в пыль.</MessageWornApparelDeterioratedAway>
 
   <MessageSeasonBegun>Новый сезон: {0}.</MessageSeasonBegun>
@@ -37,8 +39,6 @@
 
   <LetterLabelMessageRecruitSuccess>Новый рекрут</LetterLabelMessageRecruitSuccess>
   <MessageRecruitSuccess>{0} успешно завербовал {1} (с шансом {2}).</MessageRecruitSuccess>
-  <MessageRecruitFail>{0} не удалось завербовать {1} (шанс {2}).</MessageRecruitFail>
-  <MessageRecruitFailBecauseMood>{0} не удалось завербовать {1} (заключённый ниже порога лояльности).</MessageRecruitFailBecauseMood>
   <MessageTameSuccess>{0} успешно приручил {1} с вероятностью {2} .</MessageTameSuccess>
   <MessageTameAndNameSuccess>{0} успешно приручил {1} с вероятностью {2} и назвал его {3}.</MessageTameAndNameSuccess>
 
@@ -66,7 +66,8 @@
 
   <MessageNoMedicalBeds>Нет доступных мед. кроватей.</MessageNoMedicalBeds>
   <MessageNoAnimalBeds>Нет доступных спальных мест для животных.</MessageNoAnimalBeds>
-
+  <MessageTooLowMedCare>Для операции требуется {0} или лучше, а текущий уровень снабжения {1} медикаментами "{2}".</MessageTooLowMedCare>
+  
   <PawnDiedBecauseOf>{0} умер из-за {1}.</PawnDiedBecauseOf>
 
   <MessageNoLongerDowned>{0} снова может ходить.</MessageNoLongerDowned>
@@ -95,8 +96,8 @@
 
   <MessageTraderCaravanLeaving>Торговый караван из {0} уходит.</MessageTraderCaravanLeaving>
 
-  <MessageCantSelectDeadFamilyMember>{0} мёртв.</MessageCantSelectDeadFamilyMember>
-  <MessageCantSelectOffMapFamilyMember>{0} вне карты.</MessageCantSelectOffMapFamilyMember>
+  <MessageCantSelectDeadPawn>{0} мёртв.</MessageCantSelectDeadPawn>
+  <MessageCantSelectOffMapPawn>{0} вне карты.</MessageCantSelectOffMapPawn>
 
   <MessageSocialFight>{0} повздорил(а) с {1}. Причина: {2}.</MessageSocialFight>
 
@@ -120,4 +121,10 @@
   <MessagePartyCalledOff>Вечеринка была отменена.</MessagePartyCalledOff>
   <MessagePartyFinished>Вечеринка завершилась.</MessagePartyFinished>
 
+  <MessageCannotSellItemsReason>Некоторые предметы не могут стать предметом торговли, т.к.: </MessageCannotSellItemsReason>
+
+  <MessageConstructionFailed>{1} не удалось создать {0}. Некоторая часть ресурсов была потрачена впустую.</MessageConstructionFailed>
+
+  <MessageScreenshotSavedAs>Снимок экрана сохранён как: {0}</MessageScreenshotSavedAs>
+  
 </LanguageData>
