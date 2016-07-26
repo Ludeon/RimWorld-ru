@@ -134,7 +134,7 @@
   <ShootReportShooterAbility>Стрелок</ShootReportShooterAbility>
   <ShootReportWeapon>Оружие</ShootReportWeapon>
   <Darkness>Темнота</Darkness>
-  <TargetProne>Восприимчивость</TargetProne>
+  <TargetProne>Цель ложится</TargetProne>
   <TargetSize>Размер цели</TargetSize>
   <Weather>Погода</Weather>
   <ShootingCover>Укрытие</ShootingCover>
@@ -160,7 +160,7 @@
   <PawnMainDescLifestageWrap>{1}, {0}</PawnMainDescLifestageWrap>
   <Faction>Фракция</Faction>
   <Equipped>Вооружён</Equipped>
-  <EquippedNothing>Не вооружён</EquippedNothing>
+  <EquippedNothing>ничего</EquippedNothing>
   <Incapacitated>Без сознания</Incapacitated>
   <InRestraints>В оковах (замедлен)</InRestraints>
   <Carrying>Переносит</Carrying>
@@ -220,8 +220,8 @@
   <FullyGrownIn>Вырастет через {0}.</FullyGrownIn>
   <PlantNeedsLightLevel>Не растёт (Нужен свет)</PlantNeedsLightLevel>
   <PlantResting>Спит</PlantResting>
-  <OutOfIdealTemperatureRange>Неподходящая температура (растёт со скоростью {0}% от нормы)</OutOfIdealTemperatureRange>
-  <OutOfIdealTemperatureRangeNotGrowing>Неподходящая температура (не растёт)</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRange>Не идеальная температура (растёт со скоростью {0}% от нормы)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRangeNotGrowing>Неподходящая температура. Не растёт.</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Можно собирать.</ReadyToHarvest>
   <Mature>Созрело.</Mature>
   <SeedLabel>зерно {0}</SeedLabel>
@@ -252,7 +252,7 @@
   <ZoneVisibilityToggleButton>Переключение видимости зон.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Переключение видимости красоты.\n\nПоказывает красоту окружения как её воспринимает персонаж, стоящий в точке, на которую указывает курсор.</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>Переключение видимости параметров комнат.\n\nОтображает параметры комнаты на которую наведен курсор.</ShowRoomStatsToggleButton>  
-  <ShowColonistBarToggleButton>Переключение панели колонистов.\n\nОтображает в верхней части экрана иконки и состояние всех колонистов.</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>Переключение панели поселенцев.\n\nОтображает в верхней части экрана иконки и состояние всех поселенцев.</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>Переключение автоматического добавления домашней области для новых построек.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Отображать количество ресурсов на складах полностью или по категориям.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Переключение видимости имён прирученых животных.</ShowAnimalNamesToggleButton>
@@ -263,7 +263,7 @@
   <Burning>Горит</Burning>
   <FireSizeLower>площадь возгорания {0}</FireSizeLower>
 
-  <!-- Map conditions (eclipse, solar flare, etc )-->  
+  <!-- Map conditions -->  
   <MapConditionsTip>Особые условия, влияющие на местность в данный момент.</MapConditionsTip>
   <TimeLeft>времени осталось</TimeLeft>
   <ImpactDate>дата удара</ImpactDate>
