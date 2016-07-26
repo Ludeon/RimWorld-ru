@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <JumpToLocation>Перейти к месту</JumpToLocation>
@@ -41,7 +41,7 @@
 
   <StruckMineable>Мы обнаружили {0}!</StruckMineable>
   
-  <LetterLabelAnimalManhunterFromDamage>{0} мстит</LetterLabelAnimalManhunterFromDamage>
+  <LetterLabelAnimalManhunterRevenge>{0} мстит</LetterLabelAnimalManhunterRevenge>
   <AnimalManhunterFromDamage>{0}, будучи ранен, впал в ярость!</AnimalManhunterFromDamage>
   <AnimalManhunterFromTaming>{0} атакует из-за попытки приручения!</AnimalManhunterFromTaming>
   <AnimalManhunterOthers>Другие {0} тоже впали в ярость!</AnimalManhunterOthers>
@@ -58,7 +58,18 @@
   <LetterLeadersDeathLabel>Смерть лидера</LetterLeadersDeathLabel>
   <LetterLeadersDeath>{0}, лидер фракции {1} умер, и его сменил {2}.</LetterLeadersDeath>
   
-  <!-- Family -->  
+  <MentalBreakLetterLabel>Нервный срыв</MentalBreakLetterLabel>
+  <MentalBreakReason>Причина: {0}.</MentalBreakReason>
+  
+  <!-- Related pawns -->
+
+  <LetterLabelNoticedRelatedPawns>Relationship</LetterLabelNoticedRelatedPawns>
+  <LetterRelatedPawnsRaidEnemy>There are people who have relationships with your colonists or prisoners in the arriving group of {0}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>There are people who have relationships with your colonists or prisoners in the arriving group of friendly {0}:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>There are people who have relationships with your colonists or prisoners in the arriving group:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>The orbital trader is selling people who have relationships with your colonists or prisoners:</LetterRelatedPawnsTradeShip>
+<!-- Поменять family на relation
+	<!-- Family  ->
   <LetterLabelNoticedFamilyMembers>Семья</LetterLabelNoticedFamilyMembers>
   <LetterFamilyMembersRaidEnemy>В приближающейся враждебной группе {0} есть члены семей ваших поселенцев или заключённых.\n\nПомните, что несмотря на родство они всё равно будут атаковать друг-друга их-за плохих отношений их фракций.\n\nЧленами семей являются:</LetterFamilyMembersRaidEnemy>
   <LetterFamilyMembersRaidFriendly>В приближающейся дружественной группе {0} есть члены семей ваших поселенцев или заключённых:</LetterFamilyMembersRaidFriendly>
@@ -68,7 +79,7 @@
   <FamilyLetterAppendedSuffix>(семья)</FamilyLetterAppendedSuffix>
   <FamilyLetterAppendedTextColonist>NAME член семьи вашего поселенца. HECAP {1} {0}.</FamilyLetterAppendedTextColonist>
   <FamilyLetterAppendedTextPrisoner>NAME член семьи одного из ваших заключённых. HECAP {1} {0}.</FamilyLetterAppendedTextPrisoner>
-  
+ -->  
   <!-- Attempt romance / propose interaction -->  
   <LetterLabelAffair>Связь</LetterLabelAffair>
   <LetterAffair>{0}, будучи в браке с {1}, связался с {2}.</LetterAffair>
