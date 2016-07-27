@@ -14,16 +14,13 @@
 
 
 
-## Сделавшие вклад (>100 добавлений):
+## Сделавшие вклад:
 * [Humort](https://github.com/Humort)
 * [dragomano](https://github.com/dragomano)
 * [Lirryc](https://github.com/Lirryc)
 * [M-r-A](https://github.com/M-r-A)
 * [rooqie](https://github.com/rooqie)
 * [dankan0880](https://github.com/dankan0880)
-
-
-
 
 
 
