@@ -15,7 +15,7 @@
   <Unowned>Ничья</Unowned>
   <DeadTime>Мёртв уже {0}</DeadTime>
   <WalkSpeed>скорость {0}</WalkSpeed>
-  <FertShort>fert.</FertShort>
+  <FertShort>плод.</FertShort>
   <DyingLower>умирает</DyingLower>
   <FilthOnFeet>Грязь на ногах:</FilthOnFeet>
   <NotEnoughStoredLower>недостаточно</NotEnoughStoredLower>
@@ -76,8 +76,7 @@
   <TextMote_FixBrokenDownBuildingFail>Не получилось\nпочинить</TextMote_FixBrokenDownBuildingFail>
   <TextMote_ConstructionFail>Строительство\nнеудачно</TextMote_ConstructionFail>
   
-  
-  <!-- Areas -->
+    <!-- Areas -->
   <Home>Домашняя</Home>
   <BuildRoof>Построить крышу</BuildRoof>
   <NoRoof>Без крыши</NoRoof>
@@ -122,9 +121,9 @@
   <UsingVerb>Использует {0} на {1}.</UsingVerb>
   <AreaLower>область</AreaLower>
   <ReportCowering>Прикрывает.</ReportCowering> 
-  <ReportStanding>standing.</ReportStanding>
-  <ReportExtinguishingFire>тушит пожар.</ReportExtinguishingFire>
-  <ReportExtinguishingFireOn>тушит пожар на {0}.</ReportExtinguishingFireOn>
+  <ReportStanding>Неподвижен.</ReportStanding>
+  <ReportExtinguishingFire>Тушит пожар.</ReportExtinguishingFire>
+  <ReportExtinguishingFireOn>Тушит пожар на {0}.</ReportExtinguishingFireOn>
   
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>Посещает церемонию бракосочетания</LordReportAttendingMarriageCeremony>
@@ -266,8 +265,8 @@
 
   <!-- Map conditions (eclipse, solar flare, etc )-->  
   <MapConditionsTip>Особые условия, влияющие на местность в данный момент.</MapConditionsTip>
-  <TimeLeft>time left</TimeLeft>
-  <ImpactDate>impact date</ImpactDate>
+  <TimeLeft>осталось времени</TimeLeft>
+  <ImpactDate>срок воздействия</ImpactDate>
 
   <!-- Building placement -->  
   <NoStuffsToBuildWith>У вас нет подходящих материалов.</NoStuffsToBuildWith>
@@ -327,7 +326,7 @@
   <!-- Game over -->
   <GameOverEveryoneDead>Все поселенцы либо мертвы, либо ушли. Конец истории.\n\nВозможно, кто-то другой сможет найти применение этим руинам.</GameOverEveryoneDead>
   <GameOverShipLaunched>Вы запустили корабль! Эти поселенцы спаслись:\n\n{0}\nЭти поселенцы остались:\n\n{1}\nВаш ИИ теперь будет пытаться направить корабль в безопасное место. Он может найти для вас процветающую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая пока кто-нибудь не выстроит здесь новый технологичный мир.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
-  <GameOverPlanetkillerImpact>At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive.</GameOverPlanetkillerImpact>
+  <GameOverPlanetkillerImpact>На сверхзвуковой скорости в землю врезалось оружие уничтожения планет, с силой триллиона водородных бомб. Подобно баллону с водой после выстрела из винтовки этот мир сжался от давления и разлетелся на кусочки в космос.\n\nЧасть {0} теперь небольшой пояс астероидов. Всё остальное стало расплавленным, радиоактивным адом, с постоянными землетрясениями.\n\nВам не выжить.</GameOverPlanetkillerImpact>
   <GameOverKeepPlaying>Продолжить играть</GameOverKeepPlaying>
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
 
@@ -348,15 +347,15 @@
   <DiseaseGrowthModeChanged_Remission>{1} {0} в стадии ремиссии.</DiseaseGrowthModeChanged_Remission>
   
   <!-- Marriage spot -->
-  <MarriageSpotUsable>Usable now.</MarriageSpotUsable>
-  <MarriageSpotNotUsable>Not usable: {0}.</MarriageSpotNotUsable>
-  <MarriageSpotNotStandable>blocked</MarriageSpotNotStandable>
-  <MarriageSpotDangerous>too dangerous for {0}</MarriageSpotDangerous>
-  <MarriageSpotForbidden>forbidden for {0}</MarriageSpotForbidden>
-  <MarriageSpotReserved>reserved</MarriageSpotReserved>
-  <MarriageSpotUnreachable>unreachable for {0}</MarriageSpotUnreachable>
-  <MarriageSpotInPrisonCell>in prison cell</MarriageSpotInPrisonCell>
-  <NotEnjoyableOutsideTemperature>uncomfortable temperature</NotEnjoyableOutsideTemperature>
+  <MarriageSpotUsable>Используется в данный момент.</MarriageSpotUsable>
+  <MarriageSpotNotUsable>Не используется: {0}.</MarriageSpotNotUsable>
+  <MarriageSpotNotStandable>заблокирован</MarriageSpotNotStandable>
+  <MarriageSpotDangerous>слишком опасен для {0}</MarriageSpotDangerous>
+  <MarriageSpotForbidden>запрещен для {0}</MarriageSpotForbidden>
+  <MarriageSpotReserved>зарезервирован</MarriageSpotReserved>
+  <MarriageSpotUnreachable>недостижим для {0}</MarriageSpotUnreachable>
+  <MarriageSpotInPrisonCell>в тюремной камере</MarriageSpotInPrisonCell>
+  <NotEnjoyableOutsideTemperature>некомфортная температура</NotEnjoyableOutsideTemperature>
   
   <!-- Colonist bar -->
   <ActivityIconMedicalRest>Отдыхает</ActivityIconMedicalRest>
@@ -367,7 +366,7 @@
   <ActivityIconBurning>Burning</ActivityIconBurning>
 
   <!-- Maintainable -->
-  <DueForMaintenance>Due for maintenance.</DueForMaintenance>
+  <DueForMaintenance>Due for техобслуживание.</DueForMaintenance>
   <DeterioratingDueToLackOfMaintenance>Ухудшается из-за отсутствия технического обслуживания.</DeterioratingDueToLackOfMaintenance>
 
 </LanguageData>

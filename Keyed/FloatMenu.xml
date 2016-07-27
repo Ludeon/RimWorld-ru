@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
   <CallOnRadio>Связаться с {0}</CallOnRadio>
@@ -24,6 +24,7 @@
   <NoPath>нет прохода</NoPath>
 
   <ForbiddenLower>запрещено</ForbiddenLower>
+  <ForbiddenOutsideAllowedAreaLower>за пределами допустимой зоны</ForbiddenOutsideAllowedAreaLower>
   <SociallyImproperLower>социально неадаптирован</SociallyImproperLower>
   <PrisonerRoomLower>тюремное помещение</PrisonerRoomLower>
   <BurningLower>горит</BurningLower>
@@ -34,6 +35,7 @@
   <NoEmptyGraveLower>нет пустой могилы, предназначенной для этого</NoEmptyGraveLower>
   <AnimalInteractedTooRecently>животное обучалось совсем недавно</AnimalInteractedTooRecently>
   <NoUsableFood>нет применимой еды</NoUsableFood>
+  <NoFood>нет еды</NoFood>
   <AnimalsSkillTooLow>Животное недостаточно умно</AnimalsSkillTooLow>
   <NoComponentsToRepair>нужны компоненты</NoComponentsToRepair>
   <NoFuelToRefuel>нужно {0}</NoFuelToRefuel>
@@ -67,6 +69,8 @@
 
   <Incapable>неспособен</Incapable>
   <IncapableOfCapacity>неспособен {0}</IncapableOfCapacity>
+  
+  <MinSkill>мин. навык</MinSkill>
 
   <Equip>Экипировать {0}</Equip>
   <EquipWarningBrawler>(дебошир будет недоволен)</EquipWarningBrawler>
@@ -97,7 +101,6 @@
   <EnterCryptosleepCasket>Войти в контейнер крипто-сна</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>Открыть контейнер крипто-сна</OpenCryptosleepCasket>
 
-
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>Невозможно {0}: {1}</CannotGenericWork>
 
@@ -110,7 +113,8 @@
 
   <CannotPrioritizeResearch>Сейчас нельзя (исследование - долгосрочная задача)</CannotPrioritizeResearch>
 
-  <CannotPrioritizeForbidden>Сейчас нельзя ({0} запрещен)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>Сейчас нельзя ({0} запрещен)</CannotPrioritizeForbidden>  
+  <CannotPrioritizeForbiddenOutsideAllowedArea>Невозможно расставить приоритеты ({0} вне разрешенной области)</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>{0}: {1}</PrioritizeGeneric>
