@@ -13,7 +13,7 @@
 
   <OutOfRange>вне зоны поражения</OutOfRange>
   <CannotHitTarget>невозможно попасть в цель</CannotHitTarget>
-  <CannotFight>{0} не способен на насилие</CannotFight>
+  <IsIncapableOfViolenceLower>{0} не способен на насилие</IsIncapableOfViolenceLower>
   <IsNotDraftedLower>{0} не призван</IsNotDraftedLower>
   <CannotOrderNonControlledLower>нельзя отдавать приказы неподконтрольной единице</CannotOrderNonControlledLower>
 
@@ -114,9 +114,11 @@
 
   <CannotPrioritizeResearch>Сейчас нельзя (исследование - долгосрочная задача)</CannotPrioritizeResearch>
 
-  <CannotPrioritizeForbiddenOutsideAllowedArea>Невозможно приоритезировать ({0} вне разрешённой зоны)</CannotPrioritizeForbiddenOutsideAllowedArea>
+	<CannotPrioritizeForbidden>Невозможно приоритезировать ({0} запрещено)</CannotPrioritizeForbidden>
+	<CannotPrioritizeForbiddenOutsideAllowedArea>Невозможно приоритезировать ({0} вне разрешённой зоны)</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>{0}: {1}</PrioritizeGeneric>
+  <!-- В русском это убрано и в gerund идёт просто "Починить" стену, "Отнести" металл... -->
 
 </LanguageData>
