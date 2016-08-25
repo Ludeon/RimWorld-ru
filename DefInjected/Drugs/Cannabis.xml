@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+	
+	<Joint.label>косяк</Joint.label>
+	<!--Оригинал: Marijuana leaves prepared in small rolls for smoking. The drug improves mood, but also increases appetite, reduces focus and slows movement. Cannabis use can produce a dependency. Can be produced without equipment, at a crafting spot.-->
+	<Joint.description>Листья марихуаны, скрученные для курения. Повышает настроение, так же увеличивает аппетит, снижает сосредоточенность и замедляет движение. Употребление канабиса может привести к зависимости. Можео быть произведен без дополнительного оборудования, на рабочем месте.</Joint.description>
+	<Joint.ingestCommandString>Курить {0}</Joint.ingestCommandString>
+	<Joint.ingestReportString>Курит {0}.</Joint.ingestReportString>
+	
+	<!---Stoned vs. High. В русском и то и другое переводится как "под кайфом". Делать ли отличия или нет и как это будет смотреться в игре пока вопрос. Пока будет "под кайфом". Пишите предложения. Dinoabunai-->
+	<CannabisHigh.label>под кайфом от конопли</CannabisHigh.label> <!--Оригинал: stoned on cannabis-->
+		<!--В разговорной речи в России не указывают от чего человек под кайфом. Используют просто "под кайфом" или под "кайфом от травы" или что-то подобное. Предложения? Dinoabunai-->
+	<CannabisHigh.stages.0.label>под кайфом от конопли</CannabisHigh.stages.0.label> <!--Оригинал: high on cannabis-->
+	<!--Оригинал: I'm, like, stoned, man.-->
+	<CannabisHigh.stages.0.description>Чувак, я под кайфом.</CannabisHigh.stages.0.description>
+		<!--Напрашивается фраза "я обдолбался", но по-моему это будет немного перебор. Dinoabunai -->
+	
+	<Cannabis.label>конопля</Cannabis.label>
+	
+	<Chemical_Cannabis.label>конопля</Chemical_Cannabis.label>
+	<!--Оригинал: Because of a developed cannabis dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.-->
+	<Chemical_Cannabis.description>Из-за развития зависимости от конопли, этому человеку необходимо постоянно употреблять наркотик, чтобы избежать симптомов абстинентого синдрома.</Chemical_Cannabis.description>
+	
+	
+	<CannabisTolerance.label>переносимость конопли</CannabisTolerance.label>
+	
+	<CannabisAddiction.label>зависимость от конопли</CannabisAddiction.label> <!--Оригинал: cannabis dependence-->
+	
+	<CannabisAddiction.stages.1.label>ломка</CannabisAddiction.stages.1.label> <!--Оригинал: withdrawal-->
+		<!--В Alcohol_Beer.xml я сам перевел "withdrawal" как "синдром отмены". Все же мне кажется "ломка" подходит больше. По крайней мере для наркотиков. Dinoabunai -->
+	
+	<CannabisWithdrawal.stages.1.label></CannabisWithdrawal.stages.1.label> <!--Оригинал: cannabis withdrawal-->
+	<!--Ормгинал: I really wish I could smoke.-->
+	<CannabisWithdrawal.stages.1.description>Хотелось бы сейчас покурить.</CannabisWithdrawal.stages.1.description>
+		<!--Торчок бы сказал "Хочется дунуть." Но это, наверное, будет уже слишком . Обязательно пишите пожелания. Dinoabunai -->
+				
+</LanguageData>
