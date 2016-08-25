@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<Beer.label>пиво</Beer.label>
+	<!--Оригинал: The first beverage besides water ever consumed by mankind. Beer can taste good, but its main effect is intoxication. Excessive consumption can lead to alcohol addiction. -->
+	<Beer.description>Первый напиток, не считая воды, когда-либо употребляемый человечеством. Пиво приятно на вкус и вызывает опьяняение. Чрезмерное употребление может привести к алкогольной зависимости.</Beer.description>
+		<!--Мне не особо нравится предложение "Пиво приятно на вкус и вызывает опьяняение.", но оно достаточно близко по смыслу к оригиналу. Dinoabunai-->
+	<Beer.ingestible.ingestCommandString>Выпить {0}</Beer.ingestible.ingestCommandString> <!--Оригинал: Drink {0}-->
+	<Beer.ingestible.ingestReportString>Пьет {0}.</Beer.ingestible.ingestReportString> <!--Оригинал: Drinking {0}.-->
+	
+	<Wort.label>сусло</Wort.label>
+	<!--Оригинал: Beer before fermentation. The ingredients are mixed together, but this substance needs to ferment in a fermenting barrel before it becomes drinkable beer.-->
+	<Wort.description>Пиво до ферментации. Ингридиенты уже перемешаны, но сусло должно забродить в специальной бочке, прежде чем оно станет настоящим пивом.</Wort.description>
+		<!--Не нашел точного перевода для "fermenting barrel". Причем это не какая-то волшебная супер-бочка. Можно варить и в обычной. Так что пока предлагаю такой вариант. Dinoabunai-->
+	<AlcoholHigh.label>алкоголь</AlcoholHigh.label>
+		<!--?алкогольный?-->
+	
+	<AlcoholHigh.stages.0.label>слегка-скрытое</AlcoholHigh.stages.0.label> <!--Оригинал: buzzed-hidden-->
+	<AlcoholHigh.stages.1.label>повело</AlcoholHigh.stages.1.label> <!--Оригинал: warm-->
+		<!--Возможно стоит просто указать "немного", "слекга" или вроде того, т.к. "слегка-скрытое" оно по идее... м-м-м... скрытое. Dinoabunai-->
+	<AlcoholHigh.stages.2.label>подвыпивший</AlcoholHigh.stages.2.label> <!--Оригинал: tipsy-->
+	<AlcoholHigh.stages.3.label>пьяный</AlcoholHigh.stages.3.label> <!--Оригинал: drunk-->
+	<AlcoholHigh.stages.4.label>в дрова</AlcoholHigh.stages.4.label> <!--Оригинал: hammered-->
+		<!--Не очень литературный перевод, но самое близкое по смыслу. Можно написать "сильное опьянение", но потеряется суть. Dinoabunai-->
+	<AlcoholHigh.stages.5.label>в отключке</AlcoholHigh.stages.5.label> <!--Оригинал: blackout-->
+		<!--Опять таки можно написать более литературно "без сознания". Но касабельно пьяных людей чаще употребляют именно такую форму. Dinoabunai-->
+	
+	<Hangover.label>похмелье</Hangover.label> <!--!!!Обратите внимание! Есть hAngover, а есть hUngover. И все в этом файле!!! Dinoabunai-->
+	<Hangover.stages.0.label>легкое</Hangover.stages.0.label> <!--Оригинал: slight-->
+	<Hangover.stages.1.label>сильное</Hangover.stages.1.label> <!--Оригинал: strong-->
+	<Hangover.stages.1.label>ужасное</Hangover.stages.1.label> <!--Оригинал: pounding-->
+	
+	<Inebriated.stages.0.label>слегка-скрытое</Inebriated.stages.0.label>
+	<Inebriated.stages.0.description>Не должно появляться.</Inebriated.stages.0.description>
+	<!--Оригинал(1): I just feel a bit more relaxed after that drink. That's good.-->
+	<Inebriated.stages.1.label>Выпил (повело)</Inebriated.stages.1.label>
+	<Inebriated.stages.1.description>Я просто чувствую себя немного расслабленным после выпивки. Отлично.</Inebriated.stages.1.description>
+		<!--Мне кажется можно придумать что-то получше для "That's good." Dinoabunai-->
+	<Inebriated.stages.2.label>Выпил (подвыпивший)</Inebriated.stages.2.label>
+	<!--Оригинал(2): I'm a bit wobbly! And this is quite enjoyable.-->
+	<Inebriated.stages.2.description>Меня немного шатает! И это довольно приятно.</Inebriated.stages.2.description>
+		<!--Русские обычно не наслаждаются самим фактом шатания. Может стоит изменить фразу "И это довольно приятно." Dinoabunai-->
+	<Inebriated.stages.3.label>Выпил (пьяный)</Inebriated.stages.3.label>
+	<!--Оригинал(3): I feel so uninhibited and unafraid! This is a great time!-->
+	<Inebriated.stages.3.description>Я раскован и беззаботен! Супер!</Inebriated.stages.3.description>
+		<!--В русском скорее было бы "Я напился. Гуляем!" или "Я пьяный". Но так тоже боле-менее. Оставляю на суд коллег. Dinoabunai-->
+	<Inebriated.stages.4.label>Выпил (в дрова)</Inebriated.stages.4.label>
+	<!--Оригинал(4): Wooo! What is going on?-->
+	<Inebriated.stages.4.description>Опа! Что происходит?</Inebriated.stages.4.description>
+		<!--"Опа" можно заменить на "Ууу", "У-у-у". Так же у пьяного чаще возникает вопрос "Где я?" а не "Что происходит". Причем у пьяного в дрова чеговека уже и вопросов то не возникает. Только У-у-у в голове и остается. Dinoabunai-->
+	
+	<!--Опять таки обращаю внимание что есть hAngover, а есть hUngover. Можно перевести тут вместо "С похмелья" на "Похмелье". Но hUngover это именно человек с похмельем. Dinoabunai-->
+	<Hungover.stages.0.label>С похмелья (легкое)</Hungover.stages.0.label>
+	<!--Оригинал(0)--The headache is almost gone.-->
+	<Hungover.stages.0.description>Головная боль почти прошла.</Hungover.stages.0.description>
+	<Hungover.stages.1.label>С похмелья (сильное)</Hungover.stages.1.label>
+	<!--Оригинал(1): My head hurts from all that liquor.-->
+	<Hungover.stages.1.description>Голова гудит после попойки.</Hungover.stages.1.description>
+	<Hungover.stages.2.label>С похмелья (ужасное)</Hungover.stages.2.label>
+	<!--Оригинал(2): It feels like a gaggle of geese are pecking at my skull.-->
+	<Hungover.stages.2.description>Как будто стая гусей клюет мой череп.</Hungover.stages.2.description>
+		<!--Имеет место быть терминологический вопрос. Где-то говорится стая гусей, а где-то стадо гусей. Если у кого есть доверенные источники, просьба указать ссылку. Dinoabunai-->
+	<Hungover.stages.3.label>С похмелья-скрытое</Hungover.stages.3.label>
+	
+	<Alcohol.label>алкоголь</Alcohol.label>
+	
+	<Chemical_Alcohol.label>алкоголь</Chemical_Alcohol.label>
+	<!--Оригинал: Because of an alcohol addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.-->
+	<Chemical_Alcohol.description>Из-за алкоголизма, этому человеку необходимо регулярно употрелбять алкоголь, чтобы избежать симптомов абстинентого синдрома.</Chemical_Alcohol.description>
+		<!--Использовал "алкоголь" вместо drug. Dinoabunai-->
+	
+	<AlcoholTolerance.label>переносимость алкоголя</AlcoholTolerance.label>
+	
+	<AlcoholAddiction.label>алкогольная зависимость</AlcoholAddiction.label>
+	<AlcoholAddiction.stages.1.label>Синдром отмены</AlcoholAddiction.stages.1.label> <!--Оригинал: withdrawal-->
+		<!--Очень не уверен с текущей формулировкой. Перевод довольно близкий и точный, но для простого человека не сразу будет понятно. Вообще тяжело со словом "withdrawal". Можно просто "Зависимость", "Алкоголизм" или что-то наподобие. Буду рад предложениям. Dinoabunai-->
+	
+	<AlcoholWithdrawal.stages.1.label>cиндром отмены</AlcoholWithdrawal.stages.1.label> <!--alcohol withdrawal-->
+	<!--Оригинал: Feeling shaky. Everything pisses me off. I keep thinking of drinking.-->
+	<AlcoholWithdrawal.stages.1.description>Меня трясет. Меня все бесит. Надо выпить.</AlcoholWithdrawal.stages.1.description>
+		<!--Не очень близко к оригиналу фраза "Надо выпить.", но звучит локанично. Dinoabunai-->
+	
+	
+</LanguageData>
