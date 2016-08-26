@@ -59,6 +59,18 @@
   <CurrentRadius>текущий радиус</CurrentRadius>
   <RadiusExpandsIn>радиус увеличится через</RadiusExpandsIn>
   <Permanent>постоянный</Permanent>
+  <Temperature>Температура</Temperature>
+  <IdealFermentingTemperature>Идеальная температура для брожения</IdealFermentingTemperature>
+  <DrugEffectMultiplier>множитель эффекта {0}</DrugEffectMultiplier>
+  
+  <!-- Fermentation barrel -->
+  <ContainsWort>Содержит {0} / {1} сусла.</ContainsWort>
+  <ContainsBeer>Содержит {0} / {1} пива.</ContainsBeer>
+  <Fermented>Забродило</Fermented>
+  <FermentationProgress>Прогресс: {0} (будет готово через {1}).</FermentationProgress>
+  <FermentationBarrelOutOfIdealTemperature>Не идеальная температура. Множитель скорости брожения: {0}</FermentationBarrelOutOfIdealTemperature>
+    
+  
   
   <!--TextMotes-->  
   <Headshot>В голову</Headshot>
@@ -206,8 +218,8 @@
 
   <!-- Rotting -->
   <CurrentlyFrozen>Замороженное (не испортится)</CurrentlyFrozen>
-  <CurrentlyRefrigerated>Охлаждённое (Испортится через {0})</CurrentlyRefrigerated>
-  <NotRefrigerated>Не охлаждённое (Испортится через {0})</NotRefrigerated>
+  <CurrentlyRefrigerated>Охлаждённое (испортится через {0})</CurrentlyRefrigerated>
+  <NotRefrigerated>Не охлаждённое (испортится через {0})</NotRefrigerated>
   <OverADecade>больше 10 лет</OverADecade>
   <LessThanADay>менее суток</LessThanADay>
 
@@ -249,6 +261,7 @@
   <Undiscovered>Не разведано</Undiscovered>
 
   <!-- Buttons -->  
+  <ShowLearningHelperWhenEmptyToggleButton>Переключение видимости обучающего помощника, когда он пуст.\n\nПомощник всегда виден, когда активен доступный для изучения концепт. Это переключение позволяет убрать помощник, если активных концептов нет.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>Переключение видимости зон.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Переключение видимости красоты.\n\nПоказывает красоту окружения как её воспринимает персонаж, стоящий в точке, на которую указывает курсор.</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>Переключение видимости параметров комнат.\n\nОтображает параметры комнаты на которую наведен курсор.</ShowRoomStatsToggleButton>  
@@ -256,7 +269,8 @@
   <AutoHomeAreaToggleButton>Переключение автоматического добавления домашней области для новых построек.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Отображать количество ресурсов на складах полностью или по категориям.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Переключение видимости имён прирученых животных.</ShowAnimalNamesToggleButton>
-  
+  <ShowRoofOverlayToggleButton>Переключение видимости крыш.</ShowRoofOverlayToggleButton>
+
   <!-- Fire -->  
   <Fire>Огонь</Fire>
   <FireOn>Огонь на {0}</FireOn>
@@ -369,4 +383,14 @@
   <DueForMaintenance>Необходимо обслуживание.</DueForMaintenance>
   <DeterioratingDueToLackOfMaintenance>Ветшает из-за отсутствия технического обслуживания.</DeterioratingDueToLackOfMaintenance>
 
+  <!-- Deep drill -->
+  <ProgressToNextLump>Прогресс до следующей залежи</ProgressToNextLump> <!-- Kappa Пока не уверен насчёт lump. Надо понять, какая механика в игре. -->
+  <ResourceBelow>Ресурс внизу</ResourceBelow>
+  
+  <!-- Learning helper -->
+  <LearningHelper>Обучение</LearningHelper>
+  <MarkLearned>Отметить как пройденное</MarkLearned>
+  <AlreadyLearned>Уже пройдено</AlreadyLearned>
+  <Filter>Фильтр</Filter>
+  
 </LanguageData>
