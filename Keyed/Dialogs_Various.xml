@@ -109,7 +109,7 @@
 	<MapStartSeason>Начальный сезон:</MapStartSeason>
 	<MapStartSeasonDefault>Авто</MapStartSeasonDefault>
 	<PermadeathMode>"Хардкор"</PermadeathMode>
-	<PermadeathModeInfo>В этом режиме доступна лишь одна ячейка сохранения, а сохраняться возможно только при выходе из игры. Нельзя перезагружаться, чтобы исправить ошибки, а если поселение погибает - это конец.\n\nЭто именно тот режим, в котором RimWorld и задумывался изначально, где любой поворот судьбы - печальный или удачный - отыгрывается в полную силу.</PermadeathModeInfo>
+	<PermadeathModeInfo>В этом режиме доступна лишь одна ячейка сохранения, а сохраняться возможно только при выходе из игры. Нельзя перезагружаться, чтобы исправить ошибки, а если поселение погибает - это конец.\n\nЭто именно тот режим, в котором RimWorld и задумывался изначально, где любой поворот судьбы — печальный или удачный - отыгрывается в полную силу.</PermadeathModeInfo>
 
 	<!-- Bill config -->
 	<Suspended>Продолжить</Suspended>
@@ -130,7 +130,7 @@
 	<BillRequires>Требуется {0} {1}</BillRequires>
 	<BillRequiresNutrition>Требуется {0} ресурса</BillRequiresNutrition>
 	<BillRequiresMayVary>Заметка: ингредиенты малого объёма, такие как золото, требуются в 20 раз больше.</BillRequiresMayVary>
-	<ThisIsSmallVolume>Этот ингредиент имеет малый объём. Это значит, что каждый "кусочек" - лишь от 1/20 объёма обычного ингредиента. Чтобы выполнить требования по ингредиентам вам понадобится в 20 раз больше материала.</ThisIsSmallVolume>
+	<ThisIsSmallVolume>Этот ингредиент имеет малый объём. Это значит, что каждый "кусочек" — лишь от 1/20 объёма обычного ингредиента. Чтобы выполнить требования по ингредиентам вам понадобится в 20 раз больше материала.</ThisIsSmallVolume>
 	<UsableIngredients>ингредиенты</UsableIngredients>
 	<DoXTimes>Сделать X раз</DoXTimes>
 	<DoUntilYouHaveX>Повторять до X</DoUntilYouHaveX>
@@ -221,26 +221,26 @@
 
 	<!-- Outfit management -->
 	<Outfit>Набор одежды</Outfit>
-	<SelectOutfit>Выберите набор...</SelectOutfit>
+	<SelectOutfit>Выбрать набор...</SelectOutfit>
 	<NewOutfit>Новый набор</NewOutfit>
 	<DeleteOutfit>Удалить набор...</DeleteOutfit>
 	<OutfitInUse>Одежда используется {0}.</OutfitInUse>
 	<NoOutfitSelected>Набор одежды не выбран</NoOutfitSelected>
 	
 	<!-- Drug policy management -->
-	<DrugPolicy>Политика в отношении наркотиков</DrugPolicy>
-	<SelectDrugPolicy>Выберите политику...</SelectDrugPolicy>
-	<NewDrugPolicy>Создать политику</NewDrugPolicy>
-	<DeleteDrugPolicy>Удалить политику...</DeleteDrugPolicy>
-	<DrugPolicyInUse>Drugs policy is in use by {0}.</DrugPolicyInUse>
+	<DrugPolicy>Курс употребления наркотиков</DrugPolicy>
+	<SelectDrugPolicy>Выбрать курс...</SelectDrugPolicy>
+	<NewDrugPolicy>Создать курс</NewDrugPolicy>
+	<DeleteDrugPolicy>Удалить курс...</DeleteDrugPolicy>
+	<DrugPolicyInUse>Курс наркотиков используется {0}.</DrugPolicyInUse>
 	<SocialDrugs>Социальные наркотики</SocialDrugs>
 	<NoDrugs>Нет наркотиков</NoDrugs>
 	<OneDrinkPerDay>Один напиток в день</OneDrinkPerDay>
-	<Unrestricted>Unrestricted</Unrestricted>
-	<NoDrugPolicySelected>Не выбрана политика</NoDrugPolicySelected>
+	<Unrestricted>Без ограничений</Unrestricted>
+	<NoDrugPolicySelected>Не выбран курс</NoDrugPolicySelected>
 	<AddDrug>Добавить наркотик...</AddDrug>
 	<DrugColumnLabel>Наркотик</DrugColumnLabel>
-	<DrugUsageColumnLabel>Использование</DrugUsageColumnLabel>
+	<DrugUsageColumnLabel>Способ</DrugUsageColumnLabel>
 	<FrequencyColumnLabel>Частота</FrequencyColumnLabel>
 	<MoodThresholdColumnLabel>Только если настроение ниже</MoodThresholdColumnLabel>
 	<JoyThresholdColumnLabel>Только если уровень радости ниже</JoyThresholdColumnLabel>
@@ -249,16 +249,16 @@
 	<EveryDay>Ежедневно</EveryDay>
 	<TimesPerDay>{0} раз в день</TimesPerDay>
 	<EveryDays>Каждые {0} дней</EveryDays>
-	<NoDrugUseRequirement>Any</NoDrugUseRequirement>
+	<NoDrugUseRequirement>Не важно</NoDrugUseRequirement>
 	<DeleteDrugTooltip>Удалить этот наркотик.</DeleteDrugTooltip>
 	<DrugNameColumnDesc>Название наркотика.</DrugNameColumnDesc>
-	<DrugUsageColumnDesc>How the drug is allowed to be used.</DrugUsageColumnDesc>
-	<FrequencyColumnDesc>How often the colonists should try to take this drug.</FrequencyColumnDesc>
-	<MoodThresholdColumnDesc>The colonists will take this drug only if their mood level is below this threshold.</MoodThresholdColumnDesc>
-	<JoyThresholdColumnDesc>The colonists will take this drug only if their joy level is below this threshold.</JoyThresholdColumnDesc>
-	<TakeToInventoryColumnDesc>An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time.</TakeToInventoryColumnDesc>
-	<DrugUsageTipForJoy>For joy\n\nUse this drug for joy and social purposes, and to satisfy addiction needs, as desired.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
-	<DrugUsageTipScheduled>Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met.</DrugUsageTipScheduled>
+	<DrugUsageColumnDesc>Способ использования наркотика.</DrugUsageColumnDesc>
+	<FrequencyColumnDesc>Частота употребления наркотика поселенцами.</FrequencyColumnDesc>
+	<MoodThresholdColumnDesc>Поселенцы будут принимать этот наркотик, если их уровень настроения ниже заданного порога.</MoodThresholdColumnDesc>
+	<JoyThresholdColumnDesc>Поселенцы будут принимать этот наркотик, если их уровень радости ниже заданного порога.</JoyThresholdColumnDesc>
+	<TakeToInventoryColumnDesc>Количество наркотиков для будущего употребления (про запас), чтобы не бегать на склад постоянно.</TakeToInventoryColumnDesc>
+	<DrugUsageTipForJoy>Для повышения уровня радости\n\nИспользование наркотика для повышения уровня радости и в социальных целях, а также при выработке привыкания.\n\nДаже если отключить, некоторые персонажи, с особыми чертами характера, или в состоянии нервного срыва, могут использовать этот наркотик когда захотят.</DrugUsageTipForJoy>
+	<DrugUsageTipScheduled>Запланированно\n\nИспользовать этот наркотик в заданные сроки, при соблюдении определенных условий.</DrugUsageTipScheduled>
 
 	<!-- Growing -->
 	<NoGrowerCanPlant>{0} требует {1} умения сажать.\n\nНикто из ваших садоводов не обладает достаточным уровнем навыка, поэтому это растение не будет посеяно.</NoGrowerCanPlant>
