@@ -8,7 +8,7 @@
 	<!-- Game updated to new version -->
 	<GameUpdatedToNewVersionInitial>RimWorld обновлена с версии {0} до версии {1}.\n\nСохранённые игры и моды из старой версии могут прекратить работать.</GameUpdatedToNewVersionInitial>
 	<GameUpdatedToNewVersionNonSteam>Так как это бесплатная (лицензия DRM) копия игры, можно установить её дважды в разные папки, чтобы иметь возможность играть как в старой, так и в новой версиях.</GameUpdatedToNewVersionNonSteam>
-	<GameUpdatedToNewVersionSteam>Если хотите продолжить играть в старой версии, выберите одну из бета-версий игры в Steam.\n\n  1. Для этого в библиотеке Steam кликните правой кнопкой на RimWorld.\n  2. Выберите "Свойства".\n  3. Перейдите на вкладку "Бета-версии".\n  4. В раскрывающемся списке выберите желаемую версию игру.\n\nОчень старые версии постепенно будут удаляться из этого списка.\n\nОбратите внимание: если авторы модов обновят свои работы для новой версии игры, моды, вероятно, перестанут работать в старых версиях. Для предотвращения этого можно отключить автоматическое обновление.</GameUpdatedToNewVersionSteam>
+	<GameUpdatedToNewVersionSteam>Если хотите продолжить играть в старой версии, выберите одну из бета-версий игры в Steam.\n\n  1. Для этого в библиотеке Steam кликните правой кнопкой на RimWorld.\n  2. Выберите "Свойства".\n  3. Перейдите на вкладку "Бета-версии".\n  4. В раскрывающемся списке выберите желаемую версию игру.\n\nОчень старые версии постепенно будут удаляться из этого списка.\n\nВнимание! Если авторы модов обновят свои работы для новой версии игры, моды, вероятно, перестанут работать в старых версиях. Для предотвращения этого отключите автоматическое обновление.</GameUpdatedToNewVersionSteam>
 
 	<!-- Recovered from errors caused by mods -->
 	<RecoveredFromErrorsDialogTitle>Восстановлено после несовместимых или поврежденных модов</RecoveredFromErrorsDialogTitle>
@@ -74,11 +74,11 @@
 
 	<!-- Save game incompatible warning -->
 	<VersionMismatch>Несовпадение версий</VersionMismatch>
-	<SaveGameIncompatibleWarningText>Внимание: Эта карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого сохранения может вызвать ошибки и сбои.</SaveGameIncompatibleWarningText>
-	<WorldFileVersionMismatch>Внимание: Этот мир был сгенерирован в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого мира, вероятно, вызовет ошибки и сбои. Рекомендуется сгенерировать новый мир.</WorldFileVersionMismatch>
+	<SaveGameIncompatibleWarningText>Внимание! Эта карта была сохранена в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого сохранения может вызвать ошибки и сбои.</SaveGameIncompatibleWarningText>
+	<WorldFileVersionMismatch>Внимание! Этот мир был сгенерирован в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого мира, вероятно, вызовет ошибки и сбои. Рекомендуется сгенерировать новый мир.</WorldFileVersionMismatch>
 	<FileIncompatibleWarning>Этот файл был сохранен в версии игры {0}\nВ данный момент запущена версия {1}\n\nЗагрузка этого файла может вызвать ошибки и сбои.</FileIncompatibleWarning>
 	<ModsMismatchWarningTitle>Несоответствие модов</ModsMismatchWarningTitle>
-	<ModsMismatchWarningText>Внимание: Эта карта была сохранена с набором модов, отличным от текущего. Это может вызвать, а может и не вызвать проблемы, в зависимости от содержания модов.\n\nКарта была сохранена с:\n\n{0}\n\nСейчас подключены:\n\n{1}</ModsMismatchWarningText>
+	<ModsMismatchWarningText>Внимание! Эта карта была сохранена с набором модов, отличным от текущего. Это может вызвать, а может и не вызвать проблемы, в зависимости от содержания модов.\n\nКарта была сохранена с:\n\n{0}\n\nСейчас подключены:\n\n{1}</ModsMismatchWarningText>
 
 	<!-- Resolution change dialog -->
 	<ConfirmResolutionChange>Вы изменили настройки экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
@@ -92,14 +92,14 @@
 	<Finished>Завершено</Finished>
 	<InProgress>В процессе</InProgress>
 	<Locked>Недоступно</Locked>
-	<ResearchMenuWithoutBench>Пока вы не построите исследовательский стол, ваши поселенцы не смогут приступить к исследованиям.\n\nТем не менее, вы всё равно можете посмотреть и выбрать исследовательский проект прямо сейчас.</ResearchMenuWithoutBench>
+	<ResearchMenuWithoutBench>Пока вы не построите верстак учёного, ваши поселенцы не смогут приступить к исследованиям.\n\nТем не менее, исследовательский проект можно выбрать заранее.</ResearchMenuWithoutBench>
 	<ResearchPrerequisites>Требуемые иследования</ResearchPrerequisites>
-	<RequiredResearchBench>Требуемый исследовательский стол</RequiredResearchBench>
-	<RequiredResearchBenchFacilities>Требуемое оборудование для исследовательского стола</RequiredResearchBenchFacilities>
+	<RequiredResearchBench>Требуемый верстак</RequiredResearchBench>
+	<RequiredResearchBenchFacilities>Требуемое оборудование для верстака учёного</RequiredResearchBenchFacilities>
 
 	<!-- Advanced game start options -->
-	<MapTemperatureDangerWarning>Внимание: вы приземлитесь в обледенелой местности. Выживание там может быть очень сложным или нереальным. Если не собираетесь бросать себе экстремальный вызов, выберите другое место или сезон.</MapTemperatureDangerWarning>
-	<MapSizePerformanceWarning>Внимание: Производительность может падать с увеличением размера карты. Огромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
+	<MapTemperatureDangerWarning>Внимание! Вы приземлитесь в обледенелой местности. Выживание там может быть очень сложным или нереальным. Если не собираетесь бросать себе экстремальный вызов, выберите другое место или сезон.</MapTemperatureDangerWarning>
+	<MapSizePerformanceWarning>Внимание! Производительность может падать с увеличением размера карты. Огромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
 	<MapSize>Размер карты</MapSize>
 	<MapSizeDesc>{0}x{0} ({1} клеток)</MapSizeDesc>
 	<MapSizeSmall>Маленькая</MapSizeSmall>
@@ -129,8 +129,8 @@
 	<MinimumSkills>Минимальные навыки:</MinimumSkills>
 	<BillRequires>Требуется {0} {1}</BillRequires>
 	<BillRequiresNutrition>Требуется {0} ресурса</BillRequiresNutrition>
-	<BillRequiresMayVary>Заметка: ингредиенты малого объёма, такие как золото, требуются в 20 раз больше.</BillRequiresMayVary>
-	<ThisIsSmallVolume>Этот ингредиент имеет малый объём. Это значит, что каждый "кусочек" — лишь от 1/20 объёма обычного ингредиента. Чтобы выполнить требования по ингредиентам вам понадобится в 20 раз больше материала.</ThisIsSmallVolume>
+	<BillRequiresMayVary>Заметка: ингредиентов малого объёма (таких, как золото) требуется в 20 раз больше.</BillRequiresMayVary>
+	<ThisIsSmallVolume>Этот ингредиент имеет малый объём. Каждый "кусочек" — лишь от 1/20 объёма обычного ингредиента. Чтобы выполнить требования по ингредиентам, вам понадобится в 20 раз больше материала.</ThisIsSmallVolume>
 	<UsableIngredients>ингредиенты</UsableIngredients>
 	<DoXTimes>Сделать X раз</DoXTimes>
 	<DoUntilYouHaveX>Повторять до X</DoUntilYouHaveX>
@@ -153,12 +153,12 @@
 	<Harvestable>Собираемое</Harvestable>
 	<LimitedLifespan>Недолговечное</LimitedLifespan>
 	<GrowingTime>Время созревания</GrowingTime>
-	<GrowingTimeDesc>Растения растут только часть дня и только когда светло. Этот показатель измеряет время, в течении которого растение должно непрерывно расти, чтобы вырасти полностью. Реальное время будет примерно в два раза больше. Низкие температуры также замедляют рост.</GrowingTimeDesc>
+	<GrowingTimeDesc>Растения растут только в светлое время суток. Этот показатель измеряет время, в течение которого растение должно непрерывно расти, чтобы вырасти полностью. Реальное время будет примерно в два раза больше. Низкие температуры также замедляют рост.</GrowingTimeDesc>
 	<Days>дней</Days>
 	<MinGrowingSkillToSow>Минимальное умение сеять</MinGrowingSkillToSow>
 	<FertilityRequirement>Требования к почве</FertilityRequirement>
-	<SoilFertilitySensitivityGrowthRate>Влияние плодор-ти (скор-ть роста)</SoilFertilitySensitivityGrowthRate>
-	<SoilFertilitySensitivityPlantChance>Влияние плодор-ти (посадка)</SoilFertilitySensitivityPlantChance>
+	<SoilFertilitySensitivityGrowthRate>Плодородие почвы (темп роста)</SoilFertilitySensitivityGrowthRate>
+	<SoilFertilitySensitivityPlantChance>Плодородие почвы (посадка)</SoilFertilitySensitivityPlantChance>
 	<LightRequirement>Требования к свету</LightRequirement>
 	<Attributes>Атрибуты</Attributes>
 	<LifeSpan>Рост</LifeSpan>
@@ -178,8 +178,8 @@
 	<MoodChange>Смена настроения</MoodChange>
 	<Wildness>Дикость</Wildness>
 	<WildnessExplanation>Диких существ сложнее приручить, натренировать и с ними обращаться.</WildnessExplanation>
-	<AnimalFilthRate>Скорость загрязнения животными</AnimalFilthRate>
-	<AnimalFilthRateExplanation>Животные загрязняют полы. Это среднее количество грязи, оставленной животным на {0} пройденных им клетках.\n\nБолее крупные и менее домашние животные оставляют больше грязи.</AnimalFilthRateExplanation>
+	<AnimalFilthRate>Скорость загрязнения</AnimalFilthRate>
+	<AnimalFilthRateExplanation>Животные загрязняют полы. Это среднее количество грязи, оставленной животным на {0} пройденных им клетках.\n\nБолее крупные и дикие животные оставляют больше грязи.</AnimalFilthRateExplanation>
 	<TimeRecordsCategory>Время</TimeRecordsCategory>
 	<MiscRecordsCategory>Прочее</MiscRecordsCategory>
 	<Addictiveness>Привыкание</Addictiveness>
@@ -201,7 +201,7 @@
 	<ColonyHasNoMore>Больше нет на продажу.</ColonyHasNoMore>
 	<TraderWillNotTrade>Торговец не желает торговать этим товаром.</TraderWillNotTrade>
 	<NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием более здорового переговорщика.</NegotiatorTalkingImpaired>
-	<ConfirmTraderShortFunds>У торговца недостаточно серебра, чтобы завершить эту сделку. Продолжить всё равно?</ConfirmTraderShortFunds>
+	<ConfirmTraderShortFunds>У торговца недостаточно серебра, чтобы завершить эту сделку. Продолжить?</ConfirmTraderShortFunds>
 	<SortBy>Подбор по</SortBy>
 
 	<!-- Comms -->
@@ -228,7 +228,7 @@
 	<NoOutfitSelected>Набор одежды не выбран</NoOutfitSelected>
 	
 	<!-- Drug policy management -->
-	<DrugPolicy>Курс употребления наркотиков</DrugPolicy>
+	<DrugPolicy>Курс приёма наркотиков</DrugPolicy>
 	<SelectDrugPolicy>Выбрать курс...</SelectDrugPolicy>
 	<NewDrugPolicy>Создать курс</NewDrugPolicy>
 	<DeleteDrugPolicy>Удалить курс...</DeleteDrugPolicy>
