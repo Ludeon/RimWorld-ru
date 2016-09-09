@@ -39,7 +39,9 @@
   <AnimalsSkillTooLow>Животное недостаточно умно</AnimalsSkillTooLow>
   <NoComponentsToRepair>нужны компоненты</NoComponentsToRepair>
   <NoFuelToRefuel>нужно {0}</NoFuelToRefuel>
-	
+
+  <NoWort>нужно сусло</NoWort>
+  
   <ConsumeThing>Употребить {0}</ConsumeThing>
   <Teetotaler>трезвенник</Teetotaler>
   
@@ -110,12 +112,14 @@
 
   <CannotGenericAlreadyAm>Уже {0}: {1}</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeIsNotA>Сейчас нельзя ({0} не {1})</CannotPrioritizeIsNotA>
+  <CannotPrioritizeWorkTypeDisabled>Невозможно приоритезировать (никогда не будет {0})</CannotPrioritizeWorkTypeDisabled> <!--Kappa-->
+  
+  <CannotPrioritizeNotAssignedToWorkType>Невозможно приоритезировать (не назначен {0})</CannotPrioritizeNotAssignedToWorkType> <!--Kappa-->
 
   <CannotPrioritizeResearch>Сейчас нельзя (исследование - долгосрочная задача)</CannotPrioritizeResearch>
 
-	<CannotPrioritizeForbidden>Невозможно приоритезировать ({0} запрещено)</CannotPrioritizeForbidden>
-	<CannotPrioritizeForbiddenOutsideAllowedArea>Невозможно приоритезировать ({0} вне разрешённой зоны)</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <CannotPrioritizeForbidden>Невозможно приоритезировать ({0} запрещено)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>Невозможно приоритезировать ({0} вне разрешённой зоны)</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>{0}: {1}</PrioritizeGeneric>
