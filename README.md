@@ -16,7 +16,7 @@
 
 ## Сделавшие вклад:
 * [Humort](https://github.com/Humort)
-* [dragomano](https://github.com/dragomano)
+* [Bugo](https://github.com/dragomano)
 * [Lirryc](https://github.com/Lirryc)
 * [M-r-A](https://github.com/M-r-A)
 * [rooqie](https://github.com/rooqie)
@@ -35,4 +35,6 @@
 ## Больше информации о лицензии:
 http://ludeon.com/forums/index.php?topic=2933.0
 
-## Если хотите помочь переводу - прочитайте сначала хотя бы первую страницу [wiki](https://github.com/Ludeon/RimWorld-ru/wiki). Если вас действительно заинтересует перевод, по техническим моментам там есть ещё две страницы.
+## По вопросам процесса перевода обратитесь к [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
+
+## Чтобы иметь право быть добавленным в LanguageInfo.xml в качестве переводчика, необходимо оказывать активную помощь в переводе как минимум двух релизных версий RimWorld.
