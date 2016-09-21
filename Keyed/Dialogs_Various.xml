@@ -9,15 +9,15 @@
   <GameUpdatedToNewVersionInitial>RimWorld был обновлён с версии {0} до версии {1}.\n\nЭто может стать причиной того, что сохранения и модификации от старой версии более не будут работать.</GameUpdatedToNewVersionInitial>
   <GameUpdatedToNewVersionNonSteam>Так как это DRM-free версия игры, вы можете установить её в две разные папки и играть как в старую, так и в новую версии.</GameUpdatedToNewVersionNonSteam>
   <GameUpdatedToNewVersionSteam>Если вы желаете продолжить играть в старую версию, вы можете сделать это при помощи возможности Steam "Бета версии".\n\n  1. В библиотеке игр Steam кликните правой кнопкой мыши на RimWorld.\n  2. Нажмите "Свойства".\n  3. Выберите вкладку "Бета версии".\n  4. В выпадающем списке выберите желаемую версию.\n\nРано или поздно старые версии будут убираться из этого списка, однако мы не хотим просто так прерывать ваши текущие игры.\n\nИмейте ввиду, что в том случае, если авторы модов также обновляют их для новой версии игры, то они могут переставать работать в старой. Чтобы предотвратить это, вам понадобится отключить функцию автоматического обновления.</GameUpdatedToNewVersionSteam>
-	
+
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>Восстановлено после несовместимых или поврежденных модов</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>Видимо, некоторые из активированных модов вызывали ошибки.\n\nОни были несовместимы друг с другом, предназначены для другой версии RimWorld либо повреждены.\n\nВсе моды были отключены и могут быть активированы повторно в соответствующем разделе меню.</RecoveredFromErrorsText>
-   
+
   <!-- Errors during loading -->
   <ErrorWhileLoadingAssetsTitle>Ошибка при загрузке ассетов</ErrorWhileLoadingAssetsTitle>
   <ErrorWhileLoadingAssets>Произошла ошибка при загрузке ассетов. Посмотрите лог для подробной информации.</ErrorWhileLoadingAssets>
-  <ErrorWhileLoadingAssets_ModsInfo>Игра запущена с кастомными модами - они могут вызывать, а могут и не вызывать этих проблем.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssets_ModsInfo>Игра запущена с кастомными модами. Они могут вызывать, а могут и не вызывать этих проблем.</ErrorWhileLoadingAssets_ModsInfo>
   <ErrorWhileGeneratingMapTitle>Ошибка при генерации карты</ErrorWhileGeneratingMapTitle>
   <ErrorWhileGeneratingMap>Произошла ошибка при генерации карты. Посмотрите лог для подробной информации.</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>Ошибка при загрузке карты</ErrorWhileLoadingMapTitle>
@@ -25,10 +25,10 @@
 
   <!-- Unloaded mod with an assembly -->
   <ModWithAssemblyWasUnloaded>Игра не может полностью выгрузить модифицированный код от деактивированных модов, поэтому их код может продолжать действовать.\n\nРекомендуется выйти и перезапустить игру, чтобы все моды загрузились чисто.</ModWithAssemblyWasUnloaded>
-  
+
   <!-- Missing Steam -->
   <SteamClientMissing>Невозможно инициализировать Steam API. Возможные причины:\n\n-Steam не запущен.\n-Игра запущена из Steam при отсутствующем на месте steam_appid.txt.\n-Игра запущена с отличающимися от запуска Steam привилегиями (например "от имени администратора").\n\nВ большинстве случаев перезагрузка компьютера решит проблему.\n\nЭто Steam-версия игры, и так как для неё требуется Steam, игра сейчас будет закрыта.</SteamClientMissing>
-  
+
   <!-- Long events -->
   <InitializingInterface>Инициализация интерфейса</InitializingInterface>
   <UnloadingUnusedAssets>Выгрузка неиспользуемых ассетов</UnloadingUnusedAssets>
@@ -40,7 +40,7 @@
   <LoadingMap>Загрузка карты</LoadingMap>
   <InitializingMap>Инициализация карты</InitializingMap>
   <SpawningAllThings>Размещение объектов</SpawningAllThings>
-   
+
   <!-- Save/load -->
   <SaveGameButton>Сохранить</SaveGameButton>
   <OverwriteButton>Перезаписать</OverwriteButton>
@@ -58,7 +58,7 @@
   <SaveIsUnknownFormat>Данные сохранены в неизвестном формате и скорее всего не загрузятся корректно.</SaveIsUnknownFormat>
   <ProblemSavingFile>Были проблемы с сохранением файла {0}:\n\n{1}</ProblemSavingFile>
   <LoadAnyway>Загрузить в любом случае</LoadAnyway>
-   
+
   <!-- Colony naming-->
   <NameColonyMessage>Так как похоже, что вы тут надолго, {0} предлагает дать поселению название.\n\nКак вы назовёте его?</NameColonyMessage>
   <ColonyGainsName>Поселение теперь известно как {0}.</ColonyGainsName>
@@ -79,7 +79,7 @@
   <FileIncompatibleWarning>Внимание: Этот файл был сохранён в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого файла может вызвать ошибки и сбои.</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>Несоответствие модов</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>Внимание: Этот файл был сохранён с набором модов, отличным от текущего. Это может вызвать, а может и не вызвать проблемы, в зависимости от содержания модов.\n\Файл был сохранён с (в этом порядке):\n\n{0}\n\nСейчас подключены (в этом порядке):\n\n{1}</ModsMismatchWarningText>
-  
+
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Вы изменили настройки экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Сохранить</ResolutionKeep>
@@ -96,7 +96,7 @@
   <ResearchPrerequisites>Требуемые иследования</ResearchPrerequisites>
   <RequiredResearchBench>Требуемый исследовательский стол</RequiredResearchBench>
   <RequiredResearchBenchFacilities>Требуемое оборудование для исследовательского стола</RequiredResearchBenchFacilities>
-  
+
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>Внимание: вы приземлитесь в обледенелой местности. Выживание там может быть очень сложным или нереальным. Если не собираетесь бросать себе экстремальный вызов, выберите другое место или сезон.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Внимание: Производительность может падать с увеличением размера карты. Огромный размер не тестировался и почти наверняка приведет к проблемам с производительностью.</MapSizePerformanceWarning>
@@ -109,7 +109,7 @@
   <MapStartSeason>Начальный сезон:</MapStartSeason>
   <MapStartSeasonDefault>Авто</MapStartSeasonDefault>
   <PermadeathMode>"Хардкор"</PermadeathMode>
-  <PermadeathModeInfo>В этом режиме доступна лишь одна ячейка сохранения, а сохраняться возможно только при выходе из игры. Нельзя перезагружаться, чтобы исправить ошибки, а если поселение погибает - это конец.\n\nЭто именно тот режим, в котором RimWorld и задумывался изначально, где любой поворот судьбы - печальный или удачный - отыгрывается в полную силу.</PermadeathModeInfo>
+  <PermadeathModeInfo>В этом режиме доступна лишь одна ячейка сохранения, а сохраняться возможно только при выходе из игры. Нельзя перезагружаться, чтобы исправить ошибки, а если поселение погибает — это конец.\n\nЭто именно тот режим, в котором RimWorld и задумывался изначально, где любой поворот судьбы, печальный или удачный, отыгрывается в полную силу.</PermadeathModeInfo>
 
   <!-- Bill config -->
   <Suspended>Продолжить</Suspended>
@@ -123,14 +123,14 @@
   <CountingProducts>Подсчёт</CountingProducts>
   <Infinite>Бесконечно</Infinite>
   <AllowedSkillRange>Допустимый уровень навыка {0}</AllowedSkillRange>
-  
+
   <RecipeCannotHaveTargetCount>(Это задание нельзя повторять, так как результат может быть разным.)</RecipeCannotHaveTargetCount>
   <WorkAmount>Объем работ</WorkAmount>
   <MinimumSkills>Минимальные навыки:</MinimumSkills>
   <BillRequires>Требуется {0} {1}</BillRequires>
   <BillRequiresNutrition>Требуется {0} ресурса</BillRequiresNutrition>
   <BillRequiresMayVary>Заметка: ингредиенты малого объёма, такие как золото, требуются в 20 раз больше.</BillRequiresMayVary>
-  <ThisIsSmallVolume>Этот ингредиент имеет малый объём. Это значит, что каждый "кусочек" - лишь от 1/20 объёма обычного ингредиента. Чтобы выполнить требования по ингредиентам вам понадобится в 20 раз больше материала.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Этот ингредиент имеет малый объём. Это значит, что каждый "кусочек" — лишь от 1/20 объёма обычного ингредиента. Чтобы выполнить требования по ингредиентам вам понадобится в 20 раз больше материала.</ThisIsSmallVolume>
   <UsableIngredients>ингредиенты</UsableIngredients>
   <DoXTimes>Сделать X раз</DoXTimes>
   <DoUntilYouHaveX>Повторять до X</DoUntilYouHaveX>
@@ -139,7 +139,7 @@
   <BillStoreMode_DropOnFloor>Положить на пол</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>Отнести на лучший склад</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>Отнести на ближайший склад</BillStoreMode_NearestStockpileAnyPriority>
-  
+
   <!-- Info card -->
   <Damage>Урон</Damage>
   <Accuracy>Точность</Accuracy>
@@ -183,9 +183,9 @@
   <TimeRecordsCategory>Время</TimeRecordsCategory>
   <MiscRecordsCategory>Прочее</MiscRecordsCategory>
   <Addictiveness>Степень вызывания привыкания</Addictiveness>   <!-- Kappa -->
-	
+
   <!-- Trade -->
-  <PositiveBuysNegativeSells>Положительное число - покупка.\nОтрицательное число - продажа.</PositiveBuysNegativeSells>
+  <PositiveBuysNegativeSells>Положительное число — покупка.\nОтрицательное число — продажа.</PositiveBuysNegativeSells>
   <BuyPriceDesc>Цена, по которой можно купить товар.</BuyPriceDesc>
   <SellPriceDesc>Цена, по которой можно продать товар.</SellPriceDesc>
   <PriceTypeDesc>Для данного товара это {0} цена.</PriceTypeDesc>
@@ -203,7 +203,7 @@
   <NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием более здорового переговорщика.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>У торговца недостаточно серебра, чтобы завершить эту сделку.  Продолжить всё равно?</ConfirmTraderShortFunds>
   <SortBy>Подбор по</SortBy>
- 
+
   <!-- Comms -->
   <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
 
@@ -226,7 +226,7 @@
   <DeleteOutfit>Удалить набор...</DeleteOutfit>
   <OutfitInUse>Одежда используется {0}.</OutfitInUse>
   <NoOutfitSelected>Набор одежды не выбран</NoOutfitSelected>
-  
+
   <!-- Drug policy management -->
   <DrugPolicy>Политика в отношении наркотиков</DrugPolicy>
   <SelectDrugPolicy>Выбрать политику...</SelectDrugPolicy>
@@ -259,7 +259,7 @@
   <TakeToInventoryColumnDesc>Количество наркотика, которое поселенцу нужно будет взять с собой сверх величины приёма, чтобы в следующий раз ему не нужно было ходить на склад.</TakeToInventoryColumnDesc>
   <DrugUsageTipForJoy>Для настроения\n\nИспользовать этот наркотик для улучшения настроения и социальных целей, а также для того, чтобы удовлетворить потребности зависимостей.\n\nДаже если отключено, некоторые поселенцы с определёнными чертами или во время нервных срывов могут всё равно попытаться использовать наркотик.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>По расписанию\n\nИспользовать этот наркотик по определённому расписанию, когда соблюдены указанные условия.</DrugUsageTipScheduled>
-  
+
   <!-- Growing -->
   <NoGrowerCanPlant>{0} требует уровня {1} в Выращивании для посадки.\n\nНикто из ваших находящихся в сознании садоводов не обладает достаточным навыком, поэтому данное растение не будет высаживаться.</NoGrowerCanPlant>
 
