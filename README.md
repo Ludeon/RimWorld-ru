@@ -2,16 +2,14 @@
 Русская Локализация RimWorld
 
 
-
-
 ## Официальные переводчики:
+* [Elevator89](https://github.com/Elevator89)
+* [Dinoabunai](https://github.com/Dinoabunai)
+* [Dimonasdf](https://github.com/Dimonasdf)
+* [EcherArt](https://github.com/EcherArt)
 * [AcDie (inactive)](https://github.com/AcDie)
 * [Dandi (inactive)](https://github.com/Dandi91)
 * [Tarakanhb (inactive)](https://github.com/Tarakanhb)
-* [Dimonasdf](https://github.com/Dimonasdf)
-
-
-
 
 
 ## Сделавшие вклад:
@@ -23,18 +21,12 @@
 * [dankan0880](https://github.com/dankan0880)
 
 
-
-
-
 ## Помощь:
 * [hazestalker](https://github.com/hazestalker)
 * [KviEt](https://github.com/KviEt)
-
 
 
 ## Больше информации о лицензии:
 http://ludeon.com/forums/index.php?topic=2933.0
 
 ## По вопросам процесса перевода обратитесь к [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
-
-## Чтобы иметь право быть добавленным в LanguageInfo.xml в качестве переводчика, необходимо оказывать активную помощь в переводе как минимум двух релизных версий RimWorld.
