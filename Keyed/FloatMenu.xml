@@ -2,12 +2,12 @@
 <LanguageData>
 
   <CallOnRadio>Связаться с {0}</CallOnRadio>
-  <CannotUseReason>Невозможно использовать ({0})</CannotUseReason>
-  <CannotUseSolarFlare>Невозможно использовать (солнечная вспышка)</CannotUseSolarFlare>
-  <CannotUseNoPower>Невозможно использовать (нет энергии)</CannotUseNoPower>
-  <CannotUseNoPath>Невозможно использовать (нельзя пройти)</CannotUseNoPath>
-  <CannotUseReserved>Невозможно использовать (занято)</CannotUseReserved>
-  <CannotUseFull>Невозможно использовать (заполнено)</CannotUseFull>
+  <CannotUseReason>Невозможно использовать: {0}</CannotUseReason>
+  <CannotUseSolarFlare>Невозможно использовать: солнечная вспышка</CannotUseSolarFlare>
+  <CannotUseNoPower>Невозможно использовать: нет энергии</CannotUseNoPower>
+  <CannotUseNoPath>Невозможно использовать: нельзя пройти</CannotUseNoPath>
+  <CannotUseReserved>Невозможно использовать: занято</CannotUseReserved>
+  <CannotUseFull>Невозможно использовать: заполнено</CannotUseFull>
 
   <FireAt>Стрелять в {0}</FireAt>
 
@@ -75,7 +75,7 @@
   <MinSkill>мин. уровень навыка</MinSkill>
 
   <Equip>Экипировать {0}</Equip>
-  <EquipWarningBrawler>(дебошир будет недоволен)</EquipWarningBrawler>
+  <EquipWarningBrawler>(драчун будет недоволен)</EquipWarningBrawler>
   <CannotEquip>Невозможно экипировать {0}</CannotEquip>
 
   <ForceWear>Надеть {0}</ForceWear>
@@ -105,24 +105,24 @@
 
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
-  <CannotGenericWork>Невозможно {0}: {1}</CannotGenericWork>
+  <CannotGenericWork>Невозможно {0} {1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  <CannotMissingHealthActivities>Сейчас нельзя (Проблема со здоровьем: {0})</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>Сейчас нельзя: неспособен {0}</CannotMissingHealthActivities>
 
-  <CannotGenericAlreadyAm>Уже {0}: {1}</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>Уже {0} {1}</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeWorkTypeDisabled>Невозможно приоритезировать (никогда не будет {0})</CannotPrioritizeWorkTypeDisabled> <!--Kappa-->
+  <CannotPrioritizeWorkTypeDisabled>Невозможно выполнить: никогда не будет {0}</CannotPrioritizeWorkTypeDisabled>
 
-  <CannotPrioritizeNotAssignedToWorkType>Невозможно приоритезировать (не назначен {0})</CannotPrioritizeNotAssignedToWorkType> <!--Kappa-->
+  <CannotPrioritizeNotAssignedToWorkType>Невозможно выполнить: не назначен {0}</CannotPrioritizeNotAssignedToWorkType>
 
   <CannotPrioritizeResearch>Сейчас нельзя (исследование — долгосрочная задача)</CannotPrioritizeResearch>
 
-  <CannotPrioritizeForbidden>Невозможно приоритезировать ({0} запрещено)</CannotPrioritizeForbidden>
-  <CannotPrioritizeForbiddenOutsideAllowedArea>Невозможно приоритезировать ({0} вне разрешённой зоны)</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <CannotPrioritizeForbidden>Невозможно выполнить: {0} запрещено</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>Невозможно выполнить: {0} вне разрешённой зоны</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
-  <PrioritizeGeneric>{0}: {1}</PrioritizeGeneric>
+  <PrioritizeGeneric>{0} {1}</PrioritizeGeneric>
   <!-- В русском это убрано и в gerund идёт просто "Починить" стену, "Отнести" металл... -->
 
 </LanguageData>
