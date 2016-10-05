@@ -103,13 +103,12 @@
   <EnterCryptosleepCasket>Войти в контейнер крипто-сна</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>Открыть контейнер крипто-сна</OpenCryptosleepCasket>
 
-
-  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>Невозможно {0} {1}</CannotGenericWork>
 
-  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotMissingHealthActivities>Сейчас нельзя: неспособен {0}</CannotMissingHealthActivities>
 
+  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotGenericAlreadyAm>Уже {0} {1}</CannotGenericAlreadyAm>
 
   <CannotPrioritizeWorkTypeDisabled>Невозможно выполнить: никогда не будет {0}</CannotPrioritizeWorkTypeDisabled>
@@ -122,7 +121,7 @@
   <CannotPrioritizeForbiddenOutsideAllowedArea>Невозможно выполнить: {0} вне разрешённой зоны</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
-  <PrioritizeGeneric>{0} {1}</PrioritizeGeneric>
   <!-- В русском это убрано и в gerund идёт просто "Починить" стену, "Отнести" металл... -->
+<PrioritizeGeneric>{0} {1}</PrioritizeGeneric>
 
 </LanguageData>
