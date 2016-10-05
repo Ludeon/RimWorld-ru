@@ -2,12 +2,12 @@
 <LanguageData>
 
   <CallOnRadio>Связаться с {0}</CallOnRadio>
-  <CannotUseReason>Невозможно использовать ({0})</CannotUseReason>
-  <CannotUseSolarFlare>Невозможно использовать (солнечная вспышка)</CannotUseSolarFlare>
-  <CannotUseNoPower>Невозможно использовать (нет энергии)</CannotUseNoPower>
-  <CannotUseNoPath>Невозможно использовать (нельзя пройти)</CannotUseNoPath>
-  <CannotUseReserved>Невозможно использовать (занято)</CannotUseReserved>
-  <CannotUseFull>Невозможно использовать (заполнено)</CannotUseFull>
+  <CannotUseReason>Невозможно использовать: {0}</CannotUseReason>
+  <CannotUseSolarFlare>Невозможно использовать: солнечная вспышка</CannotUseSolarFlare>
+  <CannotUseNoPower>Невозможно использовать: нет энергии</CannotUseNoPower>
+  <CannotUseNoPath>Невозможно использовать: нельзя пройти</CannotUseNoPath>
+  <CannotUseReserved>Невозможно использовать: занято</CannotUseReserved>
+  <CannotUseFull>Невозможно использовать: заполнено</CannotUseFull>
 
   <FireAt>Стрелять в {0}</FireAt>
 
@@ -45,7 +45,7 @@
   <ConsumeThing>Употребить {0}</ConsumeThing>
   <Teetotaler>трезвенник</Teetotaler>
 
-  <CannotGoNoPath>Невозможно пройти сюда (нет прохода)</CannotGoNoPath>
+  <CannotGoNoPath>Невозможно пройти сюда: нет прохода</CannotGoNoPath>
   <GoHere>Идти сюда</GoHere>
 
   <Arrest>Арестовать {0}</Arrest>
@@ -66,8 +66,8 @@
   <NoNonPrisonerBed>Нет доступных свободных кроватей для поселенецев.</NoNonPrisonerBed>
   <NoAnimalBed>Нет доступных свободных кроватей для животных.</NoAnimalBed>
   <Reserved>Занято кем-то другим.</Reserved>
-  <ReservedBy>Занято: {0}</ReservedBy>
-  <IsReservedBy>{0} уже используется: {1}.</IsReservedBy>
+  <ReservedBy>Занято {0}</ReservedBy>
+  <IsReservedBy>{0} уже используется {1}.</IsReservedBy>
 
   <Incapable>неспособен</Incapable>
   <IncapableOfCapacity>неспособен {0}</IncapableOfCapacity>
@@ -75,7 +75,7 @@
   <MinSkill>мин. уровень навыка</MinSkill>
 
   <Equip>Экипировать {0}</Equip>
-  <EquipWarningBrawler>(дебошир будет недоволен)</EquipWarningBrawler>
+  <EquipWarningBrawler>(драчун будет недоволен)</EquipWarningBrawler>
   <CannotEquip>Невозможно экипировать {0}</CannotEquip>
 
   <ForceWear>Надеть {0}</ForceWear>
@@ -103,26 +103,25 @@
   <EnterCryptosleepCasket>Войти в контейнер крипто-сна</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>Открыть контейнер крипто-сна</OpenCryptosleepCasket>
 
+  <CannotGenericWork>Невозможно {0} {1}</CannotGenericWork>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
-  <CannotGenericWork>Невозможно {0}: {1}</CannotGenericWork>
+  <CannotMissingHealthActivities>Сейчас нельзя: поселенец не может {0} из-за проблем со здоровьем</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  <CannotMissingHealthActivities>Сейчас нельзя (Проблема со здоровьем: {0})</CannotMissingHealthActivities>
+  <CannotGenericAlreadyAm>Уже {0} {1}</CannotGenericAlreadyAm>
 
-  <CannotGenericAlreadyAm>Уже {0}: {1}</CannotGenericAlreadyAm>
+  <CannotPrioritizeWorkTypeDisabled>Невозможно выполнить: никогда не будет {0}</CannotPrioritizeWorkTypeDisabled>
 
-  <CannotPrioritizeWorkTypeDisabled>Невозможно приоритезировать (никогда не будет {0})</CannotPrioritizeWorkTypeDisabled> <!--Kappa-->
+  <CannotPrioritizeNotAssignedToWorkType>Невозможно выполнить: не назначен {0}</CannotPrioritizeNotAssignedToWorkType>
 
-  <CannotPrioritizeNotAssignedToWorkType>Невозможно приоритезировать (не назначен {0})</CannotPrioritizeNotAssignedToWorkType> <!--Kappa-->
+  <CannotPrioritizeResearch>Сейчас нельзя: исследование — долгосрочная задача</CannotPrioritizeResearch>
 
-  <CannotPrioritizeResearch>Сейчас нельзя (исследование — долгосрочная задача)</CannotPrioritizeResearch>
-
-  <CannotPrioritizeForbidden>Невозможно приоритезировать ({0} запрещено)</CannotPrioritizeForbidden>
-  <CannotPrioritizeForbiddenOutsideAllowedArea>Невозможно приоритезировать ({0} вне разрешённой зоны)</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <CannotPrioritizeForbidden>Невозможно выполнить: {0} запрещено</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>Невозможно выполнить: {0} вне разрешённой зоны</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
-  <PrioritizeGeneric>{0}: {1}</PrioritizeGeneric>
   <!-- В русском это убрано и в gerund идёт просто "Починить" стену, "Отнести" металл... -->
+<PrioritizeGeneric>{0} {1}</PrioritizeGeneric>
 
 </LanguageData>
