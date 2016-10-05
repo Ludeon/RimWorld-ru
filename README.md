@@ -29,4 +29,5 @@
 ## Больше информации о лицензии:
 http://ludeon.com/forums/index.php?topic=2933.0
 
-## По вопросам процесса перевода обратитесь к [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
+## Процесс перевода и организация командной работы описаны в [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
+## Обсуждение всех вопросов происходит в [чате](https://telegram.me/joinchat/EBLEqgn9X2kXe_oDrrAMsA) [Телеграма](https://telegram.org/).
