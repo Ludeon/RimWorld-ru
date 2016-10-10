@@ -52,7 +52,7 @@
   <OpenSteamWorkshop>Открыть Мастерскую Steam</OpenSteamWorkshop>
   <GetModsFromForum>Скачать моды с форума</GetModsFromForum>
   <OpenModsDataFolder>Открыть папку с модами</OpenModsDataFolder>
-  <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все его функции.\n\nПомните, другие модификации могут переписывать значения ядра с помощью таких же значений defName.</ConfirmDisableCoreMod>
+  <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все его функции.\n\nПомните, другие модификации могут перопределять значения ядра с помощью таких же значений defName.</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>Вы уверены, что хотите удалить {0}?</ConfirmDeleteMod>
   <Unsubscribe>Деактивировать</Unsubscribe>
   <ConfirmUnsubscribe>Вы уверены, что хотите деактивировать и отписаться от {0}?</ConfirmUnsubscribe>
@@ -63,7 +63,7 @@
   <UploadAlreadyInProgress>Загрузка уже идёт.</UploadAlreadyInProgress>
   <WorkshopSubmissionFailed>Подключение прервано.\n\nПричина: {0}</WorkshopSubmissionFailed>
   <WorkshopUploadSucceeded>Успешно загружено {0}.</WorkshopUploadSucceeded>
-  <Downloading>Загружается</Downloading>
+  <Downloading>Скачивается</Downloading>
   <Source>Источник</Source>
   <ModTargetVersion>Необходимая версия: {0}</ModTargetVersion>
   <ModNotMadeForThisVersion>Эта модификация была разработана не для этой версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion>
@@ -101,7 +101,7 @@
   <SelectRandomSite>Случайное место посадки</SelectRandomSite>
   <SelectSite>Выбрать место</SelectSite>
   <MustSelectLandingSite>Пожалуйста, выберите место посадки.</MustSelectLandingSite>
-  <CannotLandBiome>Вы не можете приземлиться в этом регионе: {0}</CannotLandBiome>
+  <CannotLandBiome>Вы не можете приземлиться в этом биоме: {0}</CannotLandBiome>
   <WorldRenderMode>Режим просмотра</WorldRenderMode>
   <WorldRenderModeFull>Полный</WorldRenderModeFull>
   <WorldRenderModeTemperature>Температура</WorldRenderModeTemperature>
@@ -116,8 +116,8 @@
   <Elevation>Рельеф</Elevation>
   <Fertility>Плодородность</Fertility>
   <AvgTemp>Ср. температура</AvgTemp>
-  <AvgWinterTemp>Ср. темп. (зимой): {0}</AvgWinterTemp>
-  <AvgSummerTemp>Ср. темп. (летом): {0}</AvgSummerTemp>
+  <AvgWinterTemp>Ср. темп. зимой: {0}</AvgWinterTemp>
+  <AvgSummerTemp>Ср. темп. летом: {0}</AvgSummerTemp>
   <Rainfall>Осадки</Rainfall>
   <HasCoast0>Побережье с севера</HasCoast0>
   <HasCoast1>Побережье с востока</HasCoast1>
@@ -134,7 +134,7 @@
   <Randomize>Случайно</Randomize>
   <AgeIndicator>возраст {0}</AgeIndicator>
   <Backstory>Биография</Backstory>
-  <IncapableOf>Неспособен делать</IncapableOf>
+  <IncapableOf>Не может заниматься</IncapableOf>
   <Traits>Черты характера</Traits>
   <PermanentMoodEffect>Постоянные эффекты настроения</PermanentMoodEffect>
   <Skills>Навыки</Skills>
@@ -157,7 +157,7 @@
 
   <ConfirmQuit>Выйти? Весь несохранённый прогресс будет потерян.</ConfirmQuit>
 
-  <EveryoneNeedsValidName>Дайте человеку допустимое имя.</EveryoneNeedsValidName>
+  <EveryoneNeedsValidName>Пожалуйста, введите допустимое имя.</EveryoneNeedsValidName>
 
   <GeneratingWorld>Создание мира...</GeneratingWorld>
   <GeneratingMap>Создание карты...</GeneratingMap>
