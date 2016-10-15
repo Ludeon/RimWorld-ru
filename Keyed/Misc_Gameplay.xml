@@ -7,18 +7,18 @@
   <ContainedResources>Содержащиеся ресурсы</ContainedResources>
   <ForPrisonerUse>Для заключённых</ForPrisonerUse>
   <ForColonistUse>Для поселенецев</ForColonistUse>
-  <MedicalBed>Медицинская</MedicalBed>
+  <MedicalBed>Больничная</MedicalBed>
   <Owner>Владелец</Owner>
   <Owners>Владельцы</Owners>
   <AssignedColonist>Назначенный поселенец</AssignedColonist>
   <Nobody>Никто</Nobody>
   <Unowned>Ничья</Unowned>
   <DeadTime>Мёртв уже {0}</DeadTime>
-  <WalkSpeed>скорость {0}</WalkSpeed>
+  <WalkSpeed>скорость передвижения {0}</WalkSpeed>
   <FertShort>плодородность</FertShort>
   <DyingLower>умирает</DyingLower>
   <FilthOnFeet>Грязь на ногах:</FilthOnFeet>
-  <NotEnoughStoredLower>недостаточно</NotEnoughStoredLower>
+  <NotEnoughStoredLower>недостаточно энергии</NotEnoughStoredLower>
   <NothingLower>ничего</NothingLower>
   <Adapted>Устойчив</Adapted>
   <FreshMissingBodyPart>недавно</FreshMissingBodyPart>
@@ -69,7 +69,7 @@
   <ContainsBeer>Содержит {0} / {1} пива.</ContainsBeer>
   <Fermented>Забродило</Fermented>
   <FermentationProgress>Прогресс: {0} (будет готово через {1}).</FermentationProgress>
-  <FermentationBarrelOutOfIdealTemperature>Не идеальная температура. Множитель скорости брожения: {0}</FermentationBarrelOutOfIdealTemperature>
+  <FermentationBarrelOutOfIdealTemperature>Неидеальная температура для брожения. Множитель скорости: {0}</FermentationBarrelOutOfIdealTemperature>
 
 
 
@@ -90,7 +90,7 @@
   <TextMote_ConstructionFail>Строительство\nнеудачно</TextMote_ConstructionFail>
 
     <!-- Areas -->
-  <Home>Домашняя</Home>
+  <Home>Домашняя область</Home>
   <BuildRoof>Построить крышу</BuildRoof>
   <NoRoof>Без крыши</NoRoof>
   <SnowClear>Уборка снега</SnowClear>
@@ -103,7 +103,7 @@
 
   <!-- Control -->
   <CannotOrderNonControlled>Нельзя отдавать приказы неконтролируемым юнитам.</CannotOrderNonControlled>
-  <IsIncapableOfViolence>{0} не в состоянии учинить насилие.</IsIncapableOfViolence>
+  <IsIncapableOfViolence>{0} не в состоянии причинить насилие.</IsIncapableOfViolence>
   <IsIncapableOfViolenceShort>неспособен к насилию</IsIncapableOfViolenceShort>
   <IsNotDrafted>{0} не в режиме призыва.</IsNotDrafted>
 
@@ -122,18 +122,18 @@
   <ShellNotLoaded>Не заряжено</ShellNotLoaded>
 
   <!-- Job reports -->
-  <ReportHaulingTo>несёт: {0} --> {1}.</ReportHaulingTo>
+  <ReportHaulingTo>несёт {0} на {1}.</ReportHaulingTo>
   <ReportHauling>несёт {0}.</ReportHauling>
   <ReportSleeping>спит.</ReportSleeping>
   <ReportResting>отдыхает.</ReportResting>
   <WatchingSunrise>наблюдет за восходом.</WatchingSunrise>
   <CloudWatching>наблюдает за облаками.</CloudWatching>
   <WatchingSunset>наблюдает за закатом.</WatchingSunset>
-  <Stargazing>мечтает.</Stargazing>
+  <Stargazing>смотрит на звёзды.</Stargazing>
   <WatchingEclipse>наблюдает за затмением.</WatchingEclipse>
   <UsingVerb>использует {0} на {1}.</UsingVerb>
   <AreaLower>область</AreaLower>
-  <ReportCowering>пятится.</ReportCowering>
+  <ReportCowering>ищет укрытие.</ReportCowering>
   <ReportStanding>стоит.</ReportStanding>
   <ReportExtinguishingFire>тушит пожар.</ReportExtinguishingFire>
   <ReportExtinguishingFireOn>сбивает огонь с {0}.</ReportExtinguishingFireOn>
@@ -175,7 +175,7 @@
   <Equipped>Вооружён</Equipped>
   <EquippedNothing>ничего</EquippedNothing>
   <Incapacitated>Без сознания</Incapacitated>
-  <InRestraints>В оковах (замедлен)</InRestraints>
+  <InRestraints>В оковах (движение замедлено)</InRestraints>
   <Carrying>Держит</Carrying>
 
   <!-- Inspector general stuff -->
@@ -183,7 +183,7 @@
   <DefInfoTip>Просмотр информации о данном объекте.</DefInfoTip>
 
   <!-- Hostility response -->
-  <HostilityReponseTip>Выберите, как поселенцам реагировать на врагов, когда они не находятся в режиме призыва.</HostilityReponseTip>
+  <HostilityReponseTip>Выберите, как поселенцам реагировать на врагов, когда они не находятся в боевом режиме.</HostilityReponseTip>
   <HostilityResponseCurrentMode>Текущий режим</HostilityResponseCurrentMode>
 
   <!-- like 'Blood of John' -->
@@ -326,7 +326,7 @@
 
   <!-- Quality -->
   <Quality>Качество</Quality>
-  <QualityDescription>Качество предмета отражает насколько хорошо он был изготовлен.</QualityDescription>
+  <QualityDescription>Качество предмета отражает, насколько хорошо он был изготовлен.</QualityDescription>
   <QualityIs>Качество: {0}</QualityIs>
 
   <!-- Mood descriptions -->
@@ -334,14 +334,14 @@
   <Mood_AboutToBreak>почти сломлен</Mood_AboutToBreak>
   <Mood_OnEdge>на грани</Mood_OnEdge>
   <Mood_Stressed>стресс</Mood_Stressed>
-  <Mood_Neutral>нейтрален</Mood_Neutral>
+  <Mood_Neutral>спокоен</Mood_Neutral>
   <Mood_Content>доволен</Mood_Content>
   <Mood_Happy>счастлив</Mood_Happy>
 
   <!-- Game over -->
-  <GameOverEveryoneDead>Все поселенцы либо мертвы, либо ушли. Конец истории.\n\nВозможно, кто-то другой сможет найти применение этим руинам.</GameOverEveryoneDead>
-  <GameOverShipLaunched>Вы запустили корабль! Эти поселенцы спаслись:\n\n{0}\nЭти поселенцы остались:\n\n{1}\nВаш ИИ теперь будет пытаться направить корабль в безопасное место. Он может найти для вас процветающую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая пока кто-нибудь не выстроит здесь новый технологичный мир.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
-  <GameOverPlanetkillerImpact>С близкой к световой скоростью разрушитель планет врезался в поверхность с силой триллиона водородных бомб. Подобно наполненному водой воздушному шарику, простреленному из ружья, этот мир расплавился от столкновения и разбрызгал свои внутренности по космосу.\n\nЧасти {0} теперь составляют пояс астероидов. Всё остальное — расплавленный радиоактивный адский пейзаж, непрерывно сотрясаемый многими километрами в высоту землетрясениями.\n\nВы не выжили.</GameOverPlanetkillerImpact>
+  <GameOverEveryoneDead>Все поселенцы либо мертвы, либо ушли. Конец истории.\n\nВозможно, кто-то другой сможет найти применение руинам этого места.</GameOverEveryoneDead>
+  <GameOverShipLaunched>Вы запустили корабль! Эти поселенцы спаслись:\n\n{0}\nЭти поселенцы остались:\n\n{1}\nВаш ИИ постарается направить корабль в безопасное место. Он может найти для вас процветающую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая пока кто-нибудь не выстроит здесь новый технологичный мир.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
+  <GameOverPlanetkillerImpact>Со скоростью, близкой к световой, разрушитель планет врезался в поверхность с силой триллиона водородных бомб. Подобно наполненному водой воздушному шарику, простреленному из ружья, этот мир расплавился от столкновения и разбрызгал свои внутренности по космосу.\n\nЧасти {0} теперь составляют пояс астероидов. Всё остальное составляет расплавленный радиоактивный адский пейзаж, весь покрытый волнами землетрясенияй, на километры вздымающих и бросающих вниз породу.\n\nВы не выжили.</GameOverPlanetkillerImpact>
   <GameOverKeepPlaying>Продолжить играть</GameOverKeepPlaying>
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
 
@@ -357,9 +357,9 @@
   <InactiveFacility>отключён</InactiveFacility>
 
   <!-- Hediffs growth modes -->
-  <DiseaseGrowthModeChanged_Growing>{1} {0} растёт.</DiseaseGrowthModeChanged_Growing>
-  <DiseaseGrowthModeChanged_Stable>{1} {0} стабильно.</DiseaseGrowthModeChanged_Stable>
-  <DiseaseGrowthModeChanged_Remission>{1} {0} в стадии ремиссии.</DiseaseGrowthModeChanged_Remission>
+  <DiseaseGrowthModeChanged_Growing>{0} у {1} растёт.</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Stable>{0} у {1} в стабильном состоянии.</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Remission>{0} у {1} в стадии ремиссии.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
   <MarriageSpotUsable>Может быть использовано.</MarriageSpotUsable>
@@ -369,11 +369,11 @@
   <MarriageSpotForbidden>запрещено для {0}</MarriageSpotForbidden>
   <MarriageSpotReserved>зарезервировано</MarriageSpotReserved>
   <MarriageSpotUnreachable>недостижимо для {0}</MarriageSpotUnreachable>
-  <MarriageSpotInPrisonCell>в тюремной камере</MarriageSpotInPrisonCell>
+  <MarriageSpotInPrisonCell>находится в тюремной камере</MarriageSpotInPrisonCell>
   <NotEnjoyableOutsideTemperature>некомфортная температура</NotEnjoyableOutsideTemperature>
 
   <!-- Colonist bar -->
-  <ActivityIconMedicalRest>Отдыхает</ActivityIconMedicalRest>
+  <ActivityIconMedicalRest>Отдыхает на больничной койке</ActivityIconMedicalRest>
   <ActivityIconSleeping>Спит</ActivityIconSleeping>
   <ActivityIconFleeing>Убегает</ActivityIconFleeing>
   <ActivityIconAttacking>Воюет</ActivityIconAttacking>
