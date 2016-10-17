@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!--=========== Главное меню ==========-->
-  <CreateWorld>Создать мир</CreateWorld>
+  <Tutorial>Обучение</Tutorial>
   <NewColony>Новое поселение</NewColony>
   <BackToGame>Назад в игру</BackToGame>
   <ReviewScenario>Обзор сценария</ReviewScenario>
@@ -13,9 +13,9 @@
   <Credits>Создатели</Credits>
   <QuitToMainMenu>Выйти в главное меню</QuitToMainMenu>
   <SaveAndQuitToMainMenu>Сохранить и выйти в меню</SaveAndQuitToMainMenu>
-  <QuitToOS>Выйти в систему</QuitToOS>
-  <SaveAndQuitToOS>Сохранить и выйти в систему</SaveAndQuitToOS>
-  <FictionPrimer>О сюжете</FictionPrimer>
+  <QuitToOS>Выйти из игры</QuitToOS>
+  <SaveAndQuitToOS>Сохранить и выйти из игры</SaveAndQuitToOS>
+  <FictionPrimer>О вселенной Rimworld</FictionPrimer>
   <LudeonBlog>Блог Ludeon</LudeonBlog>
   <Forums>Форумы</Forums>
   <OfficialWiki>Официальная вики</OfficialWiki>
@@ -23,7 +23,8 @@
   <TynansDesignBook>Книга Тайнена</TynansDesignBook>
   <HelpTranslate>Помощь в переводе RimWorld</HelpTranslate>
   <BuySoundtrack>Купить саундтрек</BuySoundtrack>
-  
+  <CreateWorld>Создать мир</CreateWorld>
+
   <!--=========== Создать/просмотреть мир ================-->
   <ReviewWorld>Просмотр мира</ReviewWorld>
   <WorldGenerate>Создать</WorldGenerate>
@@ -36,10 +37,10 @@
   <!--=========== Выбор мира ===================-->
   <SelectWorld>Выбор мира</SelectWorld>
   <WorldChooseButton>Выбрать</WorldChooseButton>
-  <NoWorldsFilesFound>Нет ни одного созданного мира. Сперва создайте мир.</NoWorldsFilesFound>
+  <NoWorldsFilesFound>Не найдено ни одного сохранённого мира. Создайте мир и сохраните его.</NoWorldsFilesFound>
 
   <!--=========== Сведения о версии ==========-->
-  <BuildNowAvailable>Доступна новая версия {0}. Зайдите на ludeon.com для получения информации.</BuildNowAvailable>
+  <BuildNowAvailable>Доступна новая версия — {0}. Зайдите на ludeon.com для получения информации.</BuildNowAvailable>
   <BuildUpToDate>У вас последняя версия.</BuildUpToDate>
   <ErrorGettingVersionInfo>Ошибка получения данных о версии: {0}</ErrorGettingVersionInfo>
   <LoadingVersionInfo>Загрузка данных о версии...</LoadingVersionInfo>
@@ -50,16 +51,16 @@
   <!--=========== Страница модов ==========-->
   <OpenSteamWorkshop>Открыть Мастерскую Steam</OpenSteamWorkshop>
   <GetModsFromForum>Скачать моды с форума</GetModsFromForum>
-  <OpenModsDataFolder>Открыть папку модов</OpenModsDataFolder>
-  <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все основные возможности.\n\nПомните, другие модификации могут переопределять значения ядра с помощью таких же значений defName.</ConfirmDisableCoreMod>
+  <OpenModsDataFolder>Открыть папку с модами</OpenModsDataFolder>
+  <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все его функции.\n\nПомните, другие модификации могут перопределять значения ядра с помощью таких же значений defName.</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>Вы уверены, что хотите удалить {0}?</ConfirmDeleteMod>
   <Unsubscribe>Деактивировать</Unsubscribe>
-  <ConfirmUnsubscribe>Вы уверены, что хотите деактивировать {0}?</ConfirmUnsubscribe>
+  <ConfirmUnsubscribe>Вы уверены, что хотите деактивировать и отписаться от {0}?</ConfirmUnsubscribe>
   <Author>Автор</Author>
   <WorkshopPage>Мастерская Steam</WorkshopPage>
   <UploadToSteamWorkshop>Загрузить в Мастерскую Steam</UploadToSteamWorkshop>
   <UpdateOnSteamWorkshop>Обновить в Мастерской Steam</UpdateOnSteamWorkshop>
-  <UploadAlreadyInProgress>Процесс загрузки.</UploadAlreadyInProgress>
+  <UploadAlreadyInProgress>Загрузка уже идёт.</UploadAlreadyInProgress>
   <WorkshopSubmissionFailed>Подключение прервано.\n\nПричина: {0}</WorkshopSubmissionFailed>
   <WorkshopUploadSucceeded>Успешно загружено {0}.</WorkshopUploadSucceeded>
   <Downloading>Скачивается</Downloading>
@@ -67,6 +68,7 @@
   <ModTargetVersion>Необходимая версия: {0}</ModTargetVersion>
   <ModNotMadeForThisVersion>Эта модификация была разработана не для этой версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion>
   <MessageModNeedsWellFormattedTargetVersion>Модификации требуется правильно отформатированная версия в About.xml. Например: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <DragToReorder>Перетаскивайте выбранный мод для изменения его положения в очереди загрузки.</DragToReorder>
 
   <!--=========== Выбор сценария =============-->
   <ChooseScenario>Выбор сценария</ChooseScenario>
@@ -74,23 +76,23 @@
   <ScenariosSteamWorkshop>Мастерская Steam</ScenariosSteamWorkshop>
   <ScenarioEditor>Редактор сценариев</ScenarioEditor>
   <Delete>Удалить</Delete>
-  
+
   <!--============ Редактор сценариев ===============-->
   <Seed>зерно</Seed>
   <Load>Загрузить</Load>
   <EditMode>режим редактирования</EditMode>
   <Summary>Краткие сведения</Summary>
-  <AddPart>Добавить особенность</AddPart>
+  <AddPart>Добавить условие</AddPart>
   <TextFieldsMustBeFilled>Все текстовые поля должны быть заполнены.</TextFieldsMustBeFilled>
-  <ConfirmSteamWorkshopUpload>Вы уверены, что хотите загрузить это в Мастерскую Steam?\n\nНеобходимо принять условия использования Мастерской Steam. Ознакомиться с ними можно по ссылке:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
-  <ConfirmContentAuthor>Очевидно, что вы должны загружать только то, что сделали сами.\n\nВы точно являетесь автором этого контента?</ConfirmContentAuthor>
+  <ConfirmSteamWorkshopUpload>Вы уверены, что хотите загрузить выбранное в Мастерскую Steam?\n\nВам будет необходимо принять условия использования Мастерской Steam. Ознакомиться с ними можно по ссылке:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmContentAuthor>Учтите, вы должны загружать только то, что сделали сами.\n\nВы — автор этого контента?</ConfirmContentAuthor>
   <Incompatible>Несовместимо</Incompatible>
   <TooMany>Слишком много (максимум {0}): </TooMany>
   <CanBeUpdatedOnWorkshop>Может быть обновлено в Мастерской, поскольку вы автор данного контента.</CanBeUpdatedOnWorkshop>
-  
+
   <!--=========== Выбор рассказчика ==========-->
   <ChooseAIStoryteller>Выбор ИИ-рассказчика</ChooseAIStoryteller>
-  <HowStorytellersWork>ИИ-рассказчик создаёт события такие, как пиратские нападения, падения ресурсов или нападения животных. Его выбор будет влиять на историю вашего поселения.</HowStorytellersWork>
+  <HowStorytellersWork>ИИ-рассказчик создаёт события, например, пиратские нападения, падения ресурсов или нападения животных. То, что он выберет, будет влиять на историю вашего поселения.</HowStorytellersWork>
   <MustChooseDifficulty>Пожалуйста, выберите сложность.</MustChooseDifficulty>
   <Difficulty>Сложность</Difficulty>
 
@@ -99,23 +101,23 @@
   <SelectRandomSite>Случайное место посадки</SelectRandomSite>
   <SelectSite>Выбрать место</SelectSite>
   <MustSelectLandingSite>Пожалуйста, выберите место посадки.</MustSelectLandingSite>
-  <CannotLandBiome>Вы не можете приземлиться в этом регионе: {0}</CannotLandBiome>
-  <WorldRenderMode>Режим</WorldRenderMode>
-  <WorldRenderModeFull>Полный</WorldRenderModeFull>
+  <CannotLandBiome>Вы не можете приземлиться в этом биоме: {0}</CannotLandBiome>
+  <WorldRenderMode>Показать</WorldRenderMode>
+  <WorldRenderModeFull>Всё</WorldRenderModeFull>
   <WorldRenderModeTemperature>Температура</WorldRenderModeTemperature>
   <WorldRenderModeElevation>Высота</WorldRenderModeElevation>
   <WorldRenderModeFertility>Плодородность</WorldRenderModeFertility>
   <WorldRenderModeRainfall>Осадки</WorldRenderModeRainfall>
-  <WorldRenderModeBiomes>Регионы</WorldRenderModeBiomes>
-  <BiomeNotImplemented>Регион не реализован</BiomeNotImplemented>
-  <BaseAlreadyThere>{0} уже разместили там базу.</BaseAlreadyThere>
-  <Biome>Регион</Biome>
+  <WorldRenderModeBiomes>Биомы</WorldRenderModeBiomes>
+  <BiomeNotImplemented>Такой биом не найден.</BiomeNotImplemented>
+  <BaseAlreadyThere>Фракция {0} уже разместила там базу.</BaseAlreadyThere>
+  <Biome>Биом</Biome>
   <Terrain>Поверхность</Terrain>
   <Elevation>Высота</Elevation>
   <Fertility>Плодородность</Fertility>
   <AvgTemp>Ср. температура</AvgTemp>
-  <AvgWinterTemp>Ср. темп. (зима): {0}</AvgWinterTemp>
-  <AvgSummerTemp>Ср. темп. (лето): {0}</AvgSummerTemp>
+  <AvgWinterTemp>Ср. темп. зимой: {0}</AvgWinterTemp>
+  <AvgSummerTemp>Ср. темп. летом: {0}</AvgSummerTemp>
   <Rainfall>Осадки</Rainfall>
   <HasCoast0>Побережье с севера</HasCoast0>
   <HasCoast1>Побережье с востока</HasCoast1>
@@ -131,31 +133,31 @@
   <LastNameDesc>Фамилия персонажа.\n\nОтображается только в некоторых меню.</LastNameDesc>
   <Randomize>Случайно</Randomize>
   <AgeIndicator>возраст {0}</AgeIndicator>
-  <Backstory>Предыстория</Backstory>
-  <IncapableOf>Минусы</IncapableOf>
-  <Traits>Особенности</Traits>
-  <PermanentMoodEffect>Постоянный эффект настроения</PermanentMoodEffect>
+  <Backstory>Биография</Backstory>
+  <IncapableOf>Не может заниматься</IncapableOf>
+  <Traits>Черты характера</Traits>
+  <PermanentMoodEffect>Постоянные эффекты настроения</PermanentMoodEffect>
   <Skills>Навыки</Skills>
   <NoneLower>отсутствует</NoneLower>
   <Adulthood>Зрелость</Adulthood>
   <Childhood>Детство</Childhood>
-  <Male>он</Male>
-  <Female>она</Female>
+  <Male>мужского пола</Male>
+  <Female>женского пола</Female>
   <Pain>Боль</Pain>
   <Health>Здоровье</Health>
   <Relations>Отношения</Relations>
 
   <!--=========== Разное ==========-->
   <Start>Начать</Start>
-  <Advanced>Дополнительно</Advanced>
-  <Next>Дальше</Next>
+  <Advanced>Дополнительные настройки</Advanced>
+  <Next>Далее</Next>
   <Back>Назад</Back>
 
   <Gameplay>Игра</Gameplay>
 
-  <ConfirmQuit>Вы потеряете весь несохранённый прогресс, если выйдете прямо сейчас.</ConfirmQuit>
+  <ConfirmQuit>Выйти? Весь несохранённый прогресс будет потерян.</ConfirmQuit>
 
-  <EveryoneNeedsValidName>Каждому человеку нужно корректное имя.</EveryoneNeedsValidName>
+  <EveryoneNeedsValidName>Пожалуйста, введите корректные имена, прозвища и фамилии для поселенцев.</EveryoneNeedsValidName>
 
   <GeneratingWorld>Создание мира...</GeneratingWorld>
   <GeneratingMap>Создание карты...</GeneratingMap>

@@ -3,9 +3,9 @@
 
   <Autosaving>Автосохранение</Autosaving>
 
-  <GameStartDialog>Вы трое проснулись в своих саркофагах крипто-сна под звук сирен и скрежет металла. Едва вы успели добраться до спасательных капсул, как корабль развалился на части.\n\nНекоторое время спустя вы приземлились на эту неизвестную планету.\n\nПод звездопадом из обломков корабля вы начинаете строить планы по выживанию.</GameStartDialog>
+  <GameStartDialog>Вы трое проснулись в своих саркофагах криптосна под звук сирен и скрежет металла. Едва вы успели добраться до спасательных капсул, как корабль развалился на части.\n\nНекоторое время спустя вы приземлились на эту неизвестную планету.\n\nПод звездопадом из обломков корабля вы начинаете строить планы по выживанию.</GameStartDialog>
 
-  <!--Эта <Colony> не изменяется динамически, - не подставляется данное поселению имя, это недоработка автора. Из-за этого же она не изменяется при перезагрузке перевода, только при создании нового поселения.-->
+  <!--Эта <Colony> не изменяется динамически, — не подставляется данное поселению имя, это недоработка автора. Из-за этого же она не изменяется при перезагрузке перевода, только при создании нового поселения.-->
   <Colony>поселения</Colony>
 
   <ChangeLanguageFromMainMenu>Язык можно сменить только в главном меню.</ChangeLanguageFromMainMenu>
@@ -13,13 +13,11 @@
   <AndLower>и</AndLower>
   <DisabledLower>недоступно</DisabledLower>
 
-  <CloseButton>Закрыть</CloseButton>
-  
   <VersionIndicator>Версия {0}</VersionIndicator>
   <DevelopmentBuildLower>только для тестеров</DevelopmentBuildLower>
   <CompiledOn>Сборка от {0}</CompiledOn>
   <LoggedIntoSteamAs>Вы вошли в Steam как {0}</LoggedIntoSteamAs>
-  
+
   <!-- General-use words -->
   <Yes>Да</Yes>
   <No>Нет</No>
@@ -30,8 +28,10 @@
   <multiplier>коэффициент</multiplier>
   <damage>урон</damage>
   <radius>радиус</radius>
-  <durationDays>продолжительность (дней)</durationDays>  
-  
+  <durationDays>продолжительность (дней)</durationDays>
+  <intervalDays>интервал (дней)</intervalDays>
+  <repeat>повторить</repeat>
+
   <!-- Content generation-->
 
   <MeatLabel>{0} мясо</MeatLabel>
@@ -55,13 +55,13 @@
   <FrameLabelExtra> (постройка)</FrameLabelExtra>
 
 
-  <!-- Для вещей, сделанных из чего-либо, напр. "Кровать из камня" -->
+  <!-- Для вещей, сделанных из чего-либо, напр. «Кровать из камня» -->
   <!-- 0 это nameAsStuff в stuffProps (см. Items_Resources.xml) и 1 это название вещи -->
   <ThingMadeOfStuffLabel>{1} из {0}</ThingMadeOfStuffLabel>
 
-  <SomeonesRoom>Закреплённая за {0} {1}</SomeonesRoom>
-  <CouplesRoom>Принадлежащая {0} и {1} {2}</CouplesRoom>
-   
+  <SomeonesRoom>{1} {0}</SomeonesRoom>
+  <CouplesRoom>{2} {0} и {1}</CouplesRoom>
+
   <VariousLabel>(различное)</VariousLabel>
 
   <!-- History events -->

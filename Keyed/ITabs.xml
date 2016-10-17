@@ -19,13 +19,13 @@
   <TabArt>Искусство</TabArt>
   <TabSocial>Социум</TabSocial>
 
-  
+
   <!-- Bills tab  -->
   <AddBill>Добавить задание</AddBill>
-  <RecipeRequiresSkills>Задание {0} требует перечисленные навыки. Ни один из ваших поселенецев не обладает ими, так что никто не будет делать это задание.</RecipeRequiresSkills>
-  <MinimumSkill>Мин. навыка</MinimumSkill>
+  <RecipeRequiresSkills>Задание {0} требует перечисленные навыки. Ни один из ваших поселенцев не обладает ими, так что никто не будет делать это задание.</RecipeRequiresSkills>
+  <MinimumSkill>Мин. навык</MinimumSkill>
   <SuspendedCaps>ПАУЗА</SuspendedCaps>
-  <BoundWorkerIs>Назначен: {0}</BoundWorkerIs>
+  <BoundWorkerIs>Назначен(а) {0}</BoundWorkerIs>
   <PlantVerb>Посадить</PlantVerb>
 
 
@@ -50,7 +50,7 @@
   <ShatteredBodyPart>Вырвано</ShatteredBodyPart>
   <RemovedBodyPart>Удалено</RemovedBodyPart>
   <Healthy>Здоров</Healthy>
-  <InPain>Агония</InPain>
+  <InPain>Испытывает боль</InPain>
   <PainLevel>Боль</PainLevel>
   <Dead>Мёртв</Dead>
   <Unconscious>Без сознания</Unconscious>
@@ -60,7 +60,7 @@
   <WholeBody>Всё тело</WholeBody>
   <DataProcessing>Обработка данных</DataProcessing>
   <Communication>Связь</Communication>
-  <AffectsLower>влияет</AffectsLower>
+  <Affects>Влияет на</Affects>
   <BleedingRate>Кровотечение</BleedingRate>
   <HealthOverview>Обзор</HealthOverview>
   <MedicalOperationsShort>Операции ({0})</MedicalOperationsShort>
@@ -73,7 +73,8 @@
   <SocialInteractionsLower>социальные взаимодействия</SocialInteractionsLower>
   <HungerRate>Голод</HungerRate>
   <Tiredness>Усталость</Tiredness>
-  
+  <PainFactor>Боль</PainFactor>
+  <PreventsInfection>Предотвращает инфицирование</PreventsInfection>
 
   <!-- Medical - Body and activities condition -->
   <None>Нет</None>
@@ -98,7 +99,7 @@
   <CannotTrainTooSmall>{0} слишком мал, чтобы обучиться этому.</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>Требования: {0}</TrainingNeedsPrerequisite>
-  
+
   <!-- Social tab -->
   <NoRelationships>(нет отношений)</NoRelationships>
   <Kidnapped>Похищен</Kidnapped>
@@ -107,6 +108,14 @@
   <OpinionOf>Мнение о {0}</OpinionOf>
   <SomeonesOpinionOfMe>Мнение {0} обо мне</SomeonesOpinionOfMe>
   <IAmDead>Я мёртв</IAmDead>
-  <IAmPsychopath>Я псих</IAmPsychopath>
+  <IAmPsychopath>Я психопат</IAmPsychopath>
+
+  <!-- Gear tab -->
+  <AverageArmor>Средняя защищённость</AverageArmor> <!-- Kappa Проверить в игре. -->
+  <ComfyTemperatureRange>Диапазон комфортной температуры</ComfyTemperatureRange>
+  <ArmorBlunt>Дробящее</ArmorBlunt>
+  <ArmorSharp>Проникающее</ArmorSharp>
+  <ArmorHeat>Тепловое</ArmorHeat>
+  <ArmorElectric>Электрическое</ArmorElectric>
 
 </LanguageData>

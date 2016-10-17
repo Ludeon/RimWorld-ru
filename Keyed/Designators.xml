@@ -5,13 +5,13 @@
   <DesignatorCancelDesc>Отменить строительство, добычу, перенос, сбор урожая и другие указания.</DesignatorCancelDesc>
 
   <DesignatorCutPlants>Срезать</DesignatorCutPlants>
-  <DesignatorCutPlantsDesc>Отметить растения для срезания и уничтожения. Растения будут полностью удалены, а любая еда собрана.</DesignatorCutPlantsDesc>
+  <DesignatorCutPlantsDesc>Отметить растения для срезания и уничтожения. Растения будут полностью удалены, а любые ресурсы с них — собраны.</DesignatorCutPlantsDesc>
 
   <DesignatorDeconstruct>Разобрать</DesignatorDeconstruct>
-  <DesignatorDeconstructDesc>Разобрать постройки и вернуть часть ресурсов.</DesignatorDeconstructDesc>
+  <DesignatorDeconstructDesc>Разобрать и вернуть часть ресурсов.</DesignatorDeconstructDesc>
 
   <DesignatorUninstall>Убрать</DesignatorUninstall>
-  <DesignatorUninstallDesc>Убрать, чтобы перенести на склад или в другое место.</DesignatorUninstallDesc>
+  <DesignatorUninstallDesc>Убрать, чтобы перенести на склад, установить в другом месте или продать.</DesignatorUninstallDesc>
 
   <DesignatorHarvest>Собрать</DesignatorHarvest>
   <DesignatorHarvestDesc>Отметить растения для сбора пищи или другой продукции.</DesignatorHarvestDesc>
@@ -20,8 +20,8 @@
   <DesignatorHarvestWoodDesc>Отметить деревья, которые нужно срубить для получения древесины.</DesignatorHarvestWoodDesc>
 
   <DesignatorHaulThings>Убрать</DesignatorHaulThings>
-  <DesignatorHaulThingsDesc>Отметить куски породы и другие объекты для переноса на свалку. Не требуется для предметов вроде еды или трупов, которые всегда переносимы.</DesignatorHaulThingsDesc>
-  <MustHaulHaulables>Можно отметить переносимые, но не автоматически собираемые предметы (например, обломки скалы).</MustHaulHaulables>
+  <DesignatorHaulThingsDesc>Отметить куски породы и другие объекты для переноса на свалку. Не требуется для цельных предметов вроде еды или трупов, они всегда переносимы.</DesignatorHaulThingsDesc>
+  <MustHaulHaulables>Предметы, которые поселенцы сами не собирают (например, металлолом и каменные обломки), можно отметить для переноски.</MustHaulHaulables>
 
   <DesignatorHunt>Охотиться</DesignatorHunt>
   <DesignatorHuntDesc>Отметить животных для ваших охотников.</DesignatorHuntDesc>
@@ -29,7 +29,7 @@
   <DesignatorMine>Копать</DesignatorMine>
   <DesignatorMineDesc>Обозначить скалы для проведения горных работ.</DesignatorMineDesc>
 
-  <DesignatorSmoothFloor>Отшлифовать пол</DesignatorSmoothFloor>
+  <DesignatorSmoothFloor>Выровнять пол</DesignatorSmoothFloor>
   <DesignatorSmoothFloorDesc>Обозначить неровную каменную поверхность для шлифовки.</DesignatorSmoothFloorDesc>
 
   <DesignatorPlan>Планировка</DesignatorPlan>
@@ -42,15 +42,15 @@
   <DesignatorAreaHomeExpandDesc>Поселенцы будут заниматься уборкой, тушением пожаров и ремонтом объектов только в домашней области.</DesignatorAreaHomeExpandDesc>
   <DesignatorAreaHomeClear>Удалить домашнюю область</DesignatorAreaHomeClear>
   <DesignatorAreaHomeClearDesc>Удаление домашней области. Поселенцы больше не будут заниматься здесь уборкой, тушением пожаров и ремонтом объектов.</DesignatorAreaHomeClearDesc>
-  
-  <DesignatorAreaBuildRoofExpand>Расширить область крыши</DesignatorAreaBuildRoofExpand>
-  <DesignatorAreaBuildRoofExpandDesc>Поселенцы будут строить крыши в этой области.</DesignatorAreaBuildRoofExpandDesc>
-  <DesignatorAreaBuildRoofClear>Удалить область крыши</DesignatorAreaBuildRoofClear>
-  <DesignatorAreaBuildRoofClearDesc>Удалить область, в которой поселенцы будут строить крыши. Существующие крыши останутся, но другие строиться уже не будут.</DesignatorAreaBuildRoofClearDesc>
 
-  <DesignatorAreaNoRoofExpand>Расширить область без крыши</DesignatorAreaNoRoofExpand>
-  <DesignatorAreaNoRoofExpandDesc>Обозначить область, в которой не должно быть крыши. Поселенцы уберут любую существующую здесь крышу (кроме толстой горной породы, которая не может быть убрана).</DesignatorAreaNoRoofExpandDesc>
-  <DesignatorAreaNoRoofClear>Удалить область без крыши</DesignatorAreaNoRoofClear>
+  <DesignatorAreaBuildRoofExpand>Расширить область крыш</DesignatorAreaBuildRoofExpand>
+  <DesignatorAreaBuildRoofExpandDesc>Поселенцы будут строить крыши в этой области.</DesignatorAreaBuildRoofExpandDesc>
+  <DesignatorAreaBuildRoofClear>Удалить область крыш</DesignatorAreaBuildRoofClear>
+  <DesignatorAreaBuildRoofClearDesc>Удалить область постройки крыш. Существующие крыши останутся, но другие строиться уже не будут.</DesignatorAreaBuildRoofClearDesc>
+
+  <DesignatorAreaNoRoofExpand>Расширить область без крыш</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpandDesc>Обозначить область, в которой не должно быть крыш. Поселенцы уберут любые существующие здесь крыши. Толстую горную породу, находящуюся над данной областью, убрать нельзя.</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofClear>Удалить область без крыш</DesignatorAreaNoRoofClear>
   <DesignatorAreaNoRoofClearDesc>Удалить область без крыши. Поселенцы больше не будут убирать крыши в этом месте.</DesignatorAreaNoRoofClearDesc>
 
   <DesignatorAreaSnowClearExpand>Добавить область без снега</DesignatorAreaSnowClearExpand>
@@ -59,7 +59,7 @@
   <DesignatorAreaSnowClearClearDesc>Удалить область чистки снега. Поселенцы больше не будут чистить снег в данной области.</DesignatorAreaSnowClearClearDesc>
 
   <DesignatorExpandAreaAllowed>Добавить доступную область</DesignatorExpandAreaAllowed>
-  <DesignatorExpandAreaAllowedDesc>Расширить доступную область.\n\nЭти области вы можете назначить каждому из поселенцев. Поселенцы не будут ничего делать за пределами назначенных им областей.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorExpandAreaAllowedDesc>Расширить доступную область.\n\nЭту область вы можете назначить по отдельности каждому из поселенцев. Поселенцы не будут ничего делать за пределами назначенных им областей.</DesignatorExpandAreaAllowedDesc>
   <DesignatorClearAreaAllowed>Убрать доступную область</DesignatorClearAreaAllowed>
   <DesignatorClearAreaAllowedDesc>Очистить клетки карты от областей.\n\nЭти области вы можете назначить каждому из поселенцев. Поселенцы не будут ничего делать за пределами назначенных им областей.</DesignatorClearAreaAllowedDesc>
   <ManageAreas>Управление областями..</ManageAreas>
@@ -74,19 +74,19 @@
   <DesignatorZoneDeleteDesc>Удаление зон, таких как склад или посадки.</DesignatorZoneDeleteDesc>
 
   <DesignatorClaim>Захватить</DesignatorClaim>
-  <DesignatorClaimDesc>Нейтральные строения, включая древние руины и заброшенные осадные базы, присоединить к поселению. Ваши поселенцы смогут отремонтировать и обслуживать захваченные строения.</DesignatorClaimDesc>
+  <DesignatorClaimDesc>Нейтральные строения, включая древние руины и заброшенные осадные базы, будут присоединены к поселению. Ваши поселенцы смогут отремонтировать и обслуживать захваченные строения.</DesignatorClaimDesc>
 
   <DesignatorRemoveFloor>Снять пол</DesignatorRemoveFloor>
-  <DesignatorRemoveFloorDesc>Снять пол, чтобы добраться до природного ландшафта.</DesignatorRemoveFloorDesc>
+  <DesignatorRemoveFloorDesc>Снять пол до природного покрытия.</DesignatorRemoveFloorDesc>
 
   <DesignatorStrip>Раздеть</DesignatorStrip>
   <DesignatorStripDesc>Снять одежду с трупов и раненых</DesignatorStripDesc>
 
   <DesignatorRearmTrap>Зарядить капкан</DesignatorRearmTrap>
-  <DesignatorRearmTrapDesc>Зарядить капкан для очередного использования.</DesignatorRearmTrapDesc>
+  <DesignatorRearmTrapDesc>Зарядить капкан, чтобы он снова смог сработать.</DesignatorRearmTrapDesc>
 
   <DesignatorOpen>Открыть</DesignatorOpen>
-  <DesignatorOpenDesc>Открыть контейнеры.</DesignatorOpenDesc>
+  <DesignatorOpenDesc>Открыть заполненные контейнеры или могилы.</DesignatorOpenDesc>
 
   <DesignatorSlaughter>Заколоть</DesignatorSlaughter>
   <DesignatorSlaughterDesc>Заколоть домашнее животное.</DesignatorSlaughterDesc>
@@ -110,7 +110,7 @@
   <IdenticalBlueprintExists>Такой проект здесь уже есть.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Эта местность не выдержит такую конструкцию.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Место уже занято.</SpaceAlreadyOccupied>
-  <TerrainMustBeRemovable>Должно быть предназначено для замены полов.</TerrainMustBeRemovable>
+  <TerrainMustBeRemovable>Здесь нет пола, который можно было бы снять.</TerrainMustBeRemovable>
 
 
   <!-- Mouse attachments -->
