@@ -10,7 +10,7 @@
 
 	<Captured.rulePack.rulesStrings.1>image->[capturer_nameFull], захватывающего(ую) [prisoner_nameFull] [circumstance_group]</Captured.rulePack.rulesStrings.1>
 	<Captured.rulePack.rulesStrings.2>image->[capturer_nameFull], связывающего(ую) руки заключённому по имени [prisoner_nameFull] [circumstance_group]</Captured.rulePack.rulesStrings.2>
-	<Captured.rulePack.rulesStrings.3>image->[capturer_nameFull], наказывающего(ую) заключённого по имени [prisoner_nameFull], захватив [prisoner_objective] [circumstance_group]</Captured.rulePack.rulesStrings.3>
+	<Captured.rulePack.rulesStrings.3>image->[capturer_nameFull], наказывающего(ую) заключённого по имени [prisoner_nameFull], захватив [prisoner_possessive] [circumstance_group]</Captured.rulePack.rulesStrings.3>
 
 	<Captured.rulePack.rulesStrings.4>circumstance_phrase->, в то время как [prisoner_pronoun] корчится на земле</Captured.rulePack.rulesStrings.4>
 	<Captured.rulePack.rulesStrings.5>circumstance_phrase->, в то время как [prisoner_pronoun] скрутился от боли</Captured.rulePack.rulesStrings.5>
@@ -31,7 +31,7 @@
 	<Captured.rulePack.rulesStrings.19>desc_sentence->[capturer_nameShortDef] смеётся, в то время как слёзы наворачиваются на глаза заключённого по имени [prisoner_nameShortDef].</Captured.rulePack.rulesStrings.19>
 	<Captured.rulePack.rulesStrings.20>desc_sentence->[capturer_nameShortDef] пинает заключённого по имени [prisoner_nameShortDef] без видимых на то причин.</Captured.rulePack.rulesStrings.20>
 
-	
+
   	<!--recruite-->
 
 	<Recruited.label>человек завербован</Recruited.label>
@@ -93,7 +93,7 @@
 	<DidSurgery.rulePack.rulesStrings.10>desc_sentence->У [surgeon_nameShortDef] всё лицо в крови.</DidSurgery.rulePack.rulesStrings.10>
 	<DidSurgery.rulePack.rulesStrings.11>desc_sentence->[patient_nameShortDef] дрожит и корчится.</DidSurgery.rulePack.rulesStrings.11>
 
-	
+
 	<!--execution-->
 
 	<ExecutedPrisoner.label>заключённый казнён</ExecutedPrisoner.label>
@@ -127,7 +127,7 @@
 	<ExecutedPrisoner.rulePack.rulesStrings.23>desc_sentence->[prisoner_nameShortDef] закрыл(а) глаза и, кажется, молится высшим силам.</ExecutedPrisoner.rulePack.rulesStrings.23>
 	<ExecutedPrisoner.rulePack.rulesStrings.24>desc_sentence->[prisoner_nameShortDef] выглядит демонстративно непокорно.</ExecutedPrisoner.rulePack.rulesStrings.24>
 
-	
+
 	<!--kidnapped-->
 
 	<KidnappedColonist.label>поселенец похищен</KidnappedColonist.label>
@@ -153,7 +153,7 @@
 	<KidnappedColonist.rulePack.rulesStrings.15>desc_sentence->[victim_nameShortDef] выглядит сломленным(ой) и изнеможённым(ой).</KidnappedColonist.rulePack.rulesStrings.15>
 	<KidnappedColonist.rulePack.rulesStrings.16>desc_sentence->[victim_nameShortDef], похоже, серьёзно ранен(а).</KidnappedColonist.rulePack.rulesStrings.16>
 
-	
+
 	<!--tamed-->
 
 	<TamedAnimal.label>животное приручено</TamedAnimal.label>
@@ -211,7 +211,7 @@
 	<KilledBy.rulePack.rulesStrings.23>desc_sentence->[killer_nameShortDef] выглядит довольным(ой) ситуацией.</KilledBy.rulePack.rulesStrings.23>
 	<KilledBy.rulePack.rulesStrings.24>desc_sentence->[killer_nameShortDef] выглядит триумфально.</KilledBy.rulePack.rulesStrings.24>
 
-	
+
 	<!--sold prisoner-->
 
 	<SoldPrisoner.label>заключённый продан</SoldPrisoner.label>
@@ -238,7 +238,7 @@
 	<SoldPrisoner.rulePack.rulesStrings.16>desc_sentence->[seller_nameShortDef] суёт цепи [prisoner_nameShortDef] в руки [trader_nameShortDef].</SoldPrisoner.rulePack.rulesStrings.16>
 	<SoldPrisoner.rulePack.rulesStrings.17>desc_sentence->Сцену пронизывает дух безнадёжности.</SoldPrisoner.rulePack.rulesStrings.17>
 
-	
+
 	<!--trained animal-->
 
  	<TrainedAnimal.label>животное натренировано</TrainedAnimal.label>
@@ -279,13 +279,13 @@
 	<TrainedAnimal.rulePack.rulesStrings.29>desc_sentence->[human_nameShortDef] превращается в [animal_ShortDef].</TrainedAnimal.rulePack.rulesStrings.29>
 
 
-	
+
 	<KilledColonist.label>поселенец убит</KilledColonist.label>
 	<KilledColonyAnimal.label>животное поселения убито</KilledColonyAnimal.label>
 	<KilledMajorColonyEnemy.label>главный враг поселения убит</KilledMajorColonyEnemy.label>
-	
+
 	<!--traded with someone-->
-	
+
 	<TradedWith.label>проведена сделка</TradedWith.label>
 
 	<TradedWith.rulePack.rulesStrings.0>tale_noun->как торговали друг с другом [seller_fullName] и [buyer_fullName]</TradedWith.rulePack.rulesStrings.0>
@@ -305,8 +305,8 @@
 	<TradedWith.rulePack.rulesStrings.11>desc_sentence->[seller_nameShortDef] считает [seller_possessive] деньги.</TradedWith.rulePack.rulesStrings.11>
 	<TradedWith.rulePack.rulesStrings.12>desc_sentence->[buyer_nameShortDef] забирает [buyer_possessive] товары.</TradedWith.rulePack.rulesStrings.12>
 
-	
-	
-	
+
+
+
 
 </LanguageData>
