@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <!--
+  label - действие по пункту во вкладке "работа". Должно быть в несов. виде
+  gerund - приказы вида "Спасти Райана".
+  verb - невозможно заколоть Рози
+-->
+
   <!-- ============= Firefighter ============= -->
 
   <FightFires.label>тушить пожары</FightFires.label>
@@ -9,17 +15,17 @@
 
   <!-- ============= PatientEmergency ============= -->
 
-  <PatientGoToBedEmergency.label>отправиться в кровать, чтобы получить неотложное лечение</PatientGoToBedEmergency.label>
+  <PatientGoToBedEmergency.label>получать неотложное лечение</PatientGoToBedEmergency.label>
   <PatientGoToBedEmergency.gerund>Получить лечение в</PatientGoToBedEmergency.gerund>
   <PatientGoToBedEmergency.verb>получать лечение в</PatientGoToBedEmergency.verb>
 
   <!-- ============= Doctor ============= -->
 
-  <DoctorTreatEmergency.label>оказать скорую помощь</DoctorTreatEmergency.label>
+  <DoctorTreatEmergency.label>оказывать скорую помощь</DoctorTreatEmergency.label>
   <DoctorTreatEmergency.gerund>Оказать помощь</DoctorTreatEmergency.gerund>
   <DoctorTreatEmergency.verb>оказывать помощь</DoctorTreatEmergency.verb>
 
-  <DoctorRescue.label>спасти союзников без сознания</DoctorRescue.label>
+  <DoctorRescue.label>спасать союзников без сознания</DoctorRescue.label>
   <DoctorRescue.gerund>Спасти</DoctorRescue.gerund>
   <DoctorRescue.verb>спасать</DoctorRescue.verb>
 
@@ -31,7 +37,7 @@
   <DoBillsMedicalAnimalOperation.gerund>Оперировать</DoBillsMedicalAnimalOperation.gerund>
   <DoBillsMedicalAnimalOperation.verb>оперировать</DoBillsMedicalAnimalOperation.verb>
 
-  <DoctorTreat.label>оказать помощь</DoctorTreat.label>
+  <DoctorTreat.label>оказывать помощь</DoctorTreat.label>
   <DoctorTreat.gerund>Оказать помощь</DoctorTreat.gerund>
   <DoctorTreat.verb>оказать помощь</DoctorTreat.verb>
 
@@ -39,17 +45,17 @@
   <DoctorFeed.gerund>Кормить</DoctorFeed.gerund>
   <DoctorFeed.verb>кормить</DoctorFeed.verb>
 
-  <TakeToBedToOperate.label>отнести пациента на кровать для проведения операции</TakeToBedToOperate.label>
+  <TakeToBedToOperate.label>относить пациентов на кровать для проведения операции</TakeToBedToOperate.label>
   <TakeToBedToOperate.gerund>Отнести на операцию</TakeToBedToOperate.gerund>
   <TakeToBedToOperate.verb>нести на операцию</TakeToBedToOperate.verb>
 
-  <VisitSickPawn.label>навестить больных</VisitSickPawn.label>
+  <VisitSickPawn.label>навещать больных</VisitSickPawn.label>
   <VisitSickPawn.gerund>Навестить</VisitSickPawn.gerund>
   <VisitSickPawn.verb>навещать</VisitSickPawn.verb>
 
   <!-- ============= PatientBedRest ============= -->
 
-  <PatientGoToBed.label>восстановить силы в кровати</PatientGoToBed.label>
+  <PatientGoToBed.label>восстанавливать силы в кровати</PatientGoToBed.label>
   <PatientGoToBed.gerund>Отдохнуть в</PatientGoToBed.gerund>
   <PatientGoToBed.verb>отдыхать</PatientGoToBed.verb>
 
@@ -65,7 +71,7 @@
   <DoExecution.gerund>Казнить</DoExecution.gerund>
   <DoExecution.verb>казнить</DoExecution.verb>
 
-  <ReleasePrisoner.label>отпустить заключёных</ReleasePrisoner.label>
+  <ReleasePrisoner.label>отпускать заключёных</ReleasePrisoner.label>
   <ReleasePrisoner.gerund>Отпустить</ReleasePrisoner.gerund>
   <ReleasePrisoner.verb>отпустить</ReleasePrisoner.verb>
 
@@ -142,7 +148,7 @@
   <Deconstruct.gerund>Разобрать</Deconstruct.gerund>
   <Deconstruct.verb>разобрать</Deconstruct.verb>
 
-  <Uninstall.label>демонтировать предмет</Uninstall.label>
+  <Uninstall.label>демонтировать</Uninstall.label>
   <Uninstall.gerund>Демонтировать</Uninstall.gerund>
   <Uninstall.verb>демонтировать</Uninstall.verb>
 
@@ -170,13 +176,13 @@
   <ConstructRemoveFloors.gerund>Снять пол</ConstructRemoveFloors.gerund>
   <ConstructRemoveFloors.verb>снимать полы</ConstructRemoveFloors.verb>
 
-  <ConstructSmoothFloors.label>отшлифовывать полы</ConstructSmoothFloors.label>
+  <ConstructSmoothFloors.label>шлифовывать полы</ConstructSmoothFloors.label>
   <ConstructSmoothFloors.gerund>Шлифовать</ConstructSmoothFloors.gerund>
   <ConstructSmoothFloors.verb>шлифовать</ConstructSmoothFloors.verb>
 
   <!-- ============= Repair ============= -->
 
-  <FixBrokenDownBuilding.label>чинить сломанные вещи</FixBrokenDownBuilding.label>
+  <FixBrokenDownBuilding.label>чинить повреждённые строения</FixBrokenDownBuilding.label>
   <FixBrokenDownBuilding.gerund>Заменить сломанные компоненты в</FixBrokenDownBuilding.gerund>
   <FixBrokenDownBuilding.verb>заменить сломанные компоненты в</FixBrokenDownBuilding.verb>
 
@@ -204,7 +210,7 @@
   <Mine.gerund>Копать</Mine.gerund>
   <Mine.verb>копать</Mine.verb>
 
-  <Drill.label>бурить</Drill.label>
+  <Drill.label>выполнять бурение</Drill.label>
   <Drill.gerund>Бурить, используя</Drill.gerund>
   <Drill.verb>бурить</Drill.verb>
 
@@ -260,7 +266,7 @@
 
   <!-- ============= Hauling ============= -->
 
-  <Refuel.label>добавлять топливо в необходимые постройки</Refuel.label>
+  <Refuel.label>заправлять механизмы</Refuel.label>
   <Refuel.gerund>Заправить</Refuel.gerund>
   <Refuel.verb>заправлять</Refuel.verb>
 
@@ -276,11 +282,11 @@
   <Open.gerund>Открыть</Open.gerund>
   <Open.verb>открыть</Open.verb>
 
-  <TakeBeerOutOfFermentingBarrel.label>слить пиво из бочек для ферментации</TakeBeerOutOfFermentingBarrel.label>
+  <TakeBeerOutOfFermentingBarrel.label>сливать пиво из бочек для брожения</TakeBeerOutOfFermentingBarrel.label>
   <TakeBeerOutOfFermentingBarrel.gerund>Сливает пиво из</TakeBeerOutOfFermentingBarrel.gerund>
   <TakeBeerOutOfFermentingBarrel.verb>слить пиво</TakeBeerOutOfFermentingBarrel.verb>
 
-  <FillFermentingBarrel.label>наполнить бочки для ферментации</FillFermentingBarrel.label>
+  <FillFermentingBarrel.label>наполнять бочки для брожения</FillFermentingBarrel.label>
   <FillFermentingBarrel.gerund>Наполнить</FillFermentingBarrel.gerund>
   <FillFermentingBarrel.verb>наполнить</FillFermentingBarrel.verb>
 
