@@ -30,9 +30,18 @@
   <WorldGenerate>Создать</WorldGenerate>
   <WorldSaveAndFinish>Сохранить и закрыть</WorldSaveAndFinish>
   <Reset>Сбросить</Reset>
-  <WorldSize>Размер</WorldSize>
+  <PlanetCoverage>Размер карты мира</PlanetCoverage>
+  <PlanetRainfall>Общее количество осадков</PlanetRainfall>
+  <PlanetTemperature>Общая температура</PlanetTemperature>
+  <PlanetRainfall_Low>Низкое</PlanetRainfall_Low>
+  <PlanetRainfall_Normal>Умеренное</PlanetRainfall_Normal>
+  <PlanetRainfall_High>Высокое</PlanetRainfall_High>
+  <PlanetTemperature_Low>Низкая</PlanetTemperature_Low>
+  <PlanetTemperature_Normal>Умеренная</PlanetTemperature_Normal>
+  <PlanetTemperature_High>Высокая</PlanetTemperature_High>
   <WorldSeed>Зерно</WorldSeed>
   <RandomizeSeed>Случайное зерно</RandomizeSeed>
+  <PlanetCoverageTip>Диаметр планеты неизменный, но поскольку он гораздо больше, чем требуется для игры, поверхность планеты генерируется не целиком. В противном случае, это бы заняло длительное время. В этом поле указывается размер части поверхности (в процентах от общей площади планеты), которую вы бы хотели сгенерировать.</PlanetCoverageTip>
 
   <!--=========== Выбор мира ===================-->
   <SelectWorld>Выбор мира</SelectWorld>
@@ -102,22 +111,16 @@
   <SelectSite>Выбрать место</SelectSite>
   <MustSelectLandingSite>Пожалуйста, выберите место посадки.</MustSelectLandingSite>
   <CannotLandBiome>Вы не можете приземлиться в этом биоме: {0}</CannotLandBiome>
-  <WorldRenderMode>Показать</WorldRenderMode>
-  <WorldRenderModeFull>Всё</WorldRenderModeFull>
-  <WorldRenderModeTemperature>Температура</WorldRenderModeTemperature>
-  <WorldRenderModeElevation>Высота</WorldRenderModeElevation>
-  <WorldRenderModeFertility>Плодородность</WorldRenderModeFertility>
-  <WorldRenderModeRainfall>Осадки</WorldRenderModeRainfall>
-  <WorldRenderModeBiomes>Биомы</WorldRenderModeBiomes>
   <BiomeNotImplemented>Такой биом не найден.</BiomeNotImplemented>
   <BaseAlreadyThere>Фракция {0} уже разместила там базу.</BaseAlreadyThere>
+  <CannotLandImpassableMountains>Вы не можете приземлиться в непроходимых горах.</CannotLandImpassableMountains>
   <Biome>Биом</Biome>
   <Terrain>Поверхность</Terrain>
   <Elevation>Высота</Elevation>
   <Fertility>Плодородность</Fertility>
-  <AvgTemp>Ср. температура</AvgTemp>
-  <AvgWinterTemp>Ср. темп. зимой: {0}</AvgWinterTemp>
-  <AvgSummerTemp>Ср. темп. летом: {0}</AvgSummerTemp>
+  <AvgTemp>Средняя температура</AvgTemp>
+  <AvgSummerTemp>Температура летом</AvgSummerTemp>
+  <AvgWinterTemp>Температура зимой</AvgWinterTemp>
   <Rainfall>Осадки</Rainfall>
   <HasCoast0>Побережье с севера</HasCoast0>
   <HasCoast1>Побережье с востока</HasCoast1>
@@ -125,6 +128,10 @@
   <HasCoast3>Побережье с запада</HasCoast3>
   <FactionBase>База фракции</FactionBase>
   <StoneTypesHere>Типы пород</StoneTypesHere>
+  <TimeZone>Time zone</TimeZone>
+	<MovementTimeNow>Текущее время прохождения</MovementTimeNow>
+	<MovementTimeSummer>Время прохождения летом</MovementTimeSummer>
+	<MovementTimeWinter>Время прохождения зимой</MovementTimeWinter>
 
   <!--=========== Выбор персонажей ==========-->
   <CreateCharacters>Создание персонажей</CreateCharacters>
@@ -154,12 +161,14 @@
   <Back>Назад</Back>
 
   <Gameplay>Игра</Gameplay>
-
   <ConfirmQuit>Выйти? Весь несохранённый прогресс будет потерян.</ConfirmQuit>
-
   <EveryoneNeedsValidName>Пожалуйста, введите корректные имена, прозвища и фамилии для поселенцев.</EveryoneNeedsValidName>
+  <Quit>Выйти</Quit>
+  <Ignore>Игнорировать</Ignore>
 
+  <!--============ Progress bar==============-->
   <GeneratingWorld>Создание мира...</GeneratingWorld>
   <GeneratingMap>Создание карты...</GeneratingMap>
+  <GeneratingMapForNewEncounter>Создание карты для боя</GeneratingMapForNewEncounter>
 
 </LanguageData>
