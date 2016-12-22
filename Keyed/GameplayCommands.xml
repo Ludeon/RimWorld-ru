@@ -28,7 +28,7 @@
   <IsIncapped>{0} не может ходить.</IsIncapped>
 
   <CommandAllowFiringLabel>Разрешить стрельбу</CommandAllowFiringLabel>
-  <CommandAllowFiringDesc>Разрешить или запретить стрельбу.\n\nЕсли стрельба запрещена, то персонаж не будет вести огонь по удалённым целям без команды. На рукопашный бой не влияет.</CommandAllowFiringDesc>
+  <CommandAllowFiringDesc>Разрешить или запретить стрельбу.\n\nЕсли стрельба запрещена, то персонаж не будет вести огонь по удалённым целям без команды. Не влияет на рукопашный бой.</CommandAllowFiringDesc>
 
   <CommandClearPrioritizedWork>Очистить назначенные действия</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>Сбросить любые назначенные вами действия. Поселенец продолжит работать согласно своим проритетам.</CommandClearPrioritizedWorkDesc>
@@ -128,7 +128,7 @@
 
   <!-- Animal control -->
   <CommandReleaseAnimalsLabel>Спустить с поводка</CommandReleaseAnimalsLabel>
-  <CommandReleaseAnimalsDesc>Отправляет прирученных животных в атаку. Если не включено, животные остаются вблизи и охраняют хозяина.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>Отправляет приручённых животных в атаку. Если не включено, животные остаются вблизи и охраняют хозяина.</CommandReleaseAnimalsDesc>
 
   <!-- Squad attack -->
   <CommandSquadAttack>Атаковать</CommandSquadAttack>
@@ -167,8 +167,8 @@
   <!-- Settle -->
   <CommandSettle>Основать поселение</CommandSettle>
   <CommandSettleDesc>Основать поселение в этом месте. Ваши путешественники придут сюда и смогут построить здесь свой новый дом.</CommandSettleDesc>
-  <CommandSettleFailOtherWorldObjectsHere>Чтобы основать поселение, в этой местности, кроме вашего каравана, не должно никого быть.</CommandSettleFailOtherWorldObjectsHere>
-  <CommandSettleFailAlreadyHaveBase>У вашей фракции можеть быть только одна база.</CommandSettleFailAlreadyHaveBase>
+  <CommandSettleFailOtherWorldObjectsHere>Чтобы основать поселение, в этой местности не должно быть никого, кроме вашего каравана.</CommandSettleFailOtherWorldObjectsHere>
+  <CommandSettleFailAlreadyHaveBase>У вашей фракции может быть только одна база.</CommandSettleFailAlreadyHaveBase>
   <CommandSettleFailReachedMaximumNumberOfBases>Достигнуто предельное число поселений.</CommandSettleFailReachedMaximumNumberOfBases>
 
   <!-- Abandon home -->
@@ -205,7 +205,7 @@
   <!-- Launch group -->
   <CommandLaunchGroup>Запустить группу</CommandLaunchGroup>
   <CommandLaunchGroupDesc>Указать желаемое место посадки и запустить группу капсул. Капсулы будут запущены одновременно и приземлятся близко друг к другу.</CommandLaunchGroupDesc>
-  <CommandLaunchGroupFailNotConnectedToFuelingPort>Как минимум одна капсула не поключена к заправочной системе.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>Как минимум одна капсула не подключена к заправочной системе.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <CommandLaunchGroupFailNoFuel>Как минимум одна капсула стоит без топлива.</CommandLaunchGroupFailNoFuel>
   <CommandLaunchGroupFailUnderRoof>Как минимум одна капсула находится под крышей.</CommandLaunchGroupFailUnderRoof>
 
@@ -213,7 +213,7 @@
   <CommandLoadTransporter>Начать погрузку в группу из {0}</CommandLoadTransporter>
   <CommandLoadTransporterDesc>Объединить выбранные транспортные капсулы в запускаемую группу, назначить пассажиров и выбрать, что погрузить на борт.</CommandLoadTransporterDesc>
   <CommandLoadTransporterFailNotConnectedToFuelingPort>Транспортная капсула не подключена к заправочной системе.</CommandLoadTransporterFailNotConnectedToFuelingPort>
-  <CommandLoadTransporterFailNoFuel>Транспортная капусла не заправлена топливом.</CommandLoadTransporterFailNoFuel>
+  <CommandLoadTransporterFailNoFuel>Транспортная капсула не заправлена топливом.</CommandLoadTransporterFailNoFuel>
 
   <!-- Select previous transporter -->
   <CommandSelectPreviousTransporter>Следующая капсула</CommandSelectPreviousTransporter>
