@@ -31,7 +31,7 @@
   <CommandAllowFiringDesc>Разрешить или запретить стрельбу.\n\nЕсли стрельба запрещена, то персонаж не будет вести огонь по удалённым целям без команды. Не влияет на рукопашный бой.</CommandAllowFiringDesc>
 
   <CommandClearPrioritizedWork>Очистить назначенные действия</CommandClearPrioritizedWork>
-  <CommandClearPrioritizedWorkDesc>Сбросить любые назначенные вами действия. Поселенец продолжит работать согласно своим проритетам.</CommandClearPrioritizedWorkDesc>
+  <CommandClearPrioritizedWorkDesc>Сбросить любые назначенные вами действия. Поселенец продолжит работать согласно своим приоритетам.</CommandClearPrioritizedWorkDesc>
 
   <CommandCancelConstructionLabel>Отменить</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Отмена строительства.</CommandCancelConstructionDesc>
@@ -42,7 +42,7 @@
   <CommandBedSetOwnerLabel>Назначить кровать</CommandBedSetOwnerLabel>
   <CommandBedSetOwnerDesc>Назначить кровать конкретному поселенцу.</CommandBedSetOwnerDesc>
   <CommandGraveAssignColonistLabel>Назначить поселенца</CommandGraveAssignColonistLabel>
-  <CommandGraveAssignColonistDesc>Назначить эту могилу в собственнось конкретному поселенцу.</CommandGraveAssignColonistDesc>
+  <CommandGraveAssignColonistDesc>Назначить эту могилу в собственность конкретному поселенцу.</CommandGraveAssignColonistDesc>
   <BuildingAssign>Назначить</BuildingAssign>
   <BuildingUnassign>Снять назначение</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>Для заключённых</CommandBedSetForPrisonersLabel>
@@ -123,8 +123,8 @@
   <CommandSunLampMakeGrowingZoneLabel>Создать зону роста.</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <CommandAutoRearm>Автоперезарядка</CommandAutoRearm>
-  <CommandAutoRearmDesc>Если активна, капкан будет автоматически назначаться для перезарядки после срабатывания.</CommandAutoRearmDesc>
+  <CommandAutoRearm>Авто-взведение</CommandAutoRearm>
+  <CommandAutoRearmDesc>Если активна, капкан будет автоматически назначаться для взведения после срабатывания.</CommandAutoRearmDesc>
 
   <!-- Animal control -->
   <CommandReleaseAnimalsLabel>Спустить с поводка</CommandReleaseAnimalsLabel>
@@ -196,7 +196,7 @@
 
   <!-- Set target fuel level -->
   <CommandSetTargetFuelLevel>Указать желаемый уровень топлива</CommandSetTargetFuelLevel>
-  <CommandSetTargetFuelLevelDesc>Поселенцы будут заправлять этот аргегат не выше указанного уровня.</CommandSetTargetFuelLevelDesc>
+  <CommandSetTargetFuelLevelDesc>Поселенцы будут заправлять этот агрегат не выше указанного уровня.</CommandSetTargetFuelLevelDesc>
 
   <!-- Cancel load -->
   <CommandCancelLoad>Отменить погрузку</CommandCancelLoad>
