@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <!-- Forbid -->
+  <CommandForbid>Запретить</CommandForbid>
   <CommandForbiddenDesc>Запрещено: поселенцы не будут это использовать.</CommandForbiddenDesc>
   <CommandNotForbiddenDesc>Разрешено: поселенцы могут это использовать.</CommandNotForbiddenDesc>
 
@@ -25,8 +27,11 @@
   <CommandToggleDraftDesc>Переключение в боевой режим.\n\nВ этом режиме поселенцы получают приказы и сражаются. Они не будут работать, есть или отдыхать.</CommandToggleDraftDesc>
   <IsIncapped>{0} не может ходить.</IsIncapped>
 
+  <CommandAllowFiringLabel>Разрешить стрельбу</CommandAllowFiringLabel>
+  <CommandAllowFiringDesc>Разрешить или запретить стрельбу.\n\nЕсли стрельба запрещена, то персонаж не будет вести огонь по удалённым целям без команды. Не влияет на рукопашный бой.</CommandAllowFiringDesc>
+
   <CommandClearPrioritizedWork>Очистить назначенные действия</CommandClearPrioritizedWork>
-  <CommandClearPrioritizedWorkDesc>Сбросить любые назначенные вами действия. Поселенец продолжит работать согласно своим проритетам.</CommandClearPrioritizedWorkDesc>
+  <CommandClearPrioritizedWorkDesc>Сбросить любые назначенные вами действия. Поселенец продолжит работать согласно своим приоритетам.</CommandClearPrioritizedWorkDesc>
 
   <CommandCancelConstructionLabel>Отменить</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Отмена строительства.</CommandCancelConstructionDesc>
@@ -37,7 +42,7 @@
   <CommandBedSetOwnerLabel>Назначить кровать</CommandBedSetOwnerLabel>
   <CommandBedSetOwnerDesc>Назначить кровать конкретному поселенцу.</CommandBedSetOwnerDesc>
   <CommandGraveAssignColonistLabel>Назначить поселенца</CommandGraveAssignColonistLabel>
-  <CommandGraveAssignColonistDesc>Назначить эту могилу в собственнось конкретному поселенцу.</CommandGraveAssignColonistDesc>
+  <CommandGraveAssignColonistDesc>Назначить эту могилу в собственность конкретному поселенцу.</CommandGraveAssignColonistDesc>
   <BuildingAssign>Назначить</BuildingAssign>
   <BuildingUnassign>Снять назначение</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>Для заключённых</CommandBedSetForPrisonersLabel>
@@ -118,12 +123,12 @@
   <CommandSunLampMakeGrowingZoneLabel>Создать зону роста.</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <CommandAutoRearm>Автоперезарядка</CommandAutoRearm>
-  <CommandAutoRearmDesc>Если активна, капкан будет автоматически назначаться для перезарядки после срабатывания.</CommandAutoRearmDesc>
+  <CommandAutoRearm>Авто-взведение</CommandAutoRearm>
+  <CommandAutoRearmDesc>Если активна, капкан будет автоматически назначаться для взведения после срабатывания.</CommandAutoRearmDesc>
 
   <!-- Animal control -->
   <CommandReleaseAnimalsLabel>Спустить с поводка</CommandReleaseAnimalsLabel>
-  <CommandReleaseAnimalsDesc>Отправляет прирученных животных в атаку. Если не включено, животные остаются вблизи и охраняют хозяина.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>Отправляет приручённых животных в атаку. Если не включено, животные остаются вблизи и охраняют хозяина.</CommandReleaseAnimalsDesc>
 
   <!-- Squad attack -->
   <CommandSquadAttack>Атаковать</CommandSquadAttack>
@@ -141,5 +146,85 @@
   <!-- Build copy -->
   <CommandBuildCopy>Построить копию</CommandBuildCopy>
   <CommandBuildCopyDesc>Создать копию этой постройки.</CommandBuildCopyDesc>
+
+  <!-- Form caravan -->
+  <CommandFormCaravan>Снарядить караван</CommandFormCaravan>
+  <CommandFormCaravanDesc>Отправить группу поселенцев в путешествие. Поселенцы соберут все подготовленные для пути вещи и возьмут с собой животных, а затем покинут это место и будут ждать ваших указаний.</CommandFormCaravanDesc>
+
+  <!-- Reform caravan -->
+  <CommandReformCaravan>Продолжить путь</CommandReformCaravan>
+  <CommandReformCaravanDesc>Продолжить путь. Путешественники покинут место, в котором находятся и будут ждать дальнейших указаний.</CommandReformCaravanDesc>
+  <CommandReformCaravanFailHostilePawns>Неподалёку ещё есть противники.</CommandReformCaravanFailHostilePawns>
+
+  <!-- Split caravan -->
+  <CommandSplitCaravan>Разделиться</CommandSplitCaravan>
+  <CommandSplitCaravanDesc>Разделить караван на две группы. В дальнейшем получившиеся караваны можно будет вновь объединить в один, если они будут неподалёку друг от друга.</CommandSplitCaravanDesc>
+
+  <!-- Merge caravan -->
+  <CommandMergeCaravans>Объединиться</CommandMergeCaravans>
+  <CommandMergeCaravansDesc>Объединить выбранные караваны в один.</CommandMergeCaravansDesc>
+
+  <!-- Settle -->
+  <CommandSettle>Основать поселение</CommandSettle>
+  <CommandSettleDesc>Основать поселение в этом месте. Ваши путешественники придут сюда и смогут построить здесь свой новый дом.</CommandSettleDesc>
+  <CommandSettleFailOtherWorldObjectsHere>Чтобы основать поселение, в этой местности не должно быть никого, кроме вашего каравана.</CommandSettleFailOtherWorldObjectsHere>
+  <CommandSettleFailAlreadyHaveBase>У вашей фракции может быть только одна база.</CommandSettleFailAlreadyHaveBase>
+  <CommandSettleFailReachedMaximumNumberOfBases>Достигнуто предельное число поселений.</CommandSettleFailReachedMaximumNumberOfBases>
+
+  <!-- Abandon home -->
+  <CommandAbandonHome>Покинуть поселение</CommandAbandonHome>
+  <CommandAbandonHomeDesc>Покинуть это место. Это поселение станет недоступно, и вы больше никогда не сможете сюда вернуться. После того, как вы покинете свой дом, вы сможете основать поселение в другом месте.</CommandAbandonHomeDesc>
+  <CommandAbandonHomeFailAllColonistsThere>Невозможно покинуть это место, пока все поселенцы находятся здесь.</CommandAbandonHomeFailAllColonistsThere>
+
+  <!-- Cancel forming caravan -->
+  <CommandCancelFormingCaravan>Отменить отправку каравана</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravanDesc>Остановить подготовку каравана к пути.</CommandCancelFormingCaravanDesc>
+
+  <!-- Show map -->
+  <CommandShowMap>Увеличить масштаб</CommandShowMap>
+  <CommandShowMapDesc>Увеличить масштаб в этой точке карты.</CommandShowMapDesc>
+
+  <!-- Trade -->
+  <CommandTrade>Торговать</CommandTrade>
+  <CommandTradeDesc>Торговать с этой фракцией.</CommandTradeDesc>
+  <CommandTradeFailNoNegotiator>Нет ни одного человека, способного вести переговоры и торговать, не сломленного и в сознании.</CommandTradeFailNoNegotiator>
+
+  <!-- Take off -->
+  <CommandTakeOff>Запустить</CommandTakeOff>
+  <CommandTakeOffDesc>Подняться на борт корабля и покинуть планету.</CommandTakeOffDesc>
+  <CommandTakeOffConfirmation>Вы уверены, что хотите запустить корабль?\n\nВсе, кто находится в этом месте, покинут планету. Остальные — останутся.</CommandTakeOffConfirmation>
+
+  <!-- Set target fuel level -->
+  <CommandSetTargetFuelLevel>Указать желаемый уровень топлива</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevelDesc>Поселенцы будут заправлять этот агрегат не выше указанного уровня.</CommandSetTargetFuelLevelDesc>
+
+  <!-- Cancel load -->
+  <CommandCancelLoad>Отменить погрузку</CommandCancelLoad>
+  <CommandCancelLoadDesc>Отменить погрузку вещей и посадку пассажиров и выгрузить то, что уже погружено.</CommandCancelLoadDesc>
+
+  <!-- Launch group -->
+  <CommandLaunchGroup>Запустить группу</CommandLaunchGroup>
+  <CommandLaunchGroupDesc>Указать желаемое место посадки и запустить группу капсул. Капсулы будут запущены одновременно и приземлятся близко друг к другу.</CommandLaunchGroupDesc>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>Как минимум одна капсула не подключена к заправочной системе.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNoFuel>Как минимум одна капсула стоит без топлива.</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailUnderRoof>Как минимум одна капсула находится под крышей.</CommandLaunchGroupFailUnderRoof>
+
+  <!-- Load transporter -->
+  <CommandLoadTransporter>Начать погрузку в группу из {0}</CommandLoadTransporter>
+  <CommandLoadTransporterDesc>Объединить выбранные транспортные капсулы в запускаемую группу, назначить пассажиров и выбрать, что погрузить на борт.</CommandLoadTransporterDesc>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>Транспортная капсула не подключена к заправочной системе.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNoFuel>Транспортная капсула не заправлена топливом.</CommandLoadTransporterFailNoFuel>
+
+  <!-- Select previous transporter -->
+  <CommandSelectPreviousTransporter>Следующая капсула</CommandSelectPreviousTransporter>
+  <CommandSelectPreviousTransporterDesc>Выделить следующую капсулу в этой запускаемой группе.</CommandSelectPreviousTransporterDesc>
+
+  <!-- Select all transporters -->
+  <CommandSelectAllTransporters>Вся группа</CommandSelectAllTransporters>
+  <CommandSelectAllTransportersDesc>Выделить все капсулы в этой запускаемой группе.</CommandSelectAllTransportersDesc>
+
+  <!-- Select next transporter -->
+  <CommandSelectNextTransporter>Предыдущая капсула</CommandSelectNextTransporter>
+  <CommandSelectNextTransporterDesc>Выделить предыдущую капсулу в этой запускаемой группе.</CommandSelectNextTransporterDesc>
 
 </LanguageData>

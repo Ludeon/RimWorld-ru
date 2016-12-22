@@ -17,7 +17,7 @@
   <PriceTypeNormal>нормальная</PriceTypeNormal>
   <PriceTypeExpensive>высокая</PriceTypeExpensive>
   <PriceTypeExorbitant>непомерная</PriceTypeExorbitant>
-  
+
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>не использовать</StoragePriorityUnstored>
   <StoragePriorityLow>низкий</StoragePriorityLow>
@@ -30,7 +30,7 @@
   <FoodTypeFlags_VegetableOrFruit>овощи/фрукты</FoodTypeFlags_VegetableOrFruit>
   <FoodTypeFlags_Meat>сырое мясо</FoodTypeFlags_Meat>
   <FoodTypeFlags_Corpse>тела</FoodTypeFlags_Corpse>
-  <FoodTypeFlags_Seeds>семена</FoodTypeFlags_Seeds>
+  <FoodTypeFlags_Seed>семена</FoodTypeFlags_Seed>
   <FoodTypeFlags_AnimalProduct>животные продукты</FoodTypeFlags_AnimalProduct>
   <FoodTypeFlags_Plant>живые растения</FoodTypeFlags_Plant>
   <FoodTypeFlags_Tree>живые деревья</FoodTypeFlags_Tree>
@@ -76,7 +76,8 @@
   <Hilliness_SmallHills>возвышенности</Hilliness_SmallHills>
   <Hilliness_LargeHills>большие холмы</Hilliness_LargeHills>
   <Hilliness_Mountainous>горы</Hilliness_Mountainous>
- 
+  <Hilliness_Impassable>непроходимые горы</Hilliness_Impassable>
+
   <!-- Steam workshop interaction -->
   <WorkshopInteractStage_CreatingItem>Создать</WorkshopInteractStage_CreatingItem>
   <WorkshopInteractStage_SubmittingItem>Представить</WorkshopInteractStage_SubmittingItem>
@@ -86,7 +87,7 @@
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Загрузка содержимого</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Загрузка предварительного просмотра файла</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Зафиксировать изменения</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
-  
+
   <!-- Mod sources -->
   <ContentSource_LocalFolder>локальная директория</ContentSource_LocalFolder>
   <ContentSource_SteamWorkshop>Мастерская Steam</ContentSource_SteamWorkshop>
@@ -108,12 +109,12 @@
   <HostilityResponseMode_Ignore>Игнорировать</HostilityResponseMode_Ignore>
   <HostilityResponseMode_Attack>Атаковать</HostilityResponseMode_Attack>
   <HostilityResponseMode_Flee>Убегать</HostilityResponseMode_Flee>
-  
+
   <!-- HediffGrowthMode -->
   <HediffGrowthMode_Growing>растёт</HediffGrowthMode_Growing>
   <HediffGrowthMode_Stable>стабильно</HediffGrowthMode_Stable>
   <HediffGrowthMode_Remission>ремиссия</HediffGrowthMode_Remission>
-  
+
   <!-- TechLevel -->
   <TechLevel_Animal>животные</TechLevel_Animal>
   <TechLevel_Neolithic>неолит</TechLevel_Neolithic>
@@ -131,19 +132,25 @@
   <PawnGenerationContext_All>все персонажи</PawnGenerationContext_All>
   <PawnGenerationContext_PlayerStarter>персонажи игрока</PawnGenerationContext_PlayerStarter>
   <PawnGenerationContext_NonPlayer>неигровые персонажи</PawnGenerationContext_NonPlayer>
-  
+
   <!-- Animal name display mode -->
   <ShowAnimalNames>Названия животных</ShowAnimalNames>
   <AnimalNameDisplayMode_TameNamed>Прирученные (только имена)</AnimalNameDisplayMode_TameNamed>
   <AnimalNameDisplayMode_TameAll>Прирученные (все)</AnimalNameDisplayMode_TameAll>
-  
+
   <!-- Temperature -->
   <Celsius>Цельсий</Celsius>
   <Fahrenheit>Фаренгейт</Fahrenheit>
   <Kelvin>Кельвин</Kelvin>
-  
-  <!-- Spoil reason -->
-  <SpoilReason_Freezing>Испортилось от заморозки.</SpoilReason_Freezing>
-  <SpoilReason_HighTemperature>Испортилось из-за высокой температуры.</SpoilReason_HighTemperature>
-	
+
+  <!-- Direction8Way -->
+  <Direction8Way_North_Short>С</Direction8Way_North_Short>
+  <Direction8Way_NorthEast_Short>СВ</Direction8Way_NorthEast_Short>
+  <Direction8Way_East_Short>В</Direction8Way_East_Short>
+  <Direction8Way_SouthEast_Short>ЮВ</Direction8Way_SouthEast_Short>
+  <Direction8Way_South_Short>Ю</Direction8Way_South_Short>
+  <Direction8Way_SouthWest_Short>ЮЗ</Direction8Way_SouthWest_Short>
+  <Direction8Way_West_Short>З</Direction8Way_West_Short>
+  <Direction8Way_NorthWest_Short>СЗ</Direction8Way_NorthWest_Short>
+
 </LanguageData>
