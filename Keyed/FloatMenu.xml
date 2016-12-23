@@ -8,6 +8,7 @@
   <CannotUseNoPath>Невозможно использовать: нельзя пройти</CannotUseNoPath>
   <CannotUseReserved>Невозможно использовать: занято</CannotUseReserved>
   <CannotUseFull>Невозможно использовать: заполнено</CannotUseFull>
+  <LeaderUnavailable>лидер {0} недоступен</LeaderUnavailable>
 
   <FireAt>Стрелять в {0}</FireAt>
 
@@ -25,6 +26,7 @@
 
   <ForbiddenLower>запрещено</ForbiddenLower>
   <ForbiddenOutsideAllowedAreaLower>вне разрешённой области</ForbiddenOutsideAllowedAreaLower>
+  <NotInHomeArea>вне домашней области</NotInHomeArea>
   <SociallyImproperLower>социально неадаптирован</SociallyImproperLower>
   <PrisonerRoomLower>тюремное помещение</PrisonerRoomLower>
   <BurningLower>горит</BurningLower>
@@ -68,6 +70,7 @@
   <Reserved>Занято кем-то другим.</Reserved>
   <ReservedBy>Занято {0}</ReservedBy>
   <IsReservedBy>{0} уже используется {1}.</IsReservedBy>
+  <TooHeavy>Слишком тяжело</TooHeavy>
 
   <Incapable>неспособен</Incapable>
   <IncapableOfCapacity>неспособен {0}</IncapableOfCapacity>
@@ -82,11 +85,25 @@
   <CannotWear>Невозможно надеть {0}</CannotWear>
   <CannotWearBecauseOfMissingBodyParts>отсутствуют части тела</CannotWearBecauseOfMissingBodyParts>
 
+  <CannotPickUp>Невозможно подобрать {0}</CannotPickUp>
+  <CannotPickUpAll>Невозможно подобрать {0} (всё)</CannotPickUpAll>
+  <PickUp>Подобрать {0}</PickUp>
+  <PickUpAll>Подобрать {0} (всё)</PickUpAll>
+  <PickUpSome>Подобрать {0}...</PickUpSome>
+  <PickUpCount>Подобрать {0} ({{0}} шт)</PickUpCount>
+
+  <CannotGiveToPackAnimal>Невозможно дать {0} вьючному животному</CannotGiveToPackAnimal>
+  <CannotGiveToPackAnimalAll>Невозможно дать {0} (всё) вьючному животному</CannotGiveToPackAnimalAll>
+  <GiveToPackAnimal>Дать {0} вьючному животному</GiveToPackAnimal>
+  <GiveToPackAnimalAll>Дать {0} (всё) вьючному животному</GiveToPackAnimalAll>
+  <GiveToPackAnimalSome>Дать {0} вьючному животному...</GiveToPackAnimalSome>
+  <GiveToPackAnimalCount>Взять {0} ({{0}} шт)</GiveToPackAnimalCount>
+
+  <CannotCarryToExit>Невозможно уйти, неся {0}</CannotCarryToExit>
+  <CarryToExit>Взять {0} и уйти</CarryToExit>
+
   <Strip>Раздеть {0}</Strip>
   <CannotStrip>Невозможно раздеть {0}</CannotStrip>
-
-  <Deposit>Положить {0} в {1}</Deposit>
-  <CannotDeposit>Невозможно положить {0} в {1}</CannotDeposit>
 
   <SelfDestructHere>Самоуничтожиться здесь</SelfDestructHere>
 
@@ -98,6 +115,10 @@
 
   <TradeWith>Торговать с {0}</TradeWith>
   <CannotTrade>Не может торговать</CannotTrade>
+
+  <EnterMap>Войти в {0}</EnterMap>
+  <VisitFactionBase>Зайти в {0}</VisitFactionBase>
+  <AttackFactionBase>Атаковать {0}</AttackFactionBase>
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>Войти в контейнер криптосна</EnterCryptosleepCasket>
@@ -125,5 +146,8 @@
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <!-- В русском это убрано и в gerund идёт просто «Починить» стену, «Отнести» металл... -->
 <PrioritizeGeneric>{0} {1}</PrioritizeGeneric>
+
+<DropAtEdge>Сбросить с краю</DropAtEdge>
+<DropInCenter>Сбросить в центр</DropInCenter>
 
 </LanguageData>

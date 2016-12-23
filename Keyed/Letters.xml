@@ -49,14 +49,17 @@
   <LetterFriendlyTrapSprungLabel>{0} попал в капкан</LetterFriendlyTrapSprungLabel>
   <LetterFriendlyTrapSprung>{0} случайно попал в капкан и получил повреждения.</LetterFriendlyTrapSprung>
 
-  <LetterHealthComplications>У {0} развился {1}. HECAP получил(а) осложнения в виде {2}.</LetterHealthComplications>
+  <LetterHealthComplications>У {0} развился {1}.\n\nПричина этому — {2}.</LetterHealthComplications>
   <LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
 
   <LetterHediffFromRandomHediffGiver>У {0} развился {1}.</LetterHediffFromRandomHediffGiver>
   <LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
 
-  <LetterLeadersDeathLabel>Смерть лидера</LetterLeadersDeathLabel>
-  <LetterLeadersDeath>{0}, лидер фракции {1}, умер, и его сменил {2}.</LetterLeadersDeath>
+  <LetterLeadersDeathLabel>Лидер, {1}, умер: {0}</LetterLeadersDeathLabel>
+  <LetterLeadersDeath>{0}, {3} фракции {1}, умер.\n\nЕго сменил новый {3}, {2}.</LetterLeadersDeath>
+
+  <LetterLeaderChangedLabel>Новый {1}, {0}</LetterLeaderChangedLabel>
+	<LetterLeaderChanged>{0} более не {3} фракции {1}.\n\nЕго сменил новый {3}, {2}.</LetterLeaderChanged>
 
   <MentalBreakLetterLabel>Нервный срыв</MentalBreakLetterLabel>
   <MentalBreakReason>Последней каплей было: {0}.</MentalBreakReason>
@@ -67,6 +70,8 @@
   <LetterRelatedPawnsRaidFriendly>В приближающейся дружественной группе {0} есть люди, которых знают ваши поселенцы или заключённые:</LetterRelatedPawnsRaidFriendly>
   <LetterRelatedPawnsNeutralGroup>В приближающейся группе есть люди, которых знают ваши поселенцы или заключённые:</LetterRelatedPawnsNeutralGroup>
   <LetterRelatedPawnsTradeShip>Орбитальный торговец продаёт людей, которых знают ваши поселенцы или заключённые:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradingWithOtherCaravan>База этой фракции продаёт людей, среди которых есть знакомые ваших поселенцев или заключенных:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsTradingWithFactionBase>Этот караван продаёт людей, среди которых есть знакомые ваших поселенцев или заключенных:</LetterRelatedPawnsTradingWithFactionBase>
 
   <RelationshipAppendedLetterSuffix>(знакомые)</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>NAME знаком с вашим поселенцем. HECAP {1} {0}.</RelationshipAppendedLetterTextColonist>
@@ -112,4 +117,31 @@
   <!-- Drug binge -->
   <LetterLabelDrugBinge>Злоупотребление ({0})</LetterLabelDrugBinge>
   <LetterDrugBinge>{0} злоупотребляет наркотиком: {1}.</LetterDrugBinge>
+
+  <!-- Formed caravan -->
+  <LetterLabelFormedCaravan>Караван готов</LetterLabelFormedCaravan>
+  <LetterFormedCaravan>Караван сформирован и ждёт ваших указаний на карте мира.</LetterFormedCaravan>
+
+  <!-- Caravan destroyed -->
+  <LetterLabelAllCaravanColonistsDied>Караван уничтожен</LetterLabelAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>Все члены каравана мертвы.</LetterAllCaravanColonistsDied>
+
+  <!-- Caravan entered ambush map -->
+  <LetterLabelCaravanEnteredAmbushMap>Караван попал в засаду</LetterLabelCaravanEnteredAmbushMap>
+  <LetterCaravanEnteredAmbushMap>{0} оказался в месте, где его поджидала засада.</LetterCaravanEnteredAmbushMap>
+
+  <!-- Caravan entered enemy base -->
+  <LetterLabelCaravanEnteredEnemyBase>Атака началась</LetterLabelCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0} прибыл в {1} и готов к атаке.</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} прибыл в {1} и готов к атаке.\n\nЭтот шаг был расценен как агрессивный и привёл к тому, что все в {2} теперь враждебны по отношению к вам.</LetterCaravanEnteredEnemyBaseBecameHostile>
+
+  <!-- Faction base defeated -->
+  <LetterLabelFactionBaseDefeated>Поселение разбито</LetterLabelFactionBaseDefeated>
+  <LetterFactionBaseDefeated>{0}, поселение противника, разгромлено.\n\nУ вас есть {1} ч, чтобы собрать ресурсы, после чего караван продолжит путь.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated_FactionDestroyed>Это поселение было последней базой фракции {0}. Фракция прекратила своё существование.</LetterFactionBaseDefeated_FactionDestroyed>
+
+  <!-- Pawns lost due to map countdown -->
+  <LetterLabelPawnsLostDueToMapCountdown>Про кого-то забыли</LetterLabelPawnsLostDueToMapCountdown>
+  <LetterPawnsLostDueToMapCountdown>Кто-то из ваших животных или заключённых остался в этой глуши:\n\n{0}</LetterPawnsLostDueToMapCountdown>
+
 </LanguageData>
