@@ -38,8 +38,9 @@
   <Initializing>Инициализация</Initializing>
   <LoadingWorld>Загрузка мира</LoadingWorld>
   <LoadingMap>Загрузка карты</LoadingMap>
-  <InitializingMap>Инициализация карты</InitializingMap>
+  <InitializingGame>Инициализация игры</InitializingGame>
   <SpawningAllThings>Размещение объектов</SpawningAllThings>
+  <SpawningColonists>Размещение поселенцев</SpawningColonists>
 
   <!-- Save/load -->
   <SaveGameButton>Сохранить</SaveGameButton>
@@ -59,10 +60,20 @@
   <ProblemSavingFile>Возникла проблема с сохранением файла {0}:\n\n{1} Для дополнительной информации посмотрите лог.</ProblemSavingFile>
   <LoadAnyway>Загрузить в любом случае</LoadAnyway>
 
-  <!-- Colony naming-->
-  <NameColonyMessage>Похоже, что вы тут надолго. {0} предлагает дать название поселению.\n\nКак вы назовёте его?</NameColonyMessage>
-  <ColonyGainsName>Поселение теперь известно как {0}.</ColonyGainsName>
+  <!-- Player faction naming -->
+  <NamePlayerFactionMessage>{0} предлагает дать имя вашей фракции. Как её назвать?</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>Ваша фракция теперь известна как {0}.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>Это имя для фракции недопустимо.</PlayerFactionNameIsInvalid>
+
+  <!-- Player faction base naming -->
+  <NameColonyMessage>Похоже, что вы тут надолго. {0} предлагает дать название этому поселению.\n\nКак вы назовёте его?</NameColonyMessage>
+  <ColonyGainsName>Это поселение теперь известно как {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Это имя для поселения недопустимо.</ColonyNameIsInvalid>
+
+  <!-- Player faction and faction base naming -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>Похоже, что вы тут надолго. {0} также предлагает дать название этому поселению.\n\nКак вы назовёте его?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>Ваша фракция теперь известна как {0}, а поселение называется {1}.</PlayerFactionAndBaseGainsName>
+
 
   <!-- Renaming -->
   <NameIsInvalid>Пожалуйста, введите корректное имя.</NameIsInvalid>
@@ -157,8 +168,7 @@
   <Days>дней</Days>
   <MinGrowingSkillToSow>Минимальный необходимый уровень навыка выращивания для засевания</MinGrowingSkillToSow>
   <FertilityRequirement>Требования к почве</FertilityRequirement>
-  <SoilFertilitySensitivityGrowthRate>Влияние плодор-ти (скор-ть роста)</SoilFertilitySensitivityGrowthRate>
-  <SoilFertilitySensitivityPlantChance>Влияние плодор-ти (посадка)</SoilFertilitySensitivityPlantChance>
+  <FertilitySensitivity>Влияние плодородности почвы</FertilitySensitivity>
   <LightRequirement>Требования к свету</LightRequirement>
   <Attributes>Атрибуты</Attributes>
   <LifeSpan>Рост</LifeSpan>
@@ -168,6 +178,7 @@
   <WalkSpeedProperty>Скорость ходьбы</WalkSpeedProperty>
   <MinFoodQuality>Мин. качество еды</MinFoodQuality>
   <Diet>Питание</Diet>
+  <BodySize>Размер тела</BodySize>
   <RecruitDifficulty>Сложность вербовки</RecruitDifficulty>
   <MarketValue>Базовая цена</MarketValue>
   <Covers>Укрывается</Covers>
@@ -203,6 +214,71 @@
   <NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием более здорового переговорщика.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>У торговца недостаточно серебра, чтобы завершить эту сделку. Всё равно продолжить?</ConfirmTraderShortFunds>
   <SortBy>Подбор по</SortBy>
+
+  <TraderTypePrice>тип торговца</TraderTypePrice>
+	<Selling>продажа</Selling>
+	<Buying>покупка</Buying>
+	<ItemSellPriceFactor>множитель цены продажи</ItemSellPriceFactor>
+	<DifficultyLevel>уровень сложности</DifficultyLevel>
+	<PostCurve>интерполяция сплайном</PostCurve>
+	<YourNegotiatorBonus>Бонус переговорщика</YourNegotiatorBonus>
+	<TradeWithFactionBaseBonus>Бонус торговли с базой фракции</TradeWithFactionBaseBonus>
+	<minimum>минимум</minimum>
+	<FinalPrice>Итоговая цена</FinalPrice>
+  <TradeMassUsageTooltip>Итоговый переносимый и максимальный вес.</TradeMassUsageTooltip>
+
+  <!-- Form caravan -->
+  <FormCaravan>Снарядить караван</FormCaravan>
+  <FormCaravanColonyThingCountTip>Количество единиц ресурса, которое поселение может передать каравану.</FormCaravanColonyThingCountTip>
+  <PawnsTab>Люди и животные</PawnsTab>
+  <ItemsTab>Вещи</ItemsTab>
+  <CaravanConfigTab>Настройки</CaravanConfigTab>
+  <CaravanMustHaveAtLeastOneColonist>Нужно назначить хотя бы одного поселенца, способного стоять на ногах.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanCouldNotFindExitSpot>Невозможно найти ни одной подходящей точки выхода.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Внимание: некоторые из назначенных поселенцев не могут добраться до точки выхода.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanPawnIsUnreachable>{0} вне досягаемости для всех назначенных поселенцев.</CaravanPawnIsUnreachable>
+  <CaravanItemIsUnreachableSingle>Ни один из поселенцев не может добраться до {0}.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>Ни один из поселенцев не может достичь {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>Караван не сможет нести так много вещей.</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip>Текущий переносимый и максимальный вес.\n\nПереносимый вес включает в себя вес как вещей поселенцев, так и их груза.\n\nВы не сможете отправить караван, если суммарный переносимый вес превышает максимальный.</CaravanMassUsageTooltip>
+  <MassUsageInfo>{0} / {1} кг</MassUsageInfo>
+  <DaysWorthOfFoodInfo>Еды хватит на {0} дней</DaysWorthOfFoodInfo>
+  <InfiniteDaysWorthOfFoodInfo>Еда никогда не закончится</InfiniteDaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>Приблизительное количество дней до момента, когда закончится еда.\n\nВ расчёт берётся еда как для людей, так и для животных. Рассматривается пессимистичный сценарий: именно через столько дней без еды останется как минимум один человек или животное.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodWarningDialog>Вашему каравану хватит еды только на {0} дней. Люди и животные очень скоро начнут голодать.\n\nВы уверены, что хотите отправить этот караван?</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Без еды люди и животные в караване очень скоро начнут голодать.\n\nВы уверены, что хотите отправить этот караван?</DaysWorthOfFoodWarningDialog_NoFood>
+  <NoExitDirectionForCaravanChosen>Нужно выбрать направление выхода с карты.</NoExitDirectionForCaravanChosen>
+  <NoCaravanExitDirectionAvailable>(нет доступных направлений выхода)</NoCaravanExitDirectionAvailable>
+  <ExitDirection>Направление выхода</ExitDirection>
+  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+  <ItemWeightTip>Вес этого предмета.</ItemWeightTip>
+  <MarketValueTip>Рыночная цена</MarketValueTip>
+  <MassCapacity>Максимальный вес</MassCapacity>
+  <Mass>Вес</Mass>
+  <EquipmentAndApparelMass>Вес одежды и снаряжения</EquipmentAndApparelMass>
+  <InventoryMass>Переносимый вес</InventoryMass>
+  <CaravanFormationProcessStarted>Караван отправится в ближайшее время! Поселенцы покинут это место, как только соберут все необходимые вещи.</CaravanFormationProcessStarted>
+  <ReformCaravan>Продолжить путь</ReformCaravan>
+  <ColonistsSection>Поселенцы</ColonistsSection>
+  <PrisonersSection>Заключённые</PrisonersSection>
+  <AnimalsSection>Животные</AnimalsSection>
+
+  <!-- Split caravan -->
+  <SplitCaravan>Разделить караван</SplitCaravan>
+  <SourceCaravanMustHaveAtLeastOneColonist>В караване должен остаться хотя бы один человек, способный стоять на ногах.</SourceCaravanMustHaveAtLeastOneColonist>
+  <CaravanSplitSourceLabel>Текущий</CaravanSplitSourceLabel>
+  <CaravanSplitDestLabel>Формируемый</CaravanSplitDestLabel>
+  <SplitCaravanThingCountTip>Как много этого ресурса текущий караван готов передать формируемому.</SplitCaravanThingCountTip>
+  <SplitCaravanMassUsageTooltip>Текущий переносимый и максимальный вес.</SplitCaravanMassUsageTooltip>
+
+  <!-- Load transporters -->
+  <LoadTransporters>Загрузить {0}</LoadTransporters>
+  <TooBigTransportersMassUsage>Масса назначенных пассажиров и груза слишком велика для транспортных капсул.</TooBigTransportersMassUsage>
+  <CantSendEmptyTransportPods>Транспортная капсула не должна быть пустой.</CantSendEmptyTransportPods>
+  <PawnCantReachTransporters>{0} не может добраться до транспортных капсул.</PawnCantReachTransporters>
+  <TransporterItemIsUnreachableSingle>Невозможно найти путь между транспортными капсулами и {0}.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableMulti>Невозможно найти путь между транспортными капсулами и {0}x {1}.</TransporterItemIsUnreachableMulti>
+  <TransportersMassUsageTooltip>Текущая масса груза и грузоподъёмность.\n\nНевозможно отправить капсулы с массой груза, превышающей грузоподъёмность.</TransportersMassUsageTooltip>
 
   <!-- Comms -->
   <SocialSkillIs>Социальный навык: {0}</SocialSkillIs>
@@ -257,10 +333,27 @@
   <MoodThresholdColumnDesc>Поселенцы будут принимать этот наркотик, только если их настроение будет ниже этой величины.</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>Поселенцы будут принимать этот наркотик, только если уровень их счастья будет ниже этой величины.</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>Количество наркотика, которое поселенцу нужно будет взять с собой сверх величины приёма, чтобы в следующий раз ему не нужно было ходить на склад.</TakeToInventoryColumnDesc>
-  <DrugUsageTipForJoy>Для настроения\n\nИспользовать этот наркотик для улучшения настроения и социальных целей, а также для того, чтобы удовлетворить потребности зависимостей.\n\nДаже если этот параметр отключен, некоторые поселенцы с определёнными чертами или во время нервных срывов могут всё равно попытаться использовать наркотик.</DrugUsageTipForJoy>
+  <DrugUsageTipForJoy>Для настроения\n\nПрименять этот наркотик для улучшения настроения и социальных целей.\n\nДаже если этот параметр отключен, некоторые поселенцы с определёнными чертами или во время нервных срывов могут всё равно попытаться использовать наркотик.</DrugUsageTipForJoy>
+  <DrugUsageTipForAddiction>Для удовл. зависимости\n\nПрименять этот наркотик для того, чтобы удовлетворить потребности зависимостей.\n\nДаже если этот параметр отключен, некоторые поселенцы с определёнными чертами или во время нервных срывов могут всё равно попытаться использовать наркотик.</DrugUsageTipForAddiction>
   <DrugUsageTipScheduled>По расписанию\n\nИспользовать этот наркотик по определённому расписанию, когда соблюдены указанные условия.</DrugUsageTipScheduled>
 
   <!-- Growing -->
   <NoGrowerCanPlant>{0} требует уровня {1} садоводства для посадки.\n\nНикто из ваших находящихся в сознании садоводов не обладает достаточным навыком, поэтому данное растение не будет высаживаться.</NoGrowerCanPlant>
+
+  <!-- Abandon home -->
+  <ConfirmAbandonHomeWithColonyPawns>Часть поселенцев или животных остались в поселении. Вы уверены, что хотите бросить их?\n\nОстанутся эти люди и животные:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <ConfirmLeavePrisonersOrAnimalsBehind>В этом месте вы оставили кого-то из заключённых или животных. В данный момент ваш караван — единственная группа, к которой они могут присоединиться.\n\nЕсли вы двинетесь в путь, они не смогут покинуть это место, пока вы не вернётесь. Однако заключённые могут сбежать.\n\nЕсли вы подождёте, заключённые и животные присоединятся к каравану при первой возможности.\n\nВы уверены, что хотите двинуться в путь?</ConfirmLeavePrisonersOrAnimalsBehind>
+
+  <!-- Abandon pawn -->
+  <ConfirmAbandonPawnDialog>Вы действительно хотите оставить здесь {0}?</ConfirmAbandonPawnDialog>
+  <ConfirmAbandonPawnDialog_LeftToDie>{0} скорее всего погибнет.</ConfirmAbandonPawnDialog_LeftToDie>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} возьмёт себе следующие вещи:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_AllColonistsThoughts>Все поселенцы будет расстроены следующими мыслями:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>То, что вы бросили {0} на произвол судьбы, отразится на настроении этих людей:</ConfirmAbandonPawnDialog_IndividualThoughts>
+
+  <!-- Send transport pods which are not completely loaded -->
+  <ConfirmSendNotCompletelyLoadedPods>Группа капсул загружена не до конца. {0} отсутствует. Всё равно запустить?</ConfirmSendNotCompletelyLoadedPods>
 
 </LanguageData>

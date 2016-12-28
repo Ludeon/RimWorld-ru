@@ -35,12 +35,12 @@
   <DoctorsCare>Врачебный уход</DoctorsCare>
   <GetsMedicine>Получает медикаменты</GetsMedicine>
   <ShouldTryToRecruit>Попробовать завербовать</ShouldTryToRecruit>
-  <PrisonerNoInteraction>Никакого взаимодействия</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>Дружеская беседа</PrisonerFriendlyChat>
+  <PrisonerNoInteraction>Не вступать в контакт</PrisonerNoInteraction>
+  <PrisonerFriendlyChat>Беседовать</PrisonerFriendlyChat>
   <PrisonerAttemptRecruit>Вербовать</PrisonerAttemptRecruit>
   <PrisonerRelease>Выпустить</PrisonerRelease>
-  <PrisonerExecution>Казнь</PrisonerExecution>
-
+  <PrisonerExecution>Казнить</PrisonerExecution>
+  <ConsideredGuilty>Считается виновным(ой) (срок истекает через {0})</ConsideredGuilty>
 
   <!-- Medical - general -->
   <MoveSpeed>Скорость передвижения</MoveSpeed>
@@ -52,9 +52,6 @@
   <Healthy>Здоров</Healthy>
   <InPain>Испытывает боль</InPain>
   <PainLevel>Боль</PainLevel>
-  <Dead>Мёртв</Dead>
-  <Unconscious>Без сознания</Unconscious>
-  <PainShock>Болевой шок</PainShock>
   <Injured>Ранение</Injured>
   <NoInjuries>(нет ранений)</NoInjuries>
   <WholeBody>Всё тело</WholeBody>
@@ -62,6 +59,8 @@
   <Communication>Связь</Communication>
   <Affects>Влияет на</Affects>
   <BleedingRate>Кровотечение</BleedingRate>
+  <TimeToDeath>смерть через {0}</TimeToDeath>
+  <WontBleedOutSoon>неопасное</WontBleedOutSoon>
   <HealthOverview>Обзор</HealthOverview>
   <MedicalOperationsShort>Операции ({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>Модификации ({0})</MedicalOperationsMechanoidsShort>
@@ -112,6 +111,7 @@
 
   <!-- Gear tab -->
   <AverageArmor>Средняя защищённость</AverageArmor> <!-- Kappa Проверить в игре. -->
+  <MassCarried>Переносит вес: {0}/{1} кг</MassCarried>
   <ComfyTemperatureRange>Диапазон комфортной температуры</ComfyTemperatureRange>
   <ArmorBlunt>Дробящее</ArmorBlunt>
   <ArmorSharp>Проникающее</ArmorSharp>
