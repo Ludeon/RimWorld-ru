@@ -33,19 +33,19 @@
 	<InitializingInterface>Инициализация интерфейса</InitializingInterface>
 	<UnloadingUnusedAssets>Выгрузка неиспользуемых ассетов</UnloadingUnusedAssets>
 	<LoadingAllActiveMods>Загрузка всех активированных модов</LoadingAllActiveMods>
-	<LoadingDefs>Загрузка определений</LoadingDefs>
-	<LoadingAssets>Загрузка ассетов</LoadingAssets>
+	<LoadingDefs>Загрузка defs</LoadingDefs>
+	<LoadingAssets>Загрузка assets</LoadingAssets>
 	<Initializing>Инициализация</Initializing>
 	<LoadingWorld>Загрузка мира</LoadingWorld>
 	<LoadingMap>Загрузка карты</LoadingMap>
 	<InitializingGame>Инициализация игры</InitializingGame>
 	<SpawningAllThings>Размещение объектов</SpawningAllThings>
-	<SpawningColonists>Размещение поселений</SpawningColonists>
+	<SpawningColonists>Размещение поселенцев</SpawningColonists>
 
 	<!-- Save/load -->
 	<SaveGameButton>Сохранить</SaveGameButton>
-	<LoadGameButton>Загрузить</LoadGameButton>
 	<OverwriteButton>Перезаписать</OverwriteButton>
+	<LoadGameButton>Загрузить</LoadGameButton>
 	<ConfirmDelete>Действительно удалить {0}?</ConfirmDelete>
 	<DeleteThisSavegame>Удалить это сохранение.</DeleteThisSavegame>
 	<SavedAs>Сохранено как {0}.</SavedAs>
@@ -66,13 +66,14 @@
 	<PlayerFactionNameIsInvalid>Это имя для фракции недопустимо.</PlayerFactionNameIsInvalid>
 
 	<!-- Player faction base naming -->
-	<NamePlayerFactionBaseMessage>Похоже, что вы тут надолго. {0} предлагает дать название этому поселению.\n\nКак вы назовёте его?</NamePlayerFactionBaseMessage>
-	<PlayerFactionBaseGainsName>Поселение теперь известно как {0}.</PlayerFactionBaseGainsName>
-	<PlayerFactionBaseNameIsInvalid>Это имя для поселения недопустимо.</PlayerFactionBaseNameIsInvalid>
+	<NameColonyMessage>Похоже, что вы тут надолго. {0} предлагает дать название этому поселению.\n\nКак вы назовёте его?</NameColonyMessage>
+	<ColonyGainsName>Это поселение теперь известно как {0}.</ColonyGainsName>
+	<ColonyNameIsInvalid>Это имя для поселения недопустимо.</ColonyNameIsInvalid>
 
 	<!-- Player faction and faction base naming -->
 	<NamePlayerFactionBaseMessage_NameFactionContinuation>Похоже, что вы тут надолго. {0} также предлагает дать название этому поселению.\n\nКак вы назовёте его?</NamePlayerFactionBaseMessage_NameFactionContinuation>
 	<PlayerFactionAndBaseGainsName>Ваша фракция теперь известна как {0}, а поселение называется {1}.</PlayerFactionAndBaseGainsName>
+
 
 	<!-- Renaming -->
 	<NameIsInvalid>Пожалуйста, введите корректное имя.</NameIsInvalid>
@@ -167,7 +168,7 @@
 	<Days>дней</Days>
 	<MinGrowingSkillToSow>Минимальный необходимый уровень навыка выращивания для засевания</MinGrowingSkillToSow>
 	<FertilityRequirement>Требования к почве</FertilityRequirement>
-	<FertilitySensitivity>Чувствительность почвы</FertilitySensitivity>
+	<FertilitySensitivity>Влияние плодородности почвы</FertilitySensitivity>
 	<LightRequirement>Требования к свету</LightRequirement>
 	<Attributes>Атрибуты</Attributes>
 	<LifeSpan>Рост</LifeSpan>
@@ -193,8 +194,6 @@
 	<TimeRecordsCategory>Время</TimeRecordsCategory>
 	<MiscRecordsCategory>Прочее</MiscRecordsCategory>
 	<Addictiveness>Степень вызывания привыкания</Addictiveness>
-	<PackAnimal>Вьючное животное</PackAnimal>
-	<PackAnimalExplanation>Это животное целесообразно использовать для перевозки вещей в караване на большие расстояния.</PackAnimalExplanation>
 
 	<!-- Trade -->
 	<PositiveBuysNegativeSells>Положительное число — покупка.\nОтрицательное число — продажа.</PositiveBuysNegativeSells>
@@ -215,7 +214,8 @@
 	<NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием более здорового переговорщика.</NegotiatorTalkingImpaired>
 	<ConfirmTraderShortFunds>У торговца недостаточно серебра, чтобы завершить эту сделку. Всё равно продолжить?</ConfirmTraderShortFunds>
 	<SortBy>Подбор по</SortBy>
-	<TraderTypePrice>Тип торговца</TraderTypePrice>
+
+	<TraderTypePrice>тип торговца</TraderTypePrice>
 	<Selling>продажа</Selling>
 	<Buying>покупка</Buying>
 	<ItemSellPriceFactor>множитель цены продажи</ItemSellPriceFactor>
@@ -333,8 +333,8 @@
 	<MoodThresholdColumnDesc>Поселенцы будут принимать этот наркотик, только если их настроение будет ниже этой величины.</MoodThresholdColumnDesc>
 	<JoyThresholdColumnDesc>Поселенцы будут принимать этот наркотик, только если уровень их счастья будет ниже этой величины.</JoyThresholdColumnDesc>
 	<TakeToInventoryColumnDesc>Количество наркотика, которое поселенцу нужно будет взять с собой сверх величины приёма, чтобы в следующий раз ему не нужно было ходить на склад.</TakeToInventoryColumnDesc>
-	<DrugUsageTipForAddiction>Для удовл. зависимости\n\nПрименять этот наркотик для того, чтобы удовлетворить потребности зависимостей.\n\nДаже если этот параметр отключен, некоторые поселенцы с определёнными чертами или во время нервных срывов могут всё равно попытаться использовать наркотик.</DrugUsageTipForAddiction>
 	<DrugUsageTipForJoy>Для настроения\n\nПрименять этот наркотик для улучшения настроения и социальных целей.\n\nДаже если этот параметр отключен, некоторые поселенцы с определёнными чертами или во время нервных срывов могут всё равно попытаться использовать наркотик.</DrugUsageTipForJoy>
+	<DrugUsageTipForAddiction>Для удовл. зависимости\n\nПрименять этот наркотик для того, чтобы удовлетворить потребности зависимостей.\n\nДаже если этот параметр отключен, некоторые поселенцы с определёнными чертами или во время нервных срывов могут всё равно попытаться использовать наркотик.</DrugUsageTipForAddiction>
 	<DrugUsageTipScheduled>По расписанию\n\nИспользовать этот наркотик по определённому расписанию, когда соблюдены указанные условия.</DrugUsageTipScheduled>
 
 	<!-- Growing -->
