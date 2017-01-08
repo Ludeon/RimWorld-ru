@@ -26,7 +26,7 @@
 
 	<ForbiddenLower>запрещено</ForbiddenLower>
 	<ForbiddenOutsideAllowedAreaLower>вне разрешённой области</ForbiddenOutsideAllowedAreaLower>
-	<NotInHomeArea>не в домашней области</NotInHomeArea>
+	<NotInHomeArea>вне домашней области</NotInHomeArea>
 	<SociallyImproperLower>социально неадаптирован</SociallyImproperLower>
 	<PrisonerRoomLower>тюремное помещение</PrisonerRoomLower>
 	<BurningLower>горит</BurningLower>
@@ -83,22 +83,22 @@
 	<CannotWear>Невозможно надеть {0}</CannotWear>
 	<CannotWearBecauseOfMissingBodyParts>отсутствуют части тела</CannotWearBecauseOfMissingBodyParts>
 
-	<CannotPickUp>Не удается поднять {0}</CannotPickUp>
-	<CannotPickUpAll>Не удается поднять {0} (все)</CannotPickUpAll>
-	<PickUp>Поднять {0}</PickUp>
-	<PickUpAll>Поднять {0} (все)</PickUpAll>
-	<PickUpSome>Поднять {0}...</PickUpSome>
-	<PickUpCount>Поднять {0} x{{0}}</PickUpCount>
+	<CannotPickUp>Невозможно подобрать {0}</CannotPickUp>
+	<CannotPickUpAll>Невозможно подобрать {0} (все)</CannotPickUpAll>
+	<PickUp>Подобрать {0}</PickUp>
+	<PickUpAll>Подобрать {0} (все)</PickUpAll>
+	<PickUpSome>Подобрать {0}...</PickUpSome>
+	<PickUpCount>Подобрать {0} ({{0}} шт)</PickUpCount>
 
-	<CannotGiveToPackAnimal>Невозможно взять {0} чтобы навьючить животное</CannotGiveToPackAnimal>
-	<CannotGiveToPackAnimalAll>Невозможно взять {0} (все) чтобы навьючить животное</CannotGiveToPackAnimalAll>
-	<GiveToPackAnimal>Взять {0} чтобы навьючить животное</GiveToPackAnimal>
-	<GiveToPackAnimalAll>Взять {0} (все) чтобы навьючить животное</GiveToPackAnimalAll>
-	<GiveToPackAnimalSome>Взять {0} чтобы навьючить животное...</GiveToPackAnimalSome>
-	<GiveToPackAnimalCount>Поднять {0} x{{0}}</GiveToPackAnimalCount>
+	<CannotGiveToPackAnimal>Невозможно дать {0} вьючному животному</CannotGiveToPackAnimal>
+	<CannotGiveToPackAnimalAll>Невозможно дать {0} (все) вьючному животному</CannotGiveToPackAnimalAll>
+	<GiveToPackAnimal>Дать {0} вьючному животному</GiveToPackAnimal>
+	<GiveToPackAnimalAll>Дать {0} (все) вьючному животному</GiveToPackAnimalAll>
+	<GiveToPackAnimalSome>>Дать {0} вьючному животному...</GiveToPackAnimalSome>
+	<GiveToPackAnimalCount>Взять {0} ({{0}} шт)</GiveToPackAnimalCount>
 
-	<CannotCarryToExit>Невозможно унести {0} и покинуть участок</CannotCarryToExit>
-	<CarryToExit>Унести {0} у покинуть участок</CarryToExit>
+	<CannotCarryToExit>Невозможно уйти, неся {0}</CannotCarryToExit>
+	<CarryToExit>Взять {0} и уйти</CarryToExit>
 
 	<Strip>Раздеть {0}</Strip>
 	<CannotStrip>Невозможно раздеть {0}</CannotStrip>
@@ -115,7 +115,7 @@
 	<CannotTrade>Не может торговать</CannotTrade>
 
 	<EnterMap>Войти в {0}</EnterMap>
-	<VisitFactionBase>Посетить {0}</VisitFactionBase>
+	<VisitFactionBase>Зайти в {0}</VisitFactionBase>
 	<AttackFactionBase>Атаковать {0}</AttackFactionBase>
 
 	<!-- Specific thing interactions -->
@@ -128,6 +128,7 @@
 	<!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
 	<CannotMissingHealthActivities>Сейчас нельзя: поселенец не может {0} из-за проблем со здоровьем</CannotMissingHealthActivities>
 
+	<!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
 	<CannotGenericAlreadyAm>Поселенец уже начал {0}: {1}</CannotGenericAlreadyAm>
 
 	<CannotPrioritizeWorkTypeDisabled>Невозможно выполнить: поселенец никогда не будет {0}</CannotPrioritizeWorkTypeDisabled>
@@ -142,7 +143,7 @@
 	<!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
 	<PrioritizeGeneric>{0} {1}</PrioritizeGeneric>
 
-	<DropAtEdge>Бросить на краю</DropAtEdge>
-	<DropInCenter>Бросить в центре</DropInCenter>
+	<DropAtEdge>Сбросить с краю</DropAtEdge>
+	<DropInCenter>Сбросить в центр</DropInCenter>
 
 </LanguageData>
