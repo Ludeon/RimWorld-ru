@@ -1,20 +1,22 @@
-# RimWorld-RU
+﻿# RimWorld-RU
 Русская Локализация RimWorld
 
 
 ## Официальные переводчики:
 * [Elevator89](https://github.com/Elevator89)
-* [Dinoabunai](https://github.com/Dinoabunai)
-* [Dimonasdf](https://github.com/Dimonasdf)
 * [EcherArt](https://github.com/EcherArt)
-* [AcDie (inactive)](https://github.com/AcDie)
-* [Dandi (inactive)](https://github.com/Dandi91)
+* [Dimonasdf](https://github.com/Dimonasdf)
 * [Tarakanhb (inactive)](https://github.com/Tarakanhb)
+* [Dandi (inactive)](https://github.com/Dandi91)
+* [AcDie (inactive)](https://github.com/AcDie)
 
 
 ## Сделавшие вклад:
 * [Humort](https://github.com/Humort)
 * [Bugo](https://github.com/dragomano)
+* [Bobsans](https://github.com/bobsans)
+* [Ohar](https://github.com/Ohar)
+* [Dinoabunai](https://github.com/Dinoabunai)
 * [Lirryc](https://github.com/Lirryc)
 * [M-r-A](https://github.com/M-r-A)
 * [rooqie](https://github.com/rooqie)
