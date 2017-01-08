@@ -1,4 +1,4 @@
-# RimWorld-RU
+﻿# RimWorld-RU
 Русская Локализация RimWorld
 
 
@@ -14,6 +14,7 @@
 ## Сделавшие вклад:
 * [Humort](https://github.com/Humort)
 * [Bugo](https://github.com/dragomano)
+* [Bobsans](https://github.com/bobsans)
 * [Ohar](https://github.com/Ohar)
 * [Dinoabunai](https://github.com/Dinoabunai)
 * [Lirryc](https://github.com/Lirryc)
