@@ -1,25 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-<!--
-Не получается убрать перед [circumstance_group] пробелы, чтобы добавить их в текст [circumstance_phrase], добавленные пробелы игнорируются, alt+255 не помогает
+	<!--
+		Не получается убрать перед [circumstance_group] пробелы, чтобы добавить их в текст [circumstance_phrase], добавленные пробелы игнорируются, alt+255 не помогает
 
-[pawn_nameFull] и [pawn_nameShortDef] - имена персонажа
+		[pawn_nameFull] и [pawn_nameShortDef] - имена персонажа
 
-[pawn_pronoun] - he/she - он/она - как HE
-[pawn_possessive] - his/her - его/её - как HIS
-[pawn_objective] - him/her - ему/ей
+		[pawn_pronoun] - he/she - он/она - как HE
+		[pawn_possessive] - his/her - его/её - как HIS
+		[pawn_objective] - him/her - ему/ей
 
-Возможно, придётся делать "[circumstance_group]" -> "[circumstance_group]. [desc_sentence_group]"
-Кажется, не надо.
-
--->
-
-
-	<!--landing-->
+		Возможно, придётся делать "[circumstance_group]" -> "[circumstance_group]. [desc_sentence_group]"
+		Кажется, не надо.
+	-->
 
 	<LandedInPod.label>приземление в спасательной капсуле</LandedInPod.label>
-
 	<LandedInPod.rulePack.rulesStrings.0>tale_noun->как [pawn_nameShortDef] приземляется в спасательной капсуле</LandedInPod.rulePack.rulesStrings.0>
 	<LandedInPod.rulePack.rulesStrings.1>image->[pawn_nameFull], садящегося(уюся) в спасательной капсуле [circumstance_group]</LandedInPod.rulePack.rulesStrings.1>
 	<LandedInPod.rulePack.rulesStrings.2>image->[pawn_nameFull], приземляющегося(уюся) в спасательной капсуле [circumstance_group]</LandedInPod.rulePack.rulesStrings.2>
@@ -42,11 +37,7 @@
 	<LandedInPod.rulePack.rulesStrings.19>desc_sentence->На фоне видно [terrainfeature].</LandedInPod.rulePack.rulesStrings.19>
 	<LandedInPod.rulePack.rulesStrings.20>desc_sentence->[outlander] молча наблюдает за происходящим издалека.</LandedInPod.rulePack.rulesStrings.20>
 
-
-	<!--vomiting-->
-
 	<Vomited.label>рвота</Vomited.label>
-
 	<Vomited.rulePack.rulesStrings.0>tale_noun->как [pawn_nameShortDef] блюёт</Vomited.rulePack.rulesStrings.0>
 	<Vomited.rulePack.rulesStrings.1>image->[pawn_nameFull], извергающего(ую) рвотные массы на землю [circumstance_group]</Vomited.rulePack.rulesStrings.1>
 	<Vomited.rulePack.rulesStrings.2>image->[pawn_nameFull], отвратительного выглядящего(ую), покрытого(ую) засохшей рвотой [circumstance_group]</Vomited.rulePack.rulesStrings.2>
@@ -65,11 +56,7 @@
 	<Vomited.rulePack.rulesStrings.15>desc_sentence->[pawn_pronoun] окружен(а) мастерски изображённым ореолом грязи.</Vomited.rulePack.rulesStrings.15>
 	<Vomited.rulePack.rulesStrings.16>desc_sentence->На фоне [animal] слизывает с земли рвоту.</Vomited.rulePack.rulesStrings.16>
 
-
-	<!--drunk-->
-
 	<Drunk.label>загул</Drunk.label>
-
 	<Drunk.rulePack.rulesStrings.0>tale_noun->как [pawn_nameShortDef] напивается</Drunk.rulePack.rulesStrings.0>
 	<Drunk.rulePack.rulesStrings.1>image->[pawn_nameFull], шатающегося(уюся) кругом в пьяном виде [circumstance_group]</Drunk.rulePack.rulesStrings.1>
 	<Drunk.rulePack.rulesStrings.2>image->[pawn_nameFull], отклонившего(ую) назад голову и хлещущего(ую) спиртное [circumstance_group]</Drunk.rulePack.rulesStrings.2>
@@ -100,11 +87,7 @@
 	<Drunk.rulePack.rulesStrings.27>desc_sentence->[pawn_pronoun], видимо, потерял(а) ботинок.</Drunk.rulePack.rulesStrings.27>
 	<Drunk.rulePack.rulesStrings.28>desc_sentence->[pawn_possessive] волосы растрёпаны.</Drunk.rulePack.rulesStrings.28>
 
-
-	<!--on fire-->
-
 	<WasOnFire.label>огонь</WasOnFire.label>
-
 	<WasOnFire.rulePack.rulesStrings.0>tale_noun->как [pawn_nameShortDef] загорается</WasOnFire.rulePack.rulesStrings.0>
 	<WasOnFire.rulePack.rulesStrings.1>image->[pawn_nameFull], яростно борящегося(уюся) с огнём, охватившим [pawn_possessive] тело [circumstance_group]</WasOnFire.rulePack.rulesStrings.1>
 	<WasOnFire.rulePack.rulesStrings.2>image->[pawn_nameFull], окутанного(ую) пламенем [circumstance_group]</WasOnFire.rulePack.rulesStrings.2>
@@ -124,11 +107,7 @@
 	<WasOnFire.rulePack.rulesStrings.16>desc_sentence->Над [pawn_objective] поднимается струйка дыма.</WasOnFire.rulePack.rulesStrings.16>
 	<WasOnFire.rulePack.rulesStrings.17>desc_sentence->[pawn_pronoun] мастерски изображен(а) похожим(ей) на труп.</WasOnFire.rulePack.rulesStrings.17>
 
-
-	<!--berserk-->
-
 	<MentalStateBerserk.label>потеря рассудка</MentalStateBerserk.label>
-
 	<MentalStateBerserk.rulePack.rulesStrings.0>tale_noun->как [pawn_nameShortDef] теряет рассудок</MentalStateBerserk.rulePack.rulesStrings.0>
 	<MentalStateBerserk.rulePack.rulesStrings.1>image->[pawn_nameFull], входящего(ую) в ярость [circumstance_group]</MentalStateBerserk.rulePack.rulesStrings.1>
 	<MentalStateBerserk.rulePack.rulesStrings.2>image->[pawn_nameFull], сходящего(ую) с ума [circumstance_group]</MentalStateBerserk.rulePack.rulesStrings.2>
@@ -153,11 +132,7 @@
 	<MentalStateBerserk.rulePack.rulesStrings.21>desc_sentence->[pawn_possessive] лицо замерло в извращённом спокойствии.</MentalStateBerserk.rulePack.rulesStrings.21>
 	<MentalStateBerserk.rulePack.rulesStrings.22>desc_sentence->Одинокая слеза скатывается по [pawn_possessive] лицу.</MentalStateBerserk.rulePack.rulesStrings.22>
 
-
-	<!--gave up-->
-
 	<MentalStateGaveUp.label>отчаяние</MentalStateGaveUp.label>
-
 	<MentalStateGaveUp.rulePack.rulesStrings.0>tale_noun->как [pawn_nameShortDef] сдаётся в отчаянии</MentalStateGaveUp.rulePack.rulesStrings.0>
 	<MentalStateGaveUp.rulePack.rulesStrings.1>image->[pawn_nameFull], наконец сдавшегося(уюся) под стрессом [circumstance_group]</MentalStateGaveUp.rulePack.rulesStrings.1>
 	<MentalStateGaveUp.rulePack.rulesStrings.2>image->[pawn_nameFull], плачущего(ую) навзрыд [circumstance_group]</MentalStateGaveUp.rulePack.rulesStrings.2>
@@ -178,11 +153,7 @@
 	<MentalStateGaveUp.rulePack.rulesStrings.17>desc_sentence->[pawn_pronoun], кажется, потерял(а) ботинок.</MentalStateGaveUp.rulePack.rulesStrings.17>
 	<MentalStateGaveUp.rulePack.rulesStrings.18>desc_sentence->[pawn_possessive] волосы растрёпаны.</MentalStateGaveUp.rulePack.rulesStrings.18>
 
-
-	<!--naked-->
-
 	<WalkedNaked.label>поход голышом</WalkedNaked.label>
-
 	<WalkedNaked.rulePack.rulesStrings.0>tale_noun->как [pawn_nameShortDef] ходил(а) голышом</WalkedNaked.rulePack.rulesStrings.0>
 	<WalkedNaked.rulePack.rulesStrings.1>image->[pawn_nameFull] [nude_action] будучи в единении с природой [circumstance_group]</WalkedNaked.rulePack.rulesStrings.1>
 	<WalkedNaked.rulePack.rulesStrings.2>image->[pawn_nameFull] [nude_action] в голом виде [circumstance_group]</WalkedNaked.rulePack.rulesStrings.2>
@@ -207,11 +178,7 @@
 	<WalkedNaked.rulePack.rulesStrings.21>desc_sentence->[pawn_nameShortDef] тяжело дышит без явных на то причин.</WalkedNaked.rulePack.rulesStrings.21>
 	<WalkedNaked.rulePack.rulesStrings.22>desc_sentence->[pawn_nameShortDef] гладит куст.</WalkedNaked.rulePack.rulesStrings.22>
 
-
-	<!--raw human meat-->
-
 	<AteRawHumanlikeMeat.label>съедено сырое человеческое мясо</AteRawHumanlikeMeat.label>
-
 	<AteRawHumanlikeMeat.rulePack.rulesStrings.0>tale_noun->как [pawn_nameShortDef] съел(а) человеческое мясо</AteRawHumanlikeMeat.rulePack.rulesStrings.0>
 	<AteRawHumanlikeMeat.rulePack.rulesStrings.1>image->[pawn_nameFull], [eat_gerund] мясо, определенно принадлежащее гуманоиду [circumstance_group]</AteRawHumanlikeMeat.rulePack.rulesStrings.1>
 	<AteRawHumanlikeMeat.rulePack.rulesStrings.2>image->[pawn_nameFull], [eat_gerund] мясо с руки, похожей на человеческую [circumstance_group]</AteRawHumanlikeMeat.rulePack.rulesStrings.2>
@@ -237,11 +204,7 @@
 	<AteRawHumanlikeMeat.rulePack.rulesStrings.22>desc_sentence->Мясо блестит и выглядит очень сочным.</AteRawHumanlikeMeat.rulePack.rulesStrings.22>
 	<AteRawHumanlikeMeat.rulePack.rulesStrings.23>desc_sentence->Всё [pawn_possessive] тело облеплено кусками мяса.</AteRawHumanlikeMeat.rulePack.rulesStrings.23>
 
-
-	<!-- craft -->
-
 	<CraftedArt.label>создан предмет искусства</CraftedArt.label>
-
 	<CraftedArt.rulePack.rulesStrings.0>tale_noun->как [pawn_nameShortDef] создал(а) [thing_labelIndefinite]</CraftedArt.rulePack.rulesStrings.0>
 	<CraftedArt.rulePack.rulesStrings.1>image->[pawn_nameFull], делающего(ую) [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</CraftedArt.rulePack.rulesStrings.1>
 	<CraftedArt.rulePack.rulesStrings.2>image->[pawn_nameFull], завершающего(ую) свою работу над [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</CraftedArt.rulePack.rulesStrings.2>
@@ -269,7 +232,6 @@
 	<CraftedArt.rulePack.rulesStrings.24>title_sentence->Название [thing_labelDefinite], [thing_title], висит сзади.</CraftedArt.rulePack.rulesStrings.24>
 
 	<StruckMineable.label>добыт ресурс</StruckMineable.label>
-
 	<StruckMineable.rulePack.rulesStrings.0>tale_noun->как [pawn_nameShortDef] ударил(а) по [thing_label]</StruckMineable.rulePack.rulesStrings.0>
 	<StruckMineable.rulePack.rulesStrings.1>image->[pawn_nameFull], ударяющего(ую) по [thing_label] [circumstance_group]</StruckMineable.rulePack.rulesStrings.1>
 	<StruckMineable.rulePack.rulesStrings.2>circumstance_phrase->во время проведения горных работ</StruckMineable.rulePack.rulesStrings.2>
@@ -285,10 +247,7 @@
 	<StruckMineable.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDef] потный(ая) и грязный(ая) от работы.</StruckMineable.rulePack.rulesStrings.12>
 	<StruckMineable.rulePack.rulesStrings.13>desc_sentence->[pawn_nameShortDef] потный(ая) и грязный(ая) от работы.</StruckMineable.rulePack.rulesStrings.13>
 
-
-	<!--research-->
 	<FinishedResearchProject.label>завершено исследование</FinishedResearchProject.label>
-
 	<FinishedResearchProject.rulePack.rulesStrings.0>tale_noun->как [pawn_nameShortDef] завершил(а) исследование [project_label]</FinishedResearchProject.rulePack.rulesStrings.0>
 	<FinishedResearchProject.rulePack.rulesStrings.1>image->[pawn_nameFull], работающего(ей) над исследовательским проектом [project_label] [circumstance_group]</FinishedResearchProject.rulePack.rulesStrings.1>
 	<FinishedResearchProject.rulePack.rulesStrings.2>image->[pawn_nameFull], изучающего(ей) секреты проекта [project_label] [circumstance_group]</FinishedResearchProject.rulePack.rulesStrings.2>
@@ -301,5 +260,7 @@
 	<FinishedResearchProject.rulePack.rulesStrings.9>desc_sentence->Работа, судя по всему, очень трудна.</FinishedResearchProject.rulePack.rulesStrings.9>
 	<FinishedResearchProject.rulePack.rulesStrings.10>desc_sentence->[pawn_nameShortDef] совершенно окружен(а) горами различных инструментов и аппаратов.</FinishedResearchProject.rulePack.rulesStrings.10>
 	<FinishedResearchProject.rulePack.rulesStrings.11>desc_sentence->[pawn_nameShortDef] смотрит на своё открытие с благоговейным трепетом.</FinishedResearchProject.rulePack.rulesStrings.11>
+
+	<ButcheredHumanlikeCorpse.label>разделано человеческое тело</ButcheredHumanlikeCorpse.label>
 
 </LanguageData>
