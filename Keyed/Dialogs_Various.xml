@@ -44,8 +44,8 @@
 
 	<!-- Save/load -->
 	<SaveGameButton>Сохранить</SaveGameButton>
-	<OverwriteButton>Перезаписать</OverwriteButton>
 	<LoadGameButton>Загрузить</LoadGameButton>
+	<OverwriteButton>Перезаписать</OverwriteButton>
 	<ConfirmDelete>Действительно удалить {0}?</ConfirmDelete>
 	<DeleteThisSavegame>Удалить это сохранение.</DeleteThisSavegame>
 	<SavedAs>Сохранено как {0}.</SavedAs>
@@ -66,9 +66,9 @@
 	<PlayerFactionNameIsInvalid>Это имя для фракции недопустимо.</PlayerFactionNameIsInvalid>
 
 	<!-- Player faction base naming -->
-	<NameColonyMessage>Похоже, что вы тут надолго. {0} предлагает дать название этому поселению.\n\nКак вы назовёте его?</NameColonyMessage>
-	<ColonyGainsName>Это поселение теперь известно как {0}.</ColonyGainsName>
-	<ColonyNameIsInvalid>Это имя для поселения недопустимо.</ColonyNameIsInvalid>
+	<NamePlayerFactionBaseMessage>Похоже, что вы тут надолго. {0} предлагает дать название этому поселению.\n\nКак вы назовёте его?</NamePlayerFactionBaseMessage>
+	<PlayerFactionBaseGainsName>Это поселение теперь известно как {0}.</PlayerFactionBaseGainsName>
+	<PlayerFactionBaseNameIsInvalid>Это имя для поселения недопустимо.</PlayerFactionBaseNameIsInvalid>
 
 	<!-- Player faction and faction base naming -->
 	<NamePlayerFactionBaseMessage_NameFactionContinuation>Похоже, что вы тут надолго. {0} также предлагает дать название этому поселению.\n\nКак вы назовёте его?</NamePlayerFactionBaseMessage_NameFactionContinuation>
@@ -214,7 +214,6 @@
 	<NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием более здорового переговорщика.</NegotiatorTalkingImpaired>
 	<ConfirmTraderShortFunds>У торговца недостаточно серебра, чтобы завершить эту сделку. Всё равно продолжить?</ConfirmTraderShortFunds>
 	<SortBy>Подбор по</SortBy>
-
 	<TraderTypePrice>тип торговца</TraderTypePrice>
 	<Selling>продажа</Selling>
 	<Buying>покупка</Buying>
@@ -333,8 +332,8 @@
 	<MoodThresholdColumnDesc>Поселенцы будут принимать этот наркотик, только если их настроение будет ниже этой величины.</MoodThresholdColumnDesc>
 	<JoyThresholdColumnDesc>Поселенцы будут принимать этот наркотик, только если уровень их счастья будет ниже этой величины.</JoyThresholdColumnDesc>
 	<TakeToInventoryColumnDesc>Количество наркотика, которое поселенцу нужно будет взять с собой сверх величины приёма, чтобы в следующий раз ему не нужно было ходить на склад.</TakeToInventoryColumnDesc>
-	<DrugUsageTipForJoy>Для настроения\n\nПрименять этот наркотик для улучшения настроения и социальных целей.\n\nДаже если этот параметр отключен, некоторые поселенцы с определёнными чертами или во время нервных срывов могут всё равно попытаться использовать наркотик.</DrugUsageTipForJoy>
 	<DrugUsageTipForAddiction>Для удовл. зависимости\n\nПрименять этот наркотик для того, чтобы удовлетворить потребности зависимостей.\n\nДаже если этот параметр отключен, некоторые поселенцы с определёнными чертами или во время нервных срывов могут всё равно попытаться использовать наркотик.</DrugUsageTipForAddiction>
+	<DrugUsageTipForJoy>Для настроения\n\nПрименять этот наркотик для улучшения настроения и социальных целей.\n\nДаже если этот параметр отключен, некоторые поселенцы с определёнными чертами или во время нервных срывов могут всё равно попытаться использовать наркотик.</DrugUsageTipForJoy>
 	<DrugUsageTipScheduled>По расписанию\n\nИспользовать этот наркотик по определённому расписанию, когда соблюдены указанные условия.</DrugUsageTipScheduled>
 
 	<!-- Growing -->
