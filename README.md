@@ -14,9 +14,9 @@
 
 ## Сделавшие вклад:
 * [Bugo](https://github.com/dragomano)
-* [Bobsans](https://github.com/bobsans)
 * [Ohar](https://github.com/Ohar)
 * [Dinoabunai](https://github.com/Dinoabunai)
+* [Bobsans](https://github.com/bobsans)
 * [Lirryc](https://github.com/Lirryc)
 * [M-r-A](https://github.com/M-r-A)
 * [rooqie](https://github.com/rooqie)
