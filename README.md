@@ -3,23 +3,23 @@
 
 
 ## Официальные переводчики:
-* [Elevator89](https://github.com/Elevator89)
-* [Dinoabunai](https://github.com/Dinoabunai)
 * [Dimonasdf](https://github.com/Dimonasdf)
+* [Elevator89](https://github.com/Elevator89)
 * [EcherArt](https://github.com/EcherArt)
 * [AcDie (inactive)](https://github.com/AcDie)
 * [Dandi (inactive)](https://github.com/Dandi91)
 * [Tarakanhb (inactive)](https://github.com/Tarakanhb)
-
+* [Humort (inactive)](https://github.com/Humort)
 
 ## Сделавшие вклад:
-* [Humort](https://github.com/Humort)
+* [Bobsans](https://github.com/bobsans)
 * [Bugo](https://github.com/dragomano)
+* [dankan0880](https://github.com/dankan0880)
+* [Dinoabunai](https://github.com/Dinoabunai)
 * [Lirryc](https://github.com/Lirryc)
 * [M-r-A](https://github.com/M-r-A)
+* [Ohar](https://github.com/Ohar)
 * [rooqie](https://github.com/rooqie)
-* [dankan0880](https://github.com/dankan0880)
-
 
 ## Помощь:
 * [hazestalker](https://github.com/hazestalker)
