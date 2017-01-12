@@ -43,8 +43,7 @@
 * [KviEt](https://github.com/KviEt)
 
 
-## Больше информации о лицензии:
-http://ludeon.com/forums/index.php?topic=2933.0
-
-## Процесс перевода и организация командной работы описаны в [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
-## Обсуждение всех вопросов происходит в [чате](https://telegram.me/joinchat/EBLEqgn9X2kXe_oDrrAMsA) [Телеграма](https://telegram.org/).
+## Информация для желающих помочь проекту:
+Тема на официальном форуме разработчика, посвящённая переводам: http://ludeon.com/forums/index.php?topic=2933.0
+Процесс перевода и организация командной работы описаны в [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
+Обсуждение всех вопросов происходит в [чате](https://telegram.me/joinchat/EBLEqgn9X2kXe_oDrrAMsA) [Телеграма](https://telegram.org/).
