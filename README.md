@@ -19,7 +19,6 @@
 * [M-r-A](https://github.com/M-r-A)
 * [rooqie](https://github.com/rooqie)
 * [dankan0880](https://github.com/dankan0880)
-* [Bobsans](https://github.com/bobsans)
 
 
 ## Помощь:
