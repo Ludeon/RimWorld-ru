@@ -4,6 +4,10 @@
 	<MaxHitPoints.label>максимальная прочность</MaxHitPoints.label>
 	<MaxHitPoints.description>Максимальная прочность объекта. Показывает, сколько урона может выдержать объект до уничтожения.</MaxHitPoints.description>
 
+	<Mass.label>масса</Mass.label>
+	<Mass.description>Физическая масса обьекта.</Mass.description>
+	<Mass.formatString>{0} кг</Mass.formatString>
+
 	<MarketValue.label>рыночная стоимость</MarketValue.label>
 	<MarketValue.description>Базовая цена объекта на рынке. Реальная стоимость при торговле будет изменена в зависимости от статуса ваших отношений и навыка торговли.</MarketValue.description>
 
@@ -15,6 +19,9 @@
 
 	<WorkToMake.label>объём работ</WorkToMake.label>
 	<WorkToMake.description>Объём работ, необходимый для создания этого предмета, после того, как все материалы и инструменты собраны.</WorkToMake.description>
+
+	<WorkToBuild.label>объём работ</WorkToBuild.label>
+	<WorkToBuild.description>Объём работ, необходимый для постройки этого здания, после того, как все материалы и инструменты собраны.</WorkToBuild.description>
 
 	<DeteriorationRate.label>скорость порчи</DeteriorationRate.label>
 	<DeteriorationRate.description>Скорость, с которой этот предмет портится, если оставлен снаружи (особенно под дождём).</DeteriorationRate.description>
