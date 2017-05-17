@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<Confirm>Подтвердить</Confirm>
@@ -6,8 +6,10 @@
 	<OK>OK</OK>
 
 	<!-- Game updated to new version -->
-	<GameUpdatedToNewVersionInitial>RimWorld был обновлён с версии {0} до версии {1}.\n\nИз-за этого сохранения и модификации, относящиеся к более старой версии, могут перестать работать. </GameUpdatedToNewVersionInitial>
-	<GameUpdatedToNewVersionNonSteam>Так как это DRM-free версия игры, вы можете установить её в две разные папки и играть как в старые, так и в новые версии.</GameUpdatedToNewVersionNonSteam>
+	<GameUpdatedToNewVersionInitial>RimWorld был обновлён с версии {0} до версии {1}.</GameUpdatedToNewVersionInitial>
+    <GameUpdatedToNewVersionSavesIncompatible>Из-за этого сохранения и модификации, относящиеся к более старой версии, могут перестать работать.</GameUpdatedToNewVersionSavesIncompatible>
+    <GameUpdatedToNewVersionSavesCompatible>Сохранения, относящиеся к более старой версии, совместимы с новой, но некоторые моды могут перестать работать.</GameUpdatedToNewVersionSavesCompatible>
+    <GameUpdatedToNewVersionNonSteam>Так как это DRM-free версия игры, вы можете установить её в две разные папки и играть как в старые, так и в новые версии.</GameUpdatedToNewVersionNonSteam>
 	<GameUpdatedToNewVersionSteam>Если вы желаете продолжить играть в старую версию, вы можете сделать это при помощи возможности Steam «Бета версии».\n\n  1. В библиотеке игр Steam нажмите правой кнопкой мыши на RimWorld.\n  2. Нажмите «Свойства».\n  3. Выберите вкладку «Бета версии».\n  4. В выпадающем списке выберите желаемую версию.\n\nРано или поздно старые версии будут убираться из этого списка, однако мы не хотим просто так прерывать ваши текущие игры.\n\nИмейте ввиду, что в том случае, если авторы модов также обновляют их для новой версии игры, то они могут переставать работать в старой. Чтобы предотвратить это, вам понадобится отключить функцию автоматического обновления.</GameUpdatedToNewVersionSteam>
 
 	<!-- Recovered from errors caused by mods -->
@@ -24,7 +26,9 @@
 	<ErrorWhileLoadingMap>Произошла ошибка при загрузке карты. Посмотрите лог для подробной информации.</ErrorWhileLoadingMap>
 
 	<!-- Unloaded mod with an assembly -->
-	<ModWithAssemblyWasUnloaded>Игра не может полностью выгрузить модифицированный код от деактивированных модов, поэтому их код может продолжать действовать.\n\nРекомендуется выйти и перезапустить игру, чтобы произошла чистая загрузка модов.</ModWithAssemblyWasUnloaded>
+	<ModsChanged>Список модов изменился. Игра перезапустится автоматически.</ModsChanged>
+	<FailedToRestart>Во время перезапуска игры что-то пошло не так. Игра не может полностью выгрузить модифицированный код от деактивированных модов, поэтому их код может продолжить работать.\n\nРекомендуется выйти и перезапустить игру, чтобы произошла чистая загрузка модов.</FailedToRestart>
+	<Restarting>Игра перезапускается</Restarting>
 
 	<!-- Missing Steam -->
 	<SteamClientMissing>Невозможно инициализировать Steam API. Возможные причины:\n\n-Steam не запущен.\n-Игра запущена из Steam при отсутствующем на месте steam_appid.txt.\n-Игра запущена с отличающимися от запуска Steam привилегиями (например, «от имени администратора»).\n\nВ большинстве случаев перезагрузка компьютера решит проблему.\n\nЭто Steam-версия игры, и так как для неё требуется Steam, игра сейчас будет закрыта.</SteamClientMissing>
@@ -151,6 +155,11 @@
 	<BillStoreMode_BestStockpile>Отнести на лучший склад</BillStoreMode_BestStockpile>
 	<BillStoreMode_NearestStockpileAnyPriority>Отнести на ближайший склад</BillStoreMode_NearestStockpileAnyPriority>
 
+	<PauseWhenSatisfied>Пауза по удовлетворении</PauseWhenSatisfied>
+	<UnpauseWhenYouHave>Продолжить при наличии</UnpauseWhenYouHave>
+	<Paused>Пауза</Paused>
+	<Unpause>Продолжить</Unpause>
+
 	<!-- Info card -->
 	<Damage>Урон</Damage>
 	<Accuracy>Точность</Accuracy>
@@ -213,6 +222,7 @@
 	<TraderHasNoMore>У торговца больше нет товара на продажу.</TraderHasNoMore>
 	<ColonyHasNoMore>Больше нечего продавать.</ColonyHasNoMore>
 	<TraderWillNotTrade>Торговец не желает торговать этим товаром.</TraderWillNotTrade>
+	<Negotiator>Переговорщик</Negotiator>
 	<NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием более здорового переговорщика.</NegotiatorTalkingImpaired>
 	<ConfirmTraderShortFunds>У торговца недостаточно серебра, чтобы завершить эту сделку. Всё равно продолжить?</ConfirmTraderShortFunds>
 	<SortBy>Подбор по</SortBy>
@@ -244,16 +254,21 @@
 	<CaravanMassUsageTooltip>Текущий переносимый и максимальный вес.\n\nПереносимый вес включает в себя вес как вещей поселенцев, так и их груза.\n\nВы не сможете отправить караван, если суммарный переносимый вес превышает максимальный.</CaravanMassUsageTooltip>
 	<MassUsageInfo>{0} / {1} кг</MassUsageInfo>
 	<DaysWorthOfFoodInfo>Еды хватит на {0} дней</DaysWorthOfFoodInfo>
+	<DaysWorthOfFoodInfoRot>Еды хватит на {0} дней, испортится через {1} дней</DaysWorthOfFoodInfoRot>
 	<InfiniteDaysWorthOfFoodInfo>Еда никогда не закончится</InfiniteDaysWorthOfFoodInfo>
 	<DaysWorthOfFoodTooltip>Приблизительное количество дней до момента, когда закончится еда.\n\nВ расчёт берётся еда как для людей, так и для животных. Рассматривается пессимистичный сценарий: именно через столько дней без еды останется как минимум один человек или животное.</DaysWorthOfFoodTooltip>
+	<DaysWorthOfFoodTooltip_CanEatLocalPlants>С учётом текущих времени года, температуры и типа местности, травоядные животные предположительно СМОГУТ питаться местными растениями. Хотя условия могут измениться в любой момент.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
+	<DaysWorthOfFoodTooltip_CantEatLocalPlants>С учётом текущих времени года, температуры и типа местности, травоядные животные предположительно НЕ СМОГУТ питаться местными растениями. Хотя условия могут измениться в любой момент.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
 	<DaysWorthOfFoodWarningDialog>Вашему каравану хватит еды только на {0} дней. Люди и животные очень скоро начнут голодать.\n\nВы уверены, что хотите отправить этот караван?</DaysWorthOfFoodWarningDialog>
 	<DaysWorthOfFoodWarningDialog_NoFood>Без еды люди и животные в караване очень скоро начнут голодать.\n\nВы уверены, что хотите отправить этот караван?</DaysWorthOfFoodWarningDialog_NoFood>
+	<CaravanFoodWillRotSoonWarningDialog>Значительная часть запасов еды скоро испортится.\n\nВы уверены, что хотите снарядить караван?</CaravanFoodWillRotSoonWarningDialog>
 	<NoExitDirectionForCaravanChosen>Нужно выбрать направление выхода с карты.</NoExitDirectionForCaravanChosen>
 	<NoCaravanExitDirectionAvailable>(нет доступных направлений выхода)</NoCaravanExitDirectionAvailable>
 	<ExitDirection>Направление выхода</ExitDirection>
 	<ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
 	<ItemWeightTip>Вес этого предмета.</ItemWeightTip>
 	<MarketValueTip>Рыночная цена</MarketValueTip>
+	<DaysUntilRotTip>Число дней до момента, когда этот продукт начнёт портиться, с учётом средней температуры в этой области.</DaysUntilRotTip>
 	<MassCapacity>Максимальный вес</MassCapacity>
 	<Mass>Вес</Mass>
 	<EquipmentAndApparelMass>Вес одежды и снаряжения</EquipmentAndApparelMass>
@@ -263,6 +278,8 @@
 	<ColonistsSection>Поселенцы</ColonistsSection>
 	<PrisonersSection>Заключённые</PrisonersSection>
 	<AnimalsSection>Животные</AnimalsSection>
+	<EstimatedTimeToDestinationButton>Время пути до места назн.</EstimatedTimeToDestinationButton>
+
 
 	<!-- Split caravan -->
 	<SplitCaravan>Разделить караван</SplitCaravan>
@@ -338,11 +355,22 @@
 	<DrugUsageTipForJoy>Для настроения\n\nПрименять этот наркотик для улучшения настроения и социальных целей.\n\nДаже если этот параметр отключен, некоторые поселенцы с определёнными чертами или во время нервных срывов могут всё равно попытаться использовать наркотик.</DrugUsageTipForJoy>
 	<DrugUsageTipScheduled>По расписанию\n\nИспользовать этот наркотик по определённому расписанию, когда соблюдены указанные условия.</DrugUsageTipScheduled>
 
+	<!-- Medical settings -->
+	<MedGroupDefaults>Умолчания</MedGroupDefaults>
+	<MedGroupColonist>Поселенец</MedGroupColonist>
+	<MedGroupImprisonedColonist>Заключённый поселенец</MedGroupImprisonedColonist>
+	<MedGroupColonyAnimal>Животное поселения</MedGroupColonyAnimal>
+	<MedGroupNeutralAnimal>Нейтральное животное</MedGroupNeutralAnimal>
+	<MedGroupNeutralFaction>Нейтральная фракция</MedGroupNeutralFaction>
+	<MedGroupHostileFaction>Враждебная фракция</MedGroupHostileFaction>
+
 	<!-- Growing -->
 	<NoGrowerCanPlant>{0} требует уровня {1} садоводства для посадки.\n\nНикто из ваших находящихся в сознании садоводов не обладает достаточным навыком, поэтому данное растение не будет высаживаться.</NoGrowerCanPlant>
 
 	<!-- Abandon home -->
 	<ConfirmAbandonHomeWithColonyPawns>Часть поселенцев или животных остались в поселении. Вы уверены, что хотите бросить их?\n\nОстанутся эти люди и животные:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+	<ConfirmAbandonHomeNegativeThoughts>Если вы бросите {0}, эти люди будут расстроены следующими мыслями:</ConfirmAbandonHomeNegativeThoughts>
+	<ConfirmAbandonHomeNegativeThoughts_Everyone>Все:</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
 	<!-- Move caravan and leave prisoners and animals behind -->
 	<ConfirmLeavePrisonersOrAnimalsBehind>В этом месте вы оставили кого-то из заключённых или животных. В данный момент ваш караван — единственная группа, к которой они могут присоединиться.\n\nЕсли вы двинетесь в путь, они не смогут покинуть это место, пока вы не вернётесь. Однако заключённые могут сбежать.\n\nЕсли вы подождёте, заключённые и животные присоединятся к каравану при первой возможности.\n\nВы уверены, что хотите двинуться в путь?</ConfirmLeavePrisonersOrAnimalsBehind>
