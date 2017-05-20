@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<CallOnRadio>Связаться с {0}</CallOnRadio>
@@ -9,12 +9,14 @@
 	<CannotUseReserved>Невозможно использовать: занято</CannotUseReserved>
 	<CannotUseFull>Невозможно использовать: заполнено</CannotUseFull>
 	<LeaderUnavailable>лидер {0} недоступен</LeaderUnavailable>
+	<LeaderUnavailableNoLeader>лидер недоступен</LeaderUnavailableNoLeader>
 
 	<FireAt>Стрелять в {0}</FireAt>
 
 	<OutOfRange>вне зоны поражения</OutOfRange>
 	<CannotHitTarget>невозможно попасть в цель</CannotHitTarget>
-	<IsIncapableOfViolenceLower>{0} не способен на насилие</IsIncapableOfViolenceLower>
+	<IsIncapableOfViolenceLower>{0} не способен(на) на насилие</IsIncapableOfViolenceLower>
+	<IncapableOfViolenceLower>не способен(на) на насилие</IncapableOfViolenceLower>
 	<IsNotDraftedLower>{0} не призван</IsNotDraftedLower>
 	<CannotOrderNonControlledLower>нельзя отдавать приказы неподконтрольной единице</CannotOrderNonControlledLower>
 
@@ -38,10 +40,13 @@
 	<AnimalInteractedTooRecently>животное обучалось совсем недавно</AnimalInteractedTooRecently>
 	<NoUsableFood>нет применимой еды</NoUsableFood>
 	<NoFood>нет еды</NoFood>
-	<AnimalsSkillTooLow>Животное недостаточно умно</AnimalsSkillTooLow>
+	<AnimalsSkillTooLow>низкий навык Животноводства</AnimalsSkillTooLow>
 	<NoComponentsToRepair>нужны компоненты</NoComponentsToRepair>
 	<NoFuelToRefuel>нужно {0}</NoFuelToRefuel>
 	<NoWort>нужно сусло</NoWort>
+	<TheOnlyAvailableFoodIsInStorageOfHigherPriority>доступная еда — на складе с более высоким приоритетом</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+	<NoFoodToFillHopper>нет подходящей еды</NoFoodToFillHopper>
+	<SelfTendDisabled>самолечение недоступно</SelfTendDisabled>
 
 	<ConsumeThing>Употребить {0}</ConsumeThing>
 
@@ -83,19 +88,19 @@
 	<CannotWear>Невозможно надеть {0}</CannotWear>
 	<CannotWearBecauseOfMissingBodyParts>отсутствуют части тела</CannotWearBecauseOfMissingBodyParts>
 
-	<CannotPickUp>Невозможно подобрать {0}</CannotPickUp>
-	<CannotPickUpAll>Невозможно подобрать {0} (всё)</CannotPickUpAll>
-	<PickUp>Подобрать {0}</PickUp>
-	<PickUpAll>Подобрать {0} (всё)</PickUpAll>
-	<PickUpSome>Подобрать {0}...</PickUpSome>
-	<PickUpCount>Подобрать {0} ({{0}} шт)</PickUpCount>
+	<CannotPickUp>Невозможно взять {0}</CannotPickUp>
+	<CannotPickUpAll>Невозможно взять {0} (всё)</CannotPickUpAll>
+	<PickUp>Взять {0}</PickUp>
+	<PickUpAll>Взять {0} (всё)</PickUpAll>
+	<PickUpSome>Взять {0}...</PickUpSome>
+	<PickUpCount>Взять {0} ({{0}} шт)</PickUpCount>
 
-	<CannotGiveToPackAnimal>Невозможно дать {0} вьючному животному</CannotGiveToPackAnimal>
-	<CannotGiveToPackAnimalAll>Невозможно дать {0} (всё) вьючному животному</CannotGiveToPackAnimalAll>
-	<GiveToPackAnimal>Дать {0} вьючному животному</GiveToPackAnimal>
-	<GiveToPackAnimalAll>Дать {0} (всё) вьючному животному</GiveToPackAnimalAll>
-	<GiveToPackAnimalSome>Дать {0} вьючному животному...</GiveToPackAnimalSome>
-	<GiveToPackAnimalCount>Взять {0} ({{0}} шт)</GiveToPackAnimalCount>
+	<CannotGiveToPackAnimal>Невозможно положить {0} во вьюк</CannotGiveToPackAnimal>
+	<CannotGiveToPackAnimalAll>Невозможно положить {0} (всё) во вьюк</CannotGiveToPackAnimalAll>
+	<GiveToPackAnimal>Положить {0} во вьюк</GiveToPackAnimal>
+	<GiveToPackAnimalAll>Положить {0} (всё) во вьюк</GiveToPackAnimalAll>
+	<GiveToPackAnimalSome>Положить {0} во вьюк...</GiveToPackAnimalSome>
+	<GiveToPackAnimalCount>Положить {0} ({{0}} шт) во вьюк</GiveToPackAnimalCount>
 
 	<CannotCarryToExit>Невозможно уйти, неся {0}</CannotCarryToExit>
 	<CarryToExit>Взять {0} и уйти</CarryToExit>
@@ -115,8 +120,10 @@
 	<CannotTrade>Не может торговать</CannotTrade>
 
 	<EnterMap>Войти в {0}</EnterMap>
-	<VisitFactionBase>Зайти в {0}</VisitFactionBase>
-	<AttackFactionBase>Атаковать {0}</AttackFactionBase>
+	<VisitSettlement>Посетить {0}</VisitSettlement>
+	<VisitSite>Посетить {0}</VisitSite>
+	<AttackSite>Напасть на {0}</AttackSite>
+	<AttackSettlement>Напасть на {0}</AttackSettlement>
 
 	<!-- Specific thing interactions -->
 	<EnterCryptosleepCasket>Войти в контейнер криптосна</EnterCryptosleepCasket>
@@ -147,5 +154,11 @@
 
 	<DropAtEdge>Сбросить с краю</DropAtEdge>
 	<DropInCenter>Сбросить в центр</DropInCenter>
+
+	<VomitingLower>блюёт</VomitingLower>
+	<NotInterruptibleLower>нельзя прервать</NotInterruptibleLower>
+
+	<AddWaypoint>Добавить точку маршрута</AddWaypoint>
+	<RemoveWaypoint>Удалить точку маршрута</RemoveWaypoint>
 
 </LanguageData>
