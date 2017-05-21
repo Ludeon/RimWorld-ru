@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<!--=========== Главное меню ==========-->
@@ -44,6 +44,7 @@
 	<WorldSeed>Зерно</WorldSeed>
 	<RandomizeSeed>Случайное зерно</RandomizeSeed>
 	<PlanetCoverageTip>Диаметр планеты неизменный, но поскольку он гораздо больше, чем требуется для игры, поверхность планеты генерируется не целиком. В противном случае, это бы заняло длительное время. В этом поле указывается размер части поверхности (в процентах от общей площади планеты), которую вы бы хотели сгенерировать.</PlanetCoverageTip>
+	<WorldFactionsTab>Фракции</WorldFactionsTab>
 
 	<!--=========== Выбор мира ===================-->
 
@@ -124,8 +125,13 @@
 	<BiomeNotImplemented>Такой биом не найден.</BiomeNotImplemented>
 	<CannotLandImpassableMountains>Вы не можете приземлиться в непроходимых горах.</CannotLandImpassableMountains>
 	<BaseAlreadyThere>Фракция {0} уже разместила там базу.</BaseAlreadyThere>
+	<YourBaseAlreadyThere>Вы уже разместили там базу.</YourBaseAlreadyThere>
+	<TileOccupied>Это место занято.</TileOccupied>
+	<FactionBaseAdjacent>Поселения нельзя располагать вплотную друг к другу.</FactionBaseAdjacent>
 	<Biome>Биом</Biome>
 	<Terrain>Поверхность</Terrain>
+	<Road>Дорога</Road>
+	<River>Река</River>
 	<Elevation>Высота</Elevation>
 	<Fertility>Плодородность</Fertility>
 	<AvgTemp>Средняя температура</AvgTemp>
@@ -142,6 +148,7 @@
 	<MovementTimeNow>Текущее время прохождения</MovementTimeNow>
 	<MovementTimeSummer>Время прохождения летом</MovementTimeSummer>
 	<MovementTimeWinter>Время прохождения зимой</MovementTimeWinter>
+	<AnimalsCanGrazeNow>Животные могут пастить</AnimalsCanGrazeNow>
 
 	<!--=========== Выбор персонажей ==========-->
 
@@ -179,8 +186,9 @@
 
 	<!--============ Progress bar==============-->
 
-	<GeneratingWorld>Создание мира...</GeneratingWorld>
-	<GeneratingMap>Создание карты...</GeneratingMap>
+	<GeneratingWorld>Создание мира</GeneratingWorld>
+	<GeneratingPlanet>Создание планеты</GeneratingPlanet>
+	<GeneratingMap>Создание карты</GeneratingMap>
 	<GeneratingMapForNewEncounter>Создание карты для боя</GeneratingMapForNewEncounter>
 
 </LanguageData>
