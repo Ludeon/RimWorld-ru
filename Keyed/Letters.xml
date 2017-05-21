@@ -1,7 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<JumpToLocation>Перейти к месту</JumpToLocation>
+	<PostponeLetter>Отложить</PostponeLetter>
+	<RejectLetter>Отклонить</RejectLetter>
 
 	<LetterLabelFirstSummerWarning>Лето</LetterLabelFirstSummerWarning>
 	<FirstSummerWarning>Началось лето! Но зима не дремлет.\n\nИмейте в виду, что ваши посевы не будут расти в зимние холода, а потому убедитесь, что ваших запасов еды хватит на несколько месяцев, пока вы ещё можете это исправить.\n\nНе забудьте построить помещение с охлаждением, чтобы ваша еда не испортилась.\n\nИ постарайтесь купить, украсть или сделать несколько пуховиков, иначе с наступлением зимы вы замёрзнете, едва высунувшись наружу.</FirstSummerWarning>
@@ -62,7 +64,7 @@
 	<LetterLeaderChanged>{0} более не {3} фракции {1}.\n\nЕго сменил новый {3}, {2}.</LetterLeaderChanged>
 
 	<MentalBreakLetterLabel>Нервный срыв</MentalBreakLetterLabel>
-	<MentalBreakReason>Последней каплей было: {0}.</MentalBreakReason>
+	<FinalStraw>Последней каплей было: {0}.</FinalStraw>
 
 	<!-- Related pawns -->
 	<LetterLabelNoticedRelatedPawns>Знакомые</LetterLabelNoticedRelatedPawns>
@@ -70,7 +72,7 @@
 	<LetterRelatedPawnsRaidFriendly>В приближающейся дружественной группе {0} есть люди, которых знают ваши поселенцы или заключённые:</LetterRelatedPawnsRaidFriendly>
 	<LetterRelatedPawnsNeutralGroup>В приближающейся группе есть люди, которых знают ваши поселенцы или заключённые:</LetterRelatedPawnsNeutralGroup>
 	<LetterRelatedPawnsTradeShip>Орбитальный торговец продаёт людей, которых знают ваши поселенцы или заключённые:</LetterRelatedPawnsTradeShip>
-	<LetterRelatedPawnsTradingWithOtherCaravan>База этой фракции продаёт людей, среди которых есть знакомые ваших поселенцев или заключенных:</LetterRelatedPawnsTradingWithOtherCaravan>
+	<LetterRelatedPawnsTradingWithSettlement>Это поселение продаёт людей, среди которых есть знакомые ваших поселенцев или заключенных:</LetterRelatedPawnsTradingWithSettlement>
 	<LetterRelatedPawnsTradingWithFactionBase>Этот караван продаёт людей, среди которых есть знакомые ваших поселенцев или заключенных:</LetterRelatedPawnsTradingWithFactionBase>
 
 	<RelationshipAppendedLetterSuffix>(знакомые)</RelationshipAppendedLetterSuffix>
@@ -143,5 +145,13 @@
 	<!-- Pawns lost due to map countdown -->
 	<LetterLabelPawnsLostDueToMapCountdown>Про кого-то забыли</LetterLabelPawnsLostDueToMapCountdown>
 	<LetterPawnsLostDueToMapCountdown>Кто-то из ваших животных или заключённых остался в этой глуши:\n\n{0}</LetterPawnsLostDueToMapCountdown>
+
+	<!-- Quest completed -->
+	<LetterLabelDefeatAllEnemiesQuestCompleted>Задание выполнено</LetterLabelDefeatAllEnemiesQuestCompleted>
+	<LetterDefeatAllEnemiesQuestCompleted>Поселение противника разгромлено!\n\nВы получили награду от {0}. Отношения с этой фракцией улучшились на {1}.</LetterDefeatAllEnemiesQuestCompleted>
+
+	<!-- Found lump of precious resources -->
+	<LetterLabelFoundPreciousLump>Найдены драгоценные минералы</LetterLabelFoundPreciousLump>
+	<LetterFoundPreciousLump>Ваши сканеры дальнего действия обнаружили высокую концентрацию ценных минералов в области неподалёку.\n\nК сожалению, невозможно определить, кто или что может их охранять.</LetterFoundPreciousLump>
 
 </LanguageData>
