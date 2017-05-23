@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<!-- Forbid -->
@@ -11,7 +11,7 @@
 	<CommandTogglePowerDesc>Включить или отключить питание.</CommandTogglePowerDesc>
 
 	<CommandDesignateTogglePowerLabel>Вкл./выкл.</CommandDesignateTogglePowerLabel>
-	<CommandDesignateTogglePowerDesc>Обозначить для включения или отключения питания. Вскоре поселенец подойдёт и переключит выключатель.</CommandDesignateTogglePowerDesc>
+	<CommandDesignateTogglePowerDesc>Дать команду включения или отключения питания. Вскоре поселенец подойдёт и переключит выключатель.</CommandDesignateTogglePowerDesc>
 
 	<CommandTryReconnectLabel>Переподключить</CommandTryReconnectLabel>
 	<CommandTryReconnectDesc>Подключить устройство к другому источнику энергии в радиусе подключения. Это удобно для отключения от сети без энергии, если рядом есть сеть с энергией.</CommandTryReconnectDesc>
@@ -27,8 +27,8 @@
 	<CommandToggleDraftDesc>Переключение в боевой режим.\n\nВ этом режиме поселенцы получают приказы и сражаются. Они не будут работать, есть или отдыхать.</CommandToggleDraftDesc>
 	<IsIncapped>{0} не может ходить.</IsIncapped>
 
-	<CommandAllowFiringLabel>Разрешить стрельбу</CommandAllowFiringLabel>
-	<CommandAllowFiringDesc>Разрешить или запретить стрельбу.\n\nЕсли стрельба запрещена, то персонаж не будет вести огонь по удалённым целям без команды. Не влияет на рукопашный бой.</CommandAllowFiringDesc>
+	<CommandFireAtWillLabel>Стрелять по усмотрению</CommandFireAtWillLabel>
+	<CommandFireAtWillDesc>Разрешить или запретить стрельбу по усмотрению персонажа.\n\nЕсли стрельба запрещена, то персонаж не будет вести огонь по удалённым целям без команды. Не влияет на рукопашный бой.</CommandFireAtWillDesc>
 
 	<CommandClearPrioritizedWork>Очистить назначенные действия</CommandClearPrioritizedWork>
 	<CommandClearPrioritizedWorkDesc>Сбросить любые назначенные вами действия. Поселенец продолжит работать согласно своим приоритетам.</CommandClearPrioritizedWorkDesc>
@@ -170,6 +170,8 @@
 	<CommandSettleFailOtherWorldObjectsHere>Чтобы основать поселение, в этой местности не должно быть никого, кроме вашего каравана.</CommandSettleFailOtherWorldObjectsHere>
 	<CommandSettleFailAlreadyHaveBase>У вашей фракции может быть только одна база.</CommandSettleFailAlreadyHaveBase>
 	<CommandSettleFailReachedMaximumNumberOfBases>Достигнуто предельное число поселений.</CommandSettleFailReachedMaximumNumberOfBases>
+	<CommandSettleFailNoColonists>Здесь нет никого, кто мог бы основать поселение.</CommandSettleFailNoColonists>
+	<CommandSettleFailEnemies>Рядом враги.</CommandSettleFailEnemies>
 
 	<!-- Abandon home -->
 	<CommandAbandonHome>Покинуть поселение</CommandAbandonHome>
@@ -188,6 +190,12 @@
 	<CommandTrade>Торговать</CommandTrade>
 	<CommandTradeDesc>Торговать с этой фракцией.</CommandTradeDesc>
 	<CommandTradeFailNoNegotiator>Нет ни одного человека, способного вести переговоры и торговать, не сломленного и в сознании.</CommandTradeFailNoNegotiator>
+
+	<!-- Fulfill request -->
+	<CommandFulfillTradeOffer>Заключить сделку</CommandFulfillTradeOffer>
+	<CommandFulfillTradeOfferDesc>Передать запрошенный товар поселению и потребовать обещанную плату.</CommandFulfillTradeOfferDesc>
+	<CommandFulfillTradeOfferFailInsufficient>У вашего каравана должно быть {0}, чтобы заключить сделку.</CommandFulfillTradeOfferFailInsufficient>
+	<CommandFulfillTradeOfferConfirm>Предложить {0} за {1}?</CommandFulfillTradeOfferConfirm>
 
 	<!-- Take off -->
 	<CommandTakeOff>Запустить</CommandTakeOff>
@@ -226,5 +234,13 @@
 	<!-- Select next transporter -->
 	<CommandSelectNextTransporter>Предыдущая капсула</CommandSelectNextTransporter>
 	<CommandSelectNextTransporterDesc>Выделить предыдущую капсулу в этой запускаемой группе.</CommandSelectNextTransporterDesc>
+
+	<!-- Vent -->
+	<CommandDesignateOpenCloseVentLabel>Откр./закр.</CommandDesignateOpenCloseVentLabel>
+	<CommandDesignateOpenCloseVentDesc>Дать команду на открытие или закрытие вентиляции. Вскоре поселенец подойдёт и переключит режим циркуляции воздуха.</CommandDesignateOpenCloseVentDesc>
+
+	<!-- Remove waypoint -->
+	<CommandRemoveWaypointLabel>Удалить</CommandRemoveWaypointLabel>
+	<CommandRemoveWaypointDesc>Удалить точку маршрута.</CommandRemoveWaypointDesc>
 
 </LanguageData>
