@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<!--============================== Sculptures (Buildings_Art)==============================-->
@@ -118,10 +118,10 @@
 
 	<!--============================== Storage ==============================-->
 
-	<EquipmentRack_Blueprint.label>стойка снаряжения (проект)</EquipmentRack_Blueprint.label>
-	<EquipmentRack_Frame.label>стойка снаряжения (строится)</EquipmentRack_Frame.label>
-	<EquipmentRack_Frame.description>Стойка для хранения различного снаряжения.</EquipmentRack_Frame.description>
-	<EquipmentRack_Blueprint_Install.label>стойка снаряжения (проект)</EquipmentRack_Blueprint_Install.label>
+	<Shelf_Blueprint.label>стойка снаряжения (проект)</Shelf_Blueprint.label>
+	<Shelf_Frame.label>стойка снаряжения (строится)</Shelf_Frame.label>
+	<Shelf_Frame.description>Стойка для хранения различного снаряжения.</Shelf_Frame.description>
+	<Shelf_Blueprint_Install.label>стойка снаряжения (проект)</Shelf_Blueprint_Install.label>
 
 	<!--============================== From Buldings_Joy ==============================-->
 
@@ -157,6 +157,7 @@
 	<!--============================== From Buldings_Misc ==============================-->
 
 	<OrbitalTradeBeacon_Blueprint.label>торговый маяк (проект)</OrbitalTradeBeacon_Blueprint.label>
+	<OrbitalTradeBeacon_Blueprint_Install.label>торговый маяк (проект)</OrbitalTradeBeacon_Blueprint_Install.label>
 	<OrbitalTradeBeacon_Frame.label>торговый маяк (строится)</OrbitalTradeBeacon_Frame.label>
 	<OrbitalTradeBeacon_Frame.description>Нужен для орбитальной торговли. Вы можете продавать только те вещи, которые находятся в радиусе действия маяка. Может быть установлен внутри помещения.</OrbitalTradeBeacon_Frame.description>
 
@@ -178,6 +179,10 @@
 	<GroundPenetratingScanner_Blueprint.label>глубинный сканер (проект)</GroundPenetratingScanner_Blueprint.label>
 	<GroundPenetratingScanner_Frame.label>глубинный сканер (строится)</GroundPenetratingScanner_Frame.label>
 	<GroundPenetratingScanner_Frame.description>Направленный вниз глубинный радар, совмещённый с сонаром и датчиками магнитного поля. Позволяет находить (но не распознавать) полезные ископаемые, находящиеся глубоко под землёй. Требует огромного количества энергии.</GroundPenetratingScanner_Frame.description>
+
+	<LongRangeMineralScanner_Blueprint.label>сканер минералов дальнего действия (проект)</LongRangeMineralScanner_Blueprint.label>
+	<LongRangeMineralScanner_Frame.label>сканер минералов дальнего действия (строится)</LongRangeMineralScanner_Frame.label>
+	<LongRangeMineralScanner_Frame.description>Автоматически обнаруживает ценные минералы, например золото или нефрит, в близлежащих областях (но не в той, в которой сканер построен). Скопления могут быть обнаружены, в среднем, раз в 30 дней в радиусе 30 клеток. Установка дополнительных сканеров по соседству практически не влияет на эффективность поиска.</LongRangeMineralScanner_Frame.description>
 
 	<PodLauncher_Blueprint.label>пусковая установка для капсул (проект)</PodLauncher_Blueprint.label>
 	<PodLauncher_Frame.label>пусковая установка для капсул (строится)</PodLauncher_Frame.label>
@@ -227,6 +232,10 @@
 	<PartySpot_Blueprint.label>место проведения вечеринок (проект)</PartySpot_Blueprint.label>
 	<PartySpot_Frame.label>место проведения вечеринок (строится)</PartySpot_Frame.label>
 	<PartySpot_Frame.description>Назначает место, рядом с которым будут проходить вечеринки.</PartySpot_Frame.description>
+
+	<CaravanPackingSpot_Blueprint.label>место сбора каравана (проект)</CaravanPackingSpot_Blueprint.label>
+	<CaravanPackingSpot_Frame.label>место сбора каравана (строится)</CaravanPackingSpot_Frame.label>
+	<CaravanPackingSpot_Frame.description>Назначает место, где будут снаряжаться караваны.</CaravanPackingSpot_Frame.description>
 
 	<!--============================== From Buldings_Natural ==============================-->
 
@@ -475,7 +484,7 @@
 
 	<Vent_Blueprint.label>вентиляция (проект)</Vent_Blueprint.label>
 	<Vent_Frame.label>вентиляция (строится)</Vent_Frame.label>
-	<Vent_Frame.description>Обычные вентиляционные трубы, которые позволяют температуре циркулировать между двумя соседними помещениями.</Vent_Frame.description>
+	<Vent_Frame.description>Обычные вентиляционные трубы, которые позволяют воздуху циркулировать между двумя соседними помещениями.</Vent_Frame.description>
 
 	<!--====================== From TerrainDef->Terrain_Floors ==============================-->
 
@@ -535,22 +544,43 @@
 
 	<TileSandstone_Blueprint.label>плитка из песчаника (проект)</TileSandstone_Blueprint.label>
 	<TileSandstone_Frame.label>плитка из песчаника (строится)</TileSandstone_Frame.label>
-	<TileSandstone_Frame.description>Твёрдые каменные плиты, выглядят как в средневековом замке</TileSandstone_Frame.description>
+	<TileSandstone_Frame.description>Ведутся отделочные работы.</TileSandstone_Frame.description>
 
 	<TileGranite_Blueprint.label>гранитная плитка (проект)</TileGranite_Blueprint.label>
 	<TileGranite_Frame.label>гранитная плитка (строится)</TileGranite_Frame.label>
-	<TileGranite_Frame.description>Твёрдые каменные плиты, выглядят как в средневековом замке.</TileGranite_Frame.description>
+	<TileGranite_Frame.description>Ведутся отделочные работы.</TileGranite_Frame.description>
 
 	<TileLimestone_Blueprint.label>плитка из известняка (проект)</TileLimestone_Blueprint.label>
 	<TileLimestone_Frame.label>плитка из известняка (строится)</TileLimestone_Frame.label>
-	<TileLimestone_Frame.description>Твёрдые каменные плиты, выглядят как в средневековом замке.</TileLimestone_Frame.description>
+	<TileLimestone_Frame.description>Ведутся отделочные работы.</TileLimestone_Frame.description>
 
 	<TileSlate_Blueprint.label>плитка из сланца (проект)</TileSlate_Blueprint.label>
 	<TileSlate_Frame.label>плитка из сланца (строится)</TileSlate_Frame.label>
-	<TileSlate_Frame.description>Твёрдые каменные плиты, выглядят как в средневековом замке.</TileSlate_Frame.description>
+	<TileSlate_Frame.description>Ведутся отделочные работы.</TileSlate_Frame.description>
 
 	<TileMarble_Blueprint.label>мраморная плитка (проект)</TileMarble_Blueprint.label>
 	<TileMarble_Frame.label>мраморная плитка (строится)</TileMarble_Frame.label>
-	<TileMarble_Frame.description>Твёрдые каменные плиты, выглядят как в средневековом замке.</TileMarble_Frame.description>
+	<TileMarble_Frame.description>Ведутся отделочные работы.</TileMarble_Frame.description>
+
+
+	<FlagstoneSandstone_Blueprint.label>грубая плитка из песчаника (проект)</FlagstoneSandstone_Blueprint.label>
+	<FlagstoneSandstone_Frame.label>грубая плитка из песчаника (строится)</FlagstoneSandstone_Frame.label>
+	<FlagstoneSandstone_Frame.description>Ведутся отделочные работы.</FlagstoneSandstone_Frame.description>
+
+	<FlagstoneGranite_Blueprint.label>грубая гранитная плитка (проект)</FlagstoneGranite_Blueprint.label>
+	<FlagstoneGranite_Frame.label>грубая гранитная плитка (строится)</FlagstoneGranite_Frame.label>
+	<FlagstoneGranite_Frame.description>Ведутся отделочные работы.</FlagstoneGranite_Frame.description>
+
+	<FlagstoneLimestone_Blueprint.label>грубая плитка из известняка (проект)</FlagstoneLimestone_Blueprint.label>
+	<FlagstoneLimestone_Frame.label>грубая плитка из известняка (строится)</FlagstoneLimestone_Frame.label>
+	<FlagstoneLimestone_Frame.description>Ведутся отделочные работы.</FlagstoneLimestone_Frame.description>
+
+	<FlagstoneSlate_Blueprint.label>грубая плитка из сланца (проект)</FlagstoneSlate_Blueprint.label>
+	<FlagstoneSlate_Frame.label>грубая плитка из сланца (строится)</FlagstoneSlate_Frame.label>
+	<FlagstoneSlate_Frame.description>Ведутся отделочные работы.</FlagstoneSlate_Frame.description>
+
+	<FlagstoneMarble_Blueprint.label>грубая мраморная плитка (проект)</FlagstoneMarble_Blueprint.label>
+	<FlagstoneMarble_Frame.label>грубая мраморная плитка (строится)</FlagstoneMarble_Frame.label>
+	<FlagstoneMarble_Frame.description>Ведутся отделочные работы.</FlagstoneMarble_Frame.description>
 
 </LanguageData>
