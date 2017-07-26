@@ -1,7 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<JumpToLocation>Перейти к месту</JumpToLocation>
+	<PostponeLetter>Отложить</PostponeLetter>
+	<RejectLetter>Отклонить</RejectLetter>
 
 	<LetterLabelFirstSummerWarning>Лето</LetterLabelFirstSummerWarning>
 	<FirstSummerWarning>Началось лето! Но зима не дремлет.\n\nИмейте в виду, что ваши посевы не будут расти в зимние холода, а потому убедитесь, что ваших запасов еды хватит на несколько месяцев, пока вы ещё можете это исправить.\n\nНе забудьте построить помещение с охлаждением, чтобы ваша еда не испортилась.\n\nИ постарайтесь купить, украсть или сделать несколько пуховиков, иначе с наступлением зимы вы замёрзнете, едва высунувшись наружу.</FirstSummerWarning>
@@ -33,8 +35,8 @@
 	<BirthdayBiologicalAgeInjuries>{0} достиг(ла) биологического возраста {1}.\n\nК сожалению, из-за своего возраста {0} заработал(а) следующие возрастные болезни:\n{2}</BirthdayBiologicalAgeInjuries>
 
 	<LetterLabelNewDisease>Инфекция</LetterLabelNewDisease>
-	<NewDisease>У {0} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {0} требуется надлежащее лечение и постельный режим.</NewDisease>
-	<NewPartDisease>У {0} обнаружена инфекция в {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {0} требуется надлежащее лечение и постельный режим.</NewPartDisease>
+	<NewDisease>У {0} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {2} требуется надлежащее лечение и постельный режим.</NewDisease>
+	<NewPartDisease>У {0} {3}. Место обнаружения инфекции — HIS {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {2} требуется надлежащее лечение и постельный режим.</NewPartDisease>
 
 	<LetterLabelAncientShrineWarning>Древняя опасность</LetterLabelAncientShrineWarning>
 	<AncientShrineWarning>Проходя мимо древнего строения, {0} предчувствует недоброе. HECAP не уверен(а) почему, но HE чувствует, что эти пыльные строения несут в себе большую опасность.</AncientShrineWarning>
@@ -62,7 +64,7 @@
 	<LetterLeaderChanged>{0} более не {3} фракции {1}.\n\nЕго сменил новый {3}, {2}.</LetterLeaderChanged>
 
 	<MentalBreakLetterLabel>Нервный срыв</MentalBreakLetterLabel>
-	<MentalBreakReason>Последней каплей было: {0}.</MentalBreakReason>
+	<FinalStraw>Последней каплей было: {0}.</FinalStraw>
 
 	<!-- Related pawns -->
 	<LetterLabelNoticedRelatedPawns>Знакомые</LetterLabelNoticedRelatedPawns>
@@ -70,8 +72,8 @@
 	<LetterRelatedPawnsRaidFriendly>В приближающейся дружественной группе {0} есть люди, которых знают ваши поселенцы или заключённые:</LetterRelatedPawnsRaidFriendly>
 	<LetterRelatedPawnsNeutralGroup>В приближающейся группе есть люди, которых знают ваши поселенцы или заключённые:</LetterRelatedPawnsNeutralGroup>
 	<LetterRelatedPawnsTradeShip>Орбитальный торговец продаёт людей, которых знают ваши поселенцы или заключённые:</LetterRelatedPawnsTradeShip>
-	<LetterRelatedPawnsTradingWithOtherCaravan>База этой фракции продаёт людей, среди которых есть знакомые ваших поселенцев или заключенных:</LetterRelatedPawnsTradingWithOtherCaravan>
-	<LetterRelatedPawnsTradingWithFactionBase>Этот караван продаёт людей, среди которых есть знакомые ваших поселенцев или заключенных:</LetterRelatedPawnsTradingWithFactionBase>
+	<LetterRelatedPawnsTradingWithSettlement>Это поселение продаёт людей, среди которых есть знакомые ваших поселенцев или заключенных:</LetterRelatedPawnsTradingWithSettlement>
+	<LetterRelatedPawnsTradingWithOtherCaravan>Этот караван продаёт людей, среди которых есть знакомые ваших поселенцев или заключенных:</LetterRelatedPawnsTradingWithOtherCaravan>
 
 	<RelationshipAppendedLetterSuffix>(знакомые)</RelationshipAppendedLetterSuffix>
 	<RelationshipAppendedLetterTextColonist>NAME знаком с вашим поселенцем. HECAP {1} {0}.</RelationshipAppendedLetterTextColonist>
@@ -86,7 +88,7 @@
 	<LetterLabelBreakup>Разрыв</LetterLabelBreakup>
 	<LetterLabelAcceptedProposal>Скоро свадьба!</LetterLabelAcceptedProposal>
 	<LetterLabelRejectedProposal>Предложение отклонено</LetterLabelRejectedProposal>
-	<LetterAcceptedProposal>{1} принял(а) предложение {0}!\n\nСкоро, в течение нескольких дней или сезонов, они сыграют свадьбу и пригласят на неё всех поселенцев. При желании вы можете назначить специальное место для проведения свадебных церемоний.</LetterAcceptedProposal>
+	<LetterAcceptedProposal>{1} принял(а) предложение {0}!\n\nСкоро, в течение нескольких дней или кварталов, они сыграют свадьбу и пригласят на неё всех поселенцев. При желании вы можете назначить специальное место для проведения свадебных церемоний.</LetterAcceptedProposal>
 	<LetterRejectedProposal>{1} отклонил(а) предложение {0} о свадьбе. {0} точно не обрадуется.</LetterRejectedProposal>
 
 	<!-- Generalized letter labels -->
@@ -143,5 +145,13 @@
 	<!-- Pawns lost due to map countdown -->
 	<LetterLabelPawnsLostDueToMapCountdown>Про кого-то забыли</LetterLabelPawnsLostDueToMapCountdown>
 	<LetterPawnsLostDueToMapCountdown>Кто-то из ваших животных или заключённых остался в этой глуши:\n\n{0}</LetterPawnsLostDueToMapCountdown>
+
+	<!-- Quest completed -->
+	<LetterLabelDefeatAllEnemiesQuestCompleted>Задание выполнено</LetterLabelDefeatAllEnemiesQuestCompleted>
+	<LetterDefeatAllEnemiesQuestCompleted>Поселение противника разгромлено!\n\nВы получили награду от {0}. Отношения с этой фракцией улучшились на {1}.</LetterDefeatAllEnemiesQuestCompleted>
+
+	<!-- Found lump of precious resources -->
+	<LetterLabelFoundPreciousLump>Найдены драгоценные минералы</LetterLabelFoundPreciousLump>
+	<LetterFoundPreciousLump>Ваши сканеры дальнего действия обнаружили высокую концентрацию ценных минералов в области неподалёку.\n\nК сожалению, невозможно определить, кто или что может их охранять.</LetterFoundPreciousLump>
 
 </LanguageData>

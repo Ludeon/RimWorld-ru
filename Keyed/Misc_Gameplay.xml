@@ -1,7 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<!-- Various -->
+	<HitPointsBasic>Прочность</HitPointsBasic>
 	<WorkLeft>Работы осталось</WorkLeft>
 	<Contents>Содержит</Contents>
 	<ContainedResources>Содержащиеся ресурсы</ContainedResources>
@@ -24,7 +25,7 @@
 	<FreshMissingBodyPart>недавно</FreshMissingBodyPart>
 	<DevelopedImmunityLower>выработан иммунитет</DevelopedImmunityLower>
 	<NeedsTendingNow>Требуется лечение</NeedsTendingNow>
-	<NextTreatmentIn>Повторное лечение через {0}</NextTreatmentIn>
+	<NextTendIn>Повторное лечение через {0}</NextTendIn>
 	<MissingMedicalBillIngredient>нет {0}</MissingMedicalBillIngredient>
 	<Immunity>Иммунитет выработан</Immunity>
 	<Race>Раса</Race>
@@ -69,17 +70,19 @@
 	<CaravanImmobilizedByMass>Невозможно идти: слишком тяжело.</CaravanImmobilizedByMass>
 	<CaravanOutOfFood>Нет еды.</CaravanOutOfFood>
 	<CaravanDaysOfFood>Еды хватит на {0} дней</CaravanDaysOfFood>
+	<CaravanDaysOfFoodRot>Еды хватит на {0} дней, начнёт портиться через {1} дней</CaravanDaysOfFoodRot>
 	<CaravanMemberMentalBreak>Остановка: у {0} нервный срыв.</CaravanMemberMentalBreak>
 	<AllCaravanMembersDowned>Остановка: все члены повержены.</AllCaravanMembersDowned>
+	<AllCaravanMembersMentalBreak>Остановка: у всех нервный срыв.</AllCaravanMembersMentalBreak>
 	<CaravanTraveling>В пути.</CaravanTraveling>
-	<CaravanWaiting>Ожидание.</CaravanWaiting>
+	<CaravanWaiting>Ожидает.</CaravanWaiting>
 	<CaravanHoursPerTile>ч на клетку</CaravanHoursPerTile>
-	<CaravanBaseMovementTime>Общее время пути</CaravanBaseMovementTime>
+	<CaravanBaseMovementTime>Базовое время пути</CaravanBaseMovementTime>
 	<CurrentTileMovementTime>Времени в текущей клетке</CurrentTileMovementTime>
 	<Temperature>Температура</Temperature>
 	<BadTemperature>неподходящая температура</BadTemperature>
 	<IdealFermentingTemperature>Идеальная температура для брожения</IdealFermentingTemperature>
-	<DrugEffectMultiplier>множитель эффекта {0}</DrugEffectMultiplier>
+	<DrugEffectMultiplier>множитель эффекта от {0}: {1}</DrugEffectMultiplier>
 	<CaravanVisiting>Посещает {0}.</CaravanVisiting>
 	<CaravanEntering>Входит в {0}.</CaravanEntering>
 	<CaravanAttacking>Нападает на {0}.</CaravanAttacking>
@@ -101,7 +104,25 @@
 	<TransportPodInGroupHasSomethingLeftToLoad>погрузка ещё не окончена</TransportPodInGroupHasSomethingLeftToLoad>
 	<TransportPodDestinationBeyondMaximumRange>За пределами максимальной дальности</TransportPodDestinationBeyondMaximumRange>
 	<TransportPodNotEnoughFuel>Недостаточно топлива</TransportPodNotEnoughFuel>
-	<FactionBaseTrader>{0} из {1}</FactionBaseTrader>
+	<SettlementTrader>{0} из {1}</SettlementTrader>
+	<RoomSurgerySuccessChanceFactor>Шанс успешной операции в помещении</RoomSurgerySuccessChanceFactor>
+	<RoomInfectionChanceFactor>Шанс успешного лечения инфекции в помещении</RoomInfectionChanceFactor>
+	<VentClosed>Перекрыта</VentClosed>
+	<WornBy>надето на {0}</WornBy>
+	<EquippedBy>оружие {0}</EquippedBy>
+	<QuestTargetDestroyInspectString>{0} хотят, чтобы этот лагерь был уничтожен.\n    Награда: {1}.</QuestTargetDestroyInspectString>
+	<WorldObjectTimeout>Осталось времени: {0}</WorldObjectTimeout>
+	<LongRangeMineralScannerEfficiency>Эффективность: {0}</LongRangeMineralScannerEfficiency>
+	<ItemStashContents>Содержимое: {0}.</ItemStashContents>
+	<SomeItemStashContents>Содержимое: {0} и прочее.</SomeItemStashContents>
+	<ClickToSortByThisColumn>Нажмите для сортировки по этому столбцу.</ClickToSortByThisColumn>
+	<WorkPriorityShiftClickTip>Shift + щелчок: Повысить приоритет\nShift + правый щелчок: Понизить приоритет</WorkPriorityShiftClickTip>
+	<WorkPriorityShiftClickEnableDisableTip>Shift + щелчок: Разрешить всё\nShift + правый щелчок: Запретить всё</WorkPriorityShiftClickEnableDisableTip>
+	<AllowedAreaShiftClickTip>Shift + щелчок: Ограничить всех домашней областью\nShift + правый щелчок: Снять ограничения для всех</AllowedAreaShiftClickTip>
+	<CheckboxShiftClickTip>Shift + щелчок: Отметить всё\nShift + правый щелчок: Снять все отметки</CheckboxShiftClickTip>
+	<KnownSiteThreat>Угроза: {0}.</KnownSiteThreat>
+	<KnownSiteThreats>Угрозы: {0}.</KnownSiteThreats>
+	<KnownSiteThreatsNone>Угроз нет.</KnownSiteThreatsNone>
 
 	<!-- Fermentation barrel -->
 	<ContainsWort>Содержит {0} / {1} сусла.</ContainsWort>
@@ -114,7 +135,9 @@
 	<Headshot>В голову</Headshot>
 	<TextMote_TreatSuccess>Вылечено!\n{0} шанс</TextMote_TreatSuccess>
 	<TextMote_TreatFailed>Не вылечено\n{0} шанс</TextMote_TreatFailed>
-	<HarvestFailed>Не получилось\nсобрать</HarvestFailed>
+	<TextMote_HarvestFailed>Не получилось\nсобрать</TextMote_HarvestFailed>
+	<TextMote_YieldWasted>Урожай\nпотерян</TextMote_YieldWasted>
+	<TextMote_ProductWasted>Продукт\nпотерян</TextMote_ProductWasted>
 	<TextMote_RecruitFail>Рекрутирование не удалось!\n{0} шанс</TextMote_RecruitFail>
 	<TextMote_TameFail>Не приручил\n{0} шанс</TextMote_TameFail>
 	<TextMote_TameSuccess>Приручил!\n{0} шанс</TextMote_TameSuccess>
@@ -122,6 +145,9 @@
 	<TextMote_TrainSuccess>Обучил: {0}\n{1} шанс</TextMote_TrainSuccess>
 	<TextMote_FixBrokenDownBuildingFail>Не получилось\nпочинить</TextMote_FixBrokenDownBuildingFail>
 	<TextMote_ConstructionFail>Строительство\nнеудачно</TextMote_ConstructionFail>
+	<TextMote_Dodge>Уклонение</TextMote_Dodge>
+	<TextMote_Tended>{0} вылечено</TextMote_Tended>
+
 
 	<!-- Areas -->
 	<Home>Домашняя область</Home>
@@ -175,6 +201,7 @@
 	<!-- Lord job reports -->
 	<LordReportAttendingMarriageCeremony>Посещает церемонию бракосочетания</LordReportAttendingMarriageCeremony>
 	<LordReportAttendingParty>Посещает вечеринку</LordReportAttendingParty>
+	<LordReportFormingCaravan>Снаряжает караван</LordReportFormingCaravan>
 
 	<!-- Shooting report -->
 	<WeaponMissRadius>Разброс оружия</WeaponMissRadius>
@@ -194,6 +221,8 @@
 	<RecipeMakeJobString>Делает {0}.</RecipeMakeJobString>
 	<RecipeAdminister>назначить {0}</RecipeAdminister>
 	<RecipeAdministerJobString>Принимает {0}.</RecipeAdministerJobString>
+	<TeetotalerUnhappy>трезвенник будет недоволен</TeetotalerUnhappy>
+	<ProsthophobeUnhappy>протезофоб будет недоволен</ProsthophobeUnhappy>
 
 	<!-- Thoughts -->
 	<ThoughtExpiresIn>Истечёт через: {0}</ThoughtExpiresIn>
@@ -212,10 +241,12 @@
 	<EquippedNothing>ничего</EquippedNothing>
 	<Dead>Мертв(а)</Dead>
 	<Unconscious>Без сознания</Unconscious>
-	<PainShock>Болевой шок</PainShock>
+	<PainShock>В состоянии болевого шока</PainShock>
+	<PainShockShort>Болевой шок</PainShockShort>
 	<Incapacitated>Повержен(а)</Incapacitated>
 	<InRestraints>В оковах (движение замедлено)</InRestraints>
-	<Carrying>Держит</Carrying>
+	<Carrying>Переносит</Carrying>
+	<AffectedBy>Влияющие факторы:</AffectedBy>
 
 	<!-- Inspector general stuff -->
 	<SelectNextInSquareTip>Выбрать другой предмет на той же клетке.\n\nКлавиша: {0}\n\nТо же самое можно сделать, щёлкнув по этой клетке ещё раз.</SelectNextInSquareTip>
@@ -318,8 +349,8 @@
 	<Burning>Горит</Burning>
 	<FireSizeLower>площадь горения {0}</FireSizeLower>
 
-	<!-- Map conditions -->
-	<MapConditionsTip>Особые условия, влияющие на местность в данный момент.</MapConditionsTip>
+	<!-- Game conditions -->
+	<GameConditionsTip>Особые условия, влияющие на местность в данный момент.</GameConditionsTip>
 	<TimeLeft>времени осталось</TimeLeft>
 	<ImpactDate>дата удара</ImpactDate>
 
@@ -439,5 +470,24 @@
 
 	<!-- Compass -->
 	<CompassTip>Показывает направление на север. Нажмите сюда, если хотите ориентировать камеру так, чтобы север был сверху.</CompassTip>
+
+	<!-- Distance measure -->
+	<RoutePlannerButtonTip>Нажмите здесь, чтобы войти в режим редактирования маршрута. Вы сможете спланировать ваше путешествие, задавая точки маршрута.</RoutePlannerButtonTip>
+	<RoutePlannerAddTwoOrMoreWaypoints>Добавьте хотя бы две точки маршрута.</RoutePlannerAddTwoOrMoreWaypoints>
+	<RoutePlannerAddOneOrMoreWaypoints>Добавьте хотя бы одну точку маршрута.</RoutePlannerAddOneOrMoreWaypoints>
+	<RoutePlannerEstTimeToFinalDest>Суммарное время в пути: {0}</RoutePlannerEstTimeToFinalDest>
+	<RoutePlannerUsingAverageTicksPerMoveWarning>В режиме редактирования учитывается средняя скорость движения каравана. В действительности она может различаться.</RoutePlannerUsingAverageTicksPerMoveWarning>
+	<RoutePlannerUsingTicksPerMoveOfCaravan>Вычисляется для: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+	<RoutePlannerPressRMBToAddAndRemoveWaypoints>Правая кнопка мыши: Добавить/удалить точки маршрута.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+	<RoutePlannerPressEscapeToExit>ESC: Выйти из режима редактирования.</RoutePlannerPressEscapeToExit>
+	<RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Вернуться к формированию каравана.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+	<EstimatedTimeToThisWaypoint>Примерное время до точки: {0}</EstimatedTimeToThisWaypoint>
+	<EstimatedTimeToThisWaypointFromPrevious>Примерное время пути от предыдущей точки до этой: {0}</EstimatedTimeToThisWaypointFromPrevious>
+
+	<!-- Outfits -->
+	<OutfitAnything>Что угодно</OutfitAnything>
+	<OutfitWorker>Рабочая одежда</OutfitWorker>
+	<OutfitSoldier>Солдатская экипировка</OutfitSoldier>
+	<OutfitNudist>Костюм нудиста</OutfitNudist>
 
 </LanguageData>

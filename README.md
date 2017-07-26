@@ -33,6 +33,7 @@
 * [Bugo](https://github.com/dragomano)
 * [Ohar](https://github.com/Ohar)
 * [Dinoabunai](https://github.com/Dinoabunai)
+* [Orontion](https://github.com/orontion)
 * [Bobsans](https://github.com/bobsans)
 * [Lirryc](https://github.com/Lirryc)
 * [M-r-A](https://github.com/M-r-A)
