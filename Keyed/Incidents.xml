@@ -39,15 +39,15 @@
 
 	<TraderArrival>Торговый корабль пролетает рядом.\n\nИзвестен как {0} и он {1}.</TraderArrival>
 
-	<SingleTravelerPassing>{0} из {1} проходит мимо.\n\nHISCAP зовут {2}.</SingleTravelerPassing>
+	<SingleTravelerPassing>{0} из фракции {1} проходит мимо.\n\nHISCAP зовут {2}.</SingleTravelerPassing>
 	<GroupTravelersPassing>Группа путешественников из поселения {0} проходят мимо.</GroupTravelersPassing>
 
 	<LetterLabelSingleVisitorArrives>Гость</LetterLabelSingleVisitorArrives>
-	<SingleVisitorArrives>{0} из {1} посещает поселение.\n\nHISCAP зовут {2}.{3}{4}</SingleVisitorArrives>
+	<SingleVisitorArrives>{0} из фракции {1} посещает поселение.\n\nHISCAP зовут {2}.{3}{4}</SingleVisitorArrives>
 	<SingleVisitorArrivesTraderInfo>\n\nКажется у нHIS есть какие-то предметы для обмена.</SingleVisitorArrivesTraderInfo>
 	<SingleVisitorArrivesLeaderInfo>\n\nHECAP лидер фракции.</SingleVisitorArrivesLeaderInfo>
 	<LetterLabelGroupVisitorsArrive>Гости</LetterLabelGroupVisitorsArrive>
-	<GroupVisitorsArrive>Группа из {0} посещает ваше поселение.{1}{2}</GroupVisitorsArrive>
+	<GroupVisitorsArrive>Группа из фракции {0} посещает ваше поселение.{1}{2}</GroupVisitorsArrive>
 	<GroupVisitorsArriveTraderInfo>\n\nКажется, у них есть какие-то предметы для обмена.</GroupVisitorsArriveTraderInfo>
 	<GroupVisitorsArriveLeaderInfo>\n\nОдин из гостей, {0}, — лидер фракции.</GroupVisitorsArriveLeaderInfo>
 	<VisitorsLeaving>Гости из поселения {0} уходят.</VisitorsLeaving>
@@ -56,7 +56,7 @@
 	<WandererJoin>{0} прибыл и решил присоединиться к поселению.\n\nHISCAP зовут NAME, и HE {1}.</WandererJoin>
 
 	<LetterLabelManhunterPackArrived>Животные-людоеды</LetterLabelManhunterPackArrived>
-	<ManhunterPackArrived>Свора животных ({0}-людоед) забрела на вашу территорию. Они жаждут человеческого мяса.\n\nЭти животные не смогут пройти через двери, поэтому внутри вы будете в безопасности. Они также не нападут на турели, если вы отключите их заранее.\n\nПодождите несколько дней, и животные уйдут.</ManhunterPackArrived>
+	<ManhunterPackArrived>Стая агрессивных животных ({0}) забрела на вашу территорию. Они жаждут человеческого мяса.\n\nЭти животные не смогут пройти через двери, поэтому внутри вы будете в безопасности. Они также не нападут на турели, если вы отключите их заранее.\n\nПодождите несколько дней, и животные уйдут.</ManhunterPackArrived>
 
 	<!-- Crashed ship part-->
 	<MessageAnimalInsanityPulse>Древнее сооружение испустило психоактивный импульс, который вызвал ярость у ближайших животных.</MessageAnimalInsanityPulse>
@@ -86,8 +86,8 @@
 	<BeaversArrived>Только что была замечена группа голодных альфабобров.\n\nПостарайтесь избавиться от них прежде, чем они уничтожат последнее дерево в округе.</BeaversArrived>
 
 	<!-- Refugee chased -->
-	<RefugeeChasedTitle>У {0} преследуют беженца</RefugeeChasedTitle>
-	<RefugeeChasedInitial>{0}, {1}, бежит и зовёт на помощь! HECAP говорит, что HIS преследуют {2} из фракции {3}.\n\n{0} умоляет о помощи и взамен предлагает присоединиться к поселению. HISCAP биологический возраст — {4} лет.\n\nЕсли вы согласны принять HIS, вам придётся сражаться с {2} у нHIS на хвосте.</RefugeeChasedInitial>
+	<RefugeeChasedTitle>У поселения {0} преследуют беженца</RefugeeChasedTitle>
+	<RefugeeChasedInitial>{0}, {1}, бежит и зовёт на помощь! HECAP говорит, что HIS преследуют {2} из фракции {3}.\n\n{0} умоляет о помощи и взамен предлагает присоединиться к поселению. HISCAP биологический возраст — {4} лет.\n\nЕсли вы согласитесь принять {0}, на вас нападут {2}, идущие у нHIS на хвосте.</RefugeeChasedInitial>
 	<RefugeeChasedInitial_Accept>Предложить укрытие</RefugeeChasedInitial_Accept>
 	<RefugeeChasedInitial_Reject>Игнорировать это сообщение</RefugeeChasedInitial_Reject>
 	<RefugeeChasedRejected>{0} отчаянно кричит из хрипящего динамика, пока вы не прерываете трансляцию.</RefugeeChasedRejected>
@@ -108,14 +108,14 @@
 
 	<!-- Trader caravan -->
 	<LetterLabelTraderCaravanArrival>{1} из {0}</LetterLabelTraderCaravanArrival>
-	<LetterTraderCaravanArrival>Приближается караван из {0}. Это {1}.\n\nОни побудут в поселении несколько дней, прежде чем двинуться дальше. Вы можете атаковать их, но это разозлит всю их фракцию!</LetterTraderCaravanArrival>
+	<LetterTraderCaravanArrival>Приближается караван из фракции {0}. Среди них есть {1}.\n\nОни побудут в поселении несколько дней, прежде чем двинуться дальше. Вы можете атаковать их, но это разозлит всю их фракцию!</LetterTraderCaravanArrival>
 
 	<!-- Building breaks down -->
 	<LetterLabelBuildingBrokenDown>Поломка: {0}</LetterLabelBuildingBrokenDown>
 	<LetterBuildingBrokenDown>Один из ваших механизмов, {0}, сломался. Он не заработает, пока поселенец-ремонтник не починит его.</LetterBuildingBrokenDown>
 
 	<!-- Ransom demand -->
-	<RansomDemandTitle>Требование выкупа у {0}</RansomDemandTitle>
+	<RansomDemandTitle>Требование выкупа у поселения {0}</RansomDemandTitle>
 	<RansomDemand>{1} связываются с вами по радио. У них в заложниках — {0}, ваш бывший поселенец.\n\nОни хотят отпустить HIM обратно к вам за {2} серебра.</RansomDemand>
 	<RansomDemand_Accept>Согласиться</RansomDemand_Accept>
 	<RansomDemand_Reject>Отказаться</RansomDemand_Reject>
@@ -125,7 +125,7 @@
 
 	<!-- Caravan meeting -->
 	<CaravanMeetingTitle>Встреча караванов у {0}</CaravanMeetingTitle>
-	<CaravanMeeting>Ваш караван без конфликта встретился с караваном из {0}. Этот караван состоит из:\n\n{1}</CaravanMeeting>
+	<CaravanMeeting>Ваш караван встретился с караваном фракции {0}. Этот караван состоит из:\n\n{1}</CaravanMeeting>
 	<CaravanMeeting_Trade>Торговать</CaravanMeeting_Trade>
 	<CaravanMeeting_Attack>Напасть</CaravanMeeting_Attack>
 	<CaravanMeeting_MoveOn>Идти дальше</CaravanMeeting_MoveOn>
