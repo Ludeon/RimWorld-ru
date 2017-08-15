@@ -27,19 +27,19 @@
 	<NothingCrushed>К счастью, всё уцелело.</NothingCrushed>
 	<LetterLabelRoofCollapsed>Обрушение крыши</LetterLabelRoofCollapsed>
 
-	<RecruitSuccess>{0} успешно завербовал {1} с шансом {2}.</RecruitSuccess>
+	<RecruitSuccess>{0} успешно вербует {1} с шансом {2}.</RecruitSuccess>
 	<RecruitFail>{0} не удалось завербовать {1}. Вероятность успеха — {2}.</RecruitFail>
 
 	<LetterLabelBirthday>День рождения</LetterLabelBirthday>
 	<BirthdayChronological>У {0} сегодня хронологический день рождения! Биологический возраст {0} — {3}.\n\nХронологический возраст — {2}.\n\nЗаметьте, что из-за того, что люди не стареют в состоянии криптосна, хронологический возраст отличен от биологического.</BirthdayChronological>
-	<BirthdayBiologicalAgeInjuries>{0} достиг(ла) биологического возраста {1}.\n\nК сожалению, из-за своего возраста {0} заработал(а) следующие возрастные болезни:\n{2}</BirthdayBiologicalAgeInjuries>
+	<BirthdayBiologicalAgeInjuries>{0} достигает биологического возраста {1}.\n\nК сожалению, из-за своего возраста HE получает следующие заболевания:\n{2}</BirthdayBiologicalAgeInjuries>
 
 	<LetterLabelNewDisease>Инфекция</LetterLabelNewDisease>
 	<NewDisease>У {0} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {2} требуется надлежащее лечение и постельный режим.</NewDisease>
 	<NewPartDisease>У {0} {3}. Место обнаружения инфекции — HIS {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {2} требуется надлежащее лечение и постельный режим.</NewPartDisease>
 
 	<LetterLabelAncientShrineWarning>Древняя опасность</LetterLabelAncientShrineWarning>
-	<AncientShrineWarning>Проходя мимо древнего строения, {0} предчувствует недоброе. HECAP не уверен(а) почему, но HE чувствует, что эти пыльные строения несут в себе большую опасность.</AncientShrineWarning>
+	<AncientShrineWarning>Когда {0} проходит мимо древней стены, HIS одолевает недоброе предчувствие. Непонятно как, но HE ощущает внутри этой покрытой пылью постройки большую опасность.</AncientShrineWarning>
 
 	<StruckMineable>Мы обнаружили {0}!</StruckMineable>
 
@@ -49,7 +49,7 @@
 	<AnimalManhunterOthers>Другие {0} тоже впали в ярость!</AnimalManhunterOthers>
 
 	<LetterFriendlyTrapSprungLabel>{0} в капкане</LetterFriendlyTrapSprungLabel>
-	<LetterFriendlyTrapSprung>{0} случайно попал(а) в капкан и получил(а) повреждения.</LetterFriendlyTrapSprung>
+	<LetterFriendlyTrapSprung>{0} получает повреждение, случайно попав в ловушку.</LetterFriendlyTrapSprung>
 
 	<LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
 	<LetterHealthComplications>У {0} развился {1}.\n\nПричина этому — {2}.</LetterHealthComplications>
@@ -58,10 +58,10 @@
 	<LetterHediffFromRandomHediffGiver>У {0} развился {1}.</LetterHediffFromRandomHediffGiver>
 
 	<LetterLeadersDeathLabel>{1} фракции {0} умер</LetterLeadersDeathLabel>
-	<LetterLeadersDeath>{0}, {3} фракции {1}, умер.\n\nЕго сменил новый {3}, {2}.</LetterLeadersDeath>
+	<LetterLeadersDeath>Умер {3} фракции {1}, {0}.\n\nОтныне у них новый {3}, {2}.</LetterLeadersDeath>
 
 	<LetterLeaderChangedLabel>Новый {1} фракции {0}</LetterLeaderChangedLabel>
-	<LetterLeaderChanged>{0} более не {3} фракции {1}.\n\nЕго сменил новый {3}, {2}.</LetterLeaderChanged>
+	<LetterLeaderChanged>{0} более не {3} фракции {1}.\n\nОтныне у них новый {3}, {2}.</LetterLeaderChanged>
 
 	<MentalBreakLetterLabel>Нервный срыв</MentalBreakLetterLabel>
 	<FinalStraw>Последней каплей было: {0}.</FinalStraw>
@@ -80,16 +80,16 @@
 	<RelationshipAppendedLetterTextPrisoner>NAME знаком с одним из ваших заключённых. HECAP {1} {0}.</RelationshipAppendedLetterTextPrisoner>
 
 	<!-- Attempt romance / propose interaction -->
-	<LetterLabelAffair>Любовники</LetterLabelAffair>
-	<LetterAffair>{0}, будучи в браке с {1}, связался с {2}.</LetterAffair>
+	<LetterLabelAffair>Интрижка</LetterLabelAffair>
+	<LetterAffair>{0}, будучи в браке с {1}, завязывает роман с {2}.</LetterAffair>
 	<LetterLabelNewLovers>Новая пара</LetterLabelNewLovers>
 	<LetterNewLovers>{0} и {1} сошлись.</LetterNewLovers>
 	<LetterNoLongerLovers>{0} и {1} более не состоят в отношениях.</LetterNoLongerLovers>
 	<LetterLabelBreakup>Разрыв</LetterLabelBreakup>
 	<LetterLabelAcceptedProposal>Скоро свадьба!</LetterLabelAcceptedProposal>
 	<LetterLabelRejectedProposal>Предложение отклонено</LetterLabelRejectedProposal>
-	<LetterAcceptedProposal>{1} принял(а) предложение {0}!\n\nСкоро, в течение нескольких дней или кварталов, они сыграют свадьбу и пригласят на неё всех поселенцев. При желании вы можете назначить специальное место для проведения свадебных церемоний.</LetterAcceptedProposal>
-	<LetterRejectedProposal>{1} отклонил(а) предложение {0} о свадьбе. {0} точно не обрадуется.</LetterRejectedProposal>
+	<LetterAcceptedProposal>{1} принимает предложение {0}!\n\nСкоро, в течение нескольких дней или кварталов, они сыграют свадьбу и пригласят на неё всех поселенцев. При желании вы можете назначить специальное место для проведения свадебных церемоний.</LetterAcceptedProposal>
+	<LetterRejectedProposal>{1} отклоняет предложение {0} о свадьбе. {0} точно не обрадуется.</LetterRejectedProposal>
 
 	<!-- Generalized letter labels -->
 	<LetterLabelRelationsChangeGood>Расположение</LetterLabelRelationsChangeGood>
@@ -101,8 +101,8 @@
 	<LetterLabelBondedAnimalDied>Смерть питомца</LetterLabelBondedAnimalDied>
 	<LetterBondedAnimalDied>{0}, питомец {1}, умер. Это повлияет на настроение {1}.</LetterBondedAnimalDied>
 	<LetterNamedBondedAnimalDied>{0} по имени {1}, питомец {2}, умер. Это повлияет на настроение {2}.</LetterNamedBondedAnimalDied>
-	<LetterBondedAnimalDiedMulti>{0} умер. Это повлияет на настроение следующих людей:\n\n{1}</LetterBondedAnimalDiedMulti>
-	<LetterNamedBondedAnimalDiedMulti>{0} по имени {1} умер. Это повлияет на настроение следующих людей:\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+	<LetterBondedAnimalDiedMulti>Питомец, {0}, умер. Это повлияет на настроение следующих людей:\n\n{1}</LetterBondedAnimalDiedMulti>
+	<LetterNamedBondedAnimalDiedMulti>Питомец, {0} по имени {1}, умер. Это повлияет на настроение следующих людей:\n\n{2}</LetterNamedBondedAnimalDiedMulti>
 
 	<!-- Prison break -->
 	<LetterLabelPrisonBreak>Побег</LetterLabelPrisonBreak>
