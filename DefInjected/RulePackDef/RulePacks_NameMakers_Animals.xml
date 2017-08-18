@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<NamerAnimalGenericMale.rulePack.rulesStrings.0>name->[animalnameunisex]</NamerAnimalGenericMale.rulePack.rulesStrings.0>
@@ -12,10 +12,17 @@
 	<NamerAnimalGenericMale.rulePack.rulesStrings.8>name->[personnamemale]</NamerAnimalGenericMale.rulePack.rulesStrings.8>
 	<NamerAnimalGenericMale.rulePack.rulesStrings.9>name->[exoticname]</NamerAnimalGenericMale.rulePack.rulesStrings.9>
 	<NamerAnimalGenericMale.rulePack.rulesStrings.10>exoticname->[badassadjective]</NamerAnimalGenericMale.rulePack.rulesStrings.10>
-	<NamerAnimalGenericMale.rulePack.rulesStrings.11>exoticname->[badassadjective]</NamerAnimalGenericMale.rulePack.rulesStrings.11>
-	<NamerAnimalGenericMale.rulePack.rulesStrings.12>exoticname->[concept]</NamerAnimalGenericMale.rulePack.rulesStrings.12>
-	<NamerAnimalGenericMale.rulePack.rulesStrings.13>exoticname->[concept]</NamerAnimalGenericMale.rulePack.rulesStrings.13>
-	<NamerAnimalGenericMale.rulePack.rulesStrings.14>exoticname->[color]</NamerAnimalGenericMale.rulePack.rulesStrings.14>
+	<NamerAnimalGenericMale.rulePack.rulesStrings.11>exoticname->[badassadjective] [animalnamemale]</NamerAnimalGenericMale.rulePack.rulesStrings.11>
+	<NamerAnimalGenericMale.rulePack.rulesStrings.12>exoticname->[badassadjective] [personnamemale]</NamerAnimalGenericMale.rulePack.rulesStrings.12>
+	<NamerAnimalGenericMale.rulePack.rulesStrings.13>exoticname->[color] [animalnamemale]</NamerAnimalGenericMale.rulePack.rulesStrings.13>
+	<NamerAnimalGenericMale.rulePack.rulesStrings.14>exoticname->[color] [personnamemale]</NamerAnimalGenericMale.rulePack.rulesStrings.14>
+
+	<!-- Для другого рода, падежа и форм можно добавлять файлы, переопределяя ключевые слова и пути базового класса -->
+	<NamerAnimalGenericFemale.rulePack.rulesRaw.7.keyword>badassadjectivefemale</NamerAnimalGenericFemale.rulePack.rulesRaw.7.keyword>
+	<NamerAnimalGenericFemale.rulePack.rulesRaw.7.path>Words/Adjectives/Badass_Female</NamerAnimalGenericFemale.rulePack.rulesRaw.7.path>
+
+	<NamerAnimalGenericFemale.rulePack.rulesRaw.10.keyword>colorfemale</NamerAnimalGenericFemale.rulePack.rulesRaw.10.keyword>
+	<NamerAnimalGenericFemale.rulePack.rulesRaw.10.path>Words/Nouns/Colors_Female</NamerAnimalGenericFemale.rulePack.rulesRaw.10.path>
 
 	<NamerAnimalGenericFemale.rulePack.rulesStrings.0>name->[animalnameunisex]</NamerAnimalGenericFemale.rulePack.rulesStrings.0>
 	<NamerAnimalGenericFemale.rulePack.rulesStrings.1>name->[animalnameunisex]</NamerAnimalGenericFemale.rulePack.rulesStrings.1>
@@ -27,10 +34,10 @@
 	<NamerAnimalGenericFemale.rulePack.rulesStrings.7>name->[personnamefemale]</NamerAnimalGenericFemale.rulePack.rulesStrings.7>
 	<NamerAnimalGenericFemale.rulePack.rulesStrings.8>name->[personnamefemale]</NamerAnimalGenericFemale.rulePack.rulesStrings.8>
 	<NamerAnimalGenericFemale.rulePack.rulesStrings.9>name->[exoticname]</NamerAnimalGenericFemale.rulePack.rulesStrings.9>
-	<NamerAnimalGenericFemale.rulePack.rulesStrings.10>exoticname->[badassadjective]</NamerAnimalGenericFemale.rulePack.rulesStrings.10>
-	<NamerAnimalGenericFemale.rulePack.rulesStrings.11>exoticname->[badassadjective]</NamerAnimalGenericFemale.rulePack.rulesStrings.11>
-	<NamerAnimalGenericFemale.rulePack.rulesStrings.12>exoticname->[concept]</NamerAnimalGenericFemale.rulePack.rulesStrings.12>
-	<NamerAnimalGenericFemale.rulePack.rulesStrings.13>exoticname->[concept]</NamerAnimalGenericFemale.rulePack.rulesStrings.13>
-	<NamerAnimalGenericFemale.rulePack.rulesStrings.14>exoticname->[color]</NamerAnimalGenericFemale.rulePack.rulesStrings.14>
+	<NamerAnimalGenericFemale.rulePack.rulesStrings.10>exoticname->[badassadjectivefemale]</NamerAnimalGenericFemale.rulePack.rulesStrings.10>
+	<NamerAnimalGenericFemale.rulePack.rulesStrings.11>exoticname->[badassadjectivefemale] [animalnamefemale]</NamerAnimalGenericFemale.rulePack.rulesStrings.11>
+	<NamerAnimalGenericFemale.rulePack.rulesStrings.12>exoticname->[badassadjectivefemale] [personnamefemale]</NamerAnimalGenericFemale.rulePack.rulesStrings.12>
+	<NamerAnimalGenericFemale.rulePack.rulesStrings.13>exoticname->[colorfemale] [animalnamefemale]</NamerAnimalGenericFemale.rulePack.rulesStrings.13>
+	<NamerAnimalGenericFemale.rulePack.rulesStrings.14>exoticname->[colorfemale] [personnamefemale]</NamerAnimalGenericFemale.rulePack.rulesStrings.14>
 
 </LanguageData>
