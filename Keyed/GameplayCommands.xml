@@ -24,7 +24,7 @@
 	<!-- Drafting -->
 	<CommandDraftLabel>К бою!</CommandDraftLabel>
 	<CommandUndraftLabel>Роспуск</CommandUndraftLabel>
-	<CommandToggleDraftDesc>Переключение в боевой режим.\n\nВ этом режиме поселенцы получают приказы и сражаются. Они не будут работать, есть или отдыхать.</CommandToggleDraftDesc>
+	<CommandToggleDraftDesc>Переключить в боевой режим.\n\nВ этом режиме поселенцы получают приказы и сражаются. Они не будут работать, есть или отдыхать.</CommandToggleDraftDesc>
 	<IsIncapped>{0} не может ходить.</IsIncapped>
 
 	<CommandFireAtWillLabel>Стрелять по усмотрению</CommandFireAtWillLabel>
@@ -34,7 +34,7 @@
 	<CommandClearPrioritizedWorkDesc>Сбросить любые назначенные вами действия. Поселенец продолжит работать согласно своим приоритетам.</CommandClearPrioritizedWorkDesc>
 
 	<CommandCancelConstructionLabel>Отменить</CommandCancelConstructionLabel>
-	<CommandCancelConstructionDesc>Отмена строительства.</CommandCancelConstructionDesc>
+	<CommandCancelConstructionDesc>Отменить строительство.</CommandCancelConstructionDesc>
 
 	<CommandGetOutOfBedLabel>Освободить кровать</CommandGetOutOfBedLabel>
 	<CommandGetOutOfBedDesc>Освободить занятую кровать.</CommandGetOutOfBedDesc>
@@ -78,16 +78,16 @@
 
 	<!-- Artillery -->
 	<CommandSetForceAttackTarget>Выбрать цель обстрела</CommandSetForceAttackTarget>
-	<CommandSetForceAttackTargetDesc>Устанавливает цель, которую эта турель будет атаковать непрерывно до тех пор, пока это будет возможно.</CommandSetForceAttackTargetDesc>
+	<CommandSetForceAttackTargetDesc>Установить цель, которую эта турель будет атаковать непрерывно, пока это будет возможно.</CommandSetForceAttackTargetDesc>
 	<CommandStopForceAttack>Отменить обстрел</CommandStopForceAttack>
-	<CommandStopForceAttackDesc>Прекращает обстрел указанной цели и переводит турель в режим самонаведения.</CommandStopForceAttackDesc>
+	<CommandStopForceAttackDesc>Прекратить обстрел указанной цели и перевести турель в режим самонаведения.</CommandStopForceAttackDesc>
 	<CommandStopAttackFailNotForceAttacking>Сейчас невозможно остановить обстрел.</CommandStopAttackFailNotForceAttacking>
 	<MessageTargetBeyondMaximumRange>Слишком далеко.</MessageTargetBeyondMaximumRange>
 	<MessageTargetBelowMinimumRange>Слишком близко.</MessageTargetBelowMinimumRange>
 
 	<!-- Ship computer core -->
 	<CommandShipLaunch>Запустить корабль</CommandShipLaunch>
-	<CommandShipLaunchDesc>Запустить корабль с текущей конфигурацией.</CommandShipLaunchDesc>
+	<CommandShipLaunchDesc>Запустить корабль в текущей конфигурации.</CommandShipLaunchDesc>
 	<CommandShipLaunchReport>Показать стартовый отчёт</CommandShipLaunchReport>
 	<CommandShipLaunchReportDesc>Показать отчёт о готовности корабля к запуску.</CommandShipLaunchReportDesc>
 
@@ -112,7 +112,7 @@
 	<CommandInstall>Установить</CommandInstall>
 	<CommandInstallDesc>Этот предмет упакован для хранения и транспортировки. Используйте эту команду для установки предмета, чтобы его могли видеть или использовать.</CommandInstallDesc>
 	<CommandReinstall>Переставить</CommandReinstall>
-	<CommandReinstallDesc>Назначьте этот предмет для демонтажа и установки в другом месте.</CommandReinstallDesc>
+	<CommandReinstallDesc>Назначить этот предмет для демонтажа и установки в другом месте.</CommandReinstallDesc>
 
 	<!-- Trade beacon -->
 	<CommandMakeBeaconStockpileDesc>Создать вокруг этого строения склад, соответствующий радиусу отправки маяка.</CommandMakeBeaconStockpileDesc>
@@ -124,15 +124,15 @@
 
 	<!-- Trap -->
 	<CommandAutoRearm>Авто-взведение</CommandAutoRearm>
-	<CommandAutoRearmDesc>Если активна, капкан будет автоматически назначаться для взведения после срабатывания.</CommandAutoRearmDesc>
+	<CommandAutoRearmDesc>Если активно, капкан будет автоматически назначаться для взведения после срабатывания.</CommandAutoRearmDesc>
 
 	<!-- Animal control -->
 	<CommandReleaseAnimalsLabel>Спустить с поводка</CommandReleaseAnimalsLabel>
-	<CommandReleaseAnimalsDesc>Отправляет приручённых животных в атаку. Если не включено, животные остаются вблизи и охраняют хозяина.</CommandReleaseAnimalsDesc>
+	<CommandReleaseAnimalsDesc>Отправить приручённых животных в атаку. Если не включено, животные остаются вблизи и охраняют хозяина.</CommandReleaseAnimalsDesc>
 
 	<!-- Squad attack -->
 	<CommandSquadAttack>Атаковать</CommandSquadAttack>
-	<CommandSquadAttackDesc>Приказ выбранным поселенцам вместе атаковать заданную цель.</CommandSquadAttackDesc>
+	<CommandSquadAttackDesc>Приказать выбранным поселенцам вместе атаковать заданную цель.</CommandSquadAttackDesc>
 
 	<!-- Hold fire -->
 	<CommandHoldFire>Остановить огонь</CommandHoldFire>
@@ -141,7 +141,7 @@
 	<!-- Select plant to grow -->
 	<CommandSelectPlantToGrowMulti>Выберите растение для высадки</CommandSelectPlantToGrowMulti>
 	<CommandSelectPlantToGrow>Растение: {0}</CommandSelectPlantToGrow>
-	<CommandSelectPlantToGrowDesc>Укажите, какое растение следует выращивать здесь.</CommandSelectPlantToGrowDesc>
+	<CommandSelectPlantToGrowDesc>Указать, какое растение следует выращивать здесь.</CommandSelectPlantToGrowDesc>
 
 	<!-- Build copy -->
 	<CommandBuildCopy>Построить копию</CommandBuildCopy>
@@ -153,7 +153,7 @@
 
 	<!-- Reform caravan -->
 	<CommandReformCaravan>Продолжить путь</CommandReformCaravan>
-	<CommandReformCaravanDesc>Продолжить путь. Путешественники покинут место, в котором находятся и будут ждать дальнейших указаний.</CommandReformCaravanDesc>
+	<CommandReformCaravanDesc>Продолжить путь. Путешественники покинут место, в котором находятся, и будут ждать дальнейших указаний.</CommandReformCaravanDesc>
 	<CommandReformCaravanFailHostilePawns>Неподалёку ещё есть противники.</CommandReformCaravanFailHostilePawns>
 
 	<!-- Split caravan -->
