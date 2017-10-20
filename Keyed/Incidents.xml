@@ -9,7 +9,7 @@
 	<AnimalInsanityMultiple>Некое подобие психоактивной волны прошло по земле. Ваши поселенцы в порядке, но...\n\nПохоже, многие представители вида {0} сошли с ума.</AnimalInsanityMultiple>
 
 	<LetterLabelCropBlight>Болезнь растений</LetterLabelCropBlight>
-	<CropBlight>Загадочное заболевание уничтожило все ваши посевы.</CropBlight>
+	<LetterCropBlight>Один из поселенцев заметил, что часть ваших растений поражена загадочной болезнью! Вам следует срезать или сжечь их, пока болезнь не перешла на другие растения.</LetterCropBlight>
 
 	<LetterLabelMiracleHeal>Чудо</LetterLabelMiracleHeal>
 	<MiracleHeal>{0} исцеляется чудесным образом!</MiracleHeal>
@@ -33,7 +33,9 @@
 	<CargoPodCrash>Вы засекли несколько грузовых контейнеров, упавших поблизости.\n\nВозможно, вы найдёте что-то полезное в обломках.</CargoPodCrash>
 
 	<AnElectricalConduit>электропроводке</AnElectricalConduit>
-	<ShortCircuit>Неисправность в {0} вызвала короткое замыкание.\n\nВсе {1} Вт*дней энергии в подключённых аккумуляторах потеряны.</ShortCircuit>
+	<ShortCircuit>Неисправность в {0} вызвала короткое замыкание.</ShortCircuit>
+	<ShortCircuitStartedFire>Неисправность в {0} вызвала короткое замыкание с возгоранием.</ShortCircuitStartedFire>
+	<ShortCircuitDischargedEnergy>Все {0} Вт*дней энергии в подключённых аккумуляторах потеряны.</ShortCircuitDischargedEnergy>
 	<ShortCircuitWasLarge>Из-за высокой мощности короткое замыкание вызвало вспышку, громкий хлопок и последующее возгорание.</ShortCircuitWasLarge>
 	<ShortCircuitWasHuge>Вот это фейерверк! Ничего себе!</ShortCircuitWasHuge>
 
@@ -122,6 +124,10 @@
 
 	<!-- Journey -->
 	<JourneyOffer>Дружелюбно настроенный ИИ, называющий себя именем Шарлон Вайтстоун, отправил вам сообщение!\n\nОн говорит, что на этой планете в тайном месте находится его корабль, и сообщает вам его координаты.\n\nЕсли вы доберётесь до него, Шарлон унесёт вас с этого периферийного мира вдаль, к звёздам.</JourneyOffer>
+	<EscapeShipFoundLabel>Корабль найден</EscapeShipFoundLabel>
+	<EscapeShipFound>Вы достигли места, координаты которого вам отправил Шарлон Вайтстоун и обнаружили замаскированный космический корабль.\n\nБеглый осмотр выявил, что на текущий момент взлёт невозможен, поскольку реактор корабля в неактивном состоянии. Вы можете запустить его, отправив команду с компьютерного ядра.\n\nОднако Шарлон Вайтстоун предупреждает, что процесс запуска займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание разного рода налётчиков и охотников за сокровищами. Перед запуском стоит подготовиться к обороне.</EscapeShipFound>
+	<EscapeShipLostLabel>Корабль уничтожен</EscapeShipLostLabel>
+	<EscapeShipLost>Шарлон Вайтстоун отправляет сообщение.\n\nОн видит, что вы потеряли контроль над кораблём. Чтобы корабль не попал в чужие руки, ему пришлось запустить механизм самоуничтожения. От корабля остался лишь кратер.\n\nВам придётся найти другой способ покинуть планету.</EscapeShipLost>
 
 	<!-- Caravan meeting -->
 	<CaravanMeetingTitle>Встреча караванов у {0}</CaravanMeetingTitle>
@@ -129,6 +135,7 @@
 	<CaravanMeeting_Trade>Торговать</CaravanMeeting_Trade>
 	<CaravanMeeting_Attack>Напасть</CaravanMeeting_Attack>
 	<CaravanMeeting_MoveOn>Идти дальше</CaravanMeeting_MoveOn>
+	<CaravanMeeting_TradeIncapable>ни один из членов каравана не способен к торговле</CaravanMeeting_TradeIncapable>
 
 	<!-- Caravan request -->
 	<LetterLabelCaravanRequest>Запрос торгового каравана</LetterLabelCaravanRequest>
@@ -148,8 +155,6 @@
 	<ItemStashQuestFeeDemand>{0} предлагает вам информацию о местонахождении тайника с припасами в обмен на {1} серебра.</ItemStashQuestFeeDemand>
 	<ItemStashSitePart_Unknown>К сожалению, {0} не имеет ни малейшего представления, кто или что может охранять этот схрон.</ItemStashSitePart_Unknown>
 	<ItemStashSitePart_Nothing>{0} говорит, что тайник никем не охраняется.</ItemStashSitePart_Nothing>
-	<ItemStashSitePart_Outpost>{0} говорит, что рядом находится вражеский лагерь.</ItemStashSitePart_Outpost>
-	<ItemStashSitePart_Turrets>{0} говорит, что схрон окружён вражескими турелями.</ItemStashSitePart_Turrets>
-	<ItemStashSitePart_Manhunters>{0} говорит, что рядом бродит стая опасных животных.</ItemStashSitePart_Manhunters>
+	<ItemStashSitePart_Part>{0} говорит, что {1}.</ItemStashSitePart_Part>
 
 </LanguageData>
