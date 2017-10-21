@@ -84,12 +84,15 @@
 	<CommandStopAttackFailNotForceAttacking>Сейчас невозможно остановить обстрел.</CommandStopAttackFailNotForceAttacking>
 	<MessageTargetBeyondMaximumRange>Слишком далеко.</MessageTargetBeyondMaximumRange>
 	<MessageTargetBelowMinimumRange>Слишком близко.</MessageTargetBelowMinimumRange>
+	<MessageTurretWontFireBecauseHoldFire>Внимание: стрельба запрещена. Для возобновления отключите режим «Остановить огонь».</MessageTurretWontFireBecauseHoldFire>
 
 	<!-- Ship computer core -->
 	<CommandShipLaunch>Запустить корабль</CommandShipLaunch>
 	<CommandShipLaunchDesc>Запустить корабль в текущей конфигурации.</CommandShipLaunchDesc>
 	<CommandShipLaunchReport>Показать стартовый отчёт</CommandShipLaunchReport>
 	<CommandShipLaunchReportDesc>Показать отчёт о готовности корабля к запуску.</CommandShipLaunchReportDesc>
+	<CommandShipStartup>Активировать корабль</CommandShipStartup>
+	<CommandShipStartupDesc>Активировать компоненты корабля.</CommandShipStartupDesc>
 
 	<!-- Pod -->
 	<CommandPodEject>Извлечь спящего</CommandPodEject>
@@ -134,6 +137,10 @@
 	<CommandSquadAttack>Атаковать</CommandSquadAttack>
 	<CommandSquadAttackDesc>Приказать выбранным поселенцам вместе атаковать заданную цель.</CommandSquadAttackDesc>
 
+	<!-- Melee attack -->
+	<CommandMeleeAttack>Атаковать врукопашную</CommandMeleeAttack>
+	<CommandMeleeAttackDesc>Приказать выбранным поселенцам атаковать заданную цель, используя только кулаки и оружие ближнего боя.</CommandMeleeAttackDesc>
+
 	<!-- Hold fire -->
 	<CommandHoldFire>Остановить огонь</CommandHoldFire>
 	<CommandHoldFireDesc>Прекратить все текущие атаки.</CommandHoldFireDesc>
@@ -163,6 +170,7 @@
 	<!-- Merge caravan -->
 	<CommandMergeCaravans>Объединиться</CommandMergeCaravans>
 	<CommandMergeCaravansDesc>Объединить выбранные караваны в один.</CommandMergeCaravansDesc>
+	<CommandMergeCaravansFailCaravansNotSelected>Выберите караваны, которые хотите объединить. Они должны находиться неподалёку друг от друга.</CommandMergeCaravansFailCaravansNotSelected>
 
 	<!-- Settle -->
 	<CommandSettle>Основать поселение</CommandSettle>

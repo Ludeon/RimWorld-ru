@@ -63,6 +63,8 @@
 	<SaveIsUnknownFormat>Данные сохранены в неизвестном формате и скорее всего не загрузятся корректно.</SaveIsUnknownFormat>
 	<ProblemSavingFile>Возникла проблема с сохранением файла {0}:\n\n{1} Для дополнительной информации посмотрите лог.</ProblemSavingFile>
 	<LoadAnyway>Загрузить в любом случае</LoadAnyway>
+	<ChangeLoadedMods>Загрузить список модов</ChangeLoadedMods>
+	<MissingMods>Некоторые моды недоступны и требуют установки</MissingMods>
 
 	<!-- Player faction naming -->
 	<NamePlayerFactionMessage>{0} предлагает дать имя вашей фракции. Как её назвать?</NamePlayerFactionMessage>
@@ -204,6 +206,13 @@
 	<Addictiveness>Степень вызывания привыкания</Addictiveness>
 	<PackAnimal>Вьючное животное</PackAnimal>
 	<PackAnimalExplanation>Это животное целесообразно использовать в караване для перевозки вещей на большие расстояния.</PackAnimalExplanation>
+	<Skill>Навык</Skill>
+	<SurgerySuccessChanceFactor>Коэфф-т успеха операции</SurgerySuccessChanceFactor>
+	<SurgeryRequireBed>Нужна кровать</SurgeryRequireBed>
+	<WorkSpeedStat>На скорость работы влияет</WorkSpeedStat>
+	<EfficiencyStat>На выход продукта влияет</EfficiencyStat>
+	<ConstructionSkillRequired>Требуемый навык Строительства</ConstructionSkillRequired>
+	<ConstructionSkillRequiredExplanation>Навык Строительства, необходимый для того, чтобы построить этот объект.</ConstructionSkillRequiredExplanation>
 
 	<!-- Trade -->
 	<PositiveBuysNegativeSells>Положительное число — покупка.\nОтрицательное число — продажа.</PositiveBuysNegativeSells>
@@ -222,7 +231,9 @@
 	<ColonyHasNoMore>Больше нечего продавать.</ColonyHasNoMore>
 	<TraderWillNotTrade>Торговец не желает торговать этим товаром.</TraderWillNotTrade>
 	<Negotiator>Переговорщик</Negotiator>
-	<NegotiatorTalkingImpaired>Ваш переговорщик {0} не может хорошо говорить из-за проблем со здоровьем.\n\nЭто отразится на ценах торговли.\n\nПодумайте над использованием более здорового переговорщика.</NegotiatorTalkingImpaired>
+	<NegotiatorTalkingImpaired>Ваш переговорщик, {0}, имеет проблемы с речью.</NegotiatorTalkingImpaired>
+	<NegotiatorHearingImpaired>Ваш переговорщик, {0}, имеет проблемы со слухом.</NegotiatorHearingImpaired>
+	<NegotiatorCapacityImpaired>Это отразится на ценах торговли.\n\nПодумайте над назначением более здорового переговорщика.</NegotiatorCapacityImpaired>
 	<ConfirmTraderShortFunds>У торговца недостаточно серебра, чтобы завершить эту сделку. Всё равно продолжить?</ConfirmTraderShortFunds>
 	<SortBy>Подбор по</SortBy>
 	<TraderTypePrice>тип торговца</TraderTypePrice>
@@ -259,9 +270,11 @@
 	<DaysWorthOfFoodTooltip>Приблизительное количество дней до момента, когда закончится еда.\n\nВ расчёт берётся еда как для людей, так и для животных. Рассматривается пессимистичный сценарий: именно через столько дней без еды останется как минимум один человек или животное.</DaysWorthOfFoodTooltip>
 	<DaysWorthOfFoodTooltip_CanEatLocalPlants>С учётом текущих времени года, температуры и типа местности, травоядные животные предположительно СМОГУТ питаться местными растениями. Хотя условия могут измениться в любой момент.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
 	<DaysWorthOfFoodTooltip_CantEatLocalPlants>С учётом текущих времени года, температуры и типа местности, травоядные животные предположительно НЕ СМОГУТ питаться местными растениями. Хотя условия могут измениться в любой момент.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
-	<DaysWorthOfFoodWarningDialog>Вашему каравану хватит еды только на {0} дней. Люди и животные очень скоро начнут голодать.\n\nВы уверены, что хотите отправить этот караван?</DaysWorthOfFoodWarningDialog>
-	<DaysWorthOfFoodWarningDialog_NoFood>Без еды люди и животные в караване очень скоро начнут голодать.\n\nВы уверены, что хотите отправить этот караван?</DaysWorthOfFoodWarningDialog_NoFood>
-	<CaravanFoodWillRotSoonWarningDialog>Значительная часть запасов еды скоро испортится.\n\nВы уверены, что хотите снарядить караван?</CaravanFoodWillRotSoonWarningDialog>
+	<DaysWorthOfFoodWarningDialog>Вашему каравану хватит еды только на {0} дней. Люди и животные очень скоро начнут голодать.</DaysWorthOfFoodWarningDialog>
+	<DaysWorthOfFoodWarningDialog_NoFood>Без еды люди и животные в караване очень скоро начнут голодать.</DaysWorthOfFoodWarningDialog_NoFood>
+	<CaravanFoodWillRotSoonWarningDialog>Значительная часть запасов еды скоро испортится.</CaravanFoodWillRotSoonWarningDialog>
+	<CaravanIncapableOfSocial>Ни один из членов каравана не способен к дипломатии и торговле.</CaravanIncapableOfSocial>
+	<CaravanAreYouSure>Вы уверены, что хотите отправить этот караван?</CaravanAreYouSure>
 	<NoExitDirectionForCaravanChosen>Нужно выбрать направление выхода с карты.</NoExitDirectionForCaravanChosen>
 	<NoCaravanExitDirectionAvailable>(нет доступных направлений выхода)</NoCaravanExitDirectionAvailable>
 	<ExitDirection>Направление выхода</ExitDirection>
@@ -279,7 +292,7 @@
 	<PrisonersSection>Заключённые</PrisonersSection>
 	<AnimalsSection>Животные</AnimalsSection>
 	<EstimatedTimeToDestinationButton>Время пути до места назн.</EstimatedTimeToDestinationButton>
-
+	<AbandonButton>Покинуть</AbandonButton>
 
 	<!-- Split caravan -->
 	<SplitCaravan>Разделить караван</SplitCaravan>
@@ -376,11 +389,11 @@
 	<ConfirmLeavePrisonersOrAnimalsBehind>В этом месте вы оставили кого-то из заключённых или животных. В данный момент ваш караван — единственная группа, к которой они могут присоединиться.\n\nЕсли вы двинетесь в путь, они не смогут покинуть это место, пока вы не вернётесь. Однако заключённые могут сбежать.\n\nЕсли вы подождёте, заключённые и животные присоединятся к каравану при первой возможности.\n\nВы уверены, что хотите двинуться в путь?</ConfirmLeavePrisonersOrAnimalsBehind>
 
 	<!-- Abandon pawn -->
-	<ConfirmAbandonPawnDialog>Вы действительно хотите оставить здесь {0}?</ConfirmAbandonPawnDialog>
-	<ConfirmAbandonPawnDialog_LeftToDie>{0} скорее всего погибнет.</ConfirmAbandonPawnDialog_LeftToDie>
-	<ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} возьмёт себе следующие вещи:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
-	<ConfirmAbandonPawnDialog_AllColonistsThoughts>Все поселенцы будет расстроены следующими мыслями:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
-	<ConfirmAbandonPawnDialog_IndividualThoughts>То, что вы бросили {0} на произвол судьбы, отразится на настроении этих людей:</ConfirmAbandonPawnDialog_IndividualThoughts>
+	<ConfirmBanishPawnDialog>Вы действительно хотите оставить здесь {0}?</ConfirmBanishPawnDialog>
+	<ConfirmBanishPawnDialog_LeftToDie>{0} скорее всего погибнет.</ConfirmBanishPawnDialog_LeftToDie>
+	<ConfirmBanishPawnDialog_EquipmentAndApparel>{0} возьмёт себе следующие вещи:</ConfirmBanishPawnDialog_EquipmentAndApparel>
+	<ConfirmBanishPawnDialog_AllColonistsThoughts>Все поселенцы будет расстроены следующими мыслями:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+	<ConfirmBanishPawnDialog_IndividualThoughts>То, что вы бросили {0} на произвол судьбы, отразится на настроении этих людей:</ConfirmBanishPawnDialog_IndividualThoughts>
 
 	<!-- Send transport pods which are not completely loaded -->
 	<ConfirmSendNotCompletelyLoadedPods>Группа капсул загружена не до конца. {0} отсутствует. Всё равно запустить?</ConfirmSendNotCompletelyLoadedPods>
