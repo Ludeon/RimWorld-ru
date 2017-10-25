@@ -53,6 +53,8 @@
 	<RuinedByTemperature>Испортилось из-за температурных условий.</RuinedByTemperature>
 	<CorpsePercentMissing>Отсутствуют части тела</CorpsePercentMissing>
 	<HiveReproducesIn>Расплодится через</HiveReproducesIn>
+	<DormantHiveNotReproducing>Не воспроизводится: в спячке.</DormantHiveNotReproducing>
+	<NextSpawnedItemIn>След. {0} через</NextSpawnedItemIn>
 	<BrokenDown>Сломано</BrokenDown>
 	<BondBrackets>(привяз-ть)</BondBrackets>
 	<Fuel>Топливо</Fuel>
@@ -79,6 +81,7 @@
 	<CaravanHoursPerTile>ч на клетку</CaravanHoursPerTile>
 	<CaravanBaseMovementTime>Базовое время пути</CaravanBaseMovementTime>
 	<CurrentTileMovementTime>Время пути через текущую клетку</CurrentTileMovementTime>
+	<StealthFactor>Скрытность</StealthFactor>
 	<Temperature>Температура</Temperature>
 	<BadTemperature>неподходящая температура</BadTemperature>
 	<IdealFermentingTemperature>Идеальная температура для брожения</IdealFermentingTemperature>
@@ -123,6 +126,12 @@
 	<KnownSiteThreat>Угроза: {0}.</KnownSiteThreat>
 	<KnownSiteThreats>Угрозы: {0}.</KnownSiteThreats>
 	<KnownSiteThreatsNone>Угроз нет.</KnownSiteThreatsNone>
+	<SkillRequirements>Требования</SkillRequirements>
+	<Products>Ингредиенты</Products>
+	<DeepDrillExhausted>Глубинное месторождение истощено.</DeepDrillExhausted>
+	<Relationship>{0} из {1}</Relationship>
+	<Prisoner>Заключённый</Prisoner>
+	<Refugee>Беженец</Refugee>
 
 	<!-- Fermentation barrel -->
 	<ContainsWort>Содержит {0} / {1} сусла.</ContainsWort>
@@ -184,19 +193,22 @@
 	<!-- Job reports -->
 	<ReportHaulingTo>несёт {0} на {1}.</ReportHaulingTo>
 	<ReportHauling>несёт {0}.</ReportHauling>
+	<ReportHaulingUnknown>несёт груз.</ReportHaulingUnknown>
 	<ReportSleeping>спит.</ReportSleeping>
 	<ReportResting>отдыхает.</ReportResting>
-	<WatchingSunrise>наблюдет за восходом.</WatchingSunrise>
+	<WatchingSunrise>любуется восходом.</WatchingSunrise>
 	<CloudWatching>наблюдает за облаками.</CloudWatching>
-	<WatchingSunset>наблюдает за закатом.</WatchingSunset>
+	<WatchingSunset>любуется закатом.</WatchingSunset>
 	<Stargazing>смотрит на звёзды.</Stargazing>
 	<WatchingEclipse>наблюдает за затмением.</WatchingEclipse>
+	<WatchingAurora>любуется полярным сиянием.</WatchingAurora>
 	<UsingVerb>использует {0} на {1}.</UsingVerb>
 	<AreaLower>область</AreaLower>
 	<ReportCowering>ищет укрытие.</ReportCowering>
 	<ReportStanding>стоит.</ReportStanding>
 	<ReportExtinguishingFire>тушит пожар.</ReportExtinguishingFire>
 	<ReportExtinguishingFireOn>сбивает огонь с {0}.</ReportExtinguishingFireOn>
+	<ReportDiggingUpCorpse>выкапывает труп.</ReportDiggingUpCorpse>
 
 	<!-- Lord job reports -->
 	<LordReportAttendingMarriageCeremony>Посещает церемонию бракосочетания</LordReportAttendingMarriageCeremony>
@@ -247,6 +259,7 @@
 	<InRestraints>В оковах (движение замедлено)</InRestraints>
 	<Carrying>Переносит</Carrying>
 	<AffectedBy>Влияющие факторы:</AffectedBy>
+	<Queued>В очереди</Queued>
 
 	<!-- Inspector general stuff -->
 	<SelectNextInSquareTip>Выбрать другой предмет на той же клетке.\n\nКлавиша: {0}\n\nТо же самое можно сделать, щёлкнув по этой клетке ещё раз.</SelectNextInSquareTip>
@@ -266,6 +279,7 @@
 	<PowerOutput>Энерговыработка</PowerOutput>
 	<PowerBatteryStored>Заряд</PowerBatteryStored>
 	<PowerBatteryEfficiency>КПД</PowerBatteryEfficiency>
+	<SelfDischarging>Разряжается</SelfDischarging>
 
 	<!-- Temperature control -->
 	<TargetTemperature>Заданная температура</TargetTemperature>
@@ -312,6 +326,8 @@
 	<GrowYearRound>Круглый год</GrowYearRound>
 	<GrowSeasonHereNow>Сейчас сезон роста.</GrowSeasonHereNow>
 	<CannotGrowBadSeasonTemperature>Не может расти (неподходящий температурный сезон).</CannotGrowBadSeasonTemperature>
+	<Blighted>Поражено болезнью</Blighted>
+	<DyingBecauseExposedToLight>Погибает на свету</DyingBecauseExposedToLight>
 
 	<!-- Zones -->
 	<Zone>Зона</Zone>
@@ -341,7 +357,8 @@
 	<ShowRoofOverlayToggleButton>Отображение крыш.</ShowRoofOverlayToggleButton>
 	<LockNorthUpToggleButton>Зафиксировать камеру так, чтобы север был сверху.</LockNorthUpToggleButton>
 	<UsePlanetDayNightSystemToggleButton>Отображение зон дня и ночи.</UsePlanetDayNightSystemToggleButton>
-	<ExpandingIconsToggleButton>Отображение раскрываемых иконок вместо обычных для далёких объектов.</ExpandingIconsToggleButton>
+	<ShowExpandingIconsToggleButton>Отображение раскрываемых иконок вместо обычных для далёких объектов.</ShowExpandingIconsToggleButton>
+	<ShowWorldFeaturesToggleButton>Видимость названий для форм рельефа.</ShowWorldFeaturesToggleButton>
 
 	<!-- Fire -->
 	<Fire>Огонь</Fire>
@@ -380,7 +397,13 @@
 	<ShipReportCannotLaunch>Нельзя запустить.</ShipReportCannotLaunch>
 	<ShipReportCanLaunch>Готов к запуску.</ShipReportCanLaunch>
 	<ShipReportMissingPart>Нет критически важных модулей</ShipReportMissingPart>
+	<ShipReportMissingPartRequires>требуется</ShipReportMissingPartRequires>
 	<ShipReportNoFullPods>Нет заполненных контейнеров криптосна.</ShipReportNoFullPods>
+	<ShipReportHibernating>Модуль неактивен</ShipReportHibernating>
+	<ShipReportNotReady>Модуль не готов</ShipReportNotReady>
+	<HibernateWarning>Шарлон Вайтстоун готов приступить к запуску реактора.\n\nОн предупреждает, что процесс займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание разного рода налётчиков и охотников за сокровищами. Убедитесь, что готовы к обороне.</HibernateWarning>
+	<HibernateCompleteLabel>Реактор готов к работе</HibernateCompleteLabel>
+	<HibernateComplete>Шарлон Вайтстоун завершил процедуру запуска реактора. Теперь он сможет обеспечить взлёт корабля.</HibernateComplete>
 
 	<!-- Neurotrainer -->
 	<NeurotrainerUsed>{0} совершенствует навык {1} с уровня {2} до уровня {3}, использовав нейротренер.</NeurotrainerUsed>
@@ -489,5 +512,9 @@
 	<OutfitWorker>Рабочая одежда</OutfitWorker>
 	<OutfitSoldier>Солдатская экипировка</OutfitSoldier>
 	<OutfitNudist>Костюм нудиста</OutfitNudist>
+
+	<!-- Hibernatable -->
+	<HibernatableHibernating>Не активен</HibernatableHibernating>
+	<HibernatableStartingUp>Запускается</HibernatableStartingUp>
 
 </LanguageData>
