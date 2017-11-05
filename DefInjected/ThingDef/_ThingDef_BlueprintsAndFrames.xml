@@ -11,11 +11,21 @@
 
 	<SleepingSpot_Blueprint.label>спальное место (проект)</SleepingSpot_Blueprint.label>
 	<SleepingSpot_Frame.label>спальное место (строится)</SleepingSpot_Frame.label>
-	<SleepingSpot_Frame.description>Обозначает место на земле, где должны спать люди. Не комфортно.</SleepingSpot_Frame.description>
+	<SleepingSpot_Frame.description>Обозначает место на земле, где люди должны спать. Не комфортно.</SleepingSpot_Frame.description>
+
+	<Bedroll_Blueprint.label>спальный мешок (проект)</Bedroll_Blueprint.label>
+	<Bedroll_Frame.label>спальный мешок (строится)</Bedroll_Frame.label>
+	<Bedroll_Frame.description>Индивидуальное приспособление для сна и отдыха, изготовленное из ткани или шкур животных. Укладывается прямо на землю или пол. Имеет небольшой вес и может быть свёрнуто для удобства транспортировки. По уровню комфорта уступает обычной кровати.</Bedroll_Frame.description>
+	<Bedroll_Blueprint_Install.label>спальный мешок (проект)</Bedroll_Blueprint_Install.label>
+
+	<BedrollDouble_Blueprint.label>двойной спальный мешок (проект)</BedrollDouble_Blueprint.label>
+	<BedrollDouble_Frame.label>двойной спальный мешок (строится)</BedrollDouble_Frame.label>
+	<BedrollDouble_Frame.description>Приспособление для сна и отдыха двух человек, изготовленное из ткани или шкур животных. Укладывается прямо на землю или пол. Имеет небольшой вес и может быть свёрнуто для удобства транспортировки. По уровню комфорта уступает обычной кровати.</BedrollDouble_Frame.description>
+	<BedrollDouble_Blueprint_Install.label>двойной спальный мешок (проект)</BedrollDouble_Blueprint_Install.label>
 
 	<Bed_Blueprint.label>кровать (проект)</Bed_Blueprint.label>
 	<Bed_Frame.label>кровать (строится)</Bed_Frame.label>
-	<Bed_Frame.description>Уютный матрац и простыни на прочной раме для комфортного отдыха.</Bed_Frame.description>
+	<Bed_Frame.description>Уютный матрац и простыни на прочной раме, для комфортного отдыха.</Bed_Frame.description>
 	<Bed_Blueprint_Install.label>кровать (проект)</Bed_Blueprint_Install.label>
 
 	<DoubleBed_Blueprint.label>двойная кровать (проект)</DoubleBed_Blueprint.label>
@@ -58,7 +68,7 @@
 
 	<DiningChair_Blueprint.label>стул (проект)</DiningChair_Blueprint.label>
 	<DiningChair_Frame.label>стул (строится)</DiningChair_Frame.label>
-	<DiningChair_Frame.description>Удобный и красивый стул для сидения за столом.</DiningChair_Frame.description>
+	<DiningChair_Frame.description>Удобный и красивый стул, для сидения за столом.</DiningChair_Frame.description>
 	<DiningChair_Blueprint_Install.label>стул (проект)</DiningChair_Blueprint_Install.label>
 
 	<Armchair_Blueprint.label>кресло (проект)</Armchair_Blueprint.label>
@@ -68,15 +78,30 @@
 
 	<!--======================= Tables ==============================-->
 
-	<TableShort_Blueprint.label>маленький стол (проект)</TableShort_Blueprint.label>
-	<TableShort_Frame.label>маленький стол (строится)</TableShort_Frame.label>
-	<TableShort_Frame.description>Люди будут есть за столом, если рядом есть стулья.</TableShort_Frame.description>
-	<TableShort_Blueprint_Install.label>маленький стол (проект)</TableShort_Blueprint_Install.label>
-
-	<TableLong_Blueprint.label>большой стол (проект)</TableLong_Blueprint.label>
-	<TableLong_Frame.label>большой стол (строится)</TableLong_Frame.label>
-	<TableLong_Frame.description>Люди будут есть за столом, если рядом есть стулья</TableLong_Frame.description>
-	<TableLong_Blueprint_Install.label>большой стол (проект)</TableLong_Blueprint_Install.label>
+	<EndTable_Blueprint.label>прикроватный столик (проект)</EndTable_Blueprint.label>
+	<EndTable_Frame.label>прикроватный столик (строится)</EndTable_Frame.label>
+	<EndTable_Frame.description>Небольшой прикроватный столик. Добавляет удобства кроватям, если расположен непосредственно рядом с изголовьем. Второй столик не принесёт положительного эффекта.</EndTable_Frame.description>
+	<EndTable_Blueprint_Install.label>прикроватный столик (проект)</EndTable_Blueprint_Install.label>
+	
+	<Table1x2c_Blueprint.label>стол (1x2) (проект)</Table1x2c_Blueprint.label>
+	<Table1x2c_Frame.label>стол (1x2) (строится)</Table1x2c_Frame.label>
+	<Table1x2c_Frame.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Table1x2c_Frame.description>
+	<Table1x2c_Blueprint_Install.label>стол (1x2) (проект)</Table1x2c_Blueprint_Install.label>
+	
+	<Table2x2c_Blueprint.label>стол (2x2) (проект)</Table2x2c_Blueprint.label>
+	<Table2x2c_Frame.label>стол (2x2) (строится)</Table2x2c_Frame.label>
+	<Table2x2c_Frame.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Table2x2c_Frame.description>
+	<Table2x2c_Blueprint_Install.label>стол (2x2) (проект)</Table2x2c_Blueprint_Install.label>
+	
+	<Table2x4c_Blueprint.label>стол (2x4) (проект)</Table2x4c_Blueprint.label>
+	<Table2x4c_Frame.label>стол (2x4) (строится)</Table2x4c_Frame.label>
+	<Table2x4c_Frame.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Table2x4c_Frame.description>
+	<Table2x4c_Blueprint_Install.label>стол (2x4) (проект)</Table2x4c_Blueprint_Install.label>
+	
+	<Table3x3c_Blueprint.label>стол (3x3) (проект)</Table3x3c_Blueprint.label>
+	<Table3x3c_Frame.label>стол (3x3) (строится)</Table3x3c_Frame.label>
+	<Table3x3c_Frame.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Table3x3c_Frame.description>
+	<Table3x3c_Blueprint_Install.label>стол (3x3) (проект)</Table3x3c_Blueprint_Install.label>
 
 	<!-- ======================== Plant pot ======================= -->
 
@@ -118,10 +143,15 @@
 
 	<!--============================== Storage ==============================-->
 
-	<Shelf_Blueprint.label>стойка снаряжения (проект)</Shelf_Blueprint.label>
-	<Shelf_Frame.label>стойка снаряжения (строится)</Shelf_Frame.label>
-	<Shelf_Frame.description>Стойка для хранения различного снаряжения.</Shelf_Frame.description>
-	<Shelf_Blueprint_Install.label>стойка снаряжения (проект)</Shelf_Blueprint_Install.label>
+	<Shelf_Blueprint.label>стеллаж (проект)</Shelf_Blueprint.label>
+	<Shelf_Frame.label>стеллаж (строится)</Shelf_Frame.label>
+	<Shelf_Frame.description>Хранимые в стеллаже предметы не будут портиться, даже если стеллаж расположить вне помещения.</Shelf_Frame.description>
+	<Shelf_Blueprint_Install.label>стеллаж (проект)</Shelf_Blueprint_Install.label>
+
+	<Dresser_Blueprint.label>комод (проект)</Dresser_Blueprint.label>
+	<Dresser_Frame.label>комод (строится)</Dresser_Frame.label>
+	<Dresser_Frame.description>Добавляет удобства кроватям, стоящим рядом. Второй комод не принесёт положительного эффекта.</Dresser_Frame.description>
+	<Dresser_Blueprint_Install.label>комод (проект)</Dresser_Blueprint_Install.label>
 
 	<!--============================== From Buldings_Joy ==============================-->
 
@@ -134,6 +164,16 @@
 	<ChessTable_Frame.label>шахматный стол (строится)</ChessTable_Frame.label>
 	<ChessTable_Frame.description>Древняя настольная игра. Игроки по очереди делают ходы черными и белыми фигурами по определённым правилам. Можно практиковаться в одиночку.</ChessTable_Frame.description>
 	<ChessTable_Blueprint_Install.label>шахматный стол (проект)</ChessTable_Blueprint_Install.label>
+
+	<HoopstoneRing_Blueprint.label>кольцо для бросания камней (проект)</HoopstoneRing_Blueprint.label>
+	<HoopstoneRing_Frame.label>кольцо для бросания камней (строится)</HoopstoneRing_Frame.label>
+	<HoopstoneRing_Frame.description>Старинная простая игра. Большое кольцо располагается на земле. Играющие бросают камни с расстояния, пытаясь в него попасть. Это расслабляет, а также тренирует координацию и меткость.</HoopstoneRing_Frame.description>
+	<HoopstoneRing_Blueprint_Install.label>кольцо для бросания камней (проект)</HoopstoneRing_Blueprint_Install.label>
+	
+	<PokerTable_Blueprint.label>стол для покера (проект)</PokerTable_Blueprint.label>
+	<PokerTable_Frame.label>стол для покера (строится)</PokerTable_Frame.label>
+	<PokerTable_Frame.description>Стол для азартных карточных игр, таких как покер. Хороший способ испытать своё стратегическое мышление и удачу.</PokerTable_Frame.description>
+	<PokerTable_Blueprint_Install.label>стол для покера (проект)</PokerTable_Blueprint_Install.label>
 
 	<BilliardsTable_Blueprint.label>бильярдный стол (проект)</BilliardsTable_Blueprint.label>
 	<BilliardsTable_Frame.label>бильярдный стол (строится)</BilliardsTable_Frame.label>
@@ -253,9 +293,13 @@
 	<PowerConduit_Frame.label>кабель (строится)</PowerConduit_Frame.label>
 	<PowerConduit_Frame.description>Набор электрических проводов для передачи электроэнергии. Может быть размещён под стенами и другими постройками.</PowerConduit_Frame.description>
 
-	<FueledGenerator_Blueprint.label>топливный генератор (проект)</FueledGenerator_Blueprint.label>
-	<FueledGenerator_Frame.label>топливный генератор (строится)</FueledGenerator_Frame.label>
-	<FueledGenerator_Frame.description>Производит электричество, сжигая дерево. Необходимо заправлять вручную.</FueledGenerator_Frame.description>
+	<WoodFiredGenerator_Blueprint.label>генератор на дровах (проект)</WoodFiredGenerator_Blueprint.label>
+	<WoodFiredGenerator_Frame.label>генератор на дровах (строится)</WoodFiredGenerator_Frame.label>
+	<WoodFiredGenerator_Frame.description>Производит электричество, потребляя в качестве топлива древесину. Необходимо заправлять вручную.</WoodFiredGenerator_Frame.description>
+	
+	<ChemfuelPoweredGenerator_Blueprint.label>генератор на химтопливе (проект)</ChemfuelPoweredGenerator_Blueprint.label>
+	<ChemfuelPoweredGenerator_Frame.label>генератор на химтопливе (строится)</ChemfuelPoweredGenerator_Frame.label>
+	<ChemfuelPoweredGenerator_Frame.description>Производит электричество, потребляя химическое топливо. Необходимо заправлять вручную.</ChemfuelPoweredGenerator_Frame.description>
 
 	<Battery_Blueprint.label>аккумулятор (проект)</Battery_Blueprint.label>
 	<Battery_Frame.label>аккумулятор (строится)</Battery_Frame.label>
@@ -286,7 +330,7 @@
 
 	<TableSculpting_Blueprint.label>мастерская скульптора (проект)</TableSculpting_Blueprint.label>
 	<TableSculpting_Frame.label>мастерская скульптора (строится)</TableSculpting_Frame.label>
-	<TableSculpting_Frame.description>Стол, оборудованный для ваяния скульптур</TableSculpting_Frame.description>
+	<TableSculpting_Frame.description>Стол, оборудованный для ваяния скульптур.</TableSculpting_Frame.description>
 
 	<TableButcher_Blueprint.label>разделочный стол (проект)</TableButcher_Blueprint.label>
 	<TableButcher_Frame.label>разделочный стол (строится)</TableButcher_Frame.label>
@@ -336,8 +380,8 @@
 	<ElectricSmelter_Frame.label>электроплавильня (строится)</ElectricSmelter_Frame.label>
 	<ElectricSmelter_Frame.description>Извлекает металл из кусков металлолома и других предметов, которые могут содержать металл. Потребляет много энергии.</ElectricSmelter_Frame.description>
 
-	<Refinery_Blueprint.label>Перегонный аппарат (проект)</Refinery_Blueprint.label>
-	<Refinery_Frame.label>Перегонный аппарат (строится)</Refinery_Frame.label>
+	<Refinery_Blueprint.label>перегонный аппарат (проект)</Refinery_Blueprint.label>
+	<Refinery_Frame.label>перегонный аппарат (строится)</Refinery_Frame.label>
 	<Refinery_Frame.description>Используется для перегонки дерева в химическое топливо.</Refinery_Frame.description>
 
 	<ComponentAssemblyBench_Blueprint.label>верстак для сборки компонентов (проект)</ComponentAssemblyBench_Blueprint.label>
@@ -356,15 +400,15 @@
 
 	<ElectricCrematorium_Blueprint.label>электрический крематорий (проект)</ElectricCrematorium_Blueprint.label>
 	<ElectricCrematorium_Frame.label>электрический крематорий (строится)</ElectricCrematorium_Frame.label>
-	<ElectricCrematorium_Frame.description>Сжигает трупы. Требует электричесто</ElectricCrematorium_Frame.description>
+	<ElectricCrematorium_Frame.description>Сжигает трупы. Требует электричество.</ElectricCrematorium_Frame.description>
 
 	<HydroponicsBasin_Blueprint.label>гидропонная ферма (проект)</HydroponicsBasin_Blueprint.label>
 	<HydroponicsBasin_Frame.label>гидропонная ферма (строится)</HydroponicsBasin_Frame.label>
-	<HydroponicsBasin_Frame.description>Позволяет быстро выращивать растения в искуственной питательной среде. Требует электроэнергию; растения умрут, если её не будет.</HydroponicsBasin_Frame.description>
+	<HydroponicsBasin_Frame.description>Позволяет быстро выращивать растения в искусственной питательной среде. Требует электроэнергию; растения умрут, если её не будет.</HydroponicsBasin_Frame.description>
 
 	<FermentingBarrel_Blueprint.label>бочка для брожения (проект)</FermentingBarrel_Blueprint.label>
 	<FermentingBarrel_Frame.label>бочка для брожения (строится)</FermentingBarrel_Frame.label>
-	<FermentingBarrel_Frame.description>Бочка для получения пива из сусла путём брожения</FermentingBarrel_Frame.description>
+	<FermentingBarrel_Frame.description>Бочка для получения пива из сусла путём брожения.</FermentingBarrel_Frame.description>
 	<FermentingBarrel_Blueprint_Install.label>бочка для брожения (проект)</FermentingBarrel_Blueprint_Install.label>
 
 	<DeepDrill_Blueprint.label>буровая установка (проект)</DeepDrill_Blueprint.label>
@@ -394,34 +438,36 @@
 
 	<!--=============== Mortar turret ===============-->
 
-	<Turret_MortarBomb_Blueprint.label>миномёт (проект)</Turret_MortarBomb_Blueprint.label>
-	<Turret_MortarBomb_Frame.label>миномёт (строится)</Turret_MortarBomb_Frame.label>
-	<Turret_MortarBomb_Frame.description>Миномёт, который запускает осколочные снаряды. Для управления требует одного поселенца. При повреждении взрывается.</Turret_MortarBomb_Frame.description>
-	<Turret_MortarBomb_Blueprint_Install.label>миномёт (проект)</Turret_MortarBomb_Blueprint_Install.label>
-
-	<Turret_MortarIncendiary_Blueprint.label>зажигательный миномёт (проект)</Turret_MortarIncendiary_Blueprint.label>
-	<Turret_MortarIncendiary_Frame.label>зажигательный миномёт (строится)</Turret_MortarIncendiary_Frame.label>
-	<Turret_MortarIncendiary_Frame.description>Миномёт, который запускает зажигательные снаряды. Для управления требует одного поселенца. При повреждении взрывается.</Turret_MortarIncendiary_Frame.description>
-	<Turret_MortarIncendiary_Blueprint_Install.label>зажигательный миномёт (проект)</Turret_MortarIncendiary_Blueprint_Install.label>
-
-	<Turret_MortarEMP_Blueprint.label>ЭМИ-миномёт (проект)</Turret_MortarEMP_Blueprint.label>
-	<Turret_MortarEMP_Frame.label>ЭМИ-миномёт (строится)</Turret_MortarEMP_Frame.label>
-	<Turret_MortarEMP_Frame.description>Миномёт, который запускает ЭМИ-снаряды. Для управления требует одного поселенца. При повреждении взрывается.</Turret_MortarEMP_Frame.description>
-	<Turret_MortarEMP_Blueprint_Install.label>ЭМИ-миномёт (проект)</Turret_MortarEMP_Blueprint_Install.label>
-
+	<Turret_Mortar_Blueprint.label>миномёт (проект)</Turret_Mortar_Blueprint.label>
+	<Turret_Mortar_Frame.label>миномёт (строится)</Turret_Mortar_Frame.label>
+	<Turret_Mortar_Frame.description>Миномёт, запускающий снаряды всех видов. Требует оператора. При повреждении взрывается.</Turret_Mortar_Frame.description>
+	<Turret_Mortar_Blueprint_Install.label>миномёт (проект)</Turret_Mortar_Blueprint_Install.label>
+	
 	<!--==================== Traps ========================-->
 
 	<TrapDeadfall_Blueprint.label>ловушка (проект)</TrapDeadfall_Blueprint.label>
 	<TrapDeadfall_Frame.label>ловушка (строится)</TrapDeadfall_Frame.label>
 	<TrapDeadfall_Frame.description>Простая, но эффективная ловушка.</TrapDeadfall_Frame.description>
 
-	<TrapIEDBomb_Blueprint.label>осколочное СВУ (проект)</TrapIEDBomb_Blueprint.label>
-	<TrapIEDBomb_Frame.label>осколочное СВУ (строится)</TrapIEDBomb_Frame.label>
-	<TrapIEDBomb_Frame.description>Самодельное взрывное устройство — артиллерийский снаряд, присоединённый к импровизированному спусковому механизму. Когда кто-нибудь активирует ловушку, снаряд взорвётся. Мина сдетонирует после случайной задержки, что может позволить убежать проворному противнику.</TrapIEDBomb_Frame.description>
-
-	<TrapIEDIncendiary_Blueprint.label>зажигательное СВУ (проект)</TrapIEDIncendiary_Blueprint.label>
-	<TrapIEDIncendiary_Frame.label>зажигательное СВУ (строится)</TrapIEDIncendiary_Frame.label>
-	<TrapIEDIncendiary_Frame.description>Самодельное взрывное устройство зажигательного типа — взрывчатка, смешанная с горючим веществом и подключённая к распылителю. Имеет простой и надежный механизм активации.</TrapIEDIncendiary_Frame.description>
+	<TrapIED_HighExplosive_Blueprint.label>осколочное СВУ (проект)</TrapIED_HighExplosive_Blueprint.label>
+	<TrapIED_HighExplosive_Frame.label>осколочное СВУ (строится)</TrapIED_HighExplosive_Frame.label>
+	<TrapIED_HighExplosive_Frame.description>Самодельное взрывное устройство — артиллерийский снаряд, присоединённый к импровизированному спусковому механизму. Когда кто-нибудь активирует ловушку, снаряд взорвётся. Мина сдетонирует после случайной задержки, что может позволить убежать проворному противнику.</TrapIED_HighExplosive_Frame.description>
+	
+	<TrapIED_Incendiary_Blueprint.label>зажигательное СВУ (проект)</TrapIED_Incendiary_Blueprint.label>
+	<TrapIED_Incendiary_Frame.label>зажигательное СВУ (строится)</TrapIED_Incendiary_Frame.label>
+	<TrapIED_Incendiary_Frame.description>Самодельное взрывное устройство зажигательного типа — взрывчатка, смешанная с горючим веществом и подключённая к распылителю. Имеет простой и надёжный механизм активации.</TrapIED_Incendiary_Frame.description>
+	
+	<TrapIED_EMP_Blueprint.label>ЭМ-ловушка (проект)</TrapIED_EMP_Blueprint.label>
+	<TrapIED_EMP_Frame.label>ЭМ-ловушка (строится)</TrapIED_EMP_Frame.label>
+	<TrapIED_EMP_Frame.description>Простая ловушка, состоящая из ЭМИ-снаряда и импровизированного спускового механизма. Электромагнитный импульс парализует механических существ на несколько секунд. Активируется также и теми, кто не подвержен негативному воздействию ЭМИ.</TrapIED_EMP_Frame.description>
+	
+	<TrapIED_Firefoam_Blueprint.label>пенная ловушка (проект)</TrapIED_Firefoam_Blueprint.label>
+	<TrapIED_Firefoam_Frame.label>пенная ловушка (строится)</TrapIED_Firefoam_Frame.label>
+	<TrapIED_Firefoam_Frame.description>Когда кто-либо активирует спуской механизм, вокруг распылится пожарная пена.</TrapIED_Firefoam_Frame.description>
+	
+	<TrapIED_AntigrainWarhead_Blueprint.label>гранульное СВУ (проект)</TrapIED_AntigrainWarhead_Blueprint.label>
+	<TrapIED_AntigrainWarhead_Frame.label>гранульное СВУ (строится)</TrapIED_AntigrainWarhead_Frame.label>
+	<TrapIED_AntigrainWarhead_Frame.description>Боевая часть гранульного снаряда, присоединённая к импровизированному спусковому механизму. При активации происходит взрыв большой силы с последующим возгоранием.</TrapIED_AntigrainWarhead_Frame.description>
 
 	<!--============================== From Buldings_Ship ==============================-->
 
@@ -444,6 +490,10 @@
 	<Ship_Engine_Blueprint.label>корабельный двигатель (проект)</Ship_Engine_Blueprint.label>
 	<Ship_Engine_Frame.label>корабельный двигатель (строится)</Ship_Engine_Frame.label>
 	<Ship_Engine_Frame.description>Импульсный двигатель, работающий на антиматерии. Способен вывести корабль на орбиту или межзвёздную траекторию.</Ship_Engine_Frame.description>
+
+	<Ship_SensorCluster_Blueprint.label>сенсорный кластер (проект)</Ship_SensorCluster_Blueprint.label>
+	<Ship_SensorCluster_Frame.label>сенсорный кластер (строится)</Ship_SensorCluster_Frame.label>
+	<Ship_SensorCluster_Frame.description>Сенсоры дальнего радиуса действия, сканирующие пространство в поисках возможных опасностей и полезных находок.</Ship_SensorCluster_Frame.description>
 
 	<!--============================== From Buldings_Structure ==============================-->
 
@@ -485,6 +535,13 @@
 	<Vent_Blueprint.label>вентиляция (проект)</Vent_Blueprint.label>
 	<Vent_Frame.label>вентиляция (строится)</Vent_Frame.label>
 	<Vent_Frame.description>Обычные вентиляционные трубы, которые позволяют воздуху циркулировать между двумя соседними помещениями.</Vent_Frame.description>
+
+	<PsychicEmanator_Blueprint_Install.label>пси-излучатель (проект)</PsychicEmanator_Blueprint_Install.label>
+	
+	<VanometricPowerCell_Blueprint_Install.label>ванометрический генератор (проект)</VanometricPowerCell_Blueprint_Install.label>
+	
+	<InfiniteChemreactor_Blueprint_Install.label>вечный синтезатор химтоплива (проект)</InfiniteChemreactor_Blueprint_Install.label>
+
 
 	<!--====================== From TerrainDef->Terrain_Floors ==============================-->
 
