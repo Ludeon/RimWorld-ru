@@ -5,7 +5,11 @@
 
 Данный перевод постоянно исправляется и дорабатывается. И если вам не хочется ждать следующего обновления игры, вы можете скачать актуальную версию отсюда. Для этого нужно:
 
-1. Скачать [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip) основной ветки перевода с GitHub. Также вы можете склонировать сам [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru).
+1. Скачать архив или клонировать репозиторий, соответствующий вашей версии игры:
+	* последняя текущая: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru)
+	* A-17: [архив](https://github.com/Ludeon/RimWorld-ru/archive/alpha-17.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/alpha-17)
+	* A-16: [архив](https://github.com/Ludeon/RimWorld-ru/archive/alpha-16.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/alpha-16)
+	* A-15: [архив](https://github.com/Ludeon/RimWorld-ru/archive/alpha-15.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/alpha-15)
 2. Переместить папку перевода по пути:
 `<путь к папке игры>\Mods\Core\Languages\`.
 Для Steam-версии путь может выглядеть примерно вот так:
