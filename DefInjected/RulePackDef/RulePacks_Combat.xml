@@ -91,14 +91,15 @@
 	<Combat_MeleeIncludes.rulePack.rulesStrings.72>painevent->из-за ранения</Combat_MeleeIncludes.rulePack.rulesStrings.72>
 	<Combat_MeleeIncludes.rulePack.rulesStrings.73>painevent->от полученной раны</Combat_MeleeIncludes.rulePack.rulesStrings.73>
 
-	<Combat_MeleeIncludes.rulePack.rulesStrings.74>mortarshell->shell</Combat_MeleeIncludes.rulePack.rulesStrings.74>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.75>mortarshell->shot</Combat_MeleeIncludes.rulePack.rulesStrings.75>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.76>mortarshell->projectile</Combat_MeleeIncludes.rulePack.rulesStrings.76>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.77>mortarshell->explosive</Combat_MeleeIncludes.rulePack.rulesStrings.77>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.78>mortarshell->bomb</Combat_MeleeIncludes.rulePack.rulesStrings.78>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.79>mortarshell(p=0.3)->ballistic shell</Combat_MeleeIncludes.rulePack.rulesStrings.79>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.80>mortarshell(p=0.3)->ballistic shot</Combat_MeleeIncludes.rulePack.rulesStrings.80>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.81>mortarshell(p=0.3)->ballistic projectile</Combat_MeleeIncludes.rulePack.rulesStrings.81>
+	<!-- в родительном падеже, для контекстов -->
+	<Combat_MeleeIncludes.rulePack.rulesStrings.74>mortarshell->снаряда</Combat_MeleeIncludes.rulePack.rulesStrings.74>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.75>mortarshell->артиллерийского снаряда</Combat_MeleeIncludes.rulePack.rulesStrings.75>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.76>mortarshell->мины</Combat_MeleeIncludes.rulePack.rulesStrings.76>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.77>mortarshell->миномётного снаряда</Combat_MeleeIncludes.rulePack.rulesStrings.77>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.78>mortarshell(p=0.3)->баллистического снаряда</Combat_MeleeIncludes.rulePack.rulesStrings.78>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.79>reserved->reserved</Combat_MeleeIncludes.rulePack.rulesStrings.79>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.80>reserved->reserved</Combat_MeleeIncludes.rulePack.rulesStrings.80>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.81>reserved->reserved</Combat_MeleeIncludes.rulePack.rulesStrings.81>
 
 	<Combat_MeleeIncludes.rulePack.rulesStrings.82>to->в</Combat_MeleeIncludes.rulePack.rulesStrings.82>
 	<Combat_MeleeIncludes.rulePack.rulesStrings.83>to->в</Combat_MeleeIncludes.rulePack.rulesStrings.83>
@@ -426,17 +427,17 @@
 
 	<Combat_ExplosionImpact.rulePack.rulesStrings.0>prefix(p=2)->[blast] [weapon_projectile_label] [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.0>
 	<Combat_ExplosionImpact.rulePack.rulesStrings.1>prefix(p=2)->[blast] от попадания из [weapon_label] [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.1>
-	<Combat_ExplosionImpact.rulePack.rulesStrings.2>prefix(p=2)->[blast] от попадания [mortarshell] [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.2>
-	<Combat_ExplosionImpact.rulePack.rulesStrings.3>reserved->reserved</Combat_ExplosionImpact.rulePack.rulesStrings.3>
-	<Combat_ExplosionImpact.rulePack.rulesStrings.4>reserved->reserved</Combat_ExplosionImpact.rulePack.rulesStrings.4>
-	<Combat_ExplosionImpact.rulePack.rulesStrings.5>reserved->reserved</Combat_ExplosionImpact.rulePack.rulesStrings.5>
-	<Combat_ExplosionImpact.rulePack.rulesStrings.6>prefix(p=2)->[blast] от попадания [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.6>
-	<Combat_ExplosionImpact.rulePack.rulesStrings.7>prefix(p=2)->[blast] от попадания [weapon_projectile_label] [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.7>
+	<Combat_ExplosionImpact.rulePack.rulesStrings.2>prefix(p=3)->[blast] [mortarshell] [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.2>
+	<Combat_ExplosionImpact.rulePack.rulesStrings.3>prefix(p=2)->[blast] от попадания [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.3>
+	<Combat_ExplosionImpact.rulePack.rulesStrings.4>prefix(p=2)->[blast] от попадания [weapon_projectile_label] [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.4>
+	<Combat_ExplosionImpact.rulePack.rulesStrings.5>prefix->[weapon_projectile_label] [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.5>
+	<Combat_ExplosionImpact.rulePack.rulesStrings.6>prefix->[weapon_label] [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.6>
+	<Combat_ExplosionImpact.rulePack.rulesStrings.7>reserved->reserved</Combat_ExplosionImpact.rulePack.rulesStrings.7>
 	<Combat_ExplosionImpact.rulePack.rulesStrings.8>reserved->reserved</Combat_ExplosionImpact.rulePack.rulesStrings.8>
 	<Combat_ExplosionImpact.rulePack.rulesStrings.9>reserved->reserved</Combat_ExplosionImpact.rulePack.rulesStrings.9>
-	<Combat_ExplosionImpact.rulePack.rulesStrings.10>prefix->[weapon_projectile_label] [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.10>
-	<Combat_ExplosionImpact.rulePack.rulesStrings.11>prefix->[mortarshell] [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.11>
-	<Combat_ExplosionImpact.rulePack.rulesStrings.12>prefix->[weapon_label] [initiator_definite]</Combat_ExplosionImpact.rulePack.rulesStrings.12>
+	<Combat_ExplosionImpact.rulePack.rulesStrings.10>reserved->reserved</Combat_ExplosionImpact.rulePack.rulesStrings.10>
+	<Combat_ExplosionImpact.rulePack.rulesStrings.11>reserved->reserved</Combat_ExplosionImpact.rulePack.rulesStrings.11>
+	<Combat_ExplosionImpact.rulePack.rulesStrings.12>reserved->reserved</Combat_ExplosionImpact.rulePack.rulesStrings.12>
 
 	<Combat_ExplosionImpact.rulePack.rulesStrings.13>logentry->[prefix] [injured] [recipient_definite].</Combat_ExplosionImpact.rulePack.rulesStrings.13>
 
