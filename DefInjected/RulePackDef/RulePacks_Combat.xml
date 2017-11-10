@@ -35,18 +35,18 @@
 	<Combat_MeleeIncludes.rulePack.rulesStrings.31>destroyed(p=0.5)->разрушает</Combat_MeleeIncludes.rulePack.rulesStrings.31>
 	<Combat_MeleeIncludes.rulePack.rulesStrings.32>destroyed(p=0.5)->повреждает</Combat_MeleeIncludes.rulePack.rulesStrings.32>
 
-	<Combat_MeleeIncludes.rulePack.rulesStrings.33>result(p=0.5)->[maneuverresult_present] [recipient_possessive] [targetlist]</Combat_MeleeIncludes.rulePack.rulesStrings.33>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.34>result(p=0.2)->[flavortextadverb] [maneuverresult_present] [recipient_possessive] [targetlist]</Combat_MeleeIncludes.rulePack.rulesStrings.34>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.35>result(p=0.2)->[flavortextsituation] [maneuverresult_present] [recipient_possessive] [targetlist]</Combat_MeleeIncludes.rulePack.rulesStrings.35>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.36>result(p=0.2)->[maneuverresult_present] [recipient_possessive] [targetlist], [flavortextconsequence]</Combat_MeleeIncludes.rulePack.rulesStrings.36>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.33>result(p=0.5)->[damaged_participle] [recipient_possessive] [targetlist]</Combat_MeleeIncludes.rulePack.rulesStrings.33>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.34>result(p=0.2)->[flavortextadverb] [damaged_participle] [recipient_possessive] [targetlist]</Combat_MeleeIncludes.rulePack.rulesStrings.34>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.35>result(p=0.2)->[flavortextsituation] [damaged_participle] [recipient_possessive] [targetlist]</Combat_MeleeIncludes.rulePack.rulesStrings.35>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.36>result(p=0.2)->[damaged_participle] [recipient_possessive] [targetlist], [flavortextconsequence]</Combat_MeleeIncludes.rulePack.rulesStrings.36>
 
 	<Combat_MeleeIncludes.rulePack.rulesStrings.23>targetlist(recipient_part_count==1)->[recipient_part0_label]</Combat_MeleeIncludes.rulePack.rulesStrings.23>
 	<Combat_MeleeIncludes.rulePack.rulesStrings.24>targetlist(recipient_part_count==2)->[recipient_part0_label] и [recipient_part1_label]</Combat_MeleeIncludes.rulePack.rulesStrings.24>
 	<Combat_MeleeIncludes.rulePack.rulesStrings.25>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label] и [recipient_part2_label]</Combat_MeleeIncludes.rulePack.rulesStrings.25>
 	<Combat_MeleeIncludes.rulePack.rulesStrings.26>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label] и [recipient_part3_label]</Combat_MeleeIncludes.rulePack.rulesStrings.26>
 
-	<Combat_MeleeIncludes.rulePack.rulesStrings.27>maneuverresult_present->раня</Combat_MeleeIncludes.rulePack.rulesStrings.27>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.28>maneuverresult_present->поражая</Combat_MeleeIncludes.rulePack.rulesStrings.28>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.27>damaged_participle->раня</Combat_MeleeIncludes.rulePack.rulesStrings.27>
+	<Combat_MeleeIncludes.rulePack.rulesStrings.28>damaged_participle->поражая</Combat_MeleeIncludes.rulePack.rulesStrings.28>
 
 	<Combat_MeleeIncludes.rulePack.rulesStrings.37>flavortextadverb->болезненно</Combat_MeleeIncludes.rulePack.rulesStrings.37>
 	<Combat_MeleeIncludes.rulePack.rulesStrings.38>flavortextadverb->брутально</Combat_MeleeIncludes.rulePack.rulesStrings.38>
@@ -167,11 +167,11 @@
 
 
 
-	<Combat_Hit.rulePack.rulesStrings.0>logentry(p=0.3)->[initiator_nameShortDef] [maneuver_past] [recipient_nameShortDef] в [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.0>
-	<Combat_Hit.rulePack.rulesStrings.1>logentry(p=0.1)->[initiator_nameShortDef] [flavortextadverb] [maneuver_past] [recipient_nameShortDef] в [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.1>
-	<Combat_Hit.rulePack.rulesStrings.2>logentry(p=0.1)->[initiator_nameShortDef][flavortextsituation] [maneuver_past] [recipient_nameShortDef] в [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.2>
-	<Combat_Hit.rulePack.rulesStrings.3>logentry(p=0.1)->[initiator_nameShortDef] [maneuver_past] [recipient_nameShortDef] в [recipient_part0_label], [flavortextconsequence].</Combat_Hit.rulePack.rulesStrings.3>
-	<Combat_Hit.rulePack.rulesStrings.4>logentry(p=0.4)->[initiator_nameShortDef], [expertly] орудуя [initiator_possessive] [weapon_label], [flavortextadverb] [maneuver_past] [recipient_nameShortDef] в [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.4>
+	<Combat_Hit.rulePack.rulesStrings.0>logentry(p=0.3)->[initiator_nameShortDef] [damaged] [recipient_nameShortDef] в [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.0>
+	<Combat_Hit.rulePack.rulesStrings.1>logentry(p=0.1)->[initiator_nameShortDef] [flavortextadverb] [damaged] [recipient_nameShortDef] в [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.1>
+	<Combat_Hit.rulePack.rulesStrings.2>logentry(p=0.1)->[initiator_nameShortDef][flavortextsituation] [damaged] [recipient_nameShortDef] в [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.2>
+	<Combat_Hit.rulePack.rulesStrings.3>logentry(p=0.1)->[initiator_nameShortDef] [damaged] [recipient_nameShortDef] в [recipient_part0_label], [flavortextconsequence].</Combat_Hit.rulePack.rulesStrings.3>
+	<Combat_Hit.rulePack.rulesStrings.4>logentry(p=0.4)->[initiator_nameShortDef], [expertly] орудуя [initiator_possessive] [weapon_label], [flavortextadverb] [damaged] [recipient_nameShortDef] в [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.4>
 
 	<!-- combined high priority, if we destroyed something -->
 	<Combat_Hit.rulePack.rulesStrings.5>logentry(p=0.3)->[initiator_nameShortDef] [destroyed] [destroyed_targets] [recipient_nameShortDef].</Combat_Hit.rulePack.rulesStrings.5>
@@ -180,19 +180,19 @@
 	<Combat_Hit.rulePack.rulesStrings.8>logentry(p=0.3)->[initiator_nameShortDef] при помощи [implement] [destroyed] [destroyed_targets] [recipient_nameShortDef].</Combat_Hit.rulePack.rulesStrings.8>
 
 	<Combat_Hit.rulePack.rulesStrings.9>result(p=1,recipient_part_damaged_count==0)->[destroyed_participle] [recipient_possessive] [destroyed_targets]</Combat_Hit.rulePack.rulesStrings.9>
-	<Combat_Hit.rulePack.rulesStrings.10>result(p=1,recipient_part_destroyed_count==0)->[maneuverresult_present] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.10>
-	<Combat_Hit.rulePack.rulesStrings.11>result(p=1)->[destroyed_participle] [recipient_possessive] [destroyed_targets] и [maneuverresult_present] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.11>
+	<Combat_Hit.rulePack.rulesStrings.10>result(p=1,recipient_part_destroyed_count==0)->[damaged_participle] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.10>
+	<Combat_Hit.rulePack.rulesStrings.11>result(p=1)->[destroyed_participle] [recipient_possessive] [destroyed_targets] и [damaged_participle] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.11>
 
 	<Combat_Hit.rulePack.rulesStrings.12>action(p=0.3)->[initiator_nameShortDef] бьёт [recipient_nameShortDef] [maneuver_noun_instr] [implement]</Combat_Hit.rulePack.rulesStrings.12>
-	<Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[initiator_nameShortDef] использует [implement], чтобы [maneuver_inf] [recipient_nameShortDef]</Combat_Hit.rulePack.rulesStrings.13>
-	<Combat_Hit.rulePack.rulesStrings.14>action->[initiator_nameShortDef] [maneuver_past] [recipient_nameShortDef] при помощи [implement]</Combat_Hit.rulePack.rulesStrings.14>
+	<Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[initiator_nameShortDef] использует [implement], чтобы [damaged_inf] [recipient_nameShortDef]</Combat_Hit.rulePack.rulesStrings.13>
+	<Combat_Hit.rulePack.rulesStrings.14>action->[initiator_nameShortDef] [damaged] [recipient_nameShortDef] при помощи [implement]</Combat_Hit.rulePack.rulesStrings.14>
 
 
 
 
 
-	<Combat_FailIncludes.rulePack.rulesStrings.0>action->[initiator_nameShortDef] [tried] [maneuver_inf] [recipient_nameShortDef] при помощи [implement]</Combat_FailIncludes.rulePack.rulesStrings.0>
-	<Combat_FailIncludes.rulePack.rulesStrings.1>action->[initiator_nameShortDef] [tried] применить [implement], чтобы [maneuver_inf] [recipient_nameShortDef]</Combat_FailIncludes.rulePack.rulesStrings.1>
+	<Combat_FailIncludes.rulePack.rulesStrings.0>action->[initiator_nameShortDef] [tried] [damaged_inf] [recipient_nameShortDef] при помощи [implement]</Combat_FailIncludes.rulePack.rulesStrings.0>
+	<Combat_FailIncludes.rulePack.rulesStrings.1>action->[initiator_nameShortDef] [tried] применить [implement], чтобы [damaged_inf] [recipient_nameShortDef]</Combat_FailIncludes.rulePack.rulesStrings.1>
 	<Combat_FailIncludes.rulePack.rulesStrings.2>action->[initiator_nameShortDef] направляет [initiator_possessive] [weapon_label] в сторону [recipient_nameShortDef]</Combat_FailIncludes.rulePack.rulesStrings.2>
 	<Combat_FailIncludes.rulePack.rulesStrings.3>action(p=0.3)->[initiator_nameShortDef] [genericattackverb] в сторону [recipient_nameShortDef] при помощи [implement]</Combat_FailIncludes.rulePack.rulesStrings.3>
 	<Combat_FailIncludes.rulePack.rulesStrings.4>action(p=0.3)->[initiator_nameShortDef] [genericattackverb] [recipient_nameShortDef], используя [implement]</Combat_FailIncludes.rulePack.rulesStrings.4>
@@ -212,8 +212,8 @@
 	<Combat_Miss.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_nameShortDef] избегает [maneuver_noun_gen] [weapon_label] [initiator_nameShortDef].</Combat_Miss.rulePack.rulesStrings.0>
 	<Combat_Miss.rulePack.rulesStrings.1>logentry(p=0.2)->[initiator_nameShortDef] промахивается по [recipient_nameShortDef] [maneuver_noun_instr] [implement].</Combat_Miss.rulePack.rulesStrings.1>
 
-	<Combat_Miss.rulePack.rulesStrings.2>logentry(p=0.2)->[initiator_nameShortDef] [failtype], пытаясь [maneuver_inf] [recipient_nameShortDef] при помощи [implement].</Combat_Miss.rulePack.rulesStrings.2>
-	<Combat_Miss.rulePack.rulesStrings.3>logentry(p=0.2)->[initiator_nameShortDef] [failtype], пытаясь [maneuver_inf] [recipient_nameShortDef].</Combat_Miss.rulePack.rulesStrings.3>
+	<Combat_Miss.rulePack.rulesStrings.2>logentry(p=0.2)->[initiator_nameShortDef] [failtype], пытаясь [damaged_inf] [recipient_nameShortDef] при помощи [implement].</Combat_Miss.rulePack.rulesStrings.2>
+	<Combat_Miss.rulePack.rulesStrings.3>logentry(p=0.2)->[initiator_nameShortDef] [failtype], пытаясь [damaged_inf] [recipient_nameShortDef].</Combat_Miss.rulePack.rulesStrings.3>
 	<Combat_Miss.rulePack.rulesStrings.4>logentry(p=0.2)->[initiator_nameShortDef] [failtype].</Combat_Miss.rulePack.rulesStrings.4>
 
 	<Combat_Miss.rulePack.rulesStrings.5>failtype->спотыкается</Combat_Miss.rulePack.rulesStrings.5>
