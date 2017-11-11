@@ -190,45 +190,46 @@
 
 
 
-	<Poke.rulePack.rulesStrings.0>damaged_inf(p=2)->poke</Poke.rulePack.rulesStrings.0>
-	<Poke.rulePack.rulesStrings.1>damaged_inf(p=2)->jab</Poke.rulePack.rulesStrings.1>
-	<Poke.rulePack.rulesStrings.2>damaged_inf->prod</Poke.rulePack.rulesStrings.2>
-	<Poke.rulePack.rulesStrings.3>damaged_inf->shove</Poke.rulePack.rulesStrings.3>
-	<Poke.rulePack.rulesStrings.4>damaged_inf->stab</Poke.rulePack.rulesStrings.4>
+	<Poke.rulePack.rulesStrings.0>damaged_inf->ткнуть</Poke.rulePack.rulesStrings.0>
+	<Poke.rulePack.rulesStrings.1>damaged_inf->нанести тычковый удар</Poke.rulePack.rulesStrings.1>
 
-	<Poke.rulePack.rulesStrings.5>damaged(p=2)->poked</Poke.rulePack.rulesStrings.5>
-	<Poke.rulePack.rulesStrings.6>damaged(p=2)->jabbed</Poke.rulePack.rulesStrings.6>
-	<Poke.rulePack.rulesStrings.7>damaged->prodded</Poke.rulePack.rulesStrings.7>
-	<Poke.rulePack.rulesStrings.8>damaged->shoved</Poke.rulePack.rulesStrings.8>
-	<Poke.rulePack.rulesStrings.9>damaged->stabbed</Poke.rulePack.rulesStrings.9>
+	<Poke.rulePack.rulesStrings.2>maneuver_noun_gen->тычка</Poke.rulePack.rulesStrings.2>
+	<Poke.rulePack.rulesStrings.3>maneuver_noun_gen->тычкового удара</Poke.rulePack.rulesStrings.3>
+	<Poke.rulePack.rulesStrings.4>maneuver_noun_instr->ударом</Poke.rulePack.rulesStrings.4>
+	<Poke.rulePack.rulesStrings.5>maneuver_noun_instr->тычковым ударом</Poke.rulePack.rulesStrings.5>
 
-	<Poke.rulePack.rulesStrings.10>damaged_participle(p=2)->poking</Poke.rulePack.rulesStrings.10>
-	<Poke.rulePack.rulesStrings.11>damaged_participle(p=2)->jabbing</Poke.rulePack.rulesStrings.11>
-	<Poke.rulePack.rulesStrings.12>damaged_participle->prodding</Poke.rulePack.rulesStrings.12>
-	<Poke.rulePack.rulesStrings.13>damaged_participle->shoving</Poke.rulePack.rulesStrings.13>
-	<Poke.rulePack.rulesStrings.14>damaged_participle->stabbing</Poke.rulePack.rulesStrings.14>
+	<Poke.rulePack.rulesStrings.6>damaged(p=2)->тыкает</Poke.rulePack.rulesStrings.6>
+	<Poke.rulePack.rulesStrings.7>damaged(p=2)->бьёт</Poke.rulePack.rulesStrings.7>
+	<Poke.rulePack.rulesStrings.8>damaged->ушибает</Poke.rulePack.rulesStrings.8>
+	<Poke.rulePack.rulesStrings.9>damaged->давит</Poke.rulePack.rulesStrings.9>
 
-	<Poke.rulePack.rulesStrings.15>flavortextconsequence(recipient_flesh!=Mechanoid)->leaving an enormous bruise</Poke.rulePack.rulesStrings.15>
-	<Poke.rulePack.rulesStrings.16>flavortextconsequence->leaving the area visibly deformed</Poke.rulePack.rulesStrings.16>
-	<Poke.rulePack.rulesStrings.17>flavortextconsequence->knocking [recipient_objective] off balance</Poke.rulePack.rulesStrings.17>
-	<Poke.rulePack.rulesStrings.18>flavortextconsequence->knocking [recipient_objective] to the side</Poke.rulePack.rulesStrings.18>
+	<Poke.rulePack.rulesStrings.10>damaged_participle(p=2)->тыкая</Poke.rulePack.rulesStrings.10>
+	<Poke.rulePack.rulesStrings.11>damaged_participle(p=2)->ушибая</Poke.rulePack.rulesStrings.11>
+	<Poke.rulePack.rulesStrings.12>damaged_participle->давя</Poke.rulePack.rulesStrings.12>
+	<Poke.rulePack.rulesStrings.13>reserved->reserved</Poke.rulePack.rulesStrings.13>
+	<Poke.rulePack.rulesStrings.14>reserved->reserved</Poke.rulePack.rulesStrings.14>
 
-	<Poke.rulePack.rulesStrings.19>destroyed->shattered</Poke.rulePack.rulesStrings.19>
-	<Poke.rulePack.rulesStrings.20>destroyed->crushed</Poke.rulePack.rulesStrings.20>
-	<Poke.rulePack.rulesStrings.21>destroyed->obliterated</Poke.rulePack.rulesStrings.21>
-	<Poke.rulePack.rulesStrings.22>destroyed->annihilated</Poke.rulePack.rulesStrings.22>
-	<Poke.rulePack.rulesStrings.23>destroyed->broke</Poke.rulePack.rulesStrings.23>
+	<Poke.rulePack.rulesStrings.15>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</Poke.rulePack.rulesStrings.15>
+	<Poke.rulePack.rulesStrings.16>flavortextconsequence(target_part_destroyed_count==1)->деформируя эту часть тела</Poke.rulePack.rulesStrings.16>
+	<Poke.rulePack.rulesStrings.17>flavortextconsequence->сбивая [recipient_objective] с ног</Poke.rulePack.rulesStrings.17>
+	<Poke.rulePack.rulesStrings.18>flavortextconsequence->отшвыривая [recipient_objective] в сторону</Poke.rulePack.rulesStrings.18>
 
-	<Poke.rulePack.rulesStrings.24>destroyed_participle->shattering</Poke.rulePack.rulesStrings.24>
-	<Poke.rulePack.rulesStrings.25>destroyed_participle->crushing</Poke.rulePack.rulesStrings.25>
-	<Poke.rulePack.rulesStrings.26>destroyed_participle->obliterating</Poke.rulePack.rulesStrings.26>
-	<Poke.rulePack.rulesStrings.27>destroyed_participle->annihilating</Poke.rulePack.rulesStrings.27>
-	<Poke.rulePack.rulesStrings.28>destroyed_participle->breaking</Poke.rulePack.rulesStrings.28>
+	<Poke.rulePack.rulesStrings.19>destroyed->протыкает</Poke.rulePack.rulesStrings.19>
+	<Poke.rulePack.rulesStrings.20>destroyed->раздавливает</Poke.rulePack.rulesStrings.20>
+	<Poke.rulePack.rulesStrings.21>destroyed->разбивает</Poke.rulePack.rulesStrings.21>
+	<Poke.rulePack.rulesStrings.22>destroyed->отбивает</Poke.rulePack.rulesStrings.22>
+	<Poke.rulePack.rulesStrings.23>reserved->reserved</Poke.rulePack.rulesStrings.23>
 
-	<Poke.rulePack.rulesStrings.29>destroyed_suffix->[to] pieces</Poke.rulePack.rulesStrings.29>
-	<Poke.rulePack.rulesStrings.30>destroyed_suffix->[to] bits</Poke.rulePack.rulesStrings.30>
-	<Poke.rulePack.rulesStrings.31>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a fine mist</Poke.rulePack.rulesStrings.31>
-	<Poke.rulePack.rulesStrings.32>destroyed_suffix->[to] fragments</Poke.rulePack.rulesStrings.32>
+	<Poke.rulePack.rulesStrings.24>destroyed_participle->протыкая</Poke.rulePack.rulesStrings.24>
+	<Poke.rulePack.rulesStrings.25>destroyed_participle->раздавливая</Poke.rulePack.rulesStrings.25>
+	<Poke.rulePack.rulesStrings.26>destroyed_participle->разбивая</Poke.rulePack.rulesStrings.26>
+	<Poke.rulePack.rulesStrings.27>destroyed_participle->отбивая</Poke.rulePack.rulesStrings.27>
+	<Poke.rulePack.rulesStrings.28>reserved->reserved</Poke.rulePack.rulesStrings.28>
+
+	<Poke.rulePack.rulesStrings.29>destroyed_suffix->в кашу</Poke.rulePack.rulesStrings.29>
+	<Poke.rulePack.rulesStrings.30>destroyed_suffix->на куски</Poke.rulePack.rulesStrings.30>
+	<Poke.rulePack.rulesStrings.31>destroyed_suffix(recipient_flesh!=Mechanoid)->в кровавый фарщ</Poke.rulePack.rulesStrings.31>
+	<Poke.rulePack.rulesStrings.32>destroyed_suffix->на клочки</Poke.rulePack.rulesStrings.32>
 
 
 
