@@ -33,13 +33,13 @@
 	<Maneuver_Slash.rulePack.rulesStrings.22>woundname_acc(p=0.3)->открытую рану</Maneuver_Slash.rulePack.rulesStrings.22>
 	<Maneuver_Slash.rulePack.rulesStrings.23>woundname_acc(p=0.3)->страшную рану</Maneuver_Slash.rulePack.rulesStrings.23>
 
-	<Maneuver_Slash.rulePack.rulesStrings.24>flavortextconsequence->оставляя [woundname]</Maneuver_Slash.rulePack.rulesStrings.24>
+	<Maneuver_Slash.rulePack.rulesStrings.24>flavortextconsequence->оставляя [woundname_acc]</Maneuver_Slash.rulePack.rulesStrings.24>
 
 	<Maneuver_Slash.rulePack.rulesStrings.25>flavortextconsequence(recipient_flesh!=Mechanoid)->обнажая плоть</Maneuver_Slash.rulePack.rulesStrings.25>
 	<Maneuver_Slash.rulePack.rulesStrings.26>flavortextconsequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</Maneuver_Slash.rulePack.rulesStrings.26>
 
-	<Maneuver_Slash.rulePack.rulesStrings.27>flavortextconsequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname]</Maneuver_Slash.rulePack.rulesStrings.27>
-	<Maneuver_Slash.rulePack.rulesStrings.28>flavortextconsequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname]</Maneuver_Slash.rulePack.rulesStrings.28>
+	<Maneuver_Slash.rulePack.rulesStrings.27>flavortextconsequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</Maneuver_Slash.rulePack.rulesStrings.27>
+	<Maneuver_Slash.rulePack.rulesStrings.28>flavortextconsequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</Maneuver_Slash.rulePack.rulesStrings.28>
 
 	<Maneuver_Slash.rulePack.rulesStrings.29>destroyed->разрубает</Maneuver_Slash.rulePack.rulesStrings.29>
 	<Maneuver_Slash.rulePack.rulesStrings.30>destroyed->разделяет</Maneuver_Slash.rulePack.rulesStrings.30>
@@ -56,46 +56,46 @@
 
 
 
+	<Maneuver_Stab.rulePack.rulesStrings.0>damaged_inf(p=4)->нанести колющий удар</Maneuver_Stab.rulePack.rulesStrings.0>
+	<Maneuver_Stab.rulePack.rulesStrings.1>damaged_inf->нанести проникающий удар</Maneuver_Stab.rulePack.rulesStrings.1>
+	<Maneuver_Stab.rulePack.rulesStrings.2>damaged_inf->нанести укол</Maneuver_Stab.rulePack.rulesStrings.2>
 
+	<Maneuver_Stab.rulePack.rulesStrings.3>maneuver_noun_gen->колющего удара</Maneuver_Stab.rulePack.rulesStrings.3>
+	<Maneuver_Stab.rulePack.rulesStrings.4>maneuver_noun_gen->проникающего удара</Maneuver_Stab.rulePack.rulesStrings.4>
 
-	<Maneuver_Stab.rulePack.rulesStrings.0>damaged_inf(p=4)->stab</Maneuver_Stab.rulePack.rulesStrings.0>
-	<Maneuver_Stab.rulePack.rulesStrings.1>damaged_inf->jab</Maneuver_Stab.rulePack.rulesStrings.1>
-	<Maneuver_Stab.rulePack.rulesStrings.2>damaged_inf->pierce</Maneuver_Stab.rulePack.rulesStrings.2>
-	<Maneuver_Stab.rulePack.rulesStrings.3>damaged_inf->puncture</Maneuver_Stab.rulePack.rulesStrings.3>
-	<Maneuver_Stab.rulePack.rulesStrings.4>damaged_inf->skewer</Maneuver_Stab.rulePack.rulesStrings.4>
-	<!-- <Maneuver_Stab.rulePack.rulesStrings.0>damaged_inf->penetrate</Maneuver_Stab.rulePack.rulesStrings.0> Doesn't work well with "Jimmy avoided Lilith's gladius penetrate"; disabled for now -->
+	<Maneuver_Stab.rulePack.rulesStrings.5>maneuver_noun_instr->колющим ударом</Maneuver_Stab.rulePack.rulesStrings.5>
+	<Maneuver_Stab.rulePack.rulesStrings.6>maneuver_noun_instr->проникающим ударом</Maneuver_Stab.rulePack.rulesStrings.6>
 
-	<Maneuver_Stab.rulePack.rulesStrings.5>damaged(p=4)->stabbed</Maneuver_Stab.rulePack.rulesStrings.5>
-	<Maneuver_Stab.rulePack.rulesStrings.6>damaged->jabbed</Maneuver_Stab.rulePack.rulesStrings.6>
-	<Maneuver_Stab.rulePack.rulesStrings.7>damaged->pierced</Maneuver_Stab.rulePack.rulesStrings.7>
-	<Maneuver_Stab.rulePack.rulesStrings.8>damaged->punctured</Maneuver_Stab.rulePack.rulesStrings.8>
-	<Maneuver_Stab.rulePack.rulesStrings.9>damaged->skewered</Maneuver_Stab.rulePack.rulesStrings.9>
+	<Maneuver_Stab.rulePack.rulesStrings.7>damaged->прокалывает</Maneuver_Stab.rulePack.rulesStrings.7>
+	<Maneuver_Stab.rulePack.rulesStrings.8>damaged->пробивает</Maneuver_Stab.rulePack.rulesStrings.8>
+	<Maneuver_Stab.rulePack.rulesStrings.9>damaged->пронзает</Maneuver_Stab.rulePack.rulesStrings.9>
+	<Maneuver_Stab.rulePack.rulesStrings.10>damaged->протыкает</Maneuver_Stab.rulePack.rulesStrings.10>
 
-	<Maneuver_Stab.rulePack.rulesStrings.10>damaged_participle->piercing</Maneuver_Stab.rulePack.rulesStrings.10>
-	<Maneuver_Stab.rulePack.rulesStrings.11>damaged_participle->puncturing</Maneuver_Stab.rulePack.rulesStrings.11>
-	<Maneuver_Stab.rulePack.rulesStrings.12>damaged_participle->penetrating</Maneuver_Stab.rulePack.rulesStrings.12>
-	<Maneuver_Stab.rulePack.rulesStrings.13>damaged_participle->skewering</Maneuver_Stab.rulePack.rulesStrings.13>
+	<Maneuver_Stab.rulePack.rulesStrings.11>damaged_participle->прокалывая</Maneuver_Stab.rulePack.rulesStrings.11>
+	<Maneuver_Stab.rulePack.rulesStrings.12>damaged_participle->пронзая</Maneuver_Stab.rulePack.rulesStrings.12>
+	<Maneuver_Stab.rulePack.rulesStrings.13>damaged_participle->протыкая</Maneuver_Stab.rulePack.rulesStrings.13>
 
-	<Maneuver_Stab.rulePack.rulesStrings.14>woundname->hole</Maneuver_Stab.rulePack.rulesStrings.14>
-	<Maneuver_Stab.rulePack.rulesStrings.15>woundname->wound</Maneuver_Stab.rulePack.rulesStrings.15>
-	<Maneuver_Stab.rulePack.rulesStrings.16>woundname->crevice</Maneuver_Stab.rulePack.rulesStrings.16>
-	<Maneuver_Stab.rulePack.rulesStrings.17>flavortextconsequence(recipient_flesh!=Mechanoid)->leaving a bloody [woundname]</Maneuver_Stab.rulePack.rulesStrings.17>
-	<Maneuver_Stab.rulePack.rulesStrings.18>flavortextconsequence(recipient_flesh!=Mechanoid)->leaving a torn [woundname]</Maneuver_Stab.rulePack.rulesStrings.18>
-	<Maneuver_Stab.rulePack.rulesStrings.19>flavortextconsequence(recipient_flesh!=Mechanoid)->leaving a bleeding [woundname]</Maneuver_Stab.rulePack.rulesStrings.19>
+	<Maneuver_Stab.rulePack.rulesStrings.14>woundname_gen->колотой раны</Maneuver_Stab.rulePack.rulesStrings.14>
 
-	<Maneuver_Stab.rulePack.rulesStrings.20>destroyed->impaled</Maneuver_Stab.rulePack.rulesStrings.20>
-	<Maneuver_Stab.rulePack.rulesStrings.21>destroyed->perforated</Maneuver_Stab.rulePack.rulesStrings.21>
-	<Maneuver_Stab.rulePack.rulesStrings.22>destroyed->skewered</Maneuver_Stab.rulePack.rulesStrings.22>
+	<Maneuver_Stab.rulePack.rulesStrings.15>woundname_acc->колотую рану</Maneuver_Stab.rulePack.rulesStrings.15>
+	<Maneuver_Stab.rulePack.rulesStrings.16>woundname_acc->дыру</Maneuver_Stab.rulePack.rulesStrings.16>
+	<Maneuver_Stab.rulePack.rulesStrings.17>woundname_acc->щель</Maneuver_Stab.rulePack.rulesStrings.17>
 
-	<Maneuver_Stab.rulePack.rulesStrings.23>destroyed_participle->impaling</Maneuver_Stab.rulePack.rulesStrings.23>
-	<Maneuver_Stab.rulePack.rulesStrings.24>destroyed_participle->perforating</Maneuver_Stab.rulePack.rulesStrings.24>
-	<Maneuver_Stab.rulePack.rulesStrings.25>destroyed_participle->skewering</Maneuver_Stab.rulePack.rulesStrings.25>
+	<Maneuver_Stab.rulePack.rulesStrings.18>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя кровавую [woundname_acc]</Maneuver_Stab.rulePack.rulesStrings.18>
+	<Maneuver_Stab.rulePack.rulesStrings.19>flavortextconsequence->оставляя глубокую [woundname_acc]</Maneuver_Stab.rulePack.rulesStrings.19>
+	<Maneuver_Stab.rulePack.rulesStrings.20>flavortextconsequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</Maneuver_Stab.rulePack.rulesStrings.20>
+	<Maneuver_Stab.rulePack.rulesStrings.21>flavortextconsequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</Maneuver_Stab.rulePack.rulesStrings.21>
 
-	<Maneuver_Stab.rulePack.rulesStrings.26>destroyed_suffix->straight through</Maneuver_Stab.rulePack.rulesStrings.26>
-	<Maneuver_Stab.rulePack.rulesStrings.27>destroyed_suffix->leaving a clean hole</Maneuver_Stab.rulePack.rulesStrings.27>
-	<Maneuver_Stab.rulePack.rulesStrings.28>destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->leaving it leaking gory fluids</Maneuver_Stab.rulePack.rulesStrings.28>
-	<Maneuver_Stab.rulePack.rulesStrings.29>destroyed_suffix(target_part_destroyed_count==1)->leaving it leaking unrecognizable fluids</Maneuver_Stab.rulePack.rulesStrings.29>
+	<Maneuver_Stab.rulePack.rulesStrings.22>destroyed->пронзает</Maneuver_Stab.rulePack.rulesStrings.22>
+	<Maneuver_Stab.rulePack.rulesStrings.23>destroyed->дырявит</Maneuver_Stab.rulePack.rulesStrings.23>
+	<Maneuver_Stab.rulePack.rulesStrings.24>destroyed->пробивает</Maneuver_Stab.rulePack.rulesStrings.24>
 
+	<Maneuver_Stab.rulePack.rulesStrings.25>destroyed_participle->пронзая</Maneuver_Stab.rulePack.rulesStrings.25>
+	<Maneuver_Stab.rulePack.rulesStrings.26>destroyed_participle->дырявя</Maneuver_Stab.rulePack.rulesStrings.26>
+	<Maneuver_Stab.rulePack.rulesStrings.27>destroyed_participle->протыкая</Maneuver_Stab.rulePack.rulesStrings.27>
+
+	<Maneuver_Stab.rulePack.rulesStrings.28>destroyed_suffix->насквозь</Maneuver_Stab.rulePack.rulesStrings.28>
+	<Maneuver_Stab.rulePack.rulesStrings.29>destroyed_suffix->навылет</Maneuver_Stab.rulePack.rulesStrings.29>
 
 
 
