@@ -193,6 +193,7 @@
 	<Combat_Hit.rulePack.rulesStrings.12>action(p=0.3)->[initiator_definite] бьёт [recipient_definite] [maneuver_noun_instr] [implement]</Combat_Hit.rulePack.rulesStrings.12>
 	<Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[initiator_definite] использует [implement], чтобы [damaged_inf] [recipient_definite]</Combat_Hit.rulePack.rulesStrings.13>
 	<Combat_Hit.rulePack.rulesStrings.14>action->[initiator_definite] [damaged] [recipient_definite] при помощи [implement]</Combat_Hit.rulePack.rulesStrings.14>
+	<Combat_Hit.rulePack.rulesStrings.15>action(p=0.6)->[initiator_definite] [damaged] [recipient_definite]</Combat_Hit.rulePack.rulesStrings.15>
 
 
 
@@ -268,7 +269,7 @@
 	<Combat_RangedFire.rulePack.rulesStrings.0>logentry->[initiator_definite] [shotat] [recipient_definite] из [initiator_possessive] [weapon_label].</Combat_RangedFire.rulePack.rulesStrings.0>
 	<Combat_RangedFire.rulePack.rulesStrings.1>logentry->[initiator_definite] [shot] [initiator_possessive] [weapon_label] в [recipient_definite].</Combat_RangedFire.rulePack.rulesStrings.1>
 	<Combat_RangedFire.rulePack.rulesStrings.2>logentry->[initiator_definite] [shotat] [recipient_definite].</Combat_RangedFire.rulePack.rulesStrings.2>
-	<Combat_RangedFire.rulePack.rulesStrings.3>logentry->[initiator_definite] [shot_a] [weapon_projectile_label] в [recipient_definite].</Combat_RangedFire.rulePack.rulesStrings.3>
+	<Combat_RangedFire.rulePack.rulesStrings.3>logentry->[initiator_definite] [aburst] [shot_a] [weapon_projectile_label] в [recipient_definite].</Combat_RangedFire.rulePack.rulesStrings.3>
 	<Combat_RangedFire.rulePack.rulesStrings.4>logentry(recipient_missing==True)->[initiator_definite] [shot_a] [weapon_projectile_label].</Combat_RangedFire.rulePack.rulesStrings.4>
 	<Combat_RangedFire.rulePack.rulesStrings.5>logentry(recipient_missing==True)->[initiator_definite] [shot] [initiator_possessive] [weapon_label].</Combat_RangedFire.rulePack.rulesStrings.5>
 
@@ -278,37 +279,39 @@
 	<Combat_RangedFire.rulePack.rulesStrings.8>shot(p=2)->[shot_verb]</Combat_RangedFire.rulePack.rulesStrings.8>
 	<Combat_RangedFire.rulePack.rulesStrings.9>shot->[shotadverb] [shot_verb]</Combat_RangedFire.rulePack.rulesStrings.9>
 
-	<Combat_RangedFire.rulePack.rulesStrings.10>shotat->стреляет в</Combat_RangedFire.rulePack.rulesStrings.10>
-	<Combat_RangedFire.rulePack.rulesStrings.11>shotat->[shotadverb] стреляет в</Combat_RangedFire.rulePack.rulesStrings.11>
+	<Combat_RangedFire.rulePack.rulesStrings.10>shotat->стреляет [aburst] в</Combat_RangedFire.rulePack.rulesStrings.10>
+	<Combat_RangedFire.rulePack.rulesStrings.11>shotat->[shotadverb] стреляет [aburst] в</Combat_RangedFire.rulePack.rulesStrings.11>
 	<Combat_RangedFire.rulePack.rulesStrings.12>shotat(p=0.5)->пытается попасть в</Combat_RangedFire.rulePack.rulesStrings.12>
 	<Combat_RangedFire.rulePack.rulesStrings.13>shotat(p=0.3)->производит выстрел в</Combat_RangedFire.rulePack.rulesStrings.13>
 	<Combat_RangedFire.rulePack.rulesStrings.14>shotat(p=0.2)->производит [shotadjective] выстрел</Combat_RangedFire.rulePack.rulesStrings.14>
-	<Combat_RangedFire.rulePack.rulesStrings.15>shotat(p=0.5)->целится и стреляет в</Combat_RangedFire.rulePack.rulesStrings.15>
+	<Combat_RangedFire.rulePack.rulesStrings.15>shotat(p=0.5)->целится и стреляет [aburst] в</Combat_RangedFire.rulePack.rulesStrings.15>
 	<Combat_RangedFire.rulePack.rulesStrings.16>shotat(p=0.3)->открывает огонь по</Combat_RangedFire.rulePack.rulesStrings.16>
+	<Combat_RangedFire.rulePack.rulesStrings.17>reserved->reserved</Combat_RangedFire.rulePack.rulesStrings.17>
+	<Combat_RangedFire.rulePack.rulesStrings.18>reserved->reserved</Combat_RangedFire.rulePack.rulesStrings.18>
 
-	<Combat_RangedFire.rulePack.rulesStrings.17>shot_a_verb->выстреливает</Combat_RangedFire.rulePack.rulesStrings.17>
-	<Combat_RangedFire.rulePack.rulesStrings.18>shot_a_verb->пускает</Combat_RangedFire.rulePack.rulesStrings.18>
-	<Combat_RangedFire.rulePack.rulesStrings.19>shot_a_verb->выпускает</Combat_RangedFire.rulePack.rulesStrings.19>
+	<Combat_RangedFire.rulePack.rulesStrings.19>aburst-></Combat_RangedFire.rulePack.rulesStrings.19>
+	<Combat_RangedFire.rulePack.rulesStrings.20>aburst(burst==True,p=3)->очередью</Combat_RangedFire.rulePack.rulesStrings.20>
 
-	<Combat_RangedFire.rulePack.rulesStrings.20>shot_verb->спускает</Combat_RangedFire.rulePack.rulesStrings.20>
-	<Combat_RangedFire.rulePack.rulesStrings.21>shot_verb->разряжает</Combat_RangedFire.rulePack.rulesStrings.21>
+	<Combat_RangedFire.rulePack.rulesStrings.21>shot_a_verb->выстреливает</Combat_RangedFire.rulePack.rulesStrings.21>
+	<Combat_RangedFire.rulePack.rulesStrings.22>shot_a_verb->пускает</Combat_RangedFire.rulePack.rulesStrings.22>
+	<Combat_RangedFire.rulePack.rulesStrings.23>shot_a_verb->выпускает</Combat_RangedFire.rulePack.rulesStrings.23>
 
-	<Combat_RangedFire.rulePack.rulesStrings.22>shotadverb->аккуратно</Combat_RangedFire.rulePack.rulesStrings.22>
-	<Combat_RangedFire.rulePack.rulesStrings.23>shotadverb->быстро</Combat_RangedFire.rulePack.rulesStrings.23>
-	<Combat_RangedFire.rulePack.rulesStrings.24>shotadverb->точно</Combat_RangedFire.rulePack.rulesStrings.24>
-	<Combat_RangedFire.rulePack.rulesStrings.25>shotadverb->демонстративно</Combat_RangedFire.rulePack.rulesStrings.25>
-	<Combat_RangedFire.rulePack.rulesStrings.26>shotadverb->с опаской</Combat_RangedFire.rulePack.rulesStrings.26>
-	<Combat_RangedFire.rulePack.rulesStrings.27>shotadverb->метко</Combat_RangedFire.rulePack.rulesStrings.27>
-	<Combat_RangedFire.rulePack.rulesStrings.28>shotadverb->решительно</Combat_RangedFire.rulePack.rulesStrings.28>
+	<Combat_RangedFire.rulePack.rulesStrings.24>shot_verb->спускает</Combat_RangedFire.rulePack.rulesStrings.24>
+	<Combat_RangedFire.rulePack.rulesStrings.25>shot_verb->разряжает</Combat_RangedFire.rulePack.rulesStrings.25>
 
-	<Combat_RangedFire.rulePack.rulesStrings.29>shotadjective->аккуратный</Combat_RangedFire.rulePack.rulesStrings.29>
-	<Combat_RangedFire.rulePack.rulesStrings.30>shotadjective->быстрый</Combat_RangedFire.rulePack.rulesStrings.30>
-	<Combat_RangedFire.rulePack.rulesStrings.31>shotadjective->демонстративный</Combat_RangedFire.rulePack.rulesStrings.31>
-	<Combat_RangedFire.rulePack.rulesStrings.32>shotadjective->меткий</Combat_RangedFire.rulePack.rulesStrings.32>
-	<Combat_RangedFire.rulePack.rulesStrings.33>shotadjective->точный</Combat_RangedFire.rulePack.rulesStrings.33>
+	<Combat_RangedFire.rulePack.rulesStrings.26>shotadverb->аккуратно</Combat_RangedFire.rulePack.rulesStrings.26>
+	<Combat_RangedFire.rulePack.rulesStrings.27>shotadverb->быстро</Combat_RangedFire.rulePack.rulesStrings.27>
+	<Combat_RangedFire.rulePack.rulesStrings.28>shotadverb->точно</Combat_RangedFire.rulePack.rulesStrings.28>
+	<Combat_RangedFire.rulePack.rulesStrings.29>shotadverb->демонстративно</Combat_RangedFire.rulePack.rulesStrings.29>
+	<Combat_RangedFire.rulePack.rulesStrings.30>shotadverb->с опаской</Combat_RangedFire.rulePack.rulesStrings.30>
+	<Combat_RangedFire.rulePack.rulesStrings.31>shotadverb->метко</Combat_RangedFire.rulePack.rulesStrings.31>
+	<Combat_RangedFire.rulePack.rulesStrings.32>shotadverb->решительно</Combat_RangedFire.rulePack.rulesStrings.32>
 
-
-
+	<Combat_RangedFire.rulePack.rulesStrings.33>shotadjective->аккуратный</Combat_RangedFire.rulePack.rulesStrings.33>
+	<Combat_RangedFire.rulePack.rulesStrings.34>shotadjective->быстрый</Combat_RangedFire.rulePack.rulesStrings.34>
+	<Combat_RangedFire.rulePack.rulesStrings.35>shotadjective->демонстративный</Combat_RangedFire.rulePack.rulesStrings.35>
+	<Combat_RangedFire.rulePack.rulesStrings.36>shotadjective->меткий</Combat_RangedFire.rulePack.rulesStrings.36>
+	<Combat_RangedFire.rulePack.rulesStrings.37>shotadjective->точный</Combat_RangedFire.rulePack.rulesStrings.37>
 
 
 	<!-- various destroyed options; we allow these even if we could use hybrid, to cut down a bit on clutter -->
@@ -473,5 +476,8 @@
 
 	<Combat_ExplosionImpact.rulePack.rulesStrings.30>reserved->reserved</Combat_ExplosionImpact.rulePack.rulesStrings.30>
 	<Combat_ExplosionImpact.rulePack.rulesStrings.31>reserved->reserved</Combat_ExplosionImpact.rulePack.rulesStrings.31>
+
+	<Combat_ExplosionImpact.rulePack.rulesStrings.32>logentry(p=0.001)->Взрыв накрывает [recipient_definite].</Combat_ExplosionImpact.rulePack.rulesStrings.32>
+	<Combat_ExplosionImpact.rulePack.rulesStrings.33>logentry(p=0.001)->Взрыв задевает [recipient_definite].</Combat_ExplosionImpact.rulePack.rulesStrings.33>
 
 </LanguageData>
