@@ -1,45 +1,57 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<!-- Player initial namers - used initially -->
 
 	<NamerFactionBasePlayerColony.rulepack.rulesstrings.0>name->Поселение</NamerFactionBasePlayerColony.rulepack.rulesstrings.0>
 	<NamerFactionBasePlayerTribe.rulepack.rulesstrings.0>name->Деревня</NamerFactionBasePlayerTribe.rulepack.rulesstrings.0>
+	<NamerFactionPlayerColonyRandomized.rulePack.rulesStrings.0>name->[colonyname]</NamerFactionPlayerColonyRandomized.rulePack.rulesStrings.0>
 
-	<!-- Player suggestion namers - used for default name in the 'name faction and/or base' dialogs -->
+	<NamerFactionPirate.rulePack.rulesRaw.0.keyword>badassanimals</NamerFactionPirate.rulePack.rulesRaw.0.keyword>
+	<NamerFactionPirate.rulePack.rulesRaw.0.path>Words/Nouns/Animals_Badass_Plural</NamerFactionPirate.rulePack.rulesRaw.0.path>
+	<NamerFactionPirate.rulePack.rulesRaw.1.keyword>badassadjective_plural</NamerFactionPirate.rulePack.rulesRaw.1.keyword>
+	<NamerFactionPirate.rulePack.rulesRaw.1.path>Words/Adjectives/Badass_Plural</NamerFactionPirate.rulePack.rulesRaw.1.path>
+	<NamerFactionPirate.rulePack.rulesRaw.2.keyword>badasspeople</NamerFactionPirate.rulePack.rulesRaw.2.keyword>
+	<NamerFactionPirate.rulePack.rulesRaw.2.path>Words/Nouns/People_Badass_Plural</NamerFactionPirate.rulePack.rulesRaw.2.path>
+	<NamerFactionPirate.rulePack.rulesRaw.5.keyword>badasscolor_plural</NamerFactionPirate.rulePack.rulesRaw.5.keyword>
+	<NamerFactionPirate.rulePack.rulesRaw.5.path>Words/Nouns/Colors_Badass_Plural</NamerFactionPirate.rulePack.rulesRaw.5.path>
 
-	<NamerFactionPlayerRandomized.rulepack.rulesstrings.0>name->[colonyname]</NamerFactionPlayerRandomized.rulepack.rulesstrings.0>
-
-	<!-- Pirate -->
-
-	<NamerFactionPirate.rulePack.rulesStrings.0>name->[badassanimal]</NamerFactionPirate.rulePack.rulesStrings.0>
-	<NamerFactionPirate.rulePack.rulesStrings.1>name->Люди [badassanimal]</NamerFactionPirate.rulePack.rulesStrings.1>
-	<NamerFactionPirate.rulePack.rulesStrings.2>name->[badassanimal] [badassconcept]</NamerFactionPirate.rulePack.rulesStrings.2>
-	<NamerFactionPirate.rulePack.rulesStrings.3>name->[badassperson] [badassconcept]</NamerFactionPirate.rulePack.rulesStrings.3>
-	<NamerFactionPirate.rulePack.rulesStrings.4>name->[badassperson]</NamerFactionPirate.rulePack.rulesStrings.4>
-	<NamerFactionPirate.rulePack.rulesStrings.5>name->Люди [weapon]</NamerFactionPirate.rulePack.rulesStrings.5>
-	<NamerFactionPirate.rulePack.rulesStrings.6>name->[weapon]</NamerFactionPirate.rulePack.rulesStrings.6>
-	<NamerFactionPirate.rulePack.rulesStrings.7>name->[weapon] [badassanimal]</NamerFactionPirate.rulePack.rulesStrings.7>
-	<NamerFactionPirate.rulePack.rulesStrings.8>name->[badasscolor] [weapon]</NamerFactionPirate.rulePack.rulesStrings.8>
-	<NamerFactionPirate.rulePack.rulesStrings.9>name->[badasscolor] [badassanimal]</NamerFactionPirate.rulePack.rulesStrings.9>
-	<NamerFactionPirate.rulePack.rulesStrings.10>name->[badasscolor] [badassperson]</NamerFactionPirate.rulePack.rulesStrings.10>
-	<NamerFactionPirate.rulePack.rulesStrings.11>name->[groupname] [badassperson]</NamerFactionPirate.rulePack.rulesStrings.11>
+	<NamerFactionPirate.rulePack.rulesStrings.0>name->[badassanimals]</NamerFactionPirate.rulePack.rulesStrings.0>
+	<NamerFactionPirate.rulePack.rulesStrings.1>name->Люди-[badassanimals]</NamerFactionPirate.rulePack.rulesStrings.1>
+	<NamerFactionPirate.rulePack.rulesStrings.2>name->[badassanimals] [badassconcept]</NamerFactionPirate.rulePack.rulesStrings.2>
+	<NamerFactionPirate.rulePack.rulesStrings.3>name->[badasspeople] [badassconcept]</NamerFactionPirate.rulePack.rulesStrings.3>
+	<NamerFactionPirate.rulePack.rulesStrings.4>name->[badasspeople]</NamerFactionPirate.rulePack.rulesStrings.4>
+	<NamerFactionPirate.rulePack.rulesStrings.5>name->[badassadjective_plural]</NamerFactionPirate.rulePack.rulesStrings.5>
+	<NamerFactionPirate.rulePack.rulesStrings.6>name->[badassadjective] [weapon]</NamerFactionPirate.rulePack.rulesStrings.6>
+	<NamerFactionPirate.rulePack.rulesStrings.7>name->[weapon] [badassconcept]</NamerFactionPirate.rulePack.rulesStrings.7>
+	<NamerFactionPirate.rulePack.rulesStrings.8>name->[badasscolor_plural]</NamerFactionPirate.rulePack.rulesStrings.8>
+	<NamerFactionPirate.rulePack.rulesStrings.9>name->[badasscolor_plural] [badassanimals]</NamerFactionPirate.rulePack.rulesStrings.9>
+	<NamerFactionPirate.rulePack.rulesStrings.10>name->[badasscolor_plural] [badasspeople]</NamerFactionPirate.rulePack.rulesStrings.10>
+	<NamerFactionPirate.rulePack.rulesStrings.11>name->[badassanimals]-[badasspeople]</NamerFactionPirate.rulePack.rulesStrings.11>
 	<NamerFactionPirate.rulePack.rulesStrings.12>name->[badassadjective] [groupname]</NamerFactionPirate.rulePack.rulesStrings.12>
-	<NamerFactionPirate.rulePack.rulesStrings.13>name->[badassadjective] [badassanimal]</NamerFactionPirate.rulePack.rulesStrings.13>
-	<NamerFactionPirate.rulePack.rulesStrings.14>name->[badassadjective] [badassperson]</NamerFactionPirate.rulePack.rulesStrings.14>
+	<NamerFactionPirate.rulePack.rulesStrings.13>name->[badassadjective_plural] [badassanimals]</NamerFactionPirate.rulePack.rulesStrings.13>
+	<NamerFactionPirate.rulePack.rulesStrings.14>name->[badassadjective_plural] [badasspeople]</NamerFactionPirate.rulePack.rulesStrings.14>
 	<NamerFactionPirate.rulePack.rulesStrings.15>name->[groupname] [weapon]</NamerFactionPirate.rulePack.rulesStrings.15>
 	<NamerFactionPirate.rulePack.rulesStrings.16>name->[groupname] [badassconcept]</NamerFactionPirate.rulePack.rulesStrings.16>
-	<NamerFactionPirate.rulePack.rulesStrings.17>name->[badassanimal] из [terrainfeature]</NamerFactionPirate.rulePack.rulesStrings.17>
+	<NamerFactionPirate.rulePack.rulesStrings.17>name->[badassanimals] из [terrainfeature]</NamerFactionPirate.rulePack.rulesStrings.17>
 
-	<NamerFactionBasePirate.rulepack.rulesstrings.0>name->[geography] [badassanimal]</NamerFactionBasePirate.rulepack.rulesstrings.0>
-	<NamerFactionBasePirate.rulepack.rulesstrings.1>name->[geography] [badassconcept]</NamerFactionBasePirate.rulepack.rulesstrings.1>
-	<NamerFactionBasePirate.rulepack.rulesstrings.2>name->[geography] [badassanimal]</NamerFactionBasePirate.rulepack.rulesstrings.2>
-	<NamerFactionBasePirate.rulepack.rulesstrings.3>name->[geography] [badassperson]</NamerFactionBasePirate.rulepack.rulesstrings.3>
+
+	<NamerFactionBasePirate.rulePack.rulesRaw.1.keyword>of_badassanimal</NamerFactionBasePirate.rulePack.rulesRaw.1.keyword>
+	<NamerFactionBasePirate.rulePack.rulesRaw.1.path>Words/Nouns/Animals_Badass_Genitive</NamerFactionBasePirate.rulePack.rulesRaw.1.path>
+	<NamerFactionBasePirate.rulePack.rulesRaw.2.keyword>of_badassanimals</NamerFactionBasePirate.rulePack.rulesRaw.2.keyword>
+	<NamerFactionBasePirate.rulePack.rulesRaw.2.path>Words/Nouns/Animals_Badass_Genitive_Plural</NamerFactionBasePirate.rulePack.rulesRaw.2.path>
+	<NamerFactionBasePirate.rulePack.rulesRaw.3.keyword>of_badasspeople</NamerFactionBasePirate.rulePack.rulesRaw.3.keyword>
+	<NamerFactionBasePirate.rulePack.rulesRaw.3.path>Words/Nouns/People_Badass_Genitive_Plural</NamerFactionBasePirate.rulePack.rulesRaw.3.path>
+
+	<NamerFactionBasePirate.rulepack.rulesstrings.0>name->[geography] [of_badassanimal]</NamerFactionBasePirate.rulepack.rulesstrings.0>
+	<NamerFactionBasePirate.rulepack.rulesstrings.1>name->[geography] [of_badassanimals]</NamerFactionBasePirate.rulepack.rulesstrings.1>
+	<NamerFactionBasePirate.rulepack.rulesstrings.2>name->[geography] [badassconcept]</NamerFactionBasePirate.rulepack.rulesstrings.2>
+	<NamerFactionBasePirate.rulepack.rulesstrings.3>name->[geography] [of_badasspeople]</NamerFactionBasePirate.rulepack.rulesstrings.3>
 	<NamerFactionBasePirate.rulepack.rulesstrings.4>geography->[terrainfeature]</NamerFactionBasePirate.rulepack.rulesstrings.4>
 	<NamerFactionBasePirate.rulepack.rulesstrings.5>geography->[community]</NamerFactionBasePirate.rulepack.rulesstrings.5>
 
 	<!-- Outlander -->
-	
+
 	<OutlanderWord.rulePack.rulesStrings.0>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.0>
 	<OutlanderWord.rulePack.rulesStrings.1>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.1>
 	<OutlanderWord.rulePack.rulesStrings.2>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.2>
