@@ -9,7 +9,7 @@
 	<GameUpdatedToNewVersionInitial>RimWorld был обновлён с версии {0} до версии {1}.</GameUpdatedToNewVersionInitial>
     <GameUpdatedToNewVersionSavesIncompatible>Из-за этого сохранения и модификации, относящиеся к более старой версии, могут перестать работать.</GameUpdatedToNewVersionSavesIncompatible>
     <GameUpdatedToNewVersionSavesCompatible>Сохранения, относящиеся к более старой версии, совместимы с новой, но некоторые моды могут перестать работать.</GameUpdatedToNewVersionSavesCompatible>
-    <GameUpdatedToNewVersionNonSteam>Так как это DRM-free версия игры, вы можете установить её в две разные папки и играть как в старые, так и в новые версии.</GameUpdatedToNewVersionNonSteam>
+    <GameUpdatedToNewVersionNonSteam>Так как это версия игры без DRM, вы можете установить её в две разные папки и играть как в старые, так и в новые версии.</GameUpdatedToNewVersionNonSteam>
 	<GameUpdatedToNewVersionSteam>Если вы желаете продолжить играть в старую версию, вы можете сделать это при помощи возможности Steam «Бета версии».\n\n  1. В библиотеке игр Steam нажмите правой кнопкой мыши на RimWorld.\n  2. Нажмите «Свойства».\n  3. Выберите вкладку «Бета версии».\n  4. В выпадающем списке выберите желаемую версию.\n\nРано или поздно старые версии будут убираться из этого списка, однако мы не хотим просто так прерывать ваши текущие игры.\n\nИмейте ввиду, что в том случае, если авторы модов также обновляют их для новой версии игры, то они могут переставать работать в старой. Чтобы предотвратить это, вам понадобится отключить функцию автоматического обновления.</GameUpdatedToNewVersionSteam>
 
 	<!-- Recovered from errors caused by mods -->
@@ -19,7 +19,7 @@
 	<!-- Errors during loading -->
 	<ErrorWhileLoadingAssetsTitle>Ошибка при загрузке ассетов</ErrorWhileLoadingAssetsTitle>
 	<ErrorWhileLoadingAssets>Произошла ошибка при загрузке ассетов. Посмотрите лог для подробной информации.</ErrorWhileLoadingAssets>
-	<ErrorWhileLoadingAssets_ModsInfo>Игра запущена с кастомными модами. Они могут вызывать, а могут и не вызывать этих проблем.</ErrorWhileLoadingAssets_ModsInfo>
+	<ErrorWhileLoadingAssets_ModsInfo>Игра запущена с выбранными модами. Они могут вызывать, а могут и не вызывать этих проблем.</ErrorWhileLoadingAssets_ModsInfo>
 	<ErrorWhileGeneratingMapTitle>Ошибка при генерации карты</ErrorWhileGeneratingMapTitle>
 	<ErrorWhileGeneratingMap>Произошла ошибка при генерации новой карты. Посмотрите лог для подробной информации.</ErrorWhileGeneratingMap>
 	<ErrorWhileLoadingMapTitle>Ошибка при загрузке карты</ErrorWhileLoadingMapTitle>
@@ -37,8 +37,8 @@
 	<InitializingInterface>Инициализация интерфейса</InitializingInterface>
 	<UnloadingUnusedAssets>Выгрузка неиспользуемых ассетов</UnloadingUnusedAssets>
 	<LoadingAllActiveMods>Загрузка всех активированных модов</LoadingAllActiveMods>
-	<LoadingDefs>Загрузка defs</LoadingDefs>
-	<LoadingAssets>Загрузка assets</LoadingAssets>
+	<LoadingDefs>Загрузка def-ов</LoadingDefs>
+	<LoadingAssets>Загрузка ассетов</LoadingAssets>
 	<Initializing>Инициализация</Initializing>
 	<LoadingWorld>Загрузка мира</LoadingWorld>
 	<LoadingMap>Загрузка карты</LoadingMap>
@@ -58,7 +58,7 @@
 	<SavingLongEvent>Сохранение</SavingLongEvent>
 	<PermadeathModeSaveSuffix>(Хардкор)</PermadeathModeSaveSuffix>
 	<SaveIsFromDifferentGameVersion>Версия запущенной игры — {0}, данное сохранение относится к {1}, совершенно другой версии игры. \n\n Попытка загрузки данного сохранения скорее всего не увенчается успехом.</SaveIsFromDifferentGameVersion>
-	<SaveIsFromDifferentGameBuild>Версия запущенной игры — {0}, данное сохранение относится к {1}, другому билду той же версии. \n\n Попытка загрузки данного сохранения может оказаться успешной.</SaveIsFromDifferentGameBuild>
+	<SaveIsFromDifferentGameBuild>Версия запущенной игры — {0}, данное сохранение относится к {1}, другой сборке той же версии. \n\n Попытка загрузки данного сохранения может оказаться успешной.</SaveIsFromDifferentGameBuild>
 	<SaveIsFromThisGameBuild>Данные сохранены этой версией игры и должны работать без проблем.</SaveIsFromThisGameBuild>
 	<SaveIsUnknownFormat>Данные сохранены в неизвестном формате и скорее всего не загрузятся корректно.</SaveIsUnknownFormat>
 	<ProblemSavingFile>Возникла проблема с сохранением файла {0}:\n\n{1} Для дополнительной информации посмотрите лог.</ProblemSavingFile>
@@ -95,7 +95,7 @@
 	<WorldFileVersionMismatch>Внимание: Этот мир был сгенерирован в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого мира, вероятно, вызовет ошибки и сбои. Возможно, вам стоит сгенерировать новый мир.</WorldFileVersionMismatch>
 	<FileIncompatibleWarning>Внимание: Этот файл был сохранён в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого файла может вызвать ошибки и сбои.</FileIncompatibleWarning>
 	<ModsMismatchWarningTitle>Несоответствие модов</ModsMismatchWarningTitle>
-	<ModsMismatchWarningText>Внимание: Этот файл был сохранён с набором модов, отличным от текущего. Это может вызвать, а может и не вызвать проблемы, в зависимости от содержания модов.\n\Файл был сохранён с модами в таком порядке:\n\n{0}\n\nСейчас моды подключены в этом порядке:\n\n{1}</ModsMismatchWarningText>
+	<ModsMismatchWarningText>Внимание: Этот файл был сохранён с набором модов, отличным от текущего. Это может вызвать, а может и не вызвать проблемы, в зависимости от содержания модов.\n\nФайл был сохранён с модами в таком порядке:\n\n{0}\n\nСейчас моды подключены в этом порядке:\n\n{1}</ModsMismatchWarningText>
 
 	<!-- Resolution change dialog -->
 	<ConfirmResolutionChange>Вы изменили настройки экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
@@ -192,9 +192,9 @@
 	<MedicineXpGainFactor>Фактор прироста опыта</MedicineXpGainFactor>
 	<MoodChange>Смена настроения</MoodChange>
 	<Wildness>Дикость</Wildness>
-	<WildnessExplanation>Диких существ сложнее приручить, натренировать и с ними обращаться.</WildnessExplanation>
+	<WildnessExplanation>Диких существ сложнее приручать, тренировать и обращаться с ними.</WildnessExplanation>
 	<AnimalFilthRate>Скорость загрязнения поверхности</AnimalFilthRate>
-	<AnimalFilthRateExplanation>Животные загрязняют полы. Это среднее количество грязи, производимой животным на {0} пройденных им клеток.\n\nБолее крупные и менее домашние животные производят больше грязи.</AnimalFilthRateExplanation>
+	<AnimalFilthRateExplanation>Животные загрязняют полы. Это среднее количество грязи, производимой животным на {0} пройденных им клеток.\n\nБолее крупные и более дикие животные производят больше грязи.</AnimalFilthRateExplanation>
 	<TimeRecordsCategory>Время</TimeRecordsCategory>
 	<MiscRecordsCategory>Прочее</MiscRecordsCategory>
 	<Addictiveness>Степень вызывания привыкания</Addictiveness>
@@ -336,7 +336,7 @@
 	<DrugPolicyInUse>Политика используется {0}.</DrugPolicyInUse>
 	<SocialDrugs>Для расслабления</SocialDrugs>
 	<NoDrugs>Никаких наркотиков</NoDrugs>
-	<OneDrinkPerDay>Одно питьё в год</OneDrinkPerDay>
+	<OneDrinkPerDay>Один приём в день</OneDrinkPerDay>
 	<Unrestricted>Неограниченно</Unrestricted>
 	<NoDrugPolicySelected>Политика не выбрана</NoDrugPolicySelected>
 	<AddDrug>Добавить наркотик...</AddDrug>
