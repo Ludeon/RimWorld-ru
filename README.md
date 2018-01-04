@@ -15,7 +15,7 @@
 `<путь к папке игры>` для Steam версии в различных ОС:
     * Windows: `C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\`
     * Linux: `~/.steam/steam/steamapps/common/Rimworld`
-    * Mac: `~/Library/Application\ Support/Steam/steamapps/common/RimWorld/RimWorldMac.app` (для дальнейшей навигации выбрать пункт контекстного меню «Показать содержимое пакета»).
+    * Mac: `~/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app` (для дальнейшей навигации выбрать пункт контекстного меню «Показать содержимое пакета»).
 
     Таким образом, для Steam-версии в ОС Windows полный путь может выглядеть примерно вот так:  
     `C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\Core\Languages\RimWorld-ru-master`  
