@@ -1,68 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Требуется винительный падеж: "Картина показывает (что?)..." -->
+	<!-- Требуется винительный падеж: "Картина показывает (что?)..." -->
 	<!-- Тескт слеплен воедино с "показывает", и может начинаться как с пробела, так с запятой -->
 	<!--
 		Перед[circumstance_group] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
 		В этих случая для оборотов без знаков препинания следует использовать конструкцию "[empty] <сама фраза>"
 
-    [pawn_nameFull] и [pawn_nameShortDef] - имена персонажа
-    [pawn_pronoun] - he/she - он/она - как HE
-    [pawn_possessive] - his/her - его/её - как HIS
-    [pawn_objective] - him/her - ему/ей
-  -->
+		[pawn_nameFull] и [pawn_nameShortDef] - имена персонажа
+		[pawn_pronoun] - he/she - он/она - как HE
+		[pawn_possessive] - his/her - его/её - как HIS
+		[pawn_objective] - him/her - ему/ей
+	-->
 
-  <Raid.label>налёт</Raid.label>
-  <Raid.rulePack.rulesStrings.0>tale_noun->как штурмуют [community], где живёт [pawn_nameShortDef],</Raid.rulePack.rulesStrings.0>
-  <Raid.rulePack.rulesStrings.1>tale_noun->как [enemies] атакуют [community], где живёт [pawn_nameShortDef],</Raid.rulePack.rulesStrings.1>
-  <Raid.rulePack.rulesStrings.2>image->, как [armies][participle] [circumstance_phrase]</Raid.rulePack.rulesStrings.2>
-  <Raid.rulePack.rulesStrings.3>armies->полчища врагов</Raid.rulePack.rulesStrings.3>
-  <Raid.rulePack.rulesStrings.4>armies->превосходящие войска противника</Raid.rulePack.rulesStrings.4>
-  <Raid.rulePack.rulesStrings.5>armies->войска захватчиков</Raid.rulePack.rulesStrings.5>
-  <Raid.rulePack.rulesStrings.6>armies->бесчисленные [enemies]</Raid.rulePack.rulesStrings.6>
-  <Raid.rulePack.rulesStrings.7>circumstance_phrase->оглашают свою победу</Raid.rulePack.rulesStrings.7>
-  <Raid.rulePack.rulesStrings.8>circumstance_phrase->подходят всё ближе, потрясая оружием</Raid.rulePack.rulesStrings.8>
-  <Raid.rulePack.rulesStrings.9>circumstance_phrase->полностью окружают [community]</Raid.rulePack.rulesStrings.9>
-  <Raid.rulePack.rulesStrings.10>circumstance_phrase->атакуют чужеземцев, выглядящих как [outlander]</Raid.rulePack.rulesStrings.10>
-  <Raid.rulePack.rulesStrings.11>participle-></Raid.rulePack.rulesStrings.11>
-  <Raid.rulePack.rulesStrings.12>participle->, чьи знамёна выкрашены в [color] цвет,</Raid.rulePack.rulesStrings.12>
-  <Raid.rulePack.rulesStrings.13>participle->, покрытые [gore],</Raid.rulePack.rulesStrings.13>
-  <Raid.rulePack.rulesStrings.14>desc_sentence->[pawn_nameShortDef] организует сопротивление, [defender_circumstance].</Raid.rulePack.rulesStrings.14>
-  <Raid.rulePack.rulesStrings.15>desc_sentence->[pawn_nameShortDef] берёт [weapon] для защиты, [defender_circumstance].</Raid.rulePack.rulesStrings.15>
-  <Raid.rulePack.rulesStrings.16>desc_sentence->[pawn_nameShortDef] лежит на земле с тяжёлыми ранами.</Raid.rulePack.rulesStrings.16>
-  <Raid.rulePack.rulesStrings.17>desc_sentence->[pawn_nameShortDef] перехватывает [pawn_possessive] [weapon] и парирует удар, [defender_circumstance].</Raid.rulePack.rulesStrings.17>
-  <Raid.rulePack.rulesStrings.18>desc_sentence->[pawn_nameShortDef] величественно возвышается, [defender_circumstance].</Raid.rulePack.rulesStrings.18>
-  <Raid.rulePack.rulesStrings.19>desc_sentence->[pawn_nameShortDef] принимает [badassadjective] вид.</Raid.rulePack.rulesStrings.19>
-  <Raid.rulePack.rulesStrings.20>desc_sentence->[pawn_nameShortDef] принимает [angstyadjective] вид.</Raid.rulePack.rulesStrings.20>
-  <Raid.rulePack.rulesStrings.21>desc_sentence->Земля покрыта [gore].</Raid.rulePack.rulesStrings.21>
-  <Raid.rulePack.rulesStrings.22>desc_sentence->[quantity_adjphrase] чужеземцев, выглядящих как [outlander], покидают этот район.</Raid.rulePack.rulesStrings.22>
-  <Raid.rulePack.rulesStrings.23>desc_sentence->[quantity_adjphrase] животных, выглядящих как [animal], покидают этот район.</Raid.rulePack.rulesStrings.23>
-  <Raid.rulePack.rulesStrings.24>defender_circumstance->восторженно крича</Raid.rulePack.rulesStrings.24>
-  <Raid.rulePack.rulesStrings.25>defender_circumstance->источая [color] свет</Raid.rulePack.rulesStrings.25>
-  <Raid.rulePack.rulesStrings.26>defender_circumstance->поднимая кулак в знак непокорности</Raid.rulePack.rulesStrings.26>
-  <Raid.rulePack.rulesStrings.27>defender_circumstance->поигрывая мышцами</Raid.rulePack.rulesStrings.27>
+	<Raid.label>налёт</Raid.label>
+	<Raid.rulePack.rulesStrings.0>tale_noun->как штурмуют [community], где живёт [pawn_nameShortDef],</Raid.rulePack.rulesStrings.0>
+	<Raid.rulePack.rulesStrings.1>tale_noun->как [enemies] атакуют [community], где живёт [pawn_nameShortDef],</Raid.rulePack.rulesStrings.1>
+	<Raid.rulePack.rulesStrings.2>image->, как [armies][participle] [circumstance_phrase]</Raid.rulePack.rulesStrings.2>
+	<Raid.rulePack.rulesStrings.3>armies->полчища врагов</Raid.rulePack.rulesStrings.3>
+	<Raid.rulePack.rulesStrings.4>armies->превосходящие войска противника</Raid.rulePack.rulesStrings.4>
+	<Raid.rulePack.rulesStrings.5>armies->войска захватчиков</Raid.rulePack.rulesStrings.5>
+	<Raid.rulePack.rulesStrings.6>armies->бесчисленные [enemies]</Raid.rulePack.rulesStrings.6>
+	<Raid.rulePack.rulesStrings.7>circumstance_phrase->оглашают свою победу</Raid.rulePack.rulesStrings.7>
+	<Raid.rulePack.rulesStrings.8>circumstance_phrase->подходят всё ближе, потрясая оружием</Raid.rulePack.rulesStrings.8>
+	<Raid.rulePack.rulesStrings.9>circumstance_phrase->полностью окружают [community]</Raid.rulePack.rulesStrings.9>
+	<Raid.rulePack.rulesStrings.10>circumstance_phrase->атакуют чужеземцев, выглядящих как [outlander]</Raid.rulePack.rulesStrings.10>
+	<Raid.rulePack.rulesStrings.11>participle-></Raid.rulePack.rulesStrings.11>
+	<Raid.rulePack.rulesStrings.12>participle->, чьи знамёна выкрашены в [color] цвет,</Raid.rulePack.rulesStrings.12>
+	<Raid.rulePack.rulesStrings.13>participle->, покрытые [gore],</Raid.rulePack.rulesStrings.13>
+	<Raid.rulePack.rulesStrings.14>desc_sentence->[pawn_nameShortDef] организует сопротивление, [defender_circumstance].</Raid.rulePack.rulesStrings.14>
+	<Raid.rulePack.rulesStrings.15>desc_sentence->[pawn_nameShortDef] берёт [weapon] для защиты, [defender_circumstance].</Raid.rulePack.rulesStrings.15>
+	<Raid.rulePack.rulesStrings.16>desc_sentence->[pawn_nameShortDef] лежит на земле с тяжёлыми ранами.</Raid.rulePack.rulesStrings.16>
+	<Raid.rulePack.rulesStrings.17>desc_sentence->[pawn_nameShortDef] перехватывает [pawn_possessive] [weapon] и парирует удар, [defender_circumstance].</Raid.rulePack.rulesStrings.17>
+	<Raid.rulePack.rulesStrings.18>desc_sentence->[pawn_nameShortDef] величественно возвышается, [defender_circumstance].</Raid.rulePack.rulesStrings.18>
+	<Raid.rulePack.rulesStrings.19>desc_sentence->[pawn_nameShortDef] принимает [badassadjective] вид.</Raid.rulePack.rulesStrings.19>
+	<Raid.rulePack.rulesStrings.20>desc_sentence->[pawn_nameShortDef] принимает [angstyadjective] вид.</Raid.rulePack.rulesStrings.20>
+	<Raid.rulePack.rulesStrings.21>desc_sentence->Земля покрыта [gore].</Raid.rulePack.rulesStrings.21>
+	<Raid.rulePack.rulesStrings.22>desc_sentence->[quantity_adjphrase] чужеземцев, выглядящих как [outlander], покидают этот район.</Raid.rulePack.rulesStrings.22>
+	<Raid.rulePack.rulesStrings.23>desc_sentence->[quantity_adjphrase] животных, выглядящих как [animal], покидают этот район.</Raid.rulePack.rulesStrings.23>
+	<Raid.rulePack.rulesStrings.24>defender_circumstance->восторженно крича</Raid.rulePack.rulesStrings.24>
+	<Raid.rulePack.rulesStrings.25>defender_circumstance->источая [color] свет</Raid.rulePack.rulesStrings.25>
+	<Raid.rulePack.rulesStrings.26>defender_circumstance->поднимая кулак в знак непокорности</Raid.rulePack.rulesStrings.26>
+	<Raid.rulePack.rulesStrings.27>defender_circumstance->поигрывая мышцами</Raid.rulePack.rulesStrings.27>
 
-  <Infestation.label>жуки</Infestation.label>
-  <Infestation.rulePack.rulesStrings.0>tale_noun->как [community], где живёт [pawn_nameShortDef], кишит насекомыми</Infestation.rulePack.rulesStrings.0>
-  <Infestation.rulePack.rulesStrings.1>image->, как [swarm] [of_insects] [circumstance_phrase]</Infestation.rulePack.rulesStrings.1>
-  <Infestation.rulePack.rulesStrings.2>swarm->рой</Infestation.rulePack.rulesStrings.2>
-  <Infestation.rulePack.rulesStrings.3>swarm->всепоглощающая волна</Infestation.rulePack.rulesStrings.3>
-  <Infestation.rulePack.rulesStrings.4>swarm->туча</Infestation.rulePack.rulesStrings.4>
-  <Infestation.rulePack.rulesStrings.5>of_insects->мегапауков</Infestation.rulePack.rulesStrings.5>
-  <Infestation.rulePack.rulesStrings.6>of_insects->насекомых</Infestation.rulePack.rulesStrings.6>
-  <Infestation.rulePack.rulesStrings.7>of_insects->из чёрных крапинок</Infestation.rulePack.rulesStrings.7>
-  <Infestation.rulePack.rulesStrings.8>circumstance_phrase->полностью окружает [community]</Infestation.rulePack.rulesStrings.8>
-  <Infestation.rulePack.rulesStrings.9>circumstance_phrase->выползает из всех щелей</Infestation.rulePack.rulesStrings.9>
-  <Infestation.rulePack.rulesStrings.10>circumstance_phrase->вырывается из-под земли</Infestation.rulePack.rulesStrings.10>
-  <Infestation.rulePack.rulesStrings.11>circumstance_phrase->пожирает всё живое на своём пути</Infestation.rulePack.rulesStrings.11>
-  <Infestation.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDef] организует сопротивление.</Infestation.rulePack.rulesStrings.12>
-  <Infestation.rulePack.rulesStrings.13>desc_sentence->[pawn_nameShortDef] берёт [weapon] для защиты.</Infestation.rulePack.rulesStrings.13>
-  <Infestation.rulePack.rulesStrings.14>desc_sentence->[pawn_nameShortDef] лежит на земле с тяжёлыми ранами.</Infestation.rulePack.rulesStrings.14>
-  <Infestation.rulePack.rulesStrings.15>desc_sentence->[pawn_nameShortDef] перехватывает [pawn_possessive] [weapon] и парирует удар.</Infestation.rulePack.rulesStrings.15>
-  <Infestation.rulePack.rulesStrings.16>desc_sentence->[pawn_nameShortDef] принимает [badassadjective] вид.</Infestation.rulePack.rulesStrings.16>
-  <Infestation.rulePack.rulesStrings.17>desc_sentence->[pawn_nameShortDef] принимает [angstyadjective] вид.</Infestation.rulePack.rulesStrings.17>
-  <Infestation.rulePack.rulesStrings.18>desc_sentence->Земля покрыта [gore].</Infestation.rulePack.rulesStrings.18>
-  <Infestation.rulePack.rulesStrings.19>desc_sentence->Все животные покинули этот район.</Infestation.rulePack.rulesStrings.19>
+	<Infestation.label>жуки</Infestation.label>
+	<Infestation.rulePack.rulesStrings.0>tale_noun->как [community], где живёт [pawn_nameShortDef], кишит насекомыми</Infestation.rulePack.rulesStrings.0>
+	<Infestation.rulePack.rulesStrings.1>image->, как [swarm] [of_insects] [circumstance_phrase]</Infestation.rulePack.rulesStrings.1>
+	<Infestation.rulePack.rulesStrings.2>swarm->рой</Infestation.rulePack.rulesStrings.2>
+	<Infestation.rulePack.rulesStrings.3>swarm->всепоглощающая волна</Infestation.rulePack.rulesStrings.3>
+	<Infestation.rulePack.rulesStrings.4>swarm->туча</Infestation.rulePack.rulesStrings.4>
+	<Infestation.rulePack.rulesStrings.5>of_insects->мегапауков</Infestation.rulePack.rulesStrings.5>
+	<Infestation.rulePack.rulesStrings.6>of_insects->насекомых</Infestation.rulePack.rulesStrings.6>
+	<Infestation.rulePack.rulesStrings.7>of_insects->из чёрных крапинок</Infestation.rulePack.rulesStrings.7>
+	<Infestation.rulePack.rulesStrings.8>circumstance_phrase->полностью окружает [community]</Infestation.rulePack.rulesStrings.8>
+	<Infestation.rulePack.rulesStrings.9>circumstance_phrase->выползает из всех щелей</Infestation.rulePack.rulesStrings.9>
+	<Infestation.rulePack.rulesStrings.10>circumstance_phrase->вырывается из-под земли</Infestation.rulePack.rulesStrings.10>
+	<Infestation.rulePack.rulesStrings.11>circumstance_phrase->пожирает всё живое на своём пути</Infestation.rulePack.rulesStrings.11>
+	<Infestation.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDef] организует сопротивление.</Infestation.rulePack.rulesStrings.12>
+	<Infestation.rulePack.rulesStrings.13>desc_sentence->[pawn_nameShortDef] берёт [weapon] для защиты.</Infestation.rulePack.rulesStrings.13>
+	<Infestation.rulePack.rulesStrings.14>desc_sentence->[pawn_nameShortDef] лежит на земле с тяжёлыми ранами.</Infestation.rulePack.rulesStrings.14>
+	<Infestation.rulePack.rulesStrings.15>desc_sentence->[pawn_nameShortDef] перехватывает [pawn_possessive] [weapon] и парирует удар.</Infestation.rulePack.rulesStrings.15>
+	<Infestation.rulePack.rulesStrings.16>desc_sentence->[pawn_nameShortDef] принимает [badassadjective] вид.</Infestation.rulePack.rulesStrings.16>
+	<Infestation.rulePack.rulesStrings.17>desc_sentence->[pawn_nameShortDef] принимает [angstyadjective] вид.</Infestation.rulePack.rulesStrings.17>
+	<Infestation.rulePack.rulesStrings.18>desc_sentence->Земля покрыта [gore].</Infestation.rulePack.rulesStrings.18>
+	<Infestation.rulePack.rulesStrings.19>desc_sentence->Все животные покинули этот район.</Infestation.rulePack.rulesStrings.19>
 
+	<MeteoriteImpact.label>падение метеорита</MeteoriteImpact.label>
+	<MeteoriteImpact.rulePack.rulesStrings.0>tale_noun->как рядом с поселением падает метеорит</MeteoriteImpact.rulePack.rulesStrings.0>
+	<MeteoriteImpact.rulePack.rulesStrings.1>image(p=3)->, как [airborne_subject] [airborne_action][airborne_circumstance]</MeteoriteImpact.rulePack.rulesStrings.1>
+	<MeteoriteImpact.rulePack.rulesStrings.2>airborne_subject->[large] [color] огненный шар</MeteoriteImpact.rulePack.rulesStrings.2>
+	<MeteoriteImpact.rulePack.rulesStrings.3>airborne_subject->каменная глыба</MeteoriteImpact.rulePack.rulesStrings.3>
+	<MeteoriteImpact.rulePack.rulesStrings.4>airborne_subject->яркая [color_female] точка</MeteoriteImpact.rulePack.rulesStrings.4>
+	<MeteoriteImpact.rulePack.rulesStrings.5>airborne_action->летит к земле</MeteoriteImpact.rulePack.rulesStrings.5>
+	<MeteoriteImpact.rulePack.rulesStrings.6>airborne_action->падает на землю</MeteoriteImpact.rulePack.rulesStrings.6>
+	<MeteoriteImpact.rulePack.rulesStrings.7>airborne_circumstance->[empty] в клубах пыли и пепла</MeteoriteImpact.rulePack.rulesStrings.7>
+	<MeteoriteImpact.rulePack.rulesStrings.8>airborne_circumstance->, озаряя небеса</MeteoriteImpact.rulePack.rulesStrings.8>
+	<MeteoriteImpact.rulePack.rulesStrings.9>airborne_circumstance->, оставляя огненно-[color] след</MeteoriteImpact.rulePack.rulesStrings.9>
+	<MeteoriteImpact.rulePack.rulesStrings.10>image->[empty] [color] метеорит, [ground_circumstance]</MeteoriteImpact.rulePack.rulesStrings.10>
+	<MeteoriteImpact.rulePack.rulesStrings.11>image->[empty] [large] монолит, [ground_circumstance]</MeteoriteImpact.rulePack.rulesStrings.11>
+	<MeteoriteImpact.rulePack.rulesStrings.12>image->[empty] [large] [color] оплавленный кусок породы, [ground_circumstance]</MeteoriteImpact.rulePack.rulesStrings.12>
+	<MeteoriteImpact.rulePack.rulesStrings.13>ground_circumstance->окружённый расплавленными обломками</MeteoriteImpact.rulePack.rulesStrings.13>
+	<MeteoriteImpact.rulePack.rulesStrings.14>ground_circumstance->вошедший наполовину в землю</MeteoriteImpact.rulePack.rulesStrings.14>
+	<MeteoriteImpact.rulePack.rulesStrings.15>ground_circumstance->лежащий посреди кратера</MeteoriteImpact.rulePack.rulesStrings.15>
+	<MeteoriteImpact.rulePack.rulesStrings.16>ground_circumstance->дымящийся от жара</MeteoriteImpact.rulePack.rulesStrings.16>
+	<MeteoriteImpact.rulePack.rulesStrings.17>desc_sentence->На происходящее взволнованно смотрит [pawn_nameShortDef].</MeteoriteImpact.rulePack.rulesStrings.17>
+	<MeteoriteImpact.rulePack.rulesStrings.18>desc_sentence->[pawn_nameShortDef] стоит в шоке от увиденного.</MeteoriteImpact.rulePack.rulesStrings.18>
+	<MeteoriteImpact.rulePack.rulesStrings.19>desc_sentence->[pawn_nameShortDef] любуется зрелищем.</MeteoriteImpact.rulePack.rulesStrings.19>
+	<MeteoriteImpact.rulePack.rulesStrings.20>desc_sentence->Люди, стоящие рядом, готовят инструменты и снаряжение.</MeteoriteImpact.rulePack.rulesStrings.20>
+	<MeteoriteImpact.rulePack.rulesStrings.21>desc_sentence->Издалека приближаются [quantity_adjphrase] фигур.</MeteoriteImpact.rulePack.rulesStrings.21>
+	<MeteoriteImpact.rulePack.rulesStrings.22>desc_sentence->Царит мёртвая тишина.</MeteoriteImpact.rulePack.rulesStrings.22>
+
+	<ToxicFallout.label>toxic fallout</ToxicFallout.label>
+	<ToxicFallout.rulePack.rulesStrings.0>tale_noun->fallout settling over [pawn_nameShortDef]'s [community]</ToxicFallout.rulePack.rulesStrings.0>
+	<ToxicFallout.rulePack.rulesStrings.1>tale_noun->the atmosphere near [pawn_nameShortDef]'s [community] becoming toxic</ToxicFallout.rulePack.rulesStrings.1>
+	<ToxicFallout.rulePack.rulesStrings.2>image->an ominous sky, [circumstance_group]</ToxicFallout.rulePack.rulesStrings.2>
+	<ToxicFallout.rulePack.rulesStrings.3>image->the air becoming thick and [circumstance_group]</ToxicFallout.rulePack.rulesStrings.3>
+	<ToxicFallout.rulePack.rulesStrings.4>image->the ground glowing gently and [circumstance_group]</ToxicFallout.rulePack.rulesStrings.4>
+	<ToxicFallout.rulePack.rulesStrings.5>image->fields of dead plants [circumstance_group]</ToxicFallout.rulePack.rulesStrings.5>
+	<ToxicFallout.rulePack.rulesStrings.6>image->[quantity_adjphrase] graves [circumstance_group]</ToxicFallout.rulePack.rulesStrings.6>
+	<ToxicFallout.rulePack.rulesStrings.7>circumstance_phrase->with no life in sight</ToxicFallout.rulePack.rulesStrings.7>
+	<ToxicFallout.rulePack.rulesStrings.8>circumstance_phrase->covered by a faint sheen of luminous dust</ToxicFallout.rulePack.rulesStrings.8>
+	<ToxicFallout.rulePack.rulesStrings.9>circumstance_phrase->arranged in a pattern that suggests bones</ToxicFallout.rulePack.rulesStrings.9>
+	<ToxicFallout.rulePack.rulesStrings.10>circumstance_phrase->waiting for the poison to stop</ToxicFallout.rulePack.rulesStrings.10>
+	<ToxicFallout.rulePack.rulesStrings.11>desc_sentence->[pawn_nameShortDef] lies on the ground, [pawn_possessive] body twisted at an unusual angle.</ToxicFallout.rulePack.rulesStrings.11>
+	<ToxicFallout.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDef] hides near a [terrainfeature], gazing out with a [angstyadjective] look.</ToxicFallout.rulePack.rulesStrings.12>
+	<ToxicFallout.rulePack.rulesStrings.13>desc_sentence->[pawn_nameShortDef] looks on in shock.</ToxicFallout.rulePack.rulesStrings.13>
+	<ToxicFallout.rulePack.rulesStrings.14>desc_sentence->[pawn_nameShortDef] rests quietly with a layer of sweat upon [pawn_possessive] face.</ToxicFallout.rulePack.rulesStrings.14>
+	<ToxicFallout.rulePack.rulesStrings.15>desc_sentence->[quantity_adjphrase] dead [animal]s litter the ground.</ToxicFallout.rulePack.rulesStrings.15>
+	<ToxicFallout.rulePack.rulesStrings.16>desc_sentence->[quantity_adjphrase] dying [animal]s litter the ground.</ToxicFallout.rulePack.rulesStrings.16>
+	<ToxicFallout.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase] [animal]s mill around uncertainly.</ToxicFallout.rulePack.rulesStrings.17>
+
+	<VolcanicWinter.label>volcanic winter</VolcanicWinter.label>
+	<VolcanicWinter.rulePack.rulesStrings.0>tale_noun->volcanic winter beginning at [pawn_nameShortDef]'s [community]</VolcanicWinter.rulePack.rulesStrings.0>
+	<VolcanicWinter.rulePack.rulesStrings.1>image->a dark and cold sky, [circumstance_group]</VolcanicWinter.rulePack.rulesStrings.1>
+	<VolcanicWinter.rulePack.rulesStrings.2>image->the air filling with ash, [circumstance_group]</VolcanicWinter.rulePack.rulesStrings.2>
+	<VolcanicWinter.rulePack.rulesStrings.3>image->a frost-covered barren [terrainfeature] [circumstance_group]</VolcanicWinter.rulePack.rulesStrings.3>
+	<VolcanicWinter.rulePack.rulesStrings.4>image->[quantity_adjphrase] fields of ash-covered plants [circumstance_group]</VolcanicWinter.rulePack.rulesStrings.4>
+	<VolcanicWinter.rulePack.rulesStrings.5>circumstance_phrase->with no life in sight</VolcanicWinter.rulePack.rulesStrings.5>
+	<VolcanicWinter.rulePack.rulesStrings.6>circumstance_phrase->barely illuminated by thin shafts of light</VolcanicWinter.rulePack.rulesStrings.6>
+	<VolcanicWinter.rulePack.rulesStrings.7>circumstance_phrase->starkly illuminated with chilly blue light</VolcanicWinter.rulePack.rulesStrings.7>
+	<VolcanicWinter.rulePack.rulesStrings.8>desc_sentence->[pawn_nameShortDef] huddles near a fire.</VolcanicWinter.rulePack.rulesStrings.8>
+	<VolcanicWinter.rulePack.rulesStrings.9>desc_sentence->To stay warm, [pawn_nameShortDef] wears [quantity_adjphrase] [apparel]s.</VolcanicWinter.rulePack.rulesStrings.9>
+	<VolcanicWinter.rulePack.rulesStrings.10>desc_sentence->[pawn_nameShortDef] sits nearby, visibly exhausted by the ordeal.</VolcanicWinter.rulePack.rulesStrings.10>
+	<VolcanicWinter.rulePack.rulesStrings.11>desc_sentence->[pawn_nameShortDef] hides near a [terrainfeature], gazing out with a [angstyadjective] look.</VolcanicWinter.rulePack.rulesStrings.11>
+	<VolcanicWinter.rulePack.rulesStrings.12>desc_sentence->[quantity_adjphrase] starving [animal]s surround the scene.</VolcanicWinter.rulePack.rulesStrings.12>
+	<VolcanicWinter.rulePack.rulesStrings.13>desc_sentence->[quantity_adjphrase] shivering [animal]s surround the scene.</VolcanicWinter.rulePack.rulesStrings.13>
+	<VolcanicWinter.rulePack.rulesStrings.14>desc_sentence->[quantity_adjphrase] dying [animal]s litter the ground.</VolcanicWinter.rulePack.rulesStrings.14>
+	<VolcanicWinter.rulePack.rulesStrings.15>desc_sentence->[quantity_adjphrase] [animal]s mill around uncertainly.</VolcanicWinter.rulePack.rulesStrings.15>
+
+	
 </LanguageData>
