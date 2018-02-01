@@ -64,4 +64,4 @@
 
 Процесс перевода и организация командной работы описаны в [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
 
-Обсуждение всех вопросов происходит в [чате](https://t.me/rimworld_ru) [Телеграма](https://telegram.org/).
+Обсуждение всех вопросов происходит в [чате Телеграма](https://t.me/rimworld_ru) и в [группе ВКонтакте](https://vk.com/rimworld_russian).
