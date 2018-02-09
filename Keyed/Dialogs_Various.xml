@@ -116,14 +116,15 @@
 
 	<!-- Advanced game start options -->
 	<MapTemperatureDangerWarning>Внимание: вы приземлитесь в обледенелой местности. Выживание там может быть очень сложным или практически невозможным. Если не хотите сталкиваться с экстремальными трудностями, выберите другое место или сезон.</MapTemperatureDangerWarning>
-	<MapSizePerformanceWarning>Внимание: Производительность может падать с увеличением размера карты. Огромный размер не тестировался и почти наверняка приведёт к проблемам с производительностью.</MapSizePerformanceWarning>
-	<MapSize>Размер карты</MapSize>
+	<MapSizePerformanceWarning>Игра рассчитана на работу с картами средних размеров. На них достаточно места для полноценного развития.\n\nБольшие размеры карты не только снижают производительность, но и «ломают» игру: странно ведёт себя ИИ, нарушается игровой баланс. Эти размеры карты оставлены в игре как дань традиции и для тестовых целей. Не рекомендуется выбирать их без особой причины.</MapSizePerformanceWarning>
+	<MapSize>Размер карты:</MapSize>
 	<MapSizeDesc>{0}x{0} ({1} клеток)</MapSizeDesc>
-	<MapSizeSmall>Маленькая</MapSizeSmall>
-	<MapSizeMedium>Средняя</MapSizeMedium>
-	<MapSizeLarge>Большая</MapSizeLarge>
-	<MapSizeExtreme>Огромная</MapSizeExtreme>
+	<MapSizeSmall>Маленький</MapSizeSmall>
+	<MapSizeMedium>Средний</MapSizeMedium>
+	<MapSizeLarge>Большой</MapSizeLarge>
+	<MapSizeExtreme>Огромный</MapSizeExtreme>
 	<MapStartSeason>Начальный сезон:</MapStartSeason>
+	<Notice>Советы:</Notice>
 	<MapStartSeasonDefault>Авто</MapStartSeasonDefault>
 	<PermadeathMode>«Хардкор»</PermadeathMode>
 	<PermadeathModeInfo>В этом режиме доступна лишь одна ячейка сохранения, а сохраняться возможно только при выходе из игры. Нельзя перезагружаться, чтобы исправить ошибки, и если поселение погибает — это конец игры.\n\nЭто именно тот режим, в котором RimWorld и задумывался изначально, где любой поворот судьбы, печальный или удачный, сказывается на жизни поселения в полную силу.</PermadeathModeInfo>
@@ -183,6 +184,7 @@
 	<WalkSpeedProperty>Скорость ходьбы</WalkSpeedProperty>
 	<MinFoodQuality>Мин. качество еды</MinFoodQuality>
 	<Diet>Питание</Diet>
+	<LeatherType>Тип кожи</LeatherType>
 	<BodySize>Размер тела</BodySize>
 	<RecruitDifficulty>Сложность вербовки</RecruitDifficulty>
 	<MarketValue>Базовая цена</MarketValue>
@@ -257,6 +259,7 @@
 	<CaravanItemIsUnreachableMulti>Ни один из поселенцев не может добраться до {0}x {1}.</CaravanItemIsUnreachableMulti>
 	<TooBigCaravanMassUsage>Караван не сможет нести так много.</TooBigCaravanMassUsage>
 	<CaravanMassUsageTooltip>Текущий переносимый и максимальный вес.\n\nПереносимый вес включает в себя вес как вещей поселенцев, так и их груза.\n\nВы не сможете отправить караван, если суммарный переносимый вес превышает максимальный.</CaravanMassUsageTooltip>
+	<CaravanVisibilityTip>Заметность определяет, насколько караван легко обнаружить.\n\nОпределяется совокупными размерами всех участников каравана: людей и животных.\n\nЧем караван заметнее, тем чаще на него будут нападать.</CaravanVisibilityTip>
 	<MassUsageInfo>{0} / {1} кг</MassUsageInfo>
 	<DaysWorthOfFoodInfo>Еды хватит на {0} дней</DaysWorthOfFoodInfo>
 	<DaysWorthOfFoodInfoRot>Еды хватит на {0} дней, испортится через {1} дней</DaysWorthOfFoodInfoRot>
