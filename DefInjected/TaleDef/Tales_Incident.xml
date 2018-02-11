@@ -192,4 +192,62 @@
 	<Tornado.rulePack.rulesStrings.18>desc_sentence->[outlander] спешно готовится ко встрече со стихией.</Tornado.rulePack.rulesStrings.18>
 	<Tornado.rulePack.rulesStrings.19>desc_sentence->Все животные покинули эту местность.</Tornado.rulePack.rulesStrings.19>  
 
+	<ManhunterPack.label>агрессивные животные</ManhunterPack.label>
+	<ManhunterPack.rulePack.rulesStrings.0>tale_noun->как агрессивные животные атакуют поселение</ManhunterPack.rulePack.rulesStrings.0>
+	<ManhunterPack.rulePack.rulesStrings.1>image->[empty] [number] [animals_adj] животных, [animals_desc]. Они [action]</ManhunterPack.rulePack.rulesStrings.1>
+	<ManhunterPack.rulePack.rulesStrings.2>number(p=3)->[quantity_adjphrase]</ManhunterPack.rulePack.rulesStrings.2>
+	<ManhunterPack.rulePack.rulesStrings.3>number->группу</ManhunterPack.rulePack.rulesStrings.3>
+	<ManhunterPack.rulePack.rulesStrings.4>number->стаю</ManhunterPack.rulePack.rulesStrings.4>
+	<ManhunterPack.rulePack.rulesStrings.5>animals_adj->агрессивных</ManhunterPack.rulePack.rulesStrings.5>
+	<ManhunterPack.rulePack.rulesStrings.6>animals_adj->злобных</ManhunterPack.rulePack.rulesStrings.6>
+	<ManhunterPack.rulePack.rulesStrings.7>animals_adj->свирепых</ManhunterPack.rulePack.rulesStrings.7>
+	<ManhunterPack.rulePack.rulesStrings.8>action->нападают на людей</ManhunterPack.rulePack.rulesStrings.8>
+	<ManhunterPack.rulePack.rulesStrings.9>action->вырезают скот</ManhunterPack.rulePack.rulesStrings.9>
+	<ManhunterPack.rulePack.rulesStrings.10>action->приближаются к поселению</ManhunterPack.rulePack.rulesStrings.10>
+	<ManhunterPack.rulePack.rulesStrings.11>action->окружают поселение</ManhunterPack.rulePack.rulesStrings.11>
+	<ManhunterPack.rulePack.rulesStrings.12>animals_desc(p=2)->одержимых [hate_emotion]</ManhunterPack.rulePack.rulesStrings.12>
+	<ManhunterPack.rulePack.rulesStrings.13>animals_desc->покрытых [gore]</ManhunterPack.rulePack.rulesStrings.13>
+	<ManhunterPack.rulePack.rulesStrings.14>hate_emotion->жаждой человеческой крови</ManhunterPack.rulePack.rulesStrings.14>
+	<ManhunterPack.rulePack.rulesStrings.15>hate_emotion->ненавистью</ManhunterPack.rulePack.rulesStrings.15>
+	<ManhunterPack.rulePack.rulesStrings.16>hate_emotion->яростью</ManhunterPack.rulePack.rulesStrings.16>
+	<ManhunterPack.rulePack.rulesStrings.17>desc_sentence->[pawn_nameShortDef] организует оборону.</ManhunterPack.rulePack.rulesStrings.17>
+	<ManhunterPack.rulePack.rulesStrings.18>desc_sentence->[pawn_nameShortDef] в ранах лежит на земле.</ManhunterPack.rulePack.rulesStrings.18>
+	<ManhunterPack.rulePack.rulesStrings.19>desc_sentence->[pawn_nameShortDef] крепко сжимает в руках [weapon].</ManhunterPack.rulePack.rulesStrings.19>
+	<ManhunterPack.rulePack.rulesStrings.20>desc_sentence->[pawn_nameShortDef] отбивается, сжав в руках [weapon].</ManhunterPack.rulePack.rulesStrings.20>
+	<ManhunterPack.rulePack.rulesStrings.21>desc_sentence->[pawn_nameShortDef] принимает [badassadjective] вид.</ManhunterPack.rulePack.rulesStrings.21>
+	<ManhunterPack.rulePack.rulesStrings.22>desc_sentence->[pawn_nameShortDef] принимает [angstyadjective] вид.</ManhunterPack.rulePack.rulesStrings.22>
+	<ManhunterPack.rulePack.rulesStrings.23>desc_sentence->Земля вокруг покрыта [gore].</ManhunterPack.rulePack.rulesStrings.23>
+		
+	<ShipPartCrash.label>падение обломка корабля</ShipPartCrash.label>
+	<ShipPartCrash.rulePack.rulesStrings.0>tale_noun->как повреждённый обломок корабля [mechanoid] падает рядом с поселением</ShipPartCrash.rulePack.rulesStrings.0>
+	<ShipPartCrash.rulePack.rulesStrings.1>image->, как [subject][mechanoid_desc] [action]</ShipPartCrash.rulePack.rulesStrings.1>
+	<ShipPartCrash.rulePack.rulesStrings.2>subject->легион [mechanoid]</ShipPartCrash.rulePack.rulesStrings.2>
+	<ShipPartCrash.rulePack.rulesStrings.3>subject->рой [mechanoid]</ShipPartCrash.rulePack.rulesStrings.3>
+	<ShipPartCrash.rulePack.rulesStrings.4>subject->армия [mechanoid]</ShipPartCrash.rulePack.rulesStrings.4>
+	<ShipPartCrash.rulePack.rulesStrings.5>subject->группа [mechanoid]</ShipPartCrash.rulePack.rulesStrings.5>
+	<ShipPartCrash.rulePack.rulesStrings.6>mechanoid(p=2)->механоидов</ShipPartCrash.rulePack.rulesStrings.6>
+	<ShipPartCrash.rulePack.rulesStrings.7>mechanoid->жнецов</ShipPartCrash.rulePack.rulesStrings.7>
+	<ShipPartCrash.rulePack.rulesStrings.8>mechanoid->сентипед</ShipPartCrash.rulePack.rulesStrings.8>
+	<ShipPartCrash.rulePack.rulesStrings.9>mechanoid(p=0.5)->роботов</ShipPartCrash.rulePack.rulesStrings.9>
+	<ShipPartCrash.rulePack.rulesStrings.10>action->приближается к поселению</ShipPartCrash.rulePack.rulesStrings.10>
+	<ShipPartCrash.rulePack.rulesStrings.11>action->окружает поселение</ShipPartCrash.rulePack.rulesStrings.11>
+	<ShipPartCrash.rulePack.rulesStrings.12>action->нападает на людей</ShipPartCrash.rulePack.rulesStrings.12>
+	<ShipPartCrash.rulePack.rulesStrings.13>action->вырезает скот</ShipPartCrash.rulePack.rulesStrings.13>
+	<ShipPartCrash.rulePack.rulesStrings.14>mechanoid_desc->, покрытых [gore],</ShipPartCrash.rulePack.rulesStrings.14>
+	<ShipPartCrash.rulePack.rulesStrings.15>mechanoid_desc->[empty] с вмятинами на корпусах</ShipPartCrash.rulePack.rulesStrings.15>
+	<ShipPartCrash.rulePack.rulesStrings.16>mechanoid_desc->[empty] с сенсорами, источающими [color] свет,</ShipPartCrash.rulePack.rulesStrings.16>
+	<ShipPartCrash.rulePack.rulesStrings.17>desc_sentence->[pawn_nameShortDef] в ранах лежит на земле.</ShipPartCrash.rulePack.rulesStrings.17>
+	<ShipPartCrash.rulePack.rulesStrings.18>desc_sentence->[pawn_nameShortDef], [defender_circumstance], отбивает атаку за атакой.</ShipPartCrash.rulePack.rulesStrings.18>
+	<ShipPartCrash.rulePack.rulesStrings.19>desc_sentence->[pawn_nameShortDef] стоит не дрогнув, [defender_circumstance].</ShipPartCrash.rulePack.rulesStrings.19>
+	<ShipPartCrash.rulePack.rulesStrings.20>desc_sentence->[pawn_nameShortDef], [defender_circumstance], организует оборону.</ShipPartCrash.rulePack.rulesStrings.20>
+	<ShipPartCrash.rulePack.rulesStrings.21>desc_sentence->[pawn_nameShortDef] принимает [angstyadjective] вид.</ShipPartCrash.rulePack.rulesStrings.21>
+	<ShipPartCrash.rulePack.rulesStrings.22>desc_sentence->[pawn_nameShortDef], [defender_circumstance], принимает [badassadjective] вид.</ShipPartCrash.rulePack.rulesStrings.22>
+	<ShipPartCrash.rulePack.rulesStrings.23>desc_sentence->Земля вокруг усеяна кусками металлолома.</ShipPartCrash.rulePack.rulesStrings.23>
+	<ShipPartCrash.rulePack.rulesStrings.24>desc_sentence->Земля вокруг покрыта [gore].</ShipPartCrash.rulePack.rulesStrings.24>
+	<ShipPartCrash.rulePack.rulesStrings.25>defender_circumstance->крепко сжимая в руках [weapon]</ShipPartCrash.rulePack.rulesStrings.25>
+	<ShipPartCrash.rulePack.rulesStrings.26>defender_circumstance->победоносно крича</ShipPartCrash.rulePack.rulesStrings.26>
+	<ShipPartCrash.rulePack.rulesStrings.27>defender_circumstance->источая [color] свет</ShipPartCrash.rulePack.rulesStrings.27>
+	<ShipPartCrash.rulePack.rulesStrings.28>defender_circumstance->воинственно подняв кулак</ShipPartCrash.rulePack.rulesStrings.28>
+	<ShipPartCrash.rulePack.rulesStrings.29>defender_circumstance->поигрывая мышцами</ShipPartCrash.rulePack.rulesStrings.29>
+
 </LanguageData>
