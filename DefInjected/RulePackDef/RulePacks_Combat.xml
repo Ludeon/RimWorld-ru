@@ -107,14 +107,8 @@
 	<Combat_MeleeIncludes.rulePack.rulesStrings.84>flavortextconsequence->оставляя страшные раны</Combat_MeleeIncludes.rulePack.rulesStrings.84>
 	<Combat_MeleeIncludes.rulePack.rulesStrings.85>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя омерзительно выглядящие раны</Combat_MeleeIncludes.rulePack.rulesStrings.85>
 
-	<Combat_MeleeIncludes.rulePack.rulesStrings.86>reserved->reserved</Combat_MeleeIncludes.rulePack.rulesStrings.86>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.87>reserved->reserved</Combat_MeleeIncludes.rulePack.rulesStrings.87>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.88>reserved->reserved</Combat_MeleeIncludes.rulePack.rulesStrings.88>
-	<Combat_MeleeIncludes.rulePack.rulesStrings.89>reserved->reserved</Combat_MeleeIncludes.rulePack.rulesStrings.89>
 
-
-
-
+	
 	<Combat_WoundIncludes.rulePack.rulesStrings.0>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</Combat_WoundIncludes.rulePack.rulesStrings.0>
 	<Combat_WoundIncludes.rulePack.rulesStrings.1>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] и [recipient_part_destroyed1_label]</Combat_WoundIncludes.rulePack.rulesStrings.1>
 	<Combat_WoundIncludes.rulePack.rulesStrings.2>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label] и [recipient_part_destroyed2_label]</Combat_WoundIncludes.rulePack.rulesStrings.2>
@@ -179,21 +173,22 @@
 	<Combat_Hit.rulePack.rulesStrings.2>logentry(p=0.1)->[initiator_definite][flavortextsituation] [damaged] [recipient_definite] в [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.2>
 	<Combat_Hit.rulePack.rulesStrings.3>logentry(p=0.1)->[initiator_definite] [damaged] [recipient_definite] в [recipient_part0_label], [flavortextconsequence].</Combat_Hit.rulePack.rulesStrings.3>
 	<Combat_Hit.rulePack.rulesStrings.4>logentry(p=0.4)->[initiator_definite], [expertly] орудуя [initiator_possessive] [weapon_label], [flavortextadverb] [damaged] [recipient_definite] в [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.4>
+	<Combat_Hit.rulePack.rulesStrings.5>logentry(p=0.4)->[initiator_definite], [expertly] орудуя [initiator_possessive] [weapon_label], [damaged] [recipient_definite] в [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.5>
 
 	<!-- combined high priority, if we destroyed something -->
-	<Combat_Hit.rulePack.rulesStrings.5>logentry(p=0.3)->[initiator_definite] [destroyed] [destroyed_targets] [recipient_definite].</Combat_Hit.rulePack.rulesStrings.5>
-	<Combat_Hit.rulePack.rulesStrings.6>logentry(p=0.3)->[initiator_definite] [destroyed] [destroyed_targets] [recipient_definite] [destroyed_suffix].</Combat_Hit.rulePack.rulesStrings.6>
-	<Combat_Hit.rulePack.rulesStrings.7>logentry(p=0.3)->[initiator_definite] [expertly] [destroyed] [destroyed_targets] [recipient_definite].</Combat_Hit.rulePack.rulesStrings.7>
-	<Combat_Hit.rulePack.rulesStrings.8>logentry(p=0.3)->[initiator_definite] при помощи [implement] [destroyed] [destroyed_targets] [recipient_definite].</Combat_Hit.rulePack.rulesStrings.8>
+	<Combat_Hit.rulePack.rulesStrings.6>logentry(p=0.3)->[initiator_definite] [destroyed] [destroyed_targets] [recipient_definite].</Combat_Hit.rulePack.rulesStrings.6>
+	<Combat_Hit.rulePack.rulesStrings.7>logentry(p=0.3)->[initiator_definite] [destroyed] [destroyed_targets] [recipient_definite] [destroyed_suffix].</Combat_Hit.rulePack.rulesStrings.7>
+	<Combat_Hit.rulePack.rulesStrings.8>logentry(p=0.3)->[initiator_definite] [expertly] [destroyed] [destroyed_targets] [recipient_definite].</Combat_Hit.rulePack.rulesStrings.8>
+	<Combat_Hit.rulePack.rulesStrings.9>logentry(p=0.3)->[initiator_definite] при помощи [implement] [destroyed] [destroyed_targets] [recipient_definite].</Combat_Hit.rulePack.rulesStrings.9>
 
-	<Combat_Hit.rulePack.rulesStrings.9>result(p=1,recipient_part_damaged_count==0)->[destroyed_participle] [recipient_possessive] [destroyed_targets]</Combat_Hit.rulePack.rulesStrings.9>
-	<Combat_Hit.rulePack.rulesStrings.10>result(p=1,recipient_part_destroyed_count==0)->[damaged_participle] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.10>
-	<Combat_Hit.rulePack.rulesStrings.11>result(p=1)->[destroyed_participle] [recipient_possessive] [destroyed_targets] и [damaged_participle] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.11>
+	<Combat_Hit.rulePack.rulesStrings.10>result(p=1,recipient_part_damaged_count==0)->[destroyed_participle] [recipient_possessive] [destroyed_targets]</Combat_Hit.rulePack.rulesStrings.10>
+	<Combat_Hit.rulePack.rulesStrings.11>result(p=1,recipient_part_destroyed_count==0)->[damaged_participle] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.11>
+	<Combat_Hit.rulePack.rulesStrings.12>result(p=1)->[destroyed_participle] [recipient_possessive] [destroyed_targets] и [damaged_participle] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.12>
 
-	<Combat_Hit.rulePack.rulesStrings.12>action(p=0.3)->[initiator_definite] бьёт [recipient_definite] [maneuver_noun_instr] [implement]</Combat_Hit.rulePack.rulesStrings.12>
-	<Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[initiator_definite] использует [implement], чтобы [damaged_inf] [recipient_definite]</Combat_Hit.rulePack.rulesStrings.13>
-	<Combat_Hit.rulePack.rulesStrings.14>action->[initiator_definite] [damaged] [recipient_definite] при помощи [implement]</Combat_Hit.rulePack.rulesStrings.14>
-	<Combat_Hit.rulePack.rulesStrings.15>action(p=0.6)->[initiator_definite] [damaged] [recipient_definite]</Combat_Hit.rulePack.rulesStrings.15>
+	<Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[initiator_definite] бьёт [recipient_definite] [maneuver_noun_instr] [implement]</Combat_Hit.rulePack.rulesStrings.13>
+	<Combat_Hit.rulePack.rulesStrings.14>action(p=0.3)->[initiator_definite] использует [implement], чтобы [damaged_inf] [recipient_definite]</Combat_Hit.rulePack.rulesStrings.14>
+	<Combat_Hit.rulePack.rulesStrings.15>action->[initiator_definite] [damaged] [recipient_definite] при помощи [implement]</Combat_Hit.rulePack.rulesStrings.15>
+	<Combat_Hit.rulePack.rulesStrings.16>action(p=0.6)->[initiator_definite] [damaged] [recipient_definite]</Combat_Hit.rulePack.rulesStrings.16>
 
 
 
@@ -252,19 +247,7 @@
 
 
 
-
-	<Combat_RangedIncludes.rulePack.rulesStrings.0>initiator_definite->[initiator_labelDefinite]</Combat_RangedIncludes.rulePack.rulesStrings.0>
-	<Combat_RangedIncludes.rulePack.rulesStrings.1>initiator_definite->[initiator_nameShortDef]</Combat_RangedIncludes.rulePack.rulesStrings.1>
-
-	<Combat_RangedIncludes.rulePack.rulesStrings.2>recipient_definite->[recipient_labelDefinite]</Combat_RangedIncludes.rulePack.rulesStrings.2>
-	<Combat_RangedIncludes.rulePack.rulesStrings.3>recipient_definite->[recipient_nameShortDef]</Combat_RangedIncludes.rulePack.rulesStrings.3>
-
-	<Combat_RangedIncludes.rulePack.rulesStrings.4>originalTarget_definite->[originalTarget_labelDefinite]</Combat_RangedIncludes.rulePack.rulesStrings.4>
-	<Combat_RangedIncludes.rulePack.rulesStrings.5>originalTarget_definite->[originalTarget_nameShortDef]</Combat_RangedIncludes.rulePack.rulesStrings.5>
-
-
-
-
+	
 
 	<Combat_RangedFire.rulePack.rulesStrings.0>logentry->[initiator_definite] [shotat] [recipient_definite] из [initiator_possessive] [weapon_label].</Combat_RangedFire.rulePack.rulesStrings.0>
 	<Combat_RangedFire.rulePack.rulesStrings.1>logentry->[initiator_definite] [shot] [initiator_possessive] [weapon_label] в [recipient_definite].</Combat_RangedFire.rulePack.rulesStrings.1>
