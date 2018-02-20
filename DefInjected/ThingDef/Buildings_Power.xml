@@ -2,24 +2,64 @@
 <LanguageData>
 
 	<PowerConduit.label>кабель</PowerConduit.label>
-	<PowerConduit.description>Набор электрических проводов для передачи электроэнергии. Может быть размещён под стенами и другими постройками.</PowerConduit.description>
+	<PowerConduit.description>Провод для передачи электроэнергии. Может быть размещён под стенами и другими постройками.</PowerConduit.description>
+	<PowerConduit_Blueprint.label>кабель (проект)</PowerConduit_Blueprint.label>
+	<PowerConduit_Frame.label>кабель (прокладывается)</PowerConduit_Frame.label>
+	<PowerConduit_Frame.description>Набор электрических проводов для передачи электроэнергии. Может быть размещён под стенами и другими постройками.</PowerConduit_Frame.description>
+
+	<WaterproofConduit.label>подводный кабель</WaterproofConduit.label>
+	<WaterproofConduit.description>Провод с водостойкой изоляцией для передачи электроэнергии по дну мелких водоёмов.</WaterproofConduit.description>
+	<WaterproofConduit_Blueprint.label>подводный кабель (проект)</WaterproofConduit_Blueprint.label>
+	<WaterproofConduit_Frame.label>подводный кабель (прокладывается)</WaterproofConduit_Frame.label>
+	<WaterproofConduit_Frame.description>Провод с водостойкой изоляцией для передачи электроэнергии по дну мелких водоёмов.</WaterproofConduit_Frame.description>
 
 	<PowerSwitch.label>выключатель</PowerSwitch.label>
 	<PowerSwitch.description>Включает и выключает электропитание.</PowerSwitch.description>
+	<PowerSwitch_Blueprint.label>выключатель (проект)</PowerSwitch_Blueprint.label>
+	<PowerSwitch_Frame.label>выключатель (в процессе сборки)</PowerSwitch_Frame.label>
+	<PowerSwitch_Frame.description>Включает и выключает электропитание.</PowerSwitch_Frame.description>
 
 	<WoodFiredGenerator.label>генератор на дровах</WoodFiredGenerator.label>
 	<WoodFiredGenerator.description>Производит электричество, потребляя в качестве топлива древесину. Необходимо заправлять вручную.</WoodFiredGenerator.description>
+	<WoodFiredGenerator_Blueprint.label>генератор на дровах (проект)</WoodFiredGenerator_Blueprint.label>
+	<WoodFiredGenerator_Frame.label>генератор на дровах (в процессе сборки)</WoodFiredGenerator_Frame.label>
+	<WoodFiredGenerator_Frame.description>Производит электричество, потребляя в качестве топлива древесину. Необходимо заправлять вручную.</WoodFiredGenerator_Frame.description>
 
 	<ChemfuelPoweredGenerator.label>генератор на химтопливе</ChemfuelPoweredGenerator.label>
 	<ChemfuelPoweredGenerator.description>Производит электричество, потребляя химическое топливо. Необходимо заправлять вручную.</ChemfuelPoweredGenerator.description>
+	<ChemfuelPoweredGenerator_Blueprint.label>генератор на химтопливе (проект)</ChemfuelPoweredGenerator_Blueprint.label>
+	<ChemfuelPoweredGenerator_Frame.label>генератор на химтопливе (в процессе сборки)</ChemfuelPoweredGenerator_Frame.label>
+	<ChemfuelPoweredGenerator_Frame.description>Производит электричество, потребляя химическое топливо. Необходимо заправлять вручную.</ChemfuelPoweredGenerator_Frame.description>
 
 	<Battery.label>аккумулятор</Battery.label>
 	<Battery.description>Сохраняет энергию при её избытке и отдает при нехватке. Внимание: заряженные аккумуляторы имеют тенденцию взрываться при нагреве или попадании влаги!</Battery.description>
+	<Battery_Blueprint.label>аккумулятор (проект)</Battery_Blueprint.label>
+	<Battery_Frame.label>аккумулятор (в процессе сборки)</Battery_Frame.label>
+	<Battery_Frame.description>Сохраняет энергию при её избытке и отдает при нехватке. Внимание: заряженные аккумуляторы имеют тенденцию взрываться при нагреве или попадании влаги!</Battery_Frame.description>
+	<Battery_Blueprint_Install.label>аккумулятор (проект)</Battery_Blueprint_Install.label>
 
 	<SolarGenerator.label>солнечный генератор</SolarGenerator.label>
 	<SolarGenerator.description>Преобразует солнечную энергию в электрический ток. Не работает в темноте.</SolarGenerator.description>
+	<SolarGenerator_Blueprint.label>солнечный генератор (проект)</SolarGenerator_Blueprint.label>
+	<SolarGenerator_Frame.label>солнечный генератор (строится)</SolarGenerator_Frame.label>
+	<SolarGenerator_Frame.description>Преобразует солнечную энергию в электрический ток. Не работает в темноте.</SolarGenerator_Frame.description>
 
 	<GeothermalGenerator.label>геотермальный генератор</GeothermalGenerator.label>
 	<GeothermalGenerator.description>Вырабатывает энергию из паровых гейзеров. Должен быть размещён на гейзере.</GeothermalGenerator.description>
+	<GeothermalGenerator_Blueprint.label>геотермальный генератор (проект)</GeothermalGenerator_Blueprint.label>
+	<GeothermalGenerator_Frame.label>геотермальный генератор (строится)</GeothermalGenerator_Frame.label>
+	<GeothermalGenerator_Frame.description>Вырабатывает энергию из паровых гейзеров. Должен быть размещён на гейзере.</GeothermalGenerator_Frame.description>
+
+	<WatermillGenerator.label>водяной генератор</WatermillGenerator.label>
+	<WatermillGenerator.description>Преобразует энергию течения воды в электрический ток. Следует размещать так, чтобы колесо было на водном потоке.</WatermillGenerator.description>
+	<WatermillGenerator_Blueprint.label>водяной генератор (проект)</WatermillGenerator_Blueprint.label>
+	<WatermillGenerator_Frame.label>водяной генератор (строится)</WatermillGenerator_Frame.label>
+	<WatermillGenerator_Frame.description>Преобразует энергию течения воды в электрический ток. Следует размещать так, чтобы колесо было на водном потоке.</WatermillGenerator_Frame.description>
+	
+	<WindTurbine.label>ветровая турбина</WindTurbine.label>
+	<WindTurbine.description>Устройство, превращающее силу ветра в электроэнергию. Требует открытое пространство перед и за ним для оптимального потока воздуха.</WindTurbine.description>
+	<WindTurbine_Blueprint.label>ветровая турбина (проект)</WindTurbine_Blueprint.label>
+	<WindTurbine_Frame.label>ветровая турбина (строится)</WindTurbine_Frame.label>
+	<WindTurbine_Frame.description>Устройство, превращающее силу ветра в электроэнергию. Требует открытое пространство перед и за ним для оптимального потока воздуха.</WindTurbine_Frame.description>
 
 </LanguageData>

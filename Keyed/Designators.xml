@@ -38,6 +38,12 @@
 	<DesignatorPlanRemove>Удалить планировку</DesignatorPlanRemove>
 	<DesignatorPlanRemoveDesc>Удалить обозначения планировки.</DesignatorPlanRemoveDesc>
 
+	<DesignatorForbid>Запретить</DesignatorForbid>
+	<DesignatorForbidDesc>Запретить поселенцам использовать выбранные объекты.</DesignatorForbidDesc>
+	
+	<DesignatorUnforbid>Разрешить</DesignatorUnforbid>
+	<DesignatorUnforbidDesc>Разрешить поселенцам использовать выбранные объекты.</DesignatorUnforbidDesc>
+	
 	<DesignatorAreaHomeExpand>Расширить домашнюю область</DesignatorAreaHomeExpand>
 	<DesignatorAreaHomeExpandDesc>Поселенцы будут заниматься уборкой, тушением пожаров и ремонтом объектов только в домашней области.</DesignatorAreaHomeExpandDesc>
 	<DesignatorAreaHomeClear>Уменьшить домашнюю область</DesignatorAreaHomeClear>
@@ -70,8 +76,11 @@
 	<DesignatorZoneCreateStorageDumpingDesc>Создать зону для хранения мусора.\nТакже, позволяет расширить уже существующую свалку.</DesignatorZoneCreateStorageDumpingDesc>
 
 	<DesignatorZoneDelete>Удалить зоны</DesignatorZoneDelete>
+	<DesignatorZoneDeleteSingular>Удалить зону</DesignatorZoneDeleteSingular>
 	<DesignatorZoneDeleteDesc>Удаление зон, таких как склад или посадки.</DesignatorZoneDeleteDesc>
 
+	<DesignatorZoneExpand>Расширить зону</DesignatorZoneExpand>
+	
 	<DesignatorClaim>Захватить</DesignatorClaim>
 	<DesignatorClaimDesc>Нейтральные строения, включая древние руины и заброшенные осадные базы, будут присоединены к поселению. Ваши поселенцы смогут отремонтировать и обслуживать захваченные строения.</DesignatorClaimDesc>
 
@@ -81,8 +90,8 @@
 	<DesignatorStrip>Раздеть</DesignatorStrip>
 	<DesignatorStripDesc>Снять одежду с трупов и раненых</DesignatorStripDesc>
 
-	<DesignatorRearmTrap>Зарядить капкан</DesignatorRearmTrap>
-	<DesignatorRearmTrapDesc>Зарядить капкан, чтобы он снова смог сработать.</DesignatorRearmTrapDesc>
+	<DesignatorRearmTrap>Взвести капкан</DesignatorRearmTrap>
+	<DesignatorRearmTrapDesc>Взвести капкан, чтобы он снова смог сработать.</DesignatorRearmTrapDesc>
 
 	<DesignatorOpen>Открыть</DesignatorOpen>
 	<DesignatorOpenDesc>Открыть заполненные контейнеры или могилы.</DesignatorOpenDesc>
@@ -111,6 +120,7 @@
 	<SpaceAlreadyOccupied>Место уже занято.</SpaceAlreadyOccupied>
     <SpaceBeingSmoothed>Поверхность выравнивается.</SpaceBeingSmoothed>
 	<TerrainMustBeRemovable>Здесь нет пола, который можно было бы снять.</TerrainMustBeRemovable>
+	<MustBeOnMovingWater>Водное колесо следует устанавливать на водоём с течением.</MustBeOnMovingWater>
 
 
 	<!-- Mouse attachments -->

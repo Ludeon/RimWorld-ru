@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<StuffEffectMultiplierInsulation_Cold.label>Изоляция: Холод (множитель материала)</StuffEffectMultiplierInsulation_Cold.label>
+	<StuffEffectMultiplierInsulation_Heat.label>Изоляция: Тепло (множитель материала)</StuffEffectMultiplierInsulation_Heat.label>
+	<StuffEffectMultiplierArmor.label>Броня (множитель материала)</StuffEffectMultiplierArmor.label>
+
 	<ArmorRating_Blunt.label>Броня: Удар</ArmorRating_Blunt.label>
-	<ArmorRating_Blunt.description>Защита от тупых ударов, таких как атаки дубиной, падение камней и взрывы.</ArmorRating_Blunt.description>
+	<ArmorRating_Blunt.description>Защита от дробящих ударов, таких как атаки дубиной, падение камней и взрывы.</ArmorRating_Blunt.description>
 
 	<ArmorRating_Sharp.label>Броня: Проникновение</ArmorRating_Sharp.label>
 	<ArmorRating_Sharp.description>Защита от проникающих повреждений, таких как пули, ножевые порезы и укусы животных.</ArmorRating_Sharp.description>
 
 	<ArmorRating_Heat.label>Броня: Нагрев</ArmorRating_Heat.label>
-	<ArmorRating_Heat.description>Защита от температурных повреждений от окружающей среды, например пожаров или ожогов.</ArmorRating_Heat.description>
-
-	<ArmorRating_Electric.label>Броня: Электричество</ArmorRating_Electric.label>
-	<ArmorRating_Electric.description>Защита от электрического повреждения, такого как импульс ЭМИ.</ArmorRating_Electric.description>
+	<ArmorRating_Heat.description>Защита от резких температурных воздействий окружающей среды, например пожаров.</ArmorRating_Heat.description>
 
 	<Insulation_Cold.label>Изоляция: Холод</Insulation_Cold.label>
-	<Insulation_Cold.description>Насколько эта вещь улучшает минимальную комфортную температуру при её ношении.</Insulation_Cold.description>
+	<Insulation_Cold.description>Насколько эта вещь улучшает минимальную комфортную температуру при её ношении. Чем больше это значение, тем ниже минимальная температура окружающей среды, при которой носящему будет комфортно (чем выше значение, тем лучше).</Insulation_Cold.description>
 
 	<Insulation_Heat.label>Изоляция: Тепло</Insulation_Heat.label>
-	<Insulation_Heat.description>Насколько эта вещь улучшает максимальную комфортную температуру при её ношении.</Insulation_Heat.description>
+	<Insulation_Heat.description>Насколько эта вещь улучшает максимальную комфортную температуру при её ношении. Чем больше это значение, тем выше максимальная температура окружающей среды, при которой носящему будет комфортно (чем выше значение, тем лучше).</Insulation_Heat.description>
 
 	<EnergyShieldEnergyMax.label>Макс. заряд щита</EnergyShieldEnergyMax.label>
 	<EnergyShieldEnergyMax.description>Максимальное количество энергии, которое может быть в личном щите. Больше энергии — большее поглощение урона.</EnergyShieldEnergyMax.description>
 
 	<EnergyShieldRechargeRate.label>Скорость восстановления щита</EnergyShieldRechargeRate.label>
 	<EnergyShieldRechargeRate.description>Скорость с которой щит восстанавливает энергию, если он не сломан.</EnergyShieldRechargeRate.description>
+	<EnergyShieldRechargeRate.formatString>{0}/с</EnergyShieldRechargeRate.formatString>
 
 	<SmokepopBeltRadius.label>Радиус дымовой завесы</SmokepopBeltRadius.label>
 	<SmokepopBeltRadius.description>Область, которую закрывает дымовая завеса при детонации шашек поясной дымзавесы.</SmokepopBeltRadius.description>
 	<SmokepopBeltRadius.formatString>{0} м</SmokepopBeltRadius.formatString>
 
+	<EquipDelay.label>время надевания</EquipDelay.label>
+	<EquipDelay.description>Время, требуемое для надевания и снятия одежды.</EquipDelay.description>
+	<EquipDelay.formatString>{0} с</EquipDelay.formatString>
+	
 </LanguageData>
