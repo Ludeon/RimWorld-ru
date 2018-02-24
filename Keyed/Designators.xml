@@ -14,14 +14,14 @@
 	<DesignatorUninstallDesc>Убрать, чтобы перенести на склад, установить в другом месте или продать.</DesignatorUninstallDesc>
 
 	<DesignatorHarvest>Собрать</DesignatorHarvest>
-	<DesignatorHarvestDesc>Отметить растения для сбора пищи или другой продукции.</DesignatorHarvestDesc>
+	<DesignatorHarvestDesc>Отметить растения для сбора с них урожая.</DesignatorHarvestDesc>
 
 	<DesignatorHarvestWood>Срубить</DesignatorHarvestWood>
-	<DesignatorHarvestWoodDesc>Отметить деревья, которые нужно срубить для получения древесины.</DesignatorHarvestWoodDesc>
+	<DesignatorHarvestWoodDesc>Отметить деревья для вырубки с целью получения древесины.</DesignatorHarvestWoodDesc>
 
 	<DesignatorHaulThings>Перенести</DesignatorHaulThings>
-	<DesignatorHaulThingsDesc>Отметить куски породы и другие объекты для переноса на свалку. Не требуется для цельных предметов вроде еды или трупов, они всегда переносимы.</DesignatorHaulThingsDesc>
-	<MustHaulHaulables>Предметы, которые поселенцы сами не собирают (например, металлолом и каменные обломки), можно отметить для переноски.</MustHaulHaulables>
+	<DesignatorHaulThingsDesc>Отметить куски породы и другие объекты для переноса на свалку. Не требуется для цельных предметов вроде еды или трупов: они всегда переносимы.</DesignatorHaulThingsDesc>
+	<MustHaulHaulables>Для переноски можно отметить только те предметы, которые поселенцы сами не переносят (например, металлолом и каменные обломки).</MustHaulHaulables>
 
 	<DesignatorHunt>Охотиться</DesignatorHunt>
 	<DesignatorHuntDesc>Отметить животных для ваших охотников.</DesignatorHuntDesc>
@@ -73,11 +73,11 @@
 
 	<DesignatorZoneCreateStorageResourcesDesc>Создать зону для хранения различных ресурсов.\nТакже позволяет расширить уже существующий склад.</DesignatorZoneCreateStorageResourcesDesc>
 
-	<DesignatorZoneCreateStorageDumpingDesc>Создать зону для хранения мусора.\nТакже, позволяет расширить уже существующую свалку.</DesignatorZoneCreateStorageDumpingDesc>
+	<DesignatorZoneCreateStorageDumpingDesc>Создать зону для хранения мусора.\nТакже позволяет расширить уже существующую свалку.</DesignatorZoneCreateStorageDumpingDesc>
 
 	<DesignatorZoneDelete>Удалить зоны</DesignatorZoneDelete>
 	<DesignatorZoneDeleteSingular>Удалить зону</DesignatorZoneDeleteSingular>
-	<DesignatorZoneDeleteDesc>Удаление зон, таких как склад или посадки.</DesignatorZoneDeleteDesc>
+	<DesignatorZoneDeleteDesc>Удалить зоны, такие как склад или посадки.</DesignatorZoneDeleteDesc>
 
 	<DesignatorZoneExpand>Расширить зону</DesignatorZoneExpand>
 	
@@ -93,8 +93,8 @@
 	<DesignatorRearmTrap>Взвести капкан</DesignatorRearmTrap>
 	<DesignatorRearmTrapDesc>Взвести капкан, чтобы он снова смог сработать.</DesignatorRearmTrapDesc>
 
-	<DesignatorOpen>Открыть</DesignatorOpen>
-	<DesignatorOpenDesc>Открыть заполненные контейнеры или могилы.</DesignatorOpenDesc>
+	<DesignatorOpen>Вскрыть</DesignatorOpen>
+	<DesignatorOpenDesc>Вскрыть контейнер или могилу.</DesignatorOpenDesc>
 
 	<DesignatorSlaughter>Забить</DesignatorSlaughter>
 	<DesignatorSlaughterDesc>Забить домашнее животное.</DesignatorSlaughterDesc>
@@ -108,9 +108,9 @@
 	<TooCloseToMapEdge>Слишком близко к краю карты.</TooCloseToMapEdge>
 	<OutOfBounds>За пределами.</OutOfBounds>
 	<CannotPlaceInUndiscovered>Нельзя разместить в неразведанной зоне.</CannotPlaceInUndiscovered>
-	<InteractionSpotBlocked>Точка взаимодействия заблокирована {0}.</InteractionSpotBlocked>
+	<InteractionSpotBlocked>Точку взаимодействия блокирует {0}.</InteractionSpotBlocked>
 	<InteractionSpotOutOfBounds>Точка взаимодействия находится вне границ.</InteractionSpotOutOfBounds>
-	<InteractionSpotWillBeBlocked>Место взаимодействия будет заблокировано {0}.</InteractionSpotWillBeBlocked>
+	<InteractionSpotWillBeBlocked>Точку взаимодействия будет блокировать {0}.</InteractionSpotWillBeBlocked>
 	<WouldBlockInteractionSpot>{0} будет блокировать точку взаимодействия {1}.</WouldBlockInteractionSpot>
 	<TerrainIsAlready>Здесь уже есть {0}.</TerrainIsAlready>
 	<TerrainBeingSmoothed>Местность уже отмечена для выравнивания.</TerrainBeingSmoothed>
@@ -120,7 +120,7 @@
 	<SpaceAlreadyOccupied>Место уже занято.</SpaceAlreadyOccupied>
     <SpaceBeingSmoothed>Поверхность выравнивается.</SpaceBeingSmoothed>
 	<TerrainMustBeRemovable>Здесь нет пола, который можно было бы снять.</TerrainMustBeRemovable>
-	<MustBeOnMovingWater>Водное колесо следует устанавливать на водоём с течением.</MustBeOnMovingWater>
+	<MustBeOnMovingWater>Водяное колесо следует устанавливать на водоём с течением.</MustBeOnMovingWater>
 
 
 	<!-- Mouse attachments -->
