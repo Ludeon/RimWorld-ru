@@ -62,6 +62,7 @@
 	<OpenSteamWorkshop>Открыть Мастерскую Steam</OpenSteamWorkshop>
 	<GetModsFromForum>Скачать моды с форума</GetModsFromForum>
 	<OpenModsDataFolder>Открыть папку с модами</OpenModsDataFolder>
+	<ShowModsDataLocation>Показать путь к папке с модами</ShowModsDataLocation>
 	<ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все его функции.\n\nПомните, другие модификации могут перопределять значения ядра с помощью таких же значений defName.</ConfirmDisableCoreMod>
 	<ConfirmDeleteMod>Вы уверены, что хотите удалить {0}?</ConfirmDeleteMod>
 	<Unsubscribe>Деактивировать</Unsubscribe>
@@ -125,8 +126,6 @@
 	<Elevation>Высота</Elevation>
 	<Fertility>Плодородность</Fertility>
 	<AvgTemp>Средняя температура</AvgTemp>
-	<AvgSummerTemp>Температура летом</AvgSummerTemp>
-	<AvgWinterTemp>Температура зимой</AvgWinterTemp>
 	<Rainfall>Осадки</Rainfall>
 	<SpecialFeatures>Особенности</SpecialFeatures>
 	<HasCoast0>Побережье с севера</HasCoast0>
@@ -137,12 +136,12 @@
 	<FactionBase>База фракции</FactionBase>
 	<StoneTypesHere>Типы пород</StoneTypesHere>
 	<TimeZone>Часовой пояс</TimeZone>
-	<MovementTimeNow>Текущее время прохождения</MovementTimeNow>
-	<MovementTimeSummer>Время прохождения летом</MovementTimeSummer>
-	<MovementTimeWinter>Время прохождения зимой</MovementTimeWinter>
+	<MovementDifficulty>Сложность передвижения</MovementDifficulty>
 	<AnimalsCanGrazeNow>Животные могут пастись</AnimalsCanGrazeNow>
 	<AverageDiseaseFrequency>Ср. частота заболеваний</AverageDiseaseFrequency>
 	<PerYear>в год</PerYear>
+	<ForagedFood>Добываемая еда</ForagedFood>
+	<ForagedFoodYieldRate>Скорость добычи еды</ForagedFoodYieldRate>
 
 	<!--=========== Выбор персонажей ==========-->
 	<CreateCharacters>Создание персонажей</CreateCharacters>
@@ -152,7 +151,7 @@
 	<Randomize>Случайно</Randomize>
 	<AgeIndicator>возраст {0}</AgeIndicator>
 	<Backstory>Биография</Backstory>
-	<IncapableOf>Не может заниматься</IncapableOf>
+	<IncapableOf>Недоступно</IncapableOf>
 	<Traits>Черты характера</Traits>
 	<PermanentMoodEffect>Постоянные эффекты настроения</PermanentMoodEffect>
 	<Skills>Навыки</Skills>

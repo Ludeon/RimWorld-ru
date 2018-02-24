@@ -209,6 +209,8 @@
 	<EfficiencyStat>На выход продукта влияет</EfficiencyStat>
 	<ConstructionSkillRequired>Требуемый навык Строительства</ConstructionSkillRequired>
 	<ConstructionSkillRequiredExplanation>Навык Строительства, необходимый для того, чтобы построить этот объект.</ConstructionSkillRequiredExplanation>
+	<NuzzleInterval>Перерыв в ласке</NuzzleInterval>
+	<NuzzleIntervalExplanation>Как часто это животное будет ласкаться к поселенцам.\n\nМногие виды животных выражают своё расположение к человеку, ласкаясь или обнюхивая его. Большинство людей считают это милым, и их настроение улучшается.</NuzzleIntervalExplanation>
 
 	<!-- Trade -->
 	<PositiveBuysNegativeSells>Положительное число — покупка.\nОтрицательное число — продажа.</PositiveBuysNegativeSells>
@@ -242,14 +244,16 @@
 	<TradeWithFactionBaseBonus>Бонус торговли с базой фракции</TradeWithFactionBaseBonus>
 	<minimum>минимум</minimum>
 	<FinalPrice>Итоговая цена</FinalPrice>
-	<TradeMassUsageTooltip>Итоговый переносимый и максимальный вес.</TradeMassUsageTooltip>
+
+	<!-- Sellable items -->
+	<SellableItemsTitle>Товар, интересующий торговца</SellableItemsTitle>
+	<PawnsTabShort>Люди и животные</PawnsTabShort>
 
 	<!-- Form caravan -->
 	<FormCaravan>Снарядить караван</FormCaravan>
 	<FormCaravanColonyThingCountTip>Количество единиц ресурса, которое поселение может передать каравану.</FormCaravanColonyThingCountTip>
 	<PawnsTab>Люди и животные</PawnsTab>
 	<ItemsTab>Вещи</ItemsTab>
-	<CaravanConfigTab>Настройки</CaravanConfigTab>
 	<CaravanMustHaveAtLeastOneColonist>Нужно назначить хотя бы одного поселенца, способного стоять на ногах.</CaravanMustHaveAtLeastOneColonist>
 	<CaravanCouldNotFindExitSpot>Выбранная точка выхода ({0}) вне досягаемости.</CaravanCouldNotFindExitSpot>
 	<CaravanCouldNotFindPackingSpot>Невозможно найти подходящее место сбора. Убедитесь, что выбранная точка выхода ({0}) находится в пределах досягаемости.</CaravanCouldNotFindPackingSpot>
@@ -259,45 +263,60 @@
 	<CaravanItemIsUnreachableMulti>Ни один из поселенцев не может добраться до {0}x {1}.</CaravanItemIsUnreachableMulti>
 	<TooBigCaravanMassUsage>Караван не сможет нести так много.</TooBigCaravanMassUsage>
 	<CaravanMassUsageTooltip>Текущий переносимый и максимальный вес.\n\nПереносимый вес включает в себя вес как вещей поселенцев, так и их груза.\n\nВы не сможете отправить караван, если суммарный переносимый вес превышает максимальный.</CaravanMassUsageTooltip>
-	<CaravanVisibilityTip>Заметность определяет, насколько караван легко обнаружить.\n\nОпределяется совокупными размерами всех участников каравана: людей и животных.\n\nЧем караван заметнее, тем чаще на него будут нападать.</CaravanVisibilityTip>
-	<MassUsageInfo>{0} / {1} кг</MassUsageInfo>
-	<DaysWorthOfFoodInfo>Еды хватит на {0} дней</DaysWorthOfFoodInfo>
-	<DaysWorthOfFoodInfoRot>Еды хватит на {0} дней, испортится через {1} дней</DaysWorthOfFoodInfoRot>
-	<InfiniteDaysWorthOfFoodInfo>Еда никогда не закончится</InfiniteDaysWorthOfFoodInfo>
-	<DaysWorthOfFoodTooltip>Приблизительное количество дней до момента, когда закончится еда.\n\nВ расчёт берётся еда как для людей, так и для животных. Рассматривается пессимистичный сценарий: именно через столько дней без еды останется как минимум один человек или животное.</DaysWorthOfFoodTooltip>
-	<DaysWorthOfFoodTooltip_CanEatLocalPlants>С учётом текущих времени года, температуры и типа местности, травоядные животные предположительно СМОГУТ питаться местными растениями. Хотя условия могут измениться в любой момент.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
-	<DaysWorthOfFoodTooltip_CantEatLocalPlants>С учётом текущих времени года, температуры и типа местности, травоядные животные предположительно НЕ СМОГУТ питаться местными растениями. Хотя условия могут измениться в любой момент.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
+	<CaravanVisibilityTip>Заметность показывает, насколько караван легко обнаружить.\n\nОпределяется совокупными размерами всех участников каравана: людей и животных.\n\nЧем караван заметнее, тем чаще на него будут нападать.</CaravanVisibilityTip>
+	<DaysWorthOfFood>Запас еды</DaysWorthOfFood>
+	<DaysWorthOfFoodInfoRot>испортится через {0} дней</DaysWorthOfFoodInfoRot>
+	<InfiniteDaysWorthOfFoodInfo>Бесконечно</InfiniteDaysWorthOfFoodInfo>
+	<BasedOnRoute>с учётом маршрута</BasedOnRoute>
+	<DaysWorthOfFoodTooltip>Приблизительное количество дней до момента, когда без еды останется хотя бы один человек или животное. Людям и разным видам животных требуется разная пища, поэтому кто-то может остаться без еды раньше остальных. Величина рассчитывается более точно, если определён маршрут путешествия.\n\nВлияющие факторы:\n  - рацион участников каравана\n  - возможность выпаса животных\n  - время порчи еды\n  - температура воздуха</DaysWorthOfFoodTooltip>
+	<DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(учитывается только первая точка маршрута)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
 	<DaysWorthOfFoodWarningDialog>Вашему каравану хватит еды только на {0} дней. Люди и животные очень скоро начнут голодать.</DaysWorthOfFoodWarningDialog>
 	<DaysWorthOfFoodWarningDialog_NoFood>Без еды люди и животные в караване очень скоро начнут голодать.</DaysWorthOfFoodWarningDialog_NoFood>
+	<ForagedFoodPerDayTip>Среднее количество еды, которое в день могут добыть участники каравана. Эта величина меняется в зависимости от биома, где в данный момент проходит караван.</ForagedFoodPerDayTip>
 	<CaravanFoodWillRotSoonWarningDialog>Значительная часть запасов еды скоро испортится.</CaravanFoodWillRotSoonWarningDialog>
 	<CaravanIncapableOfSocial>Ни один из членов каравана не способен к дипломатии и торговле.</CaravanIncapableOfSocial>
 	<CaravanAreYouSure>Вы уверены, что хотите отправить этот караван?</CaravanAreYouSure>
-	<NoExitDirectionForCaravanChosen>Нужно выбрать направление выхода с карты.</NoExitDirectionForCaravanChosen>
-	<NoCaravanExitDirectionAvailable>(нет доступных направлений выхода)</NoCaravanExitDirectionAvailable>
-	<ExitDirection>Направление выхода</ExitDirection>
-	<ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+	<MessageMustChooseRouteFirst>Сначала нужно построить маршрут путешествия.</MessageMustChooseRouteFirst>
+	<MessageNoValidExitTile>Караван не может покинуть это место. Убедитесь, что доступно хотя бы одно направление выхода.</MessageNoValidExitTile>
 	<ItemWeightTip>Вес этого предмета.</ItemWeightTip>
 	<MarketValueTip>Рыночная цена</MarketValueTip>
 	<DaysUntilRotTip>Число дней до момента, когда этот продукт начнёт портиться, с учётом средней температуры в этой области.</DaysUntilRotTip>
+	<ItemNutritionTip>Насколько питательна эта еда.\n\nДля справки: взрослому человеку требуется {0} единиц в сутки.</ItemNutritionTip>
+	<AnimalCanGrazeTip>Это животное может пастись, питаясь подножным кормом, вместо того, чтобы поедать ваши припасы. Однако это возможно только для некоторых биомов, в определённых температурных пределах.</AnimalCanGrazeTip>
+	<NutritionForagedPerDayTip>Количество добываемой в день еды. Конечное значение зависит от биома.\n\n{0}</NutritionForagedPerDayTip>
+	<NutritionEatenPerDayTip>Количество поглощаемой в день еды. Для справки: простое блюдо эквивалентно {0} ед. питательности.\n\nМожет есть: {2}\n\nЛегенда:\n{1}.</NutritionEatenPerDayTip>
+	<MassCarriedSimple>Переносимый вес</MassCarriedSimple>
 	<MassCapacity>Максимальный вес</MassCapacity>
 	<Mass>Вес</Mass>
 	<EquipmentAndApparelMass>Вес одежды и снаряжения</EquipmentAndApparelMass>
-	<InventoryMass>Переносимый вес</InventoryMass>
+	<InventoryMass>Вес груза</InventoryMass>
 	<CaravanFormationProcessStarted>Караван отправится в ближайшее время! Поселенцы покинут это место, как только соберут все необходимые вещи.</CaravanFormationProcessStarted>
 	<ReformCaravan>Продолжить путь</ReformCaravan>
 	<ColonistsSection>Поселенцы</ColonistsSection>
 	<PrisonersSection>Заключённые</PrisonersSection>
 	<AnimalsSection>Животные</AnimalsSection>
-	<EstimatedTimeToDestinationButton>Время пути до места назн.</EstimatedTimeToDestinationButton>
+	<ChooseRouteButton>Построить маршрут</ChooseRouteButton>
 	<AbandonButton>Покинуть</AbandonButton>
-
+	<CaravanMovementSpeed>Скорость передвижения</CaravanMovementSpeed>
+	<TilesPerDay>кл./д</TilesPerDay>
+	<CaravanMovementSpeedTip>Скорость передвижения зависит от средней скорости всех людей и животных, переносимого веса и местности.</CaravanMovementSpeedTip>
+	<AnimalsWillBeAbleToGraze>Животные смогут пастись</AnimalsWillBeAbleToGraze>
+	<AnimalsCanGraze>Животные могут пастись</AnimalsCanGraze>
+	<PossibleToGrazeFor>(ещё в течение {0} дней)</PossibleToGrazeFor>
+	<PossibleToGrazeForever>(всегда)</PossibleToGrazeForever>
+	<CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
+	<CantGrazeBecauseOfTemp>(будет слишком холодно ещё {0} дней)</CantGrazeBecauseOfTemp>
+	<TotalNutrition>Всего еды</TotalNutrition>
+	<CaravanNotMoving>Стоит</CaravanNotMoving>
+	<ForagedNutritionPerDay>Добывается в день</ForagedNutritionPerDay>
+	<FactionType>Тип фракции</FactionType>
+	<TotalBodySize>Размеры каравана</TotalBodySize>
+	
+	
 	<!-- Split caravan -->
 	<SplitCaravan>Разделить караван</SplitCaravan>
 	<SourceCaravanMustHaveAtLeastOneColonist>В караване должен остаться хотя бы один человек, способный стоять на ногах.</SourceCaravanMustHaveAtLeastOneColonist>
-	<CaravanSplitSourceLabel>Текущий</CaravanSplitSourceLabel>
-	<CaravanSplitDestLabel>Формируемый</CaravanSplitDestLabel>
 	<SplitCaravanThingCountTip>Как много этого ресурса текущий караван готов передать формируемому.</SplitCaravanThingCountTip>
-	<SplitCaravanMassUsageTooltip>Текущий переносимый и максимальный вес.</SplitCaravanMassUsageTooltip>
 
 	<!-- Load transporters -->
 	<LoadTransporters>Загрузить {0}</LoadTransporters>
@@ -306,7 +325,6 @@
 	<PawnCantReachTransporters>{0} не может добраться до транспортных капсул.</PawnCantReachTransporters>
 	<TransporterItemIsUnreachableSingle>Невозможно найти путь между транспортными капсулами и {0}.</TransporterItemIsUnreachableSingle>
 	<TransporterItemIsUnreachableMulti>Невозможно найти путь между транспортными капсулами и {0}x {1}.</TransporterItemIsUnreachableMulti>
-	<TransportersMassUsageTooltip>Текущая масса груза и грузоподъёмность.\n\nНевозможно отправить капсулы с массой груза, превышающей грузоподъёмность.</TransportersMassUsageTooltip>
 
 	<!-- Comms -->
 	<SocialSkillIs>Социальный навык: {0}</SocialSkillIs>

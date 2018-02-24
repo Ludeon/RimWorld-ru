@@ -7,11 +7,13 @@
 	<Contents>Содержит</Contents>
 	<ContainedResources>Содержащиеся ресурсы</ContainedResources>
 	<ForPrisonerUse>Для заключённых</ForPrisonerUse>
+	<InPrisonCell>В тюремной камере — для заключённых</InPrisonCell>
 	<ForColonistUse>Для поселенцев</ForColonistUse>
 	<MedicalBed>Медицинская</MedicalBed>
 	<Owner>Владелец</Owner>
 	<Owners>Владельцы</Owners>
 	<AssignedColonist>Назначенный поселенец</AssignedColonist>
+	<DiedOn>Дата смерти: {0}</DiedOn>
 	<Nobody>Никто</Nobody>
 	<Unowned>Ничья</Unowned>
 	<DeadTime>Мёртв уже {0}</DeadTime>
@@ -32,7 +34,7 @@
 	<Description>Описание</Description>
 	<Equipment>Вооружение</Equipment>
 	<Apparel>Одежда</Apparel>
-	<Inventory>Инвентарь</Inventory>
+	<Inventory>Груз</Inventory>
 	<ThingInfo>Информация</ThingInfo>
 	<DropThing>Выкинуть</DropThing>
 	<Rename>Переименовать</Rename>
@@ -68,20 +70,26 @@
 	<RadiusExpandsIn>радиус увеличится через</RadiusExpandsIn>
 	<Permanent>постоянный</Permanent>
 	<CaravanResting>Отдых.</CaravanResting>
-	<CaravanEstimatedTimeToDestination>Расчётное время в пути: {0}</CaravanEstimatedTimeToDestination>
+	<CaravanEstimatedTimeToDestination>Расчётное время в пути: {0} дней</CaravanEstimatedTimeToDestination>
+	<CaravanEstimatedDaysToDestination>Число дней до прибытия: {0}</CaravanEstimatedDaysToDestination>
 	<CaravanImmobilizedByMass>Невозможно идти: слишком тяжело.</CaravanImmobilizedByMass>
 	<CaravanOutOfFood>Нет еды.</CaravanOutOfFood>
 	<CaravanDaysOfFood>Еды хватит на {0} дней</CaravanDaysOfFood>
 	<CaravanDaysOfFoodRot>Еды хватит на {0} дней, начнёт портиться через {1} дней</CaravanDaysOfFoodRot>
-	<CaravanMemberMentalBreak>Остановка: у {0} нервный срыв.</CaravanMemberMentalBreak>
 	<AllCaravanMembersDowned>Остановка: все члены повержены.</AllCaravanMembersDowned>
 	<AllCaravanMembersMentalBreak>Остановка: у всех нервный срыв.</AllCaravanMembersMentalBreak>
+	<CaravanColonistsCount>{0} человек</CaravanColonistsCount>
+	<CaravanAnimal>1 животное</CaravanAnimal>
+	<CaravanAnimalsCount>{0} животных</CaravanAnimalsCount>
+	<CaravanPrisoner>1 заключённый</CaravanPrisoner>
+	<CaravanPrisonersCount>{0} заключённых</CaravanPrisonersCount>
+	<CaravanPawnsInMentalState>{0} в состоянии нервного срыва</CaravanPawnsInMentalState>
+	<CaravanPawnsDowned>{0} повержены</CaravanPawnsDowned>
 	<CaravanTraveling>В пути.</CaravanTraveling>
+	<CaravanPaused>Привал.</CaravanPaused>
 	<CaravanWaiting>Ожидает.</CaravanWaiting>
-	<CaravanHoursPerTile>ч на клетку</CaravanHoursPerTile>
-	<CaravanBaseMovementTime>Базовое время пути</CaravanBaseMovementTime>
 	<CurrentTileMovementTime>Время пути через текущую клетку</CurrentTileMovementTime>
-	<StealthFactor>Скрытность</StealthFactor>
+	<Visibility>Заметность</Visibility>
 	<Temperature>Температура</Temperature>
 	<BadTemperature>неподходящая температура</BadTemperature>
 	<IdealFermentingTemperature>Идеальная температура для брожения</IdealFermentingTemperature>
@@ -91,10 +99,12 @@
 	<CaravanAttacking>Нападает на {0}.</CaravanAttacking>
 	<WasWornByCorpse>Снято с трупа.</WasWornByCorpse>
 	<WornByCorpseChar>Т</WornByCorpseChar>
-	<DeterioratingDueToBeingUnroofed>Портится из-за того, что лежит не под крышей.</DeterioratingDueToBeingUnroofed>
-	<Map>Map</Map>
-	<ForceExitAndRemoveMapCountdown>{0} часов до отправления</ForceExitAndRemoveMapCountdown>
-	<ForceExitAndRemoveMapCountdownTip>Путешественники покинут это место и продолжат путь через {0} часов.</ForceExitAndRemoveMapCountdownTip>
+	<DeterioratingUnroofed>не под крышей</DeterioratingUnroofed>
+	<DeterioratingOutdoors>на улице</DeterioratingOutdoors>
+	<DeterioratingBecauseOf>Портится:</DeterioratingBecauseOf>
+	<Map>Карта</Map>
+	<ForceExitAndRemoveMapCountdown>{0} до отправления</ForceExitAndRemoveMapCountdown>
+	<ForceExitAndRemoveMapCountdownTip>Путешественники покинут это место и продолжат путь через {0}.</ForceExitAndRemoveMapCountdownTip>
 	<Room>Комната</Room>
 	<BeautyHere>Красота</BeautyHere>
 	<NoPower>Нет питания</NoPower>
@@ -128,11 +138,24 @@
 	<KnownSiteThreatsNone>Угроз нет.</KnownSiteThreatsNone>
 	<SkillRequirements>Требования</SkillRequirements>
 	<Products>Ингредиенты</Products>
-	<DeepDrillExhausted>Глубинное месторождение истощено.</DeepDrillExhausted>
+	<DeepDrillExhausted>Глубинное месторождение истощено. Буровая установка была автоматически отмечена как запрещённая для использования. В это месте теперь можно добыть только {0}. Если вы планируете продолжить добычу, разрешите использование установки.</DeepDrillExhausted>
 	<Relationship>{0} из {1}</Relationship>
 	<Prisoner>Заключённый</Prisoner>
 	<Refugee>Беженец</Refugee>
-
+	<TileMovementDifficulty>Сложность передвижения</TileMovementDifficulty>
+	<Impassable>Непроходимо</Impassable>
+	<CaravanMovementSpeedFull>Скорость движения каравана</CaravanMovementSpeedFull>
+	<DownedLower>downed</DownedLower>
+	<AverageCaravanMemberMoveSpeed>Ср. скорость человека</AverageCaravanMemberMoveSpeed>
+	<MultiplierForCarriedMass>Множитель переносимого веса: {0}</MultiplierForCarriedMass>
+	<FinalCaravanPawnsMovementSpeed>Скорость участников</FinalCaravanPawnsMovementSpeed>
+	<FinalCaravanMovementSpeed>Итоговая скорость</FinalCaravanMovementSpeed>
+	<Winter>Зима</Winter>
+	<MovementDifficultyOffsetInWinter>{0} зимой</MovementDifficultyOffsetInWinter>
+	<RangeTo>..</RangeTo>
+	<NoDietCategoryLetter>Без обозн.</NoDietCategoryLetter>
+	<ExpiresIn>Исчезнет через</ExpiresIn>
+	
 	<!-- Fermentation barrel -->
 	<ContainsWort>Содержит {0} / {1} сусла.</ContainsWort>
 	<ContainsBeer>Содержит {0} / {1} пива.</ContainsBeer>
@@ -164,10 +187,8 @@
 	<NoRoof>Без крыши</NoRoof>
 	<SnowClear>Уборка снега</SnowClear>
 	<AreaDefaultLabel>Область {0}</AreaDefaultLabel>
-	<AreaAnimalDefaultLabel>Область для животных {0}</AreaAnimalDefaultLabel>
 	<NoAreaAllowed>Не ограничено</NoAreaAllowed>
 	<NewArea>Новая область</NewArea>
-	<NewAreaAnimal>Новая область для животных</NewAreaAnimal>
 	<InvertArea>Инвертировать</InvertArea>
 
 	<!-- Control -->
@@ -349,11 +370,12 @@
 	<!-- Buttons -->
 	<ShowLearningHelperWhenEmptyToggleButton>Отображение обучающего помощника.\n\nОтображает помощника, даже если нет активной темы для изучения.</ShowLearningHelperWhenEmptyToggleButton>
 	<ZoneVisibilityToggleButton>Отображение зон.</ZoneVisibilityToggleButton>
-	<ShowEnvironmentToggleButton>Отображение параметров окружения.\n\nПоказывает красоту и другие параметры окружения, как их воспринимает персонаж, стоящий в точке, на которую указывает курсор.</ShowEnvironmentToggleButton>
+	<ShowBeautyToggleButton>Отображение красоты окружения.\n\nПоказывает красоту окружения, как её воспринимает персонаж, стоящий в точке, на которую указывает курсор..</ShowBeautyToggleButton>
+	<ShowRoomStatsToggleButton>Отображение параметров комнаты.\n\nПоказывает параметры комнаты, на которую указывает курсор.</ShowRoomStatsToggleButton>
 	<ShowColonistBarToggleButton>Отображение панели поселенцев.\n\nОтображает в верхней части экрана иконки и состояние всех поселенцев.</ShowColonistBarToggleButton>
 	<AutoHomeAreaToggleButton>Переключение автоматического добавления домашней области для новых построек.</AutoHomeAreaToggleButton>
 	<CategorizedResourceReadoutToggleButton>Отображать количество ресурсов на складах полностью или по категориям.</CategorizedResourceReadoutToggleButton>
-	<ShowAnimalNamesToggleButton>Отображение имён прирученых животных.</ShowAnimalNamesToggleButton>
+	<ShowAnimalNamesToggleButton>Отображение имён приручённых животных.</ShowAnimalNamesToggleButton>
 	<ShowRoofOverlayToggleButton>Отображение крыш.</ShowRoofOverlayToggleButton>
 	<LockNorthUpToggleButton>Зафиксировать камеру так, чтобы север был сверху.</LockNorthUpToggleButton>
 	<UsePlanetDayNightSystemToggleButton>Отображение зон дня и ночи.</UsePlanetDayNightSystemToggleButton>
@@ -476,6 +498,7 @@
 	<ActivityIconAttacking>Воюет</ActivityIconAttacking>
 	<ActivityIconIdle>Бездельничает</ActivityIconIdle>
 	<ActivityIconBurning>Горит</ActivityIconBurning>
+	<ActivityIconFormingCaravan>Снаряжает караван</ActivityIconFormingCaravan>
 
 	<!-- Maintainable -->
 	<DueForMaintenance>Необходимо обслуживание.</DueForMaintenance>
@@ -504,8 +527,10 @@
 	<RoutePlannerPressRMBToAddAndRemoveWaypoints>Правая кнопка мыши: Добавить/удалить точки маршрута.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
 	<RoutePlannerPressEscapeToExit>ESC: Выйти из режима редактирования.</RoutePlannerPressEscapeToExit>
 	<RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Вернуться к формированию каравана.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
-	<EstimatedTimeToThisWaypoint>Примерное время до точки: {0}</EstimatedTimeToThisWaypoint>
-	<EstimatedTimeToThisWaypointFromPrevious>Примерное время пути от предыдущей точки до этой: {0}</EstimatedTimeToThisWaypointFromPrevious>
+	<EstimatedTimeToWaypoint>Примерное время до точки: {0}</EstimatedTimeToWaypoint>
+	<EstimatedTimeToWaypointFromPrevious>Примерное время пути от предыдущей точки до этой: {0}</EstimatedTimeToWaypointFromPrevious>
+	<EstimatedTimeToTile>Примерное время пути: {0}</EstimatedTimeToTile>
+	<ForagedFoodAmount>Количество добываемой еды</ForagedFoodAmount>
 
 	<!-- Outfits -->
 	<OutfitAnything>Что угодно</OutfitAnything>

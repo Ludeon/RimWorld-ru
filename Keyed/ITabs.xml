@@ -20,6 +20,7 @@
 	<TabArt>Искусство</TabArt>
 	<TabSocial>Социум</TabSocial>
 	<TabCombat>Бой</TabCombat>
+	<TabFormingCaravan>Караван</TabFormingCaravan>
 
 
 	<!-- Bills tab -->
@@ -94,11 +95,11 @@
 
 
 	<!-- Training tab-->
-	<TrainableIntelligence>Способность к обучению</TrainableIntelligence>
-	<CannotTrainNotSmartEnough>Требуется интеллектуальная способность: "{0}".</CannotTrainNotSmartEnough>
-	<CannotTrainTooSmall>{0} слишком мал, чтобы обучиться этому.</CannotTrainTooSmall>
+	<Trainability>Способность к обучению</Trainability>
+	<CannotTrainNotSmartEnough>Требуется способность к обучению: "{0}".</CannotTrainNotSmartEnough>
+	<CannotTrainTooSmall>{0} — не подходящего возраста, чтобы обучаться этому.</CannotTrainTooSmall>
 
-	<TrainingNeedsPrerequisite>Требования: {0}</TrainingNeedsPrerequisite>
+	<TrainingNeedsPrerequisite>Требуется: {0}</TrainingNeedsPrerequisite>
 
 	<!-- Social tab -->
 	<NoRelationships>(нет отношений)</NoRelationships>
@@ -112,12 +113,32 @@
 	<IAmPsychopath>Я психопат</IAmPsychopath>
 
 	<!-- Gear tab -->
-	<AverageArmor>Средняя защищённость</AverageArmor> <!-- Kappa Проверить в игре. -->
+	<OverallArmor>Средняя защищённость</OverallArmor> <!-- Kappa Проверить в игре. -->
 	<MassCarried>Переносит вес: {0}/{1} кг</MassCarried>
 	<ComfyTemperatureRange>Диапазон комфортной температуры</ComfyTemperatureRange>
 	<ArmorBlunt>Дробящее</ArmorBlunt>
 	<ArmorSharp>Проникающее</ArmorSharp>
 	<ArmorHeat>Тепловое</ArmorHeat>
-	<ArmorElectric>Электрическое</ArmorElectric>
 
+	<!-- Combat tab -->
+	<ShowAll>Показать всё</ShowAll>
+	<NoRecentCombat>ещё не было боя</NoRecentCombat>
+
+	<!-- Forming caravan tab -->
+	<FormingCaravanStatus_GatheringAnimals>Сбор животных</FormingCaravanStatus_GatheringAnimals>
+	<FormingCaravanStatus_GatheringAnimals_Pause>Сбор животных (ожидание)</FormingCaravanStatus_GatheringAnimals_Pause>
+	<FormingCaravanStatus_GatheringItems>Погрузка</FormingCaravanStatus_GatheringItems>
+	<FormingCaravanStatus_GatheringItems_Pause>Погрузка (ожидание)</FormingCaravanStatus_GatheringItems_Pause>
+	<FormingCaravanStatus_GatheringSlaves>Сбор рабов</FormingCaravanStatus_GatheringSlaves>
+	<FormingCaravanStatus_GatheringSlaves_Pause>Сбор рабов (ожидание)</FormingCaravanStatus_GatheringSlaves_Pause>
+	<FormingCaravanStatus_Leaving>Отбытие</FormingCaravanStatus_Leaving>
+	<FormingCaravanStatus_Leaving_Pause>Отбытие (ожидание)</FormingCaravanStatus_Leaving_Pause>
+	<FormingCaravanStatus_Waiting>Ожидание</FormingCaravanStatus_Waiting>
+	<CaravanMembers>Участники</CaravanMembers>
+	<CaravanAnimals>Животные</CaravanAnimals>
+	<ItemsToLoad>Для погрузки</ItemsToLoad>
+	<LoadedItems>Погружено</LoadedItems>
+	<PackAnimalsCountLower>вьючные животные</PackAnimalsCountLower>
+	<InMentalStateCountLower>в нервном срыве</InMentalStateCountLower>
+	
 </LanguageData>
