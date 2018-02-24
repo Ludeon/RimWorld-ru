@@ -18,12 +18,12 @@
 
 	<!-- Errors during loading -->
 	<ErrorWhileLoadingAssetsTitle>Ошибка при загрузке ассетов</ErrorWhileLoadingAssetsTitle>
-	<ErrorWhileLoadingAssets>Произошла ошибка при загрузке ассетов. Посмотрите лог для подробной информации.</ErrorWhileLoadingAssets>
+	<ErrorWhileLoadingAssets>Произошла ошибка при загрузке ассетов. Для получения подробной информации посмотрите журнал.</ErrorWhileLoadingAssets>
 	<ErrorWhileLoadingAssets_ModsInfo>Игра запущена с выбранными модами. Они могут вызывать, а могут и не вызывать этих проблем.</ErrorWhileLoadingAssets_ModsInfo>
 	<ErrorWhileGeneratingMapTitle>Ошибка при генерации карты</ErrorWhileGeneratingMapTitle>
-	<ErrorWhileGeneratingMap>Произошла ошибка при генерации новой карты. Посмотрите лог для подробной информации.</ErrorWhileGeneratingMap>
+	<ErrorWhileGeneratingMap>Произошла ошибка при генерации новой карты. Для получения подробной информации посмотрите журнал.</ErrorWhileGeneratingMap>
 	<ErrorWhileLoadingMapTitle>Ошибка при загрузке карты</ErrorWhileLoadingMapTitle>
-	<ErrorWhileLoadingMap>Произошла ошибка при загрузке карты. Посмотрите лог для подробной информации.</ErrorWhileLoadingMap>
+	<ErrorWhileLoadingMap>Произошла ошибка при загрузке карты. Для получения подробной информации посмотрите журнал.</ErrorWhileLoadingMap>
 
 	<!-- Unloaded mod with an assembly -->
 	<ModsChanged>Список модов изменился. Игра перезапустится автоматически.</ModsChanged>
@@ -31,7 +31,7 @@
 	<Restarting>Игра перезапускается</Restarting>
 
 	<!-- Missing Steam -->
-	<SteamClientMissing>Невозможно инициализировать Steam API. Возможные причины:\n\n-Steam не запущен.\n-Игра запущена из Steam при отсутствующем на месте steam_appid.txt.\n-Игра запущена с отличающимися от запуска Steam привилегиями (например, «от имени администратора»).\n\nВ большинстве случаев перезагрузка компьютера решит проблему.\n\nЭто Steam-версия игры, и так как для неё требуется Steam, игра сейчас будет закрыта.</SteamClientMissing>
+	<SteamClientMissing>Невозможно инициализировать Steam API. Возможные причины:\n\n-Steam не запущен.\n-Игра запущена из Steam при отсутствующем на месте steam_appid.txt.\n-Игра запущена с отличающимися от запуска Steam привилегиями (например, «от имени администратора»).\n\nВ большинстве случаев перезагрузка компьютера решит проблему.\n\nВы можете играть, но функциональность, связанная со Steam, будет недоступна.</SteamClientMissing>
 
 	<!-- Long events -->
 	<InitializingInterface>Инициализация интерфейса</InitializingInterface>
@@ -61,7 +61,7 @@
 	<SaveIsFromDifferentGameBuild>Версия запущенной игры — {0}, данное сохранение относится к {1}, другой сборке той же версии. \n\n Попытка загрузки данного сохранения может оказаться успешной.</SaveIsFromDifferentGameBuild>
 	<SaveIsFromThisGameBuild>Данные сохранены этой версией игры и должны работать без проблем.</SaveIsFromThisGameBuild>
 	<SaveIsUnknownFormat>Данные сохранены в неизвестном формате и скорее всего не загрузятся корректно.</SaveIsUnknownFormat>
-	<ProblemSavingFile>Возникла проблема с сохранением файла {0}:\n\n{1} Для дополнительной информации посмотрите лог.</ProblemSavingFile>
+	<ProblemSavingFile>Возникла проблема с сохранением файла {0}:\n\n{1}\n\nДля получения подробной информации посмотрите журнал.</ProblemSavingFile>
 	<LoadAnyway>Загрузить в любом случае</LoadAnyway>
 	<ChangeLoadedMods>Загрузить список модов</ChangeLoadedMods>
 	<MissingMods>Некоторые моды недоступны и требуют установки</MissingMods>
@@ -69,17 +69,16 @@
 	<!-- Player faction naming -->
 	<NamePlayerFactionMessage>{0} предлагает дать имя вашей фракции. Как её назвать?</NamePlayerFactionMessage>
 	<PlayerFactionGainsName>Ваша фракция теперь известна как {0}.</PlayerFactionGainsName>
-	<PlayerFactionNameIsInvalid>Это имя для фракции недопустимо.</PlayerFactionNameIsInvalid>
+	<PlayerFactionNameIsInvalid>Это имя недопустимо.</PlayerFactionNameIsInvalid>
 
 	<!-- Player faction base naming -->
 	<NamePlayerFactionBaseMessage>Похоже, что вы тут надолго. {0} предлагает дать название этому поселению.\n\nКак вы назовёте его?</NamePlayerFactionBaseMessage>
 	<PlayerFactionBaseGainsName>Это поселение теперь известно как {0}.</PlayerFactionBaseGainsName>
-	<PlayerFactionBaseNameIsInvalid>Это имя для поселения недопустимо.</PlayerFactionBaseNameIsInvalid>
+	<PlayerFactionBaseNameIsInvalid>Это имя недопустимо.</PlayerFactionBaseNameIsInvalid>
 
 	<!-- Player faction and faction base naming -->
 	<NamePlayerFactionBaseMessage_NameFactionContinuation>Похоже, что вы тут надолго. {0} также предлагает дать название этому поселению.\n\nКак вы назовёте его?</NamePlayerFactionBaseMessage_NameFactionContinuation>
 	<PlayerFactionAndBaseGainsName>Ваша фракция теперь известна как {0}, а поселение называется {1}.</PlayerFactionAndBaseGainsName>
-
 
 	<!-- Renaming -->
 	<NameIsInvalid>Пожалуйста, введите корректное имя.</NameIsInvalid>
@@ -109,7 +108,7 @@
 	<Finished>Завершено</Finished>
 	<InProgress>В процессе</InProgress>
 	<Locked>Недоступно</Locked>
-	<ResearchMenuWithoutBench>Пока вы не построите стол для исследований, ваши поселенцы не смогут приступить к ним.\n\nТем не менее вы всё равно можете посмотреть и выбрать технологию для исследования прямо сейчас.</ResearchMenuWithoutBench>
+	<ResearchMenuWithoutBench>Пока вы не построите стол для исследований, ваши поселенцы не смогут приступить к ним.\n\nТем не менее, вы всё равно можете посмотреть и выбрать технологию для исследования прямо сейчас.</ResearchMenuWithoutBench>
 	<ResearchPrerequisites>Требуемые технологии</ResearchPrerequisites>
 	<RequiredResearchBench>Требуемый стол для исследований</RequiredResearchBench>
 	<RequiredResearchBenchFacilities>Требуемое оборудование стола для исследований</RequiredResearchBenchFacilities>
@@ -188,7 +187,7 @@
 	<MarketValue>Базовая цена</MarketValue>
 	<Covers>Укрывается</Covers>
 	<CoverEffectiveness>Эффективность укрытия</CoverEffectiveness>
-	<CoverEffectivenessExplanation>Насколько это эффективно в качестве укрытия в перестрелке. Чем выше процент, тем больше выстрелов будет заблокировано.</CoverEffectivenessExplanation>
+	<CoverEffectivenessExplanation>Насколько этот объект эффективен в качестве укрытия в перестрелке. Чем выше процент, тем больше выстрелов будет заблокировано.</CoverEffectivenessExplanation>
 	<MedicineXpGainFactor>Фактор прироста опыта</MedicineXpGainFactor>
 	<MoodChange>Смена настроения</MoodChange>
 	<Wildness>Дикость</Wildness>
@@ -250,7 +249,7 @@
 	<CaravanConfigTab>Настройки</CaravanConfigTab>
 	<CaravanMustHaveAtLeastOneColonist>Нужно назначить хотя бы одного поселенца, способного стоять на ногах.</CaravanMustHaveAtLeastOneColonist>
 	<CaravanCouldNotFindExitSpot>Выбранная точка выхода ({0}) вне досягаемости.</CaravanCouldNotFindExitSpot>
-	<CaravanCouldNotFindPackingSpot>Невозможно найти подходящее место сбора. Убедитесь, что выбранная точка выхода ({0}) находится в пределах досягаемости.</CaravanCouldNotFindPackingSpot>
+	<CaravanCouldNotFindPackingSpot>Невозможно найти подходящее место сбора. Убедитесь, что выбранное место сбора ({0}) находится в пределах досягаемости.</CaravanCouldNotFindPackingSpot>
 	<CaravanCouldNotFindReachableExitSpot>Внимание: некоторые из назначенных поселенцев не могут добраться до точки выхода ({0}).</CaravanCouldNotFindReachableExitSpot>
 	<CaravanPawnIsUnreachable>{0} вне досягаемости для всех назначенных поселенцев.</CaravanPawnIsUnreachable>
 	<CaravanItemIsUnreachableSingle>Ни один из поселенцев не может добраться до {0}.</CaravanItemIsUnreachableSingle>
@@ -380,7 +379,7 @@
 	<ConfirmAbandonHomeNegativeThoughts_Everyone>Все:</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
 	<!-- Move caravan and leave prisoners and animals behind -->
-	<ConfirmLeavePrisonersOrAnimalsBehind>В этом месте вы оставили кого-то из заключённых или животных. В данный момент ваш караван — единственная группа, к которой они могут присоединиться.\n\nЕсли вы двинетесь в путь, они не смогут покинуть это место, пока вы не вернётесь. Однако заключённые могут сбежать.\n\nЕсли вы подождёте, заключённые и животные присоединятся к каравану при первой возможности.\n\nВы уверены, что хотите двинуться в путь?</ConfirmLeavePrisonersOrAnimalsBehind>
+	<ConfirmLeavePrisonersOrAnimalsBehind>В этом месте вы оставили кого-то из заключённых или животных. В данный момент ваш караван — единственная группа, к которой они могут присоединиться.\n\nЕсли вы двинетесь в путь, они не смогут покинуть это место, пока вы не вернётесь. Заключённые сбегут, а животные будут вас ждать.\n\nЕсли вы подождёте, животные присоединятся к каравану при первой возможности.\n\nВы уверены, что хотите двинуться в путь?</ConfirmLeavePrisonersOrAnimalsBehind>
 
 	<!-- Abandon pawn -->
 	<ConfirmBanishPawnDialog>Вы действительно хотите оставить здесь {0}?</ConfirmBanishPawnDialog>
