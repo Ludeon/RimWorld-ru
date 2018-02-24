@@ -59,10 +59,12 @@
 	<MessageMustDesignateSmoothableFloor>Нужно указать неровную каменную поверхность.</MessageMustDesignateSmoothableFloor>
 	<MessageNothingCanRemoveThickRoofs>Потолок в виде горной породы удалить невозможно.</MessageNothingCanRemoveThickRoofs>
 	<MessageAlreadyInStorage>Находится на хранении, по мере необходимости будет перемещено в первую очередь.</MessageAlreadyInStorage>
-	<MessageMustDesignateStrippable>Нужно указать мертвых или тяжелораненых, с которых можно снять одежду.</MessageMustDesignateStrippable>
-	<MessageMustDesignateSlaughterable>Нужно указать прирученное животное, принадлежащее поселению.</MessageMustDesignateSlaughterable>
+	<MessageMustDesignateStrippable>Нужно указать мёртвых или тяжелораненых, с которых можно снять одежду.</MessageMustDesignateStrippable>
+	<MessageMustDesignateSlaughterable>Нужно указать приручённое животное, принадлежащее поселению.</MessageMustDesignateSlaughterable>
 	<MessageMustDesignateOpenable>Нужно указать закопанные могилы или саркофаги.</MessageMustDesignateOpenable>
-
+	<MessageMustDesignateForbiddable>Следует указать предметы, разрешённые для использования.</MessageMustDesignateForbiddable>
+	<MessageMustDesignateUnforbiddable>Следует указать предметы, запрещённые для использования.</MessageMustDesignateUnforbiddable>
+	
 	<MessageRefusedArrest>{0} сопротивляется аресту!</MessageRefusedArrest>
 
 	<MessageNoMedicalBeds>Нет доступных мед. кроватей.</MessageNoMedicalBeds>
@@ -99,7 +101,7 @@
 
 	<MessageTraderCaravanLeaving>Торговый караван из фракции {0} уходит.</MessageTraderCaravanLeaving>
 
-	<MessageCantSelectDeadPawn>{0} мертв(а).</MessageCantSelectDeadPawn>
+	<MessageCantSelectDeadPawn>{0} мёртв(а).</MessageCantSelectDeadPawn>
 	<MessageCantSelectOffMapPawn>{0} за пределами карты.</MessageCantSelectOffMapPawn>
 
 	<MessageSocialFight>{0} и {1} повздорили. Причина: {2}.</MessageSocialFight>
@@ -140,9 +142,10 @@
 
 	<MessageFoodPoisoning>Съев {1}, {0} получает пищевое отравление.</MessageFoodPoisoning>
 
-	<MessageFailedToSendCaravanBecausePawnLost>Невозможно отправить караван, поскольку кто-то из поселенцев, заключённых или животных пропал.</MessageFailedToSendCaravanBecausePawnLost>
-	<MessageCaravanFormationPaused>Формирование каравана продолжится, как только все оправятся после нервного срыва.</MessageCaravanFormationPaused>
-	<MessageCaravanFormationUnpaused>Поселенцы продолжили формирование каравана.</MessageCaravanFormationUnpaused>
+	<MessagePawnLostWhileFormingCaravan>{0} исключается из каравана.</MessagePawnLostWhileFormingCaravan>
+	<MessagePawnLostWhileFormingCaravan_AllLost>Подготовка каравана отменена.</MessagePawnLostWhileFormingCaravan_AllLost>
+	<MessageCaravanFormationPaused>Подготовка каравана продолжится, как только все оправятся после нервного срыва.</MessageCaravanFormationPaused>
+	<MessageCaravanFormationUnpaused>Поселенцы продолжили подготовку каравана к пути.</MessageCaravanFormationUnpaused>
 
 	<MessageCaravanMemberHasExtremeMentalBreak>У кого-то из вашего каравана произошёл нервный срыв.</MessageCaravanMemberHasExtremeMentalBreak>
 
@@ -210,7 +213,7 @@
 
 	<MessageSlaughteringBondedAnimal>Если вы убьёте {0}, {1} расстроится из-за своей привязанности к этому животному.</MessageSlaughteringBondedAnimal>
 
-	<MessageCaravanRunOutOfFood>В {0} закончилась еда ({1}).</MessageCaravanRunOutOfFood>
+	<MessageCaravanRunOutOfFood>{0} остался без еды ({1}).</MessageCaravanRunOutOfFood>
 
 	<MessageSelectOwnBaseToFormCaravan>Чтобы снарядить караван, выберите своё поселение или любое место, где есть ваши поселенцы.</MessageSelectOwnBaseToFormCaravan>
 
@@ -248,8 +251,8 @@
 	<MessageFailedToRescueRelative>Вам не удалось спасти {0}. {1} будет горевать.</MessageFailedToRescueRelative>
 	<MessageRescuedRelative>Вы спасли {0}. {1} обрадуется этому.</MessageRescuedRelative>
 
-	<MessagePrisonerRescued>Вы спасли NAME, и HE присоединяется к поселению.</MessagePrisonerRescued>
-
+	<MessageJoinedColonyBecauseRescued>Вы спасли NAME, и HE присоединяется к группе.</MessageJoinedColonyBecauseRescued>
+		
 	<MessageTornadoLeftMap>Смерч покинул местность.</MessageTornadoLeftMap>
 	<MessageTornadoDissipated>Смерч рассеялся.</MessageTornadoDissipated>
 
@@ -260,4 +263,19 @@
 	<MessageTargetedTantrumChangedTarget>{0} не может добраться до {1} и направляет свою ярость на {2}.</MessageTargetedTantrumChangedTarget>
 	<MessageTargetedInsultingSpreeChangedTarget>{0} не может добраться до {1} и направляет свою ярость на {2}.</MessageTargetedInsultingSpreeChangedTarget>
 
+	<MessageMurderousRageChangedTarget>{0} направляет свою ярость на {1}.</MessageMurderousRageChangedTarget>
+
+	<MessagePlantIncompatibleWithRoof>{0} не растёт под крышей.</MessagePlantIncompatibleWithRoof>
+	<MessageRoofIncompatibleWithPlant>Нельзя построить крышу над этим растением: {0}.</MessageRoofIncompatibleWithPlant>
+
+	<MessageChoseRoute>Караван начнёт путешествие к первой назначенной точке маршрута.</MessageChoseRoute>
+
+	<MessageCaravanFormedWithCustomAction>Караван готов. Указания: {0}.</MessageCaravanFormedWithCustomAction>
+
+	<MessageBlockedHediff>{0} блокирует {1} у этих поселенцев: {2}.</MessageBlockedHediff>
+
+	<MessageCraftedMasterwork>{0} завершает свой шедевр: {1}.</MessageCraftedMasterwork>
+
+	<MessagePlayerTriedToLeaveMapViaExitGrid>Чтобы покинуть это место, нажмите кнопку «Продолжить путь» во вкладке «Мир».</MessagePlayerTriedToLeaveMapViaExitGrid>
+	
 </LanguageData>

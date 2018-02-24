@@ -44,6 +44,7 @@
 	<CommandGraveAssignColonistLabel>Назначить поселенца</CommandGraveAssignColonistLabel>
 	<CommandGraveAssignColonistDesc>Назначить эту могилу в собственность конкретному поселенцу.</CommandGraveAssignColonistDesc>
 	<BuildingAssign>Назначить</BuildingAssign>
+	<BuildingReassign>Переназначить</BuildingReassign>
 	<BuildingUnassign>Снять назначение</BuildingUnassign>
 	<CommandBedSetForPrisonersLabel>Для заключённых</CommandBedSetForPrisonersLabel>
 	<CommandBedSetForPrisonersDesc>Должны ли кровати в этой комнате использоваться заключёнными или нет.</CommandBedSetForPrisonersDesc>
@@ -192,6 +193,10 @@
 	<CommandCancelFormingCaravan>Отменить отправку каравана</CommandCancelFormingCaravan>
 	<CommandCancelFormingCaravanDesc>Остановить подготовку каравана к пути.</CommandCancelFormingCaravanDesc>
 
+	<!-- Remove from caravan -->
+	<CommandRemoveFromCaravan>Исключить из каравана</CommandRemoveFromCaravan>
+	<CommandRemoveFromCaravanDesc>Исключить этого человека или животное из каравана.</CommandRemoveFromCaravanDesc>
+
 	<!-- Show map -->
 	<CommandShowMap>Увеличить масштаб</CommandShowMap>
 	<CommandShowMapDesc>Увеличить масштаб в этой точке карты.</CommandShowMapDesc>
@@ -252,5 +257,13 @@
 	<!-- Remove waypoint -->
 	<CommandRemoveWaypointLabel>Удалить</CommandRemoveWaypointLabel>
 	<CommandRemoveWaypointDesc>Удалить точку маршрута.</CommandRemoveWaypointDesc>
+
+	<!-- Pause caravan -->
+	<CommandPauseCaravan>Привал</CommandPauseCaravan>
+	<CommandToggleCaravanPauseDesc>Остановить караван. Это даст следующие преимущества:\n\n  - люди смогут общаться друг с другом\n  - добыча еды ускорится в {0} раз</CommandToggleCaravanPauseDesc>
+
+	<!-- Show sellable items -->
+	<CommandShowSellableItems>Показать товар для продажи</CommandShowSellableItems>
+	<CommandShowSellableItemsDesc>Показать товары, интересующие торговца.</CommandShowSellableItemsDesc>
 
 </LanguageData>

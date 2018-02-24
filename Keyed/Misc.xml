@@ -33,14 +33,21 @@
 	<repeat>повторить</repeat>
 	<default>по умолчанию</default>
 	<distance>расстояние</distance>
+	<YesUppercase>ДА</YesUppercase>
+	<NoUppercase>НЕТ</NoUppercase>
+	<kg>кг</kg>
+	<Day>День</Day>
+	<day>день</day>
+	<Default>По умолчанию</Default>
+	<Average>В среднем</Average>
 
+	
 	<!-- Content generation-->
 
 	<MeatLabel>{0} мясо</MeatLabel>
-	<MeatDesc>Сырое мясо. Может быть приготовлено или съедено сырым.</MeatDesc>
-
-	<LeatherLabel>Кожа {0}</LeatherLabel>
-	<LeatherDesc>Дублёная, высушенная, очищенная кожа. Хороший материал для изготовления одежды и сумок.</LeatherDesc>
+	<MeatDesc>Сырое мясо. Может быть приготовлено или съедено в сыром виде.</MeatDesc>
+	<MeatInsectDesc>Сырое мясо насекомого. При необходимости может быть приготовлено или даже съедено в сыром виде. Крайне неаппетитно.</MeatInsectDesc>
+	<MeatHumanDesc>Сырая плоть человека. При необходимости может быть приготовлена или съедена в сыром виде, хотя большинству людей эта идея явно не понравится.</MeatHumanDesc>
 
 	<CorpseLabel>труп {0}</CorpseLabel>
 	<CorpseDesc>Мёртвое тело {0}.</CorpseDesc>
@@ -56,6 +63,7 @@
 	<BlueprintLabelExtra> (проект)</BlueprintLabelExtra>
 	<FrameLabelExtra> (постройка)</FrameLabelExtra>
 
+	<FactionUnaffiliated>Неаффилированая</FactionUnaffiliated>
 
 	<!-- Для вещей, сделанных из чего-либо, напр. «Кровать из камня» -->
 	<!-- 0 это nameAsStuff в stuffProps (см. Items_Resources.xml) и 1 это название вещи -->

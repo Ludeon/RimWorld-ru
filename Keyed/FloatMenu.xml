@@ -50,6 +50,7 @@
 	<ReservedForPrisoners>выделено для заключённых</ReservedForPrisoners>
 	<CannotReach>нельзя добраться</CannotReach>
 	<NotSurgeryReady>пациент не готов к операции</NotSurgeryReady>
+	<SkillDisabled>навык недоступен</SkillDisabled>
 	<CantSowCavePlantBecauseOfLight>слишком ярко</CantSowCavePlantBecauseOfLight>
 	<CantSowCavePlantBecauseUnroofed>не под крышей</CantSowCavePlantBecauseUnroofed>
 
@@ -88,6 +89,7 @@
 	<Equip>Взять оружие: {0}</Equip>
 	<EquipWarningBrawler>(драчун будет недоволен)</EquipWarningBrawler>
 	<CannotEquip>Невозможно взять оружие: {0}</CannotEquip>
+	<CannotManThing>Невозможно занять {0}</CannotManThing>
 
 	<ForceWear>Надеть {0}</ForceWear>
 	<CannotWear>Невозможно надеть {0}</CannotWear>
@@ -107,6 +109,15 @@
 	<GiveToPackAnimalSome>Положить {0} во вьюк...</GiveToPackAnimalSome>
 	<GiveToPackAnimalCount>Положить {0} ({{0}} шт) во вьюк</GiveToPackAnimalCount>
 
+	<CannotLoadIntoCaravan>Невозможно передать {0} каравану</CannotLoadIntoCaravan>
+	<CannotLoadIntoCaravanAll>Невозможно передать {0} (всё) каравану</CannotLoadIntoCaravanAll>
+	<LoadIntoCaravan>Передать {0} каравану</LoadIntoCaravan>
+	<LoadIntoCaravanAll>Передать {0} (всё) каравану</LoadIntoCaravanAll>
+	<LoadIntoCaravanSome>Передать {0} каравану...</LoadIntoCaravanSome>
+	<LoadIntoCaravanCount>Передать {0} ({{0}} шт) каравану</LoadIntoCaravanCount>
+
+	<OverweightLower>перегруз</OverweightLower>
+	
 	<CannotCarryToExit>Невозможно уйти, неся {0}</CannotCarryToExit>
 	<CarryToExit>Взять {0} и уйти</CarryToExit>
 
@@ -169,5 +180,12 @@
 
 	<AddWaypoint>Добавить точку маршрута</AddWaypoint>
 	<RemoveWaypoint>Удалить точку маршрута</RemoveWaypoint>
+
+	<RemoveAllDesignations>Отменить все назначения</RemoveAllDesignations>
+	<DesignateAll>Назначить всё</DesignateAll>
+	<CountToDesignate>{0} выделено</CountToDesignate>
+	<ForbidAllItems>Запретить всё</ForbidAllItems>
+	<UnforbidAllItems>Разрешить всё</UnforbidAllItems>
+	<RearmAllTraps>Взвести все ловушки</RearmAllTraps>
 
 </LanguageData>
