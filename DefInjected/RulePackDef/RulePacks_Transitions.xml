@@ -73,34 +73,33 @@
 	<Transition_Died.rulePack.rulesStrings.10>reserved->reserved</Transition_Died.rulePack.rulesStrings.10>
 
 
-	<Transition_DiedExplosive.rulePack.rulesStrings.0>die(p=3)->взрывается [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.0>
-	<Transition_DiedExplosive.rulePack.rulesStrings.1>die(p=3)->взрывается[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.1>
-	<Transition_DiedExplosive.rulePack.rulesStrings.2>die->подрывается [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.2>
-	<Transition_DiedExplosive.rulePack.rulesStrings.3>die->подрывается[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.3>
-	<Transition_DiedExplosive.rulePack.rulesStrings.4>die->разрывается [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.4>
-	<Transition_DiedExplosive.rulePack.rulesStrings.5>die->разрывается[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.5>
+	<Transition_DiedExplosive.rulePack.rulesStrings.0>die->исчезает [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.0>
+	<Transition_DiedExplosive.rulePack.rulesStrings.1>die->подрывается[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.1>
+	<Transition_DiedExplosive.rulePack.rulesStrings.2>die->взрывается[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.2>
+	<Transition_DiedExplosive.rulePack.rulesStrings.3>die->разрывается[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.3>
+	<Transition_DiedExplosive.rulePack.rulesStrings.4>die->взлетает на воздух [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.4>
+	<Transition_DiedExplosive.rulePack.rulesStrings.5>die->взлетает на воздух[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.5>
 
 	<Transition_DiedExplosive.rulePack.rulesStrings.6>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.6>
 	<Transition_DiedExplosive.rulePack.rulesStrings.7>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.7>
 	<Transition_DiedExplosive.rulePack.rulesStrings.8>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.8>
+	<Transition_DiedExplosive.rulePack.rulesStrings.9>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.9>
+	<Transition_DiedExplosive.rulePack.rulesStrings.10>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.10>
+	<Transition_DiedExplosive.rulePack.rulesStrings.11>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.11>
+	<Transition_DiedExplosive.rulePack.rulesStrings.12>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.12>
 
-	<Transition_DiedExplosive.rulePack.rulesStrings.9>flavor(p=0.2)->в химическом [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.9>
-	<Transition_DiedExplosive.rulePack.rulesStrings.10>flavor->в [color] [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.10>
-	<Transition_DiedExplosive.rulePack.rulesStrings.11>flavor->в [large] [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.11>
-	<Transition_DiedExplosive.rulePack.rulesStrings.12>flavor(p=4)->в [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.12>
-	<Transition_DiedExplosive.rulePack.rulesStrings.13>flavor(p=4)-></Transition_DiedExplosive.rulePack.rulesStrings.13>
-
-	<Transition_DiedExplosive.rulePack.rulesStrings.14>flavorsuffix->, разбрасывая [everywhere] свои [pieces]</Transition_DiedExplosive.rulePack.rulesStrings.14>
-	<Transition_DiedExplosive.rulePack.rulesStrings.15>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, разбрасывая [everywhere] [gore]</Transition_DiedExplosive.rulePack.rulesStrings.15>
-	<Transition_DiedExplosive.rulePack.rulesStrings.16>flavorsuffix(subject_flesh!=Mechanoid)->, оставляя небольшую кучку [gore]</Transition_DiedExplosive.rulePack.rulesStrings.16>
+	<Transition_DiedExplosive.rulePack.rulesStrings.13>flavorsuffix(p=4)-></Transition_DiedExplosive.rulePack.rulesStrings.13>
+	<Transition_DiedExplosive.rulePack.rulesStrings.14>flavorsuffix->, разбрасывая [everywhere] [pieces] своего тела</Transition_DiedExplosive.rulePack.rulesStrings.14>
+	<Transition_DiedExplosive.rulePack.rulesStrings.15>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, забрызгивая окрестности [gore]</Transition_DiedExplosive.rulePack.rulesStrings.15>
+	<Transition_DiedExplosive.rulePack.rulesStrings.16>flavorsuffix(subject_flesh!=Mechanoid)->, разлетаясь на [pieces], покрытые [gore]</Transition_DiedExplosive.rulePack.rulesStrings.16>
 	<Transition_DiedExplosive.rulePack.rulesStrings.17>flavorsuffix->, оставляя небольшой кратер</Transition_DiedExplosive.rulePack.rulesStrings.17>
-	<Transition_DiedExplosive.rulePack.rulesStrings.18>flavorsuffix(p=4)-></Transition_DiedExplosive.rulePack.rulesStrings.18>
+	
+	<Transition_DiedExplosive.rulePack.rulesStrings.18>flavor->в пламени взрыва</Transition_DiedExplosive.rulePack.rulesStrings.18>
+	<Transition_DiedExplosive.rulePack.rulesStrings.19>flavor->в огненной вспышке</Transition_DiedExplosive.rulePack.rulesStrings.19>
+	<Transition_DiedExplosive.rulePack.rulesStrings.20>flavor->в огненном шаре взрыва</Transition_DiedExplosive.rulePack.rulesStrings.20>
+	<Transition_DiedExplosive.rulePack.rulesStrings.21>flavor->в ударной волне</Transition_DiedExplosive.rulePack.rulesStrings.21>
 
-	<Transition_DiedExplosive.rulePack.rulesStrings.19>fireball(p=3)->огненном шаре</Transition_DiedExplosive.rulePack.rulesStrings.19>
-	<Transition_DiedExplosive.rulePack.rulesStrings.20>fireball->пламенном шаре</Transition_DiedExplosive.rulePack.rulesStrings.20>
-	<Transition_DiedExplosive.rulePack.rulesStrings.21>fireball->ударной волне</Transition_DiedExplosive.rulePack.rulesStrings.21>
-	<Transition_DiedExplosive.rulePack.rulesStrings.22>fireball->огненном шторме</Transition_DiedExplosive.rulePack.rulesStrings.22>
-
+	<Transition_DiedExplosive.rulePack.rulesStrings.22>pieces->ошмётки</Transition_DiedExplosive.rulePack.rulesStrings.22>
 	<Transition_DiedExplosive.rulePack.rulesStrings.23>pieces->куски</Transition_DiedExplosive.rulePack.rulesStrings.23>
 	<Transition_DiedExplosive.rulePack.rulesStrings.24>pieces->фрагменты</Transition_DiedExplosive.rulePack.rulesStrings.24>
 
