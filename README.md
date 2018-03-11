@@ -43,6 +43,7 @@
 
 
 ## Сделавшие вклад:
+* [Arex-rus](https://github.com/Arex-rus)
 * [Bugo](https://github.com/dragomano)
 * [Ohar](https://github.com/Ohar)
 * [Dinoabunai](https://github.com/Dinoabunai)
