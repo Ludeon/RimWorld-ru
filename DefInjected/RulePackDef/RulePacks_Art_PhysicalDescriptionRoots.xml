@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<ArtDescription_Sculpture.rulePack.rulesStrings.0>physical_description_root->Эта [sculpture] содержит [picture_acc_which] [depicts][image]. [desc_sentence_group]</ArtDescription_Sculpture.rulePack.rulesStrings.0>
-	<ArtDescription_Sculpture.rulePack.rulesStrings.1>physical_description_root->Эта [sculpture] несёт на себе [picture_acc_which] [depicts][image]. [desc_sentence_group]</ArtDescription_Sculpture.rulePack.rulesStrings.1>
-	<ArtDescription_Sculpture.rulePack.rulesStrings.2>physical_description_root->Эта [sculpture] [depicts][image]. [desc_sentence_group]</ArtDescription_Sculpture.rulePack.rulesStrings.2>
-	<ArtDescription_Sculpture.rulePack.rulesStrings.3>sculpture->скульптура</ArtDescription_Sculpture.rulePack.rulesStrings.3>
-	<ArtDescription_Sculpture.rulePack.rulesStrings.4>sculpture->работа</ArtDescription_Sculpture.rulePack.rulesStrings.4>
-	<ArtDescription_Sculpture.rulePack.rulesStrings.5>sculpture->статуя</ArtDescription_Sculpture.rulePack.rulesStrings.5>
-	<ArtDescription_Sculpture.rulePack.rulesStrings.6>sculpture->резная фигура</ArtDescription_Sculpture.rulePack.rulesStrings.6>
+	<ArtDescription_Sculpture.rulePack.rulesStrings.0>on_this_art(p=6)->[on_this_art_sculpture]</ArtDescription_Sculpture.rulePack.rulesStrings.0>
+	<ArtDescription_Sculpture.rulePack.rulesStrings.1>on_this_art_sculpture->на этой резной фигуре</ArtDescription_Sculpture.rulePack.rulesStrings.1>
+	<ArtDescription_Sculpture.rulePack.rulesStrings.2>on_this_art_sculpture->на этой скульптуре</ArtDescription_Sculpture.rulePack.rulesStrings.2>
+	<ArtDescription_Sculpture.rulePack.rulesStrings.3>this_art->[this_art_sculpture]</ArtDescription_Sculpture.rulePack.rulesStrings.3>
+	<ArtDescription_Sculpture.rulePack.rulesStrings.4>author->скульптор</ArtDescription_Sculpture.rulePack.rulesStrings.4>
+	<ArtDescription_Sculpture.rulePack.rulesStrings.5>author->творец</ArtDescription_Sculpture.rulePack.rulesStrings.5>
+	<ArtDescription_Sculpture.rulePack.rulesStrings.6>author->художник</ArtDescription_Sculpture.rulePack.rulesStrings.6>
 
-	<ArtDescription_WeaponMelee.rulePack.rulesStrings.0>physical_description_root->На этом оружии [engraved_picture_which] [depicts][image]. [desc_sentence_group]</ArtDescription_WeaponMelee.rulePack.rulesStrings.0>
-	<ArtDescription_WeaponMelee.rulePack.rulesStrings.1>physical_description_root->Это оружие несёт на себе [picture_acc_which] [depicts][image]. [desc_sentence_group]</ArtDescription_WeaponMelee.rulePack.rulesStrings.1>
-	<ArtDescription_WeaponMelee.rulePack.rulesStrings.2>physical_description_root->Гравировка на этом оружии [depicts][image]. [desc_sentence_group]</ArtDescription_WeaponMelee.rulePack.rulesStrings.2>
+	<ArtDescription_WeaponMelee.rulePack.rulesStrings.0>on_this_art(p=4)->на этом оружии</ArtDescription_WeaponMelee.rulePack.rulesStrings.0>
+	<ArtDescription_WeaponMelee.rulePack.rulesStrings.1>this_art->[this_art_engraving]</ArtDescription_WeaponMelee.rulePack.rulesStrings.1>
+	<ArtDescription_WeaponMelee.rulePack.rulesStrings.2>depicted(p=4)->[depicted_engraving]</ArtDescription_WeaponMelee.rulePack.rulesStrings.2>
 
-	<ArtDescription_WeaponGun.rulePack.rulesStrings.0>physical_description_root->На этом оружии [engraved_picture_which] [depicts][image]. [desc_sentence_group]</ArtDescription_WeaponGun.rulePack.rulesStrings.0>
-	<ArtDescription_WeaponGun.rulePack.rulesStrings.1>physical_description_root->Это оружие несёт на себе [picture_acc_which] [depicts][image]. [desc_sentence_group]</ArtDescription_WeaponGun.rulePack.rulesStrings.1>
-	<ArtDescription_WeaponGun.rulePack.rulesStrings.2>physical_description_root->Гравировка на этом оружии [depicts][image]. [desc_sentence_group]</ArtDescription_WeaponGun.rulePack.rulesStrings.2>
+	<ArtDescription_WeaponGun.rulePack.rulesStrings.0>on_this_art(p=4)->на этом оружии</ArtDescription_WeaponGun.rulePack.rulesStrings.0>
+	<ArtDescription_WeaponGun.rulePack.rulesStrings.1>this_art->[this_art_engraving]</ArtDescription_WeaponGun.rulePack.rulesStrings.1>
+	<ArtDescription_WeaponGun.rulePack.rulesStrings.2>depicted(p=4)->[depicted_engraving]</ArtDescription_WeaponGun.rulePack.rulesStrings.2>
 
-	<ArtDescription_Furniture.rulePack.rulesStrings.0>physical_description_root->На этом предмете мебели [engraved_picture_which] [depicts][image]. [desc_sentence_group]</ArtDescription_Furniture.rulePack.rulesStrings.0>
-	<ArtDescription_Furniture.rulePack.rulesStrings.1>physical_description_root->Этот предмет мебели несёт на себе [picture_acc_which] [depicts][image]. [desc_sentence_group]</ArtDescription_Furniture.rulePack.rulesStrings.1>
-	<ArtDescription_Furniture.rulePack.rulesStrings.2>physical_description_root->Гравировка на этом предмете мебели [depicts][image]. [desc_sentence_group]</ArtDescription_Furniture.rulePack.rulesStrings.2>
+	<ArtDescription_Furniture.rulePack.rulesStrings.0>on_this_art(p=4)->на этом предмете мебели</ArtDescription_Furniture.rulePack.rulesStrings.0>
+	<ArtDescription_Furniture.rulePack.rulesStrings.1>this_art->[this_art_engraving_carving]</ArtDescription_Furniture.rulePack.rulesStrings.1>
+	<ArtDescription_Furniture.rulePack.rulesStrings.2>depicted(p=4)->[depicted_engraving_carving]</ArtDescription_Furniture.rulePack.rulesStrings.2>
 
-	<ArtDescription_SarcophagusPlate.rulePack.rulesStrings.0>physical_description_root->На саркофаге [engraved_picture_which] [depicts][image]. [desc_sentence_group]</ArtDescription_SarcophagusPlate.rulePack.rulesStrings.0>
-	<ArtDescription_SarcophagusPlate.rulePack.rulesStrings.1>physical_description_root->Саркофаг несёт на себе [picture_acc_which] [depicts][image]. [desc_sentence_group]</ArtDescription_SarcophagusPlate.rulePack.rulesStrings.1>
-	<ArtDescription_SarcophagusPlate.rulePack.rulesStrings.2>physical_description_root->Гравировка на саркофаге [depicts][image]. [desc_sentence_group]</ArtDescription_SarcophagusPlate.rulePack.rulesStrings.2>
+	<ArtDescription_SarcophagusPlate.rulePack.rulesStrings.0>on_this_art(p=4)->на этом саркофаге</ArtDescription_SarcophagusPlate.rulePack.rulesStrings.0>
+	<ArtDescription_SarcophagusPlate.rulePack.rulesStrings.1>this_art->[this_art_engraving_carving]</ArtDescription_SarcophagusPlate.rulePack.rulesStrings.1>
+	<ArtDescription_SarcophagusPlate.rulePack.rulesStrings.2>depicted(p=4)->[depicted_engraving_carving]</ArtDescription_SarcophagusPlate.rulePack.rulesStrings.2>
 
 </LanguageData>
