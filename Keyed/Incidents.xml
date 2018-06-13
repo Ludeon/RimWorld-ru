@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<!--нHIS и т.д. — не опечатки, а необходимости, продиктованные суровой реальностью. Преобразует «его/её» в «него/неё».-->
+	<!--н[PAWN_possessive] и т.д. — не опечатки, а необходимости, продиктованные суровой реальностью. Преобразует «его/её» в «него/неё».-->
 
 	<LetterLabelAnimalInsanitySingle>Бешеное животное</LetterLabelAnimalInsanitySingle>
 	<AnimalInsanitySingle>Животное, {0}, в бешенстве и будет атаковать любого, кого увидит.</AnimalInsanitySingle>
@@ -33,13 +33,13 @@
 
 	<TraderArrival>Торговый корабль «{0}» пролетает рядом.\n\nЭто {1}.</TraderArrival>
 
-	<SingleTravelerPassing>{0} из фракции {1} проходит мимо.\n\nHISCAP зовут {2}.</SingleTravelerPassing>
+	<SingleTravelerPassing>{0} из фракции {1} проходит мимо.\n\n[PAWN_possessive] зовут {2}.</SingleTravelerPassing>
 	<GroupTravelersPassing>Группа путешественников из фракции {0} проходят мимо.</GroupTravelersPassing>
 
 	<LetterLabelSingleVisitorArrives>Гость</LetterLabelSingleVisitorArrives>
-	<SingleVisitorArrives>{0} из фракции {1} посещает поселение.\n\nHISCAP зовут {2}.{3}{4}</SingleVisitorArrives>
-	<SingleVisitorArrivesTraderInfo>\n\nКажется, у нHIS есть какие-то предметы для обмена.</SingleVisitorArrivesTraderInfo>
-	<SingleVisitorArrivesLeaderInfo>\n\nHECAP лидер фракции.</SingleVisitorArrivesLeaderInfo>
+	<SingleVisitorArrives>{0} из фракции {1} посещает поселение.\n\n[PAWN_possessive] зовут {2}.{3}{4}</SingleVisitorArrives>
+	<SingleVisitorArrivesTraderInfo>\n\nКажется, у н[PAWN_possessive] есть какие-то предметы для обмена.</SingleVisitorArrivesTraderInfo>
+	<SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] лидер фракции.</SingleVisitorArrivesLeaderInfo>
 	<LetterLabelGroupVisitorsArrive>Гости</LetterLabelGroupVisitorsArrive>
 	<GroupVisitorsArrive>Группа из фракции {0} посещает ваше поселение.{1}{2}</GroupVisitorsArrive>
 	<GroupVisitorsArriveTraderInfo>\n\nКажется, у них есть какие-то предметы для обмена.</GroupVisitorsArriveTraderInfo>
@@ -47,7 +47,7 @@
 	<VisitorsLeaving>Гости из фракции {0} уходят.</VisitorsLeaving>
 
 	<LetterLabelWandererJoin>Пополнение</LetterLabelWandererJoin>
-	<WandererJoin>В ваше поселение приходит новый {0}.\n\nHISCAP зовут NAME, и HE {1}.</WandererJoin>
+	<WandererJoin>В ваше поселение приходит новый {0}.\n\n[PAWN_possessive] зовут [PAWN_nameDef], и [PAWN_pronoun] {1}.</WandererJoin>
 
 	<LetterLabelManhunterPackArrived>Животные-людоеды</LetterLabelManhunterPackArrived>
 	<ManhunterPackArrived>На вашу территорию забрели агрессивные {0}. Они жаждут человеческого мяса.\n\nЭти животные не смогут пройти через двери, поэтому внутри вы будете в безопасности. Они также не нападут на турели, если вы отключите их заранее.\n\nПодождите несколько дней, и животные уйдут.</ManhunterPackArrived>
@@ -66,7 +66,7 @@
 
 	<!-- Agent revealed -->
 	<LetterLabelAgentRevealed>Шпион</LetterLabelAgentRevealed>
-	<LetterAgentRevealed>Вражеский шпион {0} из фракции {1} раскрыт.\n\nСейчас HE пытается бежать из поселения.</LetterAgentRevealed>
+	<LetterAgentRevealed>Вражеский шпион {0} из фракции {1} раскрыт.\n\nСейчас [PAWN_pronoun] пытается бежать из поселения.</LetterAgentRevealed>
 
 	<!-- Distant psychic drone -->
 	<LetterLabelPsychicDrone>Гул</LetterLabelPsychicDrone>
@@ -81,7 +81,7 @@
 
 	<!-- Refugee chased -->
 	<RefugeeChasedTitle>У поселения {0} преследуют беженца</RefugeeChasedTitle>
-	<RefugeeChasedInitial>{0}, {1}, бежит и зовёт на помощь! HECAP говорит, что HIS преследуют {2} из фракции {3}.\n\n{0} умоляет о помощи и взамен предлагает присоединиться к поселению. HISCAP биологический возраст — {4} лет.\n\nЕсли вы согласитесь принять {0}, на вас нападут {2}, идущие у нHIS на хвосте.</RefugeeChasedInitial>
+	<RefugeeChasedInitial>{0}, {1}, бежит и зовёт на помощь! [PAWN_pronoun] говорит, что [PAWN_possessive] преследуют {2} из фракции {3}.\n\n{0} умоляет о помощи и взамен предлагает присоединиться к поселению. [PAWN_possessive] биологический возраст — {4} лет.\n\nЕсли вы согласитесь принять {0}, на вас нападут {2}, идущие у н[PAWN_possessive] на хвосте.</RefugeeChasedInitial>
 	<RefugeeChasedInitial_Accept>Предложить укрытие</RefugeeChasedInitial_Accept>
 	<RefugeeChasedInitial_Reject>Игнорировать это сообщение</RefugeeChasedInitial_Reject>
 	<RefugeeChasedRejected>{0} отчаянно кричит из хрипящего динамика, пока вы не прерываете трансляцию.</RefugeeChasedRejected>
@@ -110,7 +110,7 @@
 
 	<!-- Ransom demand -->
 	<RansomDemandTitle>Требование выкупа у поселения {0}</RansomDemandTitle>
-	<RansomDemand>{1} связываются с вами по радио. У них в заложниках — {0}, ваш бывший поселенец.\n\nОни хотят отпустить HIS обратно к вам за {2} серебра.</RansomDemand>
+	<RansomDemand>{1} связываются с вами по радио. У них в заложниках — {0}, ваш бывший поселенец.\n\nОни хотят отпустить [PAWN_possessive] обратно к вам за {2} серебра.</RansomDemand>
 	<RansomDemand_Accept>Согласиться</RansomDemand_Accept>
 	<RansomDemand_Reject>Отказаться</RansomDemand_Reject>
 
