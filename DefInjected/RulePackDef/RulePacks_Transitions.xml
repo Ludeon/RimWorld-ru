@@ -1,106 +1,116 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<Transition_Include.rulePack.rulesStrings.0>duetoa->[empty] из-за</Transition_Include.rulePack.rulesStrings.0>
-	<Transition_Include.rulePack.rulesStrings.1>duetoa(p=0.5)->[empty] вследствие</Transition_Include.rulePack.rulesStrings.1>
-	<Transition_Include.rulePack.rulesStrings.2>duetoa(p=0.5)->, благодаря</Transition_Include.rulePack.rulesStrings.2>
+	<Transition_Include.rulePack.rulesStrings>
+		<li>duetoa->[empty] из-за</li>
+		<li>duetoa(p=0.5)->[empty] вследствие</li>
+		<li>duetoa(p=0.5)->, благодаря</li>
+	</Transition_Include.rulePack.rulesStrings>
 
 	
-	<Transition_Downed.rulePack.rulesStrings.0>logentry->Из-за [culpritHediff_labelNoun] [subject_definite] [collapsemeta].</Transition_Downed.rulePack.rulesStrings.0>
-	<Transition_Downed.rulePack.rulesStrings.1>logentry->Из-за [culpritHediff_labelNoun] в [culpritHediff_target_label] [subject_definite] [collapsemeta].</Transition_Downed.rulePack.rulesStrings.1>
+	<Transition_Downed.rulePack.rulesStrings>
+		<li>logentry->Из-за [culpritHediff_labelNoun] [subject_definite] [collapsemeta].</li>
+		<li>logentry->Из-за [culpritHediff_labelNoun] в [culpritHediff_target_label] [subject_definite] [collapsemeta].</li>
 
-	<Transition_Downed.rulePack.rulesStrings.2>logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun].</Transition_Downed.rulePack.rulesStrings.2>
-	<Transition_Downed.rulePack.rulesStrings.3>logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun] в [culpritHediff_target_label].</Transition_Downed.rulePack.rulesStrings.3>
-	<Transition_Downed.rulePack.rulesStrings.4>logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun] в [subject_possessive] [culpritHediff_target_label].</Transition_Downed.rulePack.rulesStrings.4>
+		<li>logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun].</li>
+		<li>logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun] в [culpritHediff_target_label].</li>
+		<li>logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun] в [subject_possessive] [culpritHediff_target_label].</li>
 
-	<Transition_Downed.rulePack.rulesStrings.5>logentry(p=0.1)->[subject_definite] [collapsemeta].</Transition_Downed.rulePack.rulesStrings.5>
+		<li>logentry(p=0.1)->[subject_definite] [collapsemeta].</li>
 
-	<Transition_Downed.rulePack.rulesStrings.6>collapse->падает</Transition_Downed.rulePack.rulesStrings.6>
-	<Transition_Downed.rulePack.rulesStrings.7>collapse->оседает на землю</Transition_Downed.rulePack.rulesStrings.7>
-	<Transition_Downed.rulePack.rulesStrings.8>collapse->теряет равновесие</Transition_Downed.rulePack.rulesStrings.8>
-	<Transition_Downed.rulePack.rulesStrings.9>collapse(subject_flesh!=Mechanoid)->падает в обморок</Transition_Downed.rulePack.rulesStrings.9>
-	<Transition_Downed.rulePack.rulesStrings.10>collapse(subject_flesh==Mechanoid)->получает системную ошибку</Transition_Downed.rulePack.rulesStrings.10>
-	<Transition_Downed.rulePack.rulesStrings.11>collapse(subject_flesh==Mechanoid)->входит в петлю перезагрузок</Transition_Downed.rulePack.rulesStrings.11>
-	<Transition_Downed.rulePack.rulesStrings.12>collapse(subject_flesh==Mechanoid)->терпит аппаратный сбой</Transition_Downed.rulePack.rulesStrings.12>
+		<li>collapse->падает</li>
+		<li>collapse->оседает на землю</li>
+		<li>collapse->теряет равновесие</li>
+		<li>collapse(subject_flesh!=Mechanoid)->падает в обморок</li>
+		<li>collapse(subject_flesh==Mechanoid)->получает системную ошибку</li>
+		<li>collapse(subject_flesh==Mechanoid)->входит в петлю перезагрузок</li>
+		<li>collapse(subject_flesh==Mechanoid)->терпит аппаратный сбой</li>
 
-	<Transition_Downed.rulePack.rulesStrings.13>reserved->reserved</Transition_Downed.rulePack.rulesStrings.13>
-	<Transition_Downed.rulePack.rulesStrings.14>reserved->reserved</Transition_Downed.rulePack.rulesStrings.14>
-	<Transition_Downed.rulePack.rulesStrings.15>reserved->reserved</Transition_Downed.rulePack.rulesStrings.15>
-	<Transition_Downed.rulePack.rulesStrings.16>reserved->reserved</Transition_Downed.rulePack.rulesStrings.16>
-	<Transition_Downed.rulePack.rulesStrings.17>reserved->reserved</Transition_Downed.rulePack.rulesStrings.17>
-	<Transition_Downed.rulePack.rulesStrings.18>reserved->reserved</Transition_Downed.rulePack.rulesStrings.18>
-	<Transition_Downed.rulePack.rulesStrings.19>reserved->reserved</Transition_Downed.rulePack.rulesStrings.19>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
 
-	<Transition_Downed.rulePack.rulesStrings.20>helplessly->беспомощно</Transition_Downed.rulePack.rulesStrings.20>
-	<Transition_Downed.rulePack.rulesStrings.21>helplessly(subject_flesh!=Mechanoid)->без сознания</Transition_Downed.rulePack.rulesStrings.21>
-	<Transition_Downed.rulePack.rulesStrings.22>helplessly(subject_flesh!=Mechanoid)->в изнеможении</Transition_Downed.rulePack.rulesStrings.22>
-	<Transition_Downed.rulePack.rulesStrings.23>helplessly(subject_flesh!=Mechanoid)->ослабленно</Transition_Downed.rulePack.rulesStrings.23>
-	<Transition_Downed.rulePack.rulesStrings.24>helplessly(subject_flesh!=Mechanoid)->немощно</Transition_Downed.rulePack.rulesStrings.24>
-	<Transition_Downed.rulePack.rulesStrings.25>helplessly(subject_flesh==Mechanoid)->бесконтрольно</Transition_Downed.rulePack.rulesStrings.25>
+		<li>helplessly->беспомощно</li>
+		<li>helplessly(subject_flesh!=Mechanoid)->без сознания</li>
+		<li>helplessly(subject_flesh!=Mechanoid)->в изнеможении</li>
+		<li>helplessly(subject_flesh!=Mechanoid)->ослабленно</li>
+		<li>helplessly(subject_flesh!=Mechanoid)->немощно</li>
+		<li>helplessly(subject_flesh==Mechanoid)->бесконтрольно</li>
 
-	<Transition_Downed.rulePack.rulesStrings.26>collapsemeta->[collapse]</Transition_Downed.rulePack.rulesStrings.26>
-	<Transition_Downed.rulePack.rulesStrings.27>collapsemeta(p=0.5)->[helplessly] [collapse]</Transition_Downed.rulePack.rulesStrings.27>
+		<li>collapsemeta->[collapse]</li>
+		<li>collapsemeta(p=0.5)->[helplessly] [collapse]</li>
 
-	<Transition_Downed.rulePack.rulesStrings.28>reserved->reserved</Transition_Downed.rulePack.rulesStrings.28>
-	<Transition_Downed.rulePack.rulesStrings.29>reserved->reserved</Transition_Downed.rulePack.rulesStrings.29>
-
-
-	<Transition_DiedInclude.rulePack.rulesStrings.0>logentry(p=1.5)->Из-за [culpritHediff_labelNoun] [subject_definite] [die].</Transition_DiedInclude.rulePack.rulesStrings.0>
-	<Transition_DiedInclude.rulePack.rulesStrings.1>logentry(p=1.5)->Из-за [culpritHediff_labelNoun] в [culpritHediff_target_label] [subject_definite] [die].</Transition_DiedInclude.rulePack.rulesStrings.1>
-
-	<Transition_DiedInclude.rulePack.rulesStrings.2>logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] [flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.2>
-	<Transition_DiedInclude.rulePack.rulesStrings.3>logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] в [culpritHediff_target_label] [flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.3>
-	<Transition_DiedInclude.rulePack.rulesStrings.4>logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] в [subject_possessive] [culpritHediff_target_label] [flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.4>
-
-	<Transition_DiedInclude.rulePack.rulesStrings.5>logentry->[subject_definite] [die].</Transition_DiedInclude.rulePack.rulesStrings.5>
-	<Transition_DiedInclude.rulePack.rulesStrings.6>logentry->[subject_definite] [die] [flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.6>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+	</Transition_Downed.rulePack.rulesStrings>
 
 
-	<Transition_Died.rulePack.rulesStrings.0>die(p=2)->умирает</Transition_Died.rulePack.rulesStrings.0>
-	<Transition_Died.rulePack.rulesStrings.1>die->погибает</Transition_Died.rulePack.rulesStrings.1>
-	<Transition_Died.rulePack.rulesStrings.2>die(subject_flesh!=Mechanoid)->отправляется на тот свет</Transition_Died.rulePack.rulesStrings.2>
-	<Transition_Died.rulePack.rulesStrings.3>die(subject_flesh!=Mechanoid)->погибает от ран</Transition_Died.rulePack.rulesStrings.3>
-	<Transition_Died.rulePack.rulesStrings.4>die(subject_flesh==Mechanoid)->отключается</Transition_Died.rulePack.rulesStrings.4>
-	<Transition_Died.rulePack.rulesStrings.5>die(subject_flesh==Mechanoid)->перестаёт функционировать</Transition_Died.rulePack.rulesStrings.5>
+	<Transition_DiedInclude.rulePack.rulesStrings>
+		<li>logentry(p=1.5)->Из-за [culpritHediff_labelNoun] [subject_definite] [die].</li>
+		<li>logentry(p=1.5)->Из-за [culpritHediff_labelNoun] в [culpritHediff_target_label] [subject_definite] [die].</li>
 
-	<Transition_Died.rulePack.rulesStrings.6>reserved->reserved</Transition_Died.rulePack.rulesStrings.6>
-	<Transition_Died.rulePack.rulesStrings.7>reserved->reserved</Transition_Died.rulePack.rulesStrings.7>
-	<Transition_Died.rulePack.rulesStrings.8>reserved->reserved</Transition_Died.rulePack.rulesStrings.8>
-	<Transition_Died.rulePack.rulesStrings.9>reserved->reserved</Transition_Died.rulePack.rulesStrings.9>
-	<Transition_Died.rulePack.rulesStrings.10>reserved->reserved</Transition_Died.rulePack.rulesStrings.10>
+		<li>logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] [flavorsuffix].</li>
+		<li>logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] в [culpritHediff_target_label] [flavorsuffix].</li>
+		<li>logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] в [subject_possessive] [culpritHediff_target_label] [flavorsuffix].</li>
+
+		<li>logentry->[subject_definite] [die].</li>
+		<li>logentry->[subject_definite] [die] [flavorsuffix].</li>
+	</Transition_DiedInclude.rulePack.rulesStrings>
 
 
-	<Transition_DiedExplosive.rulePack.rulesStrings.0>die->исчезает [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.0>
-	<Transition_DiedExplosive.rulePack.rulesStrings.1>die->подрывается[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.1>
-	<Transition_DiedExplosive.rulePack.rulesStrings.2>die->взрывается[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.2>
-	<Transition_DiedExplosive.rulePack.rulesStrings.3>die->разрывается[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.3>
-	<Transition_DiedExplosive.rulePack.rulesStrings.4>die->взлетает на воздух [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.4>
-	<Transition_DiedExplosive.rulePack.rulesStrings.5>die->взлетает на воздух[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.5>
+	<Transition_Died.rulePack.rulesStrings>
+		<li>die(p=2)->умирает</li>
+		<li>die->погибает</li>
+		<li>die(subject_flesh!=Mechanoid)->отправляется на тот свет</li>
+		<li>die(subject_flesh!=Mechanoid)->погибает от ран</li>
+		<li>die(subject_flesh==Mechanoid)->отключается</li>
+		<li>die(subject_flesh==Mechanoid)->перестаёт функционировать</li>
 
-	<Transition_DiedExplosive.rulePack.rulesStrings.6>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.6>
-	<Transition_DiedExplosive.rulePack.rulesStrings.7>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.7>
-	<Transition_DiedExplosive.rulePack.rulesStrings.8>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.8>
-	<Transition_DiedExplosive.rulePack.rulesStrings.9>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.9>
-	<Transition_DiedExplosive.rulePack.rulesStrings.10>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.10>
-	<Transition_DiedExplosive.rulePack.rulesStrings.11>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.11>
-	<Transition_DiedExplosive.rulePack.rulesStrings.12>reserved->reserved</Transition_DiedExplosive.rulePack.rulesStrings.12>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+	</Transition_Died.rulePack.rulesStrings>
 
-	<Transition_DiedExplosive.rulePack.rulesStrings.13>flavorsuffix(p=4)-></Transition_DiedExplosive.rulePack.rulesStrings.13>
-	<Transition_DiedExplosive.rulePack.rulesStrings.14>flavorsuffix->, разбрасывая [everywhere] [pieces] своего тела</Transition_DiedExplosive.rulePack.rulesStrings.14>
-	<Transition_DiedExplosive.rulePack.rulesStrings.15>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, забрызгивая окрестности [gore]</Transition_DiedExplosive.rulePack.rulesStrings.15>
-	<Transition_DiedExplosive.rulePack.rulesStrings.16>flavorsuffix(subject_flesh!=Mechanoid)->, разлетаясь на [pieces], покрытые [gore]</Transition_DiedExplosive.rulePack.rulesStrings.16>
-	<Transition_DiedExplosive.rulePack.rulesStrings.17>flavorsuffix->, оставляя небольшой кратер</Transition_DiedExplosive.rulePack.rulesStrings.17>
+
+	<Transition_DiedExplosive.rulePack.rulesStrings>
+		<li>die->исчезает [flavor]</li>
+		<li>die->подрывается[flavorsuffix]</li>
+		<li>die->взрывается[flavorsuffix]</li>
+		<li>die->разрывается[flavorsuffix]</li>
+		<li>die->взлетает на воздух [flavor]</li>
+		<li>die->взлетает на воздух[flavorsuffix]</li>
+
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+		<li>reserved->reserved</li>
+
+		<li>flavorsuffix(p=4)-></li>
+		<li>flavorsuffix->, разбрасывая [everywhere] [pieces] своего тела</li>
+		<li>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, забрызгивая окрестности [gore]</li>
+		<li>flavorsuffix(subject_flesh!=Mechanoid)->, разлетаясь на [pieces], покрытые [gore]</li>
+		<li>flavorsuffix->, оставляя небольшой кратер</li>
 	
-	<Transition_DiedExplosive.rulePack.rulesStrings.18>flavor->в пламени взрыва</Transition_DiedExplosive.rulePack.rulesStrings.18>
-	<Transition_DiedExplosive.rulePack.rulesStrings.19>flavor->в огненной вспышке</Transition_DiedExplosive.rulePack.rulesStrings.19>
-	<Transition_DiedExplosive.rulePack.rulesStrings.20>flavor->в огненном шаре взрыва</Transition_DiedExplosive.rulePack.rulesStrings.20>
-	<Transition_DiedExplosive.rulePack.rulesStrings.21>flavor->в ударной волне</Transition_DiedExplosive.rulePack.rulesStrings.21>
+		<li>flavor->в пламени взрыва</li>
+		<li>flavor->в огненной вспышке</li>
+		<li>flavor->в огненном шаре взрыва</li>
+		<li>flavor->в ударной волне</li>
 
-	<Transition_DiedExplosive.rulePack.rulesStrings.22>pieces->ошмётки</Transition_DiedExplosive.rulePack.rulesStrings.22>
-	<Transition_DiedExplosive.rulePack.rulesStrings.23>pieces->куски</Transition_DiedExplosive.rulePack.rulesStrings.23>
-	<Transition_DiedExplosive.rulePack.rulesStrings.24>pieces->фрагменты</Transition_DiedExplosive.rulePack.rulesStrings.24>
+		<li>pieces->ошмётки</li>
+		<li>pieces->куски</li>
+		<li>pieces->фрагменты</li>
 
-	<Transition_DiedExplosive.rulePack.rulesStrings.25>everywhere->повсюду</Transition_DiedExplosive.rulePack.rulesStrings.25>
-	<Transition_DiedExplosive.rulePack.rulesStrings.26>everywhere->кругом</Transition_DiedExplosive.rulePack.rulesStrings.26>
+		<li>everywhere->повсюду</li>
+		<li>everywhere->кругом</li>
+	</Transition_DiedExplosive.rulePack.rulesStrings>
 
 </LanguageData>

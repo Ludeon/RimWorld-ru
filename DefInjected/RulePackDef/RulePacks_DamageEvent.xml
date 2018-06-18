@@ -1,83 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-        <DamageEvent_Include.rulePack.rulesStrings.0>logentry->[damageSource] [recipient_nameShortDef], [destroyed_participle] [recipient_possessive] [destroyed_targets].</DamageEvent_Include.rulePack.rulesStrings.0>
-        <DamageEvent_Include.rulePack.rulesStrings.1>logentry->[damageSource] [recipient_nameShortDef], [destroyed_participle] [recipient_possessive] [destroyed_targets] and [damaged_participle] [recipient_possessive] [damaged_targets].</DamageEvent_Include.rulePack.rulesStrings.1>
-        <DamageEvent_Include.rulePack.rulesStrings.2>logentry(recipient_part_destroyed_count==0)->[damageSource] [recipient_nameShortDef], [damaged_participle] [recipient_possessive] [damaged_targets].</DamageEvent_Include.rulePack.rulesStrings.2>
-        <DamageEvent_Include.rulePack.rulesStrings.3>logentry(p=0.1)->[damageSource] [recipient_nameShortDef].</DamageEvent_Include.rulePack.rulesStrings.3>
+	<DamageEvent_Include.rulePack.rulesStrings>
+		<li>logentry->[damageSource] [recipient_nameShortDef], [destroyed_participle] [recipient_possessive] [destroyed_targets].</li>
+		<li>logentry->[damageSource] [recipient_nameShortDef], [destroyed_participle] [recipient_possessive] [destroyed_targets] and [damaged_participle] [recipient_possessive] [damaged_targets].</li>
+		<li>logentry(recipient_part_destroyed_count==0)->[damageSource] [recipient_nameShortDef], [damaged_participle] [recipient_possessive] [damaged_targets].</li>
+		<li>logentry(p=0.1)->[damageSource] [recipient_nameShortDef].</li>
+	</DamageEvent_Include.rulePack.rulesStrings>
 
 
-        <DamageEvent_Ceiling.rulePack.rulesStrings.0>damageSource->[roof] [collapsed] на</DamageEvent_Ceiling.rulePack.rulesStrings.0>
+	<DamageEvent_Ceiling.rulePack.rulesStrings>
+		<li>damageSource->[roof] [collapsed] на</li>
 
-        <DamageEvent_Ceiling.rulePack.rulesStrings.1>roof->крыша</DamageEvent_Ceiling.rulePack.rulesStrings.1>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.2>roof->кровля</DamageEvent_Ceiling.rulePack.rulesStrings.2>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.3>roof->потолок</DamageEvent_Ceiling.rulePack.rulesStrings.3>
+		<li>roof->крыша</li>
+		<li>roof->кровля</li>
+		<li>roof->потолок</li>
 
-        <DamageEvent_Ceiling.rulePack.rulesStrings.4>collapsed->обрушивается</DamageEvent_Ceiling.rulePack.rulesStrings.4>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.5>collapsed->падает</DamageEvent_Ceiling.rulePack.rulesStrings.5>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.6>collapsed->обваливается</DamageEvent_Ceiling.rulePack.rulesStrings.6>
+		<li>collapsed->обрушивается</li>
+		<li>collapsed->падает</li>
+		<li>collapsed->обваливается</li>
 
-        <DamageEvent_Ceiling.rulePack.rulesStrings.7>damaged_participle->ушибая</DamageEvent_Ceiling.rulePack.rulesStrings.7>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.8>damaged_participle->дробя</DamageEvent_Ceiling.rulePack.rulesStrings.8>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.9>damaged_participle->давя</DamageEvent_Ceiling.rulePack.rulesStrings.9>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.10>damaged_participle->ломая</DamageEvent_Ceiling.rulePack.rulesStrings.10>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.11>reserved->reserved</DamageEvent_Ceiling.rulePack.rulesStrings.11>
+		<li>damaged_participle->ушибая</li>
+		<li>damaged_participle->дробя</li>
+		<li>damaged_participle->давя</li>
+		<li>damaged_participle->ломая</li>
+		<li>reserved->reserved</li>
 
-        <DamageEvent_Ceiling.rulePack.rulesStrings.12>destroyed_participle->разбивая</DamageEvent_Ceiling.rulePack.rulesStrings.12>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.13>destroyed_participle->раздрабливая</DamageEvent_Ceiling.rulePack.rulesStrings.13>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.14>destroyed_participle->отбивая</DamageEvent_Ceiling.rulePack.rulesStrings.14>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.15>destroyed_participle->размазывая</DamageEvent_Ceiling.rulePack.rulesStrings.15>
-        <DamageEvent_Ceiling.rulePack.rulesStrings.16>destroyed_participle->раздавливая</DamageEvent_Ceiling.rulePack.rulesStrings.16>
-
-
-        <DamageEvent_Fire.rulePack.rulesStrings.0>damageSource->[fire] опаляет</DamageEvent_Fire.rulePack.rulesStrings.0>
-
-        <DamageEvent_Fire.rulePack.rulesStrings.1>fire(p=3)->огонь</DamageEvent_Fire.rulePack.rulesStrings.1>
-        <DamageEvent_Fire.rulePack.rulesStrings.2>fire(p=3)->пламя</DamageEvent_Fire.rulePack.rulesStrings.2>
-        <DamageEvent_Fire.rulePack.rulesStrings.3>fire(p=3)->пожар</DamageEvent_Fire.rulePack.rulesStrings.3>
-        <DamageEvent_Fire.rulePack.rulesStrings.4>fire->жар</DamageEvent_Fire.rulePack.rulesStrings.4>
-        <DamageEvent_Fire.rulePack.rulesStrings.5>fire->пламя пожара</DamageEvent_Fire.rulePack.rulesStrings.5>
-        <DamageEvent_Fire.rulePack.rulesStrings.6>fire->огонь пожара</DamageEvent_Fire.rulePack.rulesStrings.6>
-
-        <DamageEvent_Fire.rulePack.rulesStrings.7>damaged_participle->обжигая</DamageEvent_Fire.rulePack.rulesStrings.7>
-        <DamageEvent_Fire.rulePack.rulesStrings.8>damaged_participle->покрывая ожогами</DamageEvent_Fire.rulePack.rulesStrings.8>
-        <DamageEvent_Fire.rulePack.rulesStrings.9>damaged_participle->поджигая</DamageEvent_Fire.rulePack.rulesStrings.9>
-        <DamageEvent_Fire.rulePack.rulesStrings.10>damaged_participle->запекая</DamageEvent_Fire.rulePack.rulesStrings.10>
-        <DamageEvent_Fire.rulePack.rulesStrings.11>destroyed_participle->обугливая</DamageEvent_Fire.rulePack.rulesStrings.11>
-        <DamageEvent_Fire.rulePack.rulesStrings.12>destroyed_participle->сжигая</DamageEvent_Fire.rulePack.rulesStrings.12>
-        <DamageEvent_Fire.rulePack.rulesStrings.13>destroyed_participle->испепеляя</DamageEvent_Fire.rulePack.rulesStrings.13>
-        <DamageEvent_Fire.rulePack.rulesStrings.14>destroyed_participle->превращая в пепел</DamageEvent_Fire.rulePack.rulesStrings.14>
+		<li>destroyed_participle->разбивая</li>
+		<li>destroyed_participle->раздрабливая</li>
+		<li>destroyed_participle->отбивая</li>
+		<li>destroyed_participle->размазывая</li>
+		<li>destroyed_participle->раздавливая</li>
+	</DamageEvent_Ceiling.rulePack.rulesStrings>
 
 
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.0>damageSource->[sky] разверзается над</DamageEvent_PowerBeam.rulePack.rulesStrings.0>
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.1>damageSource->Луч невероятной [power] [damaged]</DamageEvent_PowerBeam.rulePack.rulesStrings.1>
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.2>damageSource->Столб [light] [damaged]</DamageEvent_PowerBeam.rulePack.rulesStrings.2>
+	<DamageEvent_Fire.rulePack.rulesStrings>
+		<li>damageSource->[fire] опаляет</li>
 
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.3>sky->небо</DamageEvent_PowerBeam.rulePack.rulesStrings.3>
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.4>sky(p=0.3)->небесная твердь</DamageEvent_PowerBeam.rulePack.rulesStrings.4>
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.5>sky->небосвод</DamageEvent_PowerBeam.rulePack.rulesStrings.5>
+		<li>fire(p=3)->огонь</li>
+		<li>fire(p=3)->пламя</li>
+		<li>fire(p=3)->пожар</li>
+		<li>fire->жар</li>
+		<li>fire->пламя пожара</li>
+		<li>fire->огонь пожара</li>
 
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.6>power->силы</DamageEvent_PowerBeam.rulePack.rulesStrings.6>
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.7>power->энегрии</DamageEvent_PowerBeam.rulePack.rulesStrings.7>
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.8>power->мощи</DamageEvent_PowerBeam.rulePack.rulesStrings.8>
+		<li>damaged_participle->обжигая</li>
+		<li>damaged_participle->покрывая ожогами</li>
+		<li>damaged_participle->поджигая</li>
+		<li>damaged_participle->запекая</li>
+		<li>destroyed_participle->обугливая</li>
+		<li>destroyed_participle->сжигая</li>
+		<li>destroyed_participle->испепеляя</li>
+		<li>destroyed_participle->превращая в пепел</li>
+	</DamageEvent_Fire.rulePack.rulesStrings>
 
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.9>light->света</DamageEvent_PowerBeam.rulePack.rulesStrings.9>
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.10>light->энергии</DamageEvent_PowerBeam.rulePack.rulesStrings.10>
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.11>light->пламени</DamageEvent_PowerBeam.rulePack.rulesStrings.11>
-        <DamageEvent_PowerBeam.rulePack.rulesStrings.12>light(p=0.2)->ослепительного жара</DamageEvent_PowerBeam.rulePack.rulesStrings.12>
+
+	<DamageEvent_PowerBeam.rulePack.rulesStrings>
+		<li>damageSource->[sky] разверзается над</li>
+		<li>damageSource->Луч невероятной [power] [damaged]</li>
+		<li>damageSource->Столб [light] [damaged]</li>
+
+		<li>sky->небо</li>
+		<li>sky(p=0.3)->небесная твердь</li>
+		<li>sky->небосвод</li>
+
+		<li>power->силы</li>
+		<li>power->энегрии</li>
+		<li>power->мощи</li>
+
+		<li>light->света</li>
+		<li>light->энергии</li>
+		<li>light->пламени</li>
+		<li>light(p=0.2)->ослепительного жара</li>
+	</DamageEvent_PowerBeam.rulePack.rulesStrings>
 
 
-        <DamageEvent_Tornado.rulePack.rulesStrings.0>damageSource->[spiraling] смерч [enveloped]</DamageEvent_Tornado.rulePack.rulesStrings.0>
+	<DamageEvent_Tornado.rulePack.rulesStrings>
+		<li>damageSource->[spiraling] смерч [enveloped]</li>
 
-        <DamageEvent_Tornado.rulePack.rulesStrings.1>destroyed_participle(p=3)->разрывая</DamageEvent_Tornado.rulePack.rulesStrings.1>
+		<li>destroyed_participle(p=3)->разрывая</li>
 
-        <DamageEvent_Tornado.rulePack.rulesStrings.2>spiraling->завихрённый</DamageEvent_Tornado.rulePack.rulesStrings.2>
-        <DamageEvent_Tornado.rulePack.rulesStrings.3>spiraling->кружащийся</DamageEvent_Tornado.rulePack.rulesStrings.3>
-        <DamageEvent_Tornado.rulePack.rulesStrings.4>spiraling->вихревой</DamageEvent_Tornado.rulePack.rulesStrings.4>
-        <DamageEvent_Tornado.rulePack.rulesStrings.5>spiraling(p=10)-></DamageEvent_Tornado.rulePack.rulesStrings.5>
+		<li>spiraling->завихрённый</li>
+		<li>spiraling->кружащийся</li>
+		<li>spiraling->вихревой</li>
+		<li>spiraling(p=10)-></li>
 
-        <DamageEvent_Tornado.rulePack.rulesStrings.6>enveloped(p=8)->захватывает</DamageEvent_Tornado.rulePack.rulesStrings.6>
-        <DamageEvent_Tornado.rulePack.rulesStrings.7>enveloped(p=8)->поглощает</DamageEvent_Tornado.rulePack.rulesStrings.7>
-        <DamageEvent_Tornado.rulePack.rulesStrings.8>enveloped(p=8)->окутывает</DamageEvent_Tornado.rulePack.rulesStrings.8>
+		<li>enveloped(p=8)->захватывает</li>
+		<li>enveloped(p=8)->поглощает</li>
+		<li>enveloped(p=8)->окутывает</li>
+	</DamageEvent_Tornado.rulePack.rulesStrings>
 
 </LanguageData>
