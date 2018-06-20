@@ -16,18 +16,21 @@
 	<DiedOn>Дата смерти: {0}</DiedOn>
 	<Nobody>Никто</Nobody>
 	<Unowned>Ничья</Unowned>
-	<DeadTime>Мёртв уже {0}</DeadTime>
+	<DeadTime>Мёртв {0}</DeadTime>
 	<WalkSpeed>скорость передвижения {0}</WalkSpeed>
 	<FertShort>плодородность</FertShort>
 	<DyingLower>умирает</DyingLower>
 	<FilthOnFeet>Грязь на ногах:</FilthOnFeet>
 	<NotEnoughStoredLower>недостаточно на складе</NotEnoughStoredLower>
 	<NothingLower>ничего</NothingLower>
-	<Adapted>Устойчив</Adapted>
+	<Adapted>Устойчивость</Adapted>
 	<FreshMissingBodyPart>недавно</FreshMissingBodyPart>
 	<DevelopedImmunityLower>выработан иммунитет</DevelopedImmunityLower>
 	<NeedsTendingNow>Требуется лечение</NeedsTendingNow>
+	<CanTendNow>Можно лечить</CanTendNow>
+	<TreatmentExpiresIn>Срок лечения истекает через {0}</TreatmentExpiresIn>
 	<NextTendIn>Повторное лечение через {0}</NextTendIn>
+	<TendQuality>Качество лечения</TendQuality>
 	<MissingMedicalBillIngredient>нет {0}</MissingMedicalBillIngredient>
 	<Immunity>Иммунитет выработан</Immunity>
 	<Race>Раса</Race>
@@ -38,6 +41,7 @@
 	<ThingInfo>Информация</ThingInfo>
 	<DropThing>Выкинуть</DropThing>
 	<Rename>Переименовать</Rename>
+	<RenameAnimal>Переименовать</RenameAnimal>
 	<RenameColonist>Переименовать</RenameColonist>
 	<UnknownLower>неизвестно</UnknownLower>
 	<On>Вкл</On>
@@ -49,7 +53,7 @@
 	<EggProgress>Яйцо</EggProgress>
 	<Fertilized>Оплодотворена</Fertilized>
 	<ProgressStoppedUntilFertilized>Прогресс остановился до оплодотворения</ProgressStoppedUntilFertilized>
-	<SkillTooLow>нужен {0} уровень {2}, сейчас {1}</SkillTooLow>
+	<SkillTooLow>требуется {0} уровня {2}, сейчас {1}</SkillTooLow>
 	<Freezing>Переохлаждение</Freezing>
 	<Overheating>Перегрев</Overheating>
 	<RuinedByTemperature>Испортилось из-за температурных условий.</RuinedByTemperature>
@@ -78,7 +82,7 @@
 	<CaravanDaysOfFoodRot>Еды хватит на {0} дней, начнёт портиться через {1} дней</CaravanDaysOfFoodRot>
 	<AllCaravanMembersDowned>Остановка: все члены повержены.</AllCaravanMembersDowned>
 	<AllCaravanMembersMentalBreak>Остановка: у всех нервный срыв.</AllCaravanMembersMentalBreak>
-	<CaravanColonistsCount>{0} человек</CaravanColonistsCount>
+	<CaravanColonistsCount>{1}, {0} человек</CaravanColonistsCount>
 	<CaravanAnimal>1 животное</CaravanAnimal>
 	<CaravanAnimalsCount>{0} животных</CaravanAnimalsCount>
 	<CaravanPrisoner>1 заключённый</CaravanPrisoner>
@@ -97,6 +101,7 @@
 	<CaravanVisiting>Посещает {0}.</CaravanVisiting>
 	<CaravanEntering>Входит в {0}.</CaravanEntering>
 	<CaravanAttacking>Нападает на {0}.</CaravanAttacking>
+	<CaravanOfferingGifts>Предлагает подарок {0}.</CaravanOfferingGifts>
 	<WasWornByCorpse>Снято с трупа.</WasWornByCorpse>
 	<WornByCorpseChar>Т</WornByCorpseChar>
 	<DeterioratingUnroofed>расположение не под крышей</DeterioratingUnroofed>
@@ -138,14 +143,13 @@
 	<KnownSiteThreatsNone>Угроз нет.</KnownSiteThreatsNone>
 	<SkillRequirements>Требования</SkillRequirements>
 	<Products>Ингредиенты</Products>
-	<DeepDrillExhausted>Глубинное месторождение истощено. Буровая установка была автоматически отмечена как запрещённая для использования. В это месте теперь можно добыть только {0}. Если вы планируете продолжить добычу, разрешите использование установки.</DeepDrillExhausted>
 	<Relationship>{0} из {1}</Relationship>
 	<Prisoner>Заключённый</Prisoner>
 	<Refugee>Беженец</Refugee>
 	<TileMovementDifficulty>Сложность передвижения</TileMovementDifficulty>
 	<Impassable>Непроходимо</Impassable>
 	<CaravanMovementSpeedFull>Скорость движения каравана</CaravanMovementSpeedFull>
-	<DownedLower>downed</DownedLower>
+	<DownedLower>сражён</DownedLower>
 	<AverageCaravanMemberMoveSpeed>Ср. скорость человека</AverageCaravanMemberMoveSpeed>
 	<MultiplierForCarriedMass>Множитель переносимого веса: {0}</MultiplierForCarriedMass>
 	<FinalCaravanPawnsMovementSpeed>Скорость участников</FinalCaravanPawnsMovementSpeed>
@@ -155,7 +159,17 @@
 	<RangeTo>..</RangeTo>
 	<NoDietCategoryLetter>Без обозн.</NoDietCategoryLetter>
 	<ExpiresIn>Исчезнет через</ExpiresIn>
-	
+	<CaravanLeaderCaravanName>Караван {0}</CaravanLeaderCaravanName>
+	<Reason>Причина</Reason>
+	<RelationsWith>Отношения с фракцией {0}</RelationsWith>
+	<capturedBy>в плену у фракции {0}</capturedBy>
+	<yourCaravan>ваш караван</yourCaravan>
+	<CreatureWildness>Дикость</CreatureWildness>
+	<CreatureTrainability>Способность к обучению</CreatureTrainability>
+	<ProximitySingleGoodwillChange>{0} с фракцией {1}</ProximitySingleGoodwillChange>
+	<EnterCooldown>Вы не сможете вновь посетить это место ещё {0} дней.</EnterCooldown>
+	<Caravan>Караван</Caravan>
+
 	<!-- Fermentation barrel -->
 	<ContainsWort>Содержит {0} / {1} сусла.</ContainsWort>
 	<ContainsBeer>Содержит {0} / {1} пива.</ContainsBeer>
@@ -176,7 +190,7 @@
 	<TextMote_TrainFail>Не удалось обучить: {0}\n{1} шанс</TextMote_TrainFail>
 	<TextMote_TrainSuccess>Обучил: {0}\n{1} шанс</TextMote_TrainSuccess>
 	<TextMote_FixBrokenDownBuildingFail>Не получилось\nпочинить</TextMote_FixBrokenDownBuildingFail>
-	<TextMote_ConstructionFail>Строительство\nнеудачно</TextMote_ConstructionFail>
+	<TextMote_ConstructionFail>Не получилось\nпостроить</TextMote_ConstructionFail>
 	<TextMote_Dodge>Уклонение</TextMote_Dodge>
 	<TextMote_Tended>{0} вылечено</TextMote_Tended>
 
@@ -208,6 +222,8 @@
 	<GunInstalled>Установлено</GunInstalled>
 	<MinimumRange>Минимальная дальность</MinimumRange>
 	<CanFireIn>Перезарядка через</CanFireIn>
+	<CannotFire>Выстрел невозможен</CannotFire>
+	<Roofed>под крышей</Roofed>
 	<ShellLoaded>В стволе: {0}</ShellLoaded>
 	<ShellNotLoaded>Не заряжен</ShellNotLoaded>
 
@@ -225,7 +241,7 @@
 	<WatchingAurora>любуется полярным сиянием.</WatchingAurora>
 	<UsingVerb>собирается {0} в {1}.</UsingVerb>
 	<AreaLower>область</AreaLower>
-	<ReportCowering>ищет укрытие.</ReportCowering>
+	<ReportCowering>прячется.</ReportCowering>
 	<ReportStanding>стоит.</ReportStanding>
 	<ReportExtinguishingFire>тушит пожар.</ReportExtinguishingFire>
 	<ReportExtinguishingFireOn>сбивает огонь с {0}.</ReportExtinguishingFireOn>
@@ -241,7 +257,7 @@
 	<ShootReportShooterAbility>Стрелок</ShootReportShooterAbility>
 	<ShootReportWeapon>Оружие</ShootReportWeapon>
 	<Darkness>Темнота</Darkness>
-	<TargetProne>Цель ложится</TargetProne>
+	<TargetProne>Цель лежит</TargetProne>
 	<TargetSize>Размер цели</TargetSize>
 	<Weather>Погода</Weather>
 	<ShootingCover>Укрытие</ShootingCover>
@@ -281,13 +297,15 @@
 	<Carrying>Переносит</Carrying>
 	<AffectedBy>Влияющие факторы:</AffectedBy>
 	<Queued>В очереди</Queued>
+	<State>Состояние</State>
+	<StunLower>оглушение</StunLower>
 
 	<!-- Inspector general stuff -->
 	<SelectNextInSquareTip>Выбрать другой предмет на той же клетке.\n\nКлавиша: {0}\n\nТо же самое можно сделать, щёлкнув по этой клетке ещё раз.</SelectNextInSquareTip>
 	<DefInfoTip>Просмотр информации о данном объекте.</DefInfoTip>
 
 	<!-- Hostility response -->
-	<HostilityReponseTip>Выберите, как поселенцам реагировать на врагов, когда они не находятся в боевом режиме.</HostilityReponseTip>
+	<HostilityReponseTip>Выберите, как этому человеку следует реагировать на врагов, находясь не в режиме призыва.</HostilityReponseTip>
 	<HostilityResponseCurrentMode>Текущий режим</HostilityResponseCurrentMode>
 
 	<!-- like 'Blood of John' -->
@@ -321,6 +339,7 @@
 	<!-- Shooting tooltip -->
 	<ShotBy>Выстрел {0}</ShotBy>
 	<CannotHit> Не может попасть в цель.</CannotHit> <!-- необходим лидирующий пробел для читаемости -->
+	<ManhunterPerHit>Шанс ответного нападения</ManhunterPerHit>
 
 	<!-- Rotting -->
 	<CurrentlyFrozen>Замороженное (не испортится)</CurrentlyFrozen>
@@ -374,6 +393,7 @@
 	<ShowRoomStatsToggleButton>Отображение параметров комнаты.\n\nПоказывает параметры комнаты, на которую указывает курсор.</ShowRoomStatsToggleButton>
 	<ShowColonistBarToggleButton>Отображение панели поселенцев.\n\nОтображает в верхней части экрана иконки и состояние всех поселенцев.</ShowColonistBarToggleButton>
 	<AutoHomeAreaToggleButton>Переключение автоматического добавления домашней области для новых построек.</AutoHomeAreaToggleButton>
+	<AutoRebuildButton>Строить заново разрушенные объекты.</AutoRebuildButton>
 	<CategorizedResourceReadoutToggleButton>Отображать количество ресурсов на складах полностью или по категориям.</CategorizedResourceReadoutToggleButton>
 	<ShowAnimalNamesToggleButton>Отображение имён приручённых животных.</ShowAnimalNamesToggleButton>
 	<ShowRoofOverlayToggleButton>Отображение крыш.</ShowRoofOverlayToggleButton>
@@ -399,13 +419,14 @@
 	<!-- Building placement restricters -->
 	<WillGetWorkSpeedPenalty>{0} получит штраф к скорости работы</WillGetWorkSpeedPenalty>
 	<MustPlaceUnroofed>Не может быть размещено под крышей.</MustPlaceUnroofed>
-	<MustPlaceHeadOnShipBeam>Должно быть размещено изголовьем вплотную к центральной балке корабля.</MustPlaceHeadOnShipBeam>
-	<MustPlaceNextToHopperAccepter>Должен быть размещён только рядом с устройством, которому нужна загрузочная воронка.</MustPlaceNextToHopperAccepter>
-	<MustPlaceOnSteamGeyser>Должен быть размещён непосредственно на паровом гейзере.</MustPlaceOnSteamGeyser>
-	<MustPlaceCoolerWithFreeSpaces>И горячая и холодная стороны кондиционера должны быть открыты.</MustPlaceCoolerWithFreeSpaces>
-	<MustPlaceVentWithFreeSpaces>Обе стороны должны быть свободны, для циркуляции воздуха.</MustPlaceVentWithFreeSpaces>
-	<MustPlaceAdjacentStandable>Должно быть установлено в свободное со всех сторон пространство.</MustPlaceAdjacentStandable>
-	<MustPlaceNearFuelingPort>Должно быть установлено рядом с заправочной системой.</MustPlaceNearFuelingPort>
+	<MustPlaceHeadOnShipBeam>Изголовьем следует размещать вплотную к центральной балке корабля.</MustPlaceHeadOnShipBeam>
+	<MustPlaceNextToHopperAccepter>Загрузочную воронку следует размещать только рядом с устройством, которому она нужна для работы.</MustPlaceNextToHopperAccepter>
+	<MustPlaceOnSteamGeyser>Этот объект следует размещать непосредственно на паровом гейзере.</MustPlaceOnSteamGeyser>
+	<MustPlaceCoolerWithFreeSpaces>И горячая, и холодная стороны кондиционера должны быть открыты.</MustPlaceCoolerWithFreeSpaces>
+	<MustPlaceVentWithFreeSpaces>Обе стороны должны быть свободны для циркуляции воздуха.</MustPlaceVentWithFreeSpaces>
+	<MustPlaceAdjacentStandable>Этот объект следует устанавливать в свободное со всех сторон пространство.</MustPlaceAdjacentStandable>
+	<MustPlaceNearFuelingPort>Этот объект следует размещать рядом с заправочной системой.</MustPlaceNearFuelingPort>
+	<MustPlaceOnDrillable>Этот объект следует размещать над подземным месторождением.</MustPlaceOnDrillable>
 
 	<!-- Wind Turbine -->
 	<WindTurbine_WindPathIsBlockedBy>Заблокировано</WindTurbine_WindPathIsBlockedBy>
@@ -420,12 +441,13 @@
 	<ShipReportCanLaunch>Готов к запуску.</ShipReportCanLaunch>
 	<ShipReportMissingPart>Нет критически важных модулей</ShipReportMissingPart>
 	<ShipReportMissingPartRequires>требуется</ShipReportMissingPartRequires>
-	<ShipReportNoFullPods>Нет заполненных контейнеров криптосна.</ShipReportNoFullPods>
+	<ShipReportNoFullPods>Нет заполненных контейнеров криптосна</ShipReportNoFullPods>
 	<ShipReportHibernating>Модуль неактивен</ShipReportHibernating>
 	<ShipReportNotReady>Модуль не готов</ShipReportNotReady>
 	<HibernateWarning>Шарлон Вайтстоун готов приступить к запуску реактора.\n\nОн предупреждает, что процесс займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание разного рода налётчиков и охотников за сокровищами. Убедитесь, что готовы к обороне.</HibernateWarning>
-	<HibernateCompleteLabel>Реактор готов к работе</HibernateCompleteLabel>
-	<HibernateComplete>Шарлон Вайтстоун завершил процедуру запуска реактора. Теперь он сможет обеспечить взлёт корабля.</HibernateComplete>
+	<HibernateWarningStandalone>Реактор готов к процедуре запуска.\n\nЭтот процесс займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание разного рода налётчиков и охотников за сокровищами. Убедитесь, что готовы к обороне.</HibernateWarningStandalone>
+	<HibernateWarningPacifist>Шарлон Вайтстоун готов приступить к запуску реактора. Он предупреждает, что процесс займёт около 15 дней.</HibernateWarningPacifist>
+	<HibernateWarningStandalonePacifist>Реактор готов к процедуре запуска. Этот процесс займёт около 15 дней.</HibernateWarningStandalonePacifist>
 
 	<!-- Neurotrainer -->
 	<NeurotrainerUsed>{0} совершенствует навык {1} с уровня {2} до уровня {3}, использовав нейротренер.</NeurotrainerUsed>
@@ -507,7 +529,10 @@
 	<!-- Deep drill -->
 	<ProgressToNextLump>Прогресс до следующей залежи</ProgressToNextLump> <!-- Kappa Пока не уверен насчёт lump. Надо понять, какая механика в игре. -->
 	<ResourceBelow>Ресурс внизу</ResourceBelow>
-
+	<DeepDrillNoResources>Месторождение выработано.</DeepDrillNoResources>
+	<DeepDrillExhausted>Глубинное месторождение выработано. Буровая установка была автоматически отмечена как запрещённая для использования. В это месте теперь можно добыть только {0}. Если вы планируете продолжить добычу, разрешите использование установки.</DeepDrillExhausted>
+	<DeepDrillExhaustedNoFallback>Ресурсы полностью истощены.</DeepDrillExhaustedNoFallback>
+	
 	<!-- Learning helper -->
 	<LearningHelper>Обучение</LearningHelper>
 	<MarkLearned>Понятно</MarkLearned>
@@ -541,5 +566,9 @@
 	<!-- Hibernatable -->
 	<HibernatableHibernating>Не активен</HibernatableHibernating>
 	<HibernatableStartingUp>Запускается</HibernatableStartingUp>
+
+	<!-- Transport pods -->
+	<ClickToSeeAvailableOrders_WorldObject>{0}: Узнать о возможных действиях...</ClickToSeeAvailableOrders_WorldObject>
+	<ClickToSeeAvailableOrders_Empty>Узнать о возможных действиях...</ClickToSeeAvailableOrders_Empty>
 
 </LanguageData>

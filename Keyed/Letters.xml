@@ -6,15 +6,18 @@
 	<RejectLetter>Отклонить</RejectLetter>
 
 	<LetterLabelFirstSummerWarning>Лето</LetterLabelFirstSummerWarning>
-	<FirstSummerWarning>Началось лето! Но зима всё ближе.\n\nИмейте в виду, что ваши посевы не будут расти в зимние холода, а потому убедитесь, что ваших запасов еды хватит на несколько месяцев, пока вы ещё можете это исправить.\n\nНе забудьте построить помещение с охлаждением, чтобы ваша еда не испортилась.\n\nИ постарайтесь купить, украсть или сделать несколько пуховиков, иначе с наступлением зимы вы замёрзнете, едва высунувшись наружу.</FirstSummerWarning>
+	<FirstSummerWarning>Началось лето! Но зима всё ближе.\n\nИмейте в виду: ваши посевы не будут расти в холод, а потому убедитесь, что запасов продовольствия хватит на всю зиму. Чтобы еда не портилась, можно построить для неё помещение с охлаждением.\n\nИ постарайтесь купить, украсть или сделать несколько пуховиков, иначе с наступлением зимы вы замёрзнете, едва высунувшись наружу.</FirstSummerWarning>
 
-	<RelationsBrokenDown>Отношения с фракцией {0} прекращены. Теперь они враждебны по отношению к вам.</RelationsBrokenDown>
-	<RelationsWarmed>Отношения с фракцией {0} улучшились. Они более не враждебны по отношению к вам.</RelationsWarmed>
+	<LetterRelationsChange_Hostile>Отношения с фракцией {0} прекращены. Теперь они враждебны по отношению к вам.\n\nОни не будут торговать с вами. Более того, периодически они будут нападать на ваши поселения и караваны. Если вы желаете улучшить их отношения, то всё ещё можно отправить им подарок с караваном или транспортной капсулой.\n\nЭто произошло, поскольку ваша репутация ({1}) в их глазах упала ниже {2}. Для улучшения отношений нужно вновь заслужить репутацию {3}.</LetterRelationsChange_Hostile>
 
-	<RelationsBrokenCapture>Поскольку вы взяли в плен {0}, теперь фракция {1} — ваши враги.</RelationsBrokenCapture>
+	<LetterRelationsChange_NeutralFromHostile>Отношения с фракцией {0} улучшились. Они более не враждебны по отношению к вам.\n\nЭто произошло, поскольку ваша репутация ({1}) выросла выше {2} единиц. Если она упадёт ниже {3}, {0} снова станут вашими врагами. Если вы заслужите репутации {4} и выше, они станут вашими союзниками и будут сражаться на вашей стороне.</LetterRelationsChange_NeutralFromHostile>
 
-	<ColonyGoodwill>Репутация поселения</ColonyGoodwill>
-	<Neutral>Нейтрально</Neutral>
+	<LetterRelationsChange_NeutralFromAlly>Отношения с фракцией {0} охладели. Теперь они относятся к вам нейтрально.\n\nОни не будут нападать на вас, но и не пришлют подмогу в случае опасности.\n\nЭто произошло, поскольку ваша репутация ({1}) в их глазах опустилась ниже {2}. Если она упадёт до {3}, {0} станут враждебны к вам. Если вы сумеете заслужить репутацию выше {4}, они снова станут вашими союзниками.</LetterRelationsChange_NeutralFromAlly>
+
+	<LetterRelationsChange_Ally>Отношения с фракцией {0} стали очень тёплыми. Теперь они считают вас своими союзниками.\n\nЕсли на вас нападут враги, то они иногда будут присылать вам подмогу. Вы и сами можете их вызвать, но в ущерб репутации.\n\nВы стали союзниками, поскольку вы смогли заслужить репутацию выше {2}. Сейчас она равняется {1}. Если репутация опустится ниже {3}, отношения снова станут нейтральными.</LetterRelationsChange_Ally>
+
+	<goodwill>репутация</goodwill>
+	<Neutral>Нейтралы</Neutral>
 	<Death>Смерть</Death>
 
 	<ShortCircuitRain>Из-за дождя {0} получает короткое замыкание, и начинается пожар.</ShortCircuitRain>
@@ -32,8 +35,6 @@
 	<RecruitFail>У {0} не получается завербовать {1} (вероятность успеха — {2}).</RecruitFail>
 
 	<RelatedPawnInvolvedInQuest>[PAWN_nameDef] — {1} {0}. Если [PAWN_nameDef] умрёт, {0} будет долго пребывать в боли и скорби. Однако если [PAWN_nameDef] получится спасти, это надолго осчастливит [PAWN_possessive].</RelatedPawnInvolvedInQuest>
-	<DownedRefugee_CryingForHelp>Вы слышите, как {0} зовёт на помощь.</DownedRefugee_CryingForHelp>
-	<DownedRefugee_Radio>{0} связывается с вами по радио и умоляет о помощи.</DownedRefugee_Radio>
 
 	<LetterLabelBirthday>День рождения</LetterLabelBirthday>
 	<BirthdayChronological>У {0} сегодня хронологический день рождения! Биологический возраст {0} — {3}.\n\nХронологический возраст — {2}.\n\nЗаметьте, что из-за того, что люди не стареют в состоянии криптосна, хронологический возраст отличен от биологического.</BirthdayChronological>
@@ -42,6 +43,8 @@
 	<LetterLabelNewDisease>Инфекция</LetterLabelNewDisease>
 	<NewDisease>У {0} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {2} нуждается в надлежащем лечении и постельном режиме.</NewDisease>
 	<NewPartDisease>У {0} {3}. Место обнаружения инфекции — [PAWN_possessive] {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {2} нуждается в надлежащем лечении и постельном режиме.</NewPartDisease>
+	<NewDiseaseAnimal>У {0} {1}.</NewDiseaseAnimal>
+	<NewPartDiseaseAnimal>У {0} {3}. Место обнаружения инфекции — [PAWN_possessive] {1}</NewPartDiseaseAnimal>
 
 	<PawnWasFormerlyColonist>{0} — ваш бывший поселенец.</PawnWasFormerlyColonist>
 	<PawnHasTheseRelationshipsWithColonists>У {0} следующие отношения с вашими поселенцами:</PawnHasTheseRelationshipsWithColonists>
@@ -61,10 +64,10 @@
 	<LetterFriendlyTrapSprung>{0} получает повреждение, случайно попав в ловушку.</LetterFriendlyTrapSprung>
 
 	<LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
-	<LetterHealthComplications>У {0} развился {1}.\n\nПричина этому — {2}.</LetterHealthComplications>
+	<LetterHealthComplications>У {0} развивается {1}.\n\nПричиной этому:\n\n  {2}</LetterHealthComplications>
 
 	<LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
-	<LetterHediffFromRandomHediffGiver>У {0} развился {1}.</LetterHediffFromRandomHediffGiver>
+	<LetterHediffFromRandomHediffGiver>У {0} развивается {1}.</LetterHediffFromRandomHediffGiver>
 
 	<LetterLeadersDeathLabel>{1} фракции {0} умер</LetterLeadersDeathLabel>
 	<LetterLeadersDeath>Умер {3} фракции {1}, {0}.\n\nОтныне у них новый {3}, {2}.</LetterLeadersDeath>
@@ -74,6 +77,7 @@
 
 	<MentalBreakLetterLabel>Нервный срыв</MentalBreakLetterLabel>
 	<FinalStraw>Последней каплей было: {0}.</FinalStraw>
+	<LastFactionRelationsEvent>Последним событием было</LastFactionRelationsEvent>
 
 	<ReadMore>Узнать больше</ReadMore>
 	<LastEventsInLife>Последние события в жизни {0}:</LastEventsInLife>
@@ -104,25 +108,25 @@
 	<LetterLabelBreakup>Разрыв</LetterLabelBreakup>
 	<LetterLabelAcceptedProposal>Скоро свадьба!</LetterLabelAcceptedProposal>
 	<LetterLabelRejectedProposal>Предложение отклонено</LetterLabelRejectedProposal>
-	<LetterAcceptedProposal>{1} принимает предложение {0}!\n\nСкоро, в течение нескольких дней или кварталов, они сыграют свадьбу и пригласят на неё всех поселенцев. При желании вы можете назначить специальное место для проведения свадебных церемоний.</LetterAcceptedProposal>
-	<LetterRejectedProposal>{1} отклоняет предложение {0} о свадьбе. {0} точно не обрадуется.</LetterRejectedProposal>
+	<LetterAcceptedProposal>Через нескольких дней или кварталов они сыграют свадьбу и пригласят на неё всех поселенцев. При желании вы можете назначить специальное место для проведения свадебных церемоний.</LetterAcceptedProposal>
+	<LetterRejectedProposal>{0} точно не обрадуется этому.</LetterRejectedProposal>
 
 	<!-- Generalized letter labels -->
-	<LetterLabelRelationsChangeGood>Расположение</LetterLabelRelationsChangeGood>
-	<LetterLabelRelationsChangeBad>Недоброжелательность</LetterLabelRelationsChangeBad>
+	<LetterLabelRelationsChange_Hostile>Враги: {0}</LetterLabelRelationsChange_Hostile>
+	<LetterLabelRelationsChange_Ally>Союзники: {0}</LetterLabelRelationsChange_Ally>
+	<LetterLabelRelationsChange_NeutralFromHostile>Враги стали нейтральны: {0}</LetterLabelRelationsChange_NeutralFromHostile>
+	<LetterLabelRelationsChange_NeutralFromAlly>Союзники стали нейтральны: {0}</LetterLabelRelationsChange_NeutralFromAlly>
 	<LetterLabelShortCircuit>Бзззт...</LetterLabelShortCircuit>
 	<LetterLabelMentalBreakdown>Нервный срыв</LetterLabelMentalBreakdown>
 
 	<!-- Bonded animals -->
-	<LetterLabelBondedAnimalDied>Смерть питомца</LetterLabelBondedAnimalDied>
-	<LetterBondedAnimalDied>Питомец {1}, {0}, умирает. {1} расстроится из-за этого.</LetterBondedAnimalDied>
-	<LetterNamedBondedAnimalDied>Питомец {2}, {0} по имени {1}, умирает. {2} расстроится из-за этого.</LetterNamedBondedAnimalDied>
-	<LetterBondedAnimalDiedMulti>{0} умирает. Это повлияет на настроение следующих людей:\n\n{1}</LetterBondedAnimalDiedMulti>
-	<LetterNamedBondedAnimalDiedMulti>{0} по имени {1} умирает. Это повлияет на настроение следующих людей:\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+	<LetterLabelSuffixBondedAnimalDied>питомца</LetterLabelSuffixBondedAnimalDied>
+	<LetterPartBondedAnimalDied>Питомец {1}, {0}, умирает. {1} расстроится из-за этого.</LetterPartBondedAnimalDied>
+	<LetterPartBondedAnimalDiedMulti>Это повлияет на настроение следующих людей:\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
 	<!-- Prison break -->
 	<LetterLabelPrisonBreak>Побег</LetterLabelPrisonBreak>
-	<LetterPrisonBreak>Заключённые организовали побег! Каким-то образом они сломали замок и выбрались наружу. Они могут начать искать оружие, затеять драку или попытаться убежать. Беглецы:\n\n{0}\n\nЗаключённые вероятнее всего будут пытаться устроить побег, если они несчастны, здоровы и когда их много.</LetterPrisonBreak>
+	<LetterPrisonBreak>Заключённые организовали побег! Каким-то образом они сломали замок и выбрались наружу. Они могут начать искать оружие, затеять драку или попытаться убежать. Беглецы:\n\n{0}\n\nЗаключённые вероятнее всего будут пытаться устроить побег, если они здоровы и когда их много.</LetterPrisonBreak>
 
 	<!-- Party -->
 	<LetterLabelNewParty>Вечеринка</LetterLabelNewParty>
@@ -136,14 +140,9 @@
 	<LetterLabelDrugBinge>Злоупотребление ({0})</LetterLabelDrugBinge>
 	<LetterDrugBinge>{0} злоупотребляет наркотиком: {1}.</LetterDrugBinge>
 
-	<!-- Formed caravan -->
-	<LetterLabelFormedCaravan>Караван готов</LetterLabelFormedCaravan>
-	<LetterFormedCaravan>Караван сформирован и начинает своё путешествие.</LetterFormedCaravan>
-	<LetterFormedCaravan_InitialOrders>Изначальные указания: {0}.</LetterFormedCaravan_InitialOrders>
-
 	<!-- Caravan destroyed -->
 	<LetterLabelAllCaravanColonistsDied>Караван уничтожен</LetterLabelAllCaravanColonistsDied>
-	<LetterAllCaravanColonistsDied>Все члены каравана мертвы.</LetterAllCaravanColonistsDied>
+	<LetterAllCaravanColonistsDied>{0} уничтожен. Все его участники мертвы.</LetterAllCaravanColonistsDied>
 
 	<!-- Caravan entered ambush map -->
 	<LetterLabelCaravanEnteredAmbushMap>Караван попал в засаду</LetterLabelCaravanEnteredAmbushMap>
@@ -152,28 +151,23 @@
 	<!-- Caravan entered enemy base -->
 	<LetterLabelCaravanEnteredEnemyBase>Атака началась</LetterLabelCaravanEnteredEnemyBase>
 	<LetterCaravanEnteredEnemyBase>{0} прибыл в {1} и готов к атаке.</LetterCaravanEnteredEnemyBase>
-	<LetterCaravanEnteredEnemyBaseBecameHostile>{0} прибыл в {1} и готов к атаке.\n\nЭтот шаг был расценен как агрессивный и привёл к тому, что вся фракция {2} теперь враждебна по отношению к вам.</LetterCaravanEnteredEnemyBaseBecameHostile>
+
+	<!-- Transport pods landed in enemy base -->
+	<LetterLabelTransportPodsLandedInEnemyBase>Атака началась</LetterLabelTransportPodsLandedInEnemyBase>
+	<LetterTransportPodsLandedInEnemyBase>Ваши транспортные капсулы прибыли в {0}.</LetterTransportPodsLandedInEnemyBase>
 
 	<!-- Faction base defeated -->
 	<LetterLabelFactionBaseDefeated>Поселение разбито</LetterLabelFactionBaseDefeated>
-	<LetterFactionBaseDefeated>{0}, поселение противника, разгромлено.\n\nУ вас есть {1} ч, чтобы собрать ресурсы, после чего караван продолжит путь.</LetterFactionBaseDefeated>
-	<LetterFactionBaseDefeated_FactionDestroyed>Это поселение было последней базой фракции {0}. Фракция прекратила своё существование.</LetterFactionBaseDefeated_FactionDestroyed>
-
-	<!-- Pawns lost due to map countdown -->
-	<LetterLabelPawnsLostDueToMapCountdown>Про кого-то забыли</LetterLabelPawnsLostDueToMapCountdown>
-	<LetterPawnsLostDueToMapCountdown>Кто-то из ваших животных или заключённых остался в этой глуши:\n\n{0}</LetterPawnsLostDueToMapCountdown>
+	<LetterFactionBaseDefeated>{0}, поселение противника, разгромлено.\n\nУ вас есть {1} ч, чтобы собрать ресурсы, после чего караван продолжит путь. Вы можете сделать это прямо сейчас, перейдя на карту мира, выбрав разбитое поселение и нажав кнопку «Продолжить путь».</LetterFactionBaseDefeated>
+	<LetterFactionBaseDefeated_FactionDestroyed>Это поселение было последней базой фракции {0}. Фракция прекращает своё существование.</LetterFactionBaseDefeated_FactionDestroyed>
 
 	<!-- Quest completed -->
 	<LetterLabelDefeatAllEnemiesQuestCompleted>Задание выполнено</LetterLabelDefeatAllEnemiesQuestCompleted>
-	<LetterDefeatAllEnemiesQuestCompleted>Поселение противника разгромлено!\n\nВы получили награду от фракции {0}. Отношения с ними улучшились на {1}.</LetterDefeatAllEnemiesQuestCompleted>
+	<LetterDefeatAllEnemiesQuestCompleted>Лагерь противника разгромлен!\n\nВы получаете награду от фракции {0}, а отношения с ними улучшаются на {1}.</LetterDefeatAllEnemiesQuestCompleted>
 
 	<!-- Found lump of precious resources -->
 	<LetterLabelFoundPreciousLump>Найдены драгоценные минералы</LetterLabelFoundPreciousLump>
 	<LetterFoundPreciousLump>Ваши сканеры дальнего действия обнаружили высокую концентрацию ценных минералов в области неподалёку.\n\nК сожалению, невозможно определить, кто или что может их охранять.</LetterFoundPreciousLump>
-
-	<!-- Sleeping mechanoids -->
-	<LetterLabelSleepingMechanoids>«Спящие» механоиды</LetterLabelSleepingMechanoids>
-	<LetterSleepingMechanoids>Несколько враждебно настроенных механоидов «спят» неподалёку.\n\nЕсли вы подойдёте к ним близко, они могут проснуться. Будьте начеку.</LetterSleepingMechanoids>
 
 	<!-- Ambush -->
 	<LetterLabelAmbushInExistingMap>Засада</LetterLabelAmbushInExistingMap>
@@ -193,15 +187,44 @@
 	<PeaceTalksSocialXPGain>{0}, ваш переговорщик, повысил свой социальный опыт на {1}.</PeaceTalksSocialXPGain>
 
 	<!-- Run wild mental break -->
-	<LetterRunWildMentalBreak>{0} решает покинуть вашу фракцию и уйти жить на природу.</LetterRunWildMentalBreak>
+	<LetterRunWildMentalBreak>{0} заявляет, что с н[PAWN_possessive] хватит жизни среди цивилизации. [PAWN_pronoun] хочет свободы!\n\n{0} решает покинуть вашу фракцию и уйти жить среди диких зверей на лоне природы.\n\nВы можете попытаться [PAWN_possessive] приручить и вернуть к нормальной жизни.</LetterRunWildMentalBreak>
 
 	<!-- Catatonic mental break -->
-	<LetterCatatonicMentalBreak>{0} впадает в ступор. Это может продлиться до нескольких дней.</LetterCatatonicMentalBreak>
+	<LetterCatatonicMentalBreak>{0} получает сильный нервный срыв и впадает в ступор. [PAWN_pronoun] придёт в себя лишь через несколько дней.</LetterCatatonicMentalBreak>
 
 	<LetterLabelAICoreOffer>Координаты ядра ИИ</LetterLabelAICoreOffer>
 	<LetterAICoreOffer>{0} фракции {1} связывается с вами и сообщает, что им известно местоположение ядра ИИ, которое вам потребуется для строительства корабля. Этот предмет — большая редкость, и его обладатели обычно держат его под надёжной охраной.\n\nЕсли вас интересует эта информация, свяжитесь с фракцией {1} через консоль.</LetterAICoreOffer>
 
-	<LetterCraftedLegendaryLabel>Легендарное творение</LetterCraftedLegendaryLabel>
+	<LetterCraftedLegendaryLabel>Легендарное Творение</LetterCraftedLegendaryLabel>
 	<LetterCraftedLegendaryMessage>Ваш поселенец, {0}, создал {1} легендарного качества.\n\nВесть об артефакте такой ценности скоро охватит весь мир.</LetterCraftedLegendaryMessage>
 
+	<!-- Pawns lost because map closed -->
+	<LetterLabelPawnsLostBecauseMapClosed_Caravan>Караван потерян</LetterLabelPawnsLostBecauseMapClosed_Caravan>
+	<LetterPawnsLostBecauseMapClosed_Caravan>Ваш караван потерян. Эти люди и животные потеряны вместе с ним</LetterPawnsLostBecauseMapClosed_Caravan>
+	<LetterLabelPawnsLostBecauseMapClosed_Home>Поселенцы брошены</LetterLabelPawnsLostBecauseMapClosed_Home>
+	<LetterPawnsLostBecauseMapClosed_Home>Эти люди и животные оставлены на произвол судьбы</LetterPawnsLostBecauseMapClosed_Home>
+
+	<!-- Hibernate complete -->
+	<LetterLabelHibernateComplete>Реактор запущен</LetterLabelHibernateComplete>
+	<LetterHibernateComplete>Шарлон Вайтстоун завершил процедуру запуска реактора. Теперь он сможет обеспечить взлёт корабля.</LetterHibernateComplete>
+	<LetterHibernateCompleteStandalone>Процедура запуска реактора завершена. Теперь он сможет обеспечить взлёт корабля.</LetterHibernateCompleteStandalone>
+
+	<!-- Visitors gave gift -->
+	<LetterLabelVisitorsGaveGift>Подарок</LetterLabelVisitorsGaveGift>
+	<LetterVisitorsGaveGift>Мы увидели, как нелегко вам сейчас приходится, и решили оставить небольшой подарок.</LetterVisitorsGaveGift>
+
+	<!-- Faction base proximity -->
+	<LetterLabelFactionBaseProximity>Близость к чужому поселению</LetterLabelFactionBaseProximity>
+	<LetterFactionBaseProximity>Вы находитесь слишком близко к поселениям других фракций. Они считают это посягательством на свою территорию.\n\nИз-за этого за последний квартал у вас ухудшились отношения:</LetterFactionBaseProximity>
+
+	<!-- Caravans battlefield victory -->
+	<LetterLabelCaravansBattlefieldVictory>Победа!</LetterLabelCaravansBattlefieldVictory>
+	<LetterCaravansBattlefieldVictory>Ваш караван одержал победу.\n\nЧерез {0} он самостоятельно продолжит путь. Вы можете отправить караван прямо сейчас, перейдя на карту мира, выбрав место боя и нажав кнопку «Продолжить путь».</LetterCaravansBattlefieldVictory>
+
+	<LetterLabelRescueQuestFinished>Спасённый присоединяется</LetterLabelRescueQuestFinished>
+	<LetterRescueQuestFinished>Вы спасли [PAWN_nameDef], и [PAWN_pronoun] решает присоединиться к вашей группе.\n\nЧтобы взять [PAWN_possessive] с собой, перейдите на карту мира, выделите ваше текущее местоположение и нажмите кнопку «Продолжить путь».</LetterRescueQuestFinished>
+
+	<!-- Player entered site (generic label) -->
+	<LetterLabelPlayerEnteredNewSiteGeneric>Караван прибыл</LetterLabelPlayerEnteredNewSiteGeneric>
+	
 </LanguageData>

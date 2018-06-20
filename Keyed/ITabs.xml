@@ -19,7 +19,7 @@
 	<TabRecords>Статистика</TabRecords>
 	<TabArt>Искусство</TabArt>
 	<TabSocial>Социум</TabSocial>
-	<TabCombat>Бой</TabCombat>
+	<TabLog>Журнал</TabLog>
 	<TabFormingCaravan>Караван</TabFormingCaravan>
 
 
@@ -30,6 +30,14 @@
 	<SuspendedCaps>ПАУЗА</SuspendedCaps>
 	<BoundWorkerIs>Назначен(а) {0}</BoundWorkerIs>
 	<PlantVerb>Посадить</PlantVerb>
+	<ClipboardBillNotAvailableHere>Невозможно вставить сюда.</ClipboardBillNotAvailableHere>
+	<ReorderBillUpTip>Выше</ReorderBillUpTip>
+	<ReorderBillDownTip>Ниже</ReorderBillDownTip>
+	<DeleteBillTip>Удалить</DeleteBillTip>
+	<CopyBillTip>Скопировать в буфер</CopyBillTip>
+	<SuspendBillTip>Приостановить</SuspendBillTip>
+	<PasteBillTip>Вставить</PasteBillTip>
+	<PasteBillTip_LimitReached>добавление невозможно</PasteBillTip_LimitReached>
 
 
 	<!-- Guest/prisoner tab -->
@@ -65,9 +73,9 @@
 	<MedicalOperationsShort>Операции ({0})</MedicalOperationsShort>
 	<MedicalOperationsMechanoidsShort>Модификации ({0})</MedicalOperationsMechanoidsShort>
 	<MedicalOperations>Медицинские операции</MedicalOperations>
-	<Amputate>Ампутировать</Amputate>
-	<Harvest>Извлечь</Harvest>
-	<RemoveOrgan>Удалить</RemoveOrgan>
+	<Amputate>ампутировать</Amputate>
+	<HarvestOrgan>извлечь орган</HarvestOrgan>
+	<RemoveOrgan>удалить</RemoveOrgan>
 	<MemoryLower>память</MemoryLower>
 	<SocialInteractionsLower>социальные взаимодействия</SocialInteractionsLower>
 	<HungerRate>Голод</HungerRate>
@@ -96,7 +104,7 @@
 
 	<!-- Training tab-->
 	<Trainability>Способность к обучению</Trainability>
-	<CannotTrainNotSmartEnough>Требуется способность к обучению: "{0}".</CannotTrainNotSmartEnough>
+	<CannotTrainNotSmartEnough>Требуется способность к обучению: {0}.</CannotTrainNotSmartEnough>
 	<CannotTrainTooSmall>{0} — не подходящего возраста, чтобы обучаться этому.</CannotTrainTooSmall>
 
 	<TrainingNeedsPrerequisite>Требуется: {0}</TrainingNeedsPrerequisite>
@@ -113,17 +121,20 @@
 	<IAmPsychopath>Я психопат</IAmPsychopath>
 
 	<!-- Gear tab -->
-	<OverallArmor>Средняя защищённость</OverallArmor> <!-- Kappa Проверить в игре. -->
+	<OverallArmor>Общая защищённость</OverallArmor>
 	<MassCarried>Переносит вес: {0}/{1} кг</MassCarried>
 	<ComfyTemperatureRange>Диапазон комфортной температуры</ComfyTemperatureRange>
 	<ArmorBlunt>Дробящее</ArmorBlunt>
 	<ArmorSharp>Проникающее</ArmorSharp>
 	<ArmorHeat>Тепловое</ArmorHeat>
 
-	<!-- Combat tab -->
+	<!-- Log tab -->
 	<ShowAll>Показать всё</ShowAll>
-	<NoRecentCombat>ещё не было боя</NoRecentCombat>
-
+	<ShowCombat>Показать бой</ShowCombat>
+	<ShowSocial>Показать общение</ShowSocial>
+	<NoRecentEntries>нет подходящих событий</NoRecentEntries>
+	<CopyLogTip>Копировать журнал в буфер обмена.</CopyLogTip>	
+	
 	<!-- Forming caravan tab -->
 	<FormingCaravanStatus_GatheringAnimals>Сбор животных</FormingCaravanStatus_GatheringAnimals>
 	<FormingCaravanStatus_GatheringAnimals_Pause>Сбор животных (ожидание)</FormingCaravanStatus_GatheringAnimals_Pause>

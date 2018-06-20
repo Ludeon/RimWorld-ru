@@ -27,7 +27,7 @@
 
 	<!-- Unloaded mod with an assembly -->
 	<ModsChanged>Список модов изменился. Игра перезапустится автоматически.</ModsChanged>
-	<FailedToRestart>Во время перезапуска игры что-то пошло не так. Игра не может полностью выгрузить модифицированный код от деактивированных модов, поэтому их код может продолжить работать.\n\nРекомендуется выйти и перезапустить игру, чтобы произошла чистая загрузка модов.</FailedToRestart>
+	<FailedToRestart>Во время перезапуска игры что-то пошло не так. Игра не может полностью выгрузить модифицированный код от деактивированных модов, поэтому их код может продолжить работать.\n\nРекомендуется выйти и перезапустить игру, чтобы произошла «чистая» загрузка модов.</FailedToRestart>
 	<Restarting>Игра перезапускается</Restarting>
 
 	<!-- Missing Steam -->
@@ -63,7 +63,7 @@
 	<SaveIsUnknownFormat>Данные сохранены в неизвестном формате и скорее всего не загрузятся корректно.</SaveIsUnknownFormat>
 	<ProblemSavingFile>Возникла проблема с сохранением файла {0}:\n\n{1}\n\nДля получения подробной информации посмотрите журнал.</ProblemSavingFile>
 	<LoadAnyway>Загрузить в любом случае</LoadAnyway>
-	<ChangeLoadedMods>Загрузить список модов</ChangeLoadedMods>
+	<ChangeLoadedMods>Загрузить список модов из сохранения</ChangeLoadedMods>
 	<MissingMods>Некоторые моды недоступны и требуют установки</MissingMods>
 
 	<!-- Player faction naming -->
@@ -72,12 +72,12 @@
 	<PlayerFactionNameIsInvalid>Это имя недопустимо.</PlayerFactionNameIsInvalid>
 
 	<!-- Player faction base naming -->
-	<NamePlayerFactionBaseMessage>Похоже, что вы тут надолго. {0} предлагает дать название этому поселению.\n\nКак вы назовёте его?</NamePlayerFactionBaseMessage>
+	<NamePlayerFactionBaseMessage>Похоже, что вы тут надолго. {0} предлагает дать название этому поселению. Как вы назовёте его?</NamePlayerFactionBaseMessage>
 	<PlayerFactionBaseGainsName>Это поселение теперь известно как {0}.</PlayerFactionBaseGainsName>
 	<PlayerFactionBaseNameIsInvalid>Это имя недопустимо.</PlayerFactionBaseNameIsInvalid>
 
 	<!-- Player faction and faction base naming -->
-	<NamePlayerFactionBaseMessage_NameFactionContinuation>Похоже, что вы тут надолго. {0} также предлагает дать название этому поселению.\n\nКак вы назовёте его?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+	<NamePlayerFactionBaseMessage_NameFactionContinuation>Похоже, что вы тут надолго. {0} также предлагает дать название этому поселению. Как вы назовёте его?</NamePlayerFactionBaseMessage_NameFactionContinuation>
 	<PlayerFactionAndBaseGainsName>Ваша фракция теперь известна как {0}, а поселение называется {1}.</PlayerFactionAndBaseGainsName>
 
 	<!-- Renaming -->
@@ -86,7 +86,8 @@
 	<ZoneGainsName>Зона теперь называется: «{0}».</ZoneGainsName>
 
 	<!-- Pawn naming -->
-	<PawnGainsName>Прозвище поселенца теперь {0}.</PawnGainsName>
+	<PawnGainsName>Прозвище поселенца теперь {0}, и [PAWN_pronoun] — {1}</PawnGainsName>
+	<AnimalGainsName>Кличка животного теперь {0}.</AnimalGainsName>
 
 	<!-- Save game incompatible warning -->
 	<VersionMismatch>Несовпадение версий</VersionMismatch>
@@ -100,6 +101,9 @@
 	<ConfirmResolutionChange>Вы изменили настройки экрана. Сохранить изменения?\n\nАвтоматический возврат через {0}...</ConfirmResolutionChange>
 	<ResolutionKeep>Сохранить</ResolutionKeep>
 	<ResolutionRevert>Отменить</ResolutionRevert>
+
+	<!-- Confirm permanently disable dev mode -->
+	<ConfirmPermanentlyDisableDevMode>Вы уверены, что хотите навсегда отключить режим разработчика для этого компьютера?</ConfirmPermanentlyDisableDevMode>
 
 	<!-- Research -->
 	<Research>Исследовать</Research>
@@ -132,15 +136,18 @@
 	<Suspended>Продолжить</Suspended>
 	<NotSuspended>Приостановить</NotSuspended>
 	<SuspendedAllCaps>ПАУЗА</SuspendedAllCaps>
-	<RepeatCount>Повторять: {0}</RepeatCount>
+	<RepeatCount>Повторять:</RepeatCount>
 	<Forever>Бесконечно</Forever>
 	<Details>Детали</Details>
 	<IngredientSearchRadius>Радиус поиска ингредиентов</IngredientSearchRadius>
 	<CurrentlyHave>Имеется</CurrentlyHave>
 	<CountingProducts>Подсчёт</CountingProducts>
 	<Infinite>Бесконечно</Infinite>
-	<AllowedSkillRange>Допустимый уровень навыка {0}</AllowedSkillRange>
-
+	<AllowedSkillRange>Уровень навыка {0}</AllowedSkillRange>
+	<IncompatibleLower>несовместимо</IncompatibleLower>
+	<AnyWorker>Любой мастер</AnyWorker>
+	<Unlimited>Неограниченно</Unlimited>
+  
 	<RecipeCannotHaveTargetCount>(Это задание нельзя повторять, так как конечный продукт может быть не один, либо результат каждый раз будет сильно различаться)</RecipeCannotHaveTargetCount>
 	<WorkAmount>Объём работ</WorkAmount>
 	<MinimumSkills>Минимальные навыки:</MinimumSkills>
@@ -151,24 +158,33 @@
 	<UsableIngredients>ингредиенты</UsableIngredients>
 	<BillRepeatTargetCountShort>До {0}</BillRepeatTargetCountShort>
 
-	<PauseWhenSatisfied>Пауза по дост. кол-ва</PauseWhenSatisfied>
-	<UnpauseWhenYouHave>Возобн. при наличии</UnpauseWhenYouHave>
+	<PauseWhenSatisfied>Пауза по достижении количества</PauseWhenSatisfied>
+	<UnpauseWhenYouHave>Возобновить при наличии</UnpauseWhenYouHave>
 	<Paused>Пауза</Paused>
 	<Unpause>Продолжить</Unpause>
+
+	<IncludeEquipped>Включая носимое</IncludeEquipped>
+	<IncludeTainted>Включая снятое с мёртвых</IncludeTainted>
+	<LimitToAllowedStuff>Только из указанных материалов</LimitToAllowedStuff>
+	<IncludeFromAll>Искать везде</IncludeFromAll>
+	<IncludeSpecific>Искать в области {0}</IncludeSpecific>
 
 	<!-- Info card -->
 	<Damage>Урон</Damage>
 	<Accuracy>Точность</Accuracy>
 	<BurstShotCount>Выстрелов</BurstShotCount>
 	<WarmupTime>Изготовка</WarmupTime>
-	<MeleeWarmupTime>Тренировка</MeleeWarmupTime>
+	<MeleeWarmupTime>Изготовка</MeleeWarmupTime>
 	<CooldownTime>Перезарядка</CooldownTime>
 	<BurstShotFireRate>Темп стрельбы</BurstShotFireRate>
 	<Range>Дальность</Range>
+	<StoppingPower>Останавливающая способность</StoppingPower>
+	<StoppingPowerExplanation>При попадании из этого оружия по цели, размер которой меньше указанного значения, скорость её передвижения снизится на несколько секунд. Цели большего размера не подвержены останавливающему воздействию.</StoppingPowerExplanation>
 	<GrowsWild>Дикое</GrowsWild>
 	<Harvestable>Собираемое</Harvestable>
 	<LimitedLifespan>Недолговечное</LimitedLifespan>
 	<GrowingTime>Время созревания</GrowingTime>
+    <HarvestYield>Урожайность сбора</HarvestYield>
 	<GrowingTimeDesc>Растения растут только в светлую часть суток. Этот показатель измеряет время, в течение которого растение должно непрерывно расти, чтобы вырасти полностью. Реальное время будет примерно в два раза больше. Низкие температуры также замедляют рост.</GrowingTimeDesc>
 	<Days>дней</Days>
 	<MinGrowingSkillToSow>Требуемый навык фермерства</MinGrowingSkillToSow>
@@ -188,12 +204,15 @@
 	<RecruitDifficulty>Сложность вербовки</RecruitDifficulty>
 	<MarketValue>Базовая цена</MarketValue>
 	<Covers>Укрывается</Covers>
+	<Layer>Тип</Layer>
 	<CoverEffectiveness>Эффективность укрытия</CoverEffectiveness>
 	<CoverEffectivenessExplanation>Насколько этот объект эффективен в качестве укрытия в перестрелке. Чем выше процент, тем больше выстрелов будет заблокировано.</CoverEffectivenessExplanation>
 	<MedicineXpGainFactor>Фактор прироста опыта</MedicineXpGainFactor>
 	<MoodChange>Смена настроения</MoodChange>
 	<Wildness>Дикость</Wildness>
 	<WildnessExplanation>Диких существ сложнее приручать, тренировать и обращаться с ними.</WildnessExplanation>
+	<TrainingDecayInterval>Период утраты навыков</TrainingDecayInterval>
+	<TamenessWillNotDecay>Приручённость не исчезнет.</TamenessWillNotDecay>
 	<AnimalFilthRate>Скорость загрязнения поверхности</AnimalFilthRate>
 	<AnimalFilthRateExplanation>Животные загрязняют полы. Это среднее количество грязи, производимой животным на {0} пройденных им клеток.\n\nБолее крупные и более дикие животные производят больше грязи.</AnimalFilthRateExplanation>
 	<TimeRecordsCategory>Время</TimeRecordsCategory>
@@ -210,6 +229,11 @@
 	<ConstructionSkillRequiredExplanation>Навык Строительства, необходимый для того, чтобы построить этот объект.</ConstructionSkillRequiredExplanation>
 	<NuzzleInterval>Перерыв в ласке</NuzzleInterval>
 	<NuzzleIntervalExplanation>Как часто это животное будет ласкаться к поселенцам.\n\nМногие виды животных выражают своё расположение к человеку, ласкаясь или обнюхивая его. Большинство людей считают это милым, и их настроение улучшается.</NuzzleIntervalExplanation>
+	<HarmedRevengeChance>Шанс ответного нападения</HarmedRevengeChance>
+	<HarmedRevengeChanceExplanation>Вероятность, с которой животное нападёт, если ему причинить вред на расстоянии винтовочного выстрела.\n\nЧем атакующий ближе, тем эта вероятность выше. Если атаковать вблизи, то вероятность повышается в три раза.\n\nПроверка вероятности происходит при каждом получении урона, поэтому для охоты предпочтительнее использовать менее скорострельное и более убойное оружие.\n\nЧтобы минимизировать риск нападения животного, стреляйте по нему из нескорострельного оружия с расстояния винтовочного выстрела.</HarmedRevengeChanceExplanation>
+	<TameFailedRevengeChance>Шанс напад. при неуд. приручении</TameFailedRevengeChance>
+	<TerrainRequirement>Требования к грунту</TerrainRequirement>
+	<Supports>Выдерживает</Supports>
 
 	<!-- Trade -->
 	<PositiveBuysNegativeSells>Положительное число — покупка.\nОтрицательное число — продажа.</PositiveBuysNegativeSells>
@@ -240,9 +264,11 @@
 	<DifficultyLevel>уровень сложности</DifficultyLevel>
 	<PostCurve>интерполяция сплайном</PostCurve>
 	<YourNegotiatorBonus>Бонус переговорщика</YourNegotiatorBonus>
-	<TradeWithFactionBaseBonus>Бонус торговли с базой фракции</TradeWithFactionBaseBonus>
+	<TradeWithFactionBaseBonus>Базовый бонус торговли с фракцией</TradeWithFactionBaseBonus>
 	<minimum>минимум</minimum>
 	<FinalPrice>Итоговая цена</FinalPrice>
+	<GiftModeTip>Режим подарков — предложить подарок фракции {0}.</GiftModeTip>
+	<TradeModeTip>Вернуться в режим торговли.</TradeModeTip>
 
 	<!-- Sellable items -->
 	<SellableItemsTitle>Товар, интересующий торговца</SellableItemsTitle>
@@ -261,12 +287,11 @@
 	<CaravanItemIsUnreachableSingle>Ни один из поселенцев не может добраться до {0}.</CaravanItemIsUnreachableSingle>
 	<CaravanItemIsUnreachableMulti>Ни один из поселенцев не может добраться до {0}x {1}.</CaravanItemIsUnreachableMulti>
 	<TooBigCaravanMassUsage>Караван не сможет нести так много.</TooBigCaravanMassUsage>
-	<CaravanMassUsageTooltip>Текущий переносимый и максимальный вес.\n\nПереносимый вес включает в себя вес как вещей поселенцев, так и их груза.\n\nВы не сможете отправить караван, если суммарный переносимый вес превышает максимальный.</CaravanMassUsageTooltip>
+	<CaravanMassUsageTooltip>Суммарный вес вещей поселенцев и их груза. Вес меньше максимального даёт преимущество в скорости.</CaravanMassUsageTooltip>
 	<CaravanVisibilityTip>Заметность показывает, насколько караван легко обнаружить.\n\nОпределяется совокупными размерами всех участников каравана: людей и животных.\n\nЧем караван заметнее, тем чаще на него будут нападать.</CaravanVisibilityTip>
 	<DaysWorthOfFood>Запас еды</DaysWorthOfFood>
 	<DaysWorthOfFoodInfoRot>испортится через {0} дней</DaysWorthOfFoodInfoRot>
 	<InfiniteDaysWorthOfFoodInfo>Бесконечно</InfiniteDaysWorthOfFoodInfo>
-	<BasedOnRoute>с учётом маршрута</BasedOnRoute>
 	<DaysWorthOfFoodTooltip>Приблизительное количество дней до момента, когда без еды останется хотя бы один человек или животное. Людям и разным видам животных требуется разная пища, поэтому кто-то может остаться без еды раньше остальных. Величина рассчитывается более точно, если определён маршрут путешествия.\n\nВлияющие факторы:\n  - рацион участников каравана\n  - возможность выпаса животных\n  - время порчи еды\n  - температура воздуха</DaysWorthOfFoodTooltip>
 	<DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(учитывается только первая точка маршрута)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
 	<DaysWorthOfFoodWarningDialog>Вашему каравану хватит еды только на {0} дней. Люди и животные очень скоро начнут голодать.</DaysWorthOfFoodWarningDialog>
@@ -293,9 +318,10 @@
 	<ReformCaravan>Продолжить путь</ReformCaravan>
 	<ColonistsSection>Поселенцы</ColonistsSection>
 	<PrisonersSection>Заключённые</PrisonersSection>
+	<CaptureSection>Захватить</CaptureSection>
 	<AnimalsSection>Животные</AnimalsSection>
 	<ChooseRouteButton>Построить маршрут</ChooseRouteButton>
-	<AbandonButton>Покинуть</AbandonButton>
+	<AbandonButton>Бросить</AbandonButton>
 	<CaravanMovementSpeed>Скорость передвижения</CaravanMovementSpeed>
 	<TilesPerDay>кл./д</TilesPerDay>
 	<CaravanMovementSpeedTip>Скорость передвижения зависит от средней скорости всех людей и животных, переносимого веса и местности.</CaravanMovementSpeedTip>
@@ -400,16 +426,20 @@
 	<ConfirmAbandonHomeNegativeThoughts_Everyone>Все:</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
 	<!-- Move caravan and leave prisoners and animals behind -->
-	<ConfirmLeavePrisonersOrAnimalsBehind>В этом месте вы оставили кого-то из заключённых или животных. В данный момент ваш караван — единственная группа, к которой они могут присоединиться.\n\nЕсли вы двинетесь в путь, они не смогут покинуть это место, пока вы не вернётесь. Заключённые сбегут, а животные будут вас ждать.\n\nЕсли вы подождёте, животные присоединятся к каравану при первой возможности.\n\nВы уверены, что хотите двинуться в путь?</ConfirmLeavePrisonersOrAnimalsBehind>
+	
+	<ConfirmMoveAutoJoinableCaravan>Некоторые животные или заключённые хотели бы присоединиться к вашему каравану. Если вы двинетесь в путь, они окажутся в безвыходном положении.\n\nЖивотные, заключённые и неспособные ходить поселенцы будут считаться оставленными на произвол судьбы, и их могут взять в плен.\n\nВы уверены, что хотите двинуться в путь?</ConfirmMoveAutoJoinableCaravan>
 
 	<!-- Abandon pawn -->
-	<ConfirmBanishPawnDialog>Вы действительно хотите оставить здесь {0}?</ConfirmBanishPawnDialog>
+	<ConfirmBanishPawnDialog>Вы действительно хотите изгнать {0}?</ConfirmBanishPawnDialog>
 	<ConfirmBanishPawnDialog_LeftToDie>{0} скорее всего погибнет.</ConfirmBanishPawnDialog_LeftToDie>
 	<ConfirmBanishPawnDialog_Items>{0} возьмёт себе следующие вещи:</ConfirmBanishPawnDialog_Items>
 	<ConfirmBanishPawnDialog_AllColonistsThoughts>Все поселенцы будет расстроены следующими мыслями:</ConfirmBanishPawnDialog_AllColonistsThoughts>
-	<ConfirmBanishPawnDialog_IndividualThoughts>То, что вы бросили {0} на произвол судьбы, отразится на настроении этих людей:</ConfirmBanishPawnDialog_IndividualThoughts>
+	<ConfirmBanishPawnDialog_IndividualThoughts>То, что вы изгнали {0}, отразится на настроении этих людей:</ConfirmBanishPawnDialog_IndividualThoughts>
 
 	<!-- Send transport pods which are not completely loaded -->
 	<ConfirmSendNotCompletelyLoadedPods>Группа капсул загружена не до конца. {0} отсутствует. Всё равно запустить?</ConfirmSendNotCompletelyLoadedPods>
 
+	<!-- Settle near a faction base -->
+	<ConfirmSettleNearFactionBase>Это место отстоит от поселений других фракций всего на {0} или менее клеток, и они будут считать, что вы посягаетесь на их территорию. Отношения с ними будут ухудшаться каждые {1} дней.\n\nВсё равно высадиться здесь?</ConfirmSettleNearFactionBase>
+	
 </LanguageData>

@@ -24,13 +24,13 @@
 	<MustHaulHaulables>Для переноски можно отметить только те предметы, которые поселенцы сами не переносят (например, металлолом и каменные обломки).</MustHaulHaulables>
 
 	<DesignatorHunt>Охотиться</DesignatorHunt>
-	<DesignatorHuntDesc>Отметить животных для ваших охотников.</DesignatorHuntDesc>
+	<DesignatorHuntDesc>Отметить животных для охоты.</DesignatorHuntDesc>
 
 	<DesignatorMine>Копать</DesignatorMine>
 	<DesignatorMineDesc>Обозначить скалы для проведения горных работ.</DesignatorMineDesc>
 
-	<DesignatorSmoothFloor>Выровнять пол</DesignatorSmoothFloor>
-	<DesignatorSmoothFloorDesc>Обозначить неровную каменную поверхность для шлифовки.</DesignatorSmoothFloorDesc>
+	<DesignatorSmoothSurface>Выровнять поверхность</DesignatorSmoothSurface>
+	<DesignatorSmoothSurfaceDesc>Обозначить неровную каменную поверхность для шлифовки.</DesignatorSmoothSurfaceDesc>
 
 	<DesignatorPlan>Планировка</DesignatorPlan>
 	<DesignatorPlanDesc>Разместить обозначения планировки. Они не служат ничему, кроме помощи в планировании ваших дальнейших расширений.</DesignatorPlanDesc>
@@ -39,15 +39,15 @@
 	<DesignatorPlanRemoveDesc>Удалить обозначения планировки.</DesignatorPlanRemoveDesc>
 
 	<DesignatorForbid>Запретить</DesignatorForbid>
-	<DesignatorForbidDesc>Запретить поселенцам использовать выбранные объекты.</DesignatorForbidDesc>
+	<DesignatorForbidDesc>Запретить поселенцам взаимодействовать с выбранными объектами.</DesignatorForbidDesc>
 	
 	<DesignatorUnforbid>Разрешить</DesignatorUnforbid>
-	<DesignatorUnforbidDesc>Разрешить поселенцам использовать выбранные объекты.</DesignatorUnforbidDesc>
+	<DesignatorUnforbidDesc>Разрешить поселенцам взаимодействовать с выбранными объектами.</DesignatorUnforbidDesc>
 	
 	<DesignatorAreaHomeExpand>Расширить домашнюю область</DesignatorAreaHomeExpand>
-	<DesignatorAreaHomeExpandDesc>Поселенцы будут заниматься уборкой, тушением пожаров и ремонтом объектов только в домашней области.</DesignatorAreaHomeExpandDesc>
+	<DesignatorAreaHomeExpandDesc>Поселенцы будут заниматься уборкой, тушением пожаров и ремонтом только в домашней области.</DesignatorAreaHomeExpandDesc>
 	<DesignatorAreaHomeClear>Уменьшить домашнюю область</DesignatorAreaHomeClear>
-	<DesignatorAreaHomeClearDesc>Удалить клетки домашней области. Поселенцы больше не будут заниматься здесь уборкой, тушением пожаров и ремонтом объектов.</DesignatorAreaHomeClearDesc>
+	<DesignatorAreaHomeClearDesc>Удалить клетки домашней области. Поселенцы больше не будут заниматься здесь уборкой, тушением пожаров и ремонтом.</DesignatorAreaHomeClearDesc>
 
 	<DesignatorAreaBuildRoofExpand>Строить крышу</DesignatorAreaBuildRoofExpand>
 	<DesignatorAreaBuildRoofExpandDesc>Поселенцы будут строить крышу в этой области.</DesignatorAreaBuildRoofExpandDesc>
@@ -82,10 +82,13 @@
 	<DesignatorZoneExpand>Расширить зону</DesignatorZoneExpand>
 	
 	<DesignatorClaim>Захватить</DesignatorClaim>
-	<DesignatorClaimDesc>Нейтральные строения, включая древние руины и заброшенные осадные базы, будут присоединены к поселению. Ваши поселенцы смогут отремонтировать и обслуживать захваченные строения.</DesignatorClaimDesc>
+	<DesignatorClaimDesc>Нейтральные строения, включая древние руины и заброшенные осадные базы, будут присоединены к поселению. Ваши поселенцы смогут ремонтировать и обслуживать захваченные строения.</DesignatorClaimDesc>
 
 	<DesignatorRemoveFloor>Снять пол</DesignatorRemoveFloor>
-	<DesignatorRemoveFloorDesc>Снять пол до природного покрытия.</DesignatorRemoveFloorDesc>
+	<DesignatorRemoveFloorDesc>Снять пол до природного ландшафта.</DesignatorRemoveFloorDesc>
+
+	<DesignatorRemoveBridge>Убрать мост</DesignatorRemoveBridge>
+	<DesignatorRemoveBridgeDesc>Разобрать мосты и оставить природный ландшафт.</DesignatorRemoveBridgeDesc>
 
 	<DesignatorStrip>Раздеть</DesignatorStrip>
 	<DesignatorStripDesc>Снять одежду с трупов и раненых</DesignatorStripDesc>
@@ -100,11 +103,11 @@
 	<DesignatorSlaughterDesc>Забить домашнее животное.</DesignatorSlaughterDesc>
 
 	<DesignatorTame>Приручить</DesignatorTame>
-	<DesignatorTameDesc>Приручить дикое животное.</DesignatorTameDesc>
+	<DesignatorTameDesc>Отметить животных для приручения.</DesignatorTameDesc>
 
 
 	<!-- Failure messages -->
-	<UnchosenStuff>Невыбранный материал</UnchosenStuff>
+	<UnchosenStuff>Материал не выбран</UnchosenStuff>
 	<TooCloseToMapEdge>Слишком близко к краю карты.</TooCloseToMapEdge>
 	<OutOfBounds>За пределами.</OutOfBounds>
 	<CannotPlaceInUndiscovered>Нельзя разместить в неразведанной зоне.</CannotPlaceInUndiscovered>
@@ -113,7 +116,7 @@
 	<InteractionSpotWillBeBlocked>Точку взаимодействия будет блокировать {0}.</InteractionSpotWillBeBlocked>
 	<WouldBlockInteractionSpot>{0} будет блокировать точку взаимодействия {1}.</WouldBlockInteractionSpot>
 	<TerrainIsAlready>Здесь уже есть {0}.</TerrainIsAlready>
-	<TerrainBeingSmoothed>Местность уже отмечена для выравнивания.</TerrainBeingSmoothed>
+	<SurfaceBeingSmoothed>Поверхность уже отмечена для выравнивания.</SurfaceBeingSmoothed>
 	<IdenticalThingExists>Такой объект здесь уже есть.</IdenticalThingExists>
 	<IdenticalBlueprintExists>Такой проект здесь уже есть.</IdenticalBlueprintExists>
 	<TerrainCannotSupport>Неподходящий грунт.</TerrainCannotSupport>
@@ -130,6 +133,8 @@
 
 	<!-- Desc helpers -->
 	<TransmitsPower>Передаёт энергию</TransmitsPower>
-	<ConstructionNeeded>Требует навык строительства</ConstructionNeeded>
+	<ConstructionNeeded>Требуется навык</ConstructionNeeded>
+	<NoColonistWithConstructionSkillTip>Ваши {0} не владеют этим навыком.</NoColonistWithConstructionSkillTip>
+	<AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Владеющие этим навыком {0} не назначены {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
 
 </LanguageData>

@@ -10,7 +10,7 @@
 	<CannotDoThisWork>{0} не может выполнять работу такого типа.</CannotDoThisWork>
 	<NoneBrackets>(отсутствуют)</NoneBrackets>
 	<IncapableOfWorkTypeBecauseOfCapacities>Этот поселенец не может выполнять работу такого типа из-за состояния своего здоровья.</IncapableOfWorkTypeBecauseOfCapacities>
-	<EmergencyWorkMarker>E</EmergencyWorkMarker>
+	<EmergencyWorkMarker>!</EmergencyWorkMarker>
 	<SelectedWorkTypeWithVeryBadSkill>Внимание: средний уровень требуемых навыков слишком низок.</SelectedWorkTypeWithVeryBadSkill>
 
 	<!-- Assign tab -->
@@ -31,11 +31,20 @@
 	<PregnantIconDesc>Беременна ({0} / {1})</PregnantIconDesc>
 	<BondedTo>Привязанность к</BondedTo>
 
+	<!-- Wildlife tab -->
+	<IsPredator>Это животное — хищник. Будучи голодным, оно будет охотиться на животных меньшего размера, возможно, включая людей.</IsPredator>
+
 	<!-- Factions tab -->
 	<Hostile>Враги</Hostile>
+	<Ally>Союзники</Ally>
 	<DefeatedLower>побеждена</DefeatedLower>
-	<HostileTo>Враг фракции {0}</HostileTo>
-	<CurrentGoodwill>Текущие отношения с этой фракцией.</CurrentGoodwill>
+	<HostileTo>Враги фракции {0}</HostileTo>
+	<CurrentGoodwillTip>Текущие отношения с этой фракцией.</CurrentGoodwillTip>
+	<CurrentGoodwillTip_PermanentEnemy>Эта фракция всегда будет враждебна к вам. Они будут нападать на ваши поселения и караваны. Отношения с ними нельзя улучшить никаким образом.</CurrentGoodwillTip_PermanentEnemy>
+	<CurrentGoodwillTip_Ally>Эта фракция союзна по отношению к вам. По мере возможности они будут присылать вам подмогу в виде бойцов. Если ваша репутация упадёт ниже {0}, они станут нейтральны.</CurrentGoodwillTip_Ally>
+	<CurrentGoodwillTip_Neutral>Эта фракция нейтральна по отношению к вам. Они будут свободно общаться и торговать с вами. Но если ваша репутация в их глазах упадёт ниже {0}, они станут враждебны. Если же вы заслужите репутацию выше {1}, они станут вашими союзниками и начнут активно вам помогать.</CurrentGoodwillTip_Neutral>
+	<CurrentGoodwillTip_Hostile>Эта фракция враждебна к вам. Они будут нападать на ваши поселения и караваны. Если заслужить репутацию выше {0}, они начнут относиться к вам нейтрально.</CurrentGoodwillTip_Hostile>
+	<CurrentGoodwillTip_NaturalGoodwill>Эта фракция будет стремиться сохранять с вами отношения в определённых пределах. Если вы заслужите репутацию выше {1}, она будет падать по {3} ед. в день. Если репутация упадёт ниже {0}, то она будет расти по {2} ед. в день.</CurrentGoodwillTip_NaturalGoodwill>
 
 	<!-- Social tab -->
 	<Friend>Друг</Friend>
@@ -44,6 +53,7 @@
 
 	<!-- History tab - subtabs -->
 	<Graph>График</Graph>
+	<Messages>Сообщения</Messages>
 	<Statistics>Статистика</Statistics>
 
 	<!-- History tab - Graphs -->
@@ -54,6 +64,12 @@
 	<AllDays>За всё время</AllDays>
 	<Value>Значение</Value>
 	<External>Внешнее</External>
+
+	<!-- History tab - Messages -->
+	<ShowLetters>Показать письма</ShowLetters>
+	<ShowMessages>Показать сообщения</ShowMessages>
+	<PinArchivableTip>Закрепить или открепить сообщение.\n\nМожно закрепить до {0} сообщений. По достижении этого лимита старые сообщения будут откреплены.</PinArchivableTip>
+	<NoMessages>нет сообщений</NoMessages>
 
 	<!-- History tab - Statistics -->
 	<Playtime>Время игры</Playtime>
@@ -71,7 +87,7 @@
 	<!-- Research tab -->
 	<ProjectTechLevel>технический уровень проекта</ProjectTechLevel>
 	<YourTechLevel>ваш технический уровень</YourTechLevel>
-	<ResearchCostMultiplier>мультипликатор стоимости</ResearchCostMultiplier>
-	<ResearchCostComparison>Базовая стоимость проекта — {0}, и с вашим техническим уровнем она равна {1}.</ResearchCostComparison>
+	<ResearchCostMultiplier>множитель стоимости исследования</ResearchCostMultiplier>
+	<ResearchCostComparison>Базовая стоимость проекта — {0}, а с вашим техническим уровнем она равна {1}.</ResearchCostComparison>
 
 </LanguageData>

@@ -10,6 +10,8 @@
 	<LoadGame>Загрузить игру</LoadGame>
 	<Options>Настройки</Options>
 	<Mods>Моды</Mods>
+	<SaveTranslationReport>Собрать отчёт о переводе</SaveTranslationReport>
+	<GeneratingTranslationReport>Формируется отчёт о переводе</GeneratingTranslationReport>
 	<Credits>Создатели</Credits>
 	<QuitToMainMenu>Выйти в главное меню</QuitToMainMenu>
 	<SaveAndQuitToMainMenu>Сохранить и выйти в меню</SaveAndQuitToMainMenu>
@@ -103,7 +105,7 @@
 
 	<!--=========== Выбор рассказчика ==========-->
 	<ChooseAIStoryteller>Выбор ИИ-рассказчика</ChooseAIStoryteller>
-	<HowStorytellersWork>ИИ-рассказчик создаёт события, например, пиратские нападения, падения ресурсов или нападения животных. То, что он выберет, будет влиять на историю вашего поселения.</HowStorytellersWork>
+	<HowStorytellersWork>ИИ-рассказчик создаёт события, такие как атаки пиратов, приземление транспортных капсул и нападения животных. Эти события будет влиять на историю вашего поселения. Рассказчика можно сменить в любой момент.</HowStorytellersWork>
 	<MustChooseDifficulty>Пожалуйста, выберите сложность.</MustChooseDifficulty>
 	<Difficulty>Сложность</Difficulty>
 
@@ -115,8 +117,8 @@
 	<CannotLandBiome>Вы не можете приземлиться в этом биоме: {0}</CannotLandBiome>
 	<BiomeNotImplemented>Такой биом не найден.</BiomeNotImplemented>
 	<CannotLandImpassableMountains>Вы не можете приземлиться в непроходимых горах.</CannotLandImpassableMountains>
-	<BaseAlreadyThere>Фракция {0} уже разместила там базу.</BaseAlreadyThere>
-	<YourBaseAlreadyThere>Вы уже разместили там базу.</YourBaseAlreadyThere>
+	<BaseAlreadyThere>Фракция {0} уже разместила здесь своё поселение.</BaseAlreadyThere>
+	<YourBaseAlreadyThere>Вы уже разместили здесь своё поселение.</YourBaseAlreadyThere>
 	<TileOccupied>Это место занято.</TileOccupied>
 	<FactionBaseAdjacent>Поселения нельзя располагать вплотную друг к другу.</FactionBaseAdjacent>
 	<Biome>Биом</Biome>
@@ -133,15 +135,15 @@
 	<HasCoast2>Побережье с юга</HasCoast2>
 	<HasCoast3>Побережье с запада</HasCoast3>
 	<HasCaves>Пещеры</HasCaves>
-	<FactionBase>База фракции</FactionBase>
+	<FactionBase>Поселение фракции</FactionBase>
 	<StoneTypesHere>Типы пород</StoneTypesHere>
 	<TimeZone>Часовой пояс</TimeZone>
 	<MovementDifficulty>Сложность передвижения</MovementDifficulty>
 	<AnimalsCanGrazeNow>Животные могут пастись</AnimalsCanGrazeNow>
 	<AverageDiseaseFrequency>Ср. частота заболеваний</AverageDiseaseFrequency>
 	<PerYear>в год</PerYear>
-	<ForagedFood>Добываемая еда</ForagedFood>
-	<ForagedFoodYieldRate>Скорость добычи еды</ForagedFoodYieldRate>
+	<Forageability>Скорость добычи еды</Forageability>
+	<ConfirmRequiredWorkTypeDisabledForEveryone>Никто из выбранных вами людей не может заниматься этими видами работ:\n\n{0}\n\nЭто может несколько усложнить игру. Вы уверены, что хотите продолжить?</ConfirmRequiredWorkTypeDisabledForEveryone>
 
 	<!--=========== Выбор персонажей ==========-->
 	<CreateCharacters>Создание персонажей</CreateCharacters>
@@ -158,14 +160,15 @@
 	<NoneLower>отсутствует</NoneLower>
 	<Adulthood>Зрелость</Adulthood>
 	<Childhood>Детство</Childhood>
+    <Current>В настоящий момент</Current>
 	<Male>♂</Male>
 	<Female>♀</Female>
 	<Pain>Боль</Pain>
 	<Health>Здоровье</Health>
 	<Relations>Отношения</Relations>
 	<TeamSkills>Навыки команды</TeamSkills>
-	<StartingPawnsSelected>Выбрано</StartingPawnsSelected>
-	<StartingPawnsLeftBehind>Оставлено</StartingPawnsLeftBehind>
+	<StartingPawnsSelected>Выбраны</StartingPawnsSelected>
+	<StartingPawnsLeftBehind>Оставлены</StartingPawnsLeftBehind>
 
 	<!--=========== Разное ==========-->
 	<Start>Начать</Start>
@@ -175,6 +178,7 @@
 	<Gameplay>Игра</Gameplay>
 	<ConfirmQuit>Выйти? Весь несохранённый прогресс будет потерян.</ConfirmQuit>
 	<EveryoneNeedsValidName>Пожалуйста, введите корректные имена, прозвища и фамилии для поселенцев.</EveryoneNeedsValidName>
+	<RequiredWorkTypeDisabledForEveryone>Ни один из выбранных вами людей не может заниматься этими видами работ</RequiredWorkTypeDisabledForEveryone>
 	<Quit>Выйти</Quit>
 	<Ignore>Игнорировать</Ignore>
 

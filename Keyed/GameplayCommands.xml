@@ -48,7 +48,7 @@
 	<BuildingUnassign>Снять назначение</BuildingUnassign>
 	<CommandBedSetForPrisonersLabel>Для заключённых</CommandBedSetForPrisonersLabel>
 	<CommandBedSetForPrisonersDesc>Должны ли кровати в этой комнате использоваться заключёнными или нет.</CommandBedSetForPrisonersDesc>
-	<CommandBedSetForPrisonersFailOutdoors>Невозможно сделать кровати для заключённых под открытым небом.</CommandBedSetForPrisonersFailOutdoors>
+	<CommandBedSetForPrisonersFailOutdoors>Для заключённых следует выделять только кровати в закрытых помещениях.</CommandBedSetForPrisonersFailOutdoors>
 	<CommandBedSetAsMedicalLabel>Мед. кровать</CommandBedSetAsMedicalLabel>
 	<CommandBedSetAsMedicalDesc>Должна ли эта кровать использоваться в медицинских целях или нет.</CommandBedSetAsMedicalDesc>
 	<TurningOnPrisonerBedWarning>Включение режима для заключённых повлияет на всю комнату (поселенцы и заключённые не могут спать в одной комнате).\n\nСледующие поселенцы потеряют права на свои кровати:</TurningOnPrisonerBedWarning>
@@ -85,7 +85,6 @@
 	<CommandStopAttackFailNotForceAttacking>Сейчас невозможно остановить обстрел.</CommandStopAttackFailNotForceAttacking>
 	<CommandExtractShell>Извлечь снаряд</CommandExtractShell>
 	<CommandExtractShellDesc>Разрядить орудие, чтобы иметь возможность сменить тип снаряда.</CommandExtractShellDesc>
-	<CommandExtractShellFailNoShell>Не заряжено.</CommandExtractShellFailNoShell>
 	<MessageTargetBeyondMaximumRange>Слишком далеко.</MessageTargetBeyondMaximumRange>
 	<MessageTargetBelowMinimumRange>Слишком близко.</MessageTargetBelowMinimumRange>
 	<MessageTurretWontFireBecauseHoldFire>Внимание: стрельба запрещена. Для возобновления отключите режим «Остановить огонь».</MessageTurretWontFireBecauseHoldFire>
@@ -122,12 +121,12 @@
 	<CommandReinstallDesc>Назначить этот предмет для демонтажа и установки в другом месте.</CommandReinstallDesc>
 
 	<!-- Trade beacon -->
-	<CommandMakeBeaconStockpileDesc>Создать вокруг этого строения склад, соответствующий радиусу отправки маяка.</CommandMakeBeaconStockpileDesc>
+	<CommandMakeBeaconStockpileDesc>Создать вокруг маяка склад, соответствующий радиусу его работы.</CommandMakeBeaconStockpileDesc>
 	<CommandMakeBeaconStockpileLabel>Создать склад</CommandMakeBeaconStockpileLabel>
 
 	<!-- Sun lamp -->
-	<CommandSunLampMakeGrowingZoneDesc>Создать вокруг этого строения зону роста, соответствующую радиусу действия солнечной лампы.</CommandSunLampMakeGrowingZoneDesc>
-	<CommandSunLampMakeGrowingZoneLabel>Создать зону роста.</CommandSunLampMakeGrowingZoneLabel>
+	<CommandSunLampMakeGrowingZoneDesc>Создать вокруг солнечной лампы зону выращивания, соответствующую радиусу её действия.</CommandSunLampMakeGrowingZoneDesc>
+	<CommandSunLampMakeGrowingZoneLabel>Создать зону выращивания.</CommandSunLampMakeGrowingZoneLabel>
 
 	<!-- Trap -->
 	<CommandAutoRearm>Авто-взведение</CommandAutoRearm>
@@ -178,14 +177,14 @@
 
 	<!-- Settle -->
 	<CommandSettle>Основать поселение</CommandSettle>
-	<CommandSettleDesc>Основать поселение в этом месте. Ваши путешественники придут сюда и смогут построить здесь свой новый дом.</CommandSettleDesc>
-	<CommandSettleFailAlreadyHaveBase>У вашей фракции может быть только одна база.</CommandSettleFailAlreadyHaveBase>
+	<CommandSettleDesc>Основать поселение в этом месте. Ваши путешественники смогут начать строить здесь свой новый дом.</CommandSettleDesc>
+	<CommandSettleFailAlreadyHaveBase>У вашей фракции может быть только одно поселение.</CommandSettleFailAlreadyHaveBase>
 	<CommandSettleFailReachedMaximumNumberOfBases>Достигнуто предельное число поселений.</CommandSettleFailReachedMaximumNumberOfBases>
 	<CommandSettleFailNoColonists>Здесь нет никого, кто мог бы основать поселение.</CommandSettleFailNoColonists>
 	<CommandSettleFailEnemies>Рядом враги.</CommandSettleFailEnemies>
 
 	<!-- Abandon home -->
-	<CommandAbandonHome>Покинуть поселение</CommandAbandonHome>
+	<CommandAbandonHome>Бросить поселение</CommandAbandonHome>
 	<CommandAbandonHomeDesc>Покинуть это место. Это поселение станет недоступно, и вы больше никогда не сможете сюда вернуться. После того, как вы покинете свой дом, вы сможете основать поселение в другом месте.</CommandAbandonHomeDesc>
 	<CommandAbandonHomeFailAllColonistsThere>Невозможно покинуть это место, пока все поселенцы находятся здесь.</CommandAbandonHomeFailAllColonistsThere>
 
@@ -197,6 +196,10 @@
 	<CommandRemoveFromCaravan>Исключить из каравана</CommandRemoveFromCaravan>
 	<CommandRemoveFromCaravanDesc>Исключить этого человека или животное из каравана.</CommandRemoveFromCaravanDesc>
 
+	<!-- Add to caravan -->
+	<CommandAddToCaravan>Добавить к каравану</CommandAddToCaravan>
+	<CommandAddToCaravanDesc>Добавить этого человека или животное к снаряжаемому каравану.</CommandAddToCaravanDesc>
+
 	<!-- Show map -->
 	<CommandShowMap>Увеличить масштаб</CommandShowMap>
 	<CommandShowMapDesc>Увеличить масштаб в этой точке карты.</CommandShowMapDesc>
@@ -205,6 +208,10 @@
 	<CommandTrade>Торговать</CommandTrade>
 	<CommandTradeDesc>Торговать с этой фракцией.</CommandTradeDesc>
 	<CommandTradeFailNoNegotiator>Нет ни одного человека, способного вести переговоры и торговать, не сломленного и в сознании.</CommandTradeFailNoNegotiator>
+
+	<!-- Offer gifts -->
+	<CommandOfferGifts>Предложить подарок</CommandOfferGifts>
+	<CommandOfferGiftsDesc>Предложить фракции подарок.</CommandOfferGiftsDesc>
 
 	<!-- Fulfill request -->
 	<CommandFulfillTradeOffer>Заключить сделку</CommandFulfillTradeOffer>
@@ -218,7 +225,7 @@
 	<CommandTakeOffConfirmation>Вы уверены, что хотите запустить корабль?\n\nВсе, кто находится в этом месте, покинут планету. Остальные — останутся.</CommandTakeOffConfirmation>
 
 	<!-- Set target fuel level -->
-	<CommandSetTargetFuelLevel>Указать желаемый уровень топлива</CommandSetTargetFuelLevel>
+	<CommandSetTargetFuelLevel>Задать уровень топлива</CommandSetTargetFuelLevel>
 	<CommandSetTargetFuelLevelDesc>Поселенцы будут заправлять этот агрегат не выше указанного уровня.</CommandSetTargetFuelLevelDesc>
 
 	<!-- Cancel load -->
@@ -260,10 +267,14 @@
 
 	<!-- Pause caravan -->
 	<CommandPauseCaravan>Привал</CommandPauseCaravan>
-	<CommandToggleCaravanPauseDesc>Остановить караван. Это даст следующие преимущества:\n\n  - люди смогут общаться друг с другом\n  - добыча еды ускорится в {0} раз</CommandToggleCaravanPauseDesc>
+	<CommandToggleCaravanPauseDesc>Остановить караван. Это даст следующие преимущества:\n\n  - люди смогут общаться друг с другом\n  - добыча еды ускорится в {0} раз\n  - заметность станет {1} от обычной</CommandToggleCaravanPauseDesc>
 
 	<!-- Show sellable items -->
 	<CommandShowSellableItems>Показать товар для продажи</CommandShowSellableItems>
 	<CommandShowSellableItemsDesc>Показать товары, интересующие торговца.</CommandShowSellableItemsDesc>
+
+	<!-- Attack settlement -->
+	<CommandAttackSettlement>Напасть</CommandAttackSettlement>
+	<CommandAttackSettlementDesc>Напасть на это поселение.</CommandAttackSettlementDesc>
 
 </LanguageData>

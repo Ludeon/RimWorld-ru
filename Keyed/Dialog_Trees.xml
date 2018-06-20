@@ -2,6 +2,7 @@
 <LanguageData>
 
 	<FactionGreetingHostile>{0} выкрикивает в микрофон какие-то эпитеты и отключается.</FactionGreetingHostile>
+	<FactionGreetingHostileAppreciative>{0} требует от вас сделать жест «доброй воли», например, принести подарок какому-либо их поселению или отпустить невредимым заключённого из [PAWN_possessive] фракции. До тех пор [PAWN_pronoun] не желает с вами разговаривать.\n\nНапоследок [PAWN_nameDef] бурчит в ваш адрес какую-то гадость и отключается.</FactionGreetingHostileAppreciative>
 	<FactionGreetingWary>{0} осторожно приветствует {1} и спрашивает у н[PAWN_possessive], в чем дело.</FactionGreetingWary>
 	<FactionGreetingWarm>{0} тепло приветствует {1} и спрашивает, как дела в поселении.</FactionGreetingWarm>
 
@@ -9,6 +10,8 @@
 
 	<!-- gift offer -->
 	<OfferGift>Предложить подарок</OfferGift>
+	<MustBeAlly>не являются союзниками</MustBeAlly>
+	<NeedGoodwill>требуется {0} ед. репутации</NeedGoodwill>
 	<NeedSilverLaunchable>требуется {0} серебра рядом с торговым маяком</NeedSilverLaunchable>
 	<NotEnoughSilver>недостаточно серебра</NotEnoughSilver>
 	<SilverForGoodwill>{0} серебра за {1} репутации</SilverForGoodwill>
@@ -31,5 +34,6 @@
 	<CallConfirm>Да, вызвать их в любом случае.</CallConfirm>
 	<CallCancel>Нет, не стоит.</CallCancel>
 	<MilitaryAidSent>{0} соглашается отправить бойцов к вам на помощь.</MilitaryAidSent>
+	<CantSendMilitaryAidInTime>{0} приносит свои извинения и говорит, что они не успеют вовремя прибыть к вам на помощь.\n\n(Уровень технического развития этой фракции ещё не позволяет им строить транспортные капсулы)</CantSendMilitaryAidInTime>
 
 </LanguageData>

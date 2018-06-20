@@ -15,10 +15,10 @@
 
 	<OutOfRange>вне зоны поражения</OutOfRange>
 	<CannotHitTarget>невозможно попасть в цель</CannotHitTarget>
-	<IsIncapableOfViolenceLower>{0} не способен(на) на насилие</IsIncapableOfViolenceLower>
-	<IncapableOfViolenceLower>не способен(на) на насилие</IncapableOfViolenceLower>
+	<IsIncapableOfViolenceLower>{0} не может причинять насилие</IsIncapableOfViolenceLower>
+	<IncapableOfViolenceLower>не может причинять насилие</IncapableOfViolenceLower>
 	<IsNotDraftedLower>{0} не призван</IsNotDraftedLower>
-	<CannotOrderNonControlledLower>нельзя отдавать приказы неподконтрольной единице</CannotOrderNonControlledLower>
+	<CannotOrderNonControlledLower>нельзя отдавать приказы неподконтрольным персонажам</CannotOrderNonControlledLower>
 	<CannotAttackSelf>нельзя атаковать себя</CannotAttackSelf>
 
 	<OrderManThing>Занять {0}</OrderManThing>
@@ -32,14 +32,20 @@
 	<NotInHomeArea>вне домашней области</NotInHomeArea>
 	<BurningLower>горит</BurningLower>
 	<NoEmptyPlaceLower>нет свободного места, настроенного для хранения этого</NoEmptyPlaceLower>
+	<NoMergeTarget>не с чем объединять</NoMergeTarget>
 	<AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
 	<MissingMaterials>нужны материалы</MissingMaterials>
-	<MissingSkill>недостаточный уровень навыка</MissingSkill>
-	<NoEmptyGraveLower>нет пустой могилы, предназначенной для этого</NoEmptyGraveLower>
+	<UnderRequiredSkill>навык ниже требуемого {0}</UnderRequiredSkill>
+	<UnderAllowedSkill>навык ниже допустимого {0}</UnderAllowedSkill>
+	<AboveAllowedSkill>навык выше допустимого {0}</AboveAllowedSkill>
+	<MissingRequiredSkillLevel>отсутствует требуемый уровень навыка</MissingRequiredSkillLevel>
 	<AnimalInteractedTooRecently>животное обучалось совсем недавно</AnimalInteractedTooRecently>
 	<NoUsableFood>нет подходящей еды</NoUsableFood>
 	<NoFood>нет еды</NoFood>
-	<AnimalsSkillTooLow>низкий навык Животноводства</AnimalsSkillTooLow>
+	<AnimalsSkillTooLow>низкий навык Животноводства, требуется {0}</AnimalsSkillTooLow>
+	<CantInteractAnimalDowned>животное повержено</CantInteractAnimalDowned>
+	<CantInteractAnimalAsleep>животное спит</CantInteractAnimalAsleep>
+	<CantInteractAnimalBusy>животное занято</CantInteractAnimalBusy>
 	<ConstructionSkillTooLow>низкий навык Строительства</ConstructionSkillTooLow>
 	<NoComponentsToRepair>нужны компоненты</NoComponentsToRepair>
 	<NoFuelToRefuel>нужно {0}</NoFuelToRefuel>
@@ -53,8 +59,9 @@
 	<SkillDisabled>навык недоступен</SkillDisabled>
 	<CantSowCavePlantBecauseOfLight>слишком ярко</CantSowCavePlantBecauseOfLight>
 	<CantSowCavePlantBecauseUnroofed>не под крышей</CantSowCavePlantBecauseUnroofed>
+	<IncapableOfDeconstruction>не может разбирать</IncapableOfDeconstruction>
 
-	<ConsumeThing>Употребить {0}</ConsumeThing>
+	<ConsumeThing>Съесть {0}</ConsumeThing>
 
 	<CannotGoNoPath>Невозможно пройти сюда: нет прохода</CannotGoNoPath>
 	<GoHere>Идти сюда</GoHere>
@@ -73,9 +80,9 @@
 	<CannotCarryToCryptosleepCasket>Невозможно перенести в контейнер криптосна</CannotCarryToCryptosleepCasket>
 
 	<NoCryptosleepCasket>Нет доступных контейнеров криптосна.</NoCryptosleepCasket>
-	<NoPrisonerBed>Нет доступных свободных кроватей для заключённых в закрытом помещении.</NoPrisonerBed>
-	<NoNonPrisonerBed>Нет доступных свободных кроватей для поселенецев.</NoNonPrisonerBed>
-	<NoAnimalBed>Нет доступных свободных кроватей для животных.</NoAnimalBed>
+	<NoPrisonerBed>Нет доступных свободных кроватей для заключённых в закрытом помещении с безопасной температурой.</NoPrisonerBed>
+	<NoNonPrisonerBed>Нет доступных свободных кроватей для поселенцев в местах с безопасной температурой.</NoNonPrisonerBed>
+	<NoAnimalBed>Нет доступных свободных кроватей для животных в местах с безопасной температурой.</NoAnimalBed>
 	<Reserved>Занято кем-то другим.</Reserved>
 	<ReservedBy>Занято {0}</ReservedBy>
 	<IsReservedBy>{0} уже использует {1}.</IsReservedBy>
@@ -120,6 +127,7 @@
 	
 	<CannotCarryToExit>Невозможно уйти, неся {0}</CannotCarryToExit>
 	<CarryToExit>Взять {0} и уйти</CarryToExit>
+	<CarryToExitAndCapture>Захватить {0} и уйти</CarryToExitAndCapture>
 
 	<Strip>Раздеть {0}</Strip>
 	<CannotStrip>Невозможно раздеть {0}</CannotStrip>
@@ -129,7 +137,7 @@
 	<Drop>Бросить {0}</Drop>
 
 	<UseMedicalBed>Отдыхать до выздоровления</UseMedicalBed>
-	<NotInjured>Не ранен</NotInjured>
+	<NotInjured>не ранен</NotInjured>
 	<SomeoneElseSleeping>{0} уже спит здесь</SomeoneElseSleeping>
 
 	<TradeWith>Торговать с {0}</TradeWith>
@@ -138,19 +146,21 @@
 	<EnterMap>Войти в {0}</EnterMap>
 	<VisitSettlement>Посетить {0}</VisitSettlement>
 	<VisitPeaceTalks>Посетить {0}</VisitPeaceTalks>
-	<VisitSite>Посетить {0}</VisitSite>
 	<VisitEscapeShip>Посетить {0}</VisitEscapeShip>
-	<AttackSite>Напасть на {0}</AttackSite>
 	<AttackSettlement>Напасть на {0}</AttackSettlement>
+	<ApproachSite>Подойти к {0}</ApproachSite>
+	<ApproachingSite>Идёт к {0}</ApproachingSite>
+	<OfferGifts>Предложить подарок</OfferGifts>
 
 	<!-- Specific thing interactions -->
 	<EnterCryptosleepCasket>Войти в контейнер криптосна</EnterCryptosleepCasket>
 	<OpenCryptosleepCasket>Открыть контейнер криптосна</OpenCryptosleepCasket>
 
 	<CannotGenericWork>Невозможно {0} {1}</CannotGenericWork>
+	<CannotGenericWorkCustom>Невозможно {0}</CannotGenericWorkCustom>
 
 	<!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
-	<CannotMissingHealthActivities>Сейчас нельзя: поселенец не может {0} из-за проблем со здоровьем</CannotMissingHealthActivities>
+	<CannotMissingHealthActivities>Невозможно выполнить: поселенец не может {0} из-за проблем со здоровьем</CannotMissingHealthActivities>
 
 	<!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
 	<CannotGenericAlreadyAm>Поселенец уже начал {0}: {1}</CannotGenericAlreadyAm>
@@ -159,14 +169,19 @@
 
 	<CannotPrioritizeWorkGiverDisabled>Невозможно выполнить: поселенец никогда не будет {0}</CannotPrioritizeWorkGiverDisabled>
 
+	<WillNever>никогда не будет {0}</WillNever>
+
 	<CannotPrioritizeNotAssignedToWorkType>Невозможно выполнить: поселенец не назначен {0}</CannotPrioritizeNotAssignedToWorkType>
 
+	<NotAssigned>не назначен</NotAssigned>
+	
 	<CannotPrioritizeResearch>Выполнение исследования задаётся приоритетом работ</CannotPrioritizeResearch>
 
 	<CannotPrioritizeForbidden>Невозможно выполнить: {0} запрещено</CannotPrioritizeForbidden>
 
 	<!-- Невозможно: олениха вне разрешённой зоны. Действие "охотиться" тут не указывается -->
-	<CannotPrioritizeForbiddenOutsideAllowedArea>Невозможно: {0} вне разрешённой зоны</CannotPrioritizeForbiddenOutsideAllowedArea>
+	<CannotPrioritizeCellForbidden>Невозможно выполнить: запрещено</CannotPrioritizeCellForbidden>
+	<CannotPrioritizeForbiddenOutsideAllowedArea>Вне разрешённой зоны</CannotPrioritizeForbiddenOutsideAllowedArea>
 
 	<!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
 	<!-- В русском это убрано и в gerund идёт просто «Починить» стену, «Отнести» металл... -->
@@ -174,6 +189,8 @@
 
 	<DropAtEdge>Сбросить с краю</DropAtEdge>
 	<DropInCenter>Сбросить в центр</DropInCenter>
+	<AttackAndDropAtEdge>Напасть на {0}: Высадиться с краю</AttackAndDropAtEdge>
+	<AttackAndDropInCenter>Напасть на {0}: Высадиться в центр</AttackAndDropInCenter>
 
 	<VomitingLower>блюёт</VomitingLower>
 	<NotInterruptibleLower>нельзя прервать</NotInterruptibleLower>
@@ -188,4 +205,15 @@
 	<UnforbidAllItems>Разрешить всё</UnforbidAllItems>
 	<RearmAllTraps>Взвести все ловушки</RearmAllTraps>
 
+	<!-- Transport pods -->
+	<LandInExistingMap>Увеличить {0} и указать место посадки</LandInExistingMap>
+	<TransportPodsContentsWillBeLost>Содержимое будет безвозвратно утеряно</TransportPodsContentsWillBeLost>
+	<FormCaravanHere>Снарядить караван сюда</FormCaravanHere>
+	<GiveToCaravan>Передать каравану {0}</GiveToCaravan>
+	<GiveGiftViaTransportPods>Вручить как подарок фракции {0} ({1})</GiveGiftViaTransportPods>
+
+	<!-- Rescue quest -->
+	<FreePrisoner>Освободить заключённого</FreePrisoner>
+	<OfferHelp>Предложить помощь</OfferHelp>
+	
 </LanguageData>
