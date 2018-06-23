@@ -17,7 +17,6 @@
 		<li>maneuver_noun_instr->ударом сплеча</li>
 		<li>maneuver_noun_instr(p=0.5)->порезом</li>
 
-
 		<li>damaged(p=4)->рубит</li>
 		<li>damaged->рассекает</li>
 		<li>damaged->режет</li>
@@ -137,6 +136,7 @@
 		<li>reserved->reserved</li>
 	</Maneuver_Smash_Damage.rulePack.rulesStrings>
 
+
 	<Maneuver_Smash.rulePack.rulesStrings>
 		<li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
 		<li>flavortextconsequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
@@ -182,6 +182,7 @@
 		<li>reserved->reserved</li>
 		<li>reserved->reserved</li>
 	</Maneuver_Scratch_Damage.rulePack.rulesStrings>
+
 
 	<Maneuver_Scratch.rulePack.rulesStrings>
 		<li>woundname_acc->рану</li>
@@ -294,9 +295,11 @@
 		<li>logentry(p=0.2)->[initiator_definite] пинает [tool_label] в глаза [recipient_definite].</li>
 	</Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
 
+
 	<Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
 		<li>logentry->[initiator_definite] пытается кинуть [tool_label] в глаза [recipient_definite], но промахивается.</li>
 	</Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
+
 
 	<Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
 		<li>logentry->[initiator_definite] пытается кинуть [tool_label] в глаза [recipient_definite], но [recipient_definite] уворачивается.</li>
