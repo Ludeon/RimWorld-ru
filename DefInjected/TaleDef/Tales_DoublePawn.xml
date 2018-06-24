@@ -7,105 +7,105 @@
 		Перед[circumstance_group] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
 		В этих случая для оборотов без знаков препинания следует использовать конструкцию "[empty] <сама фраза>"
 
-		[pawn_nameFull] и [pawn_nameShortDef] - имена персонажа
-		[pawn_pronoun] - he/she - он/она - как [PAWN_pronoun]
-		[pawn_possessive] - his/her - его/её - как [PAWN_possessive]
-		[pawn_objective] - him/her - ему/ей
+		[PAWN_nameFull] и [PAWN_nameShortDef] - имена персонажа
+		[PAWN_pronoun] - he/she - он/она - как [PAWN_pronoun]
+		[PAWN_possessive] - his/her - его/её - как [PAWN_possessive]
+		[PAWN_objective] - him/her - ему/ей
 	-->
 
 	<!--capture-->
 
 	<Captured.label>человек захвачен</Captured.label>
 	<Captured.rulePack.rulesStrings>
-		<li>tale_noun->как [prisoner_nameShortDef] попадает в плен</li>
-		<li>image->, как [circumstance_start], в то время как [capturer_nameFull][circumstance_group] захватывает [prisoner_possessive]</li>
-		<li>image->, как [circumstance_start], в то время как [capturer_nameFull][circumstance_group] связывает [prisoner_objective] руки</li>
-		<li>image->, как [circumstance_start], в то время как [capturer_nameFull][circumstance_group] наказывает [prisoner_possessive]</li>
-		<li>circumstance_start->[prisoner_nameFull] корчится на земле</li>
-		<li>circumstance_start->[prisoner_nameFull] корчится от боли</li>
-		<li>circumstance_start->[prisoner_nameFull] безропотно принимает свою судьбу</li>
-		<li>circumstance_start->[prisoner_nameFull] бесится от чувства поражения</li>
+		<li>tale_noun->как [PRISONER_nameShortDef] попадает в плен</li>
+		<li>image->, как [circumstance_start], в то время как [CAPTURER_nameFull][circumstance_group] захватывает [PRISONER_possessive]</li>
+		<li>image->, как [circumstance_start], в то время как [CAPTURER_nameFull][circumstance_group] связывает [PRISONER_objective] руки</li>
+		<li>image->, как [circumstance_start], в то время как [CAPTURER_nameFull][circumstance_group] наказывает [PRISONER_possessive]</li>
+		<li>circumstance_start->[PRISONER_nameFull] корчится на земле</li>
+		<li>circumstance_start->[PRISONER_nameFull] корчится от боли</li>
+		<li>circumstance_start->[PRISONER_nameFull] безропотно принимает свою судьбу</li>
+		<li>circumstance_start->[PRISONER_nameFull] бесится от чувства поражения</li>
 		<li>circumstance_phrase->[empty] с применением грубой силы</li>
 		<li>circumstance_phrase->[empty] с явным удовольствием</li>
 		<li>circumstance_phrase->, улыбаясь, осознавая своё превосходство,</li>
 		<li>circumstance_phrase->[empty] со сноровкой профессионала</li>
 		<li>circumstance_phrase->[empty] по-дилетантски грубо</li>
-		<li>desc_sentence->[capturer_nameShortDef] вглядывается в глаза [prisoner_nameShortDef] с чувством собственного превосходства.</li>
-		<li>desc_sentence->[prisoner_nameShortDef] ранен, и, судя по всему, терпит боль.</li>
-		<li>desc_sentence->[capturer_nameShortDef] бьёт заключённого, чтобы утихомирить его.</li>
-		<li>desc_sentence->[capturer_nameShortDef] выкручивает заключённому ухо.</li>
-		<li>desc_sentence->[capturer_nameShortDef] держит заключённого в болевом захвате.</li>
-		<li>desc_sentence->[capturer_nameShortDef] плюёт заключённому в лицо.</li>
-		<li>desc_sentence->[capturer_nameShortDef] смеётся, в то время как слёзы наворачиваются на глаза заключённого.</li>
-		<li>desc_sentence->[capturer_nameShortDef] пинает заключённого без видимых на то причин.</li>
+		<li>desc_sentence->[CAPTURER_nameShortDef] вглядывается в глаза [PRISONER_nameShortDef] с чувством собственного превосходства.</li>
+		<li>desc_sentence->[PRISONER_nameShortDef] ранен, и, судя по всему, терпит боль.</li>
+		<li>desc_sentence->[CAPTURER_nameShortDef] бьёт заключённого, чтобы утихомирить его.</li>
+		<li>desc_sentence->[CAPTURER_nameShortDef] выкручивает заключённому ухо.</li>
+		<li>desc_sentence->[CAPTURER_nameShortDef] держит заключённого в болевом захвате.</li>
+		<li>desc_sentence->[CAPTURER_nameShortDef] плюёт заключённому в лицо.</li>
+		<li>desc_sentence->[CAPTURER_nameShortDef] смеётся, в то время как слёзы наворачиваются на глаза заключённого.</li>
+		<li>desc_sentence->[CAPTURER_nameShortDef] пинает заключённого без видимых на то причин.</li>
 	</Captured.rulePack.rulesStrings>
 
 
 	<!--recruite-->
 	<Recruited.label>человек завербован</Recruited.label>
 	<Recruited.rulePack.rulesStrings>
-		<li>tale_noun->как [joiner_nameShortDef] присоединяется к поселению</li>
-		<li>image->, как [recruiter_nameFull] [circumstance_group] рекрутирует [joiner_nameFull]</li>
-		<li>image->, как [recruiter_nameFull] [circumstance_group] приветствует [joiner_nameFull], когда [joiner_pronoun] становится поселенцем</li>
-		<li>image->, как [recruiter_nameFull] [circumstance_group] убедительно говорит с [joiner_nameFull]</li>
+		<li>tale_noun->как [JOINER_nameShortDef] присоединяется к поселению</li>
+		<li>image->, как [recruiter_nameFull] [circumstance_group] рекрутирует [JOINER_nameFull]</li>
+		<li>image->, как [recruiter_nameFull] [circumstance_group] приветствует [JOINER_nameFull], когда [JOINER_pronoun] становится поселенцем</li>
+		<li>image->, как [recruiter_nameFull] [circumstance_group] убедительно говорит с [JOINER_nameFull]</li>
 		<li>circumstance_phrase->с явной доброжелательностью</li>
 		<li>circumstance_phrase->с сердечным рукопожатием</li>
 		<li>circumstance_phrase->с улыбкой до ушей</li>
 		<li>circumstance_phrase->перед всем поселением</li>
 		<li>circumstance_phrase->в тюремной камере</li>
-		<li>desc_sentence->[joiner_nameShortDef] понимающе кивает.</li>
-		<li>desc_sentence->[joiner_nameShortDef] улыбается, глядя в глаза.</li>
-		<li>desc_sentence->[joiner_nameShortDef] смотрит с облегчением.</li>
-		<li>desc_sentence->[joiner_nameShortDef] выглядит обнадёженно.</li>
+		<li>desc_sentence->[JOINER_nameShortDef] понимающе кивает.</li>
+		<li>desc_sentence->[JOINER_nameShortDef] улыбается, глядя в глаза.</li>
+		<li>desc_sentence->[JOINER_nameShortDef] смотрит с облегчением.</li>
+		<li>desc_sentence->[JOINER_nameShortDef] выглядит обнадёженно.</li>
 	</Recruited.rulePack.rulesStrings>
 
 
 	<!--hunt-->
 	<Hunted.label>животное поймано</Hunted.label>
 	<Hunted.rulePack.rulesStrings>
-		<li>tale_noun->как [hunter_nameShortDef] охотится</li>
-		<li>image->[empty] животное, [prey_nameFull], на которое охотится [hunter_nameFull][circumstance_group]</li>
-		<li>image->, как [hunter_nameFull], преследует [prey_nameFull] издали[circumstance_group]</li>
-		<li>image->, как [hunter_nameFull], ведёт охоту на [prey_nameFull][circumstance_group]</li>
-		<li>circumstance_phrase->, пока [prey_nameShortDef] расслабляется</li>
-		<li>circumstance_phrase->, пока [prey_nameShortDef] ходит</li>
-		<li>circumstance_phrase->, пока [prey_nameShortDef] ест</li>
-		<li>desc_sentence->[prey_nameShortDef], кажется, совершенно не обращает внимания.</li>
-		<li>desc_sentence->[hunter_nameShortDef] крепко сжимает своё оружие.</li>
-		<li>desc_sentence->[prey_nameShortDef] осматривается, будто чувствует, что что-то не так.</li>
+		<li>tale_noun->как [HUNTER_nameShortDef] охотится</li>
+		<li>image->[empty] животное, [PREY_nameFull], на которое охотится [HUNTER_nameFull][circumstance_group]</li>
+		<li>image->, как [HUNTER_nameFull], преследует [PREY_nameFull] издали[circumstance_group]</li>
+		<li>image->, как [HUNTER_nameFull], ведёт охоту на [PREY_nameFull][circumstance_group]</li>
+		<li>circumstance_phrase->, пока [PREY_nameShortDef] расслабляется</li>
+		<li>circumstance_phrase->, пока [PREY_nameShortDef] ходит</li>
+		<li>circumstance_phrase->, пока [PREY_nameShortDef] ест</li>
+		<li>desc_sentence->[PREY_nameShortDef], кажется, совершенно не обращает внимания.</li>
+		<li>desc_sentence->[HUNTER_nameShortDef] крепко сжимает своё оружие.</li>
+		<li>desc_sentence->[PREY_nameShortDef] осматривается, будто чувствует, что что-то не так.</li>
 	</Hunted.rulePack.rulesStrings>
 
 
 	<!--surgery-->
 	<DidSurgery.label>операция проведена</DidSurgery.label>
 	<DidSurgery.rulePack.rulesStrings>
-		<li>tale_noun->как [patient_nameShortDef] была проведена операция</li>
-		<li>image->, как [surgeon_nameFull] [circumstance_phrase] усыпляет больного по имени [patient_nameFull] при помощи анестезии[circumstance_sentence]</li>
-		<li>image->операцию, которую [surgeon_nameFull] проводит [circumstance_phrase]. [surgeon_possessive] рука по локоть находится в пациенте по имени [patient_nameFull][circumstance_sentence]</li>
-		<li>image->, как [surgeon_nameFull] [circumstance_phrase] делает надрез на теле пациента по имени [patient_nameFull][circumstance_sentence]</li>
+		<li>tale_noun->как [PATIENT_nameShortDef] была проведена операция</li>
+		<li>image->, как [SURGEON_nameFull] [circumstance_phrase] усыпляет больного по имени [PATIENT_nameFull] при помощи анестезии[circumstance_sentence]</li>
+		<li>image->операцию, которую [SURGEON_nameFull] проводит [circumstance_phrase]. [SURGEON_possessive] рука по локоть находится в пациенте по имени [PATIENT_nameFull][circumstance_sentence]</li>
+		<li>image->, как [SURGEON_nameFull] [circumstance_phrase] делает надрез на теле пациента по имени [PATIENT_nameFull][circumstance_sentence]</li>
 		<li>circumstance_sentence->, а тот дрожит от страха</li>
-		<li>circumstance_sentence->, пока кровь последнего собирается в лужицу у ног [surgeon_nameShortDef]</li>
+		<li>circumstance_sentence->, пока кровь последнего собирается в лужицу у ног [SURGEON_nameShortDef]</li>
 		<li>circumstance_phrase->в окружении страшновато выглядящих хирургических инструментов</li>
 		<li>circumstance_phrase->импровизированными, но эффективными инструментами</li>
-		<li>desc_sentence->[surgeon_nameShortDef] обильно потеет.</li>
-		<li>desc_sentence->[surgeon_nameShortDef] выглядит невероятно сосредоточенным(ой) на поставленной цели.</li>
-		<li>desc_sentence->У [surgeon_nameShortDef] всё лицо в крови.</li>
-		<li>desc_sentence->[patient_nameShortDef] дрожит и корчится.</li>
+		<li>desc_sentence->[SURGEON_nameShortDef] обильно потеет.</li>
+		<li>desc_sentence->[SURGEON_nameShortDef] выглядит невероятно сосредоточенным(ой) на поставленной цели.</li>
+		<li>desc_sentence->У [SURGEON_nameShortDef] всё лицо в крови.</li>
+		<li>desc_sentence->[PATIENT_nameShortDef] дрожит и корчится.</li>
 	</DidSurgery.rulePack.rulesStrings>
 
 
 	<!--execution-->
 	<ExecutedPrisoner.label>заключённый казнён</ExecutedPrisoner.label>
 	<ExecutedPrisoner.rulePack.rulesStrings>
-		<li>tale_noun->как казнили [prisoner_nameShortDef]</li>
-		<li>image->, как [circumstance_start], в то время как [warden_nameFull][circumstance_execution] казнит [prisoner_possessive]</li>
-		<li>image->, как [circumstance_start], в то время как [warden_nameFull][circumstance_execution] лишает [prisoner_possessive] жизни</li>
-		<li>image->, как [circumstance_start], в то время как [warden_nameFull][circumstance_phrase] готовится казнить [prisoner_possessive]</li>
-		<li>image->, как [circumstance_start], в то время как [warden_nameFull][circumstance_phrase] входит в тюремную камеру, чтобы казнить [prisoner_possessive]</li>
-		<li>circumstance_start->[prisoner_nameFull] корчится на земле</li>
-		<li>circumstance_start->[prisoner_nameFull] корчится от боли</li>
-		<li>circumstance_start->[prisoner_nameFull] в ужасе кричит</li>
-		<li>circumstance_start->[prisoner_nameFull] дрожит и корчится</li>
+		<li>tale_noun->как казнили [PRISONER_nameShortDef]</li>
+		<li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] казнит [PRISONER_possessive]</li>
+		<li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] лишает [PRISONER_possessive] жизни</li>
+		<li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_phrase] готовится казнить [PRISONER_possessive]</li>
+		<li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_phrase] входит в тюремную камеру, чтобы казнить [PRISONER_possessive]</li>
+		<li>circumstance_start->[PRISONER_nameFull] корчится на земле</li>
+		<li>circumstance_start->[PRISONER_nameFull] корчится от боли</li>
+		<li>circumstance_start->[PRISONER_nameFull] в ужасе кричит</li>
+		<li>circumstance_start->[PRISONER_nameFull] дрожит и корчится</li>
 		<li>circumstance_phrase->[empty] со слезами на глазах</li>
 		<li>circumstance_phrase->[empty] с явным удовольствием</li>
 		<li>circumstance_phrase->, думая о чём-то другом,</li>
@@ -116,22 +116,22 @@
 		<li>circumstance_execution->[empty] для общего блага</li>
 		<li>circumstance_execution->, причиняя излишнюю боль,</li>
 		<li>circumstance_execution->[empty] по-дилетантски грубо</li>
-		<li>desc_sentence->у [warden_nameShortDef] немного течёт слюна.</li>
-		<li>desc_sentence->у [warden_nameShortDef] по лицу размазана кровь.</li>
-		<li>desc_sentence->[warden_nameShortDef] обильно потеет.</li>
-		<li>desc_sentence->[prisoner_nameShortDef] готовится к неизбежному.</li>
-		<li>desc_sentence->[prisoner_nameShortDef] изображается с закрытыми глазами, кажется, [prisoner_pronoun] молится высшим силам.</li>
-		<li>desc_sentence->[prisoner_nameShortDef] выглядит демонстративно непокорно.</li>
+		<li>desc_sentence->у [EXECUTIONER_nameShortDef] немного течёт слюна.</li>
+		<li>desc_sentence->у [EXECUTIONER_nameShortDef] по лицу размазана кровь.</li>
+		<li>desc_sentence->[EXECUTIONER_nameShortDef] обильно потеет.</li>
+		<li>desc_sentence->[PRISONER_nameShortDef] готовится к неизбежному.</li>
+		<li>desc_sentence->[PRISONER_nameShortDef] изображается с закрытыми глазами, кажется, [PRISONER_pronoun] молится высшим силам.</li>
+		<li>desc_sentence->[PRISONER_nameShortDef] выглядит демонстративно непокорно.</li>
 	</ExecutedPrisoner.rulePack.rulesStrings>
 
 
 	<!--kidnapped-->
 	<KidnappedColonist.label>поселенец похищен</KidnappedColonist.label>
 	<KidnappedColonist.rulePack.rulesStrings>
-		<li>tale_noun->как похитили [victim_nameShortDef]</li>
-		<li>image->, как [kidnapper_nameFull][circumstance_group] тащит [victim_nameFull] к базе своей фракции «[kidnapper_factionName]»</li>
-		<li>image->, как [kidnapper_nameFull] из фракции «[kidnapper_factionName]»[circumstance_group] похищает [victim_nameFull]</li>
-		<li>image->, как [kidnapper_nameFull][circumstance_group] похищает [victim_nameFull]</li>
+		<li>tale_noun->как похитили [VICTIM_nameShortDef]</li>
+		<li>image->, как [KIDNAPPER_nameFull][circumstance_group] тащит [VICTIM_nameFull] к базе своей фракции «[KIDNAPPER_factionName]»</li>
+		<li>image->, как [KIDNAPPER_nameFull] из фракции «[KIDNAPPER_factionName]»[circumstance_group] похищает [VICTIM_nameFull]</li>
+		<li>image->, как [KIDNAPPER_nameFull][circumstance_group] похищает [VICTIM_nameFull]</li>
 		<li>circumstance_phrase->, причиняя излишнюю боль,</li>
 		<li>circumstance_phrase->[empty] со сноровкой профессионала</li>
 		<li>circumstance_phrase->[empty] по-дилетантски грубо</li>
@@ -139,45 +139,45 @@
 		<li>circumstance_phrase->[empty] с явным удовольствием</li>
 		<li>circumstance_phrase->, улыбаясь, осознавая своё превосходство,</li>
 		<li>circumstance_phrase->, перепачкавшись кровью и грязью,</li>
-		<li>desc_sentence->[victim_nameShortDef], похоже, совершенно сдался(ась).</li>
-		<li>desc_sentence->глаза [victim_nameShortDef] закрыты, кажется, [victim_pronoun] молится высшим силам.</li>
-		<li>desc_sentence->[victim_nameShortDef] выглядит демонстративно непокорно.</li>
-		<li>desc_sentence->[victim_nameShortDef] кричит от ярости и ужаса.</li>
+		<li>desc_sentence->[VICTIM_nameShortDef], похоже, совершенно сдался(ась).</li>
+		<li>desc_sentence->глаза [VICTIM_nameShortDef] закрыты, кажется, [VICTIM_pronoun] молится высшим силам.</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] выглядит демонстративно непокорно.</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] кричит от ярости и ужаса.</li>
 		<li>desc_sentence->жертва выглядит сломленной и измождённой.</li>
-		<li>desc_sentence->[victim_nameShortDef], похоже, страдает от серьёзных ран.</li>
+		<li>desc_sentence->[VICTIM_nameShortDef], похоже, страдает от серьёзных ран.</li>
 	</KidnappedColonist.rulePack.rulesStrings>
 
 	<TamedAnimal.label>животное приручено</TamedAnimal.label>
 	<TamedAnimal.rulePack.rulesStrings>
-		<li>tale_noun->как [human_nameShortDef] приручает [animal_nameShortDef]</li>
-		<li>image->, как [human_nameFull] [circumstance_group] приручает дикое животное</li>
-		<li>image->, как [human_nameFull] [circumstance_group] предлагает дикому животному кусочек еды</li>
-		<li>image->, как [human_nameFull] [circumstance_group] шепчет что-то пугливому животному</li>
-		<li>image->, как [human_nameFull] [circumstance_group] успокаивает дикое животное</li>
+		<li>tale_noun->как [TAMER_nameShortDef] приручает [ANIMAL_nameShortDef]</li>
+		<li>image->, как [TAMER_nameFull] [circumstance_group] приручает дикое животное</li>
+		<li>image->, как [TAMER_nameFull] [circumstance_group] предлагает дикому животному кусочек еды</li>
+		<li>image->, как [TAMER_nameFull] [circumstance_group] шепчет что-то пугливому животному</li>
+		<li>image->, как [TAMER_nameFull] [circumstance_group] успокаивает дикое животное</li>
 		<li>circumstance_phrase->с огромной осторожностью и заботой</li>
 		<li>circumstance_phrase->с улыбкой</li>
 		<li>circumstance_phrase->устало, но удовлетворённо</li>
-		<li>desc_sentence->[animal_nameShortDef] агрессивно рычит.</li>
-		<li>desc_sentence->животное, [animal_nameShortDef], выглядит сонным и опьянённым от любви.</li>
-		<li>desc_sentence->животное, [animal_nameShortDef], кажется, совершенно загипнотизировано.</li>
-		<li>desc_sentence->[animal_nameShortDef] выглядит напугано, но заинтересованно.</li>
-		<li>desc_sentence->[animal_nameShortDef] выглядит очарованно.</li>
-		<li>desc_sentence->видно, как [human_nameShortDef], словно создаёт невидимую, но сильную волну любви в сторону [animal_nameShortDef].</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] агрессивно рычит.</li>
+		<li>desc_sentence->животное, [ANIMAL_nameShortDef], выглядит сонным и опьянённым от любви.</li>
+		<li>desc_sentence->животное, [ANIMAL_nameShortDef], кажется, совершенно загипнотизировано.</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] выглядит напугано, но заинтересованно.</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] выглядит очарованно.</li>
+		<li>desc_sentence->видно, как [TAMER_nameShortDef], словно создаёт невидимую, но сильную волну любви в сторону [ANIMAL_nameShortDef].</li>
 	</TamedAnimal.rulePack.rulesStrings>
 
 	<KilledBy.label>убийство</KilledBy.label>
 	<KilledBy.rulePack.rulesStrings>
-		<li>tale_noun->как [victim_nameShortDef] погибает от руки [killer_nameShortDef]</li>
-		<li>tale_noun->как [killer_nameShortDef] убивает [victim_nameShortDef]</li>
-		<li>tale_noun->как погибает [victim_nameShortDef]</li>
-		<li>image->, как [circumstance_start], когда [victim_possessive] [circumstance_group] убивают</li>
-		<li>image->, как [circumstance_start], когда [victim_possessive] [circumstance_group] убивает [killer_nameFull]</li>
-		<li>image->, как [killer_nameFull] [circumstance_group] убивает [victim_nameFull]</li>
-		<li>image->, как [killer_nameFull] [circumstance_group] прерывает жизнь поселенца по имени [victim_nameFull]</li>
-		<li>image->, как [victim_nameFull] погибает от руки противника по имени [killer_nameFull]</li>
-		<li>circumstance_start->[victim_nameFull] в ужасе кричит</li>
-		<li>circumstance_start->[victim_nameFull] корчится от боли</li>
-		<li>circumstance_start->[victim_nameFull] пытается сопротивляться</li>
+		<li>tale_noun->как [VICTIM_nameShortDef] погибает от руки [KILLER_nameShortDef]</li>
+		<li>tale_noun->как [KILLER_nameShortDef] убивает [VICTIM_nameShortDef]</li>
+		<li>tale_noun->как погибает [VICTIM_nameShortDef]</li>
+		<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_group] убивают</li>
+		<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_group] убивает [KILLER_nameFull]</li>
+		<li>image->, как [KILLER_nameFull] [circumstance_group] убивает [VICTIM_nameFull]</li>
+		<li>image->, как [KILLER_nameFull] [circumstance_group] прерывает жизнь поселенца по имени [VICTIM_nameFull]</li>
+		<li>image->, как [VICTIM_nameFull] погибает от руки противника по имени [KILLER_nameFull]</li>
+		<li>circumstance_start->[VICTIM_nameFull] в ужасе кричит</li>
+		<li>circumstance_start->[VICTIM_nameFull] корчится от боли</li>
+		<li>circumstance_start->[VICTIM_nameFull] пытается сопротивляться</li>
 		<li>circumstance_phrase->в ярости</li>
 		<li>circumstance_phrase->быстрыми, эффективными движениями</li>
 		<li>circumstance_phrase->без эмоций</li>
@@ -188,41 +188,41 @@
 		<li>desc_sentence->Позади кроваво-красный заход солнца символически отражает произошедшее.</li>
 		<li>desc_sentence->Возле тела жертвы растекается лужа крови.</li>
 		<li>desc_sentence->Глаза жертвы изображены реалистично безжизненными.</li>
-		<li>desc_sentence->[killer_nameShortDef] скалит зубы.</li>
-		<li>desc_sentence->[killer_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
-		<li>desc_sentence->[killer_nameShortDef] испытывает душевные терзания от того, что [killer_objective] приходится делать.</li>
-		<li>desc_sentence->[killer_nameShortDef] чувствует удовлетворение, видя результат.</li>
-		<li>desc_sentence->[killer_nameShortDef] выглядит триумфально.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] скалит зубы.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] испытывает душевные терзания от того, что [KILLER_objective] приходится делать.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] чувствует удовлетворение, видя результат.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] выглядит триумфально.</li>
 	</KilledBy.rulePack.rulesStrings>
 
 	<SoldPrisoner.label>заключённый продан</SoldPrisoner.label>
 	<SoldPrisoner.rulePack.rulesStrings>
-		<li>tale_noun->как продали [prisoner_nameShortDef]</li>
-		<li>image->, как торговец, [trader_nameFull], покупает у поселения заключённого по имени [prisoner_nameFull][circumstance_suffix]</li>
-		<li>image->, как [seller_nameFull][circumstance_phrase] продаёт торговцу заключённого по имени [prisoner_nameFull][circumstance_suffix]</li>
-		<li>image->, как [seller_nameFull] и [trader_nameFull][circumstance_phrase] договариваются о цене, за которую будет продан заключённый, [prisoner_nameFull]</li>
+		<li>tale_noun->как продали [PRISONER_nameShortDef]</li>
+		<li>image->, как торговец, [TRADER_nameFull], покупает у поселения заключённого по имени [PRISONER_nameFull][circumstance_suffix]</li>
+		<li>image->, как [SELLER_nameFull][circumstance_phrase] продаёт торговцу заключённого по имени [PRISONER_nameFull][circumstance_suffix]</li>
+		<li>image->, как [SELLER_nameFull] и [TRADER_nameFull][circumstance_phrase] договариваются о цене, за которую будет продан заключённый, [PRISONER_nameFull]</li>
 		<li>circumstance_phrase->, подсчитывая деньги,</li>
 		<li>circumstance_phrase->, [TransFriendly],</li>
 		<li>circumstance_suffix->[empty] к огорчению последнего</li>
 		<li>circumstance_suffix->, пока тот жалобно стонет</li>
 		<li>circumstance_suffix->, пока другие поселенцы неодобрительно смотрят</li>
-		<li>desc_sentence->[seller_nameShortDef] неохотно передаёт последнего торговцу.</li>
-		<li>desc_sentence->[prisoner_nameShortDef] непокорно смотрит на своего нового хозяина.</li>
-		<li>desc_sentence->[trader_nameShortDef] тащит [prisoner_nameShortDef] за [prisoner_possessive] цепи.</li>
-		<li>desc_sentence->[prisoner_nameShortDef] смотрит на [seller_nameShortDef], планируя свою месть.</li>
-		<li>desc_sentence->[prisoner_nameShortDef] плачет.</li>
-		<li>desc_sentence->[prisoner_nameShortDef] плюёт в лицо [seller_nameShortDef].</li>
-		<li>desc_sentence->[prisoner_nameShortDef] обмякает на землю.</li>
-		<li>desc_sentence->[seller_nameShortDef] суёт цепи в руки покупателю.</li>
-		<li>desc_sentence->[trader_nameShortDef] придирчиво осматривает пленника.</li>
+		<li>desc_sentence->[SELLER_nameShortDef] неохотно передаёт последнего торговцу.</li>
+		<li>desc_sentence->[PRISONER_nameShortDef] непокорно смотрит на своего нового хозяина.</li>
+		<li>desc_sentence->[TRADER_nameShortDef] тащит [PRISONER_nameShortDef] за [PRISONER_possessive] цепи.</li>
+		<li>desc_sentence->[PRISONER_nameShortDef] смотрит на [SELLER_nameShortDef], планируя свою месть.</li>
+		<li>desc_sentence->[PRISONER_nameShortDef] плачет.</li>
+		<li>desc_sentence->[PRISONER_nameShortDef] плюёт в лицо [SELLER_nameShortDef].</li>
+		<li>desc_sentence->[PRISONER_nameShortDef] обмякает на землю.</li>
+		<li>desc_sentence->[SELLER_nameShortDef] суёт цепи в руки покупателю.</li>
+		<li>desc_sentence->[TRADER_nameShortDef] придирчиво осматривает пленника.</li>
 	</SoldPrisoner.rulePack.rulesStrings>
 
 	<TrainedAnimal.label>животное натренировано</TrainedAnimal.label>
 	<TrainedAnimal.rulePack.rulesStrings>
-		<li>tale_noun->как удалось натренировать [animal_nameShortDef]</li>
-		<li>image->, как [human_nameFull] [train_syn] [animal_nameFull] в навыке «[trainable_label]»[circumstance_group]</li>
-		<li>image->, как [human_nameFull] учит [animal_nameFull] навыку «[trainable_label]»[circumstance_group]</li>
-		<li>image->, как [human_nameFull] практикует навык «[trainable_label]» с [animal_nameFull][circumstance_group]</li>
+		<li>tale_noun->как удалось натренировать [ANIMAL_nameShortDef]</li>
+		<li>image->, как [TAMER_nameFull] [train_syn] [ANIMAL_nameFull] в навыке «[trainable_label]»[circumstance_group]</li>
+		<li>image->, как [TAMER_nameFull] учит [ANIMAL_nameFull] навыку «[trainable_label]»[circumstance_group]</li>
+		<li>image->, как [TAMER_nameFull] практикует навык «[trainable_label]» с [ANIMAL_nameFull][circumstance_group]</li>
 		<li>train_syn->тренирует</li>
 		<li>train_syn->упражняет</li>
 		<li>train_syn->наставляет</li>
@@ -230,44 +230,44 @@
 		<li>train_syn->обучает</li>
 		<li>circumstance_phrase->, пока другие смотрят</li>
 		<li>circumstance_phrase->, пока другие дикие животные смотрят с отвращением</li>
-		<li>circumstance_phrase->, пока [animal_nameShortDef] вспоминает о временах своей бытности диким зверем, когда жизнь была гораздо проще</li>
-		<li>circumstance_phrase->, пока [human_nameShortDef] думает о том, что сегодня на обед</li>
+		<li>circumstance_phrase->, пока [ANIMAL_nameShortDef] вспоминает о временах своей бытности диким зверем, когда жизнь была гораздо проще</li>
+		<li>circumstance_phrase->, пока [TAMER_nameShortDef] думает о том, что сегодня на обед</li>
 		<li>circumstance_phrase->, пока другие поселенцы занимаются действительно важной работой</li>
-		<li>desc_sentence->На лице [human_nameShortDef] видно удовольствие.</li>
-		<li>desc_sentence->[human_nameShortDef] улыбается.</li>
-		<li>desc_sentence->На лице [human_nameShortDef] видно скуку.</li>
-		<li>desc_sentence->[human_nameShortDef] угрожающе потрясает кулаком.</li>
-		<li>desc_sentence->У [human_nameShortDef] от напряжения сморщились брови.</li>
-		<li>desc_sentence->[animal_nameShortDef] выглядит озадаченно.</li>
-		<li>desc_sentence->[animal_nameShortDef] держит в зубах оружие.</li>
-		<li>desc_sentence->[animal_nameShortDef] кряхтит от напряжения.</li>
-		<li>desc_sentence->[human_nameShortDef] разочарованно трясёт головой.</li>
-		<li>desc_sentence->[animal_nameShortDef] трясётся от страха.</li>
-		<li>desc_sentence->[animal_nameShortDef] бросает взгляд, полный [ConceptAny].</li>
-		<li>desc_sentence->[animal_nameShortDef] изображается в виде кучи инструментов.</li>
-		<li>desc_sentence->[animal_nameShortDef] имеет наполовину [Color], а наполовину [Color] цвет.</li>
-		<li>desc_sentence->[animal_nameShortDef] стоит в перхоти.</li>
-		<li>desc_sentence->[human_nameShortDef] имеет [quantity] рук.</li>
-		<li>desc_sentence->[human_nameShortDef] уже почти выглядит как [animal_ShortDef].</li>
+		<li>desc_sentence->На лице [TAMER_nameShortDef] видно удовольствие.</li>
+		<li>desc_sentence->[TAMER_nameShortDef] улыбается.</li>
+		<li>desc_sentence->На лице [TAMER_nameShortDef] видно скуку.</li>
+		<li>desc_sentence->[TAMER_nameShortDef] угрожающе потрясает кулаком.</li>
+		<li>desc_sentence->У [TAMER_nameShortDef] от напряжения сморщились брови.</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] выглядит озадаченно.</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] держит в зубах оружие.</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] кряхтит от напряжения.</li>
+		<li>desc_sentence->[TAMER_nameShortDef] разочарованно трясёт головой.</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] трясётся от страха.</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] бросает взгляд, полный [ConceptAny].</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] изображается в виде кучи инструментов.</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] имеет наполовину [Color], а наполовину [Color] цвет.</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] стоит в перхоти.</li>
+		<li>desc_sentence->[TAMER_nameShortDef] имеет [quantity] рук.</li>
+		<li>desc_sentence->[TAMER_nameShortDef] уже почти выглядит как [ANIMAL_ShortDef].</li>
 	</TrainedAnimal.rulePack.rulesStrings>
 
 
 	<!--traded with someone-->
 	<TradedWith.label>проведена сделка</TradedWith.label>
 	<TradedWith.rulePack.rulesStrings>
-		<li>tale_noun->как торговали друг с другом [seller_fullName] и [buyer_fullName]</li>
-		<li>image->, как [buyer_nameFull] покупает товары у [seller_nameFull][circumstance_group]</li>
-		<li>image->, как [seller_nameFull] продаёт товары [buyer_nameFull][circumstance_group]</li>
+		<li>tale_noun->как торговали друг с другом [SELLER_fullName] и [BUYER_fullName]</li>
+		<li>image->, как [BUYER_nameFull] покупает товары у [SELLER_nameFull][circumstance_group]</li>
+		<li>image->, как [SELLER_nameFull] продаёт товары [BUYER_nameFull][circumstance_group]</li>
 		<li>circumstance_phrase->[empty] с алчными намерениями</li>
-		<li>circumstance_phrase->, и [seller_nameShortDef] ухмыляется в сторону [buyer_shortNameDef]</li>
-		<li>desc_sentence->[buyer_nameShortDef] осматривает товары [seller_nameShortDef].</li>
-		<li>desc_sentence->[seller_nameShortDef] рассматривает предмет.</li>
-		<li>desc_sentence->[seller_nameShortDef] начинает торговаться.</li>
-		<li>desc_sentence->[buyer_nameShortDef] спорит с [seller_nameShortDef].</li>
-		<li>desc_sentence->[seller_nameShortDef] и [buyer_nameShortDef] соглашаются о цене.</li>
-		<li>desc_sentence->[buyer_nameShortDef] платит за покупку.</li>
-		<li>desc_sentence->[seller_nameShortDef] считает [seller_possessive] деньги.</li>
-		<li>desc_sentence->[buyer_nameShortDef] забирает [buyer_possessive] товары.</li>
+		<li>circumstance_phrase->, и [SELLER_nameShortDef] ухмыляется в сторону [BUYER_shortNameDef]</li>
+		<li>desc_sentence->[BUYER_nameShortDef] осматривает товары [SELLER_nameShortDef].</li>
+		<li>desc_sentence->[SELLER_nameShortDef] рассматривает предмет.</li>
+		<li>desc_sentence->[SELLER_nameShortDef] начинает торговаться.</li>
+		<li>desc_sentence->[BUYER_nameShortDef] спорит с [SELLER_nameShortDef].</li>
+		<li>desc_sentence->[SELLER_nameShortDef] и [BUYER_nameShortDef] соглашаются о цене.</li>
+		<li>desc_sentence->[BUYER_nameShortDef] платит за покупку.</li>
+		<li>desc_sentence->[SELLER_nameShortDef] считает [SELLER_possessive] деньги.</li>
+		<li>desc_sentence->[BUYER_nameShortDef] забирает [BUYER_possessive] товары.</li>
 	</TradedWith.rulePack.rulesStrings>
 
 </LanguageData>

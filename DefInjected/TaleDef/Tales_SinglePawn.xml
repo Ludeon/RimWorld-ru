@@ -7,30 +7,30 @@
 		Перед[circumstance_group] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
 		В этих случая для оборотов без знаков препинания следует использовать конструкцию "[empty] <сама фраза>"
 
-		[pawn_nameFull] и [pawn_nameShortDef] - имена персонажа
-		[pawn_pronoun] - he/she - он/она - как [PAWN_pronoun]
-		[pawn_possessive] - his/her - его/её - как [PAWN_possessive]
-		[pawn_objective] - him/her - ему/ей
+		[PAWN_nameFull] и [PAWN_nameShortDef] - имена персонажа
+		[PAWN_pronoun] - he/she - он/она - как [PAWN_pronoun]
+		[PAWN_possessive] - his/her - его/её - как [PAWN_possessive]
+		[PAWN_objective] - him/her - ему/ей
 	-->
 
 	<LandedInPod.label>приземление в спасательной капсуле</LandedInPod.label>
 	<LandedInPod.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] приземляется в спасательной капсуле</li>
-		<li>image->, как [pawn_nameFull] совершает посадку в спасательной капсуле [circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] приземляется в спасательной капсуле [circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] врезается в землю в спасательной капсуле [circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] летит в спасательной капсуле [circumstance_group]</li>
+		<li>tale_noun->как [PAWN_nameShortDef] приземляется в спасательной капсуле</li>
+		<li>image->, как [PAWN_nameFull] совершает посадку в спасательной капсуле [circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] приземляется в спасательной капсуле [circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] врезается в землю в спасательной капсуле [circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] летит в спасательной капсуле [circumstance_group]</li>
 		<li>circumstance_phrase->перед [TerrainFeature]</li>
 		<li>circumstance_phrase->с невероятной силой</li>
 		<li>circumstance_phrase->в шлейфе из пыли и камней</li>
 		<li>circumstance_phrase->с эффектно работающими тормозными двигателями</li>
 		<li>circumstance_phrase->в процессе точно рассчитанной посадки</li>
-		<li>desc_sentence->Всё [pawn_possessive] внимание сосредоточено на управлении.</li>
-		<li>desc_sentence->[pawn_possessive] глаза закрыты, на лице написан ужас.</li>
-		<li>desc_sentence->[pawn_pronoun] без сознания, [pawn_possessive] язык вывалился и с него капает слюна.</li>
-		<li>desc_sentence->[pawn_pronoun] мрачно улыбается.</li>
-		<li>desc_sentence->[pawn_pronoun], кажется, не имеет ни малейшего представления о том, что делает.</li>
-		<li>desc_sentence->[pawn_possessive] тело пристёгнуто ремнями, [pawn_possessive] глаза закрыты, на лице написана полная беспомощность.</li>
+		<li>desc_sentence->Всё [PAWN_possessive] внимание сосредоточено на управлении.</li>
+		<li>desc_sentence->[PAWN_possessive] глаза закрыты, на лице написан ужас.</li>
+		<li>desc_sentence->[PAWN_pronoun] без сознания, [PAWN_possessive] язык вывалился и с него капает слюна.</li>
+		<li>desc_sentence->[PAWN_pronoun] мрачно улыбается.</li>
+		<li>desc_sentence->[PAWN_pronoun], кажется, не имеет ни малейшего представления о том, что делает.</li>
+		<li>desc_sentence->[PAWN_possessive] тело пристёгнуто ремнями, [PAWN_possessive] глаза закрыты, на лице написана полная беспомощность.</li>
 		<li>desc_sentence->Небо прочертил огненный след, языки пламени охватывают капсулу.</li>
 		<li>desc_sentence->[Animal] неподалёку испуганно смотрит вверх.</li>
 		<li>desc_sentence->[Animal] со страху несётся прочь.</li>
@@ -40,32 +40,32 @@
 
 	<Vomited.label>рвота</Vomited.label>
 	<Vomited.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] блюёт</li>
-		<li>image->, как [pawn_nameFull] извергает рвотные массы на землю[circumstance_group]</li>
-		<li>image->[pawn_nameFull] с отвращением смотрит на засохшую рвоту[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull][circumstance_group], согнувшись в три погибели, борется со рвотными позывами</li>
-		<li>image->, как [pawn_nameFull] стоит на коленях и блюёт на пол[circumstance_group]</li>
+		<li>tale_noun->как [PAWN_nameShortDef] блюёт</li>
+		<li>image->, как [PAWN_nameFull] извергает рвотные массы на землю[circumstance_group]</li>
+		<li>image->[PAWN_nameFull] с отвращением смотрит на засохшую рвоту[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group], согнувшись в три погибели, борется со рвотными позывами</li>
+		<li>image->, как [PAWN_nameFull] стоит на коленях и блюёт на пол[circumstance_group]</li>
 		<li>circumstance_phrase->[empty] со страдальческим взглядом</li>
 		<li>circumstance_phrase->[empty] с большим позором</li>
 		<li>circumstance_phrase->, в то время как другие просто наблюдают</li>
-		<li>desc_sentence->[pawn_pronoun], кажется, совершенно не обращает внимания на происходящее вокруг.</li>
-		<li>desc_sentence->Само [pawn_possessive] лицо, кажется, отекло.</li>
-		<li>desc_sentence->[pawn_pronoun] практически без сознания, [pawn_possessive] язык вывалился и свисает.</li>
-		<li>desc_sentence->[pawn_pronoun] бьётся в конвульсиях.</li>
-		<li>desc_sentence->[pawn_pronoun] краснеет от стыда.</li>
-		<li>desc_sentence->[pawn_pronoun], кажется, пытается улыбаться, несмотря на обстоятельства.</li>
-		<li>desc_sentence->От столь сильной рвоты [pawn_pronoun] имеет совершенно опустошённый, словно сдувшийся вид.</li>
-		<li>desc_sentence->[pawn_possessive] окружает мастерски изображённый ореол грязи.</li>
+		<li>desc_sentence->[PAWN_pronoun], кажется, совершенно не обращает внимания на происходящее вокруг.</li>
+		<li>desc_sentence->Само [PAWN_possessive] лицо, кажется, отекло.</li>
+		<li>desc_sentence->[PAWN_pronoun] практически без сознания, [PAWN_possessive] язык вывалился и свисает.</li>
+		<li>desc_sentence->[PAWN_pronoun] бьётся в конвульсиях.</li>
+		<li>desc_sentence->[PAWN_pronoun] краснеет от стыда.</li>
+		<li>desc_sentence->[PAWN_pronoun], кажется, пытается улыбаться, несмотря на обстоятельства.</li>
+		<li>desc_sentence->От столь сильной рвоты [PAWN_pronoun] имеет совершенно опустошённый, словно сдувшийся вид.</li>
+		<li>desc_sentence->[PAWN_possessive] окружает мастерски изображённый ореол грязи.</li>
 		<li>desc_sentence->На фоне [Animal] слизывает с земли рвоту.</li>
 	</Vomited.rulePack.rulesStrings>
 
 	<Drunk.label>загул</Drunk.label>
 	<Drunk.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] напивается</li>
-		<li>image->, как [pawn_nameFull] шатается в пьяном виде[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull], откинув голову назад, хлещет спиртное[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] жадно собирает бутылки спиртного[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] пьянствует[circumstance_group]</li>
+		<li>tale_noun->как [PAWN_nameShortDef] напивается</li>
+		<li>image->, как [PAWN_nameFull] шатается в пьяном виде[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull], откинув голову назад, хлещет спиртное[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] жадно собирает бутылки спиртного[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] пьянствует[circumstance_group]</li>
 		<li>circumstance_phrase->, не замечая ничего вокруг</li>
 		<li>circumstance_phrase->[empty] в задумчивом ступоре</li>
 		<li>circumstance_phrase->, сомневаясь в своём собственном существовании</li>
@@ -80,97 +80,97 @@
 		<li>circumstance_phrase->, сдерживая рвоту</li>
 		<li>circumstance_phrase->[empty] ни о чём не заботясь</li>
 		<li>circumstance_phrase->, похотливо сверкая глазами</li>
-		<li>circumstance_phrase->, глядя на маячащих призраков [pawn_possessive] прошлого</li>
-		<li>desc_sentence->[pawn_pronoun], кажется, совершенно не замечает ничего вокруг.</li>
-		<li>desc_sentence->Само [pawn_possessive] лицо, кажется, отекло.</li>
-		<li>desc_sentence->[pawn_pronoun] практически без сознания, [pawn_possessive] язык вывалился и свисает, с него капает слюна.</li>
-		<li>desc_sentence->[pawn_pronoun] выглядит одновременно и счастливо, и грустно.</li>
-		<li>desc_sentence->У н[pawn_possessive] спереди какие-то пятна.</li>
-		<li>desc_sentence->Позади н[pawn_possessive] виден след из пустых бутылок.</li>
-		<li>desc_sentence->[pawn_possessive] брюки в белых пятнах.</li>
-		<li>desc_sentence->У н[pawn_possessive] на одной ноге нет ботинка.</li>
-		<li>desc_sentence->[pawn_possessive] волосы растрёпаны.</li>
+		<li>circumstance_phrase->, глядя на маячащих призраков [PAWN_possessive] прошлого</li>
+		<li>desc_sentence->[PAWN_pronoun], кажется, совершенно не замечает ничего вокруг.</li>
+		<li>desc_sentence->Само [PAWN_possessive] лицо, кажется, отекло.</li>
+		<li>desc_sentence->[PAWN_pronoun] практически без сознания, [PAWN_possessive] язык вывалился и свисает, с него капает слюна.</li>
+		<li>desc_sentence->[PAWN_pronoun] выглядит одновременно и счастливо, и грустно.</li>
+		<li>desc_sentence->У н[PAWN_possessive] спереди какие-то пятна.</li>
+		<li>desc_sentence->Позади н[PAWN_possessive] виден след из пустых бутылок.</li>
+		<li>desc_sentence->[PAWN_possessive] брюки в белых пятнах.</li>
+		<li>desc_sentence->У н[PAWN_possessive] на одной ноге нет ботинка.</li>
+		<li>desc_sentence->[PAWN_possessive] волосы растрёпаны.</li>
 	</Drunk.rulePack.rulesStrings>
 
 	<WasOnFire.label>огонь</WasOnFire.label>
 	<WasOnFire.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] загорается</li>
-		<li>image->, как [pawn_nameFull] яростно борется с огнём, охватившим [pawn_possessive] тело[circumstance_group]</li>
-		<li>image->[empty] [pawn_nameFull] среди языков пламени. [pawn_pronoun] пытается их сбить[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] стоит на коленях с руками над головой и пытается потушить пламя на своём теле[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull], горя, катается по полу[circumstance_group]</li>
+		<li>tale_noun->как [PAWN_nameShortDef] загорается</li>
+		<li>image->, как [PAWN_nameFull] яростно борется с огнём, охватившим [PAWN_possessive] тело[circumstance_group]</li>
+		<li>image->[empty] [PAWN_nameFull] среди языков пламени. [PAWN_pronoun] пытается их сбить[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] стоит на коленях с руками над головой и пытается потушить пламя на своём теле[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull], горя, катается по полу[circumstance_group]</li>
 		<li>circumstance_phrase->, в то время как другие просто наблюдают</li>
 		<li>circumstance_phrase->, будучи почти без одежды</li>
-		<li>circumstance_phrase->, [pawn_possessive] намерения ясно видны на [pawn_possessive] лице</li>
-		<li>desc_sentence->[pawn_possessive] плоть заметно обуглилась.</li>
-		<li>desc_sentence->[pawn_possessive] глаза расширены от страха.</li>
-		<li>desc_sentence->[pawn_pronoun] едва в сознании, в [pawn_possessive] глазах не видно жизни.</li>
-		<li>desc_sentence->[pawn_possessive] рот открыт, [pawn_pronoun] кричит о помощи.</li>
-		<li>desc_sentence->Пламя сейчас охватит [pawn_possessive] с головой.</li>
-		<li>desc_sentence->Символический огненный нимб окружает [pawn_possessive] лицо.</li>
-		<li>desc_sentence->[pawn_pronoun] маниакально смеётся.</li>
-		<li>desc_sentence->[pawn_pronoun] не понимает, что происходит.</li>
-		<li>desc_sentence->Над [pawn_nameShortDef] поднимается струйка дыма.</li>
-		<li>desc_sentence->Художник мастерски изображает [pawn_possessive] с выражением лица, характерным для мёртвого человека.</li>
+		<li>circumstance_phrase->, [PAWN_possessive] намерения ясно видны на [PAWN_possessive] лице</li>
+		<li>desc_sentence->[PAWN_possessive] плоть заметно обуглилась.</li>
+		<li>desc_sentence->[PAWN_possessive] глаза расширены от страха.</li>
+		<li>desc_sentence->[PAWN_pronoun] едва в сознании, в [PAWN_possessive] глазах не видно жизни.</li>
+		<li>desc_sentence->[PAWN_possessive] рот открыт, [PAWN_pronoun] кричит о помощи.</li>
+		<li>desc_sentence->Пламя сейчас охватит [PAWN_possessive] с головой.</li>
+		<li>desc_sentence->Символический огненный нимб окружает [PAWN_possessive] лицо.</li>
+		<li>desc_sentence->[PAWN_pronoun] маниакально смеётся.</li>
+		<li>desc_sentence->[PAWN_pronoun] не понимает, что происходит.</li>
+		<li>desc_sentence->Над [PAWN_nameShortDef] поднимается струйка дыма.</li>
+		<li>desc_sentence->Художник мастерски изображает [PAWN_possessive] с выражением лица, характерным для мёртвого человека.</li>
 	</WasOnFire.rulePack.rulesStrings>
 
 	<MentalStateBerserk.label>потеря рассудка</MentalStateBerserk.label>
 	<MentalStateBerserk.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] теряет рассудок</li>
-		<li>image->, как [pawn_nameFull] входит в ярость[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] сходит с ума[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] ковыляет вперёд с видом психопата[circumstance_group]</li>
+		<li>tale_noun->как [PAWN_nameShortDef] теряет рассудок</li>
+		<li>image->, как [PAWN_nameFull] входит в ярость[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] сходит с ума[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] ковыляет вперёд с видом психопата[circumstance_group]</li>
 		<li>circumstance_phrase->, пытаясь при этом раздеться</li>
 		<li>circumstance_phrase->[empty] без видимой на то причины</li>
 		<li>circumstance_phrase->, в то время как другие корчатся от страха</li>
-		<li>circumstance_phrase->, в то время как [pawn_possessive] друг спасается бегством</li>
+		<li>circumstance_phrase->, в то время как [PAWN_possessive] друг спасается бегством</li>
 		<li>circumstance_phrase->[empty] из-за стресса</li>
 		<li>circumstance_phrase->, не владея более собой</li>
-		<li>desc_sentence->[pawn_pronoun] дрожит от неконтролируемой ярости.</li>
-		<li>desc_sentence->[pawn_possessive] зубы обнажаются в смертоносном оскале.</li>
-		<li>desc_sentence->в [pawn_possessive] замерших глазах плещется безумие.</li>
-		<li>desc_sentence->Плевки летят из [pawn_possessive] рта, в то время как [pawn_pronoun] кричит в безумной ярости.</li>
-		<li>desc_sentence->[pawn_pronoun] рвёт на себе одежду.</li>
-		<li>desc_sentence->[pawn_pronoun] корчится в мученических гримасах.</li>
-		<li>desc_sentence->[pawn_pronoun] маниакально улыбается.</li>
-		<li>desc_sentence->[pawn_pronoun] рычит, как [Animal].</li>
-		<li>desc_sentence->Над [pawn_possessive] головой символически изображается [Animal].</li>
-		<li>desc_sentence->В [pawn_possessive] глазах виден убийственный блеск.</li>
-		<li>desc_sentence->Всё [pawn_possessive] тело дрожит от ненависти.</li>
-		<li>desc_sentence->[pawn_possessive] лицо замерло в извращённом спокойствии.</li>
-		<li>desc_sentence->Одинокая слеза скатывается по [pawn_possessive] лицу.</li>
+		<li>desc_sentence->[PAWN_pronoun] дрожит от неконтролируемой ярости.</li>
+		<li>desc_sentence->[PAWN_possessive] зубы обнажаются в смертоносном оскале.</li>
+		<li>desc_sentence->в [PAWN_possessive] замерших глазах плещется безумие.</li>
+		<li>desc_sentence->Плевки летят из [PAWN_possessive] рта, в то время как [PAWN_pronoun] кричит в безумной ярости.</li>
+		<li>desc_sentence->[PAWN_pronoun] рвёт на себе одежду.</li>
+		<li>desc_sentence->[PAWN_pronoun] корчится в мученических гримасах.</li>
+		<li>desc_sentence->[PAWN_pronoun] маниакально улыбается.</li>
+		<li>desc_sentence->[PAWN_pronoun] рычит, как [Animal].</li>
+		<li>desc_sentence->Над [PAWN_possessive] головой символически изображается [Animal].</li>
+		<li>desc_sentence->В [PAWN_possessive] глазах виден убийственный блеск.</li>
+		<li>desc_sentence->Всё [PAWN_possessive] тело дрожит от ненависти.</li>
+		<li>desc_sentence->[PAWN_possessive] лицо замерло в извращённом спокойствии.</li>
+		<li>desc_sentence->Одинокая слеза скатывается по [PAWN_possessive] лицу.</li>
 	</MentalStateBerserk.rulePack.rulesStrings>
 
 	<MentalStateGaveUp.label>отчаяние</MentalStateGaveUp.label>
 	<MentalStateGaveUp.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] сдаётся в отчаянии</li>
-		<li>image->, как [pawn_nameFull] наконец сдаётся под стрессом[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] плачет навзрыд[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] ковыляет кругами с совершенно разбитым видом[circumstance_group]</li>
+		<li>tale_noun->как [PAWN_nameShortDef] сдаётся в отчаянии</li>
+		<li>image->, как [PAWN_nameFull] наконец сдаётся под стрессом[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] плачет навзрыд[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] ковыляет кругами с совершенно разбитым видом[circumstance_group]</li>
 		<li>circumstance_phrase->, пытаясь при этом раздеться</li>
 		<li>circumstance_phrase->[empty] без видимой на то причины</li>
 		<li>circumstance_phrase->, в то время как другие сочувствуют</li>
-		<li>circumstance_phrase->, в то время как [pawn_possessive] друзья плачут</li>
+		<li>circumstance_phrase->, в то время как [PAWN_possessive] друзья плачут</li>
 		<li>circumstance_phrase->[empty] из-за перенапряжения</li>
 		<li>circumstance_phrase->, находясь в отчаянии</li>
-		<li>desc_sentence->Слёзы текут по [pawn_possessive] лицу.</li>
-		<li>desc_sentence->По истеричной гримасе смеха видно, как глубока [pawn_possessive] депрессия.</li>
-		<li>desc_sentence->[pawn_nameShortDef] смотрит вверх, словно прося о помощи свыше.</li>
-		<li>desc_sentence->[pawn_pronoun] рвёт на себе одежду.</li>
-		<li>desc_sentence->[pawn_pronoun], кажется, совершенно не замечает ничего вокруг.</li>
-		<li>desc_sentence->[pawn_pronoun] выглядит одновременно счастливо и грустно.</li>
-		<li>desc_sentence->У н[pawn_possessive] спереди какие-то пятна.</li>
-		<li>desc_sentence->[pawn_pronoun], кажется, не замечает, что ходит без одного ботинка.</li>
-		<li>desc_sentence->[pawn_possessive] волосы растрёпаны.</li>
+		<li>desc_sentence->Слёзы текут по [PAWN_possessive] лицу.</li>
+		<li>desc_sentence->По истеричной гримасе смеха видно, как глубока [PAWN_possessive] депрессия.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] смотрит вверх, словно прося о помощи свыше.</li>
+		<li>desc_sentence->[PAWN_pronoun] рвёт на себе одежду.</li>
+		<li>desc_sentence->[PAWN_pronoun], кажется, совершенно не замечает ничего вокруг.</li>
+		<li>desc_sentence->[PAWN_pronoun] выглядит одновременно счастливо и грустно.</li>
+		<li>desc_sentence->У н[PAWN_possessive] спереди какие-то пятна.</li>
+		<li>desc_sentence->[PAWN_pronoun], кажется, не замечает, что ходит без одного ботинка.</li>
+		<li>desc_sentence->[PAWN_possessive] волосы растрёпаны.</li>
 	</MentalStateGaveUp.rulePack.rulesStrings>
 
 	<WalkedNaked.label>поход голышом</WalkedNaked.label>
 	<WalkedNaked.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] ходит голышом</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] [nude_action] будучи в единении с природой</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] [nude_action] в голом виде</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] [nude_action] голышом</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] [nude_action] совершенно без одежды</li>
+		<li>tale_noun->как [PAWN_nameShortDef] ходит голышом</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] [nude_action] будучи в единении с природой</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] [nude_action] в голом виде</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] [nude_action] голышом</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] [nude_action] совершенно без одежды</li>
 		<li>nude_action->скачет</li>
 		<li>nude_action->резвится</li>
 		<li>nude_action->скачет</li>
@@ -185,18 +185,18 @@
 		<li>circumstance_phrase->у всех на виду</li>
 		<li>circumstance_phrase->без какой-либо причины</li>
 		<li>desc_sentence->Сбитые с толку животные просто наблюдают за происходящим.</li>
-		<li>desc_sentence->[pawn_nameShortDef] явно пребывает в возбуждении.</li>
-		<li>desc_sentence->[pawn_possessive] тело покрыто какой-то неопознанной жидкостью.</li>
-		<li>desc_sentence->[pawn_nameShortDef] тяжело дышит без явных на то причин.</li>
-		<li>desc_sentence->[pawn_nameShortDef] гладит куст.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] явно пребывает в возбуждении.</li>
+		<li>desc_sentence->[PAWN_possessive] тело покрыто какой-то неопознанной жидкостью.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] тяжело дышит без явных на то причин.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] гладит куст.</li>
 	</WalkedNaked.rulePack.rulesStrings>
 
 	<AteRawHumanlikeMeat.label>съедено сырое человеческое мясо</AteRawHumanlikeMeat.label>
 	<AteRawHumanlikeMeat.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] ест человеческое мясо</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] [eat_gerund] мясо, определённо принадлежащее гуманоиду</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] [eat_gerund] мясо с руки, похожей на человеческую</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] [eat_gerund] мясо человека</li>
+		<li>tale_noun->как [PAWN_nameShortDef] ест человеческое мясо</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] [eat_gerund] мясо, определённо принадлежащее гуманоиду</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] [eat_gerund] мясо с руки, похожей на человеческую</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] [eat_gerund] мясо человека</li>
 		<li>eat_gerund->поедает</li>
 		<li>eat_gerund->уплетает</li>
 		<li>eat_gerund->жуёт</li>
@@ -209,77 +209,77 @@
 		<li>circumstance_phrase->[empty] с чувством стыда</li>
 		<li>circumstance_phrase->, пока другие молча смотрят,</li>
 		<li>circumstance_phrase->[empty] со смаком</li>
-		<li>circumstance_phrase->, бешено, словно [pawn_possessive] жизнь зависит от этого,</li>
-		<li>desc_sentence->Всё лицо [pawn_nameShortDef] покрыто кровью.</li>
-		<li>desc_sentence->[pawn_nameShortDef] облизывает свои пальцы.</li>
-		<li>desc_sentence->[pawn_possessive] лицо и руки измазаны кровью и кусками внутренностей.</li>
-		<li>desc_sentence->[pawn_nameShortDef] в середине огромной лужи крови.</li>
-		<li>desc_sentence->[pawn_nameShortDef] смотрит на кого-то неподалёку с голодным блеском в глазах.</li>
+		<li>circumstance_phrase->, бешено, словно [PAWN_possessive] жизнь зависит от этого,</li>
+		<li>desc_sentence->Всё лицо [PAWN_nameShortDef] покрыто кровью.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] облизывает свои пальцы.</li>
+		<li>desc_sentence->[PAWN_possessive] лицо и руки измазаны кровью и кусками внутренностей.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] в середине огромной лужи крови.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] смотрит на кого-то неподалёку с голодным блеском в глазах.</li>
 		<li>desc_sentence->Мясо блестит и выглядит очень сочным.</li>
-		<li>desc_sentence->Всё [pawn_possessive] тело облеплено кусками мяса.</li>
+		<li>desc_sentence->Всё [PAWN_possessive] тело облеплено кусками мяса.</li>
 	</AteRawHumanlikeMeat.rulePack.rulesStrings>
 
 	<CraftedArt.label>создан предмет искусства</CraftedArt.label>
 	<CraftedArt.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] создаёт [thing_labelIndefinite]</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] делает [thing_labelIndefinite]. [quality_sentence]. [title_sentence]</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] завершает свою работу над [thing_labelIndefinite]. [quality_sentence]. [title_sentence]</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] работает над [thing_labelIndefinite]. [quality_sentence]. [title_sentence]</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] делает [thing_labelIndefinite]. [quality_sentence]. [title_sentence]</li>
+		<li>tale_noun->как [PAWN_nameShortDef] создаёт [THING_indefinite]</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] делает [THING_indefinite]. [quality_sentence]. [title_sentence]</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] завершает свою работу над [THING_indefinite]. [quality_sentence]. [title_sentence]</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] работает над [THING_indefinite]. [quality_sentence]. [title_sentence]</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] делает [THING_indefinite]. [quality_sentence]. [title_sentence]</li>
 		<li>circumstance_phrase->с полной концентрацией</li>
 		<li>circumstance_phrase->с выражением удовлетворения на лице</li>
 		<li>circumstance_phrase->за своим верстаком</li>
 		<li>circumstance_phrase->с большой интенсивностью</li>
 		<li>desc_sentence->Повсюду разбросаны инструменты.</li>
-		<li>desc_sentence->У н[pawn_possessive] видны царапины и шрамы от производственных травм.</li>
-		<li>desc_sentence->[pawn_pronoun] работает в поте лица.</li>
+		<li>desc_sentence->У н[PAWN_possessive] видны царапины и шрамы от производственных травм.</li>
+		<li>desc_sentence->[PAWN_pronoun] работает в поте лица.</li>
 		<li>desc_sentence->Рабочая зона хорошо организована, каждый инструмент лежит на своём месте.</li>
-		<li>desc_sentence->[pawn_pronoun] изображается несколько выше ростом, что придаёт [pawn_objective] важный вид.</li>
+		<li>desc_sentence->[PAWN_pronoun] изображается несколько выше ростом, что придаёт [PAWN_objective] важный вид.</li>
 		<li>desc_sentence->[item_labelDefinite] изображается в несколько преувеличенном виде, что подчёркивает важность этого предмета.</li>
 		<li>desc_sentence->[item_labelDefinite] кажется почти божественным, так как ему добавлено художественное свечение.</li>
-		<li>desc_sentence->[pawn_nameShortDef] отведён на второй план, чтобы сделать акцент на [pawn_possessive] новом произведении.</li>
-		<li>desc_sentence->[pawn_possessive] окружает группа зрителей.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] отведён на второй план, чтобы сделать акцент на [PAWN_possessive] новом произведении.</li>
+		<li>desc_sentence->[PAWN_possessive] окружает группа зрителей.</li>
 		<li>desc_sentence->На фоне ликует толпа.</li>
-		<li>quality_sentence->похоже, что [thing_labelDefinite] качества «[thing_quality]».</li>
-		<li>quality_sentence->[thing_labelDefinite] — качества «[thing_quality]».</li>
-		<li>quality_sentence->работа автора по имени [pawn_nameShortDef] определённо качества «[thing_quality]».</li>
-		<li>title_sentence->Снизу написано название: «[thing_title]».</li>
-		<li>title_sentence->На этом предмете красуется название: «[thing_title]».</li>
-		<li>title_sentence->Название, «[thing_title]», висит сзади.</li>
+		<li>quality_sentence->похоже, что [THING_definite] качества «[THING_quality]».</li>
+		<li>quality_sentence->[THING_definite] — качества «[THING_quality]».</li>
+		<li>quality_sentence->работа автора по имени [PAWN_nameShortDef] определённо качества «[THING_quality]».</li>
+		<li>title_sentence->Снизу написано название: «[THING_title]».</li>
+		<li>title_sentence->На этом предмете красуется название: «[THING_title]».</li>
+		<li>title_sentence->Название, «[THING_title]», висит сзади.</li>
 	</CraftedArt.rulePack.rulesStrings>
 
 	<StruckMineable.label>добыт ресурс</StruckMineable.label>
 	<StruckMineable.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] находит [thing_label]</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] находит [thing_label]</li>
+		<li>tale_noun->как [PAWN_nameShortDef] находит [THING_label]</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] находит [THING_label]</li>
 		<li>circumstance_phrase->во время проведения горных работ</li>
 		<li>circumstance_phrase->во время рытья</li>
 		<li>circumstance_phrase->при прокладке туннелей</li>
 		<li>circumstance_phrase->с удивлённым видом</li>
 		<li>circumstance_phrase->с удовлетворённым выражением лица</li>
-		<li>desc_sentence->[pawn_nameShortDef] вытирает свой лоб.</li>
-		<li>desc_sentence-> [pawn_nameShortDef] прыгает от радости.</li>
-		<li>desc_sentence->[pawn_nameShortDef] даёт пять другу.</li>
-		<li>desc_sentence->[pawn_nameShortDef] кричит от счастья.</li>
-		<li>desc_sentence->[pawn_nameShortDef] неудержимо хохочет.</li>
-		<li>desc_sentence->[pawn_possessive] покрывает слой пота и грязи.</li>
-		<li>desc_sentence->[pawn_possessive] лицо покрыто потом и грязью.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] вытирает свой лоб.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] прыгает от радости.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] даёт пять другу.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] кричит от счастья.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] неудержимо хохочет.</li>
+		<li>desc_sentence->[PAWN_possessive] покрывает слой пота и грязи.</li>
+		<li>desc_sentence->[PAWN_possessive] лицо покрыто потом и грязью.</li>
 	</StruckMineable.rulePack.rulesStrings>
 
 	<FinishedResearchProject.label>завершено исследование</FinishedResearchProject.label>
 	<FinishedResearchProject.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] завершает исследование «[project_label]»</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] работает над исследовательским проектом «[project_label]»</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] изучает секреты проекта «[project_label]»</li>
-		<li>image->, как [pawn_nameFull] [circumstance_group] исследует проект «[project_label]»</li>
+		<li>tale_noun->как [PAWN_nameShortDef] завершает исследование «[PROJECT_label]»</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] работает над исследовательским проектом «[PROJECT_label]»</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] изучает секреты проекта «[PROJECT_label]»</li>
+		<li>image->, как [PAWN_nameFull] [circumstance_group] исследует проект «[PROJECT_label]»</li>
 		<li>circumstance_phrase->с большой интенсивностью</li>
 		<li>circumstance_phrase->в одиночестве за своим верстаком</li>
-		<li>circumstance_phrase->с бумагами в [pawn_possessive] руках</li>
+		<li>circumstance_phrase->с бумагами в [PAWN_possessive] руках</li>
 		<li>circumstance_phrase->с видом ликующего очарования</li>
-		<li>desc_sentence->[pawn_nameShortDef] потеет.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] потеет.</li>
 		<li>desc_sentence->Работа, судя по всему, очень трудна.</li>
-		<li>desc_sentence->[pawn_possessive] окружают горы различных инструментов и аппаратов.</li>
-		<li>desc_sentence->[pawn_nameShortDef] смотрит на своё открытие с благоговейным трепетом.</li>
+		<li>desc_sentence->[PAWN_possessive] окружают горы различных инструментов и аппаратов.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] смотрит на своё открытие с благоговейным трепетом.</li>
 	</FinishedResearchProject.rulePack.rulesStrings>
 
 </LanguageData>

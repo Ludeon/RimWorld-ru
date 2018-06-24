@@ -134,8 +134,8 @@
 	<Maneuver_Smash.rulePack.rulesStrings>
 		<li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
 		<li>flavortextconsequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
-		<li>flavortextconsequence->сбивая [recipient_objective] с ног</li>
-		<li>flavortextconsequence->отшвыривая [recipient_objective] в сторону</li>
+		<li>flavortextconsequence->сбивая [RECIPIENT_objective] с ног</li>
+		<li>flavortextconsequence->отшвыривая [RECIPIENT_objective] в сторону</li>
 
 		<li>destroyed_suffix->в лепёшку</li>
 		<li>destroyed_suffix->в кашу</li>
@@ -213,8 +213,8 @@
 
 		<li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
 		<li>flavortextconsequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
-		<li>flavortextconsequence->сбивая [recipient_objective] с ног</li>
-		<li>flavortextconsequence->отшвыривая [recipient_objective] в сторону</li>
+		<li>flavortextconsequence->сбивая [RECIPIENT_objective] с ног</li>
+		<li>flavortextconsequence->отшвыривая [RECIPIENT_objective] в сторону</li>
 
 		<li>destroyed->протыкает</li>
 		<li>destroyed->раздавливает</li>
@@ -278,19 +278,19 @@
 	
 	
 	<Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
-		<li>r_logentry->[initiator_definite] бросает [tool_label] в глаза [recipient_definite].</li>
-		<li>r_logentry(p=0.2)->[initiator_definite] пинает [tool_label] в глаза [recipient_definite].</li>
+		<li>r_logentry->[INITIATOR_definite] бросает [TOOL_label] в глаза [RECIPIENT_definite].</li>
+		<li>r_logentry(p=0.2)->[INITIATOR_definite] пинает [TOOL_label] в глаза [RECIPIENT_definite].</li>
 	</Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
 
 
 	<Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
-		<li>r_logentry->[initiator_definite] пытается кинуть [tool_label] в глаза [recipient_definite], но промахивается.</li>
+		<li>r_logentry->[INITIATOR_definite] пытается кинуть [TOOL_label] в глаза [RECIPIENT_definite], но промахивается.</li>
 	</Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
 
 
 	<Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-		<li>r_logentry->[initiator_definite] пытается кинуть [tool_label] в глаза [recipient_definite], но [recipient_definite] уворачивается.</li>
-		<li>r_logentry->[initiator_definite] пытается кинуть [tool_label] в глаза [recipient_definite], но [recipient_definite] вовремя закрывает лицо.</li>
+		<li>r_logentry->[INITIATOR_definite] пытается кинуть [TOOL_label] в глаза [RECIPIENT_definite], но [RECIPIENT_definite] уворачивается.</li>
+		<li>r_logentry->[INITIATOR_definite] пытается кинуть [TOOL_label] в глаза [RECIPIENT_definite], но [RECIPIENT_definite] вовремя закрывает лицо.</li>
 	</Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
 	
 </LanguageData>

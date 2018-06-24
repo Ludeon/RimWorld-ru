@@ -3,22 +3,22 @@
 
 	<LaunchedShip.label>запуск корабля</LaunchedShip.label>
 	<LaunchedShip.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] улетает с планеты</li>
-		<li>tale_noun->как [pawn_nameShortDef] взлетает на космическом корабле</li>
-		<li>image->, как [pawn_nameFull] мчится к звёздам[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] взлетает[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] разгоняется до второй космической скорости[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] летит в ракете[circumstance_group]</li>
+		<li>tale_noun->как [PAWN_nameShortDef] улетает с планеты</li>
+		<li>tale_noun->как [PAWN_nameShortDef] взлетает на космическом корабле</li>
+		<li>image->, как [PAWN_nameFull] мчится к звёздам[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] взлетает[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] разгоняется до второй космической скорости[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] летит в ракете[circumstance_group]</li>
 		<li>circumstance_phrase->[empty] in front of a [TerrainFeature]</li>
 		<li>circumstance_phrase->, ускоряясь с невероятной силой</li>
 		<li>circumstance_phrase->[empty] в шлейфе из реактивных газов</li>
 		<li>circumstance_phrase->[empty] с эффектно работающими двигателями</li>
 		<li>circumstance_phrase->, не отклоняясь от рассчитанной траектории</li>
-		<li>desc_sentence->Всё [pawn_possessive] внимание сосредоточено на управлении.</li>
-		<li>desc_sentence->[pawn_possessive] глаза закрыты, [pawn_pronoun] выглядит уверенно.</li>
-		<li>desc_sentence->[pawn_pronoun] спит, [pawn_possessive] безмятежно закрыты.</li>
-		<li>desc_sentence->[pawn_pronoun] зловеще улыбается.</li>
-		<li>desc_sentence->[pawn_pronoun], по-видимому, полностью контролирует ситуацию.</li>
+		<li>desc_sentence->Всё [PAWN_possessive] внимание сосредоточено на управлении.</li>
+		<li>desc_sentence->[PAWN_possessive] глаза закрыты, [PAWN_pronoun] выглядит уверенно.</li>
+		<li>desc_sentence->[PAWN_pronoun] спит, [PAWN_possessive] безмятежно закрыты.</li>
+		<li>desc_sentence->[PAWN_pronoun] зловеще улыбается.</li>
+		<li>desc_sentence->[PAWN_pronoun], по-видимому, полностью контролирует ситуацию.</li>
 		<li>desc_sentence->Небо прочертил огненный след, языки пламени охватывают корабль.</li>
 		<li>desc_sentence->[Animal] неподалёку испуганно смотрит вверх.</li>
 		<li>desc_sentence->[Animal] со страху несётся прочь.</li>
@@ -28,28 +28,28 @@
 
 	<SocialFight.label>потасовка</SocialFight.label>
 	<SocialFight.rulePack.rulesStrings>
-		<li>tale_noun->как [pawna_nameShortDef] [fight_name_present] [pawnb_nameShortDef]</li>
-		<li>image->, как [pawna_nameFull] оскорбляет [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->, как [pawna_nameFull] отпускает колкости в адрес [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->, как [pawna_nameFull] угрожает [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->, как [pawna_nameFull] запугивает [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->, как [pawna_nameFull] атакует [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->, как [pawna_nameFull] нападает на [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->, как [pawna_nameFull] бьёт [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->, как [pawna_nameFull] пинает [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->, как [pawna_nameFull] отбивается от [pawnb_nameFull] [circumstance_group]</li>
+		<li>tale_noun->как [INITIATOR_nameShortDef] [fight_name_present] [RESPONDER_nameShortDef]</li>
+		<li>image->, как [INITIATOR_nameFull] оскорбляет [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->, как [INITIATOR_nameFull] отпускает колкости в адрес [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->, как [INITIATOR_nameFull] угрожает [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->, как [INITIATOR_nameFull] запугивает [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->, как [INITIATOR_nameFull] атакует [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->, как [INITIATOR_nameFull] нападает на [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->, как [INITIATOR_nameFull] бьёт [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->, как [INITIATOR_nameFull] пинает [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->, как [INITIATOR_nameFull] отбивается от [RESPONDER_nameFull] [circumstance_group]</li>
 		<li>fight_name_present->бьёт</li>
 		<li>fight_name_present->атакует</li>
 		<li>fight_name_present->дерётся с</li>
-		<li>circumstance_phrase->, пока [pawnb_nameShortDef] оскорбляет [pawna_possessive]</li>
-		<li>circumstance_phrase->, пока [pawnb_nameShortDef] отпускает колкости в [pawna_possessive] адрес</li>
-		<li>circumstance_phrase->, пока [pawnb_nameShortDef] [pawna_objective] угрожает</li>
-		<li>circumstance_phrase->, пока [pawnb_nameShortDef] запугивает [pawna_possessive]</li>
-		<li>circumstance_phrase->, пока [pawnb_nameShortDef] атакует [pawna_possessive]</li>
-		<li>circumstance_phrase->, пока [pawnb_nameShortDef] нападает на н[pawna_possessive]</li>
-		<li>circumstance_phrase->, пока [pawnb_nameShortDef] бьёт [pawna_possessive]</li>
-		<li>circumstance_phrase->, пока [pawnb_nameShortDef] пинает [pawna_possessive]</li>
-		<li>circumstance_phrase->, пока [pawnb_nameShortDef] отбивается от н[pawna_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] оскорбляет [INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] отпускает колкости в [INITIATOR_possessive] адрес</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] [INITIATOR_objective] угрожает</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] запугивает [INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] атакует [INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] нападает на н[INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] бьёт [INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] пинает [INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] отбивается от н[INITIATOR_possessive]</li>
 		<li>desc_sentence->[target] не испытывает угрызений совести.</li>
 		<li>desc_sentence->[target] гневно огрызается.</li>
 		<li>desc_sentence->Лицо [target] не выражает никаких эмоций.</li>
@@ -57,25 +57,25 @@
 		<li>desc_sentence->[target] яростно кричит.</li>
 		<li>desc_sentence->[target] закрывает свои раны руками.</li>
 		<li>desc_sentence->В глазах [target] горит недобный [Color] огонёк.</li>
-		<li>target->[pawna_nameShortDef]</li>
-		<li>target->[pawnb_nameShortDef]</li>
+		<li>target->[INITIATOR_nameShortDef]</li>
+		<li>target->[RESPONDER_nameShortDef]</li>
 	</SocialFight.rulePack.rulesStrings>
 
 	<CollapseDodged.label>обрушение потолка</CollapseDodged.label>
 	<CollapseDodged.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] уворачивается от обломков потолка</li>
-		<li>tale_noun->как [pawn_nameShortDef] чуть не попадает под обвал потолка</li>
-		<li>image->, как [pawn_nameFull] отпрыгивает в сторону от падающих обломков, [circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] едва уворачивается от обломков потолка, [circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] чудом избегает смерти под обломками, [circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] чуть не оказывается под падающими обломками, [circumstance_group]</li>
+		<li>tale_noun->как [PAWN_nameShortDef] уворачивается от обломков потолка</li>
+		<li>tale_noun->как [PAWN_nameShortDef] чуть не попадает под обвал потолка</li>
+		<li>image->, как [PAWN_nameFull] отпрыгивает в сторону от падающих обломков, [circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] едва уворачивается от обломков потолка, [circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] чудом избегает смерти под обломками, [circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] чуть не оказывается под падающими обломками, [circumstance_group]</li>
 		<li>circumstance_phrase->очертания которых размыты в образовавшемся облаке пыли и мусора</li>
-		<li>circumstance_phrase->что могли бы легко раздавить [pawn_possessive] в лепёшку</li>
+		<li>circumstance_phrase->что могли бы легко раздавить [PAWN_possessive] в лепёшку</li>
 		<li>circumstance_phrase->что разбиваются о землю с невероятной силой</li>
-		<li>desc_sentence->[pawn_pronoun] обильно потеет.</li>
-		<li>desc_sentence->[pawn_possessive] лицо выражает сильный испуг.</li>
-		<li>desc_sentence->[pawn_pronoun] потирает рукой полученные царапины.</li>
-		<li>desc_sentence->[pawn_pronoun] теряет равновесие.</li>
+		<li>desc_sentence->[PAWN_pronoun] обильно потеет.</li>
+		<li>desc_sentence->[PAWN_possessive] лицо выражает сильный испуг.</li>
+		<li>desc_sentence->[PAWN_pronoun] потирает рукой полученные царапины.</li>
+		<li>desc_sentence->[PAWN_pronoun] теряет равновесие.</li>
 	</CollapseDodged.rulePack.rulesStrings>
 
 </LanguageData>

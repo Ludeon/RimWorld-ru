@@ -5,80 +5,80 @@
 		Перед[circumstance_group] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
 		В этих случая для оборотов без знаков препинания следует использовать конструкцию "[empty] <сама фраза>"
 
-		[pawn_nameFull] и [pawn_nameShortDef] - имена персонажа
-		[pawn_pronoun] - he/she - он/она - как [PAWN_pronoun]
-		[pawn_possessive] - his/her - его/её - как [PAWN_possessive]
-		[pawn_objective] - him/her - ему/ей
+		[PAWN_nameFull] и [PAWN_nameShortDef] - имена персонажа
+		[PAWN_pronoun] - he/she - он/она - как [PAWN_pronoun]
+		[PAWN_possessive] - his/her - его/её - как [PAWN_possessive]
+		[PAWN_objective] - him/her - ему/ей
 	-->
 
 	<BondedWithAnimal.label>возникла привязанность</BondedWithAnimal.label>
 	<BondedWithAnimal.rulePack.rulesStrings>
-		<li>tale_noun->как [animal_nameShortDef] привязался к [human_nameShortDef]</li>
-		<li>image->[animal_nameFull] и [human_nameShortDef], между которыми возникает привязанность[circumstance_group]</li>
-		<li>image->[human_nameFull] и [animal_nameFull], между которыми возникает глубокая привязанность[circumstance_group]</li>
-		<li>image->, как [human_nameFull] осознаёт, что [pawn_pronoun] любит [animal_nameFull][circumstance_group]</li>
+		<li>tale_noun->как [ANIMAL_nameShortDef] привязался к [HUMAN_nameShortDef]</li>
+		<li>image->[ANIMAL_nameFull] и [HUMAN_nameShortDef], между которыми возникает привязанность[circumstance_group]</li>
+		<li>image->[HUMAN_nameFull] и [ANIMAL_nameFull], между которыми возникает глубокая привязанность[circumstance_group]</li>
+		<li>image->, как [HUMAN_nameFull] осознаёт, что [PAWN_pronoun] любит [ANIMAL_nameFull][circumstance_group]</li>
 		<li>circumstance_phrase->, пока другие животные смотрят на них</li>
-		<li>circumstance_phrase->. [human_nameShortDef] глядит глубоко в [animal_possessive] глаза</li>
-		<li>circumstance_phrase->. [human_nameShortDef] чувствует удовлетворение</li>
-		<li>desc_sentence->[animal_nameShortDef] прижимается к [human_nameShortDef].</li>
-		<li>desc_sentence->животное, [animal_nameShortDef], выглядит сонным и опьянённым от любви.</li>
-		<li>desc_sentence->[animal_nameShortDef] не роняет достоинства и выглядит величественно.</li>
-		<li>desc_sentence->[animal_nameShortDef] отвечает взаимной любовью.</li>
+		<li>circumstance_phrase->. [HUMAN_nameShortDef] глядит глубоко в [ANIMAL_possessive] глаза</li>
+		<li>circumstance_phrase->. [HUMAN_nameShortDef] чувствует удовлетворение</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] прижимается к [HUMAN_nameShortDef].</li>
+		<li>desc_sentence->животное, [ANIMAL_nameShortDef], выглядит сонным и опьянённым от любви.</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] не роняет достоинства и выглядит величественно.</li>
+		<li>desc_sentence->[ANIMAL_nameShortDef] отвечает взаимной любовью.</li>
 	</BondedWithAnimal.rulePack.rulesStrings>
 
 	<BecameLover.label>любовь</BecameLover.label>
 	<BecameLover.rulePack.rulesStrings>
-		<li>tale_noun->как [firstPawn_nameShortDef] и [secondPawn_nameShortDef] стали любовниками</li>
-		<li>image->, как [firstPawn_nameFull] шепчет сладкие пустяки в ухо [secondPawn_nameFull][circumstance_group]</li>
-		<li>image->, как [firstPawn_nameFull] ведёт [secondPawn_nameFull] за руку к кровати[circumstance_group]</li>
-		<li>image->, как [firstPawn_nameFull] резвится в кровати с [secondPawn_nameFull][circumstance_group]</li>
-		<li>image->, как [firstPawn_nameFull] горячо целует [secondPawn_nameFull][circumstance_group]</li>
+		<li>tale_noun->как [PURSUER_nameShortDef] и [ACCEPTER_nameShortDef] стали любовниками</li>
+		<li>image->, как [PURSUER_nameFull] шепчет сладкие пустяки в ухо [ACCEPTER_nameFull][circumstance_group]</li>
+		<li>image->, как [PURSUER_nameFull] ведёт [ACCEPTER_nameFull] за руку к кровати[circumstance_group]</li>
+		<li>image->, как [PURSUER_nameFull] резвится в кровати с [ACCEPTER_nameFull][circumstance_group]</li>
+		<li>image->, как [PURSUER_nameFull] горячо целует [ACCEPTER_nameFull][circumstance_group]</li>
 		<li>circumstance_phrase->[empty] на неправдоподобно большой кровати</li>
 		<li>circumstance_phrase->[empty] между одеял</li>
 		<li>circumstance_phrase->[empty] практически без одежды</li>
 		<li>circumstance_phrase->, оба покрыты потом</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] прижимается к [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] не отрываясь глядит на [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] посылает воздушный поцелуй [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] стилистически изображается неотрывно от [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] словно зеркальное отражение [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] настойчиво прикасается к [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[PURSUER_nameShortDef] прижимается к [ACCEPTER_nameShortDef].</li>
+		<li>desc_sentence->[PURSUER_nameShortDef] не отрываясь глядит на [ACCEPTER_nameShortDef].</li>
+		<li>desc_sentence->[PURSUER_nameShortDef] посылает воздушный поцелуй [ACCEPTER_nameShortDef].</li>
+		<li>desc_sentence->[PURSUER_nameShortDef] стилистически изображается неотрывно от [ACCEPTER_nameShortDef].</li>
+		<li>desc_sentence->[PURSUER_nameShortDef] словно зеркальное отражение [ACCEPTER_nameShortDef].</li>
+		<li>desc_sentence->[PURSUER_nameShortDef] настойчиво прикасается к [ACCEPTER_nameShortDef].</li>
 	</BecameLover.rulePack.rulesStrings>
 
 	<Breakup.label>расставание</Breakup.label>
 	<Breakup.rulePack.rulesStrings>
-		<li>tale_noun->как расстались [firstPawn_nameShortDef] и [secondPawn_nameShortDef]</li>
-		<li>image->, как [firstPawn_nameFull] усаживает [secondPawn_nameFull] для неприятного разговора[circumstance_group]</li>
-		<li>image->, как [firstPawn_nameFull] отдаляется от [secondPawn_nameFull][circumstance_group]</li>
-		<li>image->, как [firstPawn_nameFull] выталкивает [secondPawn_nameFull] из кровати[circumstance_group]</li>
-		<li>image->, как [firstPawn_nameFull] отвергает объятия [secondPawn_nameFull][circumstance_group]</li>
+		<li>tale_noun->как расстались [DUMPER_nameShortDef] и [REJECTED_nameShortDef]</li>
+		<li>image->, как [DUMPER_nameFull] усаживает [REJECTED_nameFull] для неприятного разговора[circumstance_group]</li>
+		<li>image->, как [DUMPER_nameFull] отдаляется от [REJECTED_nameFull][circumstance_group]</li>
+		<li>image->, как [DUMPER_nameFull] выталкивает [REJECTED_nameFull] из кровати[circumstance_group]</li>
+		<li>image->, как [DUMPER_nameFull] отвергает объятия [REJECTED_nameFull][circumstance_group]</li>
 		<li>circumstance_phrase->[empty] в момент великой печали</li>
 		<li>circumstance_phrase->, пока другие неловко отворачиваются</li>
 		<li>circumstance_phrase->, пока другие смотрят</li>
-		<li>desc_sentence->[secondPawn_nameShortDef] безудержно рыдает.</li>
-		<li>desc_sentence->[secondPawn_nameShortDef] одновременно насмехается и плачет.</li>
-		<li>desc_sentence->[secondPawn_nameShortDef] пребывает в удивлении.</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] стилистически изображается отдельно от [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[secondPawn_nameShortDef], рыдая, падает на пол.</li>
-		<li>desc_sentence->[secondPawn_nameShortDef] злобно жестикулирует, указывая на [firstPawn_nameShortDef]</li>
+		<li>desc_sentence->[REJECTED_nameShortDef] безудержно рыдает.</li>
+		<li>desc_sentence->[REJECTED_nameShortDef] одновременно насмехается и плачет.</li>
+		<li>desc_sentence->[REJECTED_nameShortDef] пребывает в удивлении.</li>
+		<li>desc_sentence->[DUMPER_nameShortDef] стилистически изображается отдельно от [REJECTED_nameShortDef].</li>
+		<li>desc_sentence->[REJECTED_nameShortDef], рыдая, падает на пол.</li>
+		<li>desc_sentence->[REJECTED_nameShortDef] злобно жестикулирует, указывая на [DUMPER_nameShortDef]</li>
 	</Breakup.rulePack.rulesStrings>
 
 	<Marriage.label>свадьба</Marriage.label>
 	<Marriage.rulePack.rulesStrings>
-		<li>tale_noun->как поженились [firstPawn_nameShortDef] и [secondPawn_nameShortDef]</li>
-		<li>image->, как [firstPawn_nameFull][circumstance_group] связывает себя узами брака с [secondPawn_nameFull]</li>
-		<li>image->, как [firstPawn_nameFull][circumstance_group] говорит свою свадебную клятву [secondPawn_nameFull]</li>
-		<li>image->, как [firstPawn_nameFull][circumstance_group] проходит к алтарю с [secondPawn_nameFull]</li>
-		<li>image->, как [firstPawn_nameFull][circumstance_group] держится за руки с [secondPawn_nameFull] во время свадебной церемонии</li>
+		<li>tale_noun->как поженились [SPOUSE1_nameShortDef] и [SPOUSE2_nameShortDef]</li>
+		<li>image->, как [SPOUSE1_nameFull][circumstance_group] связывает себя узами брака с [SPOUSE2_nameFull]</li>
+		<li>image->, как [SPOUSE1_nameFull][circumstance_group] говорит свою свадебную клятву [SPOUSE2_nameFull]</li>
+		<li>image->, как [SPOUSE1_nameFull][circumstance_group] проходит к алтарю с [SPOUSE2_nameFull]</li>
+		<li>image->, как [SPOUSE1_nameFull][circumstance_group] держится за руки с [SPOUSE2_nameFull] во время свадебной церемонии</li>
 		<li>circumstance_phrase->[empty] торжественно и величаво</li>
 		<li>circumstance_phrase->, радостно смеясь,</li>
 		<li>circumstance_phrase->, пока другие смотрят с торжественным видом,</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] прижимается к [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] не отрываясь глядит на [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] посылает воздушный поцелуй [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] стилистически изображен(а) неотрывно от [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] словно зеркальное отражение [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] настойчиво прикасается к [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[SPOUSE1_nameShortDef] прижимается к [SPOUSE2_nameShortDef].</li>
+		<li>desc_sentence->[SPOUSE1_nameShortDef] не отрываясь глядит на [SPOUSE2_nameShortDef].</li>
+		<li>desc_sentence->[SPOUSE1_nameShortDef] посылает воздушный поцелуй [SPOUSE2_nameShortDef].</li>
+		<li>desc_sentence->[SPOUSE1_nameShortDef] стилистически изображается неотрывно от [SPOUSE2_nameShortDef].</li>
+		<li>desc_sentence->[SPOUSE1_nameShortDef] словно зеркальное отражение [SPOUSE2_nameShortDef].</li>
+		<li>desc_sentence->[SPOUSE1_nameShortDef] настойчиво прикасается к [SPOUSE2_nameShortDef].</li>
 	</Marriage.rulePack.rulesStrings>
 
 </LanguageData>

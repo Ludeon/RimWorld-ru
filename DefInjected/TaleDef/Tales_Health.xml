@@ -3,11 +3,11 @@
 
 	<Wounded.label>ранение</Wounded.label>
 	<Wounded.rulePack.rulesStrings>
-		<li>tale_noun->как [killer_nameShortDef] [wound_verb] [victim_nameShortDef]</li>
-		<li>tale_noun->как [victim_nameShortDef] [wound_verb_passive] [killer_nameShortDef]</li>
-		<li>image->[empty] [wound_noun] [victim_nameShortDef] со стороны [killer_nameShortDef]</li>
-		<li>image->, как [killer_nameFull][weapon_optional] [wound_verb] [victim_nameFull]</li>
-		<li>image->, как [victim_nameFull] [wound_verb_passive] [killer_nameFull]</li>
+		<li>tale_noun->как [KILLER_nameShortDef] [wound_verb] [VICTIM_nameShortDef]</li>
+		<li>tale_noun->как [VICTIM_nameShortDef] [wound_verb_passive] [KILLER_nameShortDef]</li>
+		<li>image->[empty] [wound_noun] [VICTIM_nameShortDef] со стороны [KILLER_nameShortDef]</li>
+		<li>image->, как [KILLER_nameFull][weapon_optional] [wound_verb] [VICTIM_nameFull]</li>
+		<li>image->, как [VICTIM_nameFull] [wound_verb_passive] [KILLER_nameFull]</li>
 		<li>wound_verb_passive->получает ранение от</li>
 		<li>wound_verb_passive->подставляется под удар</li>
 		<li>wound_verb_passive->получает телесные повреждения от</li>
@@ -22,7 +22,7 @@
 		<li>wound_verb->калечит</li>
 		<li>wound_verb->бьёт</li>
 		<li>wound_verb->атакует</li>
-		<li>weapon_optional->, держа в руках [weapon_label], [circumstance_group]</li>
+		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_group]</li>
 		<li>weapon_optional->[empty] [circumstance_group]</li>
 		<li>circumstance_phrase->без сожалений</li>
 		<li>circumstance_phrase->с холодной эффективностью</li>
@@ -33,26 +33,26 @@
 		<li>circumstance_phrase->трусливо, малодушно</li>
 		<li>desc_sentence->[Quantity_adjphrase] животных, выглядящих как [Animal], наблюдают за этим.</li>
 		<li>desc_sentence->[Outlander] молча издали наблюдает за происходящим [side_position].</li>
-		<li>desc_sentence->Возле тела [victim_nameShortDef] растекается лужа крови.</li>
-		<li>desc_sentence->Всё тело [victim_nameShortDef] покрыто [victim_possessive] же [Gore].</li>
-		<li>desc_sentence->[victim_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
-		<li>desc_sentence->[victim_nameShortDef] корчится от боли.</li>
-		<li>desc_sentence->[victim_nameShortDef] стонет от боли.</li>
-		<li>desc_sentence->[killer_nameShortDef] скалит зубы.</li>
-		<li>desc_sentence->[killer_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
-		<li>desc_sentence->[killer_nameShortDef] испытывает душевные терзания от того, что [killer_objective] приходится делать.</li>
-		<li>desc_sentence->[killer_nameShortDef] чувствует удовлетворение, видя результат.</li>
-		<li>desc_sentence->[killer_nameShortDef] выглядит триумфально.</li>
+		<li>desc_sentence->Возле тела [VICTIM_nameShortDef] растекается лужа крови.</li>
+		<li>desc_sentence->Всё тело [VICTIM_nameShortDef] покрыто [VICTIM_possessive] же [Gore].</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] корчится от боли.</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] стонет от боли.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] скалит зубы.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] испытывает душевные терзания от того, что [KILLER_objective] приходится делать.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] чувствует удовлетворение, видя результат.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] выглядит триумфально.</li>
 	</Wounded.rulePack.rulesStrings>
 
 	<Downed.label>сбитие с ног</Downed.label>
 	<Downed.rulePack.rulesStrings>
-		<li>tale_noun->как [killer_nameShortDef] [wound_verb] [victim_nameShortDef]</li>
-		<li>tale_noun->как [victim_nameShortDef] [wound_verb_passive]</li>
-		<li>image->[empty] [wound_noun] [victim_nameShortDef] со стороны [killer_nameShortDef]</li>
-		<li>image->[empty] [wound_noun] [victim_nameShortDef]</li>
-		<li>image->, как [killer_nameFull][weapon_optional] [wound_verb] [victim_nameFull]</li>
-		<li>image->, как [victim_nameShortDef] [wound_verb_passive], когда [victim_possessive][weapon_optional] [wound_verb] [killer_nameFull]</li>
+		<li>tale_noun->как [KILLER_nameShortDef] [wound_verb] [VICTIM_nameShortDef]</li>
+		<li>tale_noun->как [VICTIM_nameShortDef] [wound_verb_passive]</li>
+		<li>image->[empty] [wound_noun] [VICTIM_nameShortDef] со стороны [KILLER_nameShortDef]</li>
+		<li>image->[empty] [wound_noun] [VICTIM_nameShortDef]</li>
+		<li>image->, как [KILLER_nameFull][weapon_optional] [wound_verb] [VICTIM_nameFull]</li>
+		<li>image->, как [VICTIM_nameShortDef] [wound_verb_passive], когда [VICTIM_possessive][weapon_optional] [wound_verb] [KILLER_nameFull]</li>
 		<li>wound_verb_passive->падает от ран</li>
 		<li>wound_verb_passive->падает без сознания</li>
 		<li>wound_verb_passive->теряет сознание</li>
@@ -64,7 +64,7 @@
 		<li>wound_verb->обезвреживает</li>
 		<li>wound_verb->сражает</li>
 		<li>wound_verb->обездвиживает</li>
-		<li>weapon_optional->, держа в руках [weapon_label], [circumstance_group]</li>
+		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_group]</li>
 		<li>weapon_optional->[empty] [circumstance_group]</li>
 		<li>circumstance_phrase->без сожалений</li>
 		<li>circumstance_phrase->с холодной эффективностью</li>
@@ -75,25 +75,25 @@
 		<li>circumstance_phrase->трусливо, малодушно</li>
 		<li>desc_sentence->[Quantity_adjphrase] животных, выглядящих как [Animal], наблюдают за этим.</li>
 		<li>desc_sentence->[Outlander] молча издали наблюдает за происходящим [side_position].</li>
-		<li>desc_sentence->[victim_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
-		<li>desc_sentence->Глаза [victim_nameShortDef] закрыты.</li>
-		<li>desc_sentence->[killer_nameShortDef] скалит зубы.</li>
-		<li>desc_sentence->[killer_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
-		<li>desc_sentence->[killer_nameShortDef] испытывает душевные терзания от того, что [killer_objective] приходится делать.</li>
-		<li>desc_sentence->[killer_nameShortDef] чувствует удовлетворение, видя результат.</li>
-		<li>desc_sentence->[killer_nameShortDef] выглядит триумфально.</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->Глаза [VICTIM_nameShortDef] закрыты.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] скалит зубы.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] испытывает душевные терзания от того, что [KILLER_objective] приходится делать.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] чувствует удовлетворение, видя результат.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] выглядит триумфально.</li>
 	</Downed.rulePack.rulesStrings>
 
 	<KilledLongRange.label>убийство с большого расстояния</KilledLongRange.label>
 	<KilledLongRange.rulePack.rulesStrings>
-		<li>tale_noun->как [killer_nameShortDef] [from_far_away] [wound_verb] [victim_nameShortDef]</li>
-		<li>tale_noun->как [victim_nameShortDef] [wound_verb_passive] от [hit_gen]</li>
+		<li>tale_noun->как [KILLER_nameShortDef] [from_far_away] [wound_verb] [VICTIM_nameShortDef]</li>
+		<li>tale_noun->как [VICTIM_nameShortDef] [wound_verb_passive] от [hit_gen]</li>
 		<li>hit_gen->снайперского попадания</li>
 		<li>hit_gen->[circumstance_word]го попадания</li>
-		<li>image->, как [weapon_label], что так [circumstance_word] держит в руках [killer_nameShortDef], [from_far_away] [wound_verb] цель, и [victim_nameShortDef] [wound_verb_passive]</li>
-		<li>image->, как [killer_nameFull][weapon_optional] стреляет в [victim_nameFull] [from_far_away]</li>
-		<li>image->, как [killer_nameFull][weapon_optional] [wound_verb] [victim_nameFull] [from_far_away]</li>
-		<li>image->[empty] [wound_noun] противника по имени [victim_nameShortDef], которого [killer_nameShortDef][weapon_optional] [wound_verb] [from_far_away]</li>
+		<li>image->, как [WEAPON_label], что так [circumstance_word] держит в руках [KILLER_nameShortDef], [from_far_away] [wound_verb] цель, и [VICTIM_nameShortDef] [wound_verb_passive]</li>
+		<li>image->, как [KILLER_nameFull][weapon_optional] стреляет в [VICTIM_nameFull] [from_far_away]</li>
+		<li>image->, как [KILLER_nameFull][weapon_optional] [wound_verb] [VICTIM_nameFull] [from_far_away]</li>
+		<li>image->[empty] [wound_noun] противника по имени [VICTIM_nameShortDef], которого [KILLER_nameShortDef][weapon_optional] [wound_verb] [from_far_away]</li>
 		<li>wound_verb_passive->падает замертво</li>
 		<li>wound_verb_passive->погибает на месте</li>
 		<li>wound_noun->мгновенную смерть</li>
@@ -103,7 +103,7 @@
 		<li>wound_verb->устраняет</li>
 		<li>wound_verb->поражает</li>
 		<li>weapon_optional->[empty] [circumstance_word]</li>
-		<li>weapon_optional->, держа в руках [weapon_label], [circumstance_word]</li>
+		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_word]</li>
 		<li>from_far_away->издалека</li>
 		<li>from_far_away->с большого расстояния</li>
 		<li>circumstance_word->блестяще</li>
@@ -112,23 +112,23 @@
 		<li>circumstance_word->виртуозно</li>
 		<li>circumstance_word->ловко</li>
 		<li>circumstance_word->искусно</li>
-		<li>desc_sentence->[victim_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
-		<li>desc_sentence->Всё тело [victim_nameShortDef] покрыто [victim_possessive] же [Gore].</li>
-		<li>desc_sentence->[killer_nameShortDef] скалит зубы.</li>
-		<li>desc_sentence->[killer_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
-		<li>desc_sentence->[killer_nameShortDef] испытывает душевные терзания от того, что [killer_objective] приходится делать.</li>
-		<li>desc_sentence->[killer_nameShortDef] чувствует удовлетворение, видя результат.</li>
-		<li>desc_sentence->[killer_nameShortDef] выглядит триумфально.</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->Всё тело [VICTIM_nameShortDef] покрыто [VICTIM_possessive] же [Gore].</li>
+		<li>desc_sentence->[KILLER_nameShortDef] скалит зубы.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] испытывает душевные терзания от того, что [KILLER_objective] приходится делать.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] чувствует удовлетворение, видя результат.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] выглядит триумфально.</li>
 	</KilledLongRange.rulePack.rulesStrings>
 
 	<KilledMelee.label>убйиство врукопашную</KilledMelee.label>
 	<KilledMelee.rulePack.rulesStrings>
-		<li>tale_noun->как [killer_nameShortDef] [wound_verb] [victim_nameShortDef] в ближнем бою</li>
-		<li>tale_noun->как [killer_nameShortDef] [wound_verb] [victim_nameShortDef] врукопашную</li>
-		<li>image->[empty] [wound_noun] [victim_nameShortDef] со стороны [killer_nameShortDef]</li>
-		<li>image(p=4)->, как [killer_nameFull][weapon_optional] [wound_verb] [victim_nameFull]</li>
-		<li>image->, как [victim_nameFull] [wound_verb_passive] от удара [killer_nameFull]</li>
-		<li>image->, как [victim_nameFull] [wound_verb_passive] от удара [weapon_label], что держит в руках [killer_nameFull]</li>
+		<li>tale_noun->как [KILLER_nameShortDef] [wound_verb] [VICTIM_nameShortDef] в ближнем бою</li>
+		<li>tale_noun->как [KILLER_nameShortDef] [wound_verb] [VICTIM_nameShortDef] врукопашную</li>
+		<li>image->[empty] [wound_noun] [VICTIM_nameShortDef] со стороны [KILLER_nameShortDef]</li>
+		<li>image(p=4)->, как [KILLER_nameFull][weapon_optional] [wound_verb] [VICTIM_nameFull]</li>
+		<li>image->, как [VICTIM_nameFull] [wound_verb_passive] от удара [KILLER_nameFull]</li>
+		<li>image->, как [VICTIM_nameFull] [wound_verb_passive] от удара [WEAPON_label], что держит в руках [KILLER_nameFull]</li>
 		<li>wound_verb_passive->погибает</li>
 		<li>wound_verb_passive->падает замертво</li>
 		<li>wound_noun->убийство</li>
@@ -137,7 +137,7 @@
 		<li>wound_verb->разделывается с</li>
 		<li>wound_verb->расправляется с</li>
 		<li>wound_verb->умерщвляет</li>
-		<li>weapon_optional->, держа в руках [weapon_label], [circumstance_group]</li>
+		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_group]</li>
 		<li>weapon_optional->[empty] [circumstance_group]</li>
 		<li>circumstance_phrase->беспощадно</li>
 		<li>circumstance_phrase->кроваво</li>
@@ -149,24 +149,24 @@
 		<li>circumstance_phrase->брутально</li>
 		<li>circumstance_phrase->свирепо</li>
 		<li>desc_sentence->[Outlander] молча издали наблюдает за происходящим [side_position].</li>
-		<li>desc_sentence->[victim_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
-		<li>desc_sentence->Глаза [victim_nameShortDef] закрыты.</li>
-		<li>desc_sentence->Всё тело [victim_nameShortDef] покрыто [victim_possessive] же [Gore].</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->Глаза [VICTIM_nameShortDef] закрыты.</li>
+		<li>desc_sentence->Всё тело [VICTIM_nameShortDef] покрыто [VICTIM_possessive] же [Gore].</li>
 		<li>desc_sentence->Тела обоих противников покрыты [Gore].</li>
-		<li>desc_sentence->Всё тело [killer_nameShortDef] покрыто [Gore] противника.</li>
-		<li>desc_sentence->[killer_nameShortDef] скалит зубы.</li>
-		<li>desc_sentence->[killer_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
-		<li>desc_sentence->[killer_nameShortDef] испытывает душевные терзания от того, что [killer_objective] приходится делать.</li>
-		<li>desc_sentence->[killer_nameShortDef] чувствует удовлетворение, видя результат.</li>
-		<li>desc_sentence->[killer_nameShortDef] выглядит триумфально.</li>
+		<li>desc_sentence->Всё тело [KILLER_nameShortDef] покрыто [Gore] противника.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] скалит зубы.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] испытывает душевные терзания от того, что [KILLER_objective] приходится делать.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] чувствует удовлетворение, видя результат.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] выглядит триумфально.</li>
 	</KilledMelee.rulePack.rulesStrings>
 
 	<KilledMajorThreat.label>убийство грозного противника</KilledMajorThreat.label>
 	<KilledMajorThreat.rulePack.rulesStrings>
-		<li>tale_noun->как [killer_nameShortDef] [wound_verb] [victim_nameShortDef]</li>
-		<li>tale_noun->как [wound_verb_passive] [victim_nameShortDef]</li>
-		<li>image(p=4)->, как [killer_nameFull][weapon_optional] [wound_verb] [victim_nameFull]</li>
-		<li>image->, как [victim_nameFull] [wound_verb_passive] в [combat_adj] битве с [killer_nameFull]</li>
+		<li>tale_noun->как [KILLER_nameShortDef] [wound_verb] [VICTIM_nameShortDef]</li>
+		<li>tale_noun->как [wound_verb_passive] [VICTIM_nameShortDef]</li>
+		<li>image(p=4)->, как [KILLER_nameFull][weapon_optional] [wound_verb] [VICTIM_nameFull]</li>
+		<li>image->, как [VICTIM_nameFull] [wound_verb_passive] в [combat_adj] битве с [KILLER_nameFull]</li>
 		<li>combat_adj->легендарной</li>
 		<li>combat_adj->героической</li>
 		<li>combat_adj->эпической</li>
@@ -177,7 +177,7 @@
 		<li>wound_verb->одерживает победу над</li>
 		<li>wound_verb->побеждает</li>
 		<li>wound_verb->одолевает</li>
-		<li>weapon_optional->, держа в руках [weapon_label], [circumstance_group]</li>
+		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_group]</li>
 		<li>weapon_optional->[empty] [circumstance_group]</li>
 		<li>circumstance_phrase->бесстрашно</li>
 		<li>circumstance_phrase->отважно</li>
@@ -186,29 +186,29 @@
 		<li>circumstance_phrase->эпически</li>
 		<li>circumstance_phrase->величественно</li>
 		<li>desc_sentence->[Outlander] потрясённо наблюдает за происходящим [side_position].</li>
-		<li>desc_sentence->[victim_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
-		<li>desc_sentence->Глаза [victim_nameShortDef] закрыты.</li>
-		<li>desc_sentence->Всё тело [victim_nameShortDef] покрыто [victim_possessive] же [Gore].</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->Глаза [VICTIM_nameShortDef] закрыты.</li>
+		<li>desc_sentence->Всё тело [VICTIM_nameShortDef] покрыто [VICTIM_possessive] же [Gore].</li>
 		<li>desc_sentence->Тела обоих противников покрыты [Gore].</li>
-		<li>desc_sentence->Тело [victim_nameShortDef] возвышается над [killer_nameShortDef].</li>
-		<li>desc_sentence->[victim_nameShortDef] своим массивным телом заслоняет горизонт.</li>
-		<li>desc_sentence->В глазах [victim_nameShortDef] горит недобрый [Color] свет.</li>
-		<li>desc_sentence->Всё тело [killer_nameShortDef] покрыто [Gore] [killer_possessive] жертвы.</li>
-		<li>desc_sentence->[killer_nameShortDef] скалит зубы.</li>
-		<li>desc_sentence->[killer_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
-		<li>desc_sentence->[killer_nameShortDef] выглядит триумфально.</li>
-		<li>desc_sentence->[killer_nameShortDef] чувствует удовлетворение, видя результат.</li>
-		<li>desc_sentence->[killer_nameShortDef] изображается в ореоле из света, что придаёт [killer_objective] героический вид.</li>
+		<li>desc_sentence->Тело [VICTIM_nameShortDef] возвышается над [KILLER_nameShortDef].</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] своим массивным телом заслоняет горизонт.</li>
+		<li>desc_sentence->В глазах [VICTIM_nameShortDef] горит недобрый [Color] свет.</li>
+		<li>desc_sentence->Всё тело [KILLER_nameShortDef] покрыто [Gore] [KILLER_possessive] жертвы.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] скалит зубы.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] выглядит триумфально.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] чувствует удовлетворение, видя результат.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] изображается в ореоле из света, что придаёт [KILLER_objective] героический вид.</li>
 	</KilledMajorThreat.rulePack.rulesStrings>
 
 	<KilledCapacity.label>убийство</KilledCapacity.label>
 	<KilledCapacity.rulePack.rulesStrings>
-		<li>tale_noun->как [wound_verb_passive] [victim_nameShortDef]</li>
-		<li>tale_noun->как [killer_nameShortDef] [wound_verb] [victim_nameShortDef]</li>
-		<li>image->, как [killer_nameFull][weapon_optional] [wound_verb] [victim_nameFull]. [cap_removal_phrase]</li>
-		<li>image->, как [victim_nameFull] [wound_verb_passive] [killer_nameFull]. [cap_removal_phrase]</li>
-		<li>cap_removal_phrase->[victim_nameShortDef] [death_verb_passive], поскольку один из жизненно важных процессов [victim_possessive] огранизма, [capacity_label], [cap_removal_verb]</li>
-		<li>cap_removal_phrase->[capacity_label], жизненно важный процесс в организме жертвы, [cap_removal_verb], и [victim_nameShortDef] [death_verb_passive]</li>
+		<li>tale_noun->как [wound_verb_passive] [VICTIM_nameShortDef]</li>
+		<li>tale_noun->как [KILLER_nameShortDef] [wound_verb] [VICTIM_nameShortDef]</li>
+		<li>image->, как [KILLER_nameFull][weapon_optional] [wound_verb] [VICTIM_nameFull]. [cap_removal_phrase]</li>
+		<li>image->, как [VICTIM_nameFull] [wound_verb_passive] [KILLER_nameFull]. [cap_removal_phrase]</li>
+		<li>cap_removal_phrase->[VICTIM_nameShortDef] [death_verb_passive], поскольку один из жизненно важных процессов [VICTIM_possessive] огранизма, [capacity_label], [cap_removal_verb]</li>
+		<li>cap_removal_phrase->[capacity_label], жизненно важный процесс в организме жертвы, [cap_removal_verb], и [VICTIM_nameShortDef] [death_verb_passive]</li>
 		<li>cap_removal_verb->прекращает свою работу</li>
 		<li>cap_removal_verb->останавливается</li>
 		<li>death_verb_passive->погибает</li>
@@ -219,102 +219,102 @@
 		<li>wound_verb->ранит</li>
 		<li>wound_verb->бьёт</li>
 		<li>wound_verb->калечит</li>
-		<li>weapon_optional->, держа в руках [weapon_label], [circumstance_group]</li>
+		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_group]</li>
 		<li>weapon_optional->[empty] [circumstance_group]</li>
 		<li>circumstance_phrase->без сожалений</li>
 		<li>circumstance_phrase->с холодной эффективностью</li>
 		<li>circumstance_phrase->быстрыми, эффективными движениями</li>
 		<li>circumstance_phrase->без эмоций</li>
 		<li>desc_sentence->[Outlander] молча издали наблюдает за происходящим [side_position].</li>
-		<li>desc_sentence->[victim_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
-		<li>desc_sentence->Глаза [victim_nameShortDef] закрыты.</li>
-		<li>desc_sentence->[killer_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
-		<li>desc_sentence->[killer_nameShortDef] испытывает душевные терзания от того, что [killer_objective] приходится делать.</li>
-		<li>desc_sentence->[killer_nameShortDef] чувствует удовлетворение, видя результат.</li>
-		<li>desc_sentence->[killer_nameShortDef] выглядит триумфально.</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->Глаза [VICTIM_nameShortDef] закрыты.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] испытывает душевные терзания от того, что [KILLER_objective] приходится делать.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] чувствует удовлетворение, видя результат.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] выглядит триумфально.</li>
 	</KilledCapacity.rulePack.rulesStrings>
 
 	<KilledMortar.label>попадание из миномёта</KilledMortar.label>
 	<KilledMortar.rulePack.rulesStrings>
-		<li>tale_noun->как [killer_nameShortDef] поражает [victim_nameShortDef] миномётным огнём</li>
-		<li>tale_noun->как [victim_nameShortDef] попадает под миномётный обстрел</li>
-		<li>image->, как [killer_nameFull] аккуратно наводит орудие, [circumstance_group]</li>
-		<li>image->, как [killer_nameFull] оценивает дальность до цели, [circumstance_group]</li>
-		<li>image->, как [killer_nameFull] выполняет расчёты на бумаге, [circumstance_group]</li>
-		<li>image->, как [killer_nameFull] определяет направление ветра, [circumstance_group]</li>
-		<li>circumstance_phrase->в то время как [victim_nameFull] исчезает в мощном взрыве</li>
-		<li>circumstance_phrase->и снаряд по широкой дуге летит к [victim_nameFull]</li>
-		<li>circumstance_phrase->пока [victim_nameFull] бродит вдали, ни о чём не подозревая</li>
-		<li>circumstance_phrase->а [victim_nameFull] убегает сломя голову</li>
-		<li>circumstance_phrase->а [victim_nameFull], кажется, чувствует неладное</li>
+		<li>tale_noun->как [KILLER_nameShortDef] поражает [VICTIM_nameShortDef] миномётным огнём</li>
+		<li>tale_noun->как [VICTIM_nameShortDef] попадает под миномётный обстрел</li>
+		<li>image->, как [KILLER_nameFull] аккуратно наводит орудие, [circumstance_group]</li>
+		<li>image->, как [KILLER_nameFull] оценивает дальность до цели, [circumstance_group]</li>
+		<li>image->, как [KILLER_nameFull] выполняет расчёты на бумаге, [circumstance_group]</li>
+		<li>image->, как [KILLER_nameFull] определяет направление ветра, [circumstance_group]</li>
+		<li>circumstance_phrase->в то время как [VICTIM_nameFull] исчезает в мощном взрыве</li>
+		<li>circumstance_phrase->и снаряд по широкой дуге летит к [VICTIM_nameFull]</li>
+		<li>circumstance_phrase->пока [VICTIM_nameFull] бродит вдали, ни о чём не подозревая</li>
+		<li>circumstance_phrase->а [VICTIM_nameFull] убегает сломя голову</li>
+		<li>circumstance_phrase->а [VICTIM_nameFull], кажется, чувствует неладное</li>
 		<li>desc_sentence->[Outlander] молча издали наблюдает за происходящим [side_position].</li>
-		<li>desc_sentence->[victim_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
-		<li>desc_sentence->Всё тело [victim_nameShortDef] покрыто [victim_possessive] же [Gore].</li>
-		<li>desc_sentence->Вокруг [victim_nameShortDef] рвутся снаряды.</li>
-		<li>desc_sentence->Воронки от снарядов окружают [victim_nameShortDef].</li>
-		<li>desc_sentence->[killer_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
-		<li>desc_sentence->[killer_nameShortDef] испытывает душевные терзания от того, что [killer_objective] приходится делать.</li>
-		<li>desc_sentence->[killer_nameShortDef] чувствует удовлетворение, видя результат.</li>
-		<li>desc_sentence->[killer_nameShortDef] выглядит триумфально.</li>
+		<li>desc_sentence->[VICTIM_nameShortDef] имеет [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->Всё тело [VICTIM_nameShortDef] покрыто [VICTIM_possessive] же [Gore].</li>
+		<li>desc_sentence->Вокруг [VICTIM_nameShortDef] рвутся снаряды.</li>
+		<li>desc_sentence->Воронки от снарядов окружают [VICTIM_nameShortDef].</li>
+		<li>desc_sentence->[KILLER_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] испытывает душевные терзания от того, что [KILLER_objective] приходится делать.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] чувствует удовлетворение, видя результат.</li>
+		<li>desc_sentence->[KILLER_nameShortDef] выглядит триумфально.</li>
 	</KilledMortar.rulePack.rulesStrings>
 
 	<Exhausted.label>изнеможение</Exhausted.label>
 	<Exhausted.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] валится с ног от усталости</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] в изнеможении валится с ног</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] лежит на земле</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] лежит в кровати</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] лежит на кресле</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] мирно спит</li>
+		<li>tale_noun->как [PAWN_nameShortDef] валится с ног от усталости</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] в изнеможении валится с ног</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] лежит на земле</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] лежит в кровати</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] лежит на кресле</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] мирно спит</li>
 		<li>circumstance_phrase->[empty] с закрытыми глазами</li>
 		<li>circumstance_phrase->[empty] с уставшим видом</li>
 		<li>circumstance_phrase->, покрывшись по́том,</li>
 		<li>circumstance_phrase->, не в силах пошевелиться,</li>
-		<li>desc_sentence->Рядом находится результат [pawn_possessive] напряжённого труда.</li>
-		<li>desc_sentence->[pawn_possessive] окружает великолепное строение.</li>
-		<li>desc_sentence->[Outlander] восхищается [pawn_possessive] трудовым подвигом.</li>
+		<li>desc_sentence->Рядом находится результат [PAWN_possessive] напряжённого труда.</li>
+		<li>desc_sentence->[PAWN_possessive] окружает великолепное строение.</li>
+		<li>desc_sentence->[Outlander] восхищается [PAWN_possessive] трудовым подвигом.</li>
 		<li>desc_sentence->[Outlander] лежит рядом, в таком же состоянии.</li>
 		<li>desc_sentence->В качестве места, где происходит сцена, выступает свежепостроенное поселение.</li>
 	</Exhausted.rulePack.rulesStrings>
 
 	<IllnessRevealed.label>обнаружено заболевание</IllnessRevealed.label>
 	<IllnessRevealed.rulePack.rulesStrings>
-		<li>tale_noun->как у [pawn_nameShortDef] обнаруживается [illness_label]</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] бредёт по улице шатаясь</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] лежит на земле</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] лежит в кровати</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] лежит в больничной кровати</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] падает в кресло</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] подползает ближе к огню</li>
+		<li>tale_noun->как у [PAWN_nameShortDef] обнаруживается [ILLNESS_label]</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] бредёт по улице шатаясь</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] лежит на земле</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] лежит в кровати</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] лежит в больничной кровати</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] падает в кресло</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] подползает ближе к огню</li>
 		<li>circumstance_phrase->, непрерывно потея,</li>
 		<li>circumstance_phrase->, дрожа в лихорадке,</li>
 		<li>circumstance_phrase->, потея и дрожа,</li>
 		<li>circumstance_phrase->[empty] с высохшими, потрескавшимися губами</li>
 		<li>circumstance_phrase->, согнувшись в приступе рвоты,</li>
 		<li>circumstance_phrase->, покрывшись сыпью,</li>
-		<li>desc_sentence->Врач подходит к н[pawn_objective], чтобы приступить к лечению.</li>
+		<li>desc_sentence->Врач подходит к н[PAWN_objective], чтобы приступить к лечению.</li>
 		<li>desc_sentence->Мёртвое животное, [Animal], лежит рядом, облепленное мухами.</li>
 		<li>desc_sentence->На фоне — закручивается спиралью [TerrainFeature].</li>
 		<li>desc_sentence->[Outlander], похоже, страдает тем же недугом.</li>
-		<li>desc_sentence->[pawn_nameShortDef] находится среди увядающего леса.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] находится среди увядающего леса.</li>
 		<li>desc_sentence->Повсюду лежат умирающие животные.</li>
 	</IllnessRevealed.rulePack.rulesStrings>
 
 	<HeatstrokeRevealed.label>тепловой удар</HeatstrokeRevealed.label>
 	<HeatstrokeRevealed.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] получает тепловой удар</li>
-		<li>tale_noun->как [pawn_nameShortDef] перегревается</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] продирается сквозь пески</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] съёживается в тени</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] ищет воду</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] ищет тень</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] ползёт по выжженной солнцем земле</li>
+		<li>tale_noun->как [PAWN_nameShortDef] получает тепловой удар</li>
+		<li>tale_noun->как [PAWN_nameShortDef] перегревается</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] продирается сквозь пески</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] съёживается в тени</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] ищет воду</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] ищет тень</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] ползёт по выжженной солнцем земле</li>
 		<li>circumstance_phrase->[empty] с покрасневшей кожей</li>
 		<li>circumstance_phrase->, непрерывно потея,</li>
 		<li>circumstance_phrase->[empty] с высохшими, потрескавшимися губами</li>
 		<li>circumstance_phrase->, согнувшись в приступе рвоты,</li>
-		<li>desc_sentence->[pawn_possessive] окружают иссушенные трупы животных.</li>
-		<li>desc_sentence->[pawn_possessive] одежда изорвана в клочья.</li>
+		<li>desc_sentence->[PAWN_possessive] окружают иссушенные трупы животных.</li>
+		<li>desc_sentence->[PAWN_possessive] одежда изорвана в клочья.</li>
 		<li>desc_sentence->В небе висит палящее солнце.</li>
 		<li>desc_sentence->Действие происходит посреди знойной пустыни.</li>
 		<li>desc_sentence->Действие происходит в помещении рядом с источником тепла.</li>
@@ -324,21 +324,21 @@
 
 	<HypothermiaRevealed.label>обморожение</HypothermiaRevealed.label>
 	<HypothermiaRevealed.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] получает обморожение</li>
-		<li>tale_noun->как [pawn_nameShortDef] замерзает</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] продирается через снежные сугробы</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] съёживается в попытке сохранить тепло</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] ищёт тёплую одежду</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] подползает ближе к огню</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] пытается разжечь огонь</li>
+		<li>tale_noun->как [PAWN_nameShortDef] получает обморожение</li>
+		<li>tale_noun->как [PAWN_nameShortDef] замерзает</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] продирается через снежные сугробы</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] съёживается в попытке сохранить тепло</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] ищёт тёплую одежду</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] подползает ближе к огню</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] пытается разжечь огонь</li>
 		<li>circumstance_phrase->, постепенно синея от холода,</li>
 		<li>circumstance_phrase->, трясясь от холода,</li>
 		<li>circumstance_phrase->, покрываясь инеем,</li>
 		<li>circumstance_phrase->, выдыхая изо рта пар,</li>
-		<li>desc_sentence->[pawn_possessive] окружают замёрзшие трупы животных.</li>
-		<li>desc_sentence->[pawn_possessive] одежда изорвана в клочья.</li>
+		<li>desc_sentence->[PAWN_possessive] окружают замёрзшие трупы животных.</li>
+		<li>desc_sentence->[PAWN_possessive] одежда изорвана в клочья.</li>
 		<li>desc_sentence->В небе висит холодно-синяя луна.</li>
-		<li>desc_sentence->[pawn_possessive] окружает заснеженный лес.</li>
+		<li>desc_sentence->[PAWN_possessive] окружает заснеженный лес.</li>
 		<li>desc_sentence->>Действие происходит в морозильной камере.</li>
 		<li>desc_sentence->Рядом дрожит от холода [Animal].</li>
 		<li>desc_sentence->Повсюду лежат замерзающие животные.</li>
@@ -346,34 +346,34 @@
 
 	<ToxicityRevealed.label>отравление токсинами</ToxicityRevealed.label>
 	<ToxicityRevealed.rulePack.rulesStrings>
-		<li>tale_noun->как [pawn_nameShortDef] получает отравление токсинами</li>
-		<li>tale_noun->как [pawn_nameShortDef] получает большую дозу токсинов</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] бредёт по улице шатаясь</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] лежит на земле</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] лежит в кровати</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] подползает ближе к огню</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] пытается разжечь огонь</li>
-		<li>image->, как [pawn_nameFull][circumstance_group] бездумно снимает одежду</li>
+		<li>tale_noun->как [PAWN_nameShortDef] получает отравление токсинами</li>
+		<li>tale_noun->как [PAWN_nameShortDef] получает большую дозу токсинов</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] бредёт по улице шатаясь</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] лежит на земле</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] лежит в кровати</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] подползает ближе к огню</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] пытается разжечь огонь</li>
+		<li>image->, как [PAWN_nameFull][circumstance_group] бездумно снимает одежду</li>
 		<li>circumstance_phrase->, непрерывно потея,</li>
 		<li>circumstance_phrase->, дрожа в лихорадке,</li>
 		<li>circumstance_phrase->, потея и дрожа,</li>
 		<li>circumstance_phrase->[empty] с высохшими, потрескавшимися губами</li>
 		<li>circumstance_phrase->, согнувшись в приступе рвоты,</li>
 		<li>circumstance_phrase->, покрывшись сыпью,</li>
-		<li>desc_sentence->[pawn_possessive] окружают искажённые трупы животных.</li>
-		<li>desc_sentence->[pawn_possessive] одежда разрушается на глазах.</li>
+		<li>desc_sentence->[PAWN_possessive] окружают искажённые трупы животных.</li>
+		<li>desc_sentence->[PAWN_possessive] одежда разрушается на глазах.</li>
 		<li>desc_sentence->Небо окрасилось в угрюмо-[Color] цвет.</li>
 		<li>desc_sentence->[TerrainFeature] на фоне принимает искажённо-[Color] цвет.</li>
-		<li>desc_sentence->[pawn_nameShortDef] находится среди больного, искажённого леса.</li>
+		<li>desc_sentence->[PAWN_nameShortDef] находится среди больного, искажённого леса.</li>
 		<li>desc_sentence->Повсюду лежат умирающие животные.</li>
 	</ToxicityRevealed.rulePack.rulesStrings>
 
 	<GaveBirth.label>рождение ребёнка</GaveBirth.label>
 	<GaveBirth.rulePack.rulesStrings>
-		<li>tale_noun->как рождается [child_nameFull]</li>
-		<li>image->, как [mother_nameFull] производит на свет ребёнка и даёт ему имя — [child_nameShortDef]</li>
-		<li>image->, как [mother_nameFull] [circumstance_phrase] держит на руках своего новорождённого ребёнка по имени [child_nameShortDef]</li>
-		<li>image->, как [mother_nameFull] [circumstance_phrase] кормит грудью своего ребёнка — [child_possessive] зовут [child_nameShortDef]</li>
+		<li>tale_noun->как рождается [CHILD_nameFull]</li>
+		<li>image->, как [MOTHER_nameFull] производит на свет ребёнка и даёт ему имя — [CHILD_nameShortDef]</li>
+		<li>image->, как [MOTHER_nameFull] [circumstance_phrase] держит на руках своего новорождённого ребёнка по имени [CHILD_nameShortDef]</li>
+		<li>image->, как [MOTHER_nameFull] [circumstance_phrase] кормит грудью своего ребёнка — [CHILD_possessive] зовут [CHILD_nameShortDef]</li>
 		<li>baby->младенец</li>
 		<li>baby->малютка</li>
 		<li>baby->дитя</li>

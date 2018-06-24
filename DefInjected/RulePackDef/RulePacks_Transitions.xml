@@ -9,14 +9,14 @@
 
 	
 	<Transition_Downed.rulePack.rulesStrings>
-		<li>r_logentry->Из-за [culpritHediff_labelNoun] [subject_definite] [collapsemeta].</li>
-		<li>r_logentry->Из-за [culpritHediff_labelNoun] в [culpritHediff_target_label] [subject_definite] [collapsemeta].</li>
+		<li>r_logentry->Из-за [CULPRITHEDIFF_labelNoun] [SUBJECT_definite] [collapsemeta].</li>
+		<li>r_logentry->Из-за [CULPRITHEDIFF_labelNoun] в [CULPRITHEDIFF_target_label] [SUBJECT_definite] [collapsemeta].</li>
 
-		<li>r_logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun].</li>
-		<li>r_logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun] в [culpritHediff_target_label].</li>
-		<li>r_logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun] в [subject_possessive] [culpritHediff_target_label].</li>
+		<li>r_logentry->[SUBJECT_definite] [collapsemeta][duetoa] [CULPRITHEDIFF_labelNoun].</li>
+		<li>r_logentry->[SUBJECT_definite] [collapsemeta][duetoa] [CULPRITHEDIFF_labelNoun] в [CULPRITHEDIFF_target_label].</li>
+		<li>r_logentry->[SUBJECT_definite] [collapsemeta][duetoa] [CULPRITHEDIFF_labelNoun] в [SUBJECT_possessive] [CULPRITHEDIFF_target_label].</li>
 
-		<li>r_logentry(p=0.1)->[subject_definite] [collapsemeta].</li>
+		<li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsemeta].</li>
 
 		<li>collapse->падает</li>
 		<li>collapse->оседает на землю</li>
@@ -39,15 +39,15 @@
 
 
 	<Transition_DiedInclude.rulePack.rulesStrings>
-		<li>r_logentry(p=1.5)->Из-за [culpritHediff_labelNoun] [subject_definite] [die].</li>
-		<li>r_logentry(p=1.5)->Из-за [culpritHediff_labelNoun] в [culpritHediff_target_label] [subject_definite] [die].</li>
+		<li>r_logentry(p=1.5)->Из-за [CULPRITHEDIFF_labelNoun] [SUBJECT_definite] [die].</li>
+		<li>r_logentry(p=1.5)->Из-за [CULPRITHEDIFF_labelNoun] в [CULPRITHEDIFF_target_label] [SUBJECT_definite] [die].</li>
 
-		<li>r_logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] [flavorsuffix].</li>
-		<li>r_logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] в [culpritHediff_target_label] [flavorsuffix].</li>
-		<li>r_logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] в [subject_possessive] [culpritHediff_target_label] [flavorsuffix].</li>
+		<li>r_logentry->[SUBJECT_definite] [die][duetoa] [CULPRITHEDIFF_labelNoun] [flavorsuffix].</li>
+		<li>r_logentry->[SUBJECT_definite] [die][duetoa] [CULPRITHEDIFF_labelNoun] в [CULPRITHEDIFF_target_label] [flavorsuffix].</li>
+		<li>r_logentry->[SUBJECT_definite] [die][duetoa] [CULPRITHEDIFF_labelNoun] в [SUBJECT_possessive] [CULPRITHEDIFF_target_label] [flavorsuffix].</li>
 
-		<li>r_logentry->[subject_definite] [die].</li>
-		<li>r_logentry->[subject_definite] [die] [flavorsuffix].</li>
+		<li>r_logentry->[SUBJECT_definite] [die].</li>
+		<li>r_logentry->[SUBJECT_definite] [die] [flavorsuffix].</li>
 	</Transition_DiedInclude.rulePack.rulesStrings>
 
 

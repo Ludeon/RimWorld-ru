@@ -3,57 +3,55 @@
 
 	<AnimalChat.label>общение с животным</AnimalChat.label>
 	<AnimalChat.logRulesInitiator.rulesStrings>
-		<li>r_logentry(p=5)->[initiator_nameShortIndef] [tamed_animal].</li>
-		<li>r_logentry->[initiator_nameShortIndef] садится рядом с [recipient_nameShortIndef] и начинает говорить [talktopic].</li>
-		<li>r_logentry->[initiator_nameShortIndef] подходит к [recipient_nameShortIndef], что-то шепча [talktopic].</li>
-		<li>r_logentry->[initiator_nameShortIndef] приближается к [recipient_nameShortIndef], что-то тихо бормоча [talktopic].</li>
-		<li>talktopic->[talktopic_heavy]</li>
-		<li>talktopic->[TalkTopicLight]</li>
-		<li>tamed_animal->издаёт в сторону [recipient_nameShortIndef] успокаивающие звуки</li>
-		<li>tamed_animal->делает медленные дружелюбные жесты в сторону [recipient_nameShortIndef]</li>
-		<li>tamed_animal->свистит в сторону [recipient_nameShortIndef]</li>
-		<li>tamed_animal->дружелюбно щёлкает языком, подзывая [recipient_nameShortIndef]</li>
-		<li>tamed_animal->медленно подходит к [recipient_nameShortIndef]</li>
-		<li>tamed_animal->мягко касается [recipient_nameShortIndef]</li>
-		<li>tamed_animal->успокаивает и подбадривает [recipient_nameShortIndef]</li>
-		<li>tamed_animal->дышит в унисон с [recipient_nameShortIndef]</li>
-		<li>tamed_animal->подходит к [recipient_nameShortIndef] с мирными намерениями</li>
-		<li>tamed_animal->тихо напевает песенку, смотря в сторону [recipient_nameShortIndef]</li>
-		<li>tamed_animal->поёт [recipient_nameShortIndef] старую колыбельную</li>
-		<li>tamed_animal->гладит [recipient_nameShortIndef]</li>
-		<li>tamed_animal->чешет [recipient_nameShortIndef] за ухом</li>
-		<li>tamed_animal->дружелюбно смотрит в сторону [recipient_nameShortIndef]</li>
-		<li>tamed_animal->говорит с дружелюбно смотрит в сторону [recipient_nameShortIndef]</li>
-		<li>tamed_animal->нашёптывает [recipient_nameShortIndef] историю [talktopic]</li>
+		<li>r_logentry(p=5)->[INITIATOR_nameShortIndef] [tamed_animal].</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] садится рядом с [RECIPIENT_nameShortIndef] и начинает говорить [TalkTopicAny].</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] подходит к [RECIPIENT_nameShortIndef], что-то шепча [TalkTopicAny].</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] приближается к [RECIPIENT_nameShortIndef], что-то тихо бормоча [TalkTopicAny].</li>
+		<li>tamed_animal->издаёт в сторону [RECIPIENT_nameShortIndef] успокаивающие звуки</li>
+		<li>tamed_animal->делает медленные дружелюбные жесты в сторону [RECIPIENT_nameShortIndef]</li>
+		<li>tamed_animal->свистит в сторону [RECIPIENT_nameShortIndef]</li>
+		<li>tamed_animal->дружелюбно щёлкает языком, подзывая [RECIPIENT_nameShortIndef]</li>
+		<li>tamed_animal->медленно подходит к [RECIPIENT_nameShortIndef]</li>
+		<li>tamed_animal->мягко касается [RECIPIENT_nameShortIndef]</li>
+		<li>tamed_animal->успокаивает и подбадривает [RECIPIENT_nameShortIndef]</li>
+		<li>tamed_animal->дышит в унисон с [RECIPIENT_nameShortIndef]</li>
+		<li>tamed_animal->подходит к [RECIPIENT_nameShortIndef] с мирными намерениями</li>
+		<li>tamed_animal->тихо напевает песенку, смотря в сторону [RECIPIENT_nameShortIndef]</li>
+		<li>tamed_animal->поёт [RECIPIENT_nameShortIndef] старую колыбельную</li>
+		<li>tamed_animal->гладит [RECIPIENT_nameShortIndef]</li>
+		<li>tamed_animal->чешет [RECIPIENT_nameShortIndef] за ухом</li>
+		<li>tamed_animal->дружелюбно смотрит в сторону [RECIPIENT_nameShortIndef]</li>
+		<li>tamed_animal->говорит с дружелюбно смотрит в сторону [RECIPIENT_nameShortIndef]</li>
+		<li>tamed_animal->нашёптывает [RECIPIENT_nameShortIndef] историю [TalkTopicAny]</li>
 	</AnimalChat.logRulesInitiator.rulesStrings>
 	
 	<TameAttempt.label>попытка приручить</TameAttempt.label>
 	<TameAttempt.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[initiator_nameShortIndef] пытается приручить [recipient_nameShortIndef].</li>
-		<li>r_logentry->[initiator_nameShortIndef] пытается получить контроль над [recipient_nameShortIndef].</li>
-		<li>r_logentry->[initiator_nameShortIndef] пытается надеть на [recipient_nameShortIndef] ошейник.</li>
-		<li>r_logentry->[initiator_nameShortIndef] требует от [recipient_nameShortIndef] покорности.</li>
-		<li>r_logentry->[initiator_nameShortIndef] зовёт [recipient_nameShortIndef] за собой.</li>
-		<li>r_logentry->[initiator_nameShortIndef] пытается заставить [recipient_nameShortIndef] сидеть.</li>
-		<li>r_logentry->[initiator_nameShortIndef] крепко хватает [recipient_nameShortIndef] и выкрикивает команду.</li>
-		<li>r_logentry->[initiator_nameShortIndef] пытается усмирить [recipient_nameShortIndef].</li>
-		<li>r_logentry->[initiator_nameShortIndef] выкрикивает команду в сторону [recipient_nameShortIndef].</li>
-		<li>r_logentry->[initiator_nameShortIndef] шлёпает [recipient_nameShortIndef], чтобы показать, кто здесь главный.</li>
-		<li>r_logentry->[initiator_nameShortIndef] разворачивает морду [recipient_nameShortIndef] в сторону поселения.</li>
-		<li>r_logentry->[initiator_nameShortIndef] зовёт [recipient_nameShortIndef] в поселение.</li>
-		<li>r_logentry->[initiator_nameShortIndef] трогает [recipient_nameShortIndef] за уязвимую часть тела, чтобы показать своё доминирование.</li>
-		<li>r_logentry->[initiator_nameShortIndef] указывает пальцем на какую-то точку на земле, требуя от [recipient_nameShortIndef] идти туда.</li>
-		<li>r_logentry->[initiator_nameShortIndef] отдаёт [recipient_nameShortIndef] первую команду.</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] пытается приручить [RECIPIENT_nameShortIndef].</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] пытается получить контроль над [RECIPIENT_nameShortIndef].</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] пытается надеть на [RECIPIENT_nameShortIndef] ошейник.</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] требует от [RECIPIENT_nameShortIndef] покорности.</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] зовёт [RECIPIENT_nameShortIndef] за собой.</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] пытается заставить [RECIPIENT_nameShortIndef] сидеть.</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] крепко хватает [RECIPIENT_nameShortIndef] и выкрикивает команду.</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] пытается усмирить [RECIPIENT_nameShortIndef].</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] выкрикивает команду в сторону [RECIPIENT_nameShortIndef].</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] шлёпает [RECIPIENT_nameShortIndef], чтобы показать, кто здесь главный.</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] разворачивает морду [RECIPIENT_nameShortIndef] в сторону поселения.</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] зовёт [RECIPIENT_nameShortIndef] в поселение.</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] трогает [RECIPIENT_nameShortIndef] за уязвимую часть тела, чтобы показать своё доминирование.</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] указывает пальцем на какую-то точку на земле, требуя от [RECIPIENT_nameShortIndef] идти туда.</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] отдаёт [RECIPIENT_nameShortIndef] первую команду.</li>
 	</TameAttempt.logRulesInitiator.rulesStrings>
 
 	<TrainAttempt.label>попытка тренировки</TrainAttempt.label>
 	<TrainAttempt.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[initiator_nameShortIndef] [trained_animal].</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] [trained_animal].</li>
 
-		<li>trained_animal(p=2)->[tried] тренировать [recipient_nameShortIndef]</li>
-		<li>trained_animal(p=4)->[tried] [training_way] [to_train] [recipient_nameShortIndef] [train_target]</li>
-		<li>trained_animal->[tried] вышколить [recipient_nameShortIndef]</li>
-		<li>trained_animal->[tried] заставить [recipient_nameShortIndef] заниматься новой для н[recipient_possessive] задачей</li>
+		<li>trained_animal(p=2)->[tried] тренировать [RECIPIENT_nameShortIndef]</li>
+		<li>trained_animal(p=4)->[tried] [training_way] [to_train] [RECIPIENT_nameShortIndef] [train_target]</li>
+		<li>trained_animal->[tried] вышколить [RECIPIENT_nameShortIndef]</li>
+		<li>trained_animal->[tried] заставить [RECIPIENT_nameShortIndef] заниматься новой для н[RECIPIENT_possessive] задачей</li>
 
 		<li>training_way(p=2)-></li>
 		<li>training_way->на собственном примере</li>
@@ -73,8 +71,8 @@
 
 	<Nuzzle.label>ласка</Nuzzle.label>
 	<Nuzzle.logRulesInitiator.rulesStrings>
-		<li>r_logentry(p=2)->[initiator_nameShortIndef] [nuzzleadverb] [nuzzled] об [recipient_nameShortIndef].</li>
-		<li>r_logentry->[initiator_nameShortIndef] [nuzzleadverb] [nuzzled] [rubbedpart] [recipient_nameShortIndef].</li>
+		<li>r_logentry(p=2)->[INITIATOR_nameShortIndef] [nuzzleadverb] [nuzzled] об [RECIPIENT_nameShortIndef].</li>
+		<li>r_logentry->[INITIATOR_nameShortIndef] [nuzzleadverb] [nuzzled] [rubbedpart] [RECIPIENT_nameShortIndef].</li>
 
 		<li>nuzzled(p=2)->ласкается</li>
 		<li>nuzzled->трётся своим носом</li>

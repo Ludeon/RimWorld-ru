@@ -2,10 +2,10 @@
 <LanguageData>
 
 	<DamageEvent_Include.rulePack.rulesStrings>
-		<li>r_logentry->[damageSource] [recipient_nameShortDef], [destroyed_participle] [recipient_possessive] [destroyed_targets].</li>
-		<li>r_logentry->[damageSource] [recipient_nameShortDef], [destroyed_participle] [recipient_possessive] [destroyed_targets] and [damaged_participle] [recipient_possessive] [damaged_targets].</li>
-		<li>r_logentry(recipient_part_destroyed_count==0)->[damageSource] [recipient_nameShortDef], [damaged_participle] [recipient_possessive] [damaged_targets].</li>
-		<li>r_logentry(p=0.1)->[damageSource] [recipient_nameShortDef].</li>
+		<li>r_logentry->[damageSource] [RECIPIENT_nameShortDef], [destroyed_participle] [RECIPIENT_possessive] [destroyed_targets].</li>
+		<li>r_logentry->[damageSource] [RECIPIENT_nameShortDef], [destroyed_participle] [RECIPIENT_possessive] [destroyed_targets] and [damaged_participle] [RECIPIENT_possessive] [damaged_targets].</li>
+		<li>r_logentry(recipient_part_destroyed_count==0)->[damageSource] [RECIPIENT_nameShortDef], [damaged_participle] [RECIPIENT_possessive] [damaged_targets].</li>
+		<li>r_logentry(p=0.1)->[damageSource] [RECIPIENT_nameShortDef].</li>
 	</DamageEvent_Include.rulePack.rulesStrings>
 
 
