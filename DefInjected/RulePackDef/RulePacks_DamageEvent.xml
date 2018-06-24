@@ -2,10 +2,10 @@
 <LanguageData>
 
 	<DamageEvent_Include.rulePack.rulesStrings>
-		<li>logentry->[damageSource] [recipient_nameShortDef], [destroyed_participle] [recipient_possessive] [destroyed_targets].</li>
-		<li>logentry->[damageSource] [recipient_nameShortDef], [destroyed_participle] [recipient_possessive] [destroyed_targets] and [damaged_participle] [recipient_possessive] [damaged_targets].</li>
-		<li>logentry(recipient_part_destroyed_count==0)->[damageSource] [recipient_nameShortDef], [damaged_participle] [recipient_possessive] [damaged_targets].</li>
-		<li>logentry(p=0.1)->[damageSource] [recipient_nameShortDef].</li>
+		<li>r_logentry->[damageSource] [recipient_nameShortDef], [destroyed_participle] [recipient_possessive] [destroyed_targets].</li>
+		<li>r_logentry->[damageSource] [recipient_nameShortDef], [destroyed_participle] [recipient_possessive] [destroyed_targets] and [damaged_participle] [recipient_possessive] [damaged_targets].</li>
+		<li>r_logentry(recipient_part_destroyed_count==0)->[damageSource] [recipient_nameShortDef], [damaged_participle] [recipient_possessive] [damaged_targets].</li>
+		<li>r_logentry(p=0.1)->[damageSource] [recipient_nameShortDef].</li>
 	</DamageEvent_Include.rulePack.rulesStrings>
 
 
@@ -24,7 +24,6 @@
 		<li>damaged_participle->дробя</li>
 		<li>damaged_participle->давя</li>
 		<li>damaged_participle->ломая</li>
-		<li>reserved->reserved</li>
 
 		<li>destroyed_participle->разбивая</li>
 		<li>destroyed_participle->раздрабливая</li>

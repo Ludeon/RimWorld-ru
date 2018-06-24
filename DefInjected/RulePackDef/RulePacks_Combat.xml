@@ -3,8 +3,8 @@
 
 
 	<Combat_MeleeIncludes.rulePack.rulesStrings>
-		<li>logentry->[action], [result].</li>
-		<li>logentry(p=0.2)->[action].</li>
+		<li>r_logentry->[action], [result].</li>
+		<li>r_logentry(p=0.2)->[action].</li>
 
 		<li>implement(implementOwnerType==weapon,p=2)->[initiator_possessive] [tool_label] [weapon_label]</li>
 		<li>implement(implementOwnerType==weapon,p=1)->[initiator_possessive] [weapon_label]</li>
@@ -55,7 +55,6 @@
 
 		<li>painstate->от</li>
 		<li>painstate->из-за</li>
-		<li>reserved->reserved</li>
 
 		<li>painevent->[painstate] боли</li>
 		<li>painevent->в муках</li>
@@ -74,8 +73,6 @@
 		<li>initiator_definite->[initiator_nameShortDef]</li>
 		<li>recipient_definite->[recipient_labelDefinite]</li>
 		<li>recipient_definite->[recipient_nameShortDef]</li>
-		<li>reserved->reserved</li>
-
 	</Combat_MeleeIncludes.rulePack.rulesStrings>
 
 	
@@ -185,44 +182,43 @@
 	
 
 	<Combat_Deflect.rulePack.rulesStrings>
-		<li>logentry(p=1)->[initiator_definite] [deflectedadverb] [damaged] [recipient_definite] в [recipient_part0_label].</li>
-		<li>logentry(p=1)->[initiator_definite] [damaged] [recipient_definite] в [recipient_part0_label], [deflectedconsequence].</li>
-		<li>logentry(p=0.3)->[initiator_definite], [expertly] держа в руках [weapon_label], [deflectedadverb] [damaged] [recipient_definite] в [recipient_part0_label].</li>
-		<li>logentry(p=0.3)->[initiator_definite], [expertly] держа в руках [weapon_label], [damaged] [recipient_definite] в [recipient_part0_label], [deflectedconsequence].</li>
+		<li>r_logentry(p=1)->[initiator_definite] [deflectedadverb] [damaged] [recipient_definite] в [recipient_part0_label].</li>
+		<li>r_logentry(p=1)->[initiator_definite] [damaged] [recipient_definite] в [recipient_part0_label], [deflectedconsequence].</li>
+		<li>r_logentry(p=0.3)->[initiator_definite], [expertly] держа в руках [weapon_label], [deflectedadverb] [damaged] [recipient_definite] в [recipient_part0_label].</li>
+		<li>r_logentry(p=0.3)->[initiator_definite], [expertly] держа в руках [weapon_label], [damaged] [recipient_definite] в [recipient_part0_label], [deflectedconsequence].</li>
 
-		<li>logentry(p=0.3)->[initiator_definite], используя [implement], [deflectedadverb] пытается [damaged_inf] [recipient_definite].</li>
-		<li>logentry(p=0.3)->[initiator_definite], используя [implement], пытается [damaged_inf] [recipient_definite], [deflectedconsequence].</li>
+		<li>r_logentry(p=0.3)->[initiator_definite], используя [implement], [deflectedadverb] пытается [damaged_inf] [recipient_definite].</li>
+		<li>r_logentry(p=0.3)->[initiator_definite], используя [implement], пытается [damaged_inf] [recipient_definite], [deflectedconsequence].</li>
 
-		<li>logentry(p=0.3)->[initiator_definite] [deflectedadverb] использует [implement], желая [damaged_inf] [recipient_definite].</li>
-		<li>logentry(p=0.3)->[initiator_definite] использует [implement], желая [damaged_inf] [recipient_definite], [deflectedconsequence].</li>
+		<li>r_logentry(p=0.3)->[initiator_definite] [deflectedadverb] использует [implement], желая [damaged_inf] [recipient_definite].</li>
+		<li>r_logentry(p=0.3)->[initiator_definite] использует [implement], желая [damaged_inf] [recipient_definite], [deflectedconsequence].</li>
 
-		<li>logentry(p=0.6)->[initiator_definite] [damaged] [recipient_definite] при помощи [implement], [deflectedconsequence].</li>
-		<li>logentry(p=0.6)->[initiator_definite] [deflectedadverb] [damaged] [recipient_definite] при помощи [implement].</li>
+		<li>r_logentry(p=0.6)->[initiator_definite] [damaged] [recipient_definite] при помощи [implement], [deflectedconsequence].</li>
+		<li>r_logentry(p=0.6)->[initiator_definite] [deflectedadverb] [damaged] [recipient_definite] при помощи [implement].</li>
 		
-		<li>logentry(p=0.6)->[initiator_definite] [deflectedadverb] [damaged] [recipient_definite].</li>
-		<li>logentry(p=0.6)->[initiator_definite] [damaged] [recipient_definite], [deflectedconsequence].</li>
+		<li>r_logentry(p=0.6)->[initiator_definite] [deflectedadverb] [damaged] [recipient_definite].</li>
+		<li>r_logentry(p=0.6)->[initiator_definite] [damaged] [recipient_definite], [deflectedconsequence].</li>
 
 		<li>deflectedconsequence->лишь [scrap_trans] [recipient_possessive] броню</li>
 		<li>deflectedconsequence->оставляя лишь [scratch] на [recipient_possessive] броне</li>
 		<li>deflectedconsequence->но [tool_label] лишь [scraped] [recipient_possessive] броню</li>
 		<li>deflectedconsequence->но [tool_label] лишь оставляет [scratch] на [recipient_possessive] броне</li>
 		<li>deflectedconsequence->но [tool_label] лишь соскальзывает с [recipient_possessive] брони</li>
-		
 	</Combat_Deflect.rulePack.rulesStrings>
 	
 	<Combat_Hit.rulePack.rulesStrings>
-		<li>logentry(p=0.3)->[initiator_definite] [damaged] [recipient_definite] в [recipient_part0_label].</li>
-		<li>logentry(p=0.1)->[initiator_definite] [flavortextadverb] [damaged] [recipient_definite] в [recipient_part0_label].</li>
-		<li>logentry(p=0.1)->[initiator_definite][flavortextsituation] [damaged] [recipient_definite] в [recipient_part0_label].</li>
-		<li>logentry(p=0.1)->[initiator_definite] [damaged] [recipient_definite] в [recipient_part0_label], [flavortextconsequence].</li>
-		<li>logentry(p=0.4)->[initiator_definite], [expertly] держа в руках [weapon_label], [flavortextadverb] [damaged] [recipient_definite] в [recipient_part0_label].</li>
-		<li>logentry(p=0.4)->[initiator_definite], [expertly] держа в руках [weapon_label], [damaged] [recipient_definite] в [recipient_part0_label].</li>
+		<li>r_logentry(p=0.3)->[initiator_definite] [damaged] [recipient_definite] в [recipient_part0_label].</li>
+		<li>r_logentry(p=0.1)->[initiator_definite] [flavortextadverb] [damaged] [recipient_definite] в [recipient_part0_label].</li>
+		<li>r_logentry(p=0.1)->[initiator_definite][flavortextsituation] [damaged] [recipient_definite] в [recipient_part0_label].</li>
+		<li>r_logentry(p=0.1)->[initiator_definite] [damaged] [recipient_definite] в [recipient_part0_label], [flavortextconsequence].</li>
+		<li>r_logentry(p=0.4)->[initiator_definite], [expertly] держа в руках [weapon_label], [flavortextadverb] [damaged] [recipient_definite] в [recipient_part0_label].</li>
+		<li>r_logentry(p=0.4)->[initiator_definite], [expertly] держа в руках [weapon_label], [damaged] [recipient_definite] в [recipient_part0_label].</li>
 
 		<!-- combined high priority, if we destroyed something -->
-		<li>logentry(p=0.3)->[initiator_definite] [destroyed] [destroyed_targets] [recipient_definite].</li>
-		<li>logentry(p=0.3)->[initiator_definite] [destroyed] [destroyed_targets] [recipient_definite] [destroyed_suffix].</li>
-		<li>logentry(p=0.3)->[initiator_definite] [expertly] [destroyed] [destroyed_targets] [recipient_definite].</li>
-		<li>logentry(p=0.3)->[initiator_definite] при помощи [implement] [destroyed] [destroyed_targets] [recipient_definite].</li>
+		<li>r_logentry(p=0.3)->[initiator_definite] [destroyed] [destroyed_targets] [recipient_definite].</li>
+		<li>r_logentry(p=0.3)->[initiator_definite] [destroyed] [destroyed_targets] [recipient_definite] [destroyed_suffix].</li>
+		<li>r_logentry(p=0.3)->[initiator_definite] [expertly] [destroyed] [destroyed_targets] [recipient_definite].</li>
+		<li>r_logentry(p=0.3)->[initiator_definite] при помощи [implement] [destroyed] [destroyed_targets] [recipient_definite].</li>
 
 		<li>result(p=1,recipient_part_damaged_count==0)->[destroyed_participle] [recipient_possessive] [destroyed_targets]</li>
 		<li>result(p=1,recipient_part_destroyed_count==0)->[damaged_participle] [recipient_possessive] [damaged_targets]</li>
@@ -257,11 +253,11 @@
 
 
 	<Combat_Miss.rulePack.rulesStrings>
-		<li>logentry(p=0.2)->[recipient_definite] избегает [maneuver_noun_gen] [weapon_label] [initiator_definite].</li>
-		<li>logentry(p=0.2)->[initiator_definite] промахивается по [recipient_definite] [maneuver_noun_instr] [implement].</li>
-		<li>logentry(p=0.2)->[initiator_definite] [failtype], пытаясь [damaged_inf] [recipient_definite] при помощи [implement].</li>
-		<li>logentry(p=0.2)->[initiator_definite] [failtype], пытаясь [damaged_inf] [recipient_definite].</li>
-		<li>logentry(p=0.2)->[initiator_definite] [failtype].</li>
+		<li>r_logentry(p=0.2)->[recipient_definite] избегает [maneuver_noun_gen] [weapon_label] [initiator_definite].</li>
+		<li>r_logentry(p=0.2)->[initiator_definite] промахивается по [recipient_definite] [maneuver_noun_instr] [implement].</li>
+		<li>r_logentry(p=0.2)->[initiator_definite] [failtype], пытаясь [damaged_inf] [recipient_definite] при помощи [implement].</li>
+		<li>r_logentry(p=0.2)->[initiator_definite] [failtype], пытаясь [damaged_inf] [recipient_definite].</li>
+		<li>r_logentry(p=0.2)->[initiator_definite] [failtype].</li>
 		<li>failtype->спотыкается</li>
 		<li>failtype->ошибается</li>
 		<li>failtype->делает ошибку</li>
@@ -276,8 +272,8 @@
 
 
 	<Combat_Dodge.rulePack.rulesStrings>
-		<li>logentry(p=0.2)->[recipient_definite] уворачивается от [maneuver_noun_gen] [implement] [initiator_definite].</li>
-		<li>logentry(p=0.2)->[recipient_definite] уворачивается от [maneuver_noun_gen].</li>
+		<li>r_logentry(p=0.2)->[recipient_definite] уворачивается от [maneuver_noun_gen] [implement] [initiator_definite].</li>
+		<li>r_logentry(p=0.2)->[recipient_definite] уворачивается от [maneuver_noun_gen].</li>
 
 		<li>result->но [recipient_definite] [expertly] уворачивается</li>
 		<li>result->но [recipient_definite] делает обманное движение</li>
@@ -286,12 +282,12 @@
 
 
 	<Combat_RangedFire.rulePack.rulesStrings>
-		<li>logentry->[initiator_definite] [shotat] [recipient_definite] из [initiator_possessive] [weapon_label].</li>
-		<li>logentry->[initiator_definite] [shot] [initiator_possessive] [weapon_label] в [recipient_definite].</li>
-		<li>logentry->[initiator_definite] [shotat] [recipient_definite].</li>
-		<li>logentry->[initiator_definite] [aburst] [shot_a] [weapon_projectile_label] в [recipient_definite].</li>
-		<li>logentry(recipient_missing==True)->[initiator_definite] [shot_a] [weapon_projectile_label].</li>
-		<li>logentry(recipient_missing==True)->[initiator_definite] [shot] [initiator_possessive] [weapon_label].</li>
+		<li>r_logentry->[initiator_definite] [shotat] [recipient_definite] из [initiator_possessive] [weapon_label].</li>
+		<li>r_logentry->[initiator_definite] [shot] [initiator_possessive] [weapon_label] в [recipient_definite].</li>
+		<li>r_logentry->[initiator_definite] [shotat] [recipient_definite].</li>
+		<li>r_logentry->[initiator_definite] [aburst] [shot_a] [weapon_projectile_label] в [recipient_definite].</li>
+		<li>r_logentry(recipient_missing==True)->[initiator_definite] [shot_a] [weapon_projectile_label].</li>
+		<li>r_logentry(recipient_missing==True)->[initiator_definite] [shot] [initiator_possessive] [weapon_label].</li>
 
 		<li>shot_a->[shotadverb] [shot_a_verb]</li>
 		<li>shot_a(p=2)->[shot_a_verb]</li>
@@ -306,8 +302,6 @@
 		<li>shotat(p=0.2)->производит [shotadjective] выстрел</li>
 		<li>shotat(p=0.5)->целится и стреляет [aburst] в</li>
 		<li>shotat(p=0.3)->открывает огонь по</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
 
 		<li>aburst-></li>
 		<li>aburst(burst==True,p=3)->очередью</li>
@@ -336,10 +330,10 @@
 
 
 	<Combat_RangedFire_Thrown.rulePack.rulesStrings>
-		<li>logentry->[initiator_definite] [threw] [initiator_possessive] [weapon_projectile_label] в [recipient_definite].</li>
-		<li>logentry->[initiator_definite] [threw] [weapon_projectile_label] в [recipient_definite].</li>
-		<li>logentry(recipient_missing==True)->[initiator_definite] [threw] [initiator_possessive] [weapon_projectile_label].</li>
-		<li>logentry(recipient_missing==True)->[initiator_definite] [threw] [weapon_projectile_label].</li>
+		<li>r_logentry->[initiator_definite] [threw] [initiator_possessive] [weapon_projectile_label] в [recipient_definite].</li>
+		<li>r_logentry->[initiator_definite] [threw] [weapon_projectile_label] в [recipient_definite].</li>
+		<li>r_logentry(recipient_missing==True)->[initiator_definite] [threw] [initiator_possessive] [weapon_projectile_label].</li>
+		<li>r_logentry(recipient_missing==True)->[initiator_definite] [threw] [weapon_projectile_label].</li>
 		<li>threw(p=2)->[threwverb]</li>
 		<li>threw->[threwadverb] [threwverb]</li>
 		<li>threwverb->кидает</li>
@@ -356,20 +350,20 @@
 	
 	
 	<Combat_RangedDeflect.rulePack.rulesStrings>
-		<li>logentry->[weapon_projectile_label] [initiator_definite] попадает в [damaged_targets] [recipient_definite], [deflectedconsequence_projectile].</li>
-		<li>logentry->[weapon_projectile_label] [initiator_definite] попадает в [damaged_targets] [recipient_definite] [deflectedadverb].</li>
-		<li>logentry(p=2)->[weapon_projectile_label] [initiator_definite] [projectile_missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt], [deflectedconsequence_projectile].</li>
-		<li>logentry(p=2)->[weapon_projectile_label] [initiator_definite] [projectile_missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt] [deflectedadverb].</li>
-		<li>logentry(p=0.2)->[initiator_definite] попадает в [damaged_target_possessive_opt], [deflectedconsequence_projectile_label].</li>
-		<li>logentry(p=0.2)->[initiator_definite] попадает в [damaged_target_possessive_opt] [deflectedadverb].</li>
-		<li>logentry(p=0.2)->[weapon_projectile_label] [initiator_definite] попадает в [damaged_target_possessive_opt], [deflectedconsequence_projectile].</li>
-		<li>logentry(p=0.2)->[weapon_projectile_label] [initiator_definite] попадает в [damaged_target_possessive_opt] [deflectedadverb].</li>
-		<li>logentry(p=0.4)->[initiator_definite] [missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt], [deflectedconsequence_projectile_label].</li>
-		<li>logentry(p=0.4)->[initiator_definite] [missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt] [deflectedadverb].</li>
-		<li>logentry(p=0.4)->[weapon_projectile_label] [initiator_definite] [projectile_missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt], [deflectedconsequence_projectile].</li>
-		<li>logentry(p=0.4)->[weapon_projectile_label] [initiator_definite] [projectile_missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt], [deflectedadverb].</li>
-		<li>logentry(p=0.2)->[weapon_projectile_label] [initiator_definite] попадает в [damaged_target_possessive_opt] вместо [originalTarget_definite], [deflectedconsequence_projectile].</li>
-		<li>logentry(p=0.2)->[weapon_projectile_label] [initiator_definite] попадает в [damaged_target_possessive_opt] вместо [originalTarget_definite], [deflectedadverb].</li>
+		<li>r_logentry->[weapon_projectile_label] [initiator_definite] попадает в [damaged_targets] [recipient_definite], [deflectedconsequence_projectile].</li>
+		<li>r_logentry->[weapon_projectile_label] [initiator_definite] попадает в [damaged_targets] [recipient_definite] [deflectedadverb].</li>
+		<li>r_logentry(p=2)->[weapon_projectile_label] [initiator_definite] [projectile_missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt], [deflectedconsequence_projectile].</li>
+		<li>r_logentry(p=2)->[weapon_projectile_label] [initiator_definite] [projectile_missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt] [deflectedadverb].</li>
+		<li>r_logentry(p=0.2)->[initiator_definite] попадает в [damaged_target_possessive_opt], [deflectedconsequence_projectile_label].</li>
+		<li>r_logentry(p=0.2)->[initiator_definite] попадает в [damaged_target_possessive_opt] [deflectedadverb].</li>
+		<li>r_logentry(p=0.2)->[weapon_projectile_label] [initiator_definite] попадает в [damaged_target_possessive_opt], [deflectedconsequence_projectile].</li>
+		<li>r_logentry(p=0.2)->[weapon_projectile_label] [initiator_definite] попадает в [damaged_target_possessive_opt] [deflectedadverb].</li>
+		<li>r_logentry(p=0.4)->[initiator_definite] [missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt], [deflectedconsequence_projectile_label].</li>
+		<li>r_logentry(p=0.4)->[initiator_definite] [missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt] [deflectedadverb].</li>
+		<li>r_logentry(p=0.4)->[weapon_projectile_label] [initiator_definite] [projectile_missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt], [deflectedconsequence_projectile].</li>
+		<li>r_logentry(p=0.4)->[weapon_projectile_label] [initiator_definite] [projectile_missed] [originalTarget_definite] и попадает в [damaged_target_possessive_opt], [deflectedadverb].</li>
+		<li>r_logentry(p=0.2)->[weapon_projectile_label] [initiator_definite] попадает в [damaged_target_possessive_opt] вместо [originalTarget_definite], [deflectedconsequence_projectile].</li>
+		<li>r_logentry(p=0.2)->[weapon_projectile_label] [initiator_definite] попадает в [damaged_target_possessive_opt] вместо [originalTarget_definite], [deflectedadverb].</li>
 
 		<li>weapon_projectile_label(p=0.05)->выстрел</li>
 		<li>damaged_target_possessive_opt->[recipient_definite]</li>
@@ -395,32 +389,32 @@
 
 	<!-- various destroyed options; we allow these even if we could use hybrid, to cut down a bit on clutter -->
 	<Combat_RangedDamage.rulePack.rulesStrings>
-		<li>logentry->[weapon_projectile_label] [initiator_definite] [destroyed] [destroyed_targets] у [recipient_definite].</li>
-		<li>logentry->[weapon_projectile_label] [initiator_definite] [destroyed] [destroyed_targets] [recipient_definite] [destroyed_suffix].</li>
-		<li>logentry->[weapon_projectile_label] [initiator_definite] [expertly] [destroyed] [destroyed_targets] [recipient_definite].</li>
-		<li>logentry(p=2)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite] и [destroyed] [destroyed_targets] у [recipient_definite].</li>
-		<li>logentry(p=2)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite], [destroyed_participle] [destroyed_targets] у [recipient_definite].</li>
-		<li>logentry->[destroyed_targets] [recipient_definite] [destroyed]ся попаданием [weapon_projectile_label] [initiator_definite].</li>
-		<li>logentry->[destroyed_targets] [recipient_definite] [destroyed]ся [expert] попаданием [weapon_projectile_label] [initiator_definite].</li>
-		<li>logentry->[destroyed_targets] [recipient_definite] [destroyed]ся в [destroyed_suffix] попаданием [weapon_projectile_label] [initiator_definite].</li>
+		<li>r_logentry->[weapon_projectile_label] [initiator_definite] [destroyed] [destroyed_targets] у [recipient_definite].</li>
+		<li>r_logentry->[weapon_projectile_label] [initiator_definite] [destroyed] [destroyed_targets] [recipient_definite] [destroyed_suffix].</li>
+		<li>r_logentry->[weapon_projectile_label] [initiator_definite] [expertly] [destroyed] [destroyed_targets] [recipient_definite].</li>
+		<li>r_logentry(p=2)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite] и [destroyed] [destroyed_targets] у [recipient_definite].</li>
+		<li>r_logentry(p=2)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite], [destroyed_participle] [destroyed_targets] у [recipient_definite].</li>
+		<li>r_logentry->[destroyed_targets] [recipient_definite] [destroyed]ся попаданием [weapon_projectile_label] [initiator_definite].</li>
+		<li>r_logentry->[destroyed_targets] [recipient_definite] [destroyed]ся [expert] попаданием [weapon_projectile_label] [initiator_definite].</li>
+		<li>r_logentry->[destroyed_targets] [recipient_definite] [destroyed]ся в [destroyed_suffix] попаданием [weapon_projectile_label] [initiator_definite].</li>
 
 		<!-- various damaged options; don't show if something was destroyed -->
-		<li>logentry(recipient_partDestroyed_count==0)->[weapon_projectile_label] [initiator_definite] [damaged] [damaged_targets] [recipient_definite].</li>
-		<li>logentry(recipient_partDestroyed_count==0)->[weapon_projectile_label] [initiator_definite] [expertly] [damaged] [damaged_targets] [recipient_definite] [destroyed_suffix].</li>
-		<li>logentry(recipient_partDestroyed_count==0,p=2)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite] и [damaged] [damaged_targets] [recipient_definite].</li>
-		<li>logentry(recipient_partDestroyed_count==0,p=2)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite], [damaged_participle] [damaged_targets] [recipient_definite].</li>
-		<li>logentry(recipient_partDestroyed_count==0)->[damaged_targets] [recipient_definite] [damaged]ся попаданием [weapon_projectile_label] [initiator_definite].</li>
-		<li>logentry(recipient_partDestroyed_count==0)->[damaged_targets] [recipient_definite] [damaged]ся [expert] попаданием [weapon_projectile_label] [initiator_definite].</li>
+		<li>r_logentry(recipient_partDestroyed_count==0)->[weapon_projectile_label] [initiator_definite] [damaged] [damaged_targets] [recipient_definite].</li>
+		<li>r_logentry(recipient_partDestroyed_count==0)->[weapon_projectile_label] [initiator_definite] [expertly] [damaged] [damaged_targets] [recipient_definite] [destroyed_suffix].</li>
+		<li>r_logentry(recipient_partDestroyed_count==0,p=2)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite] и [damaged] [damaged_targets] [recipient_definite].</li>
+		<li>r_logentry(recipient_partDestroyed_count==0,p=2)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite], [damaged_participle] [damaged_targets] [recipient_definite].</li>
+		<li>r_logentry(recipient_partDestroyed_count==0)->[damaged_targets] [recipient_definite] [damaged]ся попаданием [weapon_projectile_label] [initiator_definite].</li>
+		<li>r_logentry(recipient_partDestroyed_count==0)->[damaged_targets] [recipient_definite] [damaged]ся [expert] попаданием [weapon_projectile_label] [initiator_definite].</li>
 
 		<!-- damaged/destroyed hybrid -->
-		<li>logentry(p=3)->[weapon_projectile_label] [initiator_definite] [destroyed] [destroyed_targets] [recipient_definite] и [damaged] [recipient_possessive] [damaged_targets].</li>
-		<li>logentry(p=6)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite], [destroyed_participle] [destroyed_targets] [recipient_definite] и [damaged_participle] [recipient_possessive] [damaged_targets].</li>
+		<li>r_logentry(p=3)->[weapon_projectile_label] [initiator_definite] [destroyed] [destroyed_targets] [recipient_definite] и [damaged] [recipient_possessive] [damaged_targets].</li>
+		<li>r_logentry(p=6)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite], [destroyed_participle] [destroyed_targets] [recipient_definite] и [damaged_participle] [recipient_possessive] [damaged_targets].</li>
 
 		<!-- don't mention damage or destruction; uncommon, but intended as a fallback -->
-		<li>logentry(p=0.2)->[initiator_definite] попадает в [recipient_definite] своим [weapon_projectile_label].</li>
-		<li>logentry(p=0.2)->[weapon_projectile_label] [initiator_definite] попадает в [recipient_definite].</li>
-		<li>logentry(p=0.4)->[initiator_definite] своим [weapon_projectile_label] [missed] [originalTarget_definite] и попадает в [recipient_definite].</li>
-		<li>logentry(p=0.4)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite] и попадает в [recipient_definite].</li>
+		<li>r_logentry(p=0.2)->[initiator_definite] попадает в [recipient_definite] своим [weapon_projectile_label].</li>
+		<li>r_logentry(p=0.2)->[weapon_projectile_label] [initiator_definite] попадает в [recipient_definite].</li>
+		<li>r_logentry(p=0.4)->[initiator_definite] своим [weapon_projectile_label] [missed] [originalTarget_definite] и попадает в [recipient_definite].</li>
+		<li>r_logentry(p=0.4)->[weapon_projectile_label] [initiator_definite] [missed] [originalTarget_definite] и попадает в [recipient_definite].</li>
 
 		<!-- fallback, also a little variety -->
 		<li>weapon_projectile_label(p=0.05)->выстрел</li>
@@ -470,15 +464,15 @@
 		<li>missed->проходит мимо</li>
 		<li>missed->не попадает по</li>
 
-		<li>logentry(p=0.2)->[initiator_definite] попадает в [recipient_definite] вместо [originalTarget_definite].</li>
+		<li>r_logentry(p=0.2)->[initiator_definite] попадает в [recipient_definite] вместо [originalTarget_definite].</li>
 	</Combat_RangedDamage.rulePack.rulesStrings>
 
 
 	<Combat_RangedMiss.rulePack.rulesStrings>
-		<li>logentry->[weapon_projectile_label] [initiator_definite] [missing_projectile].</li>
+		<li>r_logentry->[weapon_projectile_label] [initiator_definite] [missing_projectile].</li>
 
-		<li>logentry->[initiator_definite] [missing_initiator].</li>
-		<li>logentry->[originalTarget_definite] [avoidance], [weapon_projectile_label] [initiator_definite] [missing_projectile].</li>
+		<li>r_logentry->[initiator_definite] [missing_initiator].</li>
+		<li>r_logentry->[originalTarget_definite] [avoidance], [weapon_projectile_label] [initiator_definite] [missing_projectile].</li>
 
 		<li>missing_projectile(p=4)->проходит мимо [originalTarget_definite]</li>
 		<li>missing_projectile(p=2)->почти попадает по [originalTarget_definite]</li>
@@ -524,39 +518,26 @@
 		<li>prefix(p=2)->[blast] от попадания [weapon_projectile_label] [initiator_definite]</li>
 		<li>prefix->[weapon_projectile_label] [initiator_definite]</li>
 		<li>prefix->[weapon_label] [initiator_definite]</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
 
-		<li>logentry->[prefix] [injured] [recipient_definite].</li>
+		<li>r_logentry->[prefix] [injured] [recipient_definite].</li>
 
-		<li>logentry->[prefix] [destroyed] [destroyed_targets] [recipient_definite].</li>
-		<li>logentry(p=2)->[prefix] [flavortextadverb] [destroyed] [destroyed_targets] [recipient_definite].</li>
-		<li>reserved->reserved</li>
-		<li>logentry->[prefix] [destroyed] [destroyed_targets] [recipient_definite] и [damaged] [recipient_possessive] [damaged_targets].</li>
-		<li>logentry(recipient_part_destroyed_count==0)->[prefix] [damaged] [damaged_targets] [recipient_definite].</li>
-		<li>logentry(recipient_part_destroyed_count==0,p=2)->[prefix] [flavortextadverb] [damaged] [damaged_targets] [recipient_definite].</li>
-		<li>reserved->reserved</li>
+		<li>r_logentry->[prefix] [destroyed] [destroyed_targets] [recipient_definite].</li>
+		<li>r_logentry(p=2)->[prefix] [flavortextadverb] [destroyed] [destroyed_targets] [recipient_definite].</li>
+		<li>r_logentry->[prefix] [destroyed] [destroyed_targets] [recipient_definite] и [damaged] [recipient_possessive] [damaged_targets].</li>
+		<li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged] [damaged_targets] [recipient_definite].</li>
+		<li>r_logentry(recipient_part_destroyed_count==0,p=2)->[prefix] [flavortextadverb] [damaged] [damaged_targets] [recipient_definite].</li>
 
-		<li>logentry->[initiator_definite] [injured] [recipient_definite].</li>
-		<li>logentry->[initiator_definite] [flavortextadverb] [injured] [recipient_definite].</li>
-		<li>logentry->[recipient_definite] [injured]ся.</li>
+		<li>r_logentry->[initiator_definite] [injured] [recipient_definite].</li>
+		<li>r_logentry->[initiator_definite] [flavortextadverb] [injured] [recipient_definite].</li>
+		<li>r_logentry->[recipient_definite] [injured]ся.</li>
 
 		<li>blast->взрыв</li>
 		<li>blast->разрыв</li>
 		<li>blast->ударная волна</li>
 		<li>blast->детонация</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
 
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-
-		<li>logentry(p=0.001)->Взрыв накрывает [recipient_definite].</li>
-		<li>logentry(p=0.001)->Взрыв задевает [recipient_definite].</li>
+		<li>r_logentry(p=0.001)->Взрыв накрывает [recipient_definite].</li>
+		<li>r_logentry(p=0.001)->Взрыв задевает [recipient_definite].</li>
 	</Combat_ExplosionImpact.rulePack.rulesStrings>
 
 </LanguageData>

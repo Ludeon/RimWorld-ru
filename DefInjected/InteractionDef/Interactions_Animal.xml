@@ -3,10 +3,10 @@
 
 	<AnimalChat.label>общение с животным</AnimalChat.label>
 	<AnimalChat.logRulesInitiator.rulesStrings>
-		<li>logentry(p=5)->[initiator_nameShortIndef] [tamed_animal].</li>
-		<li>logentry->[initiator_nameShortIndef] садится рядом с [recipient_nameShortIndef] и начинает говорить [talktopic].</li>
-		<li>logentry->[initiator_nameShortIndef] подходит к [recipient_nameShortIndef], что-то шепча [talktopic].</li>
-		<li>logentry->[initiator_nameShortIndef] приближается к [recipient_nameShortIndef], что-то тихо бормоча [talktopic].</li>
+		<li>r_logentry(p=5)->[initiator_nameShortIndef] [tamed_animal].</li>
+		<li>r_logentry->[initiator_nameShortIndef] садится рядом с [recipient_nameShortIndef] и начинает говорить [talktopic].</li>
+		<li>r_logentry->[initiator_nameShortIndef] подходит к [recipient_nameShortIndef], что-то шепча [talktopic].</li>
+		<li>r_logentry->[initiator_nameShortIndef] приближается к [recipient_nameShortIndef], что-то тихо бормоча [talktopic].</li>
 		<li>talktopic->[talktopic_heavy]</li>
 		<li>talktopic->[TalkTopicLight]</li>
 		<li>tamed_animal->издаёт в сторону [recipient_nameShortIndef] успокаивающие звуки</li>
@@ -29,26 +29,26 @@
 	
 	<TameAttempt.label>попытка приручить</TameAttempt.label>
 	<TameAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->[initiator_nameShortIndef] пытается приручить [recipient_nameShortIndef].</li>
-		<li>logentry->[initiator_nameShortIndef] пытается получить контроль над [recipient_nameShortIndef].</li>
-		<li>logentry->[initiator_nameShortIndef] пытается надеть на [recipient_nameShortIndef] ошейник.</li>
-		<li>logentry->[initiator_nameShortIndef] требует от [recipient_nameShortIndef] покорности.</li>
-		<li>logentry->[initiator_nameShortIndef] зовёт [recipient_nameShortIndef] за собой.</li>
-		<li>logentry->[initiator_nameShortIndef] пытается заставить [recipient_nameShortIndef] сидеть.</li>
-		<li>logentry->[initiator_nameShortIndef] крепко хватает [recipient_nameShortIndef] и выкрикивает команду.</li>
-		<li>logentry->[initiator_nameShortIndef] пытается усмирить [recipient_nameShortIndef].</li>
-		<li>logentry->[initiator_nameShortIndef] выкрикивает команду в сторону [recipient_nameShortIndef].</li>
-		<li>logentry->[initiator_nameShortIndef] шлёпает [recipient_nameShortIndef], чтобы показать, кто здесь главный.</li>
-		<li>logentry->[initiator_nameShortIndef] разворачивает морду [recipient_nameShortIndef] в сторону поселения.</li>
-		<li>logentry->[initiator_nameShortIndef] зовёт [recipient_nameShortIndef] в поселение.</li>
-		<li>logentry->[initiator_nameShortIndef] трогает [recipient_nameShortIndef] за уязвимую часть тела, чтобы показать своё доминирование.</li>
-		<li>logentry->[initiator_nameShortIndef] указывает пальцем на какую-то точку на земле, требуя от [recipient_nameShortIndef] идти туда.</li>
-		<li>logentry->[initiator_nameShortIndef] отдаёт [recipient_nameShortIndef] первую команду.</li>
+		<li>r_logentry->[initiator_nameShortIndef] пытается приручить [recipient_nameShortIndef].</li>
+		<li>r_logentry->[initiator_nameShortIndef] пытается получить контроль над [recipient_nameShortIndef].</li>
+		<li>r_logentry->[initiator_nameShortIndef] пытается надеть на [recipient_nameShortIndef] ошейник.</li>
+		<li>r_logentry->[initiator_nameShortIndef] требует от [recipient_nameShortIndef] покорности.</li>
+		<li>r_logentry->[initiator_nameShortIndef] зовёт [recipient_nameShortIndef] за собой.</li>
+		<li>r_logentry->[initiator_nameShortIndef] пытается заставить [recipient_nameShortIndef] сидеть.</li>
+		<li>r_logentry->[initiator_nameShortIndef] крепко хватает [recipient_nameShortIndef] и выкрикивает команду.</li>
+		<li>r_logentry->[initiator_nameShortIndef] пытается усмирить [recipient_nameShortIndef].</li>
+		<li>r_logentry->[initiator_nameShortIndef] выкрикивает команду в сторону [recipient_nameShortIndef].</li>
+		<li>r_logentry->[initiator_nameShortIndef] шлёпает [recipient_nameShortIndef], чтобы показать, кто здесь главный.</li>
+		<li>r_logentry->[initiator_nameShortIndef] разворачивает морду [recipient_nameShortIndef] в сторону поселения.</li>
+		<li>r_logentry->[initiator_nameShortIndef] зовёт [recipient_nameShortIndef] в поселение.</li>
+		<li>r_logentry->[initiator_nameShortIndef] трогает [recipient_nameShortIndef] за уязвимую часть тела, чтобы показать своё доминирование.</li>
+		<li>r_logentry->[initiator_nameShortIndef] указывает пальцем на какую-то точку на земле, требуя от [recipient_nameShortIndef] идти туда.</li>
+		<li>r_logentry->[initiator_nameShortIndef] отдаёт [recipient_nameShortIndef] первую команду.</li>
 	</TameAttempt.logRulesInitiator.rulesStrings>
 
 	<TrainAttempt.label>попытка тренировки</TrainAttempt.label>
 	<TrainAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->[initiator_nameShortIndef] [trained_animal].</li>
+		<li>r_logentry->[initiator_nameShortIndef] [trained_animal].</li>
 
 		<li>trained_animal(p=2)->[tried] тренировать [recipient_nameShortIndef]</li>
 		<li>trained_animal(p=4)->[tried] [training_way] [to_train] [recipient_nameShortIndef] [train_target]</li>
@@ -73,8 +73,8 @@
 
 	<Nuzzle.label>ласка</Nuzzle.label>
 	<Nuzzle.logRulesInitiator.rulesStrings>
-		<li>logentry(p=2)->[initiator_nameShortIndef] [nuzzleadverb] [nuzzled] об [recipient_nameShortIndef].</li>
-		<li>logentry->[initiator_nameShortIndef] [nuzzleadverb] [nuzzled] [rubbedpart] [recipient_nameShortIndef].</li>
+		<li>r_logentry(p=2)->[initiator_nameShortIndef] [nuzzleadverb] [nuzzled] об [recipient_nameShortIndef].</li>
+		<li>r_logentry->[initiator_nameShortIndef] [nuzzleadverb] [nuzzled] [rubbedpart] [recipient_nameShortIndef].</li>
 
 		<li>nuzzled(p=2)->ласкается</li>
 		<li>nuzzled->трётся своим носом</li>

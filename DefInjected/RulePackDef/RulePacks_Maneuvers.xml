@@ -115,25 +115,19 @@
 		<li>damaged->дробит</li>
 		<li>damaged(p=4)->бьёт</li>
 		<li>damaged->ушибает</li>
-		<li>reserved->reserved</li>
 
 		<li>damaged_participle->ушибая</li>
 		<li>damaged_participle->дробя</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
 
 		<li>destroyed->разбивает</li>
 		<li>destroyed->раздрабливает</li>
 		<li>destroyed->размазывает</li>
 		<li>destroyed->отбивает</li>
-		<li>reserved->reserved</li>
 
 		<li>destroyed_participle->разбивая</li>
 		<li>destroyed_participle->раздрабливая</li>
 		<li>destroyed_participle->размазывая</li>
 		<li>destroyed_participle->отбивая</li>
-		<li>reserved->reserved</li>
 	</Maneuver_Smash_Damage.rulePack.rulesStrings>
 
 
@@ -173,14 +167,10 @@
 		<li>destroyed->растерзывает</li>
 		<li>destroyed->раздирает</li>
 		<li>destroyed->разрывает</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
 
 		<li>destroyed_participle->растерзывая</li>
 		<li>destroyed_participle->раздирая</li>
 		<li>destroyed_participle->разрывая</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
 	</Maneuver_Scratch_Damage.rulePack.rulesStrings>
 
 
@@ -220,8 +210,6 @@
 		<li>damaged_participle(p=2)->тыкая</li>
 		<li>damaged_participle(p=2)->ушибая</li>
 		<li>damaged_participle->давя</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
 
 		<li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
 		<li>flavortextconsequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
@@ -260,7 +248,6 @@
 		<li>damaged->грызёт</li>
 		<li>damaged->кусает</li>
 
-		<li>reserved->reserved</li>
 		<li>damaged_participle->chomping</li>
 		<li>damaged_participle->надрывая</li>
 		<li>damaged_participle->надгрызая</li>
@@ -291,19 +278,19 @@
 	
 	
 	<Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
-		<li>logentry->[initiator_definite] бросает [tool_label] в глаза [recipient_definite].</li>
-		<li>logentry(p=0.2)->[initiator_definite] пинает [tool_label] в глаза [recipient_definite].</li>
+		<li>r_logentry->[initiator_definite] бросает [tool_label] в глаза [recipient_definite].</li>
+		<li>r_logentry(p=0.2)->[initiator_definite] пинает [tool_label] в глаза [recipient_definite].</li>
 	</Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
 
 
 	<Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
-		<li>logentry->[initiator_definite] пытается кинуть [tool_label] в глаза [recipient_definite], но промахивается.</li>
+		<li>r_logentry->[initiator_definite] пытается кинуть [tool_label] в глаза [recipient_definite], но промахивается.</li>
 	</Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
 
 
 	<Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-		<li>logentry->[initiator_definite] пытается кинуть [tool_label] в глаза [recipient_definite], но [recipient_definite] уворачивается.</li>
-		<li>logentry->[initiator_definite] пытается кинуть [tool_label] в глаза [recipient_definite], но [recipient_definite] вовремя закрывает лицо.</li>
+		<li>r_logentry->[initiator_definite] пытается кинуть [tool_label] в глаза [recipient_definite], но [recipient_definite] уворачивается.</li>
+		<li>r_logentry->[initiator_definite] пытается кинуть [tool_label] в глаза [recipient_definite], но [recipient_definite] вовремя закрывает лицо.</li>
 	</Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
 	
 </LanguageData>

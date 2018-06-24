@@ -4,71 +4,58 @@
 	<ArtNameUtility.rulePack.rulesFiles>
 		<li>Artwork->Words/Nouns/Artworks</li>
 		<li>art_adjective->Words/Adjectives/Badass</li>
-		<li>art_adjective->Words/Adjectives/Angsty</li>
-		<li>art_adjective->Words/Adjectives/Angsty</li>
-
-		<li>badassconcept->Words/Nouns/Concepts_Badass</li>
-		<li>positiveconcept->Words/Nouns/Concepts_Positive</li>
-		<li>angstyconcept->Words/Nouns/Concepts_Angsty</li>
-
-		<li>animal->Words/Nouns/Animals</li>
+		<li>art_adjective(p=3)->Words/Adjectives/Angsty</li>
 		<li>badassanimal->Words/Nouns/Animals_Badass</li>
-
-		<li>badassperson->Words/Nouns/People_Enemies</li>
-
 		<li>badasscolor->Words/Nouns/Colors_Badass</li>
-		<li>color->Words/Nouns/Colors</li>
-
-		<li>art_adjective->Words/Adjectives/Angsty</li>
 	</ArtNameUtility.rulePack.rulesFiles>
 	
 	
 	<NamerArtWeapon.rulePack.rulesStrings>
-		<li>art_name->символ [badassconcept]</li>
-		<li>art_name->[badassanimal]</li>
-		<li>art_name->[AdjectiveBadass] [badassanimal]</li>
-		<li>art_name->[badasscolor] [badassanimal]</li>
-		<li>art_name->[badasscolor] — цвет [badassconcept]</li>
-		<li>art_name->[anyPawn_nameShort] — воплощение [badassconcept]</li>
-		<li>art_name->момент [badassconcept] [anyPawn_nameShort]</li>
-		<li>art_name->[badasscolor] [anyPawn_nameShort]</li>
-		<li>art_name->[anyPawn_nameShort]-[badassanimal]</li>
-		<li>art_name->[anyPawn_nameShort]-[badassperson]</li>
+		<li>r_art_name->символ [ConceptBadass]</li>
+		<li>r_art_name->[badassanimal]</li>
+		<li>r_art_name->[AdjectiveBadass] [badassanimal]</li>
+		<li>r_art_name->[badasscolor] [badassanimal]</li>
+		<li>r_art_name->[badasscolor] — цвет [ConceptBadass]</li>
+		<li>r_art_name->[anyPawn_nameShort] — воплощение [ConceptBadass]</li>
+		<li>r_art_name->момент [ConceptBadass] [anyPawn_nameShort]</li>
+		<li>r_art_name->[badasscolor] [anyPawn_nameShort]</li>
+		<li>r_art_name->[anyPawn_nameShort]-[badassanimal]</li>
+		<li>r_art_name->[anyPawn_nameShort]-[PersonBadass]</li>
 	</NamerArtWeapon.rulePack.rulesStrings>
 
 	<NamerArtSculpture.rulePack.rulesStrings>
-		<li>art_name->[Artwork] [anyPawn_nameShort]</li>
-		<li>art_name->[anyPawn_nameShort] и [Color] цвет</li>
-		<li>art_name->[Artwork] [anyPawn_nameShort]</li>
-		<li>art_name->[Artwork] [ConceptAny]</li>
-		<li>art_name->[Artwork] [RomanNumeral]</li>
-		<li>art_name->[anyPawn_nameShort] — воплощение [ConceptAny]</li>
-		<li>art_name->момент [ConceptAny] [anyPawn_nameShort]</li>
-		<li>art_name->символ [ConceptAny]</li>
-		<li>art_name->[Color] — цвет [ConceptAny]</li>
-		<li>art_name->[Color] [Artwork]</li>
-		<li>art_name->[Color] [TerrainFeature]</li>
-		<li>art_name->[art_adjective] символ [ConceptAny]</li>
-		<li>art_name->символ [ConceptAny] №[digit]</li>
-		<li>art_name->[Artwork] №[digit]</li>
-		<li>art_name->[Artwork] №[digit][digit]</li>
-		<li>art_name->К [anyPawn_nameShort]</li>
+		<li>r_art_name->[Artwork] [anyPawn_nameShort]</li>
+		<li>r_art_name->[anyPawn_nameShort] и [Color] цвет</li>
+		<li>r_art_name->[Artwork] [anyPawn_nameShort]</li>
+		<li>r_art_name->[Artwork] [ConceptAny]</li>
+		<li>r_art_name->[Artwork] [RomanNumeral]</li>
+		<li>r_art_name->[anyPawn_nameShort] — воплощение [ConceptAny]</li>
+		<li>r_art_name->момент [ConceptAny] [anyPawn_nameShort]</li>
+		<li>r_art_name->символ [ConceptAny]</li>
+		<li>r_art_name->[Color] — цвет [ConceptAny]</li>
+		<li>r_art_name->[Color] [Artwork]</li>
+		<li>r_art_name->[Color] [TerrainFeature]</li>
+		<li>r_art_name->[art_adjective] символ [ConceptAny]</li>
+		<li>r_art_name->символ [ConceptAny] №[digit]</li>
+		<li>r_art_name->[Artwork] №[digit]</li>
+		<li>r_art_name->[Artwork] №[digit][digit]</li>
+		<li>r_art_name->К [anyPawn_nameShort]</li>
 	</NamerArtSculpture.rulePack.rulesStrings>
 
 	<NamerArtFurniture.rulePack.rulesStrings>
-		<li>art_name->[anyPawn_nameShort] — воплощение [positiveconcept]</li>
-		<li>art_name->символ [positiveconcept]</li>
-		<li>art_name->[Animal]</li>
-		<li>art_name->[badasscolor] [Animal]</li>
-		<li>art_name->[Color] [anyPawn_nameShort]</li>
+		<li>r_art_name->[anyPawn_nameShort] — воплощение [ConceptPositive]</li>
+		<li>r_art_name->символ [ConceptPositive]</li>
+		<li>r_art_name->[Animal]</li>
+		<li>r_art_name->[badasscolor] [Animal]</li>
+		<li>r_art_name->[Color] [anyPawn_nameShort]</li>
 	</NamerArtFurniture.rulePack.rulesStrings>
 
 	<NamerArtSarcophagusPlate.rulePack.rulesStrings>
-		<li>art_name->[AdjectiveAngsty] дух [anyPawn_nameShort]</li>
-		<li>art_name->[anyPawn_nameShort]</li>
-		<li>art_name->[Color] [anyPawn_nameShort]</li>
-		<li>art_name->[anyPawn_nameShort] и путь [angstyconcept]</li>
-		<li>art_name->[AdjectiveAngsty] образ [badassconcept]</li>
+		<li>r_art_name->[AdjectiveAngsty] дух [anyPawn_nameShort]</li>
+		<li>r_art_name->[anyPawn_nameShort]</li>
+		<li>r_art_name->[Color] [anyPawn_nameShort]</li>
+		<li>r_art_name->[anyPawn_nameShort] и путь [ConceptAngsty]</li>
+		<li>r_art_name->[AdjectiveAngsty] образ [ConceptBadass]</li>
 	</NamerArtSarcophagusPlate.rulePack.rulesStrings>
 
 </LanguageData>

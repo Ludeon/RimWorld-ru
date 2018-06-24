@@ -9,14 +9,14 @@
 
 	
 	<Transition_Downed.rulePack.rulesStrings>
-		<li>logentry->Из-за [culpritHediff_labelNoun] [subject_definite] [collapsemeta].</li>
-		<li>logentry->Из-за [culpritHediff_labelNoun] в [culpritHediff_target_label] [subject_definite] [collapsemeta].</li>
+		<li>r_logentry->Из-за [culpritHediff_labelNoun] [subject_definite] [collapsemeta].</li>
+		<li>r_logentry->Из-за [culpritHediff_labelNoun] в [culpritHediff_target_label] [subject_definite] [collapsemeta].</li>
 
-		<li>logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun].</li>
-		<li>logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun] в [culpritHediff_target_label].</li>
-		<li>logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun] в [subject_possessive] [culpritHediff_target_label].</li>
+		<li>r_logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun].</li>
+		<li>r_logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun] в [culpritHediff_target_label].</li>
+		<li>r_logentry->[subject_definite] [collapsemeta][duetoa] [culpritHediff_labelNoun] в [subject_possessive] [culpritHediff_target_label].</li>
 
-		<li>logentry(p=0.1)->[subject_definite] [collapsemeta].</li>
+		<li>r_logentry(p=0.1)->[subject_definite] [collapsemeta].</li>
 
 		<li>collapse->падает</li>
 		<li>collapse->оседает на землю</li>
@@ -25,14 +25,6 @@
 		<li>collapse(subject_flesh==Mechanoid)->получает системную ошибку</li>
 		<li>collapse(subject_flesh==Mechanoid)->входит в петлю перезагрузок</li>
 		<li>collapse(subject_flesh==Mechanoid)->терпит аппаратный сбой</li>
-
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
 
 		<li>helplessly->беспомощно</li>
 		<li>helplessly(subject_flesh!=Mechanoid)->без сознания</li>
@@ -43,22 +35,19 @@
 
 		<li>collapsemeta->[collapse]</li>
 		<li>collapsemeta(p=0.5)->[helplessly] [collapse]</li>
-
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
 	</Transition_Downed.rulePack.rulesStrings>
 
 
 	<Transition_DiedInclude.rulePack.rulesStrings>
-		<li>logentry(p=1.5)->Из-за [culpritHediff_labelNoun] [subject_definite] [die].</li>
-		<li>logentry(p=1.5)->Из-за [culpritHediff_labelNoun] в [culpritHediff_target_label] [subject_definite] [die].</li>
+		<li>r_logentry(p=1.5)->Из-за [culpritHediff_labelNoun] [subject_definite] [die].</li>
+		<li>r_logentry(p=1.5)->Из-за [culpritHediff_labelNoun] в [culpritHediff_target_label] [subject_definite] [die].</li>
 
-		<li>logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] [flavorsuffix].</li>
-		<li>logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] в [culpritHediff_target_label] [flavorsuffix].</li>
-		<li>logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] в [subject_possessive] [culpritHediff_target_label] [flavorsuffix].</li>
+		<li>r_logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] [flavorsuffix].</li>
+		<li>r_logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] в [culpritHediff_target_label] [flavorsuffix].</li>
+		<li>r_logentry->[subject_definite] [die][duetoa] [culpritHediff_labelNoun] в [subject_possessive] [culpritHediff_target_label] [flavorsuffix].</li>
 
-		<li>logentry->[subject_definite] [die].</li>
-		<li>logentry->[subject_definite] [die] [flavorsuffix].</li>
+		<li>r_logentry->[subject_definite] [die].</li>
+		<li>r_logentry->[subject_definite] [die] [flavorsuffix].</li>
 	</Transition_DiedInclude.rulePack.rulesStrings>
 
 
@@ -69,12 +58,6 @@
 		<li>die(subject_flesh!=Mechanoid)->погибает от ран</li>
 		<li>die(subject_flesh==Mechanoid)->отключается</li>
 		<li>die(subject_flesh==Mechanoid)->перестаёт функционировать</li>
-
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
 	</Transition_Died.rulePack.rulesStrings>
 
 
@@ -85,14 +68,6 @@
 		<li>die->разрывается[flavorsuffix]</li>
 		<li>die->взлетает на воздух [flavor]</li>
 		<li>die->взлетает на воздух[flavorsuffix]</li>
-
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
-		<li>reserved->reserved</li>
 
 		<li>flavorsuffix(p=4)-></li>
 		<li>flavorsuffix->, разбрасывая [everywhere] [pieces] своего тела</li>
