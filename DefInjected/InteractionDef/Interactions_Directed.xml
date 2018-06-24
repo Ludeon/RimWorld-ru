@@ -3,26 +3,63 @@
 
 	<BuildRapport.label>попытка наладить контакт</BuildRapport.label>
 	<BuildRapport.logRulesInitiator.rulesStrings>
-		<li>logentry->Попытка наладить контакт с [other_nameShortIndef].</li>
+        <li>r_logentry(p=3)->[INITIATOR_nameIndef] рассказывает [RECIPIENT_nameIndef] [story_kind] [subject].</li>
+        <li>r_logentry(p=3)->[INITIATOR_nameIndef] и [RECIPIENT_nameIndef] [talkabout] [subject].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] приглашает [RECIPIENT_nameIndef] к разговору [subject].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] даёт [RECIPIENT_nameIndef] возможность выразить свои мысли [subject].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] спрашивает [RECIPIENT_nameIndef] про [RECIPIENT_possessive] [PersonalCharacteristic].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] просит [RECIPIENT_nameIndef] рассказать про [RECIPIENT_possessive] [PersonalCharacteristic].</li>
+
+        <li>story_kind->историю</li>
+        <li>story_kind->весёлую историю</li>
+        <li>story_kind->трогательную историю</li>
+        <li>story_kind->старую историю</li>
+        <li>story_kind->семейную историю</li>
+        <li>story_kind->историю из детства</li>
+        <li>story_kind->анекдот</li>
+
+        <li>talkabout->говорят</li>
+        <li>talkabout->обсуждают</li>
+        <li>talkabout->рассуждают</li>
+        <li>talkabout->беседуют</li>
+        <li>talkabout->думают</li>
+        <li>talkabout->ищут точки соприкосновения в вопросах</li>
+
+        <li>subject->о жизни в поселении</li>
+        <li>subject->о порядках в сообществе</li>
+        <li>subject->о присоединении к поселению</li>
+        <li>subject->о новых друзьях</li>
+        <li>subject->о знакомстве с новыми людьми</li>
+        <li>subject->о переосмыслении идеалов</li>
+        <li>subject->о смене авторитетов</li>
+        <li>subject->о здоровье</li>
+        <li>subject->о будущем</li>
+        <li>subject->о свободе выбора</li>
+        <li>subject(p=4)->о важности [ConceptPositive]</li>
+        <li>subject(p=2)->о [RECIPIENT_possessive] [PersonalCharacteristic]</li>
+        <li>subject(p=8)->[TalkTopicLight]</li>
 	</BuildRapport.logRulesInitiator.rulesStrings>
-	<BuildRapport.logRulesRecipient.rulesStrings>
-		<li>logentry->Попытка [other_nameShortIndef] наладить контакт со мной.</li>
-	</BuildRapport.logRulesRecipient.rulesStrings>
 
 	<RecruitAttempt.label>попытка завербовать</RecruitAttempt.label>
 	<RecruitAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->Попытка завербовать [other_nameShortIndef].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] просит [RECIPIENT_nameIndef] присоединиться к поселению.</li>
+        <li>r_logentry->[INITIATOR_nameIndef] обещает [RECIPIENT_nameIndef] [goodthing] и просит [RECIPIENT_possessive] присоединиться к поселению.</li>
+
+        <li>goodthing(p=15)->много [ConceptPositive]</li>
+        <li>goodthing->печеньки</li>
 	</RecruitAttempt.logRulesInitiator.rulesStrings>
-	<RecruitAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->Приглашение в поселение от [other_nameShortIndef].</li>
-	</RecruitAttempt.logRulesRecipient.rulesStrings>
 
 	<SparkJailbreak.label>склонение к побегу</SparkJailbreak.label>
 	<SparkJailbreak.logRulesInitiator.rulesStrings>
-		<li>logentry->Склонение [other_nameShortIndef] к побегу.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] говорит о радости [freedom] и склоняет к побегу.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] говорит о том, сколько красоты несёт в себе [TerrainFeature] и предлагает обрести свободу.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] рассказывает [RECIPIENT_nameIndef] о способе побега и обещает, что даст [RECIPIENT_objective] возможность [freedom].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] говорит [RECIPIENT_nameIndef], что охрана потеряла бдительность и предлагает бежать.</li>
+
+		<li>freedom->свободы</li>
+		<li>freedom->новых перспектив</li>
+		<li>freedom->оказаться дома</li>
+		<li>freedom->самоопределения</li>
 	</SparkJailbreak.logRulesInitiator.rulesStrings>
-	<SparkJailbreak.logRulesRecipient.rulesStrings>
-		<li>logentry->Склонение к побегу со стороны [other_nameShortIndef].</li>
-	</SparkJailbreak.logRulesRecipient.rulesStrings>
 
 </LanguageData>

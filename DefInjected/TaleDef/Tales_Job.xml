@@ -22,15 +22,15 @@
 		<li>image->, как [pawn_nameFull][circumstance_group] руководит разработкой богатой жилы минерала [material_label]</li>
 		<li>image->, как [pawn_nameFull][circumstance_group] внимательно осматривает богатую жилу минерала [material_label]</li>
 		<li>circumstance_phrase->, покрывшись по́том,</li>
-		<li>circumstance_phrase->, имея [friendlyadjective] вид,</li>
+		<li>circumstance_phrase->, имея [AdjectiveFriendly] вид,</li>
 		<li>circumstance_phrase->[empty] с гордой улыбкой</li>
 		<li>circumstance_phrase->[empty] с удовлетворённым выражением лица</li>
 		<li>circumstance_phrase->, опасливо оглядываясь,</li>
 		<li>desc_sentence->В этом [pawn_objective] помогает [ally].</li>
-		<li>desc_sentence->Вокруг бродят [animal] и ещё [quantity_adjphrase] животных.</li>
-		<li>desc_sentence->Вдали виднеется [community].</li>
-		<li>desc_sentence->Ещё [quantity_adjphrase] месторождений виднеются вдали.</li>
-		<li>desc_sentence->Вдали виднеется [terrainfeature].</li>
+		<li>desc_sentence->Вокруг бродят [Animal] и ещё [Quantity_adjphrase] животных.</li>
+		<li>desc_sentence->Вдали виднеется [Community].</li>
+		<li>desc_sentence->Ещё [Quantity_adjphrase] месторождений виднеются вдали.</li>
+		<li>desc_sentence->Вдали виднеется [TerrainFeature].</li>
 		<li>desc_sentence->[pawn_nameShortDef] от работы в поту и в грязи.</li>
 	</MinedValuable.rulePack.rulesStrings>
 
@@ -43,13 +43,13 @@
 		<li>image->, как [pawn_nameFull][circumstance_group] закрывает свои глаза</li>
 		<li>circumstance_phrase->, излучая покой,</li>
 		<li>circumstance_phrase->[empty] с безмятежной улыбкой на лице</li>
-		<li>circumstance_phrase->, [friendlytrans],</li>
-		<li>circumstance_phrase->, источая слабый [color] свет,</li>
+		<li>circumstance_phrase->, [TransFriendly],</li>
+		<li>circumstance_phrase->, источая слабый [Color] свет,</li>
 		<li>circumstance_phrase->[empty] в ореоле из света</li>
 		<li>circumstance_phrase->[empty] в сладком умиротворении</li>
 		<li>circumstance_phrase->[empty] с отрешённым видом</li>
-		<li>desc_sentence->Рядом мирно отдыхает [animal].</li>
-		<li>desc_sentence->Даже [enemy] приходит в благоговение от увиденного.</li>
+		<li>desc_sentence->Рядом мирно отдыхает [Animal].</li>
+		<li>desc_sentence->Даже [Enemy] приходит в благоговение от увиденного.</li>
 	</Meditated.rulePack.rulesStrings>
 
 	<Prayed.label>молитва</Prayed.label>
@@ -65,10 +65,10 @@
 		<li>circumstance_phrase->[empty] смиренно</li>
 		<li>circumstance_phrase->[empty] одухотворённо</li>
 		<li>circumstance_phrase->[empty] с выражением надежды на лице</li>
-		<li>circumstance_phrase->, источая слабый [color] свет,</li>
+		<li>circumstance_phrase->, источая слабый [Color] свет,</li>
 		<li>circumstance_phrase->[empty] в жажде просветления</li>
-		<li>desc_sentence->Рядом мирно отдыхает [animal].</li>
-		<li>desc_sentence->Даже [enemy] приходит в благоговение от увиденного.</li>
+		<li>desc_sentence->Рядом мирно отдыхает [Animal].</li>
+		<li>desc_sentence->Даже [Enemy] приходит в благоговение от увиденного.</li>
 	</Prayed.rulePack.rulesStrings>
 
 	<BuiltSnowman.label>снеговик</BuiltSnowman.label>
@@ -86,7 +86,7 @@
 		<li>desc_sentence->Небо озаряет полярное сияние.</li>
 		<li>desc_sentence->Вдалеке виднеются крыши поселения, покрытые снегом.</li>
 		<li>reserved->reserved</li>
-		<li>desc_sentence->Вдалеке виднеется [terrainfeature] под слоем снега.</li>
+		<li>desc_sentence->Вдалеке виднеется [TerrainFeature] под слоем снега.</li>
 	</BuiltSnowman.rulePack.rulesStrings>
 
 	<VisitedGrave.label>посещение могилы</VisitedGrave.label>
@@ -102,13 +102,13 @@
 		<li>circumstance_phrase->погрузившись в свои мысли</li>
 		<li>circumstance_phrase->устремив взгляд куда-то вдаль</li>
 		<li>circumstance_phrase->что-то тихо шепча</li>
-		<li>circumstance_phrase->приняв [angstyadjective] вид</li>
+		<li>circumstance_phrase->приняв [AdjectiveAngsty] вид</li>
 		<li>desc_sentence->Небо озаряет полярное сияние.</li>
-		<li>desc_sentence->[corpse_nameShortDef] бросает откуда-то сверху свой [friendlyadjective] взгляд.</li>
-		<li>desc_sentence->[corpse_nameShortDef] бросает откуда-то сверху свой [angstyadjective] взгляд.</li>
-		<li>desc_sentence->[corpse_nameShortDef] в виде бестелесного духа стоит рядом, приняв [friendlyadjective] вид.</li>
-		<li>desc_sentence->[corpse_nameShortDef] в виде бестелесного духа стоит рядом, приняв [angstyadjective] вид.</li>
-		<li>desc_sentence->Рядом мирно отдыхает [animal].</li>
+		<li>desc_sentence->[corpse_nameShortDef] бросает откуда-то сверху свой [AdjectiveFriendly] взгляд.</li>
+		<li>desc_sentence->[corpse_nameShortDef] бросает откуда-то сверху свой [AdjectiveAngsty] взгляд.</li>
+		<li>desc_sentence->[corpse_nameShortDef] в виде бестелесного духа стоит рядом, приняв [AdjectiveFriendly] вид.</li>
+		<li>desc_sentence->[corpse_nameShortDef] в виде бестелесного духа стоит рядом, приняв [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->Рядом мирно отдыхает [Animal].</li>
 	</VisitedGrave.rulePack.rulesStrings>
 
 	<CompletedLongConstructionProject.label>завершение долгого строительства</CompletedLongConstructionProject.label>
@@ -120,14 +120,14 @@
 		<li>image->, как [pawn_nameFull][circumstance_group] высекает своё имя на свежепостроенном сооружении</li>
 		<li>circumstance_phrase->[empty] с блеском в глазах</li>
 		<li>circumstance_phrase->, вытирая пот со лба,</li>
-		<li>circumstance_phrase->, [friendlytrans],</li>
+		<li>circumstance_phrase->, [TransFriendly],</li>
 		<li>circumstance_phrase->[empty] с важным видом</li>
 		<li>circumstance_phrase->[empty] с довольным выражением лица</li>
 		<li>desc_sentence->[object_label] возвышается величественно.</li>
-		<li>desc_sentence->[object_label] источает мягкий [color] свет.</li>
+		<li>desc_sentence->[object_label] источает мягкий [Color] свет.</li>
 		<li>desc_sentence->[object_label] поражает своей детализацией.</li>
-		<li>desc_sentence->[outlander] пребывает в восхищении от увиденного.</li>
-		<li>desc_sentence->На это с благоговением смотрит [outlander].</li>
+		<li>desc_sentence->[Outlander] пребывает в восхищении от увиденного.</li>
+		<li>desc_sentence->На это с благоговением смотрит [Outlander].</li>
 	</CompletedLongConstructionProject.rulePack.rulesStrings>
 
 	<CompletedLongCraftingProject.label>завершение создания сложного изделия</CompletedLongCraftingProject.label>
@@ -139,14 +139,14 @@
 		<li>image->, как [pawn_nameFull][circumstance_group] старательно выводит своё имя на собственноручно созданном изделии</li>
 		<li>circumstance_phrase->[empty] с блеском в глазах</li>
 		<li>circumstance_phrase->, вытирая пот со лба,</li>
-		<li>circumstance_phrase->, [friendlytrans],</li>
+		<li>circumstance_phrase->, [TransFriendly],</li>
 		<li>circumstance_phrase->[empty] с важным видом</li>
 		<li>circumstance_phrase->[empty] с довольным выражением лица</li>
-		<li>desc_sentence->[object_label] источает мягкий [color] свет.</li>
+		<li>desc_sentence->[object_label] источает мягкий [Color] свет.</li>
 		<li>desc_sentence->[object_label] поражает своей детализацией.</li>
 		<li>desc_sentence->[pawn_nameShortDef] держит своя творение в руках, кажется, безо всяких усилий.</li>
-		<li>desc_sentence->[outlander] пребывает в восхищении от увиденного.</li>
-		<li>desc_sentence->На это с благоговением смотрит [outlander].</li>
+		<li>desc_sentence->[Outlander] пребывает в восхищении от увиденного.</li>
+		<li>desc_sentence->На это с благоговением смотрит [Outlander].</li>
 	</CompletedLongCraftingProject.rulePack.rulesStrings>
 
 	<AttendedParty.label>вечеринка</AttendedParty.label>
@@ -158,14 +158,14 @@
 		<li>image->, как [attender_nameFull][circumstance_group] болтает с [organizer_nameFull]</li>
 		<li>image->, как [organizer_nameFull][circumstance_group] тепло приветствует [attender_nameFull]</li>
 		<li>image->, как [organizer_nameFull][circumstance_group] представляет [attender_nameFull] своему другу</li>
-		<li>circumstance_phrase->, [friendlytrans],</li>
+		<li>circumstance_phrase->, [TransFriendly],</li>
 		<li>desc_sentence(p=3)->Все вокруг [activity].</li>
 		<li>activity->развлекаются</li>
 		<li>activity->веселятся</li>
 		<li>activity->предаются безудержному веселью</li>
-		<li>desc_sentence->К ним присоединяется [outlander].</li>
-		<li>desc_sentence->Помещение украшено в [color] и [color] тона.</li>
-		<li>desc_sentence->Рядом резвится [animal].</li>
+		<li>desc_sentence->К ним присоединяется [Outlander].</li>
+		<li>desc_sentence->Помещение украшено в [Color] и [Color] тона.</li>
+		<li>desc_sentence->Рядом резвится [Animal].</li>
 	</AttendedParty.rulePack.rulesStrings>
 
 	<PlayedGame.label>игра</PlayedGame.label>
@@ -177,22 +177,22 @@
 		<li>action->сидит</li>
 		<li>action->стоит</li>
 		<li>action->ждёт своего хода</li>
-		<li>circumstance_phrase->, приняв [badassadjective] вид,</li>
-		<li>circumstance_phrase->, приняв [angstyadjective] вид,</li>
+		<li>circumstance_phrase->, приняв [AdjectiveBadass] вид,</li>
+		<li>circumstance_phrase->, приняв [AdjectiveAngsty] вид,</li>
 		<li>circumstance_phrase->, обдумывая следующие действия,</li>
 		<li>circumstance_phrase->, мягко массируя запястья,</li>
 		<li>circumstance_phrase->[empty] сосредоточенно</li>
 		<li>circumstance_phrase->[empty] задумчиво</li>
 		<li>circumstance_phrase->[empty] расслабленно</li>
 		<li>circumstance_phrase->[empty] напряжённо</li>
-		<li>desc_sentence->[pawn_possessive] противник, [outlander], явно не хочет сдаваться.</li>
-		<li>desc_sentence->[pawn_possessive] противник, [outlander], предлагает ничью.</li>
-		<li>desc_sentence->[pawn_possessive] противник, [outlander], похоже, проигрывает.</li>
+		<li>desc_sentence->[pawn_possessive] противник, [Outlander], явно не хочет сдаваться.</li>
+		<li>desc_sentence->[pawn_possessive] противник, [Outlander], предлагает ничью.</li>
+		<li>desc_sentence->[pawn_possessive] противник, [Outlander], похоже, проигрывает.</li>
 		<li>desc_sentence->[pawn_pronoun], похоже, проигрывает.</li>
 		<li>desc_sentence->[pawn_pronoun] явно выигрывает.</li>
-		<li>desc_sentence->[outlander] тоже участвует в игре.</li>
-		<li>desc_sentence->Рядом резвится [animal].</li>
-		<li>desc_sentence->Рядом [outlander] расстраивается из-за своего проигрыша.</li>
+		<li>desc_sentence->[Outlander] тоже участвует в игре.</li>
+		<li>desc_sentence->Рядом резвится [Animal].</li>
+		<li>desc_sentence->Рядом [Outlander] расстраивается из-за своего проигрыша.</li>
 	</PlayedGame.rulePack.rulesStrings>
 	
 	<BuriedCorpse.label>похороны</BuriedCorpse.label>
@@ -208,13 +208,13 @@
 		<li>corpse_action->лежит</li>
 		<li>circumstance_phrase->устремив взгляд куда-то вдаль</li>
 		<li>circumstance_phrase->что-то тихо шепча</li>
-		<li>circumstance_phrase->приняв [angstyadjective] вид</li>
+		<li>circumstance_phrase->приняв [AdjectiveAngsty] вид</li>
 		<li>circumstance_phrase->погрузившись в свои мысли</li>
-		<li>desc_sentence->[corpse_nameShortDef] бросает откуда-то сверху свой [friendlyadjective] взгляд.</li>
-		<li>desc_sentence->[corpse_nameShortDef] бросает откуда-то сверху свой [angstyadjective] взгляд.</li>
-		<li>desc_sentence->[corpse_nameShortDef] в виде бестелесного духа стоит рядом, приняв [friendlyadjective] вид.</li>
-		<li>desc_sentence->[corpse_nameShortDef] в виде бестелесного духа стоит рядом, приняв [angstyadjective] вид.</li>
-		<li>desc_sentence->Рядом мирно отдыхает [animal].</li>
+		<li>desc_sentence->[corpse_nameShortDef] бросает откуда-то сверху свой [AdjectiveFriendly] взгляд.</li>
+		<li>desc_sentence->[corpse_nameShortDef] бросает откуда-то сверху свой [AdjectiveAngsty] взгляд.</li>
+		<li>desc_sentence->[corpse_nameShortDef] в виде бестелесного духа стоит рядом, приняв [AdjectiveFriendly] вид.</li>
+		<li>desc_sentence->[corpse_nameShortDef] в виде бестелесного духа стоит рядом, приняв [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->Рядом мирно отдыхает [Animal].</li>
 		<li>desc_sentence->Небо озаряет полярное сияние.</li>
 	</BuriedCorpse.rulePack.rulesStrings>
 
@@ -225,16 +225,16 @@
 		<li>image->, как [pawn_nameFull], [circumstance_group], открывает пустой контейнер криптосна</li>
 		<li>image->, как [pawn_nameFull], [circumstance_group], запечатывает контейнер криптосна изнутри</li>
 		<li>image->[empty] контейнер криптосна, сквозь окошко которого [pawn_nameFull], [circumstance_group], прощально смотрит на мир</li>
-		<li>circumstance_phrase->приняв [angstyadjective] вид</li>
+		<li>circumstance_phrase->приняв [AdjectiveAngsty] вид</li>
 		<li>circumstance_phrase->погрузившись в свои мысли</li>
 		<li>circumstance_phrase->устремив взгляд куда-то вдаль</li>
 		<li>circumstance_phrase->что-то тихо шепча</li>
-		<li>desc_sentence->Рядом мирно отдыхает [animal].</li>
-		<li>desc_sentence->[enemies] подходят всё ближе и ближе.</li>
+		<li>desc_sentence->Рядом мирно отдыхает [Animal].</li>
+		<li>desc_sentence->[Enemies] подходят всё ближе и ближе.</li>
 		<li>desc_sentence->[pawn_pronoun] излучает решимость.</li>
 		<li>desc_sentence->На [pawn_possessive] теле видны раны.</li>
 		<li>desc_sentence->Небо озаряет полярное сияние.</li>
-		<li>desc_sentence->Вокруг стоят ещё [quantity_adjphrase] занятых контейнеров.</li>
+		<li>desc_sentence->Вокруг стоят ещё [Quantity_adjphrase] занятых контейнеров.</li>
 	</EnteredCryptosleep.rulePack.rulesStrings>
 
 	<PutIntoCryptosleep.label>введение в криптосон</PutIntoCryptosleep.label>
@@ -248,16 +248,16 @@
 		<li>circumstance_phrase->погрузившись в свои мысли</li>
 		<li>circumstance_phrase->устремив взгляд куда-то вдаль</li>
 		<li>circumstance_phrase->что-то тихо шепча</li>
-		<li>circumstance_phrase->бросая [friendlyadjective] взгляд</li>
-		<li>circumstance_phrase->бросая [badassadjective] взгляд</li>
-		<li>circumstance_phrase->бросая [angstyadjective] взгляд</li>
-		<li>desc_sentence->Рядом мирно отдыхает [animal].</li>
-		<li>desc_sentence->[enemies] подходят всё ближе и ближе.</li>
+		<li>circumstance_phrase->бросая [AdjectiveFriendly] взгляд</li>
+		<li>circumstance_phrase->бросая [AdjectiveBadass] взгляд</li>
+		<li>circumstance_phrase->бросая [AdjectiveAngsty] взгляд</li>
+		<li>desc_sentence->Рядом мирно отдыхает [Animal].</li>
+		<li>desc_sentence->[Enemies] подходят всё ближе и ближе.</li>
 		<li>desc_sentence->[pawn_pronoun] излучает решимость.</li>
 		<li>desc_sentence->На теле [sleeper_nameShortDef] видны раны.</li>
 		<li>desc_sentence->[sleeper_nameShortDef] не чувствует в себе сил.</li>
 		<li>desc_sentence->Небо озаряет полярное сияние.</li>
-		<li>desc_sentence->Вокруг стоят ещё [quantity_adjphrase] занятых контейнеров.</li>
+		<li>desc_sentence->Вокруг стоят ещё [Quantity_adjphrase] занятых контейнеров.</li>
 	</PutIntoCryptosleep.rulePack.rulesStrings>
 	
 	<Stripped.label>раздевание</Stripped.label>
@@ -286,8 +286,8 @@
 		<li>image->[empty] книгу «[skill_label]», которую[circumstance_group] дочитывает [pawn_nameFull]</li>
 		<li>image->, что [skill_label] становится навыком, в котором [pawn_nameFull] достигает мастерства</li>
 		<li>image->, как [pawn_nameFull][circumstance_group] завершает свой проект</li>
-		<li>circumstance_phrase->, [friendlytrans],</li>
-		<li>circumstance_phrase->, приняв [friendlyadjective] вид,</li>
+		<li>circumstance_phrase->, [TransFriendly],</li>
+		<li>circumstance_phrase->, приняв [AdjectiveFriendly] вид,</li>
 		<li>circumstance_phrase->[empty] с довольным выражением лица</li>
 		<li>circumstance_phrase->[empty] воодушевлённо</li>
 		<li>circumstance_phrase->[empty] восторженно</li>
@@ -296,7 +296,7 @@
 		<li>desc_sentence->Повсюду разбросаны результаты [pawn_possessive] неудачных экспериментов.</li>
 		<li>desc_sentence->Повсюду разбросаны книги.</li>
 		<li>desc_sentence->В [pawn_possessive] работе чувствуется большое мастерство.</li>
-		<li>desc_sentence->[outlander] смотрит на это с нескрываемым восхищением.</li>
+		<li>desc_sentence->[Outlander] смотрит на это с нескрываемым восхищением.</li>
 		<li>desc_sentence->[pawn_pronoun] по праву может гордиться своим умением.</li>
 		<li>desc_sentence->Сверху на н[pawn_possessive] смотрят лики великих мастеров древности.</li>
 	</GainedMasterSkillWithPassion.rulePack.rulesStrings>
@@ -311,12 +311,12 @@
 		<li>circumstance_phrase->[empty] со скучающим видом</li>
 		<li>circumstance_phrase->[empty] в поте лица</li>
 		<li>circumstance_phrase->, выбиваясь из сил,</li>
-		<li>circumstance_phrase->, приняв [angstyadjective] вид,</li>
+		<li>circumstance_phrase->, приняв [AdjectiveAngsty] вид,</li>
 		<li>circumstance_phrase->[empty] с постной миной на лице</li>
 		<li>desc_sentence->Повсюду разбросаны результаты [pawn_possessive] неудачных экспериментов.</li>
 		<li>desc_sentence->Повсюду разбросаны книги.</li>
 		<li>desc_sentence->В [pawn_possessive] работе чувствуется большое мастерство.</li>
-		<li>desc_sentence->[outlander] смотрит на это с нескрываемым восхищением.</li>
+		<li>desc_sentence->[Outlander] смотрит на это с нескрываемым восхищением.</li>
 		<li>desc_sentence->[pawn_pronoun] по праву может гордиться своим умением.</li>
 		<li>desc_sentence->Сверху на н[pawn_possessive] смотрят лики великих мастеров древности.</li>
 	</GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
@@ -338,7 +338,7 @@
 		<li>desc_sentence->[human_nameShortDef] уже не знает, куда деваться от них.</li>
 		<li>desc_sentence->[human_possessive] окружают толпы таких же существ.</li>
 		<li>desc_sentence->[animal_nameShortDef] покорно присоединяется к стаду себе подобных.</li>
-		<li>desc_sentence->На заднем плане толпятся [animal], [animal], [animal] и ещё огромное количество подобных существ.</li>
+		<li>desc_sentence->На заднем плане толпятся [Animal], [Animal], [Animal] и ещё огромное количество подобных существ.</li>
 		<li>desc_sentence->Бесчисленные представители местной фауны выстраиваются в длинную очередь на приручение.</li>
 	</IncreasedMenagerie.rulePack.rulesStrings>
 	

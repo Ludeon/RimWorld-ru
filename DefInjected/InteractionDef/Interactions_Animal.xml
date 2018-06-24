@@ -3,34 +3,101 @@
 
 	<AnimalChat.label>общение с животным</AnimalChat.label>
 	<AnimalChat.logRulesInitiator.rulesStrings>
-		<li>logentry->Общение с [other_nameShortIndef], попытка наладить взаимопонимание.</li>
+		<li>logentry(p=5)->[initiator_nameShortIndef] [tamed_animal].</li>
+		<li>logentry->[initiator_nameShortIndef] садится рядом с [recipient_nameShortIndef] и начинает говорить [talktopic].</li>
+		<li>logentry->[initiator_nameShortIndef] подходит к [recipient_nameShortIndef], что-то шепча [talktopic].</li>
+		<li>logentry->[initiator_nameShortIndef] приближается к [recipient_nameShortIndef], что-то тихо бормоча [talktopic].</li>
+		<li>talktopic->[talktopic_heavy]</li>
+		<li>talktopic->[TalkTopicLight]</li>
+		<li>tamed_animal->издаёт в сторону [recipient_nameShortIndef] успокаивающие звуки</li>
+		<li>tamed_animal->делает медленные дружелюбные жесты в сторону [recipient_nameShortIndef]</li>
+		<li>tamed_animal->свистит в сторону [recipient_nameShortIndef]</li>
+		<li>tamed_animal->дружелюбно щёлкает языком, подзывая [recipient_nameShortIndef]</li>
+		<li>tamed_animal->медленно подходит к [recipient_nameShortIndef]</li>
+		<li>tamed_animal->мягко касается [recipient_nameShortIndef]</li>
+		<li>tamed_animal->успокаивает и подбадривает [recipient_nameShortIndef]</li>
+		<li>tamed_animal->дышит в унисон с [recipient_nameShortIndef]</li>
+		<li>tamed_animal->подходит к [recipient_nameShortIndef] с мирными намерениями</li>
+		<li>tamed_animal->тихо напевает песенку, смотря в сторону [recipient_nameShortIndef]</li>
+		<li>tamed_animal->поёт [recipient_nameShortIndef] старую колыбельную</li>
+		<li>tamed_animal->гладит [recipient_nameShortIndef]</li>
+		<li>tamed_animal->чешет [recipient_nameShortIndef] за ухом</li>
+		<li>tamed_animal->дружелюбно смотрит в сторону [recipient_nameShortIndef]</li>
+		<li>tamed_animal->говорит с дружелюбно смотрит в сторону [recipient_nameShortIndef]</li>
+		<li>tamed_animal->нашёптывает [recipient_nameShortIndef] историю [talktopic]</li>
 	</AnimalChat.logRulesInitiator.rulesStrings>
-	<AnimalChat.logRulesRecipient.rulesStrings>
-		<li>logentry->Дружелюбие со стороны [other_nameShortIndef].</li>
-	</AnimalChat.logRulesRecipient.rulesStrings>
-
-	<TrainAttempt.label>попытка натренировать</TrainAttempt.label>
-	<TrainAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->Тренировка [other_nameShortIndef].</li>
-	</TrainAttempt.logRulesInitiator.rulesStrings>
-	<TrainAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->Тренировка от [other_nameShortIndef].</li>
-	</TrainAttempt.logRulesRecipient.rulesStrings>
-
+	
 	<TameAttempt.label>попытка приручить</TameAttempt.label>
 	<TameAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->Попытка приручить [other_nameShortIndef].</li>
+		<li>logentry->[initiator_nameShortIndef] пытается приручить [recipient_nameShortIndef].</li>
+		<li>logentry->[initiator_nameShortIndef] пытается получить контроль над [recipient_nameShortIndef].</li>
+		<li>logentry->[initiator_nameShortIndef] пытается надеть на [recipient_nameShortIndef] ошейник.</li>
+		<li>logentry->[initiator_nameShortIndef] требует от [recipient_nameShortIndef] покорности.</li>
+		<li>logentry->[initiator_nameShortIndef] зовёт [recipient_nameShortIndef] за собой.</li>
+		<li>logentry->[initiator_nameShortIndef] пытается заставить [recipient_nameShortIndef] сидеть.</li>
+		<li>logentry->[initiator_nameShortIndef] крепко хватает [recipient_nameShortIndef] и выкрикивает команду.</li>
+		<li>logentry->[initiator_nameShortIndef] пытается усмирить [recipient_nameShortIndef].</li>
+		<li>logentry->[initiator_nameShortIndef] выкрикивает команду в сторону [recipient_nameShortIndef].</li>
+		<li>logentry->[initiator_nameShortIndef] шлёпает [recipient_nameShortIndef], чтобы показать, кто здесь главный.</li>
+		<li>logentry->[initiator_nameShortIndef] разворачивает морду [recipient_nameShortIndef] в сторону поселения.</li>
+		<li>logentry->[initiator_nameShortIndef] зовёт [recipient_nameShortIndef] в поселение.</li>
+		<li>logentry->[initiator_nameShortIndef] трогает [recipient_nameShortIndef] за уязвимую часть тела, чтобы показать своё доминирование.</li>
+		<li>logentry->[initiator_nameShortIndef] указывает пальцем на какую-то точку на земле, требуя от [recipient_nameShortIndef] идти туда.</li>
+		<li>logentry->[initiator_nameShortIndef] отдаёт [recipient_nameShortIndef] первую команду.</li>
 	</TameAttempt.logRulesInitiator.rulesStrings>
-	<TameAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->Попытка приручения со стороны [other_nameShortIndef].</li>
-	</TameAttempt.logRulesRecipient.rulesStrings>
+
+	<TrainAttempt.label>попытка тренировки</TrainAttempt.label>
+	<TrainAttempt.logRulesInitiator.rulesStrings>
+		<li>logentry->[initiator_nameShortIndef] [trained_animal].</li>
+
+		<li>trained_animal(p=2)->[tried] тренировать [recipient_nameShortIndef]</li>
+		<li>trained_animal(p=4)->[tried] [training_way] [to_train] [recipient_nameShortIndef] [train_target]</li>
+		<li>trained_animal->[tried] вышколить [recipient_nameShortIndef]</li>
+		<li>trained_animal->[tried] заставить [recipient_nameShortIndef] заниматься новой для н[recipient_possessive] задачей</li>
+
+		<li>training_way(p=2)-></li>
+		<li>training_way->на собственном примере</li>
+		<li>training_way->методом кнута и пряника</li>
+
+		<li>tried->пробует</li>
+		<li>tried->пытается</li>
+
+		<li>to_train->обучить</li>
+		<li>to_train->научить</li>
+		<li>to_train->тренировать</li>
+
+		<li>train_target->очередной команде</li>
+		<li>train_target->новому приёму</li>
+		<li>train_target->новым навыкам</li>
+	</TrainAttempt.logRulesInitiator.rulesStrings>
 
 	<Nuzzle.label>ласка</Nuzzle.label>
 	<Nuzzle.logRulesInitiator.rulesStrings>
-		<li>logentry->Ласка к [other_nameShortIndef].</li>
+		<li>logentry(p=2)->[initiator_nameShortIndef] [nuzzleadverb] [nuzzled] об [recipient_nameShortIndef].</li>
+		<li>logentry->[initiator_nameShortIndef] [nuzzleadverb] [nuzzled] [rubbedpart] [recipient_nameShortIndef].</li>
+
+		<li>nuzzled(p=2)->ласкается</li>
+		<li>nuzzled->трётся своим носом</li>
+
+		<li>nuzzleadverb(p=4)-></li>
+		<li>nuzzleadverb->мягко</li>
+		<li>nuzzleadverb->ободряюще</li>
+		<li>nuzzleadverb->радостно</li>
+		<li>nuzzleadverb->нежно</li>
+		<li>nuzzleadverb->одобрительно</li>
+		<li>nuzzleadverb->легко</li>
+		<li>nuzzleadverb->тепло</li>
+		<li>nuzzleadverb->жалобно</li>
+		<li>nuzzleadverb->ласково</li>
+		<li>nuzzleadverb->любя</li>
+
+		<li>rubbedpart->об ногу</li>
+		<li>rubbedpart->об колено</li>
+		<li>rubbedpart->о ступню</li>
+		<li>rubbedpart->о щиколотку</li>
+		<li>rubbedpart->о бедро</li>
+		<li>rubbedpart->о плечо</li>
+		<li>rubbedpart->об руку</li>
 	</Nuzzle.logRulesInitiator.rulesStrings>
-	<Nuzzle.logRulesRecipient.rulesStrings>
-		<li>logentry->Ко мне ласкалось животное, [other_nameShortIndef].</li>
-	</Nuzzle.logRulesRecipient.rulesStrings>
 
 </LanguageData>

@@ -1,36 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<SeedGenerator.rulePack.rulesRaw.0.keyword>tribalword</SeedGenerator.rulePack.rulesRaw.0.keyword>
-	<SeedGenerator.rulePack.rulesRaw.0.path>Words/Foreign/Tribal</SeedGenerator.rulePack.rulesRaw.0.path>
-	<SeedGenerator.rulePack.rulesRaw.1.keyword>businessname</SeedGenerator.rulePack.rulesRaw.1.keyword>
-	<SeedGenerator.rulePack.rulesRaw.1.path>Names/Business</SeedGenerator.rulePack.rulesRaw.1.path>
-	<SeedGenerator.rulePack.rulesRaw.2.keyword>businesstype</SeedGenerator.rulePack.rulesRaw.2.keyword>
-	<SeedGenerator.rulePack.rulesRaw.2.path>Words/Nouns/BusinessTypes</SeedGenerator.rulePack.rulesRaw.2.path>
-
 	<SeedGenerator.rulePack.rulesStrings>
-		<li>seed->[personnamemale]</li>
-		<li>seed->[personnamemale]</li>
-		<li>seed->[personnamemale]</li>
-		<li>seed->[personnamefemale]</li>
-		<li>seed->[personnamefemale]</li>
-		<li>seed->[personnamefemale]</li>
-		<li>seed->[animal]</li>
-		<li>seed->[terrainfeature]</li>
-		<li>seed->[outlander]</li>
-		<li>seed->[apparel]</li>
-		<li>seed->[adjective]</li>
-		<li>seed->[concept]</li>
-		<li>seed->[tribalword]</li>
-		<li>seed->[rareseed]</li>
-		<li>seed->[rareseed]</li>
-		<li>rareseed->[weapon]</li>
-		<li>rareseed->[color]</li>
+		<li>r_seed(p=3)->[NamePerson]</li>
+		<li>r_seed->[Animal]</li>
+		<li>r_seed->[TerrainFeature]</li>
+		<li>r_seed->[Outlander]</li>
+		<li>r_seed->[Apparel]</li>
+		<li>r_seed->[AdjectiveAny]</li>
+		<li>r_seed->[ConceptAny]</li>
+		<li>r_seed->[tribalword]</li>
+		<li>r_seed->[rareseed]</li>
+		<li>r_seed->[rareseed]</li>
+		<li>rareseed->[Weapon]</li>
+		<li>rareseed->[Color]</li>
 		<li>rareseed->[vegetable]</li>
-		<li>rareseed->[game]</li>
+		<li>rareseed->[Game]</li>
 		<li>rareseed->[businessname]</li>
 		<li>rareseed->[businesstype]</li>
-		<li>rareseed->[community]</li>
+		<li>rareseed->[Community]</li>
 	</SeedGenerator.rulePack.rulesStrings>
+
+	<SeedGenerator.rulePack.rulesFiles>
+        <li>businessname->Names/Business</li>
+        <li>businesstype->Words/Nouns/BusinessTypes</li>
+	</SeedGenerator.rulePack.rulesFiles>
 
 </LanguageData>

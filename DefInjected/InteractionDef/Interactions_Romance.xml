@@ -1,28 +1,123 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<RomanceAttempt.label>попытка завести роман</RomanceAttempt.label>
+	<RomanceAttempt.label>флирт</RomanceAttempt.label>
 	<RomanceAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->Попытка завести роман с [other_nameShortIndef].</li>
-	</RomanceAttempt.logRulesInitiator.rulesStrings>
-	<RomanceAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->Ухаживание со стороны [other_nameShortIndef].</li>
-	</RomanceAttempt.logRulesRecipient.rulesStrings>
+		<li>r_logentry->[INITIATOR_nameIndef] [wooed] [OTHER_nameIndef], [wootactic].</li>
 
-	<Breakup.label>расставание</Breakup.label>
-	<Breakup.logRulesInitiator.rulesStrings>
-		<li>logentry->Расставание с [other_nameShortIndef].</li>
-	</Breakup.logRulesInitiator.rulesStrings>
-	<Breakup.logRulesRecipient.rulesStrings>
-		<li>logentry->Расставание по инициативе [other_nameShortIndef].</li>
-	</Breakup.logRulesRecipient.rulesStrings>
+		<li>wooed->пытается флиртовать с</li>
+		<li>wooed->флиртует с</li>
+		<li>wooed->пытается привлечь к себе внимание</li>
+		<li>wooed->пытается добиться расположения</li>
+		<li>wooed->пытается завести роман с</li>
+		<li>wooed->пытается кадрить</li>
+		<li>wooed->подкатывает к</li>
+		<li>wooed->побивает клинья к</li>
+		<li>wooed->заигрывает с</li>
+		<li>wooed->строит глазки</li>
+
+		<li>wootactic(p=4)->[complimenting] [OTHER_possessive] [PersonalCharacteristic]</li>
+		<li>wootactic(p=2)->[boasting] [INITIATOR_possessive] же [PersonalCharacteristic], </li>
+		<li>wootactic(p=2)->рассказывая историю [TalkTopicLight]</li>
+		<li>wootactic(p=2)->рассказывая историю [TalkTopic_heavy]</li>
+		<li>wootactic->сравнивая [OTHER_objective] с [romantic_adj] [romantic_noun]</li>
+		<li>wootactic->сравнивая [OTHER_objective] [PersonalCharacteristic] с [romantic_adj] [romantic_noun]</li>
+
+		<li>boasting->[boasting_adverb] нахваливая</li>
+		<li>boasting->[boasting_adverb] показывая</li>
+		<li>boasting->[boasting_adverb] демонстрируя</li>
+		<li>boasting->[boasting_adverb] упоминая в разговоре</li>
+		<li>boasting->[boasting_adverb] преувеличивая</li>
+		<li>boasting->[boasting_adverb] выпячивая</li>
+		<li>boasting->[boasting_adverb] выставляя напоказ</li>
+		
+		<li>boasting_adverb(p=5)-></li>
+		<li>boasting_adverb->важно</li>
+		<li>boasting_adverb->изящно</li>
+		<li>boasting_adverb->гордо</li>
+		<li>boasting_adverb->горделиво</li>
+		<li>boasting_adverb->хвастливо</li>
+		<li>boasting_adverb->нескромно</li>
+		<li>boasting_adverb->тонко</li>
+		<li>boasting_adverb->навязчиво</li>
+		<li>boasting_adverb->ненавязчиво</li>
+		<li>boasting_adverb->как бы невзначай</li>
+		<li>boasting_adverb->как бы ненароком</li>
+		<li>boasting_adverb->с чувством собственной важности</li>
+		<li>boasting_adverb->с выражением превосходства на лице</li>
+
+		<li>complimenting(p=3)->[complimenting_adverb] хваля</li>
+		<li>complimenting->[complimenting_adverb] осыпая комплиментами</li>
+		<li>complimenting->[complimenting_adverb] нахваливая</li>
+		<li>complimenting->[complimenting_adverb] оценивая</li>
+		<li>complimenting->по достоинству оценивая</li>
+		<li>complimenting->[complimenting_adverb] говоря приятные слова про</li>
+		<li>complimenting(p=2)->[complimenting_adverb] шутя про</li>
+		<li>complimenting->задавая ехидный вопрос про</li>
+		<li>complimenting->отпуская колкий комментарий про</li>
+
+		<li>complimenting_adverb(p=3)-></li>
+		<li>complimenting_adverb->тонко</li>
+		<li>complimenting_adverb->изящно</li>
+		<li>complimenting_adverb->игриво</li>
+		<li>complimenting_adverb->шутливо</li>
+		<li>complimenting_adverb->заигрывающе</li>
+		<li>complimenting_adverb->как бы между делом</li>
+		<li>complimenting_adverb->бесстыдно</li>
+		<li>complimenting_adverb->не стесняясь</li>
+		<li>complimenting_adverb->отпуская колкий комментарий про</li>
+
+		<li>romantic_adj->красотой</li>
+		<li>romantic_adj->сиянием</li>
+		<li>romantic_adj->мерцанием</li>
+		<li>romantic_adj->золотом</li>
+		<li>romantic_adj->очарованием</li>
+		<li>romantic_adj->великолепием</li>
+		<li>romantic_adj->нежностью</li>
+		<li>romantic_adj->изяществом</li>
+		<li>romantic_adj->величием</li>
+		<li>romantic_adj(p=2)->[romantic_adj_badass]</li>
+		
+		<li>romantic_adj_badass->неудержимостью</li>
+		<li>romantic_adj_badass->бешенством</li>
+		<li>romantic_adj_badass->безумием</li>
+		<li>romantic_adj_badass->дикостью</li>
+		<li>romantic_adj_badass->огнём</li>
+		<li>romantic_adj_badass->холодом</li>
+		<li>romantic_adj_badass->гибельностью</li>
+		<li>romantic_adj_badass->бессердечием</li>
+		<li>romantic_adj_badass->ужасом</li>
+		<li>romantic_adj_badass->тьмой</li>
+		<li>romantic_adj_badass->лютостью</li>
+		<li>romantic_adj_badass->суровостью</li>
+		<li>romantic_adj_badass->гневом</li>
+		<li>romantic_adj_badass->свирепостью</li>
+		<li>romantic_adj_badass->яростью</li>
+		
+		<li>romantic_noun->цветка</li>
+		<li>romantic_noun->ручья</li>
+		<li>romantic_noun->реки</li>
+		<li>romantic_noun->звезды</li>
+		<li>romantic_noun->луны</li>
+		<li>romantic_noun->солнца</li>
+		<li>romantic_noun->полярного сияния</li>
+	</RomanceAttempt.logRulesInitiator.rulesStrings>
 
 	<MarriageProposal.label>свадебное предложение</MarriageProposal.label>
 	<MarriageProposal.logRulesInitiator.rulesStrings>
-		<li>logentry->Предложение руки и сердца [other_nameShortIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] предлагает [OTHER_nameIndef] свои руку и сердце.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] предлагает [OTHER_nameIndef] связать их судьбы узами брака.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] предлагает [OTHER_nameIndef] прожить свои жизни рядом друг с другом.</li>
 	</MarriageProposal.logRulesInitiator.rulesStrings>
-	<MarriageProposal.logRulesRecipient.rulesStrings>
-		<li>logentry->Предложение руки и сердца от [other_nameShortIndef].</li>
-	</MarriageProposal.logRulesRecipient.rulesStrings>
+
+	<Breakup.label>расставание</Breakup.label>
+	<Breakup.logRulesInitiator.rulesStrings>
+		<li>r_logentry->[INITIATOR_nameIndef] говорит [OTHER_nameIndef], что хочет расстаться.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] просит [OTHER_nameIndef] дать [INITIATOR_objective] немного свободы.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] говорит [OTHER_nameIndef], что их отношения зашли в тупик.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] предлагает [OTHER_nameIndef] остаться друзьями.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] предлагает [OTHER_nameIndef] сделать перерыв в отношениях.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] предлагает [OTHER_nameIndef] отдохнуть друг от друга.</li>
+	</Breakup.logRulesInitiator.rulesStrings>
 
 </LanguageData>

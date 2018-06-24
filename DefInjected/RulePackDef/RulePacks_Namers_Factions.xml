@@ -20,18 +20,18 @@
 		<li>r_name->[badasspeople] [badassconcept]</li>
 		<li>r_name->[badasspeople]</li>
 		<li>r_name->[badassadjective_plural]</li>
-		<li>r_name->[badassadjective] [weapon]</li>
-		<li>r_name->[weapon] [badassconcept]</li>
+		<li>r_name->[AdjectiveBadass] [Weapon]</li>
+		<li>r_name->[Weapon] [badassconcept]</li>
 		<li>r_name->[badasscolor_plural]</li>
 		<li>r_name->[badasscolor_plural] [badassanimals]</li>
 		<li>r_name->[badasscolor_plural] [badasspeople]</li>
 		<li>r_name->[badassanimals]-[badasspeople]</li>
-		<li>r_name->[badassadjective] [groupname]</li>
+		<li>r_name->[AdjectiveBadass] [groupname]</li>
 		<li>r_name->[badassadjective_plural] [badassanimals]</li>
 		<li>r_name->[badassadjective_plural] [badasspeople]</li>
-		<li>r_name->[groupname] [weapon]</li>
+		<li>r_name->[groupname] [Weapon]</li>
 		<li>r_name->[groupname] [badassconcept]</li>
-		<li>r_name->[badassanimals] из [terrainfeature]</li>
+		<li>r_name->[badassanimals] из [TerrainFeature]</li>
 	</NamerFactionPirate.rulePack.rulesStrings>
 
 	<NamerFactionPirate.rulePack.rulesFiles>
@@ -49,8 +49,8 @@
 		<li>r_name->[geography] [of_badassanimals]</li>
 		<li>r_name->[geography] [badassconcept]</li>
 		<li>r_name->[geography] [of_badasspeople]</li>
-		<li>geography->[terrainfeature]</li>
-		<li>geography->[community]</li>
+		<li>geography->[TerrainFeature]</li>
+		<li>geography->[Community]</li>
 	</NamerSettlementPirate.rulePack.rulesStrings>
 
 	<NamerSettlementPirate.rulePack.rulesFiles>
@@ -69,7 +69,7 @@
 		<li>r_name->[political_union_outlander] [political_adjective] [subname]</li>
 		<li>r_name->[political_adjective] [political_union_outlander] [subname]</li>
 		<li>subname(p=3)->[PlaceOutlander]</li>
-		<li>subname->[direction] [PlaceOutlander]</li>
+		<li>subname->[Direction] [PlaceOutlander]</li>
 	</NamerFactionOutlander.rulePack.rulesStrings>
 	
 	<NamerFactionOutlander.rulePack.rulesFiles>
@@ -83,14 +83,14 @@
         <li>r_name(p=6)->[townname_fixed]</li>
         <li>r_name(p=4)->[townname_combo]</li>
         <li>r_name->[townname_near]</li>
-		<li>r_name->[terrainfeature] [concept_positive]</li>
-		<li>r_name->[terrainfeature] [of_outlanders]</li>
-		<li>r_name->[community] [of_outlanders]</li>
+		<li>r_name->[TerrainFeature] [concept_positive]</li>
+		<li>r_name->[TerrainFeature] [of_outlanders]</li>
+		<li>r_name->[Community] [of_outlanders]</li>
 
-		<li>townname_near->[subname]-на-[terrainfeature]</li>
-		<li>townname_near->[subname]-у-[terrainfeature]</li>
+		<li>townname_near->[subname]-на-[TerrainFeature]</li>
+		<li>townname_near->[subname]-у-[TerrainFeature]</li>
 		<li>subname->[townname_wordgen]</li>
-		<li>subname->[community]</li>
+		<li>subname->[Community]</li>
         <li>townname_wordgen(p=2)->[SylE][SylE]</li>
         <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
         <li>townname_wordgen(p=2)->[SylE][townend]</li>
@@ -123,10 +123,10 @@
 	<NamerFactionTribal.rulePack.rulesStrings>
 		<li>r_name->[politicalunion] [tribalworld]</li>
 		<li>r_name->[tribalworld] [politicalunion]</li>
-		<li>r_name->[politicalunion] [color] [terrainfeature]</li>
+		<li>r_name->[politicalunion] [Color] [TerrainFeature]</li>
 		<li>r_name->[politicalunion] [WordTribal]</li>
-		<li>r_name->[color] [animal] [WordTribal]</li>
-		<li>r_name->[WordTribal] из [terrainfeature]</li>
+		<li>r_name->[Color] [Animal] [WordTribal]</li>
+		<li>r_name->[WordTribal] из [TerrainFeature]</li>
 	</NamerFactionTribal.rulePack.rulesStrings>
 	
 	<NamerFactionTribal.rulePack.rulesFiles>
@@ -135,9 +135,9 @@
 
 	<NamerSettlementTribal.rulePack.rulesStrings>
 		<li>r_name(p=2)->[WordTribal]</li>
-		<li>r_name->[color] [WordTribal]</li>
-		<li>r_name->[color] [terrainfeature]</li>
-		<li>r_name->[terrainfeature] [WordTribal]</li>
+		<li>r_name->[Color] [WordTribal]</li>
+		<li>r_name->[Color] [TerrainFeature]</li>
+		<li>r_name->[TerrainFeature] [WordTribal]</li>
 	</NamerSettlementTribal.rulePack.rulesStrings>
 
 </LanguageData>

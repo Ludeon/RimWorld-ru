@@ -25,13 +25,13 @@
 		<li>circumstance_phrase->, приготовившись к выживанию в суровых условиях,</li>
 		<li>circumstance_phrase->[empty] в жажде новых открытий</li>
 		<li>circumstance_phrase->[empty] с нетерпеливым взглядом</li>
-		<li>circumstance_phrase->, бросая [adjective] взгляд,</li>
-		<li>desc_sentence->За сборами смотрят [quantity_adjphrase] [ally].</li>
-		<li>desc_sentence->Со сборами помогают [quantity_adjphrase] [ally].</li>
-		<li>desc_sentence->Все [enemies] в панике бегут прочь.</li>
-		<li>desc_sentence->Вдали виднеется [terrainfeature].</li>
-		<li>desc_sentence->За происходящим издалека наблюдают [quantity_adjphrase] [outlander].</li>
-		<li>desc_sentence->Мимо спокойно бредут [quantity_adjphrase] [animal].</li>
+		<li>circumstance_phrase->, бросая [AdjectiveAny] взгляд,</li>
+		<li>desc_sentence->За сборами смотрят [Quantity_adjphrase] [ally].</li>
+		<li>desc_sentence->Со сборами помогают [Quantity_adjphrase] [ally].</li>
+		<li>desc_sentence->Все [Enemies] в панике бегут прочь.</li>
+		<li>desc_sentence->Вдали виднеется [TerrainFeature].</li>
+		<li>desc_sentence->За происходящим издалека наблюдают [Quantity_adjphrase] [Outlander].</li>
+		<li>desc_sentence->Мимо спокойно бредут [Quantity_adjphrase] [Animal].</li>
 	</CaravanFormed.rulePack.rulesStrings>
 
 	<CaravanFled.label>спасшийся бегством караван</CaravanFled.label>
@@ -42,17 +42,17 @@
 		<li>tale_noun->как [pawn_nameShortDef] совершает тактическое отступление</li>
 		<li>image->, как [pawn_nameFull] изо всех сил бежит[circumstance_group]</li>
 		<li>image->, как [pawn_nameFull] несётся прочь[circumstance_group]</li>
-		<li>image->, как [pawn_nameFull] удачно прячется[circumstance_group]. Небольших размеров [terrainfeature] позволяет [pawn_objective] укрыться</li>
+		<li>image->, как [pawn_nameFull] удачно прячется[circumstance_group]. Небольших размеров [TerrainFeature] позволяет [pawn_objective] укрыться</li>
 		<li>image->, как [pawn_nameFull] не без боя ретируется[circumstance_group]</li>
 		<li>image->[empty] [pawn_nameFull], что прогулочным шагом удаляется[circumstance_group]</li>
-		<li>circumstance_phrase->, пока [pawn_possessive] преследуют [enemies]</li>
-		<li>circumstance_phrase->, пока [enemies] заняты [pawn_possessive] поисками</li>
-		<li>circumstance_phrase->[empty] от [quantity_adjphrase] [enemies]</li>
+		<li>circumstance_phrase->, пока [pawn_possessive] преследуют [Enemies]</li>
+		<li>circumstance_phrase->, пока [Enemies] заняты [pawn_possessive] поисками</li>
+		<li>circumstance_phrase->[empty] от [Quantity_adjphrase] [Enemies]</li>
 		<li>circumstance_phrase->[empty] от злобных животных</li>
-		<li>circumstance_phrase->[empty] от [huge] [enemies]</li>
-		<li>desc_sentence->Преследователи воинственно размахивают оружием — у каждого есть [weapon].</li>
-		<li>desc_sentence->Дым, [color] и зловещий, окутывает преследователей.</li>
-		<li>desc_sentence->Лица преследователей имеют невероятно [angstyadjective] вид.</li>
+		<li>circumstance_phrase->[empty] от [huge] [Enemies]</li>
+		<li>desc_sentence->Преследователи воинственно размахивают оружием — у каждого есть [Weapon].</li>
+		<li>desc_sentence->Дым, [Color] и зловещий, окутывает преследователей.</li>
+		<li>desc_sentence->Лица преследователей имеют невероятно [AdjectiveAngsty] вид.</li>
 		<li>desc_sentence->Вдали виднеется то немногое, что осталось от каравана.</li>
 		<li>desc_sentence->[pawn_nameShortDef] потеет от страха.</li>
 		<li>desc_sentence->[pawn_nameShortDef] отчаянно хватает ртом воздух.</li>
@@ -63,25 +63,25 @@
 		<li>tale_noun->как [pawn_nameShortDef] защищает караван</li>
 		<li>tale_noun->как [pawn_nameShortDef] отбивается от разбойников</li>
 		<li>image->, как [pawn_nameFull], [circumstance_group], организует оборону</li>
-		<li>image->, как [pawn_nameFull], [circumstance_group], крепко сжимает [weapon]</li>
-		<li>image->, как [pawn_nameFull], держа в руках [weapon] и [circumstance_group], карает осмелившихся напасть на караван</li>
+		<li>image->, как [pawn_nameFull], [circumstance_group], крепко сжимает [Weapon]</li>
+		<li>image->, как [pawn_nameFull], держа в руках [Weapon] и [circumstance_group], карает осмелившихся напасть на караван</li>
 		<li>image->, как [pawn_nameFull], [circumstance_group], стоит за караван стеной</li>
-		<li>image->, как [pawn_nameFull], [circumstance_group], принимает [badassadjective] вид</li>
-		<li>image->, как [pawn_nameFull], [circumstance_group], принимает [angstyadjective] вид</li>
+		<li>image->, как [pawn_nameFull], [circumstance_group], принимает [AdjectiveBadass] вид</li>
+		<li>image->, как [pawn_nameFull], [circumstance_group], принимает [AdjectiveAngsty] вид</li>
 		<li>circumstance_phrase->противостоя ордам врагов</li>
 		<li>circumstance_phrase->сомкнув повозки</li>
 		<li>circumstance_phrase->издавая победный рёв</li>
 		<li>circumstance_phrase->потрясая оружием</li>
-		<li>circumstance_phrase->перепачкавшись [gore] врагов</li>
-		<li>desc_sentence->[enemies] подходят всё ближе, потрясая оружием.</li>
-		<li>desc_sentence->[enemies] расступились, пропуская вперёд самого сильного. В его руке лежит [weapon].</li>
-		<li>desc_sentence->[enemies] приближаются, бросая [badassadjective] взгляд.</li>
-		<li>desc_sentence->[enemies] приближаются, бросая [angstyadjective] взгляд.</li>
-		<li>desc_sentence->[animal] приближаются, в их глазах горит недобрый [color] огонь.</li>
-		<li>desc_sentence->[animal] приближаются, все покрытые [gore].</li>
-		<li>desc_sentence->Земля покрыта [gore].</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander] в панике бегут прочь.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal] в панике бегут прочь.</li>
+		<li>circumstance_phrase->перепачкавшись [Gore] врагов</li>
+		<li>desc_sentence->[Enemies] подходят всё ближе, потрясая оружием.</li>
+		<li>desc_sentence->[Enemies] расступились, пропуская вперёд самого сильного. В его руке лежит [Weapon].</li>
+		<li>desc_sentence->[Enemies] приближаются, бросая [AdjectiveBadass] взгляд.</li>
+		<li>desc_sentence->[Enemies] приближаются, бросая [AdjectiveAngsty] взгляд.</li>
+		<li>desc_sentence->[Animal] приближаются, в их глазах горит недобрый [Color] огонь.</li>
+		<li>desc_sentence->[Animal] приближаются, все покрытые [Gore].</li>
+		<li>desc_sentence->Земля покрыта [Gore].</li>
+		<li>desc_sentence->[Quantity_adjphrase] [Outlander] в панике бегут прочь.</li>
+		<li>desc_sentence->[Quantity_adjphrase] [Animal] в панике бегут прочь.</li>
 	</CaravanAmbushDefeated.rulePack.rulesStrings>
 
 	<CaravanRemoteMining.label>добыча ископаемых вдали от поселения</CaravanRemoteMining.label>
@@ -93,36 +93,36 @@
 		<li>image->, как [pawn_nameFull][circumstance_group] руководит разработкой богатой жилы минерала [material_label]</li>
 		<li>image->, как [pawn_nameFull][circumstance_group] внимательно осматривает богатую жилу минерала [material_label]</li>
 		<li>circumstance_phrase->, покрывшись по́том,</li>
-		<li>circumstance_phrase->, приняв [friendlyadjective] вид,</li>
+		<li>circumstance_phrase->, приняв [AdjectiveFriendly] вид,</li>
 		<li>circumstance_phrase->[empty] с гордой улыбкой</li>
 		<li>circumstance_phrase->[empty] с удовлетворённым выражением лица</li>
 		<li>circumstance_phrase->, опасливо оглядываясь,</li>
 		<li>desc_sentence->В этом [pawn_objective] помогает [ally].</li>
-		<li>desc_sentence->Вокруг бродят [animal] и ещё [quantity_adjphrase] животных.</li>
+		<li>desc_sentence->Вокруг бродят [Animal] и ещё [Quantity_adjphrase] животных.</li>
 		<li>desc_sentence->Рядом построено временное жилище.</li>
-		<li>desc_sentence->Ещё [quantity_adjphrase] месторождений виднеются вдали.</li>
-		<li>desc_sentence->Вдали виднеется [terrainfeature].</li>
+		<li>desc_sentence->Ещё [Quantity_adjphrase] месторождений виднеются вдали.</li>
+		<li>desc_sentence->Вдали виднеется [TerrainFeature].</li>
 		<li>desc_sentence->[pawn_nameShortDef] от работы в поту и в грязи.</li>
 	</CaravanRemoteMining.rulePack.rulesStrings>
 
 	<CaravanAssaultSuccessful.label>успешная атака</CaravanAssaultSuccessful.label>
 	<CaravanAssaultSuccessful.rulePack.rulesStrings>
-		<li>tale_noun->как караван [pawn_nameShortDef] громит базу противника</li>
-		<li>image->, как [pawn_nameFull], [circumstance_group], бежит на врага [enemy]</li>
-		<li>image->[empty] [pawn_nameFull]. [pawn_pronoun] сжимает в руках [weapon], [circumstance_group]</li>
+		<li>tale_noun->как караван [pawn_nameShortDef] громит поселение противника</li>
+		<li>image->, как [pawn_nameFull], [circumstance_group], бежит на врага [Enemy]</li>
+		<li>image->[empty] [pawn_nameFull]. [pawn_pronoun] сжимает в руках [Weapon], [circumstance_group]</li>
 		<li>image->[empty] [pawn_nameFull]. [pawn_pronoun], [circumstance_group], воинственно размахивает своим оружием</li>
-		<li>image->, как [pawn_nameFull], [circumstance_group], руководит атакой на базу враждебной фракции</li>
-		<li>circumstance_phrase->бросая [badassadjective] взгляд</li>
-		<li>circumstance_phrase->бросая [angstyadjective] взгляд</li>
+		<li>image->, как [pawn_nameFull], [circumstance_group], руководит атакой на поселение враждебной фракции</li>
+		<li>circumstance_phrase->бросая [AdjectiveBadass] взгляд</li>
+		<li>circumstance_phrase->бросая [AdjectiveAngsty] взгляд</li>
 		<li>circumstance_phrase->издавая победный рёв</li>
-		<li>circumstance_phrase->перепачкавшись [gore] врагов</li>
-		<li>desc_sentence->Все [enemies] сжались в страхе.</li>
-		<li>desc_sentence->[enemies] в панике бегут прочь.</li>
-		<li>desc_sentence->Все [enemies] покрыты кровоточащими ранами.</li>
-		<li>desc_sentence->Вдали горит [community].</li>
-		<li>desc_sentence->Вдали, догорая, дымится [community].</li>
-		<li>desc_sentence->Земля вокруг покрыта [gore].</li>
-		<li>desc_sentence->[outlander], что стоит неподалёку, закрывает глаза от ужаса.</li>
+		<li>circumstance_phrase->перепачкавшись [Gore] врагов</li>
+		<li>desc_sentence->Все [Enemies] сжались в страхе.</li>
+		<li>desc_sentence->[Enemies] в панике бегут прочь.</li>
+		<li>desc_sentence->Все [Enemies] покрыты кровоточащими ранами.</li>
+		<li>desc_sentence->Вдали горит [Community].</li>
+		<li>desc_sentence->Вдали, догорая, дымится [Community].</li>
+		<li>desc_sentence->Земля вокруг покрыта [Gore].</li>
+		<li>desc_sentence->[Outlander], что стоит неподалёку, закрывает глаза от ужаса.</li>
 		<li>desc_sentence->Перепуганные животные удирают из опасного места.</li>
 	</CaravanAssaultSuccessful.rulePack.rulesStrings>
 
@@ -137,16 +137,16 @@
 		<li>image->, как [pawn_nameFull][circumstance_group] готовится к бою</li>
 		<li>image->, как [pawn_nameFull][circumstance_group] вступает в схватку с противником</li>
 		<li>image->, как [pawn_nameFull][circumstance_group] защищается от разбойников</li>
-		<li>circumstance_phrase->, приняв [badassadjective] вид,</li>
-		<li>circumstance_phrase->, бросая [badassadjective] взгляд,</li>
+		<li>circumstance_phrase->, приняв [AdjectiveBadass] вид,</li>
+		<li>circumstance_phrase->, бросая [AdjectiveBadass] взгляд,</li>
 		<li>circumstance_phrase->[empty] с оружием в руках</li>
 		<li>circumstance_phrase->, потея от напряжения,</li>
-		<li>desc_sentence->[enemies] стремительно приближаются.</li>
-		<li>desc_sentence->Вдалеке виднеются [enemies].</li>
-		<li>desc_sentence->[enemies] уже практически окружают [pawn_possessive].</li>
-		<li>desc_sentence->[pawn_nameShortDef] и [enemies] стоят лицом к лицу.</li>
+		<li>desc_sentence->[Enemies] стремительно приближаются.</li>
+		<li>desc_sentence->Вдалеке виднеются [Enemies].</li>
+		<li>desc_sentence->[Enemies] уже практически окружают [pawn_possessive].</li>
+		<li>desc_sentence->[pawn_nameShortDef] и [Enemies] стоят лицом к лицу.</li>
 		<li>desc_sentence->Перепуганные животные удирают из опасного места.</li>
-		<li>desc_sentence->На это издалека смотрит [outlander].</li>
+		<li>desc_sentence->На это издалека смотрит [Outlander].</li>
 	</CaravanAmbushedByHumanlike.rulePack.rulesStrings>
 
 	<CaravanAmbushedByManhunter.label>нападение животных</CaravanAmbushedByManhunter.label>
@@ -158,16 +158,16 @@
 		<li>image->, как [pawn_nameFull][circumstance_group] готовится к нападению агрессивных животных</li>
 		<li>image->, как [pawn_nameFull][circumstance_group] исполняет боевой клич</li>
 		<li>image->, как [pawn_nameFull][circumstance_group] готовится к бою</li>
-		<li>circumstance_phrase->, приняв [badassadjective] вид,</li>
-		<li>circumstance_phrase->, бросая [badassadjective] взгляд,</li>
+		<li>circumstance_phrase->, приняв [AdjectiveBadass] вид,</li>
+		<li>circumstance_phrase->, бросая [AdjectiveBadass] взгляд,</li>
 		<li>circumstance_phrase->[empty] с оружием в руках</li>
 		<li>circumstance_phrase->, потея от напряжения,</li>
-		<li>circumstance_phrase->, перепачкавшись [gore],</li>
+		<li>circumstance_phrase->, перепачкавшись [Gore],</li>
 		<li>desc_sentence->Животные стремительно приближаются.</li>
-		<li>desc_sentence->Земля вокруг вытоптана и покрыта [gore].</li>
-		<li>desc_sentence->Глаза животных источают недобрый [color] свет.</li>
-		<li>desc_sentence->[animal] в страхе удирает из опасного места.</li>
-		<li>desc_sentence->На это издалека смотрит [outlander].</li>
+		<li>desc_sentence->Земля вокруг вытоптана и покрыта [Gore].</li>
+		<li>desc_sentence->Глаза животных источают недобрый [Color] свет.</li>
+		<li>desc_sentence->[Animal] в страхе удирает из опасного места.</li>
+		<li>desc_sentence->На это издалека смотрит [Outlander].</li>
 	</CaravanAmbushedByManhunter.rulePack.rulesStrings>
 
 	<CaravanMeeting.label>встреча караванов</CaravanMeeting.label>
@@ -179,10 +179,10 @@
 		<li>image->[empty] встречу двух караванов. [pawn_nameFull] и лидер другого каравана, [circumstance_group], идут насвтречу друг другу</li>
 		<li>image->[empty] встречу двух караванов. [pawn_nameFull], [circumstance_group], мирно беседует с лидером другого каравана</li>
 		<li>image->[empty] встречу двух караванов. [pawn_nameFull], [circumstance_group], окликивает лидера другого каравана</li>
-		<li>image->[empty] встречу двух караванов. [pawn_nameFull], [circumstance_group], играет в [game] с лидером другого каравана</li>
-		<li>circumstance_phrase->приняв [friendlyadjective] вид</li>
-		<li>circumstance_phrase->бросая [friendlyadjective] взгляд</li>
-		<li>circumstance_phrase->[friendlytrans]</li>
+		<li>image->[empty] встречу двух караванов. [pawn_nameFull], [circumstance_group], играет в [Game] с лидером другого каравана</li>
+		<li>circumstance_phrase->приняв [AdjectiveFriendly] вид</li>
+		<li>circumstance_phrase->бросая [AdjectiveFriendly] взгляд</li>
+		<li>circumstance_phrase->[TransFriendly]</li>
 		<li>desc_sentence->В это время [people] [event].</li>
 		<li>people->остальные члены караванов</li>
 		<li>people->остальные участники обоих караванов</li>
@@ -207,11 +207,11 @@
 		<li>image->, как [pawn_nameFull], [circumstance_phrase], воинственно потрясает своим оружием перед разбойниками</li>
 		<li>circumstance_phrase->бросая [adjective_either] взгляд</li>
 		<li>circumstance_phrase->приняв [adjective_either] вид</li>
-		<li>adjective_either->[badassadjective]</li>
-		<li>adjective_either->[angstyadjective]</li>
-		<li>desc_sentence->[enemies] [enemies_action].</li>
+		<li>adjective_either->[AdjectiveBadass]</li>
+		<li>adjective_either->[AdjectiveAngsty]</li>
+		<li>desc_sentence->[Enemies] [enemies_action].</li>
 		<li>desc_sentence->Остальные участники каравана [members_action].</li>
-		<li>desc_sentence->[enemies] практически окружили [pawn_possessive].</li>
+		<li>desc_sentence->[Enemies] практически окружили [pawn_possessive].</li>
 		<li>members_action(p=3)->[common_action]</li>
 		<li>members_action->молча стоят в стороне</li>
 		<li>members_action->испуганно перешёптываются</li>

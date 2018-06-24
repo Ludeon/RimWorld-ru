@@ -7,34 +7,44 @@
 
 	<TalelessImages.rulePack.rulesStrings>
 		<li>image->, как [subject_animate], [subject_clause_animate], [action_clause]</li>
-		<li>image(p=0.2)->, как [subject_animate] и [subject_animate] играют в [game]</li>
+		<li>image(p=0.2)->, как [subject_animate] и [subject_animate] играют в [Game]</li>
 		<li>image->[empty] [noun_acc], что [action_clause]</li>
 		<li>image(p=0.5)->[empty] абстрактный образ [random_concept], что [action_clause]</li>
 		<li>image->, как [subject_noun] [action_clause]</li>
-		<li>subject_animate->[outlander]</li>
+		<li>subject_animate->[Outlander]</li>
 		<li>subject_animate->[personname]</li>
-		<li>subject_animate->[animal]</li>
+		<li>subject_animate->[Animal]</li>
 		<li>subject_noun->[noun_random] [random_concept]</li>
 		<li>subject_noun->[subject_animate]</li>
-		<li>subject_noun->[weapon] [random_concept]</li>
-		<li>subject_clause_animate->[friendlytrans]</li>
-		<li>subject_clause_animate->надев [apparel]</li>
-		<li>subject_clause_animate->держа в руках [weapon]</li>
-		<li>subject_clause_animate->которого окружают [enemies]</li>
+		<li>subject_noun->[Weapon] [random_concept]</li>
+		<li>subject_clause_animate->[TransFriendly]</li>
+		<li>subject_clause_animate->надев [Apparel]</li>
+		<li>subject_clause_animate->держа в руках [Weapon]</li>
+		<li>subject_clause_animate->которого окружают [Enemies]</li>
 		<li>action_clause->[adverb_random] [action]</li>
 		<li>action_clause->[action]</li>
 		<li>action(p=20)->[action_random] [noun_acc]</li>
-		<li>action(p=4)->[action_womit] [gore]</li>
+		<li>action(p=4)->[action_womit] [Gore]</li>
 		<li>action->летит по воздуху</li>
 		<li>action->висит в воздухе</li>
 		<li>action->стоит на земле</li>
 		<li>action->сидит на столе</li>
 		<li>action->отражается в зеркале</li>
 		<li>noun_acc->[noun_random_acc] [random_concept]</li>
-		<li>noun_acc->[apparel] [random_concept]</li>
+		<li>noun_acc->[Apparel] [random_concept]</li>
 		<li>reserved->reserved</li>
-		<li>random_concept->[concept]</li>
+		<li>random_concept->[ConceptAny]</li>
 		<li>random_concept->[concept_random]</li>
 	</TalelessImages.rulePack.rulesStrings>
 
+	<TalelessImages.rulePack.rulesFiles>
+		<li>noun_random->Words/Nouns/Random</li>
+		<li>noun_random_acc->Words/Nouns/Random_Acc</li>
+		<li>concept_random->Words/Nouns/Concepts_Random</li>
+		<li>action_random->Words/Verbs/Action</li>
+		<li>action_womit->Words/Verbs/Womit</li>
+		<li>adverb_random->Words/Adverbs/Random</li>
+	</TalelessImages.rulePack.rulesFiles>
+
+	
 </LanguageData>

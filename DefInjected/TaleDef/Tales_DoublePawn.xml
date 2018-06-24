@@ -40,8 +40,8 @@
 		<li>desc_sentence->[capturer_nameShortDef] пинает заключённого без видимых на то причин.</li>
 	</Captured.rulePack.rulesStrings>
 
-	<!--recruite-->
 
+	<!--recruite-->
 	<Recruited.label>человек завербован</Recruited.label>
 	<Recruited.rulePack.rulesStrings>
 		<li>tale_noun->как [joiner_nameShortDef] присоединяется к поселению</li>
@@ -59,8 +59,8 @@
 		<li>desc_sentence->[joiner_nameShortDef] выглядит обнадёженно.</li>
 	</Recruited.rulePack.rulesStrings>
 
-	<!--hunt-->
 
+	<!--hunt-->
 	<Hunted.label>животное поймано</Hunted.label>
 	<Hunted.rulePack.rulesStrings>
 		<li>tale_noun->как [hunter_nameShortDef] охотится</li>
@@ -75,8 +75,8 @@
 		<li>desc_sentence->[prey_nameShortDef] осматривается, будто чувствует, что что-то не так.</li>
 	</Hunted.rulePack.rulesStrings>
 
-	<!--surgery-->
 
+	<!--surgery-->
 	<DidSurgery.label>операция проведена</DidSurgery.label>
 	<DidSurgery.rulePack.rulesStrings>
 		<li>tale_noun->как [patient_nameShortDef] была проведена операция</li>
@@ -93,8 +93,8 @@
 		<li>desc_sentence->[patient_nameShortDef] дрожит и корчится.</li>
 	</DidSurgery.rulePack.rulesStrings>
 
-	<!--execution-->
 
+	<!--execution-->
 	<ExecutedPrisoner.label>заключённый казнён</ExecutedPrisoner.label>
 	<ExecutedPrisoner.rulePack.rulesStrings>
 		<li>tale_noun->как казнили [prisoner_nameShortDef]</li>
@@ -124,8 +124,8 @@
 		<li>desc_sentence->[prisoner_nameShortDef] выглядит демонстративно непокорно.</li>
 	</ExecutedPrisoner.rulePack.rulesStrings>
 
-	<!--kidnapped-->
 
+	<!--kidnapped-->
 	<KidnappedColonist.label>поселенец похищен</KidnappedColonist.label>
 	<KidnappedColonist.rulePack.rulesStrings>
 		<li>tale_noun->как похитили [victim_nameShortDef]</li>
@@ -164,7 +164,7 @@
 		<li>desc_sentence->[animal_nameShortDef] выглядит очарованно.</li>
 		<li>desc_sentence->видно, как [human_nameShortDef], словно создаёт невидимую, но сильную волну любви в сторону [animal_nameShortDef].</li>
 	</TamedAnimal.rulePack.rulesStrings>
-	
+
 	<KilledBy.label>убийство</KilledBy.label>
 	<KilledBy.rulePack.rulesStrings>
 		<li>tale_noun->как [victim_nameShortDef] погибает от руки [killer_nameShortDef]</li>
@@ -189,7 +189,7 @@
 		<li>desc_sentence->Возле тела жертвы растекается лужа крови.</li>
 		<li>desc_sentence->Глаза жертвы изображены реалистично безжизненными.</li>
 		<li>desc_sentence->[killer_nameShortDef] скалит зубы.</li>
-		<li>desc_sentence->[killer_nameShortDef] бросает [badassadjective] взгляд.</li>
+		<li>desc_sentence->[killer_nameShortDef] бросает [AdjectiveBadass] взгляд.</li>
 		<li>desc_sentence->[killer_nameShortDef] испытывает душевные терзания от того, что [killer_objective] приходится делать.</li>
 		<li>desc_sentence->[killer_nameShortDef] чувствует удовлетворение, видя результат.</li>
 		<li>desc_sentence->[killer_nameShortDef] выглядит триумфально.</li>
@@ -202,7 +202,7 @@
 		<li>image->, как [seller_nameFull][circumstance_phrase] продаёт торговцу заключённого по имени [prisoner_nameFull][circumstance_suffix]</li>
 		<li>image->, как [seller_nameFull] и [trader_nameFull][circumstance_phrase] договариваются о цене, за которую будет продан заключённый, [prisoner_nameFull]</li>
 		<li>circumstance_phrase->, подсчитывая деньги,</li>
-		<li>circumstance_phrase->, [friendlytrans],</li>
+		<li>circumstance_phrase->, [TransFriendly],</li>
 		<li>circumstance_suffix->[empty] к огорчению последнего</li>
 		<li>circumstance_suffix->, пока тот жалобно стонет</li>
 		<li>circumstance_suffix->, пока другие поселенцы неодобрительно смотрят</li>
@@ -243,16 +243,16 @@
 		<li>desc_sentence->[animal_nameShortDef] кряхтит от напряжения.</li>
 		<li>desc_sentence->[human_nameShortDef] разочарованно трясёт головой.</li>
 		<li>desc_sentence->[animal_nameShortDef] трясётся от страха.</li>
-		<li>desc_sentence->[animal_nameShortDef] бросает взгляд, полный [concept].</li>
+		<li>desc_sentence->[animal_nameShortDef] бросает взгляд, полный [ConceptAny].</li>
 		<li>desc_sentence->[animal_nameShortDef] изображается в виде кучи инструментов.</li>
-		<li>desc_sentence->[animal_nameShortDef] имеет наполовину [color], а наполовину [color] цвет.</li>
+		<li>desc_sentence->[animal_nameShortDef] имеет наполовину [Color], а наполовину [Color] цвет.</li>
 		<li>desc_sentence->[animal_nameShortDef] стоит в перхоти.</li>
 		<li>desc_sentence->[human_nameShortDef] имеет [quantity] рук.</li>
 		<li>desc_sentence->[human_nameShortDef] уже почти выглядит как [animal_ShortDef].</li>
 	</TrainedAnimal.rulePack.rulesStrings>
 
-	<!--traded with someone-->
 
+	<!--traded with someone-->
 	<TradedWith.label>проведена сделка</TradedWith.label>
 	<TradedWith.rulePack.rulesStrings>
 		<li>tale_noun->как торговали друг с другом [seller_fullName] и [buyer_fullName]</li>
