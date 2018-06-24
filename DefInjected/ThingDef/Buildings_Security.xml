@@ -2,19 +2,19 @@
 <LanguageData>
 
 	<Sandbags.label>мешки с песком</Sandbags.label>
-	<Sandbags.description>Укрытие от стрельбы.</Sandbags.description>
-	<Sandbags_Blueprint.label>мешки с песком (проект)</Sandbags_Blueprint.label>
-	<Sandbags_Frame.label>мешки с песком (идёт укладка)</Sandbags_Frame.label>
-	<Sandbags_Frame.description>Укрытие от стрельбы.</Sandbags_Frame.description>
-
+	<Sandbags.description>Мешки с землёй или песком, уложенные в каркас из стальной арматуры. Выглядят не слишком эстетично, но зато защищают от дальних атак.</Sandbags.description>
+	<Blueprint_Sandbags.label>мешки с песком (проект)</Blueprint_Sandbags.label>
+	<Frame_Sandbags.label>мешки с песком (идёт укладка)</Frame_Sandbags.label>
+	<Frame_Sandbags.description>Мешки с землёй или песком, уложенные в каркас из стальной арматуры. Выглядят не слишком эстетично, но зато защищают от дальних атак.</Frame_Sandbags.description>
+	
 	<!--=============== Improvised turret ===============-->
 
 	<Turret_MiniTurret.label>мини-турель</Turret_MiniTurret.label>
-	<Turret_MiniTurret.description>Импровизированная мини-турель, которая автоматически атакует ближайших врагов. При повреждении взрывается. Для замены изношенного ствола требуется сталь. Собранный наспех ИИ турели не особо продвинут и не поддерживает прямого управления, так что берегитесь огня по своим.</Turret_MiniTurret.description>
-	<Turret_MiniTurret_Blueprint.label>мини-турель (проект)</Turret_MiniTurret_Blueprint.label>
-	<Turret_MiniTurret_Blueprint_Install.label>мини-турель (проект)</Turret_MiniTurret_Blueprint_Install.label>
-	<Turret_MiniTurret_Frame.label>мини-турель (в процессе сборки)</Turret_MiniTurret_Frame.label>
-	<Turret_MiniTurret_Frame.description>Импровизированная мини-турель, которая автоматически атакует ближайших врагов. При повреждении взрывается. Для замены изношенного ствола требуется сталь. Собранный наспех ИИ турели не особо продвинут и не поддерживает прямого управления, так что берегитесь огня по своим.</Turret_MiniTurret_Frame.description>
+	<Turret_MiniTurret.description>Небольшая автоматическая турель с малой дальностью стрельбы. Для замены изношенного ствола требуется сталь. При повреждении может взорваться. ИИ турели не особо продвинут и не поддерживает прямого управления, так что берегитесь огня по своим.</Turret_MiniTurret.description>
+	<Blueprint_Turret_MiniTurret.label>мини-турель (проект)</Blueprint_Turret_MiniTurret.label>
+	<Blueprint_Install_Turret_MiniTurret.label>мини-турель (проект)</Blueprint_Install_Turret_MiniTurret.label>
+	<Frame_Turret_MiniTurret.label>мини-турель (в процессе сборки)</Frame_Turret_MiniTurret.label>
+	<Frame_Turret_MiniTurret.description>Небольшая автоматическая турель с малой дальностью стрельбы. Для замены изношенного ствола требуется сталь. При повреждении может взорваться. ИИ турели не особо продвинут и не поддерживает прямого управления, так что берегитесь огня по своим.</Frame_Turret_MiniTurret.description>
 
 	<Turret_MiniTurret.comps.5.fuelLabel>Выстрелов до замены ствола</Turret_MiniTurret.comps.5.fuelLabel>
 	<Turret_MiniTurret.comps.5.fuelGizmoLabel>Прочность ствола</Turret_MiniTurret.comps.5.fuelGizmoLabel>
@@ -23,55 +23,75 @@
 	<Bullet_MiniTurret.label>пуля из мини-турели</Bullet_MiniTurret.label>
 	
 	<Gun_MiniTurret.label>пушка мини-турели</Gun_MiniTurret.label>
-	<Gun_MiniTurret.description>Пушка, прикреплённая к турельной установке.</Gun_MiniTurret.description>
+	<Gun_MiniTurret.verbs.0.label>пушка мини-турели</Gun_MiniTurret.verbs.0.label>
+	<Gun_MiniTurret.description>Лёгкая автоматическая пушка, предназначенная для крепления к турельной установке.</Gun_MiniTurret.description>
+	
+	
+	<Turret_Autocannon.label>тяжёлая турель</Turret_Autocannon.label>
+	<Turret_Autocannon.description>Тяжёлая дальнобойная автоматическая турель. Крупный калибр позволяет надёжно поражать цели на дальних дистанциях, но требует частой замены ствола. Не стреляет вблизи. При повреждении может взорваться.</Turret_Autocannon.description>
+	<Blueprint_Turret_Autocannon.label>тяжёлая турель (проект)</Blueprint_Turret_Autocannon.label>
+	<Frame_Turret_Autocannon.label>тяжёлая турель (в процессе сборки)</Frame_Turret_Autocannon.label>
+	<Frame_Turret_Autocannon.description>Тяжёлая дальнобойная автоматическая турель. Крупный калибр позволяет надёжно поражать цели на дальних дистанциях, но требует частой замены ствола. Не стреляет вблизи. При повреждении может взорваться.</Frame_Turret_Autocannon.description>
 
+	<Turret_Autocannon.comps.5.fuelLabel>Выстрелов до замены ствола</Turret_Autocannon.comps.5.fuelLabel>
+	<Turret_Autocannon.comps.5.fuelGizmoLabel>Прочность ствола</Turret_Autocannon.comps.5.fuelGizmoLabel>
+	<Turret_Autocannon.comps.5.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_Autocannon.comps.5.outOfFuelMessage>
+
+	<Bullet_AutocannonTurret.label>пуля из тяжёлой турели</Bullet_AutocannonTurret.label>
+	
+	<Gun_AutocannonTurret.label>пушка тяжёлой турели</Gun_AutocannonTurret.label>
+	<Gun_AutocannonTurret.verbs.0.label>пушка тяжёлой турели</Gun_AutocannonTurret.verbs.0.label>
+	<Gun_AutocannonTurret.description>Самозарядное крупнокалиберное орудие, предназначенное для крепления к турельной установке.</Gun_AutocannonTurret.description>
+
+	
 	<Turret_Mortar.label>миномёт</Turret_Mortar.label>
-	<Turret_Mortar.description>Миномёт, запускающий снаряды всех видов. Требует оператора. При повреждении взрывается.</Turret_Mortar.description>
-	<Turret_Mortar_Blueprint.label>миномёт (проект)</Turret_Mortar_Blueprint.label>
-	<Turret_Mortar_Frame.label>миномёт (в процессе сборки)</Turret_Mortar_Frame.label>
-	<Turret_Mortar_Frame.description>Миномёт, запускающий снаряды всех видов. Требует оператора. При повреждении взрывается.</Turret_Mortar_Frame.description>
-	<Turret_Mortar_Blueprint_Install.label>миномёт (проект)</Turret_Mortar_Blueprint_Install.label>
+	<Turret_Mortar.description>Миномёт, запускающий снаряды всех видов. Для стрельбы требуется наводчик. При повреждении взрывается.</Turret_Mortar.description>
+	<Blueprint_Turret_Mortar.label>миномёт (проект)</Blueprint_Turret_Mortar.label>
+	<Frame_Turret_Mortar.label>миномёт (в процессе сборки)</Frame_Turret_Mortar.label>
+	<Frame_Turret_Mortar.description>Миномёт, запускающий снаряды всех видов. Для стрельбы требуется наводчик. При повреждении взрывается.</Frame_Turret_Mortar.description>
+	<Blueprint_Install_Turret_Mortar.label>миномёт (проект)</Blueprint_Install_Turret_Mortar.label>
 
 	<Artillery_Mortar.label>миномёт</Artillery_Mortar.label>
+	<Artillery_Mortar.verbs.0.label>миномёт</Artillery_Mortar.verbs.0.label>
 	<Artillery_Mortar.description>Миномётное орудие. Может перебрасывать снаряды через препятствия. Очень низкая точность, но высокая дальность.</Artillery_Mortar.description>
 
 	<!-- ==================== Traps ======================== -->
 
 	<TrapDeadfall.label>ловушка</TrapDeadfall.label>
-	<TrapDeadfall.description>Простая, но эффективная ловушка.</TrapDeadfall.description>
-	<TrapDeadfall_Blueprint.label>ловушка (проект)</TrapDeadfall_Blueprint.label>
-	<TrapDeadfall_Frame.label>ловушка (устанавливается)</TrapDeadfall_Frame.label>
-	<TrapDeadfall_Frame.description>Простая, но эффективная ловушка.</TrapDeadfall_Frame.description>
+	<TrapDeadfall.description>Увесистый шипастый груз, удерживаемый чувствительным механизмом срабатывания. Когда жертва задевает механизм, груз высвобождается и бьёт жертву по голове или корпусу.</TrapDeadfall.description>
+	<Blueprint_TrapDeadfall.label>ловушка (проект)</Blueprint_TrapDeadfall.label>
+	<Frame_TrapDeadfall.label>ловушка (устанавливается)</Frame_TrapDeadfall.label>
+	<Frame_TrapDeadfall.description>Увесистый шипастый груз, удерживаемый чувствительным механизмом срабатывания. Когда жертва задевает механизм, груз высвобождается и бьёт жертву по голове или корпусу.</Frame_TrapDeadfall.description>
 
 
 	<TrapIED_HighExplosive.label>осколочное СВУ</TrapIED_HighExplosive.label>
 	<TrapIED_HighExplosive.description>Самодельное взрывное устройство — артиллерийский снаряд, присоединённый к импровизированному спусковому механизму. Когда кто-нибудь активирует ловушку, снаряд взорвётся. Мина сдетонирует после случайной задержки, что может позволить убежать проворному противнику.</TrapIED_HighExplosive.description>
-	<TrapIED_HighExplosive_Blueprint.label>осколочное СВУ (проект)</TrapIED_HighExplosive_Blueprint.label>
-	<TrapIED_HighExplosive_Frame.label>осколочное СВУ (устанавливается)</TrapIED_HighExplosive_Frame.label>
-	<TrapIED_HighExplosive_Frame.description>Самодельное взрывное устройство — артиллерийский снаряд, присоединённый к импровизированному спусковому механизму. Когда кто-нибудь активирует ловушку, снаряд взорвётся. Мина сдетонирует после случайной задержки, что может позволить убежать проворному противнику.</TrapIED_HighExplosive_Frame.description>
+	<Blueprint_TrapIED_HighExplosive.label>осколочное СВУ (проект)</Blueprint_TrapIED_HighExplosive.label>
+	<Frame_TrapIED_HighExplosive.label>осколочное СВУ (устанавливается)</Frame_TrapIED_HighExplosive.label>
+	<Frame_TrapIED_HighExplosive.description>Самодельное взрывное устройство — артиллерийский снаряд, присоединённый к импровизированному спусковому механизму. Когда кто-нибудь активирует ловушку, снаряд взорвётся. Мина сдетонирует после случайной задержки, что может позволить убежать проворному противнику.</Frame_TrapIED_HighExplosive.description>
 
 	<TrapIED_Incendiary.label>зажигательное СВУ</TrapIED_Incendiary.label>
 	<TrapIED_Incendiary.description>Самодельное взрывное устройство зажигательного типа — взрывчатка, смешанная с горючим веществом и подключённая к распылителю. Имеет простой и надёжный механизм активации.</TrapIED_Incendiary.description>
-	<TrapIED_Incendiary_Blueprint.label>зажигательное СВУ (проект)</TrapIED_Incendiary_Blueprint.label>
-	<TrapIED_Incendiary_Frame.label>зажигательное СВУ (устанавливается)</TrapIED_Incendiary_Frame.label>
-	<TrapIED_Incendiary_Frame.description>Самодельное взрывное устройство зажигательного типа — взрывчатка, смешанная с горючим веществом и подключённая к распылителю. Имеет простой и надёжный механизм активации.</TrapIED_Incendiary_Frame.description>
+	<Blueprint_TrapIED_Incendiary.label>зажигательное СВУ (проект)</Blueprint_TrapIED_Incendiary.label>
+	<Frame_TrapIED_Incendiary.label>зажигательное СВУ (устанавливается)</Frame_TrapIED_Incendiary.label>
+	<Frame_TrapIED_Incendiary.description>Самодельное взрывное устройство зажигательного типа — взрывчатка, смешанная с горючим веществом и подключённая к распылителю. Имеет простой и надёжный механизм активации.</Frame_TrapIED_Incendiary.description>
 
 	<TrapIED_EMP.label>ЭМ-ловушка</TrapIED_EMP.label>
 	<TrapIED_EMP.description>Простая ловушка, состоящая из ЭМИ-снаряда и импровизированного спускового механизма. Электромагнитный импульс парализует механических существ на несколько секунд. Активируется также и теми, кто не подвержен негативному воздействию ЭМИ.</TrapIED_EMP.description>
-	<TrapIED_EMP_Blueprint.label>ЭМ-ловушка (проект)</TrapIED_EMP_Blueprint.label>
-	<TrapIED_EMP_Frame.label>ЭМ-ловушка (устанавливается)</TrapIED_EMP_Frame.label>
-	<TrapIED_EMP_Frame.description>Простая ловушка, состоящая из ЭМИ-снаряда и импровизированного спускового механизма. Электромагнитный импульс парализует механических существ на несколько секунд. Активируется также и теми, кто не подвержен негативному воздействию ЭМИ.</TrapIED_EMP_Frame.description>
+	<Blueprint_TrapIED_EMP.label>ЭМ-ловушка (проект)</Blueprint_TrapIED_EMP.label>
+	<Frame_TrapIED_EMP.label>ЭМ-ловушка (устанавливается)</Frame_TrapIED_EMP.label>
+	<Frame_TrapIED_EMP.description>Простая ловушка, состоящая из ЭМИ-снаряда и импровизированного спускового механизма. Электромагнитный импульс парализует механических существ на несколько секунд. Активируется также и теми, кто не подвержен негативному воздействию ЭМИ.</Frame_TrapIED_EMP.description>
 
 	<TrapIED_Firefoam.label>пенная ловушка</TrapIED_Firefoam.label>
 	<TrapIED_Firefoam.description>Когда кто-либо активирует спусковой механизм, вокруг распылится пожарная пена.</TrapIED_Firefoam.description>
-	<TrapIED_Firefoam_Blueprint.label>пенная ловушка (проект)</TrapIED_Firefoam_Blueprint.label>
-	<TrapIED_Firefoam_Frame.label>пенная ловушка (устанавливается)</TrapIED_Firefoam_Frame.label>
-	<TrapIED_Firefoam_Frame.description>Когда кто-либо активирует спусковой механизм, вокруг распылится пожарная пена.</TrapIED_Firefoam_Frame.description>
+	<Blueprint_TrapIED_Firefoam.label>пенная ловушка (проект)</Blueprint_TrapIED_Firefoam.label>
+	<Frame_TrapIED_Firefoam.label>пенная ловушка (устанавливается)</Frame_TrapIED_Firefoam.label>
+	<Frame_TrapIED_Firefoam.description>Когда кто-либо активирует спусковой механизм, вокруг распылится пожарная пена.</Frame_TrapIED_Firefoam.description>
 
 	<TrapIED_AntigrainWarhead.label>гранульное СВУ</TrapIED_AntigrainWarhead.label>
 	<TrapIED_AntigrainWarhead.description>Боевая часть гранульного снаряда, присоединённая к импровизированному спусковому механизму. При активации происходит взрыв большой силы с последующим возгоранием.</TrapIED_AntigrainWarhead.description>
-	<TrapIED_AntigrainWarhead_Blueprint.label>гранульное СВУ (проект)</TrapIED_AntigrainWarhead_Blueprint.label>
-	<TrapIED_AntigrainWarhead_Frame.label>гранульное СВУ (устанавливается)</TrapIED_AntigrainWarhead_Frame.label>
-	<TrapIED_AntigrainWarhead_Frame.description>Боевая часть гранульного снаряда, присоединённая к импровизированному спусковому механизму. При активации происходит взрыв большой силы с последующим возгоранием.</TrapIED_AntigrainWarhead_Frame.description>
+	<Blueprint_TrapIED_AntigrainWarhead.label>гранульное СВУ (проект)</Blueprint_TrapIED_AntigrainWarhead.label>
+	<Frame_TrapIED_AntigrainWarhead.label>гранульное СВУ (устанавливается)</Frame_TrapIED_AntigrainWarhead.label>
+	<Frame_TrapIED_AntigrainWarhead.description>Боевая часть гранульного снаряда, присоединённая к импровизированному спусковому механизму. При активации происходит взрыв большой силы с последующим возгоранием.</Frame_TrapIED_AntigrainWarhead.description>
 
 </LanguageData>

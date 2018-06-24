@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<Quest_TradeRequest.label>торговый запрос</Quest_TradeRequest.label>
+
+	<Quest_BanditCamp.label>задание: уничтожить бандитов</Quest_BanditCamp.label>
 	<Quest_BanditCamp.letterLabel>Задание: уничтожить бандитов</Quest_BanditCamp.letterLabel>
 	<Quest_BanditCamp.letterText>{0}, {1} фракции {2}, сообщает важную информацию.\n\nПо всей видимости, неподалёку обосновалась шайка бандитов, которые грабили их караваны. {0} просит стереть этот лагерь с лица земли: ликвидировать бандитов и уничтожить их турели.\n\nВ случае успеха наши отношения с фракцией улучшатся. Кроме того, они обещают в качестве награды:\n\n{3}</Quest_BanditCamp.letterText>
 
+	<Quest_ItemStash.label>координаты схрона</Quest_ItemStash.label>
 	<Quest_ItemStash.letterLabel>Координаты схрона</Quest_ItemStash.letterLabel>
 	<Quest_ItemStash.letterText>{0}, {1} фракции {2}, сообщает важную информацию.\n\nОни узнали координаты схрона с ценными вещами, недалеко от нас. В нём есть:\n\n{3}\n\nЭтот схрон вряд ли надолго останется нетронутым: через {4} дней его наверняка разграбят.\n\nЦенные вещи имеют свойство притягивать разные опасности, так что будьте начеку!\n\n{5}</Quest_ItemStash.letterText>
 
+	<Quest_ItemStashAICore.label>координаты схрона</Quest_ItemStashAICore.label>
 	<Quest_ItemStashAICore.letterLabel>Координаты схрона</Quest_ItemStashAICore.letterLabel>
 	<Quest_ItemStashAICore.letterText>{0}, {1} фракции {2}, сообщает важную информацию.\n\nОни узнали координаты схрона с ценными вещами, недалеко от нас. В нём есть:\n\n{3}\n\nЭтот схрон вряд ли надолго останется нетронутым: через {4} дней его наверняка разграбят.\n\nЦенные вещи имеют свойство притягивать разные опасности, так что будьте начеку!\n\n{5}</Quest_ItemStashAICore.letterText>
 	
+	<Quest_DownedRefugee.label>раненый беженец</Quest_DownedRefugee.label>
 	<Quest_DownedRefugee.letterLabel>Раненый беженец</Quest_DownedRefugee.letterLabel>
-	<Quest_DownedRefugee.letterText>Раненый беженец связывается с вами по радио и умоляет о помощи. [PAWN_possessive] зовут {0}, и [PAWN_pronoun] не в состоянии передвигаться самостоятельно. Без вашей помощи [PAWN_pronoun] протянет лишь {1} дней.\n\nБудьте осторожны: там может быть опасно.</Quest_DownedRefugee.letterText>
+	<Quest_DownedRefugee.letterText>[PAWN_nameDef] связывается с вами по радио и умоляет о помощи. [PAWN_objective] нанесли тяжёлые раны, и [PAWN_pronoun] не в состоянии передвигаться самостоятельно. Без вашей помощи [PAWN_pronoun] протянет лишь {0} дней.\n\n[PAWN_objective] {1} лет и [PAWN_pronoun] {2}. [PAWN_nameDef] обещает присоединиться к вам, если вы спасёте [PAWN_possessive].\n\nБудьте осторожны: там может быть опасно.</Quest_DownedRefugee.letterText>
 
+	<Quest_PrisonerRescue.label>спасение заключённого</Quest_PrisonerRescue.label>
 	<Quest_PrisonerRescue.letterLabel>Спасение заключённого</Quest_PrisonerRescue.letterLabel>
 	<Quest_PrisonerRescue.letterText>Заключённый, находящийся в плену у фракции {0}, сумел добраться до радиопередатчика и выйти с вами на связь!\n\n[PAWN_pronoun] говорит, что [PAWN_possessive] зовут [PAWN_nameDef], и [PAWN_possessive] держат под охраной в лагере неподалёку. Спасите [PAWN_possessive], и [PAWN_pronoun] присоединится к вашему поселению. [PAWN_objective] {1} лет, и [PAWN_pronoun] {2}.</Quest_PrisonerRescue.letterText>
 
+	<Quest_PeaceTalks.label>переговоры</Quest_PeaceTalks.label>
 	<Quest_PeaceTalks.letterLabel>Переговоры</Quest_PeaceTalks.letterLabel>
 	<Quest_PeaceTalks.letterText>[PAWN_nameDef], {0} фракции {1}, сообщает, что хочет встретиться с вами на нейтральной территории для переговоров.\n\nЭто хорошая возможность улучшить отношения с этой фракцией, но знайте: неумелый переговорщик может принести больше вреда, чем пользы.\n\nПредложение актуально в течение {2} дней.</Quest_PeaceTalks.letterText>
+
+	<Quest_JourneyOffer.label>спасительный корабль</Quest_JourneyOffer.label>
 
 </LanguageData>
