@@ -7,7 +7,7 @@
 		Перед[circumstance_phrase] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
 		В этих случая для оборотов без знаков препинания следует использовать конструкцию "[empty] <сама фраза>"
 
-    [PAWN_nameFull] и [PAWN_nameShortDef] - имена персонажа
+    [PAWN_nameFull] и [PAWN_nameDef] - имена персонажа
     [PAWN_pronoun] - he/she - он/она - как [PAWN_pronoun]
     [PAWN_possessive] - his/her - его/её - как [PAWN_possessive]
     [PAWN_objective] - him/her - ему/ей
@@ -15,8 +15,8 @@
 
 	<CaravanFormed.label>сбор каравана</CaravanFormed.label>
 	<CaravanFormed.rulePack.rulesStrings>
-		<li>tale_noun->как [PAWN_nameShortDef] отправляется на поиски приключений</li>
-		<li>tale_noun->как [PAWN_nameShortDef] готовит караван к отбытию</li>
+		<li>tale_noun->как [PAWN_nameDef] отправляется на поиски приключений</li>
+		<li>tale_noun->как [PAWN_nameDef] готовит караван к отбытию</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] целеустремлённо шагает вперёд</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] задумчиво смотрит на горизонт</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] пакует припасы для путешествия</li>
@@ -36,10 +36,10 @@
 
 	<CaravanFled.label>спасшийся бегством караван</CaravanFled.label>
 	<CaravanFled.rulePack.rulesStrings>
-		<li>tale_noun->как [PAWN_nameShortDef] спасает свою жизнь бегством</li>
-		<li>tale_noun->как [PAWN_nameShortDef] уходит от погони</li>
-		<li>tale_noun->как [PAWN_nameShortDef] спасается от погони</li>
-		<li>tale_noun->как [PAWN_nameShortDef] совершает тактическое отступление</li>
+		<li>tale_noun->как [PAWN_nameDef] спасает свою жизнь бегством</li>
+		<li>tale_noun->как [PAWN_nameDef] уходит от погони</li>
+		<li>tale_noun->как [PAWN_nameDef] спасается от погони</li>
+		<li>tale_noun->как [PAWN_nameDef] совершает тактическое отступление</li>
 		<li>image->, как [PAWN_nameFull] изо всех сил бежит[circumstance_phrase]</li>
 		<li>image->, как [PAWN_nameFull] несётся прочь[circumstance_phrase]</li>
 		<li>image->, как [PAWN_nameFull] удачно прячется[circumstance_phrase]. Небольших размеров [TerrainFeature] позволяет [PAWN_objective] укрыться</li>
@@ -54,14 +54,14 @@
 		<li>desc_sentence->Дым, [Color] и зловещий, окутывает преследователей.</li>
 		<li>desc_sentence->Лица преследователей имеют невероятно [AdjectiveAngsty] вид.</li>
 		<li>desc_sentence->Вдали виднеется то немногое, что осталось от каравана.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] потеет от страха.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] отчаянно хватает ртом воздух.</li>
+		<li>desc_sentence->[PAWN_nameDef] потеет от страха.</li>
+		<li>desc_sentence->[PAWN_nameDef] отчаянно хватает ртом воздух.</li>
 	</CaravanFled.rulePack.rulesStrings>
 
 	<CaravanAmbushDefeated.label>защита каравана</CaravanAmbushDefeated.label>
 	<CaravanAmbushDefeated.rulePack.rulesStrings>
-		<li>tale_noun->как [PAWN_nameShortDef] защищает караван</li>
-		<li>tale_noun->как [PAWN_nameShortDef] отбивается от разбойников</li>
+		<li>tale_noun->как [PAWN_nameDef] защищает караван</li>
+		<li>tale_noun->как [PAWN_nameDef] отбивается от разбойников</li>
 		<li>image->, как [PAWN_nameFull], [circumstance_phrase], организует оборону</li>
 		<li>image->, как [PAWN_nameFull], [circumstance_phrase], крепко сжимает [Weapon]</li>
 		<li>image->, как [PAWN_nameFull], держа в руках [Weapon] и [circumstance_phrase], карает осмелившихся напасть на караван</li>
@@ -86,7 +86,7 @@
 
 	<CaravanRemoteMining.label>добыча ископаемых вдали от поселения</CaravanRemoteMining.label>
 	<CaravanRemoteMining.rulePack.rulesStrings>
-		<li>tale_noun->как [PAWN_nameShortDef] добывает [MATERIAL_label] вдали от поселения</li>
+		<li>tale_noun->как [PAWN_nameDef] добывает [MATERIAL_label] вдали от поселения</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] бьёт киркой по каменной стене, внутри которой можно увидеть [MATERIAL_label]</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] держит в руках глыбу чего-то похожего на [MATERIAL_label]</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] отдыхает, прислонившись спиной к забою</li>
@@ -102,12 +102,12 @@
 		<li>desc_sentence->Рядом построено временное жилище.</li>
 		<li>desc_sentence->Ещё [Quantity_adjphrase] месторождений виднеются вдали.</li>
 		<li>desc_sentence->Вдали виднеется [TerrainFeature].</li>
-		<li>desc_sentence->[PAWN_nameShortDef] от работы в поту и в грязи.</li>
+		<li>desc_sentence->[PAWN_nameDef] от работы в поту и в грязи.</li>
 	</CaravanRemoteMining.rulePack.rulesStrings>
 
 	<CaravanAssaultSuccessful.label>успешная атака</CaravanAssaultSuccessful.label>
 	<CaravanAssaultSuccessful.rulePack.rulesStrings>
-		<li>tale_noun->как караван [PAWN_nameShortDef] громит поселение противника</li>
+		<li>tale_noun->как караван [PAWN_nameDef] громит поселение противника</li>
 		<li>image->, как [PAWN_nameFull], [circumstance_phrase], бежит на врага [Enemy]</li>
 		<li>image->[empty] [PAWN_nameFull]. [PAWN_pronoun] сжимает в руках [Weapon], [circumstance_phrase]</li>
 		<li>image->[empty] [PAWN_nameFull]. [PAWN_pronoun], [circumstance_phrase], воинственно размахивает своим оружием</li>
@@ -128,7 +128,7 @@
 
 	<CaravanAmbushedByHumanlike.label>засада</CaravanAmbushedByHumanlike.label>
 	<CaravanAmbushedByHumanlike.rulePack.rulesStrings>
-		<li>tale_noun->как караван [PAWN_nameShortDef] попадает в засаду</li>
+		<li>tale_noun->как караван [PAWN_nameDef] попадает в засаду</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] ищет укрытие</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] защищает караван</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] бежит в атаку</li>
@@ -144,14 +144,14 @@
 		<li>desc_sentence->[Enemies] стремительно приближаются.</li>
 		<li>desc_sentence->Вдалеке виднеются [Enemies].</li>
 		<li>desc_sentence->[Enemies] уже практически окружают [PAWN_possessive].</li>
-		<li>desc_sentence->[PAWN_nameShortDef] и [Enemies] стоят лицом к лицу.</li>
+		<li>desc_sentence->[PAWN_nameDef] и [Enemies] стоят лицом к лицу.</li>
 		<li>desc_sentence->Перепуганные животные удирают из опасного места.</li>
 		<li>desc_sentence->На это издалека смотрит [Outlander].</li>
 	</CaravanAmbushedByHumanlike.rulePack.rulesStrings>
 
 	<CaravanAmbushedByManhunter.label>нападение животных</CaravanAmbushedByManhunter.label>
 	<CaravanAmbushedByManhunter.rulePack.rulesStrings>
-		<li>tale_noun->как караван [PAWN_nameShortDef] попадает в засаду</li>
+		<li>tale_noun->как караван [PAWN_nameDef] попадает в засаду</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] ищет укрытие</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] защищает караван</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] бежит в атаку</li>
@@ -172,7 +172,7 @@
 
 	<CaravanMeeting.label>встреча караванов</CaravanMeeting.label>
 	<CaravanMeeting.rulePack.rulesStrings>
-		<li>tale_noun->как караван [PAWN_nameShortDef] встречается с другим караваном</li>
+		<li>tale_noun->как караван [PAWN_nameDef] встречается с другим караваном</li>
 		<li>image->[empty] встречу двух караванов. [PAWN_nameFull] и лидер другого каравана, [circumstance_phrase], тепло приветствуют друг друга</li>
 		<li>image->[empty] встречу двух караванов. [PAWN_nameFull] и лидер другого каравана, [circumstance_phrase], оценивающе смотрят друг на друга</li>
 		<li>image->[empty] встречу двух караванов. [PAWN_nameFull] и лидер другого каравана, [circumstance_phrase], что-то кричат друг другу</li>
@@ -199,7 +199,7 @@
 
 	<CaravanDemand.label>засада разбойников</CaravanDemand.label>
 	<CaravanDemand.rulePack.rulesStrings>
-		<li>tale_noun->как караван [PAWN_nameShortDef] попадает в засаду разбойников</li>
+		<li>tale_noun->как караван [PAWN_nameDef] попадает в засаду разбойников</li>
 		<li>image->[empty] разбойников, преграждающих путь каравану [PAWN_nameFull]</li>
 		<li>image->[empty] разбойников, угрожающих каравану [PAWN_nameFull]</li>
 		<li>image->, как [PAWN_nameFull], [circumstance_phrase], оценивает силы разбойников</li>

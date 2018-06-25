@@ -3,8 +3,8 @@
 
 	<LaunchedShip.label>запуск корабля</LaunchedShip.label>
 	<LaunchedShip.rulePack.rulesStrings>
-		<li>tale_noun->как [PAWN_nameShortDef] улетает с планеты</li>
-		<li>tale_noun->как [PAWN_nameShortDef] взлетает на космическом корабле</li>
+		<li>tale_noun->как [PAWN_nameDef] улетает с планеты</li>
+		<li>tale_noun->как [PAWN_nameDef] взлетает на космическом корабле</li>
 		<li>image->, как [PAWN_nameFull] мчится к звёздам[circumstance_phrase]</li>
 		<li>image->, как [PAWN_nameFull] взлетает[circumstance_phrase]</li>
 		<li>image->, как [PAWN_nameFull] разгоняется до второй космической скорости[circumstance_phrase]</li>
@@ -28,7 +28,7 @@
 
 	<SocialFight.label>потасовка</SocialFight.label>
 	<SocialFight.rulePack.rulesStrings>
-		<li>tale_noun->как [INITIATOR_nameShortDef] [fight_name_present] [RESPONDER_nameShortDef]</li>
+		<li>tale_noun->как [INITIATOR_nameDef] [fight_name_present] [RESPONDER_nameDef]</li>
 		<li>image->, как [INITIATOR_nameFull] оскорбляет [RESPONDER_nameFull] [circumstance_phrase]</li>
 		<li>image->, как [INITIATOR_nameFull] отпускает колкости в адрес [RESPONDER_nameFull] [circumstance_phrase]</li>
 		<li>image->, как [INITIATOR_nameFull] угрожает [RESPONDER_nameFull] [circumstance_phrase]</li>
@@ -41,15 +41,15 @@
 		<li>fight_name_present->бьёт</li>
 		<li>fight_name_present->атакует</li>
 		<li>fight_name_present->дерётся с</li>
-		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] оскорбляет [INITIATOR_possessive]</li>
-		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] отпускает колкости в [INITIATOR_possessive] адрес</li>
-		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] [INITIATOR_objective] угрожает</li>
-		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] запугивает [INITIATOR_possessive]</li>
-		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] атакует [INITIATOR_possessive]</li>
-		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] нападает на н[INITIATOR_possessive]</li>
-		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] бьёт [INITIATOR_possessive]</li>
-		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] пинает [INITIATOR_possessive]</li>
-		<li>circumstance_phrase->, пока [RESPONDER_nameShortDef] отбивается от н[INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameDef] оскорбляет [INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameDef] отпускает колкости в [INITIATOR_possessive] адрес</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameDef] [INITIATOR_objective] угрожает</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameDef] запугивает [INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameDef] атакует [INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameDef] нападает на н[INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameDef] бьёт [INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameDef] пинает [INITIATOR_possessive]</li>
+		<li>circumstance_phrase->, пока [RESPONDER_nameDef] отбивается от н[INITIATOR_possessive]</li>
 		<li>desc_sentence->[target] не испытывает угрызений совести.</li>
 		<li>desc_sentence->[target] гневно огрызается.</li>
 		<li>desc_sentence->Лицо [target] не выражает никаких эмоций.</li>
@@ -57,14 +57,14 @@
 		<li>desc_sentence->[target] яростно кричит.</li>
 		<li>desc_sentence->[target] закрывает свои раны руками.</li>
 		<li>desc_sentence->В глазах [target] горит недобный [Color] огонёк.</li>
-		<li>target->[INITIATOR_nameShortDef]</li>
-		<li>target->[RESPONDER_nameShortDef]</li>
+		<li>target->[INITIATOR_nameDef]</li>
+		<li>target->[RESPONDER_nameDef]</li>
 	</SocialFight.rulePack.rulesStrings>
 
 	<CollapseDodged.label>обрушение потолка</CollapseDodged.label>
 	<CollapseDodged.rulePack.rulesStrings>
-		<li>tale_noun->как [PAWN_nameShortDef] уворачивается от обломков потолка</li>
-		<li>tale_noun->как [PAWN_nameShortDef] чуть не попадает под обвал потолка</li>
+		<li>tale_noun->как [PAWN_nameDef] уворачивается от обломков потолка</li>
+		<li>tale_noun->как [PAWN_nameDef] чуть не попадает под обвал потолка</li>
 		<li>image->, как [PAWN_nameFull] отпрыгивает в сторону от падающих обломков, [circumstance_phrase]</li>
 		<li>image->, как [PAWN_nameFull] едва уворачивается от обломков потолка, [circumstance_phrase]</li>
 		<li>image->, как [PAWN_nameFull] чудом избегает смерти под обломками, [circumstance_phrase]</li>

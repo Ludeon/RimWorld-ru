@@ -7,7 +7,7 @@
 		Перед[circumstance_phrase] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
 		В этих случая для оборотов без знаков препинания следует использовать конструкцию "[empty] <сама фраза>"
 
-		[PAWN_nameFull] и [PAWN_nameShortDef] - имена персонажа
+		[PAWN_nameFull] и [PAWN_nameDef] - имена персонажа
 		[PAWN_pronoun] - he/she - он/она - как [PAWN_pronoun]
 		[PAWN_possessive] - his/her - его/её - как [PAWN_possessive]
 		[PAWN_objective] - him/her - ему/ей
@@ -15,8 +15,8 @@
 
 	<Raid.label>налёт</Raid.label>
 	<Raid.rulePack.rulesStrings>
-		<li>tale_noun->как штурмуют [Community], где живёт [PAWN_nameShortDef],</li>
-		<li>tale_noun->как [Enemies] атакуют [Community], где живёт [PAWN_nameShortDef],</li>
+		<li>tale_noun->как штурмуют [Community], где живёт [PAWN_nameDef],</li>
+		<li>tale_noun->как [Enemies] атакуют [Community], где живёт [PAWN_nameDef],</li>
 		<li>image->, как [armies][participle] [circumstance_phrase]</li>
 		<li>armies->полчища врагов</li>
 		<li>armies->превосходящие войска противника</li>
@@ -29,13 +29,13 @@
 		<li>participle-></li>
 		<li>participle->, чьи знамёна выкрашены в [Color] цвет,</li>
 		<li>participle->, покрытые [Gore],</li>
-		<li>desc_sentence->[PAWN_nameShortDef] организует сопротивление, [defender_circumstance].</li>
-		<li>desc_sentence->[PAWN_nameShortDef] берёт [Weapon] для защиты, [defender_circumstance].</li>
-		<li>desc_sentence->[PAWN_nameShortDef] лежит на земле с тяжёлыми ранами.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] перехватывает [PAWN_possessive] [Weapon] и парирует удар, [defender_circumstance].</li>
-		<li>desc_sentence->[PAWN_nameShortDef] величественно возвышается, [defender_circumstance].</li>
-		<li>desc_sentence->[PAWN_nameShortDef] принимает [AdjectiveBadass] вид.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] принимает [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->[PAWN_nameDef] организует сопротивление, [defender_circumstance].</li>
+		<li>desc_sentence->[PAWN_nameDef] берёт [Weapon] для защиты, [defender_circumstance].</li>
+		<li>desc_sentence->[PAWN_nameDef] лежит на земле с тяжёлыми ранами.</li>
+		<li>desc_sentence->[PAWN_nameDef] перехватывает [PAWN_possessive] [Weapon] и парирует удар, [defender_circumstance].</li>
+		<li>desc_sentence->[PAWN_nameDef] величественно возвышается, [defender_circumstance].</li>
+		<li>desc_sentence->[PAWN_nameDef] принимает [AdjectiveBadass] вид.</li>
+		<li>desc_sentence->[PAWN_nameDef] принимает [AdjectiveAngsty] вид.</li>
 		<li>desc_sentence->Земля покрыта [Gore].</li>
 		<li>desc_sentence->[Quantity_adjphrase] чужеземцев, выглядящих как [Outlander], покидают этот район.</li>
 		<li>desc_sentence->[Quantity_adjphrase] животных, выглядящих как [Animal], покидают этот район.</li>
@@ -47,7 +47,7 @@
 
 	<Infestation.label>жуки</Infestation.label>
 	<Infestation.rulePack.rulesStrings>
-		<li>tale_noun->как [Community], где живёт [PAWN_nameShortDef], кишит насекомыми</li>
+		<li>tale_noun->как [Community], где живёт [PAWN_nameDef], кишит насекомыми</li>
 		<li>image->, как [swarm] [of_insects] [circumstance_phrase]</li>
 		<li>swarm->рой</li>
 		<li>swarm->всепоглощающая волна</li>
@@ -59,12 +59,12 @@
 		<li>circumstance_phrase->выползает из всех щелей</li>
 		<li>circumstance_phrase->вырывается из-под земли</li>
 		<li>circumstance_phrase->пожирает всё живое на своём пути</li>
-		<li>desc_sentence->[PAWN_nameShortDef] организует сопротивление.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] берёт [Weapon] для защиты.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] лежит на земле с тяжёлыми ранами.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] перехватывает [PAWN_possessive] [Weapon] и парирует удар.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] принимает [AdjectiveBadass] вид.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] принимает [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->[PAWN_nameDef] организует сопротивление.</li>
+		<li>desc_sentence->[PAWN_nameDef] берёт [Weapon] для защиты.</li>
+		<li>desc_sentence->[PAWN_nameDef] лежит на земле с тяжёлыми ранами.</li>
+		<li>desc_sentence->[PAWN_nameDef] перехватывает [PAWN_possessive] [Weapon] и парирует удар.</li>
+		<li>desc_sentence->[PAWN_nameDef] принимает [AdjectiveBadass] вид.</li>
+		<li>desc_sentence->[PAWN_nameDef] принимает [AdjectiveAngsty] вид.</li>
 		<li>desc_sentence->Земля покрыта [Gore].</li>
 		<li>desc_sentence->Все животные покинули этот район.</li>
 	</Infestation.rulePack.rulesStrings>
@@ -88,9 +88,9 @@
 		<li>ground_circumstance->вошедший наполовину в землю</li>
 		<li>ground_circumstance->лежащий посреди кратера</li>
 		<li>ground_circumstance->дымящийся от жара</li>
-		<li>desc_sentence->На происходящее взволнованно смотрит [PAWN_nameShortDef].</li>
-		<li>desc_sentence->[PAWN_nameShortDef] стоит в шоке от увиденного.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] любуется зрелищем.</li>
+		<li>desc_sentence->На происходящее взволнованно смотрит [PAWN_nameDef].</li>
+		<li>desc_sentence->[PAWN_nameDef] стоит в шоке от увиденного.</li>
+		<li>desc_sentence->[PAWN_nameDef] любуется зрелищем.</li>
 		<li>desc_sentence->Люди, стоящие рядом, готовят инструменты и снаряжение.</li>
 		<li>desc_sentence->Издалека приближаются [Quantity_adjphrase] фигур.</li>
 		<li>desc_sentence->Царит мёртвая тишина.</li>
@@ -109,10 +109,10 @@
 		<li>circumstance_phrase->под тонкой пеленой ядовито светящейся пыли</li>
 		<li>circumstance_phrase->в узоре из фигур, напоминающих кости</li>
 		<li>circumstance_phrase->в клубах токсичных испарений</li>
-		<li>desc_sentence->[PAWN_nameShortDef] лежит на земле, скрючившись в неестественной позе.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] бросает [AdjectiveAngsty] взгляд, спрятавшись под крышей.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] стоит в шоке от увиденного.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] спокойно отдыхает, [PAWN_possessive] лицо покрыто каплями пота.</li>
+		<li>desc_sentence->[PAWN_nameDef] лежит на земле, скрючившись в неестественной позе.</li>
+		<li>desc_sentence->[PAWN_nameDef] бросает [AdjectiveAngsty] взгляд, спрятавшись под крышей.</li>
+		<li>desc_sentence->[PAWN_nameDef] стоит в шоке от увиденного.</li>
+		<li>desc_sentence->[PAWN_nameDef] спокойно отдыхает, [PAWN_possessive] лицо покрыто каплями пота.</li>
 		<li>desc_sentence->Тела мёртвых животных усеивают местность вокруг.</li>
 		<li>desc_sentence->Животные покинули эту местность.</li>
 		<li>desc_sentence->[Animal], ни о чём не подозревая, рассеянно бродит туда-сюда.</li>
@@ -128,10 +128,10 @@
 		<li>circumstance_phrase->среди мёртвого серого безмолвия</li>
 		<li>circumstance_phrase->в тусклых лучах солнца, едва пробивающихся сквозь тучи</li>
 		<li>circumstance_phrase->в мертвенно-голубом свете</li>
-		<li>desc_sentence->[PAWN_nameShortDef] сжимается у огня.</li>
-		<li>desc_sentence->Чтобы согреться, [PAWN_nameShortDef] надевает [Apparel] в количестве нескольких штук.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] сидит без сил.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] бросает [AdjectiveAngsty] взгляд.</li>
+		<li>desc_sentence->[PAWN_nameDef] сжимается у огня.</li>
+		<li>desc_sentence->Чтобы согреться, [PAWN_nameDef] надевает [Apparel] в количестве нескольких штук.</li>
+		<li>desc_sentence->[PAWN_nameDef] сидит без сил.</li>
+		<li>desc_sentence->[PAWN_nameDef] бросает [AdjectiveAngsty] взгляд.</li>
 		<li>desc_sentence->Вокруг бродят голодные животные.</li>
 		<li>desc_sentence->Все животные дрожат от холода.</li>
 		<li>desc_sentence->Повсюду видны умирающие животные.</li>
@@ -154,10 +154,10 @@
 		<li>adj->волшебный</li>
 		<li>adj->фантастический</li>
 		<li>adj->[Color]</li>
-		<li>desc_sentence->[PAWN_nameShortDef] с благоговением смотрит вверх.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] смотрит вверх с открытым ртом.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] смотрит вверх в немом потрясении.</li>
-		<li>desc_sentence->Внизу [PAWN_nameShortDef] играет в [Game], бросая [AdjectiveFriendly] взгляд.</li>
+		<li>desc_sentence->[PAWN_nameDef] с благоговением смотрит вверх.</li>
+		<li>desc_sentence->[PAWN_nameDef] смотрит вверх с открытым ртом.</li>
+		<li>desc_sentence->[PAWN_nameDef] смотрит вверх в немом потрясении.</li>
+		<li>desc_sentence->Внизу [PAWN_nameDef] играет в [Game], бросая [AdjectiveFriendly] взгляд.</li>
 	</Aurora.rulePack.rulesStrings>
 	
 	<Flashstorm.label>грозовой шторм</Flashstorm.label>
@@ -175,11 +175,11 @@
 		<li>circumstance_phrase->под зловещие раскаты грома</li>
 		<li>circumstance_phrase->под устрашающе выглядящей тучей</li>
 		<li>circumstance_phrase->в направлении поселения</li>
-		<li>desc_sentence(p=2)->[PAWN_nameShortDef] смотрит на это [looks_circumstance].</li>
+		<li>desc_sentence(p=2)->[PAWN_nameDef] смотрит на это [looks_circumstance].</li>
 		<li>looks_circumstance->в немом потрясении</li>
 		<li>looks_circumstance->с плохо скрываемым ужасом на лице</li>
 		<li>looks_circumstance->открыв рот</li>
-		<li>desc_sentence->[PAWN_nameShortDef] принимает меры по защите поселения.</li>
+		<li>desc_sentence->[PAWN_nameDef] принимает меры по защите поселения.</li>
 		<li>desc_sentence->[Outlander] спешно готовится ко встрече с огнём.</li>
 		<li>desc_sentence->Все животные покинули эту местность.</li>
 	</Flashstorm.rulePack.rulesStrings>
@@ -199,18 +199,18 @@
 		<li>circumstance_phrase->вырывая с корнями деревья</li>
 		<li>circumstance_phrase->заглатывая в себя и живое, и неживое</li>
 		<li>circumstance_phrase->извиваясь подобно змее</li>
-		<li>desc_sentence(p=2)->[PAWN_nameShortDef] смотрит на это [looks_circumstance].</li>
+		<li>desc_sentence(p=2)->[PAWN_nameDef] смотрит на это [looks_circumstance].</li>
 		<li>looks_circumstance->открыв рот</li>
 		<li>looks_circumstance->в немом потрясении</li>
 		<li>looks_circumstance->с плохо скрываемым ужасом на лице</li>
-		<li>desc_sentence->[PAWN_nameShortDef] принимает меры по защите поселения.</li>
+		<li>desc_sentence->[PAWN_nameDef] принимает меры по защите поселения.</li>
 		<li>desc_sentence->[Outlander] спешно готовится ко встрече со стихией.</li>
 		<li>desc_sentence->Все животные покинули эту местность.</li>
 	</Tornado.rulePack.rulesStrings>
 
 	<TornadoFromItem.label>смерч</TornadoFromItem.label>
 	<TornadoFromItem.rulePack.rulesStrings>
-		<li>tale_noun->как [ATTACKER_nameShortDef] вызывает смерч в поселении, где живёт [COLONIST_nameShortDef]</li>
+		<li>tale_noun->как [ATTACKER_nameDef] вызывает смерч в поселении, где живёт [COLONIST_nameDef]</li>
 		<li>image->, как [subj] [action], [circumstance_phrase]</li>
 		<li>subj->[AdjectiveLarge] воздушный вихрь</li>
 		<li>subj->[AdjectiveLarge] смерч</li>
@@ -223,15 +223,15 @@
 		<li>circumstance_phrase->вырывая с корнями деревья</li>
 		<li>circumstance_phrase->заглатывая в себя и живое, и неживое</li>
 		<li>circumstance_phrase->извиваясь подобно змее</li>
-		<li>desc_sentence(p=2)->[ATTACKER_nameShortDef] смотрит на это, [TransFriendly].</li>
-		<li>desc_sentence->[COLONIST_nameShortDef] смотрит на это [looks_circumstance].</li>
+		<li>desc_sentence(p=2)->[ATTACKER_nameDef] смотрит на это, [TransFriendly].</li>
+		<li>desc_sentence->[COLONIST_nameDef] смотрит на это [looks_circumstance].</li>
 		<li>looks_circumstance->в немом потрясении</li>
 		<li>looks_circumstance->с плохо скрываемым ужасом на лице</li>
 		<li>looks_circumstance->открыв рот</li>
-		<li>desc_sentence->[ATTACKER_nameShortDef] ликующе хохочет.</li>
-		<li>desc_sentence->[ATTACKER_nameShortDef], [TransFriendly], потирает руки.</li>  
+		<li>desc_sentence->[ATTACKER_nameDef] ликующе хохочет.</li>
+		<li>desc_sentence->[ATTACKER_nameDef], [TransFriendly], потирает руки.</li>  
 		<li>desc_sentence->[Outlander] спешно готовится ко встрече со стихией.</li>  
-		<li>desc_sentence->[COLONIST_nameShortDef] принимает меры по защите поселения.</li>
+		<li>desc_sentence->[COLONIST_nameDef] принимает меры по защите поселения.</li>
 	</TornadoFromItem.rulePack.rulesStrings>
 
 	<ManhunterPack.label>агрессивные животные</ManhunterPack.label>
@@ -253,12 +253,12 @@
 		<li>hate_emotion->жаждой человеческой крови</li>
 		<li>hate_emotion->ненавистью</li>
 		<li>hate_emotion->яростью</li>
-		<li>desc_sentence->[PAWN_nameShortDef] организует оборону.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] в ранах лежит на земле.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] крепко сжимает в руках [Weapon].</li>
-		<li>desc_sentence->[PAWN_nameShortDef] отбивается, сжав в руках [Weapon].</li>
-		<li>desc_sentence->[PAWN_nameShortDef] принимает [AdjectiveBadass] вид.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] принимает [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->[PAWN_nameDef] организует оборону.</li>
+		<li>desc_sentence->[PAWN_nameDef] в ранах лежит на земле.</li>
+		<li>desc_sentence->[PAWN_nameDef] крепко сжимает в руках [Weapon].</li>
+		<li>desc_sentence->[PAWN_nameDef] отбивается, сжав в руках [Weapon].</li>
+		<li>desc_sentence->[PAWN_nameDef] принимает [AdjectiveBadass] вид.</li>
+		<li>desc_sentence->[PAWN_nameDef] принимает [AdjectiveAngsty] вид.</li>
 		<li>desc_sentence->Земля вокруг покрыта [Gore].</li>
 	</ManhunterPack.rulePack.rulesStrings>
 
@@ -281,12 +281,12 @@
 		<li>mechanoid_desc->, покрытых [Gore],</li>
 		<li>mechanoid_desc->[empty] с вмятинами на корпусах</li>
 		<li>mechanoid_desc->[empty] с сенсорами, источающими [Color] свет,</li>
-		<li>desc_sentence->[PAWN_nameShortDef] в ранах лежит на земле.</li>
-		<li>desc_sentence->[PAWN_nameShortDef], [defender_circumstance], отбивает атаку за атакой.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] стоит не дрогнув, [defender_circumstance].</li>
-		<li>desc_sentence->[PAWN_nameShortDef], [defender_circumstance], организует оборону.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] принимает [AdjectiveAngsty] вид.</li>
-		<li>desc_sentence->[PAWN_nameShortDef], [defender_circumstance], принимает [AdjectiveBadass] вид.</li>
+		<li>desc_sentence->[PAWN_nameDef] в ранах лежит на земле.</li>
+		<li>desc_sentence->[PAWN_nameDef], [defender_circumstance], отбивает атаку за атакой.</li>
+		<li>desc_sentence->[PAWN_nameDef] стоит не дрогнув, [defender_circumstance].</li>
+		<li>desc_sentence->[PAWN_nameDef], [defender_circumstance], организует оборону.</li>
+		<li>desc_sentence->[PAWN_nameDef] принимает [AdjectiveAngsty] вид.</li>
+		<li>desc_sentence->[PAWN_nameDef], [defender_circumstance], принимает [AdjectiveBadass] вид.</li>
 		<li>desc_sentence->Земля вокруг усеяна кусками металлолома.</li>
 		<li>desc_sentence->Земля вокруг покрыта [Gore].</li>
 		<li>defender_circumstance->крепко сжимая в руках [Weapon]</li>
@@ -298,7 +298,7 @@
 
 	<Eclipse.label>затмение</Eclipse.label>
 	<Eclipse.rulePack.rulesStrings>
-		<li>tale_noun->как [Community], где живёт [PAWN_nameShortDef], попадает в зону затмения</li>
+		<li>tale_noun->как [Community], где живёт [PAWN_nameDef], попадает в зону затмения</li>
 		<li>image->[empty] неестественно тёмное небо. [circumstance_phrase]</li>
 		<li>image->[empty] почти ночное небо. [circumstance_phrase]</li>
 		<li>image->[empty] луну внутри тусклого солнечного ободка. [circumstance_phrase]</li>
@@ -307,23 +307,23 @@
 		<li>circumstance_phrase->Неподалёку укрывается в сумерках [TerrainFeature]</li>
 		<li>circumstance_phrase->Сумерки окутывают окрестности</li>
 		<li>circumstance_phrase->Видны звёзды</li>
-		<li>desc_sentence->Ниже [PAWN_nameShortDef] играет в [Game], бросая вверх [AdjectiveFriendly] взгляд.</li>
-		<li>desc_sentence->[PAWN_nameShortDef] с благоговением смотрит вверх.</li>
+		<li>desc_sentence->Ниже [PAWN_nameDef] играет в [Game], бросая вверх [AdjectiveFriendly] взгляд.</li>
+		<li>desc_sentence->[PAWN_nameDef] с благоговением смотрит вверх.</li>
 		<li>desc_sentence->[Animal] и ещё [Quantity_adjphrase] чужеземцев смотрят снизу вверх.</li>
-		<li>desc_sentence->Виднеется [TerrainFeature], рядом сидит [PAWN_nameShortDef] и глядит на небо.</li>
+		<li>desc_sentence->Виднеется [TerrainFeature], рядом сидит [PAWN_nameDef] и глядит на небо.</li>
 		<li>desc_sentence->[Community] со всеми жителями спокойно смотрит на небо.</li>
 		<li>desc_sentence->Ни один [Enemy] не виден в поле зрения.</li>
 	</Eclipse.rulePack.rulesStrings>
 
 	<JourneyOffer.label>сообщение о спасительном корабле</JourneyOffer.label>
 	<JourneyOffer.rulePack.rulesStrings>
-		<li>tale_noun->как [PAWN_nameShortDef] получает сообщение от старого друга</li>
-		<li>tale_noun->как [Community], где живёт [PAWN_nameShortDef], получает предложение о далёком путешествии</li>
-		<li>image->, как [PAWN_nameShortDef], [circumstance_phrase], открывает письмо, которое доставил [delivery_method]</li>
-		<li>image->, как [PAWN_nameShortDef], [circumstance_phrase], использует кристалл данных, который доставил [delivery_method]</li>
-		<li>image->, как [PAWN_nameShortDef], [circumstance_phrase], разворачивает свиток, который доставил [delivery_method]</li>
-		<li>image->, как [PAWN_nameShortDef], [circumstance_phrase], принимает [transmission]</li>
-		<li>image->, как [PAWN_nameShortDef], [circumstance_phrase], перехватывает [transmission]</li>
+		<li>tale_noun->как [PAWN_nameDef] получает сообщение от старого друга</li>
+		<li>tale_noun->как [Community], где живёт [PAWN_nameDef], получает предложение о далёком путешествии</li>
+		<li>image->, как [PAWN_nameDef], [circumstance_phrase], открывает письмо, которое доставил [delivery_method]</li>
+		<li>image->, как [PAWN_nameDef], [circumstance_phrase], использует кристалл данных, который доставил [delivery_method]</li>
+		<li>image->, как [PAWN_nameDef], [circumstance_phrase], разворачивает свиток, который доставил [delivery_method]</li>
+		<li>image->, как [PAWN_nameDef], [circumstance_phrase], принимает [transmission]</li>
+		<li>image->, как [PAWN_nameDef], [circumstance_phrase], перехватывает [transmission]</li>
 		<li>delivery_method->купец из каравана</li>
 		<li>delivery_method->[Animal]</li>
 		<li>delivery_method->[Outlander]</li>
