@@ -4,7 +4,7 @@
 	<!-- Требуется винительный падеж: "Картина показывает (что?)..." -->
 	<!-- Тескт слеплен воедино с "показывает", и может начинаться как с пробела, так с запятой -->
 	<!--
-		Перед[circumstance_group] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
+		Перед[circumstance_phrase] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
 		В этих случая для оборотов без знаков препинания следует использовать конструкцию "[empty] <сама фраза>"
 
 		[PAWN_nameFull] и [PAWN_nameShortDef] - имена персонажа
@@ -18,9 +18,9 @@
 	<Captured.label>человек захвачен</Captured.label>
 	<Captured.rulePack.rulesStrings>
 		<li>tale_noun->как [PRISONER_nameShortDef] попадает в плен</li>
-		<li>image->, как [circumstance_start], в то время как [CAPTURER_nameFull][circumstance_group] захватывает [PRISONER_possessive]</li>
-		<li>image->, как [circumstance_start], в то время как [CAPTURER_nameFull][circumstance_group] связывает [PRISONER_objective] руки</li>
-		<li>image->, как [circumstance_start], в то время как [CAPTURER_nameFull][circumstance_group] наказывает [PRISONER_possessive]</li>
+		<li>image->, как [circumstance_start], в то время как [CAPTURER_nameFull][circumstance_phrase] захватывает [PRISONER_possessive]</li>
+		<li>image->, как [circumstance_start], в то время как [CAPTURER_nameFull][circumstance_phrase] связывает [PRISONER_objective] руки</li>
+		<li>image->, как [circumstance_start], в то время как [CAPTURER_nameFull][circumstance_phrase] наказывает [PRISONER_possessive]</li>
 		<li>circumstance_start->[PRISONER_nameFull] корчится на земле</li>
 		<li>circumstance_start->[PRISONER_nameFull] корчится от боли</li>
 		<li>circumstance_start->[PRISONER_nameFull] безропотно принимает свою судьбу</li>
@@ -45,9 +45,9 @@
 	<Recruited.label>человек завербован</Recruited.label>
 	<Recruited.rulePack.rulesStrings>
 		<li>tale_noun->как [JOINER_nameShortDef] присоединяется к поселению</li>
-		<li>image->, как [recruiter_nameFull] [circumstance_group] рекрутирует [JOINER_nameFull]</li>
-		<li>image->, как [recruiter_nameFull] [circumstance_group] приветствует [JOINER_nameFull], когда [JOINER_pronoun] становится поселенцем</li>
-		<li>image->, как [recruiter_nameFull] [circumstance_group] убедительно говорит с [JOINER_nameFull]</li>
+		<li>image->, как [recruiter_nameFull] [circumstance_phrase] рекрутирует [JOINER_nameFull]</li>
+		<li>image->, как [recruiter_nameFull] [circumstance_phrase] приветствует [JOINER_nameFull], когда [JOINER_pronoun] становится поселенцем</li>
+		<li>image->, как [recruiter_nameFull] [circumstance_phrase] убедительно говорит с [JOINER_nameFull]</li>
 		<li>circumstance_phrase->с явной доброжелательностью</li>
 		<li>circumstance_phrase->с сердечным рукопожатием</li>
 		<li>circumstance_phrase->с улыбкой до ушей</li>
@@ -64,9 +64,9 @@
 	<Hunted.label>животное поймано</Hunted.label>
 	<Hunted.rulePack.rulesStrings>
 		<li>tale_noun->как [HUNTER_nameShortDef] охотится</li>
-		<li>image->[empty] животное, [PREY_nameFull], на которое охотится [HUNTER_nameFull][circumstance_group]</li>
-		<li>image->, как [HUNTER_nameFull], преследует [PREY_nameFull] издали[circumstance_group]</li>
-		<li>image->, как [HUNTER_nameFull], ведёт охоту на [PREY_nameFull][circumstance_group]</li>
+		<li>image->[empty] животное, [PREY_nameFull], на которое охотится [HUNTER_nameFull][circumstance_phrase]</li>
+		<li>image->, как [HUNTER_nameFull], преследует [PREY_nameFull] издали[circumstance_phrase]</li>
+		<li>image->, как [HUNTER_nameFull], ведёт охоту на [PREY_nameFull][circumstance_phrase]</li>
 		<li>circumstance_phrase->, пока [PREY_nameShortDef] расслабляется</li>
 		<li>circumstance_phrase->, пока [PREY_nameShortDef] ходит</li>
 		<li>circumstance_phrase->, пока [PREY_nameShortDef] ест</li>
@@ -129,9 +129,9 @@
 	<KidnappedColonist.label>поселенец похищен</KidnappedColonist.label>
 	<KidnappedColonist.rulePack.rulesStrings>
 		<li>tale_noun->как похитили [VICTIM_nameShortDef]</li>
-		<li>image->, как [KIDNAPPER_nameFull][circumstance_group] тащит [VICTIM_nameFull] к базе своей фракции «[KIDNAPPER_factionName]»</li>
-		<li>image->, как [KIDNAPPER_nameFull] из фракции «[KIDNAPPER_factionName]»[circumstance_group] похищает [VICTIM_nameFull]</li>
-		<li>image->, как [KIDNAPPER_nameFull][circumstance_group] похищает [VICTIM_nameFull]</li>
+		<li>image->, как [KIDNAPPER_nameFull][circumstance_phrase] тащит [VICTIM_nameFull] к базе своей фракции «[KIDNAPPER_factionName]»</li>
+		<li>image->, как [KIDNAPPER_nameFull] из фракции «[KIDNAPPER_factionName]»[circumstance_phrase] похищает [VICTIM_nameFull]</li>
+		<li>image->, как [KIDNAPPER_nameFull][circumstance_phrase] похищает [VICTIM_nameFull]</li>
 		<li>circumstance_phrase->, причиняя излишнюю боль,</li>
 		<li>circumstance_phrase->[empty] со сноровкой профессионала</li>
 		<li>circumstance_phrase->[empty] по-дилетантски грубо</li>
@@ -150,10 +150,10 @@
 	<TamedAnimal.label>животное приручено</TamedAnimal.label>
 	<TamedAnimal.rulePack.rulesStrings>
 		<li>tale_noun->как [TAMER_nameShortDef] приручает [ANIMAL_nameShortDef]</li>
-		<li>image->, как [TAMER_nameFull] [circumstance_group] приручает дикое животное</li>
-		<li>image->, как [TAMER_nameFull] [circumstance_group] предлагает дикому животному кусочек еды</li>
-		<li>image->, как [TAMER_nameFull] [circumstance_group] шепчет что-то пугливому животному</li>
-		<li>image->, как [TAMER_nameFull] [circumstance_group] успокаивает дикое животное</li>
+		<li>image->, как [TAMER_nameFull] [circumstance_phrase] приручает дикое животное</li>
+		<li>image->, как [TAMER_nameFull] [circumstance_phrase] предлагает дикому животному кусочек еды</li>
+		<li>image->, как [TAMER_nameFull] [circumstance_phrase] шепчет что-то пугливому животному</li>
+		<li>image->, как [TAMER_nameFull] [circumstance_phrase] успокаивает дикое животное</li>
 		<li>circumstance_phrase->с огромной осторожностью и заботой</li>
 		<li>circumstance_phrase->с улыбкой</li>
 		<li>circumstance_phrase->устало, но удовлетворённо</li>
@@ -170,10 +170,10 @@
 		<li>tale_noun->как [VICTIM_nameShortDef] погибает от руки [KILLER_nameShortDef]</li>
 		<li>tale_noun->как [KILLER_nameShortDef] убивает [VICTIM_nameShortDef]</li>
 		<li>tale_noun->как погибает [VICTIM_nameShortDef]</li>
-		<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_group] убивают</li>
-		<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_group] убивает [KILLER_nameFull]</li>
-		<li>image->, как [KILLER_nameFull] [circumstance_group] убивает [VICTIM_nameFull]</li>
-		<li>image->, как [KILLER_nameFull] [circumstance_group] прерывает жизнь поселенца по имени [VICTIM_nameFull]</li>
+		<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] убивают</li>
+		<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] убивает [KILLER_nameFull]</li>
+		<li>image->, как [KILLER_nameFull] [circumstance_phrase] убивает [VICTIM_nameFull]</li>
+		<li>image->, как [KILLER_nameFull] [circumstance_phrase] прерывает жизнь поселенца по имени [VICTIM_nameFull]</li>
 		<li>image->, как [VICTIM_nameFull] погибает от руки противника по имени [KILLER_nameFull]</li>
 		<li>circumstance_start->[VICTIM_nameFull] в ужасе кричит</li>
 		<li>circumstance_start->[VICTIM_nameFull] корчится от боли</li>
@@ -220,9 +220,9 @@
 	<TrainedAnimal.label>животное натренировано</TrainedAnimal.label>
 	<TrainedAnimal.rulePack.rulesStrings>
 		<li>tale_noun->как удалось натренировать [ANIMAL_nameShortDef]</li>
-		<li>image->, как [TAMER_nameFull] [train_syn] [ANIMAL_nameFull] в навыке «[trainable_label]»[circumstance_group]</li>
-		<li>image->, как [TAMER_nameFull] учит [ANIMAL_nameFull] навыку «[trainable_label]»[circumstance_group]</li>
-		<li>image->, как [TAMER_nameFull] практикует навык «[trainable_label]» с [ANIMAL_nameFull][circumstance_group]</li>
+		<li>image->, как [TAMER_nameFull] [train_syn] [ANIMAL_nameFull] в навыке «[trainable_label]»[circumstance_phrase]</li>
+		<li>image->, как [TAMER_nameFull] учит [ANIMAL_nameFull] навыку «[trainable_label]»[circumstance_phrase]</li>
+		<li>image->, как [TAMER_nameFull] практикует навык «[trainable_label]» с [ANIMAL_nameFull][circumstance_phrase]</li>
 		<li>train_syn->тренирует</li>
 		<li>train_syn->упражняет</li>
 		<li>train_syn->наставляет</li>
@@ -256,8 +256,8 @@
 	<TradedWith.label>проведена сделка</TradedWith.label>
 	<TradedWith.rulePack.rulesStrings>
 		<li>tale_noun->как торговали друг с другом [SELLER_fullName] и [BUYER_fullName]</li>
-		<li>image->, как [BUYER_nameFull] покупает товары у [SELLER_nameFull][circumstance_group]</li>
-		<li>image->, как [SELLER_nameFull] продаёт товары [BUYER_nameFull][circumstance_group]</li>
+		<li>image->, как [BUYER_nameFull] покупает товары у [SELLER_nameFull][circumstance_phrase]</li>
+		<li>image->, как [SELLER_nameFull] продаёт товары [BUYER_nameFull][circumstance_phrase]</li>
 		<li>circumstance_phrase->[empty] с алчными намерениями</li>
 		<li>circumstance_phrase->, и [SELLER_nameShortDef] ухмыляется в сторону [BUYER_shortNameDef]</li>
 		<li>desc_sentence->[BUYER_nameShortDef] осматривает товары [SELLER_nameShortDef].</li>

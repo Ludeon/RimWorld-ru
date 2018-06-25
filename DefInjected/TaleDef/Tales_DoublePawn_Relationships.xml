@@ -2,7 +2,7 @@
 <LanguageData>
 
 	<!--
-		Перед[circumstance_group] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
+		Перед[circumstance_phrase] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
 		В этих случая для оборотов без знаков препинания следует использовать конструкцию "[empty] <сама фраза>"
 
 		[PAWN_nameFull] и [PAWN_nameShortDef] - имена персонажа
@@ -14,9 +14,9 @@
 	<BondedWithAnimal.label>возникла привязанность</BondedWithAnimal.label>
 	<BondedWithAnimal.rulePack.rulesStrings>
 		<li>tale_noun->как [ANIMAL_nameShortDef] привязался к [HUMAN_nameShortDef]</li>
-		<li>image->[ANIMAL_nameFull] и [HUMAN_nameShortDef], между которыми возникает привязанность[circumstance_group]</li>
-		<li>image->[HUMAN_nameFull] и [ANIMAL_nameFull], между которыми возникает глубокая привязанность[circumstance_group]</li>
-		<li>image->, как [HUMAN_nameFull] осознаёт, что [PAWN_pronoun] любит [ANIMAL_nameFull][circumstance_group]</li>
+		<li>image->[ANIMAL_nameFull] и [HUMAN_nameShortDef], между которыми возникает привязанность[circumstance_phrase]</li>
+		<li>image->[HUMAN_nameFull] и [ANIMAL_nameFull], между которыми возникает глубокая привязанность[circumstance_phrase]</li>
+		<li>image->, как [HUMAN_nameFull] осознаёт, что [PAWN_pronoun] любит [ANIMAL_nameFull][circumstance_phrase]</li>
 		<li>circumstance_phrase->, пока другие животные смотрят на них</li>
 		<li>circumstance_phrase->. [HUMAN_nameShortDef] глядит глубоко в [ANIMAL_possessive] глаза</li>
 		<li>circumstance_phrase->. [HUMAN_nameShortDef] чувствует удовлетворение</li>
@@ -29,10 +29,10 @@
 	<BecameLover.label>любовь</BecameLover.label>
 	<BecameLover.rulePack.rulesStrings>
 		<li>tale_noun->как [PURSUER_nameShortDef] и [ACCEPTER_nameShortDef] стали любовниками</li>
-		<li>image->, как [PURSUER_nameFull] шепчет сладкие пустяки в ухо [ACCEPTER_nameFull][circumstance_group]</li>
-		<li>image->, как [PURSUER_nameFull] ведёт [ACCEPTER_nameFull] за руку к кровати[circumstance_group]</li>
-		<li>image->, как [PURSUER_nameFull] резвится в кровати с [ACCEPTER_nameFull][circumstance_group]</li>
-		<li>image->, как [PURSUER_nameFull] горячо целует [ACCEPTER_nameFull][circumstance_group]</li>
+		<li>image->, как [PURSUER_nameFull] шепчет сладкие пустяки в ухо [ACCEPTER_nameFull][circumstance_phrase]</li>
+		<li>image->, как [PURSUER_nameFull] ведёт [ACCEPTER_nameFull] за руку к кровати[circumstance_phrase]</li>
+		<li>image->, как [PURSUER_nameFull] резвится в кровати с [ACCEPTER_nameFull][circumstance_phrase]</li>
+		<li>image->, как [PURSUER_nameFull] горячо целует [ACCEPTER_nameFull][circumstance_phrase]</li>
 		<li>circumstance_phrase->[empty] на неправдоподобно большой кровати</li>
 		<li>circumstance_phrase->[empty] между одеял</li>
 		<li>circumstance_phrase->[empty] практически без одежды</li>
@@ -48,10 +48,10 @@
 	<Breakup.label>расставание</Breakup.label>
 	<Breakup.rulePack.rulesStrings>
 		<li>tale_noun->как расстались [DUMPER_nameShortDef] и [REJECTED_nameShortDef]</li>
-		<li>image->, как [DUMPER_nameFull] усаживает [REJECTED_nameFull] для неприятного разговора[circumstance_group]</li>
-		<li>image->, как [DUMPER_nameFull] отдаляется от [REJECTED_nameFull][circumstance_group]</li>
-		<li>image->, как [DUMPER_nameFull] выталкивает [REJECTED_nameFull] из кровати[circumstance_group]</li>
-		<li>image->, как [DUMPER_nameFull] отвергает объятия [REJECTED_nameFull][circumstance_group]</li>
+		<li>image->, как [DUMPER_nameFull] усаживает [REJECTED_nameFull] для неприятного разговора[circumstance_phrase]</li>
+		<li>image->, как [DUMPER_nameFull] отдаляется от [REJECTED_nameFull][circumstance_phrase]</li>
+		<li>image->, как [DUMPER_nameFull] выталкивает [REJECTED_nameFull] из кровати[circumstance_phrase]</li>
+		<li>image->, как [DUMPER_nameFull] отвергает объятия [REJECTED_nameFull][circumstance_phrase]</li>
 		<li>circumstance_phrase->[empty] в момент великой печали</li>
 		<li>circumstance_phrase->, пока другие неловко отворачиваются</li>
 		<li>circumstance_phrase->, пока другие смотрят</li>
@@ -66,10 +66,10 @@
 	<Marriage.label>свадьба</Marriage.label>
 	<Marriage.rulePack.rulesStrings>
 		<li>tale_noun->как поженились [SPOUSE1_nameShortDef] и [SPOUSE2_nameShortDef]</li>
-		<li>image->, как [SPOUSE1_nameFull][circumstance_group] связывает себя узами брака с [SPOUSE2_nameFull]</li>
-		<li>image->, как [SPOUSE1_nameFull][circumstance_group] говорит свою свадебную клятву [SPOUSE2_nameFull]</li>
-		<li>image->, как [SPOUSE1_nameFull][circumstance_group] проходит к алтарю с [SPOUSE2_nameFull]</li>
-		<li>image->, как [SPOUSE1_nameFull][circumstance_group] держится за руки с [SPOUSE2_nameFull] во время свадебной церемонии</li>
+		<li>image->, как [SPOUSE1_nameFull][circumstance_phrase] связывает себя узами брака с [SPOUSE2_nameFull]</li>
+		<li>image->, как [SPOUSE1_nameFull][circumstance_phrase] говорит свою свадебную клятву [SPOUSE2_nameFull]</li>
+		<li>image->, как [SPOUSE1_nameFull][circumstance_phrase] проходит к алтарю с [SPOUSE2_nameFull]</li>
+		<li>image->, как [SPOUSE1_nameFull][circumstance_phrase] держится за руки с [SPOUSE2_nameFull] во время свадебной церемонии</li>
 		<li>circumstance_phrase->[empty] торжественно и величаво</li>
 		<li>circumstance_phrase->, радостно смеясь,</li>
 		<li>circumstance_phrase->, пока другие смотрят с торжественным видом,</li>

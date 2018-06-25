@@ -22,8 +22,8 @@
 		<li>wound_verb->калечит</li>
 		<li>wound_verb->бьёт</li>
 		<li>wound_verb->атакует</li>
-		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_group]</li>
-		<li>weapon_optional->[empty] [circumstance_group]</li>
+		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_phrase]</li>
+		<li>weapon_optional->[empty] [circumstance_phrase]</li>
 		<li>circumstance_phrase->без сожалений</li>
 		<li>circumstance_phrase->с холодной эффективностью</li>
 		<li>circumstance_phrase->в ярости</li>
@@ -64,8 +64,8 @@
 		<li>wound_verb->обезвреживает</li>
 		<li>wound_verb->сражает</li>
 		<li>wound_verb->обездвиживает</li>
-		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_group]</li>
-		<li>weapon_optional->[empty] [circumstance_group]</li>
+		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_phrase]</li>
+		<li>weapon_optional->[empty] [circumstance_phrase]</li>
 		<li>circumstance_phrase->без сожалений</li>
 		<li>circumstance_phrase->с холодной эффективностью</li>
 		<li>circumstance_phrase->в ярости</li>
@@ -137,8 +137,8 @@
 		<li>wound_verb->разделывается с</li>
 		<li>wound_verb->расправляется с</li>
 		<li>wound_verb->умерщвляет</li>
-		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_group]</li>
-		<li>weapon_optional->[empty] [circumstance_group]</li>
+		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_phrase]</li>
+		<li>weapon_optional->[empty] [circumstance_phrase]</li>
 		<li>circumstance_phrase->беспощадно</li>
 		<li>circumstance_phrase->кроваво</li>
 		<li>circumstance_phrase->безжалостно</li>
@@ -177,8 +177,8 @@
 		<li>wound_verb->одерживает победу над</li>
 		<li>wound_verb->побеждает</li>
 		<li>wound_verb->одолевает</li>
-		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_group]</li>
-		<li>weapon_optional->[empty] [circumstance_group]</li>
+		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_phrase]</li>
+		<li>weapon_optional->[empty] [circumstance_phrase]</li>
 		<li>circumstance_phrase->бесстрашно</li>
 		<li>circumstance_phrase->отважно</li>
 		<li>circumstance_phrase->доблестно</li>
@@ -219,8 +219,8 @@
 		<li>wound_verb->ранит</li>
 		<li>wound_verb->бьёт</li>
 		<li>wound_verb->калечит</li>
-		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_group]</li>
-		<li>weapon_optional->[empty] [circumstance_group]</li>
+		<li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_phrase]</li>
+		<li>weapon_optional->[empty] [circumstance_phrase]</li>
 		<li>circumstance_phrase->без сожалений</li>
 		<li>circumstance_phrase->с холодной эффективностью</li>
 		<li>circumstance_phrase->быстрыми, эффективными движениями</li>
@@ -238,10 +238,10 @@
 	<KilledMortar.rulePack.rulesStrings>
 		<li>tale_noun->как [KILLER_nameShortDef] поражает [VICTIM_nameShortDef] миномётным огнём</li>
 		<li>tale_noun->как [VICTIM_nameShortDef] попадает под миномётный обстрел</li>
-		<li>image->, как [KILLER_nameFull] аккуратно наводит орудие, [circumstance_group]</li>
-		<li>image->, как [KILLER_nameFull] оценивает дальность до цели, [circumstance_group]</li>
-		<li>image->, как [KILLER_nameFull] выполняет расчёты на бумаге, [circumstance_group]</li>
-		<li>image->, как [KILLER_nameFull] определяет направление ветра, [circumstance_group]</li>
+		<li>image->, как [KILLER_nameFull] аккуратно наводит орудие, [circumstance_phrase]</li>
+		<li>image->, как [KILLER_nameFull] оценивает дальность до цели, [circumstance_phrase]</li>
+		<li>image->, как [KILLER_nameFull] выполняет расчёты на бумаге, [circumstance_phrase]</li>
+		<li>image->, как [KILLER_nameFull] определяет направление ветра, [circumstance_phrase]</li>
 		<li>circumstance_phrase->в то время как [VICTIM_nameFull] исчезает в мощном взрыве</li>
 		<li>circumstance_phrase->и снаряд по широкой дуге летит к [VICTIM_nameFull]</li>
 		<li>circumstance_phrase->пока [VICTIM_nameFull] бродит вдали, ни о чём не подозревая</li>
@@ -261,11 +261,11 @@
 	<Exhausted.label>изнеможение</Exhausted.label>
 	<Exhausted.rulePack.rulesStrings>
 		<li>tale_noun->как [PAWN_nameShortDef] валится с ног от усталости</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] в изнеможении валится с ног</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] лежит на земле</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] лежит в кровати</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] лежит на кресле</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] мирно спит</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] в изнеможении валится с ног</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] лежит на земле</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] лежит в кровати</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] лежит на кресле</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] мирно спит</li>
 		<li>circumstance_phrase->[empty] с закрытыми глазами</li>
 		<li>circumstance_phrase->[empty] с уставшим видом</li>
 		<li>circumstance_phrase->, покрывшись по́том,</li>
@@ -280,12 +280,12 @@
 	<IllnessRevealed.label>обнаружено заболевание</IllnessRevealed.label>
 	<IllnessRevealed.rulePack.rulesStrings>
 		<li>tale_noun->как у [PAWN_nameShortDef] обнаруживается [ILLNESS_label]</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] бредёт по улице шатаясь</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] лежит на земле</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] лежит в кровати</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] лежит в больничной кровати</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] падает в кресло</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] подползает ближе к огню</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] бредёт по улице шатаясь</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] лежит на земле</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] лежит в кровати</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] лежит в больничной кровати</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] падает в кресло</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] подползает ближе к огню</li>
 		<li>circumstance_phrase->, непрерывно потея,</li>
 		<li>circumstance_phrase->, дрожа в лихорадке,</li>
 		<li>circumstance_phrase->, потея и дрожа,</li>
@@ -304,11 +304,11 @@
 	<HeatstrokeRevealed.rulePack.rulesStrings>
 		<li>tale_noun->как [PAWN_nameShortDef] получает тепловой удар</li>
 		<li>tale_noun->как [PAWN_nameShortDef] перегревается</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] продирается сквозь пески</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] съёживается в тени</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] ищет воду</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] ищет тень</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] ползёт по выжженной солнцем земле</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] продирается сквозь пески</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] съёживается в тени</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] ищет воду</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] ищет тень</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] ползёт по выжженной солнцем земле</li>
 		<li>circumstance_phrase->[empty] с покрасневшей кожей</li>
 		<li>circumstance_phrase->, непрерывно потея,</li>
 		<li>circumstance_phrase->[empty] с высохшими, потрескавшимися губами</li>
@@ -326,11 +326,11 @@
 	<HypothermiaRevealed.rulePack.rulesStrings>
 		<li>tale_noun->как [PAWN_nameShortDef] получает обморожение</li>
 		<li>tale_noun->как [PAWN_nameShortDef] замерзает</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] продирается через снежные сугробы</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] съёживается в попытке сохранить тепло</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] ищёт тёплую одежду</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] подползает ближе к огню</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] пытается разжечь огонь</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] продирается через снежные сугробы</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] съёживается в попытке сохранить тепло</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] ищёт тёплую одежду</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] подползает ближе к огню</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] пытается разжечь огонь</li>
 		<li>circumstance_phrase->, постепенно синея от холода,</li>
 		<li>circumstance_phrase->, трясясь от холода,</li>
 		<li>circumstance_phrase->, покрываясь инеем,</li>
@@ -348,12 +348,12 @@
 	<ToxicityRevealed.rulePack.rulesStrings>
 		<li>tale_noun->как [PAWN_nameShortDef] получает отравление токсинами</li>
 		<li>tale_noun->как [PAWN_nameShortDef] получает большую дозу токсинов</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] бредёт по улице шатаясь</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] лежит на земле</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] лежит в кровати</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] подползает ближе к огню</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] пытается разжечь огонь</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] бездумно снимает одежду</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] бредёт по улице шатаясь</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] лежит на земле</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] лежит в кровати</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] подползает ближе к огню</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] пытается разжечь огонь</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] бездумно снимает одежду</li>
 		<li>circumstance_phrase->, непрерывно потея,</li>
 		<li>circumstance_phrase->, дрожа в лихорадке,</li>
 		<li>circumstance_phrase->, потея и дрожа,</li>

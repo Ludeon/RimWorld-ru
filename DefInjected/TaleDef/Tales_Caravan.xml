@@ -4,7 +4,7 @@
   <!-- Требуется винительный падеж: "Картина показывает (что?)..." -->
 	<!-- Тескт слеплен воедино с "показывает", и может начинаться как с пробела, так с запятой -->
 	<!--
-		Перед[circumstance_group] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
+		Перед[circumstance_phrase] в некоторых контекстах намеренно убраны пробелы, чтобы дать возможность использовать знаки препинания.
 		В этих случая для оборотов без знаков препинания следует использовать конструкцию "[empty] <сама фраза>"
 
     [PAWN_nameFull] и [PAWN_nameShortDef] - имена персонажа
@@ -17,10 +17,10 @@
 	<CaravanFormed.rulePack.rulesStrings>
 		<li>tale_noun->как [PAWN_nameShortDef] отправляется на поиски приключений</li>
 		<li>tale_noun->как [PAWN_nameShortDef] готовит караван к отбытию</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] целеустремлённо шагает вперёд</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] задумчиво смотрит на горизонт</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] пакует припасы для путешествия</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] планирует путешествие</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] целеустремлённо шагает вперёд</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] задумчиво смотрит на горизонт</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] пакует припасы для путешествия</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] планирует путешествие</li>
 		<li>circumstance_phrase->[empty] в полной боевой экипировке</li>
 		<li>circumstance_phrase->, приготовившись к выживанию в суровых условиях,</li>
 		<li>circumstance_phrase->[empty] в жажде новых открытий</li>
@@ -40,11 +40,11 @@
 		<li>tale_noun->как [PAWN_nameShortDef] уходит от погони</li>
 		<li>tale_noun->как [PAWN_nameShortDef] спасается от погони</li>
 		<li>tale_noun->как [PAWN_nameShortDef] совершает тактическое отступление</li>
-		<li>image->, как [PAWN_nameFull] изо всех сил бежит[circumstance_group]</li>
-		<li>image->, как [PAWN_nameFull] несётся прочь[circumstance_group]</li>
-		<li>image->, как [PAWN_nameFull] удачно прячется[circumstance_group]. Небольших размеров [TerrainFeature] позволяет [PAWN_objective] укрыться</li>
-		<li>image->, как [PAWN_nameFull] не без боя ретируется[circumstance_group]</li>
-		<li>image->[empty] [PAWN_nameFull], что прогулочным шагом удаляется[circumstance_group]</li>
+		<li>image->, как [PAWN_nameFull] изо всех сил бежит[circumstance_phrase]</li>
+		<li>image->, как [PAWN_nameFull] несётся прочь[circumstance_phrase]</li>
+		<li>image->, как [PAWN_nameFull] удачно прячется[circumstance_phrase]. Небольших размеров [TerrainFeature] позволяет [PAWN_objective] укрыться</li>
+		<li>image->, как [PAWN_nameFull] не без боя ретируется[circumstance_phrase]</li>
+		<li>image->[empty] [PAWN_nameFull], что прогулочным шагом удаляется[circumstance_phrase]</li>
 		<li>circumstance_phrase->, пока [PAWN_possessive] преследуют [Enemies]</li>
 		<li>circumstance_phrase->, пока [Enemies] заняты [PAWN_possessive] поисками</li>
 		<li>circumstance_phrase->[empty] от [Quantity_adjphrase] [Enemies]</li>
@@ -62,12 +62,12 @@
 	<CaravanAmbushDefeated.rulePack.rulesStrings>
 		<li>tale_noun->как [PAWN_nameShortDef] защищает караван</li>
 		<li>tale_noun->как [PAWN_nameShortDef] отбивается от разбойников</li>
-		<li>image->, как [PAWN_nameFull], [circumstance_group], организует оборону</li>
-		<li>image->, как [PAWN_nameFull], [circumstance_group], крепко сжимает [Weapon]</li>
-		<li>image->, как [PAWN_nameFull], держа в руках [Weapon] и [circumstance_group], карает осмелившихся напасть на караван</li>
-		<li>image->, как [PAWN_nameFull], [circumstance_group], стоит за караван стеной</li>
-		<li>image->, как [PAWN_nameFull], [circumstance_group], принимает [AdjectiveBadass] вид</li>
-		<li>image->, как [PAWN_nameFull], [circumstance_group], принимает [AdjectiveAngsty] вид</li>
+		<li>image->, как [PAWN_nameFull], [circumstance_phrase], организует оборону</li>
+		<li>image->, как [PAWN_nameFull], [circumstance_phrase], крепко сжимает [Weapon]</li>
+		<li>image->, как [PAWN_nameFull], держа в руках [Weapon] и [circumstance_phrase], карает осмелившихся напасть на караван</li>
+		<li>image->, как [PAWN_nameFull], [circumstance_phrase], стоит за караван стеной</li>
+		<li>image->, как [PAWN_nameFull], [circumstance_phrase], принимает [AdjectiveBadass] вид</li>
+		<li>image->, как [PAWN_nameFull], [circumstance_phrase], принимает [AdjectiveAngsty] вид</li>
 		<li>circumstance_phrase->противостоя ордам врагов</li>
 		<li>circumstance_phrase->сомкнув повозки</li>
 		<li>circumstance_phrase->издавая победный рёв</li>
@@ -87,11 +87,11 @@
 	<CaravanRemoteMining.label>добыча ископаемых вдали от поселения</CaravanRemoteMining.label>
 	<CaravanRemoteMining.rulePack.rulesStrings>
 		<li>tale_noun->как [PAWN_nameShortDef] добывает [MATERIAL_label] вдали от поселения</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] бьёт киркой по каменной стене, внутри которой можно увидеть [MATERIAL_label]</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] держит в руках глыбу чего-то похожего на [MATERIAL_label]</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] отдыхает, прислонившись спиной к забою</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] руководит разработкой богатой жилы минерала [MATERIAL_label]</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] внимательно осматривает богатую жилу минерала [MATERIAL_label]</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] бьёт киркой по каменной стене, внутри которой можно увидеть [MATERIAL_label]</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] держит в руках глыбу чего-то похожего на [MATERIAL_label]</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] отдыхает, прислонившись спиной к забою</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] руководит разработкой богатой жилы минерала [MATERIAL_label]</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] внимательно осматривает богатую жилу минерала [MATERIAL_label]</li>
 		<li>circumstance_phrase->, покрывшись по́том,</li>
 		<li>circumstance_phrase->, приняв [AdjectiveFriendly] вид,</li>
 		<li>circumstance_phrase->[empty] с гордой улыбкой</li>
@@ -108,10 +108,10 @@
 	<CaravanAssaultSuccessful.label>успешная атака</CaravanAssaultSuccessful.label>
 	<CaravanAssaultSuccessful.rulePack.rulesStrings>
 		<li>tale_noun->как караван [PAWN_nameShortDef] громит поселение противника</li>
-		<li>image->, как [PAWN_nameFull], [circumstance_group], бежит на врага [Enemy]</li>
-		<li>image->[empty] [PAWN_nameFull]. [PAWN_pronoun] сжимает в руках [Weapon], [circumstance_group]</li>
-		<li>image->[empty] [PAWN_nameFull]. [PAWN_pronoun], [circumstance_group], воинственно размахивает своим оружием</li>
-		<li>image->, как [PAWN_nameFull], [circumstance_group], руководит атакой на поселение враждебной фракции</li>
+		<li>image->, как [PAWN_nameFull], [circumstance_phrase], бежит на врага [Enemy]</li>
+		<li>image->[empty] [PAWN_nameFull]. [PAWN_pronoun] сжимает в руках [Weapon], [circumstance_phrase]</li>
+		<li>image->[empty] [PAWN_nameFull]. [PAWN_pronoun], [circumstance_phrase], воинственно размахивает своим оружием</li>
+		<li>image->, как [PAWN_nameFull], [circumstance_phrase], руководит атакой на поселение враждебной фракции</li>
 		<li>circumstance_phrase->бросая [AdjectiveBadass] взгляд</li>
 		<li>circumstance_phrase->бросая [AdjectiveAngsty] взгляд</li>
 		<li>circumstance_phrase->издавая победный рёв</li>
@@ -129,14 +129,14 @@
 	<CaravanAmbushedByHumanlike.label>засада</CaravanAmbushedByHumanlike.label>
 	<CaravanAmbushedByHumanlike.rulePack.rulesStrings>
 		<li>tale_noun->как караван [PAWN_nameShortDef] попадает в засаду</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] ищет укрытие</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] защищает караван</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] бежит в атаку</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] атакует противника</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] исполняет боевой клич</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] готовится к бою</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] вступает в схватку с противником</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] защищается от разбойников</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] ищет укрытие</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] защищает караван</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] бежит в атаку</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] атакует противника</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] исполняет боевой клич</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] готовится к бою</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] вступает в схватку с противником</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] защищается от разбойников</li>
 		<li>circumstance_phrase->, приняв [AdjectiveBadass] вид,</li>
 		<li>circumstance_phrase->, бросая [AdjectiveBadass] взгляд,</li>
 		<li>circumstance_phrase->[empty] с оружием в руках</li>
@@ -152,12 +152,12 @@
 	<CaravanAmbushedByManhunter.label>нападение животных</CaravanAmbushedByManhunter.label>
 	<CaravanAmbushedByManhunter.rulePack.rulesStrings>
 		<li>tale_noun->как караван [PAWN_nameShortDef] попадает в засаду</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] ищет укрытие</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] защищает караван</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] бежит в атаку</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] готовится к нападению агрессивных животных</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] исполняет боевой клич</li>
-		<li>image->, как [PAWN_nameFull][circumstance_group] готовится к бою</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] ищет укрытие</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] защищает караван</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] бежит в атаку</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] готовится к нападению агрессивных животных</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] исполняет боевой клич</li>
+		<li>image->, как [PAWN_nameFull][circumstance_phrase] готовится к бою</li>
 		<li>circumstance_phrase->, приняв [AdjectiveBadass] вид,</li>
 		<li>circumstance_phrase->, бросая [AdjectiveBadass] взгляд,</li>
 		<li>circumstance_phrase->[empty] с оружием в руках</li>
@@ -173,13 +173,13 @@
 	<CaravanMeeting.label>встреча караванов</CaravanMeeting.label>
 	<CaravanMeeting.rulePack.rulesStrings>
 		<li>tale_noun->как караван [PAWN_nameShortDef] встречается с другим караваном</li>
-		<li>image->[empty] встречу двух караванов. [PAWN_nameFull] и лидер другого каравана, [circumstance_group], тепло приветствуют друг друга</li>
-		<li>image->[empty] встречу двух караванов. [PAWN_nameFull] и лидер другого каравана, [circumstance_group], оценивающе смотрят друг на друга</li>
-		<li>image->[empty] встречу двух караванов. [PAWN_nameFull] и лидер другого каравана, [circumstance_group], что-то кричат друг другу</li>
-		<li>image->[empty] встречу двух караванов. [PAWN_nameFull] и лидер другого каравана, [circumstance_group], идут насвтречу друг другу</li>
-		<li>image->[empty] встречу двух караванов. [PAWN_nameFull], [circumstance_group], мирно беседует с лидером другого каравана</li>
-		<li>image->[empty] встречу двух караванов. [PAWN_nameFull], [circumstance_group], окликивает лидера другого каравана</li>
-		<li>image->[empty] встречу двух караванов. [PAWN_nameFull], [circumstance_group], играет в [Game] с лидером другого каравана</li>
+		<li>image->[empty] встречу двух караванов. [PAWN_nameFull] и лидер другого каравана, [circumstance_phrase], тепло приветствуют друг друга</li>
+		<li>image->[empty] встречу двух караванов. [PAWN_nameFull] и лидер другого каравана, [circumstance_phrase], оценивающе смотрят друг на друга</li>
+		<li>image->[empty] встречу двух караванов. [PAWN_nameFull] и лидер другого каравана, [circumstance_phrase], что-то кричат друг другу</li>
+		<li>image->[empty] встречу двух караванов. [PAWN_nameFull] и лидер другого каравана, [circumstance_phrase], идут насвтречу друг другу</li>
+		<li>image->[empty] встречу двух караванов. [PAWN_nameFull], [circumstance_phrase], мирно беседует с лидером другого каравана</li>
+		<li>image->[empty] встречу двух караванов. [PAWN_nameFull], [circumstance_phrase], окликивает лидера другого каравана</li>
+		<li>image->[empty] встречу двух караванов. [PAWN_nameFull], [circumstance_phrase], играет в [Game] с лидером другого каравана</li>
 		<li>circumstance_phrase->приняв [AdjectiveFriendly] вид</li>
 		<li>circumstance_phrase->бросая [AdjectiveFriendly] взгляд</li>
 		<li>circumstance_phrase->[TransFriendly]</li>
