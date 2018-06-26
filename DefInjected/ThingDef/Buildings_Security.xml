@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<Sandbags.label>мешки с песком</Sandbags.label>
@@ -16,14 +16,14 @@
 	<Frame_Turret_MiniTurret.label>мини-турель (в процессе сборки)</Frame_Turret_MiniTurret.label>
 	<Frame_Turret_MiniTurret.description>Небольшая автоматическая турель с малой дальностью стрельбы. Для замены изношенного ствола требуется сталь. При повреждении может взорваться. ИИ турели не особо продвинут и не поддерживает прямого управления, так что берегитесь огня по своим.</Frame_Turret_MiniTurret.description>
 
-	<Turret_MiniTurret.comps.5.fuelLabel>Выстрелов до замены ствола</Turret_MiniTurret.comps.5.fuelLabel>
-	<Turret_MiniTurret.comps.5.fuelGizmoLabel>Прочность ствола</Turret_MiniTurret.comps.5.fuelGizmoLabel>
-	<Turret_MiniTurret.comps.5.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_MiniTurret.comps.5.outOfFuelMessage>
+	<Turret_MiniTurret.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
+	<Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
 
 	<Bullet_MiniTurret.label>пуля из мини-турели</Bullet_MiniTurret.label>
 	
 	<Gun_MiniTurret.label>пушка мини-турели</Gun_MiniTurret.label>
-	<Gun_MiniTurret.verbs.0.label>пушка мини-турели</Gun_MiniTurret.verbs.0.label>
+	<Gun_MiniTurret.verbs.Verb_Shoot.label>пушка мини-турели</Gun_MiniTurret.verbs.Verb_Shoot.label>
 	<Gun_MiniTurret.description>Лёгкая автоматическая пушка, предназначенная для крепления к турельной установке.</Gun_MiniTurret.description>
 	
 	
@@ -33,14 +33,14 @@
 	<Frame_Turret_Autocannon.label>тяжёлая турель (в процессе сборки)</Frame_Turret_Autocannon.label>
 	<Frame_Turret_Autocannon.description>Тяжёлая дальнобойная автоматическая турель. Крупный калибр позволяет надёжно поражать цели на дальних дистанциях, но требует частой замены ствола. Не стреляет вблизи. При повреждении может взорваться.</Frame_Turret_Autocannon.description>
 
-	<Turret_Autocannon.comps.5.fuelLabel>Выстрелов до замены ствола</Turret_Autocannon.comps.5.fuelLabel>
-	<Turret_Autocannon.comps.5.fuelGizmoLabel>Прочность ствола</Turret_Autocannon.comps.5.fuelGizmoLabel>
-	<Turret_Autocannon.comps.5.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_Autocannon.comps.5.outOfFuelMessage>
+	<Turret_Autocannon.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
+	<Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
 
 	<Bullet_AutocannonTurret.label>пуля из тяжёлой турели</Bullet_AutocannonTurret.label>
 	
 	<Gun_AutocannonTurret.label>пушка тяжёлой турели</Gun_AutocannonTurret.label>
-	<Gun_AutocannonTurret.verbs.0.label>пушка тяжёлой турели</Gun_AutocannonTurret.verbs.0.label>
+	<Gun_AutocannonTurret.verbs.Verb_Shoot.label>пушка тяжёлой турели</Gun_AutocannonTurret.verbs.Verb_Shoot.label>
 	<Gun_AutocannonTurret.description>Самозарядное крупнокалиберное орудие, предназначенное для крепления к турельной установке.</Gun_AutocannonTurret.description>
 
 	
@@ -52,7 +52,7 @@
 	<Blueprint_Install_Turret_Mortar.label>миномёт (проект)</Blueprint_Install_Turret_Mortar.label>
 
 	<Artillery_Mortar.label>миномёт</Artillery_Mortar.label>
-	<Artillery_Mortar.verbs.0.label>миномёт</Artillery_Mortar.verbs.0.label>
+	<Artillery_Mortar.verbs.Verb_Shoot.label>миномёт</Artillery_Mortar.verbs.Verb_Shoot.label>
 	<Artillery_Mortar.description>Миномётное орудие. Может перебрасывать снаряды через препятствия. Очень низкая точность, но высокая дальность.</Artillery_Mortar.description>
 
 	<!-- ==================== Traps ======================== -->
