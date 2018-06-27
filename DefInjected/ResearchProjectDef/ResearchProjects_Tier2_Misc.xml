@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!--================================ Tier 2: Non-electric ====================================-->
+	<!-- Tier 2: Non-electric ====-->
 
 	<PsychiteRefining.label>переработка психина</PsychiteRefining.label>
 	<PsychiteRefining.description>Переработка психолистьев в хлопья и порошок — различные формы эйфорического наркотика психина.</PsychiteRefining.description>
@@ -18,34 +18,25 @@
 	<LongBlades.label>длинные лезвия</LongBlades.label>
 	<LongBlades.description>Ковка длинных мечей и копий.</LongBlades.description>
 
+	<PlateArmor.label>пластинчатые доспехи</PlateArmor.label>
+	<PlateArmor.description>Изготовление пластинчатых доспехов из металла и дерева.</PlateArmor.description>
+
 	<Greatbow.label>длинные луки</Greatbow.label>
 	<Greatbow.description>Изготовление мощных длинных луков, из которых можно поражать цели с большого расстояния.</Greatbow.description>
 
-	<!--================================ Tier 2: Basic electricity ====================================-->
+	<!-- Tier 2: Basic electricity ====-->
 
 	<Batteries.label>аккумуляторы</Batteries.label>
 	<Batteries.description>Изготовление аккумуляторов для хранения электроэнергии.</Batteries.description>
 
 	<BiofuelRefining.label>перегонка биосырья</BiofuelRefining.label>
-	<BiofuelRefining.description>Конструирование перегонных аппаратов для получения химического топлива из органики, например, древесины или еды.</BiofuelRefining.description>
+	<BiofuelRefining.description>Конструирование перегонных аппаратов для получения химического топлива из органики, например, древесины или пищевого сырья.</BiofuelRefining.description>
 	
 	<Waterproofing.label>водостойкая изоляция</Waterproofing.label>
 	<Waterproofing.description>Позволяет прокладывать кабель под водой.</Waterproofing.description>
 
-	<SmokepopBelt.label>пояса-дымзавесы</SmokepopBelt.label>
-	<SmokepopBelt.description>Изготовление поясов с дымовыми шашками, которые автоматически устанавливают дымовую завесу при обстреле носителя.</SmokepopBelt.description>
-
-	<NutrientPaste.label>питательная паста</NutrientPaste.label>
-	<NutrientPaste.description>Конструирование дозаторов пасты, позволяющих эффективно получать съедобные блюда из любого питательного сырья, без каких-либо затрат на готовку.</NutrientPaste.description>
-
-	<PackagedSurvivalMeal.label>сухие пайки</PackagedSurvivalMeal.label>
-	<PackagedSurvivalMeal.description>Производство сухпайков — консервированной и герметично упакованной еды, которая не портится. Идеально подходит для путешествий.</PackagedSurvivalMeal.description>
-
 	<SolarPanels.label>солнечные панели</SolarPanels.label>
 	<SolarPanels.description>Конструирование панелей с солнечными батареями для выработки электроэнергии.</SolarPanels.description>
-
-	<GeothermalPower.label>геотермальная энергия</GeothermalPower.label>
-	<GeothermalPower.description>Строительство геотермальных электростанций на паровых гейзерах для непрерывной выработки электроэнергии.</GeothermalPower.description>
 
 	<AirConditioning.label>кондиционеры</AirConditioning.label>
 	<AirConditioning.description>Позволяет устанавливать кондиционеры для охлаждения помещений в жару или организации холодильников.</AirConditioning.description>
@@ -59,23 +50,35 @@
 	<ElectricSmelting.label>электроплавка</ElectricSmelting.label>
 	<ElectricSmelting.description>Изготовление электрических плавилен и кузен.\n\nЭлектрокузни позволяют ковать предметы без затрат топлива, а электроплавильни — извлекать металл из металлолома и других предметов при помощи сильных электромагнитов и высоких температур.</ElectricSmelting.description>
 
+	<PackagedSurvivalMeal.label>сухие пайки</PackagedSurvivalMeal.label>
+	<PackagedSurvivalMeal.description>Производство сухпайков — консервированной и герметично упакованной еды, которая не портится. Идеально подходит для путешествий.</PackagedSurvivalMeal.description>
+
 	<ElectricCremation.label>кремация</ElectricCremation.label>
 	<ElectricCremation.description>Строительство крематориев, в которых можно сжигать ненужные вещи и трупы.</ElectricCremation.description>
 
-	<Prosthetics.label>протезирование</Prosthetics.label>
-	<Prosthetics.description>Конструирование несложных протезов для замены утерянных конечностей. Для установки требуется опытный врач.</Prosthetics.description>
-	
 	<ColoredLights.label>цветное освещение</ColoredLights.label>
 	<ColoredLights.description>Создание цветных ламп для украшения помещений.</ColoredLights.description>
-
-	<Machining.label>механика</Machining.label>
-	<Machining.description>Позволяет создавать верстаки, на которых можно собирать оружие и оборудование, а также разбирать мёртвых механоидов.</Machining.description>
 
 	<IEDs.label>СВУ</IEDs.label>
 	<IEDs.description>Изготовление самодельных взрывных устройств-ловушек из артиллерийских снарядов.</IEDs.description>
 
+	<GeothermalPower.label>геотермальная энергия</GeothermalPower.label>
+	<GeothermalPower.description>Строительство геотермальных электростанций на паровых гейзерах для непрерывной выработки электроэнергии.</GeothermalPower.description>
+
+
+	<!-- Machining and its children sub-tier -->
+	
+	<Machining.label>механика</Machining.label>
+	<Machining.description>Позволяет создавать верстаки, на которых можно собирать оружие и оборудование, а также разбирать мёртвых механоидов.</Machining.description>
+
 	<Mortars.label>миномёты</Mortars.label>
 	<Mortars.description>Конструирование миномётов, которые позволяют запускать снаряды на большие расстояния поверх препятствий.</Mortars.description>
+
+	<SmokepopBelt.label>пояса-дымзавесы</SmokepopBelt.label>
+	<SmokepopBelt.description>Изготовление поясов с дымовыми шашками, которые автоматически устанавливают дымовую завесу при обстреле носящего.</SmokepopBelt.description>
+
+	<Prosthetics.label>протезирование</Prosthetics.label>
+	<Prosthetics.description>Конструирование несложных протезов для замены утерянных конечностей. Для установки требуется опытный врач.</Prosthetics.description>
 
 	<Gunsmithing.label>огнестрельное оружие</Gunsmithing.label>
 	<Gunsmithing.description>Позволяет конструировать простое огнестрельное оружие: револьверы, помповые дробовики, винтовки с продольным затвором, а также реактивные огнемёты.</Gunsmithing.description>
@@ -87,12 +90,13 @@
 	<GasOperation.description>Позволяет конструировать более продвинутое автоматическое и полуавтоматическое огнестрельное оружие: автоматические дробовики и ручные пулемёты.</GasOperation.description>
 
 	<PrecisionRifling.label>высокоточное огнестрельное оружие</PrecisionRifling.label>
-	<PrecisionRifling.description>Позволяет конструировать автоматы и снайперские винтовки.</PrecisionRifling.description>
+	<PrecisionRifling.description>Позволяет конструировать высокоточное оружие: автоматы и снайперские винтовки.</PrecisionRifling.description>
+
+
+	<!-- Tier 2.5 Microelectronics -->
 
 	<MicroelectronicsBasics.label>основы микроэлектроники</MicroelectronicsBasics.label>
 	<MicroelectronicsBasics.description>Основы работы с тонкой и сложной электроникой. Это знание открывает высокотехнологичный стол для исследований, консоль связи, а также другие проекты, такие как телевидение и контейнеры криптосна.</MicroelectronicsBasics.description>
-
-	<!--=============================== Tier 2.5 Microelectronics ===================================-->
 
 	<TubeTelevision.label>ЭЛТ телевидение</TubeTelevision.label>
 	<TubeTelevision.description>Изготовление телевизоров на электронно-лучевых трубках.</TubeTelevision.description>
