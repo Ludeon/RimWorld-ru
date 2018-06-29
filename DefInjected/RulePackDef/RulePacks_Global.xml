@@ -71,7 +71,9 @@
 
 	<TalkTopicsUtility.rulePack.rulesStrings>
         <li>TalkTopicAny->[TalkTopicLight]</li>
-        <li>TalkTopicAny->[talktopicheavyfile]</li>
+        <li>TalkTopicAny->[TalkTopicHeavy]</li>
+
+        <li>TalkTopicHeavy->[talktopicheavyfile]</li>
 
         <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
         <li>TalkTopicLight->об овощах</li>
