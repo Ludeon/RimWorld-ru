@@ -4,6 +4,7 @@
 	<Confirm>Подтвердить</Confirm>
 	<GoBack>Вернуться</GoBack>
 	<OK>OK</OK>
+	<Dismiss>Изгнать</Dismiss>
 
 	<!-- Game updated to new version -->
 	<GameUpdatedToNewVersionInitial>RimWorld был обновлён с версии {0} до версии {1}.</GameUpdatedToNewVersionInitial>
@@ -171,6 +172,8 @@
 
 	<!-- Info card -->
 	<Damage>Урон</Damage>
+	<ArmorPenetration>Бронепробитие</ArmorPenetration>
+	<ArmorPenetrationExplanation>Бронепробитие показывает, насколько прочную броню можно пробить этим оружием при попадании в цель.\n\nЕсли это значение больше, чем показатель бронирования цели, то цель будет поражена, как если бы броня отсутствовала. В противном случае значение бронепробития вычитается из прочности брони.</ArmorPenetrationExplanation>
 	<Accuracy>Точность</Accuracy>
 	<BurstShotCount>Выстрелов</BurstShotCount>
 	<WarmupTime>Изготовка</WarmupTime>
@@ -180,6 +183,8 @@
 	<Range>Дальность</Range>
 	<StoppingPower>Останавливающая способность</StoppingPower>
 	<StoppingPowerExplanation>При попадании из этого оружия по цели, размер которой меньше указанного значения, скорость её передвижения снизится на несколько секунд. Цели большего размера не подвержены останавливающему воздействию.</StoppingPowerExplanation>
+	<DirectHitChance>Шанс прямого попадания</DirectHitChance>
+	<MissRadius>Радиус разброса</MissRadius>
 	<GrowsWild>Дикое</GrowsWild>
 	<Harvestable>Собираемое</Harvestable>
 	<LimitedLifespan>Недолговечное</LimitedLifespan>
@@ -250,7 +255,7 @@
 	<YourTradeableSilverTip>Вы можете торговать только тем серебром, которое находится рядом с торговым маяком и не под крышей.</YourTradeableSilverTip>
 	<TraderHasNoMore>У торговца больше нет товара на продажу.</TraderHasNoMore>
 	<ColonyHasNoMore>Больше нечего продавать.</ColonyHasNoMore>
-	<TraderWillNotTrade>Торговец не желает торговать этим товаром.</TraderWillNotTrade>
+	<TraderWillNotTrade>Торговец не желает покупать это.</TraderWillNotTrade>
 	<Negotiator>Переговорщик</Negotiator>
 	<NegotiatorTalkingImpaired>Ваш переговорщик, {0}, имеет проблемы с речью.</NegotiatorTalkingImpaired>
 	<NegotiatorHearingImpaired>Ваш переговорщик, {0}, имеет проблемы со слухом.</NegotiatorHearingImpaired>

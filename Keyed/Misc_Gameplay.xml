@@ -138,9 +138,9 @@
 	<WorkPriorityShiftClickEnableDisableTip>Shift + щелчок: Разрешить всё\nShift + правый щелчок: Запретить всё</WorkPriorityShiftClickEnableDisableTip>
 	<AllowedAreaShiftClickTip>Shift + щелчок: Ограничить всех домашней областью\nShift + правый щелчок: Снять ограничения для всех</AllowedAreaShiftClickTip>
 	<CheckboxShiftClickTip>Shift + щелчок: Отметить всё\nShift + правый щелчок: Снять все отметки</CheckboxShiftClickTip>
-	<KnownSiteThreat>Угроза: {0}.</KnownSiteThreat>
-	<KnownSiteThreats>Угрозы: {0}.</KnownSiteThreats>
-	<KnownSiteThreatsNone>Угроз нет.</KnownSiteThreatsNone>
+	<KnownSiteThreat>Известная угроза: {0}.</KnownSiteThreat>
+	<KnownSiteThreats>Известные угрозы: {0}.</KnownSiteThreats>
+	<KnownSiteThreatsNone>Известных угроз нет.</KnownSiteThreatsNone>
 	<SkillRequirements>Требования</SkillRequirements>
 	<Products>Ингредиенты</Products>
 	<Relationship>{0} из {1}</Relationship>
@@ -169,6 +169,7 @@
 	<ProximitySingleGoodwillChange>{0} с фракцией {1}</ProximitySingleGoodwillChange>
 	<EnterCooldown>Вы не сможете вновь посетить это место ещё {0} дней.</EnterCooldown>
 	<Caravan>Караван</Caravan>
+	<HiddenOrNoSitePartDescription>там вас могут ждать опасности</HiddenOrNoSitePartDescription>
 
 	<!-- Fermentation barrel -->
 	<ContainsWort>Содержит {0} / {1} сусла.</ContainsWort>
@@ -391,7 +392,7 @@
 	<ZoneVisibilityToggleButton>Отображение зон.</ZoneVisibilityToggleButton>
 	<ShowBeautyToggleButton>Отображение красоты окружения.\n\nПоказывает красоту окружения, как её воспринимает персонаж, стоящий в точке, на которую указывает курсор..</ShowBeautyToggleButton>
 	<ShowRoomStatsToggleButton>Отображение параметров комнаты.\n\nПоказывает параметры комнаты, на которую указывает курсор.</ShowRoomStatsToggleButton>
-	<ShowColonistBarToggleButton>Отображение панели поселенцев.\n\nОтображает в верхней части экрана иконки и состояние всех поселенцев.</ShowColonistBarToggleButton>
+	<ShowColonistBarToggleButton>Отображение панели поселенцев.\n\nОтображает в верхней части экрана иконки и состояние всех поселенцев.\n\nВы можете упорядочить поселенцев, перетаскивая их с зажатой правой кнопкой мыши.</ShowColonistBarToggleButton>
 	<AutoHomeAreaToggleButton>Переключение автоматического добавления домашней области для новых построек.</AutoHomeAreaToggleButton>
 	<AutoRebuildButton>Строить заново разрушенные объекты.</AutoRebuildButton>
 	<CategorizedResourceReadoutToggleButton>Отображать количество ресурсов на складах полностью или по категориям.</CategorizedResourceReadoutToggleButton>
@@ -431,6 +432,9 @@
 	<!-- Wind Turbine -->
 	<WindTurbine_WindPathIsBlockedBy>Заблокировано</WindTurbine_WindPathIsBlockedBy>
 	<WindTurbine_WindPathIsBlockedByRoof>Заблокировано крышей</WindTurbine_WindPathIsBlockedByRoof>
+
+	<!-- Watermill generator -->
+	<Watermill_WaterUsedTwice>Течение ослаблено завихрениями от колеса другого генератора</Watermill_WaterUsedTwice>
 
 	<!-- Cryptosleep casket -->
 	<CasketContains>Содержит</CasketContains>

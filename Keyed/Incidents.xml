@@ -19,8 +19,12 @@
 	<FriendlyRaidLeaderPresent>Среди них {1}, лидер фракции.</FriendlyRaidLeaderPresent>
 
 	<LetterLabelRefugeePodCrash>Спасательная капсула</LetterLabelRefugeePodCrash>
-	<RefugeePodCrash>Вы засекли спасательную капсулу, упавшую поблизости.\n\nЕсли кто-то и пережил последствия удара, то наверняка будет тяжело ранен.\n\nВы можете спасти его и позволить уйти своей дорогой, или же захватить, чтобы впоследствии завербовать или обратить в рабство.</RefugeePodCrash>
-
+	<RefugeePodCrash>[PAWN_title] по имени [PAWN_nameDef] падает неподалёку в спасательной капсуле. Если [PAWN_pronoun] и переживёт последствия удара, то наверняка с тяжёлыми ранениями.</RefugeePodCrash>
+	<RefugeePodCrash_NonHostileOrFactionless>Вы можете спасти [PAWN_objective] и позволить уйти своей дорогой. А можете захватить для продажи в рабство или для вербовки в свою фракцию.</RefugeePodCrash_NonHostileOrFactionless>
+	<RefugeePodCrash_Hostile>Вы можете захватить [PAWN_objective] в рабство или для вербовки. [PAWN_pronoun] — из фракции [PAWN_factionName].</RefugeePodCrash_Hostile>
+	<RefugeePodCrash_NonHostile>Внимание: [PAWN_nameDef] — из фракции [PAWN_factionName]. Если вы захватите [PAWN_objective], то наживёте себе врагов, а если спасёте и вылечите, то сможете улучшить ваши отношения.</RefugeePodCrash_NonHostile>
+	
+	
 	<LetterLabelCargoPodCrash>Грузовые контейнеры</LetterLabelCargoPodCrash>
 	<CargoPodCrash>Вы засекли несколько грузовых контейнеров, упавших поблизости.\n\nВозможно, вы найдёте что-то полезное в обломках.</CargoPodCrash>
 
@@ -81,7 +85,7 @@
 
 	<!-- Refugee chased -->
 	<RefugeeChasedTitle>У поселения {0} преследуют беженца</RefugeeChasedTitle>
-	<RefugeeChasedInitial>{0}, {1}, бежит и зовёт на помощь! [PAWN_pronoun] говорит, что [PAWN_possessive] преследуют {2} из фракции {3}.\n\n{0} умоляет о помощи и взамен предлагает присоединиться к поселению. [PAWN_possessive] биологический возраст — {4} лет.\n\nЕсли вы согласитесь принять {0}, на вас нападут {2}, идущие у н[PAWN_possessive] на хвосте.</RefugeeChasedInitial>
+	<RefugeeChasedInitial>[PAWN_title] по имени [PAWN_nameDef] бежит и зовёт на помощь! [PAWN_pronoun] говорит, что [PAWN_possessive] преследуют {2} из фракции {3}.\n\n[PAWN_pronoun] умоляет о помощи и взамен предлагает присоединиться к поселению. [PAWN_nameDef] успевает лишь добавить, что [PAWN_objective] {4} лет, а на остальную информацию нет времени.\n\nЕсли вы согласитесь [PAWN_possessive] принять, на вас нападут {2}, идущие у н[PAWN_possessive] на хвосте.</RefugeeChasedInitial>
 	<RefugeeChasedInitial_Accept>Предложить укрытие</RefugeeChasedInitial_Accept>
 	<RefugeeChasedInitial_Reject>Игнорировать это сообщение</RefugeeChasedInitial_Reject>
 	<RefugeeChasedRejected>{0} отчаянно кричит из хрипящего динамика, пока вы не прерываете трансляцию.</RefugeeChasedRejected>
@@ -133,6 +137,7 @@
 	<LetterLabelCaravanRequest>Запрос торгового каравана</LetterLabelCaravanRequest>
 	<LetterCaravanRequest>Одно из соседних поселений, {0}, связывается с вами с предложением об обмене. Они хотели бы получить:\n\n  {1} (общей стоимостью {2})\n\nВзамен они могут дать:\n\n  {3} (общей стоимостью {4})\n\nПредложение актуально в течение {5}\n\nЕсли вы хотите заключить эту сделку, отправьте караван с указанным товаром. Расчётное время в пути — {6}. Вы можете ещё раз просмотреть это предложение, выбрав {0} на карте мира.</LetterCaravanRequest>
 	<CaravanRequestInfo>Хотят: {0}, Предлагают: {1} (осталось {2})</CaravanRequestInfo>
+	<NormalQualityOrBetter>качеством от нормального и выше</NormalQualityOrBetter>
 
 	<!-- Caravan demand -->
 	<CaravanDemandTitle>Засада разбойников из фракции {0}</CaravanDemandTitle>
@@ -140,11 +145,6 @@
 	<CaravanDemand_Give>Отдать и продолжить путь</CaravanDemand_Give>
 	<CaravanDemand_Fight>Отказаться и приготовиться к бою</CaravanDemand_Fight>
 
-	<!-- Temporary item stash -->
-	<ItemStashSitePart_Unknown>К сожалению, {0} не имеет ни малейшего представления, кто или что может охранять этот схрон.</ItemStashSitePart_Unknown>
-	<ItemStashSitePart_Nothing>{0} говорит, что тайник никем не охраняется.</ItemStashSitePart_Nothing>
-	<ItemStashSitePart_Part>{0} говорит, что {1}.</ItemStashSitePart_Part>
-	
     <!-- Site no longer hostile -->
 	<LetterLabelSiteNoLongerHostile>Задание больше не доступно</LetterLabelSiteNoLongerHostile>
 	<LetterLabelSiteNoLongerHostileMulti>Задания больше не доступны</LetterLabelSiteNoLongerHostileMulti>
