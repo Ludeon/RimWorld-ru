@@ -73,7 +73,9 @@
 	<CurrentRadius>текущий радиус</CurrentRadius>
 	<RadiusExpandsIn>радиус увеличится через</RadiusExpandsIn>
 	<Permanent>постоянный</Permanent>
-	<CaravanResting>Отдых.</CaravanResting>
+	<CaravanResting>Отдых</CaravanResting>
+	<UsingBedroll>1 спальный мешок</UsingBedroll>
+	<UsingBedrolls>{0} спальных мешков</UsingBedrolls>
 	<CaravanEstimatedTimeToDestination>Расчётное время в пути: {0} дней</CaravanEstimatedTimeToDestination>
 	<CaravanEstimatedDaysToDestination>Число дней до прибытия: {0}</CaravanEstimatedDaysToDestination>
 	<CaravanImmobilizedByMass>Невозможно идти: слишком тяжело.</CaravanImmobilizedByMass>
@@ -170,6 +172,7 @@
 	<EnterCooldown>Вы не сможете вновь посетить это место ещё {0} дней.</EnterCooldown>
 	<Caravan>Караван</Caravan>
 	<HiddenOrNoSitePartDescription>там вас могут ждать опасности</HiddenOrNoSitePartDescription>
+	<PreciousLumpLabel>залежи ресурса: {0}</PreciousLumpLabel>
 
 	<!-- Fermentation barrel -->
 	<ContainsWort>Содержит {0} / {1} сусла.</ContainsWort>
@@ -531,8 +534,9 @@
 	<DeterioratingDueToLackOfMaintenance>Ветшает из-за отсутствия обслуживания.</DeterioratingDueToLackOfMaintenance>
 
 	<!-- Deep drill -->
-	<ProgressToNextLump>Прогресс до следующей залежи</ProgressToNextLump> <!-- Kappa Пока не уверен насчёт lump. Надо понять, какая механика в игре. -->
+	<ProgressToNextLump>До следующей залежи</ProgressToNextLump>
 	<ResourceBelow>Ресурс внизу</ResourceBelow>
+	<ProgressToNextPortion>До следующей порции</ProgressToNextPortion>
 	<DeepDrillNoResources>Месторождение выработано.</DeepDrillNoResources>
 	<DeepDrillExhausted>Глубинное месторождение выработано. Буровая установка была автоматически отмечена как запрещённая для использования. В это месте теперь можно добыть только {0}. Если вы планируете продолжить добычу, разрешите использование установки.</DeepDrillExhausted>
 	<DeepDrillExhaustedNoFallback>Ресурсы полностью истощены.</DeepDrillExhaustedNoFallback>
