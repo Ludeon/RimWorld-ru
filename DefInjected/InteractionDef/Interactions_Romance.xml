@@ -12,16 +12,19 @@
 		<li>wooed->пытается завести роман с</li>
 		<li>wooed->пытается кадрить</li>
 		<li>wooed->подкатывает к</li>
-		<li>wooed->побивает клинья к</li>
+		<li>wooed->подбивает клинья к</li>
 		<li>wooed->заигрывает с</li>
 		<li>wooed->строит глазки</li>
 
 		<li>wootactic(p=4)->[complimenting] [OTHER_possessive] [PersonalCharacteristic]</li>
-		<li>wootactic(p=2)->[boasting] [INITIATOR_possessive] же [PersonalCharacteristic]</li>
+		<li>wootactic(p=0.5)->[boasting] свой [PersonalCharacteristic_masc]</li>
+		<li>wootactic(p=0.5)->[boasting] свою [PersonalCharacteristic_fem]</li>
+		<li>wootactic(p=0.5)->[boasting] своё [PersonalCharacteristic_neutral]</li>
+		<li>wootactic(p=0.5)->[boasting] свои [PersonalCharacteristic_plural]</li>
 		<li>wootactic(p=2)->рассказывая историю [TalkTopicLight]</li>
 		<li>wootactic(p=2)->рассказывая историю [TalkTopicHeavy]</li>
-		<li>wootactic->сравнивая [OTHER_objective] с [romantic_adj] [romantic_noun]</li>
-		<li>wootactic->сравнивая [OTHER_objective] [PersonalCharacteristic] с [romantic_adj] [romantic_noun]</li>
+		<li>wootactic->сравнивая [OTHER_possessive] с [romantic_adj] [romantic_noun]</li>
+		<li>wootactic->сравнивая [OTHER_possessive] [PersonalCharacteristic] с [romantic_adj] [romantic_noun]</li>
 
 		<li>boasting->[boasting_adverb] нахваливая</li>
 		<li>boasting->[boasting_adverb] показывая</li>

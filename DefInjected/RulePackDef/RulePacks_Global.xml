@@ -26,6 +26,11 @@
 	
 		<li>Outlander->[PersonJob]</li>
 		<li>Outlander->[PersonAlly]</li>
+		
+		<li>PersonalCharacteristic->[PersonalCharacteristic_masc]</li>
+		<li>PersonalCharacteristic->[PersonalCharacteristic_fem]</li>
+		<li>PersonalCharacteristic->[PersonalCharacteristic_neutral]</li>
+		<li>PersonalCharacteristic->[PersonalCharacteristic_plural]</li>
 	</GlobalUtility.rulePack.rulesStrings>
 
 	<GlobalUtility.rulePack.rulesFiles>
@@ -66,7 +71,10 @@
 
 		<li>TransFriendly->Words/Transgressives/Friendly</li>
 
-		<li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
+		<li>PersonalCharacteristic_masc->Words/Nouns/PersonalCharacteristics_masc</li>
+		<li>PersonalCharacteristic_fem->Words/Nouns/PersonalCharacteristics_fem</li>
+		<li>PersonalCharacteristic_neutral->Words/Nouns/PersonalCharacteristics_neutral</li>
+		<li>PersonalCharacteristic_plural->Words/Nouns/PersonalCharacteristics_plural</li>
 	</GlobalUtility.rulePack.rulesFiles>
 
 	<TalkTopicsUtility.rulePack.rulesStrings>

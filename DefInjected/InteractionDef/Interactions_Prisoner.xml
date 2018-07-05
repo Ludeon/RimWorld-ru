@@ -7,8 +7,8 @@
         <li>r_logentry(p=3)->[INITIATOR_nameIndef] и [RECIPIENT_nameIndef] [talkabout] [subject].</li>
         <li>r_logentry->[INITIATOR_nameIndef] приглашает [RECIPIENT_nameIndef] к разговору [subject].</li>
         <li>r_logentry->[INITIATOR_nameIndef] даёт [RECIPIENT_nameIndef] возможность выразить свои мысли [subject].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] спрашивает [RECIPIENT_nameIndef] про [RECIPIENT_possessive] [PersonalCharacteristic].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] просит [RECIPIENT_nameIndef] рассказать про [RECIPIENT_possessive] [PersonalCharacteristic].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] спрашивает [RECIPIENT_nameIndef] [subject].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] просит [RECIPIENT_nameIndef] рассказать про [subject].</li>
 
         <li>story_kind->историю</li>
         <li>story_kind->весёлую историю</li>
@@ -36,7 +36,7 @@
         <li>subject->о будущем</li>
         <li>subject->о свободе выбора</li>
         <li>subject(p=4)->о важности [ConceptPositive]</li>
-        <li>subject(p=2)->о [RECIPIENT_possessive] [PersonalCharacteristic]</li>
+        <li>subject(p=2)->про [RECIPIENT_possessive] [PersonalCharacteristic]</li>
         <li>subject(p=8)->[TalkTopicLight]</li>
 	</BuildRapport.logRulesInitiator.rulesStrings>
 
