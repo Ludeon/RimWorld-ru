@@ -31,6 +31,18 @@
 		<li>PersonalCharacteristic->[PersonalCharacteristic_fem]</li>
 		<li>PersonalCharacteristic->[PersonalCharacteristic_neutral]</li>
 		<li>PersonalCharacteristic->[PersonalCharacteristic_plural]</li>
+		
+		<li>HisWeapon->свой [Weapon_masc]</li>
+		<li>HisWeapon->свою [Weapon_fem_acc]</li>
+		<li>HisWeapon->своё [Weapon_neutral]</li>
+		
+		<li>Weapon->[Weapon_masc]</li>
+		<li>Weapon->[Weapon_fem]</li>
+		<li>Weapon->[Weapon_neutral]</li>
+		<li>Weapon_acc->[Weapon_masc]</li>
+		<li>Weapon_acc->[Weapon_fem_acc]</li>
+		<li>Weapon_acc->[Weapon_neutral]</li>
+
 	</GlobalUtility.rulePack.rulesStrings>
 
 	<GlobalUtility.rulePack.rulesFiles>
@@ -43,7 +55,12 @@
 		<li>ColorFemale->Words/Nouns/Colors_Female</li>
 		<li>Game->Words/Nouns/Games</li>
 		<li>Animal->Words/Nouns/Animals</li>
-		<li>Weapon->Words/Nouns/Weapons</li>
+
+		<li>Weapon_masc->Words/Nouns/Weapons_masc</li>
+		<li>Weapon_fem->Words/Nouns/Weapons_fem</li>
+		<li>Weapon_fem_acc->Words/Nouns/Weapons_fem_acc</li>
+		<li>Weapon_neutral->Words/Nouns/Weapons_neutral</li>
+
 		<li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
 
         <li>PersonJob->Words/Nouns/People_Jobs</li>
@@ -95,8 +112,8 @@
         <li>TalkTopicLight->про то, как приручается [Animal]</li>
         <li>TalkTopicLight->про то, как дерётся [Animal]</li>
         <li>TalkTopicLight->про то, какую опасность представляет [Animal]</li>
-        <li>TalkTopicLight->про [Weapon]</li>
-        <li>TalkTopicLight->про то, как использовать [Weapon]</li>
+        <li>TalkTopicLight->про [Weapon_acc]</li>
+        <li>TalkTopicLight->про то, как можно применять [Weapon_acc]</li>
         <li>TalkTopicLight->про то, какую опасность представляет [Weapon]</li>
         <li>TalkTopicLight->про [TerrainFeature]</li>
         <li>TalkTopicLight->про [Outlander]</li>

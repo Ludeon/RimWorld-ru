@@ -50,7 +50,7 @@
 		<li>circumstance_phrase->[empty] от [Quantity_adjphrase] [Enemies]</li>
 		<li>circumstance_phrase->[empty] от злобных животных</li>
 		<li>circumstance_phrase->[empty] от [huge] [Enemies]</li>
-		<li>desc_sentence->Преследователи воинственно размахивают оружием — у каждого есть [Weapon].</li>
+		<li>desc_sentence->Преследователи воинственно размахивают оружием — у каждого в руках [Weapon].</li>
 		<li>desc_sentence->Дым, [Color] и зловещий, окутывает преследователей.</li>
 		<li>desc_sentence->Лица преследователей имеют невероятно [AdjectiveAngsty] вид.</li>
 		<li>desc_sentence->Вдали виднеется то немногое, что осталось от каравана.</li>
@@ -63,11 +63,11 @@
 		<li>tale_noun->как [PAWN_nameDef] защищает караван</li>
 		<li>tale_noun->как [PAWN_nameDef] отбивается от разбойников</li>
 		<li>image->, как [PAWN_nameFull], [circumstance_phrase], организует оборону</li>
-		<li>image->, как [PAWN_nameFull], [circumstance_phrase], крепко сжимает [Weapon]</li>
-		<li>image->, как [PAWN_nameFull], держа в руках [Weapon] и [circumstance_phrase], карает осмелившихся напасть на караван</li>
+		<li>image->, как [PAWN_nameFull], [circumstance_phrase], карает осмелившихся напасть на караван</li>
 		<li>image->, как [PAWN_nameFull], [circumstance_phrase], стоит за караван стеной</li>
 		<li>image->, как [PAWN_nameFull], [circumstance_phrase], принимает [AdjectiveBadass] вид</li>
 		<li>image->, как [PAWN_nameFull], [circumstance_phrase], принимает [AdjectiveAngsty] вид</li>
+		<li>circumstance_phrase(p=2)->взяв покрепче [HisWeapon]</li>
 		<li>circumstance_phrase->противостоя ордам врагов</li>
 		<li>circumstance_phrase->сомкнув повозки</li>
 		<li>circumstance_phrase->издавая победный рёв</li>
@@ -109,7 +109,7 @@
 	<CaravanAssaultSuccessful.rulePack.rulesStrings>
 		<li>tale_noun->как караван [PAWN_nameDef] громит поселение противника</li>
 		<li>image->, как [PAWN_nameFull], [circumstance_phrase], бежит на врага [Enemy]</li>
-		<li>image->[empty] [PAWN_nameFull]. [PAWN_pronoun] сжимает в руках [Weapon], [circumstance_phrase]</li>
+		<li>image->[empty] [PAWN_nameFull]. [PAWN_pronoun] сжимает в руках [HisWeapon], [circumstance_phrase]</li>
 		<li>image->[empty] [PAWN_nameFull]. [PAWN_pronoun], [circumstance_phrase], воинственно размахивает своим оружием</li>
 		<li>image->, как [PAWN_nameFull], [circumstance_phrase], руководит атакой на поселение враждебной фракции</li>
 		<li>circumstance_phrase->бросая [AdjectiveBadass] взгляд</li>
@@ -137,6 +137,7 @@
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] готовится к бою</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] вступает в схватку с противником</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] защищается от разбойников</li>
+		<li>circumstance_phrase(p=2)->, перехватив [HisWeapon],</li>
 		<li>circumstance_phrase->, приняв [AdjectiveBadass] вид,</li>
 		<li>circumstance_phrase->, бросая [AdjectiveBadass] взгляд,</li>
 		<li>circumstance_phrase->[empty] с оружием в руках</li>
@@ -158,6 +159,7 @@
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] готовится к нападению агрессивных животных</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] исполняет боевой клич</li>
 		<li>image->, как [PAWN_nameFull][circumstance_phrase] готовится к бою</li>
+		<li>circumstance_phrase(p=2)->, перехватив [HisWeapon],</li>
 		<li>circumstance_phrase->, приняв [AdjectiveBadass] вид,</li>
 		<li>circumstance_phrase->, бросая [AdjectiveBadass] взгляд,</li>
 		<li>circumstance_phrase->[empty] с оружием в руках</li>
@@ -207,6 +209,7 @@
 		<li>image->, как [PAWN_nameFull], [circumstance_phrase], воинственно потрясает своим оружием перед разбойниками</li>
 		<li>circumstance_phrase->бросая [adjective_either] взгляд</li>
 		<li>circumstance_phrase->приняв [adjective_either] вид</li>
+		<li>circumstance_phrase->держа наготове [HisWeapon]</li>
 		<li>adjective_either->[AdjectiveBadass]</li>
 		<li>adjective_either->[AdjectiveAngsty]</li>
 		<li>desc_sentence->[Enemies] [enemies_action].</li>
