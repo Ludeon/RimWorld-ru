@@ -6,8 +6,8 @@
 	<!-- Мысли в Thoughts_SocialInteractions.xml, тут всё ок. -->
 	<Chitchat.label>беседа</Chitchat.label>
 	<Chitchat.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] и [RECIPIENT_nameIndef] [talkedabout_plural] [TalkTopicLight].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] [talkedabout] с [RECIPIENT_nameIndef] [TalkTopicLight].</li>
+		<li>r_logentry->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [talkedabout_plural] [TalkTopicLight].</li>
+		<li>r_logentry->[INITIATOR_nameDef] [talkedabout] с [RECIPIENT_nameDef] [TalkTopicLight].</li>
 
 		<li>talkedabout_plural(p=4)->болтают</li>
 		<li>talkedabout_plural->беседуют</li>
@@ -26,15 +26,15 @@
 
 	<DeepTalk.label>серьёзный разговор</DeepTalk.label>
 	<DeepTalk.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] и [RECIPIENT_nameIndef] [talkedabout_plural].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] [talkedabout].</li>
+		<li>r_logentry->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [talkedabout_plural].</li>
+		<li>r_logentry->[INITIATOR_nameDef] [talkedabout].</li>
 
-		<li>talkedabout(p=4)->заводит с [RECIPIENT_nameIndef] [talk_type] [subject]</li>
-		<li>talkedabout->обменивается с [RECIPIENT_nameIndef] своими мыслями [subject]</li>
-		<li>talkedabout->делится с [RECIPIENT_nameIndef] своими догадками [subject]</li>
-		<li>talkedabout->обменивается с [RECIPIENT_nameIndef] своими идеями [subject]</li>
-		<li>talkedabout->обсуждает с [RECIPIENT_nameIndef] серьёзный вопрос [subject]</li>
-		<li>talkedabout->серьёзно рассуждает [subject] с [RECIPIENT_nameIndef]</li>
+		<li>talkedabout(p=4)->заводит с [RECIPIENT_nameDef] [talk_type] [subject]</li>
+		<li>talkedabout->обменивается с [RECIPIENT_nameDef] своими мыслями [subject]</li>
+		<li>talkedabout->делится с [RECIPIENT_nameDef] своими догадками [subject]</li>
+		<li>talkedabout->обменивается с [RECIPIENT_nameDef] своими идеями [subject]</li>
+		<li>talkedabout->обсуждает с [RECIPIENT_nameDef] серьёзный вопрос [subject]</li>
+		<li>talkedabout->серьёзно рассуждает [subject] с [RECIPIENT_nameDef]</li>
 
 		<li>talkedabout_plural(p=4)->заводят [talk_type] [subject]</li>
 		<li>talkedabout_plural->обмениваются своими мыслями [subject]</li>
@@ -55,10 +55,10 @@
 
 	<Slight.label>неуважение</Slight.label>
 	<Slight.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] [madefunof] [target].</li>
+		<li>r_logentry->[INITIATOR_nameDef] [madefunof] [target].</li>
 
-		<li>target(p=4)->[PersonalCharacteristic] [RECIPIENT_nameIndef]</li>
-		<li>target->[PersonalCharacteristic] [target_family] [RECIPIENT_nameIndef]</li>
+		<li>target(p=4)->[PersonalCharacteristic] [RECIPIENT_nameDef]</li>
+		<li>target->[PersonalCharacteristic] [target_family] [RECIPIENT_nameDef]</li>
 
 		<li>target_family->матери</li>
 		<li>target_family->отца</li>
@@ -88,16 +88,16 @@
 
 	<Insult.label>оскорбление</Insult.label>
 	<Insult.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] [insult_adv] [insulted_char] [target_char].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] [insult_adv] [insulted] [target].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] сравнивает [target] с [insultcomparison].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] называет [target] [insultcomparison].</li>
+		<li>r_logentry->[INITIATOR_nameDef] [insult_adv] [insulted_char] [target_char].</li>
+		<li>r_logentry->[INITIATOR_nameDef] [insult_adv] [insulted] [target].</li>
+		<li>r_logentry->[INITIATOR_nameDef] сравнивает [target] с [insultcomparison].</li>
+		<li>r_logentry->[INITIATOR_nameDef] называет [target] [insultcomparison].</li>
 
-		<li>target_char(p=4)->[PersonalCharacteristic] [RECIPIENT_nameIndef]</li>
-		<li>target_char->[PersonalCharacteristic] [target_family_gen] [RECIPIENT_nameIndef]</li>
+		<li>target_char(p=4)->[PersonalCharacteristic] [RECIPIENT_nameDef]</li>
+		<li>target_char->[PersonalCharacteristic] [target_family_gen] [RECIPIENT_nameDef]</li>
 
-		<li>target->[RECIPIENT_nameIndef]</li>
-		<li>target->[target_family_acc] [RECIPIENT_nameIndef]</li>
+		<li>target->[RECIPIENT_nameDef]</li>
+		<li>target->[target_family_acc] [RECIPIENT_nameDef]</li>
 
 		<li>target_family_gen->матери</li>
 		<li>target_family_gen->отца</li>
@@ -254,7 +254,7 @@
 	
 	<KindWords.label>поддержка</KindWords.label>
 	<KindWords.logRulesInitiator.rulesStrings>
-        <li>r_logentry->[INITIATOR_nameIndef] [complimented] [PersonalCharacteristic] [RECIPIENT_nameIndef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] [complimented] [PersonalCharacteristic] [RECIPIENT_nameDef].</li>
         
 		<li>complimented(p=3)->хвалит</li>
 		<li>complimented->осыпает комплиментами</li>

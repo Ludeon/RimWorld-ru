@@ -3,12 +3,12 @@
 
 	<BuildRapport.label>попытка наладить контакт</BuildRapport.label>
 	<BuildRapport.logRulesInitiator.rulesStrings>
-        <li>r_logentry(p=3)->[INITIATOR_nameIndef] рассказывает [RECIPIENT_nameIndef] [story_kind] [subject].</li>
-        <li>r_logentry(p=3)->[INITIATOR_nameIndef] и [RECIPIENT_nameIndef] [talkabout] [subject].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] приглашает [RECIPIENT_nameIndef] к разговору [subject].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] даёт [RECIPIENT_nameIndef] возможность выразить свои мысли [subject].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] спрашивает [RECIPIENT_nameIndef] [subject].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] просит [RECIPIENT_nameIndef] рассказать про [subject].</li>
+        <li>r_logentry(p=3)->[INITIATOR_nameDef] рассказывает [RECIPIENT_nameDef] [story_kind] [subject].</li>
+        <li>r_logentry(p=3)->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [talkabout] [subject].</li>
+        <li>r_logentry->[INITIATOR_nameDef] приглашает [RECIPIENT_nameDef] к разговору [subject].</li>
+        <li>r_logentry->[INITIATOR_nameDef] даёт [RECIPIENT_nameDef] возможность выразить свои мысли [subject].</li>
+        <li>r_logentry->[INITIATOR_nameDef] спрашивает [RECIPIENT_nameDef] [subject].</li>
+        <li>r_logentry->[INITIATOR_nameDef] просит [RECIPIENT_nameDef] рассказать про [subject].</li>
 
         <li>story_kind->историю</li>
         <li>story_kind->весёлую историю</li>
@@ -42,8 +42,8 @@
 
 	<RecruitAttempt.label>попытка завербовать</RecruitAttempt.label>
 	<RecruitAttempt.logRulesInitiator.rulesStrings>
-        <li>r_logentry->[INITIATOR_nameIndef] просит [RECIPIENT_nameIndef] присоединиться к поселению.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] обещает [RECIPIENT_nameIndef] [goodthing] и просит [RECIPIENT_possessive] присоединиться к поселению.</li>
+        <li>r_logentry->[INITIATOR_nameDef] просит [RECIPIENT_nameDef] присоединиться к поселению.</li>
+        <li>r_logentry->[INITIATOR_nameDef] обещает [RECIPIENT_nameDef] [goodthing] и просит [RECIPIENT_possessive] присоединиться к поселению.</li>
 
         <li>goodthing(p=15)->много [ConceptPositive]</li>
         <li>goodthing->печеньки</li>
@@ -51,10 +51,10 @@
 
 	<SparkJailbreak.label>склонение к побегу</SparkJailbreak.label>
 	<SparkJailbreak.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] говорит о радости [freedom] и склоняет к побегу.</li>
-		<li>r_logentry->[INITIATOR_nameIndef] говорит о том, сколько красоты несёт в себе [TerrainFeature] и предлагает обрести свободу.</li>
-		<li>r_logentry->[INITIATOR_nameIndef] рассказывает [RECIPIENT_nameIndef] о способе побега и обещает, что даст [RECIPIENT_objective] возможность [freedom].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] говорит [RECIPIENT_nameIndef], что охрана потеряла бдительность и предлагает бежать.</li>
+		<li>r_logentry->[INITIATOR_nameDef] говорит о радости [freedom] и склоняет к побегу.</li>
+		<li>r_logentry->[INITIATOR_nameDef] говорит о том, сколько красоты несёт в себе [TerrainFeature] и предлагает обрести свободу.</li>
+		<li>r_logentry->[INITIATOR_nameDef] рассказывает [RECIPIENT_nameDef] о способе побега и обещает, что даст [RECIPIENT_objective] возможность [freedom].</li>
+		<li>r_logentry->[INITIATOR_nameDef] говорит [RECIPIENT_nameDef], что охрана потеряла бдительность, и предлагает бежать.</li>
 
 		<li>freedom->свободы</li>
 		<li>freedom->новых перспектив</li>
