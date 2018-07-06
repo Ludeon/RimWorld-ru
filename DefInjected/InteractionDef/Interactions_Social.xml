@@ -88,9 +88,10 @@
 
 	<Insult.label>оскорбление</Insult.label>
 	<Insult.logRulesInitiator.rulesStrings>
-		<li>r_logentry(p=3)->[INITIATOR_nameIndef] [insult_adv] [insulted] [target_char].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] [insult_adv] [insulted_char] [target_char].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] [insult_adv] [insulted] [target].</li>
 		<li>r_logentry->[INITIATOR_nameIndef] сравнивает [target] с [insultcomparison].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] обзывает [target] [insultcomparison].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] называет [target] [insultcomparison].</li>
 
 		<li>target_char(p=4)->[PersonalCharacteristic] [RECIPIENT_nameIndef]</li>
 		<li>target_char->[PersonalCharacteristic] [target_family_gen] [RECIPIENT_nameIndef]</li>
@@ -122,10 +123,16 @@
 		<li>insulted->очерняет</li>
 		<li>insulted->порочит</li>
 		<li>insulted->поносит</li>
-		<li>insulted->покрывает грязью</li>
-		<li>insulted->мешает с грязью</li>
+		<li>insulted->поливает грязью</li>
+		<li>insulted->смешивает с грязью</li>
 		<li>insulted->унижает</li>
-		<li>insulted->опускает</li>
+
+		<li>insulted_char->высмеивает</li>
+		<li>insulted_char->поднимает на смех</li>
+		<li>insulted_char->срамит</li>
+		<li>insulted_char->посрамляет</li>
+		<li>insulted_char->выставляет на позор</li>
+		<li>insulted_char->позорит</li>
 
 		<li>insult_adv(p=3)-></li>
 		<li>insult_adv->открыто</li>
@@ -136,9 +143,9 @@
 		<li>insult_adv->жёстко</li>
 		<li>insult_adv->злобно</li>
 
-		<li>insultcomparison->[adj_masc] [ANIMAL_masc]</li>
-		<li>insultcomparison->[adj_fem] [ANIMAL_fem]</li>
-		<li>insultcomparison->[adj_masc] [Enemy]</li>
+		<li>insultcomparison->[adj_masc] [animal_masc]</li>
+		<li>insultcomparison->[adj_fem] [animal_fem]</li>
+		<li>insultcomparison->[adj_masc] [enemy]</li>
 
 		<li>adj_masc->глупым</li>
 		<li>adj_masc->безмозглым</li>
