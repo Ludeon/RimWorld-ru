@@ -28,10 +28,10 @@
 	
 	
 	<Turret_Autocannon.label>тяжёлая турель</Turret_Autocannon.label>
-	<Turret_Autocannon.description>Тяжёлая дальнобойная автоматическая турель. Крупный калибр позволяет надёжно поражать цели на дальних дистанциях, но требует частой замены ствола. Не стреляет вблизи. При повреждении может взорваться.</Turret_Autocannon.description>
+	<Turret_Autocannon.description>Тяжёлая дальнобойная автоматическая турель. Крупный калибр позволяет надёжно поражать цели на значительной дальности, но требует частой замены ствола. Не стреляет вблизи. При повреждении может взорваться.</Turret_Autocannon.description>
 	<Blueprint_Turret_Autocannon.label>тяжёлая турель (проект)</Blueprint_Turret_Autocannon.label>
 	<Frame_Turret_Autocannon.label>тяжёлая турель (в процессе сборки)</Frame_Turret_Autocannon.label>
-	<Frame_Turret_Autocannon.description>Тяжёлая дальнобойная автоматическая турель. Крупный калибр позволяет надёжно поражать цели на дальних дистанциях, но требует частой замены ствола. Не стреляет вблизи. При повреждении может взорваться.</Frame_Turret_Autocannon.description>
+	<Frame_Turret_Autocannon.description>Тяжёлая дальнобойная автоматическая турель. Крупный калибр позволяет надёжно поражать цели на значительной дальности, но требует частой замены ствола. Не стреляет вблизи. При повреждении может взорваться.</Frame_Turret_Autocannon.description>
 
 	<Turret_Autocannon.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
 	<Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
@@ -43,6 +43,24 @@
 	<Gun_AutocannonTurret.verbs.Verb_Shoot.label>пушка тяжёлой турели</Gun_AutocannonTurret.verbs.Verb_Shoot.label>
 	<Gun_AutocannonTurret.description>Самозарядное крупнокалиберное орудие, предназначенное для крепления к турельной установке.</Gun_AutocannonTurret.description>
 
+	
+	<!-- Sniper turret -->
+
+	<Turret_Sniper.label>снайперская турель</Turret_Sniper.label>
+	<Turret_Sniper.description>Дальнобойная автоматическая снайперская турель. Высокоскоростные снаряды способны причинять серьёзный урон на очень больших дальностях, но обслуживание такого орудия требует частой замены ствола. Турель не способна поражать ближние цели, а при повреждении может взорваться.</Turret_Sniper.description>
+	<Turret_Sniper_Blueprint.label>снайперская турель (проект)</Turret_Sniper_Blueprint.label>
+	<Turret_Sniper_Frame.label>снайперская турель (в процессе сборки)</Turret_Sniper_Frame.label>
+	<Turret_Sniper_Frame.description>Дальнобойная автоматическая снайперская турель. Высокоскоростные снаряды способны причинять серьёзный урон на очень больших дальностях, но обслуживание такого орудия требует частой замены ствола. Турель не способна поражать ближние цели, а при повреждении может взорваться.</Turret_Sniper_Frame.description>
+
+	<Turret_Sniper.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_Sniper.comps.CompRefuelable.fuelLabel>
+	<Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
+
+	<Bullet_TurretSniper.label>снаряд из снайперской турели</Bullet_TurretSniper.label>
+
+	<Gun_TurretSniper.label>пушка снайперской турели</Gun_TurretSniper.label>
+	<Gun_TurretSniper.description>Самозарядное снайперское орудие, предназначенное для крепления к турельной установке.</Gun_TurretSniper.description>
+	
 	
 	<Turret_Mortar.label>миномёт</Turret_Mortar.label>
 	<Turret_Mortar.description>Миномёт, запускающий снаряды всех видов. Для стрельбы требуется наводчик. Из-за низкой точности, свойственной таким орудиям, огонь по крупным укреплённым базам будет гораздо эффективнее стрельбы по скоплениям живой силы в открытом поле.</Turret_Mortar.description>
@@ -65,33 +83,33 @@
 
 
 	<TrapIED_HighExplosive.label>осколочное СВУ</TrapIED_HighExplosive.label>
-	<TrapIED_HighExplosive.description>Самодельное взрывное устройство — артиллерийский снаряд, присоединённый к импровизированному спусковому механизму. Когда кто-нибудь активирует ловушку, снаряд взорвётся. Мина сдетонирует после случайной задержки, что может позволить убежать проворному противнику.</TrapIED_HighExplosive.description>
+	<TrapIED_HighExplosive.description>Самодельное взрывное устройство — артиллерийский снаряд, присоединённый к импровизированному спусковому механизму. Когда кто-нибудь активирует ловушку, снаряд взорвётся. Мина сдетонирует после случайной задержки, что может позволить убежать проворному противнику. Животные обходят такие ловушки стороной.</TrapIED_HighExplosive.description>
 	<Blueprint_TrapIED_HighExplosive.label>осколочное СВУ (проект)</Blueprint_TrapIED_HighExplosive.label>
 	<Frame_TrapIED_HighExplosive.label>осколочное СВУ (устанавливается)</Frame_TrapIED_HighExplosive.label>
-	<Frame_TrapIED_HighExplosive.description>Самодельное взрывное устройство — артиллерийский снаряд, присоединённый к импровизированному спусковому механизму. Когда кто-нибудь активирует ловушку, снаряд взорвётся. Мина сдетонирует после случайной задержки, что может позволить убежать проворному противнику.</Frame_TrapIED_HighExplosive.description>
+	<Frame_TrapIED_HighExplosive.description>Самодельное взрывное устройство — артиллерийский снаряд, присоединённый к импровизированному спусковому механизму. Когда кто-нибудь активирует ловушку, снаряд взорвётся. Мина сдетонирует после случайной задержки, что может позволить убежать проворному противнику. Животные обходят такие ловушки стороной.</Frame_TrapIED_HighExplosive.description>
 
 	<TrapIED_Incendiary.label>зажигательное СВУ</TrapIED_Incendiary.label>
 	<TrapIED_Incendiary.description>Самодельное взрывное устройство зажигательного типа — взрывчатка, смешанная с горючим веществом и подключённая к распылителю. Имеет простой и надёжный механизм активации.</TrapIED_Incendiary.description>
 	<Blueprint_TrapIED_Incendiary.label>зажигательное СВУ (проект)</Blueprint_TrapIED_Incendiary.label>
 	<Frame_TrapIED_Incendiary.label>зажигательное СВУ (устанавливается)</Frame_TrapIED_Incendiary.label>
-	<Frame_TrapIED_Incendiary.description>Самодельное взрывное устройство зажигательного типа — взрывчатка, смешанная с горючим веществом и подключённая к распылителю. Имеет простой и надёжный механизм активации.</Frame_TrapIED_Incendiary.description>
+	<Frame_TrapIED_Incendiary.description>Самодельное взрывное устройство зажигательного типа — взрывчатка, смешанная с горючим веществом и подключённая к распылителю. Имеет простой и надёжный механизм активации. Животные обходят такие ловушки стороной.</Frame_TrapIED_Incendiary.description>
 
 	<TrapIED_EMP.label>ЭМ-ловушка</TrapIED_EMP.label>
 	<TrapIED_EMP.description>Простая ловушка, состоящая из ЭМИ-снаряда и импровизированного спускового механизма. Электромагнитный импульс парализует механических существ на несколько секунд. Активируется также и теми, кто не подвержен негативному воздействию ЭМИ.</TrapIED_EMP.description>
 	<Blueprint_TrapIED_EMP.label>ЭМ-ловушка (проект)</Blueprint_TrapIED_EMP.label>
 	<Frame_TrapIED_EMP.label>ЭМ-ловушка (устанавливается)</Frame_TrapIED_EMP.label>
-	<Frame_TrapIED_EMP.description>Простая ловушка, состоящая из ЭМИ-снаряда и импровизированного спускового механизма. Электромагнитный импульс парализует механических существ на несколько секунд. Активируется также и теми, кто не подвержен негативному воздействию ЭМИ.</Frame_TrapIED_EMP.description>
+	<Frame_TrapIED_EMP.description>Простая ловушка, состоящая из ЭМИ-снаряда и импровизированного спускового механизма. Электромагнитный импульс парализует механических существ на несколько секунд. Активируется также и теми, кто не подвержен негативному воздействию ЭМИ. Животные обходят такие ловушки стороной.</Frame_TrapIED_EMP.description>
 
 	<TrapIED_Firefoam.label>пенная ловушка</TrapIED_Firefoam.label>
-	<TrapIED_Firefoam.description>Когда кто-либо активирует спусковой механизм, вокруг распылится пожарная пена.</TrapIED_Firefoam.description>
+	<TrapIED_Firefoam.description>Когда кто-либо активирует спусковой механизм, вокруг распылится пожарная пена. Животные обходят такие ловушки стороной.</TrapIED_Firefoam.description>
 	<Blueprint_TrapIED_Firefoam.label>пенная ловушка (проект)</Blueprint_TrapIED_Firefoam.label>
 	<Frame_TrapIED_Firefoam.label>пенная ловушка (устанавливается)</Frame_TrapIED_Firefoam.label>
-	<Frame_TrapIED_Firefoam.description>Когда кто-либо активирует спусковой механизм, вокруг распылится пожарная пена.</Frame_TrapIED_Firefoam.description>
+	<Frame_TrapIED_Firefoam.description>Когда кто-либо активирует спусковой механизм, вокруг распылится пожарная пена. Животные обходят такие ловушки стороной.</Frame_TrapIED_Firefoam.description>
 
 	<TrapIED_AntigrainWarhead.label>гранульное СВУ</TrapIED_AntigrainWarhead.label>
-	<TrapIED_AntigrainWarhead.description>Боевая часть гранульного снаряда, присоединённая к импровизированному спусковому механизму. При активации происходит взрыв большой силы с последующим возгоранием.</TrapIED_AntigrainWarhead.description>
+	<TrapIED_AntigrainWarhead.description>Боевая часть гранульного снаряда, присоединённая к импровизированному спусковому механизму. При активации происходит взрыв большой силы с последующим возгоранием. Животные обходят такие ловушки стороной.</TrapIED_AntigrainWarhead.description>
 	<Blueprint_TrapIED_AntigrainWarhead.label>гранульное СВУ (проект)</Blueprint_TrapIED_AntigrainWarhead.label>
 	<Frame_TrapIED_AntigrainWarhead.label>гранульное СВУ (устанавливается)</Frame_TrapIED_AntigrainWarhead.label>
-	<Frame_TrapIED_AntigrainWarhead.description>Боевая часть гранульного снаряда, присоединённая к импровизированному спусковому механизму. При активации происходит взрыв большой силы с последующим возгоранием.</Frame_TrapIED_AntigrainWarhead.description>
+	<Frame_TrapIED_AntigrainWarhead.description>Боевая часть гранульного снаряда, присоединённая к импровизированному спусковому механизму. При активации происходит взрыв большой силы с последующим возгоранием. Животные обходят такие ловушки стороной.</Frame_TrapIED_AntigrainWarhead.description>
 
 </LanguageData>
