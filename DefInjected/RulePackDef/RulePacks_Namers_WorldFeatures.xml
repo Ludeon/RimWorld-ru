@@ -29,29 +29,18 @@
 		<li>wasteland_neutral->плато</li>
 		<li>wasteland_plural->Земли</li>
 
-		<li>adjective_female->печальная</li>
-		<li>adjective_female->огненная</li>
-		<li>adjective_female->молчаливая</li>
-		<li>adjective_female->унылая</li>
-		<li>adjective_female->мёртвая</li>
-		<li>adjective_female->голодная</li>
-		<li>adjective_female->смертельная</li>
-		<li>adjective_female->кровавая</li>
-		<li>adjective_female->призрачная</li>
-		<li>adjective_female->дикая</li>
-
 		<li>suffix_proper->[ConceptAny]</li>
 		<li>suffix_proper->им. [personname]</li>
 		<li>suffix_proper(p=3)->[tribalword]</li>
 		<li>suffix_proper(p=3)->[outlanderword]</li>
 		<li>prefix_proper_masc->[derivative] [Color]</li>
 		<li>prefix_proper_masc->[derivative] [AdjectiveAny]</li>
-		<li>prefix_proper_fem->[derivative] [ColorFemale]</li>
-		<li>prefix_proper_fem->[derivative] [adjective_female]</li>
-		<li>prefix_proper_neutral->[derivative] [Color]</li>
-		<li>prefix_proper_neutral->[derivative] [AdjectiveAny]</li>
-		<li>prefix_proper_plural->[derivative] [Color]</li>
-		<li>prefix_proper_plural->[derivative] [AdjectiveAny]</li>
+		<li>prefix_proper_fem->[derivative] [Color_fem]</li>
+		<li>prefix_proper_fem->[derivative] [AdjectiveAny_female]</li>
+		<li>prefix_proper_neutral->[derivative] [Color_neutral]</li>
+		<li>prefix_proper_neutral->[derivative] [AdjectiveAny_neutral]</li>
+		<li>prefix_proper_plural->[derivative] [Color_plural]</li>
+		<li>prefix_proper_plural->[derivative] [AdjectiveAny_plural]</li>
 		<li>prefix_fem->[derivative]</li>
 		<li>prefix_masc->[derivative]</li>
 		<li>prefix_neutral->[derivative]</li>
@@ -118,7 +107,7 @@
 		<li>prefix_masc(p=4)->залив</li>
 		<li>prefix_masc->фьорд</li>
 		<li>bay_fem(p=2)->бухта</li>
-		<li>bay_fem->губа</li>
+		<li>bay_fem(p=0.5)->губа</li>
 		<li>bay_fem->гавань</li>
 	</NamerBay.rulePack.rulesStrings>
 
