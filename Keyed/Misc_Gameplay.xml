@@ -134,7 +134,6 @@
 	<EquippedBy>оружие {0}</EquippedBy>
 	<QuestTargetDestroyInspectString>{0} хотят, чтобы этот лагерь был уничтожен.\n    Награда: {1}.</QuestTargetDestroyInspectString>
 	<WorldObjectTimeout>Осталось времени: {0}</WorldObjectTimeout>
-	<LongRangeMineralScannerEfficiency>Эффективность: {0}</LongRangeMineralScannerEfficiency>
 	<ItemStashContents>Содержимое: {0}.</ItemStashContents>
 	<ClickToSortByThisColumn>Нажмите для сортировки по этому столбцу.</ClickToSortByThisColumn>
 	<WorkPriorityShiftClickTip>Shift + щелчок: Повысить приоритет\nShift + правый щелчок: Понизить приоритет</WorkPriorityShiftClickTip>
@@ -175,6 +174,7 @@
 	<Caravan>Караван</Caravan>
 	<HiddenOrNoSitePartDescription>там вас могут ждать опасности</HiddenOrNoSitePartDescription>
 	<PreciousLumpLabel>залежи ресурса: {0}</PreciousLumpLabel>
+	<NoActiveResearchProjectToFinish>не выбрана технология для исследования</NoActiveResearchProjectToFinish>
 
 	<!-- Fermentation barrel -->
 	<ContainsWort>Содержит {0} / {1} сусла.</ContainsWort>
@@ -191,6 +191,7 @@
 	<TextMote_YieldWasted>Урожай\nпотерян</TextMote_YieldWasted>
 	<TextMote_ProductWasted>Продукт\nпотерян</TextMote_ProductWasted>
 	<TextMote_RecruitFail>Рекрутирование не удалось!\n{0} шанс</TextMote_RecruitFail>
+	<TextMote_ResistanceReduced>Сопротивление уменьшено\nс {0} до {1}</TextMote_ResistanceReduced>
 	<TextMote_TameFail>Не приручил\n{0} шанс</TextMote_TameFail>
 	<TextMote_TameSuccess>Приручил!\n{0} шанс</TextMote_TameSuccess>
 	<TextMote_TrainFail>Не удалось обучить: {0}\n{1} шанс</TextMote_TrainFail>
@@ -199,6 +200,8 @@
 	<TextMote_ConstructionFail>Не получилось\nпостроить</TextMote_ConstructionFail>
 	<TextMote_Dodge>Уклонение</TextMote_Dodge>
 	<TextMote_Tended>{0} вылечено</TextMote_Tended>
+	<lowMood>плохое настроение</lowMood>
+	<lowOpinion>плохие отношения</lowOpinion>
 
 
 	<!-- Areas -->
@@ -341,18 +344,16 @@
 	<RotStateFresh>Свежее</RotStateFresh>
 	<RotStateRotting>Гниёт</RotStateRotting>
 	<RotStateDessicated>Скелет</RotStateDessicated>
-
-	<!-- Shooting tooltip -->
-	<ShotBy>Выстрел {0}</ShotBy>
-	<CannotHit> Не может попасть в цель.</CannotHit> <!-- необходим лидирующий пробел для читаемости -->
-	<ManhunterPerHit>Шанс ответного нападения</ManhunterPerHit>
-
-	<!-- Rotting -->
 	<CurrentlyFrozen>Замороженное (не испортится)</CurrentlyFrozen>
 	<CurrentlyRefrigerated>Охлаждённое (испортится через {0})</CurrentlyRefrigerated>
 	<NotRefrigerated>Не охлаждённое (испортится через {0})</NotRefrigerated>
 	<OverADecade>больше 10 лет</OverADecade>
 	<LessThanADay>менее суток</LessThanADay>
+
+	<!-- Shooting tooltip -->
+	<ShotBy>Выстрел {0}</ShotBy>
+	<CannotHit> Не может попасть в цель.</CannotHit> <!-- необходим лидирующий пробел для читаемости -->
+	<ManhunterPerHit>Шанс ответного нападения</ManhunterPerHit>
 
 	<!-- Meal -->
 	<Ingredients>Ингредиенты</Ingredients>
@@ -399,7 +400,7 @@
 	<ShowRoomStatsToggleButton>Отображение параметров комнаты.\n\nПоказывает параметры комнаты, на которую указывает курсор.</ShowRoomStatsToggleButton>
 	<ShowColonistBarToggleButton>Отображение панели поселенцев.\n\nОтображает в верхней части экрана иконки и состояние всех поселенцев.\n\nВы можете упорядочить поселенцев, перетаскивая их с зажатой правой кнопкой мыши.</ShowColonistBarToggleButton>
 	<AutoHomeAreaToggleButton>Переключение автоматического добавления домашней области для новых построек.</AutoHomeAreaToggleButton>
-	<AutoRebuildButton>Строить заново разрушенные объекты.</AutoRebuildButton>
+	<AutoRebuildButton>Строить заново разрушенные объекты в пределах домашней области.</AutoRebuildButton>
 	<CategorizedResourceReadoutToggleButton>Отображать количество ресурсов на складах полностью или по категориям.</CategorizedResourceReadoutToggleButton>
 	<ShowAnimalNamesToggleButton>Отображение имён приручённых животных.</ShowAnimalNamesToggleButton>
 	<ShowRoofOverlayToggleButton>Отображение крыш.</ShowRoofOverlayToggleButton>

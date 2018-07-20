@@ -51,7 +51,7 @@
 	<VisitorsLeaving>Гости из фракции {0} уходят.</VisitorsLeaving>
 
 	<LetterLabelWandererJoin>Пополнение</LetterLabelWandererJoin>
-	<WandererJoin>В ваше поселение приходит новый {0}. [PAWN_possessive] зовут [PAWN_nameDef], и [PAWN_pronoun] {1}.</WandererJoin>
+	<WandererJoin>В ваше поселение приходит новый {0}. [PAWN_possessive] зовут [PAWN_nameDef], и [PAWN_pronoun] {1}.\n\nЕсли вы не желаете видеть [PAWN_possessive] в своём поселении, вы можете [PAWN_possessive] изгнать, продать в рабство или просто убить. Хотя другие поселенцы вряд ли будут этим довольны.</WandererJoin>
 
 	<LetterLabelManhunterPackArrived>Животные-людоеды</LetterLabelManhunterPackArrived>
 	<ManhunterPackArrived>На вашу территорию забрели агрессивные {0}. Они жаждут человеческого мяса.\n\nЭти животные не будут пробиваться через закрытые двери, если, конечно, не увидят, как в них забегают ваши поселенцы. Спрячьтесь заранее — и вы будете в безопасности. Они также не нападут на турели, если вы отключите их.\n\nПодождите один-два дня, и {0} уйдут. Вы также можете напасть на них сами.</ManhunterPackArrived>
@@ -61,10 +61,6 @@
 	<LetterShipPartDroveColonistInsane>Часть разбившегося корабля испустила целенаправленный психоактивный импульс, и ваш поселенец {0} сошёл с ума.</LetterShipPartDroveColonistInsane>
 	<AwokeDaysAgo>Активен последние {0} дней</AwokeDaysAgo>
 	<PsychicDroneLevel>Уровень гула: {0}</PsychicDroneLevel>
-	<PsychicDroneLevelLow>низкий</PsychicDroneLevelLow>
-	<PsychicDroneLevelMedium>средний</PsychicDroneLevelMedium>
-	<PsychicDroneLevelHigh>высокий</PsychicDroneLevelHigh>
-	<PsychicDroneLevelExtreme>сверхвысокий</PsychicDroneLevelExtreme>
 	<LetterLabelPsychicDroneLevelIncreased>гул усилился</LetterLabelPsychicDroneLevelIncreased>
 	<LetterPsychicDroneLevelIncreased>От части разбившегося корабля теперь исходит более мощный вид психоактивного гула. Всякий человек в этой местности теперь ещё более обеспокоен, напуган и мнителен.</LetterPsychicDroneLevelIncreased>
 
@@ -74,7 +70,7 @@
 
 	<!-- Distant psychic drone -->
 	<LetterLabelPsychicDrone>Гул</LetterLabelPsychicDrone>
-	<LetterIncidentPsychicDrone>Головная боль пронзает черепа ваших поселенцев словно гвоздь!\n\nПсихоактивный гул, исходящий от некоего далёкого излучателя, пронизывает эту местность ненавистью. Похоже, частота излучения влияет только на людей определённого пола ({0}). В течение нескольких дней настроение у них будет немного хуже.</LetterIncidentPsychicDrone>
+	<LetterIncidentPsychicDrone>Головная боль пронзает черепа ваших поселенцев словно гвоздь!\n\nПсихоактивный гул, исходящий от некоего далёкого излучателя, пронизывает эту местность ненавистью. Похоже, частота излучения влияет только на людей определённого пола ({0}). В течение нескольких дней настроение у них будет немного хуже.\n\nУровень гула — {1}.</LetterIncidentPsychicDrone>
 
 	<LetterLabelPsychicSoothe>Умиротворение</LetterLabelPsychicSoothe>
 	<LetterIncidentPsychicSoothe>Волна блаженства проносится по всему поселению!\n\nМощное излучение некоего далёкого генератора счастья пронизывает эту область. Похоже, частота излучения влияет только на людей определённого пола ({0}). В течение нескольких дней настроение у них будет немного лучше.</LetterIncidentPsychicSoothe>
