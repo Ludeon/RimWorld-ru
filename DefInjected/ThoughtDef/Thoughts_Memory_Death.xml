@@ -1,105 +1,163 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<!--=================== executions and prisoner deaths ===================-->
-
-	<KnowGuestExecuted.stages.justified_execution.label>справедливая казнь</KnowGuestExecuted.stages.justified_execution.label>
-	<KnowGuestExecuted.stages.justified_execution.description>Виновного заключённого или гостя казнили. Хоть это и справедливо, но всё равно грустно.</KnowGuestExecuted.stages.justified_execution.description>
-	<KnowGuestExecuted.stages.someone_was_euthanized.label>эвтаназия</KnowGuestExecuted.stages.someone_was_euthanized.label>
-	<KnowGuestExecuted.stages.someone_was_euthanized.description>Заключённого или гостя подвергли эвтаназии. Это грустно, хоть и гуманно.</KnowGuestExecuted.stages.someone_was_euthanized.description>
-	<KnowGuestExecuted.stages.someone_was_executed.label>казнь</KnowGuestExecuted.stages.someone_was_executed.label>
-	<KnowGuestExecuted.stages.someone_was_executed.description>Заключённого хладнокровно убили. Это жестоко!</KnowGuestExecuted.stages.someone_was_executed.description>
-	<KnowGuestExecuted.stages.someone_organharvested.label>смерть от извлечения органов</KnowGuestExecuted.stages.someone_organharvested.label>
-	<KnowGuestExecuted.stages.someone_organharvested.description>Заключённый или гость умер из-за того, что у него удалили жизненно важные органы. Это просто ужасно!</KnowGuestExecuted.stages.someone_organharvested.description>
-
-	<KnowColonistExecuted.stages.justified_execution_of_colonist.label>справедливая казнь поселенца</KnowColonistExecuted.stages.justified_execution_of_colonist.label>
-	<KnowColonistExecuted.stages.justified_execution_of_colonist.description>Поселенца казнили за его преступления. Хоть это и справедливо, но всё равно грустно.</KnowColonistExecuted.stages.justified_execution_of_colonist.description>
-	<KnowColonistExecuted.stages.colonist_euthanized.label>эвтаназия поселенца</KnowColonistExecuted.stages.colonist_euthanized.label>
-	<KnowColonistExecuted.stages.colonist_euthanized.description>Поселенца подвергли эвтаназии. Это грустно, хоть и гуманно.</KnowColonistExecuted.stages.colonist_euthanized.description>
-	<KnowColonistExecuted.stages.colonist_executed.label>казнь поселенца</KnowColonistExecuted.stages.colonist_executed.label>
-	<KnowColonistExecuted.stages.colonist_executed.description>Поселенца хладнокровно убили. Это жестоко!</KnowColonistExecuted.stages.colonist_executed.description>
-	<KnowColonistExecuted.stages.colonist_organharvested.label>смерть поселенца от извлечения органов</KnowColonistExecuted.stages.colonist_organharvested.label>
-	<KnowColonistExecuted.stages.colonist_organharvested.description>Поселенец умер из-за того, что у него удалили жизненно важные органы. Это просто ужасно!</KnowColonistExecuted.stages.colonist_organharvested.description>
-
-	<KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>смерть заключённого</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
-	<KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>Один из наших заключённых умер, несмотря на то, что он никому не причинил вреда. Мы должны быть в состоянии заботиться о своих заключённых. Если нам действительно нужна была их смерть, мы могли провести организованную казнь, но не допускать такого варварства.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
-
-	<KnowColonistDied.stages.colonist_died.label>смерть поселенца</KnowColonistDied.stages.colonist_died.label>
-	<KnowColonistDied.stages.colonist_died.description>Один из наших умер. Мы должны быть в состоянии заботиться о своих людях.</KnowColonistDied.stages.colonist_died.description>
-
-	<!--===================== bonded animal died =====================-->
-
-	<BondedAnimalDied.stages.bonded_animal_died.label>смерть любимца</BondedAnimalDied.stages.bonded_animal_died.label>
-	<BondedAnimalDied.stages.bonded_animal_died.description>Умер мой маленький друг. Такое ласковое, необыкновенное создание. Мир жесток!</BondedAnimalDied.stages.bonded_animal_died.description>
-
-	<!--===================== friend/rival died =====================-->
-
-	<PawnWithGoodOpinionDied.stages.my_friend_died.label>смерть друга</PawnWithGoodOpinionDied.stages.my_friend_died.label>
-	<PawnWithGoodOpinionDied.stages.my_friend_died.description>Такой прекрасный человек. Мир темнеет каждый день.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
-
-	<PawnWithBadOpinionDied.stages.my_rival_died.label>смерть соперника</PawnWithBadOpinionDied.stages.my_rival_died.label>
-	<PawnWithBadOpinionDied.stages.my_rival_died.description>Так ему/ей и надо. Дела налаживаются.</PawnWithBadOpinionDied.stages.my_rival_died.description>
-
-	<!--===================== Family member died thoughts =====================-->
-
-	<MySonDied.stages.my_son_died.label>умер сын, {0}</MySonDied.stages.my_son_died.label>
-	<MySonDied.stages.my_son_died.description>Мой сын умер. Моя плоть и кровь...</MySonDied.stages.my_son_died.description>
-
-	<MyDaughterDied.stages.my_daughter_died.label>умерла дочь, {0}</MyDaughterDied.stages.my_daughter_died.label>
-	<MyDaughterDied.stages.my_daughter_died.description>Моя дочь умерла. Моя плоть и кровь...</MyDaughterDied.stages.my_daughter_died.description>
-
-	<MyHusbandDied.stages.my_husband_died.label>умер муж, {0}</MyHusbandDied.stages.my_husband_died.label>
-	<MyHusbandDied.stages.my_husband_died.description>Мой муж мёртв. Я теперь одна...</MyHusbandDied.stages.my_husband_died.description>
-
-	<MyWifeDied.stages.my_wife_died.label>умерла жена, {0}</MyWifeDied.stages.my_wife_died.label>
-	<MyWifeDied.stages.my_wife_died.description>Моя жена мертва. Я теперь один...</MyWifeDied.stages.my_wife_died.description>
-
-	<MyFianceDied.stages.my_fiance_died.label>умер жених, {0}</MyFianceDied.stages.my_fiance_died.label>
-	<MyFianceDied.stages.my_fiance_died.description>Мой жених мёртв. Такой мужчина... Моё будущее кончено.</MyFianceDied.stages.my_fiance_died.description>
-
-	<MyFianceeDied.stages.my_fiancée_died.label>умерла невеста, {0}</MyFianceeDied.stages.my_fiancée_died.label>
-	<MyFianceeDied.stages.my_fiancée_died.description>Моя невеста мертва. Такая женщина... Моё будущее кончено.</MyFianceeDied.stages.my_fiancée_died.description>
-
-	<MyLoverDied.stages.my_lover_died.label>умер любимый человек, {0}</MyLoverDied.stages.my_lover_died.label>
-	<MyLoverDied.stages.my_lover_died.description>Моя вторая половинка мертва. Мне так одиноко...</MyLoverDied.stages.my_lover_died.description>
-
-	<MyBrotherDied.stages.my_brother_died.label>умер брат, {0}</MyBrotherDied.stages.my_brother_died.label>
-	<MyBrotherDied.stages.my_brother_died.description>Мой брат мёртв. Моя плоть и кровь...</MyBrotherDied.stages.my_brother_died.description>
-
-	<MySisterDied.stages.my_sister_died.label>умерла сестра, {0}</MySisterDied.stages.my_sister_died.label>
-	<MySisterDied.stages.my_sister_died.description>Моя сестра мертва. Моя плоть и кровь...</MySisterDied.stages.my_sister_died.description>
-
-	<MyGrandchildDied.stages.my_grandchild_died.label>умер(ла) внук/внучка, {0}</MyGrandchildDied.stages.my_grandchild_died.label>
-	<MyGrandchildDied.stages.my_grandchild_died.description>Моего внука или внучки нет в живых. Моя плоть и кровь...</MyGrandchildDied.stages.my_grandchild_died.description>
-
-	<MyFatherDied.stages.my_father_died.label>умер отец, {0}</MyFatherDied.stages.my_father_died.label>
-	<MyFatherDied.stages.my_father_died.description>Мой отец мёртв. Он уже не вернётся...</MyFatherDied.stages.my_father_died.description>
-
-	<MyMotherDied.stages.my_mother_died.label>умерла мать, {0}</MyMotherDied.stages.my_mother_died.label>
-	<MyMotherDied.stages.my_mother_died.description>Моя мать мертва. Она уже не вернётся...</MyMotherDied.stages.my_mother_died.description>
-
-	<MyNieceDied.stages.my_niece_died.label>умерла племянница, {0}</MyNieceDied.stages.my_niece_died.label>
-	<MyNieceDied.stages.my_niece_died.description>Моя племянница мертва. Такой прекрасный ребёнок.</MyNieceDied.stages.my_niece_died.description>
-
-	<MyNephewDied.stages.my_nephew_died.label>умер племянник, {0}</MyNephewDied.stages.my_nephew_died.label>
-	<MyNephewDied.stages.my_nephew_died.description>Моё племянник мёртв. Такой прекрасный ребёнок.</MyNephewDied.stages.my_nephew_died.description>
-
-	<MyHalfSiblingDied.stages.my_halfsibling_died.label>умер(ла) сводный брат/сестра, {0}</MyHalfSiblingDied.stages.my_halfsibling_died.label>
-	<MyHalfSiblingDied.stages.my_halfsibling_died.description>Моего сводного брата или сестры нет в живых.</MyHalfSiblingDied.stages.my_halfsibling_died.description>
-
-	<MyAuntDied.stages.my_aunt_died.label>умерла тётя, {0}</MyAuntDied.stages.my_aunt_died.label>
-	<MyAuntDied.stages.my_aunt_died.description>Моя тётя мертва.</MyAuntDied.stages.my_aunt_died.description>
-
-	<MyUncleDied.stages.my_uncle_died.label>умер дядя, {0}</MyUncleDied.stages.my_uncle_died.label>
-	<MyUncleDied.stages.my_uncle_died.description>Моя дядя мёртв.</MyUncleDied.stages.my_uncle_died.description>
-
-	<MyGrandparentDied.stages.my_grandparent_died.label>умер(ла) дед/бабушка, {0}</MyGrandparentDied.stages.my_grandparent_died.label>
-	<MyGrandparentDied.stages.my_grandparent_died.description>Моего деда или бабушки не в живых.</MyGrandparentDied.stages.my_grandparent_died.description>
-
-	<MyCousinDied.stages.my_cousin_died.label>умер(ла) двоюродный брат/сестра, {0}</MyCousinDied.stages.my_cousin_died.label>
-	<MyCousinDied.stages.my_cousin_died.description>Моего двоюродного брата или сестры нет в живых. Моя плоть и кровь...</MyCousinDied.stages.my_cousin_died.description>
-
-	<MyKinDied.stages.my_kin_died.label>умер родственник, {0}</MyKinDied.stages.my_kin_died.label>
-	<MyKinDied.stages.my_kin_died.description>Мой родственник мёртв.</MyKinDied.stages.my_kin_died.description>
-
+  
+  <!-- EN: bonded animal {0} died -->
+  <BondedAnimalDied.stages.bonded_animal_died.label>смерть любимца</BondedAnimalDied.stages.bonded_animal_died.label>
+  <!-- EN: Such a tender, unique animal. This universe is evil! -->
+  <BondedAnimalDied.stages.bonded_animal_died.description>Умер мой маленький друг. Такое ласковое, необыкновенное создание. Мир жесток!</BondedAnimalDied.stages.bonded_animal_died.description>
+  
+  <!-- EN: colonist died -->
+  <KnowColonistDied.stages.colonist_died.label>смерть поселенца</KnowColonistDied.stages.colonist_died.label>
+  <!-- EN: One of our people died. We should be able to take care of our people. -->
+  <KnowColonistDied.stages.colonist_died.description>Один из наших умер. Мы должны быть в состоянии заботиться о своих людях.</KnowColonistDied.stages.colonist_died.description>
+  
+  <!-- EN: justified execution of colonist -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.label>справедливая казнь поселенца</KnowColonistExecuted.stages.justified_execution_of_colonist.label>
+  <!-- EN: A guilty colonist was executed. It was justified, but still sad. -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.description>Поселенца казнили за его преступления. Хоть это и справедливо, но всё равно грустно.</KnowColonistExecuted.stages.justified_execution_of_colonist.description>
+  <!-- EN: colonist euthanized -->
+  <KnowColonistExecuted.stages.colonist_euthanized.label>эвтаназия поселенца</KnowColonistExecuted.stages.colonist_euthanized.label>
+  <!-- EN: A colonist was euthanized. It was humane, but still sad. -->
+  <KnowColonistExecuted.stages.colonist_euthanized.description>Поселенца подвергли эвтаназии. Это грустно, хоть и гуманно.</KnowColonistExecuted.stages.colonist_euthanized.description>
+  <!-- EN: colonist executed -->
+  <KnowColonistExecuted.stages.colonist_executed.label>казнь поселенца</KnowColonistExecuted.stages.colonist_executed.label>
+  <!-- EN: A colonist was killed in cold blood. It seemed a bit evil. -->
+  <KnowColonistExecuted.stages.colonist_executed.description>Поселенца хладнокровно убили. Это жестоко!</KnowColonistExecuted.stages.colonist_executed.description>
+  <!-- EN: colonist organ-harvested -->
+  <KnowColonistExecuted.stages.colonist_organharvested.label>смерть поселенца от извлечения органов</KnowColonistExecuted.stages.colonist_organharvested.label>
+  <!-- EN: A colonist died because someone took body parts from him. It's horrible. -->
+  <KnowColonistExecuted.stages.colonist_organharvested.description>Поселенец умер из-за того, что у него удалили жизненно важные органы. Это просто ужасно!</KnowColonistExecuted.stages.colonist_organharvested.description>
+  
+  <!-- EN: justified execution -->
+  <KnowGuestExecuted.stages.justified_execution.label>справедливая казнь</KnowGuestExecuted.stages.justified_execution.label>
+  <!-- EN: A guilty prisoner or guest was executed. It was justified, but still sad. -->
+  <KnowGuestExecuted.stages.justified_execution.description>Виновного заключённого или гостя казнили. Хоть это и справедливо, но всё равно грустно.</KnowGuestExecuted.stages.justified_execution.description>
+  <!-- EN: someone was euthanized -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.label>эвтаназия</KnowGuestExecuted.stages.someone_was_euthanized.label>
+  <!-- EN: A prisoner or guest was euthanized. It was humane, but still sad. -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.description>Заключённого или гостя подвергли эвтаназии. Это грустно, хоть и гуманно.</KnowGuestExecuted.stages.someone_was_euthanized.description>
+  <!-- EN: someone was executed -->
+  <KnowGuestExecuted.stages.someone_was_executed.label>казнь</KnowGuestExecuted.stages.someone_was_executed.label>
+  <!-- EN: A prisoner or guest was killed in cold blood. It seemed a bit evil. -->
+  <KnowGuestExecuted.stages.someone_was_executed.description>Заключённого хладнокровно убили. Это жестоко!</KnowGuestExecuted.stages.someone_was_executed.description>
+  <!-- EN: someone organ-harvested -->
+  <KnowGuestExecuted.stages.someone_organharvested.label>смерть от извлечения органов</KnowGuestExecuted.stages.someone_organharvested.label>
+  <!-- EN: A prisoner or guest died because the colony took body parts from him. It's horrible. -->
+  <KnowGuestExecuted.stages.someone_organharvested.description>Заключённый или гость умер из-за того, что у него удалили жизненно важные органы. Это просто ужасно!</KnowGuestExecuted.stages.someone_organharvested.description>
+  
+  <!-- EN: innocent prisoner died -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>смерть заключённого</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
+  <!-- EN: One of our prisoners died despite being harmless. We should be able to take care of our prisoners. If we wanted them dead, we could have at least conducted an orderly execution rather than permit that barbarism. -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>Один из наших заключённых умер, несмотря на то, что он никому не причинил вреда. Мы должны быть в состоянии заботиться о своих заключённых. Если нам действительно нужна была их смерть, мы могли провести организованную казнь, но не допускать такого варварства.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
+  
+  <!-- EN: my aunt {0} died -->
+  <MyAuntDied.stages.my_aunt_died.label>умерла тётя, {0}</MyAuntDied.stages.my_aunt_died.label>
+  <!-- EN: My aunt died. -->
+  <MyAuntDied.stages.my_aunt_died.description>Моя тётя мертва.</MyAuntDied.stages.my_aunt_died.description>
+  
+  <!-- EN: my brother {0} died -->
+  <MyBrotherDied.stages.my_brother_died.label>умер брат, {0}</MyBrotherDied.stages.my_brother_died.label>
+  <!-- EN: My brother died. My own flesh and blood... -->
+  <MyBrotherDied.stages.my_brother_died.description>Мой брат мёртв. Моя плоть и кровь...</MyBrotherDied.stages.my_brother_died.description>
+  
+  <!-- EN: my cousin {0} died -->
+  <MyCousinDied.stages.my_cousin_died.label>умер(ла) двоюродный брат/сестра, {0}</MyCousinDied.stages.my_cousin_died.label>
+  <!-- EN: My cousin died. My own flesh and blood... -->
+  <MyCousinDied.stages.my_cousin_died.description>Моего двоюродного брата или сестры нет в живых. Моя плоть и кровь...</MyCousinDied.stages.my_cousin_died.description>
+  
+  <!-- EN: my daughter {0} died -->
+  <MyDaughterDied.stages.my_daughter_died.label>умерла дочь, {0}</MyDaughterDied.stages.my_daughter_died.label>
+  <!-- EN: My daughter is dead. My own flesh and blood... -->
+  <MyDaughterDied.stages.my_daughter_died.description>Моя дочь умерла. Моя плоть и кровь...</MyDaughterDied.stages.my_daughter_died.description>
+  
+  <!-- EN: my father {0} died -->
+  <MyFatherDied.stages.my_father_died.label>умер отец, {0}</MyFatherDied.stages.my_father_died.label>
+  <!-- EN: My father died. He's gone forever. -->
+  <MyFatherDied.stages.my_father_died.description>Мой отец мёртв. Он уже не вернётся...</MyFatherDied.stages.my_father_died.description>
+  
+  <!-- EN: my fiance {0} died -->
+  <MyFianceDied.stages.my_fiance_died.label>умер жених, {0}</MyFianceDied.stages.my_fiance_died.label>
+  <!-- EN: My fiance died. Such a man... my future is gone. -->
+  <MyFianceDied.stages.my_fiance_died.description>Мой жених мёртв. Такой мужчина... Моё будущее кончено.</MyFianceDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my fiancée {0} died -->
+  <MyFianceeDied.stages.my_fiance_died.label>умерла невеста, {0}</MyFianceeDied.stages.my_fiance_died.label>
+  <!-- EN: My fiancée died. Such a woman... my future is gone. -->
+  <MyFianceeDied.stages.my_fiance_died.description>Моя невеста мертва. Такая женщина... Моё будущее кончено.</MyFianceeDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my grandchild {0} died -->
+  <MyGrandchildDied.stages.my_grandchild_died.label>умер(ла) внук/внучка, {0}</MyGrandchildDied.stages.my_grandchild_died.label>
+  <!-- EN: My grandchild died. My own flesh and blood... -->
+  <MyGrandchildDied.stages.my_grandchild_died.description>Моего внука или внучки нет в живых. Моя плоть и кровь...</MyGrandchildDied.stages.my_grandchild_died.description>
+  
+  <!-- EN: my grandparent {0} died -->
+  <MyGrandparentDied.stages.my_grandparent_died.label>умер(ла) дед/бабушка, {0}</MyGrandparentDied.stages.my_grandparent_died.label>
+  <!-- EN: My grandparent died. -->
+  <MyGrandparentDied.stages.my_grandparent_died.description>Моего деда или бабушки не в живых.</MyGrandparentDied.stages.my_grandparent_died.description>
+  
+  <!-- EN: my half-sibling {0} died -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.label>умер(ла) сводный брат/сестра, {0}</MyHalfSiblingDied.stages.my_halfsibling_died.label>
+  <!-- EN: My half-sibling died. My own flesh and blood... -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.description>Моего сводного брата или сестры нет в живых.</MyHalfSiblingDied.stages.my_halfsibling_died.description>
+  
+  <!-- EN: my husband {0} died -->
+  <MyHusbandDied.stages.my_husband_died.label>умер муж, {0}</MyHusbandDied.stages.my_husband_died.label>
+  <!-- EN: My husband is dead. I am alone. -->
+  <MyHusbandDied.stages.my_husband_died.description>Мой муж мёртв. Я теперь одна...</MyHusbandDied.stages.my_husband_died.description>
+  
+  <!-- EN: my kin {0} died -->
+  <MyKinDied.stages.my_kin_died.label>умер родственник, {0}</MyKinDied.stages.my_kin_died.label>
+  <!-- EN: My kin died. -->
+  <MyKinDied.stages.my_kin_died.description>Мой родственник мёртв.</MyKinDied.stages.my_kin_died.description>
+  
+  <!-- EN: my lover {0} died -->
+  <MyLoverDied.stages.my_lover_died.label>умер любимый человек, {0}</MyLoverDied.stages.my_lover_died.label>
+  <!-- EN: My lover died. I am so alone. -->
+  <MyLoverDied.stages.my_lover_died.description>Моя вторая половинка мертва. Мне так одиноко...</MyLoverDied.stages.my_lover_died.description>
+  
+  <!-- EN: my mother {0} died -->
+  <MyMotherDied.stages.my_mother_died.label>умерла мать, {0}</MyMotherDied.stages.my_mother_died.label>
+  <!-- EN: My mother died. She's gone forever. -->
+  <MyMotherDied.stages.my_mother_died.description>Моя мать мертва. Она уже не вернётся...</MyMotherDied.stages.my_mother_died.description>
+  
+  <!-- EN: my nephew {0} died -->
+  <MyNephewDied.stages.my_nephew_died.label>умер племянник, {0}</MyNephewDied.stages.my_nephew_died.label>
+  <!-- EN: My nephew died. Such a wonderful child. -->
+  <MyNephewDied.stages.my_nephew_died.description>Моё племянник мёртв. Такой прекрасный ребёнок.</MyNephewDied.stages.my_nephew_died.description>
+  
+  <!-- EN: my niece {0} died -->
+  <MyNieceDied.stages.my_niece_died.label>умерла племянница, {0}</MyNieceDied.stages.my_niece_died.label>
+  <!-- EN: My niece died. Such a wonderful child. -->
+  <MyNieceDied.stages.my_niece_died.description>Моя племянница мертва. Такой прекрасный ребёнок.</MyNieceDied.stages.my_niece_died.description>
+  
+  <!-- EN: my sister {0} died -->
+  <MySisterDied.stages.my_sister_died.label>умерла сестра, {0}</MySisterDied.stages.my_sister_died.label>
+  <!-- EN: My sister died. My own flesh and blood... -->
+  <MySisterDied.stages.my_sister_died.description>Моя сестра мертва. Моя плоть и кровь...</MySisterDied.stages.my_sister_died.description>
+  
+  <!-- EN: my son {0} died -->
+  <MySonDied.stages.my_son_died.label>умер сын, {0}</MySonDied.stages.my_son_died.label>
+  <!-- EN: My son is dead. My own flesh and blood... -->
+  <MySonDied.stages.my_son_died.description>Мой сын умер. Моя плоть и кровь...</MySonDied.stages.my_son_died.description>
+  
+  <!-- EN: my uncle {0} died -->
+  <MyUncleDied.stages.my_uncle_died.label>умер дядя, {0}</MyUncleDied.stages.my_uncle_died.label>
+  <!-- EN: My uncle died. -->
+  <MyUncleDied.stages.my_uncle_died.description>Моя дядя мёртв.</MyUncleDied.stages.my_uncle_died.description>
+  
+  <!-- EN: my wife {0} died -->
+  <MyWifeDied.stages.my_wife_died.label>умерла жена, {0}</MyWifeDied.stages.my_wife_died.label>
+  <!-- EN: My wife is dead. I am alone. -->
+  <MyWifeDied.stages.my_wife_died.description>Моя жена мертва. Я теперь один...</MyWifeDied.stages.my_wife_died.description>
+  
+  <!-- EN: my rival {0} died -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.label>смерть соперника</PawnWithBadOpinionDied.stages.my_rival_died.label>
+  <!-- EN: Serves them right. At least there's some justice in this world. -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.description>Так ему/ей и надо. Дела налаживаются.</PawnWithBadOpinionDied.stages.my_rival_died.description>
+  
+  <!-- EN: my friend {0} died -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.label>смерть друга</PawnWithGoodOpinionDied.stages.my_friend_died.label>
+  <!-- EN: Such a wonderful person, gone forever. The universe gets darker every day. -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.description>Такой прекрасный человек. Мир темнеет каждый день.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
+  
 </LanguageData>

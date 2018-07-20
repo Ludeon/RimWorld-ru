@@ -1,48 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Some calculations for a retuning, Apr 3 2018
-
--There are 8 joy kinds: 2 with no gear, 4 from buildings, 2 from consumables. You'll generally have 3-6 kinds availabel.
--Joy falls 0.6 per day, but falls slower when low or very low.
--Each tolerance falls independently at a rate of 0.0833 / day
--Since tolerances fall independently, total tolerance fall rate for a pawn depends on the number of tolerances >0 at any time:
-    1 kind  live: 0.08 / day
-    2 kinds live: 0.17 / day
-    3 kinds live: 0.25 / day
-    4 kinds live: 0.33 / day
-    5 kinds live: 0.42 / day
-    6 kinds live: 0.50 / day
-
--B18 tuning:    Tolerance gain per joy 0.4
-    You need to get 0.6 joy per day, thus gaining 0.24 tolerance per day.
-    So you only really need to use 3 joykinds to stay ahead of that and remain in the satisfied range.
-
--1.0 tuning A:  Tolerance gain per joy 0.7
-    You need to get 0.6 joy per day, gaining 0.42 tolerance per day.
-    This is maintainable with 5 joy kinds.
-    Otherwise you'll be in the "low" range with 4 kinds.
-    And the very low range/low with 3 kinds.
-
--1.0 tuning B:  Tolerance gain per joy 0.65
-    You need to get 0.6 joy per day, gaining 0.39 tolerance per day.
-    0.7 seems a bit harsh, and I want the upper thersholds to be possible, so here I set tolerance gain per joy to 0.65
-
--1.0 tuning C:  Split tolerance drop rates per expectation level
-    Tolerances fall at different rates depending on the expectation level.
-    Low expectations retains the old behavior, others are easier and harder. -->
-
-	<LowExpectations.stages.skyhigh_expectations.label>заоблачные ожидания</LowExpectations.stages.skyhigh_expectations.label>
-	<LowExpectations.stages.skyhigh_expectations.description>Мы живём шикарно! Мне должны предоставить все удобства.</LowExpectations.stages.skyhigh_expectations.description>
-	<LowExpectations.stages.high_expectations.label>высокие ожидания</LowExpectations.stages.high_expectations.label>
-	<LowExpectations.stages.high_expectations.description>Мы уже весьма неплохо живём. Не вижу причин для того, чтобы не позаботиться о собственном комфорте.</LowExpectations.stages.high_expectations.description>
-	<LowExpectations.stages.moderate_expectations.label>умеренные ожидания</LowExpectations.stages.moderate_expectations.label>
-	<LowExpectations.stages.moderate_expectations.description>Это место не настолько богато, чтобы можно было требовать к себе повышенное внимание.</LowExpectations.stages.moderate_expectations.description>
-	<LowExpectations.stages.low_expectations.label>низкие ожидания</LowExpectations.stages.low_expectations.label>
-	<LowExpectations.stages.low_expectations.description>Нам пока что не до жиру. Особого комфорта пока не стоит ожидать.</LowExpectations.stages.low_expectations.description>
-	<LowExpectations.stages.very_low_expectations.label>очень низкие ожидания</LowExpectations.stages.very_low_expectations.label>
-	<LowExpectations.stages.very_low_expectations.description>Это место бедствует. И если не затянуть пояса, ничего не изменится.</LowExpectations.stages.very_low_expectations.description>
-	<LowExpectations.stages.extremely_low_expectations.label>крайне низкие ожидания</LowExpectations.stages.extremely_low_expectations.label>
-	<LowExpectations.stages.extremely_low_expectations.description>Сейчас и речи быть не может о каком-то комфорте. Нужно закатать губу и крепиться.</LowExpectations.stages.extremely_low_expectations.description>
-
+  
+  <!-- EN: sky-high expectations -->
+  <LowExpectations.stages.skyhigh_expectations.label>заоблачные ожидания</LowExpectations.stages.skyhigh_expectations.label>
+  <!-- EN: This place is really rich. I should be made very comfortable here. -->
+  <LowExpectations.stages.skyhigh_expectations.description>Мы живём шикарно! Мне должны предоставить все удобства.</LowExpectations.stages.skyhigh_expectations.description>
+  <!-- EN: high expectations -->
+  <LowExpectations.stages.high_expectations.label>высокие ожидания</LowExpectations.stages.high_expectations.label>
+  <!-- EN: This place is almost rich. There's no reason I shouldn't have the things I want. -->
+  <LowExpectations.stages.high_expectations.description>Мы уже весьма неплохо живём. Не вижу причин для того, чтобы не позаботиться о собственном комфорте.</LowExpectations.stages.high_expectations.description>
+  <!-- EN: moderate expectations -->
+  <LowExpectations.stages.moderate_expectations.label>умеренные ожидания</LowExpectations.stages.moderate_expectations.label>
+  <!-- EN: This place isn't quite rich. I can't expect to be totally pampered. -->
+  <LowExpectations.stages.moderate_expectations.description>Это место не настолько богато, чтобы можно было требовать к себе повышенное внимание.</LowExpectations.stages.moderate_expectations.description>
+  <!-- EN: low expectations -->
+  <LowExpectations.stages.low_expectations.label>низкие ожидания</LowExpectations.stages.low_expectations.label>
+  <!-- EN: This place doesn't have the wealth for many luxuries. I can't expect great comforts. -->
+  <LowExpectations.stages.low_expectations.description>Нам пока что не до жиру. Особого комфорта пока не стоит ожидать.</LowExpectations.stages.low_expectations.description>
+  <!-- EN: very low expectations -->
+  <LowExpectations.stages.very_low_expectations.label>очень низкие ожидания</LowExpectations.stages.very_low_expectations.label>
+  <!-- EN: This place is poverty-stricken. I need to keep myself strong to survive. -->
+  <LowExpectations.stages.very_low_expectations.description>Это место бедствует. И если не затянуть пояса, ничего не изменится.</LowExpectations.stages.very_low_expectations.description>
+  <!-- EN: extremely low expectations -->
+  <LowExpectations.stages.extremely_low_expectations.label>крайне низкие ожидания</LowExpectations.stages.extremely_low_expectations.label>
+  <!-- EN: There's nothing here to make me comfortable. I'd better steel myself to survive. -->
+  <LowExpectations.stages.extremely_low_expectations.description>Сейчас и речи быть не может о каком-то комфорте. Нужно закатать губу и крепиться.</LowExpectations.stages.extremely_low_expectations.description>
+  
 </LanguageData>

@@ -1,125 +1,96 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<OrbitalTradeBeacon.label>торговый маяк</OrbitalTradeBeacon.label>
-	<OrbitalTradeBeacon.description>Нужен для орбитальной торговли. Вы можете продавать только те вещи, которые находятся в радиусе действия маяка. Может быть установлен внутри помещения.</OrbitalTradeBeacon.description>
-	<Blueprint_OrbitalTradeBeacon.label>торговый маяк (проект)</Blueprint_OrbitalTradeBeacon.label>
-	<Blueprint_Install_OrbitalTradeBeacon.label>торговый маяк (в процессе сборки)</Blueprint_Install_OrbitalTradeBeacon.label>
-	<Frame_OrbitalTradeBeacon.label>торговый маяк (строится)</Frame_OrbitalTradeBeacon.label>
-	<Frame_OrbitalTradeBeacon.description>Нужен для орбитальной торговли. Вы можете продавать только те вещи, которые находятся в радиусе действия маяка. Может быть установлен внутри помещения.</Frame_OrbitalTradeBeacon.description>
-
-	<CommsConsole.label>консоль связи</CommsConsole.label>
-	<CommsConsole.description>Позволяет установить радиосвязь с ближайшими кораблями и поселениями для переговоров и торговли.</CommsConsole.description>
-	<Blueprint_CommsConsole.label>консоль связи (проект)</Blueprint_CommsConsole.label>
-	<Frame_CommsConsole.label>консоль связи (в процессе сборки)</Frame_CommsConsole.label>
-	<Frame_CommsConsole.description>Позволяет установить радиосвязь с ближайшими кораблями и поселениями для переговоров и торговли.</Frame_CommsConsole.description>
-
-	<FirefoamPopper.label>хлопушка с пожарной пеной</FirefoamPopper.label>
-	<FirefoamPopper.description>При взаимодействии с огнём или ручной активации взрывается и разбрасывает в определённом радиусе вокруг себя пожарную пену.</FirefoamPopper.description>
-	<FirefoamPopper.comps.CompUsable.useLabel>Привести в действие пожарную хлопушку</FirefoamPopper.comps.CompUsable.useLabel>
-	<Blueprint_FirefoamPopper.label>хлопушка с пожарной пеной (проект)</Blueprint_FirefoamPopper.label>
-	<Frame_FirefoamPopper.label>хлопушка с пожарной пеной (в процессе сборки)</Frame_FirefoamPopper.label>
-	<Frame_FirefoamPopper.description>При взаимодействии с огнём или ручной активации взрывается и разбрасывает в определённом радиусе вокруг себя пожарную пену.</Frame_FirefoamPopper.description>
-	<Blueprint_Install_FirefoamPopper.label>хлопушка с пожарной пеной (проект)</Blueprint_Install_FirefoamPopper.label>
-
-	<MoisturePump.label>водяная помпа</MoisturePump.label>
-	<MoisturePump.description>Очень медленно удаляет влагу из близлежащей местности, превращая болота или неглубокие водоёмы в сухую землю, а мягкий песок — в обычный. Не влияет на глубокие водоёмы.</MoisturePump.description>
-	<Blueprint_MoisturePump.label>водяная помпа (проект)</Blueprint_MoisturePump.label>
-	<Frame_MoisturePump.label>водяная помпа (в процессе сборки)</Frame_MoisturePump.label>
-	<Frame_MoisturePump.description>Очень медленно удаляет влагу из близлежащей местности, превращая болота или неглубокие водоёмы в сухую землю. Не влияет на глубокие водоёмы.</Frame_MoisturePump.description>
-
-	<GroundPenetratingScanner.label>глубинный сканер</GroundPenetratingScanner.label>
-	<GroundPenetratingScanner.description>Направленный вниз глубинный радар, совмещённый с сонаром и датчиками магнитного поля. Позволяет находить (но не распознавать) полезные ископаемые, находящиеся глубоко под землёй. Требует огромного количества энергии.</GroundPenetratingScanner.description>
-	<Blueprint_GroundPenetratingScanner.label>глубинный сканер (проект)</Blueprint_GroundPenetratingScanner.label>
-	<Frame_GroundPenetratingScanner.label>глубинный сканер (в процессе сборки)</Frame_GroundPenetratingScanner.label>
-	<Frame_GroundPenetratingScanner.description>Направленный вниз глубинный радар, совмещённый с сонаром и датчиками магнитного поля. Позволяет находить (но не распознавать) полезные ископаемые, находящиеся глубоко под землёй. Требует огромного количества энергии.</Frame_GroundPenetratingScanner.description>
-
-	<LongRangeMineralScanner.label>сканер минералов дальнего действия</LongRangeMineralScanner.label>
-	<LongRangeMineralScanner.description>Автоматически обнаруживает ценные минералы, например золото или нефрит, в близлежащих областях на планете. Скопления могут быть обнаружены, в среднем, раз в 30 дней в радиусе 30 клеток. Установка дополнительных сканеров по соседству практически не влияет на эффективность поиска.</LongRangeMineralScanner.description>
-	<Blueprint_LongRangeMineralScanner.label>сканер минералов дальнего действия (проект)</Blueprint_LongRangeMineralScanner.label>
-	<Frame_LongRangeMineralScanner.label>сканер минералов дальнего действия (в процессе сборки)</Frame_LongRangeMineralScanner.label>
-	<Frame_LongRangeMineralScanner.description>Автоматически обнаруживает ценные минералы, например золото или нефрит, в близлежащих областях на планете. Скопления могут быть обнаружены, в среднем, раз в 30 дней в радиусе 30 клеток. Установка дополнительных сканеров по соседству практически не влияет на эффективность поиска.</Frame_LongRangeMineralScanner.description>
-
-	<!--========================== Transport pods ============================-->
-
-	<PodLauncher.label>пусковая установка для капсул</PodLauncher.label>
-	<PodLauncher.description>Устройство для подачи топлива и запуска транспортной капсулы. Можно активировать несколько пусковых установок одновременно, для этого они должны быть установлены вместе.</PodLauncher.description>
-	<Blueprint_PodLauncher.label>пусковая установка для капсул (проект)</Blueprint_PodLauncher.label>
-	<Frame_PodLauncher.label>пусковая установка для капсул (строится)</Frame_PodLauncher.label>
-	<Frame_PodLauncher.description>Устройство для подачи топлива и запуска транспортной капсулы. Можно активировать несколько пусковых установок одновременно, для этого они должны быть установлены вместе.</Frame_PodLauncher.description>
-
-	<TransportPod.label>транспортная капсула</TransportPod.label>
-	<TransportPod.description>Капсула для суборбитального полёта. Помимо переброски грузов, животных или людей, может быть использована для внезапных атак или подкрепления в битве.</TransportPod.description>
-	<Blueprint_TransportPod.label>транспортная капсула (проект)</Blueprint_TransportPod.label>
-	<Frame_TransportPod.label>транспортная капсула (в процессе сборки)</Frame_TransportPod.label>
-	<Frame_TransportPod.description>Капсула для суборбитального полёта. Помимо переброски грузов, животных или людей, может быть использована для внезапных атак или подкрепления в битве.</Frame_TransportPod.description>
-
-	<!--========================== Facilities ============================-->
-
-	<MultiAnalyzer.label>мультианализатор</MultiAnalyzer.label>
-	<MultiAnalyzer.description>Ускоряет изучение технологий. Должен быть размещён рядом со столом для исследований. Один стол может быть соединён только с одним мультианализатором.</MultiAnalyzer.description>
-	<Blueprint_MultiAnalyzer.label>мультианализатор (проект)</Blueprint_MultiAnalyzer.label>
-	<Frame_MultiAnalyzer.label>мультианализатор (в процессе сборки)</Frame_MultiAnalyzer.label>
-	<Frame_MultiAnalyzer.description>Ускоряет изучение технологий. Должен быть размещён рядом со столом для исследований. Один стол может быть соединён только с одним мультианализатором.</Frame_MultiAnalyzer.description>
-	<Blueprint_Install_MultiAnalyzer.label>мультианализатор (проект)</Blueprint_Install_MultiAnalyzer.label>
-
-	<VitalsMonitor.label>монитор жизненных показателей</VitalsMonitor.label>
-	<VitalsMonitor.description>Улучшает качество лечения, повышает вероятность успешной операции и скорость иммунизации. Должен быть размещён рядом с больничной кроватью. Одна кровать может быть подключена только к одному монитору.</VitalsMonitor.description>
-	<Blueprint_VitalsMonitor.label>монитор жизненных показателей (проект)</Blueprint_VitalsMonitor.label>
-	<Frame_VitalsMonitor.label>монитор жизненных показателей (в процессе сборки)</Frame_VitalsMonitor.label>
-	<Frame_VitalsMonitor.description>Улучшает качество лечения, повышает вероятность успешной операции и скорость иммунизации. Должен быть размещён рядом с больничной кроватью. Одна кровать может быть подключена только к одному монитору.</Frame_VitalsMonitor.description>
-	<Blueprint_Install_VitalsMonitor.label>монитор жизненных показателей (проект)</Blueprint_Install_VitalsMonitor.label>
-
-	<ToolCabinet.label>шкаф для инструментов</ToolCabinet.label>
-	<ToolCabinet.description>Увеличивает скорость работы. Должен быть размещён неподалёку от верстака. К одному верстаку могут быть одновременно привязаны не более двух шкафов для инструментов.</ToolCabinet.description>
-	<Blueprint_ToolCabinet.label>шкаф для инструментов (проект)</Blueprint_ToolCabinet.label>
-	<Frame_ToolCabinet.label>шкаф для инструментов (в процессе сборки)</Frame_ToolCabinet.label>
-	<Frame_ToolCabinet.description>Увеличивает скорость работы. Должен быть размещён неподалёку от верстака. К одному верстаку могут быть одновременно привязаны не более двух шкафов для инструментов.</Frame_ToolCabinet.description>
-	<Blueprint_Install_ToolCabinet.label>шкаф для инструментов (проект)</Blueprint_Install_ToolCabinet.label>
-
-	<!--=========================== Graves ============================-->
-
-	<Grave.label>могила</Grave.label>
-	<Grave.description>Хорошее место для последнего пристанища. Поселенцы будут иногда посещать могилы, чтобы почтить память усопших.</Grave.description>
-	<Blueprint_Grave.label>могила (проект)</Blueprint_Grave.label>
-	<Frame_Grave.label>могила (идёт рытьё)</Frame_Grave.label>
-	<Frame_Grave.description>Хорошее место для последнего пристанища. Поселенцы будут иногда посещать могилы, чтобы почтить память усопших.</Frame_Grave.description>
-
-	<Sarcophagus.label>саркофаг</Sarcophagus.label>
-	<Sarcophagus.description>Украшенное орнаментами вместилище для почётных усопших.</Sarcophagus.description>
-	<Blueprint_Sarcophagus.label>саркофаг (проект)</Blueprint_Sarcophagus.label>
-	<Frame_Sarcophagus.label>саркофаг (в процессе сборки)</Frame_Sarcophagus.label>
-	<Frame_Sarcophagus.description>Украшенное орнаментами вместилище для почётных усопших.</Frame_Sarcophagus.description>
-
-	<!--======================= Cryptosleep caskets ===========================-->
-
-	<CryptosleepCasket.label>контейнер криптосна</CryptosleepCasket.label>
-	<CryptosleepCasket.description>Автономный саркофаг, разработанный чтобы поддерживать человека в состоянии анабиоза в течение многих лет.</CryptosleepCasket.description>
-	<Blueprint_CryptosleepCasket.label>контейнер криптосна (проект)</Blueprint_CryptosleepCasket.label>
-	<Frame_CryptosleepCasket.label>контейнер криптосна (в процессе сборки)</Frame_CryptosleepCasket.label>
-	<Frame_CryptosleepCasket.description>Автономный саркофаг, разработанный чтобы поддерживать человека в состоянии анабиоза в течение многих лет.</Frame_CryptosleepCasket.description>
-
-	<AncientCryptosleepCasket.label>древний контейнер криптосна</AncientCryptosleepCasket.label>
-	<AncientCryptosleepCasket.description>Этот контейнер криптосна выглядит так, будто он пробыл здесь уже очень долгое время. Кто знает, что может быть внутри?</AncientCryptosleepCasket.description>
-
-	<!--============================ Spots =============================-->
-
-	<MarriageSpot.label>место проведения свадеб</MarriageSpot.label>
-	<MarriageSpot.description>Назначает место для проведения свадебных церемоний. Зрители могут смотреть с любой стороны.</MarriageSpot.description>
-	<Blueprint_MarriageSpot.label>место проведения свадеб (проект)</Blueprint_MarriageSpot.label>
-	<Frame_MarriageSpot.label>место проведения свадеб (обустраивается)</Frame_MarriageSpot.label>
-	<Frame_MarriageSpot.description>Назначает место для проведения свадебных церемоний. Зрители могут смотреть с любой стороны.</Frame_MarriageSpot.description>
-
-	<PartySpot.label>место проведения вечеринок</PartySpot.label>
-	<PartySpot.description>Назначает место, рядом с которым будут проходить вечеринки.</PartySpot.description>
-	<Blueprint_PartySpot.label>место проведения вечеринок (проект)</Blueprint_PartySpot.label>
-	<Frame_PartySpot.label>место проведения вечеринок (обустраивается)</Frame_PartySpot.label>
-	<Frame_PartySpot.description>Назначает место, рядом с которым будут проходить вечеринки.</Frame_PartySpot.description>
-
-	<CaravanPackingSpot.label>место сбора каравана</CaravanPackingSpot.label>
-	<CaravanPackingSpot.description>Назначает место, где будут снаряжаться караваны. Для ускорения сборов имеет смысл указать место недалеко от склада.</CaravanPackingSpot.description>
-	<Blueprint_CaravanPackingSpot.label>место сбора каравана (проект)</Blueprint_CaravanPackingSpot.label>
-	<Frame_CaravanPackingSpot.label>место сбора каравана (обустраивается)</Frame_CaravanPackingSpot.label>
-	<Frame_CaravanPackingSpot.description>Назначает место, где будут снаряжаться караваны. Для ускорения сборов имеет смысл указать место недалеко от склада.</Frame_CaravanPackingSpot.description>
-
+  
+  <!-- EN: ancient cryptosleep casket -->
+  <AncientCryptosleepCasket.label>древний контейнер криптосна</AncientCryptosleepCasket.label>
+  <!-- EN: This cryptosleep casket looks like it has been here for a very long time. Who knows what it might contain? -->
+  <AncientCryptosleepCasket.description>Этот контейнер криптосна выглядит так, будто он пробыл здесь уже очень долгое время. Кто знает, что может быть внутри?</AncientCryptosleepCasket.description>
+  
+  <!-- EN: caravan packing spot -->
+  <CaravanPackingSpot.label>место сбора каравана</CaravanPackingSpot.label>
+  <!-- EN: Designates a spot for forming caravans. Put this near your stockpiles to speed up the caravan loading process. -->
+  <CaravanPackingSpot.description>Назначает место, где будут снаряжаться караваны. Для ускорения сборов имеет смысл указать место недалеко от склада.</CaravanPackingSpot.description>
+  
+  <!-- EN: comms console -->
+  <CommsConsole.label>консоль связи</CommsConsole.label>
+  <!-- EN: Allows radio contact with other factions and orbital traders. -->
+  <CommsConsole.description>Позволяет установить радиосвязь с ближайшими кораблями и поселениями для переговоров и торговли.</CommsConsole.description>
+  
+  <!-- EN: cryptosleep casket -->
+  <CryptosleepCasket.label>контейнер криптосна</CryptosleepCasket.label>
+  <!-- EN: A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years. -->
+  <CryptosleepCasket.description>Автономный саркофаг, разработанный чтобы поддерживать человека в состоянии анабиоза в течение многих лет.</CryptosleepCasket.description>
+  
+  <!-- EN: firefoam popper -->
+  <FirefoamPopper.label>хлопушка с пожарной пеной</FirefoamPopper.label>
+  <!-- EN: When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually. -->
+  <FirefoamPopper.description>При взаимодействии с огнём или ручной активации взрывается и разбрасывает в определённом радиусе вокруг себя пожарную пену.</FirefoamPopper.description>
+  <!-- EN: Trigger firefoam popper -->
+  <FirefoamPopper.comps.CompUsable.useLabel>Привести в действие пожарную хлопушку</FirefoamPopper.comps.CompUsable.useLabel>
+  
+  <!-- EN: grave -->
+  <Grave.label>могила</Grave.label>
+  <!-- EN: A decent final resting place. Colonists will visit full graves to gain meditative joy. -->
+  <Grave.description>Хорошее место для последнего пристанища. Поселенцы будут иногда посещать могилы, чтобы почтить память усопших.</Grave.description>
+  
+  <!-- EN: ground-penetrating scanner -->
+  <GroundPenetratingScanner.label>глубинный сканер</GroundPenetratingScanner.label>
+  <!-- EN: A downward-facing penetrating radar, combined with sonar and magnetic imagers, allows you to detect (but not identify) minerals buried deep under the surface. Requires a huge amount of electricity. -->
+  <GroundPenetratingScanner.description>Направленный вниз глубинный радар, совмещённый с сонаром и датчиками магнитного поля. Позволяет находить (но не распознавать) полезные ископаемые, находящиеся глубоко под землёй. Требует огромного количества энергии.</GroundPenetratingScanner.description>
+  
+  <!-- EN: long-range mineral scanner -->
+  <LongRangeMineralScanner.label>сканер минералов дальнего действия</LongRangeMineralScanner.label>
+  <!-- EN: Automatically detects precious minerals like gold or jade in destinations across the planet. The lumps are found on average once per 30 days within a radius of 30 planet tiles. Building more than one scanner in the same or nearby areas has little to no effect. -->
+  <LongRangeMineralScanner.description>Автоматически обнаруживает ценные минералы, например золото или нефрит, в близлежащих областях на планете. Скопления могут быть обнаружены, в среднем, раз в 30 дней в радиусе 30 клеток. Установка дополнительных сканеров по соседству практически не влияет на эффективность поиска.</LongRangeMineralScanner.description>
+  
+  <!-- EN: marriage spot -->
+  <MarriageSpot.label>место проведения свадеб</MarriageSpot.label>
+  <!-- EN: Designates a spot where marriage ceremonies will take place. Spectators can watch from either side. -->
+  <MarriageSpot.description>Назначает место для проведения свадебных церемоний. Зрители могут смотреть с любой стороны.</MarriageSpot.description>
+  
+  <!-- EN: moisture pump -->
+  <MoisturePump.label>водяная помпа</MoisturePump.label>
+  <!-- EN: Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, and soft sand into normal sand. Does not affect deep water. -->
+  <MoisturePump.description>Очень медленно удаляет влагу из близлежащей местности, превращая болота или неглубокие водоёмы в сухую землю, а мягкий песок — в обычный. Не влияет на глубокие водоёмы.</MoisturePump.description>
+  
+  <!-- EN: multi-analyzer -->
+  <MultiAnalyzer.label>мультианализатор</MultiAnalyzer.label>
+  <!-- EN: Increases research speed when placed near hi-tech research bench and unlocks new research projects. Each research bench can only use one multi-analyzer. -->
+  <MultiAnalyzer.description>Ускоряет изучение технологий. Должен быть размещён рядом со столом для исследований. Один стол может быть соединён только с одним мультианализатором.</MultiAnalyzer.description>
+  
+  <!-- EN: orbital trade beacon -->
+  <OrbitalTradeBeacon.label>торговый маяк</OrbitalTradeBeacon.label>
+  <!-- EN: Required for orbital trading. You can only sell goods to orbital traders if they're near an orbital trade beacon. Can be placed indoors. -->
+  <OrbitalTradeBeacon.description>Нужен для орбитальной торговли. Вы можете продавать только те вещи, которые находятся в радиусе действия маяка. Может быть установлен внутри помещения.</OrbitalTradeBeacon.description>
+  
+  <!-- EN: party spot -->
+  <PartySpot.label>место проведения вечеринок</PartySpot.label>
+  <!-- EN: Designates a spot for throwing parties. -->
+  <PartySpot.description>Назначает место, рядом с которым будут проходить вечеринки.</PartySpot.description>
+  
+  <!-- EN: pod launcher -->
+  <PodLauncher.label>пусковая установка для капсул</PodLauncher.label>
+  <!-- EN: A fueling port for launching one transport pod. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other. -->
+  <PodLauncher.description>Устройство для подачи топлива и запуска транспортной капсулы. Можно активировать несколько пусковых установок одновременно, для этого они должны быть установлены вместе.</PodLauncher.description>
+  
+  <!-- EN: sarcophagus -->
+  <Sarcophagus.label>саркофаг</Sarcophagus.label>
+  <!-- EN: An ornamented burial receptacle for the honored dead. -->
+  <Sarcophagus.description>Украшенное орнаментами вместилище для почётных усопших.</Sarcophagus.description>
+  
+  <!-- EN: tool cabinet -->
+  <ToolCabinet.label>шкаф для инструментов</ToolCabinet.label>
+  <!-- EN: Increases work speed when placed near a workbench. One workbench use to up to two tool cabinets. -->
+  <ToolCabinet.description>Увеличивает скорость работы. Должен быть размещён неподалёку от верстака. К одному верстаку могут быть одновременно привязаны не более двух шкафов для инструментов.</ToolCabinet.description>
+  
+  <!-- EN: transport pod -->
+  <TransportPod.label>транспортная капсула</TransportPod.label>
+  <!-- EN: A launchable sub-orbital cargo pod capable of carrying people, items, or animals. Can be used for sending gifts, transporting people or supplies, surprise attacks, or reinforcing battles. -->
+  <TransportPod.description>Капсула для суборбитального полёта. Помимо переброски грузов, животных или людей, может быть использована для внезапных атак или подкрепления в битве.</TransportPod.description>
+  
+  <!-- EN: vitals monitor -->
+  <VitalsMonitor.label>монитор жизненных показателей</VitalsMonitor.label>
+  <!-- EN: Increases medical tend quality, surgery success chance, and immunity gain speed when placed directly adjacent to a hospital bed. Only works for hospital beds - normal beds will not benefit. Attaching more than one vitals monitor to the same bed will have no effect. -->
+  <VitalsMonitor.description>Улучшает качество лечения, повышает вероятность успешной операции и скорость иммунизации. Должен быть размещён рядом с больничной кроватью. Одна кровать может быть подключена только к одному монитору.</VitalsMonitor.description>
+  
 </LanguageData>

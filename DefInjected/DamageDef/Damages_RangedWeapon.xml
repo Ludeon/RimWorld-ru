@@ -1,17 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<!-- Temporary hack; ranged weapons need to use the old pre-flavorful-combat system to avoid a rebalance cascade. -->
-	<RangedStab.label>укол</RangedStab.label>
-	<RangedStab.deathMessage>{0} получает смертельную колотую рану.</RangedStab.deathMessage>
-
-	<Bullet.label>пуля</Bullet.label>
-	<Bullet.deathMessage>{0} получает смертельную огнестрельную рану.</Bullet.deathMessage>
-
-	<Arrow.label>стрела</Arrow.label>
-	<Arrow.deathMessage>{0} погибает от стрелы из лука.</Arrow.deathMessage>
-
-	<ArrowHighVelocity.label>стрела</ArrowHighVelocity.label>
-	<ArrowHighVelocity.deathMessage>{0} погибает от стрелы из лука.</ArrowHighVelocity.deathMessage>
-
+  
+  <!-- EN: arrow -->
+  <Arrow.label>стрела</Arrow.label>
+  <!-- EN: {0} has been shot to death by an arrow. -->
+  <Arrow.deathMessage>{0} погибает от стрелы из лука.</Arrow.deathMessage>
+  
+  <!-- EN: arrow -->
+  <ArrowHighVelocity.label>стрела</ArrowHighVelocity.label>
+  <!-- EN: {0} has been shot to death by an arrow. -->
+  <ArrowHighVelocity.deathMessage>{0} погибает от стрелы из лука.</ArrowHighVelocity.deathMessage>
+  
+  <!-- EN: bullet -->
+  <Bullet.label>пуля</Bullet.label>
+  <!-- EN: {0} has been shot to death. -->
+  <Bullet.deathMessage>{0} получает смертельную огнестрельную рану.</Bullet.deathMessage>
+  
+  <!-- EN: stab -->
+  <RangedStab.label>укол</RangedStab.label>
+  <!-- EN: {0} has been stabbed to death. -->
+  <RangedStab.deathMessage>{0} получает смертельную колотую рану.</RangedStab.deathMessage>
+  
 </LanguageData>

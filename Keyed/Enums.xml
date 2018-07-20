@@ -1,174 +1,298 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- glow -->
-	<Dark>Темно</Dark>
-	<Lit>Светло</Lit>
-	<LitBrightly>Очень светло</LitBrightly>
+  <!-- Glow -->
+  <!-- EN: Dark -->
+  <Dark>Темно</Dark>
+  <!-- EN: Lit -->
+  <Lit>Светло</Lit>
+  <!-- EN: Brightly lit -->
+  <LitBrightly>Очень светло</LitBrightly>
+  
+  <!-- History upload pref -->
+  <!-- EN: Undecided -->
+  <Unspecified>Ещё не решено</Unspecified>
+  <!-- EN: Allow -->
+  <Always>Позволять</Always>
+  <!-- EN: Do not allow -->
+  <Never>Не позволять</Never>
+  
+  <!-- Price types -->
+  <!-- EN: very cheap -->
+  <PriceTypeVeryCheap>очень дешёвая</PriceTypeVeryCheap>
+  <!-- EN: cheap -->
+  <PriceTypeCheap>дешёвая</PriceTypeCheap>
+  <!-- EN: normal -->
+  <PriceTypeNormal>нормальная</PriceTypeNormal>
+  <!-- EN: expensive -->
+  <PriceTypeExpensive>высокая</PriceTypeExpensive>
+  <!-- EN: exorbitant -->
+  <PriceTypeExorbitant>непомерная</PriceTypeExorbitant>
 
-	<!-- history upload pref -->
-	<Unspecified>Ещё не решено</Unspecified>
-	<Always>Позволять</Always>
-	<Never>Не позволять</Never>
+  <!-- Storage priority labels -->
+  <!-- EN: unstored -->
+  <StoragePriorityUnstored>не использовать</StoragePriorityUnstored>
+  <!-- EN: low -->
+  <StoragePriorityLow>низкий</StoragePriorityLow>
+  <!-- EN: normal -->
+  <StoragePriorityNormal>обычный</StoragePriorityNormal>
+  <!-- EN: preferred -->
+  <StoragePriorityPreferred>повышенный</StoragePriorityPreferred>
+  <!-- EN: important -->
+  <StoragePriorityImportant>высокий</StoragePriorityImportant>
+  <!-- EN: critical -->
+  <StoragePriorityCritical>максимальный</StoragePriorityCritical>
 
-	<!-- Price types -->
-	<PriceTypeVeryCheap>очень дешёвая</PriceTypeVeryCheap>
-	<PriceTypeCheap>дешёвая</PriceTypeCheap>
-	<PriceTypeNormal>нормальная</PriceTypeNormal>
-	<PriceTypeExpensive>высокая</PriceTypeExpensive>
-	<PriceTypeExorbitant>непомерная</PriceTypeExorbitant>
+  <!-- Food type flags -->
+  <!-- EN: vegetables -->
+  <FoodTypeFlags_VegetableOrFruit>овощи/фрукты</FoodTypeFlags_VegetableOrFruit>
+  <!-- EN: raw meat -->
+  <FoodTypeFlags_Meat>сырое мясо</FoodTypeFlags_Meat>
+  <!-- EN: corpses -->
+  <FoodTypeFlags_Corpse>тела</FoodTypeFlags_Corpse>
+  <!-- EN: seeds -->
+  <FoodTypeFlags_Seed>семена</FoodTypeFlags_Seed>
+  <!-- EN: animal products -->
+  <FoodTypeFlags_AnimalProduct>животные продукты</FoodTypeFlags_AnimalProduct>
+  <!-- EN: live plants -->
+  <FoodTypeFlags_Plant>живые растения</FoodTypeFlags_Plant>
+  <!-- EN: live trees -->
+  <FoodTypeFlags_Tree>живые деревья</FoodTypeFlags_Tree>
+  <!-- EN: meals -->
+  <FoodTypeFlags_Meal>блюда</FoodTypeFlags_Meal>
+  <!-- EN: processed foods -->
+  <FoodTypeFlags_Processed>обработанная пища</FoodTypeFlags_Processed>
+  <!-- EN: liquor -->
+  <FoodTypeFlags_Liquor>спиртное</FoodTypeFlags_Liquor>
+  <!-- EN: kibble -->
+  <FoodTypeFlags_Kibble>комбикорм</FoodTypeFlags_Kibble>
 
-	<!-- Storage priority labels -->
-	<StoragePriorityUnstored>не использовать</StoragePriorityUnstored>
-	<StoragePriorityLow>низкий</StoragePriorityLow>
-	<StoragePriorityNormal>обычный</StoragePriorityNormal>
-	<StoragePriorityPreferred>повышенный</StoragePriorityPreferred>
-	<StoragePriorityImportant>высокий</StoragePriorityImportant>
-	<StoragePriorityCritical>максимальный</StoragePriorityCritical>
+  <!-- Quality category -->
+  <!-- EN: awful -->
+  <QualityCategory_Awful>ужасно</QualityCategory_Awful>
+  <!-- EN: poor -->
+  <QualityCategory_Poor>плохо</QualityCategory_Poor>
+  <!-- EN: normal -->
+  <QualityCategory_Normal>нормально</QualityCategory_Normal>
+  <!-- EN: good -->
+  <QualityCategory_Good>хорошо</QualityCategory_Good>
+  <!-- EN: excellent -->
+  <QualityCategory_Excellent>отлично</QualityCategory_Excellent>
+  <!-- EN: masterwork -->
+  <QualityCategory_Masterwork>шедевр</QualityCategory_Masterwork>
+  <!-- EN: legendary -->
+  <QualityCategory_Legendary>легенда</QualityCategory_Legendary>
+  <!-- EN: awfl -->
+  <QualityCategoryShort_Awful>ужасн</QualityCategoryShort_Awful>
+  <!-- EN: poor -->
+  <QualityCategoryShort_Poor>плох</QualityCategoryShort_Poor>
+  <!-- EN: norm -->
+  <QualityCategoryShort_Normal>норм</QualityCategoryShort_Normal>
+  <!-- EN: good -->
+  <QualityCategoryShort_Good>хор</QualityCategoryShort_Good>
+  <!-- EN: exc -->
+  <QualityCategoryShort_Excellent>отл</QualityCategoryShort_Excellent>
+  <!-- EN: mast -->
+  <QualityCategoryShort_Masterwork>шедевр</QualityCategoryShort_Masterwork>
+  <!-- EN: legd -->
+  <QualityCategoryShort_Legendary>леген</QualityCategoryShort_Legendary>
+  
+  <!-- Hunger -->
+  <!-- EN: Starving -->
+  <HungerLevel_Starving>Голодает</HungerLevel_Starving>
+  <!-- EN: Urgently hungry -->
+  <HungerLevel_UrgentlyHungry>Недоедает</HungerLevel_UrgentlyHungry>
+  <!-- EN: Hungry -->
+  <HungerLevel_Hungry>Хочет есть</HungerLevel_Hungry>
+  <!-- EN: Fed -->
+  <HungerLevel_Fed>Накормлен</HungerLevel_Fed>
 
-	<!-- Food type flags -->
-	<FoodTypeFlags_VegetableOrFruit>овощи/фрукты</FoodTypeFlags_VegetableOrFruit>
-	<FoodTypeFlags_Meat>сырое мясо</FoodTypeFlags_Meat>
-	<FoodTypeFlags_Corpse>тела</FoodTypeFlags_Corpse>
-	<FoodTypeFlags_Seed>семена</FoodTypeFlags_Seed>
-	<FoodTypeFlags_AnimalProduct>животные продукты</FoodTypeFlags_AnimalProduct>
-	<FoodTypeFlags_Plant>живые растения</FoodTypeFlags_Plant>
-	<FoodTypeFlags_Tree>живые деревья</FoodTypeFlags_Tree>
-	<FoodTypeFlags_Meal>блюда</FoodTypeFlags_Meal>
-	<FoodTypeFlags_Processed>обработанная пища</FoodTypeFlags_Processed>
-	<FoodTypeFlags_Liquor>спиртное</FoodTypeFlags_Liquor>
-	<FoodTypeFlags_Kibble>комбикорм</FoodTypeFlags_Kibble>
+  <!-- -Fatigue -->
+  <!-- EN: Exhausted -->
+  <HungerLevel_Exhausted>Обессилел(а)</HungerLevel_Exhausted>
+  <!-- EN: Very tired -->
+  <HungerLevel_VeryTired>Очень устал(а)</HungerLevel_VeryTired>
+  <!-- EN: Tired -->
+  <HungerLevel_Tired>Устал(а)</HungerLevel_Tired>
+  <!-- EN: Rested -->
+  <HungerLevel_Rested>Отдохнул(а)</HungerLevel_Rested>
 
-	<!-- Quality category -->
-	<QualityCategory_Awful>ужасно</QualityCategory_Awful>
-	<QualityCategory_Poor>плохо</QualityCategory_Poor>
-	<QualityCategory_Normal>нормально</QualityCategory_Normal>
-	<QualityCategory_Good>хорошо</QualityCategory_Good>
-	<QualityCategory_Excellent>отлично</QualityCategory_Excellent>
-	<QualityCategory_Masterwork>шедевр</QualityCategory_Masterwork>
-	<QualityCategory_Legendary>легенда</QualityCategory_Legendary>
-	<QualityCategoryShort_Awful>ужасн</QualityCategoryShort_Awful>
-	<QualityCategoryShort_Poor>плох</QualityCategoryShort_Poor>
-	<QualityCategoryShort_Normal>норм</QualityCategoryShort_Normal>
-	<QualityCategoryShort_Good>хор</QualityCategoryShort_Good>
-	<QualityCategoryShort_Excellent>отл</QualityCategoryShort_Excellent>
-	<QualityCategoryShort_Masterwork>шедевр</QualityCategoryShort_Masterwork>
-	<QualityCategoryShort_Legendary>леген</QualityCategoryShort_Legendary>
+  <!-- Hilliness -->
+  <!-- EN: flat -->
+  <Hilliness_Flat>равнина</Hilliness_Flat>
+  <!-- EN: small hills -->
+  <Hilliness_SmallHills>возвышенности</Hilliness_SmallHills>
+  <!-- EN: large hills -->
+  <Hilliness_LargeHills>большие холмы</Hilliness_LargeHills>
+  <!-- EN: mountainous -->
+  <Hilliness_Mountainous>горы</Hilliness_Mountainous>
+  <!-- EN: impassable -->
+  <Hilliness_Impassable>непроходимые горы</Hilliness_Impassable>
+  
+  <!-- Steam workshop interaction -->
+  <!-- EN: Creating -->
+  <WorkshopInteractStage_CreatingItem>Создать</WorkshopInteractStage_CreatingItem>
+  <!-- EN: Submitting -->
+  <WorkshopInteractStage_SubmittingItem>Представить</WorkshopInteractStage_SubmittingItem>
+  <!-- EN: Invalid -->
+  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Недоступно</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <!-- EN: Preparing config data -->
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Подготовка конфигурации</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <!-- EN: Preparing content files -->
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Подготовить файлов содержимого</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <!-- EN: Uploading content -->
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Загрузка содержимого</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <!-- EN: Uploading preview file -->
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Загрузка файла предварительного просмотра</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <!-- EN: Committing changes -->
+  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Фиксация изменений</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
-	<!-- Hunger -->
-	<HungerLevel_Starving>Голодает</HungerLevel_Starving>
-	<HungerLevel_UrgentlyHungry>Недоедает</HungerLevel_UrgentlyHungry>
-	<HungerLevel_Hungry>Хочет есть</HungerLevel_Hungry>
-	<HungerLevel_Fed>Накормлен</HungerLevel_Fed>
+  <!-- Mod sources -->
+  <!-- EN: local folder -->
+  <ContentSource_LocalFolder>локальная директория</ContentSource_LocalFolder>
+  <!-- EN: Steam Workshop -->
+  <ContentSource_SteamWorkshop>Мастерская Steam</ContentSource_SteamWorkshop>
+  
+  <!-- Medical care category -->
+  <!-- EN: No medical care -->
+  <MedicalCareCategory_NoCare>Без медицинской помощи</MedicalCareCategory_NoCare>
+  <!-- EN: Doctor care, but no medicine -->
+  <MedicalCareCategory_NoMeds>Врачебный уход без лекарств</MedicalCareCategory_NoMeds>
+  <!-- EN: Herbal medicine or worse -->
+  <MedicalCareCategory_HerbalOrWorse>Лечение лекарственными травами</MedicalCareCategory_HerbalOrWorse>
+  <!-- EN: Industrial-tech medicine or worse -->
+  <MedicalCareCategory_NormalOrWorse>Лечение медикаментами индустриальной эры</MedicalCareCategory_NormalOrWorse>
+  <!-- EN: Best quality medicine -->
+  <MedicalCareCategory_Best>Лечение передовыми медикаментами</MedicalCareCategory_Best>
 
-	<!-- -Fatigue -->
-	<HungerLevel_Exhausted>Обессилел(а)</HungerLevel_Exhausted>
-	<HungerLevel_VeryTired>Очень устал(а)</HungerLevel_VeryTired>
-	<HungerLevel_Tired>Устал(а)</HungerLevel_Tired>
-	<HungerLevel_Rested>Отдохнул(а)</HungerLevel_Rested>
+  <!-- Hostility response mode -->
+  <!-- EN: Ignore -->
+  <HostilityResponseMode_Ignore>Игнорировать</HostilityResponseMode_Ignore>
+  <!-- EN: Attack -->
+  <HostilityResponseMode_Attack>Атаковать</HostilityResponseMode_Attack>
+  <!-- EN: Flee -->
+  <HostilityResponseMode_Flee>Убегать</HostilityResponseMode_Flee>
+  
+  <!-- HediffGrowthMode -->
+  <!-- EN: growing -->
+  <HediffGrowthMode_Growing>растёт</HediffGrowthMode_Growing>
+  <!-- EN: stable -->
+  <HediffGrowthMode_Stable>стабильно</HediffGrowthMode_Stable>
+  <!-- EN: remission -->
+  <HediffGrowthMode_Remission>ремиссия</HediffGrowthMode_Remission>
 
-	<!-- Hilliness -->
-	<Hilliness_Flat>равнина</Hilliness_Flat>
-	<Hilliness_SmallHills>возвышенности</Hilliness_SmallHills>
-	<Hilliness_LargeHills>большие холмы</Hilliness_LargeHills>
-	<Hilliness_Mountainous>горы</Hilliness_Mountainous>
-	<Hilliness_Impassable>непроходимые горы</Hilliness_Impassable>
+  <!-- TechLevel -->
+  <!-- EN: animal -->
+  <TechLevel_Animal>животные</TechLevel_Animal>
+  <!-- EN: neolithic -->
+  <TechLevel_Neolithic>неолит</TechLevel_Neolithic>
+  <!-- EN: medieval -->
+  <TechLevel_Medieval>средневековый</TechLevel_Medieval>
+  <!-- EN: industrial -->
+  <TechLevel_Industrial>индустриальный</TechLevel_Industrial>
+  <!-- EN: spacer -->
+  <TechLevel_Spacer>космический</TechLevel_Spacer>
+  <!-- EN: ultra -->
+  <TechLevel_Ultra>утопический</TechLevel_Ultra>
+  <!-- EN: archotech -->
+  <TechLevel_Archotech>архотек</TechLevel_Archotech>
 
-	<!-- Steam workshop interaction -->
-	<WorkshopInteractStage_CreatingItem>Создать</WorkshopInteractStage_CreatingItem>
-	<WorkshopInteractStage_SubmittingItem>Представить</WorkshopInteractStage_SubmittingItem>
-	<EItemUpdateStatus_k_EItemUpdateStatusInvalid>Недоступно</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
-	<EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Подготовка конфигурации</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
-	<EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Подготовить файлов содержимого</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
-	<EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Загрузка содержимого</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
-	<EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Загрузка файла предварительного просмотра</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
-	<EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Фиксация изменений</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+  <!-- Player pawns arrive method -->
+  <!-- EN: Standing -->
+  <PlayerPawnsArriveMethod_Standing>Стоя</PlayerPawnsArriveMethod_Standing>
+  <!-- EN: Drop pods -->
+  <PlayerPawnsArriveMethod_DropPods>В капсулах</PlayerPawnsArriveMethod_DropPods>
 
-	<!-- Mod sources -->
-	<ContentSource_LocalFolder>локальная директория</ContentSource_LocalFolder>
-	<ContentSource_SteamWorkshop>Мастерская Steam</ContentSource_SteamWorkshop>
+  <!-- Pawn generation context -->
+  <!-- EN: all characters -->
+  <PawnGenerationContext_All>все персонажи</PawnGenerationContext_All>
+  <!-- EN: player starting characters -->
+  <PawnGenerationContext_PlayerStarter>персонажи игрока</PawnGenerationContext_PlayerStarter>
+  <!-- EN: non-player characters -->
+  <PawnGenerationContext_NonPlayer>неигровые персонажи</PawnGenerationContext_NonPlayer>
+  
+  <!-- Animal name display mode -->
+  <!-- EN: Show animal names -->
+  <ShowAnimalNames>Названия животных</ShowAnimalNames>
+  <!-- EN: Tame (named only) -->
+  <AnimalNameDisplayMode_TameNamed>Приручённые (только имена)</AnimalNameDisplayMode_TameNamed>
+  <!-- EN: Tame (all) -->
+  <AnimalNameDisplayMode_TameAll>Приручённые (все)</AnimalNameDisplayMode_TameAll>
+  
+  <!-- Temperature -->
+  <!-- EN: Celsius -->
+  <Celsius>Цельсий</Celsius>
+  <!-- EN: Fahrenheit -->
+  <Fahrenheit>Фаренгейт</Fahrenheit>
+  <!-- EN: Kelvin -->
+  <Kelvin>Кельвин</Kelvin>
+  
+  <!-- Direction8Way -->
+  <!-- EN: N -->
+  <Direction8Way_North_Short>С</Direction8Way_North_Short>
+  <!-- EN: NE -->
+  <Direction8Way_NorthEast_Short>СВ</Direction8Way_NorthEast_Short>
+  <!-- EN: E -->
+  <Direction8Way_East_Short>В</Direction8Way_East_Short>
+  <!-- EN: SE -->
+  <Direction8Way_SouthEast_Short>ЮВ</Direction8Way_SouthEast_Short>
+  <!-- EN: S -->
+  <Direction8Way_South_Short>Ю</Direction8Way_South_Short>
+  <!-- EN: SW -->
+  <Direction8Way_SouthWest_Short>ЮЗ</Direction8Way_SouthWest_Short>
+  <!-- EN: W -->
+  <Direction8Way_West_Short>З</Direction8Way_West_Short>
+  <!-- EN: NW -->
+  <Direction8Way_NorthWest_Short>СЗ</Direction8Way_NorthWest_Short>
+  
+  <!-- Diet category -->
+  <!-- EN: Never eats -->
+  <DietCategory_NeverEats>Не нуждается в пище</DietCategory_NeverEats>
+  <!-- EN: Herbivorous -->
+  <DietCategory_Herbivorous>Травоядное</DietCategory_Herbivorous>
+  <!-- EN: Dendrovorous -->
+  <DietCategory_Dendrovorous>Древоядное</DietCategory_Dendrovorous>
+  <!-- EN: Ovivorous -->
+  <DietCategory_Ovivorous>Яйцеядное</DietCategory_Ovivorous>
+  <!-- EN: Omnivorous -->
+  <DietCategory_Omnivorous>Всеядное</DietCategory_Omnivorous>
+  <!-- EN: Carnivorous -->
+  <DietCategory_Carnivorous>Хищное</DietCategory_Carnivorous>
+  <!-- EN: - -->
+  <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
+  <!-- EN: H -->
+  <DietCategory_Herbivorous_Short>Т</DietCategory_Herbivorous_Short>
+  <!-- EN: D -->
+  <DietCategory_Dendrovorous_Short>Д</DietCategory_Dendrovorous_Short>
+  <!-- EN: Ov -->
+  <DietCategory_Ovivorous_Short>Я</DietCategory_Ovivorous_Short>
+  <!-- EN: O -->
+  <DietCategory_Omnivorous_Short>В</DietCategory_Omnivorous_Short>
+  <!-- EN: C -->
+  <DietCategory_Carnivorous_Short>Х</DietCategory_Carnivorous_Short>
 
-	<!-- Medical care category -->
-	<MedicalCareCategory_NoCare>Без медицинской помощи</MedicalCareCategory_NoCare>
-	<MedicalCareCategory_NoMeds>Врачебный уход без лекарств</MedicalCareCategory_NoMeds>
-	<MedicalCareCategory_HerbalOrWorse>Лечение лекарственными травами</MedicalCareCategory_HerbalOrWorse>
-	<MedicalCareCategory_NormalOrWorse>Лечение медикаментами индустриальной эры</MedicalCareCategory_NormalOrWorse>
-	<MedicalCareCategory_Best>Лечение передовыми медикаментами</MedicalCareCategory_Best>
+  <!-- Food poison cause -->
+  <!-- EN: incompetent cook -->
+  <FoodPoisonCause_IncompetentCook>неопытный повар</FoodPoisonCause_IncompetentCook>
+  <!-- EN: dirty cooking area -->
+  <FoodPoisonCause_FilthyKitchen>грязь на кухне</FoodPoisonCause_FilthyKitchen>
+  <!-- EN: rotten food -->
+  <FoodPoisonCause_Rotten>испорченная еда</FoodPoisonCause_Rotten>
+  <!-- EN: dangerous food type -->
+  <FoodPoisonCause_DangerousFoodType>опасная пища</FoodPoisonCause_DangerousFoodType>
 
-	<!-- Hostility response mode -->
-	<HostilityResponseMode_Ignore>Игнорировать</HostilityResponseMode_Ignore>
-	<HostilityResponseMode_Attack>Атаковать</HostilityResponseMode_Attack>
-	<HostilityResponseMode_Flee>Убегать</HostilityResponseMode_Flee>
-
-	<!-- HediffGrowthMode -->
-	<HediffGrowthMode_Growing>растёт</HediffGrowthMode_Growing>
-	<HediffGrowthMode_Stable>стабильно</HediffGrowthMode_Stable>
-	<HediffGrowthMode_Remission>ремиссия</HediffGrowthMode_Remission>
-
-	<!-- TechLevel -->
-	<TechLevel_Animal>животные</TechLevel_Animal>
-	<TechLevel_Neolithic>неолит</TechLevel_Neolithic>
-	<TechLevel_Medieval>средневековый</TechLevel_Medieval>
-	<TechLevel_Industrial>индустриальный</TechLevel_Industrial>
-	<TechLevel_Spacer>космический</TechLevel_Spacer>
-	<TechLevel_Ultra>утопический</TechLevel_Ultra>
-	<TechLevel_Archotech>архотек</TechLevel_Archotech>
-
-	<!-- Player pawns arrive method -->
-	<PlayerPawnsArriveMethod_Standing>Стоя</PlayerPawnsArriveMethod_Standing>
-	<PlayerPawnsArriveMethod_DropPods>В капсулах</PlayerPawnsArriveMethod_DropPods>
-
-	<!-- Pawn generation context -->
-	<PawnGenerationContext_All>все персонажи</PawnGenerationContext_All>
-	<PawnGenerationContext_PlayerStarter>персонажи игрока</PawnGenerationContext_PlayerStarter>
-	<PawnGenerationContext_NonPlayer>неигровые персонажи</PawnGenerationContext_NonPlayer>
-
-	<!-- Animal name display mode -->
-	<ShowAnimalNames>Названия животных</ShowAnimalNames>
-	<AnimalNameDisplayMode_TameNamed>Приручённые (только имена)</AnimalNameDisplayMode_TameNamed>
-	<AnimalNameDisplayMode_TameAll>Приручённые (все)</AnimalNameDisplayMode_TameAll>
-
-	<!-- Temperature -->
-	<Celsius>Цельсий</Celsius>
-	<Fahrenheit>Фаренгейт</Fahrenheit>
-	<Kelvin>Кельвин</Kelvin>
-
-	<!-- Direction8Way -->
-	<Direction8Way_North_Short>С</Direction8Way_North_Short>
-	<Direction8Way_NorthEast_Short>СВ</Direction8Way_NorthEast_Short>
-	<Direction8Way_East_Short>В</Direction8Way_East_Short>
-	<Direction8Way_SouthEast_Short>ЮВ</Direction8Way_SouthEast_Short>
-	<Direction8Way_South_Short>Ю</Direction8Way_South_Short>
-	<Direction8Way_SouthWest_Short>ЮЗ</Direction8Way_SouthWest_Short>
-	<Direction8Way_West_Short>З</Direction8Way_West_Short>
-	<Direction8Way_NorthWest_Short>СЗ</Direction8Way_NorthWest_Short>
-
-	<!-- Diet category -->
-	<DietCategory_NeverEats>Не нуждается в пище</DietCategory_NeverEats>
-	<DietCategory_Herbivorous>Травоядное</DietCategory_Herbivorous>
-	<DietCategory_Dendrovorous>Древоядное</DietCategory_Dendrovorous>
-	<DietCategory_Ovivorous>Яйцеядное</DietCategory_Ovivorous>
-	<DietCategory_Omnivorous>Всеядное</DietCategory_Omnivorous>
-	<DietCategory_Carnivorous>Хищное</DietCategory_Carnivorous>
-	<DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
-	<DietCategory_Herbivorous_Short>Т</DietCategory_Herbivorous_Short>
-	<DietCategory_Dendrovorous_Short>Д</DietCategory_Dendrovorous_Short>
-	<DietCategory_Ovivorous_Short>Я</DietCategory_Ovivorous_Short>
-	<DietCategory_Omnivorous_Short>В</DietCategory_Omnivorous_Short>
-	<DietCategory_Carnivorous_Short>Х</DietCategory_Carnivorous_Short>
-
-	<!-- Food poison cause -->
-	<FoodPoisonCause_IncompetentCook>неопытный повар</FoodPoisonCause_IncompetentCook>
-	<FoodPoisonCause_FilthyKitchen>грязь на кухне</FoodPoisonCause_FilthyKitchen>
-	<FoodPoisonCause_Rotten>испорченная еда</FoodPoisonCause_Rotten>
-	<FoodPoisonCause_DangerousFoodType>опасная пища</FoodPoisonCause_DangerousFoodType>
-
-	<!-- Psychic drone level -->
-	<PsychicDroneLevel_None>нет</PsychicDroneLevel_None>
-	<PsychicDroneLevel_GoodMedium>средний</PsychicDroneLevel_GoodMedium>
-	<PsychicDroneLevel_BadLow>слабый</PsychicDroneLevel_BadLow>
-	<PsychicDroneLevel_BadMedium>средний</PsychicDroneLevel_BadMedium>
-	<PsychicDroneLevel_BadHigh>сильный</PsychicDroneLevel_BadHigh>
-	<PsychicDroneLevel_BadExtreme>экстремальный</PsychicDroneLevel_BadExtreme>
+  <!-- Psychic drone level -->
+  <!-- EN: none -->
+  <PsychicDroneLevel_None>нет</PsychicDroneLevel_None>
+  <!-- EN: medium -->
+  <PsychicDroneLevel_GoodMedium>средний</PsychicDroneLevel_GoodMedium>
+  <!-- EN: low -->
+  <PsychicDroneLevel_BadLow>слабый</PsychicDroneLevel_BadLow>
+  <!-- EN: medium -->
+  <PsychicDroneLevel_BadMedium>средний</PsychicDroneLevel_BadMedium>
+  <!-- EN: high -->
+  <PsychicDroneLevel_BadHigh>сильный</PsychicDroneLevel_BadHigh>
+  <!-- EN: extreme -->
+  <PsychicDroneLevel_BadExtreme>экстремальный</PsychicDroneLevel_BadExtreme>
 
 </LanguageData>

@@ -1,26 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<!--========================= Doors =============================-->
-
-	<Door.label>дверь</Door.label>
-	<Door.description>Простая дверь, которую нужно открывать и закрывать вручную. Время открывания и закрывания зависит от материала изготовления.</Door.description>
-	<Blueprint_Door.label>дверь (проект)</Blueprint_Door.label>
-	<Frame_Door.label>дверь (строится)</Frame_Door.label>
-	<Frame_Door.description>Простая дверь, которую нужно открывать и закрывать вручную. Время открывания и закрывания зависит от материала изготовления.</Frame_Door.description>
-
-	<Autodoor.label>автодверь</Autodoor.label>
-	<Autodoor.description>Автоматическая дверь позволяет входить и выходить без задержки.</Autodoor.description>
-	<Blueprint_Autodoor.label>автодверь (проект)</Blueprint_Autodoor.label>
-	<Frame_Autodoor.label>автодверь (строится)</Frame_Autodoor.label>
-	<Frame_Autodoor.description>Автоматическая дверь позволяет входить и выходить без задержки.</Frame_Autodoor.description>
-
-	<!--========================= Walls =============================-->
-
-	<Wall.label>стена</Wall.label>
-	<Wall.description>Непроходимая стена. Достаточно крепка, чтобы поддерживать крышу.</Wall.description>
-	<Blueprint_Wall.label>стена (проект)</Blueprint_Wall.label>
-	<Frame_Wall.label>стена (строится)</Frame_Wall.label>
-	<Frame_Wall.description>Непроходимая стена. Достаточно крепка, чтобы поддерживать крышу.</Frame_Wall.description>
-
+  
+  <!-- EN: autodoor -->
+  <Autodoor.label>автодверь</Autodoor.label>
+  <!-- EN: Divides rooms. Powered operation allows people to move through the door without slowing down. -->
+  <Autodoor.description>Автоматическая дверь позволяет входить и выходить без задержки.</Autodoor.description>
+  
+  <!-- EN: door -->
+  <Door.label>дверь</Door.label>
+  <!-- EN: Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of. -->
+  <Door.description>Простая дверь, которую нужно открывать и закрывать вручную. Время открывания и закрывания зависит от материала изготовления.</Door.description>
+  
+  <!-- EN: wall -->
+  <Wall.label>стена</Wall.label>
+  <!-- EN: An impassable wall. Capable of holding up a roof. -->
+  <Wall.description>Непроходимая стена. Достаточно крепка, чтобы поддерживать крышу.</Wall.description>
+  
 </LanguageData>

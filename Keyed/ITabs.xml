@@ -1,156 +1,281 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- ITab titles -->
-	<TabBills>Задания</TabBills>
-	<TabGrowing>Посадки</TabGrowing>
-	<TabCharacter>Персона</TabCharacter>
-	<TabTraining>Обучение</TabTraining>
-	<TabPrisoner>Узник</TabPrisoner>
-	<TabGuest>Гость</TabGuest>
-	<TabGear>Вещи</TabGear>
-	<TabNeeds>Нужды</TabNeeds>
-	<TabStorage>Склад</TabStorage>
-	<TabShells>Снаряды</TabShells>
-	<TabHealth>Здоровье</TabHealth>
-	<TabRace>Раса</TabRace>
-	<TabBasics>Основное</TabBasics>
-	<TabStats>Характеристики</TabStats>
-	<TabRecords>Статистика</TabRecords>
-	<TabArt>Искусство</TabArt>
-	<TabSocial>Социум</TabSocial>
-	<TabLog>Журнал</TabLog>
-	<TabFormingCaravan>Караван</TabFormingCaravan>
+  <!-- ITab titles -->
+  <!-- EN: Bills -->
+  <TabBills>Задания</TabBills>
+  <!-- EN: Growing -->
+  <TabGrowing>Посадки</TabGrowing>
+  <!-- EN: Story -->
+  <TabCharacter>Персона</TabCharacter>
+  <!-- EN: Training -->
+  <TabTraining>Обучение</TabTraining>
+  <!-- EN: Prisoner -->
+  <TabPrisoner>Узник</TabPrisoner>
+  <!-- EN: Guest -->
+  <TabGuest>Гость</TabGuest>
+  <!-- EN: Gear -->
+  <TabGear>Вещи</TabGear>
+  <!-- EN: Needs -->
+  <TabNeeds>Нужды</TabNeeds>
+  <!-- EN: Storage -->
+  <TabStorage>Склад</TabStorage>
+  <!-- EN: Shells -->
+  <TabShells>Снаряды</TabShells>
+  <!-- EN: Health -->
+  <TabHealth>Здоровье</TabHealth>
+  <!-- EN: Race -->
+  <TabRace>Раса</TabRace>
+  <!-- EN: Basics -->
+  <TabBasics>Основное</TabBasics>
+  <!-- EN: Stats -->
+  <TabStats>Характеристики</TabStats>
+  <!-- EN: Records -->
+  <TabRecords>Статистика</TabRecords>
+  <!-- EN: Art -->
+  <TabArt>Искусство</TabArt>
+  <!-- EN: Social -->
+  <TabSocial>Социум</TabSocial>
+  <!-- EN: Log -->
+  <TabLog>Журнал</TabLog>
+  <!-- EN: Caravan -->
+  <TabFormingCaravan>Караван</TabFormingCaravan>
 
+  <!-- Bills tab  -->
+  <!-- EN: Add bill -->
+  <AddBill>Добавить задание</AddBill>
+  <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
+  <RecipeRequiresSkills>Задание {0} требует перечисленные навыки. Ни один из ваших поселенцев не обладает ими, так что никто не будет делать это задание.</RecipeRequiresSkills>
+  <!-- EN: Min skill -->
+  <MinimumSkill>Мин. навык</MinimumSkill>
+  <!-- EN: SUSPENDED -->
+  <SuspendedCaps>ПАУЗА</SuspendedCaps>
+  <!-- EN: Worker: {0} -->
+  <BoundWorkerIs>Назначен(а) {0}</BoundWorkerIs>
+  <!-- EN: Plant -->
+  <PlantVerb>Посадить</PlantVerb>
+  <!-- EN: Copied bill cannot be pasted here. -->
+  <ClipboardBillNotAvailableHere>Невозможно вставить сюда.</ClipboardBillNotAvailableHere>
+  <!-- EN: Move up -->
+  <ReorderBillUpTip>Выше</ReorderBillUpTip>
+  <!-- EN: Move down -->
+  <ReorderBillDownTip>Ниже</ReorderBillDownTip>
+  <!-- EN: Delete -->
+  <DeleteBillTip>Удалить</DeleteBillTip>
+  <!-- EN: Copy to the clipboard -->
+  <CopyBillTip>Скопировать в буфер</CopyBillTip>
+  <!-- EN: Suspend -->
+  <SuspendBillTip>Приостановить</SuspendBillTip>
+  <!-- EN: Paste -->
+  <PasteBillTip>Вставить</PasteBillTip>
+  <!-- EN: can't add more -->
+  <PasteBillTip_LimitReached>добавление невозможно</PasteBillTip_LimitReached>
 
-	<!-- Bills tab -->
-	<AddBill>Добавить задание</AddBill>
-	<RecipeRequiresSkills>Задание {0} требует перечисленные навыки. Ни один из ваших поселенцев не обладает ими, так что никто не будет делать это задание.</RecipeRequiresSkills>
-	<MinimumSkill>Мин. навык</MinimumSkill>
-	<SuspendedCaps>ПАУЗА</SuspendedCaps>
-	<BoundWorkerIs>Назначен(а) {0}</BoundWorkerIs>
-	<PlantVerb>Посадить</PlantVerb>
-	<ClipboardBillNotAvailableHere>Невозможно вставить сюда.</ClipboardBillNotAvailableHere>
-	<ReorderBillUpTip>Выше</ReorderBillUpTip>
-	<ReorderBillDownTip>Ниже</ReorderBillDownTip>
-	<DeleteBillTip>Удалить</DeleteBillTip>
-	<CopyBillTip>Скопировать в буфер</CopyBillTip>
-	<SuspendBillTip>Приостановить</SuspendBillTip>
-	<PasteBillTip>Вставить</PasteBillTip>
-	<PasteBillTip_LimitReached>добавление невозможно</PasteBillTip_LimitReached>
+  <!-- Guest/prisoner tab -->
+  <!-- EN: Resistance remaining -->
+  <RecruitmentResistance>Психологическое сопротивление</RecruitmentResistance>
+  <!-- EN: Recruitment difficulty -->
+  <RecruitmentDifficulty>Сложность вербовки</RecruitmentDifficulty>
+  <!-- EN: Gets food -->
+  <GetsFood>Получает пищу</GetsFood>
+  <!-- EN: Doctors care -->
+  <DoctorsCare>Врачебный уход</DoctorsCare>
+  <!-- EN: Gets medicine -->
+  <GetsMedicine>Получает медикаменты</GetsMedicine>
+  <!-- EN: Try to recruit -->
+  <ShouldTryToRecruit>Попробовать завербовать</ShouldTryToRecruit>
+  <!-- EN: Considered guilty (expires in {0}) -->
+  <ConsideredGuilty>Считается виновным(ой) (срок истекает через {0})</ConsideredGuilty>
 
+  <!-- Medical - general -->
+  <!-- EN: Move speed -->
+  <MoveSpeed>Скорость передвижения</MoveSpeed>
+  <!-- EN: Efficiency -->
+  <Efficiency>Эффективность</Efficiency>
+  <!-- EN: Part efficiency -->
+  <PartEfficiency>Эффективность части</PartEfficiency>
+  <!-- EN: Body part efficiency -->
+  <BodyPartEfficiency>Эффективность части тела</BodyPartEfficiency>
+  <!-- EN: Gone -->
+  <MissingBodyPart>Отсутствует</MissingBodyPart>
+  <!-- EN: Destroyed -->
+  <DestroyedBodyPart>Уничтожено</DestroyedBodyPart>
+  <!-- EN: Shattered -->
+  <ShatteredBodyPart>Вырвано</ShatteredBodyPart>
+  <!-- EN: Removed -->
+  <RemovedBodyPart>Удалено</RemovedBodyPart>
+  <!-- EN: Healthy -->
+  <Healthy>Нет ранений</Healthy>
+  <!-- EN: In pain -->
+  <InPain>Испытывает боль</InPain>
+  <!-- EN: Pain -->
+  <PainLevel>Боль</PainLevel>
+  <!-- EN: Injured -->
+  <Injured>Ранение</Injured>
+  <!-- EN: no health conditions -->
+  <NoHealthConditions>нет отклонений от нормы</NoHealthConditions>
+  <!-- EN: Whole body -->
+  <WholeBody>Всё тело</WholeBody>
+  <!-- EN: Data processing -->
+  <DataProcessing>Обработка данных</DataProcessing>
+  <!-- EN: Communication -->
+  <Communication>Связь</Communication>
+  <!-- EN: Affects -->
+  <Affects>Влияет на</Affects>
+  <!-- EN: Bleeding -->
+  <BleedingRate>Кровотечение</BleedingRate>
+  <!-- EN: death in {0} -->
+  <TimeToDeath>смерть через {0}</TimeToDeath>
+  <!-- EN: no immediate danger -->
+  <WontBleedOutSoon>неопасное</WontBleedOutSoon>
+  <!-- EN: Overview -->
+  <HealthOverview>Обзор</HealthOverview>
+  <!-- EN: Operations ({0}) -->
+  <MedicalOperationsShort>Операции ({0})</MedicalOperationsShort>
+  <!-- EN: Modifications ({0}) -->
+  <MedicalOperationsMechanoidsShort>Модификации ({0})</MedicalOperationsMechanoidsShort>
+  <!-- EN: Medical operations -->
+  <MedicalOperations>Медицинские операции</MedicalOperations>
+  <!-- EN: amputate -->
+  <Amputate>ампутировать</Amputate>
+  <!-- EN: harvest -->
+  <HarvestOrgan>извлечь орган</HarvestOrgan>
+  <!-- EN: remove -->
+  <RemoveOrgan>удалить</RemoveOrgan>
+  <!-- EN: memory -->
+  <MemoryLower>память</MemoryLower>
+  <!-- EN: social interactions -->
+  <SocialInteractionsLower>социальные взаимодействия</SocialInteractionsLower>
+  <!-- EN: Hunger rate -->
+  <HungerRate>Голод</HungerRate>
+  <!-- EN: Tiredness -->
+  <Tiredness>Усталость</Tiredness>
+  <!-- EN: Pain -->
+  <PainFactor>Боль</PainFactor>
+  <!-- EN: Prevents infection -->
+  <PreventsInfection>Предотвращает инфицирование</PreventsInfection>
+  <!-- EN: Self-tend -->
+  <SelfTend>Самолечение</SelfTend>
+  <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
+  <SelfTendTip>{0} будут самостоятельно лечиться на месте, до эффективности в {1} от нормальной.</SelfTendTip>
+  
+  <!-- Medical - Body and activities condition -->
+  <!-- EN: None -->
+  <None>Нет</None>
+  <!-- EN: Very poor -->
+  <VeryPoor>Ужасно</VeryPoor>
+  <!-- EN: Poor -->
+  <Poor>Плохо</Poor>
+  <!-- EN: Weakened -->
+  <Weakened>Ослаблено</Weakened>
+  <!-- EN: OK -->
+  <GoodCondition>Хорошо</GoodCondition>
+  <!-- EN: Enhanced -->
+  <Enhanced>Улучшено</Enhanced>
+  <!-- EN: Seriously impaired -->
+  <SeriouslyImpaired>Серьёзное ранение</SeriouslyImpaired>
+  <!-- EN: Impaired -->
+  <Impaired>Ранение</Impaired>
+  <!-- EN: Slightly impaired -->
+  <SlightlyImpaired>Лёгкое ранение</SlightlyImpaired>
+  <!-- EN: None -->
+  <NoPain>Нет</NoPain>
+  <!-- EN: Little -->
+  <LittlePain>Лёгкая</LittlePain>
+  <!-- EN: Medium -->
+  <MediumPain>Средняя</MediumPain>
+  <!-- EN: Severe -->
+  <SeverePain>Сильная</SeverePain>
+  <!-- EN: Extreme -->
+  <ExtremePain>Ужасная</ExtremePain>
 
-	<!-- Guest/prisoner tab -->
-	<RecruitmentResistance>Психологическое сопротивление</RecruitmentResistance>
-	<RecruitmentDifficulty>Сложность вербовки</RecruitmentDifficulty>
-	<GetsFood>Получает пищу</GetsFood>
-	<DoctorsCare>Врачебный уход</DoctorsCare>
-	<GetsMedicine>Получает медикаменты</GetsMedicine>
-	<ShouldTryToRecruit>Попробовать завербовать</ShouldTryToRecruit>
-	<ConsideredGuilty>Считается виновным(ой) (срок истекает через {0})</ConsideredGuilty>
+  <!-- Training tab -->
+  <!-- EN: Trainability -->
+  <Trainability>Способность к обучению</Trainability>
+  <!-- EN: Requires trainability {0}. -->
+  <CannotTrainNotSmartEnough>Требуется способность к обучению: {0}.</CannotTrainNotSmartEnough>
+  <!-- EN: {0} is too small to train this. -->
+  <CannotTrainTooSmall>{0} — не подходящего возраста, чтобы обучаться этому.</CannotTrainTooSmall>
 
-	<!-- Medical - general -->
-	<MoveSpeed>Скорость передвижения</MoveSpeed>
-	<Efficiency>Эффективность</Efficiency>
-	<PartEfficiency>Эффективность части</PartEfficiency>
-	<BodyPartEfficiency>Эффективность части тела</BodyPartEfficiency>
-	<MissingBodyPart>Отсутствует</MissingBodyPart>
-	<DestroyedBodyPart>Уничтожено</DestroyedBodyPart>
-	<ShatteredBodyPart>Вырвано</ShatteredBodyPart>
-	<RemovedBodyPart>Удалено</RemovedBodyPart>
-	<Healthy>Нет ранений</Healthy>
-	<InPain>Испытывает боль</InPain>
-	<PainLevel>Боль</PainLevel>
-	<Injured>Ранение</Injured>
-	<NoHealthConditions>нет отклонений от нормы</NoHealthConditions>
-	<WholeBody>Всё тело</WholeBody>
-	<DataProcessing>Обработка данных</DataProcessing>
-	<Communication>Связь</Communication>
-	<Affects>Влияет на</Affects>
-	<BleedingRate>Кровотечение</BleedingRate>
-	<TimeToDeath>смерть через {0}</TimeToDeath>
-	<WontBleedOutSoon>неопасное</WontBleedOutSoon>
-	<HealthOverview>Обзор</HealthOverview>
-	<MedicalOperationsShort>Операции ({0})</MedicalOperationsShort>
-	<MedicalOperationsMechanoidsShort>Модификации ({0})</MedicalOperationsMechanoidsShort>
-	<MedicalOperations>Медицинские операции</MedicalOperations>
-	<Amputate>ампутировать</Amputate>
-	<HarvestOrgan>извлечь орган</HarvestOrgan>
-	<RemoveOrgan>удалить</RemoveOrgan>
-	<MemoryLower>память</MemoryLower>
-	<SocialInteractionsLower>социальные взаимодействия</SocialInteractionsLower>
-	<HungerRate>Голод</HungerRate>
-	<Tiredness>Усталость</Tiredness>
-	<PainFactor>Боль</PainFactor>
-	<PreventsInfection>Предотвращает инфицирование</PreventsInfection>
-	<SelfTend>Самолечение</SelfTend>
-	<SelfTendTip>{0} будут самостоятельно лечиться на месте, до эффективности в {1} от нормальной.</SelfTendTip>
+  <!-- EN: Prerequisite needed: {0} -->
+  <TrainingNeedsPrerequisite>Требуется: {0}</TrainingNeedsPrerequisite>
+  
+  <!-- Social tab -->
+  <!-- EN: (no relationships) -->
+  <NoRelationships>(нет отношений)</NoRelationships>
+  <!-- EN: Kidnapped -->
+  <Kidnapped>Похищен(а)</Kidnapped>
+  <!-- EN: Missing -->
+  <Missing>Пропал(а) без вести</Missing>
+  <!-- EN: Slave -->
+  <Slave>Раб</Slave>
+  <!-- EN: Faction leader -->
+  <FactionLeader>Лидер фракции</FactionLeader>
+  <!-- EN: Opinion of {0} -->
+  <OpinionOf>Мнение о {0}</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
+  <SomeonesOpinionOfMe>Мнение {0} обо мне</SomeonesOpinionOfMe>
+  <!-- EN: I'm dead -->
+  <IAmDead>Я мёртв</IAmDead>
+  <!-- EN: I'm a psychopath -->
+  <IAmPsychopath>Я психопат</IAmPsychopath>
+  
+  <!-- Gear tab -->
+  <!-- EN: Overall armor -->
+  <OverallArmor>Общая защищённость</OverallArmor>
+  <!-- EN: Mass carried: {0} / {1} kg -->
+  <MassCarried>Переносит вес: {0}/{1} кг</MassCarried>
+  <!-- EN: Comfortable temperature range -->
+  <ComfyTemperatureRange>Диапазон комфортной температуры</ComfyTemperatureRange>
+  <!-- EN: Blunt -->
+  <ArmorBlunt>Дробящее</ArmorBlunt>
+  <!-- EN: Sharp -->
+  <ArmorSharp>Проникающее</ArmorSharp>
+  <!-- EN: Heat -->
+  <ArmorHeat>Тепловое</ArmorHeat>
+  
+  <!-- Log tab -->
+  <!-- EN: Show all -->
+  <ShowAll>Показать всё</ShowAll>
+  <!-- EN: Show combat -->
+  <ShowCombat>Бой</ShowCombat>
+  <!-- EN: Show social -->
+  <ShowSocial>Общение</ShowSocial>
+  <!-- EN: no recent entries -->
+  <NoRecentEntries>нет новых событий</NoRecentEntries>
+  <!-- EN: Copy log to the clipboard. -->
+  <CopyLogTip>Копировать журнал в буфер обмена.</CopyLogTip>
 
-	<!-- Medical - Body and activities condition -->
-	<None>Нет</None>
-	<VeryPoor>Ужасно</VeryPoor>
-	<Poor>Плохо</Poor>
-	<Weakened>Ослаблено</Weakened>
-	<GoodCondition>Хорошо</GoodCondition>
-	<Enhanced>Улучшено</Enhanced>
-	<SeriouslyImpaired>Серьёзное ранение</SeriouslyImpaired>
-	<Impaired>Ранение</Impaired>
-	<SlightlyImpaired>Лёгкое ранение</SlightlyImpaired>
-	<NoPain>Нет</NoPain>
-	<LittlePain>Лёгкая</LittlePain>
-	<MediumPain>Средняя</MediumPain>
-	<SeverePain>Сильная</SeverePain>
-	<ExtremePain>Ужасная</ExtremePain>
+  <!-- Forming caravan tab -->
+  <!-- EN: Gathering animals -->
+  <FormingCaravanStatus_GatheringAnimals>Сбор животных</FormingCaravanStatus_GatheringAnimals>
+  <!-- EN: Gathering animals (waiting) -->
+  <FormingCaravanStatus_GatheringAnimals_Pause>Сбор животных (ожидание)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <!-- EN: Gathering items -->
+  <FormingCaravanStatus_GatheringItems>Погрузка</FormingCaravanStatus_GatheringItems>
+  <!-- EN: Gathering items (waiting) -->
+  <FormingCaravanStatus_GatheringItems_Pause>Погрузка (ожидание)</FormingCaravanStatus_GatheringItems_Pause>
+  <!-- EN: Gathering slaves -->
+  <FormingCaravanStatus_GatheringSlaves>Сбор рабов</FormingCaravanStatus_GatheringSlaves>
+  <!-- EN: Gathering slaves (waiting) -->
+  <FormingCaravanStatus_GatheringSlaves_Pause>Сбор рабов (ожидание)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <!-- EN: Leaving -->
+  <FormingCaravanStatus_Leaving>Отбытие</FormingCaravanStatus_Leaving>
+  <!-- EN: Leaving (waiting) -->
+  <FormingCaravanStatus_Leaving_Pause>Отбытие (ожидание)</FormingCaravanStatus_Leaving_Pause>
+  <!-- EN: Waiting -->
+  <FormingCaravanStatus_Waiting>Ожидание</FormingCaravanStatus_Waiting>
+  <!-- EN: Members -->
+  <CaravanMembers>Участники</CaravanMembers>
+  <!-- EN: Animals -->
+  <CaravanAnimals>Животные</CaravanAnimals>
+  <!-- EN: Items to load -->
+  <ItemsToLoad>Для погрузки</ItemsToLoad>
+  <!-- EN: Loaded items -->
+  <LoadedItems>Погружено</LoadedItems>
+  <!-- EN: pack animals -->
+  <PackAnimalsCountLower>вьючные животные</PackAnimalsCountLower>
+  <!-- EN: mentally broken -->
+  <InMentalStateCountLower>в нервном срыве</InMentalStateCountLower>
 
-
-	<!-- Training tab-->
-	<Trainability>Способность к обучению</Trainability>
-	<CannotTrainNotSmartEnough>Требуется способность к обучению: {0}.</CannotTrainNotSmartEnough>
-	<CannotTrainTooSmall>{0} — не подходящего возраста, чтобы обучаться этому.</CannotTrainTooSmall>
-
-	<TrainingNeedsPrerequisite>Требуется: {0}</TrainingNeedsPrerequisite>
-
-	<!-- Social tab -->
-	<NoRelationships>(нет отношений)</NoRelationships>
-	<Kidnapped>Похищен(а)</Kidnapped>
-	<Missing>Пропал(а) без вести</Missing>
-	<Slave>Раб</Slave>
-	<FactionLeader>Лидер фракции</FactionLeader>
-	<OpinionOf>Мнение о {0}</OpinionOf>
-	<SomeonesOpinionOfMe>Мнение {0} обо мне</SomeonesOpinionOfMe>
-	<IAmDead>Я мёртв</IAmDead>
-	<IAmPsychopath>Я психопат</IAmPsychopath>
-
-	<!-- Gear tab -->
-	<OverallArmor>Общая защищённость</OverallArmor>
-	<MassCarried>Переносит вес: {0}/{1} кг</MassCarried>
-	<ComfyTemperatureRange>Диапазон комфортной температуры</ComfyTemperatureRange>
-	<ArmorBlunt>Дробящее</ArmorBlunt>
-	<ArmorSharp>Проникающее</ArmorSharp>
-	<ArmorHeat>Тепловое</ArmorHeat>
-
-	<!-- Log tab -->
-	<ShowAll>Показать всё</ShowAll>
-	<ShowCombat>Бой</ShowCombat>
-	<ShowSocial>Общение</ShowSocial>
-	<NoRecentEntries>нет новых событий</NoRecentEntries>
-	<CopyLogTip>Копировать журнал в буфер обмена.</CopyLogTip>	
-	
-	<!-- Forming caravan tab -->
-	<FormingCaravanStatus_GatheringAnimals>Сбор животных</FormingCaravanStatus_GatheringAnimals>
-	<FormingCaravanStatus_GatheringAnimals_Pause>Сбор животных (ожидание)</FormingCaravanStatus_GatheringAnimals_Pause>
-	<FormingCaravanStatus_GatheringItems>Погрузка</FormingCaravanStatus_GatheringItems>
-	<FormingCaravanStatus_GatheringItems_Pause>Погрузка (ожидание)</FormingCaravanStatus_GatheringItems_Pause>
-	<FormingCaravanStatus_GatheringSlaves>Сбор рабов</FormingCaravanStatus_GatheringSlaves>
-	<FormingCaravanStatus_GatheringSlaves_Pause>Сбор рабов (ожидание)</FormingCaravanStatus_GatheringSlaves_Pause>
-	<FormingCaravanStatus_Leaving>Отбытие</FormingCaravanStatus_Leaving>
-	<FormingCaravanStatus_Leaving_Pause>Отбытие (ожидание)</FormingCaravanStatus_Leaving_Pause>
-	<FormingCaravanStatus_Waiting>Ожидание</FormingCaravanStatus_Waiting>
-	<CaravanMembers>Участники</CaravanMembers>
-	<CaravanAnimals>Животные</CaravanAnimals>
-	<ItemsToLoad>Для погрузки</ItemsToLoad>
-	<LoadedItems>Погружено</LoadedItems>
-	<PackAnimalsCountLower>вьючные животные</PackAnimalsCountLower>
-	<InMentalStateCountLower>в нервном срыве</InMentalStateCountLower>
-	
 </LanguageData>

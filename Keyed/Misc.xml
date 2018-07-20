@@ -1,86 +1,136 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<Autosaving>Автосохранение</Autosaving>
+  <!-- EN: Autosaving -->
+  <Autosaving>Автосохранение</Autosaving>
+  <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
+  <GameStartDialog>Вы трое проснулись в своих саркофагах криптосна под звук сирен и скрежет металла. Едва вы успели добраться до спасательных капсул, как корабль развалился на части.\n\nНекоторое время спустя вы приземлились на эту неизвестную планету.\n\nПод звездопадом из обломков корабля вы начинаете строить планы по выживанию.</GameStartDialog>
+  <!-- EN: Colony -->
+  <Colony>поселения</Colony>
+  <!-- EN: You can only change language from the options screen on the main menu. -->
+  <ChangeLanguageFromMainMenu>Язык можно сменить только в главном меню.</ChangeLanguageFromMainMenu>
+  <!-- EN: and -->
+  <AndLower>и</AndLower>
+  <!-- EN: disabled -->
+  <DisabledLower>недоступно</DisabledLower>
 
-	<GameStartDialog>Вы трое проснулись в своих саркофагах криптосна под звук сирен и скрежет металла. Едва вы успели добраться до спасательных капсул, как корабль развалился на части.\n\nНекоторое время спустя вы приземлились на эту неизвестную планету.\n\nПод звездопадом из обломков корабля вы начинаете строить планы по выживанию.</GameStartDialog>
+  <!-- EN: Version {0} -->
+  <VersionIndicator>Версия {0}</VersionIndicator>
+  <!-- EN: development build -->
+  <DevelopmentBuildLower>только для тестеров</DevelopmentBuildLower>
+  <!-- EN: Compiled {0} -->
+  <CompiledOn>Сборка от {0}</CompiledOn>
+  <!-- EN: Logged into Steam as {0} -->
+  <LoggedIntoSteamAs>Вы вошли в Steam как {0}</LoggedIntoSteamAs>
 
-	<!--Эта <Colony> не изменяется динамически, — не подставляется данное поселению имя, это недоработка автора. Из-за этого же она не изменяется при перезагрузке перевода, только при создании нового поселения.-->
-	<Colony>поселения</Colony>
+  <!-- General-use words -->
+  <!-- EN: Yes -->
+  <Yes>Да</Yes>
+  <!-- EN: No -->
+  <No>Нет</No>
+  <!-- EN: min -->
+  <min>мин</min>
+  <!-- EN: max -->
+  <max>макс</max>
+  <!-- EN: chance -->
+  <chance>вероятность</chance>
+  <!-- EN: context -->
+  <context>обстановка</context>
+  <!-- EN: multiplier -->
+  <multiplier>коэффициент</multiplier>
+  <!-- EN: damage -->
+  <damage>урон</damage>
+  <!-- EN: radius -->
+  <radius>радиус</radius>
+  <!-- EN: duration (days) -->
+  <durationDays>продолжительность (дней)</durationDays>
+  <!-- EN: interval (days) -->
+  <intervalDays>интервал (дней)</intervalDays>
+  <!-- EN: repeat -->
+  <repeat>повторить</repeat>
+  <!-- EN: default -->
+  <default>по умолчанию</default>
+  <!-- EN: distance -->
+  <distance>расстояние</distance>
+  <!-- EN: YES -->
+  <YesUppercase>ДА</YesUppercase>
+  <!-- EN: NO -->
+  <NoUppercase>НЕТ</NoUppercase>
+  <!-- EN: kg -->
+  <kg>кг</kg>
+  <!-- EN: Day -->
+  <Day>День</Day>
+  <!-- EN: day -->
+  <day>день</day>
+  <!-- EN: Default -->
+  <Default>По умолчанию</Default>
+  <!-- EN: Average -->
+  <Average>В среднем</Average>
 
-	<ChangeLanguageFromMainMenu>Язык можно сменить только в главном меню.</ChangeLanguageFromMainMenu>
+  <!-- Content generation-->
+  
+  <!-- EN: {0} meat -->
+  <MeatLabel>{0} мясо</MeatLabel>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
+  <MeatDesc>Сырое мясо. Может быть приготовлено или съедено в сыром виде.</MeatDesc>
+  <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
+  <MeatInsectDesc>Сырое мясо насекомого. При необходимости может быть приготовлено или даже съедено в сыром виде. Крайне неаппетитно.</MeatInsectDesc>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
+  <MeatHumanDesc>Сырая плоть человека. При необходимости может быть приготовлена или съедена в сыром виде, хотя большинству людей эта идея явно не понравится.</MeatHumanDesc>
 
-	<AndLower>и</AndLower>
-	<DisabledLower>недоступно</DisabledLower>
+  <!-- EN: {0} corpse -->
+  <CorpseLabel>труп {0}</CorpseLabel>
+  <!-- EN: Dead body of a {0}. -->
+  <CorpseDesc>Мёртвое тело {0}.</CorpseDesc>
+  <!-- EN: {0} (dead) -->
+  <DeadLabel>{0} (мёртв)</DeadLabel>
 
-	<VersionIndicator>Версия {0}</VersionIndicator>
-	<DevelopmentBuildLower>только для тестеров</DevelopmentBuildLower>
-	<CompiledOn>Сборка от {0}</CompiledOn>
-	<LoggedIntoSteamAs>Вы вошли в Steam как {0}</LoggedIntoSteamAs>
+  <!-- EN: rough {0} -->
+  <RoughStoneTerrainLabel>неровный {0}</RoughStoneTerrainLabel>
+  <!-- EN: Rough, natural {0} ground. -->
+  <RoughStoneTerrainDesc>Невыровненный {0} пол.</RoughStoneTerrainDesc>
+  <!-- EN: rough-hewn {0} -->
+  <RoughHewnStoneTerrainLabel>неотёсанный {0}</RoughHewnStoneTerrainLabel>
+  <!-- EN: Roughly cut natural {0} floor. -->
+  <RoughHewnStoneTerrainDesc>Неотёсанный {0} пол.</RoughHewnStoneTerrainDesc>
+  <!-- EN: smooth {0} -->
+  <SmoothStoneTerrainLabel>ровный {0}</SmoothStoneTerrainLabel>
+  <!-- EN: Smoothed natural {0} floor. -->
+  <SmoothStoneTerrainDesc>Выровненный {0} пол.</SmoothStoneTerrainDesc>
 
-	<!-- General-use words -->
-	<Yes>Да</Yes>
-	<No>Нет</No>
-	<min>мин</min>
-	<max>макс</max>
-	<chance>вероятность</chance>
-	<context>обстановка</context>
-	<multiplier>коэффициент</multiplier>
-	<damage>урон</damage>
-	<radius>радиус</radius>
-	<durationDays>продолжительность (дней)</durationDays>
-	<intervalDays>интервал (дней)</intervalDays>
-	<repeat>повторить</repeat>
-	<default>по умолчанию</default>
-	<distance>расстояние</distance>
-	<YesUppercase>ДА</YesUppercase>
-	<NoUppercase>НЕТ</NoUppercase>
-	<kg>кг</kg>
-	<Day>День</Day>
-	<day>день</day>
-	<Default>По умолчанию</Default>
-	<Average>В среднем</Average>
+  <!-- EN:  (blueprint) -->
+  <BlueprintLabelExtra> (проект)</BlueprintLabelExtra>
+  <!-- EN:  (building) -->
+  <FrameLabelExtra> (постройка)</FrameLabelExtra>
 
-	
-	<!-- Content generation-->
+  <!-- EN: Unaffiliated -->
+  <FactionUnaffiliated>Неаффилированная</FactionUnaffiliated>
 
-	<MeatLabel>{0} мясо</MeatLabel>
-	<MeatDesc>Сырое мясо. Может быть приготовлено или съедено в сыром виде.</MeatDesc>
-	<MeatInsectDesc>Сырое мясо насекомого. При необходимости может быть приготовлено или даже съедено в сыром виде. Крайне неаппетитно.</MeatInsectDesc>
-	<MeatHumanDesc>Сырая плоть человека. При необходимости может быть приготовлена или съедена в сыром виде, хотя большинству людей эта идея явно не понравится.</MeatHumanDesc>
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <!-- EN: {0} {1} -->
+  <ThingMadeOfStuffLabel>{1} из {0}</ThingMadeOfStuffLabel>
 
-	<CorpseLabel>труп {0}</CorpseLabel>
-	<CorpseDesc>Мёртвое тело {0}.</CorpseDesc>
-	<DeadLabel>{0} (мёртв)</DeadLabel>
+  <!-- EN: {0}'s {1} -->
+  <SomeonesRoom>{1} {0}</SomeonesRoom>
+  <!-- EN: {0} and {1}'s {2} -->
+  <CouplesRoom>{2} {0} и {1}</CouplesRoom>
+  
+  <!-- EN: (various) -->
+  <VariousLabel>(различное)</VariousLabel>
 
-	<RoughStoneTerrainLabel>неровный {0}</RoughStoneTerrainLabel>
-	<RoughStoneTerrainDesc>Невыровненный {0} пол.</RoughStoneTerrainDesc>
-	<RoughHewnStoneTerrainLabel>неотёсанный {0}</RoughHewnStoneTerrainLabel>
-	<RoughHewnStoneTerrainDesc>Неотёсанный {0} пол.</RoughHewnStoneTerrainDesc>
-	<SmoothStoneTerrainLabel>ровный {0}</SmoothStoneTerrainLabel>
-	<SmoothStoneTerrainDesc>Выровненный {0} пол.</SmoothStoneTerrainDesc>
-
-	<BlueprintLabelExtra> (проект)</BlueprintLabelExtra>
-	<FrameLabelExtra> (постройка)</FrameLabelExtra>
-
-	<FactionUnaffiliated>Неаффилированная</FactionUnaffiliated>
-
-	<!-- Для вещей, сделанных из чего-либо, напр. «Кровать из камня» -->
-	<!-- 0 это nameAsStuff в stuffProps (см. Items_Resources.xml) и 1 это название вещи -->
-	<ThingMadeOfStuffLabel>{1} из {0}</ThingMadeOfStuffLabel>
-
-	<SomeonesRoom>{1} {0}</SomeonesRoom>
-	<CouplesRoom>{2} {0} и {1}</CouplesRoom>
-
-	<VariousLabel>(различное)</VariousLabel>
-
-	<!-- History events -->
-	<ColonistDied>Поселенец погиб</ColonistDied>
-
-	<!-- Rotation -->
-	<North>Север</North>
-	<South>Юг</South>
-	<West>Запад</West>
-	<East>Восток</East>
-
+  <!-- History events -->
+  <!-- EN: Colonist died -->
+  <ColonistDied>Поселенец погиб</ColonistDied>
+  
+  <!-- Rotation -->
+  <!-- EN: North -->
+  <North>Север</North>
+  <!-- EN: South -->
+  <South>Юг</South>
+  <!-- EN: West -->
+  <West>Запад</West>
+  <!-- EN: East -->
+  <East>Восток</East>
+  
 </LanguageData>

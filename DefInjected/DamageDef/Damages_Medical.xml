@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<!-- Surgical cut: Makes it possible to remove inner organs without harming outer body parts -->
-	<SurgicalCut.label>хирургический порез</SurgicalCut.label>
-	<SurgicalCut.deathMessage>{0} умирает во время операции.</SurgicalCut.deathMessage>
-
-	<!-- Execution cut: Makes it possible to distinguish execution damage from others -->
-	<ExecutionCut.label>разрез от казни</ExecutionCut.label>
-	<ExecutionCut.deathMessage>{0} погибает в результате казни.</ExecutionCut.deathMessage>
-
+  
+  <!-- EN: execution cut -->
+  <ExecutionCut.label>разрез от казни</ExecutionCut.label>
+  <!-- EN: {0} has been executed by cutting. -->
+  <ExecutionCut.deathMessage>{0} погибает в результате казни.</ExecutionCut.deathMessage>
+  
+  <!-- EN: surgical cut -->
+  <SurgicalCut.label>хирургический порез</SurgicalCut.label>
+  <!-- EN: {0} has died during surgery. -->
+  <SurgicalCut.deathMessage>{0} умирает во время операции.</SurgicalCut.deathMessage>
+  
 </LanguageData>

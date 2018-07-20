@@ -1,23 +1,36 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<AccuracyTouch.label>Точность (вплотную)</AccuracyTouch.label>
-	<AccuracyTouch.description>Множитель к точности при стрельбе на расстоянии в 4 клетки или ближе.</AccuracyTouch.description>
-
-	<AccuracyShort.label>Точность (вблизи)</AccuracyShort.label>
-	<AccuracyShort.description>Множитель к точности при стрельбе на расстоянии в 15 клеток.</AccuracyShort.description>
-
-	<AccuracyMedium.label>Точность (средняя)</AccuracyMedium.label>
-	<AccuracyMedium.description>Множитель к точности при стрельбе на расстоянии в 30 клеток.</AccuracyMedium.description>
-
-	<AccuracyLong.label>Точность (издалека)</AccuracyLong.label>
-	<AccuracyLong.description>Множитель к точности при стрельбе на расстоянии в 50 клеток.</AccuracyLong.description>
-
-	<RangedWeapon_Cooldown.label>время между атаками</RangedWeapon_Cooldown.label>
-	<RangedWeapon_Cooldown.description>Количество времени, необходимое для перезарядки этого оружия.</RangedWeapon_Cooldown.description>
-	<RangedWeapon_Cooldown.formatString>{0} сек</RangedWeapon_Cooldown.formatString>
-
-	<RangedWeapon_DamageMultiplier.label>множитель урона</RangedWeapon_DamageMultiplier.label>
-	<RangedWeapon_DamageMultiplier.description>Множитель к урону от попадания снаряда, выпущенного из этого оружия.</RangedWeapon_DamageMultiplier.description>
-
+  
+  <!-- EN: Accuracy (long) -->
+  <AccuracyLong.label>Точность (издалека)</AccuracyLong.label>
+  <!-- EN: The weapon's effect on accuracy at a distance of 50 cells or more. -->
+  <AccuracyLong.description>Множитель к точности при стрельбе на расстоянии в 50 клеток.</AccuracyLong.description>
+  
+  <!-- EN: Accuracy (medium) -->
+  <AccuracyMedium.label>Точность (средняя)</AccuracyMedium.label>
+  <!-- EN: The weapon's effect on accuracy at a distance of 30 cells. -->
+  <AccuracyMedium.description>Множитель к точности при стрельбе на расстоянии в 30 клеток.</AccuracyMedium.description>
+  
+  <!-- EN: Accuracy (short) -->
+  <AccuracyShort.label>Точность (вблизи)</AccuracyShort.label>
+  <!-- EN: The weapon's effect on accuracy at a distance of 15 cells. -->
+  <AccuracyShort.description>Множитель к точности при стрельбе на расстоянии в 15 клеток.</AccuracyShort.description>
+  
+  <!-- EN: Accuracy (touch) -->
+  <AccuracyTouch.label>Точность (вплотную)</AccuracyTouch.label>
+  <!-- EN: The weapon's effect on accuracy at a distance of 4 cells or less. -->
+  <AccuracyTouch.description>Множитель к точности при стрельбе на расстоянии в 4 клетки или ближе.</AccuracyTouch.description>
+  
+  <!-- EN: ranged cooldown -->
+  <RangedWeapon_Cooldown.label>время между атаками</RangedWeapon_Cooldown.label>
+  <!-- EN: How long it takes to recover after firing this weapon. -->
+  <RangedWeapon_Cooldown.description>Количество времени, необходимое для перезарядки этого оружия.</RangedWeapon_Cooldown.description>
+  <!-- EN: {0} s -->
+  <RangedWeapon_Cooldown.formatString>{0} сек</RangedWeapon_Cooldown.formatString>
+  
+  <!-- EN: damage multiplier -->
+  <RangedWeapon_DamageMultiplier.label>множитель урона</RangedWeapon_DamageMultiplier.label>
+  <!-- EN: A damage multiplier applied to projectiles fired from this weapon. -->
+  <RangedWeapon_DamageMultiplier.description>Множитель к урону от попадания снаряда, выпущенного из этого оружия.</RangedWeapon_DamageMultiplier.description>
+  
 </LanguageData>

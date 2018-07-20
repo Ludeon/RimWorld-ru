@@ -1,35 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<Campfire.label>костёр</Campfire.label>
-	<Campfire.description>Позволяет готовить еду и обогревать помещение. Горит в течение нескольких дней. Как и любой другой источник тепла, костёр следует размещать внутри закрытого помещения, которое он будет обогревать.</Campfire.description>
-	<Blueprint_Campfire.label>костёр (проект)</Blueprint_Campfire.label>
-	<Frame_Campfire.label>костёр (разжигается)</Frame_Campfire.label>
-	<Frame_Campfire.description>Позволяет готовить еду и обогревать помещение. Горит в течение нескольких дней. Как и любой другой источник тепла, костёр следует размещать внутри закрытого помещения, которое он будет обогревать.</Frame_Campfire.description>
-
-	<PassiveCooler.label>испарительный охладитель</PassiveCooler.label>
-	<PassiveCooler.description>Традиционная система охлаждения, не требующая электричества, работающая за счёт испарения воды. Перестанет действовать и исчезнет через несколько дней.</PassiveCooler.description>
-	<Blueprint_PassiveCooler.label>испарительный охладитель (проект)</Blueprint_PassiveCooler.label>
-	<Frame_PassiveCooler.label>испарительный охладитель (в процессе сборки)</Frame_PassiveCooler.label>
-	<Frame_PassiveCooler.description>Традиционная система охлаждения, не требующая электричества, работающая за счёт испарения воды. Перестанет действовать и исчезнет через несколько дней.</Frame_PassiveCooler.description>
-
-	<Heater.label>обогреватель</Heater.label>
-	<Heater.description>Электрическое устройство, которое превращает электричество в тепло. Может автоматически включаться и отключаться при достижении заданной температуры.</Heater.description>
-	<Blueprint_Heater.label>обогреватель (проект)</Blueprint_Heater.label>
-	<Frame_Heater.label>обогреватель (в процессе сборки)</Frame_Heater.label>
-	<Frame_Heater.description>Электрическое устройство, которое превращает электричество в тепло. Может автоматически включаться и отключаться при достижении заданной температуры.</Frame_Heater.description>
-	<Blueprint_Install_Heater.label>обогреватель (проект)</Blueprint_Install_Heater.label>
-
-	<Cooler.label>кондиционер</Cooler.label>
-	<Cooler.description>Электрическое устройство, которое встраивается в стену и охлаждает помещение. Его задняя стенка сильно нагревается. Может использоваться для охлаждения помещения летом или для устройства морозильной камеры.</Cooler.description>
-	<Blueprint_Cooler.label>кондиционер (проект)</Blueprint_Cooler.label>
-	<Frame_Cooler.label>кондиционер (в процессе сборки)</Frame_Cooler.label>
-	<Frame_Cooler.description>Электрическое устройство, которое встраивается в стену и охлаждает помещение. Его задняя стенка сильно нагревается. Может использоваться для охлаждения помещения летом или для устройства морозильной камеры.</Frame_Cooler.description>
-
-	<Vent.label>вентиляция</Vent.label>
-	<Vent.description>Обычные вентиляционные трубы, которые позволяют воздуху циркулировать между двумя соседними помещениями.</Vent.description>
-	<Blueprint_Vent.label>вентиляция (проект)</Blueprint_Vent.label>
-	<Frame_Vent.label>вентиляция (строится)</Frame_Vent.label>
-	<Frame_Vent.description>Обычные вентиляционные трубы, которые позволяют воздуху циркулировать между двумя соседними помещениями.</Frame_Vent.description>
-
+  
+  <!-- EN: campfire -->
+  <Campfire.label>костёр</Campfire.label>
+  <!-- EN: Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable. -->
+  <Campfire.description>Позволяет готовить еду и обогревать помещение. Горит в течение нескольких дней. Как и любой другой источник тепла, костёр следует размещать внутри закрытого помещения, которое он будет обогревать.</Campfire.description>
+  
+  <!-- EN: cooler -->
+  <Cooler.label>кондиционер</Cooler.label>
+  <!-- EN: An air-cooling machine that fits into a wall. Cool air comes out one side, while hot exhaust comes out the other. Can be used to cool down rooms during summer, or to create a walk-in freezer. -->
+  <Cooler.description>Электрическое устройство, которое встраивается в стену и охлаждает помещение. Его задняя стенка сильно нагревается. Может использоваться для охлаждения помещения летом или для устройства морозильной камеры.</Cooler.description>
+  
+  <!-- EN: heater -->
+  <Heater.label>обогреватель</Heater.label>
+  <!-- EN: An device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature. -->
+  <Heater.description>Электрическое устройство, которое превращает электричество в тепло. Может автоматически включаться и отключаться при достижении заданной температуры.</Heater.description>
+  
+  <!-- EN: passive cooler -->
+  <PassiveCooler.label>испарительный охладитель</PassiveCooler.label>
+  <!-- EN: A traditional unpowered cooler that works by water evaporation. Will run out and vanish after several days. -->
+  <PassiveCooler.description>Традиционная система охлаждения, не требующая электричества, работающая за счёт испарения воды. Перестанет действовать и исчезнет через несколько дней.</PassiveCooler.description>
+  
+  <!-- EN: vent -->
+  <Vent.label>вентиляция</Vent.label>
+  <!-- EN: A vent for equalizing the temperature between two rooms without allowing people to walk between them. -->
+  <Vent.description>Обычные вентиляционные трубы, которые позволяют воздуху циркулировать между двумя соседними помещениями.</Vent.description>
+  
 </LanguageData>
