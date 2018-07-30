@@ -120,7 +120,7 @@
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>{0} предлагает дать имя вашей фракции. Как её назвать?</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>Похоже, что вы тут надолго. {0} предлагает дать имя вашей фракции. Как её назвать?</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
   <PlayerFactionGainsName>Ваша фракция теперь известна как {0}.</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
@@ -128,7 +128,7 @@
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
-  <NamePlayerFactionBaseMessage>Похоже, что вы тут надолго. {0} предлагает дать название этому поселению. Как вы назовёте его?</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>{0} предлагает дать название этому поселению. Как вы назовёте его?</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
   <PlayerFactionBaseGainsName>Это поселение теперь известно как {0}.</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
@@ -136,7 +136,7 @@
   
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>Похоже, что вы тут надолго. {0} также предлагает дать название этому поселению. Как вы назовёте его?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} также предлагает дать название этому поселению. Как вы назовёте его?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
   <PlayerFactionAndBaseGainsName>Ваша фракция теперь известна как {0}, а поселение называется {1}.</PlayerFactionAndBaseGainsName>
   
@@ -178,7 +178,7 @@
 
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
-  <ConfirmPermanentlyDisableDevMode>Вы уверены, что хотите навсегда отключить режим разработчика для этого компьютера?</ConfirmPermanentlyDisableDevMode>
+  <ConfirmPermanentlyDisableDevMode>Вы уверены, что хотите навсегда отключить режим разработчика для этого компьютера?\n\nЭта опция предназначена для тех, кто хочет получить «чистый» игровой опыт, без соблазна использовать отладочные инструменты для того, чтобы получить преимущества по сравнению с «честной» игрой.\n\nРежим разработчика можно будет снова включить, но это потребует ручных изменений в конфигурационных файлах игры. Вам придётся самостоятельно найти в интернете нужную информацию об этом.</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
   <!-- EN: Research -->
@@ -814,8 +814,5 @@
   <ConfirmCleanupTranslationFiles>Вы уверены, что хотите произвести очистку файлов локализации для этого языка: {0}?\n\nЭтот инструмент:\n    - Добавляет «заглушки» для отсутствующих keyed- и def-injected-значений, а также биографий персонажей.\n    - Добавляет оригинальные непереведённые тексты в виде XML-комментариев\n    - Размещает все keyed- и def-injected-строки по нужным папкам.\n    - Применяет автоматическое форматирование ко всем файлам XML.\n    - Обновляет обратно-совместимые названия определений.\n    - Удаляет все комментарии (кроме списковых значений).\n\nНе-XML файлы не будут удаляться и изменяться.\n\nПосле каждого изменения данных локализации не забывайте перезапускать игру, чтобы изменения вступили в силу.\n\nПеред использованием этого инструмента убедитесь, что сделали резервную копию.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>У меня есть резервная копия</ConfirmCleanupTranslationFiles_Confirm>
-
-  <!-- UNUSED -->
-  <SurgeryRequireBed>Нужна кровать</SurgeryRequireBed>
 
 </LanguageData>

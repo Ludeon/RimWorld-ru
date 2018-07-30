@@ -57,7 +57,7 @@
   <MessageOutOfNearbyShellsFor>{0} не может найти снарядов для {1}.</MessageOutOfNearbyShellsFor>
 
   <!-- EN: Warning: {0} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
-  <MessageAnimalsGoPsychoHunted>Внимание: {0} скорее всего нападёт, если причинить ему вред ({1} шанс на расстоянии выстрела винтовки, чем ближе, тем выше).</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>Внимание: при попадании с расстояния винтовочного выстрела {0} нападёт с вероятностью {1}. Чем охотник ближе к жертве, тем этот показатель выше. Чем лучше охотник владеет мастерством скрытной охоты, тем показатель ниже.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {0} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Внимание: {0} может атаковать при неудачной попытке приручения ({1} шанс).</MessageAnimalManhuntsOnTameFailed>
   
@@ -509,9 +509,9 @@
   <MessagePredatorHuntingPlayerAnimal>{0} охотится на {1} ради пропитания.</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {0}'s resistance has been broken by {1}. -->
-  <MessagePrisonerResistanceBroken>{1} успешно преодолевает психологическое сопротивление заключённого по имени {0}. С этого момента можно начинать вербовку.</MessagePrisonerResistanceBroken>
+  <MessagePrisonerResistanceBroken>{1} успешно преодолевает психологическое сопротивление заключённого по имени {0}.</MessagePrisonerResistanceBroken>
   <!-- EN: Recruitment attempts will begin. -->
-  <!-- <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>TODO</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin> -->
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>С этого момента можно начинать вербовку.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>Перед использованием этого инструмента требуется отключить все моды.</MessageDisableModsBeforeCleaningTranslationFiles>
@@ -522,6 +522,6 @@
   <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Невозможно загрузить один из файлов локализации: {0}. Устраните ошибки, связанные с неверным форматом XML.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
   <!-- EN: Warning: Capturing [PAWN_nameDef] will anger [PAWN_possessive] faction [PAWN_factionName]. -->
-  <!-- <MessageCapturingWillAngerFaction>TODO</MessageCapturingWillAngerFaction> -->
+  <MessageCapturingWillAngerFaction>Внимание: захват [PAWN_nameDef] испортит отношения с фракцией [PAWN_factionName].</MessageCapturingWillAngerFaction>
 
 </LanguageData>
