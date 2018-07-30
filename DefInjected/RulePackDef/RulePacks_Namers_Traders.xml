@@ -28,12 +28,18 @@
     <li>maybe_adjective->[AdjectiveBadass]</li>
   -->
   <NamerTraderGeneral.rulePack.rulesStrings>
-    <li>r_name->«[name]»</li>
-    <li>name(p=4)->[businessname] [businesstype]</li>
-    <li>name(p=0.5)->ИП [NamePerson]</li>
-    <li>name->[NamePerson] [businesstype]</li>
-    <li>name->[Color] [Animal] [businesstype]</li>
-    <li>name->[letters] [businesstype]</li>
+    <li>r_name->ИП [NamePerson]</li>
+    <li>r_name->ООО «[businessname_simple]»</li>
+    <li>r_name(p=0.5)->ЗАО «[businessname_simple]»</li>
+    <li>r_name(p=0.5)->ПАО «[businessname_simple]»</li>
+    <li>r_name(p=3)->«[businessname_complex]»</li>
+
+    <li>businessname_complex->[businessname_simple] [businesstype]</li>
+    <li>businessname_complex->[letters] [businesstype]</li>
+
+    <li>businessname_simple(p=4)->[businessname]</li>
+    <li>businessname_simple->[Color] [Animal]</li>
+
     <li>letters->[Letter][Letter]</li>
     <li>letters->[LetterLatin][LetterLatin]</li>
   </NamerTraderGeneral.rulePack.rulesStrings>
