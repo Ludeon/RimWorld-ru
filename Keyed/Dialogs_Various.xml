@@ -119,24 +119,24 @@
   <MissingMods>Некоторые моды недоступны и требуют установки</MissingMods>
   
   <!-- Player faction naming -->
-  <!-- EN: {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>{0} предлагает дать имя вашей фракции. Как её назвать?</NamePlayerFactionMessage>
+  <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
+  <NamePlayerFactionMessage>Похоже, что вы тут надолго. {0} предлагает дать имя вашей фракции. Как её назвать?</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
   <PlayerFactionGainsName>Ваша фракция теперь известна как {0}.</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerFactionNameIsInvalid>Это имя недопустимо.</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
-  <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give this community a name. What should the local community be called? -->
-  <NamePlayerFactionBaseMessage>Похоже, что вы тут надолго. {0} предлагает дать название этому поселению. Как вы назовёте его?</NamePlayerFactionBaseMessage>
+  <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
+  <NamePlayerFactionBaseMessage>{0} предлагает дать название этому поселению. Как вы назовёте его?</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
   <PlayerFactionBaseGainsName>Это поселение теперь известно как {0}.</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerFactionBaseNameIsInvalid>Это имя недопустимо.</PlayerFactionBaseNameIsInvalid>
   
   <!-- Player faction and faction base naming -->
-  <!-- EN: Since it looks like you'll be here for a while, {0} also thinks that you should give this community a name. What should this local community be called? -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>Похоже, что вы тут надолго. {0} также предлагает дать название этому поселению. Как вы назовёте его?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} также предлагает дать название этому поселению. Как вы назовёте его?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
   <PlayerFactionAndBaseGainsName>Ваша фракция теперь известна как {0}, а поселение называется {1}.</PlayerFactionAndBaseGainsName>
   
@@ -177,8 +177,8 @@
   <ResolutionRevert>Отменить</ResolutionRevert>
 
   <!-- Confirm permanently disable dev mode -->
-  <!-- EN: Do you really want to permanently disable development mode on this computer? -->
-  <ConfirmPermanentlyDisableDevMode>Вы уверены, что хотите навсегда отключить режим разработчика для этого компьютера?</ConfirmPermanentlyDisableDevMode>
+  <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
+  <ConfirmPermanentlyDisableDevMode>Вы уверены, что хотите навсегда отключить режим разработчика для этого компьютера?\n\nЭта опция предназначена для тех, кто хочет получить «чистый» игровой опыт, без соблазна использовать отладочные инструменты для того, чтобы получить преимущества по сравнению с «честной» игрой.\n\nРежим разработчика можно будет снова включить, но это потребует ручных изменений в конфигурационных файлах игры. Вам придётся самостоятельно найти в интернете нужную информацию об этом.</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
   <!-- EN: Research -->
@@ -408,8 +408,6 @@
   <Skill>Навык</Skill>
   <!-- EN: Success rate multiplier -->
   <SurgerySuccessChanceFactor>Коэфф-т успеха операции</SurgerySuccessChanceFactor>
-  <!-- EN: Requires bed -->
-  <SurgeryRequireBed>Нужна кровать</SurgeryRequireBed>
   <!-- EN: Work speed governed by -->
   <WorkSpeedStat>На скорость работы влияет</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
@@ -425,7 +423,7 @@
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Шанс ответного нападения</HarmedRevengeChance>
   <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeing revenge, attack it from rifle range with a slow-firing weapon. -->
-  <HarmedRevengeChanceExplanation>Вероятность, с которой животное нападёт, если ему причинить вред на расстоянии винтовочного выстрела.\n\nЧем атакующий ближе, тем эта вероятность выше. Если атаковать вблизи, то вероятность повышается в три раза.\n\nПроверка вероятности происходит при каждом получении урона, поэтому для охоты предпочтительнее использовать менее скорострельное и более убойное оружие.\n\nЧтобы минимизировать риск нападения животного, стреляйте по нему из нескорострельного оружия с расстояния винтовочного выстрела.</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChanceExplanation>Вероятность ответной агрессии животного при попадании в него с расстояния винтовочного выстрела.\n\nЧем атакующий ближе, тем эта вероятность выше. Если атаковать вблизи, то вероятность повышается в три раза.\n\nПроверка вероятности происходит при каждом получении урона, поэтому для охоты предпочтительнее использовать менее скорострельное и более убойное оружие.\n\nЧтобы минимизировать риск нападения животного, стреляйте по нему из нескорострельного оружия с расстояния винтовочного выстрела.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Шанс напад. при неуд. приручении</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -813,7 +811,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>Вы уверены, что хотите произвести очистку файлов локализации для этого языка: {0}?\n\nЭтот инструмент:\n    - Добавляет «заглушки» для отсутствующих keyed- и def-injected-значений, а также биографий персонажей.\n    - Добавляет оригинальные непереведённые тексты в виде XML-комментариев\n    - Размещает все keyed- и def-injected-строки по нужным папкам.\n    - Применяет автоматическое форматирование ко всем файлам XML.\n    - Обновляет обратно-совместимые названия определений.\n    - Удаляет все комментарии (кроме списковых значений).\n\nНе-XML файлы не будут удаляться и изменяться.\n\nПосле каждого изменения данных локализации не забывайте перезапускать игру, чтобы изменения вступили в силу.\n\nПеред использованием этого инструмента убедитесь, что сделали резервную копию.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Вы уверены, что хотите произвести форматирование файлов локализации для этого языка: {0}?\n\nЭтот инструмент:\n    - Добавляет «заглушки» для отсутствующих keyed- и def-injected-значений, а также биографий персонажей.\n    - Добавляет оригинальные непереведённые тексты в виде XML-комментариев\n    - Размещает все keyed- и def-injected-строки по нужным папкам.\n    - Применяет автоматическое форматирование ко всем файлам XML.\n    - Обновляет обратно-совместимые названия определений.\n    - Удаляет все комментарии (кроме списковых значений).\n\nНе-XML файлы не будут удаляться и изменяться.\n\nПосле каждого изменения данных локализации не забывайте перезапускать игру, чтобы изменения вступили в силу.\n\nПеред использованием этого инструмента убедитесь, что сделали резервную копию.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>У меня есть резервная копия</ConfirmCleanupTranslationFiles_Confirm>
 

@@ -182,8 +182,6 @@
   <CaravanPawnsDowned>{0} повержены</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
   <CaravanTraveling>В пути.</CaravanTraveling>
-  <!-- EN: Resting. -->
-  <CaravanPaused>Привал.</CaravanPaused>
   <!-- EN: Waiting. -->
   <CaravanWaiting>Ожидает.</CaravanWaiting>
   <!-- EN: Being carried due to illness -->
@@ -262,12 +260,12 @@
   <WornBy>надето на {0}</WornBy>
   <!-- EN: equipped by {0} -->
   <EquippedBy>оружие {0}</EquippedBy>
-  <!-- EN: {0} wants this destroyed.\n    Reward: {1}. -->
-  <QuestTargetDestroyInspectString>{0} хотят, чтобы этот лагерь был уничтожен.\n    Награда: {1}.</QuestTargetDestroyInspectString>
+  <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
+  <QuestTargetDestroyInspectString>{0} хотят, чтобы этот лагерь был уничтожен.\n    Награда: {1} ({2})</QuestTargetDestroyInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>Осталось времени: {0}</WorldObjectTimeout>
-  <!-- EN: Contents: {0} -->
-  <ItemStashContents>Содержимое: {0}.</ItemStashContents>
+  <!-- EN: Contents: {0} ({1}) -->
+  <ItemStashContents>Содержимое: {0} ({1})</ItemStashContents>
   <!-- EN: Click to sort by this column. -->
   <ClickToSortByThisColumn>Нажмите для сортировки по этому столбцу.</ClickToSortByThisColumn>
   <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
@@ -348,6 +346,16 @@
   <PreciousLumpLabel>залежи ресурса: {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>не выбрана технология для исследования</NoActiveResearchProjectToFinish>
+  <!-- EN: turret -->
+  <Turret>турель</Turret>
+  <!-- EN: turrets -->
+  <Turrets>турели</Turrets>
+  <!-- EN: mortar -->
+  <Mortar>миномёт</Mortar>
+  <!-- EN: mortars -->
+  <Mortars>миномёты</Mortars>
+  <!-- EN: enemy -->
+  <Enemy>враги</Enemy>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -608,8 +616,8 @@
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>Не подключено к сети.</PowerNotConnected>
-  <!-- EN: Connected rate/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>Мощность сети/аккумулировано: {0} Вт / {1} Вт*дней</PowerConnectedRateStored>
+  <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
+  <PowerConnectedRateStored>Запас мощности/аккумулировано: {0} Вт / {1} Вт*дней</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>Потребляемая мощность</PowerNeeded>
   <!-- EN: Power output -->
@@ -910,14 +918,6 @@
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
   <LifespanExpiry>Истекает через:</LifespanExpiry>
-
-  <!-- Traps -->
-  <!-- EN: Armed -->
-  <TrapArmed>Взведено</TrapArmed>
-  <!-- EN: Not armed -->
-  <TrapNotArmed>Не взведено</TrapNotArmed>
-  <!-- EN: Rearming cost: {0} -->
-  <TrapRearmingCost>Затраты на взведение: {0}</TrapRearmingCost>
 
   <!-- Facilities -->
   <!-- EN: inactive -->

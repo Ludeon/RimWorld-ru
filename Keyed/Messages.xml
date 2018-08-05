@@ -31,22 +31,22 @@
   <MessageVisitorsTrappedLeaving>{0} из фракции {1} попали в ловушку и пытаются выбраться на свободу.</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>{0} из фракции {1} уходят из-за неблагоприятных температурных условий.</MessageVisitorsDangerousTemperature>
-  
+
   <!-- EN: {0} worn by {1} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0}, носимое {1}, износилось окончательно и рассыпалось в прах.</MessageWornApparelDeterioratedAway>
-  
+
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>Начинается {0}.</MessageSeasonBegun>
 
   <!-- EN: {0} has left comms range. -->
   <MessageShipHasLeftCommsRange>Корабль «{0}» покинул зону связи.</MessageShipHasLeftCommsRange>
-  
+
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Для торговли с кораблём вам нужен работающий торговый маяк.</MessageNeedBeaconToTradeWithShip>
-  
+
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Задача завершена: {0}.</MessageBillComplete>
-  
+
   <!-- EN: {0} is fully healed. -->
   <MessageFullyHealed>{0} полностью здоров(а).</MessageFullyHealed>
 
@@ -56,8 +56,8 @@
   <!-- EN: {0} found no nearby unreserved shells for {1}. -->
   <MessageOutOfNearbyShellsFor>{0} не может найти снарядов для {1}.</MessageOutOfNearbyShellsFor>
 
-  <!-- EN: Warning: {0} may attack when harmed ({1} chance at rifle range, more if closer). -->
-  <MessageAnimalsGoPsychoHunted>Внимание: {0} скорее всего нападёт, если причинить ему вред ({1} шанс на расстоянии выстрела винтовки, чем ближе, тем выше).</MessageAnimalsGoPsychoHunted>
+  <!-- EN: Warning: {0} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
+  <MessageAnimalsGoPsychoHunted>Внимание: при попадании с расстояния винтовочного выстрела {0} нападёт с вероятностью {1}. Чем охотник ближе к жертве, тем этот показатель выше. Чем лучше охотник владеет мастерством скрытной охоты, тем показатель ниже.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {0} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Внимание: {0} может атаковать при неудачной попытке приручения ({1} шанс).</MessageAnimalManhuntsOnTameFailed>
   
@@ -425,9 +425,6 @@
   <!-- EN: Caravan will automatically travel to the first waypoint. -->
   <MessageChoseRoute>Караван начнёт путешествие к первой назначенной точке маршрута.</MessageChoseRoute>
 
-  <!-- EN: {0} blocked {1} on: {2}. -->
-  <MessageBlockedHediff>{0} блокирует {1} у этих поселенцев: {2}.</MessageBlockedHediff>
-
   <!-- EN: {0} has created a {1}. -->
   <MessageCraftedMasterwork>{0} завершает свой шедевр, {1}.</MessageCraftedMasterwork>
 
@@ -508,8 +505,10 @@
   <!-- EN: {0} is hunting {1} for food! -->
   <MessagePredatorHuntingPlayerAnimal>{0} охотится на {1} ради пропитания.</MessagePredatorHuntingPlayerAnimal>
 
-  <!-- EN: Prisoner {0}'s resistance has been broken by {1}. Recruitment attempts will begin. -->
-  <MessagePrisonerResistanceBroken>{1} успешно преодолевает психологическое сопротивление заключённого по имени {0}. С этого момента можно начинать вербовку.</MessagePrisonerResistanceBroken>
+  <!-- EN: Prisoner {0}'s resistance has been broken by {1}. -->
+  <MessagePrisonerResistanceBroken>{1} успешно преодолевает психологическое сопротивление заключённого по имени {0}.</MessagePrisonerResistanceBroken>
+  <!-- EN: Recruitment attempts will begin. -->
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>С этого момента можно начинать вербовку.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>Перед использованием этого инструмента требуется отключить все моды.</MessageDisableModsBeforeCleaningTranslationFiles>
@@ -518,5 +517,8 @@
 
   <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
   <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Невозможно загрузить один из файлов локализации: {0}. Устраните ошибки, связанные с неверным форматом XML.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
+
+  <!-- EN: Warning: Capturing [PAWN_nameDef] will anger [PAWN_possessive] faction [PAWN_factionName]. -->
+  <MessageCapturingWillAngerFaction>Внимание: захват [PAWN_nameDef] испортит отношения с фракцией [PAWN_factionName].</MessageCapturingWillAngerFaction>
 
 </LanguageData>

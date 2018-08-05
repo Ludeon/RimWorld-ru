@@ -23,9 +23,9 @@
   <!-- EN: Generating translation report -->
   <GeneratingTranslationReport>Формируется отчёт о переводе</GeneratingTranslationReport>
   <!-- EN: Cleanup translation files -->
-  <CleanupTranslationFiles>Очистить файлы перевода</CleanupTranslationFiles>
+  <CleanupTranslationFiles>Форматировать перевод</CleanupTranslationFiles>
   <!-- EN: Cleaning translation files -->
-  <CleaningTranslationFiles>Идёт чистка файлов перевода</CleaningTranslationFiles>
+  <CleaningTranslationFiles>Форматируются файлы перевода</CleaningTranslationFiles>
   <!-- EN: Credits -->
   <Credits>Создатели</Credits>
   <!-- EN: Quit to main menu -->
@@ -62,6 +62,10 @@
   <TranslationHowToContribute>Вы тоже можете помочь переводу. Чтобы узнать как, нажмите кнопку ниже (откроется веб-браузер).</TranslationHowToContribute>
   <!-- EN: Learn more -->
   <LearnMore>Помочь</LearnMore>
+
+  <!-- Main menu dev build -->
+  <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
+  <DevBuildWarning>Перед вами нестабильная сборка игры, находящейся в разработке.\n\nМы экспериментируем с игровым балансом, и в некоторых аспектах он будет намеренно нарушен. Этот приём игрового дизайна позволяет лучше оценить влияние предельных значений на общий баланс. Полученные данные будут использованы для более тонкой настройки параметров баланса.\n\nКроме того, в игре будут встречаться ошибки разной степени серьёзности, а совместимость сохранений не гарантируется.\n\nЕсли вас устраивает такое положение вещей, благодарим вас за участие в тестировании! В противном случае рекомендуем пользоваться последней стабильной версией игры.</DevBuildWarning>
 
   <!-- Create/review world -->
   <!-- EN: Review world -->
@@ -216,12 +220,16 @@
   <ReloadAnytimeMode>Загрузка в любой момент</ReloadAnytimeMode>
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
   <MustChoosePermadeath>Пожалуйста, выберите или «ответственный» режим, или режим загрузки в любой момент.</MustChoosePermadeath>
-  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, it's designed to encourage recovery after losses. Even losing all but one person is not the end of the game - it's part of the story.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his parents got killed - loss and recovery is dramatic! -->
-  <PermadeathModeInfo>Игра сохраняется только при выходе.\n\nRimWorld задумывался как генератор захватывающих историй, когда за каждым падением следует возрождение. Даже если в живых останется всего один человек — это не конец игры, а лишь часть истории.\n\nПреодоление ужасных ситуаций лишь добавляет истории трагизма и триумфа. Это именно то, ради чего стоит играть в RimWorld.\n\nЛюк Скайуокер, когда погибла его семья, не стал загружать сохранение. Потеря и возрождение — вот что по-настоящему захватывает!</PermadeathModeInfo>
-  <!-- EN: You can save and load the game at any time.\n\nThis isn't a bad choice if you're still learning the game, if it fits your personal playstyle or goals, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
-  <ReloadAnytimeModeInfo>Вы можете сохранять и загружать иргу в любой момент.\n\nЭто неплохой выбор для тех, кто только изучает RimWorld, и для тех, кому по душе такой стиль игры. Этот режим также подойдёт для вас, если, например, вы используете моды, которые могут «сломать» игру, или же если вы намереваетесь заставить себя перейти к «ответственному» режиму.</ReloadAnytimeModeInfo>
+  <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
+  <ReloadAnytimeModeInfo>Вы можете сохранять и загружать иргу в любой момент.\n\nЭто хороший выбор для тех, кто только изучает RimWorld, и для тех, кому по душе такой стиль игры. Этот режим также подойдёт для вас, если, например, вы используете моды, которые могут «сломать» игру, или же если вы только намереваетесь перейти к «ответственному» режиму.</ReloadAnytimeModeInfo>
+  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
+  <PermadeathModeInfo>Игра сохраняется только при выходе.\n\nRimWorld задумывался как генератор захватывающих историй, в которых за каждым падением следует возрождение. Даже если в живых останется всего один человек — это не конец игры, а лишь часть истории.\n\nПреодоление ужасных ситуаций лишь добавляет истории трагизма и триумфа. Это именно то, ради чего стоит играть в RimWorld.\n\nЛюк Скайуокер, когда погибла его семья, не стал загружать сохранение. Потеря и возрождение — вот что по-настоящему захватывает!</PermadeathModeInfo>
   <!-- EN: Storyteller and difficulty can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>Рассказчика и сложность можно будет поменять в любой момент.</CanChangeStorytellerSettingsDuringPlay>
+  <!-- EN: Merciless mode -->
+  <UnlockExtremeDifficulty>Режим «кошмар»</UnlockExtremeDifficulty>
+  <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
+  <ConfirmUnlockExtremeDifficulty>«Кошмар» — особый режим игры, при котором трудность любого испытания выкручена на максимум.\n\nЭтот режим открывается автоматически при достижении определённых этапов прохождения игры. Если хотите, его можно открыть прямо сейчас.\n\nРежим «кошмар» рекомендуется тем, кто прошёл игру на высокой сложности не по одному разу и хочет побывать в ситуациях, когда поселение погибает несмотря на все усилия.</ConfirmUnlockExtremeDifficulty>
 
   <!-- Landing site select -->
   <!-- EN: Select landing site -->

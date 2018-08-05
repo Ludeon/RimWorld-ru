@@ -91,10 +91,10 @@
 
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0} мстит</LetterLabelAnimalManhunterRevenge>
-  <!-- EN: A {0} is attacking after being harmed! -->
-  <AnimalManhunterFromDamage>Раненое животное, {0}, впало в ярость!</AnimalManhunterFromDamage>
-  <!-- EN: A {0} is attacking due to a taming attempt! -->
-  <AnimalManhunterFromTaming>После неудачной попытки приручения {0} нападает!</AnimalManhunterFromTaming>
+  <!-- EN: [PAWN_indefinite] is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
+  <AnimalManhunterFromDamage>Из-за нанесённого вами ранения [PAWN_indefinite] впадает в ярость!\n\nЭто животное будет нападать на любого человека, которого встретит, и успокоится только когда ляжет спать.</AnimalManhunterFromDamage>
+  <!-- EN: [PAWN_indefinite] is attacking due to a botched taming attempt! -->
+  <AnimalManhunterFromTaming>После неудачной попытки приручения [PAWN_indefinite] нападает!</AnimalManhunterFromTaming>
   <!-- EN: Other {0} nearby have also become enraged! -->
   <AnimalManhunterOthers>Другие {0} тоже впали в ярость!</AnimalManhunterOthers>
 
@@ -357,8 +357,8 @@
   <!-- Caravans battlefield victory -->
   <!-- EN: Caravan battle won -->
   <LetterLabelCaravansBattlefieldVictory>Победа!</LetterLabelCaravansBattlefieldVictory>
-  <!-- EN: Your caravan has won the battle.\n\nIn {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option. -->
-  <LetterCaravansBattlefieldVictory>Ваш караван одержал победу.\n\nЧерез {0} он самостоятельно продолжит путь. Вы можете отправить караван прямо сейчас, перейдя на карту мира, выбрав место боя и нажав кнопку «Продолжить путь».</LetterCaravansBattlefieldVictory>
+  <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, the caravan will be reformed automatically. -->
+  <LetterCaravansBattlefieldVictory>Ваш караван одержал победу.\n\nВы можете продолжить путь, перейдя на карту мира, выбрав место боя и нажав кнопку «Продолжить путь».\n\nНет необходимости собирать ресурсы вручную: при отправке каравана это можно будет сделать моментально.\n\nЧерез {0} караван продолжит путь самостоятельно.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
@@ -375,5 +375,13 @@
   <LetterLabelPredatorHuntingColonist>{0} охотится на {1}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {0} is hunting {1} for food! -->
   <LetterPredatorHuntingColonist>{0} охотится на {1} ради пропитания.</LetterPredatorHuntingColonist>
+
+  <!-- Disease -->
+  <!-- EN: {0} blocked {1} on: {2}. -->
+  <LetterDisease_Blocked>У этих людей {0} блокирует развитие болезни: {2}.</LetterDisease_Blocked>
+  <!-- EN: Disease ({0}) -->
+  <LetterLabelTraitDisease>Болезнь ({0})</LetterLabelTraitDisease>
+  <!-- EN: {0} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that [PAWN_pronoun] gets proper treatment and spends as much time in bed as possible. -->
+  <LetterTraitDisease>У {0} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {0} нуждается в надлежащем лечении и постельном режиме.</LetterTraitDisease>
 
 </LanguageData>
