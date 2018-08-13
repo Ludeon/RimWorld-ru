@@ -6,8 +6,12 @@
     <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
   -->
   <NamerFactionOutlander.rulePack.rulesFiles>
-    <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
-    <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
+    <li>political_union_masc->Words/Nouns/PoliticalUnions_Outlander_Masc</li>
+    <li>political_union_fem->Words/Nouns/PoliticalUnions_Outlander_Fem</li>
+    <li>political_union_neutral->Words/Nouns/PoliticalUnions_Outlander_Neutral</li>
+    <li>political_adjective_masc->Words/Adjectives/PoliticalUnions_Outlander_Masc</li>
+    <li>political_adjective_fem->Words/Adjectives/PoliticalUnions_Outlander_Fem</li>
+    <li>political_adjective_neutral->Words/Adjectives/PoliticalUnions_Outlander_Neutral</li>
   </NamerFactionOutlander.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=3)->[nearnameinitial]</li>
@@ -19,12 +23,26 @@
     <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
   -->
   <NamerFactionOutlander.rulePack.rulesStrings>
-    <li>r_name(p=3)->[subname]</li>
-    <li>r_name->[political_union_outlander] [subname]</li>
-    <li>r_name->[political_union_outlander] [political_adjective] [subname]</li>
-    <li>r_name->[political_adjective] [political_union_outlander] [subname]</li>
-    <li>subname(p=3)->[PlaceOutlander]</li>
-    <li>subname->[Direction] [PlaceOutlander]</li>
+    <li>r_name(p=6)->[proper_name_full]</li>
+    <li>r_name(p=3)->[political_name] [PlaceOutlander]</li>
+    <li>r_name->[Direction_masc] [political_name_masc]</li>
+    <li>r_name->[Direction_fem] [political_name_fem]</li>
+    <li>r_name->[Direction_neutral] [political_name_neutral]</li>
+    <li>r_name->[Color] [political_name_masc]</li>
+    <li>r_name->[Color_fem] [political_name_fem]</li>
+    <li>r_name->[Color_neutral] [political_name_neutral]</li>
+    <li>proper_name_full(p=4)->[PlaceOutlander]</li>
+    <li>proper_name_full->[PlaceOutlander] [PlaceOutlander]</li>
+    <li>proper_name_full->[PlaceOutlander]-[PlaceOutlander]</li>
+    <li>political_name->[political_name_masc]</li>
+    <li>political_name->[political_name_fem]</li>
+    <li>political_name->[political_name_neutral]</li>
+    <li>political_name_masc->[political_adjective_masc] [political_union_masc]</li>
+    <li>political_name_fem->[political_adjective_fem] [political_union_fem]</li>
+    <li>political_name_neutral->[political_adjective_neutral] [political_union_neutral]</li>
+    <li>political_name_masc(p=2)->[political_union_masc]</li>
+    <li>political_name_fem(p=2)->[political_union_fem]</li>
+    <li>political_name_neutral(p=2)->[political_union_neutral]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
   
   <!-- EN:
@@ -104,7 +122,13 @@
     <li>political_union_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
   -->
   <NamerFactionTribal.rulePack.rulesFiles>
-    <li>political_union_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
+    <li>political_union_masc->Words/Nouns/PoliticalUnions_Tribal_Masc</li>
+    <li>political_union_fem->Words/Nouns/PoliticalUnions_Tribal_Fem</li>
+    <li>political_union_neutral->Words/Nouns/PoliticalUnions_Tribal_Neutral</li>
+    <li>political_adjective_masc->Words/Adjectives/PoliticalUnions_Tribal_Masc</li>
+    <li>political_adjective_fem->Words/Adjectives/PoliticalUnions_Tribal_Fem</li>
+    <li>political_adjective_neutral->Words/Adjectives/PoliticalUnions_Tribal_Neutral</li>
+    <li>of_animal->Words/Nouns/Animals_Badass_Genitive</li>
   </NamerFactionTribal.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->[tribalworld] [political_union_tribal]</li>
@@ -115,12 +139,29 @@
     <li>r_name->The [WordTribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
-    <li>r_name->[politicalunion] [tribalworld]</li>
-    <li>r_name->[tribalworld] [politicalunion]</li>
-    <li>r_name->[politicalunion] [Color] [TerrainFeature]</li>
-    <li>r_name->[politicalunion] [WordTribal]</li>
-    <li>r_name->[Color] [Animal] [WordTribal]</li>
-    <li>r_name->[WordTribal] из [TerrainFeature]</li>
+    <li>r_name(p=6)->[proper_name_full]</li>
+    <li>r_name(p=3)->[political_name] [WordTribal]</li>
+    <li>r_name->[Direction_masc] [political_name_masc]</li>
+    <li>r_name->[Direction_fem] [political_name_fem]</li>
+    <li>r_name->[Direction_neutral] [political_name_neutral]</li>
+    <li>r_name->[Color] [political_name_masc]</li>
+    <li>r_name->[Color_fem] [political_name_fem]</li>
+    <li>r_name->[Color_neutral] [political_name_neutral]</li>
+    <li>r_name->[political_name_masc] [of_animal]</li>
+    <li>r_name->[political_name_fem] [of_animal]</li>
+    <li>r_name->[political_name_neutral] [of_animal]</li>
+    <li>proper_name_full(p=4)->[WordTribal]</li>
+    <li>proper_name_full->[WordTribal] [WordTribal]</li>
+    <li>proper_name_full->[WordTribal]-[WordTribal]</li>
+    <li>political_name->[political_name_masc]</li>
+    <li>political_name->[political_name_fem]</li>
+    <li>political_name->[political_name_neutral]</li>
+    <li>political_name_masc->[political_adjective_masc] [political_union_masc]</li>
+    <li>political_name_fem->[political_adjective_fem] [political_union_fem]</li>
+    <li>political_name_neutral->[political_adjective_neutral] [political_union_neutral]</li>
+    <li>political_name_masc(p=2)->[political_union_masc]</li>
+    <li>political_name_fem(p=2)->[political_union_fem]</li>
+    <li>political_name_neutral(p=2)->[political_union_neutral]</li>  
   </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:
