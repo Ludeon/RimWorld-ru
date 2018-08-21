@@ -311,9 +311,6 @@
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
   <MessageTransportPodsArrivedAndAddedToCaravan>Ваши транспортные капсулы прибыли к месту назначения. Пассажиров и груз подобрал {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
   
-  <!-- EN: The loading process has been canceled because one of the colonists has been lost. -->
-  <MessageFailedToLoadTransportersBecauseColonistLost>Погрузка отменена, поскольку один из поселенцев пропал.</MessageFailedToLoadTransportersBecauseColonistLost>
-  
   <!-- EN: Your colonists have finished loading the transport pods. -->
   <MessageFinishedLoadingTransporters>Погрузка транспортных капсул завершена.</MessageFinishedLoadingTransporters>
   
@@ -438,9 +435,11 @@
   <!-- EN: attacked {0} -->
   <GoodwillChangedReason_AttackedPawn>на {0} напали</GoodwillChangedReason_AttackedPawn>
   <!-- EN: used {0} on {1} -->
-  <GoodwillChangedReason_UsedItem>на {1} использовали {1}</GoodwillChangedReason_UsedItem>
+  <GoodwillChangedReason_UsedItem>на {1} использовали {0}</GoodwillChangedReason_UsedItem>
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>у {0} изъяли орган</GoodwillChangedReason_RemovedBodyPart>
+  <!-- EN: needlessly installed {0} -->
+  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>без нужды установили {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
   <!-- EN: captured {0} -->
   <GoodwillChangedReason_CapturedPawn>{0} взяли в плен</GoodwillChangedReason_CapturedPawn>
   <!-- EN: {0} crushed -->

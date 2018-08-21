@@ -579,9 +579,11 @@
   <!-- EN: Mass carried -->
   <MassCarriedSimple>Переносимый вес</MassCarriedSimple>
   <!-- EN: Mass capacity -->
-  <MassCapacity>Максимальный вес</MassCapacity>
+  <MassCapacity>Грузоподъёмность</MassCapacity>
   <!-- EN: Mass -->
   <Mass>Вес</Mass>
+  <!-- EN: Caravan mass -->
+  <CaravanMass>Вес каравана</CaravanMass>
   <!-- EN: Equipment and apparel mass -->
   <EquipmentAndApparelMass>Вес одежды и снаряжения</EquipmentAndApparelMass>
   <!-- EN: Inventory mass -->
@@ -814,5 +816,9 @@
   <ConfirmCleanupTranslationFiles>Вы уверены, что хотите произвести форматирование файлов локализации для этого языка: {0}?\n\nЭтот инструмент:\n    - Добавляет «заглушки» для отсутствующих keyed- и def-injected-значений, а также биографий персонажей.\n    - Добавляет оригинальные непереведённые тексты в виде XML-комментариев\n    - Размещает все keyed- и def-injected-строки по нужным папкам.\n    - Применяет автоматическое форматирование ко всем файлам XML.\n    - Обновляет обратно-совместимые названия определений.\n    - Удаляет все комментарии (кроме списковых значений).\n\nНе-XML файлы не будут удаляться и изменяться.\n\nПосле каждого изменения данных локализации не забывайте перезапускать игру, чтобы изменения вступили в силу.\n\nПеред использованием этого инструмента убедитесь, что сделали резервную копию.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>У меня есть резервная копия</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>Если вы отправите капсулы в пустую клетку, караван не сможет двигаться. Всё равно продолжить?</TransportersCaravanWillBeImmobile>
 
 </LanguageData>
