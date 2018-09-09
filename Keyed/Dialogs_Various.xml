@@ -149,7 +149,7 @@
   <ZoneGainsName>Область теперь называется: «{0}».</ZoneGainsName>
   
   <!-- Pawn naming -->
-  <!-- EN: This person's nickname is now {0}. [PAWN_possessive] title is {1}. -->
+  <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>Прозвище поселенца теперь {0}, и [PAWN_pronoun] — {1}</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Кличка животного теперь {0}.</AnimalGainsName>
@@ -468,9 +468,9 @@
   <TraderWillNotTrade>Торговец не желает покупать это.</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>Переговорщик</Negotiator>
-  <!-- EN: Your negotiator {0} cannot talk properly because of poor health. -->
+  <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
   <NegotiatorTalkingImpaired>Ваш переговорщик, {0}, имеет проблемы с речью.</NegotiatorTalkingImpaired>
-  <!-- EN: Your negotiator {0} cannot hear properly because of poor health. -->
+  <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
   <NegotiatorHearingImpaired>Ваш переговорщик, {0}, имеет проблемы со слухом.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>Это отразится на ценах торговли.\n\nПодумайте над назначением более здорового переговорщика.</NegotiatorCapacityImpaired>
@@ -526,7 +526,7 @@
   <CaravanCouldNotFindPackingSpot>Невозможно найти подходящее место сбора. Убедитесь, что выбранное место сбора ({0}) находится в пределах досягаемости.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Внимание: некоторые из назначенных поселенцев не могут добраться до точки выхода ({0}).</CaravanCouldNotFindReachableExitSpot>
-  <!-- EN: {0} is unreachable by any of the assigned colonists. -->
+  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
   <CaravanPawnIsUnreachable>{0} вне досягаемости для всех назначенных поселенцев.</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Ни один из поселенцев не может добраться до {0}.</CaravanItemIsUnreachableSingle>
@@ -546,7 +546,7 @@
   <InfiniteDaysWorthOfFoodInfo>Бесконечно</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>Приблизительное количество дней до момента, когда без еды останется хотя бы один человек или животное. Людям и разным видам животных требуется разная пища, поэтому кто-то может остаться без еды раньше остальных. Величина рассчитывается более точно, если определён маршрут путешествия.\n\nВлияющие факторы:\n  - рацион участников каравана\n  - возможность выпаса животных\n  - время порчи еды\n  - температура воздуха</DaysWorthOfFoodTooltip>
-  <!-- EN: \n(only the first waypoint is taken into account) -->
+  <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(учитывается только первая точка маршрута)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Вашему каравану хватит еды только на {0} дней. Люди и животные очень скоро начнут голодать.</DaysWorthOfFoodWarningDialog>
@@ -652,7 +652,7 @@
   <TooBigTransportersMassUsage>Масса назначенных пассажиров и груза слишком велика для транспортных капсул.</TooBigTransportersMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>Транспортная капсула не должна быть пустой.</CantSendEmptyTransportPods>
-  <!-- EN: {0} can't reach the transport pods. -->
+  <!-- EN: {1_labelShort} can't reach the transport pods. -->
   <PawnCantReachTransporters>{0} не может добраться до транспортных капсул.</PawnCantReachTransporters>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>Невозможно найти путь между транспортными капсулами и {0}.</TransporterItemIsUnreachableSingle>
@@ -796,19 +796,19 @@
   <ConfirmMoveAutoJoinableCaravan>Некоторые животные или заключённые хотели бы присоединиться к вашему каравану. Если вы двинетесь в путь, они окажутся в безвыходном положении.\n\nЖивотные, заключённые и неспособные ходить поселенцы будут считаться оставленными на произвол судьбы, и их могут взять в плен.\n\nВы уверены, что хотите двинуться в путь?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
-  <!-- EN: Do you really want to banish {0}? -->
+  <!-- EN: Do you really want to banish {1_label}? -->
   <ConfirmBanishPawnDialog>Вы действительно хотите изгнать {0}?</ConfirmBanishPawnDialog>
-  <!-- EN: {0} will most likely die. -->
+  <!-- EN: {1_labelShort} will most likely die. -->
   <ConfirmBanishPawnDialog_LeftToDie>{0} скорее всего погибнет.</ConfirmBanishPawnDialog_LeftToDie>
-  <!-- EN: {0} will take the following items with [PAWN_objective]: -->
+  <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
   <ConfirmBanishPawnDialog_Items>{0} возьмёт себе следующие вещи:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Все поселенцы будет расстроены следующими мыслями:</ConfirmBanishPawnDialog_AllColonistsThoughts>
-  <!-- EN: Banishing {0} will cause the following people to get the following thoughts: -->
+  <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
   <ConfirmBanishPawnDialog_IndividualThoughts>То, что вы изгнали {0}, отразится на настроении этих людей:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {0} is missing. Launch anyway? -->
+  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
   <ConfirmSendNotCompletelyLoadedPods>Группа капсул загружена не до конца. {0} отсутствует. Всё равно запустить?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->

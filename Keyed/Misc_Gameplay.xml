@@ -256,9 +256,9 @@
   <RoomInfectionChanceFactor>Шанс заразиться инфекцией в помещении</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
   <VentClosed>Перекрыта</VentClosed>
-  <!-- EN: worn by {0} -->
+  <!-- EN: worn by {1_labelShort} -->
   <WornBy>надето на {0}</WornBy>
-  <!-- EN: equipped by {0} -->
+  <!-- EN: equipped by {1_labelShort} -->
   <EquippedBy>оружие {0}</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
   <QuestTargetDestroyInspectString>{0} хотят, чтобы этот лагерь был уничтожен.\n    Награда: {1} ({2})</QuestTargetDestroyInspectString>
@@ -320,7 +320,7 @@
   <NoDietCategoryLetter>Без обозн.</NoDietCategoryLetter>
   <!-- EN: Expires in -->
   <ExpiresIn>Исчезнет через</ExpiresIn>
-  <!-- EN: {0}'s caravan -->
+  <!-- EN: {1_labelShort}'s caravan -->
   <CaravanLeaderCaravanName>Караван {0}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
   <Reason>Причина</Reason>
@@ -428,11 +428,11 @@
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>Нельзя отдавать приказы неконтролируемым юнитам.</CannotOrderNonControlled>
-  <!-- EN: {0} is incapable of violence. -->
+  <!-- EN: {1_labelShort} is incapable of violence. -->
   <IsIncapableOfViolence>{0} не в состоянии причинить насилие.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
   <IsIncapableOfViolenceShort>неспособен к насилию</IsIncapableOfViolenceShort>
-  <!-- EN: {0} is not drafted. -->
+  <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{0} не в режиме призыва.</IsNotDrafted>
 
   <!-- Snow -->
@@ -458,15 +458,15 @@
   <CannotFire>Выстрел невозможен</CannotFire>
   <!-- EN: roofed -->
   <Roofed>под крышей</Roofed>
-  <!-- EN: Shell loaded: {0} -->
+  <!-- EN: Shell loaded: {1_label} -->
   <ShellLoaded>В стволе: {0}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Не заряжен</ShellNotLoaded>
 
   <!-- Job reports -->
-  <!-- EN: hauling {0} to {1}. -->
+  <!-- EN: hauling {THING_label} to {DESTINATION}. -->
   <ReportHaulingTo>несёт {0} на {1}.</ReportHaulingTo>
-  <!-- EN: hauling {0}. -->
+  <!-- EN: hauling {1_label}. -->
   <ReportHauling>несёт {0}.</ReportHauling>
   <!-- EN: hauling. -->
   <ReportHaulingUnknown>несёт груз.</ReportHaulingUnknown>
@@ -496,7 +496,7 @@
   <ReportStanding>стоит.</ReportStanding>
   <!-- EN: extinguishing fire. -->
   <ReportExtinguishingFire>тушит пожар.</ReportExtinguishingFire>
-  <!-- EN: extinguishing fire on {0}. -->
+  <!-- EN: extinguishing fire on {TARGET_label}. -->
   <ReportExtinguishingFireOn>сбивает огонь с {0}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>выкапывает труп.</ReportDiggingUpCorpse>
@@ -526,7 +526,7 @@
   <Weather>Погода</Weather>
   <!-- EN: Cover -->
   <ShootingCover>Укрытие</ShootingCover>
-  <!-- EN: {0} stops {1} -->
+  <!-- EN: {COVER_label} stops {1} -->
   <CoverThingBlocksPercentOfShots>{0} блокирует {1}</CoverThingBlocksPercentOfShots>
   <!-- EN: no cover -->
   <NoCoverLower>нет укрытия</NoCoverLower>
@@ -562,11 +562,11 @@
   <MentalBreakThresholdMinor>Порог лёгкого нервного срыва</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
-  <!-- EN: {0} {1} -->
+  <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{1} ({0})</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} {1}</PawnMainDescFactionedWrap>
-  <!-- EN: {1} {0} -->
+  <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{1}, {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Фракция</Faction>
@@ -666,7 +666,7 @@
   <LessThanADay>менее суток</LessThanADay>
 
   <!-- Shooting tooltip -->
-  <!-- EN: Shot by {0} -->
+  <!-- EN: Shot by {1_labelShort} -->
   <ShotBy>Выстрел {0}</ShotBy>
   <!-- EN: Cannot hit target. -->
   <CannotHit> Не может попасть в цель.</CannotHit>
@@ -772,7 +772,7 @@
   <!-- Fire -->
   <!-- EN: Fire -->
   <Fire>Огонь</Fire>
-  <!-- EN: Fire on {0} -->
+  <!-- EN: Fire on {1_label} -->
   <FireOn>Огонь на {0}</FireOn>
   <!-- EN: Burning -->
   <Burning>Горит</Burning>
@@ -828,7 +828,7 @@
   <!-- Cryptosleep casket -->
   <!-- EN: Contains -->
   <CasketContains>Содержит</CasketContains>
-  <!-- EN: Warning!\n\n[PAWN_nameDef] is your last free-standing colonist! If you let [PAWN_objective] step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
+  <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
   <CasketWarning>Внимание!\n\n[PAWN_nameDef] — ваш последний поселенец. Если вы посадите [PAWN_possessive] в этот контейнер, вы, возможно, не сможете продолжить игру. Вы точно хотите сделать это?</CasketWarning>
 
   <!-- Ship launch report -->
@@ -856,7 +856,7 @@
   <HibernateWarningStandalonePacifist>Реактор готов к процедуре запуска. Этот процесс займёт около 15 дней.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
-  <!-- EN: {0} used {1} neurotrainer to go from level {2} to level {3}. -->
+  <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
   <NeurotrainerUsed>{0} совершенствует навык {1} с уровня {2} до уровня {3}, использовав нейротренер.</NeurotrainerUsed>
 
   <!-- Minification -->
@@ -924,11 +924,11 @@
   <InactiveFacility>отключён</InactiveFacility>
 
   <!-- Hediffs growth modes -->
-  <!-- EN: {0}'s {1} is now growing. -->
+  <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
   <DiseaseGrowthModeChanged_Growing>{0}: {1} прогрессирует.</DiseaseGrowthModeChanged_Growing>
-  <!-- EN: {0}'s {1} is now stable. -->
+  <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
   <DiseaseGrowthModeChanged_Stable>{0}: {1} стабилизируется.</DiseaseGrowthModeChanged_Stable>
-  <!-- EN: {0}'s {1} is now in remission. -->
+  <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
   <DiseaseGrowthModeChanged_Remission>{0}: {1} переходит в стадию ремиссии.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
@@ -938,13 +938,13 @@
   <MarriageSpotNotUsable>Не может быть использовано: {0}.</MarriageSpotNotUsable>
   <!-- EN: blocked -->
   <MarriageSpotNotStandable>заблокировано</MarriageSpotNotStandable>
-  <!-- EN: too dangerous for {0} -->
+  <!-- EN: too dangerous for {1_labelShort} -->
   <MarriageSpotDangerous>слишком опасно для {0}</MarriageSpotDangerous>
-  <!-- EN: forbidden for {0} -->
+  <!-- EN: forbidden for {1_labelShort} -->
   <MarriageSpotForbidden>запрещено для {0}</MarriageSpotForbidden>
   <!-- EN: reserved -->
   <MarriageSpotReserved>зарезервировано</MarriageSpotReserved>
-  <!-- EN: unreachable for {0} -->
+  <!-- EN: unreachable for {1_labelShort} -->
   <MarriageSpotUnreachable>недостижимо для {0}</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
   <MarriageSpotInPrisonCell>находится в тюремной камере</MarriageSpotInPrisonCell>
