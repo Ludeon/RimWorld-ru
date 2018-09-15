@@ -15,13 +15,13 @@
   <CannotUseReserved>Невозможно использовать: занято</CannotUseReserved>
   <!-- EN: Cannot use (full) -->
   <CannotUseFull>Невозможно использовать: заполнено</CannotUseFull>
-  <!-- EN: leader {0} is unavailable -->
-  <LeaderUnavailable>лидер {0} недоступен</LeaderUnavailable>
+  <!-- EN: leader {1_labelShort} is unavailable -->
+  <LeaderUnavailable>лидер, {1_labelShort}, недоступен</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>лидер недоступен</LeaderUnavailableNoLeader>
   
-  <!-- EN: Fire at {0} -->
-  <FireAt>Стрелять в {0}</FireAt>
+  <!-- EN: Fire at {1_label} -->
+  <FireAt>Стрелять в {1_label}</FireAt>
 
   <!-- EN: out of range -->
   <OutOfRange>вне зоны поражения</OutOfRange>
@@ -29,24 +29,24 @@
   <TooClose>слишком близко</TooClose>
   <!-- EN: cannot hit target -->
   <CannotHitTarget>невозможно попасть в цель</CannotHitTarget>
-  <!-- EN: {0} is incapable of violence -->
-  <IsIncapableOfViolenceLower>{0} не может причинять насилие</IsIncapableOfViolenceLower>
+  <!-- EN: {1_labelShort} is incapable of violence -->
+  <IsIncapableOfViolenceLower>{1_labelShort} не может причинять насилие</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>не может причинять насилие</IncapableOfViolenceLower>
-  <!-- EN: {0} is not drafted -->
-  <IsNotDraftedLower>{0} не призван</IsNotDraftedLower>
+  <!-- EN: {1_labelShort} is not drafted -->
+  <IsNotDraftedLower>{1_labelShort} не в режиме призыва</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>нельзя отдавать приказы неподконтрольным персонажам</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>нельзя атаковать себя</CannotAttackSelf>
 
-  <!-- EN: Man {0} -->
-  <OrderManThing>Занять {0}</OrderManThing>
+  <!-- EN: Man {1_labelShort} -->
+  <OrderManThing>Занять {1_labelShort}</OrderManThing>
   
-  <!-- EN: Melee attack {0} -->
-  <MeleeAttack>Ближний бой с {0}</MeleeAttack>
-  <!-- EN: Melee attack {0} to death -->
-  <MeleeAttackToDeath>Добить {0} врукопашную</MeleeAttackToDeath>
+  <!-- EN: Melee attack {1_label} -->
+  <MeleeAttack>Ближний бой с {1_label}</MeleeAttack>
+  <!-- EN: Melee attack {1_label} to death -->
+  <MeleeAttackToDeath>Добить {1_label} врукопашную</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>нет прохода</NoPath>
 
@@ -121,8 +121,8 @@
   <!-- EN: angers faction -->
   <AngersFaction>разозлит фракцию</AngersFaction>
   
-  <!-- EN: Consume {0} -->
-  <ConsumeThing>Съесть {0}</ConsumeThing>
+  <!-- EN: Consume {1_labelShort} -->
+  <ConsumeThing>Съесть {1_labelShort}</ConsumeThing>
   
   <!-- EN: Cannot go here (no path) -->
   <CannotGoNoPath>Невозможно пройти сюда: нет прохода</CannotGoNoPath>
@@ -131,23 +131,23 @@
   
   <!-- EN: Arrest {0} -->
   <Arrest>Арестовать {0}</Arrest>
-  <!-- EN: Try to arrest {0} -->
-  <TryToArrest>Попытаться арестовать {0}</TryToArrest>
+  <!-- EN: Try to arrest {1_label} -->
+  <TryToArrest>Попытаться арестовать {1_label}</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>Невозможно арестовать</CannotArrest>
 
-  <!-- EN: Capture {0} -->
-  <Capture>Захватить {0}</Capture>
+  <!-- EN: Capture {1_label} -->
+  <Capture>Захватить {1_label}</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>Невозможно захватить</CannotCapture>
 
-  <!-- EN: Rescue {0} -->
-  <Rescue>Спасти {0}</Rescue>
+  <!-- EN: Rescue {1_label} -->
+  <Rescue>Спасти {1_label}</Rescue>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Невозможно спасти</CannotRescue>
 
-  <!-- EN: Carry {0} to cryptosleep casket -->
-  <CarryToCryptosleepCasket>Перенести {0} в контейнер криптосна</CarryToCryptosleepCasket>
+  <!-- EN: Carry {1_label} to cryptosleep casket -->
+  <CarryToCryptosleepCasket>Перенести {1_label} в контейнер криптосна</CarryToCryptosleepCasket>
   <!-- EN: Cannot carry to cryptosleep casket -->
   <CannotCarryToCryptosleepCasket>Невозможно перенести в контейнер криптосна</CannotCarryToCryptosleepCasket>
 
@@ -161,8 +161,8 @@
   <NoAnimalBed>Нет доступных свободных кроватей для животных в местах с безопасной температурой.</NoAnimalBed>
   <!-- EN: Reserved by someone else. -->
   <Reserved>Занято кем-то другим.</Reserved>
-  <!-- EN: Reserved by {0} -->
-  <ReservedBy>Занято {0}</ReservedBy>
+  <!-- EN: Reserved by {1_labelShort} -->
+  <ReservedBy>Занято {1_labelShort}</ReservedBy>
   <!-- EN: {0} is reserved by {1}. -->
   <IsReservedBy>{0} уже использует {1}.</IsReservedBy>
   <!-- EN: Too heavy -->
@@ -182,74 +182,74 @@
   <EquipWarningBrawler>(драчун будет недоволен)</EquipWarningBrawler>
   <!-- EN: Cannot equip {0} -->
   <CannotEquip>Невозможно взять оружие: {0}</CannotEquip>
-  <!-- EN: Cannot man {0} -->
-  <CannotManThing>Невозможно занять {0}</CannotManThing>
+  <!-- EN: Cannot man {1_labelShort} -->
+  <CannotManThing>Невозможно занять {1_labelShort}</CannotManThing>
   
-  <!-- EN: Force wear {0} -->
-  <ForceWear>Надеть {0}</ForceWear>
-  <!-- EN: Cannot wear {0} -->
-  <CannotWear>Невозможно надеть {0}</CannotWear>
+  <!-- EN: Force wear {1_labelShort} -->
+  <ForceWear>Надеть {1_labelShort}</ForceWear>
+  <!-- EN: Cannot wear {1_label} -->
+  <CannotWear>Невозможно надеть {1_labelShort}</CannotWear>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>отсутствуют части тела</CannotWearBecauseOfMissingBodyParts>
   
-  <!-- EN: Cannot pick up {0} -->
-  <CannotPickUp>Невозможно взять {0}</CannotPickUp>
-  <!-- EN: Cannot pick up {0} (all) -->
-  <CannotPickUpAll>Невозможно взять {0} (всё)</CannotPickUpAll>
-  <!-- EN: Pick up {0} -->
-  <PickUp>Взять {0}</PickUp>
-  <!-- EN: Pick up {0} (all) -->
-  <PickUpAll>Взять {0} (всё)</PickUpAll>
-  <!-- EN: Pick up {0}... -->
-  <PickUpSome>Взять {0}...</PickUpSome>
-  <!-- EN: Pick up {0} x{{0}} -->
-  <PickUpCount>Взять {0} ({{0}} шт)</PickUpCount>
+  <!-- EN: Cannot pick up {1_label} -->
+  <CannotPickUp>Невозможно взять {1_label}</CannotPickUp>
+  <!-- EN: Cannot pick up {1_label} (all) -->
+  <CannotPickUpAll>Невозможно взять {1_label} (всё)</CannotPickUpAll>
+  <!-- EN: Pick up {1_label} -->
+  <PickUp>Взять {1_label}</PickUp>
+  <!-- EN: Pick up {1_label} (all) -->
+  <PickUpAll>Взять {1_label} (всё)</PickUpAll>
+  <!-- EN: Pick up {1_labelShort}... -->
+  <PickUpSome>Взять {1_label}...</PickUpSome>
+  <!-- EN: Pick up {1_labelShort} x{{0}} -->
+  <PickUpCount>Взять {1_label} ({{0}} шт)</PickUpCount>
   
-  <!-- EN: Cannot give {0} to pack animal -->
-  <CannotGiveToPackAnimal>Невозможно положить {0} во вьюк</CannotGiveToPackAnimal>
-  <!-- EN: Cannot give {0} (all) to pack animal -->
-  <CannotGiveToPackAnimalAll>Невозможно положить {0} (всё) во вьюк</CannotGiveToPackAnimalAll>
-  <!-- EN: Give {0} to pack animal -->
-  <GiveToPackAnimal>Положить {0} во вьюк</GiveToPackAnimal>
-  <!-- EN: Give {0} (all) to pack animal -->
-  <GiveToPackAnimalAll>Положить {0} (всё) во вьюк</GiveToPackAnimalAll>
-  <!-- EN: Give {0} to pack animal... -->
-  <GiveToPackAnimalSome>Положить {0} во вьюк...</GiveToPackAnimalSome>
-  <!-- EN: Take {0} x{{0}} -->
-  <GiveToPackAnimalCount>Положить {0} ({{0}} шт) во вьюк</GiveToPackAnimalCount>
+  <!-- EN: Cannot give {1_label} to pack animal -->
+  <CannotGiveToPackAnimal>Невозможно положить {1_label} во вьюк</CannotGiveToPackAnimal>
+  <!-- EN: Cannot give {1_label} (all) to pack animal -->
+  <CannotGiveToPackAnimalAll>Невозможно положить {1_label} (всё) во вьюк</CannotGiveToPackAnimalAll>
+  <!-- EN: Give {1_label} to pack animal -->
+  <GiveToPackAnimal>Положить {1_label} во вьюк</GiveToPackAnimal>
+  <!-- EN: Give {1_label} (all) to pack animal -->
+  <GiveToPackAnimalAll>Положить {1_label} (всё) во вьюк</GiveToPackAnimalAll>
+  <!-- EN: Give {1_labelShort} to pack animal... -->
+  <GiveToPackAnimalSome>Положить {1_label} во вьюк...</GiveToPackAnimalSome>
+  <!-- EN: Take {1_labelShort} x{{0}} -->
+  <GiveToPackAnimalCount>Положить {1_label} ({{0}} шт) во вьюк</GiveToPackAnimalCount>
   
-  <!-- EN: Cannot load {0} into caravan -->
-  <CannotLoadIntoCaravan>Невозможно передать {0} каравану</CannotLoadIntoCaravan>
-  <!-- EN: Cannot load {0} (all) into caravan -->
-  <CannotLoadIntoCaravanAll>Невозможно передать {0} (всё) каравану</CannotLoadIntoCaravanAll>
-  <!-- EN: Load {0} into caravan -->
-  <LoadIntoCaravan>Передать {0} каравану</LoadIntoCaravan>
-  <!-- EN: Load {0} (all) into caravan -->
-  <LoadIntoCaravanAll>Передать {0} (всё) каравану</LoadIntoCaravanAll>
-  <!-- EN: Load {0} into caravan... -->
-  <LoadIntoCaravanSome>Передать {0} каравану...</LoadIntoCaravanSome>
-  <!-- EN: Load {0} x{{0}} -->
-  <LoadIntoCaravanCount>Передать {0} ({{0}} шт) каравану</LoadIntoCaravanCount>
+  <!-- EN: Cannot load {1_label} into caravan -->
+  <CannotLoadIntoCaravan>Невозможно передать {1_label} каравану</CannotLoadIntoCaravan>
+  <!-- EN: Cannot load {1_label} (all) into caravan -->
+  <CannotLoadIntoCaravanAll>Невозможно передать {1_label} (всё) каравану</CannotLoadIntoCaravanAll>
+  <!-- EN: Load {1_label} into caravan -->
+  <LoadIntoCaravan>Передать {1_label} каравану</LoadIntoCaravan>
+  <!-- EN: Load {1_label} (all) into caravan -->
+  <LoadIntoCaravanAll>Передать {1_label} (всё) каравану</LoadIntoCaravanAll>
+  <!-- EN: Load {1_labelShort} into caravan... -->
+  <LoadIntoCaravanSome>Передать {1_label} каравану...</LoadIntoCaravanSome>
+  <!-- EN: Load {1_labelShort} x{{0}} -->
+  <LoadIntoCaravanCount>Передать {1_label} ({{0}} шт) каравану</LoadIntoCaravanCount>
   <!-- EN: overweight -->
   <OverweightLower>перегруз</OverweightLower>
 
-  <!-- EN: Cannot carry {0} and leave the area -->
-  <CannotCarryToExit>Невозможно уйти, неся {0}</CannotCarryToExit>
-  <!-- EN: Carry {0} and leave the area -->
-  <CarryToExit>Взять {0} и уйти</CarryToExit>
-  <!-- EN: Capture {0} and leave the area -->
-  <CarryToExitAndCapture>Захватить {0} и уйти</CarryToExitAndCapture>
+  <!-- EN: Cannot carry {1_label} and leave the area -->
+  <CannotCarryToExit>Невозможно уйти, неся {1_label}</CannotCarryToExit>
+  <!-- EN: Carry {1_label} and leave the area -->
+  <CarryToExit>Взять {1_label} и уйти</CarryToExit>
+  <!-- EN: Capture {1_label} and leave the area -->
+  <CarryToExitAndCapture>Захватить {1_label} и уйти</CarryToExitAndCapture>
   
-  <!-- EN: Strip {0} -->
-  <Strip>Раздеть {0}</Strip>
-  <!-- EN: Cannot strip {0} -->
-  <CannotStrip>Невозможно раздеть {0}</CannotStrip>
+  <!-- EN: Strip {1_label} -->
+  <Strip>Раздеть {1_label}</Strip>
+  <!-- EN: Cannot strip {1_label} -->
+  <CannotStrip>Невозможно раздеть {1_label}</CannotStrip>
 
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Самоуничтожиться здесь</SelfDestructHere>
   
-  <!-- EN: Drop {0} -->
-  <Drop>Бросить {0}</Drop>
+  <!-- EN: Drop {1_label} -->
+  <Drop>Бросить {1_label}</Drop>
 
   <!-- EN: Rest until healed -->
   <UseMedicalBed>Отдыхать до выздоровления</UseMedicalBed>
@@ -287,8 +287,8 @@
   <OpenCryptosleepCasket>Открыть контейнер криптосна</OpenCryptosleepCasket>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
-  <!-- EN: Cannot {0} {1} -->
-  <CannotGenericWork>Невозможно {0} {1}</CannotGenericWork>
+  <!-- EN: Cannot {0} {2_labelShort} -->
+  <CannotGenericWork>Невозможно {0} {2_labelShort}</CannotGenericWork>
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>Невозможно {0}</CannotGenericWorkCustom>
 
@@ -296,8 +296,8 @@
   <CannotMissingHealthActivities>Невозможно выполнить: поселенец не может {0} из-за проблем со здоровьем</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
-  <!-- EN: Already {0} {1} -->
-  <CannotGenericAlreadyAm>Поселенец уже начал {0}: {1}</CannotGenericAlreadyAm>
+  <!-- EN: Already {0} {2_labelShort} -->
+  <CannotGenericAlreadyAm>Поселенец уже начал {0}: {2_labelShort}</CannotGenericAlreadyAm>
 
   <!-- EN: Cannot prioritize (will never do {0}) -->
   <CannotPrioritizeWorkTypeDisabled>Невозможно выполнить: поселенец никогда не будет {0}</CannotPrioritizeWorkTypeDisabled>
@@ -315,8 +315,8 @@
   <!-- EN: Cannot prioritize (research is a long-term task) -->
   <CannotPrioritizeResearch>Выполнение исследования задаётся приоритетом работ</CannotPrioritizeResearch>
 
-  <!-- EN: Cannot prioritize ({0} is forbidden) -->
-  <CannotPrioritizeForbidden>Невозможно выполнить: {0} запрещено</CannotPrioritizeForbidden>
+  <!-- EN: Cannot prioritize ({1_label} is forbidden) -->
+  <CannotPrioritizeForbidden>Невозможно выполнить: {1_label} запрещено</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize (forbidden) -->
   <CannotPrioritizeCellForbidden>Невозможно выполнить: запрещено</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->

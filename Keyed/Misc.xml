@@ -82,8 +82,8 @@
   <CorpseLabel>труп {0}</CorpseLabel>
   <!-- EN: Dead body of a {0}. -->
   <CorpseDesc>Мёртвое тело {0}.</CorpseDesc>
-  <!-- EN: {0} (dead) -->
-  <DeadLabel>{0} (мёртв)</DeadLabel>
+  <!-- EN: {1_label} (dead) -->
+  <DeadLabel>{1_label} ({1_gender ? мёртв : мертва})</DeadLabel>
 
   <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>неровный {0}</RoughStoneTerrainLabel>
@@ -111,13 +111,13 @@
   <!-- EN: {0} {1} -->
   <ThingMadeOfStuffLabel>{1} из {0}</ThingMadeOfStuffLabel>
 
-  <!-- EN: {0}'s {1} -->
-  <SomeonesRoom>{1} {0}</SomeonesRoom>
-  <!-- EN: {0} and {1}'s {2} -->
-  <CouplesRoom>{2} {0} и {1}</CouplesRoom>
+  <!-- EN: {PAWN_labelShort}'s {1} -->
+  <SomeonesRoom>{1} {PAWN_labelShort}</SomeonesRoom>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
+  <CouplesRoom>{2} {PAWN1_labelShort} и {PAWN2_labelShort}</CouplesRoom>
   
   <!-- EN: (various) -->
-  <VariousLabel>(различное)</VariousLabel>
+  <VariousLabel>(разное)</VariousLabel>
 
   <!-- History events -->
   <!-- EN: Colonist died -->
