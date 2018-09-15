@@ -236,11 +236,11 @@
   <!-- EN: All members of {0} have died. -->
   <LetterAllCaravanColonistsDied>{0} уничтожен. Все его участники мертвы.</LetterAllCaravanColonistsDied>
   
-  <!-- Caravan entered ambush map -->
-  <!-- EN: Caravan arrived at ambush -->
-  <LetterLabelCaravanEnteredAmbushMap>Караван попал в засаду</LetterLabelCaravanEnteredAmbushMap>
-  <!-- EN: {0} has arrived at the ambush site. -->
-  <LetterCaravanEnteredAmbushMap>{0} оказался в месте, где его поджидала засада.</LetterCaravanEnteredAmbushMap>
+  <!-- Caravan entered map -->
+  <!-- EN: Caravan arrived at {0_label} -->
+  <LetterLabelCaravanEnteredMap>TODO</LetterLabelCaravanEnteredMap>
+  <!-- EN: {0} has arrived at {1_definite}. -->
+  <LetterCaravanEnteredMap>TODO</LetterCaravanEnteredMap>
   
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
@@ -364,10 +364,6 @@
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
   <LetterRescueQuestFinished>Вы спасли {PAWN_nameDef}, и {PAWN_pronoun} решает присоединиться к вашей группе.\n\nЧтобы взять {PAWN_possessive} с собой, перейдите на карту мира, выделите ваше текущее местоположение и нажмите кнопку «Продолжить путь».</LetterRescueQuestFinished>
 
-  <!-- Player entered site (generic label) -->
-  <!-- EN: Arrived at site -->
-  <LetterLabelPlayerEnteredNewSiteGeneric>Караван прибыл</LetterLabelPlayerEnteredNewSiteGeneric>
-
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
   <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} охотится на {PREY_definite}</LetterLabelPredatorHuntingColonist>
@@ -381,5 +377,10 @@
   <LetterLabelTraitDisease>Болезнь ({0})</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>У {PAWN_label} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {PAWN_labelShort} нуждается в надлежащем лечении и постельном режиме.</LetterTraitDisease>
+
+  <!-- UNUSED -->
+  <LetterLabelCaravanEnteredAmbushMap>Караван попал в засаду</LetterLabelCaravanEnteredAmbushMap>
+  <LetterCaravanEnteredAmbushMap>{0} оказался в месте, где его поджидала засада.</LetterCaravanEnteredAmbushMap>
+  <LetterLabelPlayerEnteredNewSiteGeneric>Караван прибыл</LetterLabelPlayerEnteredNewSiteGeneric>
 
 </LanguageData>

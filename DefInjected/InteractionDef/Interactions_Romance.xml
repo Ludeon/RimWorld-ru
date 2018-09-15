@@ -4,10 +4,10 @@
   <!-- EN: breakup -->
   <Breakup.label>расставание</Breakup.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for a break.</li>
-    <li>r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for some space.</li>
-    <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it's not working out.</li>
-    <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it would be best to see other people.</li>
+    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break.</li>
+    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space.</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it's not working out.</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] говорит [OTHER_nameDef], что хочет расстаться.</li>
@@ -21,9 +21,9 @@
   <!-- EN: marriage proposal -->
   <MarriageProposal.label>свадебное предложение</MarriageProposal.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [OTHER_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [OTHER_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [OTHER_objective].</li>
+    <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] предлагает [OTHER_nameDef] свои руку и сердце.</li>
@@ -34,7 +34,7 @@
   <!-- EN: romance attempt -->
   <RomanceAttempt.label>флирт</RomanceAttempt.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] [wooed] [OTHER_nameDef] by [wootactic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic].</li>
     <li>wooed->tried to flirt with</li>
     <li>wooed->flirted with</li>
     <li>wooed->tried to attract</li>
@@ -44,14 +44,14 @@
     <li>wooed->pursued</li>
     <li>wooed->charmed</li>
     <li>wooed->courted</li>
-    <li>wootactic(p=4)->[complimenting] [OTHER_possessive] [PersonalCharacteristic]</li>
+    <li>wootactic(p=4)->[complimenting] [RECIPIENT_possessive] [PersonalCharacteristic]</li>
     <li>wootactic->telling a story about [TalkTopicAny]</li>
     <li>wootactic->telling a tale about [TalkTopicAny]</li>
     <li>wootactic->joking about [TalkTopicAny]</li>
     <li>wootactic->making an observation about [TalkTopicAny]</li>
     <li>wootactic(p=2)->[boasting] [INITIATOR_possessive] own [PersonalCharacteristic]</li>
-    <li>wootactic->comparing [OTHER_objective] to a [romantic_adj] [romantic_noun]</li>
-    <li>wootactic->describing [OTHER_objective] as a [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->comparing [RECIPIENT_objective] to a [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->describing [RECIPIENT_objective] as a [romantic_adj] [romantic_noun]</li>
     <li>boasting->boasting about</li>
     <li>boasting->mentioning</li>
     <li>boasting->implying good things about</li>
