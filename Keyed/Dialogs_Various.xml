@@ -150,7 +150,7 @@
   
   <!-- Pawn naming -->
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>Прозвище поселенца теперь {0}, и [PAWN_pronoun] — {1}</PawnGainsName>
+  <PawnGainsName>Прозвище поселенца теперь {0}, и {PAWN_pronoun} — {PAWN_title}</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Кличка животного теперь {0}.</AnimalGainsName>
 
@@ -158,7 +158,7 @@
   <!-- EN: Version mismatch -->
   <VersionMismatch>Несовпадение версий</VersionMismatch>
   <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
-  <SaveGameIncompatibleWarningText>Внимание: Эта игра была сохранена в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого сохранения может вызвать ошибки и сбои.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningText>Внимание: Эта игра была сохранена в версии {0}\nСейчас вы используете версию {1}.\n\nЗагрузка этого сохранения может вызвать ошибки и сбои.</SaveGameIncompatibleWarningText>
   <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
   <WorldFileVersionMismatch>Внимание: Этот мир был сгенерирован в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого мира, вероятно, вызовет ошибки и сбои. Возможно, вам стоит сгенерировать новый мир.</WorldFileVersionMismatch>
   <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
@@ -469,9 +469,9 @@
   <!-- EN: Negotiator -->
   <Negotiator>Переговорщик</Negotiator>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>Ваш переговорщик, {0}, имеет проблемы с речью.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>Ваш переговорщик, {1_labelShort}, имеет проблемы с речью.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>Ваш переговорщик, {0}, имеет проблемы со слухом.</NegotiatorHearingImpaired>
+  <NegotiatorHearingImpaired>Ваш переговорщик, {1_labelShort}, имеет проблемы со слухом.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>Это отразится на ценах торговли.\n\nПодумайте над назначением более здорового переговорщика.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
@@ -527,7 +527,7 @@
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Внимание: некоторые из назначенных поселенцев не могут добраться до точки выхода ({0}).</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>{0} вне досягаемости для всех назначенных поселенцев.</CaravanPawnIsUnreachable>
+  <CaravanPawnIsUnreachable>{1_labelShort} вне досягаемости для всех назначенных поселенцев.</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Ни один из поселенцев не может добраться до {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -653,7 +653,7 @@
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>Транспортная капсула не должна быть пустой.</CantSendEmptyTransportPods>
   <!-- EN: {1_labelShort} can't reach the transport pods. -->
-  <PawnCantReachTransporters>{0} не может добраться до транспортных капсул.</PawnCantReachTransporters>
+  <PawnCantReachTransporters>{1_labelShort} не может добраться до транспортных капсул.</PawnCantReachTransporters>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>Невозможно найти путь между транспортными капсулами и {0}.</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
@@ -797,19 +797,19 @@
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
-  <ConfirmBanishPawnDialog>Вы действительно хотите изгнать {0}?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog>Вы действительно хотите изгнать {1_label}?</ConfirmBanishPawnDialog>
   <!-- EN: {1_labelShort} will most likely die. -->
-  <ConfirmBanishPawnDialog_LeftToDie>{0} скорее всего погибнет.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} скорее всего погибнет.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
-  <ConfirmBanishPawnDialog_Items>{0} возьмёт себе следующие вещи:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>{1_labelShort} возьмёт себе следующие вещи:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Все поселенцы будет расстроены следующими мыслями:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>То, что вы изгнали {0}, отразится на настроении этих людей:</ConfirmBanishPawnDialog_IndividualThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>Изгнание {1_labelShort} отразится на настроении этих людей:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>Группа капсул загружена не до конца. {0} отсутствует. Всё равно запустить?</ConfirmSendNotCompletelyLoadedPods>
+  <ConfirmSendNotCompletelyLoadedPods>Группа капсул загружена не до конца. {1_labelShort} отсутствует. Всё равно запустить?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->

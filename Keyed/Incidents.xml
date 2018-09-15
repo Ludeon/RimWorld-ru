@@ -2,9 +2,9 @@
 <LanguageData>
 
   <!-- EN: Mad {ANIMAL_labelShort} -->
-  <LetterLabelAnimalInsanitySingle>{0} сходит с ума</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort} сходит с ума</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>Животное, {0}, в бешенстве и будет атаковать любого, кого увидит.</AnimalInsanitySingle>
+  <AnimalInsanitySingle>Животное, {ANIMAL_label}, в бешенстве и будет атаковать любого, кого увидит.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
   <LetterLabelAnimalInsanityMultiple>{0} сходят с ума</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
@@ -22,22 +22,22 @@
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>Среди них {1}, лидер фракции.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>Среди них {LEADER_labelShort}, лидер фракции.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>Среди них {1}, лидер фракции.</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>Среди них {LEADER_labelShort}, лидер фракции.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Крушение капсулы</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>[PAWN_title] по имени [PAWN_nameDef] падает в транспортной капсуле. Если [PAWN_pronoun] и переживёт последствия удара, то наверняка с тяжёлыми ранениями.</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_titleIndef} по имени {PAWN_nameDef} падает в транспортной капсуле. Если {PAWN_pronoun} и переживёт последствия удара, то наверняка с тяжёлыми ранениями.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>[PAWN_nameDef] не принадлежит никакой фракции. Вы можете спасти [PAWN_possessive] и надеяться, что [PAWN_pronoun] присоединится к вам добровольно, а можете захватить для последующей вербовки или продажи в рабство.</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>{PAWN_nameDef} не принадлежит никакой фракции. Вы можете спасти {PAWN_possessive} и надеяться, что {PAWN_pronoun} присоединится к вам добровольно, а можете захватить для последующей вербовки или продажи в рабство.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>[PAWN_nameDef] принадлежит враждебной фракции [PAWN_factionName]. Вы можете захватить [PAWN_possessive] для вербовки или продажи в рабство.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>{PAWN_nameDef} принадлежит враждебной фракции {PAWN_factionName}. Вы можете захватить {PAWN_possessive} для вербовки или продажи в рабство.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>[PAWN_nameDef] — из фракции [PAWN_factionName]. Если вы спасёте [PAWN_possessive], [PAWN_pronoun] может присоединиться к вам добровольно, или же вернуться домой и улучшить отношения между вашими фракциями, рассказав о вашем милосердии.\n\nВы также можете захватить [PAWN_possessive] для последующей вербовки или продажи в рабство, но это настроит против вас всю [PAWN_possessive] фракцию.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} — из фракции {PAWN_factionName}. Если вы спасёте {PAWN_possessive}, {PAWN_pronoun} может присоединиться к вам добровольно, или же вернуться домой и улучшить отношения между вашими фракциями, рассказав о вашем милосердии.\n\nВы также можете захватить {PAWN_possessive} для последующей вербовки или продажи в рабство, но это настроит против вас всю {PAWN_possessive} фракцию.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Грузовые контейнеры</LetterLabelCargoPodCrash>
@@ -61,18 +61,18 @@
   <TraderArrival>Торговый корабль {0} пролетает рядом.\n\nЭто {1}.</TraderArrival>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>{0} из фракции {1} проходит мимо. [PAWN_possessive] зовут {2}.</SingleTravelerPassing>
+  <SingleTravelerPassing>{0} из фракции {1} проходит мимо. {PAWN_possessive} зовут {2}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>Группа путешественников из фракции {0} проходят мимо.</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>Гость</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>{0} из фракции {1} посещает поселение.\n\n[PAWN_possessive] зовут {2}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>{0} из фракции {1} посещает поселение.\n\n{PAWN_possessive} зовут {2}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
-  <SingleVisitorArrivesTraderInfo>\n\nКажется, у н[PAWN_possessive] есть какие-то предметы для обмена.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesTraderInfo>\n\nКажется, у н{PAWN_possessive} есть какие-то предметы для обмена.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] лидер фракции.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\n{PAWN_pronoun} лидер фракции.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>Гости</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
@@ -80,7 +80,7 @@
   <!-- EN: They seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>\n\nКажется, у них есть какие-то предметы для обмена.</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>\n\nОдин из гостей, {0}, — лидер фракции.</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>\n\nОдин из гостей, {1_labelShort}, — лидер фракции.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Гости из фракции {0} уходят.</VisitorsLeaving>
 
@@ -107,7 +107,7 @@
   <!-- EN: Agent -->
   <LetterLabelAgentRevealed>Шпион</LetterLabelAgentRevealed>
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
-  <LetterAgentRevealed>Вражеский шпион {0} из фракции {1} раскрыт.\n\nСейчас [PAWN_pronoun] пытается бежать из поселения.</LetterAgentRevealed>
+  <LetterAgentRevealed>Вражеский шпион {0} из фракции {1} раскрыт.\n\nСейчас {PAWN_pronoun} пытается бежать из поселения.</LetterAgentRevealed>
 
   <!-- Distant psychic drone -->
   <!-- EN: Psychic drone -->
@@ -130,23 +130,23 @@
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>У поселения {0} преследуют беженца</RefugeeChasedTitle>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>[PAWN_title] по имени [PAWN_nameDef] бежит и зовёт на помощь! [PAWN_pronoun] говорит, что [PAWN_possessive] преследуют {2} из фракции {3}.\n\n[PAWN_pronoun] умоляет о помощи и взамен предлагает присоединиться к поселению. [PAWN_nameDef] успевает лишь добавить, что [PAWN_objective] {4} лет, а на остальную информацию нет времени.\n\nЕсли вы согласитесь [PAWN_possessive] принять, на вас нападут {2}, идущие у н[PAWN_possessive] на хвосте. В их группе:\n\n{5}</RefugeeChasedInitial>
+  <RefugeeChasedInitial>{PAWN_title} по имени {PAWN_nameDef} бежит и зовёт на помощь! {PAWN_pronoun} говорит, что {PAWN_possessive} преследуют {2} из фракции {3}.\n\n{PAWN_pronoun} умоляет о помощи и взамен предлагает присоединиться к поселению. {PAWN_nameDef} успевает лишь добавить, что {PAWN_objective} {4} лет, а на остальную информацию нет времени.\n\nЕсли вы согласитесь {PAWN_possessive} принять, на вас нападут {2}, идущие у н{PAWN_possessive} на хвосте. В их группе:\n\n{5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Предложить укрытие</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
   <RefugeeChasedInitial_Reject>Игнорировать это сообщение</RefugeeChasedInitial_Reject>
   <!-- EN: {1_labelShort} screams in panic through the tinny speaker before you cut off the transmission. -->
-  <RefugeeChasedRejected>{0} отчаянно кричит из хрипящего динамика, пока вы не прерываете трансляцию.</RefugeeChasedRejected>
+  <RefugeeChasedRejected>{1_labelShort} отчаянно кричит из хрипящего динамика, пока вы не прерываете трансляцию.</RefugeeChasedRejected>
 
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
-  <LetterLabelAnimalSelfTame>{0} прибивается к поселению</LetterLabelAnimalSelfTame>
+  <LetterLabelAnimalSelfTame>{1_kind} прибивается к поселению</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0} становится ручным животным поселения.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndNameNumerical>Это животное, {0}, — теперь питомец поселения. Чтобы не путаться, его называют просто: {1}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndNameNumerical>Это животное, {0}, — теперь питомец поселения. Чтобы не путаться, его называют просто: {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
   <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndName>Животное, {0}, становится ручным. Поселенцы дают ему кличку: {1}.</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTameAndName>Животное, {0}, становится ручным. Поселенцы дают ему кличку: {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
@@ -170,7 +170,7 @@
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Требование выкупа у поселения {0}</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
-  <RansomDemand>{1} связываются с вами по радио. У них в заложниках — {0}, ваш бывший поселенец.\n\nОни хотят отпустить [PAWN_possessive] обратно к вам за {2} серебра.</RansomDemand>
+  <RansomDemand>{1} связываются с вами по радио. У них в заложниках — {0}, ваш бывший поселенец.\n\nОни хотят отпустить {PAWN_possessive} обратно к вам за {2} серебра.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>Согласиться</RansomDemand_Accept>
   <!-- EN: Reject -->

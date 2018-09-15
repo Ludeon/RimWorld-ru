@@ -30,7 +30,7 @@
   <Death>Смерть</Death>
 
   <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
-  <ShortCircuitRain>Из-за дождя {0} получает короткое замыкание, и начинается пожар.</ShortCircuitRain>
+  <ShortCircuitRain>Из-за того, что {1_label} находится под дождём, возникает короткое замыкание, и начинается пожар.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
   <LetterLabelAreaRevealed>Открыта область</LetterLabelAreaRevealed>
@@ -54,37 +54,37 @@
   <RecruitFail>У {0} не получается завербовать {1} (вероятность успеха — {2}).</RecruitFail>
 
   <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
-  <RelatedPawnInvolvedInQuest>[PAWN_nameDef] — {1} {0}. Если [PAWN_nameDef] умрёт, {0} будет долго пребывать в боли и скорби. Однако если [PAWN_nameDef] получится спасти, это надолго осчастливит [PAWN_possessive].</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} — {1} {RELATIVE_labelShort}. Если {PAWN_nameDef} умрёт, {RELATIVE_labelShort} будет долго пребывать в боли и скорби. Однако если {PAWN_possessive} получится спасти, {RELATIVE_labelShort} будет очень этому {RELATIVE_gender : рад : рада}.</RelatedPawnInvolvedInQuest>
 
   <!-- EN: Birthday -->
   <LetterLabelBirthday>День рождения</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>У {0} сегодня хронологический день рождения! Биологический возраст {0} — {3}.\n\nХронологический возраст — {2}.\n\nЗаметьте, что из-за того, что люди не стареют в состоянии криптосна, хронологический возраст отличен от биологического.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
-  <BirthdayBiologicalAgeInjuries>{0} достигает биологического возраста {1}.\n\nК сожалению, из-за своего возраста [PAWN_pronoun] получает следующие заболевания:\n{2}</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>{0_nameFull} достигает биологического возраста {1}.\n\nК сожалению, из-за своего возраста {0_labelShort} получает следующие заболевания:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Инфекция</LetterLabelNewDisease>
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewDisease>У {0} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {2} нуждается в надлежащем лечении и постельном режиме.</NewDisease>
+  <NewDisease>У {PAWN} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {PAWN_definite} нуждается в надлежащем лечении и постельном режиме.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewPartDisease>У {0} {3}. Место обнаружения инфекции — [PAWN_possessive] {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {2} нуждается в надлежащем лечении и постельном режиме.</NewPartDisease>
+  <NewPartDisease>У {PAWN} {3}. Место обнаружения инфекции — {PAWN_possessive} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {PAWN_definite} нуждается в надлежащем лечении и постельном режиме.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
-  <NewDiseaseAnimal>У {0} {1}.</NewDiseaseAnimal>
+  <NewDiseaseAnimal>У {PAWN_labelShort} {1}.</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
-  <NewPartDiseaseAnimal>У {0} {3}. Место обнаружения инфекции — [PAWN_possessive] {1}</NewPartDiseaseAnimal>
+  <NewPartDiseaseAnimal>У {PAWN_labelShort} {3}. Место обнаружения инфекции — {PAWN_possessive} {1}</NewPartDiseaseAnimal>
 
   <!-- EN: {1_labelShort} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{0} — ваш бывший поселенец.</PawnWasFormerlyColonist>
+  <PawnWasFormerlyColonist>{1_labelShort} — {1_gender ? ваш бывший поселенец : ваша бывшая поселенка}.</PawnWasFormerlyColonist>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
-  <PawnHasTheseRelationshipsWithColonists>У {0} следующие отношения с вашими поселенцами:</PawnHasTheseRelationshipsWithColonists>
+  <PawnHasTheseRelationshipsWithColonists>{1_labelShort} имеет следующие отношения с вашими поселенцами:</PawnHasTheseRelationshipsWithColonists>
   <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
-  <PrisonerRescueTimeout>Через {0} дней лагерь исчезнет. Если вы упустите эту возможность, вы рискуете больше никогда не увидеть {1}.</PrisonerRescueTimeout>
+  <PrisonerRescueTimeout>Через {0} дней лагерь исчезнет. Если вы упустите эту возможность, вы рискуете больше никогда не увидеть {PRISONER_labelShort}.</PrisonerRescueTimeout>
 
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Древняя опасность</LetterLabelAncientShrineWarning>
   <!-- EN: As {0} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>Когда {0} проходит мимо древней стены, [PAWN_possessive] одолевает недоброе предчувствие. Непонятно как, но [PAWN_pronoun] ощущает внутри этой покрытой пылью постройки большую опасность.</AncientShrineWarning>
+  <AncientShrineWarning>Когда {PAWN} проходит мимо древней стены, {PAWN_possessive} одолевает недоброе предчувствие. Непонятно как, но {PAWN_pronoun} ощущает внутри этой покрытой пылью постройки большую опасность.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
   <StruckMineable>Мы обнаружили {0}!</StruckMineable>
@@ -92,36 +92,36 @@
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0} мстит</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>Из-за нанесённого вами ранения [PAWN_indefinite] впадает в ярость!\n\nЭто животное будет нападать на любого человека, которого встретит, и успокоится только когда ляжет спать.</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>Из-за нанесённого вами ранения {PAWN_indefinite} впадает в ярость!\n\nЭто животное будет нападать на любого человека, которого встретит, и успокоится только когда ляжет спать.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
-  <AnimalManhunterFromTaming>После неудачной попытки приручения [PAWN_indefinite] нападает!</AnimalManhunterFromTaming>
+  <AnimalManhunterFromTaming>После неудачной попытки приручения {PAWN_indefinite} нападает!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
-  <AnimalManhunterOthers>Другие {0} тоже впали в ярость!</AnimalManhunterOthers>
+  <AnimalManhunterOthers>Другие {1_kindBasePlural} тоже впали в ярость!</AnimalManhunterOthers>
 
   <!-- EN: {1_labelShort} hit trap -->
-  <LetterFriendlyTrapSprungLabel>{0} в капкане</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprungLabel>{1_labelShort} в капкане</LetterFriendlyTrapSprungLabel>
   <!-- EN: {1_labelShort} has accidentally sprung a trap and taken damage from it. -->
-  <LetterFriendlyTrapSprung>{0} получает повреждение, случайно попав в ловушку.</LetterFriendlyTrapSprung>
+  <LetterFriendlyTrapSprung>{1_labelShort} получает ранение, случайно попав в ловушку.</LetterFriendlyTrapSprung>
 
   <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
-  <LetterHealthComplications>У {0} развивается {1}.\n\nПричиной этому:\n\n  {2}</LetterHealthComplications>
+  <LetterHealthComplications>У {PAWN_labelShort} развивается {1}.\n\nПричиной этому:\n\n  {2}</LetterHealthComplications>
   <!-- EN: {PAWN_labelShort}: {1} -->
-  <LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
+  <LetterHealthComplicationsLabel>{PAWN_labelShort}: {1}</LetterHealthComplicationsLabel>
   
   <!-- EN: {PAWN_labelShort} has developed a health condition: {1}. -->
-  <LetterHediffFromRandomHediffGiver>У {0} развивается {1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiver>У {PAWN_labelShort} развивается {1}.</LetterHediffFromRandomHediffGiver>
   <!-- EN: {PAWN_labelShort}: {1} -->
-  <LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
+  <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
   
   <!-- EN: {1} died: {0} -->
   <LetterLeadersDeathLabel>{1} фракции {0} умер</LetterLeadersDeathLabel>
   <!-- EN: {OLDLEADER_nameFull}, {3} of {1}, has died.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
-  <LetterLeadersDeath>Умер {3} фракции {1}, {0}.\n\nОтныне у них новый {3}, {2}.</LetterLeadersDeath>
+  <LetterLeadersDeath>Умер {3} фракции {1}, {OLDLEADER_nameFull}.\n\nОтныне у них новый {3}, {NEWLEADER_nameFull}.</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
   <LetterLeaderChangedLabel>Новый {1} фракции {0}</LetterLeaderChangedLabel>
   <!-- EN: {OLDLEADER_nameFull} is no longer {3} of {1}.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
-  <LetterLeaderChanged>{0} более не {3} фракции {1}.\n\nОтныне у них новый {3}, {2}.</LetterLeaderChanged>
+  <LetterLeaderChanged>{OLDLEADER_nameFull} более не {3} фракции {1}.\n\nОтныне у них новый {3}, {NEWLEADER_nameFull}.</LetterLeaderChanged>
   
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>Последней каплей было: {0}.</FinalStraw>
@@ -131,7 +131,7 @@
   <!-- EN: Read more -->
   <ReadMore>Узнать больше</ReadMore>
   <!-- EN: The last events in {PAWN_definite}'s life -->
-  <LastEventsInLife>Последние события в жизни {0}:</LastEventsInLife>
+  <LastEventsInLife>Последние события в жизни {PAWN_definite}:</LastEventsInLife>
   
   <!-- Related pawns -->
   <!-- EN: Relationship -->
@@ -160,19 +160,19 @@
   <!-- EN: (relationship) -->
   <RelationshipAppendedLetterSuffix>(знакомые)</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] знаком с вашим поселенцем. [PAWN_pronoun] {1} {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} знает одного из ваших поселенцев. {PAWN_pronoun} — {1} {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] знаком с одним из ваших заключённых. [PAWN_pronoun] {1} {0}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} знает одного из ваших заключённых. {PAWN_pronoun} — {1} {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
   <LetterLabelAffair>Интрижка</LetterLabelAffair>
   <!-- EN: {PAWN1_labelShort}, married to {SPOUSE_labelShort}, has begun an affair with {PAWN2_labelShort}. -->
-  <LetterAffair>{0}, будучи в браке с {1}, завязывает роман с {2}.</LetterAffair>
+  <LetterAffair>{PAWN1_labelShort}, будучи в браке с {SPOUSE_labelShort}, завязывает роман с {PAWN2_labelShort}.</LetterAffair>
   <!-- EN: New lovers -->
   <LetterLabelNewLovers>Новая пара</LetterLabelNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
-  <LetterNoLongerLovers>{0} и {1} более не состоят в отношениях.</LetterNoLongerLovers>
+  <LetterNoLongerLovers>{PAWN1_labelShort} и {PAWN2_labelShort} более не состоят в отношениях.</LetterNoLongerLovers>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>Разрыв</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -182,7 +182,7 @@
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
   <LetterAcceptedProposal>Через нескольких дней или кварталов они сыграют свадьбу и пригласят на неё всех поселенцев. При желании вы можете назначить специальное место для проведения свадебных церемоний.</LetterAcceptedProposal>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
-  <LetterRejectedProposal>{0} точно не обрадуется этому.</LetterRejectedProposal>
+  <LetterRejectedProposal>{INITIATOR_nameFull} точно не обрадуется этому.</LetterRejectedProposal>
   
   <!-- Generalized letter labels -->
   <!-- EN: Hostile: {0} -->
@@ -202,7 +202,7 @@
   <!-- EN: bonded animal -->
   <LetterLabelSuffixBondedAnimalDied>питомца</LetterLabelSuffixBondedAnimalDied>
   <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
-  <LetterPartBondedAnimalDied>Питомец {1}, {0}, умирает. {1} расстроится из-за этого.</LetterPartBondedAnimalDied>
+  <LetterPartBondedAnimalDied>Питомец {HUMAN_labelShort}, {ANIMAL_definite}, умирает. {HUMAN_labelShort} будет переживать по этому поводу.</LetterPartBondedAnimalDied>
   <!-- EN: It will affect mood of the following people:\n\n{0} -->
   <LetterPartBondedAnimalDiedMulti>Это повлияет на настроение следующих людей:\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
@@ -216,19 +216,19 @@
   <!-- EN: Party -->
   <LetterLabelNewParty>Вечеринка</LetterLabelNewParty>
   <!-- EN: {1_labelShort} is throwing a party! Everyone who goes will gain recreation and social energy, and a lasting positive mood boost. -->
-  <LetterNewParty>{0} устраивает вечеринку! Все, кто придёт, надолго зарядятся весельем, социальной энергией и хорошим настроением.</LetterNewParty>
+  <LetterNewParty>{1_labelShort} устраивает вечеринку! Все, кто придёт, надолго зарядятся весельем, социальной энергией и хорошим настроением.</LetterNewParty>
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
   <LetterLabelNewlyAddicted>Зависимость ({0})</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
-  <LetterNewlyAddicted>У {0} развилась зависимость от вещества: {1}.\n\n[PAWN_possessive] потребность в этом веществе отображается во вкладке Нужды. {0} будет самостоятельно употреблять наркотик, чтобы удовлетворить свою потребность. Если [PAWN_pronoun] не сможет достать {1}, у н[PAWN_possessive] начнётся синдром отмены.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>У {PAWN_labelShort} развилась зависимость от вещества: {1}.\n\n{PAWN_possessive} потребность в этом веществе отображается во вкладке Нужды. {PAWN_labelShort} будет самостоятельно употреблять наркотик, чтобы удовлетворить свою потребность. Если {PAWN_pronoun} не сможет достать {1}, у н{PAWN_possessive} начнётся синдром отмены.</LetterNewlyAddicted>
   
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
   <LetterLabelDrugBinge>Злоупотребление ({0})</LetterLabelDrugBinge>
   <!-- EN: {2_label} is binging on {1}. -->
-  <LetterDrugBinge>{0} злоупотребляет наркотиком: {1}.</LetterDrugBinge>
+  <LetterDrugBinge>{2_label} злоупотребляет наркотиком: {1}.</LetterDrugBinge>
   
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
@@ -272,7 +272,7 @@
   <!-- EN: Precious minerals found -->
   <LetterLabelFoundPreciousLump>Найдены драгоценные минералы</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>При помощи сканеров дальнего действия {3} обнаруживает неподалёку {0}.\n\nК сожалению, этот ценный ресурс ли надолго останется нетронутым: через {1} дней его наверняка выкопают другие.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>При помощи сканера дальнего действия {WORKER_labelShort} обнаруживает неподалёку {0}.\n\nК сожалению, этот ценный ресурс ли надолго останется нетронутым: через {1} дней его наверняка выкопают другие.\n\n{2}.</LetterFoundPreciousLump>
   
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -306,21 +306,21 @@
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{0_pronoun} realized that wild creatures are always free. So, {0_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame {0_objective} to get {0_objective} back. -->
-  <LetterRunWildMentalBreak>{0} заявляет, что с н[PAWN_possessive] хватит жизни среди цивилизации. [PAWN_pronoun] хочет свободы!\n\n{0} решает покинуть вашу фракцию и уйти жить среди диких зверей на лоне природы.\n\nВы можете попытаться [PAWN_possessive] приручить и вернуть к нормальной жизни.</LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{PAWN} заявляет, что с н{PAWN_possessive} хватит жизни среди цивилизации. {PAWN_pronoun} хочет свободы!\n\n{PAWN_pronoun} решает покинуть вашу фракцию и уйти жить среди диких зверей на лоне природы.\n\nВы можете попытаться {PAWN_possessive} приручить и вернуть к нормальной жизни.</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {0_pronoun} will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0} получает сильный нервный срыв и впадает в ступор. [PAWN_pronoun] придёт в себя лишь через несколько дней.</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{PAWN} получает сильный нервный срыв и впадает в ступор. {PAWN_pronoun} придёт в себя лишь через несколько дней.</LetterCatatonicMentalBreak>
 
   <!-- EN: AI Core Offer -->
   <LetterLabelAICoreOffer>Координаты ядра ИИ</LetterLabelAICoreOffer>
   <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of an AI persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
-  <LetterAICoreOffer>{0} фракции {1} связывается с вами и сообщает, что им известно местоположение ядра ИИ, которое вам потребуется для строительства корабля. Этот предмет — большая редкость, и его обладатели обычно держат его под надёжной охраной.\n\nЕсли вас интересует эта информация, свяжитесь с фракцией {1} через консоль.</LetterAICoreOffer>
+  <LetterAICoreOffer>{PAWN_definite} фракции {1} связывается с вами и сообщает, что им известно местоположение ядра ИИ, которое вам потребуется для строительства корабля. Этот предмет — большая редкость, и его обладатели обычно держат его под надёжной охраной.\n\nЕсли вас интересует эта информация, свяжитесь с фракцией {1} через консоль.</LetterAICoreOffer>
 
   <!-- EN: Legendary Work -->
   <LetterCraftedLegendaryLabel>Легендарное Творение</LetterCraftedLegendaryLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessage>Ваш поселенец, {0}, создал {1} легендарного качества.\n\nВесть об артефакте такой ценности скоро охватит весь мир.</LetterCraftedLegendaryMessage>
+  <LetterCraftedLegendaryMessage>{WORKER_labelShort}, {WORKER_gender ? создал : создала}  {CRAFTED_labelShort} легендарного качества.\n\nВесть об артефакте такой ценности скоро охватит весь мир.</LetterCraftedLegendaryMessage>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -344,7 +344,7 @@
   <!-- EN: Gift from {0} -->
   <LetterLabelVisitorsGaveGift>Подарок от фракции {0}</LetterLabelVisitorsGaveGift>
   <!-- EN: {0} from {PAWN_factionName} have left a gift:\n\n{1} -->
-  <LetterVisitorsGaveGift>{0} из фракции [PAWN_factionName] оставили нам подарок:\n\n{1}</LetterVisitorsGaveGift>
+  <LetterVisitorsGaveGift>{0} из фракции {PAWN_factionName} оставили нам подарок:\n\n{1}</LetterVisitorsGaveGift>
 
   <!-- Faction base proximity -->
   <!-- EN: Faction base proximity -->
@@ -362,7 +362,7 @@
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Спасённый присоединяется</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>Вы спасли [PAWN_nameDef], и [PAWN_pronoun] решает присоединиться к вашей группе.\n\nЧтобы взять [PAWN_possessive] с собой, перейдите на карту мира, выделите ваше текущее местоположение и нажмите кнопку «Продолжить путь».</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>Вы спасли {PAWN_nameDef}, и {PAWN_pronoun} решает присоединиться к вашей группе.\n\nЧтобы взять {PAWN_possessive} с собой, перейдите на карту мира, выделите ваше текущее местоположение и нажмите кнопку «Продолжить путь».</LetterRescueQuestFinished>
 
   <!-- Player entered site (generic label) -->
   <!-- EN: Arrived at site -->
@@ -370,9 +370,9 @@
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
-  <LetterLabelPredatorHuntingColonist>{0} охотится на {1}</LetterLabelPredatorHuntingColonist>
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} охотится на {PREY_definite}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>{0} охотится на {1} ради пропитания.</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR} охотится на {PREY_definite} ради пропитания.</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on: {2}. -->
@@ -380,6 +380,6 @@
   <!-- EN: Disease ({0}) -->
   <LetterLabelTraitDisease>Болезнь ({0})</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
-  <LetterTraitDisease>У {0} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {0} нуждается в надлежащем лечении и постельном режиме.</LetterTraitDisease>
+  <LetterTraitDisease>У {PAWN_label} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {PAWN_labelShort} нуждается в надлежащем лечении и постельном режиме.</LetterTraitDisease>
 
 </LanguageData>
