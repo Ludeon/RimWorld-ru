@@ -234,10 +234,10 @@
     <li>terrain_word->horn</li>
   -->
   <NamerPeninsula.rulePack.rulesStrings>
-    <li>name(p=2)->[peninsula_masc] [suffix_proper]</li>
-    <li>name(p=2)->[prefix_proper_masc] [peninsula_masc]</li>
-    <li>r_name->м. [suffix_proper]</li>
-    <li>r_name->м. [prefix_proper_masc]</li>
+    <li>r_name(p=2)->[peninsula_masc] [suffix_proper]</li>
+    <li>r_name(p=2)->[prefix_proper_masc] [peninsula_masc]</li>
+    <li>r_name(p=0.1)->Мыс [prefix_proper_masc]</li>
+    <li>peninsula_masc->Мыс</li>
     <li>peninsula_masc->Выступ</li>
     <li>peninsula_masc->Рог</li>
     <li>peninsula_masc(p=8)->п-ов</li>
@@ -429,9 +429,9 @@
     <li>wasteland_neutral->плато</li>
     <li>wasteland_plural->Земли</li>
     <li>suffix_proper->[ConceptAny]</li>
-    <li>suffix_proper->им. [personname]</li>
-    <li>suffix_proper(p=3)->[tribalword]</li>
-    <li>suffix_proper(p=3)->[outlanderword]</li>
+    <li>suffix_proper->им. [NamePerson]</li>
+    <li>suffix_proper(p=3)->[WordTribal]</li>
+    <li>suffix_proper(p=3)->[PlaceOutlander]</li>
     <li>prefix_proper_masc->[derivative] [Color]</li>
     <li>prefix_proper_masc->[derivative] [AdjectiveAny]</li>
     <li>prefix_proper_fem->[derivative] [Color_fem]</li>
