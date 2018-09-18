@@ -75,7 +75,7 @@
   <NewPartDiseaseAnimal>У {PAWN_labelShort} {3}. Место обнаружения инфекции — {PAWN_possessive} {1}</NewPartDiseaseAnimal>
 
   <!-- EN: {1_labelShort} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{1_labelShort} — {1_gender ? ваш бывший поселенец : ваша бывшая поселенка}.</PawnWasFormerlyColonist>
+  <PawnWasFormerlyColonist>{1_labelShort} — {PAWN_gender ? ваш : ваша} {PAWN_gender ? бывший : бывшая } {PAWN_gender ? поселенец : поселенка}.</PawnWasFormerlyColonist>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort} имеет следующие отношения с вашими поселенцами:</PawnHasTheseRelationshipsWithColonists>
   <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
