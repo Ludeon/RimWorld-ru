@@ -245,7 +245,7 @@
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
     <li>result(p=0.5)->[damaged_participle] [RECIPIENT_possessive] [targetlist]</li>
     <li>result(p=0.2)->[flavortextadverb] [damaged_participle] [RECIPIENT_possessive] [targetlist]</li>
-    <li>result(p=0.2)->[flavortextsituation] [damaged_participle] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.1)->, и[flavortextsituation] [damaged] [RECIPIENT_possessive] [targetlist]</li>
     <li>result(p=0.2)->[damaged_participle] [RECIPIENT_possessive] [targetlist], [flavortextconsequence]</li>
     <li>flavortextadverb->болезненно</li>
     <li>flavortextadverb->брутально</li>
@@ -257,16 +257,16 @@
     <li>flavortextadverb->угрожающе</li>
     <li>flavortextadverb->беспощадно</li>
     <li>flavortextadverb->бессердечно</li>
-    <li>flavortextsituation->[empty] во вспышке гнева</li>
-    <li>flavortextsituation->[empty] с видимым удовольствием</li>
-    <li>flavortextsituation->[empty] без эмоций</li>
-    <li>flavortextsituation->[empty] с отсутствующим видом</li>
-    <li>flavortextsituation->[empty] с озверевшим взглядом</li>
-    <li>flavortextsituation->, имея [AdjectiveBadass] вид,</li>
-    <li>flavortextsituation->, гримасничая,</li>
-    <li>flavortextsituation->, смеясь,</li>
-    <li>flavortextsituation->, ухмыляясь,</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->заставляя [RECIPIENT_possessive] [wince] [painevent]</li>
+    <li>flavortextsituation(p=0.2)->[empty] без эмоций</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->[empty] во вспышке гнева</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->[empty] с видимым удовольствием</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->[empty] с отсутствующим видом</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->[empty] с озверевшим взглядом</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->, приняв [AdjectiveBadass] вид,</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->, гримасничая,</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->, смеясь,</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->, ухмыляясь,</li>
+    <li>flavortextconsequence(recipient_flesh==Normal)->заставляя [RECIPIENT_possessive] [wince] [painevent]</li>
     <li>flavortextconsequence(p=0.2)->сбивая [RECIPIENT_possessive] с ног</li>
     <li>flavortextconsequence->оставляя страшные раны</li>
     <li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя омерзительно выглядящие раны</li>
