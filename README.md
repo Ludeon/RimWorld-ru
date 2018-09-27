@@ -5,7 +5,7 @@
 
 Данный перевод постоянно исправляется и дорабатывается. И если вам не хочется ждать следующего обновления игры, вы можете скачать актуальную версию отсюда. Для этого нужно:
 
-1. Скачать архив или клонировать репозиторий, соответствующий вашей версии игры:
+1. Скачать архив или клонировать репозиторий, **соответствующий вашей версии игры (это важно!):**
 	* 1.0: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru)
 	* B-19: [архив](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/beta-19)
 	* B-18: [архив](https://github.com/Ludeon/RimWorld-ru/archive/beta-18.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/beta-18)
