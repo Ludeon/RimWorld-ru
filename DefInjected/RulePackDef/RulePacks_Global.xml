@@ -60,11 +60,15 @@
     <li>Weapon_neutral->Words/Nouns/Weapons_neutral</li>
     <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
     <li>PersonJob->Words/Nouns/People_Jobs</li>
+    <li>PersonJobs_gen->Words/Nouns/People_Jobs_Genitive_Plural</li>
     <li>PersonFamily->Words/Nouns/People_Family</li>
+    <li>PersonFamilies_gen->Words/Nouns/People_Family_Genitive_Plural</li>
     <li>PersonAlly->Words/Nouns/People_Allies</li>
+    <li>PersonAllies_gen->Words/Nouns/People_Allies_Genitive_Plural</li>
     <li>PersonBadass->Words/Nouns/People_Badass</li>
     <li>Enemy->Words/Nouns/People_Enemies</li>
     <li>Enemies->Words/Nouns/People_Enemies_Plural</li>
+    <li>Enemies_gen->Words/Nouns/People_Enemies_Genitive_Plural</li>
     <li>Apparel->Words/Nouns/Apparel</li>
     <li>Gore->Words/Nouns/Gore</li>
     <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
@@ -172,6 +176,8 @@
     <li>ConceptAny->[ConceptAngsty]</li>
     <li>Outlander->[PersonJob]</li>
     <li>Outlander->[PersonAlly]</li>
+    <li>Outlanders_gen->[PersonJobs_gen]</li>
+    <li>Outlanders_gen->[PersonAllies_gen]</li>
     <li>PersonalCharacteristic->[PersonalCharacteristic_masc]</li>
     <li>PersonalCharacteristic->[PersonalCharacteristic_fem]</li>
     <li>PersonalCharacteristic->[PersonalCharacteristic_neutral]</li>
@@ -254,8 +260,8 @@
     <li>TalkTopicLight->про то, как можно применять [Weapon_acc]</li>
     <li>TalkTopicLight->про то, какую опасность представляет [Weapon]</li>
     <li>TalkTopicLight->про [TerrainFeature]</li>
-    <li>TalkTopicLight->про [Outlander]</li>
-    <li>TalkTopicLight->про [Enemy]</li>
+    <li>TalkTopicLight->про [Outlanders_gen]</li>
+    <li>TalkTopicLight->про [Enemies_gen]</li>
     <li>TalkTopicLight->про то, какую опасность представляют [Enemies]</li>
     <li>TalkTopicLight->про [Apparel]</li>
     <li>TalkTopicLight->про то, как носить [Apparel]</li>
