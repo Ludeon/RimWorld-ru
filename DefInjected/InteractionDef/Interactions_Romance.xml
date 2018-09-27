@@ -10,12 +10,12 @@
     <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] говорит [OTHER_nameDef], что хочет расстаться.</li>
-    <li>r_logentry->[INITIATOR_nameDef] просит [OTHER_nameDef] дать [INITIATOR_objective] немного свободы.</li>
-    <li>r_logentry->[INITIATOR_nameDef] говорит [OTHER_nameDef], что их отношения зашли в тупик.</li>
-    <li>r_logentry->[INITIATOR_nameDef] предлагает [OTHER_nameDef] остаться друзьями.</li>
-    <li>r_logentry->[INITIATOR_nameDef] предлагает [OTHER_nameDef] сделать перерыв в отношениях.</li>
-    <li>r_logentry->[INITIATOR_nameDef] предлагает [OTHER_nameDef] отдохнуть друг от друга.</li>
+    <li>r_logentry->[INITIATOR_nameDef] говорит [RECIPIENT_nameDef], что хочет расстаться.</li>
+    <li>r_logentry->[INITIATOR_nameDef] просит [RECIPIENT_nameDef] дать [INITIATOR_objective] немного свободы.</li>
+    <li>r_logentry->[INITIATOR_nameDef] говорит [RECIPIENT_nameDef], что их отношения зашли в тупик.</li>
+    <li>r_logentry->[INITIATOR_nameDef] предлагает [RECIPIENT_nameDef] остаться друзьями.</li>
+    <li>r_logentry->[INITIATOR_nameDef] предлагает [RECIPIENT_nameDef] сделать перерыв в отношениях.</li>
+    <li>r_logentry->[INITIATOR_nameDef] предлагает [RECIPIENT_nameDef] отдохнуть друг от друга.</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
@@ -26,9 +26,9 @@
     <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [OTHER_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] предлагает [OTHER_nameDef] свои руку и сердце.</li>
-    <li>r_logentry->[INITIATOR_nameDef] предлагает [OTHER_nameDef] связать их судьбы узами брака.</li>
-    <li>r_logentry->[INITIATOR_nameDef] предлагает [OTHER_nameDef] прожить свои жизни рядом друг с другом.</li>
+    <li>r_logentry->[INITIATOR_nameDef] предлагает [RECIPIENT_nameDef] свои руку и сердце.</li>
+    <li>r_logentry->[INITIATOR_nameDef] предлагает [RECIPIENT_nameDef] связать их судьбы узами брака.</li>
+    <li>r_logentry->[INITIATOR_nameDef] предлагает [RECIPIENT_nameDef] прожить свои жизни рядом друг с другом.</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
@@ -96,7 +96,7 @@
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [wooed] [OTHER_nameDef], [wootactic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef], [wootactic].</li>
     <li>wooed->пытается флиртовать с</li>
     <li>wooed->флиртует с</li>
     <li>wooed->пытается привлечь к себе внимание</li>
@@ -107,15 +107,15 @@
     <li>wooed->подбивает клинья к</li>
     <li>wooed->заигрывает с</li>
     <li>wooed->строит глазки</li>
-    <li>wootactic(p=4)->[complimenting] [OTHER_possessive] [PersonalCharacteristic]</li>
+    <li>wootactic(p=4)->[complimenting] [RECIPIENT_possessive] [PersonalCharacteristic]</li>
     <li>wootactic(p=0.5)->[boasting] свой [PersonalCharacteristic_masc]</li>
     <li>wootactic(p=0.5)->[boasting] свою [PersonalCharacteristic_fem]</li>
     <li>wootactic(p=0.5)->[boasting] своё [PersonalCharacteristic_neutral]</li>
     <li>wootactic(p=0.5)->[boasting] свои [PersonalCharacteristic_plural]</li>
     <li>wootactic(p=2)->рассказывая историю [TalkTopicLight]</li>
     <li>wootactic(p=2)->рассказывая историю [TalkTopicHeavy]</li>
-    <li>wootactic->сравнивая [OTHER_possessive] с [romantic_adj] [romantic_noun]</li>
-    <li>wootactic->сравнивая [OTHER_possessive] [PersonalCharacteristic] с [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->сравнивая [RECIPIENT_possessive] с [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->сравнивая [RECIPIENT_possessive] [PersonalCharacteristic] с [romantic_adj] [romantic_noun]</li>
     <li>boasting->[boasting_adverb] нахваливая</li>
     <li>boasting->[boasting_adverb] показывая</li>
     <li>boasting->[boasting_adverb] демонстрируя</li>
