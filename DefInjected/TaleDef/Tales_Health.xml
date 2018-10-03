@@ -207,7 +207,7 @@
     <li>image->[PAWN_nameFull] searching for a warm [Apparel] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] crouching next to a fire [circumstance_group]</li>
     <li>image->[PAWN_nameFull] trying to light a fire [circumstance_group]</li>
-    <li>circumstance_phrase->while their face slowly turns blue</li>
+    <li>circumstance_phrase->while [PAWN_possessive] face slowly turns blue</li>
     <li>circumstance_phrase->and shivering uncontrollably</li>
     <li>circumstance_phrase->while covered in frost</li>
     <li>circumstance_phrase->while exhaling clouds of fog</li>
@@ -291,7 +291,7 @@
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
     <li>image->[KILLER_nameFull] [cap_removal] [VICTIM_nameFull]'s capacity for [CAPACITY_label] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] by [cap_removal] their [CAPACITY_label] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] by [cap_removal] [VICTIM_possessive] [CAPACITY_label] [with_weapon_optional]</li>
     <li>cap_removal->destroying</li>
     <li>cap_removal->eliminating</li>
     <li>cap_removal->ending</li>

@@ -120,10 +120,10 @@
   <CompletedLongConstructionProject.label>завершение долгого строительства</CompletedLongConstructionProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
-    <li>image->[PAWN_nameFull] assembling a complicated apparatus inside a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] building a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] putting together a [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] inscribing their name on a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing [PAWN_possessive] name on a [OBJECT_label] [circumstance_group]</li>
     <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
     <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
     <li>circumstance_phrase->while covered in grime</li>
@@ -137,30 +137,29 @@
   -->
   <CompletedLongConstructionProject.rulePack.rulesStrings>
     <li>tale_noun->как [PAWN_nameDef] заканчивает строить [OBJECT_label]</li>
-    <li>image->, как [PAWN_nameFull][circumstance_phrase] конструирует замысловатый аппарат внутри своего сооружения</li>
-    <li>image->, как [PAWN_nameFull][circumstance_phrase] наводит глянец на своём сооружении</li>
-    <li>image->, как [PAWN_nameFull][circumstance_phrase] добавляет декоративные элементы к своему сооружению</li>
-    <li>image->, как [PAWN_nameFull][circumstance_phrase] высекает своё имя на свежепостроенном сооружении</li>
+    <li>image->[empty] величественно возвышающееся сооружение, это [OBJECT_label]</li>
+    <li>image->[empty] [OBJECT_label], что источает мягкий [Color] свет</li>
+    <li>image->, как возводится [OBJECT_label] удивительной красоты</li>
     <li>circumstance_phrase->[empty] с блеском в глазах</li>
     <li>circumstance_phrase->, вытирая пот со лба,</li>
     <li>circumstance_phrase->, [TransFriendly],</li>
     <li>circumstance_phrase->[empty] с важным видом</li>
     <li>circumstance_phrase->[empty] с довольным выражением лица</li>
-    <li>desc_sentence->[OBJECT_label] возвышается величественно.</li>
-    <li>desc_sentence->[OBJECT_label] источает мягкий [Color] свет.</li>
-    <li>desc_sentence->[OBJECT_label] поражает своей детализацией.</li>
-    <li>desc_sentence->[Outlander] пребывает в восхищении от увиденного.</li>
-    <li>desc_sentence->На это с благоговением смотрит [Outlander].</li>
+    <li>desc_sentence->Это строение[circumstance_phrase] строит лично [PAWN_nameFull]</li>
+    <li>desc_sentence->[PAWN_nameFull][circumstance_phrase] наводит глянец на творении своих рук.</li>
+    <li>desc_sentence->[PAWN_nameFull][circumstance_phrase] добавляет декоративные элементы к своему творению.</li>
+    <li>desc_sentence->[PAWN_nameFull][circumstance_phrase] высекает своё имя на этом творении своих рук.</li>
+    <li>desc_sentence->Изображение этого творения рук человеческих поражает своей детализацией.</li>
   </CompletedLongConstructionProject.rulePack.rulesStrings>
   
   <!-- EN: completed long crafting project -->
   <CompletedLongCraftingProject.label>завершение создания сложного изделия</CompletedLongCraftingProject.label>
   <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
-    <li>image->[PAWN_nameFull] assembling a complicated apparatus inside a [OBJECT_label] [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] completing work on a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] working on a [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] inscribing their name on a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing [PAWN_possessive] name on a [OBJECT_label] [circumstance_group]</li>
     <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
     <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
     <li>circumstance_phrase->while covered in grime</li>
@@ -312,9 +311,7 @@
   <!-- EN: increased menagerie -->
   <IncreasedMenagerie.label>пополнение зверинца</IncreasedMenagerie.label>
   <!-- EN:
-    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
+    <li>tale_noun(p=3)->[HUMAN_nameDef] recruiting yet another animal to [HUMAN_possessive] growing [AnimalGroup]</li>
     <li>tale_noun->[HUMAN_nameDef] being followed around by a [AnimalGroup]</li>
     <li>tale_noun->[HUMAN_nameDef]'s taming of [ANIMAL_nameDef]</li>
     <li>image->[HUMAN_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
