@@ -51,7 +51,7 @@
   <MessageFullyHealed>{1_label} полностью {1_gender ? здоров : здорова}.</MessageFullyHealed>
 
   <!-- EN: Prisoner {1_labelShort} is escaping. -->
-  <MessagePrisonerIsEscaping>{1_gender ? Заключённый : Заключённая} {1_labelShort} устраивает побег!</MessagePrisonerIsEscaping>
+  <MessagePrisonerIsEscaping>{1_gender ? Пленник : Пленница} {1_labelShort} устраивает побег!</MessagePrisonerIsEscaping>
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} не может найти снарядов для {GUN_label}.</MessageOutOfNearbyShellsFor>
@@ -504,7 +504,7 @@
   <MessagePredatorHuntingPlayerAnimal>{PREDATOR} охотится на {PREY_definite} ради пропитания.</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
-  <MessagePrisonerResistanceBroken>{WARDEN_labelShort} успешно преодолевает психологическое сопротивление заключённого по имени {PRISONER_labelShort}.</MessagePrisonerResistanceBroken>
+  <MessagePrisonerResistanceBroken>{WARDEN_labelShort} успешно преодолевает психологическое сопротивление {PRISONER_gender ? пленника : пленницы} по имени {PRISONER_labelShort}.</MessagePrisonerResistanceBroken>
   <!-- EN: Recruitment attempts will begin. -->
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>С этого момента можно начинать вербовку.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 

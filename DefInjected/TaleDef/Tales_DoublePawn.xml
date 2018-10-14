@@ -44,12 +44,12 @@
     <li>circumstance_phrase->[empty] по-дилетантски грубо</li>
     <li>desc_sentence->[CAPTURER_nameDef] вглядывается в глаза [PRISONER_nameDef] с чувством собственного превосходства.</li>
     <li>desc_sentence->[PRISONER_nameDef] ранен, и, судя по всему, терпит боль.</li>
-    <li>desc_sentence->[CAPTURER_nameDef] бьёт заключённого, чтобы утихомирить его.</li>
-    <li>desc_sentence->[CAPTURER_nameDef] выкручивает заключённому ухо.</li>
-    <li>desc_sentence->[CAPTURER_nameDef] держит заключённого в болевом захвате.</li>
-    <li>desc_sentence->[CAPTURER_nameDef] плюёт заключённому в лицо.</li>
-    <li>desc_sentence->[CAPTURER_nameDef] смеётся, в то время как слёзы наворачиваются на глаза заключённого.</li>
-    <li>desc_sentence->[CAPTURER_nameDef] пинает заключённого без видимых на то причин.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] бьёт пленника, чтобы утихомирить его.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] выкручивает пленнику ухо.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] держит пленника в болевом захвате.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] плюёт пленнику в лицо.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] смеётся, в то время как слёзы наворачиваются на глаза пленника.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] пинает пленника без видимых на то причин.</li>
   </Captured.rulePack.rulesStrings>
   
   <!-- EN: defeated hostile leader -->
@@ -89,7 +89,7 @@
   </DidSurgery.rulePack.rulesStrings>
   
   <!-- EN: prisoner executed -->
-  <ExecutedPrisoner.label>заключённый казнён</ExecutedPrisoner.label>
+  <ExecutedPrisoner.label>пленник казнён</ExecutedPrisoner.label>
   <!-- EN:
     <li>tale_noun->[executioner] executing [PRISONER_nameDef]</li>
     <li>tale_noun->[PRISONER_nameDef] being executed by [EXECUTIONER_nameDef]</li>
@@ -320,7 +320,7 @@
   </Recruited.rulePack.rulesStrings>
   
   <!-- EN: prisoner sold -->
-  <SoldPrisoner.label>заключённый продан</SoldPrisoner.label>
+  <SoldPrisoner.label>пленник продан</SoldPrisoner.label>
   <!-- EN:
     <li>tale_noun->the selling of [PRISONER_nameDef] to a trader</li>
     <li>tale_noun->[SELLER_nameDef] selling [PRISONER_nameDef] as a slave</li>
@@ -345,9 +345,9 @@
   -->
   <SoldPrisoner.rulePack.rulesStrings>
     <li>tale_noun->как продали [PRISONER_nameDef]</li>
-    <li>image->, как торговец, [TRADER_nameFull], покупает у поселения заключённого по имени [PRISONER_nameFull][circumstance_suffix]</li>
-    <li>image->, как [SELLER_nameFull][circumstance_phrase] продаёт торговцу заключённого по имени [PRISONER_nameFull][circumstance_suffix]</li>
-    <li>image->, как [SELLER_nameFull] и [TRADER_nameFull][circumstance_phrase] договариваются о цене, за которую будет продан заключённый, [PRISONER_nameFull]</li>
+    <li>image->, как торговец, [TRADER_nameFull], покупает у поселения пленника по имени [PRISONER_nameFull][circumstance_suffix]</li>
+    <li>image->, как [SELLER_nameFull][circumstance_phrase] продаёт торговцу пленника по имени [PRISONER_nameFull][circumstance_suffix]</li>
+    <li>image->, как [SELLER_nameFull] и [TRADER_nameFull][circumstance_phrase] договариваются о цене, за которую будет продан пленник, [PRISONER_nameFull]</li>
     <li>circumstance_phrase->, подсчитывая деньги,</li>
     <li>circumstance_phrase->, [TransFriendly],</li>
     <li>circumstance_suffix->[empty] к огорчению последнего</li>
