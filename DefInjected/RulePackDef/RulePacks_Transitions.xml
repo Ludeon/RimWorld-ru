@@ -84,13 +84,15 @@
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   -->
   <Transition_DiedInclude.rulePack.rulesStrings>
-    <li>r_logentry(p=1.5)->Из-за [CULPRITHEDIFF_labelNoun] [SUBJECT_definite] [die].</li>
-    <li>r_logentry(p=1.5)->Из-за [CULPRITHEDIFF_labelNoun] в [CULPRITHEDIFF_target_label] [SUBJECT_definite] [die].</li>
-    <li>r_logentry->[SUBJECT_definite] [die][duetoa] [CULPRITHEDIFF_labelNoun] [flavorsuffix].</li>
-    <li>r_logentry->[SUBJECT_definite] [die][duetoa] [CULPRITHEDIFF_labelNoun] в [CULPRITHEDIFF_target_label] [flavorsuffix].</li>
-    <li>r_logentry->[SUBJECT_definite] [die][duetoa] [CULPRITHEDIFF_labelNoun] в [SUBJECT_possessive] [CULPRITHEDIFF_target_label] [flavorsuffix].</li>
+    <li>r_logentry(p=1.5)->Из-за [reason] [SUBJECT_definite] [die].</li>
+    <li>r_logentry->[SUBJECT_definite] [die] из-за [reason].</li>
+    <li>r_logentry->[SUBJECT_definite] [die] вследствие [reason].</li>
+    <li>r_logentry->[SUBJECT_definite] [die], причиной этому — [reason].</li>
     <li>r_logentry->[SUBJECT_definite] [die].</li>
     <li>r_logentry->[SUBJECT_definite] [die] [flavorsuffix].</li>
+    <li>reason->[CULPRITHEDIFF_labelNoun]</li>
+    <li>reason->[CULPRITHEDIFF_labelNoun] в [CULPRITHEDIFF_target_label]</li>
+    <li>reason->[CULPRITHEDIFF_labelNoun] в [SUBJECT_possessive] [CULPRITHEDIFF_target_label]</li>
   </Transition_DiedInclude.rulePack.rulesStrings>
   
   <!-- EN:
@@ -127,10 +129,13 @@
   <Transition_Downed.rulePack.rulesStrings>
     <li>r_logentry->Из-за [CULPRITHEDIFF_labelNoun] [SUBJECT_definite] [collapsemeta].</li>
     <li>r_logentry->Из-за [CULPRITHEDIFF_labelNoun] в [CULPRITHEDIFF_target_label] [SUBJECT_definite] [collapsemeta].</li>
-    <li>r_logentry->[SUBJECT_definite] [collapsemeta][duetoa] [CULPRITHEDIFF_labelNoun].</li>
-    <li>r_logentry->[SUBJECT_definite] [collapsemeta][duetoa] [CULPRITHEDIFF_labelNoun] в [CULPRITHEDIFF_target_label].</li>
-    <li>r_logentry->[SUBJECT_definite] [collapsemeta][duetoa] [CULPRITHEDIFF_labelNoun] в [SUBJECT_possessive] [CULPRITHEDIFF_target_label].</li>
+    <li>r_logentry->[SUBJECT_definite] [collapsemeta] из-за [reason].</li>
+    <li>r_logentry->[SUBJECT_definite] [collapsemeta] вследствие [reason].</li>
+    <li>r_logentry->[SUBJECT_definite] [collapsemeta], причиной этому — [reason].</li>
     <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsemeta].</li>
+    <li>reason->[CULPRITHEDIFF_labelNoun]</li>
+    <li>reason->[CULPRITHEDIFF_labelNoun] в [CULPRITHEDIFF_target_label]</li>
+    <li>reason->[CULPRITHEDIFF_labelNoun] в [SUBJECT_possessive] [CULPRITHEDIFF_target_label]</li>
     <li>collapse->падает</li>
     <li>collapse->оседает на землю</li>
     <li>collapse->теряет равновесие</li>
@@ -154,9 +159,6 @@
     <li>duetoa(p=0.5)->thanks to</li>
   -->
   <Transition_Include.rulePack.rulesStrings>
-    <li>duetoa->[empty] из-за</li>
-    <li>duetoa(p=0.5)->[empty] вследствие</li>
-    <li>duetoa(p=0.5)->, благодаря</li>
   </Transition_Include.rulePack.rulesStrings>
   
 </LanguageData>
