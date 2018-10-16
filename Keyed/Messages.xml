@@ -9,9 +9,9 @@
   <!-- EN: {0} from {1} have detected you and begun their assault early. -->
   <MessageRaidersDetectedEarlyAssault>{0} из фракции {1} обнаружили вас и решили начать штурм раньше.</MessageRaidersDetectedEarlyAssault>
   <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
-  <MessageRaidersKidnapping>{0} из фракции {1} решили похитить кого смогут и уйти.</MessageRaidersKidnapping>
+  <MessageRaidersKidnapping>{0} из фракции {1} решили похитить, кого смогут, и уйти.</MessageRaidersKidnapping>
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
-  <MessageRaidersStealing>{0} из фракции {1} решили украсть что смогут и уйти.</MessageRaidersStealing>
+  <MessageRaidersStealing>{0} из фракции {1} решили украсть, что смогут, и уйти.</MessageRaidersStealing>
 
   <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>{0} из фракции {1} отступают.</MessageRaidersLeaving>
@@ -30,7 +30,7 @@
   <!-- EN: {0} from {1} have been trapped and are digging out to escape. -->
   <MessageVisitorsTrappedLeaving>{0} из фракции {1} попали в ловушку и пытаются выбраться на свободу.</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
-  <MessageVisitorsDangerousTemperature>{0} из фракции {1} уходят из-за неблагоприятных температурных условий.</MessageVisitorsDangerousTemperature>
+  <MessageVisitorsDangerousTemperature>{0} из фракции {1} уходят из-за опасных температурных условий.</MessageVisitorsDangerousTemperature>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0}, что носит {1_nameFull}, изнашивается окончательно и рассыпается в прах.</MessageWornApparelDeterioratedAway>
@@ -158,7 +158,7 @@
   <MessageNoHandlerSkilledEnough>Никто не сможет приручить {ANIMAL_kindBase}. Требуется {2} уровня {1}. Лучший животновод, {HANDLER_labelShort}, имеет уровень {4}.</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
-  <MessageEatenByPredator>{EATEN_labelShort} становится жертвой хищника, {PREDATOR}.</MessageEatenByPredator>
+  <MessageEatenByPredator>{PREDATOR} съедает {EATEN_labelShort}</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
   <MessageAttackedByPredator>На {PREY_labelShort} нападает {PREDATOR}!</MessageAttackedByPredator>
   
@@ -229,7 +229,7 @@
   <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} больше не оскорбляет {TARGET_label}.</MessageNoLongerOnTargetedInsultingSpree>
 
   <!-- EN: {1_label} has rotted away in storage. -->
-  <MessageRottedAwayInStorage>{1_label} сгнило на складе.</MessageRottedAwayInStorage>
+  <MessageRottedAwayInStorage>{1_label} сгнивает на складе.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
   <MessageFoodPoisoning>Съев {FOOD_labelShort}, {PAWN_labelShort} получает пищевое отравление. Причина — {2}.</MessageFoodPoisoning>
@@ -381,7 +381,7 @@
   <!-- EN: Body part restored: {0}. -->
   <MessageBodyPartCuredByItem>Восстановлена часть тела: {0}.</MessageBodyPartCuredByItem>
   <!-- EN: Technology given: {0}. -->
-  <MessageResearchProjectFinishedByItem>Получена технология: «{0}».</MessageResearchProjectFinishedByItem>
+  <MessageResearchProjectFinishedByItem>Получена технология: {0}.</MessageResearchProjectFinishedByItem>
 
   <!-- EN: {0} has been brought back to life! -->
   <MessagePawnResurrected>Вы воскресили {0}!</MessagePawnResurrected>
