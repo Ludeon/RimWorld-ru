@@ -13,12 +13,12 @@
     <li>exoticname->[Color]</li>
   -->
   <NamerAnimalGenericFemale.rulePack.rulesStrings>
-    <li>r_name(p=6)->[animalnameunisex]</li>
+    <li>r_name(p=6)->[NameAnimalUnisex]</li>
     <li>r_name(p=6)->[NameAnimalFemale]</li>
     <li>r_name(p=6)->[NamePersonFemale]</li>
     <li>r_name->[exoticname]</li>
-    <li>exoticname->[badassadjectivefemale] [NameAnimalFemale]</li>
-    <li>exoticname->[badassadjectivefemale] [NamePersonFemale]</li>
+    <li>exoticname->[AdjectiveBadass_fem] [NameAnimalFemale]</li>
+    <li>exoticname->[AdjectiveBadass_fem] [NamePersonFemale]</li>
     <li>exoticname->[Color_fem] [NameAnimalFemale]</li>
     <li>exoticname->[Color_fem] [NamePersonFemale]</li>
   </NamerAnimalGenericFemale.rulePack.rulesStrings>
@@ -35,7 +35,7 @@
     <li>exoticname->[Color]</li>
   -->
   <NamerAnimalGenericMale.rulePack.rulesStrings>
-    <li>r_name(p=6)->[animalnameunisex]</li>
+    <li>r_name(p=6)->[NameAnimalUnisex]</li>
     <li>r_name(p=6)->[NameAnimalMale]</li>
     <li>r_name(p=6)->[NamePersonMale]</li>
     <li>r_name->[exoticname]</li>
@@ -51,10 +51,9 @@
     <li>NameAnimalFemale->Names/Animal_Female</li>
   -->
   <NamerAnimalUtility.rulePack.rulesFiles>
-    <li>animalnameunisex->Names/Animal_Unisex</li>
+    <li>NameAnimalUnisex->Names/Animal_Unisex</li>
     <li>NameAnimalMale->Names/Animal_Male</li>
     <li>NameAnimalFemale->Names/Animal_Female</li>
-    <li>badassadjectivefemale->Words/Adjectives/Badass_Female</li>
   </NamerAnimalUtility.rulePack.rulesFiles>
   
 </LanguageData>

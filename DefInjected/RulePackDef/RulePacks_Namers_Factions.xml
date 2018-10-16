@@ -186,6 +186,8 @@
     <li>townname_fixed->Names/OutlanderTown</li>
     <li>concept_positive->Words/Nouns/Concepts_Positive</li>
     <li>of_outlanders->Words/Nouns/People_Jobs_Genitive_Plural</li>
+    <li>TerrainFeature_gen->Words/Nouns/TerrainFeatures_Genitive</li>
+    <li>TerrainFeature_prep->Words/Nouns/TerrainFeatures_Prepos</li>
   </NamerSettlementOutlander.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=12)->[townname_wordgen]</li>
@@ -240,15 +242,17 @@
     <li>townend->well</li>
   -->
   <NamerSettlementOutlander.rulePack.rulesStrings>
-    <li>r_name(p=12)->[townname_wordgen]</li>
-    <li>r_name(p=6)->[townname_fixed]</li>
-    <li>r_name(p=4)->[townname_combo]</li>
+    <li>r_name(p=9)->[townname_wordgen]</li>
+    <li>r_name(p=4)->[townname_fixed]</li>
+    <li>r_name(p=3)->[townname_combo]</li>
     <li>r_name->[townname_near]</li>
     <li>r_name->[TerrainFeature] [concept_positive]</li>
     <li>r_name->[TerrainFeature] [of_outlanders]</li>
     <li>r_name->[Community] [of_outlanders]</li>
-    <li>townname_near->[subname]-на-[TerrainFeature]</li>
-    <li>townname_near->[subname]-у-[TerrainFeature]</li>
+    <li>townname_near->[subname]-на-[TerrainFeature_prep]</li>
+    <li>townname_near->[subname]-у-[TerrainFeature_gen]</li>
+    <li>townname_near->[TerrainFeature]-на-[TerrainFeature_prep]</li>
+    <li>townname_near->[TerrainFeature]-у-[TerrainFeature_gen]</li>
     <li>subname->[townname_wordgen]</li>
     <li>subname->[Community]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE]</li>
@@ -272,7 +276,6 @@
   </NamerSettlementOutlander.rulePack.rulesStrings>
   
   <NamerSettlementPirate.rulePack.rulesFiles>
-    <li>of_badasspeople->Words/Nouns/PoliticalUnions_Outlander</li>
     <li>of_badassanimal->Words/Nouns/Animals_Badass_Genitive</li>
     <li>of_badassanimals->Words/Nouns/Animals_Badass_Genitive_Plural</li>
     <li>of_badasspeople->Words/Nouns/People_Enemies_Genitive_Plural</li>
@@ -337,7 +340,9 @@
   <NamerSettlementTribal.rulePack.rulesStrings>
     <li>r_name(p=2)->[WordTribal]</li>
     <li>r_name->[Color] [WordTribal]</li>
-    <li>r_name->[Color] [TerrainFeature]</li>
+    <li>r_name(p=0.3)->[Color] [TerrainFeature_masc]</li>
+    <li>r_name(p=0.3)->[Color_fem] [TerrainFeature_fem]</li>
+    <li>r_name(p=0.3)->[Color_neutral] [TerrainFeature_neutral]</li>
     <li>r_name->[TerrainFeature] [WordTribal]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   

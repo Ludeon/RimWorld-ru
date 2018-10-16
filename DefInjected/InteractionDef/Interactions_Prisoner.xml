@@ -103,9 +103,17 @@
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] говорит о радости [freedom] и склоняет к побегу.</li>
-    <li>r_logentry->[INITIATOR_nameDef] говорит о том, сколько красоты несёт в себе [TerrainFeature] и предлагает обрести свободу.</li>
+    <li>r_logentry(p=1.5)->[INITIATOR_nameDef] описывает, как [beautiful_feature_today], и предлагает обрести свободу.</li>
     <li>r_logentry->[INITIATOR_nameDef] рассказывает [RECIPIENT_nameDef] о способе побега и обещает, что даст [RECIPIENT_objective] возможность [freedom].</li>
     <li>r_logentry->[INITIATOR_nameDef] говорит [RECIPIENT_nameDef], что охрана потеряла бдительность, и предлагает бежать.</li>
+    <li>beautiful_feature_today->прекрасен [TerrainFeature_masc] [today]</li>
+    <li>beautiful_feature_today->прекрасна [TerrainFeature_fem] [today]</li>
+    <li>beautiful_feature_today->прекрасно [TerrainFeature_neutral] [today]</li>
+    <li>today->по ночам</li>
+    <li>today->среди дня</li>
+    <li>today->по утрам</li>
+    <li>today->по вечерам</li>
+    <li>today->в это время года</li>
     <li>freedom->свободы</li>
     <li>freedom->новых перспектив</li>
     <li>freedom->оказаться дома</li>
