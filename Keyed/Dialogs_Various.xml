@@ -20,7 +20,7 @@
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
   <GameUpdatedToNewVersionNonSteam>Так как это версия игры без DRM, вы можете установить её в две разные папки и играть как в старые, так и в новые версии.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu.\n\nOld versions will be likely removed from this list eventually - we just didn't want to cut off games in progress.\n\nNote that if mod authors update their mods for a new game version, they'll probably stop working on an old version. You may want to turn off automatic updates to prevent this. -->
-  <GameUpdatedToNewVersionSteam>Если вы желаете продолжить играть в старую версию, вы можете сделать это при помощи возможности Steam «Бета версии».\n\n  1. В библиотеке игр Steam нажмите правой кнопкой мыши на RimWorld.\n  2. Нажмите «Свойства».\n  3. Выберите вкладку «Бета версии».\n  4. В выпадающем списке выберите желаемую версию.\n\nРано или поздно старые версии будут убираться из этого списка, однако мы не хотим просто так прерывать ваши текущие игры.\n\nИмейте ввиду, что в том случае, если авторы модов также обновляют их для новой версии игры, то они могут переставать работать в старой. Чтобы предотвратить это, вам понадобится отключить функцию автоматического обновления.</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionSteam>Если вы желаете продолжить играть в старую версию, вы можете сделать это при помощи возможности Steam «Бета-версии».\n\n  1. В библиотеке игр Steam нажмите правой кнопкой мыши на RimWorld.\n  2. Нажмите «Свойства».\n  3. Выберите вкладку «Бета-версии».\n  4. В выпадающем списке выберите желаемую версию.\n\nРано или поздно старые версии будут убираться из этого списка, однако мы не хотим просто так прерывать ваши текущие игры.\n\nИмейте ввиду, что в том случае, если авторы модов также обновляют их для новой версии игры, то они могут переставать работать в старой. Чтобы предотвратить это, вам понадобится отключить функцию автоматического обновления.</GameUpdatedToNewVersionSteam>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
@@ -152,7 +152,7 @@
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>Прозвище поселенца теперь {0}, и {PAWN_pronoun} — {PAWN_title}</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
-  <AnimalGainsName>Кличка животного теперь {0}.</AnimalGainsName>
+  <AnimalGainsName>Новая кличка животного — {0}.</AnimalGainsName>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -222,7 +222,7 @@
   <!-- EN: Starting season -->
   <MapStartSeason>Начальный сезон:</MapStartSeason>
   <!-- EN: Auto -->
-  <MapStartSeasonDefault>Авто</MapStartSeasonDefault>
+  <MapStartSeasonDefault>Автоматический подбор</MapStartSeasonDefault>
   <!-- EN: Notice -->
   <Notice>Советы:</Notice>
 
@@ -257,7 +257,7 @@
   <Unlimited>Не ограничен</Unlimited>
   
   <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
-  <RecipeCannotHaveTargetCount>(Это задание нельзя повторять, так как конечный продукт может быть не один, либо результат каждый раз будет сильно различаться)</RecipeCannotHaveTargetCount>
+  <RecipeCannotHaveTargetCount>(Это задание нельзя повторять, так как конечный продукт может быть не один, либо результат может каждый раз сильно различаться)</RecipeCannotHaveTargetCount>
   <!-- EN: Work amount -->
   <WorkAmount>Объём работ</WorkAmount>
   <!-- EN: Minimum skills: -->
@@ -553,7 +553,7 @@
   <!-- EN: Days of food -->
   <DaysWorthOfFood>Запас еды</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
-  <DaysWorthOfFoodInfoRot>испортится через $XItems1${0} дней</DaysWorthOfFoodInfoRot>
+  <DaysWorthOfFoodInfoRot>до порчи {0}</DaysWorthOfFoodInfoRot>
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Бесконечно</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
@@ -591,7 +591,7 @@
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>Количество добываемой в день еды. Конечное значение зависит от биома.\n\n{0}</NutritionForagedPerDayTip>
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}. -->
-  <NutritionEatenPerDayTip>Количество поглощаемой в день еды. Для справки: простое блюдо эквивалентно {0} ед. питательности.\n\nМожет есть: {2}\n\nЛегенда:\n{1}.</NutritionEatenPerDayTip>
+  <NutritionEatenPerDayTip>Количество потребляемой в день еды. Для справки: простое блюдо эквивалентно {0} ед. питательности.\n\nМожет есть: {2}\n\nЛегенда:\n{1}</NutritionEatenPerDayTip>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>Переносимый вес</MassCarriedSimple>
   <!-- EN: Mass capacity -->
@@ -655,7 +655,7 @@
   <!-- EN: You must leave at least one non-downed colonist. -->
   <SourceCaravanMustHaveAtLeastOneColonist>В караване должен остаться хотя бы один человек, способный стоять на ногах.</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
-  <SplitCaravanThingCountTip>Как много этого ресурса текущий караван готов передать формируемому.</SplitCaravanThingCountTip>
+  <SplitCaravanThingCountTip>Как много этого ресурса текущий караван готов передать новому.</SplitCaravanThingCountTip>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
@@ -771,7 +771,7 @@
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
   <TakeToInventoryColumnDesc>Количество наркотика, которое поселенцу нужно будет взять с собой сверх величины приёма, чтобы в следующий раз ему не нужно было ходить на склад.</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForAddiction>Для удовл. зависимости\n\nПринимать этот наркотик для того, чтобы удовлетворить потребности зависимостей.\n\nНесмотря на запреты, поселенцы с определёнными чертами или во время нервных срывов всё равно могут принимать наркотики.</DrugUsageTipForAddiction>
+  <DrugUsageTipForAddiction>Для удовлетворения зависимости\n\nПринимать этот наркотик для того, чтобы удовлетворить потребности зависимостей.\n\nНесмотря на запреты, поселенцы с определёнными чертами или во время нервных срывов всё равно могут принимать наркотики.</DrugUsageTipForAddiction>
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
   <DrugUsageTipForJoy>Для развлечения\n\nПринимать этот наркотик для развлечения и более лёгкого общения.\n\nНесмотря на запреты, поселенцы с определёнными чертами или во время нервных срывов всё равно могут принимать наркотики.</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
