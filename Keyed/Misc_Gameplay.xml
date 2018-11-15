@@ -563,9 +563,9 @@
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
-  <PawnMainDescGendered>{1} ({PAWN_gender})</PawnMainDescGendered>
+  <PawnMainDescGendered>^Replace( {PAWN_gender} {1} | 'мужского пола {1}'-'мужчина, {1}' | 'женского пола {1}'-'женщина, {1}' | 'самец {1}'-'{1} (самец)' | 'самка {1}'-'{1} (самка)')^</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0} {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{0} фракции {1}</PawnMainDescFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective}, {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
