@@ -40,23 +40,23 @@
   <!-- EN: Born: {0} -->
   <Born>Дата рождения: {0}</Born>
   <!-- EN: Chronological age: {0} years, {1} quadrums, {2} days -->
-  <AgeChronological>Хронологический возраст: ^Number '{0}': 1-'# год', 2-'# года', X-'# лет'^ ^Number '{1}': 1-'# квартал', 2-'# квартала', X-'# кварталов'^ ^Number '{2}': 1-'# день', 2-'# дня', X-'# дней'^</AgeChronological>
+  <AgeChronological>Хронологический возраст: ^Number( {0} | '# год' | '# года' | '# лет')^ ^Number( {1} | '# квартал' | '# квартала' | '# кварталов')^ ^Number( {2} | '# день' | '# дня' | '# дней')^</AgeChronological>
   <!-- EN: Biological age: {0} years, {1} quadrums, {2} days -->
-  <AgeBiological>Биологический возраст: ^Number '{0}': 1-'# год', 2-'# года', X-'# лет'^ ^Number '{1}': 1-'# квартал', 2-'# квартала', X-'# кварталов'^ ^Number '{2}': 1-'# день', 2-'# дня', X-'# дней'^</AgeBiological>
+  <AgeBiological>Биологический возраст: ^Number( {0} | '# год' | '# года' | '# лет')^ ^Number( {1} | '# квартал' | '# квартала' | '# кварталов')^ ^Number( {2} | '# день' | '# дня' | '# дней')^</AgeBiological>
 
   <!-- Date periods -->
   <!-- EN: 1 year -->
   <Period1Year>1 год</Period1Year>
   <!-- EN: {0} years -->
-  <PeriodYears>^Number '{0}': 1-'# год', 2-'# года', X-'# лет'^</PeriodYears>
+  <PeriodYears>^Number( {0} | '# год' | '# года' | '# лет')^</PeriodYears>
   <!-- EN: 1 quadrum -->
   <Period1Quadrum>1 квартал</Period1Quadrum>
   <!-- EN: {0} quadrums -->
-  <PeriodQuadrums>^Number '{0}': 1-'# квартал', 2-'# квартала', X-'# кварталов'^</PeriodQuadrums>
+  <PeriodQuadrums>^Number( {0} | '# квартал' | '# квартала' | '# кварталов')^</PeriodQuadrums>
   <!-- EN: 1 day -->
   <Period1Day>1 день</Period1Day>
   <!-- EN: {0} days -->
-  <PeriodDays>^Number '{0}': 1-'# день', 2-'# дня', X-'# дней'^</PeriodDays>
+  <PeriodDays>^Number( {0} | '# день' | '# дня' | '# дней')^</PeriodDays>
   <!-- EN: 1 hour -->
   <Period1Hour>1 ч</Period1Hour>
   <!-- EN: {0} hours -->

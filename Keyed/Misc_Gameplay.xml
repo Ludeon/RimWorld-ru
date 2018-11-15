@@ -159,9 +159,9 @@
   <!-- EN: Out of food. -->
   <CaravanOutOfFood>Нет еды.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
-  <CaravanDaysOfFood>Еды хватит на ^Number '{0}': 1-'# день', 2-'# дня', X-'# дней'^</CaravanDaysOfFood>
+  <CaravanDaysOfFood>Еды хватит на ^Number( {0} | '# день' | '# дня' | '# дней')^</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
-  <CaravanDaysOfFoodRot>Еды хватит на ^Number '{0}': 1-'# день', 2-'# дня', X-'# дней'^, начнёт портиться через ^Number '{1}': 1-'# день', 2-'# дня', X-'# дней'^</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>Еды хватит на ^Number( {0} | '# день' | '# дня' | '# дней')^, начнёт портиться через ^Number( {1} | '# день' | '# дня' | '# дней')^</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
   <AllCaravanMembersDowned>Остановка: все члены сражены.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone has a mental break. -->
@@ -337,7 +337,7 @@
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} с фракцией {1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
-  <EnterCooldown>Вы не сможете вновь посетить это место ещё ^Number '{0}': 1-'# день', 2-'# дня', X-'# дней'^.</EnterCooldown>
+  <EnterCooldown>Вы не сможете вновь посетить это место ещё ^Number( {0} | '# день' | '# дня' | '# дней')^.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Караван</Caravan>
   <!-- EN: there may be danger there -->
