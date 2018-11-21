@@ -79,7 +79,7 @@
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort} имеет следующие отношения с вашими поселенцами:</PawnHasTheseRelationshipsWithColonists>
   <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
-  <PrisonerRescueTimeout>Через {0} дней лагерь исчезнет. Если вы упустите эту возможность, вы рискуете больше никогда не увидеть {PRISONER_labelShort}.</PrisonerRescueTimeout>
+  <PrisonerRescueTimeout>Через ^Number( {0} | '# день' | '# дня' | '# дней')^ лагерь исчезнет. Если вы упустите эту возможность, вы рискуете больше никогда не увидеть {PRISONER_labelShort}.</PrisonerRescueTimeout>
 
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Древняя опасность</LetterLabelAncientShrineWarning>
@@ -282,7 +282,7 @@
   <!-- EN: Precious minerals found -->
   <LetterLabelFoundPreciousLump>Найдены драгоценные минералы</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>При помощи сканера дальнего действия {WORKER_labelShort} обнаруживает неподалёку {0}.\n\nК сожалению, этот ценный ресурс ли надолго останется нетронутым: через {1} дней его наверняка выкопают другие.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>При помощи сканера дальнего действия {WORKER_labelShort} обнаруживает неподалёку {0}.\n\nК сожалению, этот ценный ресурс ли надолго останется нетронутым: через ^Number( {1} | '# день' | '# дня' | '# дней')^ его наверняка выкопают другие.\n\n{2}.</LetterFoundPreciousLump>
   
   <!-- Ambush -->
   <!-- EN: Ambush -->
