@@ -6,6 +6,7 @@
 Данный перевод постоянно исправляется и дорабатывается. И если вам не хочется ждать следующего обновления игры, вы можете скачать актуальную версию отсюда. Для этого нужно:
 
 1. Скачать архив или клонировать репозиторий, **соответствующий вашей версии игры (это важно!):**
+	* 1.0.2096 (от 23 ноября): [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-23-nov.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-23-nov)
 	* 1.0.2059 (от 17 октября): [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-17-oct.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-17-oct)
 	* B-19: [архив](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/beta-19)
 	* B-18: [архив](https://github.com/Ludeon/RimWorld-ru/archive/beta-18.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/beta-18)
