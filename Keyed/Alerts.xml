@@ -142,7 +142,7 @@
   <NeedResearchProjectDesc>У вас есть оборудование для исследований, но не выбран проект.\n\nОткройте вкладку «Технологии» и назначьте проект.</NeedResearchProjectDesc>
   
   <!-- EN: {0} colonists idle -->
-  <ColonistsIdle>Поселенцев бездельничает: {0}</ColonistsIdle>
+  <ColonistsIdle>^Number( {0} | '# поселенец бездельничает' | '# поселенца бездельничают' | '# поселенцев бездельничают')^</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>Эти поселенцы слоняются без дела:\n\n{0}\nВозможно, следует назначить им продуктивное занятие.</ColonistsIdleDesc>
 
@@ -157,7 +157,7 @@
   <AlertHypothermiaDesc>Эти поселенцы страдают от гипотермии:\n\n{0}\nУбедитесь, что они одеты по погоде, а ваши помещения обогреваются должным образом.</AlertHypothermiaDesc>
   
   <!-- EN: {0} patients await medical operation -->
-  <PatientsAwaitingMedicalOperation>{0} пациентов ждут мед. операции</PatientsAwaitingMedicalOperation>
+  <PatientsAwaitingMedicalOperation>^Number( {0} | '# пациент ждёт' | '# пациента ждут' | '# пациентов ждут')^ мед. операции</PatientsAwaitingMedicalOperation>
   <!-- EN: These patients await medical operation:\n\n{0}\nMake sure you have all necessary medical tools and a free doctor available. -->
   <PatientsAwaitingMedicalOperationDesc>Эти пациенты ждут своей очереди на проведение медицинской операции:\n\n{0}\nУбедитесь, что у вас есть все необходимые медицинские инструменты и свободный врач.</PatientsAwaitingMedicalOperationDesc>
 
