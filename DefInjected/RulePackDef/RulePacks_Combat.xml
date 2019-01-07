@@ -642,8 +642,8 @@
     <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] в [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [aburst] [shot_a] [WEAPON_projectile_label] в [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
-    <li>r_logentry(recipient_missing==True)->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label].</li>
     <li>shot_a->[shotadverb] [shot_a_verb]</li>
     <li>shot_a(p=2)->[shot_a_verb]</li>
     <li>shot(p=2)->[shot_verb]</li>
@@ -704,8 +704,8 @@
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [WEAPON_projectile_label] в [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [threw] [WEAPON_projectile_label] в [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_missing==True)->[INITIATOR_definite] [threw] [INITIATOR_possessive] [WEAPON_projectile_label].</li>
-    <li>r_logentry(recipient_missing==True)->[INITIATOR_definite] [threw] [WEAPON_projectile_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [INITIATOR_possessive] [WEAPON_projectile_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [WEAPON_projectile_label].</li>
     <li>threw(p=2)->[threwverb]</li>
     <li>threw->[threwadverb] [threwverb]</li>
     <li>threwverb->кидает</li>
