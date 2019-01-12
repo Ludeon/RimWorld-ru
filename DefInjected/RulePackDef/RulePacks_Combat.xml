@@ -24,10 +24,10 @@
     <li>scraped_past->slid</li>
   -->
   <Combat_Deflect.rulePack.rulesStrings>
-    <li>r_logentry(p=1)->[INITIATOR_definite] [deflectedadverb] [damaged] [RECIPIENT_definite] в [recipient_part0_label].</li>
-    <li>r_logentry(p=1)->[INITIATOR_definite] [damaged] [RECIPIENT_definite] в [recipient_part0_label], [deflectedconsequence].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [deflectedadverb] [damaged] [RECIPIENT_definite] в [recipient_part0_label].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [damaged] [RECIPIENT_definite] в [recipient_part0_label], [deflectedconsequence].</li>
+    <li>r_logentry(p=1)->[INITIATOR_definite] [deflectedadverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=1)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite], [deflectedconsequence].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [deflectedadverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [damaged] [recipient_part0_label] [RECIPIENT_definite], [deflectedconsequence].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite], используя [implement], [deflectedadverb] пытается [damaged_inf] [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite], используя [implement], пытается [damaged_inf] [RECIPIENT_definite], [deflectedconsequence].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [deflectedadverb] использует [implement], желая [damaged_inf] [RECIPIENT_definite].</li>
@@ -190,12 +190,12 @@
     <li>action(p=0.6)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
   -->
   <Combat_Hit.rulePack.rulesStrings>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [damaged] [RECIPIENT_definite] в [recipient_part0_label].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [flavortextadverb] [damaged] [RECIPIENT_definite] в [recipient_part0_label].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite][flavortextsituation] [damaged] [RECIPIENT_definite] в [recipient_part0_label].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged] [RECIPIENT_definite] в [recipient_part0_label], [flavortextconsequence].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [flavortextadverb] [damaged] [RECIPIENT_definite] в [recipient_part0_label].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [damaged] [RECIPIENT_definite] в [recipient_part0_label].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [flavortextadverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite][flavortextsituation] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite], [flavortextconsequence].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [flavortextadverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
     <!-- combined high priority, if we destroyed something -->
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed] [destroyed_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed] [destroyed_targets] [RECIPIENT_definite] [destroyed_suffix].</li>
