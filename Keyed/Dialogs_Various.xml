@@ -659,7 +659,7 @@
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
-  <LoadTransporters>Загрузить {0}</LoadTransporters>
+  <LoadTransporters>Загрузить ^Replace( {0} | 'транспортная капсула'-'транспортную капсулу')^</LoadTransporters>
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
   <TooBigTransportersMassUsage>Масса назначенных пассажиров и груза слишком велика для транспортных капсул.</TooBigTransportersMassUsage>
   <!-- EN: You can't send empty transport pods. -->
