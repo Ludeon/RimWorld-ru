@@ -6,8 +6,9 @@
 Данный перевод постоянно исправляется и дорабатывается. И если вам не хочется ждать следующего обновления игры, вы можете скачать актуальную версию отсюда. Для этого нужно:
 
 1. Скачать архив или клонировать репозиторий, **соответствующий вашей версии игры (это важно!):**
-	* 1.0.2096 (от 23 ноября): [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-23-nov.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-23-nov)
-	* 1.0.2059 (от 17 октября): [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-17-oct.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-17-oct)
+	* 1.0.2150 (от 16 января 2019 г): [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2150.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.0.2150)
+	* 1.0.2096 (от 23 ноября 2018 г): [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2096.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.0.2096)
+	* 1.0.2059 (от 17 октября 2018 г): [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2059.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.0.2059)
 	* B-19: [архив](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/beta-19)
 	* B-18: [архив](https://github.com/Ludeon/RimWorld-ru/archive/beta-18.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/beta-18)
 	* A-17: [архив](https://github.com/Ludeon/RimWorld-ru/archive/alpha-17.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/alpha-17)
