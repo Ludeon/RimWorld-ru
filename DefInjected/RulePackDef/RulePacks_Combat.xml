@@ -481,7 +481,7 @@
     <li>r_logentry(p=2)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_participle] [destroyed_targets] у [RECIPIENT_definite].</li>
     <li>r_logentry->[destroyed_targets] [RECIPIENT_definite] [destroyed]ся попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
     <li>r_logentry->[destroyed_targets] [RECIPIENT_definite] [destroyed]ся [expert] попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
-    <li>r_logentry->[destroyed_targets] [RECIPIENT_definite] [destroyed]ся в [destroyed_suffix] попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
+    <li>r_logentry->[destroyed_targets] [RECIPIENT_definite] [destroyed]ся [destroyed_suffix] попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
     <!-- various damaged options; don't show if something was destroyed -->
     <li>r_logentry(recipient_partDestroyed_count==0)->[WEAPON_projectile_label] [INITIATOR_definite] [damaged] [damaged_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_partDestroyed_count==0)->[WEAPON_projectile_label] [INITIATOR_definite] [expertly] [damaged] [damaged_targets] [RECIPIENT_definite] [destroyed_suffix].</li>
