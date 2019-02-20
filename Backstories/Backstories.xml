@@ -23,8 +23,10 @@
 
 	<MedievalLord57>
 		<title>средневековый лорд</title>
+		<titleFemale>средневековая леди</titleFemale>
 		<titleShort>лорд</titleShort>
-		<desc>{PAWN_nameDef} становится лордом на доиндустриальной планете. {PAWN_pronoun} посещает приёмы, управляет подданными и даже изучает несколько фехтовальных приёмов.
+		<titleShortFemale>леди</titleShortFemale>
+		<desc>{PAWN_nameDef} становится {PAWN_gender ? лордом : леди} на доиндустриальной планете. {PAWN_pronoun} посещает званые вечера, управляет подданными и даже изучает несколько фехтовальных приёмов.
 
 {PAWN_possessive} нежные руки ни разу в жизни не держали инструмента, {PAWN_pronoun} считает ручной труд ниже своего достоинства.</desc>
 	</MedievalLord57>
@@ -67,6 +69,7 @@
 	<PitBrawler76>
 		<title>боец на арене</title>
 		<titleShort>гладиатор</titleShort>
+		<titleShortFemale>гладиаторша</titleShortFemale>
 		<desc>{PAWN_nameDef} участвует в своём первом бою в возрасте девяти лет. {PAWN_pronoun} одерживает победу и, что гораздо важнее, становится любимцем публики. Карьера участника боёв на арене приносит неплохие деньги тем, кому удаётся выживать. Она даже законна. По большей части.</desc>
 	</PitBrawler76>
 
@@ -147,7 +150,8 @@
 	</MidworldChef92>
 
 	<SicklyChild72>
-		<title>болезненный ребёнок</title>
+		<title>болезненный мальчик</title>
+		<titleFemale>болезненная девочка</titleFemale>
 		<titleShort>пациент</titleShort>
 		<titleShortFemale>пациентка</titleShortFemale>
 		<desc>Всё детство {PAWN_nameDef} страдает от редкой болезни. На постоянном карантине в исследовательской больнице у н{PAWN_possessive} минимум контактов с людьми и практически никаких физических нагрузок. Однако в этих стерильных лабораториях {PAWN_pronoun} подробно знакомится с наукой и медициной.</desc>
@@ -178,6 +182,7 @@
 	<ShelterChild50>
 		<title>дитя убежища</title>
 		<titleShort>житель убежища</titleShort>
+		<titleShortFemale>жительница убежища</titleShortFemale>
 		<desc>{PAWN_nameDef} проводит свои юные годы в убежище глубоко под истерзанной землёй токсичного мира. {PAWN_pronoun} получает всестороннее образование, но не имеет возможности трудиться физически.</desc>
 	</ShelterChild50>
 
@@ -234,7 +239,8 @@
 	</JoywireArtist8>
 
 	<FrightenedChild43>
-		<title>пугливый ребёнок</title>
+		<title>пугливый мальчик</title>
+		<titleFemale>пугливая девочка</titleFemale>
 		<titleShort>бояка</titleShort>
 		<desc>{PAWN_nameDef} растёт, страдая целым набором фобий и неврозов. Помимо всего прочего, {PAWN_pronoun} боится также докторов и микроорганизмов пищевого происхождения.
 
@@ -259,13 +265,17 @@
 
 	<LudditeRebel43>
 		<title>мятежник-луддит</title>
-		<titleShort>луддит</titleShort>
+		<titleFemale>мятежница-луддит</titleFemale>
+		<titleShort>мятежник</titleShort>
+		<titleShortFemale>мятежница</titleShortFemale>
 		<desc>В то время как большинство людей {PAWN_possessive} мира избирают своим путём отказаться от своей социальной и биологической индивидуальности, чтобы слиться в единой информационной сущности, {PAWN_nameDef} присоединяется к группе мятежников, решившей отказаться от использования технологий.</desc>
 	</LudditeRebel43>
 
 	<Bartender55>
 		<title>бармен</title>
+		<titleFemale>барменша</titleFemale>
 		<titleShort>бармен</titleShort>
+		<titleShortFemale>барменша</titleShortFemale>
 		<desc>{PAWN_nameDef} устраивается работать барменом на космическую станцию, пользующуюся дурной славой. Такая работа — коктейль из одной части приготовления напитков, одной части дипломатии и одной части мордобоя.</desc>
 	</Bartender55>
 
@@ -297,6 +307,7 @@
 
 	<CaveworldIlluminator23>
 		<title>зрящий мира пещер</title>
+		<titleFemale>зрящая мира пещер</titleFemale>
 		<titleShort>проводник</titleShort>
 		<titleShortFemale>проводница</titleShortFemale>
 		<desc>Среди обитателей пещер обладатели острого зрения пользуются большим почтением. {PAWN_nameDef} указывает остальным путь, отмечая места для копания биолюминесцентными грибами, а также предупреждает о подстерегающих опасностях.</desc>
@@ -304,7 +315,9 @@
 
 	<Herbalist54>
 		<title>травник</title>
+		<titleFemale>травница</titleFemale>
 		<titleShort>травник</titleShort>
+		<titleShortFemale>травница</titleShortFemale>
 		<desc>{PAWN_nameDef} селится в лесу неподалёку от деревни. Несмотря на то, что большинство жителей побаиваются {PAWN_possessive}, заболевшие приходят к н{PAWN_objective} за целебными мазями и примочками из растений, что {PAWN_nameDef} выращивает у себя в саду. {PAWN_pronoun} всегда с радостью оказывает помощь. За определённую плату.</desc>
 	</Herbalist54>
 
@@ -318,6 +331,7 @@
 
 	<CivilServant2>
 		<title>госслужащий</title>
+		<titleFemale>госслужащая</titleFemale>
 		<titleShort>клерк</titleShort>
 		<desc>{PAWN_nameDef} становится мелким администратором в правительстве, погрязшем в бюрократии и уже отживающем свой век. {PAWN_pronoun} без каких-либо затруднений заполняет сложную документацию и тонко играет с офисной политикой.</desc>
 	</CivilServant2>
@@ -330,6 +344,7 @@
 
 	<AsceticPriest11>
 		<title>аскетичный монах</title>
+		<titleFemale>аскетичная монашка</titleFemale>
 		<titleShort>аскет</titleShort>
 		<desc>После принятия обета молчания {PAWN_nameDef} уходит в монастырь на мирной, захолустной планете, чтобы провести жизнь в тихом созерцании.
 
@@ -338,12 +353,15 @@
 
 	<EscapedConvict10>
 		<title>беглый каторжник</title>
+		<titleFemale>беглая каторжница</titleFemale>
 		<titleShort>беглец</titleShort>
+		<titleShortFemale>беглянка</titleShortFemale>
 		<desc>{PAWN_nameDef} отрицает своё участие в тех преступлениях, что привели к {PAWN_possessive} заключению в каторжной тюрьме. {PAWN_pronoun} сбегает оттуда, прорыв туннель под стенами при помощи переделанного столового прибора.</desc>
 	</EscapedConvict10>
 
 	<StarshipJanitor33>
 		<title>корабельный уборщик</title>
+		<titleFemale>корабельная уборщица</titleFemale>
 		<titleShort>уборщик</titleShort>
 		<titleShortFemale>уборщица</titleShortFemale>
 		<desc>Пока другие пассажиры космического корабля проводят годы в саркофагах криптосна, {PAWN_nameDef} периодически проверяет состояние корабля и навигационных систем и смазывает механоидов.</desc>
@@ -351,7 +369,9 @@
 
 	<Pyromaniac18>
 		<title>пироман</title>
+		<titleFemale>пироманка</titleFemale>
 		<titleShort>пироман</titleShort>
+		<titleShortFemale>пироманка</titleShortFemale>
 		<desc>С раннего возраста {PAWN_nameDef} питает к огню нездоровый интерес. Когда {PAWN_pronoun} зажигает огонь, пламя настолько завораживает {PAWN_possessive}, что {PAWN_pronoun} может по рассеянности обжечься.
 
 В один прекрасный момент {PAWN_possessive} дом сгорает из-за неосторожной игры со спичками.</desc>
@@ -365,6 +385,7 @@
 
 	<WarRefugee51>
 		<title>беженец</title>
+		<titleFemale>беженка</titleFemale>
 		<titleShort>беженец</titleShort>
 		<titleShortFemale>беженка</titleShortFemale>
 		<desc>После того, как война врывается в {PAWN_possessive} родной дом, {PAWN_nameDef} и {PAWN_possessive} родители бегут, пытаясь хоть где-нибудь найти безопасное убежище. {PAWN_possessive} самые первые воспоминания — уроки самозащиты.
@@ -386,6 +407,7 @@
 
 	<ChildSpy53>
 		<title>юный шпион</title>
+		<titleFemale>юная шпионка</titleFemale>
 		<titleShort>проныра</titleShort>
 		<desc>Дети считаются воплощением невинности, что делает их идеальными шпионами. Когда {PAWN_objective} исполняется девять лет, {PAWN_nameDef} начинает обучаться искусству проникновения и сбора информации.
 
@@ -394,13 +416,17 @@
 
 	<Shopkeeper36>
 		<title>продавец</title>
+		<titleFemale>продавщица</titleFemale>
 		<titleShort>продавец</titleShort>
+		<titleShortFemale>продавщица</titleShortFemale>
 		<desc>Поскольку {PAWN_possessive} мать часто болеет, {PAWN_nameDef} время от времени управляет магазином, единственным источником дохода их семьи. В продающихся у них экзотических артефактах {PAWN_pronoun} разбирается немного, но зато в искусстве заключения выгодных сделок — очень хорошо.</desc>
 	</Shopkeeper36>
 
 	<Nurse53>
-		<title>сиделка</title>
-		<titleShort>сиделка</titleShort>
+		<title>медбрат</title>
+		<titleFemale>медсестра</titleFemale>
+		<titleShort>медбрат</titleShort>
+		<titleShortFemale>медсестра</titleShortFemale>
 		<desc>{PAWN_nameDef} работает в больнице индустриальной эпохи и занимается такой рутинной работой, как перевязывание ран и измерение температуры.
 
 Несмотря на напряжённую работу, у н{PAWN_possessive} всегда находится время на беседу с пациентом.</desc>
@@ -409,6 +435,7 @@
 	<HouseServant35>
 		<title>домашняя прислуга</title>
 		<titleShort>слуга</titleShort>
+		<titleShortFemale>служанка</titleShortFemale>
 		<desc>После того, как молодости {PAWN_possessive} похищают и продают богатым аристократам, {PAWN_nameDef} работает в качестве домашней прислуги.
 
 Там, в особняке своего господина, {PAWN_nameDef} изучает все кухни и подвалы, но при этом не имеет возможности выходить наружу.</desc>
@@ -454,12 +481,15 @@
 
 	<Gardener31>
 		<title>садовник</title>
+		<titleFemale>садовница</titleFemale>
 		<titleShort>садовник</titleShort>
+		<titleShortFemale>садовница</titleShortFemale>
 		<desc>В индустриальных мирах всё богатство сосредотачивается в руках тех, кто владеет заводами или продаёт товары. {PAWN_nameDef} становится прислугой в особняке одной их таких семей, ухаживая за их роскошными садами.</desc>
 	</Gardener31>
 
 	<MafiaBoss17>
 		<title>босс мафии</title>
+		<titleFemale>королева мафии</titleFemale>
 		<titleShort>мафиози</titleShort>
 		<desc>{PAWN_nameDef} становится крупным авторитетом в одном из криминальных синдикатов городского мира.
 
@@ -496,6 +526,7 @@
 		<title>перебежчик</title>
 		<titleFemale>перебежчица</titleFemale>
 		<titleShort>беглец</titleShort>
+		<titleShortFemale>беглянка</titleShortFemale>
 		<desc>В молодом возрасте {PAWN_nameDef} решает убежать от гнетущего диктаторского режима государства, в котором на тот момент живёт. Это бегство власти расценивают как государственную измену, и по {PAWN_possessive} следу отправляют агентов.
 
 Все годы, что {PAWN_nameDef} проводит в бегах, {PAWN_pronoun} лечит свои раны самостоятельно, чтобы ни один врач не мог {PAWN_possessive} выдать. Все эти испытания озлобляют {PAWN_possessive} и отучают доверять людям.</desc>
@@ -505,6 +536,7 @@
 		<title>рабочий фабрики</title>
 		<titleFemale>работница фабрики</titleFemale>
 		<titleShort>рабочий</titleShort>
+		<titleShortFemale>работница</titleShortFemale>
 		<desc>{PAWN_nameDef} становится чернорабочим на фабрике индустриальной эпохи. В {PAWN_possessive} обязанности также входит уход за мулами и лошадьми, с помощью которых товар развозят по городу.</desc>
 	</FactoryWorker27>
 
@@ -520,6 +552,7 @@
 	<LowWageWorker7>
 		<title>низкоопл. рабочий</title>
 		<titleShort>подёнщик</titleShort>
+		<titleShortFemale>подёнщица</titleShortFemale>
 		<desc>Стремясь прокормить семью, {PAWN_nameDef} перебивается случайными заработками, работая на самых разных работах. {PAWN_pronoun} получает базовые навыки ручного труда.</desc>
 	</LowWageWorker7>
 
@@ -559,6 +592,7 @@
 
 	<MedicalAssistant82>
 		<title>помощник медика</title>
+		<titleFemale>помощница медика</titleFemale>
 		<titleShort>медик</titleShort>
 		<desc>{PAWN_nameDef} рождается во время ужасной войны, в которой обе стороны широко применяли напалм. {PAWN_pronoun} вырастает, помогая своим родителям в госпитале, обрабатывая бесконечный поток ужасающих ожогов на телах солдат. Страх перед огнём остаётся у н{PAWN_possessive} на всю жизнь.</desc>
 	</MedicalAssistant82>
@@ -574,6 +608,7 @@
 	<WreckageExplorer8>
 		<title>искатель обломков</title>
 		<titleShort>искатель</titleShort>
+		<titleShortFemale>искательница</titleShortFemale>
 		<desc>{PAWN_nameDef} рождается через два поколения после того, как апокалиптическая война бросила всю планету в пучину анархии. В юном возрасте в {PAWN_possessive} обязанности входит следить за скотом своего племени, но {PAWN_nameDef} частенько увиливает от своей работы, чтобы исследовать обломки погибших боевых кораблей, разбросанные по планете.</desc>
 	</WreckageExplorer8>
 
@@ -587,7 +622,9 @@
 
 	<StoryWriter67>
 		<title>писатель</title>
+		<titleFemale>писательница</titleFemale>
 		<titleShort>писатель</titleShort>
+		<titleShortFemale>писательница</titleShortFemale>
 		<desc>{PAWN_nameDef} с детства любит читать, проводя целые дни в библиотеке и уткнув свой нос в книгу. Когда бюджет города урезают, и библиотека закрывается, {PAWN_pronoun} сначала расстраивается, но затем решает заполнить появившуюся пустоту написанием своих собственных книг.</desc>
 	</StoryWriter67>
 
@@ -600,13 +637,17 @@
 
 	<Jailbird40>
 		<title>арестант</title>
+		<titleFemale>арестантка</titleFemale>
 		<titleShort>арестант</titleShort>
+		<titleShortFemale>арестантка</titleShortFemale>
 		<desc>{PAWN_nameDef} проводит большую часть своей жизни в тюрьме, где {PAWN_possessive} часто назначают работать на кухне. {PAWN_pronoun} нередко ввязывается в драки и вырабатывает агрессивный стиль общения.</desc>
 	</Jailbird40>
 
 	<Actor42>
 		<title>актёр</title>
+		<titleFemale>актриса</titleFemale>
 		<titleShort>актёр</titleShort>
+		<titleShortFemale>актриса</titleShortFemale>
 		<desc>{PAWN_nameDef} путешествует по своему миру в составе актёрской труппы. Они собирают полные залы и повсеместно любимы публикой. Из-за своего перфекционизма {PAWN_pronoun} всегда самостоятельно готовит для себя реквизит и костюмы вместо того, чтобы пользоваться имеющимися.</desc>
 	</Actor42>
 
@@ -676,7 +717,9 @@
 
 	<Drifter67>
 		<title>скиталец</title>
+		<titleFemale>скиталица</titleFemale>
 		<titleShort>скиталец</titleShort>
+		<titleShortFemale>скиталица</titleShortFemale>
 		<desc>Не имея особых планов на жизнь, {PAWN_nameDef} часто путешествует, перебиваясь случайными заработками, если удаётся их найти.
 
 Кроме того, {PAWN_pronoun} время от времени работает над романом, который точно должен стать бестселлером — как только {PAWN_nameDef} сможет найти заинтересованного издателя.</desc>
@@ -715,6 +758,7 @@
 	<MachineCollector55>
 		<title>коллекционер машин</title>
 		<titleShort>коллекционер</titleShort>
+		<titleShortFemale>коллекционерша</titleShortFemale>
 		<desc>{PAWN_nameDef} без ума от старых машин и загадочных технологий. {PAWN_pronoun} достаёт такие механизмы любыми способами и любит разбирать их, чтобы узнать, как они работают.
 
 У н{PAWN_possessive} появляется привычка продолжать говорить о своей коллекции, даже когда окружающие уже {PAWN_possessive} не слушают.</desc>
@@ -728,14 +772,18 @@
 
 	<ConArtist80>
 		<title>мошенник</title>
+		<titleFemale>мошенница</titleFemale>
 		<titleShort>жулик</titleShort>
+		<titleShortFemale>мошенница</titleShortFemale>
 		<desc>Вместо того чтобы делать хоть что-нибудь своими руками, {PAWN_nameDef} легко убеждает других отдавать {PAWN_objective} плоды их труда.</desc>
 	</ConArtist80>
 
 	<Gatherer40>
 		<title>собиратель</title>
+		<titleFemale>собирательница</titleFemale>
 		<titleShort>собиратель</titleShort>
-		<desc>{PAWN_nameDef} — умелый собиратель. {PAWN_pronoun} может найти еду в самых бесплодных местах благодаря своим знаниям о растениях, съедобных корнях и ягодах.</desc>
+		<titleShortFemale>собирательница</titleShortFemale>
+		<desc>{PAWN_nameDef} — {PAWN_gender ? умелый : умелая} {PAWN_gender ? собиратель : собирательница}. {PAWN_pronoun} может найти еду в самых бесплодных местах благодаря своим знаниям о растениях, съедобных корнях и ягодах.</desc>
 	</Gatherer40>
 
 	<Loner40>
@@ -747,13 +795,16 @@
 	</Loner40>
 
 	<AbandonedChild60>
-		<title>брошенный ребёнок</title>
+		<title>брошенный мальчик</title>
+		<titleFemale>брошенная девочка</titleFemale>
 		<titleShort>брошенный</titleShort>
+		<titleShortFemale>брошенная</titleShortFemale>
 		<desc>{PAWN_nameDef} рождается с очень слабым здоровьем. В {PAWN_possessive} племени решают, что {PAWN_pronoun} будет обузой, и бросают на произвол судьбы. Но {PAWN_nameDef} выживает.</desc>
 	</AbandonedChild60>
 
 	<ReclusiveChild82>
-		<title>замкнутый ребёнок</title>
+		<title>замкнутый мальчик</title>
+		<titleFemale>замкнутая девочка</titleFemale>
 		<titleShort>отшельник</titleShort>
 		<titleShortFemale>отшельница</titleShortFemale>
 		<desc>{PAWN_nameDef} не умеет говорить почти до пяти лет. Даже после этого {PAWN_pronoun} предпочитает оставаться наедине с собой. В отрочестве {PAWN_pronoun} берёт за привычку уходить из деревни и жить среди природы по нескольку недель.</desc>
@@ -761,24 +812,30 @@
 
 	<Herder58>
 		<title>пастух</title>
+		<titleFemale>пастушка</titleFemale>
 		<titleShort>пастух</titleShort>
+		<titleShortFemale>пастушка</titleShortFemale>
 		<desc>В детстве {PAWN_nameDef} пасёт стада муффало своего племени, оберегая их от хищников и выхаживая больных животных. Это была спокойная работа, и {PAWN_objective} нравилось быть подальше от других людей.</desc>
 	</Herder58>
 
 	<Scavenger22>
 		<title>мусорщик</title>
+		<titleFemale>мусорщица</titleFemale>
 		<titleShort>мусорщик</titleShort>
+		<titleShortFemale>мусорщица</titleShortFemale>
 		<desc>{PAWN_nameDef} проводит своё детство, избегая грубой работы для того, чтобы иметь возможность заниматься раскопками руин и обломков кораблей. {PAWN_possessive} природное любопытство не раз приносит {PAWN_objective} кучу проблем, но вместе с тем дарит множество интересных находок.</desc>
 	</Scavenger22>
 
 	<CaveChild30>
 		<title>пещерный ребёнок</title>
 		<titleShort>пещерник</titleShort>
+		<titleShortFemale>пещерница</titleShortFemale>
 		<desc>{PAWN_nameDef} вырастает в огромной и запутанной системе пещер, простиравшейся далеко вглубь гор. {PAWN_pronoun} помогает взрослым содержать и обустраивать глубинные пещеры.</desc>
 	</CaveChild30>
 
 	<SoleSurvivor9>
 		<title>оставшийся в живых</title>
+		<titleFemale>оставшаяся в живых</titleFemale>
 		<titleShort>выживший</titleShort>
 		<titleShortFemale>выжившая</titleShortFemale>
 		<desc>{PAWN_nameDef} переживает резню, в которой погибает всё {PAWN_possessive} племя. Хотя {PAWN_possessive} принимают в другое племя, после такого потрясения {PAWN_pronoun} предпочитает оставаться возле дома, занимаясь готовкой и выращиванием урожая.</desc>
@@ -787,23 +844,29 @@
 	<VengefulChild43>
 		<title>мстительное дитя</title>
 		<titleShort>мститель</titleShort>
+		<titleShortFemale>мстительница</titleShortFemale>
 		<desc>Однажды возвращаясь в родную деревню, {PAWN_nameDef} обнаруживает, что та уничтожена бандитами. {PAWN_pronoun} клянётся отомстить напавшим и начинает свой жестокий путь в пустошах.</desc>
 	</VengefulChild43>
 
 	<FireKeeper22>
 		<title>хранитель огня</title>
+		<titleFemale>хранительница огня</titleFemale>
 		<titleShort>хранитель огня</titleShort>
+		<titleShortFemale>хранительница огня</titleShortFemale>
 		<desc>В детстве {PAWN_nameDef} отвечает за сохранение огня в племени — тот не должен погаснуть. {PAWN_pronoun} очень серьёзно относится к своим обязанностям.</desc>
 	</FireKeeper22>
 
 	<Healer0>
-		<title>лекарь</title>
-		<titleShort>лекарь</titleShort>
+		<title>знахарь</title>
+		<titleFemale>знахарка</titleFemale>
+		<titleShort>знахарь</titleShort>
+		<titleShortFemale>знахарка</titleShortFemale>
 		<desc>После того, как во время очередного налёта бандиты убивают лекаря, {PAWN_nameDef} занимает его место. {PAWN_pronoun} проводит дни в поисках трав и минералов для создания на удивление эффективных лекарственных средств.</desc>
 	</Healer0>
 
 	<Scout17>
 		<title>разведчик</title>
+		<titleFemale>разведчица</titleFemale>
 		<titleShort>разведчик</titleShort>
 		<titleShortFemale>разведчица</titleShortFemale>
 		<desc>С тех пор, как {PAWN_possessive} племя налаживает отношения с чужеземцами неподалёку, {PAWN_nameDef} начинает предлагать свои услуги в качестве проводника по местности. Частые контакты с древними реликвиями позволяют {PAWN_objective} достаточно уверенно ориентироваться в старых технологиях.</desc>
@@ -817,15 +880,17 @@
 
 	<MuffaloShaman1>
 		<title>шаман муффало</title>
+		<titleFemale>шаманка муффало</titleFemale>
 		<titleShort>шаман</titleShort>
+		<titleShortFemale>шаманка</titleShortFemale>
 		<desc>За тихую мудрость и огромную силу {PAWN_nameDef} избирается духовным лидером кочевого племени, следующего за стадами муффало.</desc>
 	</MuffaloShaman1>
 
 	<LoreKeeper51>
 		<title>хранитель легенд</title>
 		<titleFemale>хранительница легенд</titleFemale>
-		<titleShortFemale>сказительница</titleShortFemale>
 		<titleShort>сказитель</titleShort>
+		<titleShortFemale>сказительница</titleShortFemale>
 		<desc>{PAWN_nameDef} продолжает древний род хранителей сказаний в своём племени. Каждую ночь, когда все собираются у огня, {PAWN_pronoun} рассказывает истории, передавая тем самым древние знания и мудрость.</desc>
 	</LoreKeeper51>
 
@@ -851,8 +916,10 @@
 	</Warrior94>
 
 	<TribeChild68>
-		<title>юный дикарь</title>
-		<titleShort>дикарь</titleShort>
+		<title>мальчик из племени</title>
+		<titleFemale>девочка из племени</titleFemale>
+		<titleShort>абориген</titleShort>
+		<titleShortFemale>аборигенка</titleShortFemale>
 		<desc>{PAWN_nameDef} вырастает в племени, бегая по деревне да перегоняя стада муффало. Родители учили {PAWN_possessive} лишь необходимым навыкам.
 
 {PAWN_nameDef} не умеет читать и не знает никаких механизмов, кроме останков древних машин.</desc>
@@ -878,8 +945,10 @@
 
 	<?solid John "Blitz" Kriegsler (Male) ?>
 	<FarmKid40>
-		<title>ребёнок с фермы</title>
+		<title>мальчик с фермы</title>
+		<titleFemale>девочка с фермы</titleFemale>
 		<titleShort>фермер</titleShort>
+		<titleShortFemale>фермерша</titleShortFemale>
 		<desc>{PAWN_nameDef} вырастает на семейной ферме по производству говядины. {PAWN_objective} нравится работать в поле и ухаживать за животными.</desc>
 	</FarmKid40>
 
@@ -892,8 +961,10 @@
 
 	<?solid Benjamin "Ben" Frick (Male) ?>
 	<FarmerBoy63>
-		<title>ребёнок с фермы</title>
+		<title>мальчик с фермы</title>
+		<titleFemale>девочка с фермы</titleFemale>
 		<titleShort>фермер</titleShort>
+		<titleShortFemale>фермерша</titleShortFemale>
 		<desc>В возрасте семи лет {PAWN_nameDef} теряет своих родителей в результате пожара. {PAWN_pronoun} растёт на ферме дяди, занимаясь ручным трудом и вспахивая поля.
 
 {PAWN_nameDef} заменяет общение тяжёлой работой, чтобы не слышать вопросы о своих родителях — отвечать на них для н{PAWN_possessive} было невыносимым.</desc>
@@ -903,13 +974,16 @@
 	<ArmyCook51>
 		<title>повар в армии</title>
 		<titleShort>повар</titleShort>
+		<titleShortFemale>повариха</titleShortFemale>
 		<desc>{PAWN_nameDef} записывается рабочим в армию и большую часть времени проводит, готовя еду и занимаясь ремонтными работами. Во время пребывания на опасной планете {PAWN_possessive} обучают основам стрельбы и выживания.</desc>
 	</ArmyCook51>
 
 	<?solid Vladimir "Vladimir" Black (Male) ?>
 	<UrbworldCriminal64>
-		<title>городской преступник</title>
-		<titleShort>преступник</titleShort>
+		<title>городской хулиган</title>
+		<titleFemale>городская хулиганка</titleFemale>
+		<titleShort>хулиган</titleShort>
+		<titleShortFemale>хулиганка</titleShortFemale>
 		<desc>{PAWN_nameDef} рождается в неблагополучной семье перенаселённого урбанизированного мира и занимается мелкими преступлениями — иначе пришлось бы умереть от голода и холода.
 
 Грабежи и убийства становятся для н{PAWN_possessive} основой повседневной жизни. {PAWN_nameDef} осознаёт, что побеждает тот, кто выживает.</desc>
@@ -927,7 +1001,9 @@
 	<?solid Kees "Kees" Van Vugt (Male) ?>
 	<OptimisticChild43>
 		<title>юный оптимист</title>
+		<titleFemale>юная оптимистка</titleFemale>
 		<titleShort>оптимист</titleShort>
+		<titleShortFemale>оптимистка</titleShortFemale>
 		<desc>В окружении заботы своих родителей {PAWN_nameDef} благополучно живёт в среднем мире. {PAWN_pronoun} становится жизнерадостным и общительным мальчиком, обожающим заводить друзей и слушать их истории. {PAWN_possessive} богатое воображение постоянно даёт жизнь новым идеям и вопросам.</desc>
 	</OptimisticChild43>
 
@@ -971,6 +1047,7 @@
 	<?solid Markus "Keuneke" Keuneke (Male) ?>
 	<MechanoidNerd10>
 		<title>фанат механоидов</title>
+		<titleFemale>фанатка механоидов</titleFemale>
 		<titleShort>ботаник</titleShort>
 		<desc>{PAWN_nameDef} вырастает в городском мире единственным ребёнком у четы конструкторов, занимавшихся разработкой механоидов. Они поощряют {PAWN_possessive} интерес к этим машинам. В конце концов у н{PAWN_possessive} появляется навязчивая идея создать свою собственную модель.
 
@@ -1001,6 +1078,7 @@
 	<ColiseumFighter12>
 		<title>боец на арене</title>
 		<titleShort>гладиатор</titleShort>
+		<titleShortFemale>гладиаторша</titleShortFemale>
 		<desc>Применяя знания и навыки, полученные за многие годы от бойцов арены, {PAWN_nameDef} сам становится успешным гладиатором в когда-то убираемом колизее.</desc>
 	</ColiseumFighter12>
 
@@ -1050,7 +1128,9 @@
 	<?solid Reece Clarke (Male) ?>
 	<VengefulExplorer27>
 		<title>странник-мститель</title>
+		<titleFemale>странница-мститель</titleFemale>
 		<titleShort>мститель</titleShort>
+		<titleShortFemale>мстительница</titleShortFemale>
 		<desc>Покинув родную планету, {PAWN_nameDef} с отцом сотни лет сражаются в бесчисленных битвах. В конце концов {PAWN_nameDef} превращается в седого ветерана, не знающего промаха.
 
 Когда отец погибает в бою, {PAWN_nameDef} в одиночку отправляется мстить за его смерть.</desc>
@@ -1058,7 +1138,8 @@
 
 	<?solid Damien "Sharpe" Sharpe (Male) ?>
 	<WorkCampSlave49>
-		<title>раб-трудяга</title>
+		<title>крепостной</title>
+		<titleFemale>крепостная</titleFemale>
 		<titleShort>раб</titleShort>
 		<titleShortFemale>рабыня</titleShortFemale>
 		<desc>{PAWN_nameDef} вырастает в рабстве у очень скверной дворянской семьи в средневековом мире.
@@ -1078,15 +1159,17 @@
 
 	<?solid Drew "Strapping" Logan (Male) ?>
 	<DisciplinedFarmer44>
-		<title>юный фермер</title>
+		<title>воспитанный фермер</title>
 		<titleShort>фермер</titleShort>
+		<titleShortFemale>фермерша</titleShortFemale>
 		<desc>{PAWN_nameDef} рождается младшим из двух детей на семейной ферме, небольшом приграничном участке, который с трудом мог их прокормить. У н{PAWN_possessive} был очень строгий отец, который требовал от детей больше работать и молчать. Однажды {PAWN_nameDef} сильно обжигает себе руку при готовке завтрака. Тогда {PAWN_pronoun} клянётся, что отныне станет готовить только под угрозой голодной смерти.</desc>
 	</DisciplinedFarmer44>
 
 	<?solid Drew "Strapping" Logan (Male) ?>
 	<StalwartFarmer89>
-		<title>стойкий фермер</title>
+		<title>состоявшийся фермер</title>
 		<titleShort>фермер</titleShort>
+		<titleShortFemale>фермерша</titleShortFemale>
 		<desc>Постоянные налёты на ферму, от которых {PAWN_nameDef} отбивается с помощью отцовского охотничьего ружья, научили {PAWN_possessive} самозащите. Кроме того, {PAWN_pronoun} осваивает установку изгородей и заборов, чтобы содержать домашний скот на ферме, а диких животных — за её пределами.
 
 Однажды {PAWN_nameDef} пытается расписать свой дом, но быстро понимает, что верх {PAWN_possessive} способностей — невразумительная мазня на стене сарая.</desc>
@@ -1095,6 +1178,7 @@
 	<?solid Dominic "Byte" Byter (Male) ?>
 	<VoyagerChild94>
 		<title>юный путешественник</title>
+		<titleFemale>юная путешественница</titleFemale>
 		<titleShort>странник</titleShort>
 		<titleShortFemale>странница</titleShortFemale>
 		<desc>{PAWN_nameDef} вырастает на борту исследовательского звездолёта и проводит большую часть своего детства, путешествуя сквозь пустоту.
@@ -1127,7 +1211,8 @@
 
 	<?solid Candice Roughchild (Female) ?>
 	<CoreDilettante99>
-		<title>столичная неумёха</title>
+		<title>столичный неумёха</title>
+		<titleFemale>столичная неумёха</titleFemale>
 		<titleShort>неумёха</titleShort>
 		<desc>{PAWN_nameDef} вырастает в мире-утопии столичного региона, предаваясь праздности и гулянкам со своими друзьями.
 
@@ -1161,8 +1246,10 @@
 
 	<?solid Jonathan "John" Medcalf (Male) ?>
 	<FarmBoy56>
-		<title>ребёнок с фермы</title>
+		<title>мальчик с фермы</title>
+		<titleFemale>девочка с фермы</titleFemale>
 		<titleShort>фермер</titleShort>
+		<titleShortFemale>фермерша</titleShortFemale>
 		<desc>{PAWN_nameDef} работает на ферме своей семьи, приглядывая за животными и выхаживая их после травм и болезней. Предпочитая труд на свежем воздухе, {PAWN_pronoun} избегает работы в помещении.
 
 {PAWN_objective} нравится находиться подальше от других людей, просто занимаясь своим делом.</desc>
@@ -1178,6 +1265,7 @@
 	<?solid Benjamin Stainforth (Male) ?>
 	<StationWhelp45>
 		<title>станционный бедняк</title>
+		<titleFemale>станционная нищенка</titleFemale>
 		<titleShort>голодранец</titleShort>
 		<titleShortFemale>голодранка</titleShortFemale>
 		<desc>{PAWN_nameDef} влачит своё сиротское безденежное существование на космической станции. {PAWN_pronoun} занимается воровством и грязной работой и едва сводит концы с концами. Со временем из-за плохого обращения {PAWN_nameDef} настолько на всех озлобляется, что {PAWN_possessive} изгоняют со станции. {PAWN_possessive} тут же «подбирают» космические пираты.</desc>
@@ -1186,7 +1274,9 @@
 	<?solid Benjamin Stainforth (Male) ?>
 	<PirateKing6>
 		<title>король пиратов</title>
+		<titleFemale>королева пиратов</titleFemale>
 		<titleShort>пират</titleShort>
+		<titleShortFemale>пиратка</titleShortFemale>
 		<desc>{PAWN_nameDef} прекрасно вписывается в пиратскую команду, когда-то захватившую {PAWN_possessive} в плен, — ведь {PAWN_objective} так же плевать на людей. Заняв своё место в экипаже, {PAWN_pronoun} начинает убивать любого, кто встанет на пути, — в том числе и членов команды.</desc>
 	</PirateKing6>
 
@@ -1235,7 +1325,6 @@
 		<title>дитя улиц</title>
 		<titleShort>оборванец</titleShort>
 		<titleShortFemale>оборванка</titleShortFemale>
-
 		<desc>{PAWN_nameDef} растёт на улицах пустынной планеты, и единственным {PAWN_possessive} другом становится пёс по кличке Рест. Вместе они борются за выживание, и им едва хватает еды.
 
 Когда {PAWN_objective} исполняется тринадцать лет, межпланетная криминальная группа берёт {PAWN_possessive} под своё крыло.</desc>
