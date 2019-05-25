@@ -68,7 +68,7 @@
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>Гость</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>{0} из фракции {1} посещает поселение.\n\n{PAWN_possessive} зовут {2}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>{PAWN_titleIndef} из фракции {1} посещает поселение.\n\n{PAWN_possessive} зовут {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>\n\nКажется, у н{PAWN_possessive} есть какие-то предметы для обмена.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
@@ -208,7 +208,7 @@
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>Одно из соседних поселений, {0}, связывается с вами с предложением об обмене. Они хотели бы получить:\n\n  {1} (общей стоимостью {2})\n\nВзамен они могут дать:\n\n  {3} (общей стоимостью {4})\n\nПредложение актуально ближайшие {5}\n\nЕсли вы хотите заключить эту сделку, отправьте караван с указанным товаром. Расчётное время в пути — {6}. Вы можете ещё раз просмотреть это предложение, выбрав {0} на карте мира.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
-  <CaravanRequestInfo>Хотят: {0} ({3}), Предлагают: {1} ({4}) (осталось {2})</CaravanRequestInfo>
+  <CaravanRequestInfo>Хотят: {0} ({3}),\nПредлагают: {1} ({4})\nОсталось {2}</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>качеством от нормального и выше</NormalQualityOrBetter>
   <!-- EN: not tainted -->
@@ -218,7 +218,7 @@
   <!-- EN: Caravan demand by {0} -->
   <CaravanDemandTitle>Засада разбойников из фракции {0}</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>{0} поджидали в засаде {4} из фракции {1}! Их {2} человек. Они вас атакуют, если вы не отдадите им:\n\n{3}</CaravanDemand>
+  <CaravanDemand>{0} поджидали в засаде {4} из фракции {1}! Их ^Number( {2} | '# человек' | '# человека' | '# человек')^. Они вас атакуют, если вы не отдадите им:\n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
   <CaravanDemand_Give>Отдать и продолжить путь</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->

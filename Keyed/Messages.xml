@@ -33,7 +33,7 @@
   <MessageVisitorsDangerousTemperature>{0} из фракции {1} уходят из-за опасных температурных условий.</MessageVisitorsDangerousTemperature>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
-  <MessageWornApparelDeterioratedAway>{0}, что носит {1_nameFull}, изнашивается окончательно и рассыпается в прах.</MessageWornApparelDeterioratedAway>
+  <MessageWornApparelDeterioratedAway>{0}, {0_gender ? который : которую : котоое} носит {1_nameFull}, {0_gender ? износился : износилась : износилось} окончательно и {0_gender ? рассыпался : рассыпалась : рассыпалось} в прах.</MessageWornApparelDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>Начинается {0}.</MessageSeasonBegun>
@@ -64,11 +64,11 @@
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Новый рекрут</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull} успешно вербует {RECRUITEE_nameFull} с вероятностью {2}.</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITER_nameFull} успешно {RECRUITER_gender ? завербовал : завербовала} {RECRUITEE_nameFull} с вероятностью {2}.</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
-  <MessageTameSuccess>{RECRUITER_labelShort} успешно приручает {1} с вероятностью {2}.</MessageTameSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort} успешно {RECRUITER_gender ? приручил : приручила} {1} с вероятностью {2}.</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance) and named {RECRUITEE_objective} {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} успешно приручает {1} с вероятностью {2} и называет {RECRUITEE_possessive} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} успешно {RECRUITER_gender ? приручил : приручила} {1} с вероятностью {2} и {RECRUITER_gender ? назвал : назвала} {RECRUITEE_possessive} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>Поселение не может позволить себе эту сделку.</MessageColonyCannotAfford>
@@ -133,13 +133,13 @@
   <MessageInvoluntarySleep>{1_labelShort} падает в обморок от переутомления.</MessageInvoluntarySleep>
 
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort}. -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} совершает ошибку во время операции над {PATIENT_labelShort}.</MessageMedicalOperationFailureMinor>
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} ошибку во время операции над {PATIENT_labelShort}.</MessageMedicalOperationFailureMinor>
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort}. -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} совершает серьёзную ошибку во время операции над {PATIENT_labelShort}.</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} серьёзную ошибку во время операции над {PATIENT_labelShort}.</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort}. -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} совершает нелепую ошибку во время операции над {PATIENT_labelShort}.</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} нелепую ошибку во время операции над {PATIENT_labelShort}.</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} совершает фатальную ошибку во время оперирования {PATIENT_labelShort} из-за особой сложности операции: {2}</MessageMedicalOperationFailureFatal>
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} фатальную ошибку во время оперирования {PATIENT_labelShort} из-за особой сложности операции: {2}</MessageMedicalOperationFailureFatal>
 
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Эта операция возмутит {0}.</MessageMedicalOperationWillAngerFaction>
@@ -158,9 +158,9 @@
   <MessageNoHandlerSkilledEnough>Никто не сможет приручить {ANIMAL_kindBase}. Требуется {2} уровня {1}. Лучший животновод, {HANDLER_labelShort}, имеет уровень {4}.</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
-  <MessageEatenByPredator>{PREDATOR} съедает {EATEN_labelShort}</MessageEatenByPredator>
+  <MessageEatenByPredator>{PREDATOR} {PREDATOR_gender ? съел : съела} {EATEN_labelShort}</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>На {PREY_labelShort} нападает {PREDATOR}!</MessageAttackedByPredator>
+  <MessageAttackedByPredator>На {PREY_labelShort} {PREDATOR_gender ? напал : напала} {PREDATOR}!</MessageAttackedByPredator>
   
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Улей насекомых расплодился.</MessageHiveReproduced>
@@ -193,14 +193,14 @@
   <MessageNewBondRelationNewName>{HUMAN_labelShort} и {1} привязались друг к другу. {HUMAN_labelShort} называет {ANIMAL_possessive} {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
   
   <!-- EN: {ANIMAL} has a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageBondedAnimalMentalBreak>{ANIMAL} получает нервный срыв из-за того, что умирает {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
+  <MessageBondedAnimalMentalBreak>{ANIMAL} {ANIMAL_gender ? получил : получила} нервный срыв из-за того, что {HUMAN_gender ? умер : умерла} {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
   <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageNamedBondedAnimalMentalBreak>{ANIMAL_kindIndef} по имени {ANIMAL_label} получает нервный срыв из-за того, что умирает {HUMAN_labelShort}.</MessageNamedBondedAnimalMentalBreak>
+  <MessageNamedBondedAnimalMentalBreak>{ANIMAL_kindIndef} по имени {ANIMAL_label} {ANIMAL_gender ? получил : получила} нервный срыв из-за того, что {HUMAN_gender ? умер : умерла} {HUMAN_labelShort}.</MessageNamedBondedAnimalMentalBreak>
   <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageBondedAnimalsMentalBreak>{0} животных получают нервный срыв из-за того, что умирает {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
+  <MessageBondedAnimalsMentalBreak>{0} животных получили нервный срыв из-за того, что {HUMAN_gender ? умер : умерла} {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
   
   <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
-  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} успешно устраняет {HEDIFF} у {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
+  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} успешно {SURGEON_gender ? устранил : устранила} {HEDIFF} у {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>Несколько обломков космического корабля упали с неба неподалёку. Их можно разобрать для получения ценных ресурсов.</MessageShipChunkDrop>
@@ -214,7 +214,7 @@
   <MessageCannotSellItemsReason>Некоторые предметы невозможно продать, т.к. рядом </MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{WORKER_labelShort} совершает ошибку, когда строит {0}. Часть ресурсов теряется впустую.</MessageConstructionFailed>
+  <MessageConstructionFailed>{WORKER_labelShort} {WORKER_gender ? совершил : совершила} ошибку, строя {0}. Часть ресурсов пропала впустую.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Снимок экрана сохранён как: {0}</MessageScreenshotSavedAs>
@@ -223,19 +223,19 @@
   <MessageNoLongerSocialFighting>{PAWN1_labelShort} и {PAWN2_labelShort} прекратили драку.</MessageNoLongerSocialFighting>
   
   <!-- EN: {2_labelShort} is no longer binging on {1}. -->
-  <MessageNoLongerBingingOnDrug>{2_labelShort} прекращает бесконтрольно употреблять {1}.</MessageNoLongerBingingOnDrug>
+  <MessageNoLongerBingingOnDrug>{2_labelShort} {2_gender ? прекратил : прекратила} бесконтрольно употреблять {1}.</MessageNoLongerBingingOnDrug>
 
   <!-- EN: {PAWN_labelShort} is no longer on an insulting spree against {TARGET_label}. -->
   <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} больше не оскорбляет {TARGET_label}.</MessageNoLongerOnTargetedInsultingSpree>
 
   <!-- EN: {1_label} has rotted away in storage. -->
-  <MessageRottedAwayInStorage>{1_label} сгнивает на складе.</MessageRottedAwayInStorage>
+  <MessageRottedAwayInStorage>{1_label} {1_gender ? сгнил : сгнила : сгнило} на складе.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
   <MessageFoodPoisoning>Съев {FOOD_labelShort}, {PAWN_labelShort} получает пищевое отравление. Причина — {2}.</MessageFoodPoisoning>
   
   <!-- EN: {0} has been removed from the caravan. -->
-  <MessagePawnLostWhileFormingCaravan>{0} исключается из каравана.</MessagePawnLostWhileFormingCaravan>
+  <MessagePawnLostWhileFormingCaravan>{0} {0_gender ? исключён : исключена} из каравана.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>Подготовка каравана отменена.</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
@@ -250,23 +250,23 @@
   <MessageMaxPlanetCoveragePerformanceWarning>Внимание: генерация целой планеты может занять много времени.</MessageMaxPlanetCoveragePerformanceWarning>
 
   <!-- EN: {0} has died because of cold. -->
-  <MessagePlantDiedOfCold>Растение {0} погибло от холода.</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfCold>{0_gender ? погиб : погибла : погибло} от холода.</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>Растение {0} погибло от старости, урожай не был собран.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0_gender ? погиб : погибла : погибло} от старости.</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
-  <MessagePlantDiedOfRot_ExposedToLight>Растение {0} погибло, так как слишком много времени провело на свету.</MessagePlantDiedOfRot_ExposedToLight>
+  <MessagePlantDiedOfRot_ExposedToLight>{0_gender ? погиб : погибла : погибло}, так как слишком много времени {0_gender ? провёл : провела : провело} на свету.</MessagePlantDiedOfRot_ExposedToLight>
   <!-- EN: {0} has died from rotting. -->
-  <MessagePlantDiedOfRot>Растение {0} погибло.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfRot>{0_gender ? погиб : погибла : погибло}.</MessagePlantDiedOfRot>
   <!-- EN: {0} has died because of poison. -->
-  <MessagePlantDiedOfPoison>Растение {0} погибло из-за отравления.</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfPoison>{0_gender ? погиб : погибла : погибло} из-за отравления.</MessagePlantDiedOfPoison>
   <!-- EN: {1_label} has died because of blight. -->
-  <MessagePlantDiedOfBlight>Растение {0} погибло из-за болезни.</MessagePlantDiedOfBlight>
+  <MessagePlantDiedOfBlight>{0_gender ? погиб : погибла : погибло} из-за болезни.</MessagePlantDiedOfBlight>
 
   <!-- EN: {1_labelShort} is being burned by superheated air! -->
   <MessagePawnBeingBurned>{1_labelShort} получает ожоги от перегретого воздуха!</MessagePawnBeingBurned>
 
   <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
-  <MessageAccidentalOverdose>{INGESTER} получает передозировку наркотика: {DRUG_labelShort}!</MessageAccidentalOverdose>
+  <MessageAccidentalOverdose>{INGESTER} {INGESTER_gender ? получил : получила} передозировку {DRUG_labelShort}!</MessageAccidentalOverdose>
   
   <!-- EN: {0} has arrived at its destination. -->
   <MessageCaravanArrivedAtDestination>{0} прибыл к месту назначения.</MessageCaravanArrivedAtDestination>
@@ -420,7 +420,7 @@
   <MessageChoseRoute>Караван начнёт путешествие к первой назначенной точке маршрута.</MessageChoseRoute>
 
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <MessageCraftedMasterwork>{WORKER_labelShort} завершает своё творение: {CRAFTED_labelShort}.</MessageCraftedMasterwork>
+  <MessageCraftedMasterwork>{WORKER_labelShort} {WORKER_gender ? завершил : завершила} своё творение: {CRAFTED_labelShort}.</MessageCraftedMasterwork>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Чтобы покинуть это место, нажмите кнопку «Продолжить путь» во вкладке «Мир».</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
@@ -436,9 +436,9 @@
   <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
   <GoodwillChangedReason_UsedItem>на {TARGET_labelShort} использовали {ITEM_labelShort}</GoodwillChangedReason_UsedItem>
   <!-- EN: harvested {0} -->
-  <GoodwillChangedReason_RemovedBodyPart>изъят орган, {0}</GoodwillChangedReason_RemovedBodyPart>
+  <GoodwillChangedReason_RemovedBodyPart>{0_gender ? изъят : изъята : изъято} {0}</GoodwillChangedReason_RemovedBodyPart>
   <!-- EN: needlessly installed {0} -->
-  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>без нужды установили {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
+  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>без нужды {0_gender ? установлен : установлена : установлено} {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
   <!-- EN: captured {1_labelShort} -->
   <GoodwillChangedReason_CapturedPawn>{1_labelShort} {1_gender ? захвачен : захвачена} в плен</GoodwillChangedReason_CapturedPawn>
   <!-- EN: {1_labelShort} crushed -->
@@ -452,9 +452,9 @@
   <!-- EN: natural tendency to reach {0} over time -->
   <GoodwillChangedReason_NaturallyOverTime>репутация стремится к {0} естественным образом</GoodwillChangedReason_NaturallyOverTime>
   <!-- EN: {1_labelShort} exited the map healthy -->
-  <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} уходит в здравии</GoodwillChangedReason_ExitedMapHealthy>
+  <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} {1_gender ? ушёл : ушла} в здравии</GoodwillChangedReason_ExitedMapHealthy>
   <!-- EN: tended to {1_labelShort} -->
-  <GoodwillChangedReason_Tended>{1_labelShort} получает уход</GoodwillChangedReason_Tended>
+  <GoodwillChangedReason_Tended>{1_labelShort} {1_gender ? получил : получила} уход</GoodwillChangedReason_Tended>
   <!-- EN: received a gift -->
   <GoodwillChangedReason_ReceivedGift>получен подарок</GoodwillChangedReason_ReceivedGift>
   <!-- EN: fulfilled a trade offer -->
@@ -487,9 +487,9 @@
   <MessageBillValidationStoreZoneInsufficient>Невозможно отнести все результаты выполнения задачи «{0}» к области {2}.</MessageBillValidationStoreZoneInsufficient>
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
-  <MessageAnimalReturnedWild>Из-за долгого отсутствия попыток приручения {1_labelShort} вновь дичает.</MessageAnimalReturnedWild>
+  <MessageAnimalReturnedWild>Из-за долгого отсутствия попыток приручения {1_labelShort} вновь {1_gender ? одичал : одичала}.</MessageAnimalReturnedWild>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
-  <MessageAnimalLostSkill>Из-за долгого отсутствия тренировок {ANIMAL_labelShort} теряет навык: {1}</MessageAnimalLostSkill>
+  <MessageAnimalLostSkill>Из-за долгого отсутствия тренировок {ANIMAL_labelShort} {ANIMAL_gender ? потерял : потеряла} навык: {1}</MessageAnimalLostSkill>
 
   <!-- EN: Translation report written to {0} -->
   <MessageTranslationReportSaved>Отчёт о переводе записан в файл {0}</MessageTranslationReportSaved>
@@ -501,7 +501,7 @@
   <MessageEnterCooldownBlocksEntering>Вы не сможете вновь посетить это место ещё ^Number( {0} | '# день' | '# дня' | '# дней')^.</MessageEnterCooldownBlocksEntering>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} охотится на {PREY_definite} ради пропитания.</MessagePredatorHuntingPlayerAnimal>
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} охотится на {PREY_definite}!</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>{WARDEN_labelShort} успешно преодолевает психологическое сопротивление {PRISONER_gender ? пленника : пленницы} по имени {PRISONER_labelShort}.</MessagePrisonerResistanceBroken>
