@@ -95,13 +95,13 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
   -->
   <BuriedCorpse.rulePack.rulesStrings>
-    <li>tale_noun->как [PAWN_nameDef] хоронит [CORPSE_nameDef]</li>
-    <li>image->, как [PAWN_nameFull], [circumstance_phrase], предаёт тело [CORPSE_nameFull] земле</li>
-    <li>image->, как [PAWN_nameFull], [circumstance_phrase], [PAWN_action], где [corpse_action] [CORPSE_nameFull]</li>
-    <li>PAWN_action->стоит рядом с местом</li>
-    <li>PAWN_action->сидит рядом с местом</li>
-    <li>PAWN_action->пишет текст на надгробии</li>
-    <li>PAWN_action->гравирует изображение на надгробии</li>
+    <li>tale_noun->как [DIGGER_nameDef] хоронит [CORPSE_nameDef]</li>
+    <li>image->, как [DIGGER_nameFull], [circumstance_phrase], предаёт тело [CORPSE_nameFull] земле</li>
+    <li>image->, как [DIGGER_nameFull], [circumstance_phrase], [digger_action], где [corpse_action] [CORPSE_nameFull]</li>
+    <li>digger_action->стоит рядом с местом</li>
+    <li>digger_action->сидит рядом с местом</li>
+    <li>digger_action->пишет текст на надгробии</li>
+    <li>digger_action->гравирует изображение на надгробии</li>
     <li>corpse_action->покоится</li>
     <li>corpse_action->лежит</li>
     <li>circumstance_phrase->устремив взгляд куда-то вдаль</li>

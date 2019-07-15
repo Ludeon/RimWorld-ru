@@ -323,8 +323,8 @@
     <li>tale_noun->как [KILLER_nameDef] [wound_verb] [VICTIM_nameDef]</li>
     <li>image->, как [KILLER_nameFull][weapon_optional] [wound_verb] [VICTIM_nameFull]. [cap_removal_phrase]</li>
     <li>image->, как [VICTIM_nameFull] [wound_verb_passive] [KILLER_nameFull]. [cap_removal_phrase]</li>
-    <li>cap_removal_phrase->[VICTIM_nameDef] [death_verb_passive], поскольку один из жизненно важных процессов [VICTIM_possessive] огранизма, [capacity_label], [cap_removal_verb]</li>
-    <li>cap_removal_phrase->[capacity_label], жизненно важный процесс в организме жертвы, [cap_removal_verb], и [VICTIM_nameDef] [death_verb_passive]</li>
+    <li>cap_removal_phrase->[VICTIM_nameDef] [death_verb_passive], поскольку один из жизненно важных процессов [VICTIM_possessive] организма, [CAPACITY_label], [cap_removal_verb]</li>
+    <li>cap_removal_phrase->[CAPACITY_label], жизненно важный процесс в организме жертвы, [cap_removal_verb], и [VICTIM_nameDef] [death_verb_passive]</li>
     <li>cap_removal_verb->прекращает свою работу</li>
     <li>cap_removal_verb->останавливается</li>
     <li>death_verb_passive->погибает</li>
@@ -720,11 +720,11 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <Wounded.rulePack.rulesStrings>
-    <li>tale_noun->как [KILLER_nameDef] [wound_verb] [VICTIM_nameDef]</li>
-    <li>tale_noun->как [VICTIM_nameDef] [wound_verb_passive] [KILLER_nameDef]</li>
-    <li>image->[empty] [wound_noun] [VICTIM_nameDef] со стороны [KILLER_nameDef]</li>
-    <li>image->, как [KILLER_nameFull][weapon_optional] [wound_verb] [VICTIM_nameFull]</li>
-    <li>image->, как [VICTIM_nameFull] [wound_verb_passive] [KILLER_nameFull]</li>
+    <li>tale_noun->как [ANYPAWN_nameDef] [wound_verb] [VICTIM_nameDef]</li>
+    <li>tale_noun->как [VICTIM_nameDef] [wound_verb_passive] [ANYPAWN_nameDef]</li>
+    <li>image->[empty] [wound_noun] [VICTIM_nameDef] со стороны [ANYPAWN_nameDef]</li>
+    <li>image->, как [ANYPAWN_nameFull][weapon_optional] [wound_verb] [VICTIM_nameFull]</li>
+    <li>image->, как [VICTIM_nameFull] [wound_verb_passive] [ANYPAWN_nameFull]</li>
     <li>wound_verb_passive->получает ранение от</li>
     <li>wound_verb_passive->подставляется под удар</li>
     <li>wound_verb_passive->получает телесные повреждения от</li>
@@ -755,11 +755,11 @@
     <li>desc_sentence->[VICTIM_nameDef] имеет [AdjectiveAngsty] вид.</li>
     <li>desc_sentence->[VICTIM_nameDef] корчится от боли.</li>
     <li>desc_sentence->[VICTIM_nameDef] стонет от боли.</li>
-    <li>desc_sentence->[KILLER_nameDef] скалит зубы.</li>
-    <li>desc_sentence->[KILLER_nameDef] бросает [AdjectiveBadass] взгляд.</li>
-    <li>desc_sentence->[KILLER_nameDef] испытывает душевные терзания от того, что [KILLER_objective] приходится делать.</li>
-    <li>desc_sentence->[KILLER_nameDef] чувствует удовлетворение, видя результат.</li>
-    <li>desc_sentence->[KILLER_nameDef] выглядит триумфально.</li>
+    <li>desc_sentence->[ANYPAWN_nameDef] скалит зубы.</li>
+    <li>desc_sentence->[ANYPAWN_nameDef] бросает [AdjectiveBadass] взгляд.</li>
+    <li>desc_sentence->[ANYPAWN_nameDef] испытывает душевные терзания от того, что [ANYPAWN_objective] приходится делать.</li>
+    <li>desc_sentence->[ANYPAWN_nameDef] чувствует удовлетворение, видя результат.</li>
+    <li>desc_sentence->[ANYPAWN_nameDef] выглядит триумфально.</li>
   </Wounded.rulePack.rulesStrings>
   
 </LanguageData>
