@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <BackstoryTranslations>
 
 	<ColonySettler53>
@@ -5922,24 +5922,24 @@
 
 	<?solid Rhaemir "Rhae" Moryn (Male) ?>
 	<CommonerHeir25>
-		<title>Commoner heir</title>
-		<titleFemale>Commoner heir</titleFemale>
-		<titleShort>Heir</titleShort>
-		<titleShortFemale>Heir</titleShortFemale>
-		<desc>{PAWN_nameDef} was a street urchin on a feudal steamworld.
+		<title>незнатный наследник</title>
+		<titleFemale>незнатная наследница</titleFemale>
+		<titleShort>наследник</titleShort>
+		<titleShortFemale>наследница</titleShortFemale>
+		<desc>{PAWN_nameDef} растёт {PAWN_gender ? беспризорником : беспризорницей} на улицах мира паровой эпохи.
 
-After {PAWN_pronoun} tried to steal food from the palace, the emperor, desperate to secure an heir, took {PAWN_objective} in and groomed {PAWN_objective} to be next in line for the throne.</desc>
+Однажды {PAWN_pronoun} неудачно пытается украсть еду из императорского дворца. Отчаявшийся в попытках оставить после себя наследника император берёт {PAWN_gender ? незадачливого : незадачливую} воришку к себе и готовит {PAWN_possessive} к восхождению на престол.</desc>
 	</CommonerHeir25>
 
 	<?solid Rhaemir "Rhae" Moryn (Male) ?>
 	<CommonerLord87>
-		<title>Commoner lord</title>
-		<titleFemale>Commoner lord</titleFemale>
-		<titleShort>Lord</titleShort>
-		<titleShortFemale>Lord</titleShortFemale>
-		<desc>After years of training in martial arts and diplomacy, {PAWN_nameDef} was eventually given land and subjects of {PAWN_possessive} own to rule.
+		<title>незнатный лорд</title>
+		<titleFemale>незнатная леди</titleFemale>
+		<titleShort>лорд</titleShort>
+		<titleShortFemale>леди</titleShortFemale>
+		<desc>После долгих лет обучения боевым искусствам и дипломатии {PAWN_nameDef} в конце концов становится {PAWN_gender ? хозяином : хозяйкой} земель с подданными у себя в подчинении.
 
-Because of {PAWN_nameDef}'s commoner heritage, the other lords disapproved. They framed {PAWN_objective} for a heinous crime, and the emperor had no choice but to exile {PAWN_objective}.</desc>
+Однако из-за своего незнатного происхождения {PAWN_nameDef} не получает признания со стороны других лордов. Они обвиняют {PAWN_possessive} в гнусном преступлении, и {PAWN_gender ? новоявленному : новоявленной} {PAWN_gender ? императору : императрице} не остаётся ничего иного, кроме как бежать из страны.</desc>
 	</CommonerLord87>
 
 </BackstoryTranslations>
