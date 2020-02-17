@@ -6,7 +6,8 @@
 Данный перевод постоянно исправляется и дорабатывается. И если вам не хочется ждать следующего обновления игры, вы можете скачать актуальную версию отсюда. Для этого нужно:
 
 1. Скачать архив или клонировать репозиторий, **соответствующий вашей версии игры (это важно!):**
-	* 1.0.2150 (16.01.2019) или новее: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru)
+	* 1.1.2547 (17.02.2019) и более новые версии 1.1: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru)
+	* 1.0.2150 (16.01.2019) и более новые версии 1.0: [архив](https://github.com/Ludeon/RimWorld-ru/release-1.0.2150.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.0.2150)
 	* 1.0.2096 (23.11.2018): [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2096.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.0.2096)
 	* 1.0.2059 (17.10.2018): [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2059.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.0.2059)
 	* B-19: [архив](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/beta-19)
@@ -14,17 +15,19 @@
 	* A-17: [архив](https://github.com/Ludeon/RimWorld-ru/archive/alpha-17.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/alpha-17)
 	* A-16: [архив](https://github.com/Ludeon/RimWorld-ru/archive/alpha-16.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/alpha-16)
 	* A-15: [архив](https://github.com/Ludeon/RimWorld-ru/archive/alpha-15.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/alpha-15)
-2. Подменить папку локализации (удалить старую папку и на её место положить свежую, под старым именем) по пути:
-`<путь к папке игры>\Mods\Core\Languages\`.  
+2. Подменить папку локализации (удалить старую папку и на её место положить свежую, под старым именем) по пути **(для версии 1.1):**
+`<путь к папке игры>\Data\Core\Languages\`.  
 `<путь к папке игры>` для Steam версии в различных ОС:
     * Windows: `C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\`
     * Linux: `~/.steam/steam/steamapps/common/Rimworld`
     * Mac: `~/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app` (для дальнейшей навигации выбрать пункт контекстного меню «Показать содержимое пакета»).
 
 	Таким образом, для Steam-версии в ОС Windows полный путь может выглядеть примерно вот так:  
-	`C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\Core\Languages\Russian`  
+	`C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Data\Core\Languages\Russian`  
 
-	После ваших действий файлы локализации (например, LanguageInfo.xml) должны находиться **непосредственно** в папке `<путь к папке игры>\Mods\Core\Languages\Russian`.
+	После ваших действий файлы локализации (например, LanguageInfo.xml) должны находиться **непосредственно** в папке `<путь к папке игры>\Data\Core\Languages\Russian`.
+  
+  **В версиях игры до 1.0 включительно** файлы локализации должны находиться в папке `<путь к папке игры>\Mods\Core\Languages\Russian`
 
 3. В игре заново выбрать русский язык.
 4. Периодически проверять наличие обновлений.
