@@ -1,16 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- Misc -->
   <!-- EN: Jump to location -->
   <JumpToLocation>Перейти к месту</JumpToLocation>
   <!-- EN: Postpone -->
   <PostponeLetter>Отложить</PostponeLetter>
   <!-- EN: Reject -->
   <RejectLetter>Отклонить</RejectLetter>
-  
+  <!-- EN: Read more -->
+  <ReadMore>Узнать больше</ReadMore>
+
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Лето</LetterLabelFirstSummerWarning>
-  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
   <FirstSummerWarning>Началось лето! Но зима всё ближе.\n\nИмейте в виду: ваши посевы не будут расти в холод, а потому убедитесь, что запасов продовольствия хватит на всю зиму. Чтобы еда не портилась, можно построить для неё помещение с охлаждением.\n\nИ постарайтесь купить, украсть или сделать несколько пуховиков, иначе с наступлением зимы вы замёрзнете, едва высунувшись наружу.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you.\n\nThey will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({1}) has fallen below {2}. In order to restore neutral relations, goodwill must reach {3} again. -->
@@ -47,7 +50,7 @@
   <NothingCrushed>К счастью, всё уцелело.</NothingCrushed>
   <!-- EN: Roof collapse -->
   <LetterLabelRoofCollapsed>Обрушение крыши</LetterLabelRoofCollapsed>
-  
+
   <!-- EN: {0} successfully recruited {1} ({2} chance). -->
   <RecruitSuccess>{0} успешно вербует {1} (вероятность успеха — {2}).</RecruitSuccess>
   <!-- EN: {0} failed to recruit {1} ({2} chance). -->
@@ -74,16 +77,16 @@
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
   <NewPartDiseaseAnimal>У {PAWN_labelShort} {3}. Место обнаружения инфекции — {PAWN_possessive} {1}</NewPartDiseaseAnimal>
 
-  <!-- EN: {1_labelShort} was formerly part of your faction. -->
+  <!-- EN: {0} was formerly part of your faction. -->
   <PawnWasFormerlyColonist>{1_labelShort} — {1_gender ? ваш : ваша} {1_gender ? бывший : бывшая } {1_gender ? поселенец : поселенка}.</PawnWasFormerlyColonist>
+  <!-- EN: You previously hosted {0}. -->
+  <PawnWasFormerlyLodger>TODO</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort} имеет следующие отношения с вашими поселенцами:</PawnHasTheseRelationshipsWithColonists>
-  <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
-  <PrisonerRescueTimeout>Через ^Number( {0} | '# день' | '# дня' | '# дней')^ лагерь исчезнет. Если вы упустите эту возможность, вы рискуете больше никогда не увидеть {PRISONER_labelShort}.</PrisonerRescueTimeout>
 
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Древняя опасность</LetterLabelAncientShrineWarning>
-  <!-- EN: As {0} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
+  <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
   <AncientShrineWarning>Когда {PAWN} проходит мимо древней стены, {PAWN_possessive} одолевает недоброе предчувствие. Непонятно как, но {PAWN_pronoun} ощущает внутри этой покрытой пылью постройки большую опасность.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
@@ -112,7 +115,7 @@
   <LetterHediffFromRandomHediffGiver>У {PAWN_labelShort} развивается {1}.</LetterHediffFromRandomHediffGiver>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
-  
+
   <!-- EN: {1} died: {0} -->
   <LetterLeadersDeathLabel>{1} фракции {0} умер</LetterLeadersDeathLabel>
   <!-- EN: {OLDLEADER_nameFull}, {3} of {1}, has died.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
@@ -122,7 +125,7 @@
   <LetterLeaderChangedLabel>Новый {1} фракции {0}</LetterLeaderChangedLabel>
   <!-- EN: {OLDLEADER_nameFull} is no longer {3} of {1}.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
   <LetterLeaderChanged>{OLDLEADER_nameFull} более не {3} фракции {1}.\n\nОтныне у них новый {3}, {NEWLEADER_nameFull}.</LetterLeaderChanged>
-  
+
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>Последней каплей было: {0}.</FinalStraw>
   <!-- EN: This happened because of poor mood. -->
@@ -136,11 +139,13 @@
   <!-- EN: The last event was -->
   <LastFactionRelationsEvent>Последним событием было</LastFactionRelationsEvent>
 
-  <!-- EN: Read more -->
-  <ReadMore>Узнать больше</ReadMore>
+  <!-- EN: View related quest -->
+  <ViewRelatedQuest>TODO</ViewRelatedQuest>
+  <!-- EN: View quest -->
+  <ViewQuest>TODO</ViewQuest>
   <!-- EN: The last events in {PAWN_definite}'s life -->
   <LastEventsInLife>Последние события в жизни {PAWN_definite}</LastEventsInLife>
-  
+
   <!-- Related pawns -->
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>Знакомые</LetterLabelNoticedRelatedPawns>
@@ -165,13 +170,13 @@
   <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
   <LetterRelatedPawnsSite>В этом месте есть люди, которых знают ваши {0} или пленники:</LetterRelatedPawnsSite>
 
-  <!-- EN: (relationship) -->
+  <!-- EN: relationship -->
   <RelationshipAppendedLetterSuffix>(знакомые)</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
   <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} знает одного из ваших поселенцев. {PAWN_pronoun} — {1} {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
   <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} знает одного из ваших пленников. {PAWN_pronoun} — {1} {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
-  
+
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
   <LetterLabelAffair>Интрижка</LetterLabelAffair>
@@ -183,6 +188,8 @@
   <LetterNewLovers>{PAWN1_labelShort} и {PAWN2_labelShort} теперь хотят спать вместе. Подумайте над тем, чтобы выделить для них двуспальную кровать.</LetterNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
   <LetterNoLongerLovers>{PAWN1_labelShort} и {PAWN2_labelShort} более не состоят в отношениях.</LetterNoLongerLovers>
+  <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
+  <LetterNoLongerLovers_BackToBirthName>TODO</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>Разрыв</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -191,9 +198,11 @@
   <LetterLabelRejectedProposal>Предложение отклонено</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
   <LetterAcceptedProposal>Через нескольких дней или кварталов они сыграют свадьбу и пригласят на неё всех поселенцев. При желании вы можете назначить специальное место для проведения свадебных церемоний.</LetterAcceptedProposal>
+  <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
+  <LetterAcceptedProposal_NameChange>TODO</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
   <LetterRejectedProposal>{INITIATOR_nameFull} точно не обрадуется этому.</LetterRejectedProposal>
-  
+
   <!-- Generalized letter labels -->
   <!-- EN: Hostile: {0} -->
   <LetterLabelRelationsChange_Hostile>Враги: {0}</LetterLabelRelationsChange_Hostile>
@@ -205,11 +214,9 @@
   <LetterLabelRelationsChange_NeutralFromAlly>Союзники стали нейтральны: {0}</LetterLabelRelationsChange_NeutralFromAlly>
   <!-- EN: Zzztt... -->
   <LetterLabelShortCircuit>Бзззт...</LetterLabelShortCircuit>
-  <!-- EN: Mental break -->
-  <LetterLabelMentalBreakdown>Нервный срыв</LetterLabelMentalBreakdown>
-  
+
   <!-- Bonded animals -->
-  <!-- EN: bonded animal -->
+  <!-- EN: bonded -->
   <LetterLabelSuffixBondedAnimalDied>питомца</LetterLabelSuffixBondedAnimalDied>
   <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
   <LetterPartBondedAnimalDied>Питомец {HUMAN_labelShort}, {ANIMAL_definite}, умирает. {HUMAN_labelShort} будет переживать по этому поводу.</LetterPartBondedAnimalDied>
@@ -221,37 +228,31 @@
   <LetterLabelPrisonBreak>Побег</LetterLabelPrisonBreak>
   <!-- EN: Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy. -->
   <LetterPrisonBreak>Пленники организовали побег! Каким-то образом они сломали замок и выбрались наружу. Они могут начать искать оружие, затеять драку или попытаться убежать. Беглецы:\n\n{0}\n\nПленники вероятнее всего будут пытаться устроить побег, если они здоровы и когда их много.</LetterPrisonBreak>
-  
-  <!-- Party -->
-  <!-- EN: Party -->
-  <LetterLabelNewParty>Вечеринка</LetterLabelNewParty>
-  <!-- EN: {1_labelShort} is throwing a party! Everyone who goes will gain recreation and social energy, and a lasting positive mood boost. -->
-  <LetterNewParty>{1_labelShort} устраивает вечеринку! Все, кто придёт, надолго зарядятся весельем, социальной энергией и хорошим настроением.</LetterNewParty>
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
   <LetterLabelNewlyAddicted>Зависимость ({0})</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
   <LetterNewlyAddicted>У {PAWN_labelShort} развилась зависимость от вещества: {1}.\n\n{PAWN_possessive} потребность в этом веществе отображается во вкладке Нужды. {PAWN_labelShort} будет самостоятельно употреблять наркотик, чтобы удовлетворить свою потребность. Если {PAWN_pronoun} не сможет достать {1}, у н{PAWN_possessive} начнётся синдром отмены.</LetterNewlyAddicted>
-  
+
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
   <LetterLabelDrugBinge>Злоупотребление ({0})</LetterLabelDrugBinge>
   <!-- EN: {2_label} is binging on {1}. -->
   <LetterDrugBinge>{2_label} злоупотребляет наркотиком: {1}.</LetterDrugBinge>
-  
+
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>Караван уничтожен</LetterLabelAllCaravanColonistsDied>
   <!-- EN: All members of {0} have died. -->
   <LetterAllCaravanColonistsDied>{0} уничтожен. Все его участники мертвы.</LetterAllCaravanColonistsDied>
-  
+
   <!-- Caravan entered map -->
   <!-- EN: Caravan arrived at {0_label} -->
   <LetterLabelCaravanEnteredMap>Караван прибыл к {0_label}</LetterLabelCaravanEnteredMap>
   <!-- EN: {0} has arrived at {1_definite}. -->
   <LetterCaravanEnteredMap>{0} прибыл к месту назначения: {1_definite}.</LetterCaravanEnteredMap>
-  
+
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
   <LetterLabelCaravanEnteredEnemyBase>Атака началась</LetterLabelCaravanEnteredEnemyBase>
@@ -263,7 +264,7 @@
   <LetterLabelTransportPodsLandedInEnemyBase>Атака началась</LetterLabelTransportPodsLandedInEnemyBase>
   <!-- EN: Your transport pods have arrived at {0}. -->
   <LetterTransportPodsLandedInEnemyBase>Ваши транспортные капсулы прибыли в {0}.</LetterTransportPodsLandedInEnemyBase>
-  
+
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>Поселение разбито</LetterLabelFactionBaseDefeated>
@@ -271,19 +272,25 @@
   <LetterFactionBaseDefeated>{0}, поселение противника, разгромлено.\n\nУ вас есть {1}, чтобы собрать ресурсы, после чего караван продолжит путь. Вы можете сделать это прямо сейчас, перейдя на карту мира, выбрав разбитое поселение и нажав кнопку «Продолжить путь».</LetterFactionBaseDefeated>
   <!-- EN: This was the last base of {0}, which means this faction doesn't exist anymore. -->
   <LetterFactionBaseDefeated_FactionDestroyed>Это поселение было последней базой фракции {0}. Фракция прекращает своё существование.</LetterFactionBaseDefeated_FactionDestroyed>
-  
+
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>Задание выполнено</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
   <LetterDefeatAllEnemiesQuestCompleted>Лагерь противника разгромлен!\n\nВы получаете награду от фракции {0}, а отношения с ними улучшаются на {1}.</LetterDefeatAllEnemiesQuestCompleted>
 
-  <!-- Found lump of precious resources -->
-  <!-- EN: Precious minerals found -->
+  <!-- Long-range mineral scanner -->
+  <!-- EN: Distant resource scanned -->
   <LetterLabelFoundPreciousLump>Найдены драгоценные минералы</LetterLabelFoundPreciousLump>
-  <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
+  <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
   <LetterFoundPreciousLump>При помощи сканера дальнего действия {WORKER_labelShort} обнаруживает неподалёку {0}.\n\nК сожалению, этот ценный ресурс вряд ли надолго останется нетронутым: через ^Number( {1} | '# день' | '# дня' | '# дней')^ его наверняка выкопают другие.\n\n{2}.</LetterFoundPreciousLump>
-  
+
+  <!-- Ground penetrating scanner -->
+  <!-- EN: Scanned underground -->
+  <LetterLabelDeepScannerFoundLump>TODO</LetterLabelDeepScannerFoundLump>
+  <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
+  <LetterDeepScannerFoundLump>TODO</LetterDeepScannerFoundLump>
+
   <!-- Ambush -->
   <!-- EN: Ambush -->
   <LetterLabelAmbushInExistingMap>Засада</LetterLabelAmbushInExistingMap>
@@ -315,22 +322,32 @@
   <PeaceTalksSocialXPGain>{PAWN_labelShort}, ваш переговорщик, {PAWN_gender ? повысил : повысила} свой социальный опыт на {1}.</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
-  <!-- EN: {0} is fed up with civilization.\n\n{0_pronoun} realized that wild creatures are always free. So, {0_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {0_objective} to get {0_objective} back. -->
+  <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
   <LetterRunWildMentalBreak>{PAWN} заявляет, что с н{PAWN_possessive} хватит жизни среди цивилизации. {PAWN_pronoun} хочет свободы!\n\n{PAWN_pronoun} решает покинуть вашу фракцию и уйти жить среди диких зверей на лоне природы.\n\nВы можете попытаться {PAWN_possessive} приручить или арестовать, чтобы вернуть к нормальной жизни.</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
-  <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {0_pronoun} will recover in several days. -->
+  <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
   <LetterCatatonicMentalBreak>{PAWN} получает сильный нервный срыв и впадает в ступор. {PAWN_pronoun} придёт в себя лишь через несколько дней.</LetterCatatonicMentalBreak>
 
-  <!-- EN: AI Core Offer -->
+  <!-- EN: Persona Core Offer -->
   <LetterLabelAICoreOffer>Координаты ядра ИИ</LetterLabelAICoreOffer>
-  <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of an AI persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
+  <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
   <LetterAICoreOffer>{PAWN_definite} фракции {1} связывается с вами и сообщает, что им известно местоположение ядра ИИ, которое вам потребуется для строительства корабля. Этот предмет — большая редкость, и его обладатели обычно держат его под надёжной охраной.\n\nЕсли вас интересует эта информация, свяжитесь с фракцией {1} через консоль.</LetterAICoreOffer>
 
+  <!-- Crafting letters -->
   <!-- EN: Legendary Work -->
   <LetterCraftedLegendaryLabel>Легендарное Творение</LetterCraftedLegendaryLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
   <LetterCraftedLegendaryMessage>{WORKER_labelShort}, {WORKER_gender ? создал : создала} {CRAFTED_labelShort} легендарного качества.\n\nВесть об артефакте такой ценности скоро охватит весь мир.</LetterCraftedLegendaryMessage>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world. -->
+  <LetterCraftedLegendaryMessageArt>TODO</LetterCraftedLegendaryMessageArt>
+
+  <!-- EN: Masterwork -->
+  <LetterCraftedMasterworkLabel>TODO</LetterCraftedMasterworkLabel>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
+  <LetterCraftedMasterworkMessage>TODO</LetterCraftedMasterworkMessage>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
+  <LetterCraftedMasterworkMessageArt>TODO</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -345,7 +362,7 @@
   <!-- Hibernate complete -->
   <!-- EN: Reactor ready -->
   <LetterLabelHibernateComplete>Реактор запущен</LetterLabelHibernateComplete>
-  <!-- EN: Charlon Whitestone has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
+  <!-- EN: <Name>Charlon Whitestone</Name> has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
   <LetterHibernateComplete>Шарлон Вайтстоун завершил процедуру запуска реактора. Теперь он сможет обеспечить взлёт корабля.</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
   <LetterHibernateCompleteStandalone>Процедура запуска реактора завершена. Теперь он сможет обеспечить взлёт корабля.</LetterHibernateCompleteStandalone>
@@ -383,9 +400,119 @@
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on: {2}. -->
   <LetterDisease_Blocked>У этих людей {0} блокирует развитие болезни: {2}.</LetterDisease_Blocked>
-  <!-- EN: Disease ({0}) -->
+  <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Болезнь ({0})</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>У {PAWN_label} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {PAWN_labelShort} нуждается в надлежащем лечении и постельном режиме.</LetterTraitDisease>
+
+  <!-- Quests -->
+  <!-- EN: A new quest has become available. It is called '{0}'. -->
+  <LetterQuestBecameAvailable>TODO</LetterQuestBecameAvailable>
+  <!-- EN: If you don’t accept the quest within {0}, it will expire. -->
+  <LetterQuestRequiresAcceptance>TODO</LetterQuestRequiresAcceptance>
+  <!-- EN: A new quest has become active. It is called '{0}'. -->
+  <LetterQuestBecameActive>TODO</LetterQuestBecameActive>
+  <!-- EN: Quest active: {0} -->
+  <LetterQuestAutomaticallyAcceptedTitle>TODO</LetterQuestAutomaticallyAcceptedTitle>
+  <!-- EN: It will expire in {0}. -->
+  <LetterQuestActiveNowTime>TODO</LetterQuestActiveNowTime>
+
+  <!-- Quest drop pods arrived -->
+  <!-- EN: Pods arrived -->
+  <LetterLabelQuestDropPodsArrived>TODO</LetterLabelQuestDropPodsArrived>
+  <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
+  <LetterQuestDropPodsArrived>TODO</LetterQuestDropPodsArrived>
+
+  <!-- Refugee joins -->
+  <!-- EN: {PAWN_nameDef} joins -->
+  <LetterLabelRefugeeJoins>TODO</LetterLabelRefugeeJoins>
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
+  <LetterRefugeeJoins>TODO</LetterRefugeeJoins>
+  
+  <!-- Rescuee joins -->
+  <!-- EN: {PAWN_nameDef} joins -->
+  <LetterLabelRescueeJoins>TODO</LetterLabelRescueeJoins>
+  <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
+  <LetterRescueeJoins>TODO</LetterRescueeJoins>
+
+  <!-- Pawns arrive and join -->
+  <!-- EN: People join -->
+  <LetterLabelPawnsArriveAndJoin>TODO</LetterLabelPawnsArriveAndJoin>
+  <!-- EN: The following people have arrived and joined the colony:\n\n{0} -->
+  <LetterPawnsArriveAndJoin>TODO</LetterPawnsArriveAndJoin>
+
+  <!-- Pawns arrive -->
+  <!-- EN: People arrived -->
+  <LetterLabelPawnsArrive>TODO</LetterLabelPawnsArrive>
+  <!-- EN: The following people have arrived:\n\n{0} -->
+  <LetterPawnsArrive>TODO</LetterPawnsArrive>
+
+  <!-- Pawn leaving -->
+  <!-- EN: {0} leaving -->
+  <LetterLabelPawnLeaving>TODO</LetterLabelPawnLeaving>
+  <!-- EN: {0} is leaving. -->
+  <LetterPawnLeaving>TODO</LetterPawnLeaving>
+
+  <!-- Pawns leaving -->
+  <!-- EN: {0} leaving -->
+  <LetterLabelPawnsLeaving>TODO</LetterLabelPawnsLeaving>
+  <!-- EN: {0} are leaving. -->
+  <LetterPawnsLeaving>TODO</LetterPawnsLeaving>
+  
+  <!-- Colonist kidnapped -->
+  <!-- EN: {PAWN_nameDef} kidnapped -->
+  <LetterLabelPawnsKidnapped>TODO</LetterLabelPawnsKidnapped>
+  <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
+\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
+  <LetterPawnsKidnapped>TODO</LetterPawnsKidnapped>
+  
+  <!-- Techprints -->
+  <!-- EN: Techprint applied: {PROJECT_label} -->
+  <LetterTechprintAppliedLabel>TODO</LetterTechprintAppliedLabel>
+  <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
+  <LetterTechprintAppliedPartIntro>TODO</LetterTechprintAppliedPartIntro>
+  <!-- EN: You're completed the projects techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
+  <LetterTechprintAppliedPartJustUnlocked>TODO</LetterTechprintAppliedPartJustUnlocked>
+  <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
+  <LetterTechprintAppliedPartNotUnlockedYet>TODO</LetterTechprintAppliedPartNotUnlockedYet>
+  <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
+  <LetterTechprintAppliedPartAlreadyUnlocked>TODO</LetterTechprintAppliedPartAlreadyUnlocked>
+  <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
+  <LetterTechprintAppliedPartAlreadyResearched>TODO</LetterTechprintAppliedPartAlreadyResearched>
+  <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
+  <LetterTechprintAppliedPartExpAwarded>TODO</LetterTechprintAppliedPartExpAwarded>
+  
+  <!-- Quest Completed -->
+  <!-- EN: Quest completed -->
+  <LetterQuestCompletedLabel>TODO</LetterQuestCompletedLabel>
+  <!-- EN: Quest failed -->
+  <LetterQuestFailedLabel>TODO</LetterQuestFailedLabel>
+  <!-- EN: Quest concluded -->
+  <LetterQuestConcludedLabel>TODO</LetterQuestConcludedLabel>
+  <!-- EN: You have successfully completed the quest '{0}'! -->
+  <LetterQuestCompletedSuccess>TODO</LetterQuestCompletedSuccess>
+  <!-- EN: You have failed the quest '{0}'. -->
+  <LetterQuestCompletedFail>TODO</LetterQuestCompletedFail>
+  <!-- EN: You have concluded the quest '{0}'. -->
+  <LetterQuestCompletedConcluded>TODO</LetterQuestCompletedConcluded>
+  
+  <!-- Bladelink -->
+  <!-- EN: Bladelink bond: {PAWN_labelShort} -->
+  <LetterBladelinkWeaponBondedLabel>TODO</LetterBladelinkWeaponBondedLabel>
+  <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
+\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
+  <LetterBladelinkWeaponBonded>TODO</LetterBladelinkWeaponBonded>
+  
+  <!-- Mech cluster -->
+  <!-- EN: Mechanoids arrived -->
+  <LetterLabelMechClusterArrived>TODO</LetterLabelMechClusterArrived>
+  <!-- EN: Mechanoids have arrived. -->
+  <LetterMechClusterArrived>TODO</LetterMechClusterArrived>
+
+  <!-- UNUSED -->
+  <PrisonerRescueTimeout>Через ^Number( {0} | '# день' | '# дня' | '# дней')^ лагерь исчезнет. Если вы упустите эту возможность, вы рискуете больше никогда не увидеть {PRISONER_labelShort}.</PrisonerRescueTimeout>
+  <LetterLabelMentalBreakdown>Нервный срыв</LetterLabelMentalBreakdown>
+  <LetterLabelNewParty>Вечеринка</LetterLabelNewParty>
+  <LetterNewParty>{1_labelShort} устраивает вечеринку! Все, кто придёт, надолго зарядятся весельем, социальной энергией и хорошим настроением.</LetterNewParty>
 
 </LanguageData>

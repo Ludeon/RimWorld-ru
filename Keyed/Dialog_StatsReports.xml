@@ -24,7 +24,7 @@
   <StatsReport_CharacterQuality>Черты характера</StatsReport_CharacterQuality>
   <!-- EN: Skills -->
   <StatsReport_Skills>Факторы навыков</StatsReport_Skills>
-  <!-- EN: Other stats -->
+  <!-- EN: Post-process - other stats -->
   <StatsReport_OtherStats>Другие факторы</StatsReport_OtherStats>
   <!-- EN: Health -->
   <StatsReport_Health>Факторы здоровья</StatsReport_Health>
@@ -112,5 +112,150 @@
   <StatsReport_WildMan>Одичалый</StatsReport_WildMan>
   <!-- EN: Attack -->
   <StatsReport_NonToolAttack>Атака</StatsReport_NonToolAttack>
+
+  <!-- EN: Mined item -->
+  <Stat_MineableThing_Name>TODO</Stat_MineableThing_Name>
+  <!-- EN: The item that will be yielded when mining this. -->
+  <Stat_MineableThing_Desc>TODO</Stat_MineableThing_Desc>
+  <!-- EN: Source species -->
+  <Stat_SourceSpecies_Name>TODO</Stat_SourceSpecies_Name>
+  <!-- EN: The species of creature from which this was taken. -->
+  <Stat_SourceSpecies_Desc>TODO</Stat_SourceSpecies_Desc>
+  <!-- EN: Stuff -->
+  <Stat_Stuff_Name>TODO</Stat_Stuff_Name>
+  <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
+  <Stat_Stuff_Desc>TODO</Stat_Stuff_Desc>
+  <!-- EN: Weapon -->
+  <Stat_Weapon_Name>TODO</Stat_Weapon_Name>
+  <!-- EN: The weapon used by this turret. -->
+  <Stat_Weapon_Desc>TODO</Stat_Weapon_Desc>
+  <!-- EN: How much damage an object can take before being destroyed. -->
+  <Stat_HitPoints_Desc>TODO</Stat_HitPoints_Desc>
+  <!-- EN: The amount of work it takes to uninstall this. -->
+  <Stat_Thing_WorkToUninstall_Desc>TODO</Stat_Thing_WorkToUninstall_Desc>
+  <!-- EN: Which facilities can be used to produce this. -->
+  <Stat_Thing_CreatedAt_Desc>TODO</Stat_Thing_CreatedAt_Desc>
+  <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
+  <Stat_Thing_Damage_Desc>TODO</Stat_Thing_Damage_Desc>
+  <!-- EN: A multiplier on the amount of experience doctors gain when using this to tend a patient. -->
+  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>TODO</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
+  <!-- EN: The attributes of this plant. -->
+  <Stat_Thing_Plant_Attributes_Desc>TODO</Stat_Thing_Plant_Attributes_Desc>
+  <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
+  <Stat_Thing_Apparel_Covers_Desc>TODO</Stat_Thing_Apparel_Covers_Desc>
+  <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
+  <Stat_Thing_Apparel_Layer_Desc>TODO</Stat_Thing_Apparel_Layer_Desc>
+  <!-- EN: The minimum soil fertility that this plant requires to grow. -->
+  <Stat_Thing_Plant_FertilityRequirement_Desc>TODO</Stat_Thing_Plant_FertilityRequirement_Desc>
+  <!-- EN: How sensitive this plant is to soil fertility.\n\nLow sensitivity means the plant will grow about the same speed in rich or poor soil. High sensitivity means the plant grows slow in poor soil, but faster in rich soil. -->
+  <Stat_Thing_Plant_FertilitySensitivity_Desc>TODO</Stat_Thing_Plant_FertilitySensitivity_Desc>
+  <!-- EN: The amount of light this plant requires to grow. -->
+  <Stat_Thing_Plant_LightRequirement_Desc>TODO</Stat_Thing_Plant_LightRequirement_Desc>
+  <!-- EN: The lifespan of the plant.\n\nPlants naturally die after they reach a certain age, even if not harvested. -->
+  <Stat_Thing_Plant_LifeSpan_Desc>TODO</Stat_Thing_Plant_LifeSpan_Desc>
+  <!-- EN: The amount of product this plant will yield when harvested. -->
+  <Stat_Thing_Plant_HarvestYield_Desc>TODO</Stat_Thing_Plant_HarvestYield_Desc>
+  <!-- EN: The minimum temperature this plant can survive.\n\nTemperatures below this will cause damage over time. -->
+  <Stat_Thing_Plant_MinGrowthTemperature_Desc>TODO</Stat_Thing_Plant_MinGrowthTemperature_Desc>
+  <!-- EN: The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time. -->
+  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>TODO</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
+  <!-- EN: The minimum skill needed for a farmer to to sow this plant. -->
+  <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>TODO</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
+  <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->
+  <Stat_Race_Diet_Desc>TODO</Stat_Race_Diet_Desc>
+  <!-- EN: The type of leather this creature will yield when butchered. -->
+  <Stat_Race_LeatherType_Desc>TODO</Stat_Race_LeatherType_Desc>
+  <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>TODO</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
+  <Stat_Race_Trainability_Desc>TODO</Stat_Race_Trainability_Desc>
+  <!-- EN: The average life expectancy of this creature. -->
+  <Stat_Race_LifeExpectancy_Desc>TODO</Stat_Race_LifeExpectancy_Desc>
+  <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
+  <Stat_Thing_Ingestible_Joy_Desc>TODO</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The size of this creature's body, compared to an average adult human. -->
+  <Stat_Race_BodySize_Desc>TODO</Stat_Race_BodySize_Desc>
+  <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
+  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>TODO</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
+  <!-- EN: The amount of shots this weapon fires in each burst. -->
+  <Stat_Thing_Weapon_BurstShotCount_Desc>TODO</Stat_Thing_Weapon_BurstShotCount_Desc>
+  <!-- EN: The fire rate of this weapon during each burst. -->
+  <Stat_Thing_Weapon_BurstShotFireRate_Desc>TODO</Stat_Thing_Weapon_BurstShotFireRate_Desc>
+  <!-- EN: The maximum range of this weapon. -->
+  <Stat_Thing_Weapon_Range_Desc>TODO</Stat_Thing_Weapon_Range_Desc>
+  <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
+  <Stat_Thing_Weapon_MissRadius_Desc>TODO</Stat_Thing_Weapon_MissRadius_Desc>
+  <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
+  <Stat_Thing_Weapon_DirectHitChance_Desc>TODO</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <!-- EN: This body part's effect on the mood of the owner. -->
+  <Stat_Thing_MoodChange_Desc>TODO</Stat_Thing_MoodChange_Desc>
+  <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
+  <Stat_Recipe_Skill_Desc>TODO</Stat_Recipe_Skill_Desc>
+  <!-- EN: The ingredients required to perform this recipe. -->
+  <Stat_Recipe_Ingredients_Desc>TODO</Stat_Recipe_Ingredients_Desc>
+  <!-- EN: The skills required to perform this recipe. -->
+  <Stat_Recipe_SkillRequirements_Desc>TODO</Stat_Recipe_SkillRequirements_Desc>
+  <!-- EN: The products produced by this recipe. -->
+  <Stat_Recipe_Products_Desc>TODO</Stat_Recipe_Products_Desc>
+  <!-- EN: Which character stat governs the workspeed of this recipe.\n\nThe higher the stat of the worker is, the faster work will be done. -->
+  <Stat_Recipe_WorkSpeedStat_Desc>TODO</Stat_Recipe_WorkSpeedStat_Desc>
+  <!-- EN: Which stat governs the quality or amount of output.\n\nThe higher the stat of the worker is, the higher the quality or yield will be. -->
+  <Stat_Recipe_EfficiencyStat_Desc>TODO</Stat_Recipe_EfficiencyStat_Desc>
+  <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>TODO</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <!-- EN: Can't fail -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>TODO</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
+  <!-- EN: Performing this operation is safe for the patient. -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>TODO</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
+  <!-- EN: The chance the patient will die upon failure of this surgery. -->
+  <Stat_Thing_Surgery_DeathOnFailChance_Desc>TODO</Stat_Thing_Surgery_DeathOnFailChance_Desc>
+  <!-- EN: The addictiveness of this drug. -->
+  <Stat_Thing_Drug_Addictiveness_Desc>TODO</Stat_Thing_Drug_Addictiveness_Desc>
+  <!-- EN: Total bleed factor -->
+  <Stat_Hediff_TotalBleedFactor_Name>TODO</Stat_Hediff_TotalBleedFactor_Name>
+  <!-- EN: A multiplier applied to the overall rate of blood loss. -->
+  <Stat_Hediff_TotalBleedFactor_Desc>TODO</Stat_Hediff_TotalBleedFactor_Desc>
+  <!-- EN: Natural healing factor -->
+  <Stat_Hediff_NaturalHealingFactor_Name>TODO</Stat_Hediff_NaturalHealingFactor_Name>
+  <!-- EN: A multiplier applied to the overall rate of natural wound healing. -->
+  <Stat_Hediff_NaturalHealingFactor_Desc>TODO</Stat_Hediff_NaturalHealingFactor_Desc>
+  <!-- EN: Food poisoning chance factor -->
+  <Stat_Hediff_FoodPoisoningChanceFactor_Name>TODO</Stat_Hediff_FoodPoisoningChanceFactor_Name>
+  <!-- EN: A multiplier applied to the chance of accidentally cooking a meal with food poisoning. -->
+  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>TODO</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <!-- EN: The rate at which this condition is drains blood. -->
+  <Stat_Hediff_BleedingRate_Desc>TODO</Stat_Hediff_BleedingRate_Desc>
+  <!-- EN: The amount of pain caused by this condition. -->
+  <Stat_Hediff_Pain_Desc>TODO</Stat_Hediff_Pain_Desc>
+  <!-- EN: The offset in efficiency applied to body parts affected by this. -->
+  <Stat_Hediff_PartEfficiency_Desc>TODO</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: The mental abilities this affects. -->
+  <Stat_Hediff_Affects_Desc>TODO</Stat_Hediff_Affects_Desc>
+  <!-- EN: Hunger rate offset -->
+  <Stat_Hediff_HungerRateOffset_Name>TODO</Stat_Hediff_HungerRateOffset_Name>
+  <!-- EN: A multiplier on the rate at which the food need depletes. -->
+  <Stat_Hediff_HungerRateFactor_Desc>TODO</Stat_Hediff_HungerRateFactor_Desc>
+  <!-- EN: An offset on the rate at which the food need depletes. -->
+  <Stat_Hediff_HungerRateOffset_Desc>TODO</Stat_Hediff_HungerRateOffset_Desc>
+  <!-- EN: Rest fall rate -->
+  <Stat_Hediff_TirednessOffset_Name>TODO</Stat_Hediff_TirednessOffset_Name>
+  <!-- EN: An offset applied to the rate at which the creatures rest need falls. -->
+  <Stat_Hediff_TirednessOffset_Desc>TODO</Stat_Hediff_TirednessOffset_Desc>
+  <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
+  <Stat_Hediff_TirednessFactor_Desc>TODO</Stat_Hediff_TirednessFactor_Desc>
+  <!-- EN: Whether or not this will prevent infections. -->
+  <Stat_Hediff_PreventsInfection_Desc>TODO</Stat_Hediff_PreventsInfection_Desc>
+  <!-- EN: The things this terrain supports. -->
+  <Stat_Thing_Terrain_Supports_Desc>TODO</Stat_Thing_Terrain_Supports_Desc>
+  <!-- EN: This can only be placed on terrain of these types. -->
+  <Stat_Thing_TerrainRequirement_Desc>TODO</Stat_Thing_TerrainRequirement_Desc>
+  <!-- EN: The amount of power this building will draw from the power grid. -->
+  <Stat_Thing_PowerConsumption_Desc>TODO</Stat_Thing_PowerConsumption_Desc>
+  <!-- EN: The overall efficiency of this body part. -->
+  <Stat_Thing_BodyPartEfficiency_Desc>TODO</Stat_Thing_BodyPartEfficiency_Desc>
+  <!-- EN: Biocoding -->
+  <Stat_Thing_Weapon_Biocoded_Name>TODO</Stat_Thing_Weapon_Biocoded_Name>
+  <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
+  <Stat_Thing_Weapon_Biocoded_Desc>TODO</Stat_Thing_Weapon_Biocoded_Desc>
 
 </LanguageData>

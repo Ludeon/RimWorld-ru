@@ -3,22 +3,24 @@
 
   <!-- EN: Call {0} -->
   <CallOnRadio>Связаться с {0}</CallOnRadio>
-  <!-- EN: Cannot use ({0}) -->
+  <!-- EN: Cannot use: {0} -->
   <CannotUseReason>Невозможно использовать: {0}</CannotUseReason>
-  <!-- EN: Cannot use (solar flare) -->
+  <!-- EN: Cannot use: EMP -->
   <CannotUseSolarFlare>Невозможно использовать: солнечная вспышка</CannotUseSolarFlare>
-  <!-- EN: Cannot use (no power) -->
+  <!-- EN: Cannot use: No power -->
   <CannotUseNoPower>Невозможно использовать: нет энергии</CannotUseNoPower>
-  <!-- EN: Cannot use (no path) -->
+  <!-- EN: Cannot use: No path -->
   <CannotUseNoPath>Невозможно использовать: нельзя пройти</CannotUseNoPath>
-  <!-- EN: Cannot use (reserved) -->
+  <!-- EN: Cannot use: Reserved -->
   <CannotUseReserved>Невозможно использовать: занято</CannotUseReserved>
-  <!-- EN: Cannot use (full) -->
+  <!-- EN: Cannot use: full -->
   <CannotUseFull>Невозможно использовать: заполнено</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>лидер, {1_labelShort}, недоступен</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>лидер недоступен</LeaderUnavailableNoLeader>
+  <!-- EN: Not allowed -->
+  <NotAllowed>TODO</NotAllowed>
   
   <!-- EN: Fire at {1_label} -->
   <FireAt>Стрелять в {1_label}</FireAt>
@@ -27,7 +29,7 @@
   <OutOfRange>вне зоны поражения</OutOfRange>
   <!-- EN: too close -->
   <TooClose>слишком близко</TooClose>
-  <!-- EN: cannot hit target -->
+  <!-- EN: Cannot hit target -->
   <CannotHitTarget>невозможно попасть в цель</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
   <IsIncapableOfViolenceLower>{1_labelShort} не может причинять насилие</IsIncapableOfViolenceLower>
@@ -49,6 +51,8 @@
   <MeleeAttackToDeath>Добить {1_label} врукопашную</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>нет прохода</NoPath>
+  <!-- EN: burying -->
+  <Burying>TODO</Burying>
 
   <!-- EN: forbidden -->
   <ForbiddenLower>запрещено</ForbiddenLower>
@@ -80,6 +84,8 @@
   <NoUsableFood>нет подходящей еды</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>нет еды</NoFood>
+  <!-- EN: below requirements of {0} -->
+  <FoodBelowTitleRequirements>TODO</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
   <AnimalsSkillTooLow>низкий навык Животноводства, требуется {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
@@ -88,8 +94,8 @@
   <CantInteractAnimalAsleep>животное спит</CantInteractAnimalAsleep>
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>животное занято</CantInteractAnimalBusy>
-  <!-- EN: construction skill too low -->
-  <ConstructionSkillTooLow>низкий навык Строительства</ConstructionSkillTooLow>
+  <!-- EN: {0} skill too low -->
+  <SkillTooLowForConstruction>TODO</SkillTooLowForConstruction>
   <!-- EN: need components -->
   <NoComponentsToRepair>нужны компоненты</NoComponentsToRepair>
   <!-- EN: need {0} -->
@@ -120,18 +126,28 @@
   <IncapableOfMining>не может добывать</IncapableOfMining>
   <!-- EN: angers faction -->
   <AngersFaction>разозлит фракцию</AngersFaction>
+  <!-- EN: no body part -->
+  <InstallImplantNoBodyPart>TODO</InstallImplantNoBodyPart>
+  <!-- EN: not a colonist -->
+  <InstallImplantNotAllowedForNonColonists>TODO</InstallImplantNotAllowedForNonColonists>
+  <!-- EN: already installed -->
+  <InstallImplantAlreadyInstalled>TODO</InstallImplantAlreadyInstalled>
+  <!-- EN: max level -->
+  <InstallImplantAlreadyMaxLevel>TODO</InstallImplantAlreadyMaxLevel>
+  <!-- EN: Upgrade {0} to level {1} -->
+  <UpgradeImplant>TODO</UpgradeImplant>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Съесть {1_labelShort}</ConsumeThing>
   
-  <!-- EN: Cannot go here (no path) -->
+  <!-- EN: Cannot go here: no path -->
   <CannotGoNoPath>Невозможно пройти сюда: нет прохода</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>Идти сюда</GoHere>
   
   <!-- EN: Arrest {0} -->
   <Arrest>Арестовать {0}</Arrest>
-  <!-- EN: Try to arrest {1_label} -->
+  <!-- EN: Try to arrest {1_label} ({2} chance) -->
   <TryToArrest>Попытаться арестовать {1_label}</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>Невозможно арестовать</CannotArrest>
@@ -150,6 +166,9 @@
   <CarryToCryptosleepCasket>Перенести {1_label} в саркофаг криптосна</CarryToCryptosleepCasket>
   <!-- EN: Cannot carry to cryptosleep casket -->
   <CannotCarryToCryptosleepCasket>Невозможно перенести в саркофаг криптосна</CannotCarryToCryptosleepCasket>
+
+  <!-- EN: Carry {0_label} to shuttle -->
+  <CarryToShuttle>TODO</CarryToShuttle>
 
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>Нет доступных саркофагов криптосна.</NoCryptosleepCasket>
@@ -205,17 +224,17 @@
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>Взять {1_label} ({{0}} шт)</PickUpCount>
   
-  <!-- EN: Cannot give {1_label} to pack animal -->
+  <!-- EN: Load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>Невозможно положить {1_label} во вьюк</CannotGiveToPackAnimal>
-  <!-- EN: Cannot give {1_label} (all) to pack animal -->
+  <!-- EN: Cannot load {1_label} (all) onto pack animal -->
   <CannotGiveToPackAnimalAll>Невозможно положить {1_label} (всё) во вьюк</CannotGiveToPackAnimalAll>
-  <!-- EN: Give {1_label} to pack animal -->
+  <!-- EN: Load {1_label} onto pack animal -->
   <GiveToPackAnimal>Положить {1_label} во вьюк</GiveToPackAnimal>
-  <!-- EN: Give {1_label} (all) to pack animal -->
+  <!-- EN: Load {1_label} (all) onto pack animal -->
   <GiveToPackAnimalAll>Положить {1_label} (всё) во вьюк</GiveToPackAnimalAll>
-  <!-- EN: Give {1_labelShort} to pack animal... -->
+  <!-- EN: Load {1_labelShort} onto pack animal... -->
   <GiveToPackAnimalSome>Положить {1_label} во вьюк...</GiveToPackAnimalSome>
-  <!-- EN: Take {1_labelShort} x{{0}} -->
+  <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
   <GiveToPackAnimalCount>Положить {1_label} ({{0}} шт) во вьюк</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {1_label} into caravan -->
@@ -244,6 +263,14 @@
   <Strip>Раздеть {1_label}</Strip>
   <!-- EN: Cannot strip {1_label} -->
   <CannotStrip>Невозможно раздеть {1_label}</CannotStrip>
+  <!-- EN: Cannot drop {1_label} -->
+  <CannotDrop>TODO</CannotDrop>
+  <!-- EN: temporary faction member -->
+  <QuestRelated>TODO</QuestRelated>
+  <!-- EN: Cannot change outfits on temporary faction members -->
+  <QuestRelated_Outfit>TODO</QuestRelated_Outfit>
+  <!-- EN: would replace locked apparel -->
+  <WouldReplaceLockedApparel>TODO</WouldReplaceLockedApparel>
 
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Самоуничтожиться здесь</SelfDestructHere>
@@ -284,12 +311,16 @@
   <ApproachingSite>Идёт к {0}</ApproachingSite>
   <!-- EN: Offer gifts -->
   <OfferGifts>Вручить подарок</OfferGifts>
+  <!-- EN: Trade with {0} -->
+  <TradeWithSettlement>TODO</TradeWithSettlement>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
   <EnterCryptosleepCasket>Лечь в саркофаг криптосна</EnterCryptosleepCasket>
   <!-- EN: Open cryptosleep casket -->
   <OpenCryptosleepCasket>Открыть саркофаг криптосна</OpenCryptosleepCasket>
+  <!-- EN: Get in shuttle -->
+  <EnterShuttle>TODO</EnterShuttle>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
@@ -297,32 +328,36 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>Невозможно {0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize (incapable of {0}) -->
+  <!-- EN: Cannot prioritize: incapable of {0} -->
   <CannotMissingHealthActivities>Невозможно выполнить: поселенец не может {0} из-за проблем со здоровьем</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
   <CannotGenericAlreadyAm>Поселенец уже начал {0}: {2_labelShort}</CannotGenericAlreadyAm>
+  <!-- EN: Already {0} -->
+  <CannotGenericAlreadyAmCustom>TODO</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize (will never do {0}) -->
+  <!-- EN: Cannot prioritize: will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>Невозможно выполнить: поселенец никогда не будет {0}</CannotPrioritizeWorkTypeDisabled>
+  <!-- EN: Cannot trade: lacking necessary title -->
+  <CannotTradeMissingTitleAbility>TODO</CannotTradeMissingTitleAbility>
 
-  <!-- EN: Cannot prioritize (will never {0}) -->
+  <!-- EN: Cannot prioritize: will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>Невозможно выполнить: поселенец никогда не будет {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>никогда не будет {0}</WillNever>
 
-  <!-- EN: Cannot prioritize (not assigned to {0}) -->
+  <!-- EN: Cannot prioritize: not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>Невозможно выполнить: поселенец не назначен {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>не назначен</NotAssigned>
 
-  <!-- EN: Cannot prioritize (research is a long-term task) -->
+  <!-- EN: Cannot prioritize: research is a long-term task -->
   <CannotPrioritizeResearch>Выполнение исследования задаётся приоритетом работ</CannotPrioritizeResearch>
 
-  <!-- EN: Cannot prioritize ({1_label} is forbidden) -->
+  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
   <CannotPrioritizeForbidden>Невозможно выполнить: {1_label} запрещено</CannotPrioritizeForbidden>
-  <!-- EN: Cannot prioritize (forbidden) -->
+  <!-- EN: Cannot prioritize: forbidden -->
   <CannotPrioritizeCellForbidden>Невозможно выполнить: запрещено</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>Вне разрешённой области</CannotPrioritizeForbiddenOutsideAllowedArea>
@@ -378,5 +413,11 @@
   <FreePrisoner>Освободить пленника</FreePrisoner>
   <!-- EN: Offer help -->
   <OfferHelp>Предложить помощь</OfferHelp>
+
+  <!-- EN: apply {0} -->
+  <ApplyTechprint>TODO</ApplyTechprint>
   
+  <!-- UNUSED -->
+  <ConstructionSkillTooLow>низкий навык Строительства</ConstructionSkillTooLow>
+
 </LanguageData>

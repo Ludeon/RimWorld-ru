@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: <rulesStrings><li>root(priority=1,sitePart==ClimateAdjuster)->there's a climate adjuster machine there shifting the regional temperature by [temperatureOffset]</li><li>root(priority=1,sitePart==PsychicDroner)->there's a psychic droner machine there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==PsychicSuppressor)->there's a psychic suppressor machine there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==WeatherController)->there's a weather controller machine there forcing weather in the whole region to [weather_label]</li><li>root(priority=1,sitePart==SmokeSpewer)->there's a smoke spewer machine there belching smoke over the whole region</li><li>root(priority=1,sitePart==SunBlocker)->there's a sun blocker machine there shadowing the whole region</li><li>root(priority=1,sitePart==EMIDynamo)->there's an EMI dynamo machine there which can disable electrical devices across the region</li><li>root(priority=1,sitePart==ToxicSpewer)->there's a toxic spewer machine there blanketing the whole region in poison</li><li>root(priority=1,sitePart==RaidSource)->there's a military staging area guarded by [enemiesCount] enemies that will launch raids on you every [mtbDays]</li><li>root(priority=1,sitePart==Outpost)->there's an enemy outpost at the site guarded by [enemiesCount] enemies</li><li>root(priority=1,sitePart==BanditCamp)->there's a bandit camp at the site guarded by [enemiesCount] enemies</li><li>root(priority=1,sitePart==Manhunters,count==1)->a manhunting [kindLabel] are wandering nearby</li><li>root(priority=1,sitePart==Manhunters,count>1)->[count] manhunting [kindLabel] are wandering nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)->a mechanoid is sleeping nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count>1)->[count] mechanoids are sleeping nearby</li><li>root(priority=1,sitePart==Turrets)->[threatsInfo] defend the site</li><li>root(priority=1,sitePart==AmbushEdge)->an enemy force is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==AmbushHidden)->an enemy force is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==MechCluster)->there's a cluster of hostile mechanoid structures</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->there may be an unknown threat</li><li>root->there's [label]</li></rulesStrings> -->
+  <Util_GenerateSite.root.singleSitePartRules.slateRef>TODO</Util_GenerateSite.root.singleSitePartRules.slateRef>
+  
+  <!-- EN:
+    <li>threatDescription->a mech cluster will land at [map_definite] containing:\n\n[allThreats]</li>
+  -->
+  <Util_MechCluster.questDescriptionRules.rulesStrings>TODO</Util_MechCluster.questDescriptionRules.rulesStrings>
+  
+  <!-- EN:
+    <li>threatDescription->[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack you. Their group is composed of:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
+  -->
+  <Util_Raid.questDescriptionRules.rulesStrings>TODO</Util_Raid.questDescriptionRules.rulesStrings>
+  
+  <!-- EN:
+    <li>pawnKindsParagraph(raidCount==1)->The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+    <li>pawnKindsParagraph(raidCount==2)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\nThe second similar-sized group will follow soon after.</li>
+    <li>pawnKindsParagraph(raidCount==3)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\nTwo similar-sized groups will follow soon after.</li>
+    <li>pawnKindsParagraph(raidCount>=4)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\n[raidCountMinusOne] similar-sized groups will follow soon after.</li>
+    <li>numGroupsOf(raidCount==1)-></li>
+    <li>numGroupsOf(raidCount==2)->two groups of</li>
+    <li>numGroupsOf(raidCount==3)->three groups of</li>
+    <li>numGroupsOf(raidCount>=4)->[raidCount] groups of</li>
+  -->
+  <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>TODO</Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
+  
+</LanguageData>

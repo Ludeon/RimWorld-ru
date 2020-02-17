@@ -3,6 +3,8 @@
   
   <!-- EN: bite -->
   <Bite.label>укус</Bite.label>
+  <!-- EN: A bite wound. -->
+  <Bite.description>TODO</Bite.description>
   <!-- EN: set -->
   <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -22,11 +24,13 @@
   
   <!-- EN: bruise -->
   <Bruise.label>ушиб</Bruise.label>
+  <!-- EN: A bruise. -->
+  <Bruise.description>TODO</Bruise.description>
   <!-- EN: set -->
   <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Bruise.comps.HediffComp_TendDuration.labelTendedWell>перевязано</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>зашито</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Destroyed -->
   <Bruise.injuryProps.destroyedLabel>отбито</Bruise.injuryProps.destroyedLabel>
@@ -37,11 +41,13 @@
   
   <!-- EN: burn -->
   <Burn.label>ожог</Burn.label>
-  <!-- EN: set -->
+  <!-- EN: A burn. -->
+  <Burn.description>TODO</Burn.description>
+  <!-- EN: tended -->
   <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Burn.comps.HediffComp_TendDuration.labelTendedWell>перевязано</Burn.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>зашито</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: burn scar -->
   <Burn.comps.HediffComp_GetsPermanent.permanentLabel>ожоговый рубец</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -54,13 +60,30 @@
   <!-- EN: {0} in the {1} -->
   <Burn.labelNounPretty>{0} на {1}</Burn.labelNounPretty>
   
+  <!-- EN: chemical burn -->
+  <ChemicalBurn.label>TODO</ChemicalBurn.label>
+  <!-- EN: A chemical burn. -->
+  <ChemicalBurn.description>TODO</ChemicalBurn.description>
+  <!-- EN: chemical burn scar -->
+  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>TODO</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedLabel>TODO</ChemicalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedOutLabel>TODO</ChemicalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: a chemical burn -->
+  <ChemicalBurn.labelNoun>TODO</ChemicalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ChemicalBurn.labelNounPretty>TODO</ChemicalBurn.labelNounPretty>
+  
   <!-- EN: crack -->
   <Crack.label>трещина</Crack.label>
+  <!-- EN: A crack. -->
+  <Crack.description>TODO</Crack.description>
   <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <!-- EN: healed -->
+  <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelTendedWell>вылечено</Crack.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: healed -->
+  <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>вылечено</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent crack -->
   <Crack.comps.HediffComp_GetsPermanent.permanentLabel>неизлечимая трещина</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -73,6 +96,8 @@
   
   <!-- EN: crush -->
   <Crush.label>размозжённая рана</Crush.label>
+  <!-- EN: A crushing wound. -->
+  <Crush.description>TODO</Crush.description>
   <!-- EN: set -->
   <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -90,6 +115,8 @@
   
   <!-- EN: cut -->
   <Cut.label>порез</Cut.label>
+  <!-- EN: A cut. -->
+  <Cut.description>TODO</Cut.description>
   <!-- EN: set -->
   <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -109,11 +136,13 @@
   
   <!-- EN: frostbite -->
   <Frostbite.label>обморожение</Frostbite.label>
-  <!-- EN: set -->
+  <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
+  <Frostbite.description>TODO</Frostbite.description>
+  <!-- EN: tended -->
   <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>обогрето</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>отогрето</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>обработано</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: frostbite scar -->
   <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>рубец от обморожения</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -124,6 +153,8 @@
   
   <!-- EN: gunshot -->
   <Gunshot.label>огнестрельное ранение</Gunshot.label>
+  <!-- EN: A gunshot wound. -->
+  <Gunshot.description>TODO</Gunshot.description>
   <!-- EN: set -->
   <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -145,6 +176,8 @@
   
   <!-- EN: misc -->
   <Misc.label>разное</Misc.label>
+  <!-- EN: Miscellanous injuries. -->
+  <Misc.description>TODO</Misc.description>
   <!-- EN: set -->
   <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -160,6 +193,8 @@
   
   <!-- EN: missing body part -->
   <MissingBodyPart.label>недостающая часть тела</MissingBodyPart.label>
+  <!-- EN: A body part is entirely missing. -->
+  <MissingBodyPart.description>TODO</MissingBodyPart.description>
   <!-- EN: a missing body part -->
   <MissingBodyPart.labelNoun>недостающая часть тела</MissingBodyPart.labelNoun>
   <!-- EN: missing a {1} -->
@@ -167,6 +202,8 @@
   
   <!-- EN: scratch -->
   <Scratch.label>рваная рана</Scratch.label>
+  <!-- EN: A scratch or tear. -->
+  <Scratch.description>TODO</Scratch.description>
   <!-- EN: set -->
   <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -186,6 +223,8 @@
   
   <!-- EN: shredded -->
   <Shredded.label>взрывная травма</Shredded.label>
+  <!-- EN: A part of the body has been shredded and torn. -->
+  <Shredded.description>TODO</Shredded.description>
   <!-- EN: set -->
   <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -205,6 +244,8 @@
   
   <!-- EN: stab -->
   <Stab.label>колотая рана</Stab.label>
+  <!-- EN: A stab wound. -->
+  <Stab.description>TODO</Stab.description>
   <!-- EN: set -->
   <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -224,6 +265,8 @@
   
   <!-- EN: surgical cut -->
   <SurgicalCut.label>хирургический порез</SurgicalCut.label>
+  <!-- EN: A cut made during surgery. -->
+  <SurgicalCut.description>TODO</SurgicalCut.description>
   <!-- EN: set -->
   <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->

@@ -16,6 +16,8 @@
   <LoadGame>Загрузить игру</LoadGame>
   <!-- EN: Options -->
   <Options>Настройки</Options>
+  <!-- EN: Mod -->
+  <Mod>TODO</Mod>
   <!-- EN: Mods -->
   <Mods>Моды</Mods>
   <!-- EN: Save translation report -->
@@ -82,6 +84,8 @@
   <PlanetRainfall>Общее количество осадков</PlanetRainfall>
   <!-- EN: Overall temperature -->
   <PlanetTemperature>Общая температура</PlanetTemperature>
+  <!-- EN: Population -->
+  <PlanetPopulation>TODO</PlanetPopulation>
   <!-- EN: Low -->
   <PlanetRainfall_Low>Низкое</PlanetRainfall_Low>
   <!-- EN: Normal -->
@@ -94,6 +98,12 @@
   <PlanetTemperature_Normal>Умеренная</PlanetTemperature_Normal>
   <!-- EN: High -->
   <PlanetTemperature_High>Высокая</PlanetTemperature_High>
+  <!-- EN: Sparse -->
+  <PlanetPopulation_Low>TODO</PlanetPopulation_Low>
+  <!-- EN: Normal -->
+  <PlanetPopulation_Normal>TODO</PlanetPopulation_Normal>
+  <!-- EN: Crowded -->
+  <PlanetPopulation_High>TODO</PlanetPopulation_High>
   <!-- EN: Seed -->
   <WorldSeed>Зерно</WorldSeed>
   <!-- EN: Randomize seed -->
@@ -138,6 +148,8 @@
   <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все его функции.\n\nПомните, другие модификации могут переопределять значения ядра с помощью таких же значений defName.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>Вы уверены, что хотите удалить {0}?</ConfirmDeleteMod>
+  <!-- EN: Auto-sort mods -->
+  <ResolveModOrder>TODO</ResolveModOrder>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Деактивировать</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -158,19 +170,65 @@
   <WorkshopUploadSucceeded>Успешно загружено {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>Скачивается</Downloading>
+  <!-- EN: Display fulfilled requirements -->
+  <ModDisplayFulfilledRequirements>TODO</ModDisplayFulfilledRequirements>
+  <!-- EN: Click to select. -->
+  <ModClickToSelect>TODO</ModClickToSelect>
+  <!-- EN: Click to go to website. -->
+  <ModClickToGoToWebsite>TODO</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>Источник</Source>
-  <!-- EN: For version(s): {0} -->
+  <!-- EN: For game version(s) -->
   <ModTargetVersion>Для версии(й): {0}</ModTargetVersion>
+  <!-- EN: ID -->
+  <ModPackageId>TODO</ModPackageId>
+  <!-- EN: This must be loaded before: {0}. -->
+  <ModMustLoadBefore>TODO</ModMustLoadBefore>
+  <!-- EN: This must be loaded after: {0}. -->
+  <ModMustLoadAfter>TODO</ModMustLoadAfter>
+  <!-- EN: Depends on: {0} -->
+  <ModDependsOn>TODO</ModDependsOn>
+  <!-- EN: Incompatible with: {0} -->
+  <ModIncompatibleWith>TODO</ModIncompatibleWith>
+  <!-- EN: This mod is incompatible with: {0}. -->
+  <ModIncompatibleWithTip>TODO</ModIncompatibleWithTip>
+  <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
+  <ModOrderingWarning>TODO</ModOrderingWarning>
+  <!-- EN: Another active mod uses the same ID: {0}. -->
+  <ModWithSameIdAlreadyActive>TODO</ModWithSameIdAlreadyActive>
+  <!-- EN: There is a cyclic mod dependency starting with {0}. -->
+  <ModCyclicDependency>TODO</ModCyclicDependency>
+  <!-- EN: This requires following mods to work: {0}. -->
+  <ModUnsatisfiedDependency>TODO</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Эта модификация была разработана не для этой версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>Эта модификация была разработана для более новой версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion_Newer>
-  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>Модификации требуется указать информацию о совместимых версиях игры в файле About.xml. Например: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions>. Тег &lt;targetVersion> объявлен устаревшим. Для подробной информации просмотрите журнал.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedGameVersions><li>{0}</li></supportedGameVersions> - <targetVersion> is deprecated. Check log for further information. -->
+  <MessageModNeedsWellFormattedTargetVersion>Модификации требуется указать информацию о совместимых версиях игры в файле About.xml. Например: {0}. Тег  объявлен устаревшим. Для подробной информации просмотрите журнал.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <MessageModNeedsWellFormattedPackageId>TODO</MessageModNeedsWellFormattedPackageId>
+  <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
+  <ModHadLoadFolderIssues>TODO</ModHadLoadFolderIssues>
+  <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
+  <ModLoadFolderDoesntExist>TODO</ModLoadFolderDoesntExist>
+  <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
+  <ModLoadFolderMalformedVersion>TODO</ModLoadFolderMalformedVersion>
+  <!-- EN: The list of load folders for version {0} is empty. -->
+  <ModLoadFolderListEmpty>TODO</ModLoadFolderListEmpty>
+  <!-- EN: Version {0} lists the same folder more than once: {1}. -->
+  <ModLoadFolderRepeatingFolder>TODO</ModLoadFolderRepeatingFolder>
+  <!-- EN: Invalid version order: {0} should come before {1}. -->
+  <ModLoadFolderOutOfOrder>TODO</ModLoadFolderOutOfOrder>
+  <!-- EN: Invalid version order: 'default' should be defined first. -->
+  <ModLoadFolderOutOfOrderDefault>TODO</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedGameVersions' of mod's About.xml. -->
+  <ModLoadFolderDefinesUnsupportedGameVersion>TODO</ModLoadFolderDefinesUnsupportedGameVersion>
+  <!-- EN: The mod's load folders define an entry for version 1.0. However, version 1.0 of the game doesn't support load folders settings, and will always load files from the mod's root folder. -->
+  <ModLoadFolderFor_1_0_Defined>TODO</ModLoadFolderFor_1_0_Defined>
   <!-- EN: Drag to reorder -->
   <DragToReorder>Перетаскивайте, чтобы упорядочить.</DragToReorder>
-  
+
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
   <ChooseScenario>Выбор сценария</ChooseScenario>
@@ -316,10 +374,26 @@
   <Randomize>Случайно</Randomize>
   <!-- EN: age {0} -->
   <AgeIndicator>возраст {0}</AgeIndicator>
+  <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummary>TODO</PawnSummary>
+  <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummaryWithGender>TODO</PawnSummaryWithGender>
   <!-- EN: Backstory -->
   <Backstory>Биография</Backstory>
   <!-- EN: Incapable of -->
   <IncapableOf>Недоступно</IncapableOf>
+  <!-- EN: Abilities -->
+  <Abilities>TODO</Abilities>
+  <!-- EN: Caused by backstory: {0} -->
+  <IncapableOfTooltipBackstory>TODO</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title: {0} -->
+  <IncapableOfTooltipTitle>TODO</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait: {0} -->
+  <IncapableOfTooltipTrait>TODO</IncapableOfTooltipTrait>
+  <!-- EN: Caused by: {0} -->
+  <IncapableOfTooltipHediff>TODO</IncapableOfTooltipHediff>
+  <!-- EN: Disabled work types: -->
+  <IncapableOfTooltipWorkTypes>TODO</IncapableOfTooltipWorkTypes>
   <!-- EN: Traits -->
   <Traits>Черты характера</Traits>
   <!-- EN: Permanent mood effect -->
@@ -386,5 +460,8 @@
   <GeneratingMap>Генерация карты</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Генерация карты</GeneratingMapForNewEncounter>
+
+  <!-- EN: Click for more info -->
+  <ClickForMoreInfo>TODO</ClickForMoreInfo>
 
 </LanguageData>

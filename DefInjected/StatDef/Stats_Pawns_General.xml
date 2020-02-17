@@ -3,17 +3,17 @@
   
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>грузоподъёмность</CarryingCapacity.label>
-  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators. This is separate from the ability to carry cargo on long cross-world trips. -->
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
   <CarryingCapacity.description>Количество предметов, которые может переносить существо в руках, зубах и прочих манипуляторах. Не влияет на способность переносить груз в долгих путешествиях.</CarryingCapacity.description>
   
   <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>макс. комфортная температура</ComfyTemperatureMax.label>
-  <!-- EN: Above this temperature, characters will be unhappy. Significantly above this temperature, they will develop heatstroke and eventually die. -->
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
   <ComfyTemperatureMax.description>Если температура поднимется выше этого значения, персонаж будет недоволен. Если значительно выше, то он получит тепловой удар, от которого впоследствии может погибнуть.</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
   <ComfyTemperatureMin.label>мин. комфортная температура</ComfyTemperatureMin.label>
-  <!-- EN: Below this temperature, characters will be unhappy. Significantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
   <ComfyTemperatureMin.description>Если температура опустится ниже этого значения, персонаж будет недоволен. Если значительно ниже, то он получит гипотермию и обморожение, от которых впоследствии может погибнуть.</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
@@ -38,7 +38,7 @@
   
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>скорость выработки иммунитета</ImmunityGainSpeed.label>
-  <!-- EN: The speed at which this character gains immunity to diseases. If this is too slow, the character will die from a disease before developing immunity. -->
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
   <ImmunityGainSpeed.description>Скорость, с которой существо вырабатывает иммунитет к болезням. Если это значение слишком низко, персонаж умрёт от болезни раньше, чем выработает к ней иммунитет.</ImmunityGainSpeed.description>
   
   <!-- EN: leather amount -->
@@ -53,7 +53,7 @@
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>порог нервного срыва</MentalBreakThreshold.label>
-  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break. The severity of the mental break will depend on how far below the threshold they are. -->
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
   <MentalBreakThreshold.description>Если настроение персонажа окажется ниже данного уровня, он будет находиться в состоянии, близком к нервному срыву. От того, насколько настроение персонажа ниже этого порога, зависит серьёзность нервного срыва.</MentalBreakThreshold.description>
   
   <!-- EN: minimum handling skill -->
@@ -73,9 +73,26 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>Максимальный уровень боли, при котором существо способно стоять на ногах.</PainShockThreshold.description>
   
+  <!-- EN: psychic entropy gain -->
+  <PsychicEntropyGain.label>TODO</PsychicEntropyGain.label>
+  <!-- EN: A multiplier on psychic entropy gained from any source. -->
+  <PsychicEntropyGain.description>TODO</PsychicEntropyGain.description>
+  
+  <!-- EN: psychic entropy limit -->
+  <PsychicEntropyMax.label>TODO</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of psychic entropy individual can tolerate safely. -->
+  <PsychicEntropyMax.description>TODO</PsychicEntropyMax.description>
+  
+  <!-- EN: psychic entropy recovery rate -->
+  <PsychicEntropyRecoveryRate.label>TODO</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces psychic entropy. -->
+  <PsychicEntropyRecoveryRate.description>TODO</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/30s -->
+  <PsychicEntropyRecoveryRate.formatString>TODO</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>психочувствительность</PsychicSensitivity.label>
-  <!-- EN: Multiplier on the impact of psychic phenomena affecting this person. More sensitive people both suffer more from negative psychic effects, and benefit more from positive ones. -->
+  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases psychic entropy limit. -->
   <PsychicSensitivity.description>Множитель силы психических воздействий, которые могут повлиять на персонажа. Чувствительные люди больше других страдают от негативных воздействий и получают радость от позитивных.</PsychicSensitivity.description>
   
   <!-- EN: rest rate multiplier -->
