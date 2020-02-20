@@ -199,9 +199,9 @@
   <!-- EN: {0_label} cannot be built on this terrain. -->
   <TerrainCannotSupport>Неподходящий грунт.</TerrainCannotSupport>
   <!-- EN: {0_label} requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordance>{0_label} требует поверхности, способной выдерживать {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <TerrainCannotSupport_TerrainAffordance>{0_label} требует поверхность, способную выдерживать {1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordanceFromStuff>TODO</TerrainCannotSupport_TerrainAffordanceFromStuff>
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} из {2_label} требует поверхность, способную выдерживать {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>Место уже занято.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
@@ -211,11 +211,11 @@
   <!-- EN: The waterwheel must be on moving water. -->
   <MustBeOnMovingWater>Водяное колесо следует устанавливать на водоём с течением.</MustBeOnMovingWater>
   <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
-  <InteractionSpotWillOverlap>TODO</InteractionSpotWillOverlap>
+  <InteractionSpotWillOverlap>Точка взаимодействия будет перекрывать точку взаимодействия {1_labelShort}<./InteractionSpotWillOverlap>
   <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
-  <InteractionSpotOverlaps>TODO</InteractionSpotOverlaps>
+  <InteractionSpotOverlaps>Точка взаимодействия перекрывает точку взаимодействия {1_labelShort}.</InteractionSpotOverlaps>
   <!-- EN: Monument markers can't be placed directly adjacent to any building. -->
-  <MonumentAdjacentToBuilding>TODO</MonumentAdjacentToBuilding>
+  <MonumentAdjacentToBuilding>Метку монумента нельзя размещать вплотную в сооружениям.</MonumentAdjacentToBuilding>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
@@ -229,16 +229,12 @@
   <!-- EN: Construction needed -->
   <ConstructionNeeded>Требуется навык</ConstructionNeeded>
   <!-- EN: None of your {0} have this skill. -->
-  <NoColonistWithSkillTip>TODO</NoColonistWithSkillTip>
+  <NoColonistWithSkillTip>Ни один из ваших ^Replace( {0} | 'члены племени'-'членов племени' | 'поселенцы'-'поселенцев')^  {0} не владеет этим навыком.</NoColonistWithSkillTip>
   <!-- EN: {0} needed -->
-  <SkillNeededForConstructing>TODO</SkillNeededForConstructing>
+  <SkillNeededForConstructing>Требуется {0}</SkillNeededForConstructing>
   <!-- EN: None of your {0} have all skills required. -->
-  <NoColonistWithAllSkillsForConstructing>TODO</NoColonistWithAllSkillsForConstructing>
+  <NoColonistWithAllSkillsForConstructing>Ни один из ваших ^Replace( {0} | 'члены племени'-'членов племени' | 'поселенцы'-'поселенцев')^ не владеет всеми требуемыми навыками.</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
-  <AllColonistsWithSkillHaveDisabledConstructingTip>TODO</AllColonistsWithSkillHaveDisabledConstructingTip>
-
-  <!-- UNUSED -->
-  <NoColonistWithConstructionSkillTip>Ваши {0} не владеют этим навыком.</NoColonistWithConstructionSkillTip>
-  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Владеющие этим навыком {0} не назначены {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
+  <AllColonistsWithSkillHaveDisabledConstructingTip>Ни один из ваших ^Replace( {0} | 'члены племени'-'членов племени' | 'поселенцы'-'поселенцев')^, владеющих этим навыком, не назначен {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
 
 </LanguageData>
