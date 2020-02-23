@@ -196,10 +196,12 @@
   <IdenticalThingExists>Такой объект здесь уже есть.</IdenticalThingExists>
   <!-- EN: Identical blueprint already exists here. -->
   <IdenticalBlueprintExists>Такой проект здесь уже есть.</IdenticalBlueprintExists>
-  <!-- EN: The terrain here cannot support this. -->
-  <TerrainCannotSupport>Неподходящий грунт.</TerrainCannotSupport>
-  <!-- EN: {0_label} requires terrain that can support: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordance>{0_label} требует поверхности, способной выдерживать {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <!-- EN: {0_label} cannot be built on this terrain. -->
+  <TerrainCannotSupport>{0_label} невозможно построить на этой поверхности.</TerrainCannotSupport>
+  <!-- EN: {0_label} requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordance>{0_label} требует поверхность, способную выдерживать {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} из {2_label} требует поверхность, способную выдерживать {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>Место уже занято.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
@@ -208,6 +210,12 @@
   <TerrainMustBeRemovable>Здесь нет пола, который можно было бы снять.</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
   <MustBeOnMovingWater>Водяное колесо следует устанавливать на водоём с течением.</MustBeOnMovingWater>
+  <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotWillOverlap>Точка взаимодействия будет перекрывать точку взаимодействия {1_labelShort}</InteractionSpotWillOverlap>
+  <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotOverlaps>Точка взаимодействия перекрывает точку взаимодействия {1_labelShort}.</InteractionSpotOverlaps>
+  <!-- EN: Monument markers can't be placed directly adjacent to any building. -->
+  <MonumentAdjacentToBuilding>Метку монумента нельзя размещать вплотную в сооружениям.</MonumentAdjacentToBuilding>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
@@ -221,8 +229,12 @@
   <!-- EN: Construction needed -->
   <ConstructionNeeded>Требуется навык</ConstructionNeeded>
   <!-- EN: None of your {0} have this skill. -->
-  <NoColonistWithConstructionSkillTip>Ваши {0} не владеют этим навыком.</NoColonistWithConstructionSkillTip>
+  <NoColonistWithSkillTip>Ни один из ваших ^Replace( {0} | 'члены племени'-'членов племени' | 'поселенцы'-'поселенцев')^  {0} не владеет этим навыком.</NoColonistWithSkillTip>
+  <!-- EN: {0} needed -->
+  <SkillNeededForConstructing>Требуется {0}</SkillNeededForConstructing>
+  <!-- EN: None of your {0} have all skills required. -->
+  <NoColonistWithAllSkillsForConstructing>Ни один из ваших ^Replace( {0} | 'члены племени'-'членов племени' | 'поселенцы'-'поселенцев')^ не владеет всеми требуемыми навыками.</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
-  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Владеющие этим навыком {0} не назначены {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
+  <AllColonistsWithSkillHaveDisabledConstructingTip>Ни один из ваших ^Replace( {0} | 'члены племени'-'членов племени' | 'поселенцы'-'поселенцев')^, владеющих этим навыком, не назначен {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
 
 </LanguageData>
