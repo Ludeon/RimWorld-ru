@@ -19,8 +19,8 @@
   <GameUpdatedToNewVersionSavesCompatible>Сохранения, относящиеся к более старой версии, совместимы с новой, но некоторые моды могут перестать работать.</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
   <GameUpdatedToNewVersionNonSteam>Так как это версия игры без DRM, вы можете установить её в две разные папки и играть как в старые, так и в новые версии.</GameUpdatedToNewVersionNonSteam>
-  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu.\n\nOld versions will be likely removed from this list eventually - we just didn't want to cut off games in progress.\n\nNote that if mod authors update their mods for a new game version, they'll probably stop working on an old version. You may want to turn off automatic updates to prevent this. -->
-  <GameUpdatedToNewVersionSteam>Если вы желаете продолжить играть в старую версию, вы можете сделать это при помощи возможности Steam «Бета-версии».\n\n  1. В библиотеке игр Steam нажмите правой кнопкой мыши на RimWorld.\n  2. Нажмите «Свойства».\n  3. Выберите вкладку «Бета-версии».\n  4. В выпадающем списке выберите желаемую версию.\n\nРано или поздно старые версии будут убираться из этого списка, однако мы не хотим просто так прерывать ваши текущие игры.\n\nИмейте ввиду, что в том случае, если авторы модов также обновляют их для новой версии игры, то они могут переставать работать в старой. Чтобы предотвратить это, вам понадобится отключить функцию автоматического обновления.</GameUpdatedToNewVersionSteam>
+  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
+  <GameUpdatedToNewVersionSteam>Если вы желаете продолжить играть в старую версию, вы можете сделать это при помощи возможности Steam «Бета-версии».\n\n  1. В библиотеке игр Steam нажмите правой кнопкой мыши на RimWorld.\n  2. Нажмите «Свойства».\n  3. Выберите вкладку «Бета-версии».\n  4. В выпадающем списке выберите желаемую версию.</GameUpdatedToNewVersionSteam>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
@@ -117,6 +117,14 @@
   <ChangeLoadedMods>Загрузить, как в файле</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
   <MissingMods>Некоторые моды недоступны и требуют установки</MissingMods>
+  <!-- EN: Official content -->
+  <OfficialContent>Официальный контент</OfficialContent>
+  <!-- EN: Active -->
+  <ContentActive>Активен</ContentActive>
+  <!-- EN: Installed, but not active -->
+  <ContentInstalledButNotActive>Установлен, но не активен</ContentInstalledButNotActive>
+  <!-- EN: Not installed -->
+  <ContentNotInstalled>Не установлен</ContentNotInstalled>
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
@@ -180,28 +188,6 @@
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Вы уверены, что хотите навсегда отключить режим разработчика для этого компьютера?\n\nЭта опция предназначена для тех, кто хочет получить «чистый» игровой опыт, без соблазна использовать отладочные инструменты для того, чтобы получить преимущества по сравнению с «честной» игрой.\n\nРежим разработчика можно будет снова включить, но это потребует ручных изменений в конфигурационных файлах игры. Вам придётся самостоятельно найти в интернете нужную информацию об этом.</ConfirmPermanentlyDisableDevMode>
 
-  <!-- Research -->
-  <!-- EN: Research -->
-  <Research>Исследовать</Research>
-  <!-- EN: Researched -->
-  <Researched>Изучено</Researched>
-  <!-- EN: Unresearched -->
-  <Unresearched>Не изучено</Unresearched>
-  <!-- EN: Finished -->
-  <Finished>Завершено</Finished>
-  <!-- EN: In Progress -->
-  <InProgress>В процессе</InProgress>
-  <!-- EN: Locked -->
-  <Locked>Недоступно</Locked>
-  <!-- EN: Until you build a RESEARCH BENCH, your colonists will not actually be able to do research.\n\nHowever, you can still look at research projects now. -->
-  <ResearchMenuWithoutBench>Пока вы не построите стол для исследований, ваши поселенцы не смогут приступить к ним.\n\nТем не менее, вы всё равно можете посмотреть и выбрать технологию для исследования прямо сейчас.</ResearchMenuWithoutBench>
-  <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>Требуемые технологии</ResearchPrerequisites>
-  <!-- EN: Required research bench -->
-  <RequiredResearchBench>Требуемый стол для исследований</RequiredResearchBench>
-  <!-- EN: Required research bench facilities -->
-  <RequiredResearchBenchFacilities>Требуемое оборудование стола для исследований</RequiredResearchBenchFacilities>
-  
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>Вы приземлитесь в холодном регионе. На первых этапах развития выжить в таких условиях крайне сложно. Если не хотите столкнуться с экстремальными трудностями, выберите другое место или сезон.</MapTemperatureDangerWarning>
@@ -312,14 +298,16 @@
   <MeleeWarmupTime>Изготовка</MeleeWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Перезарядка</CooldownTime>
+  <!-- EN: Disarmed -->
+  <DisarmedTime>Реактивация</DisarmedTime>
   <!-- EN: Fire rate -->
   <BurstShotFireRate>Темп стрельбы</BurstShotFireRate>
   <!-- EN: Range -->
   <Range>Дальность</Range>
   <!-- EN: Stopping power -->
   <StoppingPower>Останавливающая способность</StoppingPower>
-  <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds. Targets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>При попадании из этого оружия по цели, размер которой меньше указанного значения, скорость её передвижения снизится на несколько секунд. Цели большего размера не подвержены останавливающему воздействию.</StoppingPowerExplanation>
+  <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
+  <StoppingPowerExplanation>При попадании из этого оружия по цели, размер которой меньше указанного значения, скорость её передвижения снизится на несколько секунд.\n\nЦели большего размера не подвержены останавливающему воздействию.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
   <DirectHitChance>Шанс прямого попадания</DirectHitChance>
   <!-- EN: Miss radius -->
@@ -338,8 +326,8 @@
   <MinGrowthTemperature>Минимальная температура роста</MinGrowthTemperature>
   <!-- EN: Max growth temperature -->
   <MaxGrowthTemperature>Максимальная температура роста</MaxGrowthTemperature>
-  <!-- EN: Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth. -->
-  <GrowingTimeDesc>Растения растут только в светлую часть суток. Этот показатель измеряет время, в течение которого растение должно непрерывно расти, чтобы вырасти полностью. Реальное время будет примерно в два раза больше. Низкие температуры также замедляют рост.</GrowingTimeDesc>
+  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
+  <GrowingTimeDesc>Растения растут только в светлую часть суток.\n\nЭтот показатель измеряет время, в течение которого растение должно непрерывно расти, чтобы вырасти полностью.\nРеальное время будет примерно в два раза больше.\nНизкие температуры также замедляют рост.</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>дней</Days>
   <!-- EN: Minimum growing skill to sow -->
@@ -366,6 +354,8 @@
   <MinFoodQuality>Мин. качество еды</MinFoodQuality>
   <!-- EN: Diet -->
   <Diet>Питание</Diet>
+  <!-- EN: Nutrition need per day -->
+  <NutritationEatenPerDay>Требуется еды в день</NutritationEatenPerDay>
   <!-- EN: Leather type -->
   <LeatherType>Тип кожи</LeatherType>
   <!-- EN: Body size -->
@@ -376,12 +366,14 @@
   <MarketValue>Базовая цена</MarketValue>
   <!-- EN: Covers -->
   <Covers>Укрывается</Covers>
+  <!-- EN: Created at -->
+  <CreatedAt>Создано на</CreatedAt>
   <!-- EN: Layer -->
-  <Layer>Тип</Layer>
+  <Layer>Слой одежды</Layer>
   <!-- EN: Cover effectiveness -->
   <CoverEffectiveness>Эффективность укрытия</CoverEffectiveness>
-  <!-- EN: How effective this is when used as cover in a gunfight. Higher percentages will block more shots. -->
-  <CoverEffectivenessExplanation>Насколько этот объект эффективен в качестве укрытия в перестрелке. Чем выше процент, тем больше выстрелов будет заблокировано.</CoverEffectivenessExplanation>
+  <!-- EN: How effective this is when used as cover in a gunfight.\n\nHigher percentages will block more shots. -->
+  <CoverEffectivenessExplanation>Насколько этот объект эффективен в качестве укрытия в перестрелке.\n\nЧем выше процент, тем больше выстрелов будет заблокировано.</CoverEffectivenessExplanation>
   <!-- EN: Experience gain factor -->
   <MedicineXpGainFactor>Множитель прироста опыта</MedicineXpGainFactor>
   <!-- EN: Mood change -->
@@ -396,8 +388,8 @@
   <TamenessWillNotDecay>Приручённость не исчезнет.</TamenessWillNotDecay>
   <!-- EN: Animal filth rate -->
   <AnimalFilthRate>Скорость загрязнения поверхности</AnimalFilthRate>
-  <!-- EN: Animals produce filth when moving around on constructed floors. This is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
-  <AnimalFilthRateExplanation>Животные загрязняют полы. Это среднее количество грязи, производимой животным на {0} пройденных им клеток.\n\nБолее крупные и более дикие животные производят больше грязи.</AnimalFilthRateExplanation>
+  <!-- EN: Animals produce filth when moving around on constructed floors.\n\nThis is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
+  <AnimalFilthRateExplanation>Животные загрязняют полы.\n\nЭто среднее количество грязи, производимой животным на {0} пройденных им клеток.\n\nБолее крупные и более дикие животные производят больше грязи.</AnimalFilthRateExplanation>
   <!-- EN: Time -->
   <TimeRecordsCategory>Время</TimeRecordsCategory>
   <!-- EN: Misc -->
@@ -412,22 +404,24 @@
   <Skill>Навык</Skill>
   <!-- EN: Success rate multiplier -->
   <SurgerySuccessChanceFactor>Коэфф-т успеха операции</SurgerySuccessChanceFactor>
+  <!-- EN: Death chance on fail -->
+  <SurgeryDeathOnFailChance>Шанс смерти при провале</SurgeryDeathOnFailChance>
   <!-- EN: Work speed governed by -->
   <WorkSpeedStat>На скорость работы влияет</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
   <EfficiencyStat>На выход продукта влияет</EfficiencyStat>
-  <!-- EN: Construction skill required -->
-  <ConstructionSkillRequired>Требуемый навык Строительства</ConstructionSkillRequired>
-  <!-- EN: Requires this level of Construction in order to build. -->
-  <ConstructionSkillRequiredExplanation>Навык Строительства, необходимый для того, чтобы построить этот объект.</ConstructionSkillRequiredExplanation>
+  <!-- EN: {0} skill required -->
+  <SkillRequiredToBuild>Требуется навык {0}</SkillRequiredToBuild>
+  <!-- EN: Requires this level of {0} in order to build. -->
+  <SkillRequiredToBuildExplanation>Для строительства требуется навык уровня {0}</SkillRequiredToBuildExplanation>
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>Перерыв в ласке</NuzzleInterval>
-  <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection. Most humans find this cute and it will leave them in a good mood for a period of time. -->
-  <NuzzleIntervalExplanation>Как часто это животное будет ласкаться к поселенцам.\n\nМногие виды животных выражают своё расположение к человеку, ласкаясь или обнюхивая его. Большинство людей считают это милым, и их настроение улучшается.</NuzzleIntervalExplanation>
+  <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
+  <NuzzleIntervalExplanation>Как часто это животное будет ласкаться к поселенцам.\n\nМногие виды животных выражают своё расположение к человеку, ласкаясь или обнюхивая его.\nБольшинство людей считают это милым, и их настроение улучшается.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Шанс ответного нападения</HarmedRevengeChance>
-  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
-  <HarmedRevengeChanceExplanation>Вероятность ответной агрессии животного при попадании в него с расстояния винтовочного выстрела.\n\nЧем атакующий ближе, тем эта вероятность выше. Если атаковать вблизи, то вероятность повышается в три раза.\n\nПроверка вероятности происходит при каждом получении урона, поэтому для охоты предпочтительнее использовать менее скорострельное и более убойное оружие.\n\nЧтобы минимизировать риск нападения животного, стреляйте по нему из нескорострельного оружия с расстояния винтовочного выстрела.</HarmedRevengeChanceExplanation>
+  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
+  <HarmedRevengeChanceExplanation>Вероятность ответной агрессии животного при попадании в него с расстояния винтовочного выстрела.\n\nЧем атакующий ближе, тем эта вероятность выше. Если атаковать вблизи, то вероятность повышается в три раза.\nПроверка вероятности происходит при каждом получении урона, поэтому для охоты предпочтительнее использовать менее скорострельное и более убойное оружие.\nЧтобы минимизировать риск нападения животного, стреляйте по нему из нескорострельного оружия с расстояния винтовочного выстрела.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Шанс напад. при неуд. приручении</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -446,6 +440,20 @@
   <ShotsBeforeRearmExplanation>Количество выстрелов, которое может произвести турель без необходимости перезарядки.</ShotsBeforeRearmExplanation>
   <!-- EN: Power consumption -->
   <PowerConsumption>Потребление энергии</PowerConsumption>
+  <!-- EN: Target -->
+  <Target>Цель</Target>
+  <!-- EN: Human -->
+  <TargetHuman>Человек</TargetHuman>
+  <!-- EN: Animal -->
+  <TargetAnimal>Животное</TargetAnimal>
+  <!-- EN: Self -->
+  <TargetSelf>На себя</TargetSelf>
+  <!-- EN: Ground -->
+  <TargetGround>Земля</TargetGround>
+  <!-- EN: Click to learn more. -->
+  <ClickToLearnMore>Нажмите, чтобы узнать больше.</ClickToLearnMore>
+  <!-- EN: Click to view factions. -->
+  <ClickToViewFactions>Нажмите, чтобы просмотреть фракции.</ClickToViewFactions>
 
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -480,6 +488,8 @@
   <TraderWillNotTrade>Торговца не интересует этот товар</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>Переговорщик</Negotiator>
+  <!-- EN: Negotiator: {0} (+{1}) -->
+  <NegotiatorTradeDialogInfo>Переговорщик: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
   <NegotiatorTalkingImpaired>Ваш переговорщик, {1_labelShort}, имеет проблемы с речью.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
@@ -518,6 +528,12 @@
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
   <SellableItemsTitle>Товар, интересующий торговца</SellableItemsTitle>
+  <!-- EN: Never visited - stock unknown -->
+  <TraderNotVisitedYet>Не посещено, список товаров неизвестен</TraderNotVisitedYet>
+  <!-- EN: Restocked since your last visit -->
+  <TraderRestockedSinceLastVisit>Список товаров обновился с последнего посещения</TraderRestockedSinceLastVisit>
+  <!-- EN: Next restock: {0} days -->
+  <NextTraderRestock>Список обновится через ^Number( {0} | '# день' | '# дня' | '# дней')^</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>Люди и животные</PawnsTabShort>
   
@@ -556,8 +572,8 @@
   <DaysWorthOfFoodInfoRot>до порчи {0}</DaysWorthOfFoodInfoRot>
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Бесконечно</InfiniteDaysWorthOfFoodInfo>
-  <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>Приблизительное количество дней до момента, когда без еды останется хотя бы один человек или животное. Людям и разным видам животных требуется разная пища, поэтому кто-то может остаться без еды раньше остальных. Величина рассчитывается более точно, если определён маршрут путешествия.\n\nВлияющие факторы:\n  - рацион участников каравана\n  - возможность выпаса животных\n  - время порчи еды\n  - температура воздуха</DaysWorthOfFoodTooltip>
+  <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
+  <DaysWorthOfFoodTooltip>Приблизительное количество дней до момента, когда без еды останется хотя бы один человек или животное. Людям и разным видам животных требуется разная пища, поэтому кто-то может остаться без еды раньше остальных. Величина рассчитывается более точно, если определён маршрут путешествия.\n\nВлияющие факторы:\n  - груз текущего участника\n  - имеющиеся виды еды и её количество\n  - рацион участников каравана\n  - количество добываемой еды\n  - возможность выпаса животных\n  - время порчи еды\n  - температура воздуха</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(учитывается только первая точка маршрута)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
@@ -590,7 +606,7 @@
   <AnimalCanGrazeTip>Это животное может пастись, питаясь подножным кормом, вместо того, чтобы поедать ваши припасы. Однако это возможно только в некоторых биомах при определённых температурных условиях.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>Количество добываемой в день еды. Конечное значение зависит от биома.\n\n{0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}. -->
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
   <NutritionEatenPerDayTip>Количество потребляемой в день еды. Для справки: простое блюдо эквивалентно {0} ед. питательности.\n\nМожет есть: {2}\n\nЛегенда:\n{1}</NutritionEatenPerDayTip>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>Переносимый вес</MassCarriedSimple>
@@ -657,19 +673,33 @@
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>Как много этого ресурса текущий караван готов передать новому.</SplitCaravanThingCountTip>
   
+  <!-- Caravan misc -->
+  <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
+  <ConfirmAttackFriendlyFaction>Вы уверены, что хотите напасть на {0}?\n\nФракция {1} станет враждебна по отношению к вам, и они могут начать нападать на ваши поселения.</ConfirmAttackFriendlyFaction>
+  
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
   <LoadTransporters>Загрузить ^Replace( {0} | 'транспортная капсула'-'транспортную капсулу')^</LoadTransporters>
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
   <TooBigTransportersMassUsage>Масса назначенных пассажиров и груза слишком велика для транспортных капсул.</TooBigTransportersMassUsage>
+  <!-- EN: The assigned people and items are too heavy for the shuttle. -->
+  <TooBigTransporterSingleMassUsage>Масса назначенных пассажиров и груза слишком велика для челнока.</TooBigTransporterSingleMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>Транспортная капсула не должна быть пустой.</CantSendEmptyTransportPods>
+  <!-- EN: You can't send empty shuttle. -->
+  <CantSendEmptyTransporterSingle>Челнок не должен быть пустым.</CantSendEmptyTransporterSingle>
   <!-- EN: {1_labelShort} can't reach the transport pods. -->
   <PawnCantReachTransporters>{1_labelShort} не может добраться до транспортных капсул.</PawnCantReachTransporters>
+  <!-- EN: {1_labelShort} can't reach the shuttle. -->
+  <PawnCantReachTransporterSingle>{1_labelShort} не может добраться до челнока.</PawnCantReachTransporterSingle>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>Невозможно найти путь между транспортными капсулами и {0}.</TransporterItemIsUnreachableSingle>
+  <!-- EN: There is no path between the shuttle and the {0}. -->
+  <TransporterSingleItemIsUnreachableSingle>Невозможно найти путь между челноком и {0}.</TransporterSingleItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
   <TransporterItemIsUnreachableMulti>Невозможно найти путь между транспортными капсулами и {0}x {1}.</TransporterItemIsUnreachableMulti>
+  <!-- EN: There is no path between the shuttle and {0}x {1}. -->
+  <TransporterSingleItemIsUnreachableMulti>Невозможно найти путь между челноком и {0}x {1}.</TransporterSingleItemIsUnreachableMulti>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -863,4 +893,26 @@
   <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
   <TransportersCaravanWillBeImmobile>Если вы отправите капсулы в пустую клетку, караван не сможет двигаться. Всё равно продолжить?</TransportersCaravanWillBeImmobile>
 
+  <!-- Confirm cancel monument marker -->
+  <!-- EN: Do you really want to remove this monument marker? -->
+  <ConfirmCancelMonumentMarker>Вы уверены, что хотите удалить метку монумента?</ConfirmCancelMonumentMarker>
+
+  <!-- Abilities -->
+  <!-- EN: Line of sight required -->
+  <AbilityRequiresLOS>Требуется прямая видимость</AbilityRequiresLOS>
+  <!-- EN: Entropy gain  -->
+  <AbilityEntropyGain>Прирост энтропии</AbilityEntropyGain>
+  <!-- EN: Effect duration -->
+  <AbilityDuration>Длительность действия</AbilityDuration>
+  <!-- EN: Effect radius -->
+  <AbilityEffectRadius>Радиус действия</AbilityEffectRadius>
+  <!-- EN: Casting time -->
+  <AbilityCastingTime>Время для подготовки</AbilityCastingTime>
+  <!-- EN: No line of sight to target. -->
+  <AbilityCannotHitTarget>Цель вне прямой видимости</AbilityCannotHitTarget>
+  <!-- EN: {0} must target an empty area. -->
+  <AbilityOccupiedCells>Следует указать свободную область.</AbilityOccupiedCells>
+  <!-- EN: {0} must target a walkable area. -->
+  <AbilityUnwalkable>Следует указать проходимую область.</AbilityUnwalkable>
+  
 </LanguageData>
