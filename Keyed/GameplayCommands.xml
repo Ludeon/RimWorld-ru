@@ -65,9 +65,11 @@
   <CommandGetOutOfBedDesc>Освободить занятую кровать.</CommandGetOutOfBedDesc>
 
   <!-- EN: Set owner -->
-  <CommandBedSetOwnerLabel>Назначить кровать</CommandBedSetOwnerLabel>
+  <CommandThingSetOwnerLabel>Назначить владельца</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific colonist. -->
   <CommandBedSetOwnerDesc>Назначить кровать конкретному поселенцу.</CommandBedSetOwnerDesc>
+  <!-- EN: Assign this throne to be owned by a specific colonist. -->
+  <CommandThroneSetOwnerDesc>Назначить на трон конкретного поселенца.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Назначить поселенцу</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
@@ -267,7 +269,7 @@
   <CommandBuildCopy>Построить копию</CommandBuildCopy>
   <!-- EN: Build a copy of this building. -->
   <CommandBuildCopyDesc>Создать копию этой постройки.</CommandBuildCopyDesc>
-  
+
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <CommandFormCaravan>Снарядить караван</CommandFormCaravan>
@@ -349,6 +351,8 @@
   <CommandTradeDesc>Торговать с этой фракцией.</CommandTradeDesc>
   <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>Нет ни одного человека, способного вести переговоры и торговать, не сломленного и в сознании.</CommandTradeFailNoNegotiator>
+  <!-- EN: None of your people have the required faction permission: {0} -->
+  <CommandTradeFailNeedPermit>Ни один из ваших людей не имеет требуемого разрешения фракции: {0}</CommandTradeFailNeedPermit>
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
@@ -363,8 +367,8 @@
   <CommandFulfillTradeOfferDesc>Передать запрошенный товар поселению и потребовать обещанную плату.</CommandFulfillTradeOfferDesc>
   <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
   <CommandFulfillTradeOfferFailInsufficient>У вашего каравана должно быть {0}, чтобы заключить сделку.</CommandFulfillTradeOfferFailInsufficient>
-  <!-- EN: Offer {0} for {1}? -->
-  <CommandFulfillTradeOfferConfirm>Предложить {0} за {1}?</CommandFulfillTradeOfferConfirm>
+  <!-- EN: Give {0}? -->
+  <CommandFulfillTradeOfferConfirm>Дать {0}?</CommandFulfillTradeOfferConfirm>
   
   <!-- Take off -->
   <!-- EN: Take off -->
@@ -373,12 +377,18 @@
   <CommandTakeOffDesc>Подняться на борт корабля и покинуть планету.</CommandTakeOffDesc>
   <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
   <CommandTakeOffConfirmation>Вы уверены, что хотите запустить корабль?\n\nВсе, кто находится в этом месте, покинут планету. Остальные — останутся.</CommandTakeOffConfirmation>
-  
+
   <!-- Set target fuel level -->
   <!-- EN: Set target fuel level -->
   <CommandSetTargetFuelLevel>Задать уровень топлива</CommandSetTargetFuelLevel>
   <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
   <CommandSetTargetFuelLevelDesc>Поселенцы будут заправлять этот агрегат не выше указанного уровня.</CommandSetTargetFuelLevelDesc>
+
+  <!-- Refueling -->
+  <!-- EN: Toggle automatic refuel -->
+  <CommandToggleAllowAutoRefuel>Заправлять автоматически</CommandToggleAllowAutoRefuel>
+  <!-- EN: Sets whether or not automatic refueling is allowed. -->
+  <CommandToggleAllowAutoRefuelDesc>Разрешить или запретить поселенцам самостоятельную заправку.</CommandToggleAllowAutoRefuelDesc>
   
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
@@ -407,6 +417,24 @@
   <CommandLoadTransporterFailNotConnectedToFuelingPort>Транспортная капсула не подключена к топливному порту.</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <!-- EN: The pod launcher has no fuel. -->
   <CommandLoadTransporterFailNoFuel>Транспортная капсула не заправлена топливом.</CommandLoadTransporterFailNoFuel>
+  
+  <!-- Load transporter (single) -->
+  <!-- EN: Load -->
+  <CommandLoadTransporterSingle>Загрузить</CommandLoadTransporterSingle>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandLoadTransporterSingleDesc>Назначить пассажиров и выбрать, что погрузить на борт.</CommandLoadTransporterSingleDesc>
+  
+  <!-- Transporters set to load -->
+  <!-- EN: Set to load -->
+  <CommandSetToLoadTransporter>Назначить для загрузки</CommandSetToLoadTransporter>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandSetToLoadTransporterDesc>Назначить пассажиров и выбрать, что погрузить на борт.</CommandSetToLoadTransporterDesc>
+  
+  <!-- Autoload transporters -->
+  <!-- EN: Autoload -->
+  <CommandAutoloadTransporters>Загружать автоматически</CommandAutoloadTransporters>
+  <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
+  <CommandAutoloadTransportersDesc>Разрешить или запретить поселенцам самостоятельно осуществлять погрузку по готовности.</CommandAutoloadTransportersDesc>
   
   <!-- Select previous transporter -->
   <!-- EN: Select previous in launch group -->
@@ -455,5 +483,37 @@
   <CommandAttackSettlement>Напасть</CommandAttackSettlement>
   <!-- EN: Attack this settlement. -->
   <CommandAttackSettlementDesc>Напасть на это поселение.</CommandAttackSettlementDesc>
+
+  <!-- Send shuttle -->
+  <!-- EN: Send -->
+  <CommandSendShuttle>Отправить</CommandSendShuttle>
+  <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
+  <CommandSendShuttleDesc>Запустить процедуру взлёта и отправить челнок к месту назначения.</CommandSendShuttleDesc>
+  <!-- EN: The shuttle is under a roof. -->
+  <CommandSendShuttleFailUnderRoof>Челнок под крышей</CommandSendShuttleFailUnderRoof>
+  <!-- EN: Some of the required items or people are missing. -->
+  <CommandSendShuttleFailMissingRequiredThing>Отсутствуют назначенные пассажиры или груз.</CommandSendShuttleFailMissingRequiredThing>
+
+  <!-- Place blueprints -->
+  <!-- EN: Place blueprints -->
+  <CommandPlaceBlueprints>Разместить чертежи</CommandPlaceBlueprints>
+  <!-- EN: Place all required blueprints where possible. -->
+  <CommandPlaceBlueprintsDesc>Разместить все требуемые чертежи везде, где это возможно.</CommandPlaceBlueprintsDesc>
+
+  <!-- Cancel monument marker -->
+  <!-- EN: Cancel -->
+  <CommandCancelMonumentMarker>Отменить</CommandCancelMonumentMarker>
+  <!-- EN: Permanently remove this monument marker. -->
+  <CommandCancelMonumentMarkerDesc>Навсегда убрать метку монумента.</CommandCancelMonumentMarkerDesc>
+
+  <!-- View quest -->
+  <!-- EN: View quest: {0} -->
+  <CommandViewQuest>Открыть задание: {0}</CommandViewQuest>
+  <!-- EN: View this quest in quests tab. -->
+  <CommandViewQuestDesc>Открыть это задание во вкладке заданий.</CommandViewQuestDesc>
+  <!-- EN: Open linked quest -->
+  <CommandOpenLinkedQuest>Открыть связанное задание</CommandOpenLinkedQuest>
+  <!-- EN: Open linked quest in the quests tab. -->
+  <CommandOpenLinkedQuestDesc>Открыть связанное задание во вкладке заданий.</CommandOpenLinkedQuestDesc>
 
 </LanguageData>
