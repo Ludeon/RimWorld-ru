@@ -10,10 +10,11 @@
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
   <AnimalInsanityMultiple>Некое подобие психоактивной волны прошло по земле. Ваши поселенцы в порядке, но...\n\nПохоже, многие {0} сошли с ума.</AnimalInsanityMultiple>
 
-  <!-- EN: Blight -->
-  <LetterLabelCropBlight>Болезнь растений</LetterLabelCropBlight>
-  <!-- EN: A colonist has noticed blight on your crops! You should cut or burn the blighted plants before the blight spreads. -->
-  <LetterCropBlight>Один из поселенцев заметил, что часть ваших растений поражена загадочной болезнью! Вам следует срезать или сжечь их, пока болезнь не перешла на другие растения.</LetterCropBlight>
+  <!-- EN: Blight: {PLANTDEF_labelPlural} -->
+  <LetterLabelCropBlight>Болезнь растений: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
+  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
+\nYou should cut or burn the affected plants before the blight spreads. -->
+  <LetterCropBlight>Ваши {PLANTDEF_labelPlural} поражены болезнью!\n\nВам следует срезать или сжечь заражённые растения, пока болезнь не распространилась дальше.</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>Чудо</LetterLabelMiracleHeal>
@@ -57,8 +58,12 @@
   <!-- EN: That really is a huge explosion. Wow. -->
   <ShortCircuitWasHuge>Вот это фейерверк! Ничего себе!</ShortCircuitWasHuge>
 
-  <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}. -->
-  <TraderArrival>Торговый корабль {0} пролетает рядом.\n\nЭто {1}.</TraderArrival>
+  <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
+  <TraderArrival>Торговый корабль {0} пролетает рядом.\n\nЭто {1}.\n\n{2}</TraderArrival>
+  <!-- EN: They're affiliated with {FACTION_name}. -->
+  <TraderArrivalFromFaction>Они связаны с фракцией {FACTION_name}.</TraderArrivalFromFaction>
+  <!-- EN: They are not affiliated with any faction. -->
+  <TraderArrivalNoFaction>Они не связаны ни с какой фракцией.</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
   <SingleTravelerPassing>{0} из фракции {1} проходит мимо. {PAWN_possessive} зовут {2}.</SingleTravelerPassing>
@@ -90,12 +95,16 @@
   <ManhunterPackArrived>На вашу территорию забрели агрессивные {0}. Они жаждут человеческой крови.\n\nЭти животные не будут пробиваться через закрытые двери, если, конечно, не увидят, как в них забегают ваши поселенцы. Спрячьтесь заранее — и вы будете в безопасности. Они также не нападут на турели, если вы отключите их.\n\nПодождите один-два дня, и {0} уйдут. Вы также можете напасть на них сами.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
-  <!-- EN: The ancient structure has emitted a psychic pulse that has driven nearby animals mad. -->
-  <MessageAnimalInsanityPulse>Древнее сооружение испустило психоактивный импульс, который вызвал ярость у ближайших животных.</MessageAnimalInsanityPulse>
+  <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
+  <MessageAnimalInsanityPulse>{SOURCE_label} испускает психоактивный импульс, который вызывает ярость у ближайших животных.</MessageAnimalInsanityPulse>
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
   <LetterShipPartDroveColonistInsane>Часть разбившегося корабля испустила направленный психоактивный импульс, и ваш поселенец {0} сошёл с ума.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
   <AwokeDaysAgo>Активен последние ^Number( {0} | '# день' | '# дня' | '# дней')^</AwokeDaysAgo>
+  <!-- EN: Activated {0} days ago -->
+  <ActivatedDaysAgo>Активировано ^Number( {0} | '# день' | '# дня' | '# дней')^ назад</ActivatedDaysAgo>
+  <!-- EN: Opened {0} days ago -->
+  <OpenedDaysAgo>Открыто ^Number( {0} | '# день' | '# дня' | '# дней')^ назад</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>Уровень гула: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
@@ -109,35 +118,12 @@
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
   <LetterAgentRevealed>Вражеский шпион {0} из фракции {1} раскрыт.\n\nСейчас {PAWN_pronoun} пытается бежать из поселения.</LetterAgentRevealed>
 
-  <!-- Distant psychic drone -->
-  <!-- EN: Psychic drone -->
-  <LetterLabelPsychicDrone>Гул</LetterLabelPsychicDrone>
-  <!-- EN: Every colonist of the {0} gender winces in pain!\n\nSome distant engine of hatred is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
-  <LetterIncidentPsychicDrone>Ваши поселенцы {0} морщатся от головной боли!\n\nПсихоактивный гул, исходящий от некоего далёкого излучателя, пронизывает эту местность ненавистью. Похоже, частота гула влияет только на ^Replace( {0} | 'мужского пола'-'мужчин' | 'женского пола'-'женщин')^. В течение нескольких дней их настроение будет немного хуже.\n\nУровень гула — {1}.</LetterIncidentPsychicDrone>
-
-  <!-- EN: Psychic soothe -->
-  <LetterLabelPsychicSoothe>Умиротворение</LetterLabelPsychicSoothe>
-  <!-- EN: Every colonist of the {0} gender smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit better. -->
-  <LetterIncidentPsychicSoothe>Лица ваших поселенцев {0} озаряет улыбка!\n\nУспокаивающий гул, порождаемый далёким генератором счастья, пронизывает эту область. Похоже, частота гула влияет только на ^Replace( {0} | 'мужского пола'-'мужчин' | 'женского пола'-'женщин')^. В течение нескольких дней их настроение будет немного лучше.</LetterIncidentPsychicSoothe>
-
   <!-- Beavers -->
   <!-- EN: Beavers! -->
   <LetterLabelBeaversArrived>Бобры!</LetterLabelBeaversArrived>
   <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
   <BeaversArrived>Только что была замечена группа голодных альфабобров.\n\nПостарайтесь избавиться от них прежде, чем они уничтожат последний источник древесины в округе.</BeaversArrived>
   
-  <!-- Refugee chased -->
-  <!-- EN: Refugee chased at {0} -->
-  <RefugeeChasedTitle>У поселения {0} преследуют беженца</RefugeeChasedTitle>
-  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>{PAWN_title} по имени {PAWN_nameDef} бежит и зовёт на помощь! {PAWN_pronoun} говорит, что {PAWN_possessive} преследуют {2} из фракции {3}.\n\n{PAWN_pronoun} умоляет о помощи и взамен предлагает присоединиться к поселению. {PAWN_nameDef} успевает лишь добавить, что {PAWN_objective} ^Number( {4} | '# год' | '# года' | '# лет')^, а на остальную информацию нет времени.\n\nЕсли вы согласитесь {PAWN_possessive} принять, на вас нападут {2}, идущие у н{PAWN_possessive} на хвосте. В их группе:\n\n{5}</RefugeeChasedInitial>
-  <!-- EN: Offer safety -->
-  <RefugeeChasedInitial_Accept>Предложить укрытие</RefugeeChasedInitial_Accept>
-  <!-- EN: Ignore the message -->
-  <RefugeeChasedInitial_Reject>Игнорировать это сообщение</RefugeeChasedInitial_Reject>
-  <!-- EN: {1_labelShort} screams in panic through the tinny speaker before you cut off the transmission. -->
-  <RefugeeChasedRejected>{1_labelShort} отчаянно кричит из хрипящего динамика, пока вы не прерываете трансляцию.</RefugeeChasedRejected>
-
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
   <LetterLabelAnimalSelfTame>{1_kind} прибивается к поселению</LetterLabelAnimalSelfTame>
@@ -163,9 +149,11 @@
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
   <LetterLabelTraderCaravanArrival>{1} из фракции {0}</LetterLabelTraderCaravanArrival>
-  <!-- EN: A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction! -->
-  <LetterTraderCaravanArrival>Приближается караван из фракции {0}. Среди них есть {1}.\n\nОни побудут в поселении несколько дней, прежде чем двинуться дальше. Вы можете атаковать их, но это разозлит всю их фракцию!</LetterTraderCaravanArrival>
-  
+  <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
+  <LetterTraderCaravanArrival>Приближается караван из фракции {0}. Среди них есть {1}.</LetterTraderCaravanArrival>
+  <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
+  <LetterCaravanArrivalCommonWarning>Они пробудут в поселении какое-то время, прежде чем двинуться дальше. Вы можете атаковать их, но это разозлит всю их фракцию!</LetterCaravanArrivalCommonWarning>
+    
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Требование выкупа у поселения {0}</RansomDemandTitle>
@@ -177,16 +165,16 @@
   <RansomDemand_Reject>Отказаться</RansomDemand_Reject>
   
   <!-- Journey-related -->
-  <!-- EN: A friendly AI from your past named Charlon Whitestone has sent you a message!\n\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.\n\nThe starship is currently in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes.\n\nIf you can get the ship off the ground, Charlon will take you off this rimworld, to the stars. -->
-  <JourneyOffer>Знакомый вам дружелюбно настроенный ИИ по имени Шарлон Вайтстоун, отправил вам сообщение!\n\nОн говорит, что на этой планете в тайном месте расположен его корабль, и сообщает вам координаты.\n\nВ данный момент этот корабль находится в режиме глубокой гибернации. По прибытии на место вам придётся запустить все его системы и приготовиться к нападению налётчиков, желающих захватить судно.\n\nЕсли вам удастся взлететь, Шарлон унесёт вас с этого окраинного мира вдаль, к звёздам.</JourneyOffer>
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>Корабль найден</EscapeShipFoundLabel>
-  <!-- EN: You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Вы достигли места, координаты которого вам отправил Шарлон Вайтстоун и обнаружили замаскированный космический корабль.\n\nБеглый осмотр выявил, что на текущий момент взлёт невозможен, поскольку реактор корабля в неактивном состоянии. Вы можете запустить его, отправив команду с компьютерного ядра.\n\nОднако Шарлон Вайтстоун предупреждает, что процесс запуска займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание банд отчаянных налётчиков и орд смертельно опасных механоидов.\n\nНа вас будут нападать с яростью, которой вы можете не ожидать. Перед запуском стоит как следует подготовиться к обороне.</EscapeShipFound>
+  <!-- EN: You've reached the coordinates sent by <Name>Charlon Whitestone</Name> and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n<Name>Charlon Whitestone</Name> warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <EscapeShipFound>Вы достигли места, координаты которого вам отправил &lt;Name&gt;Шарлон Вайтстоун&lt;/Name&gt; и обнаружили замаскированный космический корабль.\n\nБеглый осмотр выявил, что на текущий момент взлёт невозможен, поскольку реактор корабля в неактивном состоянии. Вы можете запустить его, отправив команду с компьютерного ядра.\n\nОднако &lt;Name&gt;Шарлон Вайтстоун&lt;/Name&gt; предупреждает, что процесс запуска займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание банд отчаянных налётчиков и орд смертельно опасных механоидов.\n\nНа вас будут нападать с яростью, которой вы можете не ожидать. Перед запуском стоит как следует подготовиться к обороне.</EscapeShipFound>
+  <!-- EN: You've reached the coordinates sent by <Name>Charlon Whitestone</Name> and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n<Name>Charlon Whitestone</Name> warns you that the startup process will take about 15 days. -->
+  <EscapeShipFoundPeaceful>Вы достигли места, координаты которого вам отправил &lt;Name&gt;Шарлон Вайтстоун&lt;/Name&gt; и обнаружили замаскированный космический корабль.\n\nБеглый осмотр выявил, что на текущий момент взлёт невозможен, поскольку реактор корабля в неактивном состоянии. Вы можете запустить его, отправив команду с компьютерного ядра.\n\nОднако &lt;Name&gt;Шарлон Вайтстоун&lt;/Name&gt; предупреждает, что процесс запуска займёт около 15 дней.</EscapeShipFoundPeaceful>
   <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>Корабль уничтожен</EscapeShipLostLabel>
-  <!-- EN: Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
-  <EscapeShipLost>Шарлон Вайтстоун отправляет сообщение.\n\nОн видит, что вы потеряли контроль над кораблём. Чтобы корабль не попал в чужие руки, ему пришлось запустить механизм самоуничтожения. От корабля остался лишь кратер.\n\nВам придётся найти другой способ покинуть планету.</EscapeShipLost>
+  <!-- EN: <Name>Charlon Whitestone</Name> sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
+  <EscapeShipLost>&lt;Name&gt;Шарлон Вайтстоун&lt;/Name&gt; отправляет сообщение.\n\nОн видит, что вы потеряли контроль над кораблём. Чтобы корабль не попал в чужие руки, ему пришлось запустить механизм самоуничтожения. От корабля остался лишь кратер.\n\nВам придётся найти другой способ покинуть планету.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
@@ -201,14 +189,16 @@
   <CaravanMeeting_MoveOn>Идти дальше</CaravanMeeting_MoveOn>
   <!-- EN: no caravan members capable of trading -->
   <CaravanMeeting_TradeIncapable>ни один из членов каравана не способен к торговле</CaravanMeeting_TradeIncapable>
+  <!-- EN: need a trader with the title of {0} from {1_name} -->
+  <CaravanMeeting_NoPermit>нужен торговец с титулом {0} от фракции {1_name}</CaravanMeeting_NoPermit>
   
   <!-- Caravan request -->
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>Запрос торгового каравана</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>Одно из соседних поселений, {0}, связывается с вами с предложением об обмене. Они хотели бы получить:\n\n  {1} (общей стоимостью {2})\n\nВзамен они могут дать:\n\n  {3} (общей стоимостью {4})\n\nПредложение актуально ближайшие {5}\n\nЕсли вы хотите заключить эту сделку, отправьте караван с указанным товаром. Расчётное время в пути — {6}. Вы можете ещё раз просмотреть это предложение, выбрав {0} на карте мира.</LetterCaravanRequest>
-  <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
-  <CaravanRequestInfo>Хотят: {0} ({3}),\nПредлагают: {1} ({4})\nОсталось {2}</CaravanRequestInfo>
+  <!-- EN: Requesting: {0} ({2}) ({1} left) -->
+  <CaravanRequestInfo>Хотят: {0} ({2})\nОсталось {1}</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>качеством от нормального и выше</NormalQualityOrBetter>
   <!-- EN: not tainted -->
@@ -233,5 +223,23 @@
   <LetterSiteNoLongerHostile>Поскольку фракция {0} более не является вашим врагом, вы не сможете посетить {1}.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>Поскольку фракция {0} более не является вашим врагом, вы не сможете посетить эти места</LetterSiteNoLongerHostileMulti>
+
+  <!-- Quest asker faction hostile -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerFactionHostile>Задание провалено</LetterLabelQuestAskerFactionHostile>
+  <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
+  <LetterQuestAskerFactionHostile>Задание невозможно завершить, поскольку фракция {FACTION_name} теперь враждебна по отношению к вам.</LetterQuestAskerFactionHostile>
+
+  <!-- Quest asker captured -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerCaptured>Задание провалено</LetterLabelQuestAskerCaptured>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
+  <LetterQuestAskerCaptured>Задание невозможно завершить, поскольку {SUBJECT_definite} {SUBJECT_gender ? был : была} {SUBJECT_gender ? захвачен : захвачена} в плен.</LetterQuestAskerCaptured>
+
+  <!-- Quest asker died -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerDied>Задание провалено</LetterLabelQuestAskerDied>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
+  <LetterQuestAskerDied>Задание невозможно завершить, поскольку {SUBJECT_definite} {SUBJECT_gender ? погиб : погибла}.</LetterQuestAskerDied>
 
 </LanguageData>

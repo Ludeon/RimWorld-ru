@@ -42,7 +42,9 @@
   <TabFormingCaravan>Караван</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>Груз</TabTransporterContents>
-
+  <!-- EN: Contents -->
+  <TabCasketContents>Содержимое</TabCasketContents>
+  
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
   <AddBill>Добавить задание</AddBill>
@@ -78,6 +80,24 @@
   <RecruitmentResistance>Психологическое сопротивление</RecruitmentResistance>
   <!-- EN: Recruitment difficulty -->
   <RecruitmentDifficulty>Сложность вербовки</RecruitmentDifficulty>
+  <!-- EN: Recruitment chance -->
+  <RecruitmentChance>Шанс вербовки</RecruitmentChance>
+  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
+  <RecruitmentChanceExplanation>Влияние сложности вербовки: {0}\nВлияние настроения: {1}\nИтоговая базовая вероятность: {2}</RecruitmentChanceExplanation>
+  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\nПоследнияя попытка вербовки\nВербовщик: {3}\nВлияние способности к переговорам: {4}\nВлияние отношения: {5} ({6})\nИтоговая вероятность для {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <!-- EN: \nResistance reduction: {0} -->
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nОслабление сопротивления: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Relations gain on release -->
+  <PrisonerReleasePotentialRelationGains>Рост репутации при освобождении</PrisonerReleasePotentialRelationGains>
+  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>Насколько улучшатся отношения с фракцией пленника, если вы отпустите его. На это влияют физическое здоровье пленника и его ментальное состояние.</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: Prison break interval -->
+  <PrisonBreakMTBDays>Время между побегами</PrisonBreakMTBDays>
+  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
+  <PrisonBreakMTBDaysDescription>Среднее количество дней бодрствования между попытками побега. На это влияют настроение пленника, его подвижность, а также время с предыдущей попытки побега.\n\nВремя сна при расчёте не учитывается, и фактический интервал между побегами скорее всего будет длиннее.</PrisonBreakMTBDaysDescription>
+  <!-- EN: Slave price -->
+  <SlavePrice>Цена раба</SlavePrice>
   <!-- EN: Gets food -->
   <GetsFood>Получает пищу</GetsFood>
   <!-- EN: Doctors care -->
@@ -194,8 +214,8 @@
   <!-- Training tab -->
   <!-- EN: Trainability -->
   <Trainability>Способность к обучению</Trainability>
-  <!-- EN: Requires trainability {0}. -->
-  <CannotTrainNotSmartEnough>Требуется способность к обучению: {0}.</CannotTrainNotSmartEnough>
+  <!-- EN: Requires {0} trainability. -->
+  <CannotTrainNotSmartEnough>Требуется {0} способность к обучению.</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
   <CannotTrainTooSmall>{1_labelShort} — неподходящего размера, чтобы обучаться этому.</CannotTrainTooSmall>
 
@@ -207,6 +227,8 @@
   <NoRelationships>(нет отношений)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Похищен(а)</Kidnapped>
+  <!-- EN: Lent to {FACTION_name}, returns in {1} -->
+  <Lent>Временно передан(а) фракции {FACTION_name}, вернётся через ^Number( {1} | '# день' | '# дня' | '# дней')^</Lent>
   <!-- EN: Missing -->
   <Missing>Пропал(а) без вести</Missing>
   <!-- EN: Slave -->
@@ -287,7 +309,17 @@
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
   <RemoveSliderText>Выгрузить {0} ({{0}} шт)</RemoveSliderText>
+  <!-- EN: Contained items -->
+  <ContainedItems>Содержимое</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>Вы уверены, что хотите выгрузить {0}?</ConfirmRemoveItemDialog>
+  
+  <!-- Quests tab -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
+  <DismissQuest>Отклонить задание и переместить его во вкладку «История».\n\nЭто задание можно вернуть в любой момент. Его содержание и срок выполнения будут обрабатываться как обычно. Вы не будете получать уведомлений по отклонённым заданиям.</DismissQuest>
+  <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
+  <UnDismissQuest>Вернуть задание.\n\nЭто задание будет возвращено во вкладки «Доступные» или «Активные», а уведомления будут вновь включены.</UnDismissQuest>
+  <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
+  <QuestDismissed>Это задание находится здесь, поскольку было отклонено.\n\nВы можете вернуть его, пока срок выполнения не истёк.</QuestDismissed>
 
 </LanguageData>
