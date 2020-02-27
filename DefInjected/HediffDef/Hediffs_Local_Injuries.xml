@@ -31,7 +31,7 @@
   <!-- EN: bandaged -->
   <Bruise.comps.HediffComp_TendDuration.labelTendedWell>перевязано</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: tended -->
-  <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>обхожено</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>обработан</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Destroyed -->
   <Bruise.injuryProps.destroyedLabel>отбито</Bruise.injuryProps.destroyedLabel>
   <!-- EN: a bruise -->
@@ -42,13 +42,13 @@
   <!-- EN: burn -->
   <Burn.label>ожог</Burn.label>
   <!-- EN: A burn. -->
-  <Burn.description>Повреждение вызванное контактом с огнём или жаром, в замкнутой среде.</Burn.description>
+  <Burn.description>Ожог.</Burn.description>
   <!-- EN: tended -->
   <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Burn.comps.HediffComp_TendDuration.labelTendedWell>перевязано</Burn.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: tended -->
-  <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>обхожено</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>обработан</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: burn scar -->
   <Burn.comps.HediffComp_GetsPermanent.permanentLabel>ожоговый рубец</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off -->
@@ -67,9 +67,9 @@
   <!-- EN: chemical burn scar -->
   <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>шрам от хим. ожога</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off (chemical) -->
-  <ChemicalBurn.injuryProps.destroyedLabel>иссушено</ChemicalBurn.injuryProps.destroyedLabel>
+  <ChemicalBurn.injuryProps.destroyedLabel>сожжено</ChemicalBurn.injuryProps.destroyedLabel>
   <!-- EN: Burned out (chemical) -->
-  <ChemicalBurn.injuryProps.destroyedOutLabel>иссушено</ChemicalBurn.injuryProps.destroyedOutLabel>
+  <ChemicalBurn.injuryProps.destroyedOutLabel>сожжено</ChemicalBurn.injuryProps.destroyedOutLabel>
   <!-- EN: a chemical burn -->
   <ChemicalBurn.labelNoun>химический ожог</ChemicalBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -224,7 +224,7 @@
   <!-- EN: shredded -->
   <Shredded.label>взрывная травма</Shredded.label>
   <!-- EN: A part of the body has been shredded and torn. -->
-  <Shredded.description>Тяжёлая травма от контакта с активированным взрывчатым веществом. Часть тела измельчена или разорвана.</Shredded.description>
+  <Shredded.description>Тяжёлая травма от взрыва. Часть тела покрыта многочисленными глубокими ранениями.</Shredded.description>
   <!-- EN: set -->
   <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -240,7 +240,7 @@
   <!-- EN: a shredded wound -->
   <Shredded.labelNoun>взрывная травма</Shredded.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Shredded.labelNounPretty>{0} на {1}</Shredded.labelNounPretty>
+  <Shredded.labelNounPretty>{0} {1}</Shredded.labelNounPretty>
   
   <!-- EN: stab -->
   <Stab.label>колотая рана</Stab.label>
@@ -261,12 +261,12 @@
   <!-- EN: a stab wound -->
   <Stab.labelNoun>колотая рана</Stab.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Stab.labelNounPretty>{0} на {1}</Stab.labelNounPretty>
+  <Stab.labelNounPretty>{0} {1}</Stab.labelNounPretty>
   
   <!-- EN: surgical cut -->
   <SurgicalCut.label>хирургический порез</SurgicalCut.label>
   <!-- EN: A cut made during surgery. -->
-  <SurgicalCut.description>Порез сделанный во время операции.</SurgicalCut.description>
+  <SurgicalCut.description>Разрез, сделанный во время операции.</SurgicalCut.description>
   <!-- EN: set -->
   <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>обработано</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
