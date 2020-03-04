@@ -7,14 +7,12 @@
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   -->
-  <!--<Quest_DownedRefugee.letterText>-->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->[refugee_nameDef] связывается с вами по радио и умоляет о помощи. [refugee_objective] нанесли тяжёлые раны, и [refugee_pronoun] не в состоянии передвигаться самостоятельно.\n\n[refugee_nameDef] — [refugee_title] ^Number( [refugee_age] | '#-го года' | '#-х лет' | '#-и лет')^. [refugee_pronoun] обещает присоединиться к вам, если вы спасёте [refugee_possessive].\n\n[refugee_nameDef] говорит, что [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] фракции [asker_faction_name], говорит, что [asker_possessive] друга ранили, пока тот был в пути. Жертва — [refugee_nameIndef], [refugee_title] ^Number( [refugee_age] | '#-го года' | '#-х лет' | '#-и лет')^.\n\nУ [asker_nameDef] нет людей, чтобы отправить на спасение [refugee_nameDef], но [asker_pronoun] заверяет, что если вы сможете добраться до [refugee_nameDef] и оказать [refugee_objective] помощь, то [refugee_pronoun] присоединится к вам.\n\n[asker_nameDef] говорит, что [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-  
   <!-- EN:
     <li>questName->Saving [refugee_nameDef]</li>
     <li>questName->The Rescue of [refugee_nameDef]</li>
@@ -22,12 +20,11 @@
     <li>questName->[refugee_nameDef]'s Salvation</li>
   -->
   <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
-    <li>questName->Спасая [refugee_nameDef]</li>
-    <li>questName->Помогая [refugee_nameDef]</li>
-    <li>questName->Спасение [refugee_nameDef]</li>
-    <li>questName->Помощь [refugee_nameDef]</li>
+    <li>questName->спасая [refugee_nameDef]</li>
+    <li>questName->помогая [refugee_nameDef]</li>
+    <li>questName->спасение [refugee_nameDef]</li>
+    <li>questName->помощь [refugee_nameDef]</li>
   </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
-  
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Время задания истекло: [resolvedQuestName]</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
   <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->

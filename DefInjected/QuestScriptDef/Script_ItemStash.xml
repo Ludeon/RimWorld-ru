@@ -23,21 +23,24 @@
     <li>treasure->Supplies</li>
   -->
   <OpportunitySite_ItemStash.questNameRules.rulesStrings>
-    <li>questName(priority=1)->[stash] [treasure] [asker_nameDef]</li>
-    <li>questName->[stash] [treasure]</li>
-    <li>stash->Схрон</li>
-    <li>stash->Тайник</li>
-    <li>stash->Склад</li>
-    <li>stash->Хранилище</li>
-    <li>treasure->Сокровищ</li>
-    <li>treasure->Ценностей</li>
-    <li>treasure->Богатств</li>
-    <li>treasure->Полезностей</li>
-    <li>treasure->Припасов</li>
+    <li>questName(priority=1)->[stash] с [treasure] [asker_nameDef]</li>
+    <li>questName->[stash] с [treasure]</li>
+    <li>stash->клад</li>
+    <li>stash->схрон</li>
+    <li>stash->тайник</li>
+    <li>stash->склад</li>
+    <li>stash->хранилище</li>
+    <li>treasure->вещами</li>
+    <li>treasure->сокровищами</li>
+    <li>treasure->ценностями</li>
+    <li>treasure->богатствами</li>
+    <li>treasure->ресурсами</li>
+    <li>treasure->хабаром</li>
+    <li>treasure->припасами</li>
   </OpportunitySite_ItemStash.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Время задания истекло: [resolvedQuestName]</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Судя по перехваченным сообщениям содержимым схрона завладел кто-то другой. Время, отведённое для задания [resolvedQuestName], истекло.</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Судя по перехваченным сообщениям, содержимым схрона завладел кто-то другой. Время, отведённое для задания [resolvedQuestName], истекло.</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
   
 </LanguageData>

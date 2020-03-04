@@ -6,7 +6,6 @@
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
   -->
-  <!--<LetterCaravanRequest>-->
   <TradeRequest.questDescriptionRules.rulesStrings>
     <li>questDescription->Одно из соседних поселений, [settlement_label], связывается с вами с предложением об обмене. Они хотели бы приобрести:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](стоимостью [requestedThingMarketValue_money])\n\nВ обмен [allRewardsDescriptions]\n\nЕсли вы хотите заключить эту сделку, отправьте караван с указанными товарами. Расчётное время в пути — [estimatedTravelTime_duration].</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->качеством от нормального и выше </li>
@@ -27,33 +26,26 @@
     <li>trade->Offer</li>
   -->
   <TradeRequest.questNameRules.rulesStrings>
-    <li>questName->Караван в [settlement_label]</li>
-    <li>questName->Торговля с [settlement_label]</li>
-    <li>questName->Обмен с [settlement_label]</li>
-    <li>questName->Припасы для [settlement_label]</li>
-	
-	<li>questName->[special_masc] [trade_masc]</li>
+    <li>questName->караван в [settlement_label]</li>
+    <li>questName->торговля с [settlement_label]</li>
+    <li>questName->обмен с [settlement_label]</li>
+    <li>questName->припасы для [settlement_label]</li>
+    <li>questName->[special_masc] [trade_masc]</li>
     <li>questName->[special_neutral] [trade_neutral]</li>
     <li>questName->[special_femine] [trade_femine]</li>
-	
-    <li>special_masc->Специальный</li>
-    <li>special_masc->Уникальный</li>
-    <li>special_masc->Необычный</li>
-	
-    <li>special_neutral->Специальное</li>
-    <li>special_neutral->Уникальное</li>
-    <li>special_neutral->Необычное</li>
-	
-    <li>special_femine->Специальная</li>
-    <li>special_femine->Уникальная</li>
-    <li>special_femine->Необычная</li>
-	
-	
-    <li>trade_masc->Обмен</li>
-    <li>trade_femine->Продажа</li>
-    <li>trade_femine->Сделка</li>
-    <li>trade_neutral->Предложение</li>
-	
+    <li>special_masc->специальный</li>
+    <li>special_masc->уникальный</li>
+    <li>special_masc->необычный</li>
+    <li>special_neutral->специальное</li>
+    <li>special_neutral->уникальное</li>
+    <li>special_neutral->необычное</li>
+    <li>special_femine->специальная</li>
+    <li>special_femine->уникальная</li>
+    <li>special_femine->необычная</li>
+    <li>trade_masc->обмен</li>
+    <li>trade_femine->продажа</li>
+    <li>trade_femine->сделка</li>
+    <li>trade_neutral->предложение</li>
   </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
