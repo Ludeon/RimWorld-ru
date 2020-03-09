@@ -13,8 +13,18 @@
   
   <!-- EN: ascetic -->
   <Ascetic.degreeDatas.ascetic.label>аскетизм</Ascetic.degreeDatas.ascetic.label>
-  <!-- EN: {PAWN_nameDef} prefers to live in asceticism. {PAWN_pronoun} will be put in a poor mood if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw - and raw food won't bother {PAWN_objective} a bit. -->
-  <Ascetic.degreeDatas.ascetic.description>{PAWN_nameDef} предпочитает жить скромно. У н{PAWN_possessive} портится настроение, если {PAWN_possessive} спальня слишком роскошная. {PAWN_nameDef} также не любит изысканные блюда, предпочитая им простую, или даже сырую пищу.</Ascetic.degreeDatas.ascetic.description>
+  <!-- EN: {PAWN_nameDef} has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. {PAWN_pronoun} will become unhappy if if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw. {PAWN_pronoun} never judges others by their appearance. -->
+  <Ascetic.degreeDatas.ascetic.description>{PAWN_nameDef} {PAWN_gender ? отказался : отказалась} от комфорта и наслаждений, выбрав жить в скромности и простоте. У н{PAWN_possessive} портится настроение, если {PAWN_possessive} спальня слишком роскошна. {PAWN_nameDef} также не любит изысканные блюда, предпочитая им простую, или даже сырую пищу. {PAWN_pronoun} никогда судит по внешнему виду.</Ascetic.degreeDatas.ascetic.description>
+  
+  <!-- EN: asexual -->
+  <Asexual.degreeDatas.asexual.label>асексуал</Asexual.degreeDatas.asexual.label>
+  <!-- EN: {PAWN_nameDef} has no sexual attraction to anyone at all. -->
+  <Asexual.degreeDatas.asexual.description>{PAWN_nameDef} не испытывает влечение к кому-либо.</Asexual.degreeDatas.asexual.description>
+  
+  <!-- EN: bisexual -->
+  <Bisexual.degreeDatas.bisexual.label>бисексуал</Bisexual.degreeDatas.bisexual.label>
+  <!-- EN: {PAWN_nameDef} is romantically attracted to both men and women. -->
+  <Bisexual.degreeDatas.bisexual.description>{PAWN_nameDef} испытывает влечение к людям обоих полов.</Bisexual.degreeDatas.bisexual.description>
   
   <!-- EN: bloodlust -->
   <Bloodlust.degreeDatas.bloodlust.label>кровожадность</Bloodlust.degreeDatas.bloodlust.label>
@@ -83,8 +93,8 @@
   
   <!-- EN: kind -->
   <Kind.degreeDatas.kind.label>доброта</Kind.degreeDatas.kind.label>
-  <!-- EN: {PAWN_nameDef} is a nice person. {PAWN_pronoun} has a tendency to brighten everyone else's day and never insults others. -->
-  <Kind.degreeDatas.kind.description>{PAWN_nameDef} — хороший человек. {PAWN_pronoun} скрашивет день окружающим и никогда не оскорбляет других.</Kind.degreeDatas.kind.description>
+  <!-- EN: {PAWN_nameDef} is exceptionally kind. {PAWN_pronoun} has a special way of using kind words to brighten someone's day. {PAWN_pronoun} never insults others, and never judges people by their appearance. -->
+  <Kind.degreeDatas.kind.description>{PAWN_nameDef} — исключительно {PAWN_gender ? добросердечен : добросердечна}. {PAWN_pronoun} умеет добрым словом скрасить день окружающим. Более того {PAWN_pronoun}, никогда не оскорбляет людей и не судит никого по внешности.</Kind.degreeDatas.kind.description>
   
   <!-- EN: masochist -->
   <Masochist.degreeDatas.masochist.label>мазохизм</Masochist.degreeDatas.masochist.label>
@@ -121,10 +131,20 @@
   <!-- EN: {PAWN_nameDef} doesn't need as much sleep as the average person. Whether {PAWN_pronoun}'s sleeping on a bed or on the ground, {PAWN_pronoun} will be fully rested in about two thirds the usual time. -->
   <QuickSleeper.degreeDatas.quick_sleeper.description>{PAWN_nameDef} не нуждается в большом количестве времени для сна. Независимо от того, спит {PAWN_pronoun} на кровати или на земле, {PAWN_nameDef} набирается сил в полтора раза быстрее, чем остальные.</QuickSleeper.degreeDatas.quick_sleeper.description>
   
+  <!-- EN: slow learner -->
+  <SlowLearner.degreeDatas.slow_learner.label>медленная обучаемость</SlowLearner.degreeDatas.slow_learner.label>
+  <!-- EN: {PAWN_nameDef} is slow on the uptake. {PAWN_pronoun} learns much slower than others. -->
+  <SlowLearner.degreeDatas.slow_learner.description>{PAWN_nameDef} медленно соображает, новые вещи даются {PAWN_objective} гораздо тяжелее остальных.</SlowLearner.degreeDatas.slow_learner.description>
+  
   <!-- EN: too smart -->
   <TooSmart.degreeDatas.too_smart.label>горе от ума</TooSmart.degreeDatas.too_smart.label>
   <!-- EN: {PAWN_nameDef} is too smart for {PAWN_possessive} own good. {PAWN_pronoun} learns everything much faster than everyone, but can be quite eccentric. -->
   <TooSmart.degreeDatas.too_smart.description>{PAWN_nameDef} страдает от собственного ума. {PAWN_pronoun} обучается всему гораздо быстрее остальных, но время от времени совершает разные чудачества.</TooSmart.degreeDatas.too_smart.description>
+  
+  <!-- EN: tortured artist -->
+  <TorturedArtist.degreeDatas.tortured_artist.label>непонятый творец</TorturedArtist.degreeDatas.tortured_artist.label>
+  <!-- EN: {PAWN_nameDef} feels alienated and misunderstood by other human beings. {PAWN_pronoun} will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break. -->
+  <TorturedArtist.degreeDatas.tortured_artist.description>{PAWN_nameDef} постоянно чувствует отчужденность и человеческое непонимание в любом начинании, и это {PAWN_possessive} расстраивает. Однако в среднем после каждого второго нервного срыва к н{PAWN_objective} приходит творческое вдохновение.</TorturedArtist.degreeDatas.tortured_artist.description>
   
   <!-- EN: tough -->
   <Tough.degreeDatas.tough.label>живучесть</Tough.degreeDatas.tough.label>
@@ -145,5 +165,5 @@
   <Wimp.degreeDatas.wimp.label>хлюпик</Wimp.degreeDatas.wimp.label>
   <!-- EN: {PAWN_nameDef} is weak and cowardly. Even a little pain will immobilize {PAWN_objective}. -->
   <Wimp.degreeDatas.wimp.description>{PAWN_nameDef} имеет слабый характер и низкий болевой порог. Даже лёгкая боль способна вывести {PAWN_possessive} из строя.</Wimp.degreeDatas.wimp.description>
-  
+
 </LanguageData>
