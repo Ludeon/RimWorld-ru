@@ -274,6 +274,67 @@
     <li>desc_sentence->Ни один [Enemy] не виден в поле зрения.</li>
   </Eclipse.rulePack.rulesStrings>
   
+  <!-- EN: journey offer -->
+  <EndGame_ShipEscape.label>сообщение о спасительном корабле</EndGame_ShipEscape.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] receiving a message from an old friend</li>
+    <li>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</li>
+    <li>image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group]</li>
+    <li>delivery_method->a [Animal]</li>
+    <li>delivery_method->a [PersonJob]</li>
+    <li>delivery_method->[Quantity_adjphrase] [Animal]s</li>
+    <li>transmission_source->a rarely-used frequency</li>
+    <li>transmission_source->an ancient transmitter</li>
+    <li>transmission_source->a low-power signal</li>
+    <li>transmission_source->a long-range signal</li>
+    <li>transmission_source->a mysterious signal</li>
+    <li>circumstance_phrase->standing alone near a [TerrainFeature]</li>
+    <li>circumstance_phrase->exploring a [TerrainFeature]</li>
+    <li>circumstance_phrase->tending crops</li>
+    <li>circumstance_phrase->a [Animal] wanders past</li>
+    <li>circumstance_phrase->playing [Game]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware.</li>
+    <li>desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly].</li>
+    <li>desc_sentence->A spectral [PersonJob] watches from the clouds.</li>
+    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</li>
+    <li>desc_sentence->A [Community] is visible in the far distance.</li>
+    <li>desc_sentence->A spaceship is visible in the far distance.</li>
+  -->
+  <EndGame_ShipEscape.rulePack.rulesStrings>
+    <li>tale_noun->как [PAWN_nameDef] получает сообщение от старого друга</li>
+    <li>tale_noun->как [Community], где живёт [PAWN_nameDef], получает предложение о далёком путешествии</li>
+    <li>image->, как [PAWN_nameDef], [circumstance_phrase], открывает письмо, которое доставил [delivery_method]</li>
+    <li>image->, как [PAWN_nameDef], [circumstance_phrase], использует кристалл данных, который доставил [delivery_method]</li>
+    <li>image->, как [PAWN_nameDef], [circumstance_phrase], разворачивает свиток, который доставил [delivery_method]</li>
+    <li>image->, как [PAWN_nameDef], [circumstance_phrase], принимает [transmission]</li>
+    <li>image->, как [PAWN_nameDef], [circumstance_phrase], перехватывает [transmission]</li>
+    <li>delivery_method->купец из каравана</li>
+    <li>delivery_method->[Animal]</li>
+    <li>delivery_method->[Outlander]</li>
+    <li>transmission->маломощный сигнал [transmission_source]</li>
+    <li>transmission->таинственный сигнал [transmission_source]</li>
+    <li>transmission->трансляцию [transmission_source]</li>
+    <li>transmission->передачу [transmission_source]</li>
+    <li>transmission->радиограмму [transmission_source]</li>
+    <li>transmission_source->от древнего передатчика</li>
+    <li>transmission_source->на редко используемой частоте</li>
+    <li>circumstance_phrase->убедившись в отсутствии свидетелей</li>
+    <li>circumstance_phrase->исследуя окрестности</li>
+    <li>circumstance_phrase->ухаживая за грядками</li>
+    <li>circumstance_phrase->играя в [Game]</li>
+    <li>circumstance_phrase->заперевшись в комнате</li>
+    <li>circumstance_phrase->[TransFriendly]</li>
+    <li>desc_sentence->Читая полученное сообщение, [PAWN_pronoun] принимает [AdjectiveAngsty] вид.</li>
+    <li>desc_sentence->Прочитав сообщение, [PAWN_pronoun] надолго задумывается над полученным предложением.</li>
+    <li>desc_sentence->[TransFriendly], [PAWN_pronoun] читает сообщение от начала до конца.</li>
+    <li>desc_sentence->Вдалеке можно увидеть космический корабль.</li>
+  </EndGame_ShipEscape.rulePack.rulesStrings>
+  
   <!-- EN: flashstorm -->
   <Flashstorm.label>грозовой шторм</Flashstorm.label>
   <!-- EN:
@@ -367,67 +428,6 @@
     <li>desc_sentence->Земля покрыта [Gore].</li>
     <li>desc_sentence->Все животные покинули этот район.</li>
   </Infestation.rulePack.rulesStrings>
-  
-  <!-- EN: journey offer -->
-  <EndGame_ShipEscape.label>сообщение о спасительном корабле</EndGame_ShipEscape.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] receiving a message from an old friend</li>
-    <li>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</li>
-    <li>image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group]</li>
-    <li>delivery_method->a [Animal]</li>
-    <li>delivery_method->a [PersonJob]</li>
-    <li>delivery_method->[Quantity_adjphrase] [Animal]s</li>
-    <li>transmission_source->a rarely-used frequency</li>
-    <li>transmission_source->an ancient transmitter</li>
-    <li>transmission_source->a low-power signal</li>
-    <li>transmission_source->a long-range signal</li>
-    <li>transmission_source->a mysterious signal</li>
-    <li>circumstance_phrase->standing alone near a [TerrainFeature]</li>
-    <li>circumstance_phrase->exploring a [TerrainFeature]</li>
-    <li>circumstance_phrase->tending crops</li>
-    <li>circumstance_phrase->a [Animal] wanders past</li>
-    <li>circumstance_phrase->playing [Game]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware.</li>
-    <li>desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly].</li>
-    <li>desc_sentence->A spectral [PersonJob] watches from the clouds.</li>
-    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</li>
-    <li>desc_sentence->A [Community] is visible in the far distance.</li>
-    <li>desc_sentence->A spaceship is visible in the far distance.</li>
-  -->
-  <EndGame_ShipEscape.rulePack.rulesStrings>
-    <li>tale_noun->как [PAWN_nameDef] получает сообщение от старого друга</li>
-    <li>tale_noun->как [Community], где живёт [PAWN_nameDef], получает предложение о далёком путешествии</li>
-    <li>image->, как [PAWN_nameDef], [circumstance_phrase], открывает письмо, которое доставил [delivery_method]</li>
-    <li>image->, как [PAWN_nameDef], [circumstance_phrase], использует кристалл данных, который доставил [delivery_method]</li>
-    <li>image->, как [PAWN_nameDef], [circumstance_phrase], разворачивает свиток, который доставил [delivery_method]</li>
-    <li>image->, как [PAWN_nameDef], [circumstance_phrase], принимает [transmission]</li>
-    <li>image->, как [PAWN_nameDef], [circumstance_phrase], перехватывает [transmission]</li>
-    <li>delivery_method->купец из каравана</li>
-    <li>delivery_method->[Animal]</li>
-    <li>delivery_method->[Outlander]</li>
-    <li>transmission->маломощный сигнал [transmission_source]</li>
-    <li>transmission->таинственный сигнал [transmission_source]</li>
-    <li>transmission->трансляцию [transmission_source]</li>
-    <li>transmission->передачу [transmission_source]</li>
-    <li>transmission->радиограмму [transmission_source]</li>
-    <li>transmission_source->от древнего передатчика</li>
-    <li>transmission_source->на редко используемой частоте</li>
-    <li>circumstance_phrase->убедившись в отсутствии свидетелей</li>
-    <li>circumstance_phrase->исследуя окрестности</li>
-    <li>circumstance_phrase->ухаживая за грядками</li>
-    <li>circumstance_phrase->играя в [Game]</li>
-    <li>circumstance_phrase->заперевшись в комнате</li>
-    <li>circumstance_phrase->[TransFriendly]</li>
-    <li>desc_sentence->Читая полученное сообщение, [PAWN_pronoun] принимает [AdjectiveAngsty] вид.</li>
-    <li>desc_sentence->Прочитав сообщение, [PAWN_pronoun] надолго задумывается над полученным предложением.</li>
-    <li>desc_sentence->[TransFriendly], [PAWN_pronoun] читает сообщение от начала до конца.</li>
-    <li>desc_sentence->Вдалеке можно увидеть космический корабль.</li>
-  </EndGame_ShipEscape.rulePack.rulesStrings>
   
   <!-- EN: manhunter pack -->
   <ManhunterPack.label>агрессивные животные</ManhunterPack.label>
