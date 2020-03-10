@@ -22,14 +22,30 @@
   <EmergencyWorkMarker>!</EmergencyWorkMarker>
   <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>Внимание: средний уровень требуемых навыков слишком низок.</SelectedWorkTypeWithVeryBadSkill>
+  <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
+  <PriorityOneDoneFirst>Приоритет 1 — высший. Приоритет 4 — низший.</PriorityOneDoneFirst>
+  <!-- EN: Will not do -->
+  <Priority0>Не выполнять</Priority0>
+  <!-- EN: Top priority -->
+  <Priority1>Высший приоритет</Priority1>
+  <!-- EN: High priority -->
+  <Priority2>Высокий приоритет</Priority2>
+  <!-- EN: Normal priority -->
+  <Priority3>Обычный приоритет</Priority3>
+  <!-- EN: Low priority -->
+  <Priority4>Низкий приоритет</Priority4>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
   <ManageOutfits>Управление гардеробом</ManageOutfits>
+  <!-- EN: Unchangeable -->
+  <Unchangeable>Нельзя заменить</Unchangeable>
   <!-- EN: Clr. forced -->
   <ClearForcedApparel>Сброс</ClearForcedApparel>
   <!-- EN: forced -->
   <ApparelForcedLower>(принудительно)</ApparelForcedLower>
+  <!-- EN: locked -->
+  <ApparelLockedLower>(заблокировано)</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>Принудительно носимая одежда</ForcedApparel>
   <!-- EN: Edit... -->
@@ -58,6 +74,8 @@
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>Это животное — хищник. Будучи голодным, оно будет охотиться на животных меньшего размера, возможно, включая людей.</IsPredator>
+  <!-- EN: This creature is currently in mental state: {0} -->
+  <IsInMentalState>Это животное в состоянии нервного срыва: {0}</IsInMentalState>
   
   <!-- Factions tab -->
   <!-- EN: Hostile -->
@@ -68,6 +86,8 @@
   <DefeatedLower>побеждена</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>Враги фракции {0}</HostileTo>
+  <!-- EN: Enemy of:  -->
+  <EnemyOf>Враги фракций: </EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Текущие отношения с этой фракцией.</CurrentGoodwillTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
@@ -148,13 +168,101 @@
   <ColonistsLaunched>Поселенцев отправлено в космос</ColonistsLaunched>
 
   <!-- Research tab -->
-  <!-- EN: project tech level -->
-  <ProjectTechLevel>технический уровень проекта</ProjectTechLevel>
-  <!-- EN: your tech level -->
-  <YourTechLevel>ваш технический уровень</YourTechLevel>
-  <!-- EN: cost multiplier -->
-  <ResearchCostMultiplier>множитель стоимости исследования</ResearchCostMultiplier>
+  <!-- EN: Research -->
+  <Research>Исследовать</Research>
+  <!-- EN: Researched -->
+  <Researched>Изучено</Researched>
+  <!-- EN: Unresearched -->
+  <Unresearched>Не изучено</Unresearched>
+  <!-- EN: Finished -->
+  <Finished>Завершено</Finished>
+  <!-- EN: In Progress -->
+  <InProgress>В процессе</InProgress>
+  <!-- EN: Locked -->
+  <Locked>Недоступно</Locked>
+  <!-- EN: Research prerequisites -->
+  <ResearchPrerequisites>Требуемые технологии</ResearchPrerequisites>
+  <!-- EN: Techprints required {0} / {1} -->
+  <ResearchTechprintRequirement>Требуемые чертежи {0} / {1}</ResearchTechprintRequirement>
+  <!-- EN: Insufficient techprints applied ({0} / {1}) -->
+  <InsufficientTechprintsApplied>Применены не все требуемые чертежи ({0} / {1})</InsufficientTechprintsApplied>
+  <!-- EN: Prerequisite(s) not completed -->
+  <PrerequisitesNotCompleted>Условия не выполнены</PrerequisitesNotCompleted>
+  <!-- EN: Required research bench -->
+  <RequiredResearchBench>Требуемый стол для исследований</RequiredResearchBench>
+  <!-- EN: Required research bench facilities -->
+  <RequiredResearchBenchFacilities>Требуемое оборудование стола для исследований</RequiredResearchBenchFacilities>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>Базовая стоимость проекта — {0}, а с вашим техническим уровнем она равна {1}.</ResearchCostComparison>
+  <!-- EN: Techprints are available from these factions via trade and quests: -->
+  <ResearchTechprintsFromFactions>Чертежи можно получить, выполняя задания или торгуя с этими фракциями:</ResearchTechprintsFromFactions>
+  <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
+  <TechLevelTooLow>Ваш технический уровень — {0}, а уровень этой технологии — {1}. Скорость исследования будет умножена на {2}.</TechLevelTooLow>
+
+  <!-- Quests tab -->
+  <!-- EN: Available -->
+  <AvailableQuests>Доступные</AvailableQuests>
+  <!-- EN: Active -->
+  <ActiveQuests>Активные</ActiveQuests>
+  <!-- EN: Historical -->
+  <HistoricalQuests>История</HistoricalQuests>
+  <!-- EN: no quest selected -->
+  <NoQuestSelected>задание не выбрано</NoQuestSelected>
+  <!-- EN: Appeared {0} days ago -->
+  <AppearedDaysAgo>Появилось ^Number( {0} | '# день' | '# дня' | '# дней')^ назад</AppearedDaysAgo>
+  <!-- EN: Appeared on {0} -->
+  <AppearedOn>Появилось {0}</AppearedOn>
+  <!-- EN: Accepted {0} ago -->
+  <AcceptedAgo>Принято {0} назад</AcceptedAgo>
+  <!-- EN: Accepted on {0} -->
+  <AcceptedOn>Принято {0}</AcceptedOn>
+  <!-- EN: Accepted {0} ago by {1} -->
+  <AcceptedAgoBy>Принято {0} назад поселенцем {1}</AcceptedAgoBy>
+  <!-- EN: Accepted on {0} by {1} -->
+  <AcceptedOnBy>Принято {0} поселенцем {1}</AcceptedOnBy>
+  <!-- EN: Expires in {0} -->
+  <QuestExpiresIn>Срок истекает через {0}</QuestExpiresIn>
+  <!-- EN: Expires on {0} -->
+  <QuestExpiresOn>Срок истекает {0}</QuestExpiresOn>
+  <!-- EN: Shuttle arrives in {0} -->
+  <ShuttleArrivesIn>Челнок прибывает через {0}</ShuttleArrivesIn>
+  <!-- EN: Shuttle arrives on {0} -->
+  <ShuttleArrivesOn>Челнок прибывает {0}</ShuttleArrivesOn>
+  <!-- EN: Shuttle departs in {0} -->
+  <ShuttleDepartsIn>Челнок отправляется через {0}</ShuttleDepartsIn>
+  <!-- EN: Shuttle departs on {0} -->
+  <ShuttleDepartsOn>Челнок отправляется {0}</ShuttleDepartsOn>
+  <!-- EN: Finished {0} ago -->
+  <QuestFinishedAgo>Завершено {0} назад</QuestFinishedAgo>
+  <!-- EN: Accept quest -->
+  <AcceptQuest>Принять задание</AcceptQuest>
+  <!-- EN: Accept with {0_labelShort} -->
+  <AcceptWith>Принять поселенцем {0_labelShort}</AcceptWith>
+  <!-- EN: The offer expired. -->
+  <QuestOutcomeInfo_OfferExpired>Срок предложения истёк.</QuestOutcomeInfo_OfferExpired>
+  <!-- EN: You completed this quest. -->
+  <QuestOutcomeInfo_UnknownOrSuccess>Вы выполнили это задание.</QuestOutcomeInfo_UnknownOrSuccess>
+  <!-- EN: You failed this quest. -->
+  <QuestOutcomeInfo_Failed>Вы провалили это задание.</QuestOutcomeInfo_Failed>
+  <!-- EN: Jump to {0} -->
+  <JumpToTargetCustom>Перейти к {0}</JumpToTargetCustom>
+  <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
+  <QuestChallengeRatingTip>Общая оценка сложности, показывающая, насколько трудным это задание будет для вашего текущего положения. За выполнение более сложных заданий предлагают больше вознаграждения.\n\n1: Простое\n2: Сложное\n3: Очень сложное\n4: Предельно сложное</QuestChallengeRatingTip>
+  <!-- EN: To accept this quest, you need -->
+  <QuestAcceptanceRequirementsDescription>Чтобы принять это задание, вам требуется</QuestAcceptanceRequirementsDescription>
+  <!-- EN: free bedrooms that satisfy the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfied>несколько спален, подобающих титулу</QuestBedroomRequirementsUnsatisfied>
+  <!-- EN: a free bedroom that satisfies the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfiedSingle>спальня, подобающая титулу</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a colonist with the title of {0}. -->
+  <QuestNoColonistWithTitle>поселенец с титулом {0}.</QuestNoColonistWithTitle>
+  <!-- EN: Accept {FACTION_royalFavorLabel} -->
+  <AcceptRoyalFavor>Принять {FACTION_royalFavorLabel}</AcceptRoyalFavor>
+  <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
+  <AcceptRoyalFavorDesc>Ожидаем ли мы получить {FACTION_royalFavorLabel} от {FACTION_name}.\n\nЕсли нет, то {FACTION_name} вознаградит нас иным способом.\n\nЭта опция будет влиять только на вновь полученные задания.</AcceptRoyalFavorDesc>
+  <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOn>Вы выбрали принять {FACTION_royalFavorLabel}.</RoyalFavorOn>
+  <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOff>Вы выбрали не принимать {FACTION_royalFavorLabel}.</RoyalFavorOff>
   
 </LanguageData>
