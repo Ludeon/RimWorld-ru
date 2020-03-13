@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>decreeIntro->[asker_nameDef], your [asker_bestRoyalTitle], has issued a royal decree.</li>
+    <li>decreeThreatInfo->If you fail to fulfill this decree within [decreeDays] days, [asker_nameDef] will start to become unhappy. [asker_possessive] anger will increase over time until the decree is satisfied.</li>
+  -->
+  <DecreeSetup.questDescriptionRules.rulesStrings>
+    <li>decreeIntro->[asker_nameDef], ваш [asker_bestRoyalTitle], издал королевский указ.</li>
+    <li>decreeThreatInfo->Если вам не удастся выполнить этот указ в течение [decreeDays_genitive], [asker_nameDef] будет [unhappy_gendered]. [asker_possessive] гнев будет усиливаться то тех пор, пока указ не будет выполнен.</li>
+    <li>unhappy_gendered->^Replace( [asker_pronoun] | 'он'-'недоволен' | 'она'-'недовольна')^</li>
+    <li>decreeDays_genitive->^Number( [decreeDays] | '# дня' | '# дней' | '# дней')^</li>
+  </DecreeSetup.questDescriptionRules.rulesStrings>
+  <!-- EN: [asker_nameDef]'s decree forgotten -->
+  <DecreeSetup.root.nodes.Delay.node.nodes.Letter.label.slateRef>Об указе [asker_nameDef] забыли</DecreeSetup.root.nodes.Delay.node.nodes.Letter.label.slateRef>
+  <!-- EN: [asker_nameDef] has forgotten about [asker_possessive] decree. -->
+  <DecreeSetup.root.nodes.Delay.node.nodes.Letter.text.slateRef>[asker_nameDef] ^Replace( [asker_pronoun] | 'он'-'забыл' | 'она'-'забыла')^ о своём указе.</DecreeSetup.root.nodes.Delay.node.nodes.Letter.text.slateRef>
+  <!-- EN: Decree cancelled -->
+  <DecreeSetup.root.nodes.Incompletable.node.nodes.Letter.label.slateRef>Указ отменён</DecreeSetup.root.nodes.Incompletable.node.nodes.Letter.label.slateRef>
+  <!-- EN: [asker_nameDef] has grudgingly cancelled the decree '[resolvedQuestName]' since it cannot be completed. -->
+  <DecreeSetup.root.nodes.Incompletable.node.nodes.Letter.text.slateRef>[asker_nameDef] неохотно ^Replace( [asker_pronoun] | 'он'-'отменил' | 'она'-'отменила')^ указ «[resolvedQuestName]», поскольку его невозможно выполнить.</DecreeSetup.root.nodes.Incompletable.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>
