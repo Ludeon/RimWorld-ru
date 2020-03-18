@@ -16,18 +16,28 @@
 
   <!-- EN: Version {0} -->
   <VersionIndicator>Версия {0}</VersionIndicator>
+  <!-- EN: Game version -->
+  <GameVersionIndicator>Версия игры</GameVersionIndicator>
   <!-- EN: development build -->
   <DevelopmentBuildLower>только для тестеров</DevelopmentBuildLower>
   <!-- EN: Compiled {0} -->
   <CompiledOn>Сборка от {0}</CompiledOn>
   <!-- EN: Logged into Steam as {0} -->
   <LoggedIntoSteamAs>Вы вошли в Steam как {0}</LoggedIntoSteamAs>
-
+  
+  <!-- ToCommaList() -->
+  <!-- EN: {0} and {1} -->
+  <ToCommaListAnd>{0} и {1}</ToCommaListAnd>
+  
   <!-- General-use words -->
   <!-- EN: Yes -->
   <Yes>Да</Yes>
   <!-- EN: No -->
   <No>Нет</No>
+  <!-- EN: new -->
+  <New>создать</New>
+  <!-- EN: Gender -->
+  <Gender>Род</Gender>
   <!-- EN: min -->
   <min>мин</min>
   <!-- EN: max -->
@@ -42,6 +52,8 @@
   <damage>урон</damage>
   <!-- EN: radius -->
   <radius>радиус</radius>
+  <!-- EN: expired -->
+  <expired>срок истёк</expired>
   <!-- EN: duration (days) -->
   <durationDays>продолжительность (дней)</durationDays>
   <!-- EN: interval (days) -->
@@ -66,6 +78,8 @@
   <Default>По умолчанию</Default>
   <!-- EN: Average -->
   <Average>В среднем</Average>
+  <!-- EN: Cause -->
+  <Cause>Причина</Cause>
   <!-- EN: ${0} -->
   <MoneyFormat>{0}₡</MoneyFormat>
 
@@ -79,6 +93,16 @@
   <MeatInsectDesc>Сырое мясо насекомого. При необходимости может быть приготовлено или даже съедено в сыром виде. Крайне неаппетитно.</MeatInsectDesc>
   <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
   <MeatHumanDesc>Сырая плоть человека. При необходимости может быть приготовлена или съедена в сыром виде, хотя большинству людей эта идея явно не понравится.</MeatHumanDesc>
+
+  <!-- EN: techprint ({PROJECT_label}) -->
+  <TechprintLabel>чертёж ({PROJECT_label})</TechprintLabel>
+  <!-- EN: This is a techprint for the research project '{PROJECT_label}'.
+\nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
+\nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
+\nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
+  <TechprintDesc>Это чертёж, относящийся к технологии «{PROJECT_label}».\nЧертежи могут представлять собой как обрывки бумаг, исписанные формулами и графиками, так и продвинутые автономные машины для обучения. Вне зависимости от формы, они дают исследователям уверенность в том, что технология реализуема, а также примерное представление о её конкретном применении в более развитых мирах.\nПри помощи чертежей исследователи получают фундаментальные знания о том, с какой стороны следует подходить к разработке данной технологии. Только после того, как будут найдены все необходимые чертежи, ваши исследователи смогут приступить к проработке деталей того, как можно применить эту технологию в вашем конкретном случае.\nПрименение каждого чертежа к соответствующей технологии обеспечивает выполнение половины оставшейся исследовательской работы. Вдобавок, исследователи получают прирост к интеллектуальным навыкам, даже для уже изученных технологий.</TechprintDesc>
+  <!-- EN: Unlocks -->
+  <Unlocks>Открывает</Unlocks>
 
   <!-- EN: {0} corpse -->
   <CorpseLabel>труп {0}</CorpseLabel>
@@ -134,5 +158,8 @@
   <West>Запад</West>
   <!-- EN: East -->
   <East>Восток</East>
+
+  <!-- EN: applying techprint ({0}) -->
+  <ApplyingTechprint>применяется чертёж ({0})</ApplyingTechprint>
   
 </LanguageData>
