@@ -16,6 +16,8 @@
   <LoadGame>Загрузить игру</LoadGame>
   <!-- EN: Options -->
   <Options>Настройки</Options>
+  <!-- EN: Mod -->
+  <Mod>Мод</Mod>
   <!-- EN: Mods -->
   <Mods>Моды</Mods>
   <!-- EN: Save translation report -->
@@ -82,6 +84,8 @@
   <PlanetRainfall>Общее количество осадков</PlanetRainfall>
   <!-- EN: Overall temperature -->
   <PlanetTemperature>Общая температура</PlanetTemperature>
+  <!-- EN: Population -->
+  <PlanetPopulation>Плотность населения</PlanetPopulation>
   <!-- EN: Low -->
   <PlanetRainfall_Low>Низкое</PlanetRainfall_Low>
   <!-- EN: Normal -->
@@ -94,6 +98,12 @@
   <PlanetTemperature_Normal>Умеренная</PlanetTemperature_Normal>
   <!-- EN: High -->
   <PlanetTemperature_High>Высокая</PlanetTemperature_High>
+  <!-- EN: Sparse -->
+  <PlanetPopulation_Low>Низкая</PlanetPopulation_Low>
+  <!-- EN: Normal -->
+  <PlanetPopulation_Normal>Умеренная</PlanetPopulation_Normal>
+  <!-- EN: Crowded -->
+  <PlanetPopulation_High>Высокая</PlanetPopulation_High>
   <!-- EN: Seed -->
   <WorldSeed>Зерно</WorldSeed>
   <!-- EN: Randomize seed -->
@@ -138,6 +148,8 @@
   <ConfirmDisableCoreMod>Вы уверены, что хотите отключить ядро игры? Игра полностью перестанет работать, если у вас нет другого мода, который заменит все его функции.\n\nПомните, другие модификации могут переопределять значения ядра с помощью таких же значений defName.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>Вы уверены, что хотите удалить {0}?</ConfirmDeleteMod>
+  <!-- EN: Auto-sort mods -->
+  <ResolveModOrder>Упорядочить моды</ResolveModOrder>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Деактивировать</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -158,16 +170,60 @@
   <WorkshopUploadSucceeded>Успешно загружено {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>Скачивается</Downloading>
+  <!-- EN: Display fulfilled requirements -->
+  <ModDisplayFulfilledRequirements>Показать все зависимости</ModDisplayFulfilledRequirements>
+  <!-- EN: Click to select. -->
+  <ModClickToSelect>Выберите мод</ModClickToSelect>
+  <!-- EN: Click to go to website. -->
+  <ModClickToGoToWebsite>Перейти на веб-сайт</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>Источник</Source>
-  <!-- EN: For version(s): {0} -->
-  <ModTargetVersion>Для версии(й): {0}</ModTargetVersion>
+  <!-- EN: For game version(s) -->
+  <ModTargetVersion>Для версии(й) игры</ModTargetVersion>
+  <!-- EN: ID -->
+  <ModPackageId>ID</ModPackageId>
+  <!-- EN: This must be loaded before: {0}. -->
+  <ModMustLoadBefore>Этот мод нужно загружать перед: {0}.</ModMustLoadBefore>
+  <!-- EN: This must be loaded after: {0}. -->
+  <ModMustLoadAfter>Этот мод нужно загружать после: {0}.</ModMustLoadAfter>
+  <!-- EN: Depends on: {0} -->
+  <ModDependsOn>Зависит от: {0}</ModDependsOn>
+  <!-- EN: Incompatible with: {0} -->
+  <ModIncompatibleWith>Несовместим с: {0}</ModIncompatibleWith>
+  <!-- EN: This mod is incompatible with: {0}. -->
+  <ModIncompatibleWithTip>Этот мод несовместим с: {0}</ModIncompatibleWithTip>
+  <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
+  <ModOrderingWarning>Этот мод загружается в неверном порядке относительно другого мода. Нажмите кнопку «Упорядочить моды» или отсортируйте их вручную.</ModOrderingWarning>
+  <!-- EN: Another active mod uses the same ID: {0}. -->
+  <ModWithSameIdAlreadyActive>Другой активный мод имеет тот же ID {0}.</ModWithSameIdAlreadyActive>
+  <!-- EN: There is a cyclic mod dependency starting with {0}. -->
+  <ModCyclicDependency>Обнаружена циклическая зависимость модов, начиная с {0}.</ModCyclicDependency>
+  <!-- EN: This requires following mods to work: {0}. -->
+  <ModUnsatisfiedDependency>Этот мод для нормальной работы требует наличие других модов: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Эта модификация была разработана не для этой версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>Эта модификация была разработана для более новой версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Модификации требуется указать информацию о совместимых версиях игры в файле About.xml. Например: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions>. Тег &lt;targetVersion> объявлен устаревшим. Для подробной информации просмотрите журнал.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <MessageModNeedsWellFormattedPackageId>Требуется правильно указать значение поля packageId в файле About.xml. Оно должно удовлетворять следующим требованиям:\n\n  - Только латинские буквы, цифры и символ точки.\n  - Пробелы не допускаются.\n  - Как минимум один символ точки.\n  - Нельзя ставить точку в начало, в конец, а также ставить несколько точек подряд.\n  - Не более 60 символов.\n  - Не допускается слово "Ludeon".</MessageModNeedsWellFormattedPackageId>
+  <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
+  <ModHadLoadFolderIssues>Этот мод имеет ошибки в файле LoadFolders.xml, их нужно устранить перед загрузкой: </ModHadLoadFolderIssues>
+  <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
+  <ModLoadFolderDoesntExist>Папка {0}, указанная для версии {1} не существует.</ModLoadFolderDoesntExist>
+  <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
+  <ModLoadFolderMalformedVersion>Некорректный номер версии, «{0}». Номер должен иметь следующий формат: &lt;Основной номер&gt;.&lt;Дополнительный номер&gt; (например, «1.1»)</ModLoadFolderMalformedVersion>
+  <!-- EN: The list of load folders for version {0} is empty. -->
+  <ModLoadFolderListEmpty>Список загружаемых папок для версии {0} пуст.</ModLoadFolderListEmpty>
+  <!-- EN: Version {0} lists the same folder more than once: {1}. -->
+  <ModLoadFolderRepeatingFolder>Для версии {0} одна и та же папка перечислена несколько раз: {1}.</ModLoadFolderRepeatingFolder>
+  <!-- EN: Invalid version order: {0} should come before {1}. -->
+  <ModLoadFolderOutOfOrder>Неверный порядок версий: {0} должна следовать перед {1}.</ModLoadFolderOutOfOrder>
+  <!-- EN: Invalid version order: 'default' should be defined first. -->
+  <ModLoadFolderOutOfOrderDefault>Неверный порядок версий: версия «default» должна идти первой.</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
+  <ModLoadFolderDefinesUnsupportedGameVersion>Версия {0} определена в LoadFolders.xml, но не перечислена в поле «supportedVersions» файла About.xml.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>Перетаскивайте, чтобы упорядочить.</DragToReorder>
   
@@ -316,10 +372,26 @@
   <Randomize>Случайно</Randomize>
   <!-- EN: age {0} -->
   <AgeIndicator>возраст {0}</AgeIndicator>
+  <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummary>{PAWN_race}, возраст {PAWN_ageFull}</PawnSummary>
+  <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummaryWithGender>{PAWN_gender}, {PAWN_race}, возраст {PAWN_ageFull}</PawnSummaryWithGender>
   <!-- EN: Backstory -->
   <Backstory>Биография</Backstory>
   <!-- EN: Incapable of -->
   <IncapableOf>Недоступно</IncapableOf>
+  <!-- EN: Abilities -->
+  <Abilities>Способности</Abilities>
+  <!-- EN: Caused by backstory: {0} -->
+  <IncapableOfTooltipBackstory>Из-за биографии: {0}</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title: {0} -->
+  <IncapableOfTooltipTitle>Из-за титула: {0}</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait: {0} -->
+  <IncapableOfTooltipTrait>Из-за черты: {0}</IncapableOfTooltipTrait>
+  <!-- EN: Caused by: {0} -->
+  <IncapableOfTooltipHediff>Из-за: {0}</IncapableOfTooltipHediff>
+  <!-- EN: Disabled work types: -->
+  <IncapableOfTooltipWorkTypes>Недоступные виды работ:</IncapableOfTooltipWorkTypes>
   <!-- EN: Traits -->
   <Traits>Черты характера</Traits>
   <!-- EN: Permanent mood effect -->
@@ -386,5 +458,8 @@
   <GeneratingMap>Генерация карты</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Генерация карты</GeneratingMapForNewEncounter>
+
+  <!-- EN: Click for more info -->
+  <ClickForMoreInfo>Нажмите для информации</ClickForMoreInfo>
 
 </LanguageData>
