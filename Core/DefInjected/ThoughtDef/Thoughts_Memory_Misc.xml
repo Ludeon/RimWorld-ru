@@ -45,9 +45,9 @@
   <FailedToRescueRelative.stages.failed_to_rescue.description>Дорогого мне человека не спасли. Как же так?! Мы же могли ему помочь!</FailedToRescueRelative.stages.failed_to_rescue.description>
   
   <!-- EN: freed from slavery -->
-  <FreedFromSlavery.stages.freed_from_slavery.label>TODO</FreedFromSlavery.stages.freed_from_slavery.label>
+  <FreedFromSlavery.stages.freed_from_slavery.label>{PAWN_gender ? освобождён : освобождена} из рабства</FreedFromSlavery.stages.freed_from_slavery.label>
   <!-- EN: I have been freed from slavery. I'm so thankful! -->
-  <FreedFromSlavery.stages.freed_from_slavery.description>TODO</FreedFromSlavery.stages.freed_from_slavery.description>
+  <FreedFromSlavery.stages.freed_from_slavery.description>Меня освободили из рабства! Я так {PAWN_gender ? благодарен : благодарна}!</FreedFromSlavery.stages.freed_from_slavery.description>
   
   <!-- EN: killed someone -->
   <KilledHumanlikeBloodlust.stages.killed_someone.label>убийство человека</KilledHumanlikeBloodlust.stages.killed_someone.label>
@@ -75,13 +75,9 @@
   <KnowGuestOrganHarvested.stages.someones_organ_harvested.description>У гостя или пленника удалили орган. Это ужасно, резать людей на части без их согласия.</KnowGuestOrganHarvested.stages.someones_organ_harvested.description>
   
   <!-- EN: prisoner sold -->
-  <KnowPrisonerSold.stages.prisoner_sold.label>TODO</KnowPrisonerSold.stages.prisoner_sold.label>
+  <KnowPrisonerSold.stages.prisoner_sold.label>продан пленник</KnowPrisonerSold.stages.prisoner_sold.label>
   <!-- EN: This colony sold a prisoner into slavery. That's a worrying thought. -->
-  <KnowPrisonerSold.stages.prisoner_sold.description>TODO</KnowPrisonerSold.stages.prisoner_sold.description>
-  
-  <!-- UNUSED -->
-  <KnowPrisonerSold.stages.a_prisoner_was_sold.label>продан пленник</KnowPrisonerSold.stages.a_prisoner_was_sold.label>
-  <KnowPrisonerSold.stages.a_prisoner_was_sold.description>Поселение продаёт пленных в рабство. Это тревожный сигнал.</KnowPrisonerSold.stages.a_prisoner_was_sold.description>
+  <KnowPrisonerSold.stages.prisoner_sold.description>Поселение продаёт пленных в рабство. Это тревожный сигнал.</KnowPrisonerSold.stages.prisoner_sold.description>
   
   <!-- EN: my organ harvested -->
   <MyOrganHarvested.stages.my_organ_harvested.label>вырезан орган</MyOrganHarvested.stages.my_organ_harvested.label>
@@ -119,9 +115,9 @@
   <PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>Мы изгнали пленного в таком состоянии, что у него практически нет шансов выжить.</PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>
   
   <!-- EN: prisoner released -->
-  <ReleasedHealthyPrisoner.stages.prisoner_released.label>TODO</ReleasedHealthyPrisoner.stages.prisoner_released.label>
+  <ReleasedHealthyPrisoner.stages.prisoner_released.label>пленник освобождён</ReleasedHealthyPrisoner.stages.prisoner_released.label>
   <!-- EN: We released a healthy prisoner. It feels good to know we even treat prisoners well. -->
-  <ReleasedHealthyPrisoner.stages.prisoner_released.description>TODO</ReleasedHealthyPrisoner.stages.prisoner_released.description>
+  <ReleasedHealthyPrisoner.stages.prisoner_released.description>Мы освободили пленника в здравии. Приятно осознавать. что даже о пленниках мы заботимся как следует.</ReleasedHealthyPrisoner.stages.prisoner_released.description>
   
   <!-- EN: rescued -->
   <Rescued.stages.rescued.label>спасение</Rescued.stages.rescued.label>
