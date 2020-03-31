@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Royal Titles -->
+  <!-- EN: The amount of {FACTION_royalFavorLabel} that your negotiator will personally receive as a result of this deal. -->
+  <RoyalFavorDescription>Количество </RoyalFavorDescription>
+  <!-- EN: Required apparel -->
+  <RoyalTitleTooltipRequiredApparel>Требуемые одеяния</RoyalTitleTooltipRequiredApparel>
+  <!-- EN: Minimum apparel quality -->
+  <RoyalTitleTooltipRequiredApparelQuality>Минимальное качество одеяний</RoyalTitleTooltipRequiredApparelQuality>
+  <!-- EN: Bedroom requirements -->
+  <RoyalTitleTooltipBedroomRequirements>Требования к спальне</RoyalTitleTooltipBedroomRequirements>
+  <!-- EN: Throneroom requirements -->
+  <RoyalTitleTooltipThroneroomRequirements>Требования к тронному залу</RoyalTitleTooltipThroneroomRequirements>
+  <!-- EN: Max allowed psycast level -->
+  <RoyalTitleTooltipMaxPsycastLevel>Максимально допустимый уроыень псикаста</RoyalTitleTooltipMaxPsycastLevel>
+  <!-- EN: The highest level of psycast that this title allows.\n\n{FACTION_name}'s laws prohibit using psycasts without a suitable title. Each time you perform an illegal psycast, there's a chance the psychic signature will be detected, leading to diplomatic consequences.\n\nPsychic signatures can be concealed with a psychic silencer implant. -->
+  <RoyalTitleTooltipMaxPsycastLevelDescription>Максимальный уровень псикаста, дозволенный владельцу этого титула.\n\n{FACTION_name} имеет законы, запрещающие использование псикаста без подходящего титула. Каждый раз, когда используется нелегальный псикаст, есть шанс того, что пси-подпись будет замечена, что приведет к дипломатическим последствиям.\n\n\Пси-подписи могут быть скрыты пси-глушителем.</RoyalTitleTooltipMaxPsycastLevelDescription>
+  <!-- EN: room area: {0} tiles -->
+  <RoomRequirementArea>площадь комнаты {0} клеток</RoomRequirementArea>
+  <!-- EN: room impressiveness -->
+  <RoomRequirementImpressiveness>внушительность комнаты</RoomRequirementImpressiveness>
+  <!-- EN: all floored -->
+  <RoomRequirementAllFloored>пол покрыт полностью</RoomRequirementAllFloored>
+  <!-- EN: all braziers must be lit -->
+  <RoomRequirementAllBraziersMustBeLit>все жаровни должны быть зажжены</RoomRequirementAllBraziersMustBeLit>
+  <!-- EN: all fine floored -->
+  <RoomRequirementAllFineFloored>хорошо отделанный пол</RoomRequirementAllFineFloored>
+  <!-- EN: Holders of this title must be covered in some combination of -->
+  <RoyalTitleRequiredApparelStatDescription>Владельцы данного титула должны быть одеты во что-то из этого</RoyalTitleRequiredApparelStatDescription>
+  <!-- EN: Any powered armor -->
+  <ApparelRequirementAnyPowerArmor>Любая силовая броня</ApparelRequirementAnyPowerArmor>
+  <!-- EN: Any psycaster apparel -->
+  <ApparelRequirementAnyPsycasterApparel>Любые псикастеровые одеяния</ApparelRequirementAnyPsycasterApparel>
+  <!-- EN: Disabled work types -->
+  <DisabledWorkTypes>Отключенные виды работы</DisabledWorkTypes>
+  <!-- EN: Allowed foods -->
+  <RoyalTitleRequiredMeals>Разрешенная еда</RoyalTitleRequiredMeals>
+  <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
+  <RoyalTitleRequiredMealsDesc>Владельцы данного титула будет есть исключительно эту еду, если только они не голодают или не на караване.</RoyalTitleRequiredMealsDesc>
+  
+  <!-- Royal implants -->
+  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of the {IMPLANT} without detection. -->
+  <RoyalImplantIllegalUseWarning>{FACTION_name} имеет закон, согласно которому только носитель титула {TITLE} может легально использовать {IMPLANT}.\n\n{VIOLATIONTRIGGER}, есть шанс того, что {FACTION_name} заметит пси-подпись импланта. Это повлечет за собой дипломатические последствия. \n\nПси-глушитель позволит использовать {IMPLANT} без обнаружения. </RoyalImplantIllegalUseWarning>
+  <!-- EN: Install this implant anyway? -->
+  <RoyalImplantInstallConfirmation>Все равно вживить этот имплант?</RoyalImplantInstallConfirmation>
+  <!-- EN: Upgrade this implant anyway? -->
+  <RoyalImplantUpgradeConfirmation>Все равно улучшить этот имплант?</RoyalImplantUpgradeConfirmation>
+  <!-- EN: Each time {PAWN_labelShort} performs a psycast above the allowed level -->
+  <PsychicAmplifierViolationTrigger>Какждый раз, когда {PAWN_labelShort} совершает псикаст выше дозволенного уровня.</PsychicAmplifierViolationTrigger>
+
+  <!-- Royal weapons -->
+  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use {WEAPON_indefinite}.\n\nEach time {PAWN_labelShort} attacks with a bladelink weapon, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of {WEAPON_definite} without detection. -->
+  <RoyalWeaponIllegalUseWarning>{FACTION_name} имеет закон, согласно которому только носитель титула {TITLE} может легально использовать {WEAPON_indefinite}.\n\nКаждый раз, когда {PAWN_labelShort} аттакует оружием с технологией ососбой связи, есть шанс того, что {FACTION_name} заметит его пси-подпись. Это повлечет за собой дипломатические последствия. \n\nПси-глушитель позволит использовать {WEAPON_definite} без обнаружения.</RoyalWeaponIllegalUseWarning>
+  <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
+  <BladelinkEquipWarning>Личность данного оружия не позволит ему находиться в чужих руках, после того как наладит особую связь с владельцем.</BladelinkEquipWarning>
+  <!-- EN: Are you sure you want to equip this item? -->
+  <RoyalWeaponEquipConfirmation>Вы уверены, что хотите снарядить данный предмет?</RoyalWeaponEquipConfirmation>
+  
+  <!-- Psycasts -->
+  <!-- EN: Target is psychically deaf. -->
+  <AbilityTargetPsychicallyDeaf>Цель психически глуха</AbilityTargetPsychicallyDeaf>
+  <!-- EN: Amplifier level -->
+  <PsycastRequiredAmplifierLevel>Уровень усилителя</PsycastRequiredAmplifierLevel>
+  <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
+  <PsycastIsIllegal>Это действие нелегально для {PAWN_posessive}. Требуется титул {TITLE}  </PsycastIsIllegal>
+
+</LanguageData>
