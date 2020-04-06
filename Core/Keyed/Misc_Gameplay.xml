@@ -44,6 +44,8 @@
   <NotEnoughStoredLower>недостаточно на складе</NotEnoughStoredLower>
   <!-- EN: nothing -->
   <NothingLower>ничего</NothingLower>
+  <!-- EN: Nothing -->
+  <Nothing>Ничего</Nothing>
   <!-- EN: Adapted -->
   <Adapted>Устойчивость</Adapted>
   <!-- EN: fresh -->
@@ -64,6 +66,12 @@
   <MissingMedicalBillIngredient>нет {0}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
   <Immunity>Иммунитет выработан</Immunity>
+  <!-- EN: {0} days to recover -->
+  <DaysToRecover>^Number( {0} | '# день' | '# дня' | '# дней')^ до восстановления</DaysToRecover>
+  <!-- EN: Ineffective -->
+  <Ineffective>Неэффективно</Ineffective>
+  <!-- EN: illegal -->
+  <Illegal>незаконно</Illegal>
   <!-- EN: Race -->
   <Race>Раса</Race>
   <!-- EN: Description -->
@@ -78,6 +86,10 @@
   <ThingInfo>Информация</ThingInfo>
   <!-- EN: Drop -->
   <DropThing>Выкинуть</DropThing>
+  <!-- EN: Temporary faction members will not drop their items. -->
+  <DropThingLodger>Временные члены фракции не будут выкидывать свои вещи.</DropThingLodger>
+  <!-- EN: This person refuses to drop this. -->
+  <DropThingLocked>Этот человек отказывается выкидывать эту вещь.</DropThingLocked>
   <!-- EN: Rename -->
   <Rename>Переим.</Rename>
   <!-- EN: Rename animal -->
@@ -120,6 +132,8 @@
   <DormantHiveNotReproducing>Не воспроизводится: в спячке.</DormantHiveNotReproducing>
   <!-- EN: Next {0} in -->
   <NextSpawnedItemIn>След. {0} через</NextSpawnedItemIn>
+  <!-- EN: Next resource in -->
+  <NextSpawnedResourceIn>След. порция ресурса через</NextSpawnedResourceIn>
   <!-- EN: Broken down -->
   <BrokenDown>Неисправно</BrokenDown>
   <!-- EN: (bond) -->
@@ -164,7 +178,7 @@
   <CaravanDaysOfFoodRot>Еды хватит на ^Number( {0} | '# день' | '# дня' | '# дней')^, начнёт портиться через ^Number( {1} | '# день' | '# дня' | '# дней')^</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
   <AllCaravanMembersDowned>Остановка: все члены сражены.</AllCaravanMembersDowned>
-  <!-- EN: Stopped because: Everyone has a mental break. -->
+  <!-- EN: Stopped because: Everyone is in a mental break. -->
   <AllCaravanMembersMentalBreak>Остановка: у всех нервный срыв.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{1}, {0} человек</CaravanColonistsCount>
@@ -208,6 +222,8 @@
   <CaravanAttacking>Нападает на {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>Предлагает подарок {0}.</CaravanOfferingGifts>
+  <!-- EN: Trading with {0} -->
+  <CaravanTrading>Торгует с {0}</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Снято с трупа.</WasWornByCorpse>
   <!-- EN: T -->
@@ -262,10 +278,16 @@
   <EquippedBy>оружие {1_labelShort}</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
   <QuestTargetDestroyInspectString>Фракция {0} хочет, чтобы этот лагерь был уничтожен.\n    Награда: {1} ({2})</QuestTargetDestroyInspectString>
+  <!-- EN: {0} wants this destroyed. -->
+  <QuestTargetDestroyInspectStringShort>Фракция {0} хочет, чтобы этот лагерь был уничтожен.</QuestTargetDestroyInspectStringShort>
+  <!-- EN: Departing on shuttle in {0} -->
+  <ShuttleDelayInspectString>Отправляется на челноке через {0}</ShuttleDelayInspectString>
+  <!-- EN: Departing in {0} -->
+  <ShuttleLeaveDelayInspectString>Отправляется через {0}</ShuttleLeaveDelayInspectString>
+  <!-- EN: Should depart on shuttle -->
+  <ShouldDepartOnShuttleInspectString>Должен улететь на челноке</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>Осталось времени: {0}</WorldObjectTimeout>
-  <!-- EN: Contents: {0} ({1}) -->
-  <ItemStashContents>Содержимое: {0} ({1})</ItemStashContents>
   <!-- EN: Click to sort by this column. -->
   <ClickToSortByThisColumn>Нажмите для сортировки по этому столбцу.</ClickToSortByThisColumn>
   <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
@@ -276,12 +298,8 @@
   <AllowedAreaShiftClickTip>Shift + щелчок: Ограничить всех домашней областью\nShift + правый щелчок: Снять ограничения для всех</AllowedAreaShiftClickTip>
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Shift + щелчок: Отметить всё\nShift + правый щелчок: Снять все отметки</CheckboxShiftClickTip>
-  <!-- EN: Known threat: {0} -->
-  <KnownSiteThreat>Известная угроза: {0}.</KnownSiteThreat>
-  <!-- EN: Known threats: {0} -->
-  <KnownSiteThreats>Известные угрозы: {0}.</KnownSiteThreats>
-  <!-- EN: Threats: Unknown -->
-  <KnownSiteThreatsNone>Угрозы неизвестны.</KnownSiteThreatsNone>
+  <!-- EN: {0} {1} -->
+  <KnownSiteThreatEnemyCountAppend>{1} ({0} шт)</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
   <SkillRequirements>Требования</SkillRequirements>
   <!-- EN: Products -->
@@ -300,8 +318,8 @@
   <CaravanMovementSpeedFull>Скорость движения каравана</CaravanMovementSpeedFull>
   <!-- EN: downed -->
   <DownedLower>сражён</DownedLower>
-  <!-- EN: carried -->
-  <Carried>на носилках</Carried>
+  <!-- EN: resting -->
+  <Carried>отдыхает</Carried>
   <!-- EN: Avg. person move speed -->
   <AverageCaravanMemberMoveSpeed>Ср. скорость человека</AverageCaravanMemberMoveSpeed>
   <!-- EN: Multiplier for carried mass: {0} -->
@@ -340,12 +358,14 @@
   <EnterCooldown>Вы не сможете вновь посетить это место ещё ^Number( {0} | '# день' | '# дня' | '# дней')^.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Караван</Caravan>
-  <!-- EN: there may be danger there -->
+  <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>там может быть опасно</HiddenOrNoSitePartDescription>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>залежи ресурса: {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>не выбрана технология для исследования</NoActiveResearchProjectToFinish>
+  <!-- EN: Cannot research: No research bench -->
+  <CannotResearchNoBench>Исследование невозможно: нет стола для исследований</CannotResearchNoBench>
   <!-- EN: turret -->
   <Turret>турель</Turret>
   <!-- EN: turrets -->
@@ -356,6 +376,76 @@
   <Mortars>миномёты</Mortars>
   <!-- EN: enemy -->
   <Enemy>враги</Enemy>
+  <!-- EN: location -->
+  <Location>место</Location>
+  <!-- EN: animals -->
+  <AnimalsLower>животные</AnimalsLower>
+  <!-- EN: {0} x{1} -->
+  <FilthLabel>{0} x{1}</FilthLabel>
+  <!-- EN: {0} of {1} x{2} -->
+  <FilthLabelWithSource>{0} от {1} x{2}</FilthLabelWithSource>
+  <!-- EN: Required -->
+  <Required>Требуется</Required>
+  <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
+  <GiveGiftViaTransportPodsTradeRequestWarning>Внимание: вы не сможете завершить сделку при помощи транспортных капсул.\nЕсли вы отправите товары таким способом, поселение воспримет их как подарок и не даст ничего взамен.\n\nЧтобы совершить сделку, нужно доставить весь товар караваном!\n\nВы уверены, что хотите отправить погруженные товары в подарок фракции?</GiveGiftViaTransportPodsTradeRequestWarning>
+  <!-- EN: prisoner -->
+  <PrisonerLower>пленник</PrisonerLower>
+  <!-- EN: prisoners -->
+  <PrisonersLower>пленники</PrisonersLower>
+  <!-- EN: Complete -->
+  <Complete>Завершено</Complete>
+  <!-- EN: Click to view this quest in quests tab -->
+  <ClickToViewInQuestsTab>Нажмите, чтобы перейти к этому заданию</ClickToViewInQuestsTab>
+  <!-- EN: Mood -->
+  <Mood>Настроение</Mood>
+  <!-- EN: Quest -->
+  <Quest>Задание</Quest>
+  <!-- EN: Brings raids every {0} -->
+  <BringsRaidsEvery>Совершает налёты каждые {0}</BringsRaidsEvery>
+  <!-- EN: Generates {0} every {1} -->
+  <GeneratesResourcesEvery>Производит {0} каждые {1}</GeneratesResourcesEvery>
+  <!-- EN: Foliage kill radius -->
+  <FoliageKillRadius>Радиус уничтожения растений</FoliageKillRadius>
+  <!-- EN: Radius expand rate -->
+  <RadiusExpandRate>Скорость расширения</RadiusExpandRate>
+  <!-- EN: View: {0} -->
+  <ViewHyperlink>Перейти к: {0}</ViewHyperlink>
+  <!-- EN: Detonates in {0} days -->
+  <DetonationCountdown>Взорвётся через ^Number( {0} | '# день' | '# дня' | '# дней')^</DetonationCountdown>
+  <!-- EN: Large explosion if damaged -->
+  <ExplosionOnDamageWarning>При повреждении произойдёт мощный взрыв</ExplosionOnDamageWarning>
+  <!-- EN: Mech cluster -->
+  <MechCluster>Кластер механоидов</MechCluster>
+  <!-- EN: Spawning in {0} -->
+  <SpawningNextPawnIn>Расплодится через {0}</SpawningNextPawnIn>
+  <!-- EN: {0} assembly completes in {1} -->
+  <MechAssemblyCompleteIn>Сборка {0} завершится через {1}</MechAssemblyCompleteIn>
+  <!-- EN: produced -->
+  <ThingsProduced>произведено</ThingsProduced>
+  <!-- EN: harvested -->
+  <PlantsHarvested>собрано</PlantsHarvested>
+  <!-- EN: {0} killed -->
+  <PawnsKilled>{0} убито</PawnsKilled>
+  <!-- EN: Sent {0}, will return in {1} -->
+  <PawnsLent>Отправлены {0}, вернутся через {1}</PawnsLent>
+  <!-- EN: Dormant -->
+  <DormantCompInactive>Неактивно</DormantCompInactive>
+  <!-- EN: Sealed -->
+  <DormantCompSealed>Запечатано</DormantCompSealed>
+  <!-- EN: Ready to drop mechanoids -->
+  <DormantCompBeacon>Готов к вызову механоидов</DormantCompBeacon>
+  <!-- EN: Expired -->
+  <DormantCompExpired>Срок истёк</DormantCompExpired>
+  <!-- EN: Activates in {0} -->
+  <SendSignalOnCountdownCompTime>Активируется через {0}</SendSignalOnCountdownCompTime>
+  <!-- EN: Psychic entropy -->
+  <PsychicEntropy>Психоэнтропия</PsychicEntropy>
+  <!-- EN: {0} pain focus -->
+  <PsychicEntropyPainFocus>{0} болевой концентрации</PsychicEntropyPainFocus>
+  <!-- EN: radius {0} -->
+  <ConditionCauserRadius>радиус {0}</ConditionCauserRadius>
+  <!-- EN: {0} left -->
+  <DurationLeft>осталось {0}</DurationLeft>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -400,6 +490,8 @@
   <TextMote_ConstructionFail>Не получилось\nпостроить</TextMote_ConstructionFail>
   <!-- EN: Dodge -->
   <TextMote_Dodge>Уклонение</TextMote_Dodge>
+  <!-- EN: Immune -->
+  <TextMote_Immune>Иммунитет</TextMote_Immune>
   <!-- EN: {0} tended -->
   <TextMote_Tended>{0} вылечено</TextMote_Tended>
   <!-- EN: low mood -->
@@ -466,6 +558,8 @@
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
   <ReportHaulingTo>несёт {THING_label} на {DESTINATION}</ReportHaulingTo>
+  <!-- EN: burying {THING_label} in {DESTINATION}. -->
+  <ReportHaulingToGrave>хоронит {THING_label} в {DESTINATION}.</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
   <ReportHauling>несёт {1_label}</ReportHauling>
   <!-- EN: hauling. -->
@@ -506,6 +600,14 @@
   <LordReportAttendingMarriageCeremony>Посещает церемонию бракосочетания</LordReportAttendingMarriageCeremony>
   <!-- EN: Attending party -->
   <LordReportAttendingParty>Посещает вечеринку</LordReportAttendingParty>
+  <!-- EN: Attending concert -->
+  <LordReportAttendingConcert>Слушает концерт</LordReportAttendingConcert>
+  <!-- EN: Holding a concert -->
+  <LordReportHoldingConcert>Проводит концерт</LordReportHoldingConcert>
+  <!-- EN: Giving a speech -->
+  <LordReportGivingSpeech>Произносит речь</LordReportGivingSpeech>
+  <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
+  <LordReportListeningSpeech>Слушает речь {ORGANIZER_labelShort}</LordReportListeningSpeech>
   <!-- EN: Forming caravan -->
   <LordReportFormingCaravan>Снаряжает караван</LordReportFormingCaravan>
 
@@ -536,6 +638,8 @@
   <!-- Generated recipes -->
   <!-- EN: make {0} -->
   <RecipeMake>сделать {0}</RecipeMake>
+  <!-- EN: Make {0}. -->
+  <RecipeMakeDescription>Сделать {0}</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
   <RecipeMakeJobString>Делает {0}</RecipeMakeJobString>
   <!-- EN: administer {0} -->
@@ -550,6 +654,8 @@
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
   <ThoughtExpiresIn>Истечёт через: {0}</ThoughtExpiresIn>
+  <!-- EN: thought disabled by -->
+  <ThoughtNullifiedBy>мысль не возникает из-за</ThoughtNullifiedBy>
   <!-- EN: Starts expiring in: {0} -->
   <ThoughtStartsExpiringIn>Начнёт истекать через: {0}</ThoughtStartsExpiringIn>
   <!-- EN: Finishes expiring in: {0} -->
@@ -566,10 +672,20 @@
   <PawnMainDescGendered>^Replace( {PAWN_gender} {1} | 'мужского пола {1}'-'мужчина, {1}' | 'женского пола {1}'-'женщина, {1}' | 'самец {1}'-'{1} (самец)' | 'самка {1}'-'{1} (самка)')^</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} фракции {1}</PawnMainDescFactionedWrap>
+  <!-- EN: {0} in {1} -->
+  <PawnTitleDescWrap>{0} в {1}</PawnTitleDescWrap>
+  <!-- EN: {0} under {1} -->
+  <PawnMainDescUnderFactionedWrap>{0} (вассал {1})</PawnMainDescUnderFactionedWrap>
+  <!-- EN: {0} under {1}\nHome faction: {2} -->
+  <PawnMainDescTempFactionedWrap>{0} (вассал {1})\nДомашняя фракция: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective}, {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Фракция</Faction>
+  <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
+  <FactionDesc>Фракция, к которой в данный момент принадлежит {PAWN_labelShort}.</FactionDesc>
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
+  <ExtraFactionDesc>Фракция, к которой изначально принадлежит {PAWN_labelShort}. {PAWN_pronoun} перейдёт в свою домашнюю фракцию, как только покинет текущую фракцию.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>Оружие</Equipped>
   <!-- EN: nothing -->
@@ -600,8 +716,8 @@
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
   <SelectNextInSquareTip>Выбрать другой предмет на той же клетке.\n\nКлавиша: {0}\n\nТо же самое можно сделать, щёлкнув по этой клетке ещё раз.</SelectNextInSquareTip>
-  <!-- EN: View information about this object. -->
-  <DefInfoTip>Просмотр информации о данном объекте.</DefInfoTip>
+  <!-- EN: View information. -->
+  <DefInfoTip>Показать подробную информацию</DefInfoTip>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -611,7 +727,7 @@
 
   <!-- like 'Blood of John' -->
   <!-- EN: of -->
-  <OfLower></OfLower>
+  <OfLower />
 
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
@@ -761,10 +877,12 @@
   <!-- EN: Toggle visibility of roofs. -->
   <ShowRoofOverlayToggleButton>Отображение крыш.</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>Отображение плодородности почвы.\n\nПоказывает плодородность почвы, которая влияет на то, какие растения можно посадить и как быстро они будут расти.</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>Отображение плодородности.\n\nПоказывает, насколько плодородны те или иные участки грунта. Плодородность влияет на виды высаживаемых растений и скорость их роста.</ShowFertilityOverlayToggleButton>
+  <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
+  <ShowTerrainAffordanceOverlayToggleButton>Отображение прочности поверхности.\n\nВлияет на то, какие виды сооружений допускается ставить на те или иные участки поверхности.\n\nНапример, некоторые виды грунта способны выдерживать только лёгкие или средние сооружения, но не тяжёлые. Мосты можно строить только над водой.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
   <LockNorthUpToggleButton>Зафиксировать камеру так, чтобы север был сверху.</LockNorthUpToggleButton>
-  <!-- EN: Toggle day/night lighting system. -->
+  <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>Отображение зон дня и ночи.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
   <ShowExpandingIconsToggleButton>Отображение раскрываемых иконок вместо обычных для далёких объектов.</ShowExpandingIconsToggleButton>
@@ -786,6 +904,12 @@
   <TimeLeft>времени осталось</TimeLeft>
   <!-- EN: impact date -->
   <ImpactDate>дата удара</ImpactDate>
+  <!-- EN: Source unknown. -->
+  <SourceUnknown>Источник неизвестен.</SourceUnknown>
+  <!-- EN: Click to jump to the source. -->
+  <ClickToJumpToSource>Нажмите для перехода к источнику.</ClickToJumpToSource>
+  <!-- EN: Caused by quest: {0} -->
+  <CausedByQuest>Вызвано заданием «{0}»</CausedByQuest>
 
   <!-- Building placement -->
   <!-- EN: You have no usable materials from which to build this. -->
@@ -846,18 +970,24 @@
   <ShipReportHibernating>Модуль неактивен</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Модуль не готов</ShipReportNotReady>
-  <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>Шарлон Вайтстоун готов приступить к запуску реактора.\n\nОн предупреждает, что процесс займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание разного рода налётчиков и охотников за сокровищами. Убедитесь, что готовы к обороне.</HibernateWarning>
+  <!-- EN: <Name>Charlon Whitestone</Name> is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <HibernateWarning>&lt;Name&gt;Шарлон Вайтстоун&lt;/Name&gt; готов приступить к запуску реактора.\n\nОн предупреждает, что процесс займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание разного рода налётчиков и охотников за сокровищами. Убедитесь, что готовы к обороне.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>Реактор готов к процедуре запуска.\n\nЭтот процесс займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание разного рода налётчиков и охотников за сокровищами. Убедитесь, что готовы к обороне.</HibernateWarningStandalone>
-  <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>Шарлон Вайтстоун готов приступить к запуску реактора. Он предупреждает, что процесс займёт около 15 дней.</HibernateWarningPacifist>
+  <!-- EN: <Name>Charlon Whitestone</Name> is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
+  <HibernateWarningPacifist>&lt;Name&gt;Шарлон Вайтстоун&lt;/Name&gt; готов приступить к запуску реактора. Он предупреждает, что процесс займёт около 15 дней.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>Реактор готов к процедуре запуска. Этот процесс займёт около 15 дней.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
+  <!-- EN: neurotrainer ({0}) -->
+  <SkillNeurotrainerLabel>нейротренер ({0})</SkillNeurotrainerLabel>
+  <!-- EN: Use skill neurotrainer to learn {0} -->
+  <SkillNeurotrainerUseLabel>Использовать нейротренер, чтобы изучить {0}</SkillNeurotrainerUseLabel>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
+  <SkillNeurotrainerDescription>Сыворотка с дозой механитов, запрограммированных на обучение конкретному навыку.\n\nСыворотка вводится через глазное яблоко. После того, как механиты попадают в мозг пациента, они быстро улучшают его способности в определённой области, при необходимости преобразуя себя в нервную ткань.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <NeurotrainerUsed>{USER_labelShort} {USER_gender ? использовал : использовала} нейротренер и {USER_gender ? улучшил : улучшила} свой навык {1} с уровня {2} до уровня {3}.</NeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort} {USER_gender ? использовал : использовала} нейротренер и {USER_gender ? улучшил : улучшила} свой навык {1} с уровня {2} до уровня {3}.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -904,12 +1034,18 @@
   <!-- Game over -->
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>Все поселенцы либо мертвы, либо ушли. Конец истории.\n\nВозможно, кто-то другой сможет найти применение руинам этого места.</GameOverEveryoneDead>
-  <!-- EN: You've launched the ship! These colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nYour AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunched>Вы запустили корабль! Эти поселенцы спаслись:\n\n{0}\nЭти поселенцы остались:\n\n{1}\nВаш ИИ постарается направить корабль в безопасное место. Он может найти для вас процветающую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая пока кто-нибудь не выстроит здесь новый технологичный мир.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunched>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>Со скоростью, близкой к световой, разрушитель планет врезался в поверхность с силой триллиона водородных бомб. Подобно наполненному водой воздушному шарику, простреленному из ружья, этот мир расплавился от столкновения и разбрызгал свои внутренности по космосу.\n\nЧасти {0} теперь составляют пояс астероидов. Всё остальное составляет расплавленный радиоактивный адский пейзаж, весь покрытый волнами землетрясенияй, на километры вздымающих и бросающих вниз породу.\n\nВы не выжили.</GameOverPlanetkillerImpact>
-  <!-- EN: As you get on board the ship you are greeted by the crew with open arms. They seem to be glad they could take at least one more person with them.\n\nThese colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nThe AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nAs you enter the cryptosleep pod you hesitate for a moment and feel slightly uncertain about whether you can trust these people.\n\nYou'll find out when you wake up. -->
-  <GameOverArrivedAtJourneyDestination>Как только вы взошли на борт, вас приняли с распростёртыми объятиями. Похоже, эти люди рады тому, что смогут взять с собой больше человек.\n\nЭти поселенцы покинули планету:\n\n{0}\nЭти поселенцы оставлены:\n\n{1}\nИИ постарается направить корабль в безопасное место. Он может найти для вас процветающую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая пока кто-нибудь не выстроит здесь новый технологичный мир.\n\nЛожась в саркофаг криптосна, вы около секунды колеблетесь в неуверенности: стоит ли доверять этим людям?\n\nВы узнаете об этом, когда проснётесь.</GameOverArrivedAtJourneyDestination>
+  <!-- EN: You've launched the ship! -->
+  <GameOverShipLaunchedIntro>Вы запустили корабль!</GameOverShipLaunchedIntro>
+  <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
+  <GameOverShipLaunchedEnding>Ваша ИИ-личность постарается направить корабль в безопасное место. Она может найти для вас процветающую планету в этой системе. Или может предпринять многовековое путешествие к другой звезде. Или даже решить спрятаться под лёд на астероиде на несколько тысяч лет, ожидая пока кто-нибудь не выстроит здесь новый мир-утопию.\n\nВы узнаете об этом, когда проснётесь.</GameOverShipLaunchedEnding>
+  <!-- EN: These colonists escaped:\n\n{0} -->
+  <GameOverColonistsEscaped>Эти поселенцы спаслись:\n\n{0}</GameOverColonistsEscaped>
+  <!-- EN: These colonists were left behind:\n\n{0} -->
+  <GameOverColonistsLeft>Эти поселенцы остались:\n\n{0}</GameOverColonistsLeft>
+  <!-- EN: In memory of:\n -->
+  <GameOverInMemoryOf>Посвящается памяти:\n</GameOverInMemoryOf>
   <!-- EN: Keep playing -->
   <GameOverKeepPlaying>Продолжить играть</GameOverKeepPlaying>
   <!-- EN: Main menu -->
@@ -1050,5 +1186,75 @@
   <ClickToSeeAvailableOrders_WorldObject>{0}: Узнать о возможных действиях...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
   <ClickToSeeAvailableOrders_Empty>Узнать о возможных действиях...</ClickToSeeAvailableOrders_Empty>
+  
+  <!-- Pawn tooltips -->
+  <!-- EN: {0} ({1})\n{2}\n{3} -->
+  <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
+  <!-- EN: {0} ({1})\n{2} -->
+  <PawnTooltipWithDescNoPrimaryEquip>{0} ({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
+  <!-- EN: {0}\n{1}\n{2} -->
+  <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
+  <!-- EN: {0}\n{1} -->
+  <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
+  <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
+  <PawnTooltipPsychicEntropy>Психическая энтропия: {0}/{1}\nСкорость падения: {2}/{3} с({4} с до нуля)\n\nПсихоэнтропия возрастает после применения пси-воздействий.\nПревышение безопасного предела может привести к долговременным проблемам со здоровьем.\nПадение психоэнтропии до нуля вызывает психическое похмелье.</PawnTooltipPsychicEntropy>
+  
+  <!-- EN: Chaotic psychic energy built up in the mind. Entropy falls over time. After it clears, it leaves a psychic hangover for several days. If psychic entropy becomes very high, it can cause psychosis, long-term psychic breakdown, destruction of psychic amplifiers, and even brain damage. -->
+  <PsychicEntropy.description>Хаотическая пси-энергия, накопленная в сознании. Со временем она уйдёт, оставив психическое похмелье на несколько дней. Если количество накопившейся психоэнтропии станет слишком большим, она может вызвать психоз, долговременный пси-срыв, разрушение пси-усилителей и даже повреждение мозга.</PsychicEntropy.description>  
+  
+  <!-- EN: Physical pain focuses the mind and clears extraneous thoughts; this has the side-effect of causing faster recovery from psychic entropy. -->
+  <PawnTooltipPsychicEntropyPainFocus>Физическая боль помогает концентрации разума и избавляет от посторонних мыслей, а уровень психической энтропии снижается быстрее.</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
+  <PawnTooltipPsychicEntropyLimit>Переключить ограничитель психоэнтропии.\n\nПревышение безопасного предела психической энтропии может привести к серьёзным проблемам со здоровьем, включая долговременный пси-срыв и даже повреждение мозга. Чем больше превышение предела энтропии, тем опаснее последствия.</PawnTooltipPsychicEntropyLimit>
 
+  <!-- Pawn tooltip description -->
+  <!-- EN: {0} {1} -->
+  <PawnTooltipGenderAndKindLabel>{1}, ^Replace( {0} | 'мужского пола'-'мужчина' | 'женского пола'-'женщина')^</PawnTooltipGenderAndKindLabel>
+
+  <!-- Rewards -->
+  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
+  <Reward_Pawn_DropPod>{0_age}-{0_gender ? летний : летняя} {0_titleIndef} по имени {0_nameDef} прибудет в транспортной капсуле{0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_WalkIn>{0_age}-{0_gender ? летний : летняя} {0_titleIndef} по имени {0_nameDef} прибудет и присоединится к вам{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_Caravan>{0_age}-{0_gender ? летний : летняя} {0_titleIndef} по имени {0_nameDef} присоединится к вам{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):
+\n{0} -->
+  <Reward_Items>прибудут транспортные капсулы со следующим грузом (общей стоимостью {1}):\n\n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):
+\n{0} -->
+  <Reward_Items_Caravan>вы получите (общей стоимостью {1}):\n\n{0}</Reward_Items_Caravan>
+  <!-- EN: your faction relations with {0_name} will improve by {1} -->
+  <Reward_Goodwill>отношения с фракцией {0_name} улучшатся на {1}</Reward_Goodwill>
+  
+  <!-- Bladelink -->
+  <!-- EN: Bonded to: {PAWN_labelShort} -->
+  <BondedWith>Синхронизировано с: {PAWN_labelShort}</BondedWith>
+  <!-- EN: Not yet bonded -->
+  <NotBonded>Не синхронизировано</NotBonded>
+  <!-- EN: bonded to someone else -->
+  <BladelinkBondedToSomeoneElse>синхронизировано с кем-то другим</BladelinkBondedToSomeoneElse>
+
+  <!-- Biocoded weapons -->
+  <!-- EN: biocoded {0} -->
+  <Biocoded>биокод. {0}</Biocoded>
+  <!-- EN: Biocoding: {0} -->
+  <CodedFor>Биокодировано для {0}</CodedFor>
+  <!-- EN: biocoded -->
+  <BiocodedCodedForSomeoneElse>биокодировано</BiocodedCodedForSomeoneElse>
+
+  <!-- Projectile interceptor -->
+  <!-- EN: Intercepts {0} every {1} -->
+  <InterceptsProjectilesEvery>Перехватывает {0} каждые {1}</InterceptsProjectilesEvery>
+  <!-- EN: Intercepts {0} -->
+  <InterceptsProjectiles>Перехватывает {0}</InterceptsProjectiles>
+  <!-- EN: ground projectiles -->
+  <InterceptsProjectiles_GroundProjectiles>снаряды с настильной траекторией</InterceptsProjectiles_GroundProjectiles>
+  <!-- EN: aerial projectiles -->
+  <InterceptsProjectiles_AerialProjectiles>снаряды с навесной траекторией</InterceptsProjectiles_AerialProjectiles>
+
+  <!-- Condition causers -->
+  <!-- EN: Affected gender -->
+  <AffectedGender>Затрагиваемый пол</AffectedGender>
+  
 </LanguageData>
