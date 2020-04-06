@@ -99,6 +99,8 @@
   <MessageMustDesignateTameable>Нужно указать приручаемых животных.</MessageMustDesignateTameable>
   <!-- EN: Must designate abandoned artificial structures. -->
   <MessageMustDesignateClaimable>Нужно указать древние заброшенные сооружения.</MessageMustDesignateClaimable>
+  <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
+  <MessageMustDesignateDeconstructibleMechCluster>Вам нужно разгромить кластер механоидов прежде чем разбирать его.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Нужно указать неровную каменную поверхность.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Nothing can remove thick roofs. -->
@@ -347,7 +349,7 @@
   <MessageCantWearApparelMissingBodyParts>Невозможно надеть: у {1_labelShort}: отсутствуют нужные части тела.</MessageCantWearApparelMissingBodyParts>
   <!-- EN: This person refuses to remove this. -->
   <MessageCantUnequipLockedApparel>Этот человек отказывается снимать эту одежду. </MessageCantUnequipLockedApparel>
-  <!-- EN: Cannot wear: This would replace apparel {1_labelShort} refuses to remove. -->
+  <!-- EN: Cannot wear: This would replace apparel {1_labelShort} refues to remove. -->
   <MessageWouldReplaceLockedApparel>Невозможно надеть: {1_labelShort} отказывается снимать свою одежду.</MessageWouldReplaceLockedApparel>
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
@@ -467,6 +469,8 @@
   <GoodwillChangedReason_UsedAbility>к {1} применили {0}</GoodwillChangedReason_UsedAbility>
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>{0_gender ? изъят : изъята : изъято} {0}</GoodwillChangedReason_RemovedBodyPart>
+  <!-- EN: removed {0} -->
+  <GoodwillChangedReason_RemovedImplant>удалён {0}</GoodwillChangedReason_RemovedImplant>
   <!-- EN: downgraded {0} -->
   <GoodwillChangedReason_DowngradedImplant>понижен уровень импланта {0}</GoodwillChangedReason_DowngradedImplant>
   <!-- EN: needlessly installed {0} -->
@@ -499,6 +503,10 @@
   <GoodwillChangedReason_SoldPawn>{0_gender ? продан : продана} {0_labelShort}</GoodwillChangedReason_SoldPawn>
   <!-- EN: euthanized {PAWN_labelShort} -->
   <GoodwillChangedReason_EuthanizedPawn>{PAWN_labelShort} {PAWN_gender ? подвергнут : подвергнута} эвтаназии</GoodwillChangedReason_EuthanizedPawn>
+  <!-- EN: requested military aid -->
+  <GoodwillChangedReason_RequestedMilitaryAid>запрошенная военная помощь</GoodwillChangedReason_RequestedMilitaryAid>
+  <!-- EN: requested trader caravan -->
+  <GoodwillChangedReason_RequestedTrader>запрошенный торговый караван</GoodwillChangedReason_RequestedTrader>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>Во фракции {0} принимают ваш подарок, но не придают ему значения.</MessageGiftGivenButNotAppreciated>
@@ -579,9 +587,6 @@
   <MessagePawnLeaving>{0} уходит.</MessagePawnLeaving>
   <!-- EN: {0} are leaving. -->
   <MessagePawnsLeaving>{0} уходят.</MessagePawnsLeaving>
-
-  <!-- EN: Warning: {0_label} can't be moved once installed. -->
-  <MessageThingInstalledPermanently>Внимание: {0_label} не может быть {0_gender ? перемещён : перемещена : перемещено} после установки.</MessageThingInstalledPermanently>
 
   <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
   <MessageMonumentDestroyedBecauseOfDisallowedBuilding>Монумент уничтожен, поскольку вы построили внутри него недопустимое сооружение.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>

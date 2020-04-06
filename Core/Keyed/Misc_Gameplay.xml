@@ -72,6 +72,8 @@
   <Ineffective>Неэффективно</Ineffective>
   <!-- EN: illegal -->
   <Illegal>незаконно</Illegal>
+  <!-- EN: detection chance -->
+  <DetectionChance>шанс обнаружения</DetectionChance>
   <!-- EN: Race -->
   <Race>Раса</Race>
   <!-- EN: Description -->
@@ -96,6 +98,14 @@
   <RenameAnimal>Переименовать</RenameAnimal>
   <!-- EN: Rename colonist -->
   <RenameColonist>Переименовать</RenameColonist>
+  <!-- EN: Renounce title -->
+  <RenounceTitle>TODO</RenounceTitle>
+  <!-- EN: {0} of {1} -->
+  <TitleOfFaction>TODO</TitleOfFaction>
+  <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
+  <RenounceTitleDescription>TODO</RenounceTitleDescription>
+  <!-- EN: {PAWN_possessive} will lose these permissions -->
+  <RenounceTitleWillLoosePermits>TODO</RenounceTitleWillLoosePermits>
   <!-- EN: unknown -->
   <UnknownLower>неизвестно</UnknownLower>
   <!-- EN: On -->
@@ -436,6 +446,8 @@
   <DormantCompBeacon>Готов к вызову механоидов</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>Срок истёк</DormantCompExpired>
+  <!-- EN: Initiates in -->
+  <InitiatesIn>Начинается через</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>Активируется через {0}</SendSignalOnCountdownCompTime>
   <!-- EN: Psychic entropy -->
@@ -446,6 +458,16 @@
   <ConditionCauserRadius>радиус {0}</ConditionCauserRadius>
   <!-- EN: {0} left -->
   <DurationLeft>осталось {0}</DurationLeft>
+  <!-- EN: Any of -->
+  <AnyOf>Любой из</AnyOf>
+
+  <!-- Scanning -->
+  <!-- EN: User scanning speed -->
+  <UserScanAbility>Эффективность сканирования</UserScanAbility>
+  <!-- EN: Random find interval -->
+  <ScanAverageInterval>Случайный интервал нахождения</ScanAverageInterval>
+  <!-- EN: Progress to guaranteed find -->
+  <ScanningProgressToGuaranteedFind>Прогресс до гарантированного обнаружения</ScanningProgressToGuaranteedFind>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -1198,12 +1220,8 @@
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
   <PawnTooltipPsychicEntropy>Психическая энтропия: {0}/{1}\nСкорость падения: {2}/{3} с({4} с до нуля)\n\nПсихоэнтропия возрастает после применения пси-воздействий.\nПревышение безопасного предела может привести к долговременным проблемам со здоровьем.\nПадение психоэнтропии до нуля вызывает психическое похмелье.</PawnTooltipPsychicEntropy>
-  
-  <!-- EN: Chaotic psychic energy built up in the mind. Entropy falls over time. After it clears, it leaves a psychic hangover for several days. If psychic entropy becomes very high, it can cause psychosis, long-term psychic breakdown, destruction of psychic amplifiers, and even brain damage. -->
-  <PsychicEntropy.description>Хаотическая пси-энергия, накопленная в сознании. Со временем она уйдёт, оставив психическое похмелье на несколько дней. Если количество накопившейся психоэнтропии станет слишком большим, она может вызвать психоз, долговременный пси-срыв, разрушение пси-усилителей и даже повреждение мозга.</PsychicEntropy.description>  
-  
-  <!-- EN: Physical pain focuses the mind and clears extraneous thoughts; this has the side-effect of causing faster recovery from psychic entropy. -->
-  <PawnTooltipPsychicEntropyPainFocus>Физическая боль помогает концентрации разума и избавляет от посторонних мыслей, а уровень психической энтропии снижается быстрее.</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
+  <PawnTooltipPsychicEntropyPainFocus>Боль помогает концентрации разума и быстрее рассеивает психическую энтропию.\n\nУровень боли: {0}\nБонус к рассеиванию психоэнтропии: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
   <PawnTooltipPsychicEntropyLimit>Переключить ограничитель психоэнтропии.\n\nПревышение безопасного предела психической энтропии может привести к серьёзным проблемам со здоровьем, включая долговременный пси-срыв и даже повреждение мозга. Чем больше превышение предела энтропии, тем опаснее последствия.</PawnTooltipPsychicEntropyLimit>
 
@@ -1212,12 +1230,12 @@
   <PawnTooltipGenderAndKindLabel>{1}, ^Replace( {0} | 'мужского пола'-'мужчина' | 'женского пола'-'женщина')^</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
-  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>{0_age}-{0_gender ? летний : летняя} {0_titleIndef} по имени {0_nameDef} прибудет в транспортной капсуле{0_relationInfoInParentheses}</Reward_Pawn_DropPod>
-  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>{0_age}-{0_gender ? летний : летняя} {0_titleIndef} по имени {0_nameDef} прибудет и присоединится к вам{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
-  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>{0_age}-{0_gender ? летний : летняя} {0_titleIndef} по имени {0_nameDef} присоединится к вам{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
+  <Reward_Pawn_DropPod>{0_age}-{0_gender ? летний : летняя} {0_title} по имени {0_nameDef} прибудет в транспортной капсуле{0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_WalkIn>{0_age}-{0_gender ? летний : летняя} {0_title} по имени {0_nameDef} прибудет и присоединится к вам{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_Caravan>{0_age}-{0_gender ? летний : летняя} {0_title} по имени {0_nameDef} присоединится к вам{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
   <Reward_Items>прибудут транспортные капсулы со следующим грузом (общей стоимостью {1}):\n\n{0}</Reward_Items>
@@ -1228,8 +1246,8 @@
   <Reward_Goodwill>отношения с фракцией {0_name} улучшатся на {1}</Reward_Goodwill>
   
   <!-- Bladelink -->
-  <!-- EN: Bonded to: {PAWN_labelShort} -->
-  <BondedWith>Синхронизировано с: {PAWN_labelShort}</BondedWith>
+  <!-- EN: Bonded to: {0} -->
+  <BondedWith>Синхронизировано с: {0}</BondedWith>
   <!-- EN: Not yet bonded -->
   <NotBonded>Не синхронизировано</NotBonded>
   <!-- EN: bonded to someone else -->
@@ -1256,5 +1274,5 @@
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
   <AffectedGender>Затрагиваемый пол</AffectedGender>
-  
+
 </LanguageData>
