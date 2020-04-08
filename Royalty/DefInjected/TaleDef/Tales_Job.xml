@@ -2,7 +2,8 @@
 <LanguageData>
   
   <!-- EN: attended concert -->
-  <AttendedConcert.label>посещение выступления</AttendedConcert.label>
+  <AttendedConcert.label>посещение концерта</AttendedConcert.label>
+
   <!-- EN:
     <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s concert</li>
     <li>tale_noun->[ATTENDER_nameDef] listening to [ORGANIZER_nameDef]'s performance</li>
@@ -15,19 +16,21 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen attentively.</li>
   -->
 <AttendedConcert.rulePack.rulesStrings>    
-	<li>tale_noun->[ATTENDER_nameDef] посещает выступление [ORGANIZER_nameDef]</li>
+	<li>tale_noun->[ATTENDER_nameDef] посещает концерт [ORGANIZER_nameDef]</li>
 	<li>tale_noun->[ATTENDER_nameDef] слушает игру [ORGANIZER_nameDef]</li>
 	<li>image->[ATTENDER_nameFull] молча слушает, [circumstance_group]</li>
 	<li>image->[ATTENDER_nameFull] наслаждается выступлением [ORGANIZER_nameFull], [circumstance_group]</li>
 	<li>image->[ATTENDER_nameFull] двигается в такт музыке, [circumstance_group]</li>
-	<li>image->[ATTENDER_nameFull] растворился в чарующих звуках музыки, [circumstance_group]</li>
-	<li>circumstance_phrase->хлопая ладонями в аккомпанемент</li>
-	<li>desc_sentence->[Quantity_adjphrase] [PersonJob] танцуют под музыку</li>
-	<li>desc_sentence->[Quantity_adjphrase] [Animal] слушают внимательно</li>
+	<li>image->[ATTENDER_nameFull] растворяется в чарующих звуках музыки, [circumstance_group]</li>
+	<li>circumstance_phrase->хлопая ладонями в такт</li>
+	<li>desc_sentence->[Quantity_adjphrase] [PersonJobs_gen] танцуют под музыку.</li>
+	<li>desc_sentence->[Quantity_adjphrase] [AnimalBadass_plural_gen] слушают внимательно.</li>
+
 </AttendedConcert.rulePack.rulesStrings>
   
   <!-- EN: held concert -->
-  <HeldConcert.label>проведение выступления</HeldConcert.label>
+  <HeldConcert.label>проведение концерта</HeldConcert.label>
+
   <!-- EN:
     <li>tale_noun->[ORGANIZER_nameDef] performing a concert</li>
     <li>image->[ORGANIZER_nameFull] playing their signature song [circumstance_group]</li>
@@ -39,14 +42,15 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen nearby.</li>
   -->
 <HeldConcert.rulePack.rulesStrings>    
-	<li>tale_noun->[ORGANIZER_nameDef] проводит выступление</li>
+	<li>tale_noun->[ORGANIZER_nameDef] проводит концерт</li>
 	<li>image->[ORGANIZER_nameFull] играет свою фирменную песню [circumstance_group]</li>
 	<li>image->[ORGANIZER_nameFull] приглашает толпу подпевать</li>
 	<li>image->[ORGANIZER_nameFull] играет воодушевляющую мелодию</li>
 	<li>image->[ORGANIZER_nameFull] играет сложную композицию [circumstance_group]</li>
 	<li>circumstance_phrase->с напряжённым лицом</li>
-	<li>desc_sentence->[Quantity_adjphrase] [PersonJob] слушают, стоя неподалёку</li>
-	<li>desc_sentence->[Quantity_adjphrase] [Animal] слушают, стоя неподалёку</li>
+	<li>desc_sentence->[Quantity_adjphrase] [PersonJobs_gen] слушают, стоя неподалёку.</li>
+	<li>desc_sentence->[Quantity_adjphrase] [AnimalBadass_plural_gen] слушают, стоя неподалёку.</li>
+
 </HeldConcert.rulePack.rulesStrings>
   
 </LanguageData>
