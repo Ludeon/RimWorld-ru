@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>scraped_present->glancing</li>
+    <li>scraped_present->bouncing</li>
+    <li>scraped_present->grazing</li>
+    <li>scraped_present->caroming</li>
+    <li>scraped_present->skipping</li>
+    <li>scraped_present->skating</li>
+    <li>scraped_past->glanced</li>
+    <li>scraped_past->bounced</li>
+    <li>scraped_past->grazed</li>
+    <li>scraped_past->caromed</li>
+    <li>scraped_past->skipped</li>
+    <li>scraped_past->skated</li>
+  -->
+  <Combat_DeflectIncludes.rulePack.rulesStrings>
+    <li>deflectedadverb->без последствий для жертвы</li>
+    <li>deflectedadverb->без особого толка</li>
+    <li>deflectedadverb->без особого результата</li>
+    <li>scratch->царапину</li>
+    <li>scratch->отметину</li>
+    <li>scratch->едва заметный след</li>
+    <li>scraped->царапает</li>
+    <li>scrap_trans->царапая</li>
+  </Combat_DeflectIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement]</li>
+    <li>action->[INITIATOR_definite] [tried] to use [implement] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] with [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] with [implement]</li>
+    <li>towardsat->towards</li>
+    <li>towardsat->at</li>
+    <li>verb_genericattack->swung</li>
+    <li>verb_genericattack->flailed</li>
+    <li>verb_genericattack->thrashed</li>
+    <li>tried->tried</li>
+    <li>tried->attempted</li>
+  -->
+  <Combat_FailIncludes.rulePack.rulesStrings>
+    <li>action->[INITIATOR_definite] [tried] [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] [tried] [damaged_inf] [RECIPIENT_definite] при помощи [implement]</li>
+    <li>action->[INITIATOR_definite] заносит [INITIATOR_possessive] [WEAPON_label], чтобы [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] направляет удар [INITIATOR_possessive] [WEAPON_label] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], используя [implement], [genericattackverb] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [genericattackverb] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [genericattackverb] при помощи [implement]</li>
+    <li>genericattackverb->бьёт</li>
+    <li>genericattackverb->замахивается</li>
+    <li>genericattackverb->наносит удар</li>
+    <li>towardsat->в сторону</li>
+    <li>towardsat->по</li>
+    <li>tried->пытается</li>
+    <li>tried->пробует</li>
+  </Combat_FailIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] and [flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->painfully</li>
+    <li>strikeAdv->horribly</li>
+    <li>strikeAdv->savagely</li>
+    <li>strikeAdv->viciously</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence->leaving a horrific wound</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
+  -->
+  <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+    <li>result(p=0.5)->[damaged_participle] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.2)->[flavortextadverb] [damaged_participle] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.1)->, и[flavortextsituation] [damaged] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.2)->[damaged_participle] [RECIPIENT_possessive] [targetlist], [flavortextconsequence]</li>
+    <li>flavortextadverb->болезненно</li>
+    <li>flavortextadverb->брутально</li>
+    <li>flavortextadverb->ужасно</li>
+    <li>flavortextadverb->варварски</li>
+    <li>flavortextadverb->яростно</li>
+    <li>flavortextadverb->безжалостно</li>
+    <li>flavortextadverb->свирепо</li>
+    <li>flavortextadverb->угрожающе</li>
+    <li>flavortextadverb->беспощадно</li>
+    <li>flavortextadverb->бессердечно</li>
+    <li>flavortextsituation(p=0.2)->[empty] без эмоций</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->[empty] во вспышке гнева</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->[empty] с видимым удовольствием</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->[empty] с отсутствующим видом</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->[empty] с озверевшим взглядом</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->, приняв [AdjectiveBadass] вид,</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->, гримасничая,</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->, смеясь,</li>
+    <li>flavortextsituation(p=0.2,initiator_flesh==Normal)->, ухмыляясь,</li>
+    <li>flavortextconsequence(recipient_flesh==Normal)->заставляя [RECIPIENT_possessive] [wince] [painevent]</li>
+    <li>flavortextconsequence(p=0.2)->сбивая [RECIPIENT_possessive] с ног</li>
+    <li>flavortextconsequence->оставляя страшные раны</li>
+    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя омерзительно выглядящие раны</li>
+  </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[action], [result].</li>
+    <li>r_logentry(priority=-10)->[action].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->a [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->a [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->wounding</li>
+    <li>damaged_present(deflected!=True)->injuring</li>
+    <li>destroyed(p=0.5)->destroyed</li>
+    <li>destroyed(p=0.5)->demolished</li>
+    <li>destroyed(p=0.5)->ruined</li>
+    <li>destroyed(p=0.5)->wrecked</li>
+    <li>wince(recipient_flesh==Normal)->wince</li>
+    <li>wince(recipient_flesh==Normal)->grimace</li>
+    <li>wince(recipient_flesh==Normal)->cringe</li>
+    <li>wince(recipient_flesh==Normal)->groan</li>
+    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
+    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
+    <li>wince->recoil</li>
+    <li>wince->stumble</li>
+    <li>painstate->in</li>
+    <li>painstate->with</li>
+    <li>painstate->from the</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent->from the injury</li>
+    <li>painevent->from the wound</li>
+    <li>to->to</li>
+    <li>to->into</li>
+  -->
+  <Combat_MeleeIncludes.rulePack.rulesStrings>
+    <li>r_logentry->[action], [result].</li>
+    <li>r_logentry(p=0.2)->[action].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [TOOL_label] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_label] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->[WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=1)->[INITIATOR_possessive] [bodypart_adjective] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [TOOL_label] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>bodypart_adjective->твёрдый</li>
+    <li>bodypart_adjective->прочный</li>
+    <li>bodypart_adjective->мощный</li>
+    <li>bodypart_adjective->сильный</li>
+    <li>bodypart_adjective->внушительный</li>
+    <li>bodypart_adjective->массивный</li>
+    <li>bodypart_adjective->солидный</li>
+    <li>bodypart_adjective->крепкий</li>
+    <li>bodypart_adjective->могучий</li>
+    <li>bodypart_adjective->надёжный</li>
+    <li>bodypart_adjective(initiator_flesh==True)->мозолистый</li>
+    <li>bodypart_adjective->грубый</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] и [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label] и [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label] и [recipient_part3_label]</li>
+    <li>damaged_participle->раня</li>
+    <li>damaged_participle->поражая</li>
+    <li>damaged_participle->повреждая</li>
+    <li>destroyed(p=0.5)->сокрушает</li>
+    <li>destroyed(p=0.5)->разрушает</li>
+    <li>destroyed(p=0.5)->уничтожает</li>
+    <li>wince->вздрогнуть</li>
+    <li>wince->скривиться</li>
+    <li>wince->согнуться</li>
+    <li>wince->стонать</li>
+    <li>wince->кричать</li>
+    <li>wince->вскрикнуть</li>
+    <li>wince->взвыть</li>
+    <li>wince->дёрнуться</li>
+    <li>painstate->от</li>
+    <li>painstate->из-за</li>
+    <li>painevent->[painstate] боли</li>
+    <li>painevent->в муках</li>
+    <li>painevent->в унижении</li>
+    <li>painevent->из-за ранения</li>
+    <li>painevent->от полученной раны</li>
+    <li>initiator_definite->[INITIATOR_labelDefinite]</li>
+    <li>initiator_definite->[INITIATOR_nameDef]</li>
+    <li>recipient_definite->[RECIPIENT_labelDefinite]</li>
+    <li>recipient_definite->[RECIPIENT_nameDef]</li>
+  </Combat_MeleeIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->wielding</li>
+    <li>wielding(p=3)->using</li>
+    <li>wielding(p=2)->handling</li>
+    <li>wielding->brandishing</li>
+    <li>wielding->manipulating</li>
+    <li>using(p=4)->using</li>
+    <li>using->driving</li>
+    <li>using->thrusting</li>
+    <li>using->utilizing</li>
+    <li>using->moving</li>
+    <li>skillAdv(INITIATOR_skill<=3)->incompetently</li>
+    <li>skillAdv(INITIATOR_skill<=3)->ineptly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->wildly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->randomly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->flailingly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->awkwardly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->clumsily</li>
+    <li>skillAdv(INITIATOR_skill<=5)->fearfully</li>
+    <li>skillAdv(INITIATOR_skill<=5)->falteringly</li>
+    <li>skillAdv(INITIATOR_skill<=5)->foolishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->hesitantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->reluctantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->slowly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->tentatively</li>
+    <li>skillAdv(INITIATOR_skill<=6)->inexpertly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->amateurishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->timidly</li>
+    <li>skillAdv(INITIATOR_skill<=8)->enthusiastically</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->proficiently</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->competently</li>
+    <li>skillAdv(INITIATOR_skill>=8)->professionally</li>
+    <li>skillAdv(INITIATOR_skill>=8)->deftly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->aptly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->cleverly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->dexterously</li>
+    <li>skillAdv(INITIATOR_skill>=8)->skillfully</li>
+    <li>skillAdv(INITIATOR_skill>=10)->adeptly</li>
+    <li>skillAdv(INITIATOR_skill>=10)->slickly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->expertly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->precisely</li>
+    <li>skillAdv(INITIATOR_skill>=14)->masterfully</li>
+    <li>skillAdv(INITIATOR_skill>=16)->artistically</li>
+    <li>skillAdv(INITIATOR_skill>=16)->gracefully</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->mechanically</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
+  -->
+  <Combat_SkillIncludes.rulePack.rulesStrings>TODO</Combat_SkillIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], and [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
+  -->
+  <Combat_WoundIncludes.rulePack.rulesStrings>
+    <li>destroyed_targets(recipient_part_destroyed_count==0)->ничего</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] и [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label] и [recipient_part_destroyed2_label]</li>
+    <!-- fallback for 4+ -->
+    <li>destroyed_targets(recipient_part_destroyed_count!=0,recipient_part_destroyed_count!=1,recipient_part_destroyed_count!=2,recipient_part_destroyed_count!=3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label] и [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==0)->ничего</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] и [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label] и [recipient_part_damaged2_label]</li>
+    <!-- fallback for 4+ -->
+    <li>damaged_targets(recipient_part_damaged_count!=0,recipient_part_damaged_count!=1,recipient_part_damaged_count!=2,recipient_part_damaged_count!=3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label] и [recipient_part_damaged3_label]</li>
+    <li>expertly->со знанием дела</li>
+    <li>expertly->сноровисто</li>
+    <li>expertly->находчиво</li>
+    <li>expertly->проворно</li>
+    <li>expertly->умело</li>
+    <li>expertly->хитро</li>
+    <li>expertly->технично</li>
+    <li>expertly->легко</li>
+    <li>expertly->ловко</li>
+    <li>expertly->по-умному</li>
+    <li>expertly->мастерски</li>
+    <li>expertly->художественно</li>
+    <li>expertly->блестяще</li>
+    <li>expertly->заправски</li>
+    <li>expertly->талантливо</li>
+    <li>expertly->заботливо</li>
+    <li>expertly->отточенно</li>
+    <li>expertly->профессионально</li>
+    <li>expertly->уверенно</li>
+    <li>expertly->грамотно</li>
+    <li>expertly->со вкусом</li>
+    <li>expertly->искусно</li>
+    <li>expertly->с профессионализмом</li>
+    <li>expertly->виртуозно</li>
+    <li>expertly->с лёгкостью</li>
+    <li>expertly->с артистизмом</li>
+    <li>expertly->по-хитрому</li>
+    <li>expertly->красиво</li>
+    <!-- в творительном падеже: "экспертным попаданием чего-то там"  -->
+    <li>expert->виртуозным</li>
+    <li>expert->искусным</li>
+    <li>expert->техничным</li>
+    <li>expert->заправским</li>
+    <li>expert->умелым</li>
+    <li>expert->блестящим</li>
+    <li>expert->профессиональным</li>
+    <li>expert->уверенным</li>
+    <li>expert->ловким</li>
+    <li>expert->грамотным</li>
+    <li>expert->мастерским</li>
+    <li>expert->художественным</li>
+  </Combat_WoundIncludes.rulePack.rulesStrings>
+  
+</LanguageData>
