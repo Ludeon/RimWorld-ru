@@ -92,7 +92,6 @@
     <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is bored. [asker_pronoun] wants to observe how backwards people like you deal with a deadly threat. To satisfy [asker_possessive] desire, [asker_possessive] servants will release a pack of [animalCount] manhunting [animalKind_labelPlural] to attack you. The [asker_royalTitleInCurrentFaction] will observe the fight via high-altitude drone.\n\nIn return for your agreement, [asker_pronoun] will send transport pods. [endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->These [animalKind_labelPlural] were released by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], to ease [asker_possessive] boredom.</li>
   -->
-    <!-- Многие переменные не работают, поэтому строки закомментрованы. Раскомментировать, когда код починят! -->
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->С вами связывается торговец, находящийся неподалёку от [map_definite]. [manhunters_hunt_trader_needs_help]\n\nВ благодарность он обещает отправить вам транспортные капсулы с товаром (общей стоимостью [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]Если вы согласитесь помочь торговцу, [manhunters_will_come] в [map_definite] через [manhuntersDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
     <!-- <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label] [hunted] на торговца неподалёку, но [animalKind_possessive] приманили к вам.</li> -->
@@ -104,25 +103,20 @@
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural] нападали на караваны фракции [asker_faction_name], но их приманили к вам.</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], пребывает в скуке. [asker_pronoun] желает посмотреть, как отсталые жители вроде вас справятся со смертельной угрозой. Чтобы удовлетворить желание повелителя, [asker_possessive] слуги выпустят [manhunting_beasts_acc] и натравят на вас. [asker_royalTitleInCurrentFaction] будет наблюдать за этим с высотного беспилотника.\n\nВ обмен на ваше согласие [asker_pronoun] ниспошлёт вам транспортные капсулы с дарами (общей стоимостью [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]Если вы принимаете вызов, [manhunters_will_come] в [map_definite] через [manhuntersDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True)->[manhunters_acc] [asker_released] [asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], чтобы развеять свою скуку.</li>
-    
     <li>manhunters_hunt_trader_needs_help(animalCount==1)->За ним охотится дикое животное, [animalKind_label]! Торговец хочет отвлечь внимание животного от себя и приманить его к вам.</li>
     <li>manhunters_hunt_trader_needs_help(animalCount>=2)->За ним охотятся дикие [animalKind_labelPlural]! Торговец хочет отвлечь внимание стаи от себя и приманить её к вам.</li>
     <li>manhunters_acc(animalCount==1)->животное</li>
     <li>manhunters_acc(animalCount>=2)->животных</li>
-    
     <li>manhunters_will_come(animalCount==1)->агрессивное животное, [animalKind_label], придёт</li>
     <li>manhunters_will_come(animalCount>=2)->агрессивные [animalKind_labelPlural] придут</li>
     <li>manhunters_attack(animalCount==1)->нападает [manhunting_beasts]</li>
     <li>manhunters_attack(animalCount>=2)->нападают [manhunting_beasts]</li>
-    
     <li>manhunting_beasts(animalCount==1)->агрессивное животное, [animalKind_label]</li>
     <li>manhunting_beasts(animalCount>=2)->[animalCount] агрессивных [animalKind_labelPlural]</li>
     <li>manhunting_beasts(animalCount>=2)->агрессивные [animalKind_labelPlural]</li>
-
     <li>manhunting_beasts_acc(animalCount==1)->агрессивное животное, [animalKind_label],</li>
     <li>manhunting_beasts_acc(animalCount>=2)->[animalCount] агрессивных [animalKind_labelPlural]</li>
     <li>manhunting_beasts_acc(animalCount>=2)->агрессивных [animalKind_labelPlural]</li>
-
     <li>asker_released(asker_gender==Male)->натравил</li>
     <li>asker_released(asker_gender==Female)->натравила</li>
   </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
