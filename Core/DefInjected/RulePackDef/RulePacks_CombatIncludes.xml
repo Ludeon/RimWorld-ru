@@ -296,19 +296,54 @@
     <li>skillAdv(INITIATOR_skill>=16)->божественно</li>
     <li>skillAdv(initiator_flesh==Mechanoid)->механически</li>
     <li>skillAdv(initiator_flesh==Mechanoid)->механично</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->автоматично</li>  
-    <li>expert->виртуозным</li>
-    <li>expert->искусным</li>
-    <li>expert->техничным</li>
-    <li>expert->заправским</li>
-    <li>expert->умелым</li>
-    <li>expert->блестящим</li>
-    <li>expert->профессиональным</li>
-    <li>expert->уверенным</li>
-    <li>expert->ловким</li>
-    <li>expert->грамотным</li>
-    <li>expert->мастерским</li>
-    <li>expert->художественным</li>    
+    <li>skillAdv(initiator_flesh==Mechanoid)->автоматично</li>
+    <li>skillAdj(INITIATOR_skill&lt;=3)->нелепый</li>
+    <li>skillAdj(INITIATOR_skill&lt;=3)->странный</li>
+    <li>skillAdj(INITIATOR_skill&lt;=3)->кривой</li>
+    <li>skillAdj(INITIATOR_skill&lt;=3)->косой</li>
+    <li>skillAdj(INITIATOR_skill&lt;=4)->неловкий</li>
+    <li>skillAdj(INITIATOR_skill&lt;=4)->неуклюжий</li>
+    <li>skillAdj(INITIATOR_skill&lt;=5)->боязливый</li>
+    <li>skillAdj(INITIATOR_skill&lt;=5)->дилетантский</li>
+    <li>skillAdj(INITIATOR_skill&lt;=5)->бездумный</li>
+    <li>skillAdj(INITIATOR_skill&lt;=6)->нерешительный</li>
+    <li>skillAdj(INITIATOR_skill&lt;=6)->неохотный</li>
+    <li>skillAdj(INITIATOR_skill&lt;=6)->аккуратный</li>
+    <li>skillAdj(INITIATOR_skill&lt;=6)->осторожный</li>
+    <li>skillAdj(INITIATOR_skill&lt;=6)->не особенно умелый</li>
+    <li>skillAdj(INITIATOR_skill&lt;=6)->непрофессиональный</li>
+    <li>skillAdj(INITIATOR_skill&lt;=6)->неуверенный</li>
+    <li>skillAdj(INITIATOR_skill&lt;=8)->увлечённый</li>
+    <li>skillAdj(INITIATOR_skill&lt;=8)->воодушевлённый</li>
+    <li>skillAdj(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->достойный</li>
+    <li>skillAdj(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->грамотный</li>
+    <li>skillAdj(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->правильный</li>
+    <li>skillAdj(INITIATOR_skill>=8)->умелый</li>
+    <li>skillAdj(INITIATOR_skill>=8)->уверенный</li>
+    <li>skillAdj(INITIATOR_skill>=8)->сноровистый</li>
+    <li>skillAdj(INITIATOR_skill>=8)->проворный</li>
+    <li>skillAdj(INITIATOR_skill>=10)->ловкий</li>
+    <li>skillAdj(INITIATOR_skill>=10)->находчивый</li>
+    <li>skillAdj(INITIATOR_skill>=10)->техничный</li>
+    <li>skillAdj(INITIATOR_skill>=10)->отточенный</li>
+    <li>skillAdj(INITIATOR_skill>=10)->профессиональный</li>
+    <li>skillAdj(INITIATOR_skill>=12)->заботливый</li>
+    <li>skillAdj(INITIATOR_skill>=12)->хитрый</li>
+    <li>skillAdj(INITIATOR_skill>=12)->талантливый</li>
+    <li>skillAdj(INITIATOR_skill>=14)->мастерский</li>
+    <li>skillAdj(INITIATOR_skill>=14)->блестящий</li>
+    <li>skillAdj(INITIATOR_skill>=14)->красивый</li>
+    <li>skillAdj(INITIATOR_skill>=14)->искусный</li>
+    <li>skillAdj(INITIATOR_skill>=16)->грациозный</li>
+    <li>skillAdj(INITIATOR_skill>=16)->элегантный</li>
+    <li>skillAdj(INITIATOR_skill>=16)->изящный</li>
+    <li>skillAdj(INITIATOR_skill>=16)->художественный</li>
+    <li>skillAdj(INITIATOR_skill>=16)->виртуозный</li>
+    <li>skillAdj(INITIATOR_skill>=16)->божественный</li>
+    <li>skillAdj(initiator_flesh==Mechanoid)->механический</li>
+    <li>skillAdj(initiator_flesh==Mechanoid)->механичный</li>
+    <li>skillAdj(initiator_flesh==Mechanoid)->автоматичный</li>      
+    
   </Combat_SkillIncludes.rulePack.rulesStrings>
   
   <!-- EN:

@@ -123,7 +123,6 @@
     <li>r_logentry(recipient_part_destroyed_count!=0,p=2)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] и [destroyed] [destroyed_targets] у [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0,p=2)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_participle] [destroyed_targets] у [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0)->[destroyed_targets] [RECIPIENT_definite] [destroyed]ся попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count!=0)->[destroyed_targets] [RECIPIENT_definite] [destroyed]ся [expert] попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0)->[destroyed_targets] [RECIPIENT_definite] [destroyed]ся [destroyed_suffix] попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
     <!-- various damaged options; don't show if something was destroyed -->
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0)->[WEAPON_projectile_label] [INITIATOR_definite] [damaged] [damaged_targets] [RECIPIENT_definite].</li>
@@ -131,7 +130,6 @@
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0,p=2)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] и [damaged] [damaged_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0,p=2)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_participle] [damaged_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0)->[damaged_targets] [RECIPIENT_definite] [damaged]ся попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0)->[damaged_targets] [RECIPIENT_definite] [damaged]ся [expert] попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
     <!-- damaged/destroyed hybrid -->
     <li>r_logentry(recipient_part_destroyed_count!=0,recipient_part_damaged_count!=0,p=3)->[WEAPON_projectile_label] [INITIATOR_definite] [destroyed] [destroyed_targets] [RECIPIENT_definite] и [damaged] [RECIPIENT_possessive] [damaged_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0,recipient_part_damaged_count!=0,p=6)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_participle] [destroyed_targets] [RECIPIENT_definite] и [damaged_participle] [RECIPIENT_possessive] [damaged_targets].</li>
@@ -276,15 +274,15 @@
     <li>r_logentry->[INITIATOR_definite] [aburst] [shot_a] [WEAPON_projectile_label] в [RECIPIENT_definite].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label].</li>
-    <li>shot_a->[shotadverb] [shot_a_verb]</li>
+    <li>shot_a->[skillAdv] [shot_a_verb]</li>
     <li>shot_a(p=2)->[shot_a_verb]</li>
     <li>shot(p=2)->[shot_verb]</li>
-    <li>shot->[shotadverb] [shot_verb]</li>
+    <li>shot->[skillAdv] [shot_verb]</li>
     <li>shotat->стреляет [aburst] в</li>
-    <li>shotat->[shotadverb] стреляет [aburst] в</li>
+    <li>shotat->[skillAdv] стреляет [aburst] в</li>
     <li>shotat(p=0.5)->пытается попасть в</li>
-    <li>shotat(p=0.3)->производит выстрел в</li>
-    <li>shotat(p=0.2)->производит [shotadjective] выстрел</li>
+    <li>shotat(p=0.3)->производит [skillAdj] выстрел в</li>
+    <li>shotat(p=0.2)->[skillAdv] производит выстрел в</li>
     <li>shotat(p=0.5)->целится и стреляет [aburst] в</li>
     <li>shotat(p=0.3)->открывает огонь по</li>
     <li>aburst-></li>
@@ -294,18 +292,6 @@
     <li>shot_a_verb->выпускает</li>
     <li>shot_verb->спускает</li>
     <li>shot_verb->разряжает</li>
-    <li>shotadverb->аккуратно</li>
-    <li>shotadverb->быстро</li>
-    <li>shotadverb->точно</li>
-    <li>shotadverb->демонстративно</li>
-    <li>shotadverb->с опаской</li>
-    <li>shotadverb->метко</li>
-    <li>shotadverb->решительно</li>
-    <li>shotadjective->аккуратный</li>
-    <li>shotadjective->быстрый</li>
-    <li>shotadjective->демонстративный</li>
-    <li>shotadjective->меткий</li>
-    <li>shotadjective->точный</li>
   </Combat_RangedFire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -340,6 +326,7 @@
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [WEAPON_projectile_label].</li>
     <li>threw(p=2)->[threwverb]</li>
     <li>threw->[threwadverb] [threwverb]</li>
+    <li>threw->[skillAdv] [threwverb]</li>
     <li>threwverb->кидает</li>
     <li>threwverb->бросает</li>
     <li>threwverb->швыряет</li>
