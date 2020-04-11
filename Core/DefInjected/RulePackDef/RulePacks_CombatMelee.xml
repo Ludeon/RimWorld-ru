@@ -31,6 +31,9 @@
     <li>deflecting->bouncing</li>
     <li>deflecting->glancing</li>
   -->
+  <!-- <li>Combat_MeleeIncludes</li> -->
+  <!-- <li>Combat_DeflectIncludes</li> -->
+  <!-- <li>Combat_SkillIncludes</li> -->
   <Combat_Deflect.rulePack.rulesStrings>
     <li>r_logentry(p=1)->[INITIATOR_definite] [deflectedadverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
     <li>r_logentry(p=1)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite], [deflectedconsequence].</li>
@@ -60,6 +63,9 @@
     <li>result->but was deceived by [RECIPIENT_definite]'s feint</li>
     <li>result->but the attack was cleverly avoided</li>
   -->
+  <!-- <li>Combat_MeleeIncludes</li> -->
+  <!-- <li>Combat_FailIncludes</li> -->
+  <!-- <li>Combat_SkillIncludes</li> -->
   <Combat_Dodge.rulePack.rulesStrings>
     <li>r_logentry(p=0.2)->[RECIPIENT_definite] уворачивается от [maneuver_noun_gen] [implement] [INITIATOR_definite].</li>
     <li>r_logentry(p=0.2)->[RECIPIENT_definite] уворачивается от [maneuver_noun_gen].</li>
@@ -90,6 +96,10 @@
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
   -->
+  <!-- <li>Combat_MeleeIncludes</li> -->
+  <!-- <li>Combat_MeleeDamageIncludes</li> -->
+  <!-- <li>Combat_WoundIncludes</li> -->
+  <!-- <li>Combat_SkillIncludes</li> -->
   <Combat_Hit.rulePack.rulesStrings>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite] [flavortextadverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
@@ -130,6 +140,9 @@
     <li>result->but stumbled at the last second</li>
     <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
+  <!-- <li>Combat_MeleeIncludes</li> -->
+  <!-- <li>Combat_FailIncludes</li> -->
+  <!-- <li>Combat_SkillIncludes</li> -->
   <Combat_Miss.rulePack.rulesStrings>
     <li>r_logentry(p=0.2)->[RECIPIENT_definite] избегает [maneuver_noun_gen] [WEAPON_label] [INITIATOR_definite].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] промахивается по [RECIPIENT_definite] [maneuver_noun_instr] [implement].</li>

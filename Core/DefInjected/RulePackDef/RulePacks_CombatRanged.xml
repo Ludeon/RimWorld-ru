@@ -33,6 +33,9 @@
     <li>fromof->from</li>
     <li>fromof->of</li>
   -->
+  <!-- <li>Combat_MeleeIncludes</li> -->
+  <!-- <li>Combat_MeleeDamageIncludes</li> -->
+  <!-- <li>Combat_WoundIncludes</li> -->
   <Combat_ExplosionImpact.rulePack.rulesStrings>
     <li>prefix(p=2)->[blast] [WEAPON_projectile_label] [INITIATOR_definite]</li>
     <li>prefix(p=2)->[blast] [WEAPON_label] [INITIATOR_definite]</li>
@@ -112,6 +115,7 @@
     <li>missed->missed</li>
     <li>missed->narrowly missed</li>
   -->
+  <!-- <li>Combat_WoundIncludes</li> -->
   <Combat_RangedDamage.rulePack.rulesStrings>
     <li>r_logentry(recipient_part_destroyed_count!=0)->[WEAPON_projectile_label] [INITIATOR_definite] [destroyed] [destroyed_targets] у [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0)->[WEAPON_projectile_label] [INITIATOR_definite] [destroyed] [destroyed_targets] [RECIPIENT_definite] [destroyed_suffix].</li>
@@ -203,6 +207,7 @@
     <li>missed->missed</li>
     <li>missed->narrowly missed</li>
   -->
+  <!-- <li>Combat_DeflectIncludes</li> -->
   <Combat_RangedDeflect.rulePack.rulesStrings>
     <li>r_logentry(p=2)->[WEAPON_projectile_label] [INITIATOR_definite] [projectile_missed] [ORIGINALTARGET_definite] и попадает в [damaged_target_possessive_opt], [deflectedconsequence_projectile].</li>
     <li>r_logentry(p=2)->[WEAPON_projectile_label] [INITIATOR_definite] [projectile_missed] [ORIGINALTARGET_definite] и попадает в [damaged_target_possessive_opt] [deflectedadverb].</li>
@@ -263,6 +268,7 @@
     <li>verb_shot->fired</li>
     <li>verb_shot(p=0.2)->discharged</li>
   -->
+  <!-- <li>Combat_SkillIncludes</li> -->
   <Combat_RangedFire.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] из [INITIATOR_possessive] [WEAPON_label].</li>
     <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] в [RECIPIENT_definite].</li>
