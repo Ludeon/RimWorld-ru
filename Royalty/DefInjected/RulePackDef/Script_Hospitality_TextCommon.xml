@@ -41,50 +41,51 @@
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->You have failed the quest '[resolvedQuestName]'.</li>
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
-  <QuestHospitalityCommon.rulePack.rulesStrings>
-    <li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
-    <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
-    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
-    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
-    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] ранен и, вероятно, не сможет ходить</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] ранены и, вероятно, не смогут ходить</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] болеет [lodgersDisease_label].</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] болеют [lodgersDisease_label].</li>
-    <li>healthInfo-></li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] - опытный боец</li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->[lodgersLabelPlural] - опытные бойцы</li>
-    <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1,lodgersCount==1)->Вам необходимо поддерживать настроение [lodgers0_possessive] выше [lodgersMoodThreshold_percent]</li>
-    <li>minMoodInfo(priority=1,lodgersCount>=2)->Вам необходимо поддерживать настроение [lodgersLabelPlural] выше [lodgersMoodThreshold_percent]</li>
-    <li>minMoodInfo-></li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
-    <li>enemyGroupsParagraph->Налёты будут происходить примерно раз в [threatsIntervalTicks_duration]. Они будут состоять примерно из этого:\n\n[threatExample]</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->После [shuttleDelayTicks_duration], прибудет челнок, чтобы забрать [lodgers0_nameDef]. Если [lodgers0_nameDef] попадет в сохранности на челнок, [allRewardsDescriptions]</li>
-    <li>shuttleWillComeParagraph(lodgersCount>=2)->После [shuttleDelayTicks_duration], прибудет челнок, чтобы забрать [lodgersLabelPlural]. Если они попадут на челнок в сохранности, [allRewardsDescriptions]</li>
-    <li>mustKeepOnMapParagraph(lodgersCount==1)->Вы должны разместить [lodgers0_nameDef] в области [map_definite] и не отправлять [lodgers0_nameDef] куда либо ещё</li>
-    <li>mustKeepOnMapParagraph(lodgersCount>=2)->Вы должны разместить [lodgersLabelPlural] в области [map_definite] и не отправлять их куда либо ещё</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] недавно [mechViolation], и преследуется роем механоидов, базирующимся на орбите. До тех пор, пока [lodgers0_nameDef] находится здесь, в область [map_definite] будут регулярно десантироваться кластеры механоидов</li>
-    <li>threatsInfoMechClustersMultiPrisoners->Эти заключённые недавно [mechViolation_pl], и преследуются роем механоидов, базирующимся на орбите. До тех пор, пока они здесь, в область [map_definite] будут регулярно десантироваться кластеры механоидов</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] недавно [mechViolation], и преследуется роем механоидов. До тех пор, пока [lodgers0_nameDef] находится здесь, механоиды будут совершать регулярные налёты.</li>
-    <li>threatsInfoMechRaidsMultiHuman->Они недавно [mechViolation_pl], и преследуются роем механоидов. Пока они здесь, механоиды будут совершить регулярные налёты.</li>
-    <li>mechViolation->каким-то образом разозлил ИИ-архотека</li>
-    <li>mechViolation->осквернил древний терминал суперкомпьютера</li>
-    <li>mechViolation->убил человеческого ребёнка, обожаемого ИИ-архотеком</li>
-    <li>mechViolation->попытался взломать управляющий узел механоидов</li>
-    <li>mechViolation->попытался совершить кражу из древнего хранилища</li>
-    <li>mechViolation_pl->каким-то образом разозлили ИИ-архотека</li>
-    <li>mechViolation_pl->осквернили древний терминал суперкомпьютера</li>
-    <li>mechViolation_pl->убили человеческого ребёнка, обожаемого ИИ-архотеком</li>
-    <li>mechViolation_pl->попытались взломать управляющий узел механоидов</li>
-    <li>mechViolation_pl->попытались совершить кражу из древнего хранилища</li>
-    <li>letterSubject->{SUBJECT_definite}</li>
-    <li>lodgersHasHave(lodgersCount==1)->имеет</li>
-    <li>lodgersHasHave(lodgersCount>=2)->имеют</li>
-    <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->Все оставшиеся [lodgersLabelPlural] покинут колонию</li>
-    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->вы провалили задание «[resolvedQuestName]».</li>
-    <li>failLetterEndingCommon->вы провалили задание «[resolvedQuestName]».\n\nВаши отношения с фракцией [asker_faction_name] уменьшились на [goodwillPenalty].</li>
-  </QuestHospitalityCommon.rulePack.rulesStrings>
+<QuestHospitalityCommon.rulePack.rulesStrings><li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
+        <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
+        <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
+        <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
+        <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
+        <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] ранен и, вероятно, не сможет ходить.</li>
+        <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] ранены и, вероятно, не смогут ходить.</li>
+        <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] болеет [lodgersDisease_label].</li>
+        <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] болеют [lodgersDisease_label].</li>
+        <li>healthInfo-></li>
+        <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] - опытный боец./li>
+        <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->[lodgersLabelPlural] - опытные бойцы.</li>
+        <li>specialSkillsInfo-></li>
+        <li>minMoodInfo(priority=1,lodgersCount==1)->Вам необходимо поддерживать [lodgers0_possessive] настроение  выше [lodgersMoodThreshold_percent]</li>
+        <li>minMoodInfo(priority=1,lodgersCount>=2)->Вам необходимо поддерживать [lodgersLabelPlural] настроение  выше [lodgersMoodThreshold_percent]</li>
+        <li>minMoodInfo-></li>
+        <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
+        <li>enemyGroupsParagraph->Налёты будут происходить примерно раз в [threatsIntervalTicks_duration]. Они будут состоять примерно из этого:\n\n[threatExample]</li>
+        <li>shuttleWillComeParagraph(lodgersCount==1)->После [shuttleDelayTicks_duration], прибудет челнок, чтобы забрать [lodgers0_nameDef]. Если [lodgers0_nameDef] попадет в сохранности на челнок, [allRewardsDescriptions]</li>
+        <li>shuttleWillComeParagraph(lodgersCount>=2)->После [shuttleDelayTicks_duration], прибудет челнок, чтобы забрать [lodgersLabelPlural]. Если они попадут на челнок в сохранности, [allRewardsDescriptions]</li>
+        <li>mustKeepOnMapParagraph(lodgersCount==1)->Вы должны разместить [lodgers0_nameDef] в области [map_definite] и не отправлять [lodgers0_nameDef] куда либо ещё</li>
+        <li>mustKeepOnMapParagraph(lodgersCount>=2)->Вы должны разместить [lodgersLabelPlural] в области [map_definite] и не отправлять их куда либо ещё</li>
+        <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] недавно [mechViolation], и преследуется роем механоидов, базирующимся на орбите. До тех пор, пока [lodgers0_nameDef] находится здесь, в область [map_definite] будут регулярно десантироваться кластеры механоидов</li>
+        <li>threatsInfoMechClustersMultiPrisoners->Эти заключённые недавно [mechViolation_pl], и преследуются роем механоидов, базирующимся на орбите. До тех пор, пока они здесь, в область [map_definite] будут регулярно десантироваться кластеры механоидов</li>
+        <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] недавно [mechViolation], и преследуется роем механоидов. До тех пор, пока [lodgers0_nameDef] находится здесь, механоиды будут совершать регулярные налёты.</li>
+        <li>threatsInfoMechRaidsMultiHuman->Они недавно [mechViolation_pl], и преследуются роем механоидов. Пока они здесь, механоиды будут совершить регулярные налёты.</li>
+        <li>mechViolation->каким-то образом разозлил ИИ-архотека</li>
+        <li>mechViolation->осквернил древний терминал суперкомпьютера</li>
+        <li>mechViolation->убил человеческого ребёнка, обожаемого ИИ-архотеком</li>
+        <li>mechViolation->попытался взломать управляющий узел механоидов</li>
+        <li>mechViolation->попытался совершить кражу из древнего хранилища</li>
+        <li>mechViolation_pl->каким-то образом разозлили ИИ-архотека</li>
+        <li>mechViolation_pl->осквернили древний терминал суперкомпьютера</li>
+        <li>mechViolation_pl->убили человеческого ребёнка, обожаемого ИИ-архотеком</li>
+        <li>mechViolation_pl->попытались взломать управляющий узел механоидов</li>
+        <li>mechViolation_pl->попытались совершить кражу из древнего хранилища</li>
+        <li>letterSubject->{SUBJECT_definite}</li>
+        <li>lodgersHasHave(lodgersCount==1)->имеет</li>
+        <li>lodgersHasHave(lodgersCount>=2)->имеют</li>
+        <li>remainingWillNowLeave(lodgersCount==1)-></li>
+        <li>remainingWillNowLeave(lodgersCount>=2)->Все оставшиеся [lodgersLabelPlural] покинут колонию.</li>
+        <li>failLetterEndingCommon(askerIsNull==true,priority=1)->вы провалили задание «[resolvedQuestName]».</li>
+
+        <li>failLetterEndingCommon->вы провалили задание «[resolvedQuestName]».\n\nВаши отношения с фракцией [asker_faction_name] уменьшились на [goodwillPenalty].</li>
+
+</QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>
