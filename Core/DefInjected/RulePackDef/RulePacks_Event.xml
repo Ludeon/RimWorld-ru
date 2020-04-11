@@ -4,7 +4,13 @@
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] used [ABILITY_label] on [SUBJECT_definite].</li>
   -->
-  <Event_AbilityUsed.rulePack.rulesStrings>TODO</Event_AbilityUsed.rulePack.rulesStrings>
+  <Event_AbilityUsed.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] [used] [ABILITY_label] на [SUBJECT_definite].</li>
+    <li>used(INITIATOR_gender==Male)->применил</li>
+    <li>used(INITIATOR_gender==Male)->использовал</li>
+    <li>used(INITIATOR_gender==Female)->применила</li>
+    <li>used(INITIATOR_gender==Female)->использовала</li>
+  </Event_AbilityUsed.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[SUBJECT_definite] was [stunned] by the attack.</li>

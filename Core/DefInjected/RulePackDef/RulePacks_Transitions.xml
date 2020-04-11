@@ -18,10 +18,10 @@
   <Transition_Died.rulePack.rulesStrings>
     <li>die(p=2)->умирает</li>
     <li>die->погибает</li>
-    <li>die(subject_flesh!=Mechanoid)->отправляется на тот свет</li>
-    <li>die(subject_flesh!=Mechanoid)->погибает от ран</li>
-    <li>die(subject_flesh==Mechanoid)->отключается</li>
-    <li>die(subject_flesh==Mechanoid)->перестаёт функционировать</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->отправляется на тот свет</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->погибает от ран</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->отключается</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->перестаёт функционировать</li>
   </Transition_Died.rulePack.rulesStrings>
   
   <!-- EN:
@@ -62,8 +62,8 @@
     <li>die->взлетает на воздух[flavorsuffix]</li>
     <li>flavorsuffix(p=4)-></li>
     <li>flavorsuffix->, разбрасывая [everywhere] [pieces] своего тела</li>
-    <li>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, забрызгивая окрестности [Gore]</li>
-    <li>flavorsuffix(subject_flesh!=Mechanoid)->, разлетаясь на [pieces], покрытые [Gore]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->, забрызгивая окрестности [Gore]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->, разлетаясь на [pieces], покрытые [Gore]</li>
     <li>flavorsuffix->, оставляя небольшой кратер</li>
     <li>flavor->в пламени взрыва</li>
     <li>flavor->в огненной вспышке</li>
@@ -139,16 +139,16 @@
     <li>collapse->падает</li>
     <li>collapse->оседает на землю</li>
     <li>collapse->теряет равновесие</li>
-    <li>collapse(subject_flesh!=Mechanoid)->падает в обморок</li>
-    <li>collapse(subject_flesh==Mechanoid)->получает системную ошибку</li>
-    <li>collapse(subject_flesh==Mechanoid)->входит в петлю перезагрузок</li>
-    <li>collapse(subject_flesh==Mechanoid)->терпит аппаратный сбой</li>
+    <li>collapse(SUBJECT_flesh!=Mechanoid)->падает в обморок</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->получает системную ошибку</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->входит в петлю перезагрузок</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->терпит аппаратный сбой</li>
     <li>helplessly->беспомощно</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->без сознания</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->в изнеможении</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->ослабленно</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->немощно</li>
-    <li>helplessly(subject_flesh==Mechanoid)->бесконтрольно</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->без сознания</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->в изнеможении</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->ослабленно</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->немощно</li>
+    <li>helplessly(SUBJECT_flesh==Mechanoid)->неуправляемо</li>
     <li>collapsemeta->[collapse]</li>
     <li>collapsemeta(p=0.5)->[helplessly] [collapse]</li>
   </Transition_Downed.rulePack.rulesStrings>
