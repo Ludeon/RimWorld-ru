@@ -144,7 +144,7 @@
   -->
   <Combat_MeleeIncludes.rulePack.rulesStrings>
     <li>r_logentry->[action], [result].</li>
-    <li>r_logentry(p=0.2)->[action].</li>
+    <li>r_logentry(p=-10)->[action].</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [TOOL_label] [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_label] [WEAPON_label]</li>
@@ -247,7 +247,76 @@
     <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
     <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
   -->
-  <Combat_SkillIncludes.rulePack.rulesStrings>TODO</Combat_SkillIncludes.rulePack.rulesStrings>
+  <Combat_SkillIncludes.rulePack.rulesStrings>
+    <li>skillDescMelee->[skillAdv] [wielding] [INITIATOR_possessive] [WEAPON_label]</li>
+    <li>skillDescMelee->[skillAdv] [using] [implement]</li>
+    <li>wielding(p=4)->держа в руках</li>
+    <li>wielding(p=3)->взявшись за</li>
+    <li>wielding(p=2)->применяя</li>
+    <li>wielding->размахивая</li>
+    <li>wielding->manipulating</li>
+    <li>using(p=4)->используя</li>
+    <li>using->driving</li>
+    <li>using->thrusting</li>
+    <li>using->управляясь</li>
+    <li>using->двигая</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->нелепо</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->по-дурацки</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->странно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->как попало</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->криво-косо</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->неловко</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->неуклюже</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->боязливо</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->с опаской</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->по-дилетантски</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->бездумно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->нерешительно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->неохотно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->аккуратно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->осторожно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->не особенно умело</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->непрофессионально</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->неуверенно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->увлечённо</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->воодушевлённо</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->с энтузиазмом</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->как надо</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->как следует</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->грамотно</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->правильно</li>
+    <li>skillAdv(INITIATOR_skill>=8)->умело</li>
+    <li>skillAdv(INITIATOR_skill>=8)->уверенно</li>
+    <li>skillAdv(INITIATOR_skill>=8)->сноровисто</li>
+    <li>skillAdv(INITIATOR_skill>=8)->проворно</li>
+    <li>skillAdv(INITIATOR_skill>=10)->ловко</li>
+    <li>skillAdv(INITIATOR_skill>=10)->находчиво</li>
+    <li>skillAdv(INITIATOR_skill>=10)->со знанием дела</li>
+    <li>skillAdv(INITIATOR_skill>=10)->технично</li>
+    <li>skillAdv(INITIATOR_skill>=10)->отточенно</li>
+    <li>skillAdv(INITIATOR_skill>=10)->профессионально</li>
+    <li>skillAdv(INITIATOR_skill>=10)->с профессионализмом</li>
+    <li>skillAdv(INITIATOR_skill>=12)->легко</li>
+    <li>skillAdv(INITIATOR_skill>=12)->с лёгкостью</li>
+    <li>skillAdv(INITIATOR_skill>=12)->заботливо</li>
+    <li>skillAdv(INITIATOR_skill>=12)->хитро</li>
+    <li>skillAdv(INITIATOR_skill>=12)->по-хитрому</li>
+    <li>skillAdv(INITIATOR_skill>=12)->по-особенному</li>
+    <li>skillAdv(INITIATOR_skill>=12)->талантливо</li>
+    <li>skillAdv(INITIATOR_skill>=14)->мастерски</li>
+    <li>skillAdv(INITIATOR_skill>=14)->блестяще</li>
+    <li>skillAdv(INITIATOR_skill>=14)->красиво</li>
+    <li>skillAdv(INITIATOR_skill>=14)->искусно</li>
+    <li>skillAdv(INITIATOR_skill>=16)->грациозно</li>
+    <li>skillAdv(INITIATOR_skill>=16)->элегантно</li>
+    <li>skillAdv(INITIATOR_skill>=16)->изящно</li>
+    <li>skillAdv(INITIATOR_skill>=16)->художественно</li>
+    <li>skillAdv(INITIATOR_skill>=16)->виртуозно</li>
+    <li>skillAdv(INITIATOR_skill>=16)->божественно</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->механически</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->механично</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->автоматично</li>  
+  </Combat_SkillIncludes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
