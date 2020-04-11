@@ -35,23 +35,23 @@
   <!-- <li>Combat_DeflectIncludes</li> -->
   <!-- <li>Combat_SkillIncludes</li> -->
   <Combat_Deflect.rulePack.rulesStrings>
-    <li>r_logentry(p=1)->[INITIATOR_definite] [deflectedadverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=1)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite], [deflectedconsequence].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [deflectedadverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [damaged] [recipient_part0_label] [RECIPIENT_definite], [deflectedconsequence].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite], используя [implement], [deflectedadverb] пытается [damaged_inf] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite], используя [implement], пытается [damaged_inf] [RECIPIENT_definite], [deflectedconsequence].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [deflectedadverb] использует [implement], желая [damaged_inf] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] использует [implement], желая [damaged_inf] [RECIPIENT_definite], [deflectedconsequence].</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged] [RECIPIENT_definite] при помощи [implement], [deflectedconsequence].</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [deflectedadverb] [damaged] [RECIPIENT_definite] при помощи [implement].</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [deflectedadverb] [damaged] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged] [RECIPIENT_definite], [deflectedconsequence].</li>
-    <li>deflectedconsequence->лишь [scrap_trans] [RECIPIENT_possessive] броню</li>
-    <li>deflectedconsequence->оставляя лишь [scratch] на [RECIPIENT_possessive] броне</li>
-    <li>deflectedconsequence->но [TOOL_label] лишь [scraped] [RECIPIENT_possessive] броню</li>
-    <li>deflectedconsequence->но [TOOL_label] лишь оставляет [scratch] на [RECIPIENT_possessive] броне</li>
-    <li>deflectedconsequence->но [TOOL_label] лишь соскальзывает с [RECIPIENT_possessive] брони</li>
+    <li>r_logentry(p=1)->[INITIATOR_definite] [deflected_adverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=1)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite], [deflected_consequence].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite], [skillDescMelee], [deflected_adverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdv] [damaged] [recipient_part0_label] [RECIPIENT_definite], [deflected_consequence].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite], [skillDescMelee], но [deflected_adverb] пытается [damaged_inf] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdv] пытается [damaged_inf] [RECIPIENT_definite], [deflected_consequence].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [deflected_adverb] использует [implement], желая [damaged_inf] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] использует [implement], желая [damaged_inf] [RECIPIENT_definite], [deflected_consequence].</li>
+    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged] [RECIPIENT_definite] при помощи [implement], [deflected_consequence].</li>
+    <li>r_logentry(p=0.6)->[INITIATOR_definite] [deflected_adverb] [damaged] [RECIPIENT_definite] при помощи [implement].</li>
+    <li>r_logentry(p=0.6)->[INITIATOR_definite] [deflected_adverb] [damaged] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged] [RECIPIENT_definite], [deflected_consequence].</li>
+    <li>deflected_consequence->лишь [scrap_trans] [RECIPIENT_possessive] броню</li>
+    <li>deflected_consequence->оставляя лишь [scratch] на [RECIPIENT_possessive] броне</li>
+    <li>deflected_consequence->но [TOOL_label] лишь [scraped] [RECIPIENT_possessive] броню</li>
+    <li>deflected_consequence->но [TOOL_label] лишь оставляет [scratch] на [RECIPIENT_possessive] броне</li>
+    <li>deflected_consequence->но [TOOL_label] лишь соскальзывает с [RECIPIENT_possessive] брони</li>
   </Combat_Deflect.rulePack.rulesStrings>
   
   <!-- EN:
@@ -67,11 +67,13 @@
   <!-- <li>Combat_FailIncludes</li> -->
   <!-- <li>Combat_SkillIncludes</li> -->
   <Combat_Dodge.rulePack.rulesStrings>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite] уворачивается от [maneuver_noun_gen] [implement] [INITIATOR_definite].</li>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite] уворачивается от [maneuver_noun_gen].</li>
-    <li>result->но [RECIPIENT_definite] [expertly] уворачивается</li>
+    <li>r_logentry(p=0.2)->[RECIPIENT_definite] [skillAdvMaybe] от [maneuver_noun_gen] [implement] [INITIATOR_definite].</li>
+    <li>r_logentry(p=0.2)->[RECIPIENT_definite] [skillAdvMaybe] уворачивается от [maneuver_noun_gen].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>result->но [RECIPIENT_definite] [skillAdvMaybe] уворачивается</li>
     <li>result->но [RECIPIENT_definite] делает обманное движение</li>
-    <li>result->но противник [expertly] уклоняется от удара</li>
+    <li>result->но противник [skillAdvMaybe] уклоняется от удара</li>
   </Combat_Dodge.rulePack.rulesStrings>
   
   <!-- EN:
@@ -102,15 +104,14 @@
   <!-- <li>Combat_SkillIncludes</li> -->
   <Combat_Hit.rulePack.rulesStrings>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [flavortextadverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite][flavortextsituation] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite], [flavortextconsequence].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [flavortextadverb] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite], [expertly] держа в руках [WEAPON_label], [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [strikeAdv] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite][flavortext_situation] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite], [flavortext_consequence].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
     <!-- combined high priority, if we destroyed something -->
     <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] [destroyed] [destroyed_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] [destroyed] [destroyed_targets] [RECIPIENT_definite] [destroyed_suffix].</li>
-    <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] [expertly] [destroyed] [destroyed_targets] [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] [skillAdv] [destroyed] [destroyed_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] при помощи [implement] [destroyed] [destroyed_targets] [RECIPIENT_definite].</li>
     <li>result(recipient_part_destroyed_count!=0,recipient_part_damaged_count==0,p=1)->[destroyed_participle] [RECIPIENT_possessive] [destroyed_targets]</li>
     <li>result(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0,p=1)->[damaged_participle] [RECIPIENT_possessive] [damaged_targets]</li>

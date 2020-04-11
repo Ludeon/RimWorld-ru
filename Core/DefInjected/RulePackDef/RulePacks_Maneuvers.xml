@@ -46,10 +46,10 @@
     <li>damaged_participle->надрывая</li>
     <li>damaged_participle->надгрызая</li>
     <li>damaged_participle->жуя</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя страшные разрывы на коже</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->оставляя страшные разрывы на металле</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->оставляя страшные разрывы на коже</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->оставляя страшные разрывы на металле</li>
     <li>destroyed->разгрызает</li>
     <li>destroyed->раскусывает</li>
     <li>destroyed->разрывает</li>
@@ -139,10 +139,10 @@
     <li>damaged_participle(p=2)->тыкая</li>
     <li>damaged_participle(p=2)->ушибая</li>
     <li>damaged_participle->давя</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
-    <li>flavortextconsequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
-    <li>flavortextconsequence->сбивая [RECIPIENT_objective] с ног</li>
-    <li>flavortextconsequence->отшвыривая [RECIPIENT_objective] в сторону</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
+    <li>flavortext_consequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
+    <li>flavortext_consequence->сбивая [RECIPIENT_objective] с ног</li>
+    <li>flavortext_consequence->отшвыривая [RECIPIENT_objective] в сторону</li>
     <li>destroyed->протыкает</li>
     <li>destroyed->раздавливает</li>
     <li>destroyed->разбивает</li>
@@ -178,11 +178,11 @@
     <li>woundname_acc(p=0.3)->открытую рану</li>
     <li>woundname_gen->раны</li>
     <li>woundname_gen(p=0.3)->открытой раны</li>
-    <li>flavortextconsequence->оставляя [woundname_acc]</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
+    <li>flavortext_consequence->оставляя [woundname_acc]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
     <li>destroyed_suffix->на лоскуты</li>
     <li>destroyed_suffix->в клочья</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->в кровавое месиво</li>
@@ -298,11 +298,11 @@
     <li>woundname_acc->рану</li>
     <li>woundname_acc(p=0.3)->открытую рану</li>
     <li>woundname_acc(p=0.3)->страшную рану</li>
-    <li>flavortextconsequence->оставляя [woundname_acc]</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
+    <li>flavortext_consequence->оставляя [woundname_acc]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
     <li>destroyed->разрубает</li>
     <li>destroyed->разделяет</li>
     <li>destroyed->рассекает</li>
@@ -327,10 +327,10 @@
   -->
   <!-- <li>Maneuver_Smash_Damage</li> -->
   <Maneuver_Smash.rulePack.rulesStrings>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
-    <li>flavortextconsequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
-    <li>flavortextconsequence->сбивая [RECIPIENT_objective] с ног</li>
-    <li>flavortextconsequence->отшвыривая [RECIPIENT_objective] в сторону</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
+    <li>flavortext_consequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
+    <li>flavortext_consequence->сбивая [RECIPIENT_objective] с ног</li>
+    <li>flavortext_consequence->отшвыривая [RECIPIENT_objective] в сторону</li>
     <li>destroyed_suffix->в лепёшку</li>
     <li>destroyed_suffix->в кашу</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->в фарш</li>
@@ -433,10 +433,10 @@
     <li>woundname_acc->колотую рану</li>
     <li>woundname_acc->дыру</li>
     <li>woundname_acc->щель</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя кровавую [woundname_acc]</li>
-    <li>flavortextconsequence->оставляя глубокую [woundname_acc]</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->оставляя кровавую [woundname_acc]</li>
+    <li>flavortext_consequence->оставляя глубокую [woundname_acc]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
     <li>destroyed->пронзает</li>
     <li>destroyed->дырявит</li>
     <li>destroyed->пробивает</li>
