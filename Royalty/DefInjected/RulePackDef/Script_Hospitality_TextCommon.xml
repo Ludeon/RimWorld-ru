@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
@@ -47,16 +46,16 @@
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] ранен и, вероятно, не сможет ходить</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] ранены и, вероятно, не смогут ходить</li>
+    <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] ранен и, вероятно, не сможет ходить.</li>
+    <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] ранены и, вероятно, не смогут ходить.</li>
     <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] болеет [lodgersDisease_label].</li>
     <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] болеют [lodgersDisease_label].</li>
     <li>healthInfo-></li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] - опытный боец</li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->[lodgersLabelPlural] - опытные бойцы</li>
+    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] - опытный боец.</li>
+    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->[lodgersLabelPlural] - опытные бойцы.</li>
     <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1,lodgersCount==1)->Вам необходимо поддерживать настроение [lodgers0_possessive] выше [lodgersMoodThreshold_percent]</li>
-    <li>minMoodInfo(priority=1,lodgersCount>=2)->Вам необходимо поддерживать настроение [lodgersLabelPlural] выше [lodgersMoodThreshold_percent]</li>
+    <li>minMoodInfo(priority=1,lodgersCount==1)->Вам необходимо поддерживать [lodgers0_possessive] настроение выше [lodgersMoodThreshold_percent]</li>
+    <li>minMoodInfo(priority=1,lodgersCount>=2)->Вам необходимо поддерживать [lodgersLabelPlural] настроение выше [lodgersMoodThreshold_percent]</li>
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
     <li>enemyGroupsParagraph->Налёты будут происходить примерно раз в [threatsIntervalTicks_duration]. Они будут состоять примерно из этого:\n\n[threatExample]</li>
@@ -82,9 +81,9 @@
     <li>lodgersHasHave(lodgersCount==1)->имеет</li>
     <li>lodgersHasHave(lodgersCount>=2)->имеют</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->Все оставшиеся [lodgersLabelPlural] покинут колонию</li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Все оставшиеся [lodgersLabelPlural] покинут поселение.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->вы провалили задание «[resolvedQuestName]».</li>
     <li>failLetterEndingCommon->вы провалили задание «[resolvedQuestName]».\n\nВаши отношения с фракцией [asker_faction_name] уменьшились на [goodwillPenalty].</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
-  
+
 </LanguageData>
