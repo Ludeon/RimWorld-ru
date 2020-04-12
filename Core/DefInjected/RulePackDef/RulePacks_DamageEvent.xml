@@ -11,7 +11,6 @@
     <li>collapsed->caved in</li>
     <li>damaged_present->smashing</li>
     <li>damaged_present->bashing</li>
-    <li>damaged_present->clobbering</li>
     <li>damaged_present->bruising</li>
     <li>damaged_present->lacerating</li>
     <li>destroyed_present->shattering</li>
@@ -20,6 +19,7 @@
     <li>destroyed_present->annihilating</li>
     <li>destroyed_present->breaking</li>
   -->
+  <!-- <li>DamageEvent_Include</li> -->
   <DamageEvent_Ceiling.rulePack.rulesStrings>
     <li>damageSource->[roof] [collapsed] на</li>
     <li>roof->крыша</li>
@@ -56,6 +56,7 @@
     <li>destroyed_present->cooking</li>
     <li>destroyed_present->cremating</li>
   -->
+  <!-- <li>DamageEvent_Include</li> -->
   <DamageEvent_Fire.rulePack.rulesStrings>
     <li>damageSource->[fire] опаляет</li>
     <li>fire(p=3)->огонь</li>
@@ -80,6 +81,7 @@
     <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef], [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   -->
+  <!-- <li>Combat_WoundIncludes</li> -->
   <DamageEvent_Include.rulePack.rulesStrings>
     <li>r_logentry(recipient_part_destroyed_count!=0)->[damageSource] [RECIPIENT_nameDef], [destroyed_participle] [RECIPIENT_possessive] [destroyed_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0,recipient_part_damaged_count!=0)->[damageSource] [RECIPIENT_nameDef], [destroyed_participle] [RECIPIENT_possessive] [destroyed_targets] and [damaged_participle] [RECIPIENT_possessive] [damaged_targets].</li>
@@ -102,6 +104,8 @@
     <li>light->flame</li>
     <li>light(p=0.2)->incandescence</li>
   -->
+  <!-- <li>DamageEvent_Include</li> -->
+  <!-- <li>Damage_Flame</li> -->
   <DamageEvent_PowerBeam.rulePack.rulesStrings>
     <li>damageSource->[sky] разверзается над</li>
     <li>damageSource->Луч невероятной [power] [damaged]</li>
@@ -129,6 +133,9 @@
     <li>enveloped->engulfed</li>
     <li>enveloped->surrounded</li>
   -->
+  <!-- <li>DamageEvent_Include</li> -->
+  <!-- <li>Maneuver_Scratch_Damage</li> -->
+  <!-- <li>Maneuver_Smash_Damage</li> -->
   <DamageEvent_Tornado.rulePack.rulesStrings>
     <li>damageSource->[spiraling] смерч [enveloped]</li>
     <li>destroyed_participle(p=3)->разрывая</li>
@@ -159,6 +166,7 @@
     <li>destroyed_present->eviscerating</li>
     <li>destroyed_present->exploding</li>
   -->
+  <!-- <li>DamageEvent_Include</li> -->
   <DamageEvent_TrapSpike.rulePack.rulesStrings>
     <li>damageSource->[spiketrap] ударяет</li>
     <li>damageSource->[spiketrap] бьёт</li>

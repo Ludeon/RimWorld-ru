@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN:
     <li>standardname(p=0.2)->isle [narrative_name]</li>
     <li>terrain_word(p=4)->islands</li>
@@ -14,9 +14,9 @@
     <li>terrain_word->chain</li>
   -->
   <NamerArchipelago.rulePack.rulesStrings>
-    <li>r_name->[prefix_masc] [archipelago_masc] [suffix_proper]</li>
+    <li>r_name->[archipelago_masc] [suffix_proper]</li>
     <li>r_name->[prefix_proper_masc] [archipelago_masc]</li>
-    <li>r_name->[prefix_plural] [archipelago_plural] [suffix_proper]</li>
+    <li>r_name->[archipelago_plural] [suffix_proper]</li>
     <li>r_name->[prefix_proper_plural] [archipelago_plural]</li>
     <li>archipelago_masc(p=4)->архипелаг</li>
     <li>archipelago_masc->Риф</li>
@@ -26,7 +26,7 @@
     <li>archipelago_plural->Скалы</li>
     <li>archipelago_plural->рифы</li>
   </NamerArchipelago.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>terrain_word(p=4)->shrubland</li>
     <li>terrain_word(p=4)->scrubland</li>
@@ -46,7 +46,7 @@
     <li>wasteland_fem->Прерия</li>
     <li>wasteland_fem->саванна</li>
   </NamerAridShrubland.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>standardname(p=0.2)->gulf of [narrative_name]</li>
     <li>terrain_word(p=6)->bay</li>
@@ -56,9 +56,9 @@
     <li>terrain_word->cove</li>
   -->
   <NamerBay.rulePack.rulesStrings>
-    <li>r_name->[prefix_masc] [bay_masc] [suffix_proper]</li>
+    <li>r_name->[bay_masc] [suffix_proper]</li>
     <li>r_name->[prefix_proper_masc] [bay_masc]</li>
-    <li>r_name->[prefix_fem] [bay_fem] [suffix_proper]</li>
+    <li>r_name->[bay_fem] [suffix_proper]</li>
     <li>r_name->[prefix_proper_fem] [bay_fem]</li>
     <li>prefix_masc(p=4)->залив</li>
     <li>prefix_masc->фьорд</li>
@@ -66,7 +66,7 @@
     <li>bay_fem(p=0.5)->губа</li>
     <li>bay_fem->гавань</li>
   </NamerBay.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
     <li>terrain_word(p=3)->taiga</li>
@@ -81,7 +81,7 @@
     <li>forest_fem(p=6)->тайга</li>
     <li>forest_plural->Дебри</li>
   </NamerBorealForest.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>standardname(p=0.4)->[desert_adjective] [narrative_name]</li>
     <li>desert_adjective->flat</li>
@@ -108,10 +108,43 @@
   -->
   <NamerDesert.rulePack.rulesStrings>
     <li>r_name->[wasteland_name]</li>
+    <li>prefix_proper_masc->плоский</li>
+    <li>prefix_proper_masc->сухой</li>
+    <li>prefix_proper_masc->выжженный</li>
+    <li>prefix_proper_masc->солнечный</li>
+    <li>prefix_proper_masc->жаркий</li>
+    <li>prefix_proper_masc->горячий</li>
+    <li>prefix_proper_masc->песчаный</li>
+    <li>prefix_proper_masc->скалистый</li>
+    <li>prefix_proper_fem->плоская</li>
+    <li>prefix_proper_fem->сухая</li>
+    <li>prefix_proper_fem->выжженная</li>
+    <li>prefix_proper_fem->солнечная</li>
+    <li>prefix_proper_fem->жаркая</li>
+    <li>prefix_proper_fem->горячая</li>
+    <li>prefix_proper_fem->песчаная</li>
+    <li>prefix_proper_fem->скалистая</li>
+    <li>prefix_proper_neutral->плоское</li>
+    <li>prefix_proper_neutral->сухое</li>
+    <li>prefix_proper_neutral->выжженное</li>
+    <li>prefix_proper_neutral->солнечное</li>
+    <li>prefix_proper_neutral->жаркое</li>
+    <li>prefix_proper_neutral->горячее</li>
+    <li>prefix_proper_neutral->песчаное</li>
+    <li>prefix_proper_neutral->скалистое</li>
+    <li>prefix_proper_plural->плоские</li>
+    <li>prefix_proper_plural->сухие</li>
+    <li>prefix_proper_plural->выжженные</li>
+    <li>prefix_proper_plural->солнечные</li>
+    <li>prefix_proper_plural->жаркие</li>
+    <li>prefix_proper_plural->горячие</li>
+    <li>prefix_proper_plural->песчаные</li>
+    <li>prefix_proper_plural->скалистые</li>
+    <li>wasteland_masc->солончак</li>
     <li>wasteland_fem(p=6)->пустыня</li>
     <li>wasteland_plural(p=4)->пески</li>
   </NamerDesert.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
     <li>terrain_word->grove</li>
@@ -123,7 +156,7 @@
     <li>forest_fem->Пуща</li>
     <li>forest_masc->Бор</li>
   </NamerForest.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>terrain_word->sheet</li>
     <li>terrain_word->expanse</li>
@@ -135,11 +168,22 @@
     <li>terrain_word(p=0.3)->tract</li>
   -->
   <NamerIceSheet.rulePack.rulesStrings>
-    <li>r_name->[ice_sheet_name]</li>
-    <li>ice_sheet_name->[prefix_plural] льды [suffix_proper]</li>
-    <li>ice_sheet_name->[prefix_proper_plural] льды</li>
+    <li>r_name->[ice_sheet_masc] [suffix_proper]</li>
+    <li>r_name->[ice_sheet_neutral] [suffix_proper]</li>
+    <li>r_name->[ice_sheet_plural] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_masc] [ice_sheet_masc]</li>
+    <li>r_name->[prefix_proper_neutral] [ice_sheet_neutral]</li>
+    <li>r_name->[prefix_proper_plural] [ice_sheet_plural]</li>
+    <li>ice_sheet_masc->лёд</li>
+    <li>ice_sheet_masc->предел</li>
+    <li>ice_sheet_masc->простор</li>
+    <li>ice_sheet_neutral->поле</li>
+    <li>ice_sheet_plural->льды</li>
+    <li>ice_sheet_plural->просторы</li>
+    <li>ice_sheet_plural->пределы</li>
+    <li>ice_sheet_plural->поля</li>
   </NamerIceSheet.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>standardname(p=0.2)->isle [narrative_name]</li>
     <li>terrain_word(p=4)->island</li>
@@ -151,14 +195,14 @@
     <li>terrain_word->point</li>
   -->
   <NamerIsland.rulePack.rulesStrings>
-    <li>r_name->[island_masc] [prefix_masc] [suffix_proper]</li>
+    <li>r_name->[island_masc] [suffix_proper]</li>
     <li>r_name->[island_masc] [prefix_proper_masc]</li>
-    <li>r_name->[prefix_fem] Земля [suffix_proper]</li>
+    <li>r_name->Земля [suffix_proper]</li>
     <li>r_name->[prefix_proper_fem] Земля</li>
     <li>island_masc(p=4)->о.</li>
     <li>island_masc->Риф</li>
   </NamerIsland.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>standardname->lake [narrative_name]</li>
     <li>terrain_word(p=6)->lake</li>
@@ -171,12 +215,12 @@
     <li>terrain_word(p=0.3)->loch</li>
   -->
   <NamerLake.rulePack.rulesStrings>
-    <li>r_name->[prefix_neutral] [lake_neutral] [suffix_proper]</li>
+    <li>r_name->[lake_neutral] [suffix_proper]</li>
     <li>r_name->[prefix_proper_neutral] [lake_neutral]</li>
     <li>lake_neutral(p=8)->оз.</li>
     <li>lake_neutral->море</li>
   </NamerLake.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>standardname(p=0.2)->mount [narrative_name]</li>
     <li>terrain_word(p=5)->mountains</li>
@@ -186,9 +230,9 @@
     <li>terrain_word->cliffs</li>
   -->
   <NamerMountainRange.rulePack.rulesStrings>
-    <li>r_name->[prefix_masc] [mountain_range_masc] [suffix_proper]</li>
+    <li>r_name->[mountain_range_masc] [suffix_proper]</li>
     <li>r_name->[prefix_proper_masc] [mountain_range_masc]</li>
-    <li>r_name->[prefix_plural] [mountain_range_plural] [suffix_proper]</li>
+    <li>r_name->[mountain_range_plural] [suffix_proper]</li>
     <li>r_name->[prefix_proper_plural] [mountain_range_plural]</li>
     <li>mountain_range_masc(p=0.3)->Кряж</li>
     <li>mountain_range_masc->хребет</li>
@@ -197,7 +241,7 @@
     <li>mountain_range_plural->Холмы</li>
     <li>mountain_range_plural->Утёсы</li>
   </NamerMountainRange.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>standardname(p=0.4)->[ocean_adjective] [narrative_name]</li>
     <li>ocean_adjective->blue</li>
@@ -218,12 +262,16 @@
     <li>terrain_word->expanse</li>
   -->
   <NamerOcean.rulePack.rulesStrings>
-    <li>r_name->[prefix_masc] [ocean_masc] [suffix_proper]</li>
+    <li>r_name->[ocean_masc] [suffix_proper]</li>
     <li>r_name->[prefix_proper_masc] [ocean_masc]</li>
+    <li>prefix_proper_masc->чистый</li>
+    <li>prefix_proper_masc->бурный</li>
+    <li>prefix_proper_masc->тихий</li>
     <li>ocean_masc(p=8)->океан</li>
     <li>ocean_masc->простор</li>
+    <li>ocean_masc->предел</li>
   </NamerOcean.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>standardname(p=0.2)->point [narrative_name]</li>
     <li>standardname(p=0.2)->cape [narrative_name]</li>
@@ -237,12 +285,12 @@
     <li>r_name(p=2)->[peninsula_masc] [suffix_proper]</li>
     <li>r_name(p=2)->[prefix_proper_masc] [peninsula_masc]</li>
     <li>r_name(p=0.1)->Мыс [prefix_proper_masc]</li>
-    <li>peninsula_masc->Мыс</li>
+    <li>peninsula_masc(p=4)->Мыс</li>
     <li>peninsula_masc->Выступ</li>
     <li>peninsula_masc->Рог</li>
     <li>peninsula_masc(p=8)->п-ов</li>
   </NamerPeninsula.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>standardname(p=0.1)->lake [narrative_name]</li>
     <li>terrain_word(p=6)->sea</li>
@@ -250,10 +298,10 @@
     <li>terrain_word->lake</li>
   -->
   <NamerSea.rulePack.rulesStrings>
-    <li>r_name->[prefix_neutral] море [suffix_proper]</li>
+    <li>r_name->море [suffix_proper]</li>
     <li>r_name->[prefix_proper_neutral] море</li>
   </NamerSea.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>standardname(p=0.1)->fen [narrative_name]</li>
     <li>standardname(p=0.3)->[swamp_adjective] [narrative_name]</li>
@@ -275,18 +323,33 @@
     <li>terrain_word->fen</li>
   -->
   <NamerSwamp.rulePack.rulesStrings>
-    <li>r_name->[prefix_neutral] болото [suffix_proper]</li>
-    <li>r_name->[prefix_proper_neutral] болото</li>
-    <li>r_name->[prefix_plural] топи [suffix_proper]</li>
-    <li>r_name->[prefix_proper_plural] топи</li>
-    <li>r_name->[prefix_fem] [swamp_fem] [suffix_proper]</li>
+    <li>r_name->[swamp_fem] [suffix_proper]</li>
     <li>r_name->[prefix_proper_fem] [swamp_fem]</li>
+    <li>r_name->[swamp_neutral] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_neutral] [swamp_neutral]</li>
+    <li>r_name->[swamp_plural] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_plural] [swamp_plural]</li>
+    <li>prefix_proper_fem->влажная</li>
+    <li>prefix_proper_fem->заросшая</li>
+    <li>prefix_proper_fem->гнилая</li>
+    <li>prefix_proper_fem->моховая</li>
+    <li>prefix_proper_neutral->влажное</li>
+    <li>prefix_proper_neutral->заросшее</li>
+    <li>prefix_proper_neutral->гнилое</li>
+    <li>prefix_proper_neutral->моховое</li>
+    <li>prefix_proper_plural->влажные</li>
+    <li>prefix_proper_plural->заросшие</li>
+    <li>prefix_proper_plural->гнилые</li>
+    <li>prefix_proper_plural->моховые</li>
     <li>swamp_fem->топь</li>
     <li>swamp_fem->глушь</li>
     <li>swamp_fem->трясина</li>
     <li>swamp_fem->вязь</li>
+    <li>swamp_neutral->болото</li>
+    <li>swamp_plural->топи</li>
+    <li>swamp_plural->болота</li>
   </NamerSwamp.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>standardname(p=0.3)->[rainforest_adjective] [narrative_name]</li>
     <li>rainforest_adjective->wet</li>
@@ -305,10 +368,26 @@
   -->
   <NamerTropicalRainforest.rulePack.rulesStrings>
     <li>r_name->[forest_name]</li>
+    <li>prefix_proper_masc->влажный</li>
+    <li>prefix_proper_masc->жаркий</li>
+    <li>prefix_proper_masc->душный</li>
+    <li>prefix_proper_masc->заросший</li>
+    <li>prefix_proper_fem->влажная</li>
+    <li>prefix_proper_fem->жаркая</li>
+    <li>prefix_proper_fem->душная</li>
+    <li>prefix_proper_fem->заросшая</li>
+    <li>prefix_proper_neutral->влажное</li>
+    <li>prefix_proper_neutral->жаркое</li>
+    <li>prefix_proper_neutral->душное</li>
+    <li>prefix_proper_neutral->заросшее</li>
+    <li>prefix_proper_plural->влажные</li>
+    <li>prefix_proper_plural->жаркие</li>
+    <li>prefix_proper_plural->душные</li>
+    <li>prefix_proper_plural->заросшие</li>
     <li>forest_plural(p=6)->джунгли</li>
     <li>forest_fem(p=3)->Cельва</li>
   </NamerTropicalRainforest.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>terrain_word(p=4)->plateau</li>
     <li>terrain_word(p=4)->barrens</li>
@@ -328,20 +407,10 @@
     <li>wasteland_fem(p=8)->тундра</li>
     <li>wasteland_fem->Целина</li>
   </NamerTundra.rulePack.rulesStrings>
-  
+
   <!-- EN:
-    <li>r_name->[metaprefix] [standardname]</li>
+    <li>r_name->[narrative_name] [terrain_word]</li>
     <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
-    <li>standardname->[narrative_name] [terrain_word]</li>
-    <li>metaprefix(p=10)-></li>
-    <li>metaprefix->[Direction]</li>
-    <li>metaprefix->[basic_adjective]</li>
-    <li>basic_adjective->great</li>
-    <li>basic_adjective->greater</li>
-    <li>basic_adjective->lesser</li>
-    <li>basic_adjective->grand</li>
-    <li>basic_adjective->new</li>
-    <li>basic_adjective->old</li>
     <li>narrative_name(p=12)->[WordTribal]</li>
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
     <li>narrative_name->[Color][NaturalObject]</li>
@@ -354,11 +423,9 @@
     <li>narrative_name->[Color] [Animal]</li>
     <li>narrative_name->[AdjectiveNatural] [Animal]</li>
     <li>narrative_name->[Animal] [BodyPart]</li>
-    <li>storyname(p=50)->[subject]'s [maybe_basic_adjective] [story_result]</li>
+    <li>storyname(p=50)->[subject]'s [story_result]</li>
     <li>storyname(p=2)->[subject]'s [BodyPart]</li>
     <li>storyname->[subject]'s [Gore]</li>
-    <li>maybe_basic_adjective-></li>
-    <li>maybe_basic_adjective(p=0.1)->[basic_adjective]</li>
     <li>subject(p=5)->[NamePerson]</li>
     <li>subject->[Animal]</li>
     <li>subject->[WordTribal]</li>
@@ -403,24 +470,24 @@
     <li>story_result->fraud</li>
   -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
-    <li>forest_name->[prefix_masc] [forest_masc] [suffix_proper]</li>
+    <li>forest_name->[forest_masc] [suffix_proper]</li>
     <li>forest_name->[prefix_proper_masc] [forest_masc]</li>
-    <li>forest_name->[prefix_fem] [forest_fem] [suffix_proper]</li>
+    <li>forest_name->[forest_fem] [suffix_proper]</li>
     <li>forest_name->[prefix_proper_fem] [forest_fem]</li>
-    <li>forest_name->[prefix_plural] [forest_plural] [suffix_proper]</li>
+    <li>forest_name->[forest_plural] [suffix_proper]</li>
     <li>forest_name->[prefix_proper_plural] [forest_plural]</li>
     <li>forest_masc(p=3)->лес</li>
     <li>forest_fem->чаща</li>
     <li>forest_fem->роща</li>
     <li>forest_plural->дебри</li>
     <li>forest_plural->леса</li>
-    <li>wasteland_name->[prefix_masc] [wasteland_masc] [suffix_proper]</li>
+    <li>wasteland_name->[wasteland_masc] [suffix_proper]</li>
     <li>wasteland_name->[prefix_proper_masc] [wasteland_masc]</li>
-    <li>wasteland_name->[prefix_fem] [wasteland_fem] [suffix_proper]</li>
+    <li>wasteland_name->[wasteland_fem] [suffix_proper]</li>
     <li>wasteland_name->[prefix_proper_fem] [wasteland_fem]</li>
-    <li>wasteland_name->[prefix_neutral] [wasteland_neutral] [suffix_proper]</li>
+    <li>wasteland_name->[wasteland_neutral] [suffix_proper]</li>
     <li>wasteland_name->[prefix_proper_neutral] [wasteland_neutral]</li>
-    <li>wasteland_name->[prefix_plural] [wasteland_plural] [suffix_proper]</li>
+    <li>wasteland_name->[wasteland_plural] [suffix_proper]</li>
     <li>wasteland_name->[prefix_proper_plural] [wasteland_plural]</li>
     <li>wasteland_fem->Пустошь</li>
     <li>wasteland_fem->Глушь</li>
@@ -431,24 +498,14 @@
     <li>suffix_proper->[ConceptAny]</li>
     <li>suffix_proper(p=3)->[WordTribal]</li>
     <li>suffix_proper(p=3)->[PlaceOutlander]</li>
-    <li>prefix_proper_masc->[derivative] [Color]</li>
-    <li>prefix_proper_masc->[derivative] [AdjectiveAny]</li>
-    <li>prefix_proper_fem->[derivative] [Color_fem]</li>
-    <li>prefix_proper_fem->[derivative] [AdjectiveAny_female]</li>
-    <li>prefix_proper_neutral->[derivative] [Color_neutral]</li>
-    <li>prefix_proper_neutral->[derivative] [AdjectiveAny_neutral]</li>
-    <li>prefix_proper_plural->[derivative] [Color_plural]</li>
-    <li>prefix_proper_plural->[derivative] [AdjectiveAny_plural]</li>
-    <li>prefix_fem->[derivative]</li>
-    <li>prefix_masc->[derivative]</li>
-    <li>prefix_neutral->[derivative]</li>
-    <li>prefix_plural->[derivative]</li>
-    <li>derivative(p=6)-></li>
-    <li>derivative->Ниж.</li>
-    <li>derivative->Верх.</li>
-    <li>derivative->Мал.</li>
-    <li>derivative->Бол.</li>
-    <li>derivative->Вел.</li>
+    <li>prefix_proper_masc->[Color]</li>
+    <li>prefix_proper_masc->[AdjectiveAny]</li>
+    <li>prefix_proper_fem->[Color_fem]</li>
+    <li>prefix_proper_fem->[AdjectiveAny_female]</li>
+    <li>prefix_proper_neutral->[Color_neutral]</li>
+    <li>prefix_proper_neutral->[AdjectiveAny_neutral]</li>
+    <li>prefix_proper_plural->[Color_plural]</li>
+    <li>prefix_proper_plural->[AdjectiveAny_plural]</li>
   </WorldFeatureNamerCommon.rulePack.rulesStrings>
-  
+
 </LanguageData>

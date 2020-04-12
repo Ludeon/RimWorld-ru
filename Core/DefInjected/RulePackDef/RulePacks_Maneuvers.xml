@@ -19,17 +19,17 @@
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposing the machinery underneath</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving grisly tears in the skin</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->leaving grisly tears in the metal</li>
-    <li>destroyed_past->devoured</li>
-    <li>destroyed_past->separated</li>
-    <li>destroyed_past->ripped</li>
-    <li>destroyed_past->ravaged</li>
-    <li>destroyed_present->devouring</li>
-    <li>destroyed_present->separating</li>
-    <li>destroyed_present->ripping</li>
-    <li>destroyed_present->ravaging</li>
-    <li>destroyed_suffix->[to] shreds</li>
+    <li>destroyed_past->tore off</li>
+    <li>destroyed_past->ripped off</li>
+    <li>destroyed_past->bit off</li>
+    <li>destroyed_present->tearing off</li>
+    <li>destroyed_present->ripping off</li>
+    <li>destroyed_present->biting off</li>
     <li>destroyed_suffix->[to] pieces</li>
-    <li>destroyed_suffix->[to] strips</li>
+    <li>destroyed_suffix->[to] bits</li>
+    <li>destroyed_suffix->[to] chunks</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] shreds</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] strips</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy strips</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
   -->
@@ -46,10 +46,10 @@
     <li>damaged_participle->надрывая</li>
     <li>damaged_participle->надгрызая</li>
     <li>damaged_participle->жуя</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя страшные разрывы на коже</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->оставляя страшные разрывы на металле</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->оставляя страшные разрывы на коже</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->оставляя страшные разрывы на металле</li>
     <li>destroyed->разгрызает</li>
     <li>destroyed->раскусывает</li>
     <li>destroyed->разрывает</li>
@@ -139,10 +139,10 @@
     <li>damaged_participle(p=2)->тыкая</li>
     <li>damaged_participle(p=2)->ушибая</li>
     <li>damaged_participle->давя</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
-    <li>flavortextconsequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
-    <li>flavortextconsequence->сбивая [RECIPIENT_objective] с ног</li>
-    <li>flavortextconsequence->отшвыривая [RECIPIENT_objective] в сторону</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
+    <li>flavortext_consequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
+    <li>flavortext_consequence->сбивая [RECIPIENT_objective] с ног</li>
+    <li>flavortext_consequence->отшвыривая [RECIPIENT_objective] в сторону</li>
     <li>destroyed->протыкает</li>
     <li>destroyed->раздавливает</li>
     <li>destroyed->разбивает</li>
@@ -162,8 +162,6 @@
   <!-- EN:
     <li>woundname->wound</li>
     <li>woundname(p=0.3)->opening</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->with blood dripping from the [woundname]</li>
-    <li>flavortext_situation->with fluids dripping from the [woundname]</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->and exposing the flesh underneath</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->and exposing the machinery underneath</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->and leaving a gory [woundname]</li>
@@ -174,16 +172,17 @@
     <li>destroyed_suffix->[to] fragments</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a pile of gore</li>
   -->
+  <!-- <li>Maneuver_Scratch_Damage</li> -->
   <Maneuver_Scratch.rulePack.rulesStrings>
     <li>woundname_acc->рану</li>
     <li>woundname_acc(p=0.3)->открытую рану</li>
     <li>woundname_gen->раны</li>
     <li>woundname_gen(p=0.3)->открытой раны</li>
-    <li>flavortextconsequence->оставляя [woundname_acc]</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
+    <li>flavortext_consequence->оставляя [woundname_acc]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
     <li>destroyed_suffix->на лоскуты</li>
     <li>destroyed_suffix->в клочья</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->в кровавое месиво</li>
@@ -205,12 +204,12 @@
     <li>damaged_present->cutting</li>
     <li>destroyed_past->mauled</li>
     <li>destroyed_past->lacerated</li>
-    <li>destroyed_past->tore off</li>
+    <li>destroyed_past->tore</li>
     <li>destroyed_past->shredded</li>
     <li>destroyed_past->ripped</li>
     <li>destroyed_present->mauling</li>
     <li>destroyed_present->lacerating</li>
-    <li>destroyed_present->tearing off</li>
+    <li>destroyed_present->tearing</li>
     <li>destroyed_present->shredding</li>
     <li>destroyed_present->ripping</li>
   -->
@@ -256,8 +255,6 @@
     <li>damaged_present(deflected!=True)->lacerating</li>
     <li>woundname->wound</li>
     <li>woundname(p=0.3)->opening</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->with blood dripping from the [woundname]</li>
-    <li>flavortext_situation->with fluids dripping from the [woundname]</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exposing the flesh underneath</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposing the machinery underneath</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a gory [woundname]</li>
@@ -301,11 +298,11 @@
     <li>woundname_acc->рану</li>
     <li>woundname_acc(p=0.3)->открытую рану</li>
     <li>woundname_acc(p=0.3)->страшную рану</li>
-    <li>flavortextconsequence->оставляя [woundname_acc]</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
+    <li>flavortext_consequence->оставляя [woundname_acc]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->обнажая плоть</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->обнажая внутренние механизмы</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
     <li>destroyed->разрубает</li>
     <li>destroyed->разделяет</li>
     <li>destroyed->рассекает</li>
@@ -328,11 +325,12 @@
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a fine mist</li>
     <li>destroyed_suffix->[to] fragments</li>
   -->
+  <!-- <li>Maneuver_Smash_Damage</li> -->
   <Maneuver_Smash.rulePack.rulesStrings>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
-    <li>flavortextconsequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
-    <li>flavortextconsequence->сбивая [RECIPIENT_objective] с ног</li>
-    <li>flavortextconsequence->отшвыривая [RECIPIENT_objective] в сторону</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->оставляя огромный синяк</li>
+    <li>flavortext_consequence(target_part_destroyed_count==1)->деформируя эту часть тела</li>
+    <li>flavortext_consequence->сбивая [RECIPIENT_objective] с ног</li>
+    <li>flavortext_consequence->отшвыривая [RECIPIENT_objective] в сторону</li>
     <li>destroyed_suffix->в лепёшку</li>
     <li>destroyed_suffix->в кашу</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->в фарш</li>
@@ -340,30 +338,26 @@
   </Maneuver_Smash.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>damaged_inf(p=4)->smash</li>
+    <li>damaged_inf->hit</li>
+    <li>damaged_inf->smash</li>
     <li>damaged_inf->bash</li>
-    <li>damaged_inf->clobber</li>
     <li>damaged_inf->slam</li>
     <li>damaged_inf->strike</li>
-    <li>damaged_past(p=4)->smashed</li>
+    <li>damaged_inf->beat</li>
+    <li>damaged_past->hit</li>
+    <li>damaged_past->smashed</li>
     <li>damaged_past->bashed</li>
-    <li>damaged_past->clobbered</li>
     <li>damaged_past->slammed</li>
     <li>damaged_past->struck</li>
+    <li>damaged_past->beat</li>
     <li>damaged_present->smashing</li>
     <li>damaged_present->bashing</li>
-    <li>damaged_present->clobbering</li>
     <li>damaged_present(deflected!=True)->bruising</li>
-    <li>damaged_present(deflected!=True)->lacerating</li>
     <li>destroyed_past->shattered</li>
     <li>destroyed_past->crushed</li>
-    <li>destroyed_past->obliterated</li>
-    <li>destroyed_past->annihilated</li>
     <li>destroyed_past->broke</li>
     <li>destroyed_present->shattering</li>
     <li>destroyed_present->crushing</li>
-    <li>destroyed_present->obliterating</li>
-    <li>destroyed_present->annihilating</li>
     <li>destroyed_present->breaking</li>
   -->
   <Maneuver_Smash_Damage.rulePack.rulesStrings>
@@ -439,10 +433,10 @@
     <li>woundname_acc->колотую рану</li>
     <li>woundname_acc->дыру</li>
     <li>woundname_acc->щель</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->оставляя кровавую [woundname_acc]</li>
-    <li>flavortextconsequence->оставляя глубокую [woundname_acc]</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->оставляя кровавую [woundname_acc]</li>
+    <li>flavortext_consequence->оставляя глубокую [woundname_acc]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->вызывая кровотечение из [woundname_gen]</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->вызывая утечку рабочих жидкостей из [woundname_gen]</li>
     <li>destroyed->пронзает</li>
     <li>destroyed->дырявит</li>
     <li>destroyed->пробивает</li>
