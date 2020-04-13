@@ -45,8 +45,22 @@
     <li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
-    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
-    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPlural_gen(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPlural_gen(lodgersCount>=2)->[lodgersLabelPlural_gen]</li>
+    <li>lodgers_arrived(lodgersCount==1,lodgers0_gender==Male)->прибыл</li>
+    <li>lodgers_arrived(lodgersCount==1,lodgers0_gender==Female)->прибыла</li>
+    <li>lodgers_arrived(lodgersCount>=2)->прибыли</li>
+    <li>lodgers_possessive(lodgersCount==1)->[lodgers0_possessive]</li>
+    <li>lodgers_possessive(lodgersCount>=2)->их</li>
+    <li>lodgers_pronoun(lodgersCount==1)->[lodgers0_pronoun]</li>
+    <li>lodgers_pronoun(lodgersCount>=2)->они</li>
+    <li>lodgers_these_people_will_be(lodgersCount==1)->этот человек будет</li>
+    <li>lodgers_these_people_will_be(lodgersCount>=2)->эти люди будут</li>
+    <li>lodgers_will_leave(lodgersCount==1)->покинет</li>
+    <li>lodgers_will_leave(lodgersCount>=2)->покинут</li>
+    <li>lodgers_should(lodgersCount==1,lodgers0_gender==Male)->должен</li>
+    <li>lodgers_should(lodgersCount==1,lodgers0_gender==Female)->должна</li>
+    <li>lodgers_should(lodgersCount>=2)->должны</li>
     <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] [lodgers0_injured] и, вероятно, не сможет ходить.</li>
     <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] ранены и, вероятно, не смогут ходить.</li>
     <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->У [lodgers0_nameDef] — [lodgersDisease_label].</li>
@@ -69,7 +83,7 @@
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] недавно [lodgers0_mechViolation], и преследуется роем механоидов, базирующимся на орбите. До тех пор, пока [lodgers0_nameDef] находится здесь, в [map_definite] будут регулярно десантироваться кластеры механоидов.</li>
     <li>threatsInfoMechClustersMultiPrisoners->Эти заключённые недавно [mechViolation_plural], и преследуются роем механоидов, базирующимся на орбите. До тех пор, пока они здесь, в [map_definite] будут регулярно десантироваться кластеры механоидов.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] недавно [lodgers0_mechViolation], и преследуется роем механоидов. До тех пор, пока [lodgers0_nameDef] находится здесь, механоиды будут совершать регулярные налёты.</li>
-    <li>threatsInfoMechRaidsMultiHuman->Они недавно [mechViolation_plural], и преследуются роем механоидов. Пока они здесь, механоиды будут совершить регулярные налёты.</li>
+    <li>threatsInfoMechRaidsMultiHuman->Они недавно [mechViolation_plural], и преследуются роем механоидов. Пока они здесь, механоиды будут совершать регулярные налёты.</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->каким-то образом разозлил ИИ-архотека</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->осквернил древний терминал суперкомпьютера</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->убил человеческого ребёнка, обожаемого ИИ-архотеком</li>
@@ -86,8 +100,6 @@
     <li>mechViolation_plural->попытались взломать управляющий узел механоидов</li>
     <li>mechViolation_plural->попытались совершить кражу из древнего хранилища</li>
     <li>letterSubject->{SUBJECT_definite}</li>
-    <li>lodgersHasHave(lodgersCount==1)->имеет</li>
-    <li>lodgersHasHave(lodgersCount>=2)->имеют</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Все оставшиеся [lodgersLabelPlural] покинут поселение.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->вы провалили задание «[resolvedQuestName]».</li>

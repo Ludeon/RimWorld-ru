@@ -12,14 +12,20 @@
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] лидер фракции [asker_faction_name] нуждается в дополнительной рабочей силе чтобы [dutyDescription]. [asker_pronoun] просит вас выделить [colonistCountToLend] на [lendForDays] дней.\n\nПосле того, как пройдёт [lendForDays] дней, [colonistCountToLend] отправят обратно в ваше поселение с помощью транспортных капсул.\n\nЕсли вы примете это задание, прибудет челнок, чтобы забрать ваших поселенцев. Когда он отбудет с ними на борту, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull], лидер фракции [asker_faction_name], нуждается в дополнительной рабочей силе, чтобы [dutyDescription]. [asker_pronoun] просит вас выделить [colonistCountToLend] на [lendForDays] дней.\n\nПо окончании этого срока [colonistToLend_possessive] отправят обратно в ваше поселение с помощью транспортных капсул.\n\nЕсли вы примете это задание, прибудет челнок, чтобы забрать [colonists_gen]. Когда он отбудет с ними на борту, [allRewardsDescriptions]</li>
     <li>disease->грипп</li>
     <li>disease->чума</li>
     <li>disease->малярия</li>
     <li>disease->инфекция</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из фракции [asker_faction_name] хочет добавить огонька в [asker_possessive] придворную жизнь, устроив представление [entertainerDescription]. [asker_pronoun] просит вас выделить [colonistCountToLend] на [lendForDays] дней.\n\nПосле того, как пройдёт [lendForDays] дней, [colonistCountToLend] отправят обратно в ваше поселение с помощью транспортных капсул.\n\nЕсли вы примете это задание, прибудет челнок, чтобы забрать ваших поселенцев. Когда он отбудет с ними на борту, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] хочет добавить огонька в свою придворную жизнь, устроив представление [entertainerDescription]. [asker_pronoun] просит вас выделить [colonistCountToLend] на [lendForDays] дней.\n\nПо окончании этого срока [colonistToLend_possessive] отправят обратно в ваше поселение с помощью транспортных капсул.\n\nЕсли вы примете это задание, прибудет челнок, чтобы забрать [colonists_gen]. Когда он отбудет с [colonists_with_pronoun] на борту, [allRewardsDescriptions]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->одного поселенца</li>
-    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] поселенцев</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->^Number( [colonistsToLendCount] | '# поселенца' | '# поселенцев' | '# поселенцев')^</li>
+    <li>colonists_gen(colonistsToLendCount==1)->вашего поселенца</li>
+    <li>colonists_gen(colonistsToLendCount>1)->ваших поселенцев</li>
+    <li>colonistToLend_possessive(colonistsToLendCount==1)->его</li>
+    <li>colonistToLend_possessive(colonistsToLendCount>1)->их</li>
+    <li>colonists_with_pronoun(colonistsToLendCount==1)->ним</li>
+    <li>colonists_with_pronoun(colonistsToLendCount>1)->ними</li>
   </PawnLend.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[worker] Outsourcing</li>
@@ -30,15 +36,17 @@
     <li>worker->Worker</li>
   -->
   <PawnLend.questNameRules.rulesStrings>
-    <li>questName->[worker]: подряд</li>
-    <li>questName->Контракт: [worker]</li>
+    <li>questName->Рабочий подряд</li>
+    <li>questName->Подрядчики</li>
     <li>questName->Временные рабочие</li>
     <li>questName->Дополнительные рабочие</li>
-    <li>worker->Поселенцы</li>
-    <li>worker->Рабочие</li>
+    <li>questName->[workers] по контракту</li>
+    <li>questName->[workers] по время</li>
+    <li>workers->Поселенцы</li>
+    <li>workers->Рабочие</li>
   </PawnLend.questNameRules.rulesStrings>
   <!-- EN: gather the harvest -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>собрать урожай</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>
+    <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>собрать урожай</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>
   <!-- EN: fortify a settlement -->
   <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>укрепить поселение</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>
   <!-- EN: set up a settlement -->
@@ -48,9 +56,9 @@
   <!-- EN: set up a hospital -->
   <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>разбить госпиталь</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>
   <!-- EN: contain an outbreak of [disease] -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>содержит вспышку заболевания [disease]</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>сдержать вспышку заболевания [disease]</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>
   <!-- EN: {PAWNS} have returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>{PAWNS} вернулись, после того, как помогли [asker_nameFull] из фракции [asker_faction_name] [dutyDescription].</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>{PAWNS} вернулись после того, как помогли [asker_nameFull] из фракции [asker_faction_name] [dutyDescription].</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>
   <!-- EN: real hardy surface survivors -->
   <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>по-настоящему закалённых жителей глуши</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>
   <!-- EN: goofy jesters -->
@@ -60,16 +68,16 @@
   <!-- EN: exotic human specimens -->
   <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>необычных человеческих экземпляров</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>
   <!-- EN: {PAWNS} have returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>{PAWNS} вернулись в поселение, после участия в представлении [entertainerDescription] при дворе [asker_royalTitleInCurrentFaction] [asker_nameFull] из фракции [asker_faction_name].</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>{PAWNS} вернулись в поселение после участия в представлении [entertainerDescription] при дворе [asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name].</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>
   <!-- EN: Shuttle arrived -->
-  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>челнок прибыл</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
+  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>Челнок прибыл</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
-  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>Челнок прибыл, чтобы забрать [colonistsToLendCount].</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>Челнок прибыл, чтобы забрать [colonistCountToLend].</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>челнок уничтожен</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
+  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>Челнок уничтожен</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
-  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>Челнок, отправленный забрать поселенцев, был уничтожен.</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
+  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>Челнок, отправленный забрать [colonistCountToLend], был уничтожен.</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Colonists returned -->
-  <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>поселенцы вернулись</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>
+  <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>Поселенцы вернулись</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>
   
 </LanguageData>
