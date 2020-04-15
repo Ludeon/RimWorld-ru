@@ -15,19 +15,26 @@
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] is an expert fighter.</li>
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are expert fighters.</li>
     <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1,lodgersCount==1)->You are required to keep [lodgers0_possessive] mood above [lodgersMoodThreshold_percent].</li>
-    <li>minMoodInfo(priority=1,lodgersCount>=2)->You are required to keep the [lodgersLabelPlural]' moods above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(priority=1,lodgersCount==1)->You must keep [lodgers0_possessive] mood above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(priority=1,lodgersCount>=2)->You must keep the [lodgersLabelPlural]' moods above [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
-    <li>enemyGroupsParagraph->Raids will arrive roughly once per [threatsIntervalTicks_duration]. The raids will be of similar size to this:\n\n[threatExample]</li>
+    <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
+    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount==1)->There will be [threatCount] raid of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount>1)->There will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==1)->A mech cluster will deploy nearby.</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==2)->A double-strength mech cluster will deploy nearby.</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==3)->A triple-strength mech cluster will deploy nearby.</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==2)->Two double-strength mech clusters will deploy nearby.</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==1)->Two mech clusters will deploy nearby.</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef]. If you get [lodgers0_objective] onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural]. If you get them onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>mustKeepOnMapParagraph(lodgersCount==1)->You must keep [lodgers0_nameDef] at [map_definite] and not send [lodgers0_objective] anywhere else.</li>
     <li>mustKeepOnMapParagraph(lodgersCount>=2)->You must keep the [lodgersLabelPlural] at [map_definite] and not send them anywhere else.</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm. It will drop mechanoid combat clusters on [map_definite] as long as [lodgers0_nameDef] is present.</li>
-    <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm. It will drop mechanoid combat clusters on [map_definite] as long as they are present.</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive. It will send mechanoid raids as long as [lodgers0_nameDef] is present.</li>
-    <li>threatsInfoMechRaidsMultiHuman->They recently [mechViolation], and have been targeted by a mechanoid hive. It will send mechanoid raids as long as they are present.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
+    <li>threatsInfoMechRaidsMultiHuman->They recently [mechViolation], and have been targeted by a mechanoid hive.</li>
     <li>mechViolation->angered a machine persona somehow</li>
     <li>mechViolation->violated an ancient supercomputer terminal</li>
     <li>mechViolation->murdered a human child favored by an archotech</li>
@@ -71,19 +78,27 @@
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] — опытный боец.</li>
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->[lodgersLabelPlural] — опытные бойцы.</li>
     <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1,lodgersCount==1)->Вам необходимо поддерживать [lodgers0_possessive] настроение выше [lodgersMoodThreshold_percent].</li>
-    <li>minMoodInfo(priority=1,lodgersCount>=2)->Вам необходимо поддерживать настроение [lodgersLabelPlural_gen] выше [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(priority=1,lodgersCount==1)->Вы должны поддерживать [lodgers0_possessive] настроение выше [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(priority=1,lodgersCount>=2)->Вы должны поддерживать настроение [lodgersLabelPlural_gen] выше [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
+    <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
+    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount==1)->На вас совершат налёт примерно в следующем составе:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount>1)->На вас совершат ^Number( [threatCount] | '# налёт' | '# налёта' | '# налётов')^ примерно в следующем составе:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==1)->Неподалёку десантируется кластер механоидов.</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==2)->Неподалёку десантируется кластер механоидов удвоенной мощности.</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==3)->Неподалёку десантируется кластер механоидов утроенной мощности.</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==2)->Неподалёку десантируются два кластера механоидов удвоенной мощности..</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==1)->Неподалёку десантируются два кластера механоидов.</li>
     <li>enemyGroupsParagraph->Налёты будут происходить примерно раз в [threatsIntervalTicks_duration]. В их составе будут:\n\n[threatExample]</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->Через [shuttleDelayTicks_duration] прибудет челнок, чтобы забрать [lodgers0_nameDef]. Если [lodgers0_pronoun] попадёт на челнок в сохранности, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->Через [shuttleDelayTicks_duration] прибудет челнок, чтобы забрать [lodgersLabelPlural_gen]. Если они попадут на челнок в сохранности, [allRewardsDescriptions]</li>
     <li>mustKeepOnMapParagraph(lodgersCount==1)->Вы должны разместить [lodgers0_nameDef] в [map_definite] и не отправлять [lodgers0_possessive] куда-либо ещё.</li>
     <li>mustKeepOnMapParagraph(lodgersCount>=2)->Вы должны разместить [lodgersLabelPlural_gen] в [map_definite] и не отправлять их куда-либо ещё.</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] недавно [lodgers0_mechViolation], и преследуется роем механоидов, базирующимся на орбите. До тех пор, пока [lodgers0_nameDef] находится здесь, в [map_definite] будут регулярно десантироваться кластеры механоидов.</li>
-    <li>threatsInfoMechClustersMultiPrisoners->Эти заключённые недавно [mechViolation_plural], и преследуются роем механоидов, базирующимся на орбите. До тех пор, пока они здесь, в [map_definite] будут регулярно десантироваться кластеры механоидов.</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] недавно [lodgers0_mechViolation], и преследуется роем механоидов. До тех пор, пока [lodgers0_nameDef] находится здесь, механоиды будут совершать регулярные налёты.</li>
-    <li>threatsInfoMechRaidsMultiHuman->Они недавно [mechViolation_plural], и преследуются роем механоидов. Пока они здесь, механоиды будут совершать регулярные налёты.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] недавно [lodgers0_mechViolation], и преследуется роем механоидов, базирующимся на орбите.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->Эти заключённые недавно [mechViolation_plural], и преследуются роем механоидов, базирующимся на орбите.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] недавно [lodgers0_mechViolation], и преследуется роем механоидов.</li>
+    <li>threatsInfoMechRaidsMultiHuman->Они недавно [mechViolation_plural], и преследуются роем механоидов.</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->каким-то образом разозлил ИИ-архотека</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->осквернил древний терминал суперкомпьютера</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->убил человеческого ребёнка, обожаемого ИИ-архотеком</li>
