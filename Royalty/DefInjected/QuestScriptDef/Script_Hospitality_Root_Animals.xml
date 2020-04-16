@@ -5,19 +5,19 @@
     <li>lodgersLabel->[lodgersPawnKind_label]</li>
     <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
   -->
-  <Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>    
+  <Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
     <li>lodgersLabel->[lodgersPawnKind_label]</li>
     <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
   </Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
-    <li>threatsInfoMechClustersSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by an orbiting mechanoid swarm. As long as [lodgers0_pronoun] is present, mechanoid combat clusters will regularly drop onto [map_definite].</li>
-    <li>threatsInfoMechClustersMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by an orbiting mechanoid swarm. As long as they are present, mechanoid combat clusters will regularly drop onto [map_definite].</li>
-    <li>threatsInfoMechRaidsSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by a mechanoid hive. As long as [lodgers0_pronoun] is present, mechanoid combat groups will regularly attack [map_definite].</li>
-    <li>threatsInfoMechRaidsMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by a mechanoid hive. As long as they are present, mechanoid combat groups will regularly attack [map_definite].</li>
+    <li>threatsInfoMechClustersSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechClustersMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by a mechanoid hive.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by a mechanoid hive.</li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->An animal rescue organization wants you to take care of a [lodgersLabel] named [lodgers0_nameDef] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1]\n\n[commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nThe animal rescue activists stole [lodgers0_nameDef] from a slaughtering ceremony being held by [enemyFaction_name]. Now the [enemyFaction_pawnsPlural] are coming to seek revenge. If you accept [lodgers0_nameDef], [enemyFaction_pawnsPlural] will attack as long as [lodgers0_pronoun] is present. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
     <li>questDescription(askerIsNull==true,lodgersCount>=2)->An animal rescue organization wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2]\n\n[commonDescEnding]</li>
     <li>victim->child</li>
@@ -27,39 +27,39 @@
     <li>victim(generateThreats==true,allowedThreats==Raids)->friend of the [enemyFaction_leaderTitle] of [enemyFaction_name]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, these [lodgersLabelPlural] were recently implicated in the death of a [victim]. Now, [enemyFaction_pawnsPlural] from [enemyFaction_name] are hunting them for ritual revenge. If you accept the [lodgersLabelPlural], [enemyFaction_pawnsPlural] will attack as long as they are present. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is looking for a safe settlement to take care of [asker_possessive] pet [lodgersLabel] [lodgers0_nameDef] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3]\n\n[commonDescEnding]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] are trying to kill poor little [lodgers0_nameDef] to get at [asker_nameDef]. If you accept [lodgers0_nameDef], [enemyFaction_pawnsPlural] will attack as long as [lodgers0_pronoun] is present. [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
     <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4]\n\n[commonDescEnding]</li>
     <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nThe [lodgersLabelPlural] are necessary for [asker_nameDef] to fulfill an important trade promise. To provoke conflict, [enemyFaction_name] is sending [enemyFaction_pawnsPlural] after them. If you accept the [lodgersLabelPlural], [enemyFaction_pawnsPlural] will attack as long as they are present. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [asker_possessive] favorite pet, the [lodgersLabel] [lodgers0_nameDef], at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5]\n\n[commonDescEnding]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] is a gift promised to [asker_nameDef]'s child for a marriage ceremony. To try to prevent the marriage, [enemyFaction_name] is sending [enemyFaction_pawnsPlural] after [lodgers0_objective]. If you accept [lodgers0_nameDef], [enemyFaction_pawnsPlural] will attack as long as [lodgers0_nameDef] is present. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. The [lodgersLabelPlural] are [asker_nameDef]'s favorite pets, and [asker_pronoun] wants them to see the world outside [asker_possessive] royal court. [healthInfo][threatsInfo6]\n\n[commonDescEnding]</li>
     <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, [enemyFaction_name] is hunting the [lodgersLabelPlural] to try to hurt [asker_nameDef] personally. If you accept the [lodgersLabelPlural], [enemyFaction_pawnsPlural] will attack as long as they are present. [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
-  <Hospitality_Animals.questDescriptionRules.rulesStrings>    
-    <li>threatsInfoMechClustersSingleAnimal->По неизвестной причине, за животным охотится рой механоидов, базирующийся на орбите. До тех пор, пока [lodgersLabel] здесь, в [map_definite] будут регулярно десантироваться кластеры механоидов.</li>
-    <li>threatsInfoMechClustersMultiAnimal->По неизвестной причине, за животными охотится рой механоидов, базирующийся на орбите. До тех пор, пока они находятся здесь, в [map_definite] будут регулярно десантироваться кластеры механоидов.</li>
-    <li>threatsInfoMechRaidsSingleAnimal->По неизвестной причине, за животным охотится рой механоидов. До тех пор, пока [lodgers0_pronoun] находится здесь, механоиды будут совершать регулярные налёты.</li>
-    <li>threatsInfoMechRaidsMultiAnimal->По неизвестной причине, за животными охотится рой механоидов. До тех пор, пока они находятся здесь, механоиды будут совершать регулярные налёты.</li>
+  <Hospitality_Animals.questDescriptionRules.rulesStrings>
+    <li>threatsInfoMechClustersSingleAnimal->По неизвестной причине за животным охотится рой механоидов, базирующийся на орбите.</li>
+    <li>threatsInfoMechClustersMultiAnimal->По неизвестной причине за животными охотится рой механоидов, базирующийся на орбите.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->По неизвестной причине, за животным охотится рой механоидов.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->По неизвестной причине, за животными охотится рой механоидов.</li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->Организация по защите животных хочет, чтобы вы приютили животное, [lodgersLabel] по имени [lodgers0_nameDef], в [map_definite] на [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1]\n\n[commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nАктивисты организации по защите животных выкрали [lodgers0_nameDef] с церемонии ритуального жертвоприношения, проходящей на территории фракции [enemyFaction_name]. Теперь, [enemyFaction_pawnsPlural] в ярости и жаждут мести. Если вы приютите [lodgers0_nameDef] у себя, [enemyFaction_pawnsPlural] будут совершать налёты, пока [lodgers0_pronoun] с вами. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
     <li>questDescription(askerIsNull==true,lodgersCount>=2)->Организация по защите животных хочет, чтобы вы приютили [lodgersCount] [lodgersLabelPlural] в [map_definite] на [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2]\n\n[commonDescEnding]</li>
     <li>victim->одного ребёнка</li>
@@ -69,27 +69,27 @@
     <li>victim(generateThreats==true,allowedThreats==Raids)->друга [enemyFaction_leaderTitle] [enemyFaction_name]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nК сожалению, эти [lodgersLabelPlural] были недавно замешаны в смерти [victim]. Теперь, [enemyFaction_pawnsPlural] из фракции [enemyFaction_name] охотятся за ними, для совершения ритуальной мести. Если вы приютите [lodgersLabelPlural] у себя, [enemyFaction_pawnsPlural] будут совершать налёты, пока они с вами. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_faction_leaderTitle] [asker_nameFull], лидер фракции [asker_faction_name] ищет безопасное место, где могли бы приютить [asker_possessive] питомца, [lodgersLabel] [lodgers0_nameDef] на [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3]\n\n[commonDescEnding]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] из [enemyFaction_name] хотят убить несчастное животное, чтобы насолить [asker_nameDef]. Если вы примете [lodgers0_nameDef] у себя, [enemyFaction_pawnsPlural] будут совершать налёты, пока [lodgers0_pronoun] с вами. [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
     <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_faction_leaderTitle] [asker_nameFull], лидер фракции [asker_faction_name], просит об одолжении. [asker_pronoun] хочет, чтобы вы приютили [lodgersCount] [lodgersLabelPlural] в [map_definite] на [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4]\n\n[commonDescEnding]</li>
     <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgersLabelPlural] необходимы [asker_nameDef] для заключения важного торгового соглашения. Чтобы спровоцировать конфликт, за ними были высланы [enemyFaction_pawnsPlural] из фракции [enemyFaction_name]. Если вы примете [lodgersLabelPlural] у себя, [enemyFaction_pawnsPlural] будут совершать налёты, пока они с вами. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name], просит об одолжении. [asker_pronoun] хочет, чтобы вы приютили [asker_possessive] любимого питомца, [lodgersLabel] [lodgers0_nameDef], в [map_definite] на [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5]\n\n[commonDescEnding]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] является подарком, обещанным на свадьбу ребёнку [asker_nameDef]. В попытке сорвать свадебную церемонию, за [lodgers0_nameDef] были высланы [enemyFaction_pawnsPlural] из фракции [enemyFaction_name]. Если вы примете [lodgers0_nameDef] у себя, [enemyFaction_pawnsPlural] будут совершать налёты, пока [lodgers0_pronoun] с вами. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name], просит об одолжении. [asker_pronoun] хочет, чтобы вы приютили [lodgersCount] [lodgersLabelPlural] в [map_definite] на [shuttleDelayTicks_duration]. [lodgersLabelPlural] — [asker_possessive] любимые питомцы, и [asker_pronoun] хочет, чтобы они повидали мир за пределами [asker_possessive] двора. [healthInfo][threatsInfo6]\n\n[commonDescEnding]</li>
     <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nК сожалению, [enemyFaction_name] охотится за [lodgersLabelPlural], чтобы насолить [asker_nameDef]. Если вы примете [lodgersLabelPlural] у себя, [enemyFaction_pawnsPlural] будут совершать налёты, пока они с вами. [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
     <li>letterSubject(priority=1)->[lodgersLabel] {SUBJECT_definite}</li>
   </Hospitality_Animals.questDescriptionRules.rulesStrings>
@@ -115,7 +115,7 @@
     <li>animalAdj(generateThreats==true)->hunted</li>
     <li>animalAdj(generateThreats==true)->frightened</li>
   -->
-  <Hospitality_Animals.questNameRules.rulesStrings>  
+  <Hospitality_Animals.questNameRules.rulesStrings>
     <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
     <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
     <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
@@ -135,7 +135,7 @@
     <li>animalAdj->нежный питомец:</li>
     <li>animalAdj->славный питомец:</li>
     <li>animalAdj(generateThreats==true)->питомец под прицелом:</li>
-    <li>animalAdj(generateThreats==true)->напуганный питомец:</li>    
+    <li>animalAdj(generateThreats==true)->напуганный питомец:</li>
     <li>animalAdj_pl->очаровательные питомцы:</li>
     <li>animalAdj_pl->кроткоглазые питомцы:</li>
     <li>animalAdj_pl->преданные питомцы:</li>
@@ -145,7 +145,6 @@
     <li>animalAdj_pl->славные питомцы:</li>
     <li>animalAdj_pl(generateThreats==true)->питомцы под прицелом:</li>
     <li>animalAdj_pl(generateThreats==true)->напуганные питомцы:</li>
-  
   </Hospitality_Animals.questNameRules.rulesStrings>
   
 </LanguageData>

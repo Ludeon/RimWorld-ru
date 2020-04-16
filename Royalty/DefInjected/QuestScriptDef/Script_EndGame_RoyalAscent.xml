@@ -14,7 +14,6 @@
     <li>intro(sameQuestsCount>=1)->Вам предоставилась ещё одна возможность провести торжественный приём.\n\n</li>
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nНедоброжелатели попытаются воспользоваться случаем и убить [asker_faction_leaderTitle], и будут нападать с большим упорством. Будьте готовы защищаться.</li>
     <li>threatsInfo-></li>
-  
   </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(sameQuestsCount==0)->Royal Ascent</li>
@@ -26,7 +25,7 @@
     <li>titleEnd->Host</li>
     <li>titleEnd->Victory</li>
   -->
-  <EndGame_RoyalAscent.questNameRules.rulesStrings>    
+  <EndGame_RoyalAscent.questNameRules.rulesStrings>
     <li>questName(sameQuestsCount==0)->Имперская санкция</li>
     <li>questName(sameQuestsCount>=1)->Имперский [titleEnd]</li>
     <li>titleEnd->Указ</li>
@@ -36,12 +35,16 @@
     <li>titleEnd->Приём</li>
     <li>titleEnd->Почёт</li>
   </EndGame_RoyalAscent.questNameRules.rulesStrings>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>Задание провалено: «[resolvedQuestName]»</EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>
+  <!-- EN: [faction_name] became hostile to you.  -->
+  <EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>Фракция [faction_name] теперь враждебна к вам.</EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>
   <!-- EN: asker.NoLongerFactionLeader -->
   <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>asker.NoLongerFactionLeader</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <!-- EN: [asker_faction_leaderTitle] arrived -->
-  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>[asker_faction_leaderTitle] прибывает</EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>[asker_faction_leaderTitle] прибывает</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>[asker_faction_leaderTitle] из фракции [asker_faction_name], прибывает в ваше поселение.\n\nЗащищайте [asker_possessive] и удовлетворяйте [asker_possessive] потребности в течение [shuttleDelayTicks_duration].\n\nВсе ваши поселенцы получат возможность отправиться на челноке с знатным гостем к имперской флотилии, чтобы начать новую жизнь.</EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>[asker_faction_leaderTitle] из фракции [asker_faction_name], прибывает в ваше поселение.\n\nЗащищайте [asker_possessive] и удовлетворяйте [asker_possessive] потребности в течение [shuttleDelayTicks_duration].\n\nВсе ваши поселенцы получат возможность отправиться на челноке с знатным гостем к имперской флотилии, чтобы начать новую жизнь.</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>
   <!-- EN: Should depart on shuttle -->
   <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>Должен отбыть на челноке</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
   <!-- EN: Shuttle arrived -->
@@ -77,8 +80,8 @@
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>Челнок, отправленный забрать {SUBJECT_bestRoyalTitle}, был разрушен. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>задание провалено: [resolvedQuestName]</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>Задание провалено: «[resolvedQuestName]»</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without him. He will now leave on foot. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>Челнок, отправленный забрать {SUBJECT_bestRoyalTitle}, отбыл без н[asker_posessive]. {SUBJECT_bestRoyalTitle} покинет поселение пешком. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
-  
+
 </LanguageData>
