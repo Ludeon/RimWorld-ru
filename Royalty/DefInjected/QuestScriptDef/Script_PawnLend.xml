@@ -2,22 +2,22 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days.\n\nAfter [lendForDays] days have passed, your colonists will be returned via drop pods.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days.\n\nAfter [lendForDays] days have passed, your colonists will be returned.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
     <li>disease->flu</li>
     <li>disease->plague</li>
     <li>disease->malaria</li>
     <li>disease->infection</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days. After [lendForDays] days have passed, your colonists will be returned via drop pods.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days. After [lendForDays] days have passed, your colonists will be returned.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull], лидер фракции [asker_faction_name], нуждается в дополнительной рабочей силе, чтобы [dutyDescription]. [asker_pronoun] просит вас выделить [colonistCountToLend] на [lendForDays] дней.\n\nПо окончании этого срока [colonistToLend_possessive] отправят обратно в ваше поселение с помощью транспортных капсул.\n\nЕсли вы примете это задание, прибудет челнок, чтобы забрать [colonists_gen]. Когда он отбудет с ними на борту, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull], лидер фракции [asker_faction_name], нуждается в дополнительной рабочей силе, чтобы [dutyDescription]. [asker_pronoun] просит вас выделить [colonistCountToLend] на [lendForDays] дней.\n\nПо окончании этого срока [colonistToLend_possessive] отправят обратно в ваше поселение.\n\nЕсли вы примете это задание, прибудет челнок, чтобы забрать [colonists_gen]. Когда он отбудет с ними на борту, [allRewardsDescriptions]</li>
     <li>disease->грипп</li>
     <li>disease->чума</li>
     <li>disease->малярия</li>
     <li>disease->инфекция</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] хочет добавить огонька в свою придворную жизнь, устроив представление [entertainerDescription]. [asker_pronoun] просит вас выделить [colonistCountToLend] на [lendForDays] дней.\n\nПо окончании этого срока [colonistToLend_possessive] отправят обратно в ваше поселение с помощью транспортных капсул.\n\nЕсли вы примете это задание, прибудет челнок, чтобы забрать [colonists_gen]. Когда он отбудет с [colonists_with_pronoun] на борту, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] хочет добавить огонька в свою придворную жизнь, устроив представление [entertainerDescription]. [asker_pronoun] просит вас выделить [colonistCountToLend] на [lendForDays] дней.\n\nПо окончании этого срока [colonistToLend_possessive] отправят обратно в ваше поселение.\n\nЕсли вы примете это задание, прибудет челнок, чтобы забрать [colonists_gen]. Когда он отбудет с [colonists_with_pronoun] на борту, [allRewardsDescriptions]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->одного поселенца</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->^Number( [colonistsToLendCount] | '# поселенца' | '# поселенцев' | '# поселенцев')^</li>
     <li>colonists_gen(colonistsToLendCount==1)->вашего поселенца</li>
