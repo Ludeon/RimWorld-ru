@@ -149,13 +149,13 @@
     <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is asking for your help. [askerEnemies] have been harassing [asker_possessive] settlements. [asker_pronoun] wants your help using signals to draw them towards [map_definite] and away from [asker_possessive] people.\n\nIf [asker_pronoun] does, [askerEnemies] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This site will remain until you go destroy it.\n\nIn reward, you'll recieve pods containing (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is traveling near [map_definite]. [asker_pronoun] is being followed by [threat] and wants your help using signals to draw them towards [map_definite].\n\nIf you do, [askerEnemies] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This site will remain until you go destroy it.\n\n[asker_nameDef] will reward you. [allRewardsDescriptionsExceptItems] You'll recieve pods containing (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
-    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoids text_todo</li>
-    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoids text_todo</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
     <li>threat->[asker_possessive] enemies</li>
     <li>threat(priority=-1)->his enemies</li>
     <li>askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
-    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->mechanoids text_todo</li>
-    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids text_todo</li>
+    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
     <li>askerEnemies->[asker_possessive] enemies</li>
     <li>askerEnemies(priority=-1)->his enemies</li>
   -->
@@ -166,13 +166,13 @@
     <li>asker_travelled(asker_gender==Male)->путешествовал</li>
     <li>asker_travelled(asker_gender==Female)->путешествовала</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] из фракции [site/enemyFaction_name]</li>
-    <li>threat(priority=1,site/MechCluster_exists==True)->механоиды text_todo</li>
-    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->механоиды text_todo</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->механоиды</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->механоиды</li>
     <li>threat->[asker_possessive] враги</li>
     <li>threat(priority=-1)->его враги</li>
     <li>askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
-    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->механоиды text_todo</li>
-    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->механоиды text_todo</li>
+    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->механоиды</li>
+    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->механоиды</li>
     <li>askerEnemies->[asker_possessive] враги</li>
     <li>askerEnemies(priority=-1)->его враги</li>
   </ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
