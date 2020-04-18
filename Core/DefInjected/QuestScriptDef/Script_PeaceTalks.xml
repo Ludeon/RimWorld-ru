@@ -6,9 +6,9 @@
     <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nSuccessful peace talks can earn your negotiator a small amount of personal [faction_royalFavorLabel] with [faction_name].</li>
     <li>favorRewardDetails-></li>
   -->
-  <!--Дублирует <Quest_PeaceTalks.letterText>-->
-  <!--TODO решить по royal favor-ам-->
   <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+    <!--Дублирует <Quest_PeaceTalks.letterText>-->
+    <!--TODO решить по royal favor-ам-->
     <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] фракции [faction_name], сообщает, что хочет встретиться с вами на нейтральной территории для переговоров.\n\nЭто хорошая возможность улучшить отношения с этой фракцией и получить ценные дипломатические подарки, но знайте: неумелый переговорщик может принести больше вреда, чем пользы.[favorRewardDetails]</li>
     <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nУспешная встреча может принести вашему переговорщику немного [faction_royalFavorLabel] от фракции [faction_name].</li>
     <li>favorRewardDetails-></li>
