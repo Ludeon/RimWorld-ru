@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
+  -->
+  <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
+    <li>questDescription->\nЧтобы увековечить то, как [titleHeir_nameFull] становится назначенным наследником титула [titleHolder_nameFull], вы должны построить монумент.\n\nМонумент должен быть размера [monumentSize] из этих материалов (общей стоимостью [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nЕсли вы не построите монумент в течение 20 дней, это будет воспринято, как непростительное пренебрежение обычаем. Ваши отношения с фракцией [asker_factionName] понизятся на 25, а наследник не будет назначен.\n\nЕсли монумент будет разрушен в течение [keepMonumentTicks_duration] дней после завершения постройки, ваша репутация у фракции [asker_factionName] ухудшится на [goodwillChangeIfMonumentDestroyed].</li>
+    <li>asker_offended(asker_gender==Male)->оскорблён</li>
+    <li>asker_offended(asker_gender==Female)->оскорблена</li>
+    <li>newHeir(titleHeir_gender==Male)->новый наследник</li>
+    <li>newHeir(titleHeir_gender==Female)->новая наследница</li>
+    <li>SUBJECT_who_was_supposed_to_become_heir(SUBJECT_gender==Male)->который должен был стать наследником</li>
+    <li>SUBJECT_who_was_supposed_to_become_heir(SUBJECT_gender==Female)->которая должна была стать наследницей</li>
+  </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[titleHeir_nameDef]'s inheritance</li>
+  -->
+  <ChangeRoyalHeir.questNameRules.rulesStrings>
+    <li>[titleHeir_nameDef] наследует титул</li>
+  </ChangeRoyalHeir.questNameRules.rulesStrings>
+  <!-- EN: Time left: {0} -->
+  <ChangeRoyalHeir.root.nodes.Delay.inspectString.slateRef>Осталось времени: {0}</ChangeRoyalHeir.root.nodes.Delay.inspectString.slateRef>
+  <!-- EN: [titleHolder_nameDef]'s heir change failed -->
+  <ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.label.slateRef>Смена наследника титула [titleHolder_nameDef] провалилась</ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.label.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
+  <ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>[asker_nameDef] [asker_offended] тем, что вы пообещали увековечить нового наследника титула, но не построили монумент в обозначенный срок.\n\nВы потеряли 25 репутации у фракции [asker_faction_name]</ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>
+  <!-- EN: Title holder died: {SUBJECT_definite} -->
+  <ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>Владелец титула умер: {SUBJECT_definite}</ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
+  <ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, у {SUBJECT_gender ? которого : которой} менялся наследник, {SUBJECT_gender ? умер : умерла}.</ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Designated heir died: {SUBJECT_definite} -->
+  <ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.label.slateRef>Назначенный наследник умер: {SUBJECT_definite}</ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: {SUBJECT_definite}, who was supposed to become heir to a title, has died. -->
+  <ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? который : которая} {SUBJECT_gender ? должен : должна} {SUBJECT_gender ? был : была} стать {SUBJECT_gender ? наследником : наследницей}, {SUBJECT_gender ? умер : умерла}.</ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Monument destroyed -->
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>Монумент разрушен</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but allowed the monument to be ruined soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>[asker_nameDef] [asker_offended] тем, что вы пообещали увековечить [asker_possessive] нового наследника титула, но допустили разрушение монумента так скоро после его постройки.\n\nВаша репутация у фракции [asker_factionName] ухудшилась на [goodwillChangeIfMonumentDestroyed]</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: New heir: [titleHeir_nameDef] -->
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>[newHeir]: [titleHeir_nameDef]</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>
+  <!-- EN: [titleHeir_nameDef] is the new heir of [titleHolder_nameDef]. -->
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>[titleHeir_nameDef] теперь [newHeir] [titleHolder_nameDef].</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>Не допускайте разрушения монумента в течение {0}</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>Не допускайте разрушения монумента {0}</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>
+  <!-- EN: Keep monument {0} -->
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>Сохраняйте монумент {0}</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>
+  
+</LanguageData>
