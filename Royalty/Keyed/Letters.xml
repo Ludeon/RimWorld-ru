@@ -61,7 +61,7 @@
   <LetterRoyalTitleFoodRequirements>Этот титул предполагает, что {PAWN_pronoun} {PAWN_gender ? должен : должна} принимать в пищу только следующие виды еды:{1}</LetterRoyalTitleFoodRequirements>
 
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
-  <LetterRoyalTitleRewardGranted>{PAWN_pronoun} получит следующие предметы посредством транспортной капсулы:{1}</LetterRoyalTitleRewardGranted>
+  <LetterRoyalTitleRewardGranted>{PAWN_objective} отправят следующие предметы транспортной капсулой:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
   <PeaceTalksRoyalFavorGain>{PAWN_labelShort} {PAWN_gender ? получил : получила} {1} {FACTION_royalFavorLabel} от {FACTION_name}.</PeaceTalksRoyalFavorGain>
 
@@ -108,7 +108,7 @@
   <!-- EN: It was encouraging and well-delivered. -->
   <LetterEncouragingSpeech>Она была хорошо преподнесена и возымела должный эффект.</LetterEncouragingSpeech>
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
-  <LetterInspirationalSpeech>Она получилась на удивление вдохновляющей, эмоционально яркой и проникновенной.</LetterInspirationalSpeech>
+  <LetterInspirationalSpeech>Она получилась чрезвычайно вдохновляющей, эмоционально яркой и проникновенной.</LetterInspirationalSpeech>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>Поскольку речь была прервана на {0}, она не достигла нужного эффекта.</LetterSpeechInterrupted>
   <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
@@ -118,12 +118,12 @@
 
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
-  <WildDecree>Сумасбродный указ</WildDecree>
+  <WildDecree>Безумный указ</WildDecree>
   <!-- EN: {0_nameIndef} issues decree -->
   <LetterLabelRandomDecree>{0_nameIndef} издаёт указ</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>В попытке снять стресс {0_nameIndef} издаёт сумасбродный указ и требует его выполнения.\n\nЕсли он не будет выполнен в срок, {0_nameIndef} будет очень {0_gender ? недоволен : недовольна}.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>В попытке снять стресс {0_nameIndef} издаёт безумный указ и требует его выполнения.\n\nЕсли он не будет выполнен в срок, {0_nameIndef} будет очень {0_gender ? недоволен : недовольна}.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
   <LetterRandomDecree>{0_nameIndef}, чтобы подтвердить свой титул {0_bestRoyalTitleIndef}, издаёт указ и требует его выполнения.\n\nЕсли он не будет выполнен в срок, {0_nameIndef} будет очень {0_gender ? недоволен : недовольна}.</LetterRandomDecree>
