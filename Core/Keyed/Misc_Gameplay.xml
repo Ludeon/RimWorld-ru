@@ -689,7 +689,7 @@
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
-  <PawnMainDescGendered>^Replace( {PAWN_gender} {1} | 'мужского пола {1}'-'мужчина, {1}' | 'женского пола {1}'-'женщина, {1}' | 'самец {1}'-'{1} (самец)' | 'самка {1}'-'{1} (самка)')^</PawnMainDescGendered>
+  <PawnMainDescGendered>^Replace( {PAWN_gender}, {1} | 'самец, {1}'-'{1} (самец)' | 'самка, {1}'-'{1} (самка)')^</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} фракции {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
@@ -1225,7 +1225,7 @@
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>{1}, ^Replace( {0} | 'мужского пола'-'мужчина' | 'женского пола'-'женщина')^</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{1}, {0}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
