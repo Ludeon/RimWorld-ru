@@ -689,9 +689,9 @@
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
-  <PawnMainDescGendered>^Replace( {PAWN_gender}, {1} | 'самец, {1}'-'{1} (самец)' | 'самка, {1}'-'{1} (самка)')^</PawnMainDescGendered>
+  <PawnMainDescGendered>{PAWN_gender}, {1}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0} фракции {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{0}, фракция {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
   <PawnTitleDescWrap>{0} в {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
