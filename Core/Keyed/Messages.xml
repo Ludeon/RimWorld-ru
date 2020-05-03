@@ -45,6 +45,8 @@
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Для торговли с кораблём вам нужен работающий торговый маяк.</MessageNeedBeaconToTradeWithShip>
+  <!-- EN: Caller must have a royal title of at least baron. text_todo -->
+  <MessageNeedRoyalTitleToCallWithShip>Вызывающй должен обладать по меньшей мере баронским титулом.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0} {0_gender ? уничтожен : уничтожена : уничтожено}.</MessageConditionCauserDespawned>
@@ -371,8 +373,10 @@
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>{0} из фракции {1} нападают на вас.</MessageDefendersAttacking>
-  <!-- EN: Mechanoids have been assembled and are attacking. -->
-  <MessageMechanoidsAssembled>Сборка механоидов завершена, и они нападают.</MessageMechanoidsAssembled>
+  <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
+  <MessageMechanoidsAssembled>Сборка механоидов завершена, и они будут защищать свой кластер.</MessageMechanoidsAssembled>
+  <!-- EN: Remaining mechanoids to assemble -->
+  <MessageMechanoidsLeftToAssemble>Оставшиеся механоиды для сборки</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>Маяк механоидов вызвал подкрепление. Оно прибыло в капсулах.</MessageMechanoidsReinforcementsDrop>
 

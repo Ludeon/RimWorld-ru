@@ -17,7 +17,7 @@
     <li>specialSkillsInfo-></li>
     <li>minMoodInfo(priority=1)->You must keep [asker_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
+    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->there will be [threatCount] raid of roughly this size:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
@@ -27,8 +27,6 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->two mech clusters of [threatSize]x size will deploy nearby.</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef]. If you get [lodgers0_objective] onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural]. If you get them onto the shuttle alive, [allRewardsDescriptions]</li>
-    <li>mustKeepOnMapParagraph(lodgersCount==1)->You must keep [lodgers0_nameDef] at [map_definite] and not send [lodgers0_objective] anywhere else.</li>
-    <li>mustKeepOnMapParagraph(lodgersCount>=2)->You must keep the [lodgersLabelPlural] at [map_definite] and not send them anywhere else.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
@@ -78,7 +76,7 @@
     <li>specialSkillsInfo-></li>
     <li>minMoodInfo(priority=1)->Вы должны поддерживать настроение [asker_nameDef] выше [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
+    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->на вас совершат налёт примерно в следующем составе:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->на вас совершат ^Number( [threatCount] | '# налёт' | '# налёта' | '# налётов')^ примерно в следующем составе:\n\n[threatExample]</li>
@@ -89,8 +87,6 @@
     <li>enemyGroupsParagraph->Налёты будут происходить примерно раз в [threatsIntervalTicks_duration]. В их составе будут:\n\n[threatExample]</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->Через [shuttleDelayTicks_duration] прибудет челнок, чтобы забрать [lodgers0_nameDef]. Если [lodgers0_pronoun] попадёт на челнок в сохранности, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->Через [shuttleDelayTicks_duration] прибудет челнок, чтобы забрать [lodgersLabelPlural_gen]. Если они попадут на челнок в сохранности, [allRewardsDescriptions]</li>
-    <li>mustKeepOnMapParagraph(lodgersCount==1)->Вы должны разместить [lodgers0_nameDef] в [map_definite] и не отправлять [lodgers0_possessive] куда-либо ещё.</li>
-    <li>mustKeepOnMapParagraph(lodgersCount>=2)->Вы должны разместить [lodgersLabelPlural_gen] в [map_definite] и не отправлять их куда-либо ещё.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] недавно [lodgers0_mechViolation], и преследуется роем механоидов, базирующимся на орбите.</li>
     <li>threatsInfoMechClustersMultiPrisoners->Эти заключённые недавно [mechViolation_plural], и преследуются роем механоидов, базирующимся на орбите.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] недавно [lodgers0_mechViolation], и преследуется роем механоидов.</li>
