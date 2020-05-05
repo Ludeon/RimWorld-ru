@@ -21,6 +21,11 @@
   <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
   <ConstructSuccessChance.description>Вероятность того, что персонаж успешно возведёт постройку.\n\nВ случае неудачи время и часть ресурсов будут потрачены впустую.</ConstructSuccessChance.description>
   
+  <!-- EN: deep drilling speed -->
+  <DeepDrillingSpeed.label>скорость бурения</DeepDrillingSpeed.label>
+  <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
+  <DeepDrillingSpeed.description>Эффективность, с которой персонаж применяет буровую установку для извлечения полезных ископаемых.</DeepDrillingSpeed.description>
+  
   <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>шанс успешного ремонта</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
@@ -33,13 +38,13 @@
   
   <!-- EN: mining speed -->
   <MiningSpeed.label>скорость горных работ</MiningSpeed.label>
-  <!-- EN: A speed at which this person digs at walls and drills for deep resources. -->
-  <MiningSpeed.description>Множитель скорости, с которой персонаж разрабатывает горные породы.</MiningSpeed.description>
+  <!-- EN: A speed at which this person mines away walls. -->
+  <MiningSpeed.description>Множитель скорости, с которой персонаж разрабатывает горную породу.</MiningSpeed.description>
   
   <!-- EN: mining yield -->
   <MiningYield.label>эффективность добычи</MiningYield.label>
-  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks. -->
-  <MiningYield.description>Процент полезных ископаемых, который сможет добыть персонаж с помощью кирки или буровой установки.\n\nНе влияет на работы в пустой породе (мрамор, гранит и т.п.).</MiningYield.description>
+  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks from deep drills. -->
+  <MiningYield.description>Процент полезных ископаемых, который сможет добыть персонаж с помощью кирки или буровой установки.\n\nНе влияет эффективность добычи пустой породы при глубинном бурении.</MiningYield.description>
   
   <!-- EN: plant harvest yield -->
   <PlantHarvestYield.label>эффективность жатвы</PlantHarvestYield.label>
