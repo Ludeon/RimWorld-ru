@@ -1371,10 +1371,10 @@
 	<Banished68>
 		<!-- EN: banished -->
 		<title>изгнанник</title>
-		<titleFemale>изгнанница</titleFemale>
+    <titleFemale>изгнанница</titleFemale>
 		<!-- EN: banished -->
 		<titleShort>изгнанник</titleShort>
-		<titleShortFemale>изгнанница</titleShortFemale>
+    <titleShortFemale>изгнанница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s tribe banished [PAWN_objective] following a bloody dispute. [PAWN_pronoun] survived in the wilds alone for a long time. -->
 		<desc>Племя {PAWN_nameDef} изгоняет {PAWN_possessive} после кровавого конфликта. {PAWN_pronoun} {PAWN_gender ? вынужден : вынуждена} долгие годы выживать в глуши, полагаясь только на себя.</desc>
 	</Banished68>
@@ -1426,13 +1426,13 @@
 	<!-- Tribal_Child -->
 	<BuddingArtist44>
 		<!-- EN: budding artist -->
-		<title>известный художник</title>
-		<titleFemale>известная художница</titleFemale>
+		<title>юный художник</title>
+		<titleFemale>юная художница</titleFemale>
 		<!-- EN: artist -->
 		<titleShort>художник</titleShort>
 		<titleShortFemale>художница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] had a knack for art. Traders and collectors from many different societies sought to buy [PAWN_possessive] creations. -->
-		<desc>{PAWN_nameDef} обладает внутренним чутьем к искусству. {PAWN_possessive} творения популярны среди продавцов и коллекционеров из разных уголков планеты.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? обнаружил : обнаружила} выдающиеся художественные таланты. Многие торговцы и коллекционеры стремились приобрести {PAWN_possessive} творения.</desc>
 	</BuddingArtist44>
 
 	<!-- ImperialCommon_Adult -->
@@ -1454,17 +1454,19 @@
 		<titleShort>хулиган</titleShort>
 		<titleShortFemale>хулиганка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] tormented other children for fun. To keep [PAWN_objective] busy, an elder assigned [PAWN_objective] to a hunting party at an early age. -->
-		<desc>В детстве {PAWN_nameDef} издевается над другими детьми ради забавы. Чтобы как-то занять хулигана, старейшины назначают {PAWN_possessive} охотником в очень раннем возрасте.</desc>
+		<desc>В детстве {PAWN_nameDef} {PAWN_gender ? любил : любила} издеваться над другими детьми забавы ради. Чтобы занять {PAWN_gender ? хулигана : хулиганку} хоть чем-то полезным, старейшина назначил {PAWN_possessive} охотником в раннем возрасте.</desc>
 	</Bully70>
 
 	<!-- Tribal_Adult -->
 	<Carver1>
 		<!-- EN: carver -->
-		<title>скульптор</title>
+		<title>резчик</title>
+		<titleFamale>резчица</titleFamale>
 		<!-- EN: carver -->
-		<titleShort>скульптор</titleShort>
+		<titleShort>резчик</titleShort>
+		<titleShortFamale>резчица</titleShortFamale>
 		<!-- EN: [PAWN_nameDef] carved artworks for [PAWN_possessive] tribe from wood, stone, and occasionally, more exotic materials. The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals. -->
-		<desc>{PAWN_nameDef} ваяет для своего племени скульптуры из дерева, камня, и иногда из более экзотических материалов. {PAWN_possessive} работы иногда продают, а иногда оставляют для украшения поселения и проведения ритуалов.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? вырезал : вырезала} для своего племени скульптуры из дерева, камня, а порой и из более экзотических материалов. Что-то из {PAWN_possessive} работ продавалось, что-то — хранилось поселенцами в ритуальных целях и просто для красоты.</desc>
 	</Carver1>
 
 	<!-- ImperialCommon_Adult -->
@@ -1530,17 +1532,17 @@
 		<titleShort>выживший</titleShort>
         <titleShortFemale>выжившая</titleShortFemale>
 		<!-- EN: As a baby, [PAWN_nameDef] was the only survivor of a deadly spacecraft crash. A passing tribe discovered [PAWN_objective] in the wreckage and adopted [PAWN_objective]. -->
-		<desc>Во младенческом возрасте {PAWN_nameDef} {PAWN_gender ? единственный : единственная} выживает при крушении космического корабля. Проходящее мимо племя находит и берёт [PAWN_possessive] к себе.</desc>
+		<desc>Во младенческом возрасте {PAWN_nameDef} {PAWN_gender ? оказался единственным выжившим : оказалась единственной выжившей} при аварии космического корабля. Проходящее мимо племя нашло {PAWN_objective} в обломках и растило как {PAWN_gender ? своего : свою}.</desc>
 	</CrashBaby32>
 
 	<!-- ImperialCommon_Adult -->
 	<CropFarmer17>
 		<!-- EN: crop farmer -->
-		<title>crop farmer</title>
+		<title>земледелец</title>
 		<!-- EN: farmer -->
-		<titleShort>farmer</titleShort>
+		<titleShort>фермер</titleShort>
 		<!-- EN: [PAWN_nameDef] ran a crop farm. [PAWN_pronoun] analyzed soil, agricultural equipment, weather patterns, and price trends to optimize the planting and harvesting of massive crop fields. -->
-		<desc>[PAWN_nameDef] ran a crop farm. [PAWN_pronoun] analyzed soil, agricultural equipment, weather patterns, and price trends to optimize the planting and harvesting of massive crop fields.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? владел : владела} растениеводческой фермой. {PAWN_pronoun} {PAWN_gender ? анализировал : анализировала} почву, сельскохозяйственную технику, погодные условия и ценовые тренды для оптимизации процессов посадки и сбора урожая на огромных полях.</desc>
 	</CropFarmer17>
 
 	<!-- ImperialFighter_Child -->
@@ -1596,11 +1598,11 @@
 	<!-- Tribal_Adult -->
 	<Framer37>
 		<!-- EN: framer -->
-		<title>framer</title>
+		<title>строитель</title>
 		<!-- EN: framer -->
-		<titleShort>framer</titleShort>
+		<titleShort>строитель</titleShort>
 		<!-- EN: [PAWN_nameDef] was responsible for erecting structures for [PAWN_possessive] fellow tribespeople to live in. This included both temporary structures for nomadic travel, and permanent settlements. Gathering building materials from local plant life was part of the job. -->
-		<desc>[PAWN_nameDef] was responsible for erecting structures for [PAWN_possessive] fellow tribespeople to live in. This included both temporary structures for nomadic travel, and permanent settlements. Gathering building materials from local plant life was part of the job.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? занимался : занималась} постройкой различных сооружений для проживания своих соплеменников. {PAWN_pronoun} {PAWN_gender ? строил : строила} как сооружения для постоянных поселений, так и временные жилища для кочеваний. Заготовка стройматериалов из местной растительности была частью этой работы.</desc>
 	</Framer37>
 
 	<!-- Offworld_Nonspecific_Adult -->
@@ -1642,11 +1644,13 @@
 	<!-- Tribal_Child -->
 	<Hideaway9>
 		<!-- EN: hideaway -->
-		<title>hideaway</title>
+		<title>затворник</title>
+		<titleFemale>затворница</titleFemale>
 		<!-- EN: hideaway -->
-		<titleShort>hideaway</titleShort>
+		<titleShort>затворник</titleShort>
+		<titleShortFemale>затворница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though[PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills. -->
-		<desc>[PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though[PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? стал : стала} жертвой гиперопеки своих родителей и почти не {PAWN_gender ? выходил : выходила} из дома. И, хотя у н{PAWN_possessive} было много времени для чтения книг и увлечений ремеслами, {PAWN_pronoun} так и не {PAWN_gender ? смог : смогла} развить нормальных социальных навыков.</desc>
 	</Hideaway9>
 
 	<!-- ImperialCommon_Adult -->
@@ -1773,11 +1777,11 @@
 	<!-- Tribal_Adult -->
 	<Logger16>
 		<!-- EN: logger -->
-		<title>дровосек</title>
+		<title>лесоруб</title>
 		<!-- EN: logger -->
-		<titleShort>дровосек</titleShort>
+		<titleShort>лесоруб</titleShort>
 		<!-- EN: [PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? валил : валила} лес и {PAWN_gender ? обеспечивал : обеспечивал} древесиной своё племя. {PAWN_pronoun} {PAWN_gender ? управлялся : управлялась} топором с грацией художника и мощью разъярённого муффало.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? валил : валила} лес и {PAWN_gender ? обеспечивал : обеспечивал} древесиной своё племя. {PAWN_pronoun} {PAWN_gender ? управлялся : управлялась} топором с изяществом художника и мощью разъярённого муффало.</desc>
 	</Logger16>
 
 	<!-- ImperialFighter_Adult -->
@@ -1811,7 +1815,7 @@
 		<!-- EN: mailwoman -->
 		<titleShortFemale>почтальонка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] carried mail on [PAWN_possessive] assigned routes. Sometimes [PAWN_pronoun] was even sent to deliver special packages to stylish corporate offices or mansions.\n\n[PAWN_nameDef] got pretty good at avoiding and fighting off angry dogs. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? занимался : занималась} доставкой почты. Иногда {PAWN_pronoun} даже {PAWN_gender ? доставлял : доставляла} специальные посылки по всяким модным офисам и особнякам.\n\n{PAWN_nameDef} отлично {PAWN_gender ? научился : научилась} отбиваться от стай злобных собак.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? развозил : развозила} почту. Иногда {PAWN_objective} даже поручали доставку специальных посылок в стильные корпоративные офисы и особняки.\n\n{PAWN_nameDef} неплохо {PAWN_gender ? наловчился : наловчилась} обращаться со злыми собаками: избегать их и драться с ними.</desc>
 	</Mailman2>
 
 	<!-- Tribal_Adult -->
@@ -2093,11 +2097,13 @@
 	<!-- Tribal_Adult -->
 	<StewKeeper95>
 		<!-- EN: stew keeper -->
-		<title>stew keeper</title>
+		<title>тушильщик мяса</title>
+		<titleFemale>тушильщица мяса</titleFemale>
 		<!-- EN: stewkeeper -->
-		<titleShort>stewkeeper</titleShort>
+		<titleShort>тушильщик</titleShort>
+		<titleShortFemale>тушильщица</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] prepared meals from the plants and animals brought in by gatherers, farmers, and hunters of [PAWN_possessive] tribe. [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self. -->
-		<desc>[PAWN_nameDef] prepared meals from the plants and animals brought in by gatherers, farmers, and hunters of [PAWN_possessive] tribe. [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? готовил : готовила} еду из растений и животных, принесенных собирателями, земледельцами и охотниками {PAWN_possessive} племени. {PAWN_pronoun} {PAWN_gender ? следил : следила}, чтобы пища была сытной, здоровой и хорошо хранилась. {PAWN_nameDef} регулярно {PAWN_gender ? обрабатывал : обрабатывала}, а порой и {PAWN_gender ? сам : сама} {PAWN_gender ? собирал : собирала} растения.</desc>
 	</StewKeeper95>
 
 	<!-- ImperialFighter_Child -->
