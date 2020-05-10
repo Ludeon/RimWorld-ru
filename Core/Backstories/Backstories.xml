@@ -1624,11 +1624,13 @@
 	<!-- ImperialCommon_Adult -->
 	<HeadButler50>
 		<!-- EN: head butler -->
-		<title>head butler</title>
+		<title>старший дворецкий</title>
+		<titleFemale>старшая экономка</titleFemale>
 		<!-- EN: butler -->
-		<titleShort>butler</titleShort>
+		<titleShort>дворецкий</titleShort>
+		<titleShortFemale>экономка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was the head servant in a royal house.\n\n[PAWN_pronoun] managed the other servants to ensure the lord's will was done, even before the lord knew what it was. -->
-		<desc>[PAWN_nameDef] was the head servant in a royal house.\n\n[PAWN_pronoun] managed the other servants to ensure the lord's will was done, even before the lord knew what it was.</desc>
+		<desc>[PAWN_nameDef] работает {PAWN_gender ? старшим дворецким ? старшей экономкой} в королевском доме.\n\n{PAWN_pronoun} руководит остальной прислугой, чтобы обеспечивать выполнение воли лорда ещё до того, как он поймёт, чего хочет.</desc>
 	</HeadButler50>
 
 	<!-- Tribal_Child -->
@@ -1644,11 +1646,12 @@
 	<!-- ImperialCommon_Adult -->
 	<HouseServant86>
 		<!-- EN: house servant -->
-		<title>house servant</title>
+		<title>домашняя прислуга</title>
 		<!-- EN: servant -->
-		<titleShort>servant</titleShort>
+		<titleShort>слуга</titleShort>
+		<titleShortFemale>служанка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a low-level servant in a royal house.\n\n[PAWN_pronoun] cleaned rooms and moved items as directed by the senior staff, while attempting to remain invisible to the lords and ladies of the house. -->
-		<desc>[PAWN_nameDef] was a low-level servant in a royal house.\n\n[PAWN_pronoun] cleaned rooms and moved items as directed by the senior staff, while attempting to remain invisible to the lords and ladies of the house.</desc>
+		<desc>{PAWN_nameDef} работает в качестве младшей прислуги королевского дома.\n\n{PAWN_pronoun} убирает комнаты и переносит вещи в соответствии с указаниями старшего персонала, пытаясь остаться {PAWN_gender ? незамеченным : незамеченной} для господ и дам.</desc>
 	</HouseServant86>
 
 	<!-- Tribal_Adult -->
@@ -1812,11 +1815,13 @@
 	<!-- ImperialCommon_Adult -->
 	<MenagerieKeeper1>
 		<!-- EN: menagerie keeper -->
-		<title>menagerie keeper</title>
+		<title>смотритель зверинца</title>
+		<titleFemale>смотрительница зверинца</titleFemale>
 		<!-- EN: zookeeper -->
-		<titleShort>zookeeper</titleShort>
+		<titleShort>смотритель</titleShort>
+		<titleShortFemale>смотрительница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] managed the royal menagerie of a powerful family at their estate.\n\n[PAWN_nameDef]'s job saw [PAWN_pronoun] feeding elephants, tranquilizing lions, and training birds to display their plumage to titled visitors. -->
-		<desc>[PAWN_nameDef] managed the royal menagerie of a powerful family at their estate.\n\n[PAWN_nameDef]'s job saw [PAWN_pronoun] feeding elephants, tranquilizing lions, and training birds to display their plumage to titled visitors.</desc>
+		<desc>{PAWN_nameDef} управляет королевским зверинцем могущественной семьи в их поместье.\n\n{PAWN_possessive} работа состоит в кормлении слонов, усмирении львов, и в обучении птиц показывать своё оперение титулованным посетителям.</desc>
 	</MenagerieKeeper1>
 
 	<!-- ImperialFighter_Child -->
@@ -1852,11 +1857,13 @@
 	<!-- ImperialCommon_Adult -->
 	<OrnamentMaker56>
 		<!-- EN: ornament maker -->
-		<title>ornament maker</title>
+		<title>создатель украшений</title>
+		<titleFemale>создатель украшений</titleFemale>
 		<!-- EN: ornamenter -->
-		<titleShort>ornamenter</titleShort>
+		<titleShort>ювелир</titleShort>
+		<titleShortFemale>ювелир</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] crafted watches, medals, machined jewelry and other complex curios for royal patrons. -->
-		<desc>[PAWN_nameDef] crafted watches, medals, machined jewelry and other complex curios for royal patrons.</desc>
+		<desc>{PAWN_nameDef} изготавливает часы, медали, обработанные украшения и другие сложные изделия для королевских покровителей.</desc>
 	</OrnamentMaker56>
 
 	<!-- ImperialRoyal_Child -->
@@ -1988,11 +1995,13 @@
 	<!-- ImperialCommon_Adult -->
 	<RoyalMasseuse43>
 		<!-- EN: royal masseuse -->
-		<title>royal masseuse</title>
+		<title>королевский массажист</title>
+		<titleFemale>королевская массажистка</titleFemale>
 		<!-- EN: masseuse -->
-		<titleShort>masseuse</titleShort>
+		<titleShort>массажист</titleShort>
+		<titleShortFemale>массажистка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a massage artist for an extended royal house. [PAWN_pronoun] serviced many members of the royal family, and their guests.\n\n[PAWN_nameDef] occasionally offered something extra, if the lord or lady was in the mood. Advancing in this line of work meant having refined social skills. -->
-		<desc>[PAWN_nameDef] was a massage artist for an extended royal house. [PAWN_pronoun] serviced many members of the royal family, and their guests.\n\n[PAWN_nameDef] occasionally offered something extra, if the lord or lady was in the mood. Advancing in this line of work meant having refined social skills.</desc>
+		<desc>{PAWN_nameDef} работает массажистом в королевском доме, обслуживая множество членов королевской семьи и их гостей.\n\n{PAWN_nameDef} иногда предлагает «особенные» услуги, если лорд или леди в соответствующем расположении духа. Продвижение в этом роде деятельности помогает в усовершенствовании социальных навыков.</desc>
 	</RoyalMasseuse43>
 
 	<!-- ImperialCommon_Child -->
