@@ -45,8 +45,8 @@
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Для торговли с кораблём вам нужен работающий торговый маяк.</MessageNeedBeaconToTradeWithShip>
-  <!-- EN: Caller must have the title of {0} or higher. -->
-  <MessageNeedRoyalTitleToCallWithShip>Вызывающй должен обладать титулом {0} или выше.</MessageNeedRoyalTitleToCallWithShip>
+  <!-- EN: Caller must have the title of {0_label} or higher. -->
+  <MessageNeedRoyalTitleToCallWithShip>Вызывающй должен обладать титулом {0_label} или выше.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0} {0_gender ? уничтожен : уничтожена : уничтожено}.</MessageConditionCauserDespawned>
@@ -485,6 +485,8 @@
   <GoodwillChangedReason_PawnCrushed>{1_labelShort} {1_gender ? попал : попала} под обрушение потолка</GoodwillChangedReason_PawnCrushed>
   <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>{1_labelShort} {1_gender ? погиб : погибла}</GoodwillChangedReason_PawnDied>
+  <!-- EN: {0_labelShort} stripped -->
+  <GoodwillChangedReason_PawnStripped>{0_labelShort} {0_gender ? раздет : раздета}</GoodwillChangedReason_PawnStripped>
   <!-- EN: traded -->
   <GoodwillChangedReason_Traded>заключена сделка</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
@@ -577,6 +579,9 @@
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
   <MessageCapturingWillAngerFaction>Внимание: захват {PAWN_nameDef} испортит отношения с фракцией {PAWN_factionName}.</MessageCapturingWillAngerFaction>
+
+  <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
+  <MessageStrippingWillAngerFaction>Внимание: если вы разденете {PAWN_nameDef}, это испортит отношения с фракцией {PAWN_factionName}.</MessageStrippingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
   <MessageCantShootInMelee>В рукопашном бою невозможно стрелять.</MessageCantShootInMelee>

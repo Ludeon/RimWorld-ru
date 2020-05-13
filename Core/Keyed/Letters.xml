@@ -146,6 +146,9 @@
   <!-- EN: The last events in {PAWN_definite}'s life -->
   <LastEventsInLife>Последние события в жизни {PAWN_definite}</LastEventsInLife>
 
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
+  <LetterInspirationBeginThanksToHighMoodPart>TODO</LetterInspirationBeginThanksToHighMoodPart>
+
   <!-- Related pawns -->
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>Знакомые</LetterLabelNoticedRelatedPawns>
@@ -363,7 +366,7 @@
   <!-- EN: Reactor ready -->
   <LetterLabelHibernateComplete>Реактор запущен</LetterLabelHibernateComplete>
   <!-- EN: <Name>Charlon Whitestone</Name> has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
-  <LetterHibernateComplete>&lt;Name&gt;Шарлон Вайтстоун&lt;/Name&gt; завершил процедуру запуска реактора. Теперь он сможет обеспечить взлёт корабля.</LetterHibernateComplete>
+  <LetterHibernateComplete>Шарлон Вайтстоун завершил процедуру запуска реактора. Теперь он сможет обеспечить взлёт корабля.</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
   <LetterHibernateCompleteStandalone>Процедура запуска реактора завершена. Теперь он сможет обеспечить взлёт корабля.</LetterHibernateCompleteStandalone>
 
@@ -495,9 +498,23 @@
   <LetterQuestCompletedFail>Вы провалили задание «{0}»</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
   <LetterQuestCompletedConcluded>Вы закончили выполнение задания «{0}»</LetterQuestCompletedConcluded>
-  
+
+  <!-- Average pawn mood -->
+  <!-- EN: {asker_nameDef} said {asker_pronoun} was willing to reward quality accomodation. {pawnLabel} average mood was {averageMood} during {possessive} stay, so your goodwill with {faction_name} has increased by {goodwill}. -->
+  <LetterAveragePawnMoodSuccess>TODO</LetterAveragePawnMoodSuccess>
+  <!-- EN: While {asker_nameDef} was willing to reward quality accomodation, {pawnLabel} average mood was only {averageMood} during {possessive} stay. You will receive no faction goodwill reward. -->
+  <LetterAveragePawnMoodFail>TODO</LetterAveragePawnMoodFail>
+  <!-- EN: the guests -->
+  <LetterAveragePawnMoodPawnPluralLabel>TODO</LetterAveragePawnMoodPawnPluralLabel>
+  <!-- EN: {asker_nameDef}'s -->
+  <LetterAveragePawnMoodPawnLabel>TODO</LetterAveragePawnMoodPawnLabel>
+  <!-- EN: their -->
+  <LetterAveragePawnMoodPossessivePlural>TODO</LetterAveragePawnMoodPossessivePlural>
+  <!-- EN: {asker_possessive} -->
+  <LetterAveragePawnMoodPossessive>TODO</LetterAveragePawnMoodPossessive>
+
   <!-- Bladelink -->
-  <!-- EN: Bladelink bond: {PAWN_labelShort} -->
+  <!-- EN: Persona bond: {PAWN_labelShort} -->
   <LetterBladelinkWeaponBondedLabel>Сформирована синхрони́ть с {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
