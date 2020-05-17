@@ -14,14 +14,14 @@
     <li>questName->Дезертир</li>
   </Intro_Deserter.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n\nBecause you accepted [asker_nameDef], [asker_factionName] has become hostile.\n\nThe loyalty squad that is hunting [asker_objective] will arrive soon. -->
-  <Intro_Deserter.root.nodes.PawnsArrive.customLetterText.slateRef>{BASETEXT}\n\nТак как вы приняли [asker_nameDef] в своё поселение, [asker_factionName] теперь относится к вам враждебно.\n\nОтряд военной полиции, преследующий [asker_objective], скоро прибудет.</Intro_Deserter.root.nodes.PawnsArrive.customLetterText.slateRef>
+  <Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>{BASETEXT}\n\nТак как вы приняли [asker_nameDef] в своё поселение, [asker_factionName] теперь относится к вам враждебно.\n\nОтряд военной полиции, преследующий [asker_objective], скоро прибудет.</Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>
   <!-- EN: {BASELABEL}: Loyalty squad -->
-  <Intro_Deserter.root.nodes.Delay.node.parms.customLetterLabel.value.slateRef>{BASELABEL}: Отряд военной полиции</Intro_Deserter.root.nodes.Delay.node.parms.customLetterLabel.value.slateRef>
+  <Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>{BASELABEL}: Отряд военной полиции</Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>
   <!-- EN: {BASETEXT}\n\nThis is the loyalty squad that was hunting [../asker_nameFull].\n               -->
-  <Intro_Deserter.root.nodes.Delay.node.parms.customLetterText.value.slateRef>{BASETEXT}\n\nЭто отряд военный полиции, который преследовал [../asker_nameFull].\n</Intro_Deserter.root.nodes.Delay.node.parms.customLetterText.value.slateRef>
+  <Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>{BASETEXT}\n\nЭто отряд военный полиции, который преследовал [../asker_nameFull].\n</Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Срок задания истёк: [resolvedQuestName]</Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <Intro_Deserter.LetterLabelQuestExpired.slateRef>Срок задания истёк: [resolvedQuestName]</Intro_Deserter.LetterLabelQuestExpired.slateRef>
   <!-- EN: The key imperial outpost, containing items needed for secret psychic powers, has packed up and moved on. -->
-  <Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Важный имперский аванпост, в котором можно было найти всё необходимое для тайного развития пси-способностей, был передислоцирован в другое, неизвестное место.</Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <Intro_Deserter.LetterTextQuestExpired.slateRef>Важный имперский аванпост, в котором можно было найти всё необходимое для тайного развития пси-способностей, был передислоцирован в другое, неизвестное место.</Intro_Deserter.LetterTextQuestExpired.slateRef>
   
 </LanguageData>
