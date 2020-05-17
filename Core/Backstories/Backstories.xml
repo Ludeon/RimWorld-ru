@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <BackstoryTranslations>
 
 	<!-- Offworld_Specific_Adult -->
@@ -1540,7 +1540,7 @@
 		<!-- EN: farmer -->
 		<titleShort>фермер</titleShort>
 		<!-- EN: [PAWN_nameDef] ran a crop farm. [PAWN_pronoun] analyzed soil, agricultural equipment, weather patterns, and price trends to optimize the planting and harvesting of massive crop fields. -->
-		<desc>{PAWN_nameDef} владеет сельскохозяйственной фермой. {PAWN_pronoun} анализирует почву, сельскохозяйственную технику, погодные условия и ценовые тренды для оптимизации процессов посадки и сбора урожая на огромных полях.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? владел : владела} растениеводческой фермой. {PAWN_pronoun} {PAWN_gender ? анализировал : анализировала} почву, сельскохозяйственную технику, погодные условия и ценовые тренды для оптимизации процессов посадки и сбора урожая на огромных полях.</desc>
 	</CropFarmer17>
 
 	<!-- ImperialFighter_Child -->
@@ -1596,11 +1596,11 @@
 	<!-- Tribal_Adult -->
 	<Framer37>
 		<!-- EN: framer -->
-		<title>строитель-монтажник</title>
+		<title>строитель</title>
 		<!-- EN: framer -->
-		<titleShort>строитель-монтажник</titleShort>
+		<titleShort>строитель</titleShort>
 		<!-- EN: [PAWN_nameDef] was responsible for erecting structures for [PAWN_possessive] fellow tribespeople to live in. This included both temporary structures for nomadic travel, and permanent settlements. Gathering building materials from local plant life was part of the job. -->
-		<desc>{PAWN_nameDef} отвечает за возведение различных сооружений для проживания своих соплеменников. {PAWN_pronoun} строит как капитальные здания, так и временные сооружения для кочевого образа жизни. Заготовка стройматериалов из местной растительности — часть этой работы.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? занимался : занималась} постройкой различных сооружений для проживания своих соплеменников. {PAWN_pronoun} {PAWN_gender ? строил : строила} как постройки для постоянных поселений, так и временные сооружения для кочевого образа жизни. Заготовка стройматериалов из местной растительности была частью этой работы.</desc>
 	</Framer37>
 
 	<!-- Offworld_Nonspecific_Adult -->
@@ -1648,7 +1648,7 @@
 		<titleShort>затворник</titleShort>
 		<titleShortFemale>затворница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though[PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills. -->
-		<desc>{PAWN_nameDef} становится жертвой гиперопеки своих родителей и почти не выходит из дома. И, хотя у н{PAWN_possessive} было много времени для чтения книг и увлечений ремеслами, {PAWN_pronoun} так и не {PAWN_gender ? смог : смогла} развить нормальных социальных навыков.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? стал : стала} жертвой гиперопеки своих родителей и почти не выходит из дома. И, хотя у н{PAWN_possessive} было много времени для чтения книг и увлечений ремеслами, {PAWN_pronoun} так и не {PAWN_gender ? смог : смогла} развить нормальных социальных навыков.</desc>
 	</Hideaway9>
 
 	<!-- ImperialCommon_Adult -->
@@ -1773,7 +1773,7 @@
 		<!-- EN: logger -->
 		<titleShort>лесоруб</titleShort>
 		<!-- EN: [PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo. -->
-		<desc>{PAWN_nameDef} рубит деревья и тащит в свое племя. {PAWN_pronoun} орудует топором с изяществом художника и силой разъяренного муффало.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рубил : рубила} деревья и {PAWN_gender ? перетаскивал : перетаскивала} в свое племя. {PAWN_pronoun} {PAWN_gender ? орудовал : орудовала} топором с изяществом художника и силой разъяренного муффало.</desc>
 	</Logger16>
 
 	<!-- ImperialFighter_Adult -->
@@ -2093,7 +2093,7 @@
 		<titleShort>тушильщик</titleShort>
 		<titleShortFemale>тушильщица</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] prepared meals from the plants and animals brought in by gatherers, farmers, and hunters of [PAWN_possessive] tribe. [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self. -->
-		<desc>{PAWN_nameDef} готовит еду из растений и животных, принесенных собирателями, фермерами и охотниками {PAWN_possessive} племени. Следит, чтобы пища была сытной, здоровой и хорошо хранилась. {PAWN_pronoun} регулярно обрабатывает, а порой и {PAWN_gender ? сам : сама} собирает растения.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? готовил : готовила} еду из растений и животных, принесенных собирателями, фермерами и охотниками {PAWN_possessive} племени. {PAWN_gender ? Следил : Следила}, чтобы пища была сытной, здоровой и хорошо хранилась. {PAWN_pronoun} регулярно {PAWN_gender ? обрабатывал : обрабатывала}, а порой и {PAWN_gender ? сам : сама} {PAWN_gender ? собирал : собирала} растения.</desc>
 	</StewKeeper95>
 
 	<!-- ImperialFighter_Child -->
