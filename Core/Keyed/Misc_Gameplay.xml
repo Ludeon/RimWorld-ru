@@ -362,6 +362,10 @@
   <CreatureWildness>Дикость</CreatureWildness>
   <!-- EN: {0} trainability -->
   <CreatureTrainability>Способность к обучению</CreatureTrainability>
+  <!-- EN: Follow master while drafted -->
+  <CreatureFollowDrafted>Сопровождать хозяина в режиме призыва</CreatureFollowDrafted>
+  <!-- EN: Follow master while doing field work -->
+  <CreatureFollowFieldwork>Сопровождать хозяина во время работы</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} с фракцией {1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
@@ -454,10 +458,16 @@
   <PsychicEntropyPainFocus>{0} болевой концентрации</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>радиус {0}</ConditionCauserRadius>
+  <!-- EN: low psyfocus -->
+  <LowPsyfocus>TODO</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>осталось {0}</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>Любой из</AnyOf>
+  <!-- EN: Goodwill -->
+  <Goodwill>TODO</Goodwill>
+  <!-- EN: reducing resistance of {0_nameIndef} -->
+  <JobReport_ReduceResistance>TODO</JobReport_ReduceResistance>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -466,6 +476,10 @@
   <ScanAverageInterval>Случайный интервал нахождения</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>Прогресс до гарантированного обнаружения</ScanningProgressToGuaranteedFind>
+  
+  <!-- Meditation -->
+  <!-- EN: meditating at -->
+  <MeditatingAt>TODO</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -928,6 +942,8 @@
   <SourceUnknown>Источник неизвестен.</SourceUnknown>
   <!-- EN: Click to jump to the source. -->
   <ClickToJumpToSource>Нажмите для перехода к источнику.</ClickToJumpToSource>
+  <!-- EN: Click to jump to the flashstorm. -->
+  <ClickToJumpToFlashstorm>TODO</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
   <CausedByQuest>Вызвано заданием «{0}»</CausedByQuest>
 
@@ -1216,11 +1232,13 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
-  <PawnTooltipPsychicEntropy>Психическая энтропия: {0}/{1}\nСкорость падения: {2}/{3} с({4} с до нуля)\n\nПсихоэнтропия возрастает после применения пси-воздействий.\nПревышение безопасного предела может привести к долговременным проблемам со здоровьем.\nПадение психоэнтропии до нуля вызывает психическое похмелье.</PawnTooltipPsychicEntropy>
-  <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
+  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / s ({3}s until zero)\n\nPsyfocus: {4} -->
+  <PawnTooltipPsychicEntropyStats>TODO</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Psychic entropy increases after performing a psycast. Going over the normal limit can lead to psychic breakdown lasting days.\n\nAside from entropy, some psycasts cost psyfocus to perform. Psyfocus is gained through meditation or drugs. -->
+  <PawnTooltipPsychicEntropyDesc>TODO</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Pain focuses the mind and speeds up psychic entropy recovery.\n\nPain level: {0}\nBonus to entropy recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Боль помогает концентрации разума и быстрее рассеивает психическую энтропию.\n\nУровень боли: {0}\nБонус к рассеиванию психоэнтропии: {1}</PawnTooltipPsychicEntropyPainFocus>
-  <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
+  <!-- EN: Toggle psychic entropy limiter. Exceeding your entropy limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>Переключить ограничитель психоэнтропии.\n\nПревышение безопасного предела психической энтропии может привести к серьёзным проблемам со здоровьем, включая долговременный пси-срыв и даже повреждение мозга. Чем больше превышение предела энтропии, тем опаснее последствия.</PawnTooltipPsychicEntropyLimit>
 
   <!-- Pawn tooltip description -->
@@ -1242,6 +1260,12 @@
   <Reward_Items_Caravan>вы получите (общей стоимостью {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>отношения с фракцией {0_name} улучшатся на {1}</Reward_Goodwill>
+  <!-- EN: you will be taken to the stars -->
+  <Reward_PassageOffworld>TODO</Reward_PassageOffworld>
+  <!-- EN: Passage offworld -->
+  <Reward_PassageOffworld_Label>TODO</Reward_PassageOffworld_Label>
+  <!-- EN: value {0} -->
+  <TotalValue>TODO</TotalValue>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
@@ -1250,6 +1274,8 @@
   <NotBonded>Не синхронизировано</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>синхронизировано с кем-то другим</BladelinkBondedToSomeoneElse>
+  <!-- EN: P-{LABEL} -->
+  <PersonaWeaponLabel>TODO</PersonaWeaponLabel>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
@@ -1272,5 +1298,12 @@
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
   <AffectedGender>Подверженный пол</AffectedGender>
+
+  <!-- Hediff misc -->
+  <!-- EN: Caused by: {0} -->
+  <CausedByHediff>TODO</CausedByHediff>
   
+  <!-- UNUSED -->
+  <PawnTooltipPsychicEntropy>Психическая энтропия: {0}/{1}\nСкорость падения: {2}/{3} с({4} с до нуля)\n\nПсихоэнтропия возрастает после применения пси-воздействий.\nПревышение безопасного предела может привести к долговременным проблемам со здоровьем.\nПадение психоэнтропии до нуля вызывает психическое похмелье.</PawnTooltipPsychicEntropy>
+
 </LanguageData>

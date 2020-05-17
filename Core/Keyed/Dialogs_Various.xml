@@ -464,6 +464,28 @@
   <ClickToLearnMore>Нажмите, чтобы узнать больше.</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>Нажмите, чтобы просмотреть фракции.</ClickToViewFactions>
+  <!-- EN: meditation focus types -->
+  <MeditationFocuses>виды медитации</MeditationFocuses>
+  <!-- EN: Unlocks meditation focus types -->
+  <MeditationFocusesUnlocked>Разблокирует виды медитации</MeditationFocusesUnlocked>
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <MeditationFocusesPawnDesc>Виды медитации, которые доступны для данного персонажа. Во время медитирования, персонаж может сфокусироваться на определённом предмете, чтобы улучшить свою психическую фокусировку — но только в том случае, если этот предмет может предоставить доступный к использованию тип фокусировки. Доступные для персонажа виды медитации определяются биографией, характером, социальным статусом и так далее.</MeditationFocusesPawnDesc>
+  <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
+  <MeditationFocusesDesc>Виды медитации, которые может предоставить данный предмет. Медитирующий персонаж может сфокусироваться на этом объекте, чтобы улучшить свою психическую фокусировку, но только при возможности использовать один из доступных видов медитации Доступные для персонажа виды медитации определяются биографией, характером, социальным статусом и так далее.</MeditationFocusesDesc>
+  <!-- EN: Can use {0} focus type because -->
+  <MeditationFocusCanUse>Может использовать тип фокусировки {0}, потому что</MeditationFocusCanUse>
+  <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
+  <MeditationFocusEnabledByTitle>обладает титулом: {TITLE} в ({FACTION_name}).</MeditationFocusEnabledByTitle>
+  <!-- EN: has childhood -->
+  <MeditationFocusEnabledByChildhood>прожито определённое детство</MeditationFocusEnabledByChildhood>
+  <!-- EN: has adulthood -->
+  <MeditationFocusEnabledByAdulthood>прожита определённая взрослая жизнь</MeditationFocusEnabledByAdulthood>
+  <!-- EN: has trait -->
+  <MeditationFocusEnabledByTrait>имеет определённую черту харктера</MeditationFocusEnabledByTrait>
+  <!-- EN: does not have trait -->
+  <MeditationFocusDisabledByTrait>не имеет определённой черты характера</MeditationFocusDisabledByTrait>
+  <!-- EN: Enables meditation focus types -->
+  <EnablesMeditationFocusType>Делает доступными виды медитации</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -618,8 +640,12 @@
   <AnimalCanGrazeTip>Это животное может пастись, питаясь подножным кормом, вместо того, чтобы поедать ваши припасы. Однако это возможно только в некоторых биомах при определённых температурных условиях.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>Количество добываемой в день еды. Конечное значение зависит от биома.\n\n{0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
   <NutritionEatenPerDayTip>Количество потребляемой в день еды. Для справки: простое блюдо эквивалентно {0} ед. питательности.\n\nМожет есть: {2}\n\nЛегенда:\n{1}</NutritionEatenPerDayTip>
+  <!-- EN: Can eat -->
+  <CanEat>TODO</CanEat>
+  <!-- EN: Legend -->
+  <Legend>TODO</Legend>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>Переносимый вес</MassCarriedSimple>
   <!-- EN: Mass capacity -->
@@ -912,8 +938,10 @@
   <!-- Abilities -->
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Требуется прямая видимость</AbilityRequiresLOS>
-  <!-- EN: Entropy gain  -->
+  <!-- EN: Entropy gain -->
   <AbilityEntropyGain>Прирост психоэнтропии</AbilityEntropyGain>
+  <!-- EN: Psyfocus cost -->
+  <AbilityPsyfocusCost>TODO</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
   <AbilityDuration>Длительность действия</AbilityDuration>
   <!-- EN: Effect radius -->
@@ -926,5 +954,9 @@
   <AbilityOccupiedCells>Следует указать свободную область.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>Следует указать проходимую область.</AbilityUnwalkable>
+  <!-- EN: {0} must target an unroofed area. -->
+  <AbilityRoofed>TODO</AbilityRoofed>
+  <!-- EN: {0} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>TODO</AbilityCantApplyToMentallyBroken>
   
 </LanguageData>
