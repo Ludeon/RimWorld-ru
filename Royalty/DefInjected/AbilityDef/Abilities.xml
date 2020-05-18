@@ -21,6 +21,11 @@
   <!-- EN: Induce noise in the visual centers of the brain, obscuring vision of everyone near the target point. -->
   <BlindingPulse.description>Нарушает работу зрительных центров мозга и временно ослепляет всех, кто находится рядом с указанным местом.</BlindingPulse.description>
   
+  <!-- EN: bullet shield -->
+  <BulletShield.label>защитное поле</BulletShield.label>
+  <!-- EN: Generate a spherical skipgate that sends all incoming and outgoing ground-level projectiles to some distant place. People and items are not affected. -->
+  <BulletShield.description>Создает защитное поле из пространственных врат, которое отправляет куда-то далеко все входящие и исходящие снаряды. На людей и другие предметы действие щита не распространяется.</BulletShield.description>
+  
   <!-- EN: burden -->
   <Burden.label>бремя</Burden.label>
   <!-- EN: Slow the target for a short time by suppressing motor activity in the brain. -->
@@ -31,10 +36,15 @@
   <!-- EN: Teleport the target to a random position near where he started. -->
   <ChaosSkip.description>Перемещает цель в случайное место недалеко от отправной точки.</ChaosSkip.description>
   
-  <!-- EN: entropy link -->
-  <EntropyLink.label>энтропийная связь</EntropyLink.label>
-  <!-- EN: Form a psychic link between caster and target, so that gain and loss of psychic entropy is shared between both equally. The link lasts for some time, but will break if the two move far apart. -->
-  <EntropyLink.description>Создаёт энтропийную связь с целью, разделяя уровень психоэнтропии в равной степени на обоих. Связь держится некоторое время и может разрушиться, если участники разойдутся слишком далеко.</EntropyLink.description>
+  <!-- EN: entropy dump -->
+  <EntropyDump.label>сброс энтропии</EntropyDump.label>
+  <!-- EN: Instantly dump all your psychic entropy into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
+  <EntropyDump.description>Мгновенно сбрасывает накопившуюся энтропию на кого-то другого. Цель воздействия впадет в изнурительную кому примерно на один день, кома не нанесет дополнительного вреда. Цель сброса энтропии должна быть полностью согласна на это, поэтому только союзники, находящиеся в сознании, могут быть целью данной способности.</EntropyDump.description>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>призыв шторма</Flashstorm.label>
+  <!-- EN: Use differential-pressure skipgates in the atmosphere to generate a localized flashstorm. The storm will strike the area with lighting for some time before dissipating. -->
+  <Flashstorm.description>Использует пространственные врата в атмосфере для создания разницы давления и призыва локализованного шторма. Некотрое время на выбраную территорию будут призываться удары молний. </Flashstorm.description>
   
   <!-- EN: focus -->
   <Focus.label>сосредоточенность</Focus.label>
@@ -90,5 +100,10 @@
   <Wallraise.label>стена из недр</Wallraise.label>
   <!-- EN: Form a temporary wall by skipping rubble and soil up from deep under the ground. -->
   <Wallraise.description>Позволяет временно поднять в воздух стену из почвы и камней глубоко из под земли.</Wallraise.description>
+  
+  <!-- EN: waterskip -->
+  <Waterskip.label>призыв волны</Waterskip.label>
+  <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
+  <Waterskip.description>Накрывает выбранную область волной воды, гасящей огонь. Вода призывается через пространственные врата архотека из далекого океана или подземного источника.</Waterskip.description>
   
 </LanguageData>
