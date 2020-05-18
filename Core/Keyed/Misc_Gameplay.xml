@@ -459,15 +459,15 @@
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>радиус {0}</ConditionCauserRadius>
   <!-- EN: low psyfocus -->
-  <LowPsyfocus>TODO</LowPsyfocus>
+  <LowPsyfocus>низкий уровень пси-концентрации</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>осталось {0}</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>Любой из</AnyOf>
   <!-- EN: Goodwill -->
-  <Goodwill>TODO</Goodwill>
+  <Goodwill>Репутация</Goodwill>
   <!-- EN: reducing resistance of {0_nameIndef} -->
-  <JobReport_ReduceResistance>TODO</JobReport_ReduceResistance>
+  <JobReport_ReduceResistance>сокращаяет сопротивление {0_nameIndef}</JobReport_ReduceResistance>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -479,7 +479,7 @@
   
   <!-- Meditation -->
   <!-- EN: meditating at -->
-  <MeditatingAt>TODO</MeditatingAt>
+  <MeditatingAt>медитирует на</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -943,7 +943,7 @@
   <!-- EN: Click to jump to the source. -->
   <ClickToJumpToSource>Нажмите для перехода к источнику.</ClickToJumpToSource>
   <!-- EN: Click to jump to the flashstorm. -->
-  <ClickToJumpToFlashstorm>TODO</ClickToJumpToFlashstorm>
+  <ClickToJumpToFlashstorm>Нажмите, чтобы переместиться к грозовому шторму</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
   <CausedByQuest>Вызвано заданием «{0}»</CausedByQuest>
 
@@ -1232,10 +1232,10 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / s ({3}s until zero)\n\nPsyfocus: {4} -->
-  <PawnTooltipPsychicEntropyStats>TODO</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
+  <PawnTooltipPsychicEntropy>Психическая энтропия: {0}/{1}\nСкорость падения: {2}/{3} с({4} с до нуля)\n\nПсихоэнтропия возрастает после применения пси-воздействий.\nПревышение безопасного предела может привести к долговременным проблемам со здоровьем.\nПадение психоэнтропии до нуля вызывает психическое похмелье.</PawnTooltipPsychicEntropy>
   <!-- EN: Psychic entropy increases after performing a psycast. Going over the normal limit can lead to psychic breakdown lasting days.\n\nAside from entropy, some psycasts cost psyfocus to perform. Psyfocus is gained through meditation or drugs. -->
-  <PawnTooltipPsychicEntropyDesc>TODO</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>Психоэнтропия возрастает после применения пси-воздействий.\nПревышение безопасного предела может привести к нервным срывам.\n\nКроме психоэнтропии, некотрые способности расходуют пси-концентрацию при использовании. Пси-концентрацию можно повысить при помощи медитации или наркотиков.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain focuses the mind and speeds up psychic entropy recovery.\n\nPain level: {0}\nBonus to entropy recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Боль помогает концентрации разума и быстрее рассеивает психическую энтропию.\n\nУровень боли: {0}\nБонус к рассеиванию психоэнтропии: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter. Exceeding your entropy limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
@@ -1261,11 +1261,11 @@
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>отношения с фракцией {0_name} улучшатся на {1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
-  <Reward_PassageOffworld>TODO</Reward_PassageOffworld>
+  <Reward_PassageOffworld>вы отправитесь к звёздам</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
-  <Reward_PassageOffworld_Label>TODO</Reward_PassageOffworld_Label>
+  <Reward_PassageOffworld_Label>Отправление в космос</Reward_PassageOffworld_Label>
   <!-- EN: value {0} -->
-  <TotalValue>TODO</TotalValue>
+  <TotalValue>значение {0}</TotalValue>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
@@ -1275,7 +1275,7 @@
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>синхронизировано с кем-то другим</BladelinkBondedToSomeoneElse>
   <!-- EN: P-{LABEL} -->
-  <PersonaWeaponLabel>TODO</PersonaWeaponLabel>
+  <PersonaWeaponLabel>P-{LABEL}</PersonaWeaponLabel>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
@@ -1301,7 +1301,7 @@
 
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
-  <CausedByHediff>TODO</CausedByHediff>
+  <CausedByHediff>Из-за: {0}</CausedByHediff>
   
   <!-- UNUSED -->
   <PawnTooltipPsychicEntropy>Психическая энтропия: {0}/{1}\nСкорость падения: {2}/{3} с({4} с до нуля)\n\nПсихоэнтропия возрастает после применения пси-воздействий.\nПревышение безопасного предела может привести к долговременным проблемам со здоровьем.\nПадение психоэнтропии до нуля вызывает психическое похмелье.</PawnTooltipPsychicEntropy>
