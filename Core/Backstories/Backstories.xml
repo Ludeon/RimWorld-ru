@@ -1371,10 +1371,10 @@
 	<Banished68>
 		<!-- EN: banished -->
 		<title>изгнанник</title>
-		<titleFemale>изгнанница</titleFemale>
+    <titleFemale>изгнанница</titleFemale>
 		<!-- EN: banished -->
 		<titleShort>изгнанник</titleShort>
-		<titleShortFemale>изгнанница</titleShortFemale>
+    <titleShortFemale>изгнанница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s tribe banished [PAWN_objective] following a bloody dispute. [PAWN_pronoun] survived in the wilds alone for a long time. -->
 		<desc>Племя {PAWN_nameDef} изгоняет {PAWN_possessive} после кровавого конфликта. {PAWN_pronoun} {PAWN_gender ? вынужден : вынуждена} долгие годы выживать в глуши, полагаясь только на себя.</desc>
 	</Banished68>
@@ -1426,13 +1426,13 @@
 	<!-- Tribal_Child -->
 	<BuddingArtist44>
 		<!-- EN: budding artist -->
-		<title>известный художник</title>
-		<titleFemale>известная художница</titleFemale>
+		<title>юный художник</title>
+		<titleFemale>юная художница</titleFemale>
 		<!-- EN: artist -->
 		<titleShort>художник</titleShort>
 		<titleShortFemale>художница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] had a knack for art. Traders and collectors from many different societies sought to buy [PAWN_possessive] creations. -->
-		<desc>{PAWN_nameDef} обладает внутренним чутьем к искусству. {PAWN_possessive} творения популярны среди продавцов и коллекционеров из разных уголков планеты.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? обнаружил : обнаружила} выдающиеся художественные таланты. Многие торговцы и коллекционеры стремились приобрести {PAWN_possessive} творения.</desc>
 	</BuddingArtist44>
 
 	<!-- ImperialCommon_Adult -->
@@ -1454,17 +1454,19 @@
 		<titleShort>хулиган</titleShort>
 		<titleShortFemale>хулиганка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] tormented other children for fun. To keep [PAWN_objective] busy, an elder assigned [PAWN_objective] to a hunting party at an early age. -->
-		<desc>В детстве {PAWN_nameDef} издевается над другими детьми ради забавы. Чтобы как-то занять хулигана, старейшины назначают {PAWN_possessive} охотником в очень раннем возрасте.</desc>
+		<desc>В детстве {PAWN_nameDef} {PAWN_gender ? любил : любила} издеваться над другими детьми забавы ради. Чтобы занять {PAWN_gender ? хулигана : хулиганку} хоть чем-то полезным, старейшина назначил {PAWN_possessive} охотником в раннем возрасте.</desc>
 	</Bully70>
 
 	<!-- Tribal_Adult -->
 	<Carver1>
 		<!-- EN: carver -->
-		<title>скульптор</title>
+		<title>резчик</title>
+		<titleFamale>резчица</titleFamale>
 		<!-- EN: carver -->
-		<titleShort>скульптор</titleShort>
+		<titleShort>резчик</titleShort>
+		<titleShortFamale>резчица</titleShortFamale>
 		<!-- EN: [PAWN_nameDef] carved artworks for [PAWN_possessive] tribe from wood, stone, and occasionally, more exotic materials. The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals. -->
-		<desc>{PAWN_nameDef} ваяет для своего племени скульптуры из дерева, камня, и иногда из более экзотических материалов. {PAWN_possessive} работы иногда продают, а иногда оставляют для украшения поселения и проведения ритуалов.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? вырезал : вырезала} для своего племени скульптуры из дерева, камня, а порой и из более экзотических материалов. Что-то из {PAWN_possessive} работ продавалось, что-то — хранилось поселенцами в ритуальных целях и просто для красоты.</desc>
 	</Carver1>
 
 	<!-- ImperialCommon_Adult -->
@@ -1530,7 +1532,7 @@
 		<titleShort>выживший</titleShort>
         <titleShortFemale>выжившая</titleShortFemale>
 		<!-- EN: As a baby, [PAWN_nameDef] was the only survivor of a deadly spacecraft crash. A passing tribe discovered [PAWN_objective] in the wreckage and adopted [PAWN_objective]. -->
-		<desc>Во младенческом возрасте {PAWN_nameDef} {PAWN_gender ? единственный : единственная} выживает при крушении космического корабля. Проходящее мимо племя находит и берёт [PAWN_possessive] к себе.</desc>
+		<desc>Во младенческом возрасте {PAWN_nameDef} {PAWN_gender ? оказался единственным выжившим : оказалась единственной выжившей} при аварии космического корабля. Проходящее мимо племя нашло {PAWN_objective} в обломках и растило как {PAWN_gender ? своего : свою}.</desc>
 	</CrashBaby32>
 
 	<!-- ImperialCommon_Adult -->
@@ -1540,7 +1542,7 @@
 		<!-- EN: farmer -->
 		<titleShort>фермер</titleShort>
 		<!-- EN: [PAWN_nameDef] ran a crop farm. [PAWN_pronoun] analyzed soil, agricultural equipment, weather patterns, and price trends to optimize the planting and harvesting of massive crop fields. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? управлял : управляла} агрофермой. {PAWN_pronoun} {PAWN_gender ? занимался : занималась} анализом почвы и оборудования, отслеживанием изменений погоды и тенденций ценообразования, для оптимизации посевной и сбора урожая на огромых полях.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? управлял : управляла} растениеводческой фермой. {PAWN_pronoun} {PAWN_gender ? занимался : занималась} анализом почвы и оборудования, отслеживанием изменений погоды и тенденций ценообразования, для оптимизации процессов посадки и сбора урожая на огромных полях.</desc>
 	</CropFarmer17>
 
 	<!-- ImperialFighter_Child -->
@@ -1598,9 +1600,9 @@
 	<!-- Tribal_Adult -->
 	<Framer37>
 		<!-- EN: framer -->
-		<title>планировщик</title>
+		<title>строитель</title>
 		<!-- EN: framer -->
-		<titleShort>планировщик</titleShort>
+		<titleShort>строитель</titleShort>
 		<!-- EN: [PAWN_nameDef] was responsible for erecting structures for [PAWN_possessive] fellow tribespeople to live in. This included both temporary structures for nomadic travel, and permanent settlements. Gathering building materials from local plant life was part of the job. -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? отвечал : отвечала} за возведение жилых сооружений для своего племени, в том числе временных жилищ для путешествий и постоянных — для поселений. Одной из важных задач в этой работе был сбор и использование местных растений в качестве строительных материалов.</desc>
 	</Framer37>
@@ -1644,11 +1646,13 @@
 	<!-- Tribal_Child -->
 	<Hideaway9>
 		<!-- EN: hideaway -->
-		<title>hideaway</title>
+		<title>затворник</title>
+		<titleFemale>затворница</titleFemale>
 		<!-- EN: hideaway -->
-		<titleShort>hideaway</titleShort>
+		<titleShort>затворник</titleShort>
+		<titleShortFemale>затворница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though[PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills. -->
-		<desc>[PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though[PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? стал : стала} жертвой гиперопеки своих родителей и почти не {PAWN_gender ? выходил : выходила} из дома. И, хотя у н{PAWN_possessive} было много времени для чтения книг и увлечений ремеслами, {PAWN_pronoun} так и не {PAWN_gender ? смог : смогла} развить нормальных социальных навыков.</desc>
 	</Hideaway9>
 
 	<!-- ImperialCommon_Adult -->
@@ -1665,159 +1669,167 @@
 	<!-- Tribal_Adult -->
 	<Hunter74>
 		<!-- EN: hunter -->
-		<title>hunter</title>
+		<title>охотник</title>
+		<titleFemale>охотница</titleFemale>
 		<!-- EN: hunter -->
-		<titleShort>hunter</titleShort>
+		<titleShort>охотник</titleShort>
+		<titleShortFemale>охотница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] tracked, trapped and killed animals for their meat and leather.\n\n[PAWN_nameDef] used both ranged and melee weapons. Sometimes, [PAWN_pronoun] hunted alongside animals. -->
-		<desc>[PAWN_nameDef] tracked, trapped and killed animals for their meat and leather.\n\n[PAWN_nameDef] used both ranged and melee weapons. Sometimes, [PAWN_pronoun] hunted alongside animals.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? выслеживал : выслеживала}, {PAWN_gender ? ловил : ловила} и {PAWN_gender ? убивал : убивала} животных ради их кожи и мяса.\n\n{PAWN_nameDef} {PAWN_gender ? пользовался : пользовалась} оружием и ближнего, и дальнего боя. Иногда {PAWN_pronoun} {PAWN_gender ? охотился: охотилась} с ловчими животными.</desc>
 	</Hunter74>
 
 	<!-- ImperialCommon_Adult -->
 	<ImperialInquisitor53>
 		<!-- EN: imperial inquisitor -->
-		<title>imperial inquisitor</title>
+		<title>имперский инквизитор</title>
 		<!-- EN: inquisitor -->
-		<titleShort>inquisitor</titleShort>
+		<titleShort>инквизитор</titleShort>
 		<!-- EN: inquisitress -->
-		<titleShortFemale>inquisitress</titleShortFemale>
+		<titleShortFemale>инквизитор</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was an inquisitor in the imperial church's anti-heresy school.\n\n[PAWN_nameDef] hunted unorthodox thoughts wherever they could be found - art, music, code, even private conversations. Upon finding deviance, [PAWN_pronoun] exposed it to bring on the punishment of the collective. And [PAWN_pronoun] could always find the deviance if [PAWN_pronoun] looked hard enough. -->
-		<desc>[PAWN_nameDef] was an inquisitor in the imperial church's anti-heresy school.\n\n[PAWN_nameDef] hunted unorthodox thoughts wherever they could be found - art, music, code, even private conversations. Upon finding deviance, [PAWN_pronoun] exposed it to bring on the punishment of the collective. And [PAWN_pronoun] could always find the deviance if [PAWN_pronoun] looked hard enough.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} инквизитором в службе по борьбе с ересью при Имперской Церкви.\n\n{PAWN_nameDef} {PAWN_gender ? выслеживал : выслеживала} отступнические идеи везде, где их можно было найти: искусство, музыка, чужое поведение, и даже личные беседы. Если такие идеи находились, {PAWN_pronoun} {PAWN_gender ? раскрывал : раскрывала} отступников и {PAWN_gender ? предавал : предавала} их наказанию. А идеи {PAWN_pronoun} {PAWN_gender ? мог : могла} найти всегда, стоило лишь пристальнее приглядеться.</desc>
 	</ImperialInquisitor53>
 
 	<!-- ImperialCommon_Adult -->
 	<ImperialPriest24>
 		<!-- EN: imperial priest -->
-		<title>imperial priest</title>
+		<title>имперский священник</title>
+		<titleFemale>имперская священница</titleFemale>
 		<!-- EN: priest -->
-		<titleShort>priest</titleShort>
+		<titleShort>священник</titleShort>
 		<!-- EN: priestess -->
-		<titleShortFemale>priestess</titleShortFemale>
+		<titleShortFemale>священница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a priest in the imperial church.\n\n[PAWN_pronoun] spent half [PAWN_possessive] time studying books to understand the relationship between God's aspects and the facets of [PAWN_possessive] society. The other half was spent preaching the evils of sloth and drink. -->
-		<desc>[PAWN_nameDef] was a priest in the imperial church.\n\n[PAWN_pronoun] spent half [PAWN_possessive] time studying books to understand the relationship between God's aspects and the facets of [PAWN_possessive] society. The other half was spent preaching the evils of sloth and drink.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} {PAWN_gender ? священником : священницей} в Имперской Церкви.\n\n{PAWN_pronoun} {PAWN_gender ? тратил : тратила} половину своего времени на изучение религиозных трудов, чтобы понять отношения между Божественным началом и обществом. Остальное время {PAWN_pronoun} {PAWN_gender ? тратил : тратила} на проповеди о зле лени и пьянства.</desc>
 	</ImperialPriest24>
 
 	<!-- ImperialFighter_Adult -->
 	<InfantryEngineer46>
 		<!-- EN: infantry engineer -->
-		<title>infantry engineer</title>
+		<title>военный инженер</title>
 		<!-- EN: engineer -->
-		<titleShort>engineer</titleShort>
+		<titleShort>инженер</titleShort>
 		<!-- EN: Despite being in an infantry battalion, [PAWN_nameDef] rarely fired a gun. [PAWN_possessive] specialty was the rapid construction of defenses, traps, defensive installations, and sapping tunnels. -->
-		<desc>Despite being in an infantry battalion, [PAWN_nameDef] rarely fired a gun. [PAWN_possessive] specialty was the rapid construction of defenses, traps, defensive installations, and sapping tunnels.</desc>
+		<desc>Несмотря на службу в пехотном батальоне, {PAWN_nameDef} редко {PAWN_gender ? брал : брала} в руки оружие. В {PAWN_possessive} задачи входило быстрое сооружение оборонительных конструкций, ловушек, укреплений, создание подкопов.</desc>
 	</InfantryEngineer46>
 
 	<!-- ImperialFighter_Adult -->
 	<InfantryMedic6>
 		<!-- EN: infantry medic -->
-		<title>infantry medic</title>
+		<title>военный врач</title>
 		<!-- EN: medic -->
-		<titleShort>medic</titleShort>
+		<titleShort>медик</titleShort>
 		<!-- EN: [PAWN_nameDef] treated the combat wounds of [PAWN_possessive] fallen comrades. -->
-		<desc>[PAWN_nameDef] treated the combat wounds of [PAWN_possessive] fallen comrades.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? лечил : лечила} своих раненных в бою товарищей.</desc>
 	</InfantryMedic6>
 
 	<!-- ImperialFighter_Adult -->
 	<InfantryOfficer49>
 		<!-- EN: infantry officer -->
-		<title>infantry officer</title>
+		<title>пехотный офицер</title>
 		<!-- EN: officer -->
-		<titleShort>officer</titleShort>
+		<titleShort>офицер</titleShort>
 		<!-- EN: [PAWN_nameDef] was an officer in an imperial battalion. [PAWN_pronoun] developed the social and combat skills to do [PAWN_possessive] job well and was respected by the men. -->
-		<desc>[PAWN_nameDef] was an officer in an imperial battalion. [PAWN_pronoun] developed the social and combat skills to do [PAWN_possessive] job well and was respected by the men.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} офицером имперского пехотного батальона. {PAWN_pronoun} {PAWN_gender ? выработал : выработала} много боевых и социальных навыков, которые помогали {PAWN_objective} хорошо выполнять свои обязанности и быть {PAWN_gender ? уважаемым : уважаемой} среди своих подчинённых.</desc>
 	</InfantryOfficer49>
 
 	<!-- ImperialFighter_Adult -->
 	<IntelligenceAgent21>
 		<!-- EN: intelligence agent -->
-		<title>intelligence agent</title>
+		<title>офицер контр-разведки</title>
 		<!-- EN: intel -->
-		<titleShort>intel</titleShort>
+		<titleShort>контр-разведчик</titleShort>
+		<titleShortFemale>контр-разведчица</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a high-ranking counterintelligence agent tasked with thwarting enemy spies. -->
-		<desc>[PAWN_nameDef] was a high-ranking counterintelligence agent tasked with thwarting enemy spies.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} высокопоставленным офицером контрразведки и {PAWN_gender ? ловил : ловила} вражеских шпионов.</desc>
 	</IntelligenceAgent21>
 
 	<!-- ImperialRoyal_Adult -->
 	<Landworker98>
 		<!-- EN: landworker -->
-		<title>landworker</title>
+		<title>майордом</title>
 		<!-- EN: landworker -->
-		<titleShort>landworker</titleShort>
+		<titleShort>майордом</titleShort>
 		<!-- EN: [PAWN_nameDef] held the position of landworker in [PAWN_possessive] royal house. [PAWN_pronoun] managed the family's lands and all the resources on them - both agricultural and mineral.\n\nThough [PAWN_pronoun] would never work the machines [PAWN_objective]self, managing these enterprises required learning the methods of farming and mining in detail. -->
-		<desc>[PAWN_nameDef] held the position of landworker in [PAWN_possessive] royal house. [PAWN_pronoun] managed the family's lands and all the resources on them - both agricultural and mineral.\n\nThough [PAWN_pronoun] would never work the machines [PAWN_objective]self, managing these enterprises required learning the methods of farming and mining in detail.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} майордомом знатной семьи. {PAWN_pronoun} {PAWN_gender ? управлял : управляла} сельскохозяйственными и добывающими предприятиями, которые этой семье принадлежали.\n\nХоть {PAWN_pronoun} никогда не {PAWN_gender ? работал : работала} напрямую на этих предприятиях, управление ими требовало определённых знаний в сельском хозяйстве и горном деле.</desc>
 	</Landworker98>
 
 	<!-- ImperialFighter_Adult -->
 	<LineInfanteer20>
 		<!-- EN: line infanteer -->
-		<title>line infanteer</title>
+		<title>пехотинец</title>
 		<!-- EN: infanteer -->
-		<titleShort>infanteer</titleShort>
+		<titleShort>пехотинец</titleShort>
 		<!-- EN: [PAWN_nameDef] was an ordinary infanteer in an imperial battalion.\n\nConscripted at a young age to add bodies the army, [PAWN_nameDef] learned the methods of fighting well enough to satisfy [PAWN_possessive] officers. However, [PAWN_pronoun] never quite understood what was going on around [PAWN_objective] enough to really believe in it. -->
-		<desc>[PAWN_nameDef] was an ordinary infanteer in an imperial battalion.\n\nConscripted at a young age to add bodies the army, [PAWN_nameDef] learned the methods of fighting well enough to satisfy [PAWN_possessive] officers. However, [PAWN_pronoun] never quite understood what was going on around [PAWN_objective] enough to really believe in it.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} обычным бойцом в имперской пехоте.\n\n{PAWN_nameDef} {PAWN_gender ? был : была} с ранних годов {PAWN_gender ? призван : призвана} в армию, для доукомплектования {PAWN_possessive} подразделения, и {PAWN_gender ? смог : смогла} достаточно хорошо выучиться военному делу, чтобы радовать своих командиров. Тем не менее, {PAWN_pronoun} никогда до конца не понимал, что происходит вокруг, и это заставляло {PAWN_possessive} сомневаться в своих навыках.</desc>
 	</LineInfanteer20>
 
 	<!-- ImperialCommon_Adult -->
 	<LivestockFarmer8>
 		<!-- EN: livestock farmer -->
-		<title>livestock farmer</title>
+		<title>хозяин ранчо</title>
+		<titleFemale>хозяйка ранчо</titleFemale>
 		<!-- EN: farmer -->
-		<titleShort>farmer</titleShort>
+		<titleShort>хозяин ранчо</titleShort>
+		<titleShortFemale>хозяйка ранчо</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] ran a livestock farm. [PAWN_pronoun] analyzed animal genetics, feed types, birth and slaughter methods, and price trends to optimize the raising of huge animal herds. -->
-		<desc>[PAWN_nameDef] ran a livestock farm. [PAWN_pronoun] analyzed animal genetics, feed types, birth and slaughter methods, and price trends to optimize the raising of huge animal herds.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? владел : владела} ранчо. {PAWN_pronoun} {PAWN_gender ? изучал : изучала} генетику животных, типы кормов, методики разведения и убоя, а также рыночные цены, чтобы оптимизировать содержание огромных стад животных.</desc>
 	</LivestockFarmer8>
 
 	<!-- Tribal_Adult -->
 	<Logger16>
 		<!-- EN: logger -->
-		<title>logger</title>
+		<title>лесоруб</title>
 		<!-- EN: logger -->
-		<titleShort>logger</titleShort>
+		<titleShort>лесоруб</titleShort>
 		<!-- EN: [PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo. -->
-		<desc>[PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? валил : валила} лес и {PAWN_gender ? обеспечивал : обеспечивал} древесиной своё племя. {PAWN_pronoun} {PAWN_gender ? управлялся : управлялась} топором с изяществом художника и мощью разъярённого муффало.</desc>
 	</Logger16>
 
 	<!-- ImperialFighter_Adult -->
 	<LoyalJanissary59>
 		<!-- EN: loyal janissary -->
-		<title>loyal janissary</title>
+		<title>преданный янычар</title>
 		<!-- EN: janissary -->
-		<titleShort>janissary</titleShort>
+		<titleShort>янычар</titleShort>
 		<!-- EN: [PAWN_nameDef] was a janissary in a great lord's army. Even more than the other troops, [PAWN_pronoun] felt a sense of duty, and [PAWN_pronoun] drew [PAWN_possessive] life's meaning from the effort [PAWN_pronoun] put to fulfilling [PAWN_possessive] duty. -->
-		<desc>[PAWN_nameDef] was a janissary in a great lord's army. Even more than the other troops, [PAWN_pronoun] felt a sense of duty, and [PAWN_pronoun] drew [PAWN_possessive] life's meaning from the effort [PAWN_pronoun] put to fulfilling [PAWN_possessive] duty.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} янычаром в огромной армии своего господина. {PAWN_pronoun} больше остальных бойцов {PAWN_gender ? был : была} {PAWN_gender ? преисполнен : преисполнена} чувством долга, и весь смысл {PAWN_possessive} жизни заключался в безукоризненной службе.</desc>
 	</LoyalJanissary59>
 
 	<!-- ImperialFighter_Child -->
 	<Machinist56>
 		<!-- EN: machinist -->
-		<title>machinist</title>
+		<title>механик</title>
 		<!-- EN: machinist -->
-		<titleShort>machinist</titleShort>
+		<titleShort>механик</titleShort>
 		<!-- EN: [PAWN_nameDef] had a knack for machinery. [PAWN_pronoun] supplemented [PAWN_possessive] family's income by repairing and modifying black market weapons. -->
-		<desc>[PAWN_nameDef] had a knack for machinery. [PAWN_pronoun] supplemented [PAWN_possessive] family's income by repairing and modifying black market weapons.</desc>
+		<desc>{PAWN_nameDef} всегда {PAWN_gender ? имел : имела} талант к механике. {PAWN_pronoun} {PAWN_gender ? пополнял : пополняла} семейный бюджет, ремонтируя и модифицируя оружие на чёрном рынке.</desc>
 	</Machinist56>
 
 	<!-- ImperialCommon_Adult -->
 	<Mailman2>
 		<!-- EN: mailman -->
-		<title>mailman</title>
+		<title>сотрудник почты</title>
 		<!-- EN: mail carrier -->
-		<titleFemale>mail carrier</titleFemale>
+		<titleFemale>сотрудница почты</titleFemale>
 		<!-- EN: mailman -->
-		<titleShort>mailman</titleShort>
+		<titleShort>почтальон</titleShort>
 		<!-- EN: mailwoman -->
-		<titleShortFemale>mailwoman</titleShortFemale>
+		<titleShortFemale>почтальонка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] carried mail on [PAWN_possessive] assigned routes. Sometimes [PAWN_pronoun] was even sent to deliver special packages to stylish corporate offices or mansions.\n\n[PAWN_nameDef] got pretty good at avoiding and fighting off angry dogs. -->
-		<desc>[PAWN_nameDef] carried mail on [PAWN_possessive] assigned routes. Sometimes [PAWN_pronoun] was even sent to deliver special packages to stylish corporate offices or mansions.\n\n[PAWN_nameDef] got pretty good at avoiding and fighting off angry dogs.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? развозил : развозила} почту. Иногда {PAWN_objective} даже поручали доставку специальных посылок в стильные корпоративные офисы и особняки.\n\n{PAWN_nameDef} неплохо {PAWN_gender ? наловчился : наловчилась} обращаться со злыми собаками: избегать их и драться с ними.</desc>
 	</Mailman2>
 
 	<!-- Tribal_Adult -->
 	<Malingerer28>
 		<!-- EN: malingerer -->
-		<title>malingerer</title>
+		<title>симулянт</title>
+		<titleFemale>симулянтка</titleFemale>
 		<!-- EN: malingerer -->
-		<titleShort>malingerer</titleShort>
+		<titleShort>симулянт</titleShort>
+		<titleShortFemale>симулянтка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] often feigned sickness in order to avoid [PAWN_possessive] responsibilities. While resting in the sick hut, [PAWN_pronoun] told stories to the children. -->
-		<desc>[PAWN_nameDef] often feigned sickness in order to avoid [PAWN_possessive] responsibilities. While resting in the sick hut, [PAWN_pronoun] told stories to the children.</desc>
+		<desc>{PAWN_nameDef} часто {PAWN_gender ? придумывал : придумывала} себе всякие болезни, чтобы избегать выполнения своих обязанностей. Отдыхая в хижине для больных, {PAWN_pronoun} {PAWN_gender ? рассказывал : рассказывала} разные истории детишкам.</desc>
 	</Malingerer28>
 
 	<!-- ImperialCommon_Adult -->
@@ -1829,37 +1841,37 @@
 		<titleShort>смотритель</titleShort>
 		<titleShortFemale>смотрительница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] managed the royal menagerie of a powerful family at their estate.\n\n[PAWN_nameDef]'s job saw [PAWN_pronoun] feeding elephants, tranquilizing lions, and training birds to display their plumage to titled visitors. -->
-		<desc>{PAWN_nameDef} управляет королевским зверинцем могущественной семьи в их поместье.\n\n{PAWN_possessive} работа состоит в кормлении слонов, усмирении львов, и в обучении птиц показывать своё оперение титулованным посетителям.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? управлял : управляла} королевским зверинцем могущественной семьи в их поместье.\n\n{PAWN_possessive} работа состояла в кормлении слонов, усмирении львов, и в обучении птиц показывать своё оперение титулованным посетителям.</desc>
 	</MenagerieKeeper1>
 
 	<!-- ImperialFighter_Child -->
 	<MilitaryCadet46>
 		<!-- EN: military cadet -->
-		<title>military cadet</title>
+		<title>военный кадет</title>
 		<!-- EN: cadet -->
-		<titleShort>cadet</titleShort>
+		<titleShort>кадет</titleShort>
 		<!-- EN: [PAWN_nameDef] was levied from [PAWN_possessive] family at a young age to become a soldier. [PAWN_pronoun] lived in barracks with other military kids, learning about duty, weapons, pain, and victory.\n\nThe trainers sometimes let the kids escape the base to enjoy the wider world. They wanted soldiers who can think independently. -->
-		<desc>[PAWN_nameDef] was levied from [PAWN_possessive] family at a young age to become a soldier. [PAWN_pronoun] lived in barracks with other military kids, learning about duty, weapons, pain, and victory.\n\nThe trainers sometimes let the kids escape the base to enjoy the wider world. They wanted soldiers who can think independently.</desc>
+		<desc>{PAWN_nameDef} в раннем возрасте {PAWN_gender ? покинул : покинула} семью, чтобы стать солдатом. {PAWN_pronoun} {PAWN_gender ? жил : жила} в бараке с другими, перенося тяготы и лишения, обучаясь обращению с оружием и узнавая о понятиях долга и победы.\n\nИнструкторы иногда выпускали детей за территорию базы, чтобы те могли насладиться миром снаружи. Им нужны были солдаты, способные мыслить независимо.</desc>
 	</MilitaryCadet46>
 
 	<!-- ImperialFighter_Adult -->
 	<MilitaryChaplain10>
 		<!-- EN: military chaplain -->
-		<title>military chaplain</title>
+		<title>военный священник</title>
 		<!-- EN: chaplain -->
-		<titleShort>chaplain</titleShort>
+		<titleShort>капеллан</titleShort>
 		<!-- EN: [PAWN_nameDef] stayed with the troops in training and in combat, administering to the dying and reinforcing the faith of the living.\n\nLike all imperial chaplains, [PAWN_pronoun] vowed never to fight [PAWN_objective]self. However, [PAWN_pronoun] acted as a medic and treated the wounded. -->
-		<desc>[PAWN_nameDef] stayed with the troops in training and in combat, administering to the dying and reinforcing the faith of the living.\n\nLike all imperial chaplains, [PAWN_pronoun] vowed never to fight [PAWN_objective]self. However, [PAWN_pronoun] acted as a medic and treated the wounded.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} со своими бойцами и в учении, и в бою, отпевая погибших и укрепляя веру живых.\n\nКак и все имперские капелланы, {PAWN_pronoun} {PAWN_gender ? поклялся : поклялась} никогда не брать в руки оружие. Тем не менее, {PAWN_pronoun} {PAWN_gender ? помогал : помогала} раненым и {PAWN_gender ? лечил : лечила} их раны.</desc>
 	</MilitaryChaplain10>
 
 	<!-- ImperialFighter_Adult -->
 	<MilitaryCook18>
 		<!-- EN: military cook -->
-		<title>military cook</title>
+		<title>военный повар</title>
 		<!-- EN: army cook -->
-		<titleShort>army cook</titleShort>
+		<titleShort>военный повар</titleShort>
 		<!-- EN: They say an army marches on its stomach. [PAWN_nameDef]'s job was to prepared chow to keep [PAWN_possessive] unit marching, no matter the conditions.\n\nThe job required [PAWN_objective] to pay attention to both the nutritional and psychological needs of the troops. -->
-		<desc>They say an army marches on its stomach. [PAWN_nameDef]'s job was to prepared chow to keep [PAWN_possessive] unit marching, no matter the conditions.\n\nThe job required [PAWN_objective] to pay attention to both the nutritional and psychological needs of the troops.</desc>
+		<desc>Как известно, голодный солдат — плохой солдат. Работа {PAWN_nameDef} заключалась в своевременном приготовлении еды для своего подразделения, вне зависимости от условий.\n\nЭта работа заставляла {PAWN_possessive} обращать внимание как на пищевые потребности бойцов, так и на психологические.</desc>
 	</MilitaryCook18>
 
 	<!-- ImperialCommon_Adult -->
@@ -1871,7 +1883,7 @@
 		<titleShort>ювелир</titleShort>
 		<titleShortFemale>ювелир</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] crafted watches, medals, machined jewelry and other complex curios for royal patrons. -->
-		<desc>{PAWN_nameDef} изготавливает часы, медали, обработанные украшения и другие сложные изделия для королевских покровителей.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? изготавливал : изготавливала} часы, медали, обработанные украшения и другие сложные изделия для королевских покровителей.</desc>
 	</OrnamentMaker56>
 
 	<!-- ImperialRoyal_Child -->
@@ -2087,11 +2099,13 @@
 	<!-- Tribal_Adult -->
 	<StewKeeper95>
 		<!-- EN: stew keeper -->
-		<title>stew keeper</title>
+		<title>тушильщик мяса</title>
+		<titleFemale>тушильщица мяса</titleFemale>
 		<!-- EN: stewkeeper -->
-		<titleShort>stewkeeper</titleShort>
+		<titleShort>повар</titleShort>
+		<titleShortFemale>повариха</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] prepared meals from the plants and animals brought in by gatherers, farmers, and hunters of [PAWN_possessive] tribe. [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self. -->
-		<desc>[PAWN_nameDef] prepared meals from the plants and animals brought in by gatherers, farmers, and hunters of [PAWN_possessive] tribe. [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? готовил : готовила} еду из растений и животных, принесенных собирателями, земледельцами и охотниками {PAWN_possessive} племени. {PAWN_pronoun} {PAWN_gender ? следил : следила}, чтобы пища была сытной, здоровой и хорошо хранилась. {PAWN_nameDef} регулярно {PAWN_gender ? обрабатывал : обрабатывала}, а порой и {PAWN_gender ? сам : сама} {PAWN_gender ? собирал : собирала} растения.</desc>
 	</StewKeeper95>
 
 	<!-- ImperialFighter_Child -->

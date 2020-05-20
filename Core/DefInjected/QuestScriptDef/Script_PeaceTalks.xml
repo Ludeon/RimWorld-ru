@@ -10,7 +10,7 @@
     <!--Дублирует <Quest_PeaceTalks.letterText>-->
     <!--TODO решить по royal favor-ам-->
     <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] фракции [faction_name], сообщает, что хочет встретиться с вами на нейтральной территории для переговоров.\n\nЭто хорошая возможность улучшить отношения с этой фракцией и получить ценные дипломатические подарки, но знайте: неумелый переговорщик может принести больше вреда, чем пользы.[favorRewardDetails]</li>
-    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nУспешная встреча может принести вашему переговорщику немного ^Replace( [faction_royalFavorLabel] | 'королевская милость'-'королевской милости')^ от фракции [faction_name].</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nУспешная встреча может принести вашему переговорщику немного ^Replace( [faction_royalFavorLabel] | 'милость короны'-'милости короны')^ от фракции [faction_name].</li>
     <li>favorRewardDetails-></li>
   </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -32,8 +32,8 @@
     <li>peaceTalks->встреча</li>
   </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.label.slateRef>Время задания истекло: [resolvedQuestName]</OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.label.slateRef>
+  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>Время задания истекло: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
   <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
-  <OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.text.slateRef>Срок предложения о встрече для переговоров с фракцией [faction_name] истёк. Вы не выполнили задание [resolvedQuestName].</OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>Срок предложения о встрече для переговоров с фракцией [faction_name] истёк. Вы не выполнили задание [resolvedQuestName].</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
   
 </LanguageData>
