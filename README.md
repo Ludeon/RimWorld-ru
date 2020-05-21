@@ -5,16 +5,14 @@
 
 Данный перевод постоянно исправляется и дорабатывается. И если вам не хочется ждать следующего обновления игры, вы можете скачать актуальную версию отсюда. Для этого нужно:
 
-1. Скачать архив или клонировать репозиторий, **соответствующий вашей версии игры (это важно!):**
-	* Последняя нестабильная 1.1 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru)
-	* 1.1.2624 (13.05.2020) + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/release-1.1.2624.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.1.2624)
-	* 1.0: [архив](https://github.com/Ludeon/RimWorld-ru/release-1.0.2150.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.0.2150)
-	* B-19: [архив](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/beta-19)
-	* B-18: [архив](https://github.com/Ludeon/RimWorld-ru/archive/beta-18.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/beta-18)
-	* A-17: [архив](https://github.com/Ludeon/RimWorld-ru/archive/alpha-17.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/alpha-17)
-	* A-16: [архив](https://github.com/Ludeon/RimWorld-ru/archive/alpha-16.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/alpha-16)
-	* A-15: [архив](https://github.com/Ludeon/RimWorld-ru/archive/alpha-15.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/alpha-15)
-2. **(Для версии 1.1)** Подменить папки локализации папками из архива:
+1. Скачать архив, **соответствующий вашей версии игры (это важно!):**
+	* Последняя нестабильная 1.1 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
+	* 1.1.2624 (13.05.2020) + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/release-1.1.2624.zip)
+	* Release: [1.0](https://github.com/Ludeon/RimWorld-ru/release-1.0.2150.zip)
+	* Beta: [B-18](https://github.com/Ludeon/RimWorld-ru/archive/beta-18.zip), [B-19](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip)
+	* Alpha : [A-15](https://github.com/Ludeon/RimWorld-ru/archive/alpha-15.zip), [A-16](https://github.com/Ludeon/RimWorld-ru/archive/alpha-16.zip), [A-17](https://github.com/Ludeon/RimWorld-ru/archive/alpha-17.zip)
+
+2. **(Для версий 1.1.*)** Подменить папки локализации папками из архива:
 	
 	В папку `<путь к папке игры>\Data\Core\Languages\` нужно положить папку `Core` из архива и переименовать её в `Russian`.
 
