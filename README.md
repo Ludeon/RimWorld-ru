@@ -6,7 +6,8 @@
 Данный перевод постоянно исправляется и дорабатывается. И если вам не хочется ждать следующего обновления игры, вы можете скачать актуальную версию отсюда. Для этого нужно:
 
 1. Скачать архив или клонировать репозиторий, **соответствующий вашей версии игры (это важно!):**
-	* 1.1.2547 (17.02.2020) и более новые версии 1.1 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru)
+	* Последняя нестабильная 1.1 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru)
+	* 1.1.2624 (13.05.2020) + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/release-1.1.2624.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.1.2624)
 	* 1.0.2150 (16.01.2019) и более новые версии 1.0: [архив](https://github.com/Ludeon/RimWorld-ru/release-1.0.2150.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.0.2150)
 	* 1.0.2096 (23.11.2018): [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2096.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.0.2096)
 	* 1.0.2059 (17.10.2018): [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2059.zip), [Git-репозиторий](https://github.com/Ludeon/RimWorld-ru/tree/release-1.0.2059)
