@@ -6,6 +6,12 @@
   <!-- EN: A psychic link with another individual. Gain or loss of psychic entropy incurred by one will be shared equally between both. -->
   <EntropyLink.description>Психическая связь между двумя индивидуумами. Изменение психоэнтропии у одного будет поровну распределяться между обоими.</EntropyLink.description>
   
+  <!-- EN: psylink -->
+  <PsychicAmplifier.label>пси-связь</PsychicAmplifier.label>
+  <!-- EN: An organic connection to a larger psychic field. This allows a person to use specific psycasts that they have learned to influence reality in a variety of ways.\n\nPsylink comes in a number of intensity levels, and higher levels permit the use of more powerful psycasts.\n\nPsylink comes from a variety of sources. Some consumable archotech devices can develop a psylink in a person’s mind. So-called wildcasters develop the link naturally all on their own, and tribal peoples can develop it through ritual connection with exotic lifeforms.\n\nWhatever the cause, the psylink itself is poorly understood by scientists, not the least because it seems to actively conceal itself if studied too closely. One thing most agree on is that it somehow links people to archotechs and harnesses their power, but the mechanism for this seems unfathomable. -->
+  <PsychicAmplifier.description>Органическая связь с широким пси-полем, позволяющая её обладателю воздействовать на окружающую действительность.\n\nСуществуют разные уровни интенсивности пси-связи. Чем выше уровень, тем более мощные пси-воздействия можно применять.\n\nПси-связь можно установить разными способами. Можно использовать специальное одноразовое архоустройство для её искусственного формирования. Во многих племенах научились развивать пси-связь при помощи некоторых экзотических форм жизни.\n\nНезависимо от способа получения, пси-связь сама по себе плохо изучена учеными. Одной из причин является то, что она будто бы активно скрывает себя при попытках изучения. Ученые сходятся во мнении, что пси-связь каким-то образом соединяет людей с архотеками и позволяет использовать их силу, но этот механизм пока остаётся за гранью человеческого понимания.</PsychicAmplifier.description>
+  <PsychicAmplifier.labelNoun>пси-связь</PsychicAmplifier.labelNoun>
+  
   <!-- EN: psychic anesthesia -->
   <PsychicAnesthesia.label>пси-анестезия</PsychicAnesthesia.label>
   <!-- EN: Psychically-induced pain insensitivity. -->
@@ -18,8 +24,8 @@
   
   <!-- EN: psychic breakdown -->
   <PsychicBreakdown.label>пси-срыв</PsychicBreakdown.label>
-  <!-- EN: Long-term psychic destabilization of the mind, usually caused by excessive psychic entropy. Even when the entropy clears, the breakdown can last for many days, causing mental disturbances of various kinds. -->
-  <PsychicBreakdown.description>Долгосрочная психическая дестабилизация сознания, чаще всего происходящая из-за чрезмерного накопления психоэнтропии. Даже после того как энтропия спадает, срыв может продолжаться множество дней, вызывая психические расстройства разного типа.</PsychicBreakdown.description>
+  <!-- EN: Deep psychic destabilization of the mind. Psychic breakdown last for days, causing mental disturbances of various kinds. It resolves itself with time. -->
+  <PsychicBreakdown.description>Глубокая психическая дестабилизация сознания. Пси-срыв может продолжаться днями, вызывая психические расстройства разного типа.</PsychicBreakdown.description>
   <!-- EN: minor -->
   <PsychicBreakdown.stages.minor.label>незначительный</PsychicBreakdown.stages.minor.label>
   <!-- EN: major -->
@@ -34,19 +40,19 @@
   
   <!-- EN: psychic entropy -->
   <PsychicEntropy.label>психоэнтропия</PsychicEntropy.label>
-  <!-- EN: Chaotic psychic energy built up in the mind. Entropy falls over time. After it clears, it leaves a psychic hangover for several days. If psychic entropy becomes very high, it can cause psychosis, long-term psychic breakdown, destruction of psychic amplifiers, and even brain damage. -->
-  <PsychicEntropy.description>Хаотическая пси-энергия, накопленная в сознании. Со временем она уйдёт, оставив психическое похмелье на несколько дней. Если количество накопившейся психоэнтропии станет слишком большим, она может вызвать психоз, долговременный пси-срыв, разрушение пси-усилителей и даже повреждение мозга.</PsychicEntropy.description>
+  <!-- EN: Chaotic psychic energy in the mind. If entropy is pushed past normal limits, it may cause temporary psychic breakdown, psylink degradation and finally unconsciousness due to psychic shock. None of these conditions cause permanent damage. -->
+  <PsychicEntropy.description>Хаотическая пси-энергия сознания. Если количество накопившейся психоэнтропии станет слишком большим, она может вызвать временный пси-срыв, разрушение пси-усилителей и потерю сознания из-за психического шока. Ни одно из этих состояний не нанесёт необратимого вреда.</PsychicEntropy.description>
   <!-- EN: safe -->
   <PsychicEntropy.stages.safe.label>безопасное количество</PsychicEntropy.stages.safe.label>
   <!-- EN: overloaded -->
-  <PsychicEntropy.stages.overloaded.label>перегруз</PsychicEntropy.stages.overloaded.label>
-  <!-- EN: hyperloaded -->
-  <PsychicEntropy.stages.hyperloaded.label>критический перегруз</PsychicEntropy.stages.hyperloaded.label>
-  <!-- EN: brain charring -->
-  <PsychicEntropy.stages.brain_charring.label>средний ущерб мозгу</PsychicEntropy.stages.brain_charring.label>
-  <!-- EN: brain roasting -->
-  <PsychicEntropy.stages.brain_roasting.label>серьёзный ущерб мозгу</PsychicEntropy.stages.brain_roasting.label>
-  
+  <PsychicEntropy.stages.overloaded.label>перегрузка</PsychicEntropy.stages.overloaded.label>
+  <!-- EN: very overloaded -->
+  <PsychicEntropy.stages.very_overloaded.label>сильная перегрузка</PsychicEntropy.stages.very_overloaded.label>
+  <!-- EN: extreme -->
+  <PsychicEntropy.stages.extreme.label>очень сильная перегрузка</PsychicEntropy.stages.extreme.label>
+  <!-- EN: overwhelming -->
+  <PsychicEntropy.stages.overwhelming.label>критическая перегрузка</PsychicEntropy.stages.overwhelming.label>
+     
   <!-- EN: psychic focus -->
   <PsychicFocus.label>пси-концентрация</PsychicFocus.label>
   <!-- EN: Psychically-induced mental focus, increasing sight, hearing and movement capactities. -->
