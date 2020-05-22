@@ -28,10 +28,10 @@
   <PsycastNeurotrainerDescription>Сыворотка с дозой механитов, запрограммированных на обучение конкретному виду пси-воздействия.\n\nСыворотка вводится через глазное яблоко. После того, как механиты попадают в мозг пациента, они наделяют его определённой пси-способностью, при необходимости преобразуя себя в нервную ткань.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
   <AbilityNeurotrainerUsed>{USER_labelShort} {USER_gender ? использовал : использовала} нейротренер и {USER_gender ? изучил : изучила} пси-воздействие {1}.</AbilityNeurotrainerUsed>
-  <!-- EN: {USER_labelShort} has reached psychic amplifer level {1} and has automatically learned this psycast: {2}. -->
-  <PsycastLearnedFromImplant>{USER_labelShort} {USER_gender ? достиг : достигла} {1} уровня пси-усилителя и автоматически получает пси-способность: {2}.</PsycastLearnedFromImplant>
-  <!-- EN: Requires psychic amplifier -->
-  <PsycastNeurotrainerNoPsychicAmplifier>Требует наличие пси-усилителя</PsycastNeurotrainerNoPsychicAmplifier>
+  <!-- EN: {USER_labelShort} has reached level {1} psylink and has automatically learned this psycast: {2}. -->
+  <PsycastLearnedFromImplant>{USER_labelShort} {USER_gender ? достиг : достигла} {1} уровня пси-связи и автоматически получает пси-способность: {2}.</PsycastLearnedFromImplant>
+  <!-- EN: Requires psylink -->
+  <PsycastNeurotrainerNoPsylink>Необходима пси-связь</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} уже знает {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
 
@@ -50,6 +50,18 @@
   <!-- EN: Too close to other beacon -->
   <TooCloseToOtherBeacon>Слишком близко к другому маяку</TooCloseToOtherBeacon>
   
+  <!-- Meditation -->
+  <!-- EN: {0}-{1}% -->
+  <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
+  <!-- EN: Up to level {0} psycasts. -->
+  <PsyfocusLevelInfoPsycasts>До пси-способностей уровня {0}.</PsyfocusLevelInfoPsycasts>
+  <!-- EN: Psyfocus falls at {0} per day. -->
+  <PsyfocusLevelInfoFallRate>Пси-концентрация будет снижаться на {0} в день.</PsyfocusLevelInfoFallRate>
+  <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
+  <UserMeditationFocusStrength>Степень концентрации {LASTUSER_labelShort} во время медитации</UserMeditationFocusStrength>
+  <!-- EN: Focus effect impacted by -->
+  <MeditationFocusImpacted>На концентрацию влияет</MeditationFocusImpacted>
+
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>работает только в режиме призыва</AbilityDisabledUndrafted>
@@ -57,6 +69,8 @@
   <AbilityOnCooldown>способность в процессе восстановления. Её можно будет применить через {0}.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>способность уже добавлена в очередь.</AbilityAlreadyQueued>
+  <!-- EN: no entropy to dump. -->
+  <AbilityNoEntropyToDump>нет энтропии для сброса</AbilityNoEntropyToDump>
   <!-- EN: Ability ready: {0} -->
   <AbilityReadyLabel>Способность готова к применению: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
@@ -78,4 +92,14 @@
   <AbilitySpeechPossibleOutcomes>Возможные результаты</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>{1} {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
+
+  <!-- EN: Progress to next {0}: {1} -->
+  <ProgressToNextSubplant>Проследовать к следующему {0}: {1}</ProgressToNextSubplant>
+  <!-- EN: Begin linking ritual -->
+  <BeginLinkingRitualFloatMenu>Начать ритуал связывания</BeginLinkingRitualFloatMenu>
+  <!-- EN: Need {0} {1} here (have {2}) -->
+  <BeginLinkingRitualNeedSubplants>Необходимо {0} {1} здесь (в наличии {2})</BeginLinkingRitualNeedSubplants>
+  <!-- EN: Need psylink -->
+  <BeginLinkingRitualNeedPsylink>Нужна пси-связь</BeginLinkingRitualNeedPsylink>
+
 </LanguageData>
