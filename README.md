@@ -7,8 +7,8 @@
 
 1. Скачать архив, **соответствующий вашей версии игры (это важно!):**
 	* Последняя нестабильная 1.1 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
-	* 1.1.2624 (13.05.2020) + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/release-1.1.2624.zip)
-	* Release: [1.0](https://github.com/Ludeon/RimWorld-ru/release-1.0.2150.zip)
+	* 1.1.2624 (13.05.2020) + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2624.zip)
+	* Release: [1.0](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2150.zip)
 	* Beta: [B-18](https://github.com/Ludeon/RimWorld-ru/archive/beta-18.zip), [B-19](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip)
 	* Alpha : [A-15](https://github.com/Ludeon/RimWorld-ru/archive/alpha-15.zip), [A-16](https://github.com/Ludeon/RimWorld-ru/archive/alpha-16.zip), [A-17](https://github.com/Ludeon/RimWorld-ru/archive/alpha-17.zip)
 
