@@ -7,9 +7,9 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to perform a low-power test of one of [asker_possessive] ship's area-attack weapons. If [asker_pronoun] does, [gameConditionDescriptionFuture].\n\nSince you are a local landholder under imperial law, [asker_nameDef] needs your honorable permission to proceed.</li>
   -->
   <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->ИИ-личность корабля на орбите хочет провести ряд экспериментов планетарного масштаба. Однако поскольку эти эксперименты повлекут за собой нежелательные побочные эффекты, она обеспокоена возможными проблемами с комиссией по этике.\n\nЕсли она проведёт свой эксперимент, [gameConditionDescriptionFuture].</li>
-    <li>questDescription(asker_factionLeader==True)->Фракции [asker_faction_name] угрожает враждебно настроенная ИИ-личность. Лидер фракции, [asker_nameFull], просит вас отправить ей сообщение, в котором вы примите на себя ответственность за их непокорность. В этом случае ИИ накажет вас вместо них, и [gameConditionDescriptionFuture].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из фракции [asker_faction_name] желает протестировать одно из особых орудий своего корабля. Если это произойдет: [gameConditionDescriptionFuture].\n\nТак как ваше поселение находится под юрисдикцией Империи, [asker_objective] потребуется ваше согласие.</li>
+    <li>questDescription(askerIsNull==true)->ИИ-личность корабля на орбите хочет провести ряд экспериментов планетарного масштаба. Однако если она проведёт свой эксперимент, [gameConditionDescriptionFuture].\n\nИИ-личность обеспокоена возможными проблемами с комиссией по этике, и поэтому просит вашего разрешения.</li>
+    <li>questDescription(asker_factionLeader==True)->Мстительная ИИ-личность угрожает фракции [asker_faction_name]. Лидер фракции, [asker_faction_leaderTitle] [asker_nameFull], просит вас отправить ей сообщение, в котором вы примите на себя ответственность за их вину. В этом случае ИИ направит свой гнев на вас, и [gameConditionDescriptionFuture].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из фракции [asker_faction_name] желает протестировать одно из особых орудий своего корабля. Если [asker_pronoun] это сделает, [gameConditionDescriptionFuture].\n\nТак как ваше поселение находится под юрисдикцией Империи, [asker_objective] потребуется ваше согласие.</li>
   </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [gameCondition_label]</li>
@@ -35,9 +35,9 @@
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->Учёные с орбитального исследовательского судна хотят протестировать новый тип феромона для насекомых. Если вы согласитесь, они распылят над [map_definite] феромон, который, как ожидается, вызовет появление [hivesCount_genitive] насекомых.\n\n[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->Появление ульев вызвано распылением феромона с орбитального исследовательского судна.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], говорит, что они не могут справиться с нашествиями насекомых в окрестностях [map_definite]. [asker_pronoun] хочет предоставить это дело вам. Если вы примете это предложение, ожидайте появления [hivesCount_genitive] насекомых.\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], говорит, что они не могут справиться с нашествиями насекомых в окрестностях [map_definite]. [asker_pronoun] хочет предоставить это дело вам. Если вы примете [asker_possessive] предложение, ожидайте появления [hivesCount_genitive] насекомых.\n\n[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->Эти насекомые ранее нападали на окрестные поселения, принадлежащие [asker_nameFull] из фракции [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] не может совершить посадку рядом с поселение [map_definite] из-за постоянных нападений насекомых. [asker_pronoun] хочет приманить насекомых к вам, чтобы вы разобрались с ними. Это спровоцирует появление [hivesCount_genitive].\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] не может совершить посадку рядом с поселением [map_definite] из-за постоянных нападений насекомых. [asker_pronoun] хочет приманить насекомых к вам, чтобы вы разобрались с ними. Это спровоцирует появление [hivesCount_genitive].\n\n[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->Нашествие насекомых [asker_provoked] [asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name].</li>
     <li>hivesCount_genitive->^Number( [hivesCount] | '# улья' | '# ульев' | '# ульев')^</li>
     <li>asker_provoked(asker_gender==Male)->спровоцировал</li>
@@ -93,37 +93,34 @@
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->These are the [animalKind_labelPlural] that killed the scouting party of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
   -->
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
-    <li>animalKindLabelCorrect_arrive(animalCount==1)->[animalKind_label] придёт</li> <!-- Теперь нам нужно правило разрешающее просто ед.ч / мн. ч с названием животного и словом придет-->
-    <li>animalKindLabelCorrect_arrive(animalCount>=2)->[animalKind_labelPlural] придут</li> <!-- Теперь нам нужно правило разрешающее просто ед.ч / мн. ч с названием животного и словом придет-->
-    <li>endSection->\n\n[[helpersParagraph]Если вы согласитесь помочь торговцу, [animalKindLabelCorrect_arrive] в [map_definite] через [manhuntersDelayTicks_duration].</li>
-    <li>questDescription(askerIsNull==true)->С вами связывается торговец, находящийся неподалёку от [map_definite]. [manhunters_hunt_trader_needs_help].[endSection]</li>
-    <!-- <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label] [hunted] на торговца неподалёку, но [animalKind_possessive] приманили к вам.</li> -->
+    <li>endSection->\n\n[helpersParagraph]Если вы согласитесь помочь, [manhunters_def_will_come] в [map_definite] через [manhuntersDelayTicks_duration].</li>
+    <li>questDescription(askerIsNull==true)->С вами связывается торговец. За ним [manhunters_def_hunt]! Он просит вас отвлечь внимание [manhunters_indef_gen] на себя.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->Дикое животное, [animalKind_label], охотилось на торговца неподалёку.</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->[animalKind_labelPlural] неподалёку охотились на торговца.</li>
-    <li>questDescription(asker_factionLeader==True)->На караваны фракции [asker_faction_name] неподалёку от [map_definite] [manhunters_attack]. [asker_faction_leaderTitle] [asker_nameFull] хочет отвлечь [manhunters_acc] от караванов и приманить к [map_definite], чтобы вы расправились с этой угрозой.[endSection]</li>
-    <!-- <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_label] [attacked] на караваны фракции [asker_faction_name], но [animalKind_possessive] приманили к вам.</li> -->
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->Дикое животное, [animalKind_label], нападало на караваны фракции [asker_faction_name]</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural] нападали на караваны фракции [asker_faction_name]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из фракции [asker_faction_name] недавно потерял разведчика, на него  напало агрессивное животное - [animalKind_label]. [asker_pronoun] желает приманить животное к вашему поселению, чтобы оно было уничтожено  ради сохранения [asker_possessive] чести.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->Это [animalKind_label], животное, которое в ответе за смерть разведчика  фракции [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из фракции [asker_faction_name] недавно потерял разведотряд, на него напали агрессивные [animalKind_labelPlural]. [asker_pronoun] желает приманить их к вашему поселению, чтобы животные были уничтожены  ради сохранения [asker_possessive] чести.[endSection]</li>	
+    <li>questDescription(asker_factionLeader==True)->На караваны фракции [asker_faction_name] [manhunters_def_attack]. [asker_faction_leaderTitle] [asker_nameFull] просит вас отвлечь внимание [manhunters_indef_gen] от караванов и расправиться с этой угрозой.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->Дикое животное, [animalKind_label], нападало на караваны фракции [asker_faction_name].</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural] нападали на караваны фракции [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из фракции [asker_faction_name] недавно [asker_lost] [asker_scout]: на него [manhunters_def_attacked]. [asker_pronoun] желает приманить [manhunters_indef_acc] к вашему поселению, чтобы вы [manhunters_possessive] убили ради сохранения [asker_possessive] чести.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->Это [animalKind_label], животное, которое в ответе за смерть разведчика фракции [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->Это [animalKind_labelPlural], которые уничтожили разведотряд фракции [asker_faction_name].</li>	
-    <li>manhunters_hunt_trader_needs_help(animalCount==1)->За ним охотится дикое животное, [animalKind_label]! Торговец хочет отвлечь внимание животного от себя и приманить его к вам.</li>
-    <li>manhunters_hunt_trader_needs_help(animalCount>=2)->За ним охотятся дикие [animalKind_labelPlural]! Торговец хочет отвлечь внимание стаи от себя и приманить её к вам.</li>
-    <li>manhunters_acc(animalCount==1)->животное</li>
-    <li>manhunters_acc(animalCount>=2)->животных</li>
-    <li>manhunters_will_come(animalCount==1)->агрессивное животное, [animalKind_label], придёт</li>
-    <li>manhunters_will_come(animalCount>=2)->агрессивные [animalKind_labelPlural] придут</li>
-    <li>manhunters_attack(animalCount==1)->нападает [manhunting_beasts]</li>
-    <li>manhunters_attack(animalCount>=2)->нападают [manhunting_beasts]</li>
-    <li>manhunting_beasts(animalCount==1)->агрессивное животное, [animalKind_label]</li>
-    <li>manhunting_beasts(animalCount>=2)->[animalCount] агрессивных [animalKind_labelPlural]</li>
-    <li>manhunting_beasts(animalCount>=2)->агрессивные [animalKind_labelPlural]</li>
-    <li>manhunting_beasts_acc(animalCount==1)->агрессивное животное, [animalKind_label],</li>
-    <li>manhunting_beasts_acc(animalCount>=2)->[animalCount] агрессивных [animalKind_labelPlural]</li>
-    <li>manhunting_beasts_acc(animalCount>=2)->агрессивных [animalKind_labelPlural]</li>
-    <li>asker_released(asker_gender==Male)->натравил</li>
-    <li>asker_released(asker_gender==Female)->натравила</li>
+    <li>manhunters_def_hunt(animalCount==1)->охотится дикое животное, [animalKind_label]</li>
+    <li>manhunters_def_hunt(animalCount>=2)->охотятся дикие [animalKind_labelPlural]</li>
+    <li>manhunters_def_attack(animalCount==1)->нападает [animalKind_label]</li>
+    <li>manhunters_def_attack(animalCount>=2)->нападают [animalKind_labelPlural]</li>
+    <li>manhunters_def_attacked(animalCount==1)->напал [animalKind_label]</li>
+    <li>manhunters_def_attacked(animalCount>=2)->напали [animalKind_labelPlural]</li>
+    <li>manhunters_def_will_come(animalCount==1)->[animalKind_label] придёт</li>
+    <li>manhunters_def_will_come(animalCount>=2)->[animalKind_labelPlural] в количестве [animalCount] особей придут</li>
+    <li>manhunters_possessive(animalCount==1)->его</li>
+    <li>manhunters_possessive(animalCount>=2)->их</li>
+    <li>manhunters_indef_gen(animalCount==1)->животного</li>
+    <li>manhunters_indef_gen(animalCount>=2)->животных</li>
+    <li>manhunters_indef_acc(animalCount==1)->животное</li>
+    <li>manhunters_indef_acc(animalCount>=2)->животных</li>
+    <li>asker_lost(asker_gender==Male)->потерял</li>
+    <li>asker_lost(asker_gender==Female)->потеряла</li>
+    <li>asker_scout(animalCount==1)->разведчика</li>
+    <li>asker_scout(animalCount>=2)->разведотряд</li>
   </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(animalCount==1)->The [AdjectiveBadass] [beast]</li>
@@ -165,7 +162,7 @@
     <li>askerEnemies(priority=-1)->his enemies</li>
   -->
   <ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->С вами связывается находящийся неподалёку торговец. [threat] преследуют его! Он просит вас отправить им оскорбительное сообщение и тем самым отвлечь их на [map_definite], чтобы он смог безопасно уйти. Если вы это сделаете, [askerEnemies] разобьют рядом лагерь и будут нападать на вас. [site/allSitePartsDescriptions] Этот лагерь будет там до тех пор, пока вы его не разгромите.</li>
+    <li>questDescription(askerIsNull==true)->С вами связывается находящийся неподалёку торговец. Его преследуют [threat]! Он просит вас отправить им оскорбительное сообщение и тем самым отвлечь их на [map_definite], чтобы он смог безопасно уйти.\n\nЕсли вы это сделаете, [askerEnemies] разобьют рядом лагерь и будут нападать на вас. [site/allSitePartsDescriptions] Этот лагерь будет там до тех пор, пока вы его не разгромите.</li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], просит вас о помощи. На [asker_possessive] поселения нападают [askerEnemies]. [asker_pronoun] просит вас отправить им оскорбительное сообщение, отвлечь их на себя и спасти [asker_possessive] людей.\n\nВ этом случае [askerEnemies] разобьют рядом лагерь и будут нападать на вас. [site/allSitePartsDescriptions] Этот лагерь будет там до тех пор, пока вы его не разгромите.</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] [asker_travelled] неподалёку от [map_definite], как [asker_possessive] начали преследовать [site/siteFaction_pawnsPlural] из фракции [site/siteFaction_name]. [asker_objective] нужна ваша помощь, чтобы вы отправили им оскорбительное сообщение и отвлекли их на [map_definite].\n\nВ этом случае [askerEnemies] разобьют рядом лагерь и будут нападать на вас. [site/allSitePartsDescriptions] Этот лагерь будет там до тех пор, пока вы его не разгромите.</li>
     <li>asker_travelled(asker_gender==Male)->путешествовал</li>
@@ -173,13 +170,13 @@
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] из фракции [site/enemyFaction_name]</li>
     <li>threat(priority=1,site/MechCluster_exists==True)->механоиды</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->механоиды</li>
-    <li>threat->[asker_possessive] враги</li>
-    <li>threat(priority=-1)->его враги</li>
+    <li>threat->враги</li>
+    <li>threat(priority=-1)->враги</li>
     <li>askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
     <li>askerEnemies(priority=1,site/MechCluster_exists==True)->механоиды</li>
     <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->механоиды</li>
-    <li>askerEnemies->[asker_possessive] враги</li>
-    <li>askerEnemies(priority=-1)->его враги</li>
+    <li>askerEnemies->враги</li>
+    <li>askerEnemies(priority=-1)->враги</li>
   </ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [site/site_label]</li>
