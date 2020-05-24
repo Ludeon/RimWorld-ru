@@ -5,8 +5,8 @@
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
       <li>root(priority=1,sitePart==ClimateAdjuster)->в регионе находится регулятор климата, изменяющий температуру на [temperatureOffset]</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->в регионе находится источник гула, настроенный на людей [affectedGender]</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->в регионе находится психический подавитель, настроенный на людей [affectedGender]</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->в регионе находится источник гула, настроенный на ^Replace( [affectedGender] | 'мужчина'-'мужчин' | 'женщина'-'женщин')^</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->в регионе находится психический подавитель, настроенный на ^Replace( [affectedGender] | 'мужчина'-'мужчин' | 'женщина'-'женщин')^</li>
       <li>root(priority=1,sitePart==WeatherController)->в регионе находится контроллер погоды, меняющий погоду на [weather_label]</li>
       <li>root(priority=1,sitePart==SmokeSpewer)->в регионе находится дымогенератор, изрыгаемые которым клубы дыма покрывают весь регион</li>
       <li>root(priority=1,sitePart==SunBlocker)->весь регион находится в тени из-за активного над ним блокировщика солнечных лучей</li>
