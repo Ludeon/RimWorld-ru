@@ -1995,21 +1995,23 @@
 	<!-- ImperialCommon_Adult -->
 	<RoyalCook18>
 		<!-- EN: royal cook -->
-		<title>royal cook</title>
+		<title>придворный повар</title>
 		<!-- EN: cook -->
-		<titleShort>cook</titleShort>
+		<titleShort>повар</titleShort>
 		<!-- EN: [PAWN_nameDef] made meals for [PAWN_possessive] aristocratic patrons.\n\nOnly the finest food was acceptable, so [PAWN_nameDef] tended a small garden on the mansion grounds to get the freshest herbs and vegetables. [PAWN_pronoun] fell in love with the food [PAWN_objective]self. -->
-		<desc>[PAWN_nameDef] made meals for [PAWN_possessive] aristocratic patrons.\n\nOnly the finest food was acceptable, so [PAWN_nameDef] tended a small garden on the mansion grounds to get the freshest herbs and vegetables. [PAWN_pronoun] fell in love with the food [PAWN_objective]self.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? готовил : готовила} различные блюда для знатных особ.\n\nДля работы требовалось исключительное качество продуктов, поэтому, {PAWN_nameDef} {PAWN_gender ? ухаживал : ухаживала} за небольшим садом на территории поместья, чтобы иметь доступ к самым свежим травам и овощам. Еда стала {PAWN_possessive} страстью.</desc>
 	</RoyalCook18>
 
 	<!-- ImperialFighter_Adult -->
 	<RoyalGuard51>
 		<!-- EN: royal guard -->
-		<title>royal guard</title>
+		<title>придворный стражник</title>
+		<titleFemale>придворная стражница</titleFemale>
 		<!-- EN: guard -->
-		<titleShort>guard</titleShort>
+		<titleShort>стражник</titleShort>
+		<titleShortFemale>стражница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] guarded the personal palace of a powerful lord.\n\nWhile violence was rare, palace intrigue was constant. [PAWN_nameDef]'s work taught [PAWN_pronoun] to handle both words and guns. -->
-		<desc>[PAWN_nameDef] guarded the personal palace of a powerful lord.\n\nWhile violence was rare, palace intrigue was constant. [PAWN_nameDef]'s work taught [PAWN_pronoun] to handle both words and guns.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? охранял : охраняла} личный дворец могущественного лорда.\n\nХотя насилие было довольно редким зрелищем, дворец кишел интригами. Работа научила {PAWN_nameDef} мастерски управляться и словами, и оружием.</desc>
 	</RoyalGuard51>
 
 	<!-- ImperialCommon_Adult -->
@@ -2021,79 +2023,79 @@
 		<titleShort>массажист</titleShort>
 		<titleShortFemale>массажистка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a massage artist for an extended royal house. [PAWN_pronoun] serviced many members of the royal family, and their guests.\n\n[PAWN_nameDef] occasionally offered something extra, if the lord or lady was in the mood. Advancing in this line of work meant having refined social skills. -->
-		<desc>{PAWN_nameDef} работает массажистом в королевском доме, обслуживая множество членов королевской семьи и их гостей.\n\n{PAWN_nameDef} иногда предлагает «особенные» услуги, если лорд или леди в соответствующем расположении духа. Продвижение в этом роде деятельности помогает в усовершенствовании социальных навыков.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? работал : работала} массажистом при дворе известного и знатного рода, обслуживая множество членов знатной семьи и их гостей.\n\n{PAWN_nameDef} иногда {PAWN_gender ? предлагал : предлагала} «особенные» услуги, если лорд или леди в {PAWN_gender ? пребывал : пребывала} в соответствующем расположении духа. Совершенствование в этом роде деятельности помогало оттачивать социальные навыки.</desc>
 	</RoyalMasseuse43>
 
 	<!-- ImperialCommon_Child -->
 	<ServingBoy97>
 		<!-- EN: serving boy -->
-		<title>serving boy</title>
+		<title>прислужник</title>
 		<!-- EN: serving girl -->
-		<titleFemale>serving girl</titleFemale>
+		<titleFemale>прислужник</titleFemale>
 		<!-- EN: house boy -->
-		<titleShort>house boy</titleShort>
+		<titleShort>прислужница</titleShort>
 		<!-- EN: house girl -->
-		<titleShortFemale>house girl</titleShortFemale>
+		<titleShortFemale>прислужница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was the child of house servants, and was trained to carry on the family duty.\n\n[PAWN_pronoun] carried things and polished silverware, but was never allowed into the lords' part of the house. -->
-		<desc>[PAWN_nameDef] was the child of house servants, and was trained to carry on the family duty.\n\n[PAWN_pronoun] carried things and polished silverware, but was never allowed into the lords' part of the house.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в семье придворных слуг, и {PAWN_gender ? был : была} {PAWN_gender ? обучен : обучена} всем обязанностям своих родителей.\n\n{PAWN_pronoun} переносила разные вещи и {PAWN_gender ? полировал : полировала} серебряную посуду, но никогда не {PAWN_gender ? заходил : заходила} в «господскую» часть имения.</desc>
 	</ServingBoy97>
 
 	<!-- ImperialRoyal_Child -->
 	<ShipboundLordling12>
 		<!-- EN: shipbound lordling -->
-		<title>shipbound lordling</title>
+		<title>лорд с корабля</title>
 		<!-- EN: shipbound lady -->
-		<titleFemale>shipbound lady</titleFemale>
+		<titleFemale>леди с корабля</titleFemale>
 		<!-- EN: ship lord -->
-		<titleShort>ship lord</titleShort>
+		<titleShort>молодой лорд</titleShort>
 		<!-- EN: ship lady -->
-		<titleShortFemale>ship lady</titleShortFemale>
+		<titleShortFemale>молодая леди</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s family held their power base on a grand, ancient starship. Born and raised on the ship, [PAWN_nameDef] learned all about the rigors of shipboard life, and the politics and methods of interstellar battle and orbital invasion.\n\n[PAWN_pronoun] learned to feel most at home with strong walls close on all sides and the gentle hiss of atmosphere regulators. -->
-		<desc>[PAWN_nameDef]'s family held their power base on a grand, ancient starship. Born and raised on the ship, [PAWN_nameDef] learned all about the rigors of shipboard life, and the politics and methods of interstellar battle and orbital invasion.\n\n[PAWN_pronoun] learned to feel most at home with strong walls close on all sides and the gentle hiss of atmosphere regulators.</desc>
+		<desc>Основным оплотом семьи {PAWN_nameDef} был огромный древний космический корабль. {PAWN_nameDef} {PAWN_gender ? родился : родилась} и {PAWN_gender ? рос : росла} на нём и не понаслышке {PAWN_gender ? знал : знала} о всей строгости корабельной жизни, политике, методах ведения боя в космосе и орбитальных десантах.\n\n{PAWN_pronoun} {PAWN_gender ? привык : привыкла} чувствовать себя как дома только в тесном окружении крепких стен и мягким шипением атмосферных регуляторов где-то рядом.</desc>
 	</ShipboundLordling12>
 
 	<!-- ImperialFighter_Child -->
 	<ShipBoy89>
 		<!-- EN: ship boy -->
-		<title>ship boy</title>
+		<title>корабельный мальчик</title>
 		<!-- EN: ship girl -->
-		<titleFemale>ship girl</titleFemale>
+		<titleFemale>корабельная девочка</titleFemale>
 		<!-- EN: ship boy -->
-		<titleShort>ship boy</titleShort>
+		<titleShort>корабельный мальчик</titleShort>
 		<!-- EN: ship girl -->
-		<titleShortFemale>ship girl</titleShortFemale>
+		<titleShortFemale>корабельная девочка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was born to low-ranked servants on an ancient starship. The ship's machine persona was like a third parent to [PAWN_objective], and the parts crafting crew [PAWN_pronoun] worked for was like a second family.\n\n[PAWN_nameDef] rarely saw plants or animals, and still finds them unnerving to touch. -->
-		<desc>[PAWN_nameDef] was born to low-ranked servants on an ancient starship. The ship's machine persona was like a third parent to [PAWN_objective], and the parts crafting crew [PAWN_pronoun] worked for was like a second family.\n\n[PAWN_nameDef] rarely saw plants or animals, and still finds them unnerving to touch.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в семье низкосортной прислуги на древнем космическом корабле. Корабельный ИИ стал {PAWN_objective} третьим родителем, а команда по сборке запчастей, в которой {PAWN_nameDef} {PAWN_gender ? работал : работала} — второй семьёй.\n\n{PAWN_nameDef} редко {PAWN_gender ? видел : видела} растения или животных и до сих пор слегка боится к ним прикасаться.</desc>
 	</ShipBoy89>
 
 	<!-- ImperialFighter_Adult -->
 	<Shipcracker37>
 		<!-- EN: shipcracker -->
-		<title>shipcracker</title>
+		<title>штурмовик</title>
 		<!-- EN: shipcracker -->
-		<titleShort>shipcracker</titleShort>
+		<titleShort>штурмовик</titleShort>
 		<!-- EN: [PAWN_nameDef]'s role was to launch through the vacuum of space, land on the enemy ship's hull, punch holes to the interior, and conquer it in room-to-room combat. [PAWN_pronoun] became very good at wielding heavy cataphract weapons to cut both steel and flesh.\n\n[PAWN_pronoun] also developed a taste for the drugs [PAWN_pronoun] used to cope with the overwhelming stress. -->
-		<desc>[PAWN_nameDef]'s role was to launch through the vacuum of space, land on the enemy ship's hull, punch holes to the interior, and conquer it in room-to-room combat. [PAWN_pronoun] became very good at wielding heavy cataphract weapons to cut both steel and flesh.\n\n[PAWN_pronoun] also developed a taste for the drugs [PAWN_pronoun] used to cope with the overwhelming stress.</desc>
+		<desc>В задачи {PAWN_nameDef} входили полёт со своего корабля сквозь пустоту космоса в сторону вражеского корабля, приземление на его поверхность, создание проходных отверстий и его последующий захват в тесном бою. {PAWN_nameDef} {PAWN_gender ? добился : добилась} больших успехов в обращении с тяжелым катафрактарским арсеналом, позволявшим прорубаться сквозь и сталь, и людей.\n\n{PAWN_pronoun} также {PAWN_gender ? выработал : выработала} тягу к наркотикам, которые {PAWN_pronoun} {PAWN_gender ? употреблял : употреблял}, чтобы справиться с непреодолимым стрессом.</desc>
 	</Shipcracker37>
 
 	<!-- ImperialFighter_Child -->
 	<SoldiersKid55>
 		<!-- EN: soldier's kid -->
-		<title>soldier's kid</title>
+		<title>ребёнок военных</title>
 		<!-- EN: soldier kid -->
-		<titleShort>soldier kid</titleShort>
+		<titleShort>ребёнок военных</titleShort>
 		<!-- EN: [PAWN_nameDef] was raised on the ancient starship where [PAWN_possessive] parents were stationed. [PAWN_pronoun] learned the basics of firearm operations and maintenance from the soldiers on board. [PAWN_nameDef] became accustomed to a strict routine and frequent discipline. -->
-		<desc>[PAWN_nameDef] was raised on the ancient starship where [PAWN_possessive] parents were stationed. [PAWN_pronoun] learned the basics of firearm operations and maintenance from the soldiers on board. [PAWN_nameDef] became accustomed to a strict routine and frequent discipline.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} на древнем космическом корабле, где служили {PAWN_possessive} родители. От солдат на борту {PAWN_pronoun} {PAWN_gender ? научился : научилась} основам обращения с оружием и ухода за ним. {PAWN_nameDef} {PAWN_gender ? привык : привыкла} к жёсткой рутине и частым наказаниям.</desc>
 	</SoldiersKid55>
 
 	<!-- ImperialRoyal_Adult -->
 	<Spymaster41>
 		<!-- EN: spymaster -->
-		<title>spymaster</title>
+		<title>шпион-мейстер</title>
 		<!-- EN: spymaster -->
-		<titleShort>spymaster</titleShort>
+		<titleShort>шпион-мейстер</titleShort>
 		<!-- EN: As soon as [PAWN_pronoun] was old enough, [PAWN_nameDef] was given the post of spymaster for [PAWN_possessive] house. [PAWN_possessive] cold, calculating nature made [PAWN_objective] a natural at the arts of blade, poison, and betrayal. -->
-		<desc>As soon as [PAWN_pronoun] was old enough, [PAWN_nameDef] was given the post of spymaster for [PAWN_possessive] house. [PAWN_possessive] cold, calculating nature made [PAWN_objective] a natural at the arts of blade, poison, and betrayal.</desc>
+		<desc>Как только {PAWN_nameDef} {PAWN_gender ? достиг : достигла} нужного возраста, {PAWN_possessive} назначили шпионом-мейстером своего знатного семейства. Холодная и расчётливая натура сделали {PAWN_possessive} искусным мастером клинка, ядов и предательств.</desc>
 	</Spymaster41>
 
 	<!-- Tribal_Adult -->
