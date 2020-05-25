@@ -3,8 +3,8 @@
   
   <!-- EN:
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] will send a [helperKind_label] to assist you under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] will send [helpersCount] [helperKind_labelPlural] to assist you under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->A [helperKind_label] will be placed under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->[helpersCount] [helperKind_labelPlural] will be placed under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] been sent to assist you.</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
@@ -16,8 +16,8 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] отправит вам на помощь и передаст под ваш контроль [helperKind_label]. Вы будете должны расквартировать помощника, но он может погибнуть в битве без каких-либо последствий для вас.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] отправит вам на помощь и передаст под ваш контроль [helpersCount] [helperKind_labelPlural]. Вы будете должны расквартировать помощников, но они могут погибнуть в битве без каких-либо последствий для вас.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->Под ваш контроль будет передан [helperKind_label]. Вы будете должны расквартировать его, но он может погибнуть в бою без каких-либо последствий для вас.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->Под ваш контроль будут переданы [helperKind_labelPlural] в количестве ^Number([helpersCount] | '# человека' | '# человек' | '# человек')^. Вы будете должны расквартировать их, но они могут погибнуть в бою без каких-либо последствий для вас.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount==1)->\n\n [helpersLabelSingOrPlural] [helpersDeparted] к вам на помощь.</li>
     <li>helpersArrivalLetterEnd(helpersCount>=2)->\n\n [helpersCount] [helpersLabelSingOrPlural] [helpersDeparted] к вам на помощь.</li>
@@ -35,14 +35,14 @@
     <li>helpersSpent(helpersCount>=2)->провели</li>
   </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
   <!-- EN: [helpersLabelSingOrPlural] arrived -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterLabel.value.slateRef>[helpersLabelSingOrPlural] [helpersArrived]</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterLabel.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>[helpersLabelSingOrPlural] [helpersArrived]</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterText.value.slateRef>[helpersLabelSingOrPlural], [helpersSent] [asker_nameDef], [helpersArrived], чтобы помочь в выполнении задания '[resolvedQuestName]'.</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterText.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>[helpersLabelSingOrPlural], [helpersSent] [asker_nameDef], [helpersArrived], чтобы помочь в выполнении задания '[resolvedQuestName]'.</Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
   <!-- EN: the [helpersLabelSingOrPlural] -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.arrivingPawnsLabelDef.value.slateRef>[helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.arrivingPawnsLabelDef.value.slateRef>
+  <Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>[helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>
   <!-- EN: [helpersLabelSingOrPlural] leaving -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>[helpersLabelSingOrPlural] [helpersLeaving]</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>[helpersLabelSingOrPlural] [helpersLeaving]</Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>[helpersLabelSingOrPlural], [helpersSent] [asker_nameDef], чтобы помочь вам с заданием, [helpersSpent] у вас слишком много времени и теперь [helpersLeaving].</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>[helpersLabelSingOrPlural], [helpersSent] [asker_nameDef], чтобы помочь вам с заданием, [helpersSpent] у вас слишком много времени и теперь [helpersLeaving].</Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>
   
 </LanguageData>

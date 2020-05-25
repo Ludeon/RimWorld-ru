@@ -39,6 +39,14 @@
   <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>Челнок уничтожен</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>Челнок, отправленный забрать [lodgersLabelSingOrPlural_gen], был уничтожен. [lodgers_pronoun] [lodgers_will_leave] поселение пешком. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Quest completed -->
+  <Hospitality_Util_Worker.LetterLabelQuestCompleted.slateRef>Задание завершено</Hospitality_Util_Worker.LetterLabelQuestCompleted.slateRef>
+  <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\n[asker_nameDef] said [asker_pronoun] was willing to reward quality accomodation. [lodgersLabelSingOrPluralDef] average mood was {AVERAGEMOOD} during [theirHisHer] stay, so your goodwill with [asker_faction_name] has increased by {GOODWILL} -->
+  <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>Вы успешно завершили задание  «[resolvedQuestName]»!\n\n[asker_nameDef] желает наградить вас за достойный приём. Среднее настроение [lodgersLabelSingOrPlural_gen2] за время пребывания было {AVERAGEMOOD}, поэтому уровень отношений с фракцией [asker_faction_name] повысится на {GOODWILL}</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
+  <!-- EN: Quest completed -->
+  <Hospitality_Util_Worker.root.nodes.shuttleSentSatisfied.node.node.nodes.GoodwillForAverageMoodFailed.node.nodes.Letter.label.slateRef>Задание завершено</Hospitality_Util_Worker.root.nodes.shuttleSentSatisfied.node.node.nodes.GoodwillForAverageMoodFailed.node.nodes.Letter.label.slateRef>
+  <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\nWhile [asker_nameDef] was willing to reward quality accomodation, [lodgersLabelSingOrPluralDef] average mood was only {AVERAGEMOOD} during [theirHisHer] stay. You will receive no faction goodwill reward. -->
+  <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>Вы успешно завершили задание  «[resolvedQuestName]»!\n\nТак как среднее настроение [lodgersLabelSingOrPlural_gen2] за время пребывания было только {AVERAGEMOOD}, [asker_nameDef] не может дополнительно наградить вас за уровень приёма, и отношения с фракцией [asker_faction_name] не изменятся</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>Задание провалено: «[resolvedQuestName]»</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
@@ -47,6 +55,6 @@
   <!-- EN: Shuttle destroyed -->
   <Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>Челнок уничтожен</Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to drop off [pawnsLabelDef] has been destroyed. You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have changed by [goodwillChangeOnShuttleDestroyed]. -->
-  <Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>Челнок, отправленный, чтобы доставить к вам  [lodgersLabelSingOrPlural_gen], уничтожен. Вы провалили задание «[resolvedQuestName]».\n\nОтношения с фракцией [asker_faction_name] ухудшились на [goodwillChangeOnShuttleDestroyed].</Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>
+  <Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>Челнок, отправленный, чтобы доставить к вам  [pawnsLabelDef], уничтожен. Вы провалили задание «[resolvedQuestName]».\n\nОтношения с фракцией [asker_faction_name] ухудшились на [goodwillChangeOnShuttleDestroyed].</Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>
   
 </LanguageData>
