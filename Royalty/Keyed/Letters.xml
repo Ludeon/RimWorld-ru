@@ -49,8 +49,6 @@
   <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_objective} более не разрешено применять следующие импланты:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>Такие импланты должны быть извлечены в течение пяти дней, во избежание дипломатических последствий.</LetterRoyalTitleImplantGracePeriod>
-  <!-- EN: {PAWN_pronoun} now has a need for authority. Satisfying this means sitting on a throne and reigning. While thronerooms can be shared, each noble needs their own personally-assigned throne. -->
-  <LetterRoyalTitleAuthorityNeed>{PAWN_objective} теперь требуется поддерживать свой авторитет. Его можно укреплять, восседая на троне. Тронный зал может быть общим, но каждому знатному поселенцу нужен свой собственный трон.</LetterRoyalTitleAuthorityNeed>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
   <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun} теперь может произносить тронные речи. Сильная речь вдохновит слушателей, слабая — принесёт только вред. Результат зависит от социальных навыков {PAWN_labelShort}.</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
@@ -63,7 +61,7 @@
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>{PAWN_objective} отправят следующие предметы транспортной капсулой:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
-  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} {PAWN_gender ? получил : получила} {1} ед. милости короны от фракции {FACTION_name}.</PeaceTalksRoyalFavorGain>
+  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} {PAWN_gender ? получил : получила} {1} ед. ^Replace( {FACTION_royalFavorLabel} | 'милость короны'-'милости короны')^ от фракции {FACTION_name}.</PeaceTalksRoyalFavorGain>
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
