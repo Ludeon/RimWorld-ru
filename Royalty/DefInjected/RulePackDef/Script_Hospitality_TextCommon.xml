@@ -56,7 +56,7 @@
     <li>lodgersLabelSingOrPlural_gen(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural_gen(lodgersCount>=2)->[lodgersLabelPlural_gen]</li>
     <li>lodgersLabelSingOrPlural_gen2(lodgersCount==1)->[lodgersLabel_gen]</li>
-    <li>lodgersLabelSingOrPlural_gen2(lodgersCount>=2)->[lodgersLabelPlural_gen]</li>	
+    <li>lodgersLabelSingOrPlural_gen2(lodgersCount>=2)->[lodgersLabelPlural_gen]</li>
     <li>lodgers_arrived(lodgersCount==1,lodgers0_gender==Male)->прибыл</li>
     <li>lodgers_arrived(lodgersCount==1,lodgers0_gender==Female)->прибыла</li>
     <li>lodgers_arrived(lodgersCount>=2)->прибыли</li>
@@ -88,7 +88,7 @@
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->на вас совершат налёт примерно в следующем составе:\n\n[threatExample]</li>
-  	<li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->на вас совершат налёт силой х[threatSize] примерно в следующем составе:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->на вас совершат налёт силой х[threatSize] примерно в следующем составе:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->на вас совершат ^Number( [threatCount] | '# налёт' | '# налёта' | '# налётов')^ примерно в следующем составе:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->на вас совершат ^Number( [threatCount] | '# налёт' | '# налёта' | '# налётов')^ силой х[threatSize] примерно в следующем составе:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->неподалёку десантируется кластер механоидов.</li>

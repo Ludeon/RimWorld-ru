@@ -102,7 +102,7 @@
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural] нападали на караваны фракции [asker_faction_name].</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из фракции [asker_faction_name] недавно [asker_lost] [asker_scout]: на него [manhunters_def_attacked]. [asker_pronoun] желает приманить [manhunters_indef_acc] к вашему поселению, чтобы вы [manhunters_possessive] убили ради сохранения [asker_possessive] чести.[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->Это [animalKind_label], животное, которое в ответе за смерть разведчика фракции [asker_faction_name].</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->Это [animalKind_labelPlural], которые уничтожили разведотряд фракции [asker_faction_name].</li>	
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->Это [animalKind_labelPlural], которые уничтожили разведотряд фракции [asker_faction_name].</li>
     <li>manhunters_def_hunt(animalCount==1)->охотится дикое животное, [animalKind_label]</li>
     <li>manhunters_def_hunt(animalCount>=2)->охотятся дикие [animalKind_labelPlural]</li>
     <li>manhunters_def_attack(animalCount==1)->нападает [animalKind_label]</li>
