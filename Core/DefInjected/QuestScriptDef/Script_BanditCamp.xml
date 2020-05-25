@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN:
-    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].\n\nIf we succeed, [allRewardsDescriptions]</li>
+    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
   -->
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], передаёт нам сообщение.\n\nПо всей видимости, [siteFaction_pawnsPlural] из фракции [siteFaction_name] устроили неподалёку лагерь и грабят их караваны.\n\n[asker_nameDef] просит стереть лагерь с лица земли: ликвидировать всех противников и уничтожить их турели. [asker_label] говорит, что [sitePart0_description].\n\nВ случае успеха [allRewardsDescriptions]</li>
+    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], передаёт нам сообщение.\n\nПо всей видимости, [siteFaction_pawnsPlural] из фракции [siteFaction_name] устроили неподалёку лагерь и грабят их караваны.\n\n[asker_nameDef] просит стереть лагерь с лица земли: ликвидировать всех противников и уничтожить их турели. [asker_label] говорит, что [sitePart0_description].</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s Camp Bounty</li>
@@ -19,7 +19,7 @@
     <li>questName->награда от [asker_nameDef]</li>
     <li>questName->[enemyFaction_pawnsPlural] Грабители</li>
     <li>questName->лагерь бандитов</li>
-    <li>questName->лагерь рейдеров</li>
+    <li>questName->лагерь налётчиков</li>
     <li>questName->уничтожение лагеря</li>
     <li>questName->помощь [asker_nameDef]</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
@@ -39,5 +39,5 @@
   <OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>
   <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] favor for this service. -->
   <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>Эти поселенцы приняли участие в успешном завершении задания [resolvedQuestName]. [asker_definite] спрашивает, кому из них за свою службу причитается [royalFavorReward_amount] ед. ^Replace( [asker_faction_royalFavorLabel] | 'милость короны'-'милости короны')^.</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
-  
+
 </LanguageData>
