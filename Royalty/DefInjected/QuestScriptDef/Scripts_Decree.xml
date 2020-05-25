@@ -8,9 +8,7 @@
     <li>questDescription->[decreeIntro]\n\nЧтобы исполнить указ, нужно построить монумент размера [monumentSize] из этих материалов (общей стоимостью [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nПосле завершения строительства вам нужно сохранить его в целости в течение [keepMonumentTicks_duration], в противном случае [asker_nameDef] будет [asker_displeased].</li>
     <li>asker_displeased(asker_gender==Male)->огорчён</li>
     <li>asker_displeased(asker_gender==Female)->огорчена</li>
-    <li>
-    
-    </li>
+    <li>asker_offended(asker_gender==Male)->оскорблён</li>
     <li>asker_offended(asker_gender==Female)->оскорблена</li>
   </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
