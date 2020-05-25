@@ -62,7 +62,7 @@
   <StatsReport_Facilities>Постройки</StatsReport_Facilities>
   <!-- EN: Multiplier for body size {0} -->
   <StatsReport_BodySize>Коэффициент размера тела {0}</StatsReport_BodySize>
-  <!-- EN: Carefully slaughtered -->
+  <!-- EN: Carefully slaughtered without wounds -->
   <StatsReport_HasHediffExplanation>Коэффициент за аккуратный забой</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
   <StatsReport_MeleeDPSExplanation>Урон в секунду = разовый урон * шанс попасть / время между ударами</StatsReport_MeleeDPSExplanation>
@@ -234,8 +234,6 @@
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>Выполнение этого действия безопасно для пациента.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
   <!-- EN: The chance the patient will die upon failure of this surgery. -->
   <Stat_Thing_Surgery_DeathOnFailChance_Desc>Вероятность, с которой пациент может умереть при неудачной операции.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
-  <!-- EN: The addictiveness of this drug. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>Вероятность возникновения зависимости от этого вещества.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: Total bleed factor -->
   <Stat_Hediff_TotalBleedFactor_Name>Множитель кровотечения</Stat_Hediff_TotalBleedFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of blood loss. -->
@@ -248,8 +246,8 @@
   <Stat_Hediff_FoodPoisoningChanceFactor_Name>Множитель шанса отравления пищи</Stat_Hediff_FoodPoisoningChanceFactor_Name>
   <!-- EN: A multiplier applied to the chance of getting food poisoning. -->
   <Stat_Hediff_FoodPoisoningChanceFactor_Desc>Множитель, применяемый к вероятности получить пищевое отравление.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
-  <!-- EN: The rate at which this condition is drains blood. -->
-  <Stat_Hediff_BleedingRate_Desc>Скорость, с которой теряется кровь из этой части тела.</Stat_Hediff_BleedingRate_Desc>
+  <!-- EN: The rate at which this condition causes blood loss. -->
+  <Stat_Hediff_BleedingRate_Desc>Скорость потери крови.</Stat_Hediff_BleedingRate_Desc>
   <!-- EN: The amount of pain caused by this condition. -->
   <Stat_Hediff_Pain_Desc>Количество причиняемой боли.</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
