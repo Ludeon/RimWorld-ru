@@ -8,17 +8,16 @@
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
     <li>healthInfo-></li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==false,lodgersCount==1,priority=1)->\n\n[lodgersLabelSingOrPluralDef] is in a coma and must be kept in bed.</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==false,lodgersCount>=2,priority=1)->\n\n[lodgersLabelSingOrPluralDef] are comatose and need to be kept in bed.</li>
-    <li>healthInfo(lodgersHaveBloodRot==true,lodgersAreComatose==false,lodgersCount==1,priority=1)->\n\n[lodgersLabelSingOrPluralDef] is sick with blood rot.</li>
-    <li>healthInfo(lodgersHaveBloodRot==true,lodgersAreComatose==false,lodgersCount>=2,priority=1)->\n\n[lodgersLabelSingOrPluralDef] are sick with blood rot.</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->\n\n[lodgersLabelSingOrPluralDef] is in a coma and must be kept in bed. [lodgersLabelSingOrPluralDef] is also sick with blood rot.</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->\n\n[lodgersLabelSingOrPluralDef] are comatose and need to be kept in bed. They are also sick with blood rot.</li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] suffering from paralytic abasia and must be kept in bed.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] sick with blood rot and will require daily treatment. The disease can be slowed with high-quality care and medicine, but generally cannot be cured outright. If the disease becomes severe [lodgersLabelSingOrPluralDef] will die, so ensure you have the necessary medical supplies.</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nyou must keep [lodgersLabelSingOrPluralDef]'s mood above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nyou must keep the mood of [lodgersLabelSingOrPluralDef] above [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
     <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] will not do any work.</li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be a raid of roughly this size:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->there will be a raid of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
@@ -28,8 +27,6 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->two mech clusters will deploy nearby.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->a mech cluster of [threatSize]x size will deploy nearby.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->two mech clusters of [threatSize]x size will deploy nearby.</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef].</li>
-    <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural].</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
@@ -44,6 +41,8 @@
     <li>lodgersHasHave(lodgersCount>=2)->have</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->them</li>
+    <li>areIs(lodgersCount==1)->is</li>
+    <li>areIs(lodgersCount>=2)->are</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave. </li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->You have failed the quest '[resolvedQuestName]'.</li>
@@ -76,16 +75,18 @@
     <li>lodgers_sick(lodgersCount>=2)->больны</li>
     <li>lodgers_will(lodgersCount==1)->будет</li>
     <li>lodgers_will(lodgersCount>=2)->будут</li>
+    <li>lodgers_suffer(lodgersCount==1)->страдает</li>
+    <li>lodgers_suffer(lodgersCount>=2)->страдают</li>
     <li>healthInfo-></li>
-    <!-- Для РУ используем общие фразы, а не по две по количеству прибывших.-->
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==false,priority=1)->\n\n[lodgersLabelSingOrPlural] в коме и [lodgers_should] находиться в кровати.</li>
-    <li>healthInfo(lodgersHaveBloodRot==true,lodgersAreComatose==false,priority=1)->\n\n[lodgersLabelSingOrPlural] [lodgers_sick] гнилокровием.</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,priority=1)->\n\n[lodgersLabelSingOrPlural] в коме и [lodgers_should] находиться в кровати. А также [lodgers_pronoun] [lodgers_sick] гнилокровием.</li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPlural] [lodgers_suffer] от паралитической абазии и [lodgers_should] находиться в кровати.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPlural] [lodgers_sick] гнилокровием и [lodgers_will] нуждаться в ежедневном лечении. Хороший уход и качественные лекарства помогут замедлить болезнь, но её невозможно вылечить сразу. Гнилокровие в запущенной стадии приводит к смерти. Убедитесь, что у вас есть запас необходимых медикаментов.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nвы должны поддерживать настроение [lodgersLabelSingOrPlural_gen2] выше [lodgersMoodThreshold_percent].</li>
-    <li>workInfo-></li>
     <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPlural] не [lodgers_will] работать.</li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->на вас совершат налёт примерно в следующем составе:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->на вас совершат налёт силой х[threatSize] примерно в следующем составе:\n\n[threatExample]</li>
@@ -96,7 +97,6 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->неподалёку десантируется кластер механоидов размера x[threatSize].</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->неподалёку десантируются два кластера механоидов размера x[threatSize].</li>
     <li>enemyGroupsParagraph->Налёты будут происходить примерно раз в [threatsIntervalTicks_duration]. В их составе будут:\n\n[threatExample]</li>
-    <li>shuttleWillComeParagraph->Через [shuttleDelayTicks_duration] прибудет челнок, чтобы забрать [lodgersLabelSingOrPlural_gen].</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] недавно [lodgers0_mechViolation], и преследуется роем механоидов, базирующимся на орбите.</li>
     <li>threatsInfoMechClustersMultiPrisoners->Эти заключённые недавно [mechViolation_plural], и преследуются роем механоидов, базирующимся на орбите.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] недавно [lodgers0_mechViolation], и преследуется роем механоидов.</li>
