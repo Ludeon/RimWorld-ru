@@ -1,20 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: psychic entropy gain -->
-  <PsychicEntropyGain.label>множитель психоэнтропии</PsychicEntropyGain.label>
-  <!-- EN: A multiplier on psychic entropy gained from any source. -->
-  <PsychicEntropyGain.description>Множитель к психической энтропии, получаемой любым способом.</PsychicEntropyGain.description>
+  <!-- EN: meditation focus gain -->
+  <MeditationFocusGain.label>эффективность медитации</MeditationFocusGain.label>
+  <!-- EN: The psyfocus amount this person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>Величина пси-концентрации, которую этот персонаж восстанавливает за день медитации, без учёта бонуса от объектов концентрации.</MeditationFocusGain.description>
+  <!-- EN: {0}/d -->
+  <MeditationFocusGain.formatString>{0}/д</MeditationFocusGain.formatString>
   
-  <!-- EN: psychic entropy limit -->
-  <PsychicEntropyMax.label>порог психоэнтропии</PsychicEntropyMax.label>
-  <!-- EN: The maximum amount of psychic entropy individual can tolerate safely. -->
-  <PsychicEntropyMax.description>Максимальный уровень психической энтропии, который этот персонаж способен вынести.</PsychicEntropyMax.description>
+  <!-- EN: neural heat gain -->
+  <PsychicEntropyGain.label>множитель нейроперегрева</PsychicEntropyGain.label>
+  <!-- EN: A multiplier on neural heat gained from any source. -->
+  <PsychicEntropyGain.description>Множитель к нейроперегреву, получаемому любым способом.</PsychicEntropyGain.description>
   
-  <!-- EN: psychic entropy recovery rate -->
-  <PsychicEntropyRecoveryRate.label>скорость снижения психоэнтропии</PsychicEntropyRecoveryRate.label>
-  <!-- EN: The rate at which this person reduces psychic entropy. -->
-  <PsychicEntropyRecoveryRate.description>Скорость, с которой этот персонаж рассеивает свою психическую энтропию.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>порог нейроперегрева</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>Максимальный уровень нейроперегрева, который этот персонаж способен вынести.</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>скорость снижения нейроперегрева</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>Скорость, с которой этот персонаж понижает свой уровень нейроперегрева.</PsychicEntropyRecoveryRate.description>
   <!-- EN: {0}/s -->
   <PsychicEntropyRecoveryRate.formatString>{0}/с</PsychicEntropyRecoveryRate.formatString>
   
