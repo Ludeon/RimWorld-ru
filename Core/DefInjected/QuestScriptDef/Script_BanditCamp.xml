@@ -8,20 +8,36 @@
     <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], передаёт нам сообщение.\n\nПо всей видимости, [siteFaction_pawnsPlural] из фракции [siteFaction_name] устроили неподалёку лагерь и грабят их караваны.\n\n[asker_nameDef] просит стереть лагерь с лица земли: ликвидировать всех противников и уничтожить их турели. [asker_label] говорит, что [sitePart0_description].</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->[asker_nameDef]'s Camp Bounty</li>
-    <li>questName->Camp of [enemyFaction_pawnsPlural]</li>
-    <li>questName->The Bandit Camp</li>
-    <li>questName->The Raider Camp</li>
-    <li>questName->Destroy the Camp</li>
-    <li>questName->Helping [asker_nameDef]</li>
+    <li>questName->The [bandit] [camp]</li>
+    <li>questName->[bandit] [camp]</li>
+    <li>questName->[asker_nameDef] and the [camp]</li>
+    <li>camp->Camp</li>
+    <li>camp->Outpost</li>
+    <li>camp->Lair</li>
+    <li>camp->Encampment</li>
+    <li>bandit->Bandit</li>
+    <li>bandit->Raider</li>
+    <li>bandit->Outlaw</li>
+    <li>bandit->Desperado</li>
+    <li>bandit->Fugitive</li>
+    <li>bandit->Marauder</li>
+    <li>bandit->Robber</li>
+    <li>bandit->Brigand</li>
   -->
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
-    <li>questName->награда от [asker_nameDef]</li>
-    <li>questName->[enemyFaction_pawnsPlural] Грабители</li>
-    <li>questName->лагерь бандитов</li>
-    <li>questName->лагерь налётчиков</li>
-    <li>questName->уничтожение лагеря</li>
-    <li>questName->помощь [asker_nameDef]</li>
+    <li>questName->[camp] [of_bandits]</li>
+    <li>questName->[asker_nameDef] и [camp] [of_bandits]</li>
+    <li>camp->логово</li>
+    <li>camp->лагерь</li>
+    <li>camp->аванпост</li>
+    <li>camp->убежище</li>
+    <li>camp->стоянка</li>
+    <li>of_bandits->бандитов</li>
+    <li>of_bandits->налётчиков</li>
+    <li>of_bandits->мародёров</li>
+    <li>of_bandits->грабителей</li>
+    <li>of_bandits->разбойников</li>
+    <li>of_bandits->пиратов</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>Время задания истекло: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>
@@ -29,8 +45,8 @@
   <OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>Бандиты свернули лагерь и отправились в другое место. Время, отведённое для задания [resolvedQuestName], истекло.</OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>Задание провалено: «[resolvedQuestName]»</OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>
-  <!-- EN: The bandit camp has packed up and moved on. -->
-  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>Бандиты свернули лагерь и отправились в другое место.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
+  <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
+  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>Поняв, что их местонахождение известно, бандиты свернули лагерь и отправились в другое место. Задание «[resolvedQuestName]» окончено.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
   <!-- EN: Payment arrived -->
   <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>Оплата прибыла</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
   <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
