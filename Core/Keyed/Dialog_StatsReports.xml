@@ -287,4 +287,40 @@
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
   <Stat_Thing_Biocoded_Desc>Это предмет закодирован работать только при считывании биометрических данных, совпадающих с данными изначального владельца.</Stat_Thing_Biocoded_Desc>
 
+  <!-- Drugs -->
+  <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
+  <Stat_Thing_Drug_Chemical_Desc>Действующее вещество.\n\nВ некоторых случаях, одно и то же действующее вещество может содержаться в разных наркотиках. Они будут по-разному удовлетворять одну и ту же зависимость.</Stat_Thing_Drug_Chemical_Desc>
+  <!-- EN: The intensity of high gained per dose of this drug. -->
+  <Stat_Thing_Drug_HighGainPerDose_Desc>Сила кайфа от единичной дозы этого наркотика</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <!-- EN: How much this drug's high will decay each day. -->
+  <Stat_Thing_Drug_HighFallPerDay_Desc>Как быстро будет спадать кайф от этого наркотика.</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>Как долго будет длиться кайф от единичной дозы этого наркотика.\n\nДанный показатель рассчитывается из силы кайфа от одной дозы и скорости его рассеивания.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>Как сильно будет увеличиваться толерантность к веществу после каждой употреблённой дозы этого наркотика.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>Как сильно будет уменьшаться толерантность к этому веществу ежедневно.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>Минимально необходимый уровень толерантности для возникновения зависимости к данному наркотику.\n\nЕсли уровень толерантности меньше указанного, возникновение зависимости невозможно.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Возникновение зависимости невозможно, если употреблять наркотик реже, чем указанно.\n\nДанный показатель рассчитывается из минимального уровня толерантности для привыкания, прироста толерантности от каждой употреблённой дозы наркотика и скорости её падения.\n\nУчтите, что для некоторых наркотиков отсутствуют безопасные интервалы приёма. От них зависимость может возникнуть даже после первой употреблённой дозы.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
+  <Stat_Thing_Drug_RandomODChance_Desc>Шанс случайной передозировки при употреблении данного наркотика. Случайная передозировка может случится в любой момент, будь это первая доза у новичка, или сотая у опытного наркомана.</Stat_Thing_Drug_RandomODChance_Desc>
+  <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
+  <Stat_Thing_Drug_Addictiveness_Desc>Шанс возникновения зависимости от каждой принятой дозы этого наркотика.\n\nЕсли у наркотика присутствует минимально необходимый уровень толерантности для формирования зависимости, толерантность должна быть выше этого уровня, чтобы указанный показатель был актуален. Если минимальный уровень толерантности отсутствует, любая доза этого наркотика может вызвать зависимость.</Stat_Thing_Drug_Addictiveness_Desc>
+  <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Зависимость, вызванная этим наркотиком, начинается на этом уровне.\n\nДальнейшее употребление наркотика усилит зависимость, в то время как воздержание от его употребления — уменьшит.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Сколько времени требуется, чтобы лишиться зависимости от данного наркотика.\n\nДанный показатель рассчитываться из соотношения начальной степени зависимости и скорости восстановления от зависимости. </Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
+  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>Насколько усиливается текущая зависимость от каждой принятой дозы наркотика.\n\Тяжесть зависимости не может подняться выше 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
+  <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
+  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>Как часто зависимому от этого наркотика нужно принимать новую дозу, чтобы избежать ломки.\n\nЭтот показатель рассчитывается из скорости возникновения потребности в новой дозе вещества и показателя степени удовлетворения этой потребности от каждой принятой дозы.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+  <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>Насколько каждая принятая доза этого наркотика удовлетворяет потребность в веществе.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <!-- EN: How quickly an addict's need for the chemical will fall. -->
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Как быстро возникает потребность в новой дозе вещества.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
+  <Stat_Thing_Drug_AddictionCost_Desc>Рыночная стоимость наркотиков, которые должны употребляться ежедневно, во избежание развития ломки из-за прекращения употребления вещества.\n\nДанное значение рассчитывается из показателя степени удовлетворения потребности в веществе от каждой принятой дозы, скорости возникновения потребности в новой дозе и рыночной стоимости наркотика.\n\nУчтите, что могут существовать другие способы удовлетворения потребности в одном и том же веществе, но с другими расценками.</Stat_Thing_Drug_AddictionCost_Desc>
+
 </LanguageData>

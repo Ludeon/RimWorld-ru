@@ -402,8 +402,46 @@
   <TimeRecordsCategory>Время</TimeRecordsCategory>
   <!-- EN: Misc -->
   <MiscRecordsCategory>Прочее</MiscRecordsCategory>
-  <!-- EN: Addictiveness -->
+  <!-- EN: Chemical -->
+  <Chemical>Вещество</Chemical>
+  <!-- EN: High gain per dose -->
+  <HighGain>Кайф от дозы</HighGain>
+  <!-- EN: High fall rate -->
+  <HighFallRate>Скорость рассеивания кайфа</HighFallRate>
+  <!-- EN: High duration per dose -->
+  <HighDuration>Продолдительность кайфа</HighDuration>
+  <!-- EN: Tolerance gain per dose -->
+  <ToleranceGain>Толерантности от дозы</ToleranceGain>
+  <!-- EN: Tolerance fall rate -->
+  <ToleranceFallRate>Скорость падения толерантности</ToleranceFallRate>
+  <!-- EN: New addiction min tolerance -->
+  <MinimumToleranceForAddiction>Мин. толерантсноти для зависисости</MinimumToleranceForAddiction>
+  <!-- EN: Safe dose interval -->
+  <SafeDoseInterval>Безопасный интервал</SafeDoseInterval>
+  <!-- EN: New addiction chance -->
   <Addictiveness>Степень вызывания привыкания</Addictiveness>
+  <!-- EN: Addiction initial severity -->
+  <AddictionSeverityInitial>Начальная тяжесть зависимсоти</AddictionSeverityInitial>
+  <!-- EN: Addiction severity per dose -->
+  <AddictionSeverityPerDose>Увеличение зависимости от дозы</AddictionSeverityPerDose>
+  <!-- EN: Addiction need fill per dose -->
+  <AddictionNeedOffset>Удовлетворение зависимсоти от дозы</AddictionNeedOffset>
+  <!-- EN: Addiction need fall rate -->
+  <AddictionNeedFallRate>Скорость возникновени</AddictionNeedFallRate>
+  <!-- EN: Addiction need dose interval -->
+  <AddictionNeedDoseInterval>Скорость возникновения новой потребности</AddictionNeedDoseInterval>
+  <!-- EN: Addiction recovery time -->
+  <AddictionRecoveryTime>Время восстановления от зависимости</AddictionRecoveryTime>
+  <!-- EN: Addiction cost -->
+  <AddictionCost>Стоимость зависимости</AddictionCost>
+  <!-- EN: Random overdose chance -->
+  <RandomODChance>Шанс случайной передозировки</RandomODChance>
+  <!-- EN: Always safe -->
+  <AlwaysSafe>Всегда безопасно</AlwaysSafe>
+  <!-- EN: Never safe -->
+  <NeverSafe>Никогда не безопасно</NeverSafe>
+  <!-- EN: {0} / day -->
+  <PerDay>{0} в день</PerDay>
   <!-- EN: Pack animal -->
   <PackAnimal>Вьючное животное</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -474,6 +512,8 @@
   <MeditationFocusesDesc>Виды медитации, которые может предоставить данный предмет. Медитирующий персонаж может концентрироваться на этом объекте, чтобы улучшить свою пси-концентрацию, но только при возможности использовать один из доступных видов медитации. Доступные для персонажа виды медитации определяются биографией, характером, социальным статусом и так далее.</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
   <MeditationFocusCanUse>Может использовать тип концентрации {0}, потому что</MeditationFocusCanUse>
+  <!-- EN: {0} focus objects -->
+  <MeditationFocusObjects>{0} объекты для концентрации</MeditationFocusObjects>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
   <MeditationFocusEnabledByTitle>обладает титулом: {TITLE} в ({FACTION_name}).</MeditationFocusEnabledByTitle>
   <!-- EN: has childhood -->
@@ -640,8 +680,8 @@
   <AnimalCanGrazeTip>Это животное может пастись, питаясь подножным кормом, вместо того, чтобы поедать ваши припасы. Однако это возможно только в некоторых биомах при определённых температурных условиях.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>Количество добываемой в день еды. Конечное значение зависит от биома.\n\n{0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
-  <NutritionEatenPerDayTip>Количество потребляемой в день еды. Для справки: простое блюдо эквивалентно {0} ед. питательности.\n\nМожет есть: {2}\n\nЛегенда:\n{1}</NutritionEatenPerDayTip>
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
+  <NutritionEatenPerDayTip>Количество потребляемой в день еды. Для справки: простое блюдо эквивалентно {0} ед. питательности.
   <!-- EN: Can eat -->
   <CanEat>Может есть</CanEat>
   <!-- EN: Legend -->
@@ -938,7 +978,7 @@
   <!-- Abilities -->
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Требуется прямая видимость</AbilityRequiresLOS>
-  <!-- EN: Entropy gain  -->
+  <!-- EN: Neural heat gain -->
   <AbilityEntropyGain>Прирост психоэнтропии</AbilityEntropyGain>
   <!-- EN: Psyfocus cost -->
   <AbilityPsyfocusCost>Стоимость пси-концентрации</AbilityPsyfocusCost>
