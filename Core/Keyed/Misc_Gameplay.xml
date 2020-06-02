@@ -432,6 +432,8 @@
   <SpawningNextPawnIn>Расплодится через {0}</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1}. -->
   <MechAssemblyCompleteIn>Сборка {0} завершится через {1}.</MechAssemblyCompleteIn>
+  <!-- EN: Will assemble -->
+  <MechAssemblyNextType>Соберёт</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>произведено</ThingsProduced>
   <!-- EN: harvested -->
@@ -452,9 +454,11 @@
   <InitiatesIn>Начинается через</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>Активируется через {0}</SendSignalOnCountdownCompTime>
-  <!-- EN: Psychic entropy -->
-  <PsychicEntropy>Психоэнтропия</PsychicEntropy>
-  <!-- EN: {0} pain focus -->
+  <!-- EN: Neural heat -->
+  <PsychicEntropy>Нейроперегрев</PsychicEntropy>
+  <!-- EN: Heat -->
+  <PsychicEntropyShort>Нейроперегрев</PsychicEntropyShort>
+  <!-- EN: {0} pain boost -->
   <PsychicEntropyPainFocus>{0} болевой концентрации</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>радиус {0}</ConditionCauserRadius>
@@ -1232,14 +1236,16 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
-  <PawnTooltipPsychicEntropy>Психическая энтропия: {0}/{1}\nСкорость падения: {2}/{3} с({4} с до нуля)\n\nПсихоэнтропия возрастает после применения пси-воздействий.\nПревышение безопасного предела может привести к долговременным проблемам со здоровьем.\nПадение психоэнтропии до нуля вызывает психическое похмелье.</PawnTooltipPsychicEntropy>
-  <!-- EN: Psychic entropy increases after performing a psycast. Going over the normal limit can lead to psychic breakdown lasting days.\n\nAside from entropy, some psycasts cost psyfocus to perform. Psyfocus is gained through meditation or drugs. -->
-  <PawnTooltipPsychicEntropyDesc>Психоэнтропия возрастает после применения пси-воздействий. Превышение безопасного предела может привести к пси-срывам, длящимся по несколько дней.\n\nКроме психоэнтропии, некотрые способности расходуют пси-концентрацию при использовании. Пси-концентрацию можно повысить при помощи медитации или наркотиков.</PawnTooltipPsychicEntropyDesc>
-  <!-- EN: Pain focuses the mind and speeds up psychic entropy recovery.\n\nPain level: {0}\nBonus to entropy recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>Боль помогает концентрации разума и быстрее рассеивает психическую энтропию.\n\nУровень боли: {0}\nБонус к рассеиванию психоэнтропии: {1}</PawnTooltipPsychicEntropyPainFocus>
-  <!-- EN: Toggle psychic entropy limiter. Exceeding your entropy limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
-  <PawnTooltipPsychicEntropyLimit>Переключить ограничитель психоэнтропии. Превышение безопасного предела может привести к пси-срыву, длящемуся несколько дней. Необратимого вреда нанесено не будет.</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>Нейроперегрев: {0} / {1}\nСкорость падения: {2} / с ({3} с до нуля)</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <PawnTooltipPsychicEntropyDesc>Нейроперегрев возрастает после применения пси-воздействий. Превышение безопасного предела может вызвать пси-срыв, длящийся несколько дней.\n\nНейроперегрев со временем рассеивается. Процесс можно ускорить нося одежду из эльтекса или испытывая боль.</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
+  <PawnTooltipPsychicEntropyPainFocus>Боль помогает концентрации разума и быстрее рассеивает нейроперегрев.\n\nУровень боли: {0}\nБонус к рассеиванию нейроперегрева: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
+  <PawnTooltipPsychicEntropyLimit>Переключить ограничитель нейроперегрева. Превышение безопасного предела может привести к пси-срыву, длящемуся несколько дней. Необратимого вреда нанесено не будет.</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Psyfocus: {0} -->
+  <PawnTooltipPsyfocus>Пси-концентрация: {0}</PawnTooltipPsyfocus>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
@@ -1264,6 +1270,10 @@
   <Reward_PassageOffworld>вы отправитесь к звёздам</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
   <Reward_PassageOffworld_Label>Отправление в космос</Reward_PassageOffworld_Label>
+  <!-- EN: you can loot everything from the camp -->
+  <Reward_CampLoot>вы можете полностью разграбить лагерь</Reward_CampLoot>
+  <!-- EN: Camp loot -->
+  <Reward_CampLoot_Label>Добыча в лагере</Reward_CampLoot_Label>
   <!-- EN: value {0} -->
   <TotalValue>значение {0}</TotalValue>
   

@@ -228,8 +228,10 @@
   <QuestExpiresIn>Срок истекает через {0}</QuestExpiresIn>
   <!-- EN: Expires on {0} -->
   <QuestExpiresOn>Срок истекает {0}</QuestExpiresOn>
-  <!-- EN: Average guest mood: {0} -->
-  <QuestAveragePawnMood>Среднее наcтроение гостя: {0}</QuestAveragePawnMood>
+  <!-- EN: Average guest mood (previous {0}): {1} -->
+  <QuestAveragePawnMood>Среднее наcтроение гостя: (до этого {0}): {1})</QuestAveragePawnMood>
+  <!-- EN: The average mood of {0} over the previous {1} -->
+  <QuestAveragePawnMoodTargets>Среднее настроение {0} по сравнению с {1}</QuestAveragePawnMoodTargets>
   <!-- EN: Shuttle arrives in {0} -->
   <ShuttleArrivesIn>Челнок прибывает через {0}</ShuttleArrivesIn>
   <!-- EN: Shuttle arrives on {0} -->
@@ -254,6 +256,8 @@
   <QuestOutcomeInfo_UnknownOrSuccess>Вы выполнили это задание.</QuestOutcomeInfo_UnknownOrSuccess>
   <!-- EN: You failed this quest. -->
   <QuestOutcomeInfo_Failed>Вы провалили это задание.</QuestOutcomeInfo_Failed>
+  <!-- EN: This quest became invalid before it was accepted. -->
+  <QuestOutcomeInfo_Invalid>Задание потеряло актуальность до того, как было принято.</QuestOutcomeInfo_Invalid>
   <!-- EN: Jump to {0} -->
   <JumpToTargetCustom>Перейти к {0}</JumpToTargetCustom>
   <!-- EN: Select hives -->
@@ -288,5 +292,9 @@
   <GoodwillTip>Ваша репутация у фракции {0_name} улучшится {1}.\n\nТекущая репутация: {4} ({5}).\n\nРепутация отображает отношения между вами и другими фракциями. Если она упадёт ниже {2}, фракция станет враждебной по отношению к вам и будет нападать на ваше поселение и караваны. Если репутация поднимется выше {3}, фракция станет вашим союзником и будет отправлять военную помощь по мере возможности. В противном случае, фракция останется нейтральной по отношению к вам и будет открыта к торговле и переговорам.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} присоединяется к вам</PawnQuestReward>
+  
+  <!-- Health tab -->
+  <!-- EN: Creates need -->
+  <CreatesNeed>Создаёт нужду</CreatesNeed>
 
 </LanguageData>
