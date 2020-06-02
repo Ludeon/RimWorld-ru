@@ -28,8 +28,6 @@
   <PsycastNeurotrainerDescription>Сыворотка с дозой механитов, запрограммированных на обучение конкретному виду пси-воздействия.\n\nСыворотка вводится через глазное яблоко. После того, как механиты попадают в мозг пациента, они наделяют его определённой пси-способностью, при необходимости преобразуя себя в нервную ткань.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
   <AbilityNeurotrainerUsed>{USER_labelShort} {USER_gender ? использовал : использовала} нейротренер и {USER_gender ? изучил : изучила} пси-воздействие {1}.</AbilityNeurotrainerUsed>
-  <!-- EN: {USER_labelShort} has reached level {1} psylink and has automatically learned this psycast: {2}. -->
-  <PsycastLearnedFromImplant>{USER_labelShort} {USER_gender ? достиг : достигла} {1} уровня пси-связи и автоматически {USER_gender ? получил : получила} пси-способность: {2}.</PsycastLearnedFromImplant>
   <!-- EN: Requires psylink -->
   <PsycastNeurotrainerNoPsylink>Необходима пси-связь</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
@@ -51,6 +49,11 @@
   <TooCloseToOtherBeacon>Слишком близко к другому маяку</TooCloseToOtherBeacon>
   
   <!-- Meditation -->
+
+  <!-- EN: Psyfocus -->
+  <Psyfocus>Пси-концентрация</Psyfocus>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
+  <PsyfocusDesc>Пси-концентрация — это особый вид организации сознания, необходимый для применения пси-воздействий. Пси-концентрация рассеивается со временем и должа восполняться регулярной медитацией. Потеря всей пси-концентрации сделает невозможным использование любых пси-воздействий.\n\nНа высоких уровнях пси-концентрации становится возможным использование высокоуровевых пси-воздействий, но при этом ускоряется её рассеивание.</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} psycasts. -->
@@ -61,6 +64,8 @@
   <UserMeditationFocusStrength>Степень концентрации {LASTUSER_labelShort} во время медитации</UserMeditationFocusStrength>
   <!-- EN: Focus effect impacted by -->
   <MeditationFocusImpacted>На концентрацию влияет</MeditationFocusImpacted>
+  <!-- EN: Psyfocus gain rate: {0}/d -->
+  <PsyfocusPerDayOfMeditation>Прирост пси-концентрации: {0}/д</PsyfocusPerDayOfMeditation>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -69,8 +74,8 @@
   <AbilityOnCooldown>способность в процессе восстановления. Её можно будет применить через {0}.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>способность уже добавлена в очередь.</AbilityAlreadyQueued>
-  <!-- EN: no entropy to dump. -->
-  <AbilityNoEntropyToDump>нет энтропии для сброса</AbilityNoEntropyToDump>
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>нет нейроперегрева для сброса</AbilityNoEntropyToDump>
   <!-- EN: Ability ready: {0} -->
   <AbilityReadyLabel>Способность готова к применению: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
@@ -99,7 +104,13 @@
   <BeginLinkingRitualFloatMenu>Начать ритуал связывания</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
   <BeginLinkingRitualNeedSubplants>Необходимо {0} {1} здесь (в наличии {2})</BeginLinkingRitualNeedSubplants>
-  <!-- EN: Need psylink -->
-  <BeginLinkingRitualNeedPsylink>Нужна пси-связь</BeginLinkingRitualNeedPsylink>
+  <!-- EN: Need {0} pyslink focus -->
+  <BeginLinkingRitualNeedFocus>Необходимо {0} пси-концентрации для проведения ритуала</BeginLinkingRitualNeedFocus>
+  <!-- EN: Need a free, reachable spot within 3 cells for linking -->
+  <BeginLinkingRitualNeedLinkSpot>Необходимо свободное досягаемое место в радиусе 3-х клеток для проведения ритуала</BeginLinkingRitualNeedLinkSpot>
+  <!-- EN: Linking ritual completed -->
+  <LetterLabelLinkingRitualCompleted>Ритуал связывания завершён</LetterLabelLinkingRitualCompleted>
+  <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psycasts. -->
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} {PAWN_gender ? завершил : завершила} ритуал связывания с {LINKABLE_labelShort}.\n\n{PAWN_pronoun} {PAWN_gender ? улучшил : улучшила} свою пси-связь, что теперь позволяет {PAWN_objective} использовать новые пси-воздействия.</LetterTextLinkingRitualCompleted>
 
 </LanguageData>

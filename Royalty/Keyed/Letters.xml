@@ -132,6 +132,16 @@
   
   <!-- Lent colonist died -->
   <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
-  <LentColonistDied>{PAWN_nameDef} {PAWN_gender ? был : был} временно {PAWN_gender ? передан : передана} фракции {FACTION}. Вскоре они вернут вам {PAWN_possessive} тело.</LentColonistDied>
+  <LentColonistDied>{PAWN_nameDef} {PAWN_gender ? был : был} временно {PAWN_gender ? передан : передана} фракции {FACTION}. Вскоре они вернут вам {PAWN_possessive} тело.</LentColonistDied>  
+
+  <!-- Psylink -->
+  <!-- EN: Psylink gained -->
+  <LetterLabelPsylinkLevelGained>Получена пси-связь</LetterLabelPsylinkLevelGained>
+  <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psycasts, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
+  <LetterPsylinkLevelGained_First> {USER_gender ? получил : получила} свой первый уровень пси связи! {USER_pronoun} становится псиоником.\n\nЧтобы использовать пси-воздействия, {USER_labelShort} {USER_gender ? должен : должна} накапливать пси-концентрацию с помощью медитации. Эффективность медитации может повыситься, если использовать для неё определённый объект.\n\nКаждому персонажу требуются определённые объекты для медитации, в зависисимости от её доступных видов. Они определяются прошлым персонажа, его чертами характера и наличием знатного титула. Например\n\n- Знатные псионики могут медитировать, восседая на троне.\n- Выходцы из племён могут медитировать с помощью древ души и камней духа.\n- Аскетичные псионики могут медитировать в окружении голых стен.\n- Псионики-психопаты могут медитировать, находясь рядом с могилой. Ещё лучше, если с близким человеком внутри.\n\nЧтобы увидеть доступные персонажу виды медитации, откройте окно с подробной информацией о нём. Для этого, выберите персонажа и нажмите кнопку «i».. </LetterPsylinkLevelGained_First>
+  <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psycasts of that higher level, but {USER_pronoun} needs to learn them first. -->
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} {USER_gender ? получил : получила} новый уровень пси-связи! {USER_pronoun} теперь может использовать пси-воздействия более высокого уровня, однако {USER_objective} необходимо их сначала изучить.</LetterPsylinkLevelGained_NotFirst>
+  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned this psycast: {2}. -->
+  <LetterPsylinkLevelGained_PsycastLearned>Получив новый уровень пси-связи, {USER_labelShort} автоматически {USER_gender ? изучил : изучила} это пси-воздействие: {2}.</LetterPsylinkLevelGained_PsycastLearned>
 
 </LanguageData>
