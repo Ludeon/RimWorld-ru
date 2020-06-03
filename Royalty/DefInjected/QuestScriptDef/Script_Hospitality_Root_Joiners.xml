@@ -12,6 +12,9 @@
     <li>lodgersLabel_gen(lodgers0_gender==Male)->гостя</li>
     <li>lodgersLabel_gen(lodgers0_gender==Female)->гостьи</li>
     <li>lodgersLabelPlural_gen->гостей</li>
+    <li>lodgersLabel_acc(lodgers0_gender==Male)->гостя</li>
+    <li>lodgersLabel_acc(lodgers0_gender==Female)->гостью</li>
+    <li>lodgersLabelPlural_acc->гостей</li>
   </Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
@@ -22,9 +25,13 @@
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</li>
     <li>theirHisHer(lodgersCount>=2)->their</li>
-    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] quality accommodation. You will gain goodwill with [asker_faction_name] if you keep [theirHisHer] average mood above 50%.</li>
+    <li>lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(lodgersCount>=2)->they</li>
+    <li>lodgersWasWere(lodgersCount==1)->was</li>
+    <li>lodgersWasWere(lodgersCount>=2)->were</li>
     <li>appreciateAppreciates(lodgersCount==1)->appreciates</li>
     <li>appreciateAppreciates(lodgersCount>=2)->appreciate</li>
+    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] quality accommodation. You will gain goodwill with [asker_faction_name] if you keep [theirHisHer] average mood above 50%.</li>
     <li>goodwillForMood-></li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->A [lodgers0_title] named [lodgers0_nameFull] wants you to protect [lodgers0_objective] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]\n\n[joinerEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] was recently caught [wrongAct]. Seeking revenge, [enemyFaction_pawnsPlural] will come for [lodgers0_objective] as long as [lodgers0_pronoun] is with you. [enemyGroupsParagraph]</li>
@@ -74,6 +81,10 @@
     <li>joinerEnding->Вы сможете управлять [lodgersDef] так же, как и своими поселенцами.[specialNeedsExplanation]</li>
     <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> Вы должны будете удовлетворять все возможные особенные потребности ваших знатных гостей.</li>
     <li>specialNeedsExplanation-></li>
+    <li>lodgers_is_willing(lodgersCount==1)->желает</li>
+    <li>lodgers_is_willing(lodgersCount>=2)->желают</li>
+    <li>lodgers_can(lodgersCount==1)->может</li>
+    <li>lodgers_can(lodgersCount>=2)->могут</li>
     <li>goodwillForMood-></li>
     <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] комфортные условия проживания. Вы улучшите отношения с фракцией [asker_faction_name], если будете поддерживать [theirHisHer] настроение в среднем выше 50%.</li>
     <li>appreciateAppreciates(lodgersCount==1)->ценит</li>
