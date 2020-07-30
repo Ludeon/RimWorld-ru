@@ -47,6 +47,7 @@
   <EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>[asker_faction_leaderTitle] [asker_arrived]</EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
   <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>[asker_faction_leaderTitle] из фракции [asker_faction_name], прибывает в ваше поселение.\n\nЗащищайте [asker_possessive] и удовлетворяйте [asker_possessive] потребности в течение [shuttleDelayTicks_duration].\n\nВсе ваши поселенцы получат возможность отправиться на челноке с знатным гостем к имперской флотилии, чтобы начать новую жизнь.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
+  <!-- EN: [asker_nameDef] -->
   <EndGame_RoyalAscent.ArrivingPawnsDefiniteLabel.value.slateRef>[asker_nameDef]</EndGame_RoyalAscent.ArrivingPawnsDefiniteLabel.value.slateRef>
   <!-- EN: Should depart on shuttle -->
   <EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>[asker_should] отбыть на челноке</EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>
@@ -73,7 +74,7 @@
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>Несанкционированная операция: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>Несанкционированная, нарушающая права операция была проведена на {SUBJECT_bestRoyalTitle}. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>
+  <EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>Несогласованное, надругательское хирургическое вмешательство было проведено на {SUBJECT_definite}, госте, которого вы должны были защищать. После такого [asker_pronoun] попытается покинуть ваше поселение. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>Гость пропал: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->
