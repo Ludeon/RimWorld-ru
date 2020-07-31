@@ -14,7 +14,7 @@
   <MessageRaidersStealing>{0} из фракции {1} решили украсть, что смогут, и уйти.</MessageRaidersStealing>
 
   <!-- EN: {0} from {1} have arrived in the area of your caravan and are attacking. More are on the way and will arrive in {2}. -->
-  <MessageCaravanDetectedRaidArrived>{0} из фракции {1} прибыли к вашему каравану и нападают. Подкрепления прибудут через {2}.</MessageCaravanDetectedRaidArrived>
+  <MessageCaravanDetectedRaidArrived>{0} из фракции {1} нападают на ваш караван. Через {2} прибудут их новые подкрепления.</MessageCaravanDetectedRaidArrived>
 
   <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>{0} из фракции {1} отступают.</MessageRaidersLeaving>
@@ -509,7 +509,7 @@
   <!-- EN: caused neuroquake echo -->
   <GoodwillChangedReason_CausedNeuroquakeEcho>вызван нейрошторм</GoodwillChangedReason_CausedNeuroquakeEcho>
   <!-- EN: caused berserk on {PAWN_labelShort} -->
-  <GoodwillChangedReason_CausedBerserk>{PAWN_labelShort{PAWN_gender ? введён : введена} в состояние берсерка</GoodwillChangedReason_CausedBerserk>
+  <GoodwillChangedReason_CausedBerserk>{PAWN_labelShort} {PAWN_gender ? введён : введена} в состояние берсерка</GoodwillChangedReason_CausedBerserk>
   <!-- EN: attacked {0_name} -->
   <GoodwillChangeReason_AttackedFaction>{0_name} {0_gender ? атакован : атакована}</GoodwillChangeReason_AttackedFaction>
   <!-- EN: shuttle destroyed -->
