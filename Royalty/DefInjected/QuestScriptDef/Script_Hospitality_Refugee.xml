@@ -68,19 +68,20 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] [arrived].</li>
     <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [arrived]. [lodgersPronoun] [willStay] у вас на [questDurationTicks_duration], чтобы набраться сил и собраться в дальнейший путь.</li>
-    <li>arrived(lodgerCount==1)->прибывает</li>
-    <li>arrived(lodgerCount>=2)->прибывают</li>
+    <li>arrived(lodgerCount==1,lodgers0_gender==Male)->прибыл</li>
+    <li>arrived(lodgerCount==1,lodgers0_gender==Female)->прибыла</li>
+    <li>arrived(lodgerCount>=2)->прибыли</li>
     <li>willStay(lodgerCount==1)->останется</li>
     <li>willStay(lodgerCount>=2)->останутся</li>
     <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? остальные, кажется : [lodgersLabel]} в ужасе, но ничего делать по этому поводу не {PAWNSALIVECOUNT_multiple ? собираются: собирается}.</li>
     <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? остальные : [lodgersLabel]} {PAWNSALIVECOUNT_multiple ? отказываются : отказывается} с этим мириться</li>
-    <li>turnedViolent->[othersWillNotAccept] и {PAWNSALIVECOUNT_multiple ? становятся : становится } вашими врагами.</li>
+    <li>turnedViolent->[othersWillNotAccept] и {PAWNSALIVECOUNT_multiple ? становятся вашими врагами : становится вашим врагом} .</li>
     <li>decidedToLeave->[othersWillNotAccept] и {PAWNSALIVECOUNT_multiple ? решают : решает } покинуть вас.</li>
-    <li>whoAskedToStay(lodgerCount==1,lodgers0_gender==Male)->который просила остаться у вас</li>
-    <li>whoAskedToStay(lodgerCount==1,lodgers0_gender==Female)->которая просила остаться у вас</li>
-    <li>whoAskedToStay(lodgerCount>=2)->которые просили остаться у вас</li>
-    <li>oneOfThe->[desperate] [lodgersLabel] из [faction_pawnsPlural], [whoAsked] остаться у вас</li>
-    <li>oneOfTheAcc->[desperateAcc] [lodgersLabelAcc] из [faction_pawnsPlural], [whoAskedAcc] остаться у вас</li>
+    <li>whoAskedToStay(lodgerCount==1,lodgers0_gender==Male)->который просил разрешения остаться у вас</li>
+    <li>whoAskedToStay(lodgerCount==1,lodgers0_gender==Female)->которая просила разрешения остаться у вас</li>
+    <li>whoAskedToStay(lodgerCount>=2)->которые просили разрешения остаться у вас</li>
+    <li>oneOfThe->[desperate] [lodgersLabel] из [faction_pawnsPlural], [whoAsked] разрешения остаться у вас</li>
+    <li>oneOfTheAcc->[desperateAcc] [lodgersLabelAcc] из [faction_pawnsPlural], [whoAskedAcc] разрешения остаться у вас</li>
     <li>whoAsked(lodgers0_gender==Male)->просивший</li>
     <li>whoAsked(lodgers0_gender==Female)->просившая</li>
     <li>whoAskedAcc(lodgers0_gender==Male)->просившего</li>
@@ -130,7 +131,7 @@
     <li>planned(lodgerCount==1,lodgers0_gender==Female)->спланировала</li>
     <li>planned(lodgerCount>=2)->спланировали</li>
     <li>betrayalOfferLetterLabel->Предложение предательства: [factionOpponent_nameDef]</li>
-    <li>betrayalOffserLetterText->[factionOpponent_nameDef], [factionOpponent_faction_pawnSingular] из фракции [factionOpponent_faction_name], [hasLearned] что [asker_nameDef] [otherLodgers] сейчас [areIs] в [map_definite]. [factionOpponent_pronoun] враждует с [asker_nameDef] и хочет, чтобы [asker_pronoun] [died].\n\n[factionOpponent_pronoun] отправит вам следующую награду, если вы убьёте всех членов фракции [faction_name] (общей ценностью [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>betrayalOfferLetterText->[factionOpponent_nameDef], [factionOpponent_faction_pawnSingular] из фракции [factionOpponent_faction_name], [hasLearned] что [asker_nameDef] [otherLodgers] сейчас [areIs] в [map_definite]. [factionOpponent_pronoun] враждует с [asker_nameDef] и хочет, чтобы [asker_pronoun] [died].\n\n[factionOpponent_pronoun] отправит вам следующую награду, если вы убьёте всех членов фракции [faction_name] (общей ценностью [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>betrayalOfferRewardLetterLabel->Награда за предательство: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] [promised] награду, если вы убьёте [asker_nameDef] [otherMembersAcc]. [factionOpponent_pronoun] [hasLearned], что это свершилось и отправляет транспортную капсулу с наградой (общей ценностью [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedLetterLabel->Награда за предательство отменена</li>
@@ -220,7 +221,7 @@
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] утверждает, что [hasLost] своего дома после недавнего нападения.</li>
     <li>claimInfo(lodgerCount>=2)->Они утверждают, что лишились дома после недавнего нападения.</li>
     <li>joinInfo(lodgerCount==1)->Если [asker_nameDef] будет [happy], находясь в поселении, [asker_pronoun] может предложить присоединиться к вам.</li>
-    <li>joinInfo(lodgerCount>=1)->Если они будут довольны, находясь в поселении, некоторые из них могут предложить присоединиться к вам.</li>
+    <li>joinInfo(lodgerCount>=2)->Если они будут довольны, находясь в поселении, кто-то из них может захотеть присоединиться к вам.</li>
     <li>travelerInfo(lodgerCount==1,lodgers0_gender==Male)->Этот [faction_pawnSingular]</li>
     <li>travelerInfo(lodgerCount==1,lodgers0_gender==Female)->Эта [faction_pawnSingular]</li>
     <li>travelerInfo(lodgerCount>=2)->Эти [faction_pawnsPlural]</li>
@@ -328,7 +329,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>  
     <li>rewardLetterLabel->Награда за гостеприимство</li>
-    <li>rewardLetterText->[lodgers0_nameDef] связывается с вами. [rewardDelayTicks_duration] назад, вы помогли [lodgers0_objective] в безвыходной ситуации.\n\nС тех пор [lodgers0_pronoun] [hasGotten] своё положение и теперь [lodgers0_pronoun] хочет вознаградить вас за помощь. [lodgers0_pronoun] отправляет вам капсулу со следующим содержимым:\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[lodgers0_nameDef] связывается с вами. [rewardDelayTicks_duration] назад вы помогли [lodgers0_objective] в безвыходной ситуации.\n\nС тех пор [lodgers0_pronoun] [hasGotten] своё положение и теперь хочет вознаградить вас за помощь. [lodgers0_pronoun] отправляет вам капсулу со следующим содержимым:\n\n[listOfRewards]</li>
     <li>hasGotten(lodgers0_gender==Male)->поправил</li>
     <li>hasGotten(lodgers0_gender==Female)->поправила</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
