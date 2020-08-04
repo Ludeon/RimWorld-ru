@@ -214,7 +214,9 @@
     <li>lodgersPossessive(lodgerCount>=2)->их</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] умоляет вас разрешить [lodgersObjective] остаться в [map_definite] на [questDurationTicks_duration], чтобы [lodgersPronoun] могли отдохнуть и собраться в дальнейший путь.\n\nВзамен, [lodgersPronoun] [offer] помогать вашим поселенцам и сражаться на вашей стороне.\n\n[joinInfo] [lodgersPronoun] так же может вознаградить вас за помощь в будущем, но никто не знает, какие у н[lodgersPossessive] истинные намерения.\n\n[travelerInfo] [notPart] к какой-либо фракции. Если вы хотите, вы можете убить, арестовать, продать в рабство или пустить [lodgersPossessive] на органы, без каких-либо дипломатических последствий.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] умоляет вас разрешить [lodgersObjective] остаться в [map_definite] на [questDurationTicks_duration], чтобы [lodgersPronoun] могли отдохнуть и собраться в дальнейший путь.\n\nВзамен, [lodgersPronoun] [offer] помогать вашим поселенцам и сражаться на вашей стороне.\n\n[joinInfo] [lodgersPronoun] так же [could] вознаградить вас за помощь в будущем, но никто не знает, какие у н[lodgersPossessive] истинные намерения.\n\n[travelerInfo] [notPart] к какой-либо фракции. Если вы хотите, вы можете убить, арестовать, продать в рабство или пустить [lodgersPossessive] на органы, без каких-либо дипломатических последствий.</li>
+    <li>could(lodgerCount==1)->может</li>
+    <li>could(lodgerCount>=2)->могут</li>
     <li>approachInfo(lodgerCount==1)->Приближается [desperate] [faction_pawnSingular] по имени [asker_nameDef].</li>
     <li>approachInfo(lodgerCount==2)->Приближаются [asker_nameDef] и [other] [desperate] [faction_pawnSingular].</li>
     <li>approachInfo(lodgerCount>=3)->Приближается [lodgerCount] отчаянных [faction_pawnsPlural]. Их предводителя зовут [asker_nameDef].</li>
@@ -231,6 +233,10 @@
     <li>happy(lodgers0_gender==Female)->довольна</li>
     <li>notPart(lodgerCount==1)->не принадлежит</li>
     <li>notPart(lodgerCount>=2)->не принадлежат</li>
+    <li>desperate(lodgers0_gender==Male)->отчаянный</li>
+    <li>desperate(lodgers0_gender==Female)->отчаянная</li>
+    <li>other(lodgers0_gender==Male)->другой</li>
+    <li>other(lodgers0_gender==Female)->другая</li>
   </Hospitality_Refugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgerCount==1)->[asker_nameDef] the [lodgerAdj]</li>
@@ -265,56 +271,58 @@
     <li>lodgerPlural->vagabonds</li>
   -->
   <Hospitality_Refugee.questNameRules.rulesStrings>
-    <li>questName(lodgerCount==1)->[lodgerAdj] [asker_nameDef]</li>
-    <li>questName(lodgerCount==1)->[lodgerAdj] [lodgerSingle]</li>
-    <li>questName(p=2,lodgerCount>=2)->[LodgerAdjPlural] [lodgerPlural]</li>
-    <li>questName(lodgerCount>=2)->[asker_nameDef] и [LodgerAdjPlural] [lodgerPlural]</li>
+    <li>questName(lodgerCount==1,asker_gender==Male)->[lodgerAdj] [asker_nameDef]</li>
+    <li>questName(lodgerCount==1,asker_gender==Female)->[lodgerAdjFem] [asker_nameDef]</li>
+    <li>questName(lodgerCount==1,asker_gender==Male)->[lodgerAdj] [lodgerSingle]</li>
+    <li>questName(lodgerCount==1,asker_gender==Female)->[lodgerAdjFem] [lodgerSingleFem]</li>
+    <li>questName(p=2,lodgerCount>=2)->[lodgerAdjPlural] [lodgerPlural]</li>
+    <li>questName(lodgerCount>=2)->[asker_nameDef] и [lodgerAdjPlural] [lodgerPlural]</li>
     <li>questName(lodgerCount>=2)->[asker_nameDef] и [lodgerPlural]</li>
-    <li>LodgerAdj(asker_gender==Male)->уставший</li>
-    <li>LodgerAdj(asker_gender==Male)->потерянный</li>
-    <li>LodgerAdj(asker_gender==Male)->несчастный</li>
-    <li>LodgerAdj(asker_gender==Male)->бедный</li>
-    <li>LodgerAdj(asker_gender==Male)->отчаянный</li>
-    <li>LodgerAdj(asker_gender==Male)->печальный</li>
-    <li>LodgerAdj(asker_gender==Male)->потрёпанный</li>
-    <li>LodgerAdj(asker_gender==Male)->отчаявшийся</li>
-    <li>LodgerAdj(asker_gender==Male)->неизвестный</li>
-    <li>LodgerAdj(asker_gender==Male)->одинокий</li>
-    <li>LodgerAdj(asker_gender==Male)->забытый</li>
-    <li>LodgerAdj(asker_gender==Female)->уставшая</li>
-    <li>LodgerAdj(asker_gender==Female)->потерянная</li>
-    <li>LodgerAdj(asker_gender==Female)->несчастная</li>
-    <li>LodgerAdj(asker_gender==Female)->бедная</li>
-    <li>LodgerAdj(asker_gender==Female)->отчаянная</li>
-    <li>LodgerAdj(asker_gender==Female)->печальная</li>
-    <li>LodgerAdj(asker_gender==Female)->потрёпанная</li>
-    <li>LodgerAdj(asker_gender==Female)->безнадёжная</li>
-    <li>LodgerAdj(asker_gender==Female)->неизвестная</li>
-    <li>LodgerAdj(asker_gender==Female)->одинокая</li>
-    <li>LodgerAdj(asker_gender==Female)->забытый</li>
-    <li>LodgerAdjPlural->уставшие</li>
-    <li>LodgerAdjPlural->потерянные</li>
-    <li>LodgerAdjPlural->несчастные</li>
-    <li>LodgerAdjPlural->бедные</li>
-    <li>LodgerAdjPlural->отчаянные</li>
-    <li>LodgerAdjPlural->печальные</li>
-    <li>LodgerAdjPlural->потрёпанные</li>
-    <li>LodgerAdjPlural->отчаявшиеся</li>
-    <li>LodgerAdjPlural->неизвестные</li>
-    <li>LodgerAdjPlural->одинокие</li>
-    <li>LodgerAdjPlural->забытые</li>
-    <li>lodgerSingle(asker_gender==Male)->странник</li>
-    <li>lodgerSingle(asker_gender==Male)->беженец</li>
-    <li>lodgerSingle(asker_gender==Male)->бродяга</li>
-    <li>lodgerSingle(asker_gender==Male)->выживший</li>
-    <li>lodgerSingle(asker_gender==Male)->кочевник</li>
-    <li>lodgerSingle(asker_gender==Male)->оборванец</li>
-    <li>lodgerSingle(asker_gender==Female)->странница</li>
-    <li>lodgerSingle(asker_gender==Female)->беженка</li>
-    <li>lodgerSingle(asker_gender==Female)->бродяга</li>
-    <li>lodgerSingle(asker_gender==Female)->выжившая</li>
-    <li>lodgerSingle(asker_gender==Female)->кочевница</li>
-    <li>lodgerSingle(asker_gender==Female)->оборванка</li>
+    <li>lodgerAdj->уставший</li>
+    <li>lodgerAdj->потерянный</li>
+    <li>lodgerAdj->несчастный</li>
+    <li>lodgerAdj->бедный</li>
+    <li>lodgerAdj->отчаянный</li>
+    <li>lodgerAdj->печальный</li>
+    <li>lodgerAdj->потрёпанный</li>
+    <li>lodgerAdj->отчаявшийся</li>
+    <li>lodgerAdj->неизвестный</li>
+    <li>lodgerAdj->одинокий</li>
+    <li>lodgerAdj->забытый</li>
+    <li>lodgerAdjFem->уставшая</li>
+    <li>lodgerAdjFem->потерянная</li>
+    <li>lodgerAdjFem->несчастная</li>
+    <li>lodgerAdjFem->бедная</li>
+    <li>lodgerAdjFem->отчаянная</li>
+    <li>lodgerAdjFem->печальная</li>
+    <li>lodgerAdjFem->потрёпанная</li>
+    <li>lodgerAdjFem->безнадёжная</li>
+    <li>lodgerAdjFem->неизвестная</li>
+    <li>lodgerAdjFem->одинокая</li>
+    <li>lodgerAdjFem->забытый</li>
+    <li>lodgerAdjPlural->уставшие</li>
+    <li>lodgerAdjPlural->потерянные</li>
+    <li>lodgerAdjPlural->несчастные</li>
+    <li>lodgerAdjPlural->бедные</li>
+    <li>lodgerAdjPlural->отчаянные</li>
+    <li>lodgerAdjPlural->печальные</li>
+    <li>lodgerAdjPlural->потрёпанные</li>
+    <li>lodgerAdjPlural->отчаявшиеся</li>
+    <li>lodgerAdjPlural->неизвестные</li>
+    <li>lodgerAdjPlural->одинокие</li>
+    <li>lodgerAdjPlural->забытые</li>
+    <li>lodgerSingle->странник</li>
+    <li>lodgerSingle->беженец</li>
+    <li>lodgerSingle->бродяга</li>
+    <li>lodgerSingle->выживший</li>
+    <li>lodgerSingle->кочевник</li>
+    <li>lodgerSingle->оборванец</li>
+    <li>lodgerSingleFem->странница</li>
+    <li>lodgerSingleFem->беженка</li>
+    <li>lodgerSingleFem->бродяга</li>
+    <li>lodgerSingleFem->выжившая</li>
+    <li>lodgerSingleFem->кочевница</li>
+    <li>lodgerSingleFem->оборванка</li>
     <li>lodgerPlural->странники</li>
     <li>lodgerPlural->беженцы</li>
     <li>lodgerPlural->бродяги</li>

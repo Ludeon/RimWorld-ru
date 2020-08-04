@@ -74,13 +74,15 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->Челноку фракции [asker_faction_name] требуется аварийная посадка. Командир челнока, [asker_nameDef], хочет приземлиться в [map_definite].\n\nНа челнок будут нападать [enemyFaction_pawnsPlural] из фракции [enemyFaction_name] с целью убить всех пассажиров. Защитите его.\n\nВ челноке находятся: [asker_nameDef][andOtherCivilians] и [soldiers_count] [soldiers0_kind]. Командир [andCivilians] должны быть спасены, но жизнями [soldiers0_kind] можно пожертвовать.\n\nЧерез [rescueDelay_duration] за выжившими прибудет спасательный челнок. Вы должны будете погрузить их всех на борт в течение [leaveDelay_duration].</li>
+    <li>questDescription->Челноку фракции [asker_faction_name] требуется аварийная посадка. Командир челнока, [asker_nameDef], хочет приземлиться в [map_definite].\n\nНа челнок будут нападать [enemyFaction_pawnsPlural] из фракции [enemyFaction_name] с целью убить всех пассажиров. Защитите его.\n\nВ челноке находятся: [asker_nameDef][andOtherCivilians] и [soldiers_count] [soldiers0_kind]. Командир [andCivilians] [shouldBeSaved], но жизнями [soldiers0_kind] можно пожертвовать.\n\nЧерез [rescueDelay_duration] за выжившими прибудет спасательный челнок. Вы должны будете погрузить их всех на борт в течение [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, другой [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] других [pawnLabelGen],</li>
     <li>andCivilians(civilians_count==1)-></li>
     <li>andCivilians(civilians_count==2)->и [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->и [pawnLabelPlural]</li>
+    <li>shouldBeSaved(civilians_count==1)->должен быть спасён</li>
+    <li>shouldBeSaved(civilians_count>=2)->должны быть спасены</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
