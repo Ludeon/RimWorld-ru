@@ -7,7 +7,7 @@
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
   <Mission_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->Пираты разбили лагерь и нападают на караваны фракции [asker_faction_name]. [asker_nameDef] планирует воздушно-штурмовую атаку на этот лагерь и хочет, чтобы вы предоставили [soldiers] для атаки.\n\n[asker_pronoun] пришлёт челнок, который подберёт ваших бойцов, высадит их у лагеря, после чего вернёт их обратно домой.\n\nПосле начала атаки, вы должны будете уничтожить всех врагов и турели в течение [timeoutTicks_duration].</li>
+    <li>questDescription->Пираты разбили лагерь и нападают на караваны фракции [asker_faction_name]. [asker_nameDef], желая уничтожить лагерь, планирует воздушно-штурмовую атаку и хочет, чтобы вы предоставили [soldiers].\n\n[asker_pronoun] пришлёт за ними челнок, высадит их у лагеря, а по окончании боя вернёт обратно домой.\n\nВы должны будете уничтожить всех врагов и турели в течение [timeoutTicks_duration].</li>
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] бойцов</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] бойца</li></Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -41,7 +41,6 @@
     <li>targetDat->форпосту</li>
     <li>aerial->воздушно-штурмовой</li>
     <li>aerial->десантно-штурмовой</li>
-    <li>aerial->воздушно-штурмовой</li>
     <li>attack->налёт</li>
     <li>attackDat->удар</li>
   </Mission_BanditCamp.questNameRules.rulesStrings>
