@@ -207,7 +207,7 @@
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>Эта модификация была разработана для более новой версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>Модификации требуется указать информацию о совместимых версиях игры в файле About.xml. Например: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions>. Тег &lt;targetVersion> объявлен устаревшим. Для подробной информации просмотрите журнал.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Модификации требуется указать информацию о совместимых версиях игры в файле About.xml. Например: &lt;supportedVersions&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/supportedVersions&gt;. Тег &lt;targetVersion&gt; объявлен устаревшим. Для подробной информации просмотрите журнал.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
   <MessageModNeedsWellFormattedPackageId>Требуется правильно указать значение поля packageId в файле About.xml. Оно должно удовлетворять следующим требованиям:\n\n  - Только латинские буквы, цифры и символ точки.\n  - Пробелы не допускаются.\n  - Как минимум один символ точки.\n  - Нельзя ставить точку в начало, в конец, а также ставить несколько точек подряд.\n  - Не более 60 символов.\n  - Не допускается слово "Ludeon".</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
@@ -215,7 +215,7 @@
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
   <ModLoadFolderDoesntExist>Папка {0}, указанная для версии {1} не существует.</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
-  <ModLoadFolderMalformedVersion>Некорректный номер версии, «{0}». Номер должен иметь следующий формат: &lt;Основной номер>.&lt;Дополнительный номер> (например, «1.1»)</ModLoadFolderMalformedVersion>
+  <ModLoadFolderMalformedVersion>Некорректный номер версии, «{0}». Номер должен иметь следующий формат: &lt;Основной номер&gt;.&lt;Дополнительный номер&gt; (например, «1.1»)</ModLoadFolderMalformedVersion>
   <!-- EN: The list of load folders for version {0} is empty. -->
   <ModLoadFolderListEmpty>Список загружаемых папок для версии {0} пуст.</ModLoadFolderListEmpty>
   <!-- EN: Version {0} lists the same folder more than once: {1}. -->
