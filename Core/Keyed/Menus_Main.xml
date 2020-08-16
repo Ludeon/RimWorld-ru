@@ -110,7 +110,7 @@
   <WorldSeed>Зерно</WorldSeed>
   <!-- EN: Randomize seed -->
   <RandomizeSeed>Случайное зерно</RandomizeSeed>
-  <!-- EN: The planet is always the same diameter, but since it’s far larger than needed for play, we don’t generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
+  <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>Диаметр планеты неизменный, но поскольку он гораздо больше, чем требуется для игры, поверхность планеты генерируется не целиком. В противном случае это бы заняло длительное время. В этом поле указывается размер части поверхности (в процентах от общей площади планеты), которую вы бы хотели сгенерировать.</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>Фракции</WorldFactionsTab>
@@ -203,9 +203,11 @@
   <!-- EN: This requires following mods to work: {0}. -->
   <ModUnsatisfiedDependency>Этот мод для нормальной работы требует наличие других модов: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion>Эта модификация была разработана не для этой версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion>
+  <ModNotMadeForThisVersion>Этот мод не предназначен для текущей версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion>
+  <!-- EN: This mod is not made for this version of RimWorld. -->
+  <ModNotMadeForThisVersionShort>Этот мод не предназначен для текущей версии RimWorld.</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion_Newer>Эта модификация была разработана для более новой версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion_Newer>
+  <ModNotMadeForThisVersion_Newer>Этот мод предназначен для более новой версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Модификации требуется указать информацию о совместимых версиях игры в файле About.xml. Например: &lt;supportedVersions&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/supportedVersions&gt;. Тег &lt;targetVersion&gt; объявлен устаревшим. Для подробной информации просмотрите журнал.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
@@ -224,6 +226,8 @@
   <ModLoadFolderOutOfOrder>Неверный порядок версий: {0} должна следовать перед {1}.</ModLoadFolderOutOfOrder>
   <!-- EN: Invalid version order: 'default' should be defined first. -->
   <ModLoadFolderOutOfOrderDefault>Неверный порядок версий: версия «default» должна идти первой.</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
+  <ModLoadFolderDefaultDeprecated>Слово «default» в LoadFolders.xml устарело. Пожалуйста, укажите папки для каждой поддерживаемой версии, используя теги &lt;v...&gt;.</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
   <ModLoadFolderDefinesUnsupportedGameVersion>Версия {0} определена в LoadFolders.xml, но не перечислена в поле «supportedVersions» файла About.xml.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
@@ -260,6 +264,8 @@
   <ConfirmContentAuthor>Учтите, вы должны загружать только то, что сделали сами.\n\nВы — автор этого контента?</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
   <Incompatible>Несовместимо</Incompatible>
+  <!-- EN: Tag as translation -->
+  <TagAsTranslation>Отметить как перевод</TagAsTranslation>
   <!-- EN: Too many (max {0}):  -->
   <TooMany>Слишком много (максимум {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->

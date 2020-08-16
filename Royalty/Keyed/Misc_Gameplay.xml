@@ -4,6 +4,7 @@
   <!-- Royalty and throne -->
   <!-- EN: Satisfies title -->
   <ThroneMaxSatisfiedTitle>Удовлетворяет титулу</ThroneMaxSatisfiedTitle>
+  <!-- EN: ({0} impressiveness) -->
   <ThroneRoomImpressivenessInfo>(впечатление: {0})</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
   <ThroneMustBePlacedInside>Трон нужно размещать в помещении.</ThroneMustBePlacedInside>
@@ -19,10 +20,10 @@
   <PsycastNeurotrainerLabel>пси-тренер ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
   <PsycastNeurotrainerUseLabel>Использовать пси-тренер, чтобы изучить {0}</PsycastNeurotrainerUseLabel>
-  <!-- EN: A one-use super-dose of mechanites which trains a specific psycast.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
-  <PsycastNeurotrainerDescription>Сыворотка с дозой механитов, запрограммированных на обучение конкретному виду пси-воздействия.\n\nСыворотка вводится через глазное яблоко. После того, как механиты попадают в мозг пациента, они наделяют его определённой пси-способностью, при необходимости преобразуя себя в нервную ткань.</PsycastNeurotrainerDescription>
-  <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} {USER_gender ? использовал : использовала} нейротренер и {USER_gender ? изучил : изучила} пси-воздействие {1}.</AbilityNeurotrainerUsed>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed. -->
+  <PsycastNeurotrainerDescription>Сыворотка с дозой механитов, запрограммированных на обучение конкретной пси-способности.\n\nСыворотка вводится через глазное яблоко. После того, как механиты попадают в мозг пациента, они наделяют его определённой способностью, при необходимости преобразуя себя в нервную ткань.</PsycastNeurotrainerDescription>
+  <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
+  <AbilityNeurotrainerUsed>{USER_labelShort} {USER_gender ? использовал : использовала} пси-тренер и {USER_gender ? изучил : изучила} способность «{1}».</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
   <PsycastNeurotrainerNoPsylink>Необходима пси-связь</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
@@ -46,12 +47,12 @@
   <!-- Meditation -->
   <!-- EN: Psyfocus -->
   <Psyfocus>Пси-концентрация</Psyfocus>
-  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation -->
-  <PsyfocusDesc>Пси-концентрация — это особый вид организации сознания, необходимый для применения пси-воздействий. Пси-концентрация рассеивается со временем и должна восполняться регулярной медитацией. Потеря всей пси-концентрации сделает невозможным применение любых пси-воздействий.\n\nЧем выше пси-концентрация, тем более высокоуровневые пси-воздействия можно применять, но при этом ускоряется её рассеивание</PsyfocusDesc>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
+  <PsyfocusDesc>Пси-концентрация — это особый вид организации сознания, необходимый для применения пси-способностей. Пси-концентрация рассеивается со временем и должна восполняться регулярной медитацией. Потеря всей концентрации сделает невозможным применение любых пси-способностей.\n\nЧем выше концентрация, тем более высокоуровневые способности можно применять, но при этом ускоряется её рассеивание</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
-  <!-- EN: Up to level {0} psycasts. -->
-  <PsyfocusLevelInfoPsycasts>для пси-воздействий {0} уровня.</PsyfocusLevelInfoPsycasts>
+  <!-- EN: Up to level {0} powers. -->
+  <PsyfocusLevelInfoPsycasts>для пси-способностей {0} уровня.</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
   <PsyfocusLevelInfoFallRate>пси-концентрация будет снижаться на {0} в день.</PsyfocusLevelInfoFallRate>
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
@@ -126,8 +127,8 @@
   <BeginLinkingRitualNeedLinkSpot>Для проведения ритуала необходимо свободное место в радиусе 3 клеток, находящееся в пределах досягаемости поселенцев</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>Ритуал связывания завершён</LetterLabelLinkingRitualCompleted>
-  <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psycasts. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} {PAWN_gender ? завершил : завершила} ритуал связывания с {LINKABLE_labelShort}.\n\n{PAWN_pronoun} {PAWN_gender ? улучшил : улучшила} свою пси-связь, что теперь позволяет {PAWN_objective} применять новые пси-воздействия.</LetterTextLinkingRitualCompleted>
+  <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} {PAWN_gender ? завершил : завершила} ритуал связывания с {LINKABLE_labelShort}.\n\n{PAWN_pronoun} {PAWN_gender ? улучшил : улучшила} свою пси-связь, что теперь позволяет {PAWN_objective} применять новые пси-способности.</LetterTextLinkingRitualCompleted>
 
   <!-- EN: Land shuttle here -->
   <LandHere>Посадить челнок здесь</LandHere>
@@ -141,5 +142,4 @@
 
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>На челноке не хватает требуемого груза!</ShuttleRequiredItemsNotSatisfied>
-
 </LanguageData>
