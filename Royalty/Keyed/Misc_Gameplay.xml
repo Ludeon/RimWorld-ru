@@ -60,23 +60,37 @@
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
   <UserMeditationFocusStrength>Степень концентрации {LASTUSER_labelShort} во время медитации</UserMeditationFocusStrength>
   <!-- EN: Focus effect impacted by -->
-  <MeditationFocusImpacted>На концентрацию влияет</MeditationFocusImpacted>
+  <MeditationFocusImpacted>На концентрацию влияют</MeditationFocusImpacted>
   <!-- EN: {1} per nearby animus stone (max {0}) -->
-  <MeditationFocusPerAnimusStoneAbstract>{1} у ближайшего камня духа (макс. {0})</MeditationFocusPerAnimusStoneAbstract>
+  <!-- 0 - maxBuildings, 1 - MinOffsetPerBuilding, 2 - MaxOffsetPerBuilding -->
+  <MeditationFocusPerAnimusStoneAbstract>{1} за каждый камень духа поблизости (до ^Number( {0} | '# камня' | '# камней' | '# камней')^)</MeditationFocusPerAnimusStoneAbstract>
   <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
-  <MeditationFocusPerAnimusStone>{2} у ближайшего камня духа ({0} / {1})</MeditationFocusPerAnimusStone>
+  <!-- 0 - buildingCount, 1 - maxBuildings, 2 - MinOffsetPerBuilding, 3 - MaxOffsetPerBuilding -->
+  <MeditationFocusPerAnimusStone>{2} за каждый камень духа поблизости ({0} / ^Number( {1} | '# камня' | '# камней' | '# камней')^)</MeditationFocusPerAnimusStone>
+  <!-- EN: Per nearby animus stone {2}, nature shrine {1} (max {0}) -->
+  <!-- 0 - maxBuildings, 1 - MinOffsetPerBuilding, 2 - MaxOffsetPerBuilding -->
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>За каждый камень духа поблизости — {2}, за природное святилище — {1} (до ^Number( {0} | '# объекта' | '# объектов' | '# объектов')^)</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <!-- EN: Per nearby animus stone {3}, nature shrine {2} ({0} / {1}) -->
+  <!-- 0 - buildingCount, 1 - maxBuildings, 2 - MinOffsetPerBuilding, 3 - MaxOffsetPerBuilding -->
+  <MeditationFocusPerAnimusStoneAndShrine>За каждый камень духа поблизости — {3}, за природное святилище — {2} ({0} / ^Number( {1} | '# объекта' | '# объектов' | '# объектов')^)</MeditationFocusPerAnimusStoneAndShrine>
   <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
-  <MeditationFocusPerSculptureAbstract>Макс. {1} у ближайшей скульптуры, в зависимости от качества (макс. {0})</MeditationFocusPerSculptureAbstract>
+  <!-- 0 - maxBuildings, 1 - maxFocus -->
+  <MeditationFocusPerSculptureAbstract>До {1} за каждую скульптуру поблизости, в зависимости от качества (до ^Number( {0} | '# скульптуры' | '# скульптур' | '# скульптур')^)</MeditationFocusPerSculptureAbstract>
   <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
-  <MeditationFocusPerSculpture>Макс. {2} у ближайшей скульптуры, в зависимости от качества ({0} / {1})</MeditationFocusPerSculpture>
+  <!-- 0 - buildingCount, 1 - maxBuildings, 2 - maxOffsetPerBuilding -->
+  <MeditationFocusPerSculpture>До {2} за каждую скульптуру поблизости, в зависимости от качества ({0} / ^Number( {1} | '# скульптуры' | '# скульптур' | '# скульптур')^)</MeditationFocusPerSculpture>
   <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
-  <MeditationFocusPerGraveAbstract>У ближайшей могилы: {1} — для пустой, {2} — для занятой телом человека (до {0})</MeditationFocusPerGraveAbstract>
+  <!-- 0 - maxBuildings, 1 - maxOffsetPerBuilding, 2 - maxOffsetPerBuilding+focusPerFullGrave -->
+  <MeditationFocusPerGraveAbstract>За каждую пустую могилу поблизости — {1}, за занятую телом человека — {2} (до ^Number( {0} | '# могилы' | '# могил' | '# могил')^)</MeditationFocusPerGraveAbstract>
   <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
-  <MeditationFocusPerGrave>У ближайшей могилы: {2} — для пустой, {3} — для занятой телом человека ({0} / {1})</MeditationFocusPerGrave>
+  <!-- 0 - buildingCount, 1 - maxBuildings, 2 - maxOffsetPerBuilding, 3 - maxOffsetPerBuilding+focusPerFullGrave -->
+  <MeditationFocusPerGrave>За каждую пустую могилу поблизости — {1}, за занятую телом человека — {2} ({0} / ^Number( {1} | '# могилы' | '# могил' | '# могил')^)</MeditationFocusPerGrave>
   <!-- EN: {1} per nearby lit flame source (up to {0}) -->
-  <MeditationFocusPerFlameAbstract>{1} у ближайшего источника открытого пламени (до {0})</MeditationFocusPerFlameAbstract>
+  <!-- 0 - maxBuildings, 1 - MinOffsetPerBuilding, 2 - MaxOffsetPerBuilding -->
+  <MeditationFocusPerFlameAbstract>{1} за каждый источник пламени поблизости (до ^Number( {0} | '# источника' | '# источников' | '# источников')^)</MeditationFocusPerFlameAbstract>
   <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
-  <MeditationFocusPerFlame>{2} у ближайшего источника открытого пламени ({0} / {1})</MeditationFocusPerFlame>
+  <!-- 0 - buildingCount, 1 - maxBuildings, 2 - MinOffsetPerBuilding, 3 - MaxOffsetPerBuilding -->
+  <MeditationFocusPerFlame>{2} за каждый источник пламени поблизости ({0} / ^Number( {1} | '# источника' | '# источников' | '# источников')^)</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
   <PsyfocusPerDayOfMeditation>Прирост пси-концентрации: {0} в день</PsyfocusPerDayOfMeditation>
   <!-- EN: Desired psyfocus -->
@@ -108,6 +122,8 @@
   <AbilitySpeechDisabledNoThroneUndignified>трон невозможно использовать, поскольку он недостоин титула говорящего.</AbilitySpeechDisabledNoThroneUndignified>
   <!-- EN: already giving a speech. -->
   <AbilitySpeechDisabledAlreadyGivingSpeech>уже произносит речь.</AbilitySpeechDisabledAlreadyGivingSpeech>
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>поселенцы уже собрались по другому поводу.</AbilitySpeechDisabledAnotherGatheringInProgress>
   <!-- EN: Next speech ready in -->
   <AbilitySpeechCooldown>Следующая речь будет готова через</AbilitySpeechCooldown>
   <!-- EN: Outcome chances -->
