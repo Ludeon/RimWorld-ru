@@ -318,7 +318,7 @@
   <!-- EN: Extreme weather -->
   <Difficulty_AllowExtremeWeatherIncidents_Label>Экстремальная погода</Difficulty_AllowExtremeWeatherIncidents_Label>
   <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
-  <Difficulty_AllowExtremeWeatherIncidents_Info>Разрешить экстремальные погодные условия, такие как токсичные осадки, вулканические зимы или грозовые шторма.</Difficulty_AllowExtremeWeatherIncidents_Info>
+  <Difficulty_AllowExtremeWeatherIncidents_Info>Разрешить экстремальные погодные условия, такие как токсичные осадки, вулканические зимы и грозовые шторма.</Difficulty_AllowExtremeWeatherIncidents_Info>
 
   <!-- EN: Economy -->
   <DifficultyEconomySection>Экономика</DifficultyEconomySection>
@@ -349,7 +349,7 @@
   <!-- EN: Raid loot -->
   <Difficulty_RaidLootPointsFactor_Label>Боевые трофеи</Difficulty_RaidLootPointsFactor_Label>
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_RaidLootPointsFactor_Info>Настройте объём добычи, которую несут с собой нападающие.\n\nВнимание: количество боевые трофеев также изменяется автоматически в зависимости от выбранной сложности налётов. При изменении этой настройки используется дополнительный множитель количества боевых трофеев.</Difficulty_RaidLootPointsFactor_Info>
+  <Difficulty_RaidLootPointsFactor_Info>Настройте объём добычи, которую несут с собой нападающие.\n\nВнимание: количество боевых трофеев автоматически подстраивается под выбранный уровень угроз. При изменении этой настройки будет применяться дополнительный множитель.</Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
   <Difficulty_MaintenanceCostFactor_Label>Стоимость перезарядки турелей</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
@@ -396,7 +396,7 @@
   <!-- EN: Insect spawning rate -->
   <Difficulty_EnemyReproductionRateFactor_Label>Частота появления насекомых</Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
-  <Difficulty_EnemyReproductionRateFactor_Info>Частота появления новых насекомых рядом с ульями. При уменьшении увеличивается интервал между появлением новых насекомых.\n\nДанная настройка не влияет на шанс их нападения, а только на частоту с которой новые насекомые появляются рядом с ульями. </Difficulty_EnemyReproductionRateFactor_Info>
+  <Difficulty_EnemyReproductionRateFactor_Info>Частота, с которой ульи порождают насекомых. Чем меньше это значение, тем больше интервал между появлением новых особей.\n\nЭта настройка не влияет на шанс нападения насекомых, а лишь контролирует их рождаемость.</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
   <Difficulty_DeepDrillInfestationChanceFactor_Label>Вероятность появления насекомых</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
@@ -404,7 +404,7 @@
   <!-- EN: Map generation ancient threats -->
   <Difficulty_PeacefulTemples_Inverted_Label>Создание древней угрозы при генерации карты</Difficulty_PeacefulTemples_Inverted_Label>
   <!-- EN: Ancient structures may contain dangerous threats. -->
-  <Difficulty_PeacefulTemples_Inverted_Info>С какой вероятностью древние сооружения будут содержать в себе древние угрозы.</Difficulty_PeacefulTemples_Inverted_Info>
+  <Difficulty_PeacefulTemples_Inverted_Info>С какой вероятностью древние сооружения будут содержать в себе угрозы.</Difficulty_PeacefulTemples_Inverted_Info>
   <!-- EN: Map generation natural hives -->
   <Difficulty_AllowCaveHives_Label>Создание ульев при генерации карты</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
@@ -419,11 +419,11 @@
   <!-- EN: Player can build turrets -->
   <Difficulty_AllowTurrets_Label>Строительство турелей</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>Возможность строительства мини-турелей, тяжёлых турелей, и снайперских турелей.\n\nВы сможете использовать захваченные турели, даже при отключении возможности постройки.</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>Возможность строительства мини-турелей, тяжёлых и снайперских турелей.\n\nВы сможете использовать захваченные турели, даже если эта опция отключена.</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
   <Difficulty_AllowMortars_Label>Строительство миномётов</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
-  <Difficulty_AllowMortars_Info>Возможность строительства миномётов.\n\nВы сможете использовать захваченные миномёты, даже при отключении возможности постройки. </Difficulty_AllowMortars_Info>
+  <Difficulty_AllowMortars_Info>Возможность строительства миномётов.\n\nВы сможете использовать захваченные миномёты, даже если эта опция отключена.</Difficulty_AllowMortars_Info>
   
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>Адаптация рассказчика</DifficultyAdaptationSection>
@@ -590,7 +590,7 @@
   <!-- EN: Back -->
   <Back>Назад</Back>
   <!-- EN: Change material... -->
-  <ShowMaterials>Изменить материалы</ShowMaterials>
+  <ShowMaterials>Изменить материалы...</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>Игра</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
