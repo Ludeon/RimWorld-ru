@@ -361,7 +361,7 @@
   <!-- EN: Enemy death on downed -->
   <Difficulty_EnemyDeathOnDownedChanceFactor_Label>Смерть сражённых противников </Difficulty_EnemyDeathOnDownedChanceFactor_Label>
   <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Вероятность мгновенной смерти противника при получении тяжёлого ранения. Это повлияет на шансы захвата пленников, и, следовательно, на рост количества поселенцев.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Вероятность мгновенной смерти противника при получении тяжёлого ранения. Это повлияет на вероятность захвата пленников и, следовательно, на рост количества поселенцев.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
 
   <!-- EN: General -->
   <DifficultyGeneralSection>Общие настройки</DifficultyGeneralSection>
@@ -380,11 +380,11 @@
   <!-- EN: Friendly fire -->
   <Difficulty_FriendlyFireChanceFactor_Label>Дружественный огонь</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>Вероятность дружественного огня.\n\nВнимание: эта настройка затрагивает только точные выстрелы, которые поразят выбранную цель. Это не касается урона от взрывов, или от выстрелов мимо выбранной цели. </Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>Вероятность дружественного огня.\n\nВнимание: эта настройка затрагивает только прямые попадания. Она не предотвращает урон от взрывов или от выстрелов мимо выбранной цели. </Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
   <Difficulty_AllowInstantKillChance_Label>Мгновенная смерть поселенцев</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AllowInstantKillChance_Info>Вероятность мгновенной смерти поселенцев во время боя. Входящий урон будет изменён так, что поселенец скорее будет сражён, нежели чем умрёт.\n\n Данная настройка влияет только на некоторые возможные факторы, ведущие к мгновенной смерти: поселенец всё ещё может получить тяжёлое ранение и скончаться от кровопотери или умереть от взрыва, болезни и т.п.</Difficulty_AllowInstantKillChance_Info>
+  <Difficulty_AllowInstantKillChance_Info>Вероятность мгновенной смерти поселенцев во время боя. Входящий урон можно изменить так, что поселенец скорее будет сражён, чем умрёт.\n\nЭта настройка влияет только на некоторые возможные факторы, ведущие к мгновенной смерти: поселенец всё ещё может получить тяжёлое ранение и скончаться от кровопотери или умереть от взрыва, болезни и т.п.</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
   <Difficulty_PlayerPawnInfectionChanceFactor_Label>Вероятность заражения</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
@@ -394,9 +394,9 @@
   <!-- EN: Adjust the frequency of random disease events. -->
   <Difficulty_DiseaseIntervalFactor_Inverted_Info>Частота случайных событий с болезнями.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
   <!-- EN: Insect spawning rate -->
-  <Difficulty_EnemyReproductionRateFactor_Label>Частота появления насекомых</Difficulty_EnemyReproductionRateFactor_Label>
+  <Difficulty_EnemyReproductionRateFactor_Label>Рождаемость насекомых</Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
-  <Difficulty_EnemyReproductionRateFactor_Info>Частота, с которой ульи порождают насекомых. Чем меньше это значение, тем больше интервал между появлением новых особей.\n\nЭта настройка не влияет на шанс нападения насекомых, а лишь контролирует их рождаемость.</Difficulty_EnemyReproductionRateFactor_Info>
+  <Difficulty_EnemyReproductionRateFactor_Info>Частота, с которой ульи порождают насекомых. Чем меньше это значение, тем больше интервал между появлением новых особей.\n\nЭта настройка не влияет на вероятность нападения насекомых, а лишь контролирует их рождаемость.</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
   <Difficulty_DeepDrillInfestationChanceFactor_Label>Вероятность появления насекомых</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
@@ -428,13 +428,13 @@
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>Адаптация рассказчика</DifficultyAdaptationSection>
   <!-- EN: Damage adaptation growth -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Прирост адаптации по урону</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Рост адаптации</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the rate of that challenge growth. -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Адаптация означает, что рассказчик делает игру всё более сложной с течением времени до тех пор, пока вы не начинаете нести потери. Это отличается от того, как на рассказчика влияет богатство и размер поселения.\n\nДанная настройка изменяет скорость нарастания сложности.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Адаптация — это постепенное усложнение игры рассказчиком до тех пор, пока игрок не начинает нести потери. Она не имеет отношения к влиянию богатства и размера поселения на сложность игры.\n\nЭта настройка изменяет скорость нарастания сложности.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
   <!-- EN: Damage adaptation effect -->
-  <Difficulty_AdaptationEffectFactor_Label>Влияние адаптации по урону</Difficulty_AdaptationEffectFactor_Label>
+  <Difficulty_AdaptationEffectFactor_Label>Влияние адаптации</Difficulty_AdaptationEffectFactor_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the effect of that adaptation value on actual threats. -->
-  <Difficulty_AdaptationEffectFactor_Info>Адаптация означает, что рассказчик делает игру всё более сложной с течением времени до тех пор, пока вы не начинаете нести потери. Это отличается от того, как на рассказчика влияет богатство и размер поселения.\n\nДанная настройка изменяет размер угроз. </Difficulty_AdaptationEffectFactor_Info>
+  <Difficulty_AdaptationEffectFactor_Info>Адаптация — это постепенное усложнение игры рассказчиком до тех пор, пока игрок не начинает нести потери. Она не имеет отношения к влиянию богатства и размера поселения на сложность игры.\n\nЭта настройка изменяет степень влияния адаптации на масштаб угроз.</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Fixed wealth progress mode -->
   <Difficulty_FixedWealthMode_Label>Фиксированный прирост сложности</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in fixed wealth progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist, count, player wealth, and a variety of other factors. Fixed wealth progress mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In fixed progression mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
