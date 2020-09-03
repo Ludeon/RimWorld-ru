@@ -103,20 +103,15 @@
     <li>turnedViolent->[othersWillNotAccept] и {PAWNSALIVECOUNT_multiple ? становятся вашими врагами : становится вашим врагом} .</li>
     <li>decidedToLeave->[othersWillNotAccept] и {PAWNSALIVECOUNT_multiple ? решают : решает} покинуть вас.</li>
     <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? остальные : оставшийся [lodgerSingle]} {PAWNSALIVECOUNT_multiple ? отказываются : отказывается} с этим мириться</li>
-
     <li>oneOfTheDesperateLodgers(lodgerCount==1)->[theDesperateLodger]</li>
     <li>oneOfTheDesperateLodgers(lodgerCount>=2)->{SUBJECT_gender ? один : одна} из отчаянных [lodgersLabelPluralGen], [whoAskedToStay]</li>
-    
     <li>lastOfTheDesperateLodgers(lodgerCount==1)->[theDesperateLodger]</li>
     <li>lastOfTheDesperateLodgers(lodgerCount>=2)->{SUBJECT_gender ? последний : последняя} из отчаянных [lodgersLabelPluralGen], [whoAskedToStay]</li>
-    
     <li>theDesperateLodger(lodgers0_gender==Male)->отчаянный [lodgersLabel], [whoAskedToStay]</li>
     <li>theDesperateLodger(lodgers0_gender==Female)->отчаянная [lodgersLabel], [whoAskedToStay]</li>
-    
     <li>whoAskedToStay(lodgerCount==1,lodgers0_gender==Male)->который просил разрешения остаться у вас</li>
     <li>whoAskedToStay(lodgerCount==1,lodgers0_gender==Female)->которая просила разрешения остаться у вас</li>
     <li>whoAskedToStay(lodgerCount>=2)->которые просили разрешения остаться у вас</li>
-
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->и ещё один [faction_pawnSingular]</li>
     <li>otherLodgers(lodgerCount>=3)->и ещё несколько [lodgersLabelPlural]</li>
