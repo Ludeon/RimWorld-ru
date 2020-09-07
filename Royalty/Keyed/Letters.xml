@@ -82,16 +82,17 @@
   <!-- EN: The title of {TITLE} cannot be inherited. -->
   <LetterRoyalTitleCantBeInherited>Титул {TITLE} нельзя унаследовать.</LetterRoyalTitleCantBeInherited>
 
+
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>Наследование титула</LetterTitleInheritance>
-  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
-  <LetterTitleInheritance_Base>В связи со смертью {PAWN_nameFull}, {PAWN_possessive} титул, согласно законам фракций с сословно-иерархическими традициями, должен получить {PAWN_possessive} законный наследник.</LetterTitleInheritance_Base>
-  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It replaced {HEIR_possessive} {REPLACEDTITLE} title. -->
-  <LetterTitleInheritance_AsReplacement>{PAWN_possessive} титул {TITLE}, в соответствии с законами о наследовании {FACTION_name}, переходит к {HEIR_nameFull}, замещая {HEIR_possessive} титул {REPLACEDTITLE}.</LetterTitleInheritance_AsReplacement>
+  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
+  <LetterTitleInheritance_Base>Поскольку {PAWN_nameFull} {PAWN_gender ? мёртв : мертва}, {PAWN_possessive} титул будет передан законному наследнику.</LetterTitleInheritance_Base>
+  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
+  <LetterTitleInheritance_AsReplacement>В соответствии с законами о наследовании фракции {FACTION_name}, {PAWN_possessive} титул {TITLE}, должен перейти к {HEIR_nameFull}, замещая {HEIR_possessive} титул {REPLACEDTITLE} в ходе церемонии присвоения титула.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>{PAWN_possessive} титул {TITLE}, в соответствии с законами о наследовании {FACTION_name}, должен был перейти к {HEIR_nameFull}, но {HEIR_pronoun} уже обладает более высоким титулом {HIGHERTITLE}.</LetterTitleInheritance_NoEffectHigherTitle>
-  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>{PAWN_possessive} титул {TITLE}, в соответствии с законами о наследовании {FACTION_name}, переходит к {HEIR_nameFull}.</LetterTitleInheritance_WasInherited>
+  <LetterTitleInheritance_NoEffectHigherTitle>В соответствии с законами о наследовании фракции {FACTION_name}, {PAWN_possessive} титул {TITLE}, должен был перейти к {HEIR_nameFull}, но {HEIR_pronoun} уже обладает более высоким титулом {HIGHERTITLE}.</LetterTitleInheritance_NoEffectHigherTitle>
+  <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
+  <LetterTitleInheritance_WasInherited>В соответствии с законами о наследовании фракции {FACTION_name}, {PAWN_possessive} титул {TITLE} должен перейти к {HEIR_nameFull} в ходе церемонии присвоения титула.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
   <LetterTitleInheritance_NoHeirFound>{PAWN_possessive} титул {TITLE} не переходит ни к кому, поскольку {PAWN_pronoun} не {PAWN_gender ? назначил : назначила} для себя наследника.</LetterTitleInheritance_NoHeirFound>
 
@@ -99,7 +100,7 @@
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
   <LetterLawViolationDetectedLabel>Нарушитель: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>Фракция {FACTION_name} обнаружила, что {PAWN_labelShort} незаконно {PAWN_gender ? применил : применила} {CULPRIT} (шанс обнаружения {CHANCE}).\n\nВ соответствии с законами {FACTION_name}, только обладатели титула {TITLE} имеют право использовать {CULPRIT}.\n\nОтношение к вашей фракции упало на {GOODWILL}.        </LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>Фракция {FACTION_name} обнаружила, что {PAWN_labelShort} незаконно {PAWN_gender ? применил : применила} {CULPRIT} (шанс обнаружения {CHANCE}).\n\nВ соответствии с законами {FACTION_name}, только обладатели титула {TITLE} имеют право использовать {CULPRIT}.\n\nОтношение к вашей фракции упало на {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Throne Speech -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
