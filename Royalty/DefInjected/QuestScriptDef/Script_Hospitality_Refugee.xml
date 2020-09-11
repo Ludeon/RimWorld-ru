@@ -103,20 +103,15 @@
     <li>turnedViolent->[othersWillNotAccept] и {PAWNSALIVECOUNT_multiple ? становятся вашими врагами : становится вашим врагом} .</li>
     <li>decidedToLeave->[othersWillNotAccept] и {PAWNSALIVECOUNT_multiple ? решают : решает} покинуть вас.</li>
     <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? остальные : оставшийся [lodgerSingle]} {PAWNSALIVECOUNT_multiple ? отказываются : отказывается} с этим мириться</li>
-
     <li>oneOfTheDesperateLodgers(lodgerCount==1)->[theDesperateLodger]</li>
     <li>oneOfTheDesperateLodgers(lodgerCount>=2)->{SUBJECT_gender ? один : одна} из отчаянных [lodgersLabelPluralGen], [whoAskedToStay]</li>
-    
     <li>lastOfTheDesperateLodgers(lodgerCount==1)->[theDesperateLodger]</li>
     <li>lastOfTheDesperateLodgers(lodgerCount>=2)->{SUBJECT_gender ? последний : последняя} из отчаянных [lodgersLabelPluralGen], [whoAskedToStay]</li>
-    
     <li>theDesperateLodger(lodgers0_gender==Male)->отчаянный [lodgersLabel], [whoAskedToStay]</li>
     <li>theDesperateLodger(lodgers0_gender==Female)->отчаянная [lodgersLabel], [whoAskedToStay]</li>
-    
     <li>whoAskedToStay(lodgerCount==1,lodgers0_gender==Male)->который просил разрешения остаться у вас</li>
     <li>whoAskedToStay(lodgerCount==1,lodgers0_gender==Female)->которая просила разрешения остаться у вас</li>
     <li>whoAskedToStay(lodgerCount>=2)->которые просили разрешения остаться у вас</li>
-
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->и ещё один [faction_pawnSingular]</li>
     <li>otherLodgers(lodgerCount>=3)->и ещё несколько [lodgersLabelPlural]</li>
@@ -187,7 +182,16 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] and another desperate [faction_pawnSingular] are approaching.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] desperate [faction_pawnsPlural] are approaching. Their leader is called [asker_nameDef].</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have lost [asker_possessive] home in a recent attack.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to woken up from cryptosleep all alone and friendless.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been chased from [asker_possessive] home by a vengeful ex-lover.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been banished after an argument with a village leader.</li>
     <li>claimInfo(lodgerCount>=2)->They claim to have lost their home in a recent attack.</li>
+    <li>claimInfo(lodgerCount>=2)->They claim to have escaped an organ harvesting operation.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they escaped from a slave caravan.</li>
+    <li>claimInfo(lodgerCount>=2)->They say that crop blights starved them out of their village.</li>
+    <li>claimInfo(lodgerCount>=2)->They say a great flashstorm burned down their home.</li>
+    <li>claimInfo(lodgerCount>=2)->They say their caravan was ambushed and everything was taken.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they were banished from their town due to moral disagreements.</li>
     <li>joinInfo(lodgerCount==1)->If you make [asker_objective] happy, [asker_pronoun] may offer to join you.</li>
     <li>joinInfo(lodgerCount>=2)->If you make them happy, some of them may offer to join you.</li>
     <li>travelerInfo(lodgerCount==1)->This [faction_pawnSingular] is</li>
@@ -216,7 +220,16 @@
     <li>approachInfo(lodgerCount==2)->Приближаются [asker_nameDef] и ещё один отчаянный [faction_pawnSingular].</li>
     <li>approachInfo(lodgerCount>=3)->Приближаются отчаянные [faction_pawnsPlural] в количестве [lodgerCount] человек. Их ведёт [asker_nameDef].</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] утверждает, что [hasLost] своего дома после недавнего нападения.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] говорит, что проснувшись от криптосна, [appearedAlone].</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] говорит, что бежит из дома от [exLover].</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] утверждает, что [asker_possessive] изгнали из деревни из-за спора со старейшиной.</li>
     <li>claimInfo(lodgerCount>=2)->Они утверждают, что лишились дома после недавнего нападения.</li>
+    <li>claimInfo(lodgerCount>=2)->Они утверждают, что чудом избежали операции по изъятию органов.</li>
+    <li>claimInfo(lodgerCount>=2)->Они говорят, что сбежали из каравана работорговцев.</li>
+    <li>claimInfo(lodgerCount>=2)->Они говорят, что покинули свою деревню после того, как болезнь растений уничтожила их урожай.</li>
+    <li>claimInfo(lodgerCount>=2)->Они говорят, что их дом сгорел из-за грозового шторма.</li>
+    <li>claimInfo(lodgerCount>=2)->Они говорят, что на их караван напали разбойники и отобрали весь груз.</li>
+    <li>claimInfo(lodgerCount>=2)->Они говорят, что их выгнали из их города из-за конфликта с властями.</li>
     <li>joinInfo(lodgerCount==1)->Если [asker_nameDef] будет [happy], находясь в поселении, [asker_pronoun] может захотеть присоединиться к вам.</li>
     <li>joinInfo(lodgerCount>=2)->Если они будут довольны, находясь в поселении, кто-то из них может захотеть присоединиться к вам.</li>
     <li>travelerInfo(lodgerCount==1)->[asker_nameDef] не принадлежит</li>
@@ -225,6 +238,10 @@
     <li>hasLost(lodgers0_gender==Female)->лишилась</li>
     <li>happy(lodgers0_gender==Male)->доволен</li>
     <li>happy(lodgers0_gender==Female)->довольна</li>
+    <li>exLover(lodgers0_gender==Male)->своей мстительной бывшей</li>
+    <li>exLover(lodgers0_gender==Female)->своего мстительного бывшего</li>
+    <li>appearedAlone(lodgers0_gender==Male)->понял, что остался совершенно одинок</li>
+    <li>appearedAlone(lodgers0_gender==Female)->поняла, что осталась совершенно одинока</li>
   </Hospitality_Refugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgerCount==1)->[asker_nameDef] the [lodgerAdj]</li>
