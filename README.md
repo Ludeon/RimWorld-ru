@@ -3,7 +3,11 @@
 
 В данном репозитории лежит не что иное, как официальная русская локализация RimWorld и дополнения Royalty. Именно из этого репозитория русский перевод попадает в игру с каждым выходом очередного обновления.
 
-Данный перевод постоянно исправляется и дорабатывается. И если вам не хочется ждать следующего обновления игры, вы можете скачать актуальную версию отсюда. Для этого нужно:
+Данный перевод постоянно исправляется и дорабатывается. И если вам не хочется ждать следующего обновления игры, вы можете скачать актуальную версию отсюда.
+
+## Установка
+
+### Стандартный способ
 
 1. Скачать архив, **соответствующий вашей версии игры (это важно!):**
 	* Последняя актуальная 1.2 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
@@ -34,20 +38,42 @@
 
 Таким образом, для Steam-версии в ОС Windows полный путь может выглядеть примерно так:`C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Data\Core\Languages\Russian`  
 
-## Официальные переводчики:
+### Автоматизированный способ
+
+Если не хочется проделывать каждый раз однотипные действия, можете воспользоваться .ps скриптом (только для Windows 10). При запуске скрипт скачает архив с последней версией перевода и положит в нужные папки:
+
+```
+powershell.exe -Command "Invoke-WebRequest -OutFile ./master.zip https://github.com/Ludeon/RimWorld-ru/archive/master.zip
+powershell.exe "Add-Type -A 'System.IO.Compression.FileSystem';[IO.Compression.ZipFile]::ExtractToDirectory('master.zip', '1');"
+RD /s /q "Data\Core\Languages\Russian (Русский)\"
+RD /s /q "Data\Royalty\Languages\Russian (Русский)\"
+del "Data\Royalty\Languages\Russian (Русский).tar"
+del "Data\Core\Languages\Russian (Русский).tar"
+xcopy "1\RimWorld-ru-master\Core" "Data\Core\Languages\Russian (Русский)\"  /H /Y /C /R /S
+xcopy "1\RimWorld-ru-master\Royalty" "Data\Royalty\Languages\Russian (Русский)\"  /H /Y /C /R /S
+RD /s /q 1
+del master.zip
+```
+Скрипт нужно сохранить в файл с расширением .bat и положить корневую папку игры. Перед запуском убедитесь, что ваша версия игры соответствует версии перевода.
+
+Автор скрипта — Torin Douglas
+
+## Переводчики
+
+### Активные
 * [Elevator89](https://github.com/Elevator89)
 * [Kamadz](https://github.com/Kamadz)
 * [EcherArt](https://github.com/EcherArt)
 * [Dimonasdf](https://github.com/Dimonasdf)
 
-## Сделавшие весомый вклад:
-* [Dandi (inactive)](https://github.com/Dandi91)
-* [Humort (inactive)](https://github.com/Humort)
-* [Tarakanhb (inactive)](https://github.com/Tarakanhb)
-* [AcDie (inactive)](https://github.com/AcDie)
+### Сделавшие весомый вклад в прошлом
+* [Dandi](https://github.com/Dandi91)
+* [Humort](https://github.com/Humort)
+* [Tarakanhb](https://github.com/Tarakanhb)
+* [AcDie](https://github.com/AcDie)
 * [Arex-rus](https://github.com/Arex-rus)
 
-## Информация для желающих помочь проекту:
+## Желающим помочь проекту:
 Процесс перевода и организация командной работы описаны в [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
 
 Обсуждение всех вопросов происходит в [чате Телеграма](https://t.me/joinchat/CEY0QEO8s3S-29d_uv1SaQ) и в [группе ВКонтакте](https://vk.com/rimworld_russian).
