@@ -3,11 +3,16 @@
 
 В данном репозитории лежит не что иное, как официальная русская локализация RimWorld и дополнения Royalty. Именно из этого репозитория русский перевод попадает в игру с каждым выходом очередного обновления.
 
-Данный перевод постоянно исправляется и дорабатывается. И если вам не хочется ждать следующего обновления игры, вы можете скачать актуальную версию отсюда. Для этого нужно:
+Данный перевод постоянно исправляется и дорабатывается. И если вам не хочется ждать следующего обновления игры, вы можете скачать актуальную версию отсюда.
+
+## Установка
+
+### Стандартный способ
 
 1. Скачать архив, **соответствующий вашей версии игры (это важно!):**
-	* Последняя нестабильная 1.1 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
-	* 1.1.2624 (13.05.2020) + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2624.zip)
+	* Последняя актуальная 1.2 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
+	* 1.1.2654 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2654.zip)
+	* 1.1.2624 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2624.zip)
 	* Release: [1.0](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2150.zip)
 	* Beta: [B-18](https://github.com/Ludeon/RimWorld-ru/archive/beta-18.zip), [B-19](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip)
 	* Alpha : [A-15](https://github.com/Ludeon/RimWorld-ru/archive/alpha-15.zip), [A-16](https://github.com/Ludeon/RimWorld-ru/archive/alpha-16.zip), [A-17](https://github.com/Ludeon/RimWorld-ru/archive/alpha-17.zip)
@@ -33,37 +38,44 @@
 
 Таким образом, для Steam-версии в ОС Windows полный путь может выглядеть примерно так:`C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Data\Core\Languages\Russian`  
 
-## Официальные переводчики:
+### Автоматизированный способ
+
+Если не хочется проделывать каждый раз однотипные действия, можете воспользоваться .ps скриптом (только для Windows 10). При запуске скрипт скачает архив с последней версией перевода и положит в нужные папки:
+
+```
+powershell.exe -Command "Invoke-WebRequest -OutFile ./master.zip https://github.com/Ludeon/RimWorld-ru/archive/master.zip
+powershell.exe "Add-Type -A 'System.IO.Compression.FileSystem';[IO.Compression.ZipFile]::ExtractToDirectory('master.zip', '1');"
+RD /s /q "Data\Core\Languages\Russian (Русский)\"
+RD /s /q "Data\Royalty\Languages\Russian (Русский)\"
+del "Data\Royalty\Languages\Russian (Русский).tar"
+del "Data\Core\Languages\Russian (Русский).tar"
+xcopy "1\RimWorld-ru-master\Core" "Data\Core\Languages\Russian (Русский)\"  /H /Y /C /R /S
+xcopy "1\RimWorld-ru-master\Royalty" "Data\Royalty\Languages\Russian (Русский)\"  /H /Y /C /R /S
+RD /s /q 1
+del master.zip
+```
+Скрипт нужно сохранить в файл с расширением .bat и положить корневую папку игры. Перед запуском убедитесь, что ваша версия игры соответствует версии перевода.
+
+Автор скрипта — Torin Douglas
+
+## Переводчики
+
+### Активные
 * [Elevator89](https://github.com/Elevator89)
+* [Kamadz](https://github.com/Kamadz)
 * [EcherArt](https://github.com/EcherArt)
 * [Dimonasdf](https://github.com/Dimonasdf)
-* [Humort (inactive)](https://github.com/Humort)
-* [Tarakanhb (inactive)](https://github.com/Tarakanhb)
-* [AcDie (inactive)](https://github.com/AcDie)
-* [Dandi (inactive)](https://github.com/Dandi91)
 
-
-## Сделавшие вклад:
+### Сделавшие весомый вклад в прошлом
+* [Dandi](https://github.com/Dandi91)
+* [Humort](https://github.com/Humort)
+* [Tarakanhb](https://github.com/Tarakanhb)
+* [AcDie](https://github.com/AcDie)
 * [Arex-rus](https://github.com/Arex-rus)
-* [Bugo](https://github.com/dragomano)
-* [Ohar](https://github.com/Ohar)
-* [Dinoabunai](https://github.com/Dinoabunai)
-* [Orontion](https://github.com/orontion)
-* [Bobsans](https://github.com/bobsans)
-* [Lirryc](https://github.com/Lirryc)
-* [M-r-A](https://github.com/M-r-A)
-* [rooqie](https://github.com/rooqie)
-* [dankan0880](https://github.com/dankan0880)
 
-
-## Помощь:
-* [KviEt](https://github.com/KviEt)
-* [hazestalker](https://github.com/hazestalker)
-
-
-## Информация для желающих помочь проекту:
-Тема на официальном форуме разработчика, посвящённая переводам: http://ludeon.com/forums/index.php?topic=2933.0
-
+## Желающим помочь проекту:
 Процесс перевода и организация командной работы описаны в [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
 
 Обсуждение всех вопросов происходит в [чате Телеграма](https://t.me/joinchat/CEY0QEO8s3S-29d_uv1SaQ) и в [группе ВКонтакте](https://vk.com/rimworld_russian).
+
+Тема на официальном форуме разработчика, посвящённая переводам: http://ludeon.com/forums/index.php?topic=2933.0
