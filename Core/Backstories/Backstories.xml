@@ -2108,11 +2108,11 @@
 	<!-- Tribal_Adult -->
 	<StewKeeper95>
 		<!-- EN: stew keeper -->
-		<title>тушильщик мяса</title>
-		<titleFemale>тушильщица мяса</titleFemale>
+		<title>кухарь</title>
+		<titleFemale>кухарка</titleFemale>
 		<!-- EN: stewkeeper -->
-		<titleShort>повар</titleShort>
-		<titleShortFemale>повариха</titleShortFemale>
+		<titleShort>кухарь</titleShort>
+		<titleShortFemale>кухарка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] prepared meals from the plants and animals brought in by gatherers, farmers, and hunters of [PAWN_possessive] tribe. [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self. -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? готовил : готовила} еду из растений и животных, принесенных собирателями, земледельцами и охотниками {PAWN_possessive} племени. {PAWN_pronoun} {PAWN_gender ? следил : следила}, чтобы пища была сытной, здоровой и хорошо хранилась. {PAWN_nameDef} регулярно {PAWN_gender ? обрабатывал : обрабатывала}, а порой и {PAWN_gender ? сам : сама} {PAWN_gender ? собирал : собирала} растения.</desc>
 	</StewKeeper95>
@@ -2120,85 +2120,96 @@
 	<!-- ImperialFighter_Child -->
 	<StreetRat81>
 		<!-- EN: street rat -->
-		<title>street rat</title>
+		<title>уличная шпана</title>
 		<!-- EN: street rat -->
-		<titleShort>street rat</titleShort>
+		<titleShort>уличная шпана</titleShort>
 		<!-- EN: [PAWN_nameDef] belonged to a gang of street thieves. [PAWN_possessive] days were spent picking pockets, settling disputes over territory, or high on whatever drugs [PAWN_pronoun] could get [PAWN_possessive] hands on. -->
-		<desc>[PAWN_nameDef] belonged to a gang of street thieves. [PAWN_possessive] days were spent picking pockets, settling disputes over territory, or high on whatever drugs [PAWN_pronoun] could get [PAWN_possessive] hands on.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? состоял : состояла} в банде уличных воров. {PAWN_pronoun} {PAWN_gender ? проводил : проводила} свои дни, обворовывая чужие карманы, участвуя в разборках за территорию и ловя кайф с любых наркотиков, которые получалось достать.</desc>
 	</StreetRat81>
 
 	<!-- Tribal_Adult -->
 	<Tamer79>
 		<!-- EN: tamer -->
-		<title>tamer</title>
+		<title>укротитель</title>
+		<titleFemale>укротительница</titleFemale>
 		<!-- EN: tamer -->
-		<titleShort>tamer</titleShort>
+		<titleShort>укротитель</titleShort>
+    <titleShortFemale>укротительница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s role in [PAWN_possessive] tribe was to connect with the natural world around - especially the world of animals. In addition to fulfilling a spiritual role, [PAWN_pronoun] also tamed wild beasts and cared for them as they served the tribe. -->
-		<desc>[PAWN_nameDef]'s role in [PAWN_possessive] tribe was to connect with the natural world around - especially the world of animals. In addition to fulfilling a spiritual role, [PAWN_pronoun] also tamed wild beasts and cared for them as they served the tribe.</desc>
+		<desc>В своём племени {PAWN_nameDef} {PAWN_gender ? отвечал : отвечала} за единение с миром природы — особенно с животными. {PAWN_pronoun} не только {PAWN_gender ? исполнял : исполняла} свою духовную роль, но также {PAWN_gender ? приручал : приручала} диких зверей для работы в племени и {PAWN_gender ? заботился : заботилась} о них.</desc>
 	</Tamer79>
 
 	<!-- ImperialRoyal_Child -->
 	<UnwantedSurvivor67>
 		<!-- EN: unwanted survivor -->
-		<title>unwanted survivor</title>
+		<title>нежеланный выживший</title>
+		<titleFemale>нежеланная выжившая</titleFemale>
 		<!-- EN: survivor -->
-		<titleShort>survivor</titleShort>
+		<titleShort>выживший</titleShort>
+    <titleShortFemale>выжившая</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s noble family did not want [PAWN_objective], but could not afford to be seen directly assassinating [PAWN_objective] either. They attempted to get [PAWN_objective] killed by assigning [PAWN_objective] dangerous training without proper protection at too young an age.\n\nAgainst all odds, [PAWN_nameDef] survived the jousting contests, horsewar matches, riverrun competitions and warzones. In the end, it only made [PAWN_objective] stronger. -->
-		<desc>[PAWN_nameDef]'s noble family did not want [PAWN_objective], but could not afford to be seen directly assassinating [PAWN_objective] either. They attempted to get [PAWN_objective] killed by assigning [PAWN_objective] dangerous training without proper protection at too young an age.\n\nAgainst all odds, [PAWN_nameDef] survived the jousting contests, horsewar matches, riverrun competitions and warzones. In the end, it only made [PAWN_objective] stronger.</desc>
+		<desc>В своей знатной семье {PAWN_nameDef} {PAWN_gender ? был : была} нежеланным ребёнком, однако никто не мог позволить себе пойти на прямое убийство. Вместо этого было решено подстроить {PAWN_possessive} смерть, проводя с {PAWN_gender ? ним : ней} опасные тренировки без должной защиты в слишком раннем возрасте.\n\nНесмотря ни на что, {PAWN_nameDef} {PAWN_gender ? пережил : пережила} вcе пешие и конные боевые турниры, опасные речные заплывы и участие в различных локальных конфликтах. Это всё в итоге сделало {PAWN_possessive} только сильнее.</desc>
 	</UnwantedSurvivor67>
 
 	<!-- ImperialRoyal_Child -->
 	<UrbanLordling82>
 		<!-- EN: urban lordling -->
-		<title>urban lordling</title>
+		<title>городской лорд</title>
 		<!-- EN: urban lady -->
-		<titleFemale>urban lady</titleFemale>
+		<titleFemale>городская леди</titleFemale>
 		<!-- EN: city lord -->
-		<titleShort>city lord</titleShort>
+		<titleShort>лорд</titleShort>
 		<!-- EN: city lady -->
-		<titleShortFemale>city lady</titleShortFemale>
+		<titleShortFemale>леди</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was born to a royal house with a grand manor in a great city. [PAWN_pronoun] spent [PAWN_possessive] youth in lessons on politics.\n\nWhenever [PAWN_pronoun] could, [PAWN_pronoun] would escape with [PAWN_possessive] friends to explore the half-built substructure of the metropolis. -->
-		<desc>[PAWN_nameDef] was born to a royal house with a grand manor in a great city. [PAWN_pronoun] spent [PAWN_possessive] youth in lessons on politics.\n\nWhenever [PAWN_pronoun] could, [PAWN_pronoun] would escape with [PAWN_possessive] friends to explore the half-built substructure of the metropolis.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в знатной семье, владевшей великолепной усадьбой в огромном городе. Всё своё детство {PAWN_pronoun} {PAWN_gender ? провёл : провела}, изучая политику.\n\nПри малейшей возможности {PAWN_pronoun} {PAWN_gender ? сбегал : сбегала} со своими друзьями, чтобы исследовать столичные катакомбы.</desc>
 	</UrbanLordling82>
 
 	<!-- Tribal_Adult -->
 	<VengefulHunter32>
 		<!-- EN: vengeful hunter -->
-		<title>vengeful hunter</title>
+		<title>мстительный охотник</title>
+    <titleFemale>мстительная охотница</titleFemale>
 		<!-- EN: vengeful -->
-		<titleShort>vengeful</titleShort>
+		<titleShort>охотник</titleShort>
+    <titleShort>охотница</titleShort>
 		<!-- EN: Following the death of a close friend by animal attack, [PAWN_nameDef] hunted the beast responsible. [PAWN_pronoun] tracked it to a nearby village, only to find one of the villagers wearing its pelt. -->
-		<desc>Following the death of a close friend by animal attack, [PAWN_nameDef] hunted the beast responsible. [PAWN_pronoun] tracked it to a nearby village, only to find one of the villagers wearing its pelt.</desc>
+		<desc>После того, как дикий зверь убил {PAWN_possessive} друга, {PAWN_nameDef} {PAWN_gender ? начал : начала} на него охоту. {PAWN_pronoun} {PAWN_gender ? выследил : выследила} животное до соседней деревни, но {PAWN_gender ? нашёл : нашла} лишь его шкуру, которую уже носил на себе один из местных жителей.</desc>
 	</VengefulHunter32>
 
 	<!-- ImperialCommon_Child -->
 	<WarBastard60>
 		<!-- EN: war bastard -->
-		<title>war bastard</title>
+		<title>ребёнок от оккупанта</title>
 		<!-- EN: bastard -->
-		<titleShort>bastard</titleShort>
+		<titleShort>сын оккупанта</titleShort>
+		<titleShortFemale>дочь оккупанта</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was born nine months after [PAWN_possessive] mother's town was conquered by enemy soldiers. The child of violence with no acknowledged father, [PAWN_nameDef] grew up at the bottom of the social pyramid.\n\n[PAWN_possessive] mother instilled her bitterness towards men and war into [PAWN_nameDef]. [PAWN_possessive] pet rabbit offered more warmth than any human in [PAWN_possessive] life. -->
-		<desc>[PAWN_nameDef] was born nine months after [PAWN_possessive] mother's town was conquered by enemy soldiers. The child of violence with no acknowledged father, [PAWN_nameDef] grew up at the bottom of the social pyramid.\n\n[PAWN_possessive] mother instilled her bitterness towards men and war into [PAWN_nameDef]. [PAWN_possessive] pet rabbit offered more warmth than any human in [PAWN_possessive] life.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} через девять месяцев после того, как город {PAWN_possessive} матери был захвачен вражескими солдатами. Дитя, порождённое насилием, без признанного отца, {PAWN_nameDef} {PAWN_gender ? рос : росла} на самом дне социальной лестницы.\n\n{PAWN_possessive} мать привила {PAWN_nameDef} неприязнь к мужчинам и войне. Ручной кролик приносил {PAWN_objective} больше тепла, чем любой другой человек за всю жизнь.</desc>
 	</WarBastard60>
 
 	<!-- ImperialRoyal_Adult -->
 	<Warmaster54>
 		<!-- EN: warmaster -->
-		<title>warmaster</title>
+		<title>военный советник</title>
+		<titleFemale>военная советница</titleFemale>
 		<!-- EN: warmaster -->
-		<titleShort>warmaster</titleShort>
+		<titleShort>советник</titleShort>
+		<titleShortFemale>советница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was warmaster to a mid-level royal house. [PAWN_pronoun] oversaw military aspects of the family's strategy.\n\nOn the rare occasion a battle occurred, [PAWN_nameDef] directed the military commanders. -->
-		<desc>[PAWN_nameDef] was warmaster to a mid-level royal house. [PAWN_pronoun] oversaw military aspects of the family's strategy.\n\nOn the rare occasion a battle occurred, [PAWN_nameDef] directed the military commanders.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был военным советником : была военной советницей} при знатной семье. {PAWN_pronoun} {PAWN_gender ? занимался : занималась} всеми военными делами при дворе.\n\nВ тех редких случаях, когда происходили сражения, {PAWN_nameDef} {PAWN_gender ? руководил : руководила} офицерским составом.</desc>
 	</Warmaster54>
 
 	<!-- ImperialFighter_Adult -->
 	<Warmonger35>
 		<!-- EN: warmonger -->
-		<title>warmonger</title>
+		<title>свирепый воин</title>
+		<titleFemale>свирепая воительница</titleFemale>
 		<!-- EN: warmonger -->
-		<titleShort>warmonger</titleShort>
+		<titleShort>воин</titleShort>
+		<titleShortFemale>воительница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] revelled in bloodshed. Soldiers who served with [PAWN_objective] were terrified of [PAWN_possessive] ferocity. They rarely socialized with [PAWN_nameDef], and [PAWN_pronoun] did not mind the isolation. -->
-		<desc>[PAWN_nameDef] revelled in bloodshed. Soldiers who served with [PAWN_objective] were terrified of [PAWN_possessive] ferocity. They rarely socialized with [PAWN_nameDef], and [PAWN_pronoun] did not mind the isolation.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? упивался : упивалась} кровопролитием. Бойцы, служившие с {PAWN_gender ? ним : ней}, ужасались {PAWN_possessive} жестокости. Они редко общались с {PAWN_nameDef}, но {PAWN_objective} было хорошо и {PAWN_gender ? одному : одной}.</desc>
 	</Warmonger35>
 
 	<!-- Offworld_Specific_Child -->
