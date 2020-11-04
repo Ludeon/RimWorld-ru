@@ -343,8 +343,8 @@
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->Награда за гостеприимство</li>
     <li>rewardLetterText->[rewardGiver_nameDef] связывается с вами. [rewardDelayTicks_duration] назад вы помогли [rewardGiver_objective] в безвыходной ситуации.\n\nС тех пор [rewardGiver_pronoun] [hasGotten] своё положение и теперь хочет вознаградить вас за помощь. [rewardGiver_pronoun] отправляет вам капсулу со следующим содержимым:\n\n[listOfRewards]</li>
-    <li>hasGotten(rewardGiver0_gender==Male)->поправил</li>
-    <li>hasGotten(rewardGiver0_gender==Female)->поправила</li>
+    <li>hasGotten(rewardGiver_gender==Male)->поправил</li>
+    <li>hasGotten(rewardGiver_gender==Female)->поправила</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
