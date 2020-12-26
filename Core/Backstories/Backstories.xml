@@ -1141,7 +1141,7 @@
 		<titleShort>пастух</titleShort>
 		<titleShortFemale>пастушка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] tended the muffalo herds, keeping them safe from predators and treating sick animals. It was quiet work, but [PAWN_pronoun] enjoyed being away from people. -->
-		<desc>В детстве {PAWN_nameDef} {PAWN_gender ? пас : пасла} стада муффало своего племени, оберегая их от хищников и выхаживая больных животных. Это была спокойная работа в дали от людей, что {PAWN_objective} вполне нравилось.</desc>
+		<desc>В детстве {PAWN_nameDef} {PAWN_gender ? пас : пасла} стада муффало своего племени, оберегая их от хищников и выхаживая больных животных. Это была спокойная работа вдали от людей, что {PAWN_objective} вполне нравилось.</desc>
 	</Herder19>
 
 	<!-- Tribal_Child -->
@@ -1300,7 +1300,7 @@
 		<titleFemale>девочка из племени</titleFemale>
 		<!-- EN: tribal -->
 		<titleShort>абориген</titleShort>
-		<titleShortFemale>аборигенша</titleShortFemale>
+		<titleShortFemale>аборигенка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] grew up in a tribe, running around the village, moving with the muffalo herds, learning essential skills from [PAWN_possessive] parents.\n\n[PAWN_pronoun] never learned to read and never saw a machine that wasn't an ancient ruin. -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} в племени, бегая по деревне, перегоняя стада муффало и обучаясь у своих родителей всему самому важному.\n\n{PAWN_nameDef} не {PAWN_gender ? был обучен : была обучена} грамоте и никогда не {PAWN_gender ? видел : видела} никаких механизмов, кроме останков древних машин.</desc>
 	</TribeChild40>
@@ -1398,7 +1398,7 @@
 		<!-- EN: bookworm -->
 		<titleShort>книжный червь</titleShort>
 		<!-- EN: Rather than socialize with the other children, [PAWN_nameDef] preferred to get lost in literature. [PAWN_pronoun] taught [PAWN_objective]self to read at an early age with books bought from passing traders. -->
-		<desc>Общению дс другими детьми {PAWN_nameDef} {PAWN_gender ? предпочитал : предпочитала} погружаться в литературу. {PAWN_pronoun} в раннем возрасте самостоятельно {PAWN_gender ? научился : научилась} читать по книгам, купленным у проходящих мимо торговцев.</desc>
+		<desc>Общению с другими детьми {PAWN_nameDef} {PAWN_gender ? предпочитал : предпочитала} погружаться в литературу. {PAWN_pronoun} в раннем возрасте самостоятельно {PAWN_gender ? научился : научилась} читать по книгам, купленным у проходящих мимо торговцев.</desc>
 	</Bookworm19>
 
 	<!-- Tribal_Adult -->
@@ -1420,7 +1420,7 @@
 		<!-- EN: soldier -->
 		<titleShort>солдат</titleShort>
 		<!-- EN: [PAWN_pronoun] was a strong soldier in a long war of succession. In [PAWN_possessive] final battle, [PAWN_possessive] unit was sacrified to cover a retreat. [PAWN_nameDef] watched [PAWN_possessive] comrades die and was the only survivor.\n\nThe experience broke [PAWN_objective] inside, leaving [PAWN_objective] without the coping strategies to moderate [PAWN_possessive] emotions.\n\n[PAWN_nameDef] learned to draw in the hospital. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} способным солдатом во время затяжной войны за престол. В решающей битве {PAWN_possessive} подразделение оставили прикрывать отступление. {PAWN_nameDef} {PAWN_gender ? видел : видела} как гибнут {PAWN_possessive} товарищи, оставшись {PAWN_gender ? единственным выжившим : единственной выжившей}.\n\nЭти события сломили {PAWN_possessive}, оставив без какой-либо возможности контролировать свои эмоции.\n\n{PAWN_nameDef} {PAWN_gender ? научился : научилась} рисовать, находясь в госпитале.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} способным солдатом во время затяжной войны за престол. В решающей битве {PAWN_possessive} подразделение оставили прикрывать отступление. {PAWN_nameDef} {PAWN_gender ? видел : видела}, как {PAWN_possessive} товарищи гибли один за другим. {PAWN_gender ? Единственным выжившим оказался : Единственной выжившей оказалась} {PAWN_pronoun} {PAWN_gender ? сам : сама}.\n\nЭти события сломили {PAWN_possessive}, оставив без какой-либо возможности контролировать свои эмоции.\n\nНаходясь в госпитале, {PAWN_nameDef} {PAWN_gender ? научился : научилась} рисовать.</desc>
 	</BrokenSoldier29>
 
 	<!-- Tribal_Child -->
@@ -1548,10 +1548,11 @@
 	<!-- ImperialFighter_Child -->
 	<Delinquent13>
 		<!-- EN: delinquent -->
-		<title>ребёнок-преступник</title>
+		<title>малолетний арестант</title>
+		<titleFemale>малолетняя арестантка</titleFemale>
 		<!-- EN: delinquent -->
-		<titleShort>преступник</titleShort>
-		<titleShortFemale>преступница</titleShortFemale>
+		<titleShort>арестант</titleShort>
+		<titleShortFemale>арестантка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] childhood behind bars. Following an unsuccessful escape attempt, [PAWN_pronoun] was pressed into the military. -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? провёл : провела} большую часть своего детства за решеткой. И, после неудачной попытки побега, {PAWN_gender ? был отправлен : была отправлена} служить в армию.</desc>
 	</Delinquent13>
