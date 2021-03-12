@@ -207,10 +207,8 @@
 	<Chef52>
 		<!-- EN: chef -->
 		<title>повар среднего мира</title>
-		<titleFemale>повариха средн. мира</titleFemale>
 		<!-- EN: chef -->
 		<titleShort>повар</titleShort>
-		<titleShortFemale>повариха</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] ran a high-class restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among kitchen workers for [PAWN_possessive] casual disdain for grunt work. -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} владельцем первоклассного ресторана в одном из средних миров. Среди постоянных посетителей {PAWN_pronoun} {PAWN_gender ? обрёл : обрела} известность благодаря своему творческому подходу к кулинарии, но среди работников кухни у н{PAWN_possessive} была дурная репутация из-за пренебрежения тяжёлой работой.</desc>
 	</Chef52>
@@ -5279,20 +5277,24 @@
 	<Colonist22>
 		<!-- EN: colonist -->
 		<title>колонист с Земли</title>
+		<titleFemale>колонистка с Земли</titleFemale>
 		<!-- EN: colonist -->
 		<titleShort>колонист</titleShort>
+		<titleShortFemale>колонистка</titleShortFemale>
 		<!-- EN: As a child, [PAWN_pronoun] was launched into space as part of an interstellar colonization program. -->
-		<desc>{PAWN_nameDef} рождается на Земле. В самом юном возрасте {PAWN_possessive} отправляют в космос как часть программы по межзвёздной колонизации.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} на Земле. В самом юном возрасте {PAWN_possessive} отправили в космос в ходе программы межзвёздной колонизации.</desc>
 	</Colonist22>
 
 	<!-- Jesse "Jess" Spence, Male, Adulthood -->
 	<SoleSurvivor85>
 		<!-- EN: sole survivor -->
 		<title>оставшийся в живых</title>
+		<titleFemale>оставшаяся в живых</titleFemale>
 		<!-- EN: survivor -->
 		<titleShort>выживший</titleShort>
+		<titleShortFemale>выжившая</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] lived in a remote colony. When mechanoid centipedes attacked [PAWN_possessive] home and killed [PAWN_possessive] people, [PAWN_pronoun] was the last survivor. -->
-		<desc>{PAWN_nameDef} живёт в поселении на далёкой планете. Однажды на его дом нападают механоиды-сентипеды и убивают всех поселенцев. В живых остаётся только {PAWN_nameDef}.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? жил : жила} в поселении на далёкой планете. Однажды на его дом напали механоиды-сентипеды и убили всех поселенцев. В живых {PAWN_gender ? остался : осталась} только {PAWN_nameDef}.</desc>
 	</SoleSurvivor85>
 
 	<!-- Nathaniel Hicklin, Male, Childhood -->
@@ -5302,17 +5304,19 @@
 		<!-- EN: bookworm -->
 		<titleShort>книжный червь</titleShort>
 		<!-- EN: [PAWN_nameDef] spent [PAWN_possessive] youth in the library, reading every book [PAWN_pronoun] could about the technical marvels of space travel, the engineering ingenuity of the space-faring pioneers, and the horrible yet fascinating tales of mechanoid wars. [PAWN_pronoun] vowed that one day, [PAWN_pronoun] would see these things for [PAWN_objective]self. -->
-		<desc>{PAWN_nameDef} проводит свои юные годы в библиотеке, проглатывая книгу за книгой об инженерных чудесах межзвёздных путешествий, об изобретательности космических первопроходцев и о расе таинственных и пугающих механоидов. {PAWN_pronoun} клянётся, что однажды он увидит всё это своими глазами.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? провёл : проводила} свои юные годы в библиотеке, проглатывая книгу за книгой об инженерных чудесах межзвёздных путешествий, об изобретательности космических первопроходцев и о расе таинственных и пугающих механоидов. {PAWN_pronoun} {PAWN_gender ? поклялся : поклялась}, что однажды увидит всё это своими глазами.</desc>
 	</Bookworm3>
 
 	<!-- Nathaniel Hicklin, Male, Adulthood -->
 	<Explorer49>
 		<!-- EN: explorer -->
 		<title>исследователь</title>
+		<titleFemale>исследовательница</titleFemale>
 		<!-- EN: explorer -->
 		<titleShort>исследователь</titleShort>
+		<titleShortFemale>исследовательница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] traveled from planet to planet, gathering samples, stories, and research. [PAWN_pronoun] hoped one day to compile a record of every animal, plant, mineral, and machine and device in known space: The Complete Traveler's Guide to the RimWorlds. -->
-		<desc>{PAWN_nameDef} путешествует с планеты на планету, собирая образцы, сказания и данные научных исследований. {PAWN_pronoun} надеется однажды собрать данные обо всех животных, растениях, минералах, машинах и устройствах известного космоса и составить «Полный путеводитель по окраинным мирам».</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? путешествовал : путешествовала} между планетами, собирая образцы, сказания и данные научных исследований. {PAWN_pronoun} {PAWN_gender ? надеялся : надеялась} однажды собрать данные обо всех животных, растениях, минералах, машинах и устройствах известного космоса и составить «Полный путеводитель по окраинным мирам».</desc>
 	</Explorer49>
 
 	<!-- Luc "Doc" Roach, Male, Childhood -->
@@ -5322,7 +5326,7 @@
 		<!-- EN: colony kid -->
 		<titleShort>поселенец</titleShort>
 		<!-- EN: [PAWN_nameDef] was born the child of two doctors in a small colony. Because of [PAWN_possessive] parents, [PAWN_pronoun] was always interested in science and medicine.\n\n[PAWN_nameDef] never really got along with other children, and as a result became withdrawn and unsociable. -->
-		<desc>{PAWN_nameDef} рождается в семье врачей в небольшом поселении на далёкой планете. От своих родителей {PAWN_pronoun} наследует интерес к науке и медицине.\n\n{PAWN_nameDef} не особенно ладит с другими детьми и становится замкнутым и необщительным ребёнком.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в семье врачей в небольшом поселении на далёкой планете. От своих родителей {PAWN_pronoun} {PAWN_gender ? унаследовал : унаследовала} интерес к науке и медицине.\n\n{PAWN_nameDef} не особенно {PAWN_gender ? ладил : ладила} с другими детьми и {PAWN_gender ? был : была} замкнутым и необщительным ребёнком.</desc>
 	</ColonyKid47>
 
 	<!-- Luc "Doc" Roach, Male, Adulthood -->
@@ -5332,48 +5336,54 @@
 		<!-- EN: doctor -->
 		<titleShort>врач</titleShort>
 		<!-- EN: [PAWN_nameDef] was a doctor on a starship. [PAWN_pronoun] was a brilliant surgeon and dabbled in research of [PAWN_possessive] own. However, [PAWN_pronoun] was quite reclusive and never had the best bedside manner. -->
-		<desc>{PAWN_nameDef} становится врачом на космическом корабле. Будучи блестящим хирургом, {PAWN_pronoun} даже проводит собственные исследования. Тем не менее, {PAWN_pronoun} по-прежнему остаётся замкнутым человеком и не отличается хорошим чувством врачебного такта.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} врачом на космическом корабле. Будучи блестящим хирургом, {PAWN_pronoun} даже {PAWN_gender ? проводил : проводила} собственные исследования. Тем не менее, {PAWN_pronoun} {PAWN_gender ? был : была} замкнутым человеком и не {PAWN_gender ? отличался : отличалась} хорошим чувством врачебного такта.</desc>
 	</StarshipDoctor37>
 
 	<!-- Lumine "Lumi" LeBlanc, Female, Childhood -->
 	<CaravanChild53>
 		<!-- EN: caravan child -->
 		<title>девочка-трансгендер</title>
+		<titleFemale>мальчик-трансгендер</titleFemale>
 		<!-- EN: child -->
 		<titleShort>трансгендер</titleShort>
 		<!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, [PAWN_pronoun] disliked boy stuff, and got into [PAWN_possessive] mother's things all the time.\n\nEventually, [PAWN_pronoun] traveled with [PAWN_possessive] mother to a glitterworld and spent [PAWN_possessive] savings on a body [PAWN_pronoun] was happy with. -->
-		<desc>{PAWN_nameDef} рождается на свет на борту торгового корабля с городского мира. Её мать была предпринимателем, а отца она не помнит. Будучи по рождению мальчиком, {PAWN_nameDef} была равнодушна ко всему, что обычно любят мальчишки. Ей больше нравилось переодеваться в мамины вещи.\n\nВ конце концов они посещают мир-утопию, где {PAWN_nameDef} тратит все свои сбережения на тело, в котором она бы чувствовала себя комфортно.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} на свет на борту торгового корабля с городского мира. {PAWN_possessive} мать была предпринимательницей, а отца {PAWN_pronoun} не помнит. {PAWN_nameDef} {PAWN_gender ? родился мальчиком : родилась девочкой}, но {PAWN_gender ? был равнодушен : была равнодушна} ко всему, что обычно любят {PAWN_gender ? мальчишки : девчонки}. {PAWN_objective} больше нравилось примерять {PAWN_gender ? мамины вещи : мужскую одежду}.\n\nВ конце концов они с мамой посетили мир-утопию, где {PAWN_nameDef} {PAWN_gender ? потратил : потратила} все свои сбережения на тело, в котором {PAWN_objective} было бы комфортно.</desc>
 	</CaravanChild53>
 
 	<!-- Lumine "Lumi" LeBlanc, Female, Adulthood -->
 	<BountyHunter41>
 		<!-- EN: bounty hunter -->
 		<title>охотник за головами</title>
+		<titleFemale>охотница за головами</titleFemale>
 		<!-- EN: hunter -->
 		<titleShort>охотник</titleShort>
+		<titleShortFemale>охотница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a bounty hunter on a massive glitterworld. [PAWN_pronoun] worked sensitive assignments for extremely wealthy clients, and was known for quiet execution and total discretion. -->
-		<desc>{PAWN_nameDef} становится охотником за головами в мире-утопии. {PAWN_pronoun} выполняет деликатные заказы крайне состоятельных клиентов и приобретает известность благодаря умению тихо устранять своих жертв и хранить чужие секреты.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} охотником за головами в мире-утопии. {PAWN_pronoun} {PAWN_gender ? выполнял : выполняла} деликатные заказы крайне состоятельных клиентов и {PAWN_gender ? приобрёл : приобрела} известность благодаря умению тихо устранять своих жертв и хранить чужие секреты.</desc>
 	</BountyHunter41>
 
 	<!-- Hagen "Shepherd" Fallersbach, Male, Childhood -->
 	<ReEducatedYouth23>
 		<!-- EN: re-educated youth -->
 		<title>ученик</title>
+		<titleFemale>ученица</titleFemale>
 		<!-- EN: reeducated -->
 		<titleShort>ученик</titleShort>
 		<titleShortFemale>ученица</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] lived on a midworld where the government cared about the youth. \n\n[PAWN_pronoun] was one of the many children who were taken from their parents and forced into the new education programs. -->
-		<desc>{PAWN_nameDef} живёт в среднем мире, где власти уделяют пристальное внимание молодёжной политике.\n\n{PAWN_pronoun} становится одним из многих детей, которых забирают у родителей и сажают на школьную скамью.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? жил : жила} в среднем мире, где власти уделяли пристальное внимание молодёжной политике.\n\n{PAWN_pronoun} {PAWN_gender ? стал одним : стала одной} из многих детей, которых забрали у родителей и принудительно поместили в центры «переобучения».</desc>
 	</ReEducatedYouth23>
 
 	<!-- Hagen "Shepherd" Fallersbach, Male, Adulthood -->
 	<FallenOfficial12>
 		<!-- EN: fallen official -->
 		<title>бывший чиновник</title>
+		<titleFemale>бывшая чиновница</titleFemale>
 		<!-- EN: official -->
 		<titleShort>чиновник</titleShort>
+		<titleShortFemale>чиновница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was an official for an autocratic government.\n\nWhen [PAWN_possessive] superiors demanded [PAWN_pronoun] participate in atrocities, [PAWN_nameDef] resigned and escaped from [PAWN_possessive] homeworld with nothing but the clothes on [PAWN_possessive] back. -->
-		<desc>{PAWN_nameDef} становится чиновником в автократическом правительстве.\n\nКогда начальство начало от н{PAWN_possessive} требовать участия в расправах над несогласными, {PAWN_nameDef} уходит в отставку и покидает родной мир, имея лишь одежду на своих плечах.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} чиновником в автократическом правительстве.\n\nКогда начальство потребовало от н{PAWN_possessive} участия в расправах над несогласными, {PAWN_nameDef} {PAWN_gender ? ушёл : ушла} в отставку и {PAWN_gender ? покинул : покинула} родной мир с одной лишь одеждой на себе.</desc>
 	</FallenOfficial12>
 
 	<!-- Umbra "Darklight" Nighthawk, Male, Childhood -->
@@ -5384,7 +5394,7 @@
 		<titleShort>про́клятый</titleShort>
 		<titleShortFemale>про́клятая</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was born at the peak of a lunar eclipse. The elders declared [PAWN_objective] a child of darkness and brought [PAWN_objective] under their care.\n\n[PAWN_possessive] entire childhood was spent studying the lore and rituals of [PAWN_possessive] people - until the day of calling. -->
-		<desc>{PAWN_nameDef} рождается на пике лунного затмения. Старейшины называют {PAWN_possessive} исчадием тьмы, отданным им на воспитание.\n\nВсё своё детство {PAWN_pronoun} тратит на изучение сказаний и обычаев родного племени. До определённого момента.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} на пике лунного затмения. Старейшины назвали {PAWN_possessive} исчадием тьмы и забрали к себе на воспитание.\n\nВсё своё детство {PAWN_pronoun} {PAWN_gender ? провёл : провела} за изучением сказаний и обычаев родного племени. До определённого момента.</desc>
 	</AccursedChild88>
 
 	<!-- Umbra "Darklight" Nighthawk, Male, Adulthood -->
@@ -5394,7 +5404,7 @@
 		<!-- EN: shaman -->
 		<titleShort>шаман</titleShort>
 		<!-- EN: When the monsters of fire came from the sky, [PAWN_nameDef] was called upon by [PAWN_possessive] tribe to guide them into battle.\n\n[PAWN_nameDef] made use of medicines and rituals to inspire and lead the warriors of many tribes against the invaders. The pirates were forced to retreat without capturing a single slave. -->
-		<desc>Когда с неба снисходят огненные чудища, {PAWN_nameDef} становится тем, за кем всё племя идёт в битву.\n\n{PAWN_nameDef} использует талисманы и ритуалы, чтобы поднять и вести воинов многих племён в бой с захватчиками. В тот день пираты были вынуждены отступить, не обратив в рабство ни одного человека.</desc>
+		<desc>Когда с неба снизошли огненные чудища, {PAWN_nameDef} {PAWN_gender ? стал тем : стала той}, за кем всё племя пошло в битву.\n\n{PAWN_nameDef} {PAWN_gender ? использовал : использовала} талисманы и ритуалы, чтобы вдохновлять и вести воинов многих племён в бой с захватчиками. В тот день пираты были вынуждены отступить, не обратив в рабство ни одного человека.</desc>
 	</ShamanOfShadows47>
 
 	<!-- Jordan "Edmund" Nelson, Male, Childhood -->
@@ -5404,7 +5414,7 @@
 		<!-- EN: astronomer -->
 		<titleShort>астроном</titleShort>
 		<!-- EN: [PAWN_nameDef] was fascinated with astronomy. [PAWN_pronoun] would spend hours gazing at planets and nebulae through [PAWN_possessive] telescope.\n\n[PAWN_pronoun] is credited with discovering a small comet that would, years later, strike a nearby moon and disrupt the mining operations there. -->
-		<desc>{PAWN_nameDef} с детства проявляет интерес к астрономии. {PAWN_pronoun} может часами смотреть в телескоп на разные планеты и туманности.\n\nИменно {PAWN_nameDef} обнаруживает небольшую комету, которая годы спустя сталкивается с ближайшей луной, из-за чего на ней прекращается добыча полезных ископаемых.</desc>
+		<desc>{PAWN_nameDef} с детства {PAWN_gender ? проявлял : проявляла} интерес к астрономии. {PAWN_pronoun} {PAWN_gender ? мог : могла} часами смотреть в телескоп на разные планеты и туманности.\n\nИменно {PAWN_nameDef} {PAWN_gender ? обнаружил : обнаружила} небольшую комету, которая годы спустя столкнулась с ближайшей луной, из-за чего на ней прекратилась добыча полезных ископаемых.</desc>
 	</AmateurAstronomer77>
 
 	<!-- Jordan "Edmund" Nelson, Male, Adulthood -->
@@ -5414,17 +5424,19 @@
 		<!-- EN: security -->
 		<titleShort>охранник</titleShort>
 		<!-- EN: [PAWN_nameDef] was commissioned as a special constable on a network of space stations. There [PAWN_pronoun] prevented illegal human trafficking.\n\nOnce, fire broke out on the station, and [PAWN_pronoun] saved many from the flames. Since then, [PAWN_pronoun] has avoided fires. -->
-		<desc>{PAWN_nameDef} назначается на должность особого коменданта в сети космических станций, чтобы пресекать торговлю людьми.\n\nОднажды на станции возникает пожар, и {PAWN_nameDef} спасает многих людей. Но с тех пор {PAWN_pronoun} старается избегать огня.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был назначен : была назначена} на должность специального констебля в сети космических станций, чтобы пресекать торговлю людьми.\n\nОднажды на станции случился пожар, и {PAWN_nameDef} {PAWN_gender ? спас : спасла} многих людей. Но с тех пор {PAWN_pronoun} {PAWN_gender ? старался : старалась} избегать огня.</desc>
 	</StationSecurity38>
 
 	<!-- Trevor "Trev" Austin, Male, Childhood -->
 	<FarmHand2>
 		<!-- EN: farm hand -->
 		<title>помощник на ферме</title>
+		<titleFemale>помощница на ферме</titleFemale>
 		<!-- EN: farm hand -->
 		<titleShort>помощник</titleShort>
+		<titleShortFemale>помощница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was born on a farm on a rimworld.\n\nEverything was taken care of by the few members of the farm, including [PAWN_nameDef]. This helped [PAWN_objective] build independence, spirit, and a well-rounded character. -->
-		<desc>{PAWN_nameDef} растёт на ферме на небольшой колониальной планете.\n\n{PAWN_pronoun} занимается хозяйством наравне с остальными немногочисленными работниками фермы. Такой труд позволяет {PAWN_objective} воспитать в себе независимость, укрепить дух и получить всестороннее развитие.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} на ферме на небольшой колониальной планете.\n\n{PAWN_pronoun} {PAWN_gender ? занимался : занималась} хозяйством наравне с остальными немногочисленными работниками фермы. Такой труд позволил {PAWN_objective} воспитать в себе независимость и уравновешенный характер, а также укрепить дух.</desc>
 	</FarmHand2>
 
 	<!-- Trevor "Trev" Austin, Male, Adulthood -->
@@ -5434,7 +5446,7 @@
 		<!-- EN: trafficker -->
 		<titleShort>торговец</titleShort>
 		<!-- EN: [PAWN_nameDef] discovered [PAWN_pronoun] was heir of [PAWN_possessive] distant uncle's weapons-trading business.\n\nTo protect the future of the company [PAWN_pronoun] went through extensive military training, in case of any "unforeseen circumstances". -->
-		<desc>{PAWN_nameDef} неожиданно для себя получает в наследство бизнес далёкого дядюшки, связанный с торговлей оружием.\n\nЧтобы защитить будущее компании, {PAWN_pronoun} проходит серьёзную военную подготовку. На случай «непредвиденных обстоятельств».</desc>
+		<desc>{PAWN_nameDef} неожиданно для себя {PAWN_gender ? получил : получила} в наследство бизнес далёкого дядюшки, связанный с торговлей оружием.\n\nЧтобы защитить будущее компании, {PAWN_pronoun} {PAWN_gender ? прошёл : прошла} серьёзную военную подготовку. На случай «непредвиденных обстоятельств».</desc>
 	</SpaceTrafficker68>
 
 	<!-- Priscilla Bellerose, Female, Childhood -->
@@ -5444,7 +5456,7 @@
 		<!-- EN: pop idol -->
 		<titleShort>поп-звезда</titleShort>
 		<!-- EN: [PAWN_nameDef] grew up on a glitterworld, training in rapier arts and singing. [PAWN_pronoun] spent several years as an energetic teen pop idol.\n\nHowever, [PAWN_pronoun] decided that the music and modeling industries were not paying [PAWN_objective] enough attention, so [PAWN_pronoun] left. -->
-		<desc>{PAWN_nameDef} растёт в мире-утопии, обучаясь пению и фехтованию. В конце концов {PAWN_pronoun} становится юной и энергичной поп-звездой.\n\nЧерез несколько лет, посчитав, что в музыке и модельном бизнесе {PAWN_objective} уделяют недостаточно внимания, {PAWN_nameDef} решает уйти.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} в мире-утопии, обучаясь пению и фехтованию. В конце концов {PAWN_pronoun} {PAWN_gender ? стал : стала} юной и энергичной поп-звездой.\n\nЧерез несколько лет, посчитав, что в музыке и модельном бизнесе {PAWN_objective} уделяли недостаточно внимания, {PAWN_nameDef} {PAWN_gender ? решил : решила} уйти.</desc>
 	</EnergeticPopIdol61>
 
 	<!-- Priscilla Bellerose, Female, Adulthood -->
@@ -5454,7 +5466,7 @@
 		<!-- EN: pirate -->
 		<titleShort>пират</titleShort>
 		<!-- EN: [PAWN_nameDef] and [PAWN_possessive] fans set out as a space pirate crew. [PAWN_pronoun] raided corporations for money and staged performances to spread [PAWN_possessive] name.\n\n[PAWN_nameDef] became afraid of fire when a rival burned [PAWN_possessive] stage down. [PAWN_pronoun] relied on [PAWN_possessive] fans to do the work [PAWN_pronoun] found unappealing. -->
-		<desc>{PAWN_nameDef} собирает из своих фанатов команду космических пиратов. Они грабят корпорации, устраивая из этого целые шоу и прославляя {PAWN_possessive} имя. Работу, которую {PAWN_nameDef} считает неприглядной, {PAWN_pronoun} поручает своим фанатам.\n\n{PAWN_nameDef} начинает бояться огня, когда их сцену однажды сжигают конкуренты.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? собрал : собрала} из своих фанатов команду космических пиратов. Они грабили корпорации, устраивая параллельно выступления, всё ради популярности. Работу, которую {PAWN_nameDef} {PAWN_gender ? считал : считала} неприглядной, {PAWN_pronoun} {PAWN_gender ? поручал : поручала} своим фанатам.\n\n{PAWN_nameDef} {PAWN_gender ? стал : стала} бояться огня, когда их сцену однажды сожгли конкуренты.</desc>
 	</PopIdolPirate39>
 
 	<!-- Tom "Blizzard" Kranenburg, Male, Childhood -->
@@ -5464,7 +5476,7 @@
 		<!-- EN: ice child -->
 		<titleShort>дитя льда</titleShort>
 		<!-- EN: Growing up on the frozen wastes of an ocean moon, [PAWN_nameDef] only had animals and a few hard-bitten sailors as companions.\n\nThe lack of social interaction made [PAWN_objective] develop a interest in engineering - but [PAWN_pronoun] never developed any great fondness for humans. -->
-		<desc>{PAWN_nameDef} проводит свои юные годы на замёрзших пустошах водного спутника планеты-гиганта. {PAWN_possessive} единственными друзьями становятся лишь животные и закалённые моряки.\n\nНедостаток общения с людьми {PAWN_nameDef} компенсирует своим увлечением робототехникой.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? провёл : провела} свои юные годы среди ледяных пустошей спутника-океана. {PAWN_possessive} единственными друзьями были лишь животные и закалённые моряки.\n\nНедостаток общения с людьми {PAWN_nameDef} {PAWN_gender ? компенсировал : компенсировала} своим увлечением робототехникой.</desc>
 	</IcePlanetChild95>
 
 	<!-- Tom "Blizzard" Kranenburg, Male, Adulthood -->
@@ -5474,7 +5486,7 @@
 		<!-- EN: roboticist -->
 		<titleShort>робототехник</titleShort>
 		<!-- EN: Sailors often died on the dangerous waters of [PAWN_nameDef]'s ocean planet. [PAWN_pronoun] created robots to replace them.\n\nOver time, [PAWN_pronoun] collected a small crew of robots to do [PAWN_possessive] bidding. [PAWN_pronoun] became proficient at mechanics and engineering, but lost the taste for manual labor. -->
-		<desc>В опасных водах планеты, где живёт {PAWN_nameDef}, часто гибли моряки. Чтобы их заменить, {PAWN_pronoun} конструирует роботов.\n\nСо временем у н{PAWN_possessive} собирается целая команда из роботов. {PAWN_nameDef} совершенствует свои навыки инженера и механика, теряя интерес к ручному труду.</desc>
+		<desc>В опасных водах планеты, где {PAWN_gender ? жил : жила} {PAWN_nameDef}, часто гибли моряки. Чтобы их заменить, {PAWN_pronoun} {PAWN_gender ? конструировал : конструировала} роботов.\n\nСо временем у н{PAWN_possessive} собралась целая механическая свита. {PAWN_nameDef} {PAWN_gender ? отточил : отточила} свои навыки инженера и механика, но {PAWN_gender ? потерял : потеряла} всякий интерес к ручному труду.</desc>
 	</Roboticist1>
 
 	<!-- Sa'Bikk "Sab" Saleosy, Male, Childhood -->
@@ -5484,37 +5496,42 @@
 		<!-- EN: toxic -->
 		<titleShort>вредина</titleShort>
 		<!-- EN: Growing up on a an industrial planet, [PAWN_nameDef] started working in a chemical plant at age of six. Years of exposure to industrial toxins left [PAWN_objective] mentally scarred.\n\n[PAWN_pronoun] eventually blew up the facility and escaped the planet in a stolen cargo ship. -->
-		<desc>{PAWN_nameDef} растёт в индустриальном мире. С шести лет {PAWN_pronoun} трудится на химическом заводе. Годы работы с токсичными веществами оставляют свой след на {PAWN_possessive} психике.\n\nОднажды {PAWN_nameDef} устраивает на заводе взрыв и бежит с планеты на угнанном грузовом корабле.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} в индустриальном мире. С шести лет {PAWN_pronoun} {PAWN_gender ? трудился : трудилась} на химическом заводе. Годы работы с токсичными веществами оставили свой след на {PAWN_possessive} психике.\n\nОднажды {PAWN_nameDef} {PAWN_gender ? устроил : устроила} на заводе взрыв и {PAWN_gender ? сбежал : сбежала} с планеты на угнанном грузовом корабле.</desc>
 	</ToxicChild96>
 
 	<!-- Sa'Bikk "Sab" Saleosy, Male, Adulthood -->
 	<StalwartFarmer90>
 		<!-- EN: stalwart farmer -->
 		<title>стойкий фермер</title>
+		<titleFemale>стойкая фермерша</titleFemale>
 		<!-- EN: farmer -->
 		<titleShort>фермер</titleShort>
+		<titleShortFemale>фермерша</titleShortFemale>
 		<!-- EN: With the farm under constant threat from brigands, [PAWN_nameDef] learned to defend [PAWN_objective]self with [PAWN_possessive] father's rifle. [PAWN_pronoun] also mastered how to construct walls to keep livestock in and predators out.\n\n[PAWN_pronoun] once tried to paint a picture of [PAWN_possessive] home, but discovered that [PAWN_pronoun] could only draw scribbles and ducks. -->
-		<desc>Постоянные налёты на ферму, от которых {PAWN_nameDef} отбивается с помощью отцовского охотничьего ружья, научили {PAWN_possessive} самозащите. Кроме того, {PAWN_pronoun} осваивает установку изгородей и заборов, чтобы содержать домашний скот на ферме, а диких животных — за её пределами.\n\nОднажды {PAWN_nameDef} пытается расписать свой дом, но быстро понимает, что верх {PAWN_possessive} способностей — невразумительная мазня на стене сарая.</desc>
+		<desc>Постоянные налёты на ферму, от которых {PAWN_nameDef} {PAWN_gender ? отбивался : отбивался} с помощью отцовского охотничьего ружья, научили {PAWN_possessive} самозащите. Кроме того, {PAWN_pronoun} {PAWN_gender ? освоил : освоила} строительство изгородей и заборов, чтобы сдерживать домашний скот на ферме, а диких животных — за её пределами.\n\nОднажды {PAWN_nameDef} {PAWN_gender ? попытался : попыталась} нарисовать свой дом, но быстро {PAWN_gender ? понял : поняла}, что хорошо у н{PAWN_possessive} получались только утки и каракули.</desc>
 	</StalwartFarmer90>
 
 	<!-- Eric "Teddy" Smith, Male, Childhood -->
 	<BoyScout42>
 		<!-- EN: boy scout -->
 		<title>бойскаут</title>
+		<titleFemale>гёрлскаут</titleFemale>
 		<!-- EN: scout -->
 		<titleShort>скаут</titleShort>
 		<!-- EN: [PAWN_nameDef] was in a boy scout troop on a midworld.\n\n[PAWN_pronoun] learned many survival skills including how to thrive in the outdoors and how to tend to basic wounds. -->
-		<desc>{PAWN_nameDef} вступает в отряд бойскаутов в среднем мире.\n\nТам {PAWN_pronoun} получает необходимые навыки, такие как выживание в дикой местности и основы оказания первой помощи.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} членом отряда скаутов в среднем мире.\n\nТам {PAWN_pronoun} {PAWN_gender ? получил : получила} разнообразные навыки, такие как выживание в дикой местности и основы оказания первой помощи.</desc>
 	</BoyScout42>
 
 	<!-- Eric "Teddy" Smith, Male, Adulthood -->
 	<UrbworldPimp93>
 		<!-- EN: urbworld pimp -->
 		<title>сутенёр с мира-утопии</title>
+		<titleFemale>«мадам» с мира-утопии</titleFemale>
 		<!-- EN: pimp -->
 		<titleShort>сутенёр</titleShort>
+		<titleShortFemale>«мадам»</titleShortFemale>
 		<!-- EN: At first, [PAWN_nameDef] made a small profit from selling drugs. Then, [PAWN_pronoun] switched to selling women and made a fortune.\n\n[PAWN_pronoun] developed great skills with [PAWN_possessive] fists. [PAWN_pronoun] also learned to fix up the injuries [PAWN_pronoun] inflicted on the girls. -->
-		<desc>Сначала {PAWN_nameDef} кормится с продажи наркотиков, потом начинает торговать девушками и зарабатывает целое состояние.\n\n{PAWN_objective} часто приходится работать кулаками. Также {PAWN_pronoun} учится лечить раны, которые иногда наносит своим девочкам.</desc>
+		<desc>Сначала {PAWN_nameDef} {PAWN_gender ? занимался : занималась} с продажи наркотиков, потом начинает торговать девушками и {PAWN_gender ? заработал : заработала} целое состояние.\n\n{PAWN_objective} часто приходилось работать кулаками. Также {PAWN_pronoun} {PAWN_gender ? научился : научилась} лечить раны, которые иногда {PAWN_gender ? наносил : наносила} своим девочкам.</desc>
 	</UrbworldPimp93>
 
 	<!-- Erika Belsaas, Female, Childhood -->
@@ -5524,7 +5541,7 @@
 		<!-- EN: prodigy -->
 		<titleShort>вундеркинд</titleShort>
 		<!-- EN: [PAWN_nameDef] was top of [PAWN_possessive] class in chemistry, physics, exobiology, astronomy and opera.\n\nAn unfortunate lab accident left [PAWN_objective] with a deathly fear of fire. -->
-		<desc>Среди всех учеников класса {PAWN_nameDef} лучше всех разбирается в химии, физике, экзобиологии, астрономии и оперном искусстве.\n\nИз-за одного несчастного случая в лаборатории у н{PAWN_possessive} на всю жизнь вырабатывается страх перед огнём.</desc>
+		<desc>Среди всех учеников класса {PAWN_nameDef} лучше всех {PAWN_gender ? разбирался : разбиралась} в химии, физике, экзобиологии, астрономии и опере.\n\nИз-за одного несчастного случая в лаборатории у н{PAWN_possessive} на всю жизнь появился страх перед огнём.</desc>
 	</ScienceProdigy65>
 
 	<!-- Erika Belsaas, Female, Adulthood -->
@@ -5534,17 +5551,19 @@
 		<!-- EN: physicist -->
 		<titleShort>физик</titleShort>
 		<!-- EN: [PAWN_nameDef] performed cutting-edge physics research. [PAWN_pronoun] wanted to help build a better and more peaceful future. -->
-		<desc>{PAWN_nameDef} проводит передовые исследования в области физики, стараясь по мере сил приблизить мирное и светлое будущее.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? проводил : проводила} передовые исследования в области физики, стараясь по мере сил приблизить мирное и светлое будущее.</desc>
 	</ParticlePhysicist44>
 
 	<!-- Russell "Rusty" Shackleford, Male, Childhood -->
 	<SpeederRacer71>
 		<!-- EN: speeder racer -->
 		<title>гонщик</title>
+		<titleFemale>гонщица</titleFemale>
 		<!-- EN: racer -->
 		<titleShort>гонщик</titleShort>
+		<titleShortFemale>гонщица</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was the son of a fern farmer in the towering forests of Khalderia.\n\n[PAWN_pronoun] found [PAWN_possessive] first love in speeder racing, zipping in and out of the massive canopies and gorgeous vistas of [PAWN_possessive] homeworld. The seedy underworld of racing also forced [PAWN_objective] to learn to defend [PAWN_objective]self with a quick word or a quicker shot. -->
-		<desc>{PAWN_nameDef} с ранних лет работает на папоротниковой ферме своего отца в исполинских лесах Халдерии.\n\n{PAWN_pronoun} находит радость в гонках на спидерах и рассекает туда-сюда под пологом массивных крон зелёного раздолья {PAWN_possessive} родного края. Обратная сторона мира подпольных гонок быстро учит {PAWN_possessive} стоять за себя правильным словом или метким выстрелом.</desc>
+		<desc>{PAWN_nameDef} с ранних лет {PAWN_gender ? работал : работала} на папоротниковой ферме своего отца в исполинских лесах Халдерии.\n\n{PAWN_pronoun} {PAWN_gender ? находил : находила} радость в гонках на спидерах и {PAWN_gender ? рассекал : рассекала} туда-сюда под пологом массивных крон зелёного раздолья {PAWN_possessive} родного края. Обратная сторона мира подпольных гонок быстро научила {PAWN_possessive} отстаивать свои интересы острым словом или метким выстрелом.</desc>
 	</SpeederRacer71>
 
 	<!-- Russell "Rusty" Shackleford, Male, Adulthood -->
@@ -5554,27 +5573,29 @@
 		<!-- EN: lawyer -->
 		<titleShort>юрист</titleShort>
 		<!-- EN: [PAWN_nameDef] found that [PAWN_pronoun] could make more money with a quick word than a blaster. Seeking a job where [PAWN_possessive] silver tongue could be useful, [PAWN_pronoun] turned to the law.\n\n[PAWN_pronoun] often defended the illegal speeder racers [PAWN_pronoun] grew up with. -->
-		<desc>{PAWN_nameDef} понимает, что правильным словом {PAWN_pronoun} заработает больше денег, чем при помощи бластера. В поисках работы, где бы пригодился {PAWN_possessive} хорошо подвешенный язык, {PAWN_nameDef} решает остановиться на юриспруденции.\n\nПользуясь своим положением, {PAWN_pronoun} часто выручает своих старых друзей-гонщиков.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? понимал : понимала}, что красноречивость {PAWN_objective} принесёт больше денег, чем бластер. В поисках работы, где бы пригодился {PAWN_possessive} хорошо подвешенный язык, {PAWN_nameDef} {PAWN_gender ? решил : решила} остановиться на юриспруденции.\n\nПользуясь своим положением, {PAWN_pronoun} часто {PAWN_gender ? выручал : выручала} своих старых друзей-гонщиков.</desc>
 	</DefenseLawyer71>
 
 	<!-- Niklas "Niklas" Fischer, Male, Childhood -->
 	<MercenaryRecruit18>
 		<!-- EN: mercenary recruit -->
-		<title>наёмник-новобранец</title>
+		<title>наёмник-рекрут</title>
+		<titleFemale>наёмница-рекрут</titleFemale>
 		<!-- EN: recruit -->
 		<titleShort>наёмник</titleShort>
+		<titleShortFemale>наёмница</titleShortFemale>
 		<!-- EN: Born to a long line of off-world mercenaries, [PAWN_nameDef] grew up in a busy trading hub. At a young age, [PAWN_pronoun] was recruited into one of the mercenary crews. -->
-		<desc>{PAWN_nameDef} – потомок многих поколений путешествующих между мирами наёмников — вырастает в месте с оживлённой торговлей. В юном возрасте {PAWN_pronoun} пополняет ряды одного из наёмных подразделений.</desc>
+		<desc>{PAWN_nameDef} – потомок многих поколений путешествующих между мирами наёмников — {PAWN_gender ? вырос : выросла} в месте с оживлённой торговлей. В юном возрасте {PAWN_pronoun} {PAWN_gender ? пополнил : пополнила} ряды одного из наёмных подразделений.</desc>
 	</MercenaryRecruit18>
 
 	<!-- Niklas "Niklas" Fischer, Male, Adulthood -->
 	<Ranger6>
 		<!-- EN: ranger -->
-		<title>лесник</title>
+		<title>лесничий</title>
 		<!-- EN: ranger -->
-		<titleShort>егерь</titleShort>
+		<titleShort>лесничий</titleShort>
 		<!-- EN: [PAWN_nameDef] lived alone, deep in a forest. [PAWN_pronoun] protected the wildlife against poachers, and learned to satisfy [PAWN_possessive] own material needs without outside help. -->
-		<desc>{PAWN_nameDef} живёт в одиночестве, в дремучем лесу. {PAWN_pronoun} защищает дикую природу от браконьеров и учится удовлетворять свои материальные потребности без посторонней помощи.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? жил : жила} в одиночестве, в дремучем лесу. {PAWN_pronoun} {PAWN_gender ? защищал : защищала} дикую природу от браконьеров и {PAWN_gender ? учился : училась} удовлетворять свои материальные потребности без посторонней помощи.</desc>
 	</Ranger6>
 
 	<!-- Christophe Géradon, Male, Childhood -->
@@ -5584,7 +5605,7 @@
 		<!-- EN: psych -->
 		<titleShort>психолог</titleShort>
 		<!-- EN: [PAWN_nameDef] was born and raised on a poor midworld, in the front passenger seat of [PAWN_possessive] mother's cab.\n\nWatching pedestrians and listening to the taxi passengers all day long, [PAWN_pronoun] soon became very good at figuring out someone's real purpose. -->
-		<desc>{PAWN_nameDef} рождается и растёт в бедном среднем мире, на переднем сиденье такси своей матери.\n\nДнями напролёт наблюдая за пешеходами и слушая пассажиров, {PAWN_pronoun} учится распознавать истинные намерения людей.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился и рос : родилась и росла} в бедном среднем мире, на переднем сиденье такси своей матери.\n\nДнями напролёт наблюдая за пешеходами и слушая пассажиров, {PAWN_pronoun} {PAWN_gender ? научился : научилась} распознавать истинные намерения людей.</desc>
 	</YoungPsychologist58>
 
 	<!-- Christophe Géradon, Male, Adulthood -->
@@ -5594,7 +5615,7 @@
 		<!-- EN: leader -->
 		<titleShort>лидер</titleShort>
 		<!-- EN: Early in [PAWN_possessive] adulthood, [PAWN_nameDef] found [PAWN_objective]self surrounded by a gaggle of low-lifes. \n\nFor fun, [PAWN_pronoun] gathered them and lead them to a certain death. [PAWN_pronoun] knew then that [PAWN_pronoun] had the talent to realize [PAWN_possessive] ambitions of leadership. -->
-		<desc>В совершеннолетнем возрасте возрасте {PAWN_nameDef} понимает, что {PAWN_possessive} окружает кучка каких-то отморозков.\n\nРади развлечения он {PAWN_pronoun} собирает их вместе и ведёт на верную смерть. Тогда {PAWN_nameDef} понимает, что у н{PAWN_possessive} есть всё, чтобы воплотить в жизнь свои амбиции лидера.</desc>
+		<desc>В совершеннолетнем возрасте {PAWN_nameDef} {PAWN_gender ? понял : поняла}, что {PAWN_possessive} окружает кучка каких-то отморозков.\n\nРади развлечения {PAWN_pronoun} {PAWN_gender ? собрал : собрала} их вместе и {PAWN_gender ? повёл : повела} на верную смерть. Тогда {PAWN_nameDef} {PAWN_gender ? осознал : осознала}, что у н{PAWN_possessive} есть всё, чтобы воплотить в жизнь свои амбиции лидера.</desc>
 	</FactionLeader74>
 
 	<!-- Lukas Dietrich, Male, Childhood -->
@@ -5604,7 +5625,7 @@
 		<!-- EN: lab-grown -->
 		<titleShort>тихоня</titleShort>
 		<!-- EN: [PAWN_nameDef] was born in a laboratory as part of a altruistic but failed attempt to create a new class of human.\n\n[PAWN_possessive] childhood was filled with books and one-on-one tutoring. [PAWN_pronoun] was awkward, shy, and naive to the true nature of humanity. -->
-		<desc>{PAWN_nameDef} рождается в лаборатории как часть альтруистического, но провалившегося эксперимента по созданию человека новой эпохи.\n\n{PAWN_possessive} детство состояло из чтения книг и индивидуального обучения. {PAWN_nameDef} вырастает слишком неуклюжим, скромным и наивным ребёнком, чтобы выжить в мире людей.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в лаборатории в ходе альтруистического, но провалившегося эксперимента по созданию человека новой эпохи.\n\n{PAWN_possessive} детство состояло из чтения книг и индивидуального обучения. {PAWN_nameDef} {PAWN_gender ? вырос : выросла} слишком странным, скромным и наивным ребёнком, чтобы выжить в мире людей.</desc>
 	</LabGrownChild22>
 
 	<!-- Lukas Dietrich, Male, Adulthood -->
@@ -5614,17 +5635,19 @@
 		<!-- EN: researcher -->
 		<titleShort>учёный</titleShort>
 		<!-- EN: [PAWN_nameDef] was sold to a corporation and put to work as a corporate slave doing scientific research.\n\nUnable to adapt to the social politics of [PAWN_possessive] workplace, [PAWN_pronoun] buried [PAWN_objective]self in [PAWN_possessive] work and failed to progress up the corporate ladder. Every day, [PAWN_pronoun] yearned to be left alone. -->
-		<desc>Когда {PAWN_nameDef} достигает совершеннолетия, {PAWN_possessive} как раба продают корпорации и заставляют проводить научные исследования.\n\nБудучи не в состоянии адаптироваться к социальной среде рабочего коллектива, {PAWN_nameDef} окружает себя работой и никак не продвигается по карьерной лестнице. {PAWN_pronoun} хочет, чтобы {PAWN_possessive} просто оставили в покое.</desc>
+		<desc>Когда {PAWN_nameDef} {PAWN_gender ? достиг : достигла} совершеннолетия, {PAWN_possessive} как раба продали корпорации и заставляли проводить научные исследования.\n\nБудучи не в состоянии адаптироваться к социальной среде рабочего коллектива, {PAWN_nameDef} {PAWN_gender ? окружил : окружила} себя работой и никак не {PAWN_gender ? продвигался : продвигалась} по карьерной лестнице. {PAWN_pronoun} {PAWN_gender ? хотел : хотела}, чтобы {PAWN_possessive} просто оставили в покое.</desc>
 	</CorpResearcher71>
 
 	<!-- Pablo Cholaky, Male, Childhood -->
 	<TechScholar75>
 		<!-- EN: tech scholar -->
 		<title>студент-технарь</title>
+		<titleFemale>студентка-технарь</titleFemale>
 		<!-- EN: scholar -->
 		<titleShort>студент</titleShort>
+		<titleShortFemale>студентка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a youth scholar of the world of science and technology.\n\n[PAWN_pronoun] strived every day to expand [PAWN_possessive] intellectual abilities. -->
-		<desc>В юном возрасте {PAWN_nameDef} стремится получить образование, чтобы погрузится в мир науки и высоких технологий.\n\nКаждый свой день {PAWN_pronoun} прилагает усилия к тому, чтобы ещё больше развить свои интеллектуальные способности.</desc>
+		<desc>В юном возрасте {PAWN_nameDef} {PAWN_gender ? стремился : стремилась} получить образование, чтобы погрузится в мир науки и высоких технологий.\n\nКаждый день {PAWN_pronoun} {PAWN_gender ? прилагал : прилагала} усилия к тому, чтобы ещё больше развить свои интеллектуальные способности.</desc>
 	</TechScholar75>
 
 	<!-- Pablo Cholaky, Male, Adulthood -->
@@ -5634,7 +5657,7 @@
 		<!-- EN: tech doc -->
 		<titleShort>учёный</titleShort>
 		<!-- EN: [PAWN_nameDef] performed research into propulsive fuels and energy generation.\n\n[PAWN_pronoun] loved technology research, and hoped to improve human life by doing it. -->
-		<desc>{PAWN_nameDef} проводит научные исследования с целью создания более совершенного ракетного топлива и новых технологий производства электроэнергии.\n\n{PAWN_pronoun} любит свою работу и стремится с её помощью сделать жизнь людей лучше.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? проводил : проводила} научные исследования с целью создания более совершенного ракетного топлива и новых технологий производства электроэнергии.\n\n{PAWN_pronoun} {PAWN_gender ? любил : любила} свою работу и стремится с её помощью сделать жизнь людей лучше.</desc>
 	</TechnologyDoctor35>
 
 	<!-- Cole "Brick" Schmidt, Male, Childhood -->
@@ -5644,17 +5667,18 @@
 		<!-- EN: gladiator -->
 		<titleShort>гладиатор</titleShort>
 		<!-- EN: [PAWN_nameDef] was enslaved as a child and forced to fight creatures and other people in an underground fighting arena.\n\n[PAWN_pronoun] showed an affinity for the sport, and eventually bought [PAWN_possessive] own freedom. However, [PAWN_possessive] time in the pits never brought [PAWN_objective] much intellectual stimulation. -->
-		<desc>{PAWN_nameDef} не может похвастаться счастливым прошлым. Ещё в детстве {PAWN_possessive} обращают в рабство и заставляют сражаться с животными и людьми на арене.\n\n{PAWN_nameDef} показывает свои недюжинные способности в этой области и выкупает свою свободу. Однако время, проведённое на арене, никак не располагает к умственной деятельности.</desc>
+		<desc>{PAWN_nameDef} не может похвастаться счастливым прошлым. Ещё в детстве {PAWN_possessive} обратили в рабство и заставляли сражаться с животными и людьми на арене.\n\n{PAWN_nameDef} {PAWN_gender ? показал : показала} недюжинные способности в этой области и {PAWN_gender ? выкупил : выкупила} свою свободу. Однако времяпрепровождение на арене никак не стимулировало умственное развитие.</desc>
 	</PitGladiator19>
 
 	<!-- Cole "Brick" Schmidt, Male, Adulthood -->
 	<PirateTrooper73>
 		<!-- EN: pirate trooper -->
 		<title>пират-штурмовик</title>
+		<titleFemale>пиратка-штурмовик</titleFemale>
 		<!-- EN: trooper -->
 		<titleShort>штурмовик</titleShort>
 		<!-- EN: [PAWN_nameDef] joined a renowned interstellar criminal organization, and was often part of shock-assault boarding parties during starship raids.\n\nThough [PAWN_possessive] combat experience made [PAWN_objective] a good fighter, the ruthlessness of the job left [PAWN_objective] cold-hearted and unenthusiastic about social interaction. -->
-		<desc>{PAWN_nameDef} присоединяется к далёкой межзвёздной криминальной организации, где нередко принимает участие в захвате кораблей в составе абордажной группы.\n\n{PAWN_pronoun} становится закалённым бойцом, но при этом вырабатывает чёрствость характера и теряет любовь к общению с людьми.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? присоединился : присоединилась} к известной межзвёздной криминальной организации, где нередко {PAWN_gender ? принимал : принимала} участие в захватах кораблей в составе абордажной группы.\n\n{PAWN_pronoun} {PAWN_gender ? стал : стала} закалённым бойцом, но при этом {PAWN_gender ? потерял : потеряла} любовь к общению с людьми, а характер {PAWN_possessive} зачерствел.</desc>
 	</PirateTrooper73>
 
 	<!-- Felix von Schild, Male, Childhood -->
@@ -5664,7 +5688,7 @@
 		<!-- EN: worker -->
 		<titleShort>рабочий</titleShort>
 		<!-- EN: [PAWN_nameDef] grew up in a large factory city on an industrial world.\n\nSince poverty was rampant and food scarce, [PAWN_pronoun] worked for whatever wages [PAWN_pronoun] could get. This wasn't an easy life, but [PAWN_nameDef] never shied away from a hard day's work. -->
-		<desc>{PAWN_nameDef} растёт в большом городе-фабрике индустриального мира.\n\nВокруг царит бедность, еды не хватает, и {PAWN_nameDef} работает за любую плату. Жизнь нелегка, но {PAWN_pronoun} не гнушается тяжёлого, каждодневного труда.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} в большом городе-фабрике индустриального мира.\n\nВокруг царила бедность, еды не хватало, и {PAWN_nameDef} {PAWN_gender ? работал : работала} за любую плату. Жизнь была нелегка, но {PAWN_pronoun} не {PAWN_gender ? гнушался : гнушалась} тяжёлого, каждодневного труда.</desc>
 	</FactoryDrone58>
 
 	<!-- Felix von Schild, Male, Adulthood -->
@@ -5674,37 +5698,43 @@
 		<!-- EN: medic -->
 		<titleShort>медик</titleShort>
 		<!-- EN: After [PAWN_possessive] home country entered a large-scale war, [PAWN_nameDef] was drafted into the army as a combat medic.\n\n[PAWN_possessive] few years in the trenches trying to keep [PAWN_possessive] fellow soldiers alive gave [PAWN_objective] an acute sense for first aid. Losing many friend has made [PAWN_objective] stoic and reserved. -->
-		<desc>Страна, где живёт {PAWN_nameDef}, вступает в крупномасштабную войну, и {PAWN_possessive} призывают в армию в качестве военно-полевого медика.\n\nНесколько лет, проведённые в траншеях в попытках спасения жизней своих сослуживцев, развили немалые способности по оказанию первой помощи. Однако гибель многих друзей привела {PAWN_possessive} к замкнутости и безразличию к окружающим.</desc>
+		<desc>Страна, где {PAWN_gender ? жил : жила} {PAWN_nameDef}, вступила в крупномасштабную войну, и {PAWN_possessive} призвали в армию в качестве военно-полевого медика.\n\nНесколько лет, проведённые в траншеях в попытках спасения жизней своих сослуживцев, помогли отточить навыки оказания первой помощи. Однако гибель многих друзей сделала {PAWN_possessive} {PAWN_gender ? замкнутым и безразличным : замкнутой и безразличной} к окружающим.</desc>
 	</CombatMedic82>
 
 	<!-- Krandus "Krand" Zaxsen, Male, Childhood -->
 	<RichBoy9>
 		<!-- EN: rich boy -->
 		<title>богатый мальчик</title>
+		<titleFemale>богатая девочка</titleFemale>
 		<!-- EN: rich boy -->
 		<titleShort>мажор</titleShort>
+		<titleShortFemale>мажорка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] grew up on a midworld with loving parents, a cute pet and a lot of money - but no friends.\n\n[PAWN_pronoun] was always told by [PAWN_possessive] father that 'those peasants just want your money'. So, [PAWN_pronoun] spent most of [PAWN_possessive] time alone, or fighting other kids. -->
-		<desc>{PAWN_nameDef} растёт в среднем мире, у н{PAWN_possessive} есть любящие родители, милый питомец и много денег, но нет друзей.\n\n{PAWN_possessive} отец всегда говорил: «Эти крестьяне хотят лишь твоих денег», так что {PAWN_nameDef} проводит время либо в одиночестве, либо в драках с другими детьми.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} в среднем мире, у н{PAWN_possessive} были любящие родители, милый питомец и много денег, но нет было друзей.\n\n{PAWN_possessive} отец всегда говорил: «Эти крестьяне хотят лишь твоих денег», так что {PAWN_nameDef} {PAWN_gender ? проводил : проводила} время либо в одиночестве, либо в драках с другими детьми.</desc>
 	</RichBoy9>
 
 	<!-- Krandus "Krand" Zaxsen, Male, Adulthood -->
 	<HiredGun70>
 		<!-- EN: hired gun -->
 		<title>наёмник</title>
+		<titleFemale>наёмница</titleFemale>
 		<!-- EN: hired gun -->
 		<titleShort>наёмник</titleShort>
+		<titleShortFemale>наёмница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] always wanted to prove [PAWN_pronoun] could make a living without [PAWN_possessive] parents' help. [PAWN_pronoun] did shady jobs that often involved pointing guns at innocent people.\n\n[PAWN_pronoun] eventually made enough money to board a cheap freighter. [PAWN_pronoun] discovered why it was so cheap when it crashed. -->
-		<desc>{PAWN_nameDef} хочет доказать, что может зарабатывать на жизнь без помощи родителей. {PAWN_pronoun} берётся за сомнительные работы, которые, как правило, включают в себя тыканье пушкой в невинных людей.\n\nВ конце концов {PAWN_nameDef} зарабатывает достаточно денег, чтобы купить дешёвый грузовой корабль. {PAWN_pronoun} узнает причину низкой стоимости, когда эта посудина терпит крушение.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? хотел : хотела} доказать, что может зарабатывать на жизнь без помощи родителей. {PAWN_pronoun} {PAWN_gender ? брался : бралась} за сомнительные дела, которые, как правило, включали в себя тыканье пушкой в невинных людей.\n\nВ конце концов {PAWN_nameDef} {PAWN_gender ? заработал : заработала} достаточно денег, чтобы купить дешёвый грузовой корабль. {PAWN_pronoun} {PAWN_gender ? понял : поняла} причину низкой стоимости, когда эта посудина потерпела крушение.</desc>
 	</HiredGun70>
 
 	<!-- Larusa Rynyk, Female, Childhood -->
 	<Athlete47>
 		<!-- EN: athlete -->
 		<title>атлет</title>
+		<titleFemale>атлетка</titleFemale>
 		<!-- EN: athlete -->
 		<titleShort>атлет</titleShort>
+		<titleShortFemale>атлетка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was professional athlete at early age. Thanks to [PAWN_possessive] skills, [PAWN_pronoun] was able to leave [PAWN_possessive] homeworld and enroll in a glitterworld university of science and technology.\n\nBecause of [PAWN_possessive] demanding schedule and introverted nature, [PAWN_pronoun] became socially inept. -->
-		<desc>{PAWN_nameDef} — с ранних лет профессиональный атлет. {PAWN_possessive} навыки позволили {PAWN_objective} покинуть родную планету и поступить в университет науки и технологий в утопическом мире.\n\nИз-за напряжённого графика и собственной замкнутости {PAWN_nameDef} почти не общается с другими людьми.</desc>
+		<desc>{PAWN_nameDef} — с ранних лет {PAWN_gender ? профессиональный атлет : профессиональная атлетка}. {PAWN_possessive} навыки позволили {PAWN_objective} покинуть родную планету и поступить в научно-технологический университет утопического мира.\n\nИз-за напряжённого графика и собственной замкнутости {PAWN_nameDef} почти не {PAWN_gender ? общался : общалась} с другими людьми.</desc>
 	</Athlete47>
 
 	<!-- Larusa Rynyk, Female, Adulthood -->
@@ -5714,37 +5744,42 @@
 		<!-- EN: assassin -->
 		<titleShort>киллер</titleShort>
 		<!-- EN: Because of [PAWN_possessive] skills, [PAWN_nameDef] developed a sense of superiority. In time, [PAWN_pronoun] lost [PAWN_possessive] sense of empathy. [PAWN_pronoun] often got into fights, and discovered how easy it is to kill a person.\n\nAfter realizing [PAWN_possessive] talents, [PAWN_pronoun] became one of the most efficient assassins in the system. -->
-		<desc>{PAWN_nameDef} чувствует, что во многом превосходит других из-за своих навыков. Со временем {PAWN_possessive} чувство эмпатии угасает, и {PAWN_nameDef} начинает часто попадать в драки. {PAWN_pronoun} видит, насколько это просто — взять и убить человека.\n\nОсознав свои способности, {PAWN_nameDef} занимает своё место среди самых эффективных киллеров.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? чувствовал : чувствовала}, что во многом превосходит других из-за своих навыков. Со временем {PAWN_possessive} чувство эмпатии угасло, и {PAWN_nameDef} {PAWN_gender ? начал : начала} часто попадать в драки. {PAWN_pronoun} {PAWN_gender ? видел : видела}, насколько это просто — взять и убить человека.\n\nОсознав свои способности, {PAWN_nameDef} {PAWN_gender ? занял : заняла} своё место среди самых эффективных киллеров.</desc>
 	</StilettoAssassin34>
 
 	<!-- Exorus "Huntsman" Hawke, Male, Childhood -->
 	<SoleSurvivor63>
 		<!-- EN: sole survivor -->
 		<title>выживший</title>
+		<titleFemale>выжившая</titleFemale>
 		<!-- EN: survivor -->
 		<titleShort>выживший</titleShort>
+		<titleShortFemale>выжившая</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s entire tribe was wiped out by a mysterious disease.\n\nFound alone and adopted by another band, [PAWN_pronoun] never became close with the other tribe members. [PAWN_pronoun] preferred to stay away from [PAWN_possessive] new home, wandering the woods and tending the animals. -->
-		<desc>Племя, в котором живёт {PAWN_nameDef}, умирает от таинственной болезни.\n\nНесмотря на то, что через какое-то время {PAWN_possessive} находит и принимает другое племя, сродниться с новыми соплеменниками у н{PAWN_possessive} так и не выходит. {PAWN_nameDef} предпочитает оставаться вдали от нового дома, бродя по лесу и ухаживая за животными.</desc>
+		<desc>Племя, в котором {PAWN_gender ? жил : жила} {PAWN_nameDef}, вымерло из-за таинственной болезни.\n\nНесмотря на то, что через какое-то время {PAWN_possessive} нашло и приняло к себе другое племя, сродниться с новыми соплеменниками у н{PAWN_possessive} так и не получилось. {PAWN_nameDef} {PAWN_gender ? предпочитал : предпочитала} оставаться вдали от нового дома, бродя по лесу и ухаживая за животными.</desc>
 	</SoleSurvivor63>
 
 	<!-- Exorus "Huntsman" Hawke, Male, Adulthood -->
 	<Hunter73>
 		<!-- EN: hunter -->
 		<title>охотник</title>
+		<titleFemale>охотница</titleFemale>
 		<!-- EN: hunter -->
 		<titleShort>охотник</titleShort>
+		<titleShortFemale>охотница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a master hunter.\n\n[PAWN_pronoun] learned to track and trap any animal in the most dangerous of places, and had deep knowledge of many ingenious methods for taking down specific large animals. -->
-		<desc>{PAWN_nameDef} становится прекрасным охотником.\n\n{PAWN_pronoun} может даже в самых опасных местах выследить и поймать любое животное и знает множество хитроумных способов завалить крупного зверя.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} {PAWN_gender ? прекрасным охотником : прекрасной охотницей}.\n\n{PAWN_pronoun} {PAWN_gender ? мог : могла} даже в самых опасных местах выследить и поймать любое животное и {PAWN_gender ? знал : знала} множество хитроумных способов завалить крупного зверя.</desc>
 	</Hunter73>
 
 	<!-- Dennis "Mac" McCarthy, Male, Childhood -->
 	<MechanoidHacker93>
 		<!-- EN: mechanoid hacker -->
 		<title>взломщик механоидов</title>
+		<titleFemale>взломщица механоидов</titleFemale>
 		<!-- EN: mechacker -->
 		<titleShort>мехакер</titleShort>
 		<!-- EN: The only son of a well respected mechanoid inventor, [PAWN_nameDef] had access to the materials to subvert and modify [PAWN_possessive] father's creations.\n\n[PAWN_pronoun] used drugs to increase [PAWN_possessive] productivity. Unfortunately, the side-effects included persistent delusions of being mechanized, which limited [PAWN_possessive] social life. -->
-		<desc>{PAWN_nameDef} — единственный ребёнок в семье известного и уважаемого изобретателя механоидов. {PAWN_pronoun} имеет доступ к материалам, позволяющим вторгаться в детища {PAWN_possessive} отца и модифицировать их.\n\nДля того, чтобы повысить свою продуктивность, {PAWN_pronoun} принимает специальные препараты. К сожалению, из-за их побочного действия {PAWN_nameDef} сам начинает считать себя механизмом, что не сказывается положительно на общении с другими людьми.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} единственным ребёнком в семье известного и уважаемого изобретателя механоидов. {PAWN_pronoun} {PAWN_gender ? имел : имела} доступ к материалам, позволяющим взламывать детища {PAWN_possessive} отца и модифицировать их.\n\nДля того, чтобы повысить свою продуктивность, {PAWN_pronoun} {PAWN_gender ? принимал : принимала} специальные препараты. К сожалению, из-за их побочного действия {PAWN_nameDef} {PAWN_gender ? сам начал : сама начала} считать себя механизмом, что не сказалось положительно на общении с другими людьми.</desc>
 	</MechanoidHacker93>
 
 	<!-- Dennis "Mac" McCarthy, Male, Adulthood -->
@@ -5754,17 +5789,19 @@
 		<!-- EN: technician -->
 		<titleShort>инженер</titleShort>
 		<!-- EN: [PAWN_nameDef] had received firearms training, but [PAWN_possessive] work was focused on technical adaptation and manipulation of combat mechanoids on the battlefield.\n\n[PAWN_pronoun] developed PTSD after narrowly escaping a primitive firebomb attack in a wheat field. The army medically discharged [PAWN_objective] from service. -->
-		<desc>{PAWN_nameDef} получает боевую подготовку, но {PAWN_possessive} работа заключается в разработке боевых модификаций и средств управления механоидами на поле боя.\n\nЕдва избежав смерти от попадания примитивной зажигательной бомбы во время очередного налёта, {PAWN_nameDef} получает психическую травму. Командование отстраняет {PAWN_possessive} от службы по состоянию здоровья.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? получил : получила} боевую подготовку, но {PAWN_possessive} работа заключалась в разработке боевых модификаций и средств управления механоидами на поле боя.\n\nЕдва избежав смерти от попадания примитивной зажигательной бомбы во время очередного налёта, {PAWN_nameDef} {PAWN_gender ? приобрёл : приобрела} посттравматическое расстройство. Командование отстранило {PAWN_possessive} от службы по состоянию здоровья.</desc>
 	</BattlefieldTech52>
 
 	<!-- Marcus "Adiemus" Bergström, Male, Childhood -->
 	<ProjectSubject99>
 		<!-- EN: project subject -->
 		<title>подопытный</title>
+		<titleFemale>подопытная</titleFemale>
 		<!-- EN: subject -->
 		<titleShort>подопытный</titleShort>
+		<titleShortFemale>подопытная</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was picked by government agents for the mysterious "Frame Project".\n\nDue to memory blockages, however, [PAWN_pronoun] remembers very little about this project or its true agenda - only that there were few survivors. -->
-		<desc>После того, как {PAWN_possessive} в юном возрасте похищают правительственные агенты, {PAWN_nameDef} становится невольным участником таинственного проекта «Контур».\n\nОднако из-за провалов памяти {PAWN_pronoun} удивительно мало помнит о проекте и его истинных целях — только то, что в живых осталось очень мало людей.</desc>
+		<desc>После того, как {PAWN_possessive} в юном возрасте похитили правительственные агенты, {PAWN_nameDef} {PAWN_gender ? стал невольным участником : стала невольной участницей} таинственного проекта «Контур».\n\nОднако из-за провалов памяти {PAWN_pronoun} удивительно мало {PAWN_gender ? помнил : помнила} о проекте и его истинных целях — только то, что в живых осталось очень мало людей.</desc>
 	</ProjectSubject99>
 
 	<!-- Marcus "Adiemus" Bergström, Male, Adulthood -->
@@ -5774,17 +5811,19 @@
 		<!-- EN: trader -->
 		<titleShort>торговец</titleShort>
 		<!-- EN: [PAWN_nameDef] was a master at trading. [PAWN_pronoun] earned [PAWN_possessive] nickname by helping a village through a trying time. -->
-		<desc>{PAWN_nameDef} становится преуспевающим торговцем. {PAWN_pronoun} получает своё прозвище за помощь помощь одной деревне в трудное время.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} преуспевающим торговцем. {PAWN_pronoun} {PAWN_gender ? получил : получила} своё прозвище за помощь помощь одной деревне в трудное время.</desc>
 	</MasterTrader65>
 
 	<!-- Joshua "Zug" Hamby, Male, Childhood -->
 	<HexCellArtist91>
 		<!-- EN: hex-cell artist -->
 		<title>«Сотовый» художник</title>
+		<titleFemale>«Сотовая» художница</titleFemale>
 		<!-- EN: artist -->
 		<titleShort>художник</titleShort>
+		<titleShortFemale>художница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] crafted sculptures from spent hex-cells and traded them to a local museum for food.\n\nAfter [PAWN_possessive] popularity grew, [PAWN_pronoun] was approached by a pirate and abducted. The pirate kept [PAWN_objective] prisoner and forced [PAWN_objective] to create sculptures for sale. -->
-		<desc>{PAWN_nameDef} мастерит скульптуры из использованных сотовых аккумуляторов и отдаёт их в местный музей за еду.\n\nКогда {PAWN_pronoun} получает некоторую известность, {PAWN_possessive} похищает пират. Этот пират держит юного художника взаперти и заставляет делать для него скульптуры на продажу.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? мастерил : мастерила} скульптуры из использованных сотовых энергоячеек и {PAWN_gender ? обменивал : обменивала} их в местном музее за еду.\n\nКогда {PAWN_pronoun} {PAWN_gender ? получил : получила} некоторую известность, {PAWN_possessive} похитил пират. Он держал {PAWN_gender ? юного художника : юную художницу} взаперти и заставлял делать для себя скульптуры на продажу.</desc>
 	</HexCellArtist91>
 
 	<!-- Joshua "Zug" Hamby, Male, Adulthood -->
@@ -5794,7 +5833,7 @@
 		<!-- EN: chef -->
 		<titleShort>повар</titleShort>
 		<!-- EN: [PAWN_nameDef] has always gone overboard when it comes to food. [PAWN_pronoun] is always seeking new and exotic ingredients.\n\n[PAWN_possessive] quest for ingredients has brought [PAWN_objective] into some close calls with local flora and fauna. -->
-		<desc>{PAWN_nameDef} крайне оживляется, когда речь заходит о еде. {PAWN_pronoun} всегда ищет новые экзотические ингредиенты для своих блюд.\n\nВ поисках таких ингредиентов при контакте с местной флорой и фауной {PAWN_pronoun} несколько раз оказывается на волосок от смерти.</desc>
+		<desc>{PAWN_nameDef} всегда крайне {PAWN_gender ? оживлялся : оживлялась}, когда речь заходит о еде. {PAWN_pronoun} всегда {PAWN_gender ? искал : искала} новые экзотические ингредиенты для своих блюд.\n\nВ поисках таких ингредиентов при контакте с местной флорой и фауной {PAWN_pronoun} несколько раз {PAWN_gender ? оказывался : оказывалась} на волосок от смерти.</desc>
 	</ExoticChef96>
 
 	<!-- Geckulon "Gecko" Decktar, Male, Childhood -->
@@ -5804,7 +5843,7 @@
 		<!-- EN: prodigy -->
 		<titleShort>вундеркинд</titleShort>
 		<!-- EN: [PAWN_nameDef]'s childhood was cut short when a mysterious plague hit [PAWN_possessive] homeworld.\n\n[PAWN_pronoun] watched [PAWN_possessive] friends die, and [PAWN_possessive] compassion for humanity died with them. In its place a new thirst for knowledge emerged. -->
-		<desc>{PAWN_nameDef} рано теряет своё детство из-за таинственной чумы, поразившей {PAWN_possessive} родной мир.\n\nВ этой пандемии умирают {PAWN_possessive} друзья, а вместе с ними и {PAWN_possessive} чувство сострадания к людям. На его место приходит лишь тяга к новым знаниям.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} свидетелем того, как таинственная чума поглотила {PAWN_possessive} родной мир, слишком рано прервав {PAWN_possessive} детство.\n\nВ пандемии погибли {PAWN_possessive} друзья, а вместе с ними и {PAWN_possessive} чувство сострадания к людям. На его место пришла лишь тяга к новым знаниям.</desc>
 	</PlagueProdigy12>
 
 	<!-- Geckulon "Gecko" Decktar, Male, Adulthood -->
@@ -5814,27 +5853,31 @@
 		<!-- EN: scientist -->
 		<titleShort>учёный</titleShort>
 		<!-- EN: [PAWN_nameDef]'s lust for knowledge was only matched by [PAWN_possessive] disdain for anyone who would stand in the way of [PAWN_possessive] research.\n\nTraveling from world to world, [PAWN_pronoun] sought answers to questions few dared to ask. -->
-		<desc>Тяга к знаниям, которую испытывает {PAWN_nameDef}, может сравниться лишь с {PAWN_possessive} чувством презрения к тем, кто стоит на пути {PAWN_possessive} исследований.\n\n{PAWN_nameDef} путешествует от мира к миру в поисках ответа на вопросы, которые мало кто осмеливался когда-либо задать.</desc>
+		<desc>Тяга к знаниям, которую {PAWN_gender ? испытывал : испытывала} {PAWN_nameDef}, могла сравниться лишь с {PAWN_possessive} чувством презрения к тем, кто стоял на пути {PAWN_possessive} исследований.\n\n{PAWN_nameDef} {PAWN_gender ? путешествовал : путешествовала} между мирами в поисках ответов на вопросы, которые мало кто осмеливался когда-либо задать.</desc>
 	</MadScientist2>
 
 	<!-- Linghao "Trumpet" Zhang, Male, Childhood -->
 	<Dreamer79>
 		<!-- EN: dreamer -->
 		<title>мечтатель</title>
+		<titleFemale>мечтательница</titleFemale>
 		<!-- EN: dreamer -->
 		<titleShort>мечтатель</titleShort>
+		<titleShortFemale>мечтательница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was an expressive child. [PAWN_pronoun] sang often, and made friends very easily, be they young or old, male or female.\n\n[PAWN_pronoun] hated fighting, but when made angry, [PAWN_pronoun] could be dangerous. [PAWN_possessive] temper was quick. -->
-		<desc>{PAWN_nameDef} растёт экспрессивным ребёнком. {PAWN_pronoun} хорошо поёт и легко заводит себе друзей любого пола и возраста.\n\n{PAWN_nameDef} ненавидит драки, но если {PAWN_possessive} разозлить, об этом можно сильно пожалеть. Нрав у н{PAWN_possessive} весьма вспыльчив.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} экспрессивным ребёнком. {PAWN_pronoun} хорошо {PAWN_gender ? пел : пела} и легко {PAWN_gender ? заводил : заводила} себе друзей любого пола и возраста.\n\n{PAWN_nameDef} {PAWN_gender ? ненавидел : ненавидела} драки, но любой, у кого получалось {PAWN_possessive} разозлить, очень скоро об этом жалел. Нрав у н{PAWN_possessive} весьма вспыльчив.</desc>
 	</Dreamer79>
 
 	<!-- Linghao "Trumpet" Zhang, Male, Adulthood -->
 	<SpaceExplorer53>
 		<!-- EN: space explorer -->
 		<title>исследователь космоса</title>
+		<titleFemale>исследовательница космоса</titleFemale>
 		<!-- EN: explorer -->
 		<titleShort>исследователь</titleShort>
+		<titleShortFemale>исследовательница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] spent years trapped, alone on an unknown planet. [PAWN_pronoun] quickly adapted to the local environment, and learned to communicate with [PAWN_possessive] local enemies.\n\nThis long period alone left [PAWN_objective] without close friends. [PAWN_possessive] heart is sensitive, but [PAWN_pronoun] learned to hide [PAWN_possessive] emotions very well. -->
-		<desc>{PAWN_nameDef} проводит десять лет своей юности, оказавшись в одиночестве на чужой планете. {PAWN_pronoun} быстро адаптируется к местной среде и учится уживаться с местными недружелюбными жителями.\n\nИз-за стольких лет, проведённых в одиночестве, {PAWN_nameDef} не может завести себе друзей. У н{PAWN_possessive} чувствительное сердце, но {PAWN_pronoun} хорошо умеет прятать свои эмоции.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? провёл : провела} десять лет своей юности, оказавшись в одиночестве на чужой планете. {PAWN_pronoun} быстро {PAWN_gender ? адаптировался : адаптировалась} к местной среде и {PAWN_gender ? научился : научилась} уживаться с местными недружелюбными жителями.\n\nИз-за стольких лет, проведённых в одиночестве, {PAWN_nameDef} не {PAWN_gender ? мог : могла} завести себе друзей. У н{PAWN_possessive} чувствительное сердце, но {PAWN_pronoun} {PAWN_gender ? научился : научилась} хорошо прятать свои эмоции.</desc>
 	</SpaceExplorer53>
 
 	<!-- Meredith  "Latch" Abernathy, Female, Childhood -->
@@ -5844,7 +5887,7 @@
 		<!-- EN: urchin -->
 		<titleShort>шпана</titleShort>
 		<!-- EN: [PAWN_nameDef] was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
-		<desc>{PAWN_nameDef} рождается в самых мрачных трущобах {PAWN_possessive} родного городского мира. {PAWN_pronoun} учится самостоятельно выживать без заботы матери, сражаясь за каждый замеченный кусочек еды.\n\nВ конце концов, когда {PAWN_possessive} таланты превосходят умения сверстников, {PAWN_pronoun} поднимается с глубины на улицы поверхности и окончательно покидает свою мать.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в самых мрачных трущобах {PAWN_possessive} родного городского мира. {PAWN_pronoun} {PAWN_gender ? научился : научилась} самостоятельно выживать без заботы матери, сражаясь за каждый замеченный кусочек еды.\n\nВ конце концов, когда {PAWN_possessive} таланты превзошли умения сверстников, {PAWN_pronoun} {PAWN_gender ? поднялся : поднялась} с глубины на улицы поверхности и окончательно {PAWN_gender ? покинул : покинула} свою мать.</desc>
 	</UrbworldUrchin6>
 
 	<!-- Meredith  "Latch" Abernathy, Female, Adulthood -->
@@ -5854,7 +5897,7 @@
 		<!-- EN: smuggler -->
 		<titleShort>пилот</titleShort>
 		<!-- EN: As a contract pilot, [PAWN_nameDef] had a knack for stealing goods and trafficking contraband without getting caught.\n\n[PAWN_pronoun] eventually saved up enough to buy [PAWN_possessive] own ship, and used it to travel from world to world dealing [PAWN_possessive] goods in person. -->
-		<desc>{PAWN_nameDef} становится пилотом по контракту, обладая умением красть товар, перевозить контрабанду и при этом не попадаться.\n\nВ конце концов {PAWN_pronoun} накапливает достаточно, чтобы купить себе собственный корабль и самостоятельно распространять свои товары по разным мирам.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} наёмным пилотом. {PAWN_pronoun} хорошо {PAWN_gender ? умел : умела} воровать чужие грузы и перевозить контрабанду, не попадаясь при этом.\n\nВ конце концов {PAWN_pronoun} {PAWN_gender ? накопил : накопила} достаточно, чтобы купить себе собственный корабль и самостоятельно распространять свои товары по разным мирам.</desc>
 	</Smuggler23>
 
 	<!-- Caverlorn "Cave" Hunter, Male, Childhood -->
@@ -5864,7 +5907,7 @@
 		<!-- EN: recruit -->
 		<titleShort>рекрут</titleShort>
 		<!-- EN: [PAWN_nameDef] was born on a midworld run by an intensely militaristic dictatorship.\n\nFrom a young age, [PAWN_pronoun] was trained to be a good soldier. They taught [PAWN_objective] how to use a gun and how to fight with melee weapons. -->
-		<desc>{PAWN_nameDef} рождается в среднем мире, управляемом чрезвычайно милитаристской диктатурой.\n\nС раннего возраста {PAWN_possessive} обучают быть хорошим солдатом, стрелять и сражаться холодным оружием.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в среднем мире, управляемом чрезвычайно милитаристской диктатурой.\n\nС раннего возраста {PAWN_possessive} обучали быть хорошим солдатом, стрелять и сражаться холодным оружием.</desc>
 	</MilitaryRecruit49>
 
 	<!-- Caverlorn "Cave" Hunter, Male, Adulthood -->
@@ -5874,7 +5917,7 @@
 		<!-- EN: general -->
 		<titleShort>генерал</titleShort>
 		<!-- EN: [PAWN_nameDef] held the rank of Destroyer-General in a powerful midworld military.\n\n[PAWN_pronoun] was known for [PAWN_possessive] mastery of weapons, and was also a good ship pilot. -->
-		<desc>{PAWN_nameDef} получает звание генерала-разрушителя в вооружённых силах среднего мира.\n\n{PAWN_pronoun} славится своим мастерством владения оружием, а также умением пилотирования корабля.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? получил : получила} звание генерала-разрушителя в вооружённых силах среднего мира.\n\n{PAWN_pronoun} {PAWN_gender ? славился : славилась} своим мастерством владения оружием, а также навыками пилотирования корабля.</desc>
 	</DestroyerGeneral26>
 
 	<!-- Tyren Nordgren, Male, Childhood -->
@@ -5884,77 +5927,89 @@
 		<!-- EN: urchin -->
 		<titleShort>шпана</titleShort>
 		<!-- EN: Born to a poor family on an urbworld, [PAWN_nameDef] was abandoned on the streets at a young age.\n\n[PAWN_pronoun] learned to steal and kill to survive the ruthless streets, gaining skills in melee and ranged combat. There was little time for talk in [PAWN_possessive] life. -->
-		<desc>{PAWN_nameDef} рождается в бедной семье городского мира и в раннем возрасте остаётся на улице.\n\n{PAWN_pronoun} обучается воровать и убивать, чтобы выжить на безжалостных улицах, и повышает навыки ближнего и дальнего боя. В {PAWN_possessive} жизни было мало времени для разговоров.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в бедной семье городского мира и в раннем возрасте {PAWN_gender ? был брошен : была брошена} на улице.\n\n{PAWN_pronoun} {PAWN_gender ? научился : научилась} воровать и убивать, чтобы выжить на безжалостных улицах, и {PAWN_gender ? развил : развила} навыки ближнего и дальнего боя. В {PAWN_possessive} жизни было мало времени для разговоров.</desc>
 	</StreetUrchin53>
 
 	<!-- Tyren Nordgren, Male, Adulthood -->
 	<SerialMurderer47>
 		<!-- EN: serial murderer -->
 		<title>серийный убийца</title>
+		<titleFemale>серийная убийца</titleFemale>
 		<!-- EN: murderer -->
 		<titleShort>убийца</titleShort>
 		<!-- EN: [PAWN_nameDef] started to enjoy killing people, so [PAWN_pronoun] did more often and perfected [PAWN_possessive] methods. [PAWN_pronoun] lurked in the darkest streets, stalking prey for hours.\n\n[PAWN_pronoun] enjoyed making artworks of [PAWN_possessive] victims, and was known for leaving [PAWN_possessive] signature on the bodies of those [PAWN_pronoun] killed. -->
-		<desc>{PAWN_nameDef} начинает получать удовольствие от убийства людей, поэтому убивает всё чаще и совершенствует свои методы. {PAWN_pronoun} прячется в самых тёмных переулках, часами выслеживая жертв.\n\n{PAWN_pronoun} любит делать из своих жертв настоящие произведения искусства и славится тем, что оставляет свою подпись на телах убитых.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? начал : начала} получать удовольствие от убийства людей, поэтому {PAWN_gender ? убивал : убивала} всё чаще, совершенствуя свои методы. {PAWN_pronoun} {PAWN_gender ? прятался : пряталась} в самых тёмных переулках, часами выслеживая жертв.\n\n{PAWN_pronoun} {PAWN_gender ? любил : любила} делать из своих жертв настоящие произведения искусства и {PAWN_gender ? славился : славилась} тем, что {PAWN_gender ? оставлял : оставляла} свою подпись на телах убитых.</desc>
 	</SerialMurderer47>
 
 	<!-- Shadoz "Shad" Penum, Male, Childhood -->
 	<MedievalThief74>
 		<!-- EN: medieval thief -->
 		<title>средневековый вор</title>
+		<titleFemale>средневековая воровка</titleFemale>
 		<!-- EN: thief -->
 		<titleShort>вор</titleShort>
+		<titleShortFemale>воровка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] grew up poor and hungry on a medieval planet, learning to fend for [PAWN_objective]self.\n\nAt first, [PAWN_pronoun] only took what [PAWN_pronoun] needed. Then [PAWN_pronoun] learned to take what [PAWN_pronoun] wanted. -->
-		<desc>{PAWN_nameDef} растёт бедным и голодным ребёнком на средневековой планете и обучается заботиться о себе.\n\nСначала {PAWN_pronoun} крадёт только по крайней нужде. Затем учится забирать всё, что пожелает.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} бедным и голодным ребёнком на средневековой планете и {PAWN_gender ? научился : научилась} заботиться о себе.\n\nСначала {PAWN_pronoun} {PAWN_gender ? крал : крала} только по крайней нужде. Затем {PAWN_nameDef} {PAWN_gender ? научился : научилась} забирать всё, что пожелает.</desc>
 	</MedievalThief74>
 
 	<!-- Shadoz "Shad" Penum, Male, Adulthood -->
 	<HumanTrafficker35>
 		<!-- EN: human trafficker -->
 		<title>торговец людьми</title>
+		<titleFemale>торговка людьми</titleFemale>
 		<!-- EN: trafficker -->
 		<titleShort>работорговец</titleShort>
+		<titleShortFemale>работорговка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] stole children from their homes to sell them to interested buyers.\n\nOver time, [PAWN_pronoun] lost what little moral sense [PAWN_pronoun] had left. -->
-		<desc>{PAWN_nameDef} похищает детей из их домов, чтобы продавать их заинтересованным покупателям.\n\nСо временем {PAWN_pronoun} теряет последние моральные ориентиры.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? похищал : похищала} детей из их домов, чтобы продавать их заинтересованным покупателям.\n\nСо временем {PAWN_pronoun} {PAWN_gender ? утратил : утратила} последние моральные ориентиры.</desc>
 	</HumanTrafficker35>
 
 	<!-- Gil "Giggles" Durnin, Either, Childhood -->
 	<TraumatizedYouth87>
 		<!-- EN: traumatized youth -->
 		<title>юный меланхолик</title>
+		<titleFemale>юная меланхоличка</titleFemale>
 		<!-- EN: trauma -->
 		<titleShort>меланхолик</titleShort>
+		<titleShortFemale>меланхоличка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] lived on a pleasant midworld.\n\n[PAWN_possessive] body purist mother fell sick with heart disease. In desperation, [PAWN_nameDef]'s father abducted innocent people and harvested their hearts. [PAWN_nameDef]'s father was arrested, but the child remained scarred from the experience. -->
-		<desc>В детстве {PAWN_nameDef} живёт в уютном среднем мире.\n\nУ {PAWN_possessive} матери, убеждённого биоконсерватора, выявляют порок сердца. В акте отчаяния {PAWN_possessive} отец похищает невинных людей и вырезает их сердца. Отца арестовывают, но {PAWN_nameDef} так и остаётся с душевной травмой.</desc>
+		<desc>В детстве {PAWN_nameDef} {PAWN_gender ? жил : жила} в уютном среднем мире.\n\nУ {PAWN_possessive} матери, убеждённого биоконсерватора, выявили порок сердца. В порыве отчаяния {PAWN_possessive} отец похитил невинных людей и вырезал их сердца. Отца арестовывали, но {PAWN_nameDef} так и {PAWN_gender ? остался : осталась} с душевной травмой.</desc>
 	</TraumatizedYouth87>
 
 	<!-- Gil "Giggles" Durnin, Either, Adulthood -->
 	<MentalPatient69>
 		<!-- EN: mental patient -->
 		<title>душевнобольной</title>
+		<titleFemale>душевнобольная</titleFemale>
 		<!-- EN: patient -->
 		<titleShort>пациент</titleShort>
+		<titleShortFemale>пацентка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was placed in a psychiatric hospital. There, [PAWN_pronoun] spent [PAWN_possessive] time engaged in the calming activities of the asylum.\n\n[PAWN_pronoun] was eventually released, but [PAWN_pronoun] retained [PAWN_possessive] emotional distance, [PAWN_possessive] curiosity about human anatomy, and [PAWN_possessive] namesake manic giggling. -->
-		<desc>{PAWN_nameDef} попадает в психиатрическую больницу, где проводит время за успокоительными процедурами.\n\nВ конце концов {PAWN_possessive} выпускают, но у н{PAWN_possessive} сохраняется эмоциональная отстранённость, любопытство к анатомии человека и маниакальный смех.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? попал : попала} в психиатрическую больницу, где {PAWN_gender ? проводил : проводила} время за успокоительными процедурами.\n\nВ конце концов {PAWN_possessive} выпустили, но у н{PAWN_possessive} сохранилась эмоциональная отстранённость, любопытство к анатомии человека и маниакальный смех.</desc>
 	</MentalPatient69>
 
 	<!-- Jayden Grey, Male, Childhood -->
 	<GalacticPage37>
 		<!-- EN: galactic page -->
-		<title>галактический паж</title>
+		<title>звездный паж</title>
+		<titleFemale>звездная адъютантка</titleFemale>
 		<!-- EN: page -->
 		<titleShort>паж</titleShort>
+		<titleShortFemale>адъютантка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] served the high admiral of a space fleet. [PAWN_pronoun] learned the ways of court, including etiquette and speechcraft.\n\nIn [PAWN_possessive] feudal society, it was considered a great honor to serve a man of such prestige. -->
-		<desc>{PAWN_nameDef} служит адъютантом у высшего адмирала космического флота. {PAWN_pronoun} обучается светским манерам, в том числе правилам этикета и искусству беседы.\n\nВ том феодальном обществе считается большой честью служить столь авторитетному человеку.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? служил адъютантом : служила адъютанткой} у высшего адмирала космического флота. {PAWN_pronoun} {PAWN_gender ? обучился : обучилась} светским манерам, в том числе правилам этикета и искусству беседы.\n\nВ том феодальном обществе считалось большой честью служить столь авторитетному человеку.</desc>
 	</GalacticPage37>
 
 	<!-- Jayden Grey, Male, Adulthood -->
 	<EnvoyOfTheStars19>
 		<!-- EN: envoy of the stars -->
 		<title>посланник звёзд</title>
+		<titleFemale>посланница звёзд</titleFemale>
 		<!-- EN: envoy -->
 		<titleShort>посол</titleShort>
 		<!-- EN: [PAWN_nameDef] entered the diplomatic corps. Honor and tradition were the values [PAWN_pronoun] took with [PAWN_objective] on every mission.\n\n[PAWN_possessive] prestigious position distanced [PAWN_objective] from backbreaking manual labor, allowing [PAWN_objective] to focus on [PAWN_possessive] wordsmithing abilities. [PAWN_pronoun] left the blacksmithing to others. -->
-		<desc>{PAWN_nameDef} поступает в дипломатический корпус. Честь и традиции становятся теми принципами, от которых {PAWN_pronoun} не отступает ни в одной миссии.\n\nВысокая должность постепенно отдаляет {PAWN_possessive} от ручного труда, позволяя сосредоточиться на своём ораторском искусстве. {PAWN_nameDef} оставляет прочее искусство другим.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? вступил : вступила} в дипломатический корпус. Честь и традиции стали теми принципами, от которых {PAWN_pronoun} не {PAWN_gender ? отступал : отступала} ни в одной миссии.\n\nВысокая должность постепенно отдалила {PAWN_possessive} от ручного труда, позволяя сосредоточиться на своём ораторском искусстве. {PAWN_nameDef} {PAWN_gender ? оставил : оставила} прочее искусство другим.</desc>
 	</EnvoyOfTheStars19>
 
 	<!-- Velius "Veli" Ayalp, Male, Childhood -->
@@ -5964,7 +6019,7 @@
 		<!-- EN: apprentice -->
 		<titleShort>подмастерье</titleShort>
 		<!-- EN: [PAWN_nameDef] grew up helping in [PAWN_possessive] father's smithy.\n\nThey were some of the last smiths on the planet that to use traditional smithing methods. They even collect some materials themselves.\n\nSometimes, after work, [PAWN_nameDef] would practice using the swords [PAWN_pronoun] forged. -->
-		<desc>{PAWN_nameDef} растёт, помогая своему отцу в кузнице.\n\nОни стали одними из последних кузнецов планеты, которые используют традиционные кузнечные методы. Они даже сами собирают некоторые материалы.\n\nИногда, после работы, {PAWN_nameDef} размахивает собственноручно выкованными мечами.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла}, помогая своему отцу в кузнице.\n\nОни были одними из последних кузнецов планеты, которые использовали традиционные кузнечные методы. Они даже сами собирали некоторые материалы.\n\nИногда, после работы, {PAWN_nameDef} {PAWN_gender ? размахивал : размахивала} собственноручно выкованными мечами.</desc>
 	</ApprenticeSmith37>
 
 	<!-- Velius "Veli" Ayalp, Male, Adulthood -->
@@ -5974,7 +6029,7 @@
 		<!-- EN: blacksmith -->
 		<titleShort>кузнец</titleShort>
 		<!-- EN: As a blacksmith on a medieval world, [PAWN_nameDef] gained a reputation for the high quality of [PAWN_possessive] work. [PAWN_pronoun] wasn't bad at using the swords [PAWN_pronoun] forged either. -->
-		<desc>В своём средневековом мире {PAWN_nameDef} зарабатывает себе репутацию отличного кузнеца. Также у н{PAWN_possessive} неплохо получается орудовать выкованными мечами.</desc>
+		<desc>В своём средневековом мире {PAWN_nameDef} {PAWN_gender ? заработал : заработала} себе репутацию отличного кузнеца. Также у н{PAWN_possessive} неплохо получалось орудовать выкованными мечами.</desc>
 	</Blacksmith7>
 
 	<!-- Dan "Grill" Griliopoulos, Male, Childhood -->
@@ -5984,7 +6039,7 @@
 		<!-- EN: disposable -->
 		<titleShort>клон</titleShort>
 		<!-- EN: Clone children are seeded into nutrient-rich womb-vats and rapidly grown in a simmed universe. They're harvested later, sometimes for food, sometimes for organs, sometimes for workers - but they're always disposable. -->
-		<desc>Клонированных детей помещают в богатые органикой капсулы-матки и быстро выращивают, развивая сознание в симуляторе мира. Их вынимают позже, иногда для еды, иногда на органы, иногда как рабочих, но всегда называют «расходниками».</desc>
+		<desc>Клонированных детей помещают в богатые органикой капсулы-матки и быстро выращивают, развивая сознание в искусственной реальности. Позже их извлекают, иногда пуская на еду, иногда на органы, иногда, чтобы выращивать как рабочих, но они всегда лишь «расходники».</desc>
 	</CloneFarmed21>
 
 	<!-- Dan "Grill" Griliopoulos, Male, Adulthood -->
@@ -5994,7 +6049,7 @@
 		<!-- EN: cloner -->
 		<titleShort>клонёр</titleShort>
 		<!-- EN: Harvesting the products of clone farms is mostly done by the clones themselves - particularly to those whose sims tended towards the social. This clone was one such, who escaped from the farms and headed out to the stars. -->
-		<desc>Сбором продукции клоновых ферм в основном занимаются сами клоны, особенно те, кто стремились к общению внутри симулятора. {PAWN_nameDef} становится одним из таких клонов. Впоследствии {PAWN_pronoun} сбегает с ферм и направляется к звёздам.</desc>
+		<desc>Сбором продукции клоновых ферм в основном занимаются сами клоны, особенно те, кто стремились к общению внутри симулятора. {PAWN_nameDef} {PAWN_gender ? был : была} одним из таких клонов. Впоследствии {PAWN_pronoun} {PAWN_gender ? сбежал : сбежала} с фермы и направляется к звёздам.</desc>
 	</CloneFarmer58>
 
 	<!-- Joe "Boss" Panzer, Male, Childhood -->
@@ -6004,7 +6059,7 @@
 		<!-- EN: gang kid -->
 		<titleShort>шпана</titleShort>
 		<!-- EN: [PAWN_nameDef] grew up without parents. [PAWN_possessive] whole life was spent alone, fighting for survival on the streets.\n\nNo matter how hard it became to survive, [PAWN_pronoun] never gave up. -->
-		<desc>{PAWN_nameDef} вырастает без родителей, в одиночку, сражаясь за выживание на улицах.\n\nКак бы ни было тяжело выживать, {PAWN_pronoun} никогда не отчаивается.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} без родителей, в одиночку, сражаясь за выживание на улицах.\n\nКак бы ни было тяжело выживать, {PAWN_pronoun} никогда не {PAWN_gender ? отчаивался : отчаивалась}.</desc>
 	</GangMember16>
 
 	<!-- Joe "Boss" Panzer, Male, Adulthood -->
@@ -6014,7 +6069,7 @@
 		<!-- EN: boss -->
 		<titleShort>босс</titleShort>
 		<!-- EN: To survive, [PAWN_nameDef]'s gang often had to rob trade ships for food and supplies. Sometimes [PAWN_pronoun] had to kill the guards. Sometimes [PAWN_pronoun] had to kill the police who arrived to stop him.\n\nAfter years of this, [PAWN_pronoun] became one of the most-wanted criminals in the local empire. -->
-		<desc>{PAWN_nameDef} становится главарём банды преступников. Ради выживания они часто грабят межзвёздных торговцев, добывая еду и припасы. Иногда {PAWN_objective} приходится убивать охрану. Иногда полицейских, прибывших остановить их.\n\nСпустя годы разбоя {PAWN_nameDef} становится одним из самых разыскиваемых преступников в местной звёздной империи.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} главарём банды преступников. Ради выживания они часто грабили межзвёздных торговцев, добывая таким образом еду и припасы. Иногда {PAWN_objective} приходилось убивать охрану. Иногда полицейских, пытавшихся остановить их.\n\nСпустя годы разбоя {PAWN_nameDef} {PAWN_gender ? стал : стала} одним из самых разыскиваемых преступников в местной звёздной империи.</desc>
 	</GangBoss49>
 
 	<!-- Barrick "Boss" Lyons , Male, Childhood -->
@@ -6025,7 +6080,7 @@
 		<!-- EN: soldier -->
 		<titleShort>солдат</titleShort>
 		<!-- EN: [PAWN_nameDef]'s military family forced [PAWN_objective] to train in hand-to-hand combat and fighting tactics.\n\nIn [PAWN_possessive] own time, [PAWN_pronoun] built small inventions. This sharpened [PAWN_possessive] mind. -->
-		<desc>{PAWN_nameDef} рождается в семье военных, где {PAWN_possessive} заставляют практиковаться в рукопашных схватках и тактике боя.\n\nВ свободное время {PAWN_nameDef} собирает небольшие самодельные устройства. Это оттачивает {PAWN_possessive} разум.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в семье военных, где {PAWN_possessive} заставляли практиковаться в рукопашных схватках и тактике боя.\n\nВ свободное время {PAWN_nameDef} {PAWN_gender ? собирал : собирала} небольшие самодельные устройства. Это отточило {PAWN_possessive} ум.</desc>
 	</MilitantChild49>
 
 	<!-- Barrick "Boss" Lyons , Male, Adulthood -->
@@ -6035,7 +6090,7 @@
 		<!-- EN: traitor -->
 		<titleShort>дезертир</titleShort>
 		<!-- EN: Shortly after being promoted to a respected position in [PAWN_possessive] planet's military, [PAWN_nameDef] disappeared without a trace.\n\nLater, [PAWN_pronoun] reappeared at the head of [PAWN_possessive] own military force. No one knows why [PAWN_pronoun] became who [PAWN_pronoun] was. -->
-		<desc>Вскоре после повышения до высокой должности в войсках своей планеты {PAWN_nameDef} бесследно исчезает.\n\nПозже {PAWN_pronoun} снова появляется во главе собственных войск. Никто не знает причины такого поступка.</desc>
+		<desc>Вскоре после повышения до высокой должности в войсках своей планеты {PAWN_nameDef} бесследно {PAWN_gender ? исчез : исчезла}.\n\nПозже {PAWN_pronoun} снова {PAWN_gender ? появился : появилась} во главе собственных войск. Никто не знал причины такого поступка.</desc>
 	</LostMarine81>
 
 	<!-- Yuu "Hakuja" Ito, Female, Childhood -->
@@ -6045,17 +6100,19 @@
 		<!-- EN: killer -->
 		<titleShort>убийца</titleShort>
 		<!-- EN: [PAWN_nameDef] was a bloodlusting child. Villagers thought [PAWN_objective] the product of a snake demon and human coupling.\n\nAfter watching how [PAWN_possessive] human father betrayed and murdered [PAWN_possessive] mother, [PAWN_pronoun] longed to see how many more humans [PAWN_pronoun] could get to fall into [PAWN_possessive] hands. -->
-		<desc>{PAWN_nameDef} растёт кровожадным ребёнком. В деревне {PAWN_possessive} считают плодом совокупления человека и змеи-демоницы.\n\nОднажды {PAWN_pronoun} становится свидетелем того, как отец предаёт и убивает {PAWN_possessive} мать. После этого {PAWN_nameDef} жаждет узнать, сколько людей {PAWN_objective} по силам погубить своими руками.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} кровожадным ребёнком. В деревне {PAWN_possessive} считали плодом совокупления человека и змеи-демоницы.\n\nОднажды {PAWN_pronoun} {PAWN_gender ? стал свидетелем : стала свидетельницей} того, как отец предал и убил {PAWN_possessive} мать. После этого {PAWN_nameDef} {PAWN_gender ? жаждал : жаждала} узнать, сколько людей {PAWN_objective} по силам погубить своими руками.</desc>
 	</Killer41>
 
 	<!-- Yuu "Hakuja" Ito, Female, Adulthood -->
 	<Healer35>
 		<!-- EN: healer -->
 		<title>лекарь</title>
+		<titleFemale>лекарка</titleFemale>
 		<!-- EN: healer -->
 		<titleShort>лекарь</titleShort>
+		<titleShortFemale>лекарка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] took the time to admire the beauty of the world. \n\n[PAWN_possessive] passive-aggressiveness surfaced once in a while, but [PAWN_pronoun] tried to adapt to [PAWN_possessive] changing life. -->
-		<desc>{PAWN_nameDef} находит время восторгаться красотой окружающего мира.\n\nВремя от времени проявляется {PAWN_possessive} пассивная агрессия, но {PAWN_pronoun} пытается приспособиться к изменениям в своей жизни.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? находил : находила} время восторгаться красотой окружающего мира.\n\nВремя от времени проявлялась {PAWN_possessive} пассивная агрессия, но {PAWN_pronoun} {PAWN_gender ? пытался : пыталась} приспособиться к изменениям в своей жизни.</desc>
 	</Healer35>
 
 	<!-- Justin "Justice" Calvert, Male, Childhood -->
@@ -6064,18 +6121,21 @@
 		<title>игрок-профи</title>
 		<!-- EN: pro gamer -->
 		<titleShort>геймер</titleShort>
+		<titleShortFemale>геймерша</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was obsessed with video games since [PAWN_possessive] hands were big enough to grip a joystick.\n\n[PAWN_pronoun] achieved middling finishes in several local tournaments during the 16-bit era. Nobody noticed when [PAWN_pronoun] retired early in [PAWN_possessive] teenage years. -->
-		<desc>{PAWN_nameDef} погружается в мир видеоигр с тех пор, как {PAWN_possessive} руки смогли держать джойстик.\n\n{PAWN_pronoun} занимает места в середине таблицы на нескольких местных турнирах в 16-битную эру. Потому никто не обращает внимания, что, став подростком, {PAWN_nameDef} покидает киберспорт.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был погружён : была погружена} в мир видеоигр с тех пор, как {PAWN_possessive} руки могли держать джойстик.\n\n{PAWN_pronoun} {PAWN_gender ? занял : заняла} места в серединах таблиц на нескольких местных турнирах 16-битной эры. Потому никто не обратил внимания на то, что, став подростком, {PAWN_nameDef} {PAWN_gender ? покинул : покинула} киберспорт.</desc>
 	</ProfessionalGamer76>
 
 	<!-- Justin "Justice" Calvert, Male, Adulthood -->
 	<ToasterRepairman22>
 		<!-- EN: toaster repairman -->
 		<title>ремонтник техники</title>
+		<titleFemale>ремонтница техники</titleFemale>
 		<!-- EN: repairman -->
 		<titleShort>ремонтник</titleShort>
+		<titleShortFemale>ремонтница</titleShortFemale>
 		<!-- EN: Good with [PAWN_possessive] hands and passionate about technology, [PAWN_nameDef] aspired to invent gadgets and machines that would change [PAWN_possessive] home world forever.\n\nA few failed and occasionally disastrous creations later, [PAWN_pronoun] gave up on [PAWN_possessive] dream and took a job more befitting [PAWN_possessive] skill set. -->
-		<desc>{PAWN_nameDef} становится мастером на все руки, увлечённым технологиями, и стремится изобрести устройства и машины, которые навсегда изменят {PAWN_possessive} родной мир.\n\nПосле нескольких неудачных, а иногда и разрушительных творений {PAWN_pronoun} оставляет свою мечту и устраивается на работу, более подходящую своей квалификации.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был мастером : была мастерицей} на все руки, {PAWN_gender ? вдохновлённым : вдохновлённой} технологиями, и {PAWN_gender ? стремился : стремилась} изобрести устройства и машины, которые навсегда изменили бы {PAWN_possessive} родной мир.\n\nПосле нескольких неудачных, а иногда и разрушительных творений {PAWN_pronoun} {PAWN_gender ? оставил : оставила} свою мечту и {PAWN_gender ? устроился : устроилась} на работу, более подходящую своей квалификации.</desc>
 	</ToasterRepairman22>
 
 	<!-- Joshua "Marjot" Marjot, Either, Childhood -->
@@ -6085,7 +6145,7 @@
 		<!-- EN: feral -->
 		<titleShort>маугли</titleShort>
 		<!-- EN: [PAWN_nameDef] was discarded by [PAWN_possessive] family. Raised by wolves, [PAWN_pronoun] ran, hunted, and defended [PAWN_possessive] pack.\n\n[PAWN_pronoun] learned to fight efficiently by tooth and claw. [PAWN_pronoun] also learned brutally effective primal hunting strategies. -->
-		<desc>{PAWN_possessive} отвергла родная семья, зато принимают и воспитывают волки. Смыслом жизни становятся бег, охота и защита своей стаи.\n\n{PAWN_nameDef} обучается эффективно сражаться зубами и когтями, а также узнаёт жестокие и действенные первобытные способы охоты.</desc>
+		<desc>{PAWN_possessive} отвергла родная семья, зато приняли и воспитали волки. Смыслом жизни были бег, охота и защита своей стаи.\n\n{PAWN_nameDef} {PAWN_gender ? научился : научилась} эффективно сражаться зубами и когтями, а также {PAWN_gender ? узнал : узнала} жестокие и действенные первобытные способы охоты.</desc>
 	</WolfPackMember26>
 
 	<!-- Joshua "Marjot" Marjot, Either, Adulthood -->
@@ -6095,27 +6155,31 @@
 		<!-- EN: scientist -->
 		<titleShort>учёный</titleShort>
 		<!-- EN: Captured as a feral child, [PAWN_nameDef] was forced into the ways of modern society. [PAWN_pronoun] quickly adapted and became a behavioural researcher, eventually owning a private facility.\n\n[PAWN_pronoun] specialized in canines, but learned a great deal about all animals. [PAWN_pronoun] never had interest in plants, however. -->
-		<desc>После того, как {PAWN_possessive} вылавливают и направляют по пути современного общества, {PAWN_nameDef} быстро приспосабливается к новой жизни. {PAWN_pronoun} начинает заниматься исследованием поведенческих моделей у животных, и в конце концов обзаводится собственной лабораторией.\n\n{PAWN_possessive} специализацией становятся псовые, хотя {PAWN_nameDef} многое знает обо всех животных. Растения же {PAWN_possessive} не интересуют.</desc>
+		<desc>После того, как {PAWN_possessive} изловили и реинтегрировали в современное общество, {PAWN_nameDef} быстро {PAWN_gender ? приспособился : приспособилась} к новой жизни. {PAWN_pronoun} {PAWN_gender ? начал : начала} заниматься исследованием поведенческих моделей у животных, и в конце концов {PAWN_gender ? обзавёлся : обзавелась} собственной лабораторией.\n\n{PAWN_possessive} специализацией были псовые, хотя {PAWN_nameDef} многое {PAWN_gender ? знал : знала} обо всех животных. Растения же {PAWN_possessive} не интересовали.</desc>
 	</BehaviourResearch74>
 
 	<!-- Matthew "Matt" Tomsinski, Male, Childhood -->
 	<RebelStudent14>
 		<!-- EN: rebel student -->
 		<title>студент-бунтарь</title>
+		<titleFemale>студентка-бунтарка</titleFemale>
 		<!-- EN: student -->
 		<titleShort>студент</titleShort>
+		<titleShortFemale>студентка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] grew up in a modest but privileged family who encouraged [PAWN_objective] to play chess and shoot skeet at a young age.\n\nAs a bored student, [PAWN_pronoun] found joy in challenging [PAWN_possessive] teachers about the contradictions between [PAWN_possessive] planet's official values and their government's policies. -->
-		<desc>{PAWN_nameDef} вырастает в скромной, но благополучной семье, где поощрялось {PAWN_possessive} желание играть в шахматы и стрелять по тарелочкам.\n\nСо скуки {PAWN_pronoun} находит радость в спорах с учителями на тему противоречий между официально декларируемыми ценностями их планеты и политикой правительства.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? вырос : выросла} в скромной, но благополучной семье, где поощрялось {PAWN_possessive} желание играть в шахматы и стрелять по тарелочкам.\n\nСо скуки {PAWN_pronoun} {PAWN_gender ? находил : находила} радость в спорах с учителями на тему противоречий между официально декларируемыми ценностями их планеты и политикой правительства.</desc>
 	</RebelStudent14>
 
 	<!-- Matthew "Matt" Tomsinski, Male, Adulthood -->
 	<PoliticalActivist20>
 		<!-- EN: political activist -->
 		<title>политический активист</title>
+		<titleFemale>политическая активистка</titleFemale>
 		<!-- EN: activist -->
 		<titleShort>активист</titleShort>
+		<titleShortFemale>активистка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was involved with a radical political faction which worked against [PAWN_possessive] homeworld's government.\n\nThe guerilla tactics training that [PAWN_nameDef] received from [PAWN_possessive] associates gave [PAWN_objective] the skills to fight, but also drove [PAWN_objective] to compromise [PAWN_possessive] own beliefs. -->
-		<desc>{PAWN_nameDef} связывается с радикальной политической группировкой, противостоящей правительству {PAWN_possessive} родного мира.\n\n Соратники обучают {PAWN_possessive} тактике партизанских действий, что приносит {PAWN_objective} умение сражаться, но заставляет поступиться собственными убеждениями.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? связался : связалась} с радикальной политической группировкой, противостоящей правительству {PAWN_possessive} родного мира.\n\n Соратники обучили {PAWN_possessive} тактике партизанских действий, что принесло {PAWN_objective} умение сражаться, но заставило поступиться собственными убеждениями.</desc>
 	</PoliticalActivist20>
 
 	<!-- Yutong "Li" Li, Male, Childhood -->
@@ -6125,7 +6189,7 @@
 		<!-- EN: cadet -->
 		<titleShort>кадет</titleShort>
 		<!-- EN: Born on the planet New China, [PAWN_nameDef]'s father was a police chief and kept extremely strict watch over [PAWN_possessive] son.\n\n[PAWN_nameDef] had to do military-style drill exercises every day and keep [PAWN_possessive] room spotlessly clean, always ready for inspection. [PAWN_pronoun] came to abhor violence. -->
-		<desc>{PAWN_nameDef} рождается на планете Новый Китай, {PAWN_possessive} отец работает начальником полиции и воспитывает своего ребёнка в излишней строгости.\n\n{PAWN_objective} приходится каждый день заниматься военными упражнениями и содержать свою комнату в безупречной чистоте и готовой к осмотру. С тех пор {PAWN_pronoun} питает отвращение к насилию.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} на планете Новый Китай, где {PAWN_possessive} отец был начальником полиции. Он воспитывал своего ребёнка в излишней строгости.\n\n{PAWN_objective} приходилось каждый день заниматься тренировками как в армии и содержать свою комнату в безупречной чистоте и всегда готовой к осмотру. С тех пор {PAWN_pronoun} {PAWN_gender ? питал : питала} отвращение к насилию.</desc>
 	</Cadet96>
 
 	<!-- Yutong "Li" Li, Male, Adulthood -->
@@ -6135,7 +6199,7 @@
 		<!-- EN: flaneur -->
 		<titleShort>фланёр</titleShort>
 		<!-- EN: [PAWN_nameDef] strolled and sipped [PAWN_possessive] way through the streets and cafes of [PAWN_possessive] world, pursuing freedom at every turn, never becoming attached.\n\nThrough all this time, [PAWN_pronoun] remained distrustful of others. And never took an order from anyone. -->
-		<desc>{PAWN_nameDef} фланирует по улицам своего мира, посещая кафе, с каждым шагом наслаждаясь свободой, ни к чему не привязываясь.\n\nВсё это время {PAWN_pronoun} никому не доверяет. И не исполняет ничьих приказов.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? шатался : шаталась} по улицам своего мира, посещая кафе, с каждым шагом наслаждаясь свободой, ни к чему не привязываясь.\n\nВсё это время {PAWN_pronoun} никому не {PAWN_gender ? доверял : доверяла}. И не {PAWN_gender ? исполнял : исполняла} ничьих приказов.</desc>
 	</Flaneur30>
 
 	<!-- Sarai "Sarai" Tang, Female, Childhood -->
@@ -6145,7 +6209,7 @@
 		<!-- EN: technician -->
 		<titleShort>техник</titleShort>
 		<!-- EN: [PAWN_nameDef] was an apprentice technician on trade ships plying their routes between the stations and planets of [PAWN_possessive] home system. In this job, [PAWN_pronoun] learned to fix and improve many machines.\n\nSometimes, [PAWN_possessive] ship was assigned to short exploratory jaunts into dangerous regions of space. -->
-		<desc>{PAWN_nameDef} становится учеником техника на торговом судне, курсирующем между станциями и планетами родной системы. На этой должности {PAWN_pronoun} учится чинить и улучшать разные машины.\n\nВременами их кораблю поручают короткие разведывательные полёты в опасные регионы космоса.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} учеником техника на торговом судне, курсирующем между станциями и планетами родной системы. На этой должности {PAWN_pronoun} {PAWN_gender ? научился : научилась} чинить и улучшать разные машины.\n\nВременами их кораблю поручали короткие разведывательные полёты в опасные регионы космоса.</desc>
 	</ShipTechnician0>
 
 	<!-- Sarai "Sarai" Tang, Female, Adulthood -->
@@ -6155,7 +6219,7 @@
 		<!-- EN: engineer -->
 		<titleShort>инженер</titleShort>
 		<!-- EN: As chief engineer on board a large spaceship, [PAWN_nameDef] was an expert in all things fiddly and complex.\n\n[PAWN_pronoun] relied on other members of the crew for some of the basic necessities of life. [PAWN_pronoun] and [PAWN_possessive] ship eventually disappeared into a longsleep voyage of exploration. -->
-		<desc>{PAWN_nameDef} становится экспертом в узлах и агрегатах на борту большого космического корабля, и {PAWN_possessive} назначают главным инженером.\n\nОсновные жизненные потребности {PAWN_objective} обеспечивает экипаж. Впоследствии {PAWN_nameDef} исчезает вместе с кораблём во время длительного исследовательского рейса.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} экспертом в узлах и агрегатах на борту большого космического корабля, и {PAWN_possessive} назначили главным инженером.\n\nОсновные жизненные потребности {PAWN_objective} обеспечивал экипаж. Впоследствии {PAWN_nameDef} {PAWN_gender ? исчез : исчезла} вместе с кораблём во время длительного исследовательского рейса.</desc>
 	</ChiefEngineer62>
 
 	<!-- Wesley "Wes" Keith, Male, Childhood -->
@@ -6166,7 +6230,7 @@
 		<!-- EN: blacksmith -->
 		<titleShort>кузнец</titleShort>
 		<!-- EN: [PAWN_nameDef]'s father owned the blacksmith shop in an run-down old city district. [PAWN_nameDef] would help [PAWN_possessive] father whenever [PAWN_pronoun] could.\n\nLater, [PAWN_possessive] father took [PAWN_objective] as a blacksmith's apprentice and raised [PAWN_objective] as a man. [PAWN_nameDef] also took on shooting as a hobby. -->
-		<desc>{PAWN_nameDef} живёт в захудалом районе старого города. {PAWN_possessive} отец держит там же кузницу, и {PAWN_pronoun} по возможности всегда помогает отцу в работе.\n\nПозже отец берёт {PAWN_possessive} подмастерьем и воспитывает из н{PAWN_possessive} мужчину. Также {PAWN_possessive} увлечением становится стрельба.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? жил : жила} в захудалом районе старого города. {PAWN_possessive} отец держал там же кузницу, и {PAWN_pronoun} по возможности всегда {PAWN_gender ? помогал : помогала} отцу в работе.\n\nПозже отец взял {PAWN_possessive} подмастерьем и воспитал из н{PAWN_possessive} стойкого человека. Также {PAWN_possessive} увлечением стала стрельба.</desc>
 	</BlacksmithsSon73>
 
 	<!-- Wesley "Wes" Keith, Male, Adulthood -->
@@ -6175,26 +6239,30 @@
 		<title>кузнец-стрелок</title>
 		<!-- EN: gunsmith -->
 		<titleShort>оружейник</titleShort>
+		<titleFemaleShort>оружейница</titleFemaleShort>
 		<!-- EN: As a young blacksmith, [PAWN_nameDef]'s family shop was raided by the police. [PAWN_pronoun] shot two officers before they knocked [PAWN_objective] out and arrested him.\n\nSentenced to life in prison, [PAWN_nameDef] learned about traveling and raiding from other criminals. -->
-		<desc>Ещё в {PAWN_possessive} молодости на их семейный магазин нападает полиция. {PAWN_nameDef} расстреливает двух полицейских, прежде чем {PAWN_possessive} сбивают с ног и арестовывают.\n\n{PAWN_possessive} приговаривают к пожизненному заключению, но {PAWN_nameDef} узнаёт от других преступников об их перевозке и предстоящем налёте на конвой.</desc>
+		<desc>Когда {PAWN_nameDef} {PAWN_gender ? был молодым : была молодой}, в {PAWN_possessive} семейную кузницу ворвались полицейские. {PAWN_nameDef} {PAWN_gender ? подстрелил : подстрелила} двух офицеров, прежде чем {PAWN_possessive} сбили с ног и арестовали.\n\n{PAWN_possessive} приговарили к пожизненному заключению, но {PAWN_nameDef} {PAWN_gender ? узнал : узнала} от других преступников о порядке их этапирования и предстоящем налёте на конвой.</desc>
 	</BlacksmithShooter21>
 
 	<!-- Sam "Sammy" Gerador, Either, Childhood -->
 	<JoywireAddict76>
 		<!-- EN: joywire addict -->
 		<title>цифровой наркоман</title>
+		<titleFemale>цифровая наркоманка</titleFemale>
 		<!-- EN: addict -->
 		<titleShort>торчок</titleShort>
 		<!-- EN: [PAWN_nameDef]'s wealthy parents provided everything [PAWN_pronoun] ever wanted. After discovering joywires, [PAWN_pronoun] became obsessed. Once [PAWN_possessive] parents realized what happened, they cut [PAWN_objective] off.\n\nUncaring and often violent, [PAWN_pronoun] sought [PAWN_possessive] next joywire fix by any means possible. -->
-		<desc>{PAWN_nameDef} растёт в богатой семье. Родители обеспечивают {PAWN_possessive} всем, что {PAWN_pronoun} пожелает. Открыв для себя чипы счастья, {PAWN_nameDef} получает психологическую зависимость. Как только {PAWN_possessive} родители осознают, что произошло, они сразу же разрывают все отношения, оставляя {PAWN_possessive} без содержания.\n\nТогда {PAWN_nameDef} начинает любыми возможными способами искать себе новые версии чипов.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} в богатой семье. Родители обеспечивали {PAWN_possessive} всем, что {PAWN_pronoun} {PAWN_gender ? желал : желала}. Открыв для себя чипы счастья, {PAWN_nameDef} {PAWN_gender ? получил : получила} психологическую зависимость. Как только {PAWN_possessive} родители осознали, что произошло, они сразу же разорвали все отношения, оставив {PAWN_possessive} без содержания.\n\nТогда {PAWN_nameDef} {PAWN_gender ? начал : начала} любыми возможными способами искать себе новые версии чипов.</desc>
 	</JoywireAddict76>
 
 	<!-- Sam "Sammy" Gerador, Either, Adulthood -->
 	<AddictionCounsel60>
 		<!-- EN: addiction counsel -->
 		<title>бывший наркоман</title>
+		<titleFemale>бывшая наркоманка</titleFemale>
 		<!-- EN: counselor -->
 		<titleShort>наставник</titleShort>
+		<titleFemaleShort>наставница</titleFemaleShort>
 		<!-- EN: After recovering from a joywire addiction, [PAWN_nameDef] adopted a non-violent way of life and vowed to help others.\n\nTravelling between communities, [PAWN_pronoun] used medicine, arts, and crafts to aid others who struggled with their own addictions. -->
 		<desc>Излечившись от зависимости, {PAWN_nameDef} принимает образ жизни без насилия и даёт обет помогать другим людям.\n\n{PAWN_pronoun} путешествует между общинами и использует свои знания в области медицины, искусства и ремёсел, чтобы помогать тем, кто борется со своими зависимостями.</desc>
 	</AddictionCounsel60>
@@ -6202,61 +6270,73 @@
 	<!-- Malachai "Lachi" Rabenhertz, Male, Childhood -->
 	<ChildKnave69>
 		<!-- EN: child-knave -->
-		<title>юный паж</title>
+		<title>юный прислужник</title>
+		<titleFemale>юная прислужница</titleFemale>
 		<!-- EN: knave -->
-		<titleShort>паж</titleShort>
+		<titleShort>прислужник</titleShort>
+		<titleFemaleShort>прислужница</titleFemaleShort>
 		<!-- EN: [PAWN_nameDef] was a child-knave of King Loteric. [PAWN_pronoun] enjoyed the training with wooden sticks and engaging others in close combat. [PAWN_pronoun] adapted quickly to the heat of battle and was good at spreading fire.\n\n[PAWN_pronoun] served [PAWN_possessive] lord well, until the king died in an unfortunate accident. -->
-		<desc>{PAWN_nameDef} служит пажом короля Лотерика. {PAWN_objective} нравится тренироваться с шестом и заниматься рукопашным боем. {PAWN_pronoun} быстро привыкает к пылу битв и умело разжигает это пламя.\n\n{PAWN_pronoun} честно служит своему повелителю, пока король не умирает в результате несчастного случая.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был прислужником : была прислужницей} короля Лотерика. {PAWN_objective} нравилось тренироваться с шестом и заниматься рукопашным боем. {PAWN_pronoun} быстро {PAWN_gender ? привык : привыкла} к пылу битв и умело {PAWN_gender ? разжигал : разжигала} это пламя.\n\n{PAWN_pronoun} честно {PAWN_gender ? служил : служила} своему повелителю, пока король не умир в результате несчастного случая.</desc>
 	</ChildKnave69>
 
 	<!-- Malachai "Lachi" Rabenhertz, Male, Adulthood -->
 	<BloodgameSurvivor6>
 		<!-- EN: bloodgame survivor -->
-		<title>кровавый победитель</title>
+		<title>победитель игрища</title>
+		<titleFemale>победительница игрища</titleFemale>
 		<!-- EN: bloodgamer -->
 		<titleShort>выживший</titleShort>
+		<titleFemaleShort>выжившая</titleFemaleShort>
 		<!-- EN: [PAWN_nameDef] was sold to the Corestars Entertainment Company and used as meat in one of the company's system-wide broadcast shows.\n \n[PAWN_possessive] manipulative nature made [PAWN_objective] quite a nightmare, even to the audience. [PAWN_pronoun] was kicked out and exiled to a planet full of deadly animals, criminals and armed camera-drones. -->
-		<desc>{PAWN_possessive} продают компании Корстарс Интертейнмент, где используют в роли жертвы в «Кровавой игре», одном из шоу компании, транслируемом по всей системе.\n\n{PAWN_possessive} манипулирование окружающими делает {PAWN_possessive} сущим кошмаром, даже для зрителей. Тогда {PAWN_possessive} вышвыривают на планету, полную опасных животных, преступников и вооружённых дронов с камерами.</desc>
+		<desc>{PAWN_possessive} продали компании Корстарс Интертейнмент, где использовали в роли жертвы в «Кровавой игре», одном из шоу компании, транслировавшемся по всей системе.\n\n{PAWN_possessive} умение манипулировать окружающими было ужасающим, даже для зрителей. {PAWN_possessive} вышвырнули на планету, полную опасных животных, преступников и вооружённых дронов с камерами.</desc>
 	</BloodgameSurvivor6>
 
 	<!-- Lucas "Blackjack" Wakefield, Male, Childhood -->
 	<WastelandWanderer81>
 		<!-- EN: wasteland wanderer -->
-		<title>странник пустошей</title>
+		<title>странник с пустошей</title>
+		<titleFemale>странница с пустошей</titleFemale>
 		<!-- EN: wanderer -->
 		<titleShort>странник</titleShort>
+		<titleFemaleShort>странница</titleFemaleShort>
 		<!-- EN: Born into a wealthy family on a desert world, [PAWN_nameDef] was cast out after a hired attack squad destroyed [PAWN_possessive] ancestral home.\n\nThe boy managed to hide in a cooling duct beneath [PAWN_possessive] family's villa. Vowing revenge against the killers and whomever had hired them, [PAWN_nameDef] struck out into the wasteland, alone. -->
-		<desc>{PAWN_nameDef} рождается в богатой семье на пустынном мире, но оказывается в изгнании после того, как дом {PAWN_possessive} родителей разрушает отряд наёмников.\n\n{PAWN_objective} удаётся спрятаться в вентиляционной трубе под семейной виллой. Поклявшись отомстить убийцам и тем, кто их нанял, {PAWN_pronoun} в одиночку направляется в пустоши.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в богатой семье на пустынном мире, но {PAWN_gender ? оказался : оказалась} в изгнании после того, как дом {PAWN_possessive} родителей разрушил отряд наёмников.\n\n{PAWN_objective} удалось спрятаться в вентиляционной трубе под семейной виллой. Поклявшись отомстить убийцам и тем, кто их нанял, {PAWN_pronoun} в одиночку {PAWN_gender ? отправился : отправилась} в пустоши.</desc>
 	</WastelandWanderer81>
 
 	<!-- Lucas "Blackjack" Wakefield, Male, Adulthood -->
 	<VoidspaceRaider94>
 		<!-- EN: voidspace raider -->
 		<title>космический налётчик</title>
+		<titleFemale>космическая налётчица</titleFemale>
 		<!-- EN: Pirate -->
 		<titleShort>налётчик</titleShort>
+		<titleFemaleShort>налётчица</titleFemaleShort>
 		<!-- EN: After years of seeking the assassin that broke up [PAWN_possessive] family, [PAWN_nameDef] was offered a place with a group of space-faring raiders. [PAWN_pronoun] accepted, hoping to find the killer [PAWN_pronoun] sought.\n\nDue to [PAWN_possessive] seemingly-unending ability to narrowly escape danger, [PAWN_pronoun] earned the nickname 'Blackjack' in recognition of [PAWN_possessive] luck. -->
-		<desc>Долгие годы {PAWN_nameDef} ищет убийцу своей семьи. В конце концов {PAWN_possessive} приглашают в группу космических рейдеров. {PAWN_pronoun} даёт согласие в надежде, что это поможет найти убийцу.\n\nИз-за своей способности неизменно уходить от опасности в самый последний момент {PAWN_pronoun} получает прозвище «Блэкджек» в знак признания своей удачливости.</desc>
+		<desc>Долгие годы {PAWN_nameDef} {PAWN_gender ? искал : искала} убийцу своей семьи. В конце концов {PAWN_possessive} пригласили в группу космических рейдеров. {PAWN_pronoun} {PAWN_gender ? согласился : согласилась} в надежде, что это поможет найти убийцу.\n\nИз-за своей способности неизменно уходить от опасности в самый последний момент {PAWN_pronoun} {PAWN_gender ? получил : получила} прозвище «Блэкджек» в знак признания своей удачливости.</desc>
 	</VoidspaceRaider94>
 
 	<!-- Daniel "Dankman" Mann, Male, Childhood -->
 	<PyroAssistant82>
 		<!-- EN: pyro assistant -->
 		<title>помощник-пироман</title>
+		<titleFemale>помощница-пироманка</titleFemale>
 		<!-- EN: assistant -->
 		<titleShort>помощник</titleShort>
+		<titleFemaleShort>помощница</titleFemaleShort>
 		<!-- EN: On an industrial world, [PAWN_nameDef] learned early that if [PAWN_pronoun] wanted to eat, [PAWN_pronoun] had to work. So work [PAWN_pronoun] did. Kids fit in places adults can't, and where [PAWN_pronoun] was from, the safety laws were quite flexible.\n\n[PAWN_pronoun] was always a bit of a pyromaniac, and was banned from the kitchen after an unfortunate incident. -->
-		<desc>В индустриальном мире рано понимаешь: если хочешь есть, придётся работать. И {PAWN_nameDef} работает, помогая на кухне и по дому. Дети могут пролезть в места, куда не попасть взрослым, а на {PAWN_possessive} родине техника безопасности достаточно гибка.\n\n{PAWN_possessive} всегда считали немножко пироманом, а после несчастного случая {PAWN_possessive} перестают пускать на кухню.</desc>
+		<desc>{PAWN_nameDef} рано понял, что в индустриальном мире, если хочешь есть — придётся работать. И {PAWN_pronoun} {PAWN_gender ? работал : работала}, помогая на кухне и по дому. Дети могут пролезть в места, куда не попасть взрослым, а на {PAWN_possessive} родине техникой безопасности откровенно пренебрегали.\n\n{PAWN_possessive} всегда считали немножко {PAWN_gender ? пироманом : пироманкой}, а после несчастного случая {PAWN_possessive} перестали пускать на кухню.</desc>
 	</PyroAssistant82>
 
 	<!-- Daniel "Dankman" Mann, Male, Adulthood -->
 	<MachineFixer31>
 		<!-- EN: machine fixer -->
 		<title>наладчик машин</title>
+		<titleFemale>наладчица машин</titleFemale>
 		<!-- EN: fixer -->
 		<titleShort>наладчик</titleShort>
+		<titleFemaleShort>наладчица</titleFemaleShort>
 		<!-- EN: [PAWN_nameDef] was adept at dealing with mechanical problems, as long as the problem didn't involve the kitchen.\n\nAfter a life spent around dangerous machinery and flammable chemicals, [PAWN_pronoun] learned how to patch [PAWN_objective]self up pretty well. Despite the pain, [PAWN_pronoun] never learned to dislike fire. -->
-		<desc>{PAWN_nameDef} всегда умело устраняет механические неполадки, если они не касаются кухни.\n\nДолгая жизнь среди опасного оборудования и горючих химикатов учит {PAWN_possessive} вполне прилично латать себя. Однако даже боль не отучает {PAWN_possessive} от опасных игр с огнём.</desc>
+		<desc>{PAWN_nameDef} всегда умело {PAWN_gender ? устранял : устраняла} механические неполадки, если они не касались кухни.\n\nДолгая жизнь среди опасного оборудования и горючих химикатов научила {PAWN_possessive} вполне прилично латать себя. Однако даже боль не отучила {PAWN_possessive} от опасных игр с огнём.</desc>
 	</MachineFixer31>
 
 	<!-- Ryoko "Onesan" Minese, Female, Childhood -->
@@ -6266,7 +6346,7 @@
 		<!-- EN: grifter -->
 		<titleShort>кидала</titleShort>
 		<!-- EN: After running away from home, [PAWN_nameDef] had to live on the streets.\n\n[PAWN_pronoun] grew up fast, and learned early that [PAWN_pronoun] had to figure out how to fool people into connecting with [PAWN_objective]. -->
-		<desc>После бегства из дома {PAWN_nameDef} живёт на улице.\n\n{PAWN_nameDef} быстро вырастает и рано постигает, как просто обводить людей вокруг пальца.</desc>
+		<desc>После бегства из дома {PAWN_nameDef} {PAWN_gender ? жил : жила} на улице.\n\n{PAWN_nameDef} быстро {PAWN_gender ? вырос : выросла} и рано {PAWN_gender ? узнал : узнала}, как просто обводить людей вокруг пальца.</desc>
 	</StreetUrchin74>
 
 	<!-- Ryoko "Onesan" Minese, Female, Adulthood -->
@@ -6276,7 +6356,7 @@
 		<!-- EN: merchant -->
 		<titleShort>купец</titleShort>
 		<!-- EN: As part of a freelance interplanetary lifestyle, [PAWN_nameDef] sought to dominate [PAWN_possessive] romantic interests as much as [PAWN_possessive] business adversaries. When [PAWN_pronoun] didn't have [PAWN_possessive] own ship to fly, [PAWN_pronoun] worked charter ships for hire. -->
-		<desc>{PAWN_nameDef} ведёт независимый межпланетный образ жизни и стремится подавить в себе любой романтический интерес, как и {PAWN_possessive} деловые соперники. Пока {PAWN_objective} не удаётся купить собственный корабль, {PAWN_pronoun} берёт чартерные корабли напрокат.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? вёл : вела} независимый межпланетный образ жизни и {PAWN_gender ? стремился : стремилась} подавить в себе любой романтический интерес, как и {PAWN_possessive} деловые соперники. Пока {PAWN_objective} не удалось купить собственный корабль, {PAWN_pronoun} {PAWN_gender ? пользовался : пользовалась} чартерными кораблями.</desc>
 	</SpaceMerchant97>
 
 	<!-- Charles "Charlzie" Zillioner, Male, Childhood -->
