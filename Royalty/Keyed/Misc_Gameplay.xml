@@ -30,9 +30,9 @@
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} уже {USER_gender ? изучил : изучила} {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
 
   <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor>принявший задание получит {1} ед. ^Replace( {0_royalFavorLabel} | 'милость короны'-'милости короны')^ от фракции {0_name}</Reward_RoyalFavor>
+  <Reward_RoyalFavor>принявший задание получит {1} ед. {replace: {0_royalFavorLabel}; "милость короны"-"милости короны"} от фракции {0_name}</Reward_RoyalFavor>
   <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor_ChoosePawn>вы можете выбрать любого участника задания для получения {1} ед. ^Replace( {0_royalFavorLabel} | 'милость короны'-'милости короны')^ от фракции {0_name}</Reward_RoyalFavor_ChoosePawn>
+  <Reward_RoyalFavor_ChoosePawn>вы можете выбрать любого участника задания для получения {1} ед. {replace: {0_royalFavorLabel}; "милость короны"-"милости короны"} от фракции {0_name}</Reward_RoyalFavor_ChoosePawn>
   
   <!-- Ship landing beacons -->
   <!-- EN: Not usable -->
@@ -138,7 +138,7 @@
   <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>Начать ритуал связывания</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
-  <BeginLinkingRitualNeedSubplants>Нужно 5 ед. ^Replace({0} | 'трава души'-'травы души')^ (есть {2})</BeginLinkingRitualNeedSubplants>
+  <BeginLinkingRitualNeedSubplants>Нужно 5 ед. {replace: {0}; "трава души"-"травы души"} (есть {2})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
   <BeginLinkingRitualNeedFocus>Требуется вид медитации: {0}</BeginLinkingRitualNeedFocus>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
