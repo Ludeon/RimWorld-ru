@@ -28,7 +28,7 @@
   <RoyalNoAcceptableFoodDesc>Титул одного из ваших поселенцев предписывает употребление определённых видов блюд. В данный момент в поселении отсутствует нужная еда.</RoyalNoAcceptableFoodDesc>
 
   <!-- EN: {0} days until requirement begins -->
-  <RoomRequirementGracePeriodDesc>^Number( {0} | '# день' | '# дня' | '# дней')^ до вступления в силу требований</RoomRequirementGracePeriodDesc>
+  <RoomRequirementGracePeriodDesc>{0} {0_numCase ? день : дня : дней} до вступления в силу требований</RoomRequirementGracePeriodDesc>
 
   <!-- EN: Throne not usable -->
   <ThroneroomInvalidConfiguration>Невозможно использовать трон</ThroneroomInvalidConfiguration>

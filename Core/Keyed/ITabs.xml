@@ -236,7 +236,7 @@
   <!-- EN: Kidnapped -->
   <Kidnapped>Похищен(а)</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
-  <Lent>Временно передан(а) фракции {FACTION_name}, вернётся через ^Number( {1} | '# день' | '# дня' | '# дней')^</Lent>
+  <Lent>Временно передан(а) фракции {FACTION_name}, вернётся через {1} {1_numCase ? день : дня : дней}</Lent>
   <!-- EN: Missing -->
   <Missing>Пропал(а) без вести</Missing>
   <!-- EN: Slave -->

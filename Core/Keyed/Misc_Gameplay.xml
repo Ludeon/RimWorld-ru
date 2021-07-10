@@ -67,7 +67,7 @@
   <!-- EN: Immunity -->
   <Immunity>Иммунитет выработан</Immunity>
   <!-- EN: {0} days to recover -->
-  <DaysToRecover>^Number( {0} | '# день' | '# дня' | '# дней')^ до восстановления</DaysToRecover>
+  <DaysToRecover>{0} {0_numCase ? день : дня : дней} до восстановления</DaysToRecover>
   <!-- EN: Ineffective -->
   <Ineffective>Неэффективно</Ineffective>
   <!-- EN: illegal -->
@@ -175,17 +175,17 @@
   <!-- EN: using {0} bedrolls -->
   <UsingBedrolls>{0} чел. в спальных мешках</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
-  <CaravanEstimatedTimeToDestination>Расчётное время в пути: ^Number( {0} | '# день' | '# дня' | '# дней')^</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedTimeToDestination>Расчётное время в пути: {0} {0_numCase ? день : дня : дней}</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
-  <CaravanEstimatedDaysToDestination>Длительность маршрута: ^Number( {0} | '# день' | '# дня' | '# дней')^</CaravanEstimatedDaysToDestination>
+  <CaravanEstimatedDaysToDestination>Длительность маршрута: {0} {0_numCase ? день : дня : дней}</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>Невозможно идти: слишком тяжело.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
   <CaravanOutOfFood>Нет еды.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
-  <CaravanDaysOfFood>Еды хватит на ^Number( {0} | '# день' | '# дня' | '# дней')^</CaravanDaysOfFood>
+  <CaravanDaysOfFood>Еды хватит на {0} {0_numCase ? день : дня : дней}</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
-  <CaravanDaysOfFoodRot>Еды хватит на ^Number( {0} | '# день' | '# дня' | '# дней')^, начнёт портиться через ^Number( {1} | '# день' | '# дня' | '# дней')^</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>Еды хватит на {0} {0_numCase ? день : дня : дней}, начнёт портиться через {1} {1_numCase ? день : дня : дней}</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
   <AllCaravanMembersDowned>Остановка: все члены сражены.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone is in a mental break. -->
@@ -369,7 +369,7 @@
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} с фракцией {1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <EnterCooldown>Это место посещать слишком опасно ещё ^Number( {0} | '# день' | '# дня' | '# дней')^.</EnterCooldown>
+  <EnterCooldown>Это место посещать слишком опасно ещё {0} {0_numCase ? день : дня : дней}.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Караван</Caravan>
   <!-- EN: there may be danger there. -->
@@ -423,7 +423,7 @@
   <!-- EN: View: {0} -->
   <ViewHyperlink>Перейти к: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
-  <DetonationCountdown>Взорвётся через ^Number( {0} | '# день' | '# дня' | '# дней')^</DetonationCountdown>
+  <DetonationCountdown>Взорвётся через {0} {0_numCase ? день : дня : дней}</DetonationCountdown>
   <!-- EN: Large explosion if damaged -->
   <ExplosionOnDamageWarning>При повреждении произойдёт мощный взрыв</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->

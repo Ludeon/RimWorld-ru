@@ -611,7 +611,7 @@
   <!-- EN: Restocked since your last visit -->
   <TraderRestockedSinceLastVisit>Список товаров обновился с последнего посещения</TraderRestockedSinceLastVisit>
   <!-- EN: Next restock: {0} days -->
-  <NextTraderRestock>Список обновится через ^Number( {0} | '# день' | '# дня' | '# дней')^</NextTraderRestock>
+  <NextTraderRestock>Список обновится через {0} {0_numCase ? день : дня : дней}</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>Люди и животные</PawnsTabShort>
   
@@ -659,7 +659,7 @@
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(учитывается только первая точка маршрута)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
-  <DaysWorthOfFoodWarningDialog>Вашему каравану хватит еды только на ^Number( {0} | '# день' | '# дня' | '# дней')^. Люди и животные очень скоро начнут голодать.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog>Вашему каравану хватит еды только на {0} {0_numCase ? день : дня : дней}. Люди и животные очень скоро начнут голодать.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>Без еды люди и животные в караване очень скоро начнут голодать.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
@@ -735,13 +735,13 @@
   <!-- EN: Animals can graze -->
   <AnimalsCanGraze>Животные могут пастись</AnimalsCanGraze>
   <!-- EN: (for {0} more days) -->
-  <PossibleToGrazeFor>(ещё в течение ^Number( {0} | '# день' | '# дней' | '# дней')^)</PossibleToGrazeFor>
+  <PossibleToGrazeFor>(ещё в течение {0} {0_numCase ? день : дней : дней})</PossibleToGrazeFor>
   <!-- EN: (forever) -->
   <PossibleToGrazeForever>(всегда)</PossibleToGrazeForever>
   <!-- EN: ({0}) -->
   <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
   <!-- EN: (too cold for {0} more days) -->
-  <CantGrazeBecauseOfTemp>(будет слишком холодно ещё ^Number( {0} | '# день' | '# дня' | '# дней')^)</CantGrazeBecauseOfTemp>
+  <CantGrazeBecauseOfTemp>(будет слишком холодно ещё {0} {0_numCase ? день : дня : дней})</CantGrazeBecauseOfTemp>
   <!-- EN: Total nutrition -->
   <TotalNutrition>Всего еды</TotalNutrition>
   <!-- EN: Not moving -->
@@ -873,9 +873,9 @@
   <!-- EN: Every day -->
   <EveryDay>Каждый день</EveryDay>
   <!-- EN: {0} times per day -->
-  <TimesPerDay>^Number( {0} | '# раз' | '# раза' | '# раз')^ в день</TimesPerDay>
+  <TimesPerDay>{0} {0_numCase ? раз : раза : раз} в день</TimesPerDay>
   <!-- EN: Every {0} days -->
-  <EveryDays>Каждые ^Number( {0} | '# день' | '# дня' | '# дней')^</EveryDays>
+  <EveryDays>Каждые {0} {0_numCase ? день : дня : дней}</EveryDays>
   <!-- EN: Any -->
   <NoDrugUseRequirement>Любой</NoDrugUseRequirement>
   <!-- EN: Delete this drug. -->
@@ -973,7 +973,7 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>Это место отстоит от поселений других фракций всего на {0} или менее клеток, и они будут считать, что вы посягаете на их территорию. Отношения с ними будут ухудшаться каждые ^Number( {1} | '# день' | '# дня' | '# дней')^.\n\nВсё равно высадиться здесь?</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>Это место отстоит от поселений других фракций всего на {0} или менее клеток, и они будут считать, что вы посягаете на их территорию. Отношения с ними будут ухудшаться каждые {1} {1_numCase ? день : дня : дней}.\n\nВсё равно высадиться здесь?</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->

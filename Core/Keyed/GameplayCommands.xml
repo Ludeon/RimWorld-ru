@@ -480,7 +480,7 @@
   <!-- EN: Rest -->
   <CommandPauseCaravan>Привал</CommandPauseCaravan>
   <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
-  <CommandToggleCaravanPauseDesc>Приостановить движение каравана. Это даст следующие преимущества:\n\n  - люди смогут общаться друг с другом\n  - добыча еды ускорится в ^Number( {0} | '# раз' | '# раза' | '# раз')^\n  - заметность станет {1} от обычной</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>Приостановить движение каравана. Это даст следующие преимущества:\n\n  - люди смогут общаться друг с другом\n  - добыча еды ускорится в {0} {0_numCase ? раз : раза : раз}\n  - заметность станет {1} от обычной</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->

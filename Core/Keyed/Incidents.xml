@@ -100,11 +100,11 @@
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
   <LetterShipPartDroveColonistInsane>Часть разбившегося корабля испустила направленный психоактивный импульс, и ваш поселенец {0} сошёл с ума.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
-  <AwokeDaysAgo>Активен последние ^Number( {0} | '# день' | '# дня' | '# дней')^</AwokeDaysAgo>
+  <AwokeDaysAgo>Активен последние {0} {0_numCase ? день : дня : дней}</AwokeDaysAgo>
   <!-- EN: Activated {0} days ago -->
-  <ActivatedDaysAgo>Активировано ^Number( {0} | '# день' | '# дня' | '# дней')^ назад</ActivatedDaysAgo>
+  <ActivatedDaysAgo>Активировано {0} {0_numCase ? день : дня : дней} назад</ActivatedDaysAgo>
   <!-- EN: Opened {0} days ago -->
-  <OpenedDaysAgo>Открыто ^Number( {0} | '# день' | '# дня' | '# дней')^ назад</OpenedDaysAgo>
+  <OpenedDaysAgo>Открыто {0} {0_numCase ? день : дня : дней} назад</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>Уровень гула: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
@@ -208,7 +208,7 @@
   <!-- EN: Caravan demand by {0} -->
   <CaravanDemandTitle>Засада разбойников из фракции {0}</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>{0} поджидали в засаде {4} из фракции {1}! Их ^Number( {2} | '# человек' | '# человека' | '# человек')^. Они вас атакуют, если вы не отдадите им:\n\n{3}</CaravanDemand>
+  <CaravanDemand>{0} поджидали в засаде {4} из фракции {1}! Их {2} {2_numCase ? человек : человека : человек}. Они вас атакуют, если вы не отдадите им:\n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
   <CaravanDemand_Give>Отдать и продолжить путь</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->
