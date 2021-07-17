@@ -10,9 +10,9 @@
 ### Стандартный способ
 
 1. Скачать архив, **соответствующий вашей версии игры (это важно!):**
-	* Последняя актуальная 1.2 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
+	* Последняя актуальная 1.3 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
+	* 1.2.2900 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.2.2900.zip)
 	* 1.1.2654 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2654.zip)
-	* 1.1.2624 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2624.zip)
 	* Release: [1.0](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2150.zip)
 	* Beta: [B-18](https://github.com/Ludeon/RimWorld-ru/archive/beta-18.zip), [B-19](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip)
 	* Alpha : [A-15](https://github.com/Ludeon/RimWorld-ru/archive/alpha-15.zip), [A-16](https://github.com/Ludeon/RimWorld-ru/archive/alpha-16.zip), [A-17](https://github.com/Ludeon/RimWorld-ru/archive/alpha-17.zip)
