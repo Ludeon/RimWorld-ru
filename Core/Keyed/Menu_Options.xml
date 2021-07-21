@@ -44,6 +44,8 @@
   <ResetModsConfigOnCrash>Сброс конф. модов при ошибке</ResetModsConfigOnCrash>
   <!-- EN: Simulate not owning Royalty -->
   <SimulateNotOwningRoyalty>Симулировать отсутствие Royalty</SimulateNotOwningRoyalty>
+  <!-- EN: Simulate not owning Ideology -->
+  <SimulateNotOwningIdeology>Симулировать отсутствие Ideology</SimulateNotOwningIdeology>
   <!-- EN: Verbose logging -->
   <LogVerbose>Подробный журнал</LogVerbose>
   <!-- EN: Open save data folder -->
@@ -79,7 +81,7 @@
   <!-- EN: Enable test map sizes -->
   <EnableTestMapSizes>Задействовать тестовые размеры карт</EnableTestMapSizes>
   <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
-  <MaxPermadeathAutosaveIntervalInfo>Максимальный интервал автосохранения в «ответственном» режиме — {0_numCase ? день : дня : дней}.</MaxPermadeathAutosaveIntervalInfo>
+  <MaxPermadeathAutosaveIntervalInfo>Максимальный интервал автосохранения в «ответственном» режиме — ^Number( {0} | '# день' | '# дня' | '# дней')^.</MaxPermadeathAutosaveIntervalInfo>
   <!-- EN: Mod Settings -->
   <ModSettings>Настройки модов</ModSettings>
   <!-- EN: Permanently disable development mode -->
@@ -105,4 +107,8 @@
   <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>Все ваши настройки будут сброшены, а игра перезапустится. Весь несохранённый прогресс будет потерян!\n\nПродолжить?</ResetAndRestartConfirmationDialog>
   
+  <!-- Background image -->
+  <!-- EN: Menu background -->
+  <SetBackgroundImage>Фоновое изображение меню</SetBackgroundImage>
+
 </LanguageData>

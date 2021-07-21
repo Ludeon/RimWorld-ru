@@ -13,7 +13,7 @@
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
   <MessageRaidersStealing>{0} из фракции {1} решили украсть, что смогут, и уйти.</MessageRaidersStealing>
 
-  <!-- EN: {0} from {1} have arrived in the area of your caravan and are attacking. More are on the way and will arrive in {2}. -->
+  <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
   <MessageCaravanDetectedRaidArrived>{0} из фракции {1} нападают на ваш караван. Через {2} прибудут их новые подкрепления.</MessageCaravanDetectedRaidArrived>
 
   <!-- EN: {0} from {1} are leaving. -->
@@ -65,20 +65,26 @@
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} не может найти снарядов для {GUN_label}.</MessageOutOfNearbyShellsFor>
+  <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} не обнаружил поблизости свободного {FUEL} для {GUN_label}.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Внимание: при попадании с расстояния винтовочного выстрела {ANIMAL_kindBasePlural} нападают с базовой вероятностью {1}. На это влияют как расстояние до цели, так и скрытность охотника.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Внимание: при неудачной попытке приручения {ANIMAL_kindBasePlural} нападают с вероятностью {1}.</MessageAnimalManhuntsOnTameFailed>
+  <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
+  <MessageInsectTameDesignated>Только колонисты с чертой характера "Любовь к насекомым" могут приручить {INSECT_indefinite}.</MessageInsectTameDesignated>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Новый рекрут</LetterLabelMessageRecruitSuccess>
-  <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
+  <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
   <MessageRecruitSuccess>{RECRUITER_nameFull} успешно {RECRUITER_gender ? завербовал : завербовала} {RECRUITEE_nameFull} с вероятностью {2}.</MessageRecruitSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
   <MessageTameSuccess>{RECRUITER_labelShort} успешно {RECRUITER_gender ? приручил : приручила} {1} с вероятностью {2}.</MessageTameSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort} успешно {RECRUITER_gender ? приручил : приручила} {1} с вероятностью {2} и {RECRUITER_gender ? назвал : назвала} {RECRUITEE_possessive} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
+  <MessageTameNoSuitablePens>Нет подходящего загона для {ANIMAL_labelShort}. В конце концов он уйдет.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
   <MessageRecruitJoinOfferAccepted>{RECRUITEE} присоединяется к вашему поселению.</MessageRecruitJoinOfferAccepted>
 
@@ -161,12 +167,9 @@
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>{PAWN_labelShort} {PAWN_gender ? потерял : потеряла} уровень импланта {1} из-за: {2}. </MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
-  <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} {PAWN_gender ? получил : получила} повреждение мозга на {1_numCase ? единицу : единицы : единиц} из-за: {2}.</MessageReceivedBrainDamageFromHediff>
+  <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} {PAWN_gender ? получил : получила} повреждение мозга на ^Number( {1} | '# единицу' | '# единицы' | '# единиц')^ из-за: {2}.</MessageReceivedBrainDamageFromHediff>
   <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} {PAWN_gender ? превысил : превысила} безопасный порог нейроперегрева.</MessageWentOverPsychicEntropyLimit>
-
-  <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
-  <MessageNuzzledPawnGaveNameTo>{1} ласкается к {NAMER_nameFull}. {NAMER_labelShort} решает дать питомцу имя {NAMEE_nameFull}.</MessageNuzzledPawnGaveNameTo>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
   <MessageNoHandlerSkilledEnough>Никто не сможет приручить {ANIMAL_kindBase}. Требуется {2} уровня {1}. Лучший животновод, {HANDLER_labelShort}, имеет уровень {4}.</MessageNoHandlerSkilledEnough>
@@ -175,7 +178,13 @@
   <MessageEatenByPredator>{PREDATOR} {PREDATOR_gender ? съел : съела} {EATEN_labelShort}</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
   <MessageAttackedByPredator>На {PREY_labelShort} {PREDATOR_gender ? напал : напала} {PREDATOR}!</MessageAttackedByPredator>
-  
+
+  <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
+  <MessageRoamerLeaving>{PAWN_labelShort} начал убегать! {PAWN_pronoun} покинет карту, если дрессировщик не вернет {PAWN_objective} обратно в загон.</MessageRoamerLeaving>
+
+  <!-- EN: Cannot auto-cut plants when pen is not enclosed - build fences. -->
+  <MessageAutoCutInUnenclosedPen>Невозможно автоматически обрезать растения, если загон не закрыт.</MessageAutoCutInUnenclosedPen>
+
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Улей насекомых расплодился.</MessageHiveReproduced>
   
@@ -341,6 +350,8 @@
   <MessageCantEquipCustom>Невозможно взять оружие: {0}</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>Невозможно взять оружие: {1_labelShort} {1_gender ? неспособен : неспособна} к насилию.</MessageCantEquipIncapableOfViolence>
+  <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
+  <MessageCantEquipIncapableOfShooting>{1_labelShort} никогда не будет стрелять.</MessageCantEquipIncapableOfShooting>
   <!-- EN: Cannot equip: Incapable. -->
   <MessageCantEquipIncapableOfManipulation>Поселенец не в состоянии взять это оружие.</MessageCantEquipIncapableOfManipulation>
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
@@ -352,8 +363,10 @@
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>Если вы убьёте {DESIGNATED_labelShort}, {BONDED_labelShort} расстроится из-за своей привязанности к этому животному.</MessageSlaughteringBondedAnimal>
+  <!-- EN: Because they are bonded, releasing {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
+  <MessageReleaseBondedAnimal>Поскольку они связаны, освобождение {DESIGNATED_labelShort} сделает {BONDED_labelShort} несчастным.</MessageReleaseBondedAnimal>
   
-  <!-- EN: {0} has run out of food ({PAWN_label}). -->
+  <!-- EN: {0} has run out of food. -->
   <MessageCaravanRanOutOfFood>{0} остался без еды. {PAWN_label} {PAWN_gender ? голоден : голодна}.</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
   <MessageCaravanDeathCorpseAddedToInventory>Караван подобрал тело {PAWN_definite}. Оно тяжёлое и замедляет движение, но его можно оставить во вкладке «Груз».</MessageCaravanDeathCorpseAddedToInventory>
@@ -393,10 +406,10 @@
   <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Казнь невозможно осуществить: ни один из надзирателей не способен к насилию.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
   
-  <!-- EN: You have defeated all enemies. In {0}, the caravan will automatically be reformed. -->
-  <MessageSiteCountdownBecauseNoMoreEnemies>Вы победили всех противников. Через {0} караван продолжит свой путь.</MessageSiteCountdownBecauseNoMoreEnemies>
-  <!-- EN: In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen. -->
-  <MessageSiteCountdownBecauseNoEnemiesInitially>Через {0} караван продолжит путь. Вы можете досрочно отправить караван, перейдя на карту мира.</MessageSiteCountdownBecauseNoEnemiesInitially>
+  <!-- EN: Area is now safe. You can reform the caravan on the world map. -->
+  <MessageCanReformCaravanNowNoMoreEnemies>Зона теперь безопасна. Вы можете снарядить караван.</MessageCanReformCaravanNowNoMoreEnemies>
+  <!-- EN: Area is now safe, but some unexplored rooms remain. You can explore further or reform the caravan on the world map. -->
+  <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>Зона теперь безопасна. Но остались неисследованные комнаты. Вы можете доисследовать из или снарядить караван.</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
 
   <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
   <MessageCantBanishDownedPawn>Невозможно изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не может ходить.</MessageCantBanishDownedPawn>
@@ -484,8 +497,6 @@
   <GoodwillChangedReason_Traded>заключена крупная сделка</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>атакован караван</GoodwillChangedReason_AttackedCaravan>
-  <!-- EN: natural tendency to reach {0} over time -->
-  <GoodwillChangedReason_NaturallyOverTime>репутация стремится к {0} естественным образом</GoodwillChangedReason_NaturallyOverTime>
   <!-- EN: {1_labelShort} exited the map healthy -->
   <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} {1_gender ? ушёл : ушла} в здравии</GoodwillChangedReason_ExitedMapHealthy>
   <!-- EN: tended to {1_labelShort} -->
@@ -547,6 +558,8 @@
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>Из-за долгого отсутствия попыток приручения {1_labelShort} вновь {1_gender ? одичал : одичала}.</MessageAnimalReturnedWild>
+  <!-- EN: {1_labelShort} has been returned to the wild. -->
+  <MessageAnimalReturnedWildReleased>{1_labelShort} был выпущен в дикую природу.</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
   <MessageAnimalLostSkill>Из-за долгого отсутствия тренировок {ANIMAL_labelShort} {ANIMAL_gender ? потерял : потеряла} навык: {1}</MessageAnimalLostSkill>
 
@@ -557,7 +570,7 @@
   <MessageCaravanArrivalActionNoLongerValid>{0} не может достичь места назначения.</MessageCaravanArrivalActionNoLongerValid>
 
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <MessageEnterCooldownBlocksEntering>Это место посещать слишком слишком опасно ещё {0_numCase ? день : дня : дней}.</MessageEnterCooldownBlocksEntering>
+  <MessageEnterCooldownBlocksEntering>Это место посещать слишком слишком опасно ещё ^Number( {0} | '# день' | '# дня' | '# дней')^.</MessageEnterCooldownBlocksEntering>
 
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
   <MessagePermitCooldownFinished>{0_labelShort} теперь может свободно пользоваться привилегией «{1}»</MessagePermitCooldownFinished>
@@ -623,5 +636,99 @@
 
   <!-- EN: {PAWN_nameDef} is a prisoner -->
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} — {PAWN_gender ? пленник : пленница}.</MessagePrisonerCannotEquipWeapon>
+
+  <!-- EN: Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy. -->
+  <MessageIdeoOpposedWorkTypeSelected>Внимание: Мировоззрение {0_nameDef} противоречит работе {1}. {0_pronoun} может стать несчастным из-за этого.</MessageIdeoOpposedWorkTypeSelected>
+
+  <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
+  <MessageBedLostAssignment>{0} больше не привязан {1_nameDef}.</MessageBedLostAssignment>
+  <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
+  <MessageBedDestroyed>{0} привязанный к {1_nameDef} был разрущен.</MessageBedDestroyed>
+
+  <!-- Rituals -->
+  <!-- EN: spectate -->
+  <Spectate>наблюдать</Spectate>
+  <!-- EN: Assign to {0} -->
+  <AssignToRole>Привязать к {0}</AssignToRole>
+  <!-- EN: {0} has begun. -->
+  <RitualBegun>{0} началось.</RitualBegun>
+  <!-- EN: The maximum number of {0}s is {1}. -->
+  <MaxPawnsPerRole>Максимальное количество {0} равняется {1}.</MaxPawnsPerRole>
+  <!-- EN: You need at least one participant. -->
+  <MessageRitualNeedsAtLeastOnePerson>Вам нужен как минимум один участник.</MessageRitualNeedsAtLeastOnePerson>
+  <!-- EN: You need at least one spectator. -->
+  <MessageRitualNeedsAtLeastOneSpectator>Вам нужен как минимум один наблюдатель.</MessageRitualNeedsAtLeastOneSpectator>
+  <!-- EN: You need a {0}. -->
+  <MessageRitualNeedsAtLeastOneRolePawn>Вам нужен {0}.</MessageRitualNeedsAtLeastOneRolePawn>
+  <!-- EN: You need at least {1} {0}. -->
+  <MessageRitualNeedsAtLeastNumRolePawn>Вам нужен как минимум {1} {0}.</MessageRitualNeedsAtLeastNumRolePawn>
+  <!-- EN: {0_labelShort} is downed. -->
+  <MessageRitualPawnDowned>{0_labelShort} сражен.</MessageRitualPawnDowned>
+  <!-- EN: {0_labelShort} is currently escaping. -->
+  <MessageRitualPawnPrisonerNotSecured>{0_labelShort} сбегает.</MessageRitualPawnPrisonerNotSecured>
+  <!-- EN: {0_labelShort} is currently rebelling. -->
+  <MessageRitualPawnSlaveNotSecured>{0_labelShort} бунтует.</MessageRitualPawnSlaveNotSecured>
+  <!-- EN: {0_labelShort} is being released. -->
+  <MessageRitualPawnReleased>{0_labelShort} выпускают на волю.</MessageRitualPawnReleased>
+  <!-- EN: {0_labelShort} is injured. -->
+  <MessageRitualPawnInjured>{0_labelShort} ранен.</MessageRitualPawnInjured>
+  <!-- EN: {0_labelShort} must hold one of these roles -->
+  <MessageRitualRoleRequired>{0_labelShort} должен занимать одну из этих ролей</MessageRitualRoleRequired>
+  <!-- EN: {0} must be a prisoner. -->
+  <MessageRitualRoleMustBePrisoner>{0} должен являться заключенным.</MessageRitualRoleMustBePrisoner>
+  <!-- EN: {0} must be an animal. -->
+  <MessageRitualRoleMustBeAnimal>{0} должен являться животным.</MessageRitualRoleMustBeAnimal>
+  <!-- EN: {0} must be a human. -->
+  <MessageRitualRoleMustBeHumanlike>{0} должен являться человеком.</MessageRitualRoleMustBeHumanlike>
+  <!-- EN: {0} must have eyes -->
+  <MessageRitualRoleMustHaveEyes>У {0} должны быть глаза.</MessageRitualRoleMustHaveEyes>
+  <!-- EN: {0_labelShort} does not require further scarification. -->
+  <MessageRitualRoleMustRequireScarification>{0_labelShort} не требует дальнейшего шрамирования.</MessageRitualRoleMustRequireScarification>
+  <!-- EN: {0} must be a prisoner or slave. -->
+  <MessageRitualRoleMustBePrisonerOrSlave>{0} должен являться рабом или заключенным.</MessageRitualRoleMustBePrisonerOrSlave>
+  <!-- EN: {0_labelShort} must be capable of fighting. -->
+  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} должен иметь возмозжность применять насилие.</MessageRitualRoleMustBeCapableOfFighting>
+  <!-- EN: {0_labelShort} must be capable of wardening. -->
+  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} должен иметь возмозжность надзирать.</MessageRitualRoleMustBeCapableOfWardening>
+  <!-- EN: {0} must be capable of {1}. -->
+  <MessageRitualRoleMustBeCapableOfGeneric>{0} должен иметь возмозжность {1}.</MessageRitualRoleMustBeCapableOfGeneric>
+  <!-- EN: prisoners cannot {0}. -->
+  <MessageRitualRoleMustNotBePrisonerToSpectate>заключенные не могут {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
+  <!-- EN: only {0} can {1}. -->
+  <MessageRitualRoleMustHaveIdeoToSpectate>только {0} может {1}.</MessageRitualRoleMustHaveIdeoToSpectate>
+  <!-- EN: only {0} can fill the role of {1}. -->
+  <MessageRitualRoleMustHaveIdeoToDoRole>только {0} может занять роль {1}.</MessageRitualRoleMustHaveIdeoToDoRole>
+  <!-- EN: must be colonist for the {0} role. -->
+  <MessageRitualRoleMustBeColonist>должен быть колонистом роли {0}.</MessageRitualRoleMustBeColonist>
+  <!-- EN: {0} must have an animal with min body size of {1}. -->
+  <MessageRitualRoleMustHaveLargerBodySize>{0} должно быть животным минимум размера {1}.</MessageRitualRoleMustHaveLargerBodySize>
+  <!-- EN: {0_labelShort} is in a mental state. -->
+  <MessageRitualPawnMentalState>{0_labelShort} находится в психическом состоянии.</MessageRitualPawnMentalState>
+  <!-- EN: {0_labelShort} is already {1}. -->
+  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} уже {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
+  <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
+  <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} не может занять роль иную чем наблюдатель.</MessageRitualCannotAssignAnyRoleFromSpectating>
+
+  <!-- EN: You must select a site to continue. -->
+  <MessagePlayerMustSelectTile>Вы должны выбрать место, чтобы продолжить.</MessagePlayerMustSelectTile>
+
+  <!-- EN: Cannot plant {0_labelShort} -->
+  <CannotPlantThing>Невозможно посеять семена {0_labelShort}</CannotPlantThing>
+  <!-- EN: Need more fertile terrain. -->
+  <MessageWarningNotEnoughFertility>Нужна более плодородная почва.</MessageWarningNotEnoughFertility>
+  <!-- EN: blocked by {0_label}. -->
+  <BlockedBy>блокирует {0_label}.</BlockedBy>
+  <!-- EN: Cannot be planted next to {0_label}. -->
+  <AdjacentSowBlocker>Невозможно посадить рядом с {0_label}.</AdjacentSowBlocker>
+  <!-- EN: Too close to {0_label}. -->
+  <TooCloseToOtherPlant>Слишком близко к {0_label}.</TooCloseToOtherPlant>
+  <!-- EN: Too close to {0_label}'s planting location. -->
+  <TooCloseToOtherSeedPlantCell>Слишком близко к грядке {0_label}.</TooCloseToOtherSeedPlantCell>
+  
+  <!-- UNUSED -->
+  <MessageNuzzledPawnGaveNameTo>{1} ласкается к {NAMER_nameFull}. {NAMER_labelShort} решает дать питомцу имя {NAMEE_nameFull}.</MessageNuzzledPawnGaveNameTo>
+  <MessageSiteCountdownBecauseNoMoreEnemies>Вы победили всех противников. Через {0} караван продолжит свой путь.</MessageSiteCountdownBecauseNoMoreEnemies>
+  <MessageSiteCountdownBecauseNoEnemiesInitially>Через {0} караван продолжит путь. Вы можете досрочно отправить караван, перейдя на карту мира.</MessageSiteCountdownBecauseNoEnemiesInitially>
+  <GoodwillChangedReason_NaturallyOverTime>репутация стремится к {0} естественным образом</GoodwillChangedReason_NaturallyOverTime>
 
 </LanguageData>
