@@ -2,11 +2,11 @@
 <LanguageData>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <AttendedSpeech.description>В зависимости от успешности ритуала, его участники получат бонус к настроению от {MINMOOD} до {MAXMOOD} на {MOODDAYS} дней</AttendedSpeech.description>
+  <AttendedSpeech.description>В зависимости от успешности ритуала, его участники получат бонус к настроению от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}</AttendedSpeech.description>
   <!-- EN: {PAWN_labelShort}'s social impact -->
-  <AttendedSpeech.comps.0.label>общественное влияние {PAWN_labelShort}</AttendedSpeech.comps.0.label>
+  <AttendedSpeech.comps.0.label>социальное влияние {PAWN_labelShort}</AttendedSpeech.comps.0.label>
   <!-- EN: speaker's social impact -->
-  <AttendedSpeech.comps.0.labelAbstract>общественное влияние говорящего</AttendedSpeech.comps.0.labelAbstract>
+  <AttendedSpeech.comps.0.labelAbstract>социальное влияние говорящего</AttendedSpeech.comps.0.labelAbstract>
   <!-- EN: participant count -->
   <AttendedSpeech.comps.1.label>количество участников</AttendedSpeech.comps.1.label>
   <!-- EN: room impressiveness -->
