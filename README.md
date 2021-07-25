@@ -10,7 +10,7 @@
 ### Стандартный способ
 
 1. Скачать архив, **соответствующий вашей версии игры (это важно!):**
-	* Последняя актуальная 1.3 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
+	* Последняя актуальная 1.3 + Royalty + Ideology: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
 	* 1.2.2900 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.2.2900.zip)
 	* 1.1.2654 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2654.zip)
 	* Release: [1.0](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2150.zip)
@@ -22,6 +22,8 @@
 	В папку `<путь к папке игры>\Data\Core\Languages\` нужно положить папку `Core` из архива и переименовать её в `Russian`.
 
 	В папку `<путь к папке игры>\Data\Royalty\Languages\` нужно положить папку `Royalty` из архива и переименовать её в `Russian`.
+
+	В папку `<путь к папке игры>\Data\Ideology\Languages\` нужно положить папку `Ideology` из архива и переименовать её в `Russian`.
 
 	Если среди папок локализации были старые папки с тем же именем, их следует удалить и на их место положить новые, под старым именем.
 
@@ -47,10 +49,13 @@ powershell.exe -Command "Invoke-WebRequest -OutFile ./master.zip https://github.
 powershell.exe "Add-Type -A 'System.IO.Compression.FileSystem';[IO.Compression.ZipFile]::ExtractToDirectory('master.zip', '1');"
 RD /s /q "Data\Core\Languages\Russian (Русский)\"
 RD /s /q "Data\Royalty\Languages\Russian (Русский)\"
-del "Data\Royalty\Languages\Russian (Русский).tar"
+RD /s /q "Data\Ideology\Languages\Russian (Русский)\"
 del "Data\Core\Languages\Russian (Русский).tar"
+del "Data\Royalty\Languages\Russian (Русский).tar"
+del "Data\Ideology\Languages\Russian (Русский).tar"
 xcopy "1\RimWorld-ru-master\Core" "Data\Core\Languages\Russian (Русский)\"  /H /Y /C /R /S
 xcopy "1\RimWorld-ru-master\Royalty" "Data\Royalty\Languages\Russian (Русский)\"  /H /Y /C /R /S
+xcopy "1\RimWorld-ru-master\Ideology" "Data\Ideology\Languages\Russian (Русский)\"  /H /Y /C /R /S
 RD /s /q 1
 del master.zip
 ```
