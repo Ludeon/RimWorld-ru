@@ -269,7 +269,7 @@
   <!-- EN: Work speed penalty -->
   <WorkSpeedPenalty>Штраф к скорости работы</WorkSpeedPenalty>
   <!-- EN: Disabled -->
-  <DisabledCommand>Отключено</DisabledCommand> <!-- Это ли "Отключено" используется для ритуалов? -->
+  <DisabledCommand>Невозможно</DisabledCommand>
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>Готово к запуску.</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
@@ -493,7 +493,7 @@
   <!-- EN: Natural goodwill range -->
   <NaturalGoodwillRange>Диапазон базовой репутации</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>Базовая репутация фракции зависит от её самосознания и верований. Если текущая репутация значительно отличается от базовой репутации, то она будет постепенно уменьшаться или увеличиваться в сторону базовой репутации.\n\nПока текущая репутация значительно отличается от базовой, эффективность любых действий, влияющих на репутацию, составляет {0}.</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>Базовая репутация фракции зависит от её самосознания и верований. Если текущая репутация значительно отличается от базовой репутации, то она будет постепенно уменьшаться или увеличиваться в её сторону.\n\nПока текущая репутация значительно отличается от базовой, эффективность любых действий, влияющих на репутацию, составляет {0}.</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>ослабляет сопротивление {0_nameIndef}</JobReport_ReduceResistance>
   <!-- EN: Too large -->
@@ -575,7 +575,7 @@
   <!-- EN: Immune -->
   <TextMote_Immune>Иммунитет</TextMote_Immune>
   <!-- EN: {0} tended -->
-  <TextMote_Tended>{0} вылечено</TextMote_Tended> <!-- Это же про ранения? Я бы сделал "обработано", потому что они могут быть обработаны, но не вылечены-->
+  <TextMote_Tended>{0} вылечено</TextMote_Tended>
   <!-- EN: level {0} -->
   <TextMote_SkillUp>уровень {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
@@ -605,7 +605,7 @@
   <!-- EN: Unenclosed -->
   <PenUnenclosedLabel>Не огорожено</PenUnenclosedLabel>
   <!-- EN: open door -->
-  <PenOpenDoorLabel>Открытая дверь</PenOpenDoorLabel>
+  <PenOpenDoorLabel>открыта дверь</PenOpenDoorLabel>
   <!-- EN: Rename pen -->
   <RenameAnimalPen>Переименовать загон</RenameAnimalPen>
   <!-- EN: Pen marker {0} -->
@@ -615,13 +615,13 @@
   <!-- EN: not in a pen -->
   <Unpenned>не в загоне</Unpenned>
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
-  <UnpennedTooltip>Чтобы создать загон для животных, установите метку загона внутри огороженной области. Животноводы отведут животных в подходящие загоны. Загон может быть огорожен забором и баррикадой, а также стенами и дверьми.</UnpennedTooltip> <!-- http://new.gramota.ru/spravka/buro/search-answer?s=%D0%B4%D0%B2%D0%B5%D1%80%D1%8F%D0%BC%D0%B8-->
+  <UnpennedTooltip>Чтобы создать загон для животных, установите метку загона внутри огороженной области. Животноводы отведут животных в подходящие загоны. Загон может быть огорожен оградой и баррикадой, а также стенами и дверьми.</UnpennedTooltip>
   <!-- EN: Roped by -->
   <RopedByPawn>На верёвке у</RopedByPawn>
   <!-- EN: Roped to -->
-  <RopedToThing>Отводится в</RopedToThing>
+  <RopedToThing>Привязяно к</RopedToThing>
   <!-- EN: Roped to spot. -->
-  <RopedToSpot>Отводится к точке.</RopedToSpot>
+  <RopedToSpot>Привязано к точке.</RopedToSpot>
   <!-- EN: Pen size -->
   <PenSizeLabel>Размер загона</PenSizeLabel>
   <!-- EN: Very small pen -->
@@ -633,14 +633,14 @@
   <!-- EN: Large pen -->
   <PenSizeDesc_Large>Просторный загон</PenSizeDesc_Large>
   <!-- EN: Not enclosed - build fences -->
-  <PenSizeDesc_Unenclosed>Загон не огорожен — постройте забор</PenSizeDesc_Unenclosed>
+  <PenSizeDesc_Unenclosed>Загон не огорожен — постройте ограду</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
   <PenCapacityDesc>Поместится животных {ANIMALDEF_label}</PenCapacityDesc>
 
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
-  <CannotOrderNonControlled>Нельзя отдавать приказы неконтролируемым юнитам.</CannotOrderNonControlled>
+  <CannotOrderNonControlled>Нельзя отдавать приказы персонажам, которые не находятся под вашим управлением.</CannotOrderNonControlled>
   <!-- EN: {1_labelShort} is incapable of violence. -->
   <IsIncapableOfViolence>{1_labelShort} не в состоянии причинить насилие.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
@@ -680,9 +680,9 @@
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>несёт {THING_label} на {DESTINATION}</ReportHaulingTo><!-- Тут везде точки в конце, это ничего, что в переводе их нет?-->
+  <ReportHaulingTo>несёт {THING_label} на {DESTINATION}</ReportHaulingTo>
   <!-- EN: burying {THING_label} in {DESTINATION}. -->
-  <ReportHaulingToGrave>хоронит {THING_label} в {DESTINATION}.</ReportHaulingToGrave>
+  <ReportHaulingToGrave>хоронит {THING_label} в {DESTINATION}</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
   <ReportHauling>несёт {1_label}</ReportHauling>
   <!-- EN: hauling. -->
@@ -958,9 +958,9 @@
   <!-- EN: Cut now -->
   <AutoCutNow>Срезать</AutoCutNow>
   <!-- EN: harvesting -->
-  <HarvestGerund>Собирать</HarvestGerund>
+  <HarvestGerund>собирать</HarvestGerund>
   <!-- EN: cutting -->
-  <CutGerund>Рубить</CutGerund>
+  <CutGerund>рубить</CutGerund>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1058,7 +1058,7 @@
   <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>Не может быть размещено под крышей.</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
-  <MustPlaceUnderThickRoof>Следует размещать под плотной крышей.</MustPlaceUnderThickRoof>
+  <MustPlaceUnderThickRoof>Следует размещать под толщей горной породы.</MustPlaceUnderThickRoof>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>Следует размещать вплотную к центральной балке корабля.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1455,7 +1455,7 @@
   <HealingRestoreBodyPart>У {0_nameDef} снова есть {1}.</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>Внимание! Фракция {FACTION_name} будет рассержена, если вы здесь что-то построите! </WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>Внимание! Фракция {FACTION_name} будет рассержена, если вы здесь что-то построите!</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>Выберите место для приземления</ChooseLandingSite>
@@ -1483,9 +1483,9 @@
   <!-- EN: Quality factors -->
   <QualityFactors>На качество влияют</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
-  <QualityFactorTooltipUncertain>Это условие может быть выполнено, если всё пройдет хорошо.\n\nЕсли условие будет выполнено, будет применено вознаграждение за успешный ритуал.</QualityFactorTooltipUncertain>
+  <QualityFactorTooltipUncertain>Это условие может быть выполнено, если всё пройдет хорошо.\n\nЕсли условие будет выполнено, качество ритуала возрастет.</QualityFactorTooltipUncertain>
   <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
-  <QualityFactorTooltipNotFulfilled>Условие не выполнено.\n\nВознаграждение за успешный ритуал не будет применено.</QualityFactorTooltipNotFulfilled>
+  <QualityFactorTooltipNotFulfilled>Условие не выполнено.\n\nКачество ритуала не возрастет.</QualityFactorTooltipNotFulfilled>
   <!-- EN: Spectators -->
   <Spectators>Зрители</Spectators>
   <!-- EN: Not participating -->
@@ -1517,7 +1517,7 @@
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>Звуки ритуала</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
-  <RitualQualityLowWarning>Совокупное качество ритуала {0} составляет {1}. Если вы продолжите, то, скорее всего, это приведет к негативным последствиям для поселения. Вы уверены?</RitualQualityLowWarning>
+  <RitualQualityLowWarning>Совокупное качество ритуала {0} составляет {1}. Если вы продолжите, то, скорее всего, это приведет к негативным последствиям для поселения.\n\nВы уверены?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>Нет доступного подходящего места для выступления.</AbilitySpeechDisabledNoSpot>
   <!-- EN: {0_labelShort} is incapable of talking. -->
@@ -1530,7 +1530,7 @@
   <!-- EN: Begin {0} -->
   <BeginRitual>Начать {0}</BeginRitual>
   <!-- EN: Begin {0} for {1} -->
-  <BeginRitualFor>Начать {0} для {1} --> </BeginRitualFor>
+  <BeginRitualFor>Начать {0} для {1}</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf> {0} (из {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
@@ -1557,7 +1557,7 @@
   <RitualPredictedOutcomeDescPawnExpectations>Ожидания {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>Любое из перечисленного:</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>Любое из перечисленного</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>Заменяет {PAWN_labelShort}</RitualRoleReplaces>
 
@@ -1577,7 +1577,4 @@
   <!-- EN: {0} max -->
   <MaxValue>{0} макс</MaxValue>
   
-  <!-- UNUSED -->
-  <AverageCaravanMemberMoveSpeed>Ср. скорость человека</AverageCaravanMemberMoveSpeed>
-
 </LanguageData>
