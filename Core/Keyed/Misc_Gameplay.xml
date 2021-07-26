@@ -347,7 +347,7 @@
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Множитель переносимого веса: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
-  <RideableAnimalTip>Это ездовое животное. Таких животных можно оседлать в караване, увеличивая скорость его передвижения. Караванщики будут выбирать для этого самых быстрых животных.</RideableAnimalTip>
+  <RideableAnimalTip>Это ездовое животное. Караванщики будут выбирать для верховой езды самых быстрых животных, чтобы максимально ускорить движение каравана.</RideableAnimalTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>Караван перегружен и не может сдвинуться с места.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -493,7 +493,7 @@
   <!-- EN: Natural goodwill range -->
   <NaturalGoodwillRange>Диапазон базовой репутации</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>Базовая репутация фракции зависит от её самосознания и верований. Если текущая репутация значительно отличается от базовой репутации, то она будет постепенно уменьшаться или увеличиваться в её сторону.\n\nПока текущая репутация значительно отличается от базовой, эффективность любых действий, влияющих на репутацию, составляет {0}.</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>Базовая репутация фракции зависит от принятых в ней убеждений и принципов. Если текущая репутация значительно отличается от базовой репутации, то она будет постепенно уменьшаться или увеличиваться в её сторону.\n\nПока текущая репутация значительно отличается от базовой, эффективность любых действий, влияющих на репутацию, составляет {0}.</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>ослабляет сопротивление {0_nameIndef}</JobReport_ReduceResistance>
   <!-- EN: Too large -->
@@ -615,13 +615,13 @@
   <!-- EN: not in a pen -->
   <Unpenned>не в загоне</Unpenned>
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
-  <UnpennedTooltip>Чтобы создать загон для животных, установите метку загона внутри огороженной области. Животноводы отведут животных в подходящие загоны. Загон может быть огорожен оградой и баррикадой, а также стенами и дверьми.</UnpennedTooltip>
+  <UnpennedTooltip>Чтобы создать загон для животных, установите метку загона внутри огороженной области. Животноводы отведут животных в подходящие загоны. Загон может быть обнесён оградой и баррикадой, а также стенами и дверьми.</UnpennedTooltip>
   <!-- EN: Roped by -->
   <RopedByPawn>На верёвке у</RopedByPawn>
   <!-- EN: Roped to -->
-  <RopedToThing>Привязяно к</RopedToThing>
+  <RopedToThing>На привязи к</RopedToThing>
   <!-- EN: Roped to spot. -->
-  <RopedToSpot>Привязано к точке.</RopedToSpot>
+  <RopedToSpot>На привязи к точке.</RopedToSpot>
   <!-- EN: Pen size -->
   <PenSizeLabel>Размер загона</PenSizeLabel>
   <!-- EN: Very small pen -->
@@ -932,7 +932,7 @@
   <!-- EN: Needs light level -->
   <PlantNeedsLightLevel>Не растёт (Нужен свет)</PlantNeedsLightLevel>
   <!-- EN: Resting -->
-  <PlantResting>Спит</PlantResting> <!-- Меня беспокоит, что деревья и кукуруза "спят", но пока варианта лучше не придумаю. -->
+  <PlantResting>Спит</PlantResting>
   <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
   <OutOfIdealTemperatureRange>Не идеальная температура (растёт со скоростью {0}% от нормы)</OutOfIdealTemperatureRange>
   <!-- EN: Non-ideal temperature. Not growing. -->
@@ -1078,7 +1078,7 @@
   <!-- EN: Cannot be placed next to traps. -->
   <CannotPlaceAdjacentTrap>Нельзя устанавливать рядом с ловушками.</CannotPlaceAdjacentTrap>
   <!-- EN: Cannot be placed next to another building of the same type. -->
-  <CannotPlaceAdjacentSameDef>Нельяз разместить рядом с другой постройкой того же типа.</CannotPlaceAdjacentSameDef>
+  <CannotPlaceAdjacentSameDef>Нельзя разместить рядом с другой постройкой того же типа.</CannotPlaceAdjacentSameDef>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
@@ -1517,7 +1517,7 @@
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>Звуки ритуала</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
-  <RitualQualityLowWarning>Совокупное качество ритуала {0} составляет {1}. Если вы продолжите, то, скорее всего, это приведет к негативным последствиям для поселения.\n\nВы уверены?</RitualQualityLowWarning>
+  <RitualQualityLowWarning>Совокупное качество ритуала {0} составляет {1}. Если вы продолжите, то это, скорее всего, приведет к негативным последствиям для поселения.\n\nВы уверены?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>Нет доступного подходящего места для выступления.</AbilitySpeechDisabledNoSpot>
   <!-- EN: {0_labelShort} is incapable of talking. -->
