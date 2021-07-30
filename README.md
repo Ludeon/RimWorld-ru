@@ -11,13 +11,13 @@
 
 1. Скачать архив, **соответствующий вашей версии игры (это важно!):**
 	* Последняя актуальная 1.3 + Royalty + Ideology: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
-	* 1.2.2900 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.2.2900.zip)
-	* 1.1.2654 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2654.zip)
+	* 1.2 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.2.2900.zip)
+	* 1.1 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2654.zip)
 	* Release: [1.0](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2150.zip)
 	* Beta: [B-18](https://github.com/Ludeon/RimWorld-ru/archive/beta-18.zip), [B-19](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip)
 	* Alpha : [A-15](https://github.com/Ludeon/RimWorld-ru/archive/alpha-15.zip), [A-16](https://github.com/Ludeon/RimWorld-ru/archive/alpha-16.zip), [A-17](https://github.com/Ludeon/RimWorld-ru/archive/alpha-17.zip)
 
-2. **(Для версий 1.1.*)** Подменить папки локализации папками из архива:
+2. **(Для версий, начиная с 1.1)** Подменить папки локализации папками из архива:
 	
 	В папку `<путь к папке игры>\Data\Core\Languages\` нужно положить папку `Core` из архива и переименовать её в `Russian`.
 
@@ -68,10 +68,10 @@ del master.zip
 ### Активные
 * [Elevator89](https://github.com/Elevator89)
 * [Kamadz](https://github.com/Kamadz)
-* [EcherArt](https://github.com/EcherArt)
-* [Dimonasdf](https://github.com/Dimonasdf)
 
 ### Сделавшие весомый вклад в прошлом
+* [Dimonasdf](https://github.com/Dimonasdf)
+* [EcherArt](https://github.com/EcherArt)
 * [Dandi](https://github.com/Dandi91)
 * [Humort](https://github.com/Humort)
 * [Tarakanhb](https://github.com/Tarakanhb)
