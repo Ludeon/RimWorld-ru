@@ -16,18 +16,18 @@
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>Выберите символическую структуру вашей идеолигии. Это влияет только на внешний вид — не на геймплей.</ChooseStructureMemesInfo>
   <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. Some of these have much more gameplay impact than others. -->
-  <ChooseNormalMemesInfo>Выберите {0}-{1} черты, которые сформируют фундамент вашей идеолигии. Некоторые из них влияют на геймплей сильнее, чем другие.</ChooseNormalMemesInfo>
+  <ChooseNormalMemesInfo>Выберите {0}-{1_numCase ? черту : черты : черты}, которые сформируют фундамент вашей идеолигии. Некоторые из них влияют на геймплей сильнее, чем другие.</ChooseNormalMemesInfo>
   <!-- EN: Choose at least {0} meme. -->
-  <NotEnoughMemes>Выберите как минимум {0} черту</NotEnoughMemes>
+  <NotEnoughMemes>Выберите как минимум {0} черту.</NotEnoughMemes>
   <!-- EN: Choose at most {0} memes. -->
-  <TooManyMemes>Выберите максимум {0} черты</TooManyMemes>
+  <TooManyMemes>Выберите максимум {0} черты.</TooManyMemes>
   <!-- EN: Choose structure. -->
-  <ChooseStructureMeme>Выберите структуру</ChooseStructureMeme>
+  <ChooseStructureMeme>Выберите структуру.</ChooseStructureMeme>
   <!-- EN: {0_label} and {1_label} are incompatible. -->
   <IncompatibleMemes>{0_label} и {1_label} несовместимы.</IncompatibleMemes>
   
   <!-- EN: Room requirements -->
-  <RoomRequirements>Требования к комнате</RoomRequirements>
+  <RoomRequirements>Требования к помещению</RoomRequirements>
   
   <!-- EN: role -->
   <Role>роль</Role>
@@ -48,21 +48,21 @@
   <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
   <ChooseRoleConfirmUnassign>Вы собираетесь лишить {PAWN_labelShort} роли {ROLE_labelIndef}. Это {PAWN_possessive} расстроит.</ChooseRoleConfirmUnassign>
   <!-- EN: {PAWN_labelShort} will gain the following abilities -->
-  <ChooseRoleListAbilities>{PAWN_labelShort} получит следующие способности:</ChooseRoleListAbilities>
+  <ChooseRoleListAbilities>{PAWN_labelShort} получит следующие способности</ChooseRoleListAbilities>
   <!-- EN: The {ROLE_label} role requires the following apparel -->
-  <ChooseRoleListApparelDemands>Поселенцу с ролью {ROLE_label} необходима следующая одежда:</ChooseRoleListApparelDemands>
+  <ChooseRoleListApparelDemands>Поселенцу с ролью {ROLE_label} необходима следующая одежда</ChooseRoleListApparelDemands>
   <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
-  <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort} не будет выполнять следующие виды работ:</ChooseRoleListWorkTypeRestrictions>
+  <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort} не будет выполнять следующие виды работ</ChooseRoleListWorkTypeRestrictions>
   <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
   <ChooseRoleHint>Иногда роли лучше назначать после того, как поселение уверенно встанет на ноги.</ChooseRoleHint>
   <!-- EN: Unlocked by -->
   <UnlockedByMeme>Разблокировано</UnlockedByMeme>
   <!-- EN: Unlocked roles -->
-  <MemeUnlocksRoles>Разблокированы роли:</MemeUnlocksRoles>
+  <MemeUnlocksRoles>Разблокированы роли</MemeUnlocksRoles>
   <!-- EN: Unlocked rituals -->
-  <MemeUnlocksRituals>Разблокированы ритуалы:</MemeUnlocksRituals>
+  <MemeUnlocksRituals>Разблокированы ритуалы</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
-  <ChooseRoleRequiredWorkTagsDisabled>{PAWN_nameDef} не может заниматься работой, подразумеваемой ролью {ROLE_label}. Если вы назначите {PAWN_objective} эту роль, {PAWN_pronoun}, вероятно, не сможет использовать некоторые способности роли {ROLE_label}. Недоступные виды работ:</ChooseRoleRequiredWorkTagsDisabled>
+  <ChooseRoleRequiredWorkTagsDisabled>Внимание: {PAWN_nameDef} не может заниматься работой, подразумеваемой ролью {ROLE_label}. Если вы назначите {PAWN_objective} эту роль, {PAWN_pronoun}, вероятно, не сможет использовать некоторые связанные с ней способности. Недоступные виды работ</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>Бонус лидера</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
@@ -73,7 +73,7 @@
   <!-- EN: Using {ABILITY} ability -->
   <AbilityIdeoConvertBreakdownUsingAbility>Использует способность {ABILITY}</AbilityIdeoConvertBreakdownUsingAbility>
   <!-- EN: {PAWN_labelShort}'s conversion power -->
-  <AbilityIdeoConvertBreakdownConversionPower>Влияние обращения {PAWN_labelShort}</AbilityIdeoConvertBreakdownConversionPower>
+  <AbilityIdeoConvertBreakdownConversionPower>Эффективность обращения {PAWN_labelShort}</AbilityIdeoConvertBreakdownConversionPower>
   <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
   <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>Потеря уверенности {PAWN_labelShort} от {IDEO_name}</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
   <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
@@ -81,7 +81,7 @@
   <!-- EN: Trait {TRAIT} -->
   <AbilityIdeoConvertBreakdownTrait>Черта характера {TRAIT}</AbilityIdeoConvertBreakdownTrait>
   <!-- EN: {RELICCOUNT} installed relics on map -->
-  <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT} реликвий находится на карте</AbilityIdeoConvertBreakdownRelic>
+  <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT_numCase ? реликвия находится : реликвии находятся : реликвий находится} на карте</AbilityIdeoConvertBreakdownRelic>
   <!-- EN: {PAWN_labelShort}'s social skill -->
   <AbilityIdeoConvertBreakdownSocialSkill>Социальный навык {PAWN_labelShort}</AbilityIdeoConvertBreakdownSocialSkill>
   <!-- EN: {RECIPIENT_labelShort}'s opinion of {INITIATOR_labelShort} -->
@@ -92,7 +92,7 @@
   <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} против черты характера {TRAIT}.</AbilityIdeoConvertBreakdownMemeVsTrait>
 
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
-  <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} уже {PAWN_gender ? получал : получала} наставление недавно.</AbilityCantApplyAlreadyCounselled>
+  <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} недавно уже {PAWN_gender ? получал : получала} наставление.</AbilityCantApplyAlreadyCounselled>
 
   <!-- Slavery -->
   <!-- EN: Slave -->
@@ -102,12 +102,12 @@
   <!-- EN: Any slave -->
   <AnySlave>Любой раб</AnySlave>
   <!-- EN: Negotiator will not sell people into slavery. -->
-  <NegotiatorWillNotTradeSlaves>Переговорщик не будет продавать людей в рабство</NegotiatorWillNotTradeSlaves>
+  <NegotiatorWillNotTradeSlaves>Переговорщик не будет продавать людей в рабство.</NegotiatorWillNotTradeSlaves>
   <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to their own faction, but isn't willing to sell someone to a different faction. -->
   <NegotiatorWillNotTradeSlavesTip>Переговорщик, {0_nameDef}, не станет продавать людей в рабство из-за веры в {1}.\n\nУчтите, {0_nameDef} не против получать выкупы за заключённых от их фракций, но продавать людей чужим фракциям не станет.</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
-  <LastHumanMeat>Последний раз съедена человечина:</LastHumanMeat>
+  <LastHumanMeat>Последний раз съедена человечина</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
   <LastHumanMeatDesc>Из-за веры в {IDEO_name}, {PAWN_nameDef} расстроится, если не будет есть человеческое мясо дольше {DURATION} дней.</LastHumanMeatDesc>
   <!-- EN: Last large animal slaughter -->
@@ -153,17 +153,17 @@
   <!-- EN: Overriden by {0} -->
   <OverriddenByStyle>Отменено {0}</OverriddenByStyle>
   <!-- EN: New buildables -->
-  <IdeoMakesBuildingBuildable>Новые строения </IdeoMakesBuildingBuildable>
+  <IdeoMakesBuildingBuildable>Новые строения</IdeoMakesBuildingBuildable>
   <!-- EN: none usable for {PAWN_nameDef} -->
-  <NoneUsableForPawn>ничто не может быть использовано {PAWN_nameDef}</NoneUsableForPawn> 
+  <NoneUsableForPawn>нет ничего для {PAWN_nameDef}</NoneUsableForPawn> 
   <!-- EN: Hair and beards -->
   <HairAndBeards>Причёски и бороды</HairAndBeards>
   <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
-  <HairAndBeardsDesc>Эти настройки определяют как часто каждый стиль проявляется на последователях этой идеолигии.</HairAndBeardsDesc>
+  <HairAndBeardsDesc>Эти настройки определяют, как часто каждый стиль проявляется на последователях этой идеолигии.</HairAndBeardsDesc>
   <!-- EN: Tattoos -->
   <Tattoos>Татуировки</Tattoos>
   <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
-  <TattoosDesc>Эти настройки определяют как часто каждая татуировка появляется на последователях этой идеолигии</TattoosDesc>
+  <TattoosDesc>Эти настройки определяют, как часто каждая татуировка появляется на последователях этой идеолигии</TattoosDesc>
   <!-- EN: Never -->
   <StyleItemFrequencyNever>Никогда</StyleItemFrequencyNever>
   <!-- EN: Rare -->
@@ -211,7 +211,7 @@
   <!-- EN: Already selected -->
   <AlreadySelected>Уже выбрано</AlreadySelected>
   <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
-  <ChooseProductionModeInitialDesc>Здесь можно выбрать, какую касту дриад создаст {TREE_label}.\n\nДриады появятся из капсул, растущих у основания дерева. Максимальное число дриад зависит от уровня связи между {TREE_definite} и связанным персонажем.</ChooseProductionModeInitialDesc>
+  <ChooseProductionModeInitialDesc>Здесь можно выбрать, какую касту дриад создаст {TREE_label}.\n\nДриады появятся из капсул, растущих у основания дерева. Максимальное число дриад зависит от уровня связи между {TREE_definite} и связанным человеком.</ChooseProductionModeInitialDesc>
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
