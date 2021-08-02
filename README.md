@@ -11,13 +11,13 @@
 
 1. Скачать архив, **соответствующий вашей версии игры (это важно!):**
 	* Последняя актуальная 1.3 + Royalty + Ideology: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
-	* 1.2.2900 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.2.2900.zip)
-	* 1.1.2654 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2654.zip)
+	* 1.2 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.2.2900.zip)
+	* 1.1 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2654.zip)
 	* Release: [1.0](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2150.zip)
 	* Beta: [B-18](https://github.com/Ludeon/RimWorld-ru/archive/beta-18.zip), [B-19](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip)
 	* Alpha : [A-15](https://github.com/Ludeon/RimWorld-ru/archive/alpha-15.zip), [A-16](https://github.com/Ludeon/RimWorld-ru/archive/alpha-16.zip), [A-17](https://github.com/Ludeon/RimWorld-ru/archive/alpha-17.zip)
 
-2. **(Для версий 1.1.*)** Подменить папки локализации папками из архива:
+2. **(Для версий, начиная с 1.1)** Подменить папки локализации папками из архива:
 	
 	В папку `<путь к папке игры>\Data\Core\Languages\` нужно положить папку `Core` из архива и переименовать её в `Russian`.
 
@@ -27,11 +27,9 @@
 
 	Если среди папок локализации были старые папки с тем же именем, их следует удалить и на их место положить новые, под старым именем.
 
-	После ваших действий файлы локализации (например, LanguageInfo.xml) должны находиться **непосредственно** в папке `<путь к папке игры>\Data\Core\Languages\Russian`.
-  
-	**В версиях игры до 1.0 включительно** файлы локализации должны находиться в папке `<путь к папке игры>\Mods\Core\Languages\Russian`
+	**В версиях игры до 1.0 включительно** архив локализации надо распаковать в папку `<путь к папке игры>\Mods\Core\Languages\Russian` так, чтобы файл LanguageInfo.xml находился непосредственно в этой папке.
 
-3. В игре заново выбрать русский язык.
+3. В игре выбрать язык `Russian`.
 
 Путь к папке игры для Steam-версии в различных ОС:
 * Windows: `C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\`
@@ -42,7 +40,7 @@
 
 ### Автоматизированный способ
 
-Если не хочется проделывать каждый раз однотипные действия, можете воспользоваться .ps скриптом (только для Windows 10). При запуске скрипт скачает архив с последней версией перевода и положит в нужные папки:
+Если у вас последняя версия игры, и не хочется проделывать каждый раз однотипные действия, можете воспользоваться .ps скриптом (только для Windows 10). При запуске скрипт скачает архив с **последней версией перевода** и положит в нужные папки:
 
 ```
 powershell.exe -Command "Invoke-WebRequest -OutFile ./master.zip https://github.com/Ludeon/RimWorld-ru/archive/master.zip
@@ -68,10 +66,10 @@ del master.zip
 ### Активные
 * [Elevator89](https://github.com/Elevator89)
 * [Kamadz](https://github.com/Kamadz)
-* [EcherArt](https://github.com/EcherArt)
-* [Dimonasdf](https://github.com/Dimonasdf)
 
 ### Сделавшие весомый вклад в прошлом
+* [Dimonasdf](https://github.com/Dimonasdf)
+* [EcherArt](https://github.com/EcherArt)
 * [Dandi](https://github.com/Dandi91)
 * [Humort](https://github.com/Humort)
 * [Tarakanhb](https://github.com/Tarakanhb)

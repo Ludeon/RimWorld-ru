@@ -12,13 +12,13 @@
       <li>root(priority=1,sitePart==SunBlocker)->весь регион находится в тени из-за активного над ним (*Threat)блокировщика солнечных лучей(/Threat)</li>
       <li>root(priority=1,sitePart==EMIDynamo)->там есть (*Threat)ЭМИ-генератор,(/Threat) способный отключить все электроприборы в регионе</li>
       <li>root(priority=1,sitePart==ToxicSpewer)->в регионе находится (*Threat)распылитель токсинов,(/Threat) из-за которого он весь окутан ядовитым туманом</li>
-      <li>root(priority=1,sitePart==RaidSource)->там находится перебросочная база, охраняемая (*Threat)^Number( [enemiesCount] | '#-м противником' | '#-мя противниками' | '#-ю противниками')^,(/Threat) с которой на вас будут производиться атаки с промежутком в [mtbDays]</li>
-      <li>root(priority=1,sitePart==Outpost)->там расположен бандитский форпост, охраняемый (*Threat)^Number( [enemiesCount] | '# противником' | '# противниками' | '# противниками')^(/Threat)</li>
-      <li>root(priority=1,sitePart==BanditCamp)->там расположен лагерь бандитов, охраняемый (*Threat)^Number( [enemiesCount] | '# противником' | '# противниками' | '# противниками')^(/Threat)</li>
+      <li>root(priority=1,sitePart==RaidSource)->там находится перебросочная база, охраняемая (*Threat)[enemiesCount] противниками,(/Threat) с которой на вас будут производиться атаки с промежутком в [mtbDays]</li>
+      <li>root(priority=1,sitePart==Outpost)->там расположен бандитский форпост, охраняемый (*Threat)[enemiesCount] противниками(/Threat)</li>
+      <li>root(priority=1,sitePart==BanditCamp)->там расположен лагерь бандитов, охраняемый (*Threat)[enemiesCount] противниками(/Threat)</li>
       <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)[kindLabel](/Threat) в состоянии агрессии бродит неподалёку</li>
       <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] [kindLabel](/Threat) в состоянии агрессии бродят неподалёку</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->неподалёку «спит» один (*Threat)механоид(/Threat)</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->неподалёку «спят» (*Threat)^Number( [count] | '# механоид' | '# механоида' | '# механоидов')^(/Threat)</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->неподалёку «спят» (*Threat)[count] механоидов(/Threat)</li>
       <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) защищают это место</li>
       <li>root(priority=1,sitePart==AmbushEdge)->там затаились в засаде (*Threat)вражеские силы,(/Threat) и они готовы напасть на любого, кто подойдёт близко</li>
       <li>root(priority=1,sitePart==AmbushHidden)->там затаились в засаде (*Threat)вражеские силы,(/Threat) и они готовы напасть на любого, кто подойдёт близко</li>
