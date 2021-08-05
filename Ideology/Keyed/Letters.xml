@@ -15,7 +15,7 @@
   <!-- EN: Local slave rebellion -->
   <LetterLabelLocalSlaveRebellion>Восстание рабов</LetterLabelLocalSlaveRebellion>
   <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveRebellion>Началось восстание рабов! {0_nameDef} и несколько других рабов поднимаются на борьбу с вами. Они будут искать оружие и постараются убить ваших поселенцев\n\nБунтуют эти рабы:\n\n{0}</LetterLocalSlaveRebellion> 
+  <LetterLocalSlaveRebellion>Началось восстание рабов! {0_nameDef} и несколько других рабов поднимаются на борьбу с вами. Они будут искать оружие и постараются убить ваших поселенцев.\n\nБунтуют эти рабы:\n\n{1}</LetterLocalSlaveRebellion> 
   <!-- EN: Slave rebellion -->
   <LetterLabelSingleSlaveRebellion>Восстание раба</LetterLabelSingleSlaveRebellion>
   <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
@@ -29,7 +29,7 @@
   <!-- EN: Local slave escape -->
   <LetterLabelLocalSlaveEscape>Побег рабов</LetterLabelLocalSlaveEscape>
   <!-- EN: A local slave escape has begun! {0_nameDef} and some nearby slaves are making a break for it.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveEscape>Начался побег рабов! {0_nameDef} и несколько других рабов изо всех сил постараются сбежать.\n\nБегут эти рабы:\n\n{0}</LetterLocalSlaveEscape>
+  <LetterLocalSlaveEscape>Начался побег рабов! {0_nameDef} и несколько других рабов изо всех сил постараются сбежать.\n\nБегут эти рабы:\n\n{1}</LetterLocalSlaveEscape>
   <!-- EN: Slave escape -->
   <LetterLabelSingleSlaveEscape>Побег раба</LetterLabelSingleSlaveEscape>
   <!-- EN: {0_nameDef} is attempting to escape! -->
@@ -47,14 +47,14 @@
   <!-- EN: {0} role deactivated -->
   <LetterLabelRoleInactive>Роль {0} недоступна</LetterLabelRoleInactive>
   <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
-  <LetterLabelRoleInactiveDesc>Количество {0} снизилось до {1}. Роль {ROLE_labelDef} больше не доступна. Она снова станет доступной, когда число {0} достигнет {2}</LetterLabelRoleInactiveDesc>
+  <LetterLabelRoleInactiveDesc>Количество {0} снизилось до {1}. Роль {ROLE_labelDef} больше не доступна. Она снова станет доступной, когда число {0} достигнет {2}.</LetterLabelRoleInactiveDesc>
 
   <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
   <LetterLabelRoleLost>{PAWN_labelShort} {PAWN_gender ? потерял : потеряла} роль {ROLE_labelIndef}</LetterLabelRoleLost>
   <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
   <LetterRoleLostDesc>{PAWN_labelShort} больше не занимает роль {ROLE_labelIndef}. Причина:</LetterRoleLostDesc>
   <!-- EN: {PAWN_pronoun} was unassigned. -->
-  <LetterRoleLostReasonUnassignedDesc>{PAWN_objective} сняли с роли.</LetterRoleLostReasonUnassignedDesc>
+  <LetterRoleLostReasonUnassignedDesc>{PAWN_possessive} сняли с роли.</LetterRoleLostReasonUnassignedDesc>
   <!-- EN: Role became inactive due to low {0} count. -->
   <LetterRoleLostReasonLowBelieversDesc>Роль стала недоступной из-за малого числа {0}.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
@@ -66,7 +66,7 @@
   
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
-  <LetterSpeechConvertedListeners>После {PAWN_possessive} речи, следующие персонажи приняли {IDEO}</LetterSpeechConvertedListeners>
+  <LetterSpeechConvertedListeners>После {PAWN_possessive} речи следующие персонажи приняли {IDEO}</LetterSpeechConvertedListeners>
 
   <!-- EN: {0} rituals activated -->
   <LetterTitleObligationsActivated>{0} ритуалов доступно</LetterTitleObligationsActivated>
@@ -98,7 +98,7 @@
 
   <!-- Charity incidents -->
   <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
-  <JoinerCharityInfo>Это акт милосердия. Если вы не примите {0}, последователи с милосердными убеждениями будут недовольны.</JoinerCharityInfo>
+  <JoinerCharityInfo>Это акт милосердия. Если вы не примете {0}, последователи с милосердными убеждениями будут недовольны.</JoinerCharityInfo>
   <!-- EN: This is a charity incident. If {0} dies without being tended (and after {1}), believers with charitable beliefs will be unhappy. If {0} is tended or recruited, believers will be happy. -->
   <AfflictedJoinerChartityInfo>Это акт милосердия. Если {0} умрёт, не получив уход (и после {1}), последователи с милосердными убеждениями будут недовольны. Если {0} получит уход или присоединится к поселению, последователи будут довольны.</AfflictedJoinerChartityInfo>
   <!-- EN: The following believers have charitable beliefs -->
@@ -110,7 +110,7 @@
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
   <LetterIdeoChangeNotConverted>Убеждённость {PAWN_nameDef} в {OLDIDEO_name} уменьшилась до {NEWCERTAINTY}.</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
-  <LetterIdeoChangedWanderOwnRoom>Чтобы разобраться в {PAWN_possessive} убеждениях, {PAWN_nameDef} прячется в своей комнате.</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedWanderOwnRoom>Чтобы разобраться в своих убеждениях, {PAWN_nameDef} прячется в своей комнате.</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
   <LetterIdeoChangedSadWander>{PAWN_nameDef} потрясённо бродит, пытаясь разобраться в своих убеждения.</LetterIdeoChangedSadWander>
 
@@ -130,13 +130,13 @@
   <!-- EN: Look change desired -->
   <LetterWantLookChange>Требуется смена облика</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
-  <LetterWantLookChangeDesc>{PAWN_nameDef} хочет сменить {PAWN_possessive} внешний вид, так как он больше не соответствует {PAWN_possessive} убеждениям.\n\n{PAWN_pronoun} самостоятельно воспользуется доступным туалетным столиком и выберет себе новую внешность. Если вы сами хотите выбрать {PAWN_possessive} внешний вид, выберите {PAWN_objective} и нажмите правой кнопкой мыши по туалетному столику.</LetterWantLookChangeDesc>
+  <LetterWantLookChangeDesc>{PAWN_nameDef} хочет сменить свой внешний вид, так как он больше не соответствует {PAWN_possessive} убеждениям.\n\n{PAWN_pronoun} самостоятельно воспользуется доступным туалетным столиком и выберет себе новую внешность. Если вы хотите сделать это за н{PAWN_possessive}, выберите {PAWN_possessive} и нажмите правой кнопкой мыши по туалетному столику.</LetterWantLookChangeDesc>
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->
   <LetterLabelSpacedroneIncoming>Приближается космический дрон</LetterLabelSpacedroneIncoming>
   <!-- EN: A spacedrone is landing nearby. -->
-  <LetterTextSpacedroneIncoming>Космический дрон приземляется поблизости</LetterTextSpacedroneIncoming>
+  <LetterTextSpacedroneIncoming>Космический дрон приземляется поблизости.</LetterTextSpacedroneIncoming>
   <!-- EN: A raid from {0} has arrived to destroy the {1} that was forced to land nearby. -->
   <LetterTextRaidSpacedrone>Налётчики из {0} прибыли, чтобы уничтожить {1}, приземлившийся неподалёку.</LetterTextRaidSpacedrone>
 
@@ -158,7 +158,7 @@
 
   <!-- Caravan destroyed -->
   <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disabanded. -->
-  <LetterOnlySlaveCaravanColonistsLeft>Все непорабощённые члены {0} погибли. Оставшиеся рабы ушли своей дорогой. Караван был расформирован.</LetterOnlySlaveCaravanColonistsLeft>
+  <LetterOnlySlaveCaravanColonistsLeft>Все непорабощённые члены {0} погибли. Оставшиеся рабы ушли своей дорогой. Караван прекратил своё существование.</LetterOnlySlaveCaravanColonistsLeft>
 
   <!-- Hacker lost -->
   <!-- EN: Last hacker lost -->
@@ -172,13 +172,13 @@
   <!-- EN: You've finally learned the location of the relic {0}! -->
   <LetterTextRelicFoundLocation>Вы наконец-то узнали местонахождение реликвии {0}!</LetterTextRelicFoundLocation>
   <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
-  <LetterTextRelicFoundSecurityThreats>Реликвия находится в древнем сооружении. Она находится под защитой охранной системы, состоящей из нескольких независимых элементов. Вы можете последовательно разобраться со всей охранной системой, перед тем как забрать реликвию, или попытаться убежать с ней прежде чем вам смогут навредить.\n\После {0}, вся охранная система активируется.</LetterTextRelicFoundSecurityThreats>
+  <LetterTextRelicFoundSecurityThreats>Реликвия находится в древнем сооружении. Она находится под защитой охранной системы, состоящей из нескольких независимых элементов. Вы можете последовательно разобраться со всей охранной системой, перед тем как забрать реликвию, или попытаться убежать с ней прежде, чем вам смогут навредить.\n\nЧерез {0} вся охранная система активируется.</LetterTextRelicFoundSecurityThreats>
 
   <!-- Relics collection -->
   <!-- EN: Relics collected -->
   <LetterLabelRelicsCollected>Коллекция собрана</LetterLabelRelicsCollected>
   <!-- EN: All relics belonging to {0} have been collected. The following people will be delighted -->
-  <LetterTextRelicsCollected>Все реликвии идеолигии {0} были собраны. Следующие персонажи в восторге </LetterTextRelicsCollected>
+  <LetterTextRelicsCollected>Все реликвии идеолигии {0} были собраны. Эти люди — в восторге</LetterTextRelicsCollected>
 
   <!-- Gauranlen tree connection -->
   <!-- EN: {TREE_label} connection -->
@@ -186,9 +186,9 @@
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
   <LetterTextPawnConnected>{CONNECTOR_nameDef} сформировал связь с {TREE_definite}.\n\n{TREE_definite} будет производить маленьких существ, называемых дриадами, выращивая их в капсулах у своего основания. Дриады могут принадлежать разным кастам. Вы можете выбрать, дриад какой касты будет производить древо.\n\nЧем сильнее связь между древом и человеком, тем больше дриад {TREE_definite} сможет одновременно поддерживать. {CONNECTOR_nameDef} может усилить связь, остригая {TREE_definite}. Сильная связь требует регулярного остригания.</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->
-  <LetterLabelConnectedTreeDestroyed>Связанное древо {TREE_label} destroyed</LetterLabelConnectedTreeDestroyed>
+  <LetterLabelConnectedTreeDestroyed>Связанное древо {TREE_label} уничтожено</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
-  <LetterTextConnectedTreeDestroyed>{TREE_label}, связанное с {CONNECTEDPAWN_nameDef}, было уничтожено. Королева дриад, находившаяся внутри, погибла.\n\nСо смертью королевы, погиб коллективный разум дриад, а с ним, и все дриады.</LetterTextConnectedTreeDestroyed>
+  <LetterTextConnectedTreeDestroyed>{TREE_label}, связанное с {CONNECTEDPAWN_nameDef}, было уничтожено. Королева дриад, находившаяся внутри, погибла.\n\nСо смертью королевы погиб коллективный разум дриад, а с ним и все дриады.</LetterTextConnectedTreeDestroyed>
 
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->
