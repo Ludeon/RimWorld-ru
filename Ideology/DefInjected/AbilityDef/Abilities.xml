@@ -26,18 +26,18 @@
   <!-- EN: convert -->
   <Convert.label>обратить</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
-  <Convert.description>Поселенец попытается обратить цель в свою идеолигию. Это снизит уверенность в собственных взглядах. Степень снижения зависит от социальных навыков поселенца. </Convert.description>
+  <Convert.description>Поселенец попытается обратить цель в свою идеолигию. Это снизит уверенность цели в её взглядах. Степень снижения зависит от социальных навыков поселенца. </Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
-  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} не {INITIATOR_gender ? смог : смогла} обратить {RECIPIENT_labelShort}. {RECIPIENT_labelShort} {INITIATOR_gender ? был расстроен : была расстроена} попыткой, но {RECIPIENT_possessive} уверенность в своих убеждениях снизилась с {CERTAINTYBEFORE} до {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} не {INITIATOR_gender ? смог : смогла} обратить {RECIPIENT_labelShort}. {RECIPIENT_labelShort} {RECIPIENT_gender ? недоволен : недовольна} тем, что {RECIPIENT_possessive} пытались обратить в другую идеолигию, но, тем не менее, {RECIPIENT_possessive} уверенность в собственных убеждениях снизилась с {CERTAINTYBEFORE} до {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
-  <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_gender ? обратил : обратила} {RECIPIENT_labelShort} в {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
+  <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort} {INITIATOR_gender ? обратил : обратила} {RECIPIENT_labelShort} в {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
   
   <!-- EN: Counsel -->
   <Counsel.label>наставить</Counsel.label>
   <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
-  <Counsel.description>Предложить цели наставления и поддержку, чтобы отменить негативный эффект от воспоминания. Шанс успеха зависит от социальных навыков и отношений с целью.</Counsel.description>
+  <Counsel.description>Предложить цели наставления и поддержку, чтобы отменить негативный эффект от одного грустного воспоминания. Шанс успеха зависит от социальных навыков и отношений с целью.</Counsel.description>
   <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} не {INITIATOR_gender ? смог : смогла} грамотно наставить {RECIPIENT_labelShort}. {RECIPIENT_labelShort} {INITIATOR_gender ? расстроен : расстроена}.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
+  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} не {INITIATOR_gender ? смог : смогла} грамотно наставить {RECIPIENT_labelShort}. {RECIPIENT_labelShort} {RECIPIENT_gender ? расстроен : расстроена}.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
   <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} успешно {INITIATOR_gender ? наставил : наставила} {RECIPIENT_labelShort}. Это отменило негативный эффект от {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
@@ -46,7 +46,7 @@
   <!-- EN: farming command -->
   <FarmingCommand.label>фермерские наставления</FarmingCommand.label>
   <!-- EN: Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <FarmingCommand.description>Предложить помощь советами по фермерству, временно улучшая навыки всех вокруг. Эффект длится 24 часа и распространяется на находящихся в его зоне действия.</FarmingCommand.description>
+  <FarmingCommand.description>Предложить помощь советами по фермерству, временно улучшая навыки всех вокруг. Эффект длится 24 часа и распространяется на тех, кто находится рядом с наставляющим.</FarmingCommand.description>
   
   <!-- EN: Immunity drive -->
   <ImmunityDrive.label>поддержать выздоровление</ImmunityDrive.label>
@@ -61,22 +61,22 @@
   <!-- EN: marksman command -->
   <MarksmanCommand.label>командование стрелками</MarksmanCommand.label>
   <!-- EN: Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MarksmanCommand.description>Принять руководство стрельбой на себя, улучшая навыки стрельбы всех вокруг. Эффект длится 24 часа и распространяется на находящихся в его зоне действия.</MarksmanCommand.description>
+  <MarksmanCommand.description>Принять руководство стрельбой на себя, улучшая навыки стрельбы всех вокруг. Эффект длится 24 часа и распространяется на находящихся тех, кто находится рядом с командиром.</MarksmanCommand.description>
   
   <!-- EN: mining command -->
   <MiningCommand.label>шахтёрские наставления</MiningCommand.label>
   <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MiningCommand.description>Предложить помощь советами по добыче, временно улучшая навыки всех вокруг. Эффект длится 24 часа и распространяется на находящихся в его зоне действия.</MiningCommand.description>
+  <MiningCommand.description>Предложить помощь советами по добыче, временно улучшая навыки всех вокруг. Эффект длится 24 часа и распространяется на тех, кто находится рядом с наставляющим.</MiningCommand.description>
   
   <!-- EN: preach health -->
   <PreachHealth.label>проповедь за здоровье</PreachHealth.label>
   <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
-  <PreachHealth.description>Провести проповедь, чтобы укрепить волю больного или раненого. Это ускорит заживление их ран и формирование иммунитета.</PreachHealth.description>
+  <PreachHealth.description>Провести проповедь, чтобы укрепить волю больного или раненого. Это ускорит заживление его ран и формирование иммунитета.</PreachHealth.description>
   
   <!-- EN: production command -->
   <ProductionCommand.label>ремесленные наставления</ProductionCommand.label>
   <!-- EN: Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ProductionCommand.description>Предложить помощь советами по ремеслу и строительству, временно улучшая навыки всех вокруг. Эффект длится 24 часа и распространяется на находящихся в его зоне действия.</ProductionCommand.description>
+  <ProductionCommand.description>Предложить помощь советами по ремеслу и строительству, временно улучшая навыки всех вокруг. Эффект длится 24 часа и распространяется на тех, кто находится рядом с наставляющим.</ProductionCommand.description>
   
   <!-- EN: reassure -->
   <Reassure.label>развеять сомнения</Reassure.label>
@@ -88,7 +88,7 @@
   <!-- EN: research command -->
   <ResearchCommand.label>научные наставления</ResearchCommand.label>
   <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ResearchCommand.description>Поделиться соображениями и предоставить моральную поддержку, временно увеличивая скорость исследования всех вокруг. Эффект длится 24 часа и распространяется на находящихся в его зоне действия.</ResearchCommand.description>
+  <ResearchCommand.description>Поделиться соображениями и предоставить моральную поддержку, временно увеличивая скорость исследования всех вокруг. Эффект длится 24 часа и распространяется на тех, кто находится рядом с наставляющим.</ResearchCommand.description>
   
   <!-- EN: trial -->
   <Trial.label>обвинить</Trial.label>
