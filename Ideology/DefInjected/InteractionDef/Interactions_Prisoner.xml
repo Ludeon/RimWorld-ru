@@ -11,13 +11,13 @@
   -->
   <EnslaveAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] говорит [RECIPIENT_nameDef], что [RECIPIENT_pronoun] [RECIPIENT_pronoun ? должен : должна] работать на благо поселения.</li>
-    <li>r_logentry->[INITIATOR_nameDef] сообщает [RECIPIENT_nameDef], [RECIPIENT_pronoun] [RECIPIENT_pronoun ? должен : должна] подчиняться приказам и работать.</li>
+    <li>r_logentry->[INITIATOR_nameDef] сообщает [RECIPIENT_nameDef], что [RECIPIENT_pronoun] [RECIPIENT_pronoun ? должен : должна] подчиняться приказам и работать.</li>
     <li>r_logentry->[INITIATOR_nameDef] приказывает [RECIPIENT_nameDef] подготовиться к жизни в подневольном труде.</li>
-    <li>r_logentry->[INITIATOR_nameDef] объясняет [RECIPIENT_nameDef], [RECIPIENT_pronoun] [RECIPIENT_pronoun ? должен : должна] работать, иначе последует наказание.</li>
+    <li>r_logentry->[INITIATOR_nameDef] объясняет [RECIPIENT_nameDef], что [RECIPIENT_pronoun] [RECIPIENT_pronoun ? должен : должна] работать, иначе последует наказание.</li>
   </EnslaveAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: try to reduce will -->
-  <ReduceWill.label>попытаться снизить волю</ReduceWill.label>
+  <ReduceWill.label>попытка снизить волю</ReduceWill.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative].</li>
     <li>r_logentry->[INITIATOR_nameDef] explained that [RECIPIENT_nameDef] [negative].</li>
@@ -62,9 +62,9 @@
     <li>givein->yield [RECIPIENT_objective]self</li>
   -->
   <ReduceWill.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] говорит [RECIPIENT_nameDef] [RECIPIENT_pronoun], что [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] говорит [RECIPIENT_nameDef], что у н[RECIPIENT_possessive] [negative].</li>
     <li>r_logentry->[INITIATOR_nameDef] объясняет [RECIPIENT_nameDef], что [RECIPIENT_objective] [negative1].</li>
-    <li>r_logentry->[INITIATOR_nameDef] угрожает [RECIPIENT_nameDef] [threat] если [RECIPIENT_pronoun] [refused].</li>
+    <li>r_logentry->[INITIATOR_nameDef] угрожает [RECIPIENT_nameDef] [threat], если [RECIPIENT_pronoun] [refused].</li>
     <li>r_logentry->[INITIATOR_nameDef] сообщает [RECIPIENT_nameDef], что [RECIPIENT_objective] [disillusionment].</li>
     <li>r_logentry->[INITIATOR_nameDef] требует [RECIPIENT_nameDef] [givein] воле поселения.</li>
     <li>negative->нет будущего</li>
