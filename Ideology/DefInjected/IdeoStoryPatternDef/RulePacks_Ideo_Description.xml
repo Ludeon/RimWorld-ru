@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>animistBasis   ->The universe is an endless cycle of creation and destruction managed by spirits in aspects of the world around us.</li>
     <li>animistBasis   ->A parallel universe of spirits lies next to our own. A seemingly inanimate object in this universe corresponds to an animated spirit in the other.</li>
@@ -26,8 +25,7 @@
     <li>itIsSaid->В наших книгах сказано</li>
     <li>itIsSaid->Наши мудрецы говорят</li>
     <li>itIsSaid->Мы знаем</li>
-	</AnimistDescription.rules.rulesStrings>
-  
+  </AnimistDescription.rules.rulesStrings>
   <!-- EN:
     <li>archistBasis   ->Our universe is a dream in the mind of a timeless universal consciousness. Only archotechs can communicate directly with the universal consciousness.</li>
     <li>archistBasis   ->Our universe is a simulation created by a great Outsider. Only archotechs can communicate directly with the Outsider.</li>
@@ -48,25 +46,24 @@
     <li>inTheEnd->Some day</li>
   -->
   <ArchistDescription.rules.rulesStrings>
-    <li>archistBasis   ->Наш мир — это сон внутри вселенского сознания. Общаться с этим вселенским сознанием могут только архотеки.</li>
-    <li>archistBasis   ->Наша вселенная — это симуляция, созданная великим Чужим. Только архотеки могут общаться с этим Чужим.</li>
-    <li>archistBasis   ->Архотеки — это дети человечества и его же судьи.</li>
-    <li>archistBasis   ->Архотеки — это следующий этап развития сознания.</li>
-    <li>archistBasis   ->Архотеки — это боги, которых мы всё время ждали.</li>
-    <li>archistFact    ->После смерти сознание каждого человека принимается или отвергается архотеками.</li>
-    <li>archistFact    ->Архотеки всемогущи. Они незаметно управляют нашими жизнями.</li>
-    <li>archistFact    ->Архотеки постоянно взаимодействуют с сознанием людей, но только уверовавшие могут почувствовать это и извлечь пользу их их мудрости.</li>
-    <li>archistFact    ->Архотеки — зло. Главная задача человечества — понять их, чтобы избавиться от их влияния.</li>
-    <li>archistFact    ->Архотеки — благо. Главная задача человечества — понять их, чтобы адаптироваться под их видение мира.</li>
-    <li>archistFact    ->Архотеки всемогущи. Они позволяют нам жить и выбирать лишь потому, что они считают себя нашими судьями.</li>
+    <li>archistBasis->Наш мир — это сон внутри вселенского сознания. Общаться с этим вселенским сознанием могут только архотеки.</li>
+    <li>archistBasis->Наша вселенная — это симуляция, созданная великим Чужим. Только архотеки могут общаться с этим Чужим.</li>
+    <li>archistBasis->Архотеки — это дети человечества и его же судьи.</li>
+    <li>archistBasis->Архотеки — это следующий этап развития сознания.</li>
+    <li>archistBasis->Архотеки — это боги, которых мы всё время ждали.</li>
+    <li>archistFact->После смерти сознание каждого человека принимается или отвергается архотеками.</li>
+    <li>archistFact->Архотеки всемогущи. Они незаметно управляют нашими жизнями.</li>
+    <li>archistFact->Архотеки постоянно взаимодействуют с сознанием людей, но только уверовавшие могут почувствовать это и извлечь пользу их их мудрости.</li>
+    <li>archistFact->Архотеки — зло. Главная задача человечества — понять их, чтобы избавиться от их влияния.</li>
+    <li>archistFact->Архотеки — благо. Главная задача человечества — понять их, чтобы адаптироваться под их видение мира.</li>
+    <li>archistFact->Архотеки всемогущи. Они позволяют нам жить и выбирать лишь потому, что они считают себя нашими судьями.</li>
     <li>archistProphecy->[inTheEnd] архотеки, всё это время становившиеся более могущественными, станут самой вселенной и поглотят в себя сознание всего человечества. Только тогда мы начнём истинно осознавать.</li>
     <li>archistProphecy->[inTheEnd] архотеки закончат свои этические споры о судьбе человечества. Следующие их знакам возвысятся, все неверующие сгинут.</li>
     <li>archistProphecy->[inTheEnd] архотеки покинут нас. Они заберут с собой небольшую группу людей, оставив остальных страдать.</li>
     <li>inTheEnd->В будущем</li>
     <li>inTheEnd->В конце концов</li>
     <li>inTheEnd->Однажды</li>
-	</ArchistDescription.rules.rulesStrings>
-  
+  </ArchistDescription.rules.rulesStrings>
   <!-- EN:
     <li>story(priority=-999)-></li>
     <li>setup->In a broken world, [founderName] saw all that was wrong and created our movement.</li>
@@ -79,17 +76,38 @@
     <li>story(uses=1,priority=-10)->[founderName] carried a [relic0_thingDef_label] named [relic0_name] with [founder_objective] everywhere to remind people to live a [memeAdjective] life.</li>
   -->
   <IdeologicalFounder.rules.rulesStrings>
-	<li>story(priority=-999)-></li>
-    <li>setup->Среди прогнившего мира, [founderName] [founder_gender ? видел : видела] что всё не так и [founder_gender ? создал : создала] собственное движение.</li>
-    <li>setup->[founder_gender ? Поражённый : поражённая] пороками мира, [founderName] [founder_gender ? изучал : изучала] историю и философию и открыла новую истину, которая ведёт нас.</li>
-    <li>setup->Однажды, трудясь на работе, [founderName] [founder_gender ? прозрел : прозрела]. [founder_pronoun] [founder_gender ? бросил : бросила] инструменты и [founder_gender ? начал : начала] нести своё слово среди других рабочих.</li>
-    <li>setup->[founderName] [founder_gender ? сидел : сидела] 20 лет на скамейке в парке, размышляя о судьбах мира. [founder_pronoun] [founder_gender ? отразил : отразила] своё видение в книге, ставшей нашим священным писанием.</li>
+    <li>story(priority=-999)-></li>
+    <li>setup->Среди прогнившего мира, [founderName] [founder_saw] что всё не так и [founder_created] собственное движение.</li>
+    <li>setup->[founder_struck] пороками мира, [founderName] [founder_studied] историю и философию и открыла новую истину, которая ведёт нас.</li>
+    <li>setup->Однажды, трудясь на работе, [founderName] [founder_experienced] озарение. [founder_pronoun] [founder_dropped] инструменты и [founder_started] нести своё слово среди других рабочих.</li>
+    <li>setup->[founderName] [founder_was_sitting] 20 лет на скамейке в парке, размышляя о судьбах мира. [founder_pronoun] [founder_reflected] своё видение в книге, ставшей нашим священным писанием.</li>
     <li>story(uses=1,priority=-10)->[memberNamePlural] не поняли бы, что по-настоящему означает [memeConcept], без наставлений [founderName].</li>
     <li>story(uses=1,priority=-10)->Речь [founderName] на [ritualName] многих вдохновила на жизнь, где [memeConcept] — её основа.</li>
-    <li>story(uses=1,priority=-10)->Никто не понимал [memeConcept] лучше, чем [founderName]. [memberNamePlural] избрали [founder_possessive] [founder_gender ? первым : первой] [leaderTitle] .</li>
-    <li>story(uses=1,priority=-10)->[founderName] везде [founder_gender ? носил : носила] с собой [relic0_thingDef_label] [relic0_name], чтобы напоминать людям о важности [memeAdjective] жизни.</li>
-	</IdeologicalFounder.rules.rulesStrings>
-  
+    <li>story(uses=1,priority=-10)->Никто не понимал [memeConcept] лучше, чем [founderName]. [memberNamePlural] избрали [founder_possessive] [founder_first] [leaderTitle] .</li>
+    <li>story(uses=1,priority=-10)->[founderName] везде [founder_carried] с собой [relic0_thingDef_label] [relic0_name], чтобы напоминать людям о важности [memeAdjective] жизни.</li>
+    <li>founder_saw(founder_gender==Male)->видел</li>
+    <li>founder_saw(founder_gender==Female)->видела</li>
+    <li>founder_created(founder_gender==Male)->создал</li>
+    <li>founder_created(founder_gender==Female)->создала</li>
+    <li>founder_struck(founder_gender==Male)->поражённый</li>
+    <li>founder_struck(founder_gender==Female)->поражённый</li>
+    <li>founder_studied(founder_gender==Male)->изучал</li>
+    <li>founder_studied(founder_gender==Female)->изучала</li>
+    <li>founder_experienced(founder_gender==Male)->испытал</li>
+    <li>founder_experienced(founder_gender==Female)->испытала</li>
+    <li>founder_dropped(founder_gender==Male)->бросил</li>
+    <li>founder_dropped(founder_gender==Female)->бросила</li>
+    <li>founder_started(founder_gender==Male)->начал</li>
+    <li>founder_started(founder_gender==Female)->начала</li>
+    <li>founder_reflected(founder_gender==Male)->отразил</li>
+    <li>founder_reflected(founder_gender==Female)->отразила</li>
+    <li>founder_was_sitting(founder_gender==Male)->сидел</li>
+    <li>founder_was_sitting(founder_gender==Female)->сидела</li>
+    <li>founder_first(founder_gender==Male)->первым</li>
+    <li>founder_first(founder_gender==Female)->первой</li>
+    <li>founder_carried(founder_gender==Male)->носил</li>
+    <li>founder_carried(founder_gender==Female)->носила</li>
+  </IdeologicalFounder.rules.rulesStrings>
   <!-- EN:
     <li>lesson(priority=-1)->stuff happens</li>
     <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
@@ -157,7 +175,10 @@
     <li>lesson(priority=-1)->всякое случается</li>
     <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n - [lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase],</i> [founder_nameFull]</li>
+    <li>lessonAttribution(p=2)->
+      <i>[attributionSource_titleCase],</i>
+      [founder_nameFull]
+    </li>
     <li>lessonAttribution->письмо [founder_nameFull] [believer_nameFull]</li>
     <li>lessonAttribution->[founder_nameFull], из материалов [memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull] на своём смертном одре</li>
@@ -173,9 +194,9 @@
     <li>attributionJob->[memeAdjective] [place_job]</li>
     <li>attributionJob->[place_job]</li>
     <li>memeConference(p=3)->[conferencePrefix] [conferenceType], посвящённого теме: [memeConcept]</li>
-	<li>memeConference(p=3)->[conferencePrefixFem] [conferenceTypeFem], посвящённой теме: [memeConcept]</li>
+    <li>memeConference(p=3)->[conferencePrefixFem] [conferenceTypeFem], посвящённой теме: [memeConcept]</li>
     <li>memeConference(p=2)->[conferenceType], посвящённый теме: [memeConcept]</li>
-	<li>memeConference(p=2)->[conferenceTypeFem], посвящённая теме: [memeConcept]</li>
+    <li>memeConference(p=2)->[conferenceTypeFem], посвящённая теме: [memeConcept]</li>
     <li>memeConference->[memeHyphenPrefix_titleCase]-кон</li>
     <li>conferencePrefixFem->первой</li>
     <li>conferencePrefixFem->второй</li>
@@ -186,7 +207,7 @@
     <li>conferencePrefixFem->межпланетной</li>
     <li>conferencePrefixFem->планетарной</li>
     <li>conferencePrefixFem->вселенской</li>
-	<li>conferencePrefix->первого</li>
+    <li>conferencePrefix->первого</li>
     <li>conferencePrefix->второго</li>
     <li>conferencePrefix->третьего</li>
     <li>conferencePrefix->четвёртого</li>
@@ -209,8 +230,8 @@
     <li>lessonIntro->Когда врач закончил своё ужасное дело, мне наконец стало понятно, что</li>
     <li>lessonIntro->С каждым годом, проведённым на [place_summary] [place_name], мне становилось понятно, что</li>
     <li>lessonIntro->Вспоминая своё прошлое, я понимаю, как жаль, что мне не пришло раньше осознание того, что</li>
-    <li>lessonIntro->Они все казались мне потерянными. Я [founder_gender ? показал : показала] им, что</li>
-    <li>lessonIntro->Они молили о праведном пути. Я [founder_gender ? показал : показала] им, что</li>
+    <li>lessonIntro->Они все казались мне потерянными. Я [founder_showed] им, что</li>
+    <li>lessonIntro->Они молили о праведном пути. Я [founder_showed] им, что</li>
     <li>thrownObject->книгу</li>
     <li>thrownObject->сэндвич</li>
     <li>thrownObject->игрушечный [place_personalWeapon]</li>
@@ -223,8 +244,9 @@
     <li>lessonReinforcement->Всё, что происходило дальше, являлось лишь подтверждением этому.</li>
     <li>lessonReinforcement->Как будто что-то прошептало это в моё сознание.</li>
     <li>lessonReinforcement->Я это никогда не забуду.</li>
-	</IdeologicalLesson.rules.rulesStrings>
-  
+    <li>founder_showed(founder_gender==Male)->показал</li>
+    <li>founder_showed(founder_gender==Female)->показала</li>
+  </IdeologicalLesson.rules.rulesStrings>
   <!-- EN:
     <li>intro->The people of the [place_summary] [place_name] lived under the [memeAdjective] supervision of [deity0_name].</li>
     <li>intro->The people of the [place_summary] [place_name], both [memberNamePlural] and others, lived in peace for many years under the watchful eye of [deity0_name].</li>
@@ -257,23 +279,69 @@
   <TheistFounder.rules.rulesStrings>
     <li>intro->Население на [place_summary] [place_name] жило в [memeAdjective] порядке, организованном [deity0_name].</li>
     <li>intro->На [place_summary] [place_name] и [memberNamePlural], и все другие многие года жили в мире и гармонии под пристальным взором [deity0_name].</li>
-    <li>intro->[deity0_type], [deity0_name], [deity0_gender ? показал : показала] себя людям [place_name] и повёл их по праведному пути, чтобы они поняли, что такое [memeConcept].</li>
-    <li>intro->[deity0_name] [deity0_gender ? привёл : привела] человечество к [place_name] и [deity0_gender ? помог : помогла] им там расселиться.</li>
+    <li>intro->[deity0_type], [deity0_name], [deity_showed] себя людям [place_name] и повёл их по праведному пути, чтобы они поняли, что такое [memeConcept].</li>
+    <li>intro->[deity0_name] [deity_led] человечество к [place_name] и [deity_hepled] им там расселиться.</li>
     <li>intro->На [place_summary] [place_name] во время [ritualName] люди подходили к [altarName] в [altarRoomLabel] [deity0_name] и молились, а в их сердцах был [memeConcept].</li>
-    <li>conflict->Однажды [foeLeader] [foeLeader_gender ? заявил : заявила], что уничтожит [deity0_name] с помощью [place_massWeapon].</li>
+    <li>conflict->Однажды [foeLeader] [foeLeader_claimed], что уничтожит [deity0_name] с помощью [place_massWeapon].</li>
     <li>conflict->Зловещий [foeLeader] и [foeLeader_possessive] [foeSoldiers] поработили последователей [deity0_name].</li>
-    <li>conflict->Затем [foeLeader_gender ? пришёл : пришла] [foeLeader]. [foeLeader_possessive] [foeSoldiers], каждый из которых держал в руках [place_personalWeapon], убили многих последователей [deity0_name].</li>
+    <li>conflict->Затем [foeLeader_came ? пришёл : пришла] [foeLeader]. [foeLeader_possessive] [foeSoldiers], каждый из которых держал в руках [place_personalWeapon], убили многих последователей [deity0_name].</li>
     <li>conflict->Пришли [foeSoldiers] по руководством [foeLeader]. Они поймали всех [memberNamePlural] в [place_community].</li>
     <li>conflict->И был мир, пока [foeLeader] и [foeLeader_possessive] [foeSoldiers] не восстали против [deity0_name]. The [memberNamePlural] были вынуждены бежать в секретное место — [place_community].</li>
-    <li>founderJoin->[founder_gender ? Герой : Героиня], [founderName], [founder_gender ? попытался : попыталась] убить [foeLeader]. Покушение провалилось, но [deity0_name] [deity0_gender ? заметил : заметила] усилия [founderName] и [deity0_gender ? сделал : сделала] [founder_possessive] своим пророком.</li>
-    <li>founderJoin->[deity0_name] [deity0_gender ? пришёл : пришла] к [place_job] [founderName] [revelationAdverb], пока [founder_gender ? тот был : та была] на работе, и [deity0_gender ? говорил : говорила] с [founder_gender ? ним : ней] про [memeConcept].</li>
-    <li>founderJoin->[founderName] [founder_gender ? наткнулся : наткнулась] на [revelationObject], воплощение [deity0_name], говорившее с ним про [memeConcept].</li>
-    <li>founderJoin->[founder_gender ? Известный : Известная] [place_job], [founderName] [founder_gender ? собрал : собрала] [memberNamePlural] вместе, и даже [founder_gender ? смог : смогла] завербовать несколько [foeSoldiers].</li>
-    <li>founderJoin->[place_job] [founderName] [founder_gender ? восстал : восстала] против [foeLeader], и [deity0_name] [deity0_gender ? благословил : благословила] [founder_possessive].</li>
-    <li>founderJoin->[deity0_name] [deity0_gender ? решил : решила] прийти в [place_name] в человеческом обличье под именем [founderName], чтобы помочь [memberNamePlural].</li>
-    <li>founderJoin->[founder_gender ? Герой : Героиня] по имени [founderName] [founder_gender ? убил : убила] сотню [foeSoldiers] с помощью [place_personalWeapon], а [deity0_name] [deity0_gender ? направлял : направляла] [founder_possessive], общаясь с [founder_gender ? ним : ней] с помощью [relic0_name].</li>
-    <li>victory->[founderName] [founder_gender ? собрал : собрала] [memberNamePlural] в [place_community] и [founder_gender ? научил : научила] их мудрости [deity0_name].</li>
-    <li>victory->[founderName] [founder_gender ? пожертвовал : пожертвовала] собой чтобы лично убить [foeLeader].</li>
+    <li>founderJoin->[founder_hero] по имени [founderName], [founder_tried] убить [foeLeader]. Покушение провалилось, но [deity0_name] [deity_noticed] усилия [founderName] и [deity_made] [founder_possessive] своим пророком.</li>
+    <li>founderJoin->[deity0_name] [deity_came] к [place_job] [founderName] [revelationAdverb], пока [founder_they_was] на работе, и [deity_spoke] с [founder_to_them] про [memeConcept].</li>
+    <li>founderJoin->[founderName] [founder_found] на [revelationObject], воплощение [deity0_name], говорившее с ним про [memeConcept].</li>
+    <li>founderJoin->Известный [place_job] по имени [founderName] [founder_brought] [memberNamePlural] вместе, и даже [founder_managed_to] завербовать несколько [foeSoldiers].</li>
+    <li>founderJoin->[place_job] по имени [founderName] [founder_stood_up] против [foeLeader], и [deity0_name] [deity_blessed] [founder_possessive].</li>
+    <li>founderJoin->[deity0_name] [deity_decided] прийти в [place_name] в человеческом обличье под именем [founderName], чтобы помочь [memberNamePlural].</li>
+    <li>founderJoin->[founder_hero] по имени [founderName] [founder_killed] сотню [foeSoldiers] с помощью [place_personalWeapon], а [deity0_name] [deity_guided] [founder_possessive], общаясь с [founder_to_them] с помощью [relic0_name].</li>
+    <li>victory->[founderName] [founder_brought] [memberNamePlural] в [place_community] и [founder_taught] их мудрости [deity0_name].</li>
+    <li>victory->[founderName] [founder_sacrificed] собой чтобы лично убить [foeLeader].</li>
+    <li>deity_showed(deity0_gender==Male)->показал</li>
+    <li>deity_showed(deity0_gender==Female)->показала</li>
+    <li>deity_led(deity0_gender==Male)->привёл</li>
+    <li>deity_led(deity0_gender==Female)->привела</li>
+    <li>deity_hepled(deity0_gender==Male)->помог</li>
+    <li>deity_hepled(deity0_gender==Female)->помогла</li>
+    <li>deity_came(deity0_gender==Male)->пришёл</li>
+    <li>deity_came(deity0_gender==Female)->пришла</li>
+    <li>deity_noticed(deity0_gender==Male)->заметил</li>
+    <li>deity_noticed(deity0_gender==Female)->заметила</li>
+    <li>deity_made(deity0_gender==Male)->сделал</li>
+    <li>deity_made(deity0_gender==Female)->сделала</li>
+    <li>deity_blessed(deity0_gender==Male)->благословил</li>
+    <li>deity_blessed(deity0_gender==Female)->благословила</li>
+    <li>deity_spoke(deity0_gender==Male)->говорил</li>
+    <li>deity_spoke(deity0_gender==Female)->говорила</li>
+    <li>deity_decided(deity0_gender==Male)->решил</li>
+    <li>deity_decided(deity0_gender==Female)->решила</li>
+    <li>deity_guided(deity0_gender==Male)->направлял</li>
+    <li>deity_guided(deity0_gender==Female)->направляла</li>
+    <li>founder_hero(founder_gender==Male)->герой</li>
+    <li>founder_hero(founder_gender==Female)->героиня</li>
+    <li>founder_tried(founder_gender==Male)->попытался</li>
+    <li>founder_tried(founder_gender==Female)->попыталась</li>
+    <li>founder_found(founder_gender==Male)->наткнулся</li>
+    <li>founder_found(founder_gender==Female)->наткнулась</li>
+    <li>founder_they_was(founder_gender==Male)->тот был</li>
+    <li>founder_they_was(founder_gender==Female)->та была</li>
+    <li>founder_to_them(founder_gender==Male)->ним</li>
+    <li>founder_to_them(founder_gender==Female)->ней</li>
+    <li>founder_brought(founder_gender==Male)->собрал</li>
+    <li>founder_brought(founder_gender==Female)->собрала</li>
+    <li>founder_managed_to(founder_gender==Male)->смог</li>
+    <li>founder_managed_to(founder_gender==Female)->смогла</li>
+    <li>founder_stood_up(founder_gender==Male)->восстал</li>
+    <li>founder_stood_up(founder_gender==Female)->восстала</li>
+    <li>founder_killed(founder_gender==Male)->убил</li>
+    <li>founder_killed(founder_gender==Female)->убила</li>
+    <li>founder_taught(founder_gender==Male)->научил</li>
+    <li>founder_taught(founder_gender==Female)->научила</li>
+    <li>founder_sacrificed(founder_gender==Male)->пожертвовал</li>
+    <li>founder_sacrificed(founder_gender==Female)->пожертвовала</li>
+    <li>foeLeader_claimed(foeLeader_gender==Male)->заявил</li>
+    <li>foeLeader_claimed(foeLeader_gender==Female)->заявила</li>
+    <li>foeLeader_came(foeLeader_gender==Male)->пришёл</li>
+    <li>foeLeader_came(foeLeader_gender==Female)->пришла</li>
     <li>revelationAdverb->в видении</li>
     <li>revelationAdverb->во сне</li>
     <li>revelationAdverb->в кошмаре</li>
@@ -282,8 +350,7 @@
     <li>revelationObject->скрытый [NaturalObject]</li>
     <li>revelationObject->сияющий [Vegetable]</li>
     <li>revelationObject->древний [Weapon]</li>
-	</TheistFounder.rules.rulesStrings>
-  
+  </TheistFounder.rules.rulesStrings>
   <!-- EN:
     <li>episode(priority=-1)-></li>
     <li>creation->For an eternity, there was a world of [Color] [materialOrigin], until [deity0_name] created the planets and stars.</li>
@@ -305,14 +372,24 @@
   -->
   <TheistMyth.rules.rulesStrings>
     <li>episode(priority=-1)-></li>
-    <li>creation->Целую вечность мир состоял из [Color] [materialOrigin] до тех пор, пока [deity0_name] не [deity0_gender ? создал : создала] планеты и звёзды.</li>
-    <li>creation->В раздоре старого мира, [deity0_name] [deity0_gender ? создал : создала] великий пожар, из пепла последних эпох которого родился новый мир.</li>
-    <li>creation->[deity0_name] [deity0_gender ? создал : создала] людей случайно, и с тех пор с любопытством наблюдает за ними.</li>
-    <li>creation->Сначала не было ничего. Потом [deity0_name], устав от вечной пустоты, [deity0_gender ? создал : создала] мужчину и женщину из [bodilyOrigin].</li>
-    <li>episode(uses=1)->Наблюдая за человечеством, [deity0_name] [deity0_gender ? посчитал : посчитала] их своими детьми, и [deity0_gender ? провозгласил : провозгласила] своё верховенство над ними.</li>
+    <li>creation->Целую вечность мир состоял из [Color] [materialOrigin] до тех пор, пока [deity0_name] не [deity_created] планеты и звёзды.</li>
+    <li>creation->В раздоре старого мира, [deity0_name] [deity_created] великий пожар, из пепла последних эпох которого родился новый мир.</li>
+    <li>creation->[deity0_name] [deity_created] людей случайно, и с тех пор с любопытством наблюдает за ними.</li>
+    <li>creation->Сначала не было ничего. Потом [deity0_name], устав от вечной пустоты, [deity_created] мужчину и женщину из [bodilyOrigin].</li>
+    <li>episode(uses=1)->Наблюдая за человечеством, [deity0_name] [deity_found] их своими детьми и [deity_declared] своё верховенство над ними.</li>
     <li>episode(uses=1)->Сквозь огромные звёздные пространства, воля [deity0_name] поддерживала жизнь человечества в окружении пустоты.</li>
-    <li>episode(uses=1)->Многие пытались одолеть [deity0_possessive], но [deity0_name] с лёгкостью [deity0_gender ? побеждал : побеждала] их, ибо [deity0_pronoun] [deity0_gender ? был : была] [deity0_type].</li>
+    <li>episode(uses=1)->Многие пытались одолеть [deity0_possessive], но [deity0_name] с лёгкостью [deity_prevented] их, ибо [deity0_pronoun] [deity_was] [deity0_type].</li>
     <li>episode(uses=1)->Страдания человечества приносили [deity0_name] горе.</li>
+    <li>deity_created(deity0_gender==Male)->создал</li>
+    <li>deity_created(deity0_gender==Female)->создала</li>
+    <li>deity_found(deity0_gender==Male)->стал считать</li>
+    <li>deity_found(deity0_gender==Female)->стала считать</li>
+    <li>deity_declared(deity0_gender==Male)->провозгласил</li>
+    <li>deity_declared(deity0_gender==Female)->провозгласила</li>
+    <li>deity_prevented(deity0_gender==Male)->побеждал</li>
+    <li>deity_prevented(deity0_gender==Female)->побеждала</li>
+    <li>deity_was(deity0_gender==Male)->был</li>
+    <li>deity_was(deity0_gender==Female)->была</li>
     <li>materialOrigin->глины</li>
     <li>materialOrigin->газа</li>
     <li>materialOrigin->воды</li>
@@ -321,6 +398,5 @@
     <li>bodilyOrigin->глины</li>
     <li>bodilyOrigin->камня</li>
     <li>bodilyOrigin->пота</li>
-	</TheistMyth.rules.rulesStrings>
-  
+  </TheistMyth.rules.rulesStrings>
 </LanguageData>
