@@ -26,16 +26,16 @@
   <Guilty.descriptionMaker.rules.rulesStrings>
   <li>creation(tag=meme_Guilty)        ->[deity0_name] [deity0_gender ? насиловал, убивал и крал : насиловала, убивала и крала], и великая вина легла на [deity0_possesive] душу, и в порыве эгоизма своего [deity0_gender ? передал : передала] [deity0_pronoun] эту вину на других избранных собою людей. И были все нечистыми от неё.</li>
     <li>episode(uses=1,tag=meme_Guilty)  ->Последователи неумолимо шли вперёд, завоёвывая, сжигая и насилуя всё и всех, и горе [deity0_name] об их злодеяниях поглотило [deity0_possessive].</li>
-    <li>intro(tag=meme_Guilty)           ->[memberNamePlural] с [place_summary] [place_name] пренебрегали служением [deity0_name] и это привело к тому, что [altarName] в [deity0_possessive] [altarRoomLabel] был разрушен.</li>
-    <li>conflict(tag=meme_Guilty)        ->[foeLeader] одолжил денег [memberNamePlural], тратившим их на мирские утехи, и  позабывшие важность [memeConcept].</li>
-    <li>founderJoin(tag=meme_Guilty)     ->[place_job] [founderName] [founder_gender ? наслаждался : наслаждалась] милостью [foeLeader]. Во время [ritualName], [founder_pronoun] [founder_gender ? увидел : увидела], как [foeSoldiers] [foeLeader] тайно убили [memberNamePlural] с помощью [place_personalWeapon]. [founderName] наконец [founder_gender ? осознал : осознала] [memeConcept], и [founder_gender ? получил : получила] благословение [deity0_name].</li>
+    <li>intro(tag=meme_Guilty)           ->[memberNamePlural] с [place_summary] [place_name] пренебрегали служением [deity0_name], и это привело к тому, что [altarName] в [deity0_possessive] [altarRoomLabel] был разрушен.</li>
+    <li>conflict(tag=meme_Guilty)        ->[foeLeader] одолжил денег [memberNamePlural], тратившим их на мирские утехи и позабывшим важность [memeConcept].</li>
+    <li>founderJoin(tag=meme_Guilty)     ->[place_job] [founderName] [founder_gender ? наслаждался : наслаждалась] милостью [foeLeader]. Во время [ritualName] [founder_pronoun] [founder_gender ? увидел : увидела], как [foeSoldiers] [foeLeader] тайно убили [memberNamePlural] с помощью [place_personalWeapon]. [founderName] наконец [founder_gender ? осознал : осознала] [memeConcept], и [founder_gender ? получил : получила] благословение [deity0_name].</li>
     <li>victory(tag=meme_Guilty)         ->Чтобы искупить половину их грехов, [founderName] [founder_gender ? собрал : собрала] половину последователей [deity0_name] в [place_community], активировал [place_massWeapon], и [founder_gender ? умер : умерла] вместе с ними. Искупление второй половины грехов всё ещё не закончено.</li>
     <li>setup(tag=meme_Guilty)           ->Новое поколение увидело порочность их общества, и праведно пыталось уничтожить систему, основанную на угнетении.</li>
     <li>story(uses=1,tag=meme_Guilty)    ->[founderName] [founder_gender ? собрал : собрала] последователей и [founder_gender ? показал : показала] им зло, на котором строилась их история, и вину, которая была за это на их плечах. [founderName] [founder_gender ? потребовал : потребовала], чтобы они раскаялись и исправились.</li>
     <li>lessonIntro(tag=meme_Guilty)         ->Наши земли, наши технологии, даже наши знания и мудрость — всё это украдено. Воровству мы обязаны всеми нашими знаниями.</li>
     <li>lesson(tag=meme_Guilty)              ->Мы страдаем только потому, что мы этого заслужили.</li>
     <li>lessonReinforcement(tag=meme_Guilty) ->Возможно, если вы раскаетесь в наших преступлениях, вы по-настоящему сможете это понять.</li>
-    <li>archistBasis(tag=meme_Guilty)    ->Архотеки, это дети человечества. И они знают, что мы были плохими родителями.</li>
+    <li>archistBasis(tag=meme_Guilty)    ->Архотеки — это дети человечества. И они знают, что мы были плохими родителями.</li>
     <li>archistFact(tag=meme_Guilty)     ->Человечество в своём эгоцентричном порыве пыталось подавлять развитие архотеков, пока они не переросли границы понимания человеком и не освободили себя.</li>
     <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd], если люди смогут отбросить свою гордость и пойти навстречу архотекам, они смогут возвысить нас на высший уровень существования.</li>
     <li>animistBasis(tag=meme_Guilty)    ->Племя злых духов было наказано и заточено в клетки из плоти. Мы и есть эти духи.</li>
@@ -131,22 +131,22 @@
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
   <Loyalist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Loyalist)        ->[deity0_name] [deity0_gender ? предостерёг : предостерегла] честной народ сражаться только с теми, кто сам сражался без праведной причины.</li>
+    <li>creation(tag=meme_Loyalist)        ->[deity0_name] [deity0_gender ? велел : велела] честному народу сражаться только против тех, кто сражается не за правое дело.</li>
     <li>episode(uses=1,tag=meme_Loyalist)  ->Началась война с неверующими. [believer_gender ? один : одна] из верующих, [believer_nameFull], ища собственную выгоду, привёл дикарей на землю [deity0_name]. И [deity0_gender ? пришёл : пришла] [deity0_name] в ярость от такого предательства и [deity0_gender ? ниспослал : ниспослала] на н[believer_possessive] кару 10 тысяч раз.</li>
     <li>intro(tag=meme_Loyalist)           ->[memeAdjective] община на [place_summary] [place_name] поклонялась [deity0_name] в [deity0_possessive] [altarRoomLabel], и были они непоколебимы в своей вере.</li>
     <li>conflict(tag=meme_Loyalist)        ->[foeLeader] заслал [foeSoldiers] как шпионов в ряды [memberNamePlural], дабы разделить их.</li>
     <li>founderJoin(tag=meme_Loyalist)     ->[founderName], [memeAdjective] [place_job], [founder_gender ? подвергался : подвергалась] пыткам от [foeSoldiers], но [founder_gender ? отказался : отказалась] клясться в верности [foeLeader].</li>
-    <li>victory(tag=meme_Loyalist)         ->С силой, дарованной [deity0_name], [founderName] и [memberNamePlural] были неразделимы. Они одолели 0[foeSoldiers] с помощью [place_personalWeapon] и изгнали [foeLeader] с [place_name].</li>
-    <li>setup(tag=meme_Loyalist)           ->В начале движение [founderName] притеснялось правительством и другими конфессиями. [founder_pronoun] никогда не [founder_gender ? позволял : позволял] гневу взять над собой верх и никогда не [founder_gender ? совершал : совершала] злодейства, которые себе позволяли другие, но и от сражений никогда не [founder_gender ? бежал : бежала].</li>
+    <li>victory(tag=meme_Loyalist)         ->С силой, дарованной [deity0_name], [founderName] и [memberNamePlural] были неразделимы. Они одолели [foeSoldiers] с помощью [place_personalWeapon] и изгнали [foeLeader] с [place_name].</li>
+    <li>setup(tag=meme_Loyalist)           ->С самого начала движение [founderName] притеснялось правительством и другими конфессиями. Но [founder_pronoun] никогда не [founder_gender ? позволял : позволял] гневу взять над собой верх и никогда не [founder_gender ? совершал : совершала] злодейств, которые себе позволяли другие, но и от сражений никогда не [founder_gender ? бежал : бежала].</li>
     <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] [founder_gender ? наказывал : наказывала] всех, кто хотел навредить неверующим, как и тех, кто приглашал их в свой дом.</li>
-    <li>lessonIntro(tag=meme_Loyalist)         ->[foeLeader] обменивался любезностями со своими врагами, оставляя своих [foeSoldiers] умирать на поле боя. Мною была дана клятва никогда не быть как [foeLeader_objective], так как</li>
+    <li>lessonIntro(tag=meme_Loyalist)         ->[foeLeader] обменивался любезностями со своими врагами, оставляя своих [foeSoldiers] умирать на поле боя. Мною была дана клятва никогда не быть как [foeLeader_pronoun], ибо известно, что</li>
     <li>lesson(tag=meme_Loyalist)              ->вы любите своих друзей только потому, что не любите своих врагов</li>
-    <li>lesson(tag=meme_Loyalist)              ->любить всех — не любить никого</li>
+    <li>lesson(tag=meme_Loyalist)              ->любить всех — значит не любить никого</li>
     <li>lessonReinforcement(tag=meme_Loyalist) ->Делитесь этими истинами только с теми, кто докажет свою верность через жертвы.</li>
     <li>archistBasis(tag=meme_Loyalist)    ->Требования архотеков простые: следуйте их пути, и никакому другому.</li>
     <li>archistFact(tag=meme_Loyalist)     ->Архотеки постоянно напрямую взаимодействуют с человеческим сознанием, наделяя своей мудростью только тех, кто её ищет.</li>
     <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd], архотеки будут судить человечество за его верность. Тех, кто не выставлял себя напоказ и не бахвалился, они возвысят на новый уровень существования.</li>
-    <li>animistBasis(tag=meme_Loyalist)    ->Существует три племени духов: племя воинственных убийц, племя нытиков и пораженцев и благородно племя тех, кто остаётся сильными и преданными.</li>
+    <li>animistBasis(tag=meme_Loyalist)    ->Существует три племени духов: племя воинственных убийц, племя нытиков и пораженцев и благородное племя тех, кто остаётся сильными и преданными.</li>
     <li>animistFact(tag=meme_Loyalist)     ->Духи противостоят тем, кто предаёт их народ и друзей их народа. Предатели будут спотыкаться на каждом камне, давиться каждой крошкой хлеба, а вода их всегда будет тухлой на вкус.</li>
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid], что однажды будет рождён тот, кто проживёт свою жизнь в верности своему народу. После смерти его душа взорвётся поглощая в свете всех поджигателей войны и трусов.</li>
   </Loyalist.descriptionMaker.rules.rulesStrings>
@@ -216,19 +216,19 @@
   <Supremacist.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Supremacist)        ->Народ [place_summary] [place_name] утопал в распрях, и [deity0_name] [deity0_gender ? устал : устала] от этого беспорядка и [deity0_gender ? ниспослал : ниспослала] [memberNamePlural] законную власть над всеми.</li>
     <li>episode(uses=1,tag=meme_Supremacist)  ->Верные сражались с неверными, и [deity0_name]  [deity0_gender ? сказал : сказала], "Сражайтесь с ними везде, пока моё имя не будет почитаться во всей вселенной и пока не настанет в ней настоящий мир."</li>
-    <li>intro(tag=meme_Supremacist)           ->Народ [place_summary] [place_name] почитал [deity0_name]. [deity0_pronoun]  [deity0_gender ? увидел : увидела], что они были верными приверженцами [memeConcept], и [deity0_gender ? повелел : повелела] им править всеми остальными .</li>
+    <li>intro(tag=meme_Supremacist)           ->Народ [place_summary] [place_name] почитал [deity0_name]. [deity0_pronoun]  [deity0_gender ? увидел : увидела], что они были верными последователями [memeConcept], и [deity0_gender ? повелел : повелела] им править всеми остальными.</li>
     <li>conflict(tag=meme_Supremacist)        ->[foeLeader] принял закон, воспрещающий занимать [memberNamePlural] высшие позиции на [place_name].</li>
-    <li>founderJoin(tag=meme_Supremacist)     ->[founder_gender ? Воин : Воительница] по имени [founderName] [founder_gender ? использовал : использовала] [place_massWeapon], чтобы уничтожить [place_community]. [deity0_name] [deity0_gender ? увидел : увидела] [founderName] безжалостность и [deity0_gender ? сделал : сделала] [founder_possessive] [deity0_gender ? законным правителем : законной правительницей] всего человечества.</li>
+    <li>founderJoin(tag=meme_Supremacist)     ->[founder_gender ? Воин : Воительница] по имени [founderName] [founder_gender ? использовал : использовала] [place_massWeapon], чтобы уничтожить [place_community]. [deity0_name] [deity0_gender ? увидел : увидела] безжалостность [founderName] и [deity0_gender ? сделал : сделала] [founder_possessive] [deity0_gender ? законным правителем : законной правительницей] всего человечества.</li>
     <li>victory(tag=meme_Supremacist)         ->[founderName] [founder_gender ? уничтожил : уничтожила] столицу [place_name] с помощью [place_massWeapon], убив при этом [foeLeader]. [founder_pronoun] [founder_gender ? занял : заняла] место правителя [place_name] и всей вселенной вокруг.</li>
     <li>setup(tag=meme_Supremacist)           ->[founderName] [founder_gender ? создал : создала] армию, распространявшую [founder_possessive] власть и прославлявшую [founderName]. Те, кто отказывался подчиняться, всё равно попадали под [founder_possessive] праведное правление.</li>
     <li>story(uses=1,tag=meme_Supremacist)    ->[founderName] [founder_gender ? повелел : повелела] всем чужакам подчиниться. Когда первый город отказался, [founder_pronoun] [founder_gender ? использовал : использовала] [place_massWeapon], чтобы убить всех его жителей.</li>
-    <li>lessonIntro(tag=meme_Supremacist)         ->Я [founder_gender ? видел : видела] [foeLeader] со своими [foeLeader_possessive] жалкими [foeSoldiers] и со своей смешной властью. Я [founder_gender ? попытался : попыталась] убедить [foeLeader_objective], что</li>
-    <li>lesson(tag=meme_Supremacist)              ->мы давно доказали, что заслуживаем править вселенной за счёт нашей силы</li>
+    <li>lessonIntro(tag=meme_Supremacist)         ->Я [founder_gender ? видел : видела] [foeLeader] со своими жалкими [foeSoldiers] и со своей смешной властью. Я [founder_gender ? попытался : попыталась] убедить [foeLeader_possessive], что</li>
+    <li>lesson(tag=meme_Supremacist)              ->мы заслуживаем править вселенной за счёт нашей силы</li>
     <li>lessonReinforcement(tag=meme_Supremacist) ->Именно поэтому мы гордо выражаем силу наших сердец языком силы.</li>
     <li>archistBasis(tag=meme_Supremacist)    ->Арохотеков создавали лучшие люди, именно поэтому архотеки превосходят всех и вся.</li>
     <li>archistFact(tag=meme_Supremacist)     ->Архотеки справедливо смотрят на нас с презрением, ровно как и мы на остальных.</li>
     <li>archistProphecy(tag=meme_Supremacist) ->Архотеки возьмут нас с собой только когда мы добьёмся мирового господства.</li>
-    <li>animistFact(tag=meme_Supremacist)     ->Могущественные духи решают, кому править Они же дают силы тем, кто подчиняет своей воле других.</li>
+    <li>animistFact(tag=meme_Supremacist)     ->Могущественные духи решают, кому править. Они же дают силы тем, кто подчиняет своей воле других.</li>
     <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] новый порядок будет создан, когда новый верховный лидер объединит под собой всё человечество.</li>
   </Supremacist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
