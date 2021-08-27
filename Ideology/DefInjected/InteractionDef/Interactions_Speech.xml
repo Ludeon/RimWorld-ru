@@ -252,7 +252,7 @@
     <li>speechtopic->потребности в [PersonJob]</li>
     <li>speechtopic->том, как избегать [PersonBadass]</li>
     <li>speechtopic->победе над [Enemy] с помощью [ConceptPositive]</li>
-    <li>speechtopic->том, как [INITIATOR_gender ? видел : видела] [Gore] в бою</li>
+    <li>speechtopic->том, как [initiator_saw] [Gore] в бою</li>
     <li>speechtopic->истории [Mechanoid]</li>
     <li>speechtopic->смысле [ConceptPositive]</li>
     <li>speechtopic->[ConceptPositive] в поселении</li>
@@ -270,6 +270,8 @@
     <li>speechtopic(p=0.25)->смерти, как о мотивации</li>
     <li>speechtopic(p=0.25)->стойких сердцах и умах</li>
     <li>speechtopic(p=0.25)->праве на выживание</li>
+	<li>initiator_saw(INITIATOR_gender==Male)->видел</li>
+	<li>initiator_saw(INITIATOR_gender==Female)->видела</li>
   </Speech_Leader.logRulesInitiator.rulesStrings>
   
   <!-- EN: sacrifice speech -->
@@ -312,13 +314,21 @@
     <li>speechtopic->соблазнительной силе крови</li>
     <li>speechtopic->музыке криков</li>
     <li>speechtopic->кишках на полу</li>
-    <li>crazy->[INITIATOR_gender ? завопил : завопила], как сумасшедший</li>
-    <li>crazy->внезапно [INITIATOR_gender ? начал петь : начала петь] молебен</li>
+    <li>crazy->[initiator_screamed]</li>
+    <li>crazy->внезапно [initiator_sang] молебен</li>
     <li>crazy->поёт молебен небесам</li>
-    <li>crazy->[INITIATOR_gender ? плюнул : плюнула] в глаз жертве</li>
-    <li>crazy->[INITIATOR_gender ? хихикнул : хихикнула]</li>
+    <li>crazy->[initiator_spat] в глаз жертве</li>
+    <li>crazy->[initiator_giggled]</li>
     <li>crazy->размахивает клинком</li>
     <li>crazy->бормочет себе под нос одно и то же</li>
+	<li>initiator_screamed(INITIATOR_gender==Male)->завопил, как сумасшедший</li>
+	<li>initiator_screamed(INITIATOR_gender==Female)->завопила, как сумасшедшая</li>
+	<li>initiator_sang(INITIATOR_gender==Male)->начал петь</li>
+	<li>initiator_sang(INITIATOR_gender==Female)->начала петь</li>
+	<li>initiator_spat(INITIATOR_gender==Male)->плюнул</li>
+	<li>initiator_spat(INITIATOR_gender==Female)->плюнула</li>
+	<li>initiator_giggled(INITIATOR_gender==Male)->хихикнул</li>
+	<li>initiator_giggled(INITIATOR_gender==Female)->хихикнула</li>
   </Speech_Sacrifice.logRulesInitiator.rulesStrings>
   
   <!-- EN: scarification speech -->
@@ -358,11 +368,17 @@
     <li>speechtopic->искусстве делать разрезы</li>
     <li>speechtopic->соблазнительной силе крови</li>
 	<li>speechtopic->музыке криков</li>
-    <li>crazy->[INITIATOR_gender ? завопил : завопила], как сумасшедший</li>
-    <li>crazy->внезапно [INITIATOR_gender ? начал петь : начала петь] молебен</li>
-    <li>crazy->[INITIATOR_gender ? хихикнул : хихикнула]</li>
+    <li>crazy->[initiator_screamed], как сумасшедший</li>
+    <li>crazy->внезапно [initiator_sang] молебен</li>
+    <li>crazy->[initiator_giggled]</li>
     <li>crazy->размахивает клинком</li>
     <li>crazy->бормочет себе под нос одно и то же</li>
+	<li>initiator_screamed(INITIATOR_gender==Male)->завопил, как сумасшедший</li>
+	<li>initiator_screamed(INITIATOR_gender==Female)->завопила, как сумасшедшая</li>
+	<li>initiator_sang(INITIATOR_gender==Male)->начал петь</li>
+	<li>initiator_sang(INITIATOR_gender==Female)->начала петь</li>
+	<li>initiator_giggled(INITIATOR_gender==Male)->хихикнул</li>
+	<li>initiator_giggled(INITIATOR_gender==Female)->хихикнула</li>
   </Speech_Scarification.logRulesInitiator.rulesStrings>
   
   <!-- EN: tree connection speech -->
