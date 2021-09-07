@@ -162,17 +162,17 @@
   <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area.-->
   <RitualTargetCampfireSkylanternsInfo>Зажжённый костёр или место для ритуала. Необходимо убрать крышу хотя бы в 25 клетках от зоны.</RitualTargetCampfireSkylanternsInfo>
   <!-- EN: An unconnected Gauranlen tree.-->
-  <RitualTargetUnconnectedGaruanlenTreeInfo>Не связанное древо Гауранлен.</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <RitualTargetUnconnectedGaruanlenTreeInfo>Несвязанное древо Гауранлен.</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef}-->
   <RitualTargetConnectedGauranlenTree>Уже связанно с {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}.-->
-  <RitualTargetConnectionTornGauranlenTree>Связь с {TREE_definite} оборвалось. Связывание можно повторить через {1}.</RitualTargetConnectionTornGauranlenTree>
+  <RitualTargetConnectionTornGauranlenTree>Связь с {TREE_definite} оборвалась. Связывание можно повторить через {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood.-->
   <RitualTargeWoodInfo>Вам необходимо {0} ед. дерева для каждого участника (всего {2}). Сейчас у вас {1} ед.</RitualTargeWoodInfo>
   <!-- EN: Accuse-->
   <Accuse>Обвинить</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified.-->
-  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} не верит в одеолигиозное шрамирование и не хочет быть {PAWN_gender ? шрамированным : шрамированной}.</RitualScarificationWarnNonScarificationIdeo>
+  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} не верит в идеолигиозное шрамирование и не хочет быть {PAWN_gender ? шрамированным : шрамированной}.</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified.-->
   <RitualScarificationWarnWimp>{PAWN_labelShort} хлюпик и не хочет быть {PAWN_gender ? шрамированным : шрамированной}.</RitualScarificationWarnWimp>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded.-->
@@ -191,7 +191,7 @@
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift.-->
   <RitualOutcomeExtraDesc_SkylanternWanderers>Ваши фонарики привлекли дружественных торговцев. Они скоро прибудут с дарами.</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level.-->
-  <RitualOutcomeExtraDesc_Execution>Все присутствующие рабы были потрясены сценой смерти. Их подавленность достигла максимального уровня.</RitualOutcomeExtraDesc_Execution>
+  <RitualOutcomeExtraDesc_Execution>Все присутствующие рабы были ошеломлены сценой смерти. Их подавленность достигла максимального уровня.</RitualOutcomeExtraDesc_Execution>
 
   <!-- EN: Additional reward-->
   <RitualAttachedReward>Дополнительная награда</RitualAttachedReward>
@@ -292,7 +292,7 @@
   <!-- EN: Has role in rituals-->
   <RoleRitualsLabel>Участвует в ритуалах</RoleRitualsLabel>
   <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}.-->
-  <RoleBelieverCountDesc>Эта роль приобретает смысл, когда ваша фракция имеет {1} {0}. Она теряет свой смысл, когда у вас всего {3} {2}.</RoleBelieverCountDesc>
+  <RoleBelieverCountDesc>Эта роль становится доступна, когда ваша фракция имеет {1} {0}. Она перестаёт быть доступной, когда у вас всего {3} {2}.</RoleBelieverCountDesc>
   <!-- EN: Raised by {0} levels.-->
   <RoleExpectationOffset>Увеличены на {0} уровней.</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations.-->
@@ -308,7 +308,7 @@
   <TextMote_WillReduced>Воля ослаблена\nс {0} до {1}</TextMote_WillReduced>
 
   <!-- EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer?-->
-  <ConfirmationCharityJoiner>Принятие этого человека считается актом милосердия. Если вы откажете ему, следующие поселенцы будут недовольны:\n{0}\n\nВы действительно хотите отказать этому человеку?</ConfirmationCharityJoiner>
+  <ConfirmationCharityJoiner>Принятие этого человека в ряды поселения считается актом милосердия. Если вы откажете ему, следующие поселенцы будут недовольны:\n{0}\n\nВы действительно хотите отказать этому человеку?</ConfirmationCharityJoiner>
 
   <!-- EN: Believers in {0} ({1})-->
   <BelieversIn>Верующие в {0} ({1})</BelieversIn>
@@ -417,7 +417,7 @@
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here?-->
   <TreeBlockedByNearbyBuildingsDesc>Посадка {PLANT_definite} рядом с искусственными сооружениями приведёт к тому, что сила связи с ним будет ухудшаться со временем. Сила связи определяет максимальное количество дриад, которое оно сможет поддерживать.\n\nВы уверены, что хотите посадить древо здесь?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste.-->
-  <GauranlenModeChangeDescFull>Смена касты дриад у {TREE_definite} требует времени и энергии.\n\nПосле того, как связанный человек инициирует этот процесс, все дриады на {DURATION_numCase ? день : дня : дней} спрячутся в коконы для трансформации.\n\nДриады, уже находящиеся в коконах, прервут текущую трансформацию, чтобы преобразоваться в выбранную касту.</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>Смена касты дриад у {TREE_definite} требует времени и энергии.\n\nПосле того, как связанный человек инициирует этот процесс, все дриады спрячутся в коконы для трансформации на {DURATION_numCase ? день : дня : дней} .\n\nДриады, уже находящиеся в коконах, прервут текущую трансформацию, чтобы преобразоваться в выбранную касту.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}.-->
   <ChangeModeDesc>Сменить тип дриад, созданных древом {TREE_definite}.</ChangeModeDesc>
   <!-- EN: Connection strength fall-->
@@ -517,7 +517,7 @@
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful...-->
   <GameOverArchotechInvokedEnding>Бог-машина заметил вас. Никто не знает, что произойдёт дальше. Он может уничтожить вас, связаться с вами напрямую или перенести ваше сознание в другую плоскость реальности.\n\nВы чувствуете, как огромная нечеловеческая сущность бесконечной фрактальной сложности проникает в ваше сознание. Пространство и время перестают существовать. Это вселяет ужас. И это так красиво...</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0}-->
-  <GameOverColonistsTranscended>Эти поселенцы превознеслись:\n\n{0}</GameOverColonistsTranscended>
+  <GameOverColonistsTranscended>Эти поселенцы вознеслись:\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part-->
   <Reward_ArchonexusMapPart>Часть карты архонексуса</Reward_ArchonexusMapPart>
   <!-- EN: Archonexus map part {0}/{1}-->
@@ -559,7 +559,7 @@
   <!-- EN: Interrupt cycle-->
   <BiosculpterInteruptCycle>Прервать цикл</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness.-->
-  <BiosculpterInteruptCycleDesc>Прервать текущий цикл. Человек, находящийся внутри, будет выброшен из капсулы, не получив никаких положительных эффектов цикла, и кратковременно будет страдать от биоскульпторной болезни.</BiosculpterInteruptCycleDesc>
+  <BiosculpterInteruptCycleDesc>Прервать текущий цикл. Человек, находящийся внутри, будет выброшен из капсулы, не получив никаких положительных эффектов цикла, и будет непродолжительно страдать от биоскульпторной болезни.</BiosculpterInteruptCycleDesc>
   <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old.-->
   <BiosculpterUnderageAgeReversalMessage>Предупреждение: цикл омоложения не может быть запущен, пока биоскульптор откалиброван для {PAWN_labelShort}, поскольку {PAWN_labelShort} моложе {ADULTAGE} лет.</BiosculpterUnderageAgeReversalMessage>
   <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle.-->
