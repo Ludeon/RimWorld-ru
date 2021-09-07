@@ -2,152 +2,134 @@
 <LanguageData>
 
   <!-- EN: Create or select an ideoligion for your faction. -->
-  <MessageMustChooseIdeo>TODO</MessageMustChooseIdeo>
+  <MessageMustChooseIdeo>Создайте или выберите идеологию для своей фракции.</MessageMustChooseIdeo>
   <!-- EN: The ideoligion name can't be empty. -->
-  <MessageIdeoNameCantBeEmpty>TODO</MessageIdeoNameCantBeEmpty>
+  <MessageIdeoNameCantBeEmpty>Название идеологии не может быть пустым.</MessageIdeoNameCantBeEmpty>
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
-  <MessageIdeoIncompatiblePrecepts>TODO</MessageIdeoIncompatiblePrecepts>
-  <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
-  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>TODO</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
-  <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>TODO</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <MessageIdeoIncompatiblePrecepts>{PRECEPT1} и {PRECEPT2} несовместимы.</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {PRECEPT} needs one of these buildings -->
-  <MessageRitualMissingTarget>TODO</MessageRitualMissingTarget>
+  <MessageRitualMissingTarget>Для {PRECEPT} требуется одна из построек</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
-  <MessageBuildingMissingRitual>TODO</MessageBuildingMissingRitual>
+  <MessageBuildingMissingRitual>Для {PRECEPT} необходим подходящий ритуал.</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
-  <MessagePawnUnwillingToDoDueToIdeo>TODO</MessagePawnUnwillingToDoDueToIdeo>
+  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} отказывается это делать исходя из идеологических соображений — {0_possessive}.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>TODO</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} пытается обратить {RECIPIENT_nameDef} в {INITIATOR_possessive} идеологию. Определенность {RECIPIENT_nameDef} опустилась с  {CERTAINTYBEFORE} до {CERTAINTYAFTER}. {RECIPIENT_pronoun} возмущен попыткой обращения.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
-  <MessageFailedConvertIdeoAttemptSocialFight>TODO</MessageFailedConvertIdeoAttemptSocialFight>
+  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} пытается обратить {PAWN2_nameDef} в {PAWN1_possessive} идеологию. Это привело к драке! </MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
-  <MessageNotEnoughMemes>TODO</MessageNotEnoughMemes>
+  <MessageNotEnoughMemes>Необходимо выбрать хотя бы {0} черт.</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
-  <MessageTooManyMemes>TODO</MessageTooManyMemes>
+  <MessageTooManyMemes>Нельзя выбрать больше {0} черт.</MessageTooManyMemes>
   <!-- EN: You must choose a structure meme. -->
-  <MessageNotEnoughStructureMemes>TODO</MessageNotEnoughStructureMemes>
+  <MessageNotEnoughStructureMemes>Необходимо выбрать основную черты</MessageNotEnoughStructureMemes> <!-- базовую? ключевую? -->
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
-  <MessageIncompatibleMemes>TODO</MessageIncompatibleMemes>
+  <MessageIncompatibleMemes>{0_label} и {1_label} несовместимы друг с другом.</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
-  <MessageNoRequiredRolePawnToBeginRitual>TODO</MessageNoRequiredRolePawnToBeginRitual>
-  <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
-  <MessageNotEnoughSpectators>TODO</MessageNotEnoughSpectators>
-  <!-- EN: You must choose a role. -->
-  <MessageRoleChangeChooseDifferentRole>TODO</MessageRoleChangeChooseDifferentRole>
+  <MessageNoRequiredRolePawnToBeginRitual>Вам необходимы {0} для начала {1}.</MessageNoRequiredRolePawnToBeginRitual>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>TODO</MessageNeedAssignedRoleToBeginRitual>
-  <!-- EN: Need at least one {0} participating. -->
-  <MessageNeedAtLeastOneParticipantOfIdeo>TODO</MessageNeedAtLeastOneParticipantOfIdeo> <!-- text_todo -->
+  <MessageNeedAssignedRoleToBeginRitual>Перед началом {1}, необходимо назначить кому-то роль {0}.</MessageNeedAssignedRoleToBeginRitual>
   
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
-  <MessageRoleAssigned>TODO</MessageRoleAssigned>
+  <MessageRoleAssigned>{0_labelShort} теперь носит роль {1}.</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>TODO</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>С тех пор как {0_labelShort} стал заключенным, {0_pronoun} не может носить роль {1}.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
-  <MessageWarningPlayerDesignatedTreeChopped>TODO</MessageWarningPlayerDesignatedTreeChopped>
+  <MessageWarningPlayerDesignatedTreeChopped>Предупреждение: {0} будет расстроен, если будет срублено дерево.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
-  <MessageWarningPlayerDesignatedMining>TODO</MessageWarningPlayerDesignatedMining>
+  <MessageWarningPlayerDesignatedMining>Предупреждение: {0} будет расстроен, если кто-то займется горным делом.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
-  <MessageConnectedPawnDied>TODO</MessageConnectedPawnDied>
+  <MessageConnectedPawnDied>Связь древо {TREE_label} с поселенцем {PAWN_nameDef} была разорвана. На восстановление уйдет {DURATION} перед тем, как снова можно будет создать связь.</MessageConnectedPawnDied>
 
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
-  <MessageSlaveEmancipated>TODO</MessageSlaveEmancipated>
+  <MessageSlaveEmancipated>{0_nameDef} был освобожден {1_nameDef}.</MessageSlaveEmancipated>
   <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
-  <MessagePrisonerEnslaved>TODO</MessagePrisonerEnslaved>
+  <MessagePrisonerEnslaved>{0_nameDef} был порабощен {1_nameDef}.</MessagePrisonerEnslaved>
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
-  <MessagePrisonerWillBroken>TODO</MessagePrisonerWillBroken>
+  <MessagePrisonerWillBroken>Вера заключенного {1_nameDef} была сломлена {0_nameDef}.</MessagePrisonerWillBroken> <!-- Вера? Воля? -->
   <!-- EN: Enslavement will follow. -->
-  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>TODO</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
+  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>Порабощенные идут следом.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
 
   <!-- Prisoner interactions -->
   <!-- EN: No warden is capable of this enslavement. -->
-  <MessageNoWardenCapableOfEnslavement>TODO</MessageNoWardenCapableOfEnslavement>
+  <MessageNoWardenCapableOfEnslavement>Ни один из надзирателей не может обратить в рабство.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>TODO</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>У вас нет надзирателей {MEMBERNAME} для обращения {PRISONER_nameDef}. {PRISONER_possessive} тип взаимодействия изменен на "Не взаимодействовать".</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
-  <MessageCampDetected>TODO</MessageCampDetected>
+  <MessageCampDetected>Вы обнаружили лагерь {CAMP_label}, который контролируют {FACTION_name}.</MessageCampDetected>
 
   <!-- Charity -->
   <!-- EN: Charity refused -->
-  <MessageCharityEventRefused>TODO</MessageCharityEventRefused>
+  <MessageCharityEventRefused>Милосердие отклонено</MessageCharityEventRefused> <!-- благотворительность? душевность? -->
   <!-- EN: Charity fulfilled -->
-  <MessageCharityEventFulfilled>TODO</MessageCharityEventFulfilled>
+  <MessageCharityEventFulfilled>Милосердие проявлено</MessageCharityEventFulfilled>
   <!-- EN: {0} leaving empty-handed. -->
-  <MessageBeggarsLeavingWithNoItems>TODO</MessageBeggarsLeavingWithNoItems>
+  <MessageBeggarsLeavingWithNoItems>{0} уходит с пустыми руками.</MessageBeggarsLeavingWithNoItems>
   <!-- EN: {0} leaving with requested items. -->
-  <MessageBeggarsLeavingWithItems>TODO</MessageBeggarsLeavingWithItems>
+  <MessageBeggarsLeavingWithItems>{0} уходит с необходимыми предметами.</MessageBeggarsLeavingWithItems>
   <!-- EN: {0_nameDef} died without any treatment. -->
-  <MessageWandererLeftToDie>TODO</MessageWandererLeftToDie>
+  <MessageWandererLeftToDie>{0_nameDef} умер, так как не получил лечения.</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->
-  <MessageWandererRecruited>TODO</MessageWandererRecruited>
+  <MessageWandererRecruited>{0_nameDef} рекрутирован.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
-  <MessageWandererLeftHealthy>TODO</MessageWandererLeftHealthy>
+  <MessageWandererLeftHealthy>{0_nameDef} ушёл в добром здравии.</MessageWandererLeftHealthy>
   <!-- EN: {0} failed. -->
-  <MessageCharityQuestEndedFailed>TODO</MessageCharityQuestEndedFailed>
+  <MessageCharityQuestEndedFailed>{0} провалено.</MessageCharityQuestEndedFailed>
   <!-- EN: {0} succesfully completed. -->
-  <MessageCharityQuestEndedSuccess>TODO</MessageCharityQuestEndedSuccess>
+  <MessageCharityQuestEndedSuccess>{0} успешно завершено.</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
   <!-- EN: Cannot remove -->
-  <CannotRemove>TODO</CannotRemove>
+  <CannotRemove>Невозможно убрать</CannotRemove>
   <!-- EN: Cannot remove {MEME} -->
-  <CannotRemoveMemeRequired>TODO</CannotRemoveMemeRequired>
+  <CannotRemoveMemeRequired>Невозможно убрать {MEME}</CannotRemoveMemeRequired>
   <!-- EN: Cannot remove {MEME}: Required by player faction. -->
-  <CannotRemoveMemeRequiredPlayer>TODO</CannotRemoveMemeRequiredPlayer>
+  <CannotRemoveMemeRequiredPlayer>Невозможно убрать {MEME}: Необходимо фракции игрока.</CannotRemoveMemeRequiredPlayer>
   <!-- EN: Required by {FACTION_name}. -->
-  <RequiredByFaction>TODO</RequiredByFaction>
-  <!-- EN: Roles cannot have overlapping apparel requirements. -->
-  <OverlappingRoleApparel>TODO</OverlappingRoleApparel>
+  <RequiredByFaction>Необходимо для {FACTION_name}.</RequiredByFaction>
   
   <!-- EN: {0_label} will self-destruct in {1}. -->
-  <SelfDestructCountdown>TODO</SelfDestructCountdown>
+  <SelfDestructCountdown>{0_label} самоуничтожится через {1}.</SelfDestructCountdown>
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
-  <MessageAncientTerminalDiscovered>TODO</MessageAncientTerminalDiscovered>
+  <MessageAncientTerminalDiscovered>Вы обнаружили древнейший терминал, в котором хранится информация о {0}!</MessageAncientTerminalDiscovered>
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
-  <MessageAncientComplexBackToShuttle>TODO</MessageAncientComplexBackToShuttle>
+  <MessageAncientComplexBackToShuttle>Вы обнаружили секретную информацию о {0}! Вернитесь в шатл, чтобы улететь.</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
-  <MessageAncientSignalActivated>TODO</MessageAncientSignalActivated>
+  <MessageAncientSignalActivated>Древний продовольственный спутник был активирован. Продукты будут сброшены неподалеку.</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
-  <MessageAncientSignalHostileDetected>TODO</MessageAncientSignalHostileDetected>
+  <MessageAncientSignalHostileDetected>{0} из {1} получили сигнал спутника и будут атаковать это место.</MessageAncientSignalHostileDetected>
 
   <!-- Ancient altar -->
   <!-- EN: All security systems are waking up! -->
-  <MessageAncientAltarThreatsWokenUp>TODO</MessageAncientAltarThreatsWokenUp>
+  <MessageAncientAltarThreatsWokenUp>Все защитные системы пробудились!</MessageAncientAltarThreatsWokenUp>
   <!-- EN: All security systems are alerted to your presence. -->
-  <MessageAncientAltarThreatsAlerted>TODO</MessageAncientAltarThreatsAlerted>
+  <MessageAncientAltarThreatsAlerted>Все защитные системы знают о вашем присутствии.</MessageAncientAltarThreatsAlerted>
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>TODO</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>Предупреждение: {PAWNKINDLABELPLURAL} считается священным у всех {PAWNS}, и не будет ранено.</MessageAnimalIsVeneratedForAllColonists> <!-- атаковано? поранено? убито? -->
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
-  <MessageNewColonyMax>TODO</MessageNewColonyMax>
+  <MessageNewColonyMax>Выберите не более чем {0} {1} для переноса в другую колонию.</MessageNewColonyMax>
   <!-- EN: You must select at least 1 colonist. -->
-  <MessageNewColoyRequiresOneColonist>TODO</MessageNewColoyRequiresOneColonist>
+  <MessageNewColoyRequiresOneColonist>Необходимо выбрать хотя бы 1 поселенца.</MessageNewColoyRequiresOneColonist>
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>TODO</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>{0} охвачено огнём и скоро взорвется!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
-  <MessageSleepingThreatDelayActivated>TODO</MessageSleepingThreatDelayActivated>
+  <MessageSleepingThreatDelayActivated>{0_pawnsPlural} пробудится через {1}.</MessageSleepingThreatDelayActivated>
   <!-- EN: Infestation arriving. -->
-  <MessageInfestationDelayActivated>TODO</MessageInfestationDelayActivated>
+  <MessageInfestationDelayActivated>Насекомые прибывают.</MessageInfestationDelayActivated> <!-- забыл как в коре инфестейшн называется -->
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>TODO</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
-
-  <!-- Fluid ideo messages -->
-  <!-- EN: Development points changed from {0} to {1} ({2}). -->
-  <MessageDevelopmentPointsEarned>TODO</MessageDevelopmentPointsEarned>
-  <!-- EN: Only one change to structures, memes and styles is allowed. -->
-  <MessageFluidIdeoOneChangeAllowed>TODO</MessageFluidIdeoOneChangeAllowed>
+  <MessageFuelNodeDelayActivated>{0} потревожено и взорвется в ближайшее время!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 
 </LanguageData>
