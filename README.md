@@ -43,6 +43,7 @@
 Если у вас последняя версия игры, и не хочется проделывать каждый раз однотипные действия, можете воспользоваться .ps скриптом (только для Windows 10). При запуске скрипт скачает архив с **последней версией перевода** и положит в нужные папки:
 
 ```
+chcp 1251
 powershell.exe -Command "Invoke-WebRequest -OutFile ./master.zip https://github.com/Ludeon/RimWorld-ru/archive/master.zip
 powershell.exe "Add-Type -A 'System.IO.Compression.FileSystem';[IO.Compression.ZipFile]::ExtractToDirectory('master.zip', '1');"
 RD /s /q "Data\Core\Languages\Russian (Русский)\"
