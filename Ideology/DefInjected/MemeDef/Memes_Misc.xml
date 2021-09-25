@@ -36,7 +36,7 @@
   -->
   <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_created] [deity0_name] [sacredAnimalList] и человека на [place_summary] [place_name], и растил их как детей своих.</li>
-    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->И [deity0_brought] [deity0_name] всех животных и людей вместе на [place_summary] [place_name] на великое собрание.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->И [deity0_brought] [deity0_name] всех животных и людей вместе на [place_summary] [place_name] на великое сборище.</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_blessed] [deity0_name] [place_summary] [place_name], где жили [sacredAnimalListEnd], и [deity0_taught] людей этого места почитать этих животных.</li>
     <li>conflict(tag=meme_AnimalPersonhood)        ->Злой [foeLeader] приказал начать охоту на диких животных, и [foeLeader_possessive] [foeSoldiers] взяли в руки [place_personalWeapon].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] [deity0_came] к [place_job] по имени [founderName] [revelationAdverb] и [deity0_spoke] про [veneratedAnimal]. И [founder_was] [founderName] [veneratedAnimal], и [veneratedAnimal] был [founderName], и [founder_understood] [founder_pronoun] замысел [deity0_name].</li>
@@ -51,7 +51,7 @@
     <li>archistFact(tag=meme_AnimalPersonhood)     ->Архотеки существуют в более высокой моральной плоскости, чем биологические существа. Их превосходство настолько велико, что люди для них находятся на одном уровне с животными.</li>
     <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd] архотеки возвысят людей до равных себе, только если люди будут сами воспринимать животных как равных себе.</li>
     <li>animistBasis(tag=meme_AnimalPersonhood)    ->Духи мысли и сознания обитают внутри животных, равно как и в людях.</li>
-    <li>animistFact(tag=meme_AnimalPersonhood)     ->Духи животных и духи, пребывающие в людях, — одни и те же духи.</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->Духи животных и духи, обитающие в людях, — одни и те же духи.</li>
     <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
     <li>veneratedOrAnyAnimal->[Animal]</li>
     <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label], [animal2_thingDef_label]</li>
@@ -153,7 +153,7 @@
   <!-- EN: blindsight -->
   <Blindsight.label>слепозоркость</Blindsight.label>
   <!-- EN: Only those who are blind can perceive the true reality. -->
-  <Blindsight.description>Только те, кто незряч, могут истинным образом воспринимать действительность.</Blindsight.description>
+  <Blindsight.description>Только незрячие могут истинным образом воспринимать действительность.</Blindsight.description>
   <!-- EN:
     <li>creation(tag=meme_Blindsight)        ->[deity0_name] looked over the dust of the void for an eternity, and there was nothing. Then [deity0_pronoun] tore out [deity0_possessive] eyes, and the universe formed inside [deity0_possessive] mind.</li>
     <li>episode(uses=1,tag=meme_Blindsight)  ->A blind beggar asked [deity0_objective], "Why have you forsaken me? I cannot even see what you have created." [deity0_name] replied, "You see more, not less, for my truth lies in the mind."</li>
@@ -306,7 +306,7 @@
     <li>intro(tag=meme_Cannibal)           ->На [place_summary] [place_name], когда шёл [ritualName], [deity0_came_down] [deity0_name] в [altarRoomLabel] и [deity0_feasted] плотью человеческой, и все [memberNamePlural] узрели это.</li>
     <li>conflict(tag=meme_Cannibal)        ->И [foeLeader_declared] [foeLeader], что есть человеческую плоть — преступление, и [foeLeader_sent] своих [foeSoldiers], и гонимы были [memberNamePlural].</li>
     <li>founderJoin(tag=meme_Cannibal)     ->И напали на [place_job] по имени [founderName] [foeSoldiers], которых [foeLeader_sent] [foeLeader]. Но [founderName] [founder_killed] их своим [place_personalWeapon], [founder_ate] плоть их и [founder_received] силу [deity0_name].</li>
-    <li>victory(tag=meme_Cannibal)         ->Пришли [founderName] и [memberNamePlural] [founder_possessive] в [place_powerCenter], и убили [foeLeader], и поели плоти [foeLeader_possessive]. И сделал [deity0_name] [founderName] новым [foeLeader].</li>
+    <li>victory(tag=meme_Cannibal)         ->Пришли [founderName] и [memberNamePlural] [founder_possessive] в [place_powerCenter], и убили [foeLeader], и вкусили плоти [foeLeader_possessive]. И сделал [deity0_name] [founderName] новым [foeLeader].</li>
     <li>setup(tag=meme_Cannibal)           ->[founderName] [founder_crashlanded] крушение на далёкой планете. Испытывая нехватку еды и [founder_surrounded] мёртвыми спутниками, [founder_pronoun] съел их плоть, отчего [founder_received] силу.</li>
     <li>story(uses=1,tag=meme_Cannibal)    ->Чтобы освятить твёрдость убеждений своих последователей, [founderName] [founder_demanded] им есть человеческую плоть хотя бы раз в неделю.</li>
     <li>lessonIntro(tag=meme_Cannibal)         ->Лишь после доброй трапезы человечиной я [founder_got] того, чтобы люди узрели истину —</li>
@@ -314,7 +314,7 @@
     <li>lessonReinforcement(tag=meme_Cannibal) ->Каждый раз, когда я делюсь телом врага с новым другом, я убеждаюсь, что он понимает это.</li>
     <li>archistBasis(tag=meme_Cannibal)    ->Архотеки, боги-машины, сделали себя таковыми, поглощая из раза в раз собственных предшественников и становясь всё сильнее и сильнее.</li>
     <li>archistFact(tag=meme_Cannibal)     ->Когда сознание архотеков расширяется, им нужно наращивать свою основу, поглощая и сливаясь с другими машинами.</li>
-    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd] архотеки завершат последнюю фазу своего роста, поглотив и слившись со всем человечеством.</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd] архотеки завершат последнюю фазу своего роста, поглотив всё человечество и слившись с ним.</li>
     <li>animistBasis(tag=meme_Cannibal)    ->Духи населяют всё сущее вокруг нас, и во время еды мы забираем силу съедаемых духов себе. А нет духов более сильных, чем те, что живут в людях.</li>
     <li>animistFact(tag=meme_Cannibal)     ->Мы вбираем в себя дух и силу других людей, поедая их плоть.</li>
     <li>deity0_went(deity0_gender==None)->пошло</li>
@@ -392,7 +392,7 @@
     <li>memeConcept->убиения</li>
     <li>memeConcept->поедания</li>
     <li>memeLeaderNoun->едок</li>
-    <li>memeLeaderNoun->повар</li>
+    <li>memeLeaderNoun->шеф-повар</li>
     <li>memeLeaderNoun->кровопийца</li>
     <li>memeLeaderNoun->зуб</li>
     <li>memeLeaderNoun->потрошитель</li>
