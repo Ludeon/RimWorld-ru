@@ -18,20 +18,20 @@
     <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
   -->
   <ReliquaryPilgrims.questContentRules.rulesStrings>
-    <li>pilgrimsArrivedLetterLabel->[pilgrimSingularOrPlural] [factionAdj]</li>
+    <li>pilgrimsArrivedLetterLabel->[pilgrimExpr] [arrived]</li>
     <li>pilgrimsArrivedLetterText->[questDescription]</li>
-    <li>delayedRewardLetterText->[pawns0_nameDef] благодарит вас за то, что вы впустили [pawns0_possessive] [andFollowers], чтобы поклониться [relic_name] [venerateDate]. В качестве вознаграждения [pawns0_nameDef] отсылает на транспортной капсуле дары (total value [rewardsMarketValue_money]):\n\n[rewards].</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef] благодарит вас за то, что [venerateDate] вы впустили [pawns0_possessive] [andFollowers] поклониться [relic_name]. В качестве вознаграждения [pawns0_nameDef] отсылает на транспортной капсуле дары (общей стоимостью [rewardsMarketValue_money]):\n\n[rewards].</li>
     <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [finished] поклоняться [relic_name] и [leaving].</li>
     <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] [hasHave] left the map.</li>
+    <li>pilgrimExpr(pilgrimFaction==false)->[faction_pawnSingular]-[pilgrimSingularOrPlural]</li>
+    <li>pilgrimExpr(pilgrimFaction==true)->[pilgrimSingularOrPlural]</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount==1)->паломник</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount>=2)->паломники</li>
     <li>leaving(pilgrimCount==1)->уходит</li>
     <li>leaving(pilgrimCount>=2)->уходят</li>
     <li>andFollowers(pilgrimCount==1)-></li>
     <li>andFollowers(pilgrimCount==2)->и другого [faction_pawnSingular]</li>
     <li>andFollowers(pilgrimCount>=3)->и других [faction_pawnsPlural]</li>
-    <li>pilgrimSingularOrPlural(pilgrimCount==1)->Прибыл пилигрим</li>
-    <li>pilgrimSingularOrPlural(pilgrimCount>=2)->Прибыли пилигримы</li>
-    <li>factionAdj(pilgrimFaction==true)-></li>
-    <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
   </ReliquaryPilgrims.questContentRules.rulesStrings>
   <!-- EN:
     <li>pilgrimsLabel->[pawns0_nameDef]</li>
@@ -68,8 +68,8 @@
     <li>pronounSingularOrPlural(pilgrimCount>=2)->они</li>
 	<li>pronounSingularOrPluralObj(pilgrimCount==1)->[pawns0_objective]</li>
     <li>pronounSingularOrPluralObj(pilgrimCount>=2)->им</li>
-    <li>pilgrimMay(pilgrimCount==1)->пилигрим может</li>
-    <li>pilgrimMay(pilgrimCount>=2)->пилигримы могут</li>
+    <li>pilgrimMay(pilgrimCount==1)->паломник может</li>
+    <li>pilgrimMay(pilgrimCount>=2)->паломники могут</li>
   </ReliquaryPilgrims.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit]</li>
@@ -92,12 +92,9 @@
     <li>visit->veneration</li>
   -->
   <ReliquaryPilgrims.questNameRules.rulesStrings>
-    <li>questName(pilgrimCount==1)->[visitAdj] [visit]</li>
-	<li>questName(pilgrimCount==1)->[visitAdjFem] [visitFem]</li>
-	<li>questName(pilgrimCount==1)->[visitAdjNeut] [visitNeut]</li>
-    <li>questName(pilgrimCount>=2)->[visitAdj] [visit]</li>
-	<li>questName(pilgrimCount>=2)->[visitAdjFem] [visitFem]</li>
-	<li>questName(pilgrimCount>=2)->[visitAdjNeut] [visitNeut]</li>
+    <li>questName->[visitAdj] [visit]</li>
+	<li>questName->[visitAdjFem] [visitFem]</li>
+	<li>questName->[visitAdjNeut] [visitNeut]</li>
     <li>visitAdj(p=6)-></li>
     <li>visitAdj->святой</li>
     <li>visitAdj->священный</li>

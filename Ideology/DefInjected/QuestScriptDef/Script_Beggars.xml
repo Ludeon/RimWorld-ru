@@ -14,8 +14,8 @@
   <Beggars.questContentRules.rulesStrings>
     <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] [wasWereBetrayed]</li>
     <li>letterTextBeggarsBetrayed->[groupLabelSingleOrPlural], [whoWasWereSeeking] помощи в вашем поселении, [wasWereBetrayed] вами. Поселенцы с милосердными убеждениями будут недовольны.</li>
-    <li>whoWasWereSeeking(beggarCount==1)->искавший</li>
-    <li>whoWasWereSeeking(beggarCount==1,beggar_gender==Female)->искавшая</li>
+    <li>whoWasWereSeeking(beggarCount==1,beggars0_gender==Male)->искавший</li>
+    <li>whoWasWereSeeking(beggarCount==1,beggars0_gender==Female)->искавшая</li>
     <li>whoWasWereSeeking(beggarCount>=2)->искавшие</li>
     <li>wasWereBetrayed(beggarCount==1)->был предан</li>
 	<li>wasWereBetrayed(beggarCount==1,beggar_gender==Female)->была предана</li>
@@ -61,9 +61,9 @@
 	<li>poor->бедный</li>
 	<li>poorFem->бедная</li>
     <li>travelerInfo(beggarCount==1)->Этот [groupLabelSingle] не принадлежит</li>
-    <li>travelerInfo(beggarCount==1,beggar_gender==Female)->Эта [groupLabelSingle] не принадлежит</li>
+    <li>travelerInfo(beggarCount==1,beggars0_gender==Female)->Эта [groupLabelSingleFem] не принадлежит</li>
     <li>travelerInfo(beggarCount>=2)->Эти [groupLabelPlural] не принадлежат</li>
-    <li>beggingForInfo->for x[requestedThingCount] [requestedThing_label]</li>
+    <li>beggingForInfo->[requestedThing_label] в количестве [requestedThingCount] единиц</li>
     <li>traverObjective(beggarCount==1)->[beggars0_possessive]</li>
     <li>traverObjective(beggarCount>=2)->их</li>
     <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] какой-либо фракции. Если вы хотите, вы можете убить, арестовать, продать в рабство или пустить [lodgersPossessive] на органы без каких-либо дипломатических последствий.</li>
@@ -71,21 +71,21 @@
     <li>approachInfo(beggarCount==1,beggar_gender==Female)->[poor] [groupLabelSingle] по имени [beggars0_nameDef] приближается к поселению в поисках помощи</li>
     <li>approachInfo(beggarCount>=2)->Группа бедных [groupLabelPluralAcc] приближается к поселению в поисках помощи</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] просит [beggingForInfo]</li>
-    <li>requestInfo(beggarCount>=2)->The [groupLabelPlural] просят [beggingForInfo]</li>
+    <li>requestInfo(beggarCount>=2)->[groupLabelPlural] просят [beggingForInfo]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] нуждается в серебре, чтобы откупиться от преследующей [beggars0_posessive] банды</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] нуждается в медикаментах, чтобы помочь раненному путешественнику поблизости</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] нуждается в медикаментах, чтобы спасти своего преданного питомца, раненного по дороге</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] нуждается [requestedThing_label], чтобы защитить своего болезненного друга от смертельных заболеваний</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] нуждается в [requestedThing_label], чтобы защитить своего болезненного друга от смертельных заболеваний</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] хочет [requestedThing_label], чтобы утопить в нём скорбь о другом страннике, погибшем в ходе ужасного несчастного случая</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Им нужно серебро, чтобы выкупить своего недавно похищенного друга</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Им нужны медикаменты чтобы спасти своего друга, тяжелораненого после нападения механоидов</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Им нужны медикаменты чтобы спасти своего друга, тяжелораненного после нападения механоидов</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Им нужны медикаменты, чтобы помочь своим друзьям из разграбленного налётчиками поселения неподалёку</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Им нужен [requestedThing_label], чтобы не заболеть, пока они ищут себе новое пристанище</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Они хотят [requestedThing_label], чтобы утопить в нём горе о потерянном из-за ужасного нападения крове</li>
     <li>interactionInfo(beggarCount==1)->Вы можете дать [beggars0_nameDef] необходимые предметы, выбрав поселенца и нажав правой кнопкой мыши на н[beggars0_possessive]</li>
     <li>interactionInfo(beggarCount>=2)->Вы можете дать [groupLabelPluralDat] необходимые предметы, выбрав поселенца и нажав правой кнопкой мыши на [beggars0_nameDef]</li>
-    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] отправится в путь [visitDurationTicks_duration]</li>
-    <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] отправятся в путь [visitDurationTicks_duration]</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] отправится в путь через [visitDurationTicks_duration]</li>
+    <li>moveOnInfo(beggarCount>=2)->[groupLabelPlural] отправятся в путь через [visitDurationTicks_duration]</li>
   </Beggars.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
