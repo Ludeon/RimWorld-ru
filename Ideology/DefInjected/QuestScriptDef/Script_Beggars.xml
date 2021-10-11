@@ -17,11 +17,11 @@
     <li>whoWasWereSeeking(beggarCount==1,beggars0_gender==Male)->искавший</li>
     <li>whoWasWereSeeking(beggarCount==1,beggars0_gender==Female)->искавшая</li>
     <li>whoWasWereSeeking(beggarCount>=2)->искавшие</li>
-    <li>wasWereBetrayed(beggarCount==1)->был предан</li>
-	<li>wasWereBetrayed(beggarCount==1,beggar_gender==Female)->была предана</li>
+    <li>wasWereBetrayed(beggarCount==1,beggars0_gender==Male)->был предан</li>
+	<li>wasWereBetrayed(beggarCount==1,beggars0_gender==Female)->была предана</li>
     <li>wasWereBetrayed(beggarCount>=2)->были преданы</li>
-    <li>groupLabelSingleOrPlural(beggarCount==1)->путешественник</li>
-	<li>groupLabelSingleOrPlural(beggarCount==1)->путешественница</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1,beggars0_gender==Male)->путешественник</li>
+	<li>groupLabelSingleOrPlural(beggarCount==1,beggars0_gender==Female)->путешественница</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->путешественники</li>
   </Beggars.questContentRules.rulesStrings>
   <!-- EN:
@@ -56,20 +56,19 @@
     <li>groupLabelPlural->путешественники</li>
     <li>groupLabelSingle->путешественник</li>
     <li>groupLabelSingleFem->путешественница</li>
-    <li>groupLabelPluralAcc->путешественников</li>
+    <li>groupLabelPluralGen->путешественников</li>
 	<li>groupLabelPluralDat->путешественникам</li>
-	<li>poor->бедный</li>
-	<li>poorFem->бедная</li>
-    <li>travelerInfo(beggarCount==1)->Этот [groupLabelSingle] не принадлежит</li>
+	<li>poorMaleFemale(beggars0_gender==Male)->бедный</li>
+	<li>poorMaleFemale(beggars0_gender==Female)->бедная</li>
+    <li>travelerInfo(beggarCount==1,beggars0_gender==Male)->Этот [groupLabelSingle] не принадлежит</li>
     <li>travelerInfo(beggarCount==1,beggars0_gender==Female)->Эта [groupLabelSingleFem] не принадлежит</li>
     <li>travelerInfo(beggarCount>=2)->Эти [groupLabelPlural] не принадлежат</li>
     <li>beggingForInfo->[requestedThing_label] в количестве [requestedThingCount] единиц</li>
     <li>traverObjective(beggarCount==1)->[beggars0_possessive]</li>
     <li>traverObjective(beggarCount>=2)->их</li>
     <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] какой-либо фракции. Если вы хотите, вы можете убить, арестовать, продать в рабство или пустить [lodgersPossessive] на органы без каких-либо дипломатических последствий.</li>
-    <li>approachInfo(beggarCount==1)->A poor [groupLabelSingle] named [beggars0_nameDef] is approaching looking for help</li>
-    <li>approachInfo(beggarCount==1,beggar_gender==Female)->[poor] [groupLabelSingle] по имени [beggars0_nameDef] приближается к поселению в поисках помощи</li>
-    <li>approachInfo(beggarCount>=2)->Группа бедных [groupLabelPluralAcc] приближается к поселению в поисках помощи</li>
+    <li>approachInfo(beggarCount==1)->[poorMaleFemale] [groupLabelSingle] по имени [beggars0_nameDef] приближается к поселению в поисках помощи</li>
+    <li>approachInfo(beggarCount>=2)->Группа бедных [groupLabelPluralGen] приближается к поселению в поисках помощи</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] просит [beggingForInfo]</li>
     <li>requestInfo(beggarCount>=2)->[groupLabelPlural] просят [beggingForInfo]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] нуждается в серебре, чтобы откупиться от преследующей [beggars0_posessive] банды</li>
