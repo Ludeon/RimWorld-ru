@@ -81,7 +81,7 @@
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Им нужны медикаменты, чтобы помочь своим друзьям из разграбленного налётчиками поселения неподалёку</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Им нужен [requestedThing_label], чтобы не заболеть, пока они ищут себе новое пристанище</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Они хотят [requestedThing_label], чтобы утопить в нём горе о потерянном из-за ужасного нападения крове</li>
-    <li>interactionInfo(beggarCount==1)->Вы можете дать [beggars0_nameDef] необходимые предметы, выбрав поселенца и нажав правой кнопкой мыши на н[beggars0_possessive]</li>
+    <li>interactionInfo(beggarCount==1)->Вы можете дать [beggars0_nameDef] необходимые предметы, выбрав поселенца и нажав правой кнопкой мыши на [beggars0_nameDef]</li>
     <li>interactionInfo(beggarCount>=2)->Вы можете дать [groupLabelPluralDat] необходимые предметы, выбрав поселенца и нажав правой кнопкой мыши на [beggars0_nameDef]</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] отправится в путь через [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->[groupLabelPlural] отправятся в путь через [visitDurationTicks_duration]</li>
