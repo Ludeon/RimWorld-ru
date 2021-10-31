@@ -18,10 +18,10 @@
     <li>whoWasWereSeeking(beggarCount==1,beggars0_gender==Female)->искавшая</li>
     <li>whoWasWereSeeking(beggarCount>=2)->искавшие</li>
     <li>wasWereBetrayed(beggarCount==1,beggars0_gender==Male)->был предан</li>
-	<li>wasWereBetrayed(beggarCount==1,beggars0_gender==Female)->была предана</li>
+    <li>wasWereBetrayed(beggarCount==1,beggars0_gender==Female)->была предана</li>
     <li>wasWereBetrayed(beggarCount>=2)->были преданы</li>
     <li>groupLabelSingleOrPlural(beggarCount==1,beggars0_gender==Male)->путешественник</li>
-	<li>groupLabelSingleOrPlural(beggarCount==1,beggars0_gender==Female)->путешественница</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1,beggars0_gender==Female)->путешественница</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->путешественники</li>
   </Beggars.questContentRules.rulesStrings>
   <!-- EN:
@@ -57,9 +57,9 @@
     <li>groupLabelSingle->путешественник</li>
     <li>groupLabelSingleFem->путешественница</li>
     <li>groupLabelPluralGen->путешественников</li>
-	<li>groupLabelPluralDat->путешественникам</li>
-	<li>poorMaleFemale(beggars0_gender==Male)->бедный</li>
-	<li>poorMaleFemale(beggars0_gender==Female)->бедная</li>
+    <li>groupLabelPluralDat->путешественникам</li>
+    <li>poorMaleFemale(beggars0_gender==Male)->бедный</li>
+    <li>poorMaleFemale(beggars0_gender==Female)->бедная</li>
     <li>travelerInfo(beggarCount==1,beggars0_gender==Male)->Этот [groupLabelSingle] не принадлежит</li>
     <li>travelerInfo(beggarCount==1,beggars0_gender==Female)->Эта [groupLabelSingleFem] не принадлежит</li>
     <li>travelerInfo(beggarCount>=2)->Эти [groupLabelPlural] не принадлежат</li>
@@ -113,20 +113,20 @@
   -->
   <Beggars.questNameRules.rulesStrings>
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle]</li>
-	<li>questName(beggarCount==1,beggar_gender==Female)->[beggarSingle] [seekingSingle]</li>
+    <li>questName(beggarCount==1,beggar_gender==Female)->[beggarSingle] [seekingSingle]</li>
     <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural]</li>
     <li>beggarSingle->попрошайка</li>
     <li>beggarSingle->странник</li>
     <li>beggarSingle->бродяга</li>
-	<li>beggarSingle->путешественник</li>
-	<li>beggarSingleFem->попрошайка</li>
-	<li>beggarSingleFem->странница</li>
-	<li>beggarSingleFem->бродяга</li>
-	<li>beggarSingleFem->путешественница</li>
+    <li>beggarSingle->путешественник</li>
+    <li>beggarSingleFem->попрошайка</li>
+    <li>beggarSingleFem->странница</li>
+    <li>beggarSingleFem->бродяга</li>
+    <li>beggarSingleFem->путешественница</li>
     <li>beggarPlural->попрошайки</li>
-	<li>beggarPlural->странники</li>
-	<li>beggarPlural->бродяги</li>
-	<li>beggarPlural->путешественники</li>
+    <li>beggarPlural->странники</li>
+    <li>beggarPlural->бродяги</li>
+    <li>beggarPlural->путешественники</li>
     <li>seekingSingle->ищет [alms]</li>
     <li>seekingSingle->хочет [alms]</li>
     <li>seekingSingle->просит [alms]</li>
@@ -141,7 +141,7 @@
     <li>alms->помощь</li>
     <li>alms->милосердие</li>
     <li>alms->припасы</li>
-	<li>almsPrep->милостыни</li>
+    <li>almsPrep->милостыни</li>
     <li>almsPrep->помощи</li>
     <li>almsPrep->милосердии</li>
     <li>almsPrep->припасах</li>
