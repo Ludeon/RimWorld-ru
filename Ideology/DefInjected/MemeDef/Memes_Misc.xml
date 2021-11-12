@@ -1295,4 +1295,399 @@
   <!-- EN: kleptism -->
   <Raider.symbolPacks.3.theme>клептизм</Raider.symbolPacks.3.theme>
   
+  <!-- EN: rancher -->
+  <Rancher.label>скотоводство</Rancher.label>
+  <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
+  <Rancher.description>Разведение животных — это правильный путь, а выращивание растений для пропитания — нет.</Rancher.description>
+  <!-- EN:
+    <li>creation(tag=meme_Rancher)        ->[deity0_name] created the animals, and then man, and gave the animals to man to cherish and raise and slaughter as acts of veneration towards [deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] created all the noble animals and beasts of the land, and said, "Take these noble beasts, and through them make yourselves fruitful in my honor."</li>
+    <li>intro(tag=meme_Rancher)           ->The early [ranchingAnimal] ranchers of the [place_summary] [place_name] built a great [altarName] to [deity0_name].</li>
+    <li>conflict(tag=meme_Rancher)        ->A powerful [foeLeader] despised the [memberNamePlural] and their ways, and bought up all the grasslands to grow [Vegetable]s.</li>
+    <li>founderJoin(tag=meme_Rancher)     ->[memberName]'s savior [founderName] was born on a spring morning in a humble barn, amidst [ranchingAnimal]s, and [founder_possessive] parents were a [rancherParent1] and a [rancherParent2].</li>
+    <li>victory(tag=meme_Rancher)         ->[founderName] rode to the [place_community] on a fine horse, and challenged the [foeLeader] to a duel with [place_personalWeapon]s at noon. The [foeLeader] could not refuse or else lose the trust of the [foeSoldiers]. [founderName] killed the [foeLeader] dead.</li>
+    <li>setup(tag=meme_Rancher)           ->The farmers were persecuted, so they escaped to the countryside where they could build a good pastoral society.</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->The believers spread out onto the land, and grew in number as they lived on their idyllic ranches and farms.</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->Partner, out on the ranges, we had a saying among the old hands:</li>
+    <li>lesson(tag=meme_Rancher)              ->good and happiness right livin' is found in the pasture</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->It's something you come to accept, partner, on the lonely trails of the range, listenin' to the animals sleepin' while you sit around the fire.</li>
+    <li>archistFact(tag=meme_Rancher)     ->The archotechs care for humanity like shepherds, for we are their most precious flock.</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd], the archotechs will depart, and drive before them those who tended their own herds well. The rest will be left behind in the wilderness.</li>
+    <li>animistFact(tag=meme_Rancher)     ->Nature's animals are the spirits of slaves, and demand to be taken into service.</li>
+    <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
+    <li>ranchingAnimal->[Animal]</li>
+    <li>rancherParent1->shepherd</li>
+    <li>rancherParent1->farrier</li>
+    <li>rancherParent1->cheese maker</li>
+    <li>rancherParent2->cowhand</li>
+    <li>rancherParent2->dairy queen</li>
+    <li>rancherParent2->butcher</li>
+  -->
+  <Rancher.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Rancher)        ->[deity0_created] [deity0_name] животных, а после них — человека, и [deity0_gave] животных человеку, чтобы тот растил их в любви и заботе и забивал их во славу [deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->И [deity0_created] [deity0_name] всех благородных животных и зверей на суше, и [deity0_said]: «Возьмите этих благородных зверей, и чрез них исполняйтесь благодатью моей».</li>
+    <li>intro(tag=meme_Rancher)           ->Первые из тех, кто разводил [ranchingAnimal] на [place_summary] [place_name], построили великий [altarName] [deity0_name].</li>
+    <li>conflict(tag=meme_Rancher)        ->И презрел могущественный [foeLeader] всех [memberNamePlural] и их пути, и скупил все луга, чтобы выращивать[Vegetable].</li>
+    <li>founderJoin(tag=meme_Rancher)     ->Но [founder_born] спаситель, [founderName], весенним утром в простом хлеву средь животных, а родителями [founder_possessive] были [rancherParent1] и [rancherParent2].</li>
+    <li>victory(tag=meme_Rancher)         ->Наконец, [founder_rode] [founderName] к [place_community] на лихом коне, и [founder_challenged] [place_personalWeapon], и [founder_challenged] [foeLeader] на поединок честный в полдень жаркий. Не отказал [foeLeader], ибо потерял бы тогда он доверие [foeSoldiers] своих. И был в тот полдень убит [foeLeader].</li>
+    <li>setup(tag=meme_Rancher)           ->Фермеры повсюду подвергались преследованиям и вынуждены были бежать в сельскую местность, чтобы там построить своё миролюбивое пасторальное сообщество.</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->Верующие расселились по земле и росли числом, живя в безмятежности на своих ранчо и фермах.</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->Там, в полях, приятель, старики поговаривают:</li>
+    <li>lesson(tag=meme_Rancher)              ->мир и пристанище найдёшь ты на пастбище</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->Это то, к чему ты придёшь, приятель, бродя по одиноким луговым тропинкам и слушая посапывание спящих животных в ночи у костра.</li>
+    <li>archistFact(tag=meme_Rancher)     ->Архотеки заботятся о человечестве, как пастухи, а мы для них — самое ценное стадо.</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd] архотеки уйдут, ведя перед собой тех, кто хорошо обращался со своими стадами. Остальные же будут брошены посреди пустыни.</li>
+    <li>animistFact(tag=meme_Rancher)     ->Духи животных — это духи рабов, и они должны нести пользу.</li>
+    <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
+    <li>ranchingAnimal->[Animal]</li>
+    <li>rancherParent1->пастух</li>
+    <li>rancherParent1->кузнец</li>
+    <li>rancherParent1->сыродел</li>
+    <li>rancherParent1->мясник</li>
+    <li>rancherParent2->пастушка</li>
+    <li>rancherParent2->доярка</li>
+    <li>rancherParent2->свинарка</li>
+    <li>deity0_gave(deity0_gender==None)->даровало</li>
+    <li>deity0_gave(deity0_gender==Male)->даровал</li>
+    <li>deity0_gave(deity0_gender==Female)->даровала</li>
+    <li>deity0_created(deity0_gender==None)->создало</li>
+    <li>deity0_created(deity0_gender==Male)->создал</li>
+    <li>deity0_created(deity0_gender==Female)->создала</li>
+    <li>deity0_said(deity0_gender==None)->молвило</li>
+    <li>deity0_said(deity0_gender==Male)->молвил</li>
+    <li>deity0_said(deity0_gender==Female)->молвила</li>
+    <li>founder_born(founder_gender==Male)->родился</li>
+    <li>founder_born(founder_gender==Female)->родилась</li>
+    <li>founder_challenged(founder_gender==Male)->вызвал</li>
+    <li>founder_challenged(founder_gender==Female)->вызвала</li>
+    <li>founder_challenged(founder_gender==Male)->достал</li>
+    <li>founder_challenged(founder_gender==Female)->достала</li>
+    <li>founder_rode(founder_gender==Male)->прискакал</li>
+    <li>founder_rode(founder_gender==Female)->прискакала</li>
+  </Rancher.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->ranch</li>
+    <li>memeAdjective->rural</li>
+    <li>memeAdjective->country</li>
+    <li>memeHyphenPrefix->ranch</li>
+    <li>memeConcept->ranching</li>
+    <li>memeLeaderNoun->rancher</li>
+    <li>memeLeaderNoun->hand</li>
+    <li>memeLeaderNoun->cowboy</li>
+    <li>memeLeaderNoun->herder</li>
+    <li>memeLeaderNoun->sheepdog</li>
+  -->
+  <Rancher.generalRules.rulesStrings>
+    <li>memeAdjective->скотоводческий</li>
+    <li>memeAdjective->деревенский</li>
+    <li>memeAdjective->сельский</li>
+    <li>memeHyphenPrefix->ранче</li>
+    <li>memeConcept->скотоводство</li>
+    <li>memeLeaderNoun->скотовод</li>
+    <li>memeLeaderNoun->ковбой</li>
+    <li>memeLeaderNoun->пастух</li>
+    <li>memeLeaderNoun->чабан</li>
+  </Rancher.generalRules.rulesStrings>
+  <!-- EN: ranch -->
+  <Rancher.symbolPacks.0.adjective>ранчистский</Rancher.symbolPacks.0.adjective>
+  <!-- EN: Ranchism -->
+  <Rancher.symbolPacks.0.ideoName>ранчизм</Rancher.symbolPacks.0.ideoName>
+  <!-- EN: rancher -->
+  <Rancher.symbolPacks.0.member>скотовод</Rancher.symbolPacks.0.member>
+  <!-- EN: ranching -->
+  <Rancher.symbolPacks.0.theme>скотоводство</Rancher.symbolPacks.0.theme>
+  <!-- EN: herdic -->
+  <Rancher.symbolPacks.1.adjective>стадический</Rancher.symbolPacks.1.adjective>
+  <!-- EN: Herdism -->
+  <Rancher.symbolPacks.1.ideoName>стадизм</Rancher.symbolPacks.1.ideoName>
+  <!-- EN: herder -->
+  <Rancher.symbolPacks.1.member>стадист</Rancher.symbolPacks.1.member>
+  <!-- EN: herding -->
+  <Rancher.symbolPacks.1.theme>стадничество</Rancher.symbolPacks.1.theme>
+  <!-- EN: pasturic -->
+  <Rancher.symbolPacks.2.adjective>пасторический</Rancher.symbolPacks.2.adjective>
+  <!-- EN: Pasturism -->
+  <Rancher.symbolPacks.2.ideoName>пасторизм</Rancher.symbolPacks.2.ideoName>
+  <!-- EN: pasturist -->
+  <Rancher.symbolPacks.2.member>пасторист</Rancher.symbolPacks.2.member>
+  <!-- EN: pastures -->
+  <Rancher.symbolPacks.2.theme>пасторство</Rancher.symbolPacks.2.theme>
+  
+  <!-- EN: transhumanist -->
+  <Transhumanist.label>трансгуманизм</Transhumanist.label>
+  <!-- EN: Human progress means merging with technology. -->
+  <Transhumanist.description>Прогресс человечества лежит через слияние с технологией.</Transhumanist.description>
+  <!-- EN:
+    <li>creation(tag=meme_Transhumanist)        ->[deity0_name] granted us the knowledge of technology, that we may use it to improve and remake ourselves in [deity0_possessive] perfect image.</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->Human bio-engineers studied the works of [deity0_name], which pleased [deity0_objective].</li>
+    <li>intro(tag=meme_Transhumanist)           ->On the [place_summary] [place_name], the [memberNamePlural] found the words of [deity0_name] whispering to them through their machines.</li>
+    <li>conflict(tag=meme_Transhumanist)        ->A luddite [foeLeader] envied the enhanced progress of the [memberNamePlural], and [foeLeader_possessive] [foeSoldiers] destroyed their workshops with [place_personalWeapon]s.</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->A cunning [place_job] named [founderName] fashioned a sensor implant to warn the [memberNamePlural] of the approach of the [foeSoldiers].</li>
+    <li>victory(tag=meme_Transhumanist)         ->[founderName] received divine technological knowledge from [deity0_name], and used it to enhance the bodies and minds of the [memberNamePlural] so they could defeat the [foeSoldiers].</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName] was a bio-scientist in the early days of human planetary colonization. Seeing the bureaucratic restrictions of the common colonies, [founder_pronoun] took a small ship to found [founder_possessive] own movement.</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName] assembled a team of great scientists and inventors to re-define humanity.</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->The oldest researcher in my division taught me the history of technology, from neolithic to archotech, but this was not his true lesson. He was really leading me to understand that</li>
+    <li>lesson(tag=meme_Transhumanist)              ->humanity's heavenly future is not a thing of meat and bone, but of silicon and exochrome</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist) ->I even programmed a simulation to confirm it.</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->Humanity's pursuit of technology gave birth to the all-powerful archotechs as the rightful next step in the development of consciousness.</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->Technology allows humans to be more like the archotechs.</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd], the archotechs will depart. Only those who are sufficiently augmented will be allowed to go with them.</li>
+    <li>animistBasis(tag=meme_Transhumanist)    ->The spirit world drives every action in the universe, and it is only by learning and controlling the laws of the universe that we can integrate with it.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Like seeks like - build a device for a purpose and it will filled with a spirit of a like nature.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->When technology is fused with flesh, the spirits of both are combined and become more powerful.</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
+  -->
+  <Transhumanist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Transhumanist)        ->[deity0_granted] [deity0_name] нам знание о технологии, чтобы с её помощью могли мы улучшать и перестраивать себя по совершенным образу и подобию [deity0_possessive].</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->И изучали люди-биоинженеры творение [deity0_name], и [deity0_rejoyced] [deity0_pronoun].</li>
+    <li>intro(tag=meme_Transhumanist)           ->На [place_summary] [place_name] услышали [memberNamePlural] слова [deity0_name], что [deity0_whispered] [deity0_pronoun] через машины их.</li>
+    <li>conflict(tag=meme_Transhumanist)        ->И воззавидовал луддит [foeLeader] прогрессу, что достигли [memberNamePlural], и разрушили [foeSoldiers] [foeLeader_possessive] мастерские их.</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->Но сконструировал изобретательный [place_job] по имени [founderName] имплант сенсорный, чтобы когда рядом [foeSoldiers] оказывались, могли [memberNamePlural] вовремя узнать об этом.</li>
+    <li>victory(tag=meme_Transhumanist)         ->И [founder_received] [founderName] откровение [deity0_name] божественное, и использовал это знание технологическое, чтобы [memberNamePlural] усилили тела и умы свои, и смогли они победить [foeSoldiers].</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName] [founder_was] био-учёным в ранние годы освоения планет человеком. Столкнувшись с бюрократическими препонами в основных колониях, [founder_pronoun] [founder_took] небольшой корабль, чтобы основать своё движение в новом месте.</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName] [founder_assembled] команду великих учёных и изобретателей, чтобы переопределить путь человечества.</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->Старейший исследователь в моём отделе открыл мне историю технологий: от неолитических до архотехнологических, но это не было самым важным его уроком. Он лишь вёл меня к пониманию того, что</li>
+    <li>lesson(tag=meme_Transhumanist)              ->райское будущее человечества будет не из плоти и кости, а из кремния и экзохрома</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist) ->Я даже разработал симуляцию, чтобы подтвердить это.</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->Стремление человечества к изучению новых технологий дало рождение всемогущим архотекам, по праву считающимися следующей ступенью в развитии сознания.</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->Технология позволяет людям стать больше похожими на архотеков.</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd] архотеки уйдут. Лишь тем, кто в достаточной мере аугментирован, будет дозволено пойти с ними.</li>
+    <li>animistBasis(tag=meme_Transhumanist)    ->Мир духов влияет на всё происходящее во вселенной, и лишь изучая и контролируя законы вселенной, мы можем стать единым целым с ней.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Подобное притягивается к подобному: создай устройство для какой-либо цели — и в нём родится дух соответствующей природы.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Когда технология смешивается с плотью, духи и того, и другого становятся единым целым и набирают силу.</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid], что тот, у кого есть [relic0_name], призовёт его дух, что даст человечеству технологию биослияния — апогей научного прогресса.</li>
+    <li>deity0_granted(deity0_gender==None)->даровало</li>
+    <li>deity0_granted(deity0_gender==Male)->даровал</li>
+    <li>deity0_granted(deity0_gender==Female)->даровала</li>
+    <li>deity0_rejoyced(deity0_gender==None)->возрадовалось</li>
+    <li>deity0_rejoyced(deity0_gender==Male)->возрадовался</li>
+    <li>deity0_rejoyced(deity0_gender==Female)->возрадовалась</li>
+    <li>deity0_whispered(deity0_gender==None)->шептало</li>
+    <li>deity0_whispered(deity0_gender==Male)->шептал</li>
+    <li>deity0_whispered(deity0_gender==Female)->шептала</li>
+    <li>founder_received(founder_gender==None)->получило</li>
+    <li>founder_received(founder_gender==Male)->получил</li>
+    <li>founder_received(founder_gender==Female)->получила</li>
+    <li>founder_took(founder_gender==Male)->взял</li>
+    <li>founder_took(founder_gender==Female)->взяла</li>
+    <li>founder_was(founder_gender==Male)->был</li>
+    <li>founder_was(founder_gender==Female)->была</li>
+    <li>founder_assembled(founder_gender==Male)->собрал</li>
+    <li>founder_assembled(founder_gender==Female)->собрала</li>
+  </Transhumanist.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->technological</li>
+    <li>memeAdjective->machine</li>
+    <li>memeAdjective->industrial</li>
+    <li>memeCreed->school</li>
+    <li>memeCreed->academy</li>
+    <li>memeCreed->university</li>
+    <li>memeCreed->philosophy</li>
+    <li>memeHyphenPrefix->techno</li>
+    <li>memeHyphenPrefix->cyber</li>
+    <li>memeHyphenPrefix->haxor</li>
+    <li>memeHyphenPrefix->wire</li>
+    <li>memeConcept->technology</li>
+    <li>memeConcept->silicon</li>
+    <li>memeConcept->artifice</li>
+    <li>memeConcept->augmentation</li>
+    <li>memeConcept->enhancement</li>
+    <li>memeLeaderNoun->haxor</li>
+    <li>memeLeaderNoun->superuser</li>
+    <li>memeLeaderNoun->booster</li>
+    <li>memeLeaderAdjective->techno</li>
+    <li>memeLeaderAdjective->cyber</li>
+    <li>memeMoralist->installer</li>
+    <li>memeMoralist->fixer</li>
+    <li>memeMoralist->uplifter</li>
+    <li>memeMoralist->technologist</li>
+  -->
+  <Transhumanist.generalRules.rulesStrings>
+    <li>memeAdjective->технологический</li>
+    <li>memeAdjective->машинный</li>
+    <li>memeAdjective->индустриальный</li>
+    <li>memeCreed->школа</li>
+    <li>memeCreed->академия</li>
+    <li>memeCreed->университет</li>
+    <li>memeCreed->философия</li>
+    <li>memeHyphenPrefix->техно</li>
+    <li>memeHyphenPrefix->кибер</li>
+    <li>memeHyphenPrefix->хакер</li>
+    <li>memeHyphenPrefix->чипо</li>
+    <li>memeConcept->технологии</li>
+    <li>memeConcept->кремния</li>
+    <li>memeConcept->техникалии</li>
+    <li>memeConcept->биомодификации</li>
+    <li>memeConcept->аугментации</li>
+    <li>memeLeaderNoun->хакер</li>
+    <li>memeLeaderNoun->админ</li>
+    <li>memeLeaderNoun->бустер</li>
+    <li>memeLeaderAdjective->техно</li>
+    <li>memeLeaderAdjective->кибер</li>
+    <li>memeMoralist->инсталлятор</li>
+    <li>memeMoralist->фиксер</li>
+    <li>memeMoralist->аплифтер</li>
+    <li>memeMoralist->технолог</li>
+  </Transhumanist.generalRules.rulesStrings>
+  <!-- EN: technologistic -->
+  <Transhumanist.symbolPacks.0.adjective>технологистический</Transhumanist.symbolPacks.0.adjective>
+  <!-- EN: Technologism -->
+  <Transhumanist.symbolPacks.0.ideoName>технологизм</Transhumanist.symbolPacks.0.ideoName>
+  <!-- EN: technologist -->
+  <Transhumanist.symbolPacks.0.member>технолог</Transhumanist.symbolPacks.0.member>
+  <!-- EN: technology -->
+  <Transhumanist.symbolPacks.0.theme>технология</Transhumanist.symbolPacks.0.theme>
+  <!-- EN: progressist -->
+  <Transhumanist.symbolPacks.1.adjective>прогрессистический</Transhumanist.symbolPacks.1.adjective>
+  <!-- EN: Progressism -->
+  <Transhumanist.symbolPacks.1.ideoName>прогрессизм</Transhumanist.symbolPacks.1.ideoName>
+  <!-- EN: progressor -->
+  <Transhumanist.symbolPacks.1.member>прогрессор</Transhumanist.symbolPacks.1.member>
+  <!-- EN: progress -->
+  <Transhumanist.symbolPacks.1.theme>прогресс</Transhumanist.symbolPacks.1.theme>
+  <!-- EN: machinist -->
+  <Transhumanist.symbolPacks.2.adjective>механистический</Transhumanist.symbolPacks.2.adjective>
+  <!-- EN: Machinism -->
+  <Transhumanist.symbolPacks.2.ideoName>механистизм</Transhumanist.symbolPacks.2.ideoName>
+  <!-- EN: machinist -->
+  <Transhumanist.symbolPacks.2.member>механист</Transhumanist.symbolPacks.2.member>
+  <!-- EN: machinery -->
+  <Transhumanist.symbolPacks.2.theme>механистия</Transhumanist.symbolPacks.2.theme>
+  <!-- EN: steelist -->
+  <Transhumanist.symbolPacks.3.adjective>хромистичесикй</Transhumanist.symbolPacks.3.adjective>
+  <!-- EN: Steelism -->
+  <Transhumanist.symbolPacks.3.ideoName>хромизм</Transhumanist.symbolPacks.3.ideoName>
+  <!-- EN: steeler -->
+  <Transhumanist.symbolPacks.3.member>хромист</Transhumanist.symbolPacks.3.member>
+  <!-- EN: steel -->
+  <Transhumanist.symbolPacks.3.theme>хром</Transhumanist.symbolPacks.3.theme>
+  <!-- EN: automatist -->
+  <Transhumanist.symbolPacks.4.adjective>автоматистический</Transhumanist.symbolPacks.4.adjective>
+  <!-- EN: Automatism -->
+  <Transhumanist.symbolPacks.4.ideoName>автоматизм</Transhumanist.symbolPacks.4.ideoName>
+  <!-- EN: automator -->
+  <Transhumanist.symbolPacks.4.member>автоматор</Transhumanist.symbolPacks.4.member>
+  <!-- EN: automata -->
+  <Transhumanist.symbolPacks.4.theme>автоматизация</Transhumanist.symbolPacks.4.theme>
+  <!-- EN: augmentist -->
+  <Transhumanist.symbolPacks.5.adjective>аугментический</Transhumanist.symbolPacks.5.adjective>
+  <!-- EN: Augmentism -->
+  <Transhumanist.symbolPacks.5.ideoName>аугментизм</Transhumanist.symbolPacks.5.ideoName>
+  <!-- EN: augmentor -->
+  <Transhumanist.symbolPacks.5.member>аугментор</Transhumanist.symbolPacks.5.member>
+  <!-- EN: augmentation -->
+  <Transhumanist.symbolPacks.5.theme>аугментация</Transhumanist.symbolPacks.5.theme>
+  
+  <!-- EN: tree connection -->
+  <TreeConnection.label>древопоклонство</TreeConnection.label>
+  <!-- EN: Trees are the essence of life, and we must be near them. -->
+  <TreeConnection.description>В деревьях суть жизни. Нам нужно быть рядом с ними.</TreeConnection.description>
+  <!-- EN:
+    <li>creation(tag=meme_TreeConnection)        ->[deity0_name] rooted the trees firmly in the ground, yet made them grow steadily towards heaven. This is [deity0_name]'s first lesson on how to know [deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]'s forests renew the air that [deity0_possessive] people breathe, and give the boughs under which they shelter, and is the larder in which they forage.</li>
+    <li>intro(tag=meme_TreeConnection)           ->When the original arborists first came to the [place_summary] [place_name], they created a sacred grove of [TreeType] where they could worship the [deity0_type] [deity0_name].</li>
+    <li>conflict(tag=meme_TreeConnection)        ->A greedy [foeLeader] felled many forests for [foeLeader_possessive] farms and factories, and the [memberNamePlural] wept for the murdered trees.</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->The prophet [founderName] was miraculously born from a tree in [place_name], and discovered by [founder_possessive] parents in the boughs of an old [TreeType] tree.</li>
+    <li>victory(tag=meme_TreeConnection)         ->[founderName] found the [foeLeader] sleeping in the [place_powerCenter], and placed an acorn upon the [foeLeader]'s chest. With [deity0_name]'s fierce power it rooted there, growing through [foeLeader_possessive] body, taking our revenge on the tree-killer.</li>
+    <li>setup(tag=meme_TreeConnection)           ->In a world lacking depth and meaning, [founderName] meditated in a forest, connecting with branch and root and leaf, and founded our movement.</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName] brought the tired to the forest so that they might rest in its shade, and breathe in its air, and be renewed.</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         ->It might seem to you like a joke to say that I learnt this while sitting under a tree. But listening to its whispering leaves, I knew that</li>
+    <li>lesson(tag=meme_TreeConnection)              ->no entity in the universe knows more than the trees</li>
+    <li>lessonReinforcement(tag=meme_TreeConnection) ->Let this seed of truth grow and bear its fruit in your soul.</li>
+    <li>archistBasis(tag=meme_TreeConnection)    ->Trees symbolize the archotechs. Like an ancient oak they dwarf the small acorn from which they grew, and their influence spreads through unseen roots beneath the surface.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->The archotechs developed their psychic abilities after discovering the anima tree.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->The archotechs choose to express themselves through, of all things, a unique kind of tree.</li>
+    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd], the archotechs will grow a great forest. Transcendence will grown within those that enter the forest and eat its fruit. Those that have forgotten the trees will be forgotten by the archotechs.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->The spirits of trees protect those abide beneath their branches.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->The spirits of trees are powerful, as they bridge the power of the air above with that of the ground beneath.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li>
+  -->
+  <TreeConnection.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_TreeConnection)        ->[deity0_rooted] [deity0_name] деревья в землю, но [deity0_made] их постоянно расти к небесам. Так [deity0_name] [deity0_gave] первый урок того, как познать [deity0_possessive].</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->И обновляли леса [deity0_name] воздух, которым [deity0_possessive] люди дышали, и создавали полог из ветвей, под которым [deity0_possessive] люди прятались, и были житницей, где [deity0_possessive] люди находили себе пропитание.</li>
+    <li>intro(tag=meme_TreeConnection)           ->Когда первые [memberNamePlural] пришли на [place_summary] [place_name], они посадили священную рощу, где росло [TreeType], и где они могли бы воздавать хвалу [deity0_type] [deity0_name].</li>
+    <li>conflict(tag=meme_TreeConnection)        ->И вырубил алчный [foeLeader] множество лесов для своих ферм и фабрик, и плакали [memberNamePlural] о деревьях убитых.</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->Но [founder_born] пророк [founderName] чудесным образом в дереве на [place_name], и в ветвях [founder_possessive] нашли родители.</li>
+    <li>victory(tag=meme_TreeConnection)         ->Наконец, [founder_found] [founderName] спящего [foeLeader] на [place_powerCenter], и [founder_placed] жёлудь на грудь ему. И с яростной мощью [deity0_name] пророс жёлудь этот, и пронзил тело [foeLeader] корнями своими, неся месть нашу древоубийце.</li>
+    <li>setup(tag=meme_TreeConnection)           ->В мире, лишённом глубины и смысла, [founderName] [founder_meditated] в лесу, соединясь с ветвью, корнем и листом, и [founder_founded] наше движение.</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName] [founder_brought] уставших людей в лес, чтобы те могли отдохнуть в его тени, подышать свежим воздухом и восстановить свои силы.</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         ->Вы можете подумать, что я шучу, говоря о том, что [founder_learnt] это, сидя под деревом. Но слушая шёпот листьев, я действительно [founder_knew], что</li>
+    <li>lesson(tag=meme_TreeConnection)              ->ни одна сущность во вселенной не знает больше, чем деревья</li>
+    <li>lessonReinforcement(tag=meme_TreeConnection) ->Пусть это зёрнышко истины прорастёт и принесёт свои плоды в твоей душе.</li>
+    <li>archistBasis(tag=meme_TreeConnection)    ->Деревья можно считать символом архотеков. Они подобны древнему дубу в сравнении с маленьким жёлудем, из которого они выросли, а их влияние ширится через корни, невидимые под землёй.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->Архотеки развили свои пси-способности после открытия древ души.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->Архотеки, из всех других способов, выбрали выражать себя через деревья уникальной природы.</li>
+    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd] архотеки вырастят великий лес. Трансцендентность будет взращена лишь в тех, кто войдёт в него и вкусит его плоды. Те же, кто забыл о деревьях, будут забыты и архотеками.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Духи деревьев защищают тех, кто пребывает под их ветвями.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Духи деревьев сильны, ибо они соединяют силу воздуха над собой и силу земли под собой.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Когда дерево падает в лесу, его дух издаёт вопль, который слышат все другие духи.</li>
+    <li>deity0_gave(deity0_gender==None)->дало</li>
+    <li>deity0_gave(deity0_gender==Male)->дал</li>
+    <li>deity0_gave(deity0_gender==Female)->дала</li>
+    <li>deity0_made(deity0_gender==None)->заставило</li>
+    <li>deity0_made(deity0_gender==Male)->заставил</li>
+    <li>deity0_made(deity0_gender==Female)->заставила</li>
+    <li>deity0_rooted(deity0_gender==None)->укоренило</li>
+    <li>deity0_rooted(deity0_gender==Male)->укоренил</li>
+    <li>deity0_rooted(deity0_gender==Female)->укоренила</li>
+    <li>founder_born(founder_gender==Male)->родился</li>
+    <li>founder_born(founder_gender==Female)->родилась</li>
+    <li>founder_placed(founder_gender==Male)->положил</li>
+    <li>founder_placed(founder_gender==Female)->положила</li>
+    <li>founder_found(founder_gender==Male)->нашёл</li>
+    <li>founder_found(founder_gender==Female)->нашла</li>
+    <li>founder_founded(founder_gender==Male)->основал</li>
+    <li>founder_founded(founder_gender==Female)->основала</li>
+    <li>founder_meditated(founder_gender==Male)->медитировал</li>
+    <li>founder_meditated(founder_gender==Female)->медитировала</li>
+    <li>founder_brought(founder_gender==Male)->приводил</li>
+    <li>founder_brought(founder_gender==Female)->приводила</li>
+    <li>founder_knew(founder_gender==Male)->узнал</li>
+    <li>founder_knew(founder_gender==Female)->узнала</li>
+    <li>founder_learnt(founder_gender==Male)->понял</li>
+    <li>founder_learnt(founder_gender==Female)->поняла</li>
+  </TreeConnection.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeCreed->root</li>
+    <li>memeCreed->leaf</li>
+    <li>memeCreed->vine</li>
+    <li>memeCreed->glade</li>
+    <li>memeCreed->forest</li>
+    <li>memeConcept->trees</li>
+    <li>memeConcept->forests</li>
+    <li>memeAdjective->sturdy</li>
+    <li>memeAdjective->barky</li>
+    <li>memeHyphenPrefix->tree</li>
+    <li>memeHyphenPrefix->arbor</li>
+    <li>memeHyphenPrefix->twig</li>
+    <li>memeLeaderNoun->treekeeper</li>
+    <li>memeLeaderNoun->arborist</li>
+    <li>memeLeaderNoun->neodruid</li>
+    <li>memeLeaderAdjective->green</li>
+    <li>memeLeaderAdjective->root</li>
+    <li>memeLeaderAdjective->canopy</li>
+    <li>memeMoralist->treespeaker</li>
+  -->
+  <TreeConnection.generalRules.rulesStrings>
+    <li>memeCreed->корень</li>
+    <li>memeCreed->лист</li>
+    <li>memeCreed->лоза</li>
+    <li>memeCreed->поляна</li>
+    <li>memeCreed->лес</li>
+    <li>memeConcept->деревьев</li>
+    <li>memeConcept->лесов</li>
+    <li>memeAdjective->крепкий</li>
+    <li>memeAdjective->корявый</li>
+    <li>memeHyphenPrefix->древо</li>
+    <li>memeHyphenPrefix->листо</li>
+    <li>memeHyphenPrefix->ветве</li>
+    <li>memeLeaderNoun->древохранитель</li>
+    <li>memeLeaderNoun->лесостраж</li>
+    <li>memeLeaderNoun->неодруид</li>
+    <li>memeLeaderAdjective->зелёный</li>
+    <li>memeLeaderAdjective->дремучий</li>
+    <li>memeLeaderAdjective->тенистый</li>
+    <li>memeMoralist->древоуст</li>
+  </TreeConnection.generalRules.rulesStrings>
+  
 </LanguageData>
