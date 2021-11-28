@@ -1690,4 +1690,116 @@
     <li>memeMoralist->древоуст</li>
   </TreeConnection.generalRules.rulesStrings>
   
+  <!-- EN: tunneler -->
+  <Tunneler.label>подземничество</Tunneler.label>
+  <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
+  <Tunneler.description>Люди должны жить под землёй и пользоваться её щедрыми дарами.</Tunneler.description>
+  <!-- EN:
+    <li>creation(tag=meme_Tunneler)        ->[deity0_name] was born under the earth at the center of the world. [deity0_pronoun] blessed those closest to [deity0_objective] in the deepest valleys and tunnels.</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] filled the rocks with rich minerals and resources as a gift to those wise enough to dig down to be closer to [deity0_name].</li>
+    <li>intro(tag=meme_Tunneler)           ->When the first settlers came to the [place_summary] [place_name], the [deity0_type] [deity0_name] used a brutal solar flare to force them to live underground, so they could hear [deity0_possessive] wisdom in the stillness of the tunnels.</li>
+    <li>conflict(tag=meme_Tunneler)        ->A claustrophobic [foeLeader] proposed using [dangerousMining] to mine for minerals, putting the [memberNamePlural]' underground homes at risk.</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->The prophet [founderName] was miraculously born from the stone of [place_name], and discovered when [founder_possessive] parents broke open a fungus-covered geode.</li>
+    <li>victory(tag=meme_Tunneler)         ->The [memberNamePlural] dug a tunnel under the [foeLeader]'s [place_powerCenter], and [founderName] used pheromones to summon giant insects which overran the [foeLeader]'s [foeSoldiers]. [founderName] dragged the [foeLeader] down to a deep dungeon and imprisoned [foeLeader_objective].</li>
+    <li>dangerousMining->strip mining</li>
+    <li>dangerousMining->microchipped insects</li>
+    <li>dangerousMining->nuclear blasting</li>
+    <li>setup(tag=meme_Tunneler)           ->In a shallow and meaningless world, [founderName] meditated in a deep cave and found meaning, and founded our movement.</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] hid treasures in deep caverns, so that [memberNamePlural] would learn to dig deep for them.</li>
+    <li>lessonIntro(tag=meme_Tunneler)         ->The codex I found in the City of the Deep taught me one lesson above all others:</li>
+    <li>lesson(tag=meme_Tunneler)              ->the sunny outdoors is not a place of human flourishing, but a place of human death</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->So grab a shovel, and start digging with me. It's only a grave if we stop.</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->The bodies of archotechs are deep underground, so their conscious substrate is safe from gamma rays and solar flares. Digging deeper brings people closer to them.</li>
+    <li>archistFact(tag=meme_Tunneler)     ->Archotechs bio-engineered nutrifungus for us so that humanity could thrive underground, close to buried archotech minds.</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd], archotechs will admit us to their subterranean heavens.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->The spirits in bedrock will protect those that visit them.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->The most noble spirits are those of the stone, and the deeper stones are stronger and more good than those above.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
+  -->
+  <Tunneler.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Tunneler)        ->[deity0_born] [deity0_name] под землёй, в центре мира. И [deity0_blessed] [deity0_pronoun] тех, кто был ближе всех к н[deity0_objective] в глубочайших впадинах и тоннелях.</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->И [deity0_filled] [deity0_name] скалы полезными ископаемыми и ресурсами в дар тем, кто был достаточно мудр, чтобы проникнуть вглубь, чтобы стать ближе к н[deity0_objective].</li>
+    <li>intro(tag=meme_Tunneler)           ->Когда первые поселенцы прибыли на [place_summary] [place_name], [deity0_created] [deity0_type] [deity0_name] сильнейшую солнечную вспышку, чтобы заставить их уйти под землю, чтобы они могли услышать мудрость [deity0_possessive] в тишине туннелей.</li>
+    <li>conflict(tag=meme_Tunneler)        ->И решил клаустрофобный [foeLeader] применить [dangerousMining] для получения полезных ископаемых, и этим подверг опасности подземные дома, где жили [memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->Но [founder_born] пророк [founderName] чудесным образом из камня на [place_name], и в покрытой грибком пещере [founder_possessive] нашли родители.</li>
+    <li>victory(tag=meme_Tunneler)         ->Наконец, прокопали [memberNamePlural] туннель под [place_powerCenter], где был [foeLeader], и применил [founderName] феромоны, чтобы призвать гигантских насекомых. И напали они на [foeSoldiers] [foeLeader]. И [founder_dragged] [founderName] [foeLeader] в недра, и [founder_imprisoned] его.</li>
+    <li>dangerousMining->открытую добычу</li>
+    <li>dangerousMining->чипированных насекомых</li>
+    <li>dangerousMining->ядерные заряды</li>
+    <li>setup(tag=meme_Tunneler)           ->В мире, лишённом глубины и смысла, [founderName] [founder_meditated] в глубокой пещере, и [founder_found] своё предназначение, основав наше движение.</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] [founder_hid] сокровища в глубоких пещерах для того, чтобы [memberNamePlural] учились копать глубже, чтобы получить их.</li>
+    <li>lessonIntro(tag=meme_Tunneler)         ->В Кодексе, что я [founder_found] в Глубинном Городе, был один завет, которой оказался важнее всех остальных:</li>
+    <li>lesson(tag=meme_Tunneler)              ->солнечные пространства под открытым небом — место не для процветания людей, а для их смерти</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->Так берите лопаты и копайте вместе со мной. И остановить нас сможет лишь смерть.</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->Тела архотеков погребены глубоко под землёй, чтобы субстрат их сознания не страдал от гамма-лучей и солнечных вспышек. Чем глубже люди проникают под землю, тем ближе они к ним становятся.</li>
+    <li>archistFact(tag=meme_Tunneler)     ->Архотеки при помощи биоинженерии создали съедобный грибок, чтобы люди смогли жить в процветании под землёй, рядом с их погребённым сознанием.</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd] архотеки пустят нас в свой подземный рай.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Духи коренной породы защитят тех, кто обратится к ним.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Самые благородные духи обитают в камне. И чем камень глубже, тем его дух сильнее и добрее.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Беспокойные люди делают беспокойными и духов камня, что в свою очередь привлекает гигантских насекомых.</li>
+    <li>deity0_blessed(deity0_gender==None)->благословило</li>
+    <li>deity0_blessed(deity0_gender==Male)->благословил</li>
+    <li>deity0_blessed(deity0_gender==Female)->благословила</li>
+    <li>deity0_born(deity0_gender==None)->родилось</li>
+    <li>deity0_born(deity0_gender==Male)->родился</li>
+    <li>deity0_born(deity0_gender==Female)->родилась</li>
+    <li>deity0_filled(deity0_gender==None)->наполнило</li>
+    <li>deity0_filled(deity0_gender==Male)->наполнил</li>
+    <li>deity0_filled(deity0_gender==Female)->наполнила</li>
+    <li>deity0_created(deity0_gender==None)->создало</li>
+    <li>deity0_created(deity0_gender==Male)->создал</li>
+    <li>deity0_created(deity0_gender==Female)->создала</li>
+    <li>founder_imprisoned(founder_gender==Male)->заточил</li>
+    <li>founder_imprisoned(founder_gender==Female)->заточила</li>
+    <li>founder_dragged(founder_gender==Male)->утянул</li>
+    <li>founder_dragged(founder_gender==Female)->утянула</li>
+    <li>founder_found(founder_gender==Male)->нашёл</li>
+    <li>founder_found(founder_gender==Female)->нашла</li>
+    <li>founder_hid(founder_gender==Male)->прятал</li>
+    <li>founder_hid(founder_gender==Female)->прятала</li>
+  </Tunneler.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeCreed->cave</li>
+    <li>memeCreed->bunker</li>
+    <li>memeCreed->shaft</li>
+    <li>memeAdjective->deep</li>
+    <li>memeHyphenPrefix->stone</li>
+    <li>memeHyphenPrefix->cave</li>
+    <li>memeHyphenPrefix->deep</li>
+    <li>memeHyphenPrefix->sub</li>
+    <li>memeHyphenPrefix->under</li>
+    <li>memeConcept->earth</li>
+    <li>memeConcept->stone</li>
+    <li>memeConcept->depth</li>
+    <li>memeConcept->burial</li>
+    <li>memeLeaderNoun->foredigger</li>
+    <li>memeLeaderNoun->deepsounder</li>
+    <li>memeLeaderNoun->shaft</li>
+    <li>memeLeaderAdjective->deep</li>
+    <li>memeMoralist->truthdigger</li>
+    <li>memeMoralist->thoughtdigger</li>
+    <li>memeMoralist->mindminer</li>
+  -->
+  <Tunneler.generalRules.rulesStrings>
+    <li>memeCreed->пещера</li>
+    <li>memeCreed->бункер</li>
+    <li>memeCreed->шахта</li>
+    <li>memeAdjective->глубокий</li>
+    <li>memeHyphenPrefix->камне</li>
+    <li>memeHyphenPrefix->пещеро</li>
+    <li>memeHyphenPrefix->глубо</li>
+    <li>memeHyphenPrefix->под</li>
+    <li>memeConcept->земли</li>
+    <li>memeConcept->камня</li>
+    <li>memeConcept->глубины</li>
+    <li>memeConcept->погребения</li>
+    <li>memeLeaderNoun->первокоп</li>
+    <li>memeLeaderNoun->глубоглас</li>
+    <li>memeLeaderNoun->шахтоуст</li>
+    <li>memeLeaderAdjective->глубинный</li>
+    <li>memeMoralist->правдокоп</li>
+    <li>memeMoralist->мудрокоп</li>
+    <li>memeMoralist->недроум</li>
+  </Tunneler.generalRules.rulesStrings>
+  
 </LanguageData>
