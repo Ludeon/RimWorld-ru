@@ -4,18 +4,18 @@
   <!-- EN: Need slave beds -->
   <NeedSlaveBeds>Требуются кровати для рабов</NeedSlaveBeds>
   <!-- EN: You have more slaves than you have slave beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a colonist or prisoner bed to a slave bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
-  <NeedSlaveBedsDesc>Недостаточно кроватей для рабов. Постройте больше кроватей или смените назначение кровати поселенца или заключённого. Если вам не хватает ресурсов, постройте спальное место — его постройка моментальная и не требует ресурсов.</NeedSlaveBedsDesc>
+  <NeedSlaveBedsDesc>Недостаточно кроватей для рабов.\n\nПостройте больше кроватей или смените назначение кровати поселенца или заключённого.\n\nЕсли вам не хватает ресурсов, постройте спальное место — его постройка моментальная и не требует ресурсов.</NeedSlaveBedsDesc>
 
   <!-- EN: Slave unsuppressed -->
   <SlavesUnsuppressedLabel>Раб не подавлен</SlavesUnsuppressedLabel>
   <!-- EN: {0_nameDef}'s suppression level is dangerously low. There is a good chance {0_pronoun} will rebel.\n\nMake sure there is a colonist assigned to warden work. Wardens will suppress slaves periodically to stop them from rebelling. -->
-  <SlavesUnsuppressedDesc>{0_gender ? Раб : Рабыня} {0_nameDef} недостаточно {0_gender ? подавлен : подавлена}. Велик шанс, что {0_pronoun} начнёт бунтовать. Убедитесь, что среди поселенцев есть надзиратель. Надзиратели будут периодически подавлять рабов для предотвращения восстаний.</SlavesUnsuppressedDesc>
+  <SlavesUnsuppressedDesc>{0_gender ? Раб : Рабыня} {0_nameDef} недостаточно {0_gender ? подавлен : подавлена}. Велик шанс, что {0_pronoun} начнёт бунтовать.\n\nУбедитесь, что среди поселенцев есть надзиратель. Надзиратели будут периодически подавлять рабов для предотвращения восстаний.</SlavesUnsuppressedDesc>
   <!-- EN: Slave unattended -->
   <SlaveUnattendedLabel>Раб без надзора</SlaveUnattendedLabel>
   <!-- EN: Slaves unattended -->
   <SlaveUnattendedMultipleLabel>Рабы без надзора</SlaveUnattendedMultipleLabel>
   <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
-  <SlavesUnattendedDesc>За некоторыми рабами не следит ни один трудоспособный поселенец. Рабы, оставленные без надзора, скорее всего поднимут восстание в ближайшие дни или часы.</SlavesUnattendedDesc>
+  <SlavesUnattendedDesc>За некоторыми рабами не следит ни один трудоспособный поселенец.\n\nРабы, оставленные без надзора, скорее всего поднимут восстание в ближайшие дни или часы.</SlavesUnattendedDesc>
 
   <!-- EN: {0} expected -->
   <RitualExpected>Ожидается {0}</RitualExpected>
@@ -47,7 +47,7 @@
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>Помещение, достойное {0}, должно удовлетворять следующим требованиям</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
-  <IdeoBuildingExpectations>ожидания</IdeoBuildingExpectations>
+  <IdeoBuildingExpectations>ожидания —</IdeoBuildingExpectations>
 
   <!-- EN: {0} disrespected -->
   <IdeoBuildingDisrespected>{0} опорочено</IdeoBuildingDisrespected>
@@ -55,7 +55,7 @@
   <IdeoBuildingDisrespectedDesc>Согласно традициям {0}, помещение для {1} должно удовлетворять следующим требованиям:\n{2}\n\nЕсли требования не будут соблюдены, эти последователи расстроятся:\n{3}</IdeoBuildingDisrespectedDesc>
   
   <!-- EN: Raids arriving in {0} -->
-  <QuestPartRaidsDelay>Налеты начнутся через {0}</QuestPartRaidsDelay>
+  <QuestPartRaidsDelay>Налёты начнутся через {0}</QuestPartRaidsDelay>
   <!-- EN: Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data. -->
   <QuestPartRaidsDelayDesc>Налёты начнутся через {0}.\n\nНалётчики будут пытаться уничтожить космический дрон. Защищайте его, чтобы ваши поселенцы могли взломать бортовой компьютер и получить данные.</QuestPartRaidsDelayDesc>
 
@@ -87,7 +87,7 @@
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>Возможность проведения ритуала истекает через {0_numCase ? день : дня : дней} и появляется ежегодно в тот же день.</AlertRitualComingExtra>
   <!-- EN: {0} on {1}, {2} left -->
-  <AlertRitualComingEntry>{1}- дата проведения {0}, осталось {2}.</AlertRitualComingEntry>
+  <AlertRitualComingEntry>{0} проводится {1}, осталось {2}</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
   <AlertAgeReversalDemandNear>Требуется омоложение</AlertAgeReversalDemandNear>
@@ -117,7 +117,7 @@
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>Топливный узел взорвётся через {0}</AlertFuelNodeIgniting>
   <!-- EN: A fuel node has ignited! It will melt down and explode very soon.\n\nGet away and be ready to fight or escape the fires. -->
-  <AlertFuelNodeIgnitingDesc>Топливный узел загорелся! Очень скоро он расплавится и взорвётся. Отойдите подальше и будьте готовы к тушению пожара. </AlertFuelNodeIgnitingDesc>
+  <AlertFuelNodeIgnitingDesc>Топливный узел загорелся! Очень скоро он расплавится и взорвётся.\n\nОтойдите подальше и будьте готовы к тушению пожара. </AlertFuelNodeIgnitingDesc>
 
   <!-- EN: Insects arriving in {0} -->
   <AlertInfestationArriving>Насекомые прибывают через {0}</AlertInfestationArriving>
