@@ -1,6 +1,64 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: role acceptance speech -->
+  <Speech_AcceptRole.label>речь вступления в роль</Speech_AcceptRole.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->[INITIATOR_possessive] new role in the community</li>
+    <li>speechtopic->the responsibility of [INITIATOR_possessive] new role</li>
+    <li>speechtopic->the importance of [INITIATOR_possessive] new role</li>
+    <li>speechtopic->[INITIATOR_possessive] good qualities</li>
+    <li>speechtopic->[INITIATOR_possessive] strengths and how to leverage them</li>
+    <li>speechtopic->[INITIATOR_possessive] shortcomings</li>
+    <li>speechtopic->[INITIATOR_possessive] weaknesses and how to overcome them</li>
+    <li>speechtopic->[INITIATOR_possessive] desire to serve the community</li>
+    <li>speechtopic->[INITIATOR_possessive] dedication to [INITIATOR_possessive] beliefs</li>
+    <li>speechtopic->[INITIATOR_possessive] beliefs about the future</li>
+    <li>speechtopic->[INITIATOR_possessive] wish to serve a greater purpose</li>
+    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic] and how it relates to the role</li>
+    <li>speechtopic->how [INITIATOR_possessive] [PersonalCharacteristic] makes [INITIATOR_objective] suited for the role</li>
+    <li>speechtopic->how [INITIATOR_pronoun] will use [INITIATOR_possessive] [PersonalCharacteristic] to overcome obstacles</li>
+    <li>speechtopic->thankfulness</li>
+    <li>speechtopic->showing gratitude</li>
+    <li>speechtopic->life's purpose</li>
+    <li>speechtopic->the future of the colony</li>
+    <li>speechtopic->improving the colony</li>
+    <li>speechtopic->decision-making under stress</li>
+    <li>speechtopic->the social structure of the community</li>
+    <li>speechtopic->taking responsibility</li>
+    <li>speechtopic->putting a role above [INITIATOR_possessive] personal desires</li>
+  -->
+  <Speech_AcceptRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->своей новой роли в сообществе</li>
+    <li>speechtopic->своих новых обязанностях</li>
+    <li>speechtopic->важности своей новой роли</li>
+    <li>speechtopic->своих положительных качествах</li>
+    <li>speechtopic->своих сильных сторонах и том, как их применять</li>
+    <li>speechtopic->своих недостатках</li>
+    <li>speechtopic->своих слабостях и том, как с ними бороться</li>
+    <li>speechtopic->своём желании принести пользу сообществу</li>
+    <li>speechtopic->своей уверенности в собственных убеждениях</li>
+    <li>speechtopic->планах на будущее</li>
+    <li>speechtopic->своём желании служить великой цели</li>
+    <li>speechtopic->том, как [INITIATOR_pronoun] будет сочетать [hisPersonalCharacteristic_acc] и новую роль</li>
+    <li>speechtopic->том, как новая роль сделает [INITIATOR_possessive] [PersonalCharacteristic] особенно важным достоинством</li>
+    <li>speechtopic->том, как [INITIATOR_pronoun] будет применять [hisPersonalCharacteristic_acc] для преодоления трудностей</li>
+    <li>speechtopic->своей признательности сообществу</li>
+    <li>speechtopic->цели в жизни</li>
+    <li>speechtopic->будущем поселения</li>
+    <li>speechtopic->улучшениях в жизни поселения</li>
+    <li>speechtopic->принятии решений в напряжённых условиях</li>
+    <li>speechtopic->социальной структуре сообщества</li>
+    <li>speechtopic->принятии ответственности на себя</li>
+    <li>speechtopic->главенстве новой роли над [INITIATOR_possessive] личными прихотями</li>
+    <li>hisPersonalCharacteristic_acc->свой [PersonalCharacteristic_masc]</li>
+    <li>hisPersonalCharacteristic_acc->свою [PersonalCharacteristic_fem]</li>
+    <li>hisPersonalCharacteristic_acc->своё [PersonalCharacteristic_neutral]</li>
+    <li>hisPersonalCharacteristic_acc->свои [PersonalCharacteristic_plural]</li>
+  </Speech_AcceptRole.logRulesInitiator.rulesStrings>
+  
   <!-- EN: blinding speech -->
   <Speech_Blinding.label>речь на ритуале ослепления</Speech_Blinding.label>
   <!-- EN:
@@ -273,6 +331,50 @@
     <li>initiator_saw(INITIATOR_gender==Male)->видел</li>
     <li>initiator_saw(INITIATOR_gender==Female)->видела</li>
   </Speech_Leader.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: role removal speech -->
+  <Speech_RemoveRole.label>речь ухода с роли</Speech_RemoveRole.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->[INITIATOR_possessive] past role in the community</li>
+    <li>speechtopic->the responsibility of [INITIATOR_possessive] old role</li>
+    <li>speechtopic->the difficulty of [INITIATOR_possessive] old role</li>
+    <li>speechtopic->[INITIATOR_possessive] shortcomings</li>
+    <li>speechtopic->[INITIATOR_possessive] weaknesses and how to overcome them</li>
+    <li>speechtopic->[INITIATOR_possessive] frustration with the community</li>
+    <li>speechtopic->[INITIATOR_possessive] dedication to [INITIATOR_possessive] beliefs</li>
+    <li>speechtopic->[INITIATOR_possessive] beliefs about the future</li>
+    <li>speechtopic->[INITIATOR_possessive] wish to pursue [INITIATOR_possessive] own goals</li>
+    <li>speechtopic->[INITIATOR_possessive] lack of [PersonalCharacteristic]</li>
+    <li>speechtopic->[INITIATOR_possessive] past</li>
+    <li>speechtopic->showing humbleness</li>
+    <li>speechtopic->life's purpose</li>
+    <li>speechtopic->the future of the colony</li>
+    <li>speechtopic->improving the colony</li>
+    <li>speechtopic->the social structure of the community</li>
+    <li>speechtopic->better candidates</li>
+    <li>speechtopic->putting community goals above [INITIATOR_possessive] personal ambitions</li>
+  -->
+  <Speech_RemoveRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->своей минувшей роли в сообществе</li>
+    <li>speechtopic->своих старых обязанностях</li>
+    <li>speechtopic->трудностях своей старой роли</li>
+    <li>speechtopic->своих недостатках</li>
+    <li>speechtopic->своих слабостях и том, как с ними бороться</li>
+    <li>speechtopic->своём разочаровании в сообществе</li>
+    <li>speechtopic->своей уверенности в собственных убеждениях</li>
+    <li>speechtopic->планах на будущее</li>
+    <li>speechtopic->своём желании сосредоточиться на личных целях</li>
+    <li>speechtopic->своём прошлом</li>
+    <li>speechtopic->демонстрации скромности</li>
+    <li>speechtopic->жизненных стремлениях</li>
+    <li>speechtopic->будущем поселения</li>
+    <li>speechtopic->улучшениях в жизни поселения</li>
+    <li>speechtopic->социальной структуре сообщества</li>
+    <li>speechtopic->своих преемниках</li>
+    <li>speechtopic->главенстве целей поселения над [INITIATOR_possessive] личными прихотями</li>
+  </Speech_RemoveRole.logRulesInitiator.rulesStrings>
   
   <!-- EN: sacrifice speech -->
   <Speech_Sacrifice.label>речь перед жертвоприношением</Speech_Sacrifice.label>
