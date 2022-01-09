@@ -23,8 +23,8 @@
     <li>animistFact(tag=meme_Collectivist)     ->Every spirit is simply an aspect of all the others, and those that try to stand alone are fall quickly.</li>
   -->
   <Collectivist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Collectivist)        ->[deity0_создал] [deity0_name] всех мужчин и женщин по единому великому образу, а тех, кто не соответствовал, [deity0_threw] [deity0_pronoun] в огонь, чтобы истинные верующие живи в гармонии.</li>
-    <li>episode(uses=1,tag=meme_Collectivist)  ->И [deity0_said] [deity0_name] всем: «Ни один из вас не сто́ит выше других. Работайте все вместе, или все вместе погибнете».</li>
+    <li>creation(tag=meme_Collectivist)        ->[deity0_created] [deity0_name] всех мужчин и женщин по единому великому образу, а тех, кто не соответствовал, [deity0_threw] [deity0_pronoun] в огонь, чтобы истинные верующие жили в гармонии.</li>
+    <li>episode(uses=1,tag=meme_Collectivist)  ->И [deity0_said] [deity0_name] всем: «Ни один из вас не стои́т выше других. Работайте все вместе, или все вместе погибнете».</li>
     <li>intro(tag=meme_Collectivist)           ->Работали на [place_summary] [place_name] люди во всеобщей гармонии, и построили они великий [altarName], чтобы воздавать хвалу [deity0_name], [deity0_who] научил их истинной ценности [memeConcept].</li>
     <li>conflict(tag=meme_Collectivist)        ->Но не смог [foeLeader] стать частью общества, и послал [foeSoldiers] своих на [place_community], где жили [memberNamePlural], чтобы посеять вражду между ними.</li>
     <li>founderJoin(tag=meme_Collectivist)     ->И [founder_threw] [place_job] по имени [founderName] прямо в огонь, в знак несогласия с [foeLeader], но [memberNamePlural] спасли [founder_possessive] и сделали своим лидером, ибо [founder_was] [founderName] [founder_devotion] своему сообществу.</li>
@@ -47,6 +47,9 @@
     <li>deity0_who(deity0_gender==None)->которое</li>
     <li>deity0_who(deity0_gender==Male)->который</li>
     <li>deity0_who(deity0_gender==Female)->которая</li>
+    <li>deity0_created(deity0_gender==None)->создало</li>
+    <li>deity0_created(deity0_gender==Male)->создал</li>
+    <li>deity0_created(deity0_gender==Female)->создала</li>
     <li>founder_devotion(founder_gender==Male)->предан</li>
     <li>founder_devotion(founder_gender==Female)->предана</li>
     <li>founder_was(founder_gender==Male)->был</li>
@@ -110,7 +113,7 @@
   <!-- EN: harmonist -->
   <Collectivist.symbolPacks.2.adjective>гармонитический</Collectivist.symbolPacks.2.adjective>
   <!-- EN: harmonist -->
-  <Collectivist.symbolPacks.2.member>гармонитист</Collectivist.symbolPacks.2.member>
+  <Collectivist.symbolPacks.2.member>гармонит</Collectivist.symbolPacks.2.member>
   <!-- EN: harmony -->
   <Collectivist.symbolPacks.2.theme>гармония</Collectivist.symbolPacks.2.theme>
   <!-- EN: oneist -->
@@ -147,7 +150,7 @@
     <li>creation(tag=meme_Individualist)        ->[deity0_fashioned] [deity0_name] каждых мужчину и женщину индивидуально. Каждый является уникальным и драгоценным творением [deity0_possessive] божественной руки.</li>
     <li>episode(uses=1,tag=meme_Individualist)  ->И [deity0_said] [deity0_name] всем: «Каждый из вас — уникальное и священное создание, сотворённое по образу и подобию моему».</li>
     <li>intro(tag=meme_Individualist)           ->Слушали все [memberNamePlural], что [deity0_said] [deity0_name] каждому [revelationAdverb], ведя их на [place_summary] [place_name], где сияли уникальные дары для каждого из них.</li>
-    <li>conflict(tag=meme_Individualist)        ->И потребовал [foeLeader], чтобы все [memberNamePlural] носили униформу и работать у его в [place_community].</li>
+    <li>conflict(tag=meme_Individualist)        ->И потребовал [foeLeader], чтобы все [memberNamePlural] носили униформу и работать у него в [place_community].</li>
     <li>founderJoin(tag=meme_Individualist)     ->Но [founder_blessed благословлён был] [place_job] по имени [founderName], и [deity0_self] [deity0_name] [deity0_gave] [founder_objective] знание чудесное об уникальной силе, что несёт в себе каждый [memberName]. И [founder_pointed] [founderName] каждому, что ему нужно, чтобы стать лучшей версией себя.</li>
     <li>victory(tag=meme_Individualist)         ->Наконец, собрались тайно [memberNamePlural] и даже многие [foeSoldiers]. И, научившись видеть ценность каждого человека, свергли [foeLeader].</li>
     <li>setup(tag=meme_Individualist)           ->Находясь по гнётом далёких властителей, требовавших от всех людей единообразия подчинения, [founderName] [founder_founded] сопротивление и разрушил этот мир насилия до основания, а затем построил новый мир свободы на его месте.</li>
