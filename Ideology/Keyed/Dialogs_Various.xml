@@ -12,11 +12,13 @@
   <DominantStyle>преобладающий стиль</DominantStyle>
   <!-- EN: Date -->
   <Date>Свидание</Date>
+  <!-- EN: The following development points will be awarded depending on the ritual outcome -->
+  <RitualDevelopmentPointRewards>В зависимости от результата ритуала, столько очков развития вы сможете получить.</RitualDevelopmentPointRewards>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>Выберите символическую структуру вашей идеолигии. Это влияет только на символику — не на геймплей.</ChooseStructureMemesInfo>
-  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. Some of these have much more gameplay impact than others. -->
-  <ChooseNormalMemesInfo>Выберите {0}-{1_numCase ? черту : черты : черты}, которые сформируют фундамент вашей идеолигии. Некоторые из них влияют на геймплей сильнее, чем другие.</ChooseNormalMemesInfo>
+  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
+  <ChooseNormalMemesInfo>Выберите {0}-{1_numCase ? черту : черты : черты}, которые сформируют фундамент вашей идеолигии.</ChooseNormalMemesInfo>
   <!-- EN: Choose at least {0} meme. -->
   <NotEnoughMemes>Выберите как минимум {0} черту.</NotEnoughMemes>
   <!-- EN: Choose at most {0} memes. -->
@@ -25,16 +27,41 @@
   <ChooseStructureMeme>Выберите структуру.</ChooseStructureMeme>
   <!-- EN: {0_label} and {1_label} are incompatible. -->
   <IncompatibleMemes>{0_label} и {1_label} несовместимы.</IncompatibleMemes>
+  <!-- EN: Some of these have much more gameplay impact than others. -->
+  <SomeMemesHaveMoreImpact>Некоторые из них влияют на геймплей сильнее, чем другие.</SomeMemesHaveMoreImpact>
+  <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
+  <ChooseNormalMemesFluidIdeoInfo>Выберите черту, определяющую изначальную суть вашей идеолигии. Со временем, в процессе развития, вы сможете добавлять к ней новые черты.</ChooseNormalMemesFluidIdeoInfo>
+  <!-- EN: Choose a meme or remove a meme. -->
+  <ChooseOrRemoveMeme>Выберите или удалите черту.</ChooseOrRemoveMeme>
+  <!-- EN: Reset changes -->
+  <ReformIdeoResetChanges>Сбросить изменения</ReformIdeoResetChanges>
+  <!-- EN: Choose {0} meme. -->
+  <NotEnoughMemesFluidIdeo>Выберите {0_numCase ? черту : черты : черты}.</NotEnoughMemesFluidIdeo>
+
+  <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
+  <ChangesRandomizePrecepts>Нажатие кнопки «{0}» случайно перераспределит все принципы, которые вы поменяли.\n\nПродолжить?</ChangesRandomizePrecepts>
+  <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
+  <ChangesRemovePrecepts>Эти принципы несовместимы с выбранными чертами и будут удалены:\n\n{0}\n\nПродолжить?</ChangesRemovePrecepts>
   
   <!-- EN: Room requirements -->
   <RoomRequirements>Требования к помещению</RoomRequirements>
-  
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
+  <ConfirmChangeMemesForFluidIdeo>Идеолигия, которую вы загружаете, имеет черты, несовместимые с новой изменчивой идеолигией. Их нужно будет выбрать заново (изменчивые идеолигии могут быть основаны только на одной черте со слабым влиянием на игровой процесс).</ConfirmChangeMemesForFluidIdeo>
+  <!-- EN: The following memes are incompatible -->
+  <ConfirmIncompatibleMemes>Эти черты несовместимы</ConfirmIncompatibleMemes>
+  <!-- EN: Would you like to continue? -->
+  <ConfirmChangeMemesForFluidIdeoContinue>Продолжить?</ConfirmChangeMemesForFluidIdeoContinue>
+
   <!-- EN: role -->
   <Role>роль</Role>
   <!-- EN: Assign role -->
   <ChooseRole>Назначить роль</ChooseRole>
+  <!-- EN: Choose new role -->
+  <ChooseNewRole>Назначить новую роль</ChooseNewRole>
   <!-- EN: No role assigned -->
   <NoRoleAssigned>Роли не назначены</NoRoleAssigned>
+  <!-- EN: Remove {0} role -->
+  <RemoveRole>Снять роль: {0}</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
   <ChooseRoleConfirmAssign>Вы собираетесь назначить {PAWN_labelShort} на роль {ROLE_labelDef}</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
