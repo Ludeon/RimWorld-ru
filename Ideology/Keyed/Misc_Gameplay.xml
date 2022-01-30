@@ -370,11 +370,11 @@
   <!-- EN: add {0} -->
   <AddPrecept>добавить {0}</AddPrecept>
   <!-- EN: precept -->
-  <Precept>принцип</Precept>
+  <Precept>принцип</Precept> <!-- Используется только в AddPrecept, где должно стоять в винительном падеже -->
   <!-- EN: building -->
-  <IdeoBuilding>сооружение</IdeoBuilding>
+  <IdeoBuilding>сооружение</IdeoBuilding> <!-- Используется только в AddPrecept, где должно стоять в винительном падеже -->
   <!-- EN: relic -->
-  <IdeoRelic>реликвия</IdeoRelic>
+  <IdeoRelic>реликвию</IdeoRelic> <!-- Используется только в AddPrecept, где должно стоять в винительном падеже -->
   
   <!-- Beggars -->
   <!-- EN: Give {0} to {1_nameDef} -->
@@ -458,11 +458,11 @@
 
   <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
-  <ConnectedPawn>Связано с</ConnectedPawn>
+  <ConnectedPawn>Связующий</ConnectedPawn> <!-- В игре будет выглядеть как "Связующий: Вася Пупкин" или "Связующий: никто" -->
   <!-- EN: Nobody -->
-  <Nobody>Никем</Nobody>
+  <Nobody>Никто</Nobody> <!-- Ключ Nobody определён в оригинальных Keyed-файлах двумя разными значениями. Дубликат находится в Core\Keyed\Misc_Gameplay.xml. Текст перевода копирует значение оттуда, для однозначности -->
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
-  <ConnectedPawnDesc>Человек, с которым связано {TREE_label}. Если связанный человек умрёт, {TREE_label} будет недоступно для связывания в течение {DURATION}.</ConnectedPawnDesc>
+  <ConnectedPawnDesc>Человек, с которым связано {TREE_label}. Если связующий умрёт, {TREE_label} будет недоступно для связывания в течение {DURATION}.</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
   <ConnectionTorn>Связь разорвана. Связывание можно повторить через {0}.</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
