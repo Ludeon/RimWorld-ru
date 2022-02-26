@@ -11,12 +11,14 @@
   <RandomStructureTip>Случайная структура вашей идеолигии.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>Случайный стиль для вашей идеолигии</RandomStyleTip>
-  <!-- EN: Customize -->
-  <Customize>Редактировать</Customize>
-  <!-- EN: Play classic -->
-  <PlayClassic>Играть в классический RimWorld</PlayClassic>
-  <!-- EN: Create fluid... -->
-  <CreateFluid>Создать изменчивую идеолигию...</CreateFluid>
+  <!-- EN: Ideology system inactive -->
+  <PlayClassic>Играть без идеолигий</PlayClassic>
+  <!-- EN: Create custom\n(fluid) -->
+  <CreateCustomFluid>Создать свою\n(изменчивую)</CreateCustomFluid>
+  <!-- EN: Create custom\n(fixed) -->
+  <CreateCustomFixed>Создать свою\n(устоявшуюся)</CreateCustomFixed>
+  <!-- EN: Custom ideoligions -->
+  <CustomIdeoligions>Созданные идеолигии</CustomIdeoligions>
   <!-- EN: Load saved -->
   <LoadSaved>Загрузить</LoadSaved>
   <!-- EN: Structure -->
@@ -93,10 +95,8 @@
   <RequiredPrecepts>Обязательные принципы</RequiredPrecepts>
   <!-- EN: Required rituals -->
   <RequiredRituals>Обязательные ритуалы</RequiredRituals>
-  <!-- EN: Disables precepts -->
-  <DisablesPrecepts>Блокирует принципы</DisablesPrecepts>
-  <!-- EN: Disables {0} precepts. -->
-  <DisablesPreceptsCount>Блокирует {0_numCase ? принцип : принципа : принципов}.</DisablesPreceptsCount>
+  <!-- EN: Prevents precepts -->
+  <PreventsPrecepts>Исключает принципы</PreventsPrecepts> <!-- text_todo -->
   <!-- EN: Styles -->
   <Styles>Стили</Styles>
   <!-- EN: Chance to have precept -->
@@ -171,6 +171,8 @@
   <RitualTargetEmptyGraveInfo>Пустая могила для оплакивания {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>В могиле находится труп {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <!-- EN: A grave containing a corpse. -->
+  <RitualTargetGraveInfoAbstractNoIdeo>В могиле находится труп.</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>Пустая могила для оплакивания {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
@@ -252,7 +254,7 @@
   <RitualAttachedRewardRequiredFaction>Требует фракцию {0}</RitualAttachedRewardRequiredFaction>
   <!-- EN: positive -->
   <RitualAttachedOutcomes_Positive>позитивном</RitualAttachedOutcomes_Positive> <!-- Используется в RitualAttachedApplliesForOutcome -->
-  <!-- EN: negative-->
+  <!-- EN: negative -->
   <RitualAttachedOutcomes_Negative>негативном</RitualAttachedOutcomes_Negative>  <!-- Используется в RitualAttachedApplliesForOutcome -->
   <!-- EN: If the {0} is {1} -->
   <RitualAttachedOutcomesInfo>Если ритуал {0} прошёл {1}</RitualAttachedOutcomesInfo>

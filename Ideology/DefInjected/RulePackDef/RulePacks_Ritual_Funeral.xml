@@ -9,14 +9,13 @@
     <li>r_ritualName->[funeral] of [keyDeity]</li>
     <li>r_ritualName->[funeral] of [memeConcept]</li>
     <li>r_ritualName->[funeral] of [chosenIdeoName]</li>
+    <li>r_ritualName(p=0.01)->funeral</li>
     <li>funeral->funeral</li>
     <li>funeral->mourning</li>
     <li>funeral->eulogy</li>
     <li>funeral->burial</li>
     <li>funeral->interment</li>
-    <li>funeral->inhumation</li>
     <li>funeral->requiem</li>
-    <li>funeral->sepulture</li>
   -->
   <NamerRitualFuneral.rulePack.rulesStrings>
     <li>r_ritualName(p=2)->[memeAdjective] [funeral]</li>
@@ -25,6 +24,7 @@
     <li>r_ritualName->[funeral] [keyDeity]</li>
     <li>r_ritualName->[funeral] [memeConcept]</li>
     <li>r_ritualName->[funeral] [chosenIdeoName]</li>
+    <li>r_ritualName(p=0.01)->[funeral]</li>
     <li>funeral->похороны</li>
     <li>funeral->оплакивание</li>
     <li>funeral->панегирик</li>
