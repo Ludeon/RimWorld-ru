@@ -253,15 +253,15 @@
   <!-- EN: Requires {0} faction -->
   <RitualAttachedRewardRequiredFaction>Требует фракцию {0}</RitualAttachedRewardRequiredFaction>
   <!-- EN: positive -->
-  <RitualAttachedOutcomes_Positive>позитивном</RitualAttachedOutcomes_Positive> <!-- Используется в RitualAttachedApplliesForOutcome -->
+  <RitualAttachedOutcomes_Positive>позитивном</RitualAttachedOutcomes_Positive> <!-- Используется в RitualAttachedApplliesForOutcomes -->
   <!-- EN: negative -->
-  <RitualAttachedOutcomes_Negative>негативном</RitualAttachedOutcomes_Negative>  <!-- Используется в RitualAttachedApplliesForOutcome -->
+  <RitualAttachedOutcomes_Negative>негативном</RitualAttachedOutcomes_Negative>  <!-- Используется в RitualAttachedApplliesForOutcomes -->
   <!-- EN: If the {0} is {1} -->
   <RitualAttachedOutcomesInfo>Если ритуал {0} прошёл {1}</RitualAttachedOutcomesInfo>
   <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcome>При любом {0} исходе</RitualAttachedApplliesForOutcome>
+  <RitualAttachedApplliesForOutcome>При исходе «{0}»</RitualAttachedApplliesForOutcome> <!-- Вместо {0} будет RitualOutcomeEffectDef.outcomeChances.*.label -->
   <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcomes>При любом {0} исходе</RitualAttachedApplliesForOutcomes>
+  <RitualAttachedApplliesForOutcomes>При любом {0} исходе</RitualAttachedApplliesForOutcomes> <!-- Вместо {0} будет RitualAttachedOutcomes_Positive или RitualAttachedOutcomes_Negative -->
   <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
   <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>Шум от {0} привлёк любопытных животных!\n\nОни, видимо, привычны к людям, и потому прибиваются к вашему поселению.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
