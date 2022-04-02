@@ -3,7 +3,7 @@
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: ate without table -->
-  <AteWithoutTable.stages.ate_without_table.label>{PAWN_gender ? ел : ела} на земле</AteWithoutTable.stages.ate_without_table.label>
+  <AteWithoutTable.stages.ate_without_table.label>{PAWN_gender ? Ел : Ела} на земле</AteWithoutTable.stages.ate_without_table.label>
   <!-- EN: I had to eat a meal off the ground. Can't we get a table around here? -->
   <AteWithoutTable.stages.ate_without_table.description>Мне пришлось есть прямо на земле. Может, всё-таки поставим тут стол?</AteWithoutTable.stages.ate_without_table.description>
   
@@ -15,13 +15,13 @@
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: I butchered humanlike -->
-  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>{PAWN_gender ? разделал : разделала} человека</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
+  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>{PAWN_gender ? Разделал : Разделала} человека</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
   <!-- EN: I butchered someone up like an animal. -->
   <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Я {PAWN_gender ? пустил : пустила} человека на мясо. Словно это было животное.</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: butchered humanlike corpse -->
-  <ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>{OTHERPAWN_gender ? разделал : разделала} человека</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
+  <ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>{OTHERPAWN_gender ? Разделал : Разделала} человека</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: catharsis -->
@@ -49,13 +49,13 @@
   
   <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: defeated hostile leader {0} -->
-  <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>{PAWN_gender ? убил : убила} вражеского лидера, {0}</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
+  <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>{PAWN_gender ? Убил : Убила} вражеского лидера, {0}</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
   <!-- EN: They were leading efforts to destroy us, and I took them down! -->
   <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>Они пытались уничтожить нас, но они не знали, что им придётся иметь дело со мной!</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
   
   <!-- Thought_Tale, ThoughtWorker_Tale. Label: {PAWN}, {OTHERPAWN?} -->
   <!-- EN: defeated hostile leader -->
-  <DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>{OTHERPAWN_gender ? убил : убила} вражеского лидера</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
+  <DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>{OTHERPAWN_gender ? Убил : Убила} вражеского лидера</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: defeated mech cluster -->
@@ -77,7 +77,7 @@
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: freed from slavery -->
-  <FreedFromSlavery.stages.freed_from_slavery.label>{PAWN_gender ? освобождён : освобождена} из рабства</FreedFromSlavery.stages.freed_from_slavery.label>
+  <FreedFromSlavery.stages.freed_from_slavery.label>{PAWN_gender ? Освобождён : Освобождена} из рабства</FreedFromSlavery.stages.freed_from_slavery.label>
   <!-- EN: I have been freed from slavery. I'm so thankful! -->
   <FreedFromSlavery.stages.freed_from_slavery.description>Меня освободили из рабства! Я так {PAWN_gender ? благодарен : благодарна}!</FreedFromSlavery.stages.freed_from_slavery.description>
   
@@ -89,7 +89,7 @@
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: killed someone -->
-  <KilledHumanlikeBloodlust.stages.killed_someone.label>{PAWN_gender ? убил : убила} человека</KilledHumanlikeBloodlust.stages.killed_someone.label>
+  <KilledHumanlikeBloodlust.stages.killed_someone.label>{PAWN_gender ? Убил : Убила} человека</KilledHumanlikeBloodlust.stages.killed_someone.label>
   <!-- EN: I killed someone! What a rush! -->
   <KilledHumanlikeBloodlust.stages.killed_someone.description>Я {PAWN_gender ? убил : убила} человека! Вот это ощущение!</KilledHumanlikeBloodlust.stages.killed_someone.description>
   
@@ -149,19 +149,19 @@
   
   <!-- Thought_MemoryObservation, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: observed corpse -->
-  <ObservedLayingCorpse.stages.observed_corpse.label>{PAWN_gender ? увидел : увидела} труп</ObservedLayingCorpse.stages.observed_corpse.label>
+  <ObservedLayingCorpse.stages.observed_corpse.label>{PAWN_gender ? Увидел : Увидела} труп</ObservedLayingCorpse.stages.observed_corpse.label>
   <!-- EN: I saw a dead body laying on the ground. It was disturbing. -->
   <ObservedLayingCorpse.stages.observed_corpse.description>Труп человека, лежащий на земле, — не самое приятное зрелище.</ObservedLayingCorpse.stages.observed_corpse.description>
   
   <!-- Thought_MemoryObservation, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: observed rotting corpse -->
-  <ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>{PAWN_gender ? увидел : увидела} гниющий труп</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>
+  <ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>{PAWN_gender ? Увидел : Увидела} гниющий труп</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>
   <!-- EN: I saw a rotting corpse laying on the ground. It was disgusting. -->
   <ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>Я {PAWN_gender ? увидел : увидела} гниющий труп... Отвратительно.</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: on duty -->
-  <OnDuty.stages.on_duty.label>{PAWN_gender ? занят : занята} делом</OnDuty.stages.on_duty.label>
+  <OnDuty.stages.on_duty.label>{PAWN_gender ? Занят : Занята} делом</OnDuty.stages.on_duty.label>
   <!-- EN: I have a job to do. -->
   <OnDuty.stages.on_duty.description>У меня есть работа.</OnDuty.stages.on_duty.description>
   
@@ -179,7 +179,7 @@
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: rescued -->
-  <Rescued.stages.rescued.label>{PAWN_gender ? спасён : спасена}</Rescued.stages.rescued.label>
+  <Rescued.stages.rescued.label>{PAWN_gender ? Спасён : Спасена}</Rescued.stages.rescued.label>
   <!-- EN: I was rescued! I almost thought I was done for back there. I'm so thankful. -->
   <Rescued.stages.rescued.description>Я в безопасности! А мне уже начало казаться, что меня бросят. Спасибо всем, кто меня спас!</Rescued.stages.rescued.description>
   
@@ -197,31 +197,31 @@
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: slept in the cold -->
-  <SleptInCold.stages.slept_in_the_cold.label>{PAWN_gender ? спал : спала} на холоде</SleptInCold.stages.slept_in_the_cold.label>
+  <SleptInCold.stages.slept_in_the_cold.label>{PAWN_gender ? Спал : Спала} на холоде</SleptInCold.stages.slept_in_the_cold.label>
   <!-- EN: I had to sleep in the cold. We really need some heaters. -->
   <SleptInCold.stages.slept_in_the_cold.description>Мне пришлось спать на холоде. Нам нужны обогреватели.</SleptInCold.stages.slept_in_the_cold.description>
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: slept in the heat -->
-  <SleptInHeat.stages.slept_in_the_heat.label>{PAWN_gender ? спал : спала} на жаре</SleptInHeat.stages.slept_in_the_heat.label>
+  <SleptInHeat.stages.slept_in_the_heat.label>{PAWN_gender ? Спал : Спала} на жаре</SleptInHeat.stages.slept_in_the_heat.label>
   <!-- EN: I had to sleep in unbearable heat. Can't we have air conditioning? -->
   <SleptInHeat.stages.slept_in_the_heat.description>Мне пришлось спать в непереносимую жару. Может, мы поставим кондиционер?</SleptInHeat.stages.slept_in_the_heat.description>
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: slept on ground -->
-  <SleptOnGround.stages.slept_on_ground.label>{PAWN_gender ? спал : спала} на земле</SleptOnGround.stages.slept_on_ground.label>
+  <SleptOnGround.stages.slept_on_ground.label>{PAWN_gender ? Спал : Спала} на земле</SleptOnGround.stages.slept_on_ground.label>
   <!-- EN: I had to sleep on the ground like an animal. -->
   <SleptOnGround.stages.slept_on_ground.description>Мне пришлось спать на земле, будто животному.</SleptOnGround.stages.slept_on_ground.description>
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: slept outside -->
-  <SleptOutside.stages.slept_outside.label>{PAWN_gender ? спал : спала} на улице</SleptOutside.stages.slept_outside.label>
+  <SleptOutside.stages.slept_outside.label>{PAWN_gender ? Спал : Спала} на улице</SleptOutside.stages.slept_outside.label>
   <!-- EN: I had to sleep outdoors without any protection from the elements. -->
   <SleptOutside.stages.slept_outside.description>Мне пришлось спать на открытом воздухе, безо всякой защиты от непогоды.</SleptOutside.stages.slept_outside.description>
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: soaking wet -->
-  <SoakingWet.stages.soaking_wet.label>{PAWN_gender ? вымок : вымокла}</SoakingWet.stages.soaking_wet.label>
+  <SoakingWet.stages.soaking_wet.label>{PAWN_gender ? Вымок : Вымокла}</SoakingWet.stages.soaking_wet.label>
   <!-- EN: I'm soaking wet. -->
   <SoakingWet.stages.soaking_wet.description>С меня стекает вода. Надо обсохнуть.</SoakingWet.stages.soaking_wet.description>
   
@@ -237,31 +237,31 @@
   
   <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: was imprisoned -->
-  <WasImprisoned.stages.was_imprisoned.label>{PAWN_gender ? сидел : сидела} в тюрьме</WasImprisoned.stages.was_imprisoned.label>
+  <WasImprisoned.stages.was_imprisoned.label>{PAWN_gender ? Сидел : Сидела} в тюрьме</WasImprisoned.stages.was_imprisoned.label>
   <!-- EN: The colony had me in jail for a while, like a caged animal. -->
   <WasImprisoned.stages.was_imprisoned.description>Меня бросили в тюрьму, будто зверушку в клетку.</WasImprisoned.stages.was_imprisoned.description>
   
   <!-- Thought_Memory, null. Label: PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: witnessed ally's death -->
-  <WitnessedDeathAlly.stages.witnessed_allys_death.label>{PAWN_gender ? увидел : увидела} смерть союзника</WitnessedDeathAlly.stages.witnessed_allys_death.label>
+  <WitnessedDeathAlly.stages.witnessed_allys_death.label>{PAWN_gender ? Увидел : Увидела} смерть союзника</WitnessedDeathAlly.stages.witnessed_allys_death.label>
   <!-- EN: I saw one of my people die. They were alive one moment, and dead the next. -->
   <WitnessedDeathAlly.stages.witnessed_allys_death.description>Один из наших погиб. Ещё мгновение назад он был жив, а сейчас уже мёртв.</WitnessedDeathAlly.stages.witnessed_allys_death.description>
   
   <!-- Thought_Memory, null. Label: PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: witnessed death with bloodlust -->
-  <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>{PAWN_gender ? увидел : увидела} смерть</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>
+  <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>{PAWN_gender ? Увидел : Увидела} смерть</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>
   <!-- EN: I saw someone die! That was intense! -->
   <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>Я {PAWN_gender ? увидел : увидела} смерть человека — вот это зрелище!</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>
   
   <!-- Thought_Memory, null. Label: PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: witnessed family member's death -->
-  <WitnessedDeathFamily.stages.witnessed_family_members_death.label>{PAWN_gender ? увидел : увидела} смерть члена семьи</WitnessedDeathFamily.stages.witnessed_family_members_death.label>
+  <WitnessedDeathFamily.stages.witnessed_family_members_death.label>{PAWN_gender ? Увидел : Увидела} смерть члена семьи</WitnessedDeathFamily.stages.witnessed_family_members_death.label>
   <!-- EN: I saw a member of my family die. My own flesh and blood... -->
   <WitnessedDeathFamily.stages.witnessed_family_members_death.description>У меня на глазах погиб один из членов моей семьи. Моя кровь и плоть...</WitnessedDeathFamily.stages.witnessed_family_members_death.description>
   
   <!-- Thought_Memory, null. Label: PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
   <!-- EN: witnessed outsider's death -->
-  <WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>{PAWN_gender ? увидел : увидела} смерть чужака</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>
+  <WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>{PAWN_gender ? Увидел : Увидела} смерть чужака</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>
   <!-- EN: I saw someone die. They were alive one moment, and dead the next. -->
   <WitnessedDeathNonAlly.stages.witnessed_outsiders_death.description>Этот человек погиб. Только что он был жив, а через секунду уже мёртв.</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.description>
   
