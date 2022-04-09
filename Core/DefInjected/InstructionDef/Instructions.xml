@@ -24,6 +24,8 @@
   <BuildBeds.rejectInputMessage>Пожалуйста, постройте деревянные кровати внутри этого помещения.</BuildBeds.rejectInputMessage>
   <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building. -->
   <BuildBeds.text>Поселенцы скоро построят помещение!\n\nНо им требуется отдых и сон. Разместите три кровати внутри помещения.\n\nНайдите их в разделе «Мебель». Для поворота постройки используйте клавиши {Key:Designator_RotateLeft} и {Key:Designator_RotateRight}.</BuildBeds.text>
+  <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can rotate the building by pressing the rotate buttons on the left. -->
+  <BuildBeds.textController>Поселенцы скоро построят помещение!\n\nНо им требуется отдых и сон. Разместите три кровати внутри помещения.\n\nНайдите их в разделе «Мебель». Для поворота постройки используйте поворотные кнопки слева.</BuildBeds.textController>
   
   <!-- EN: Build a fueled stove inside the room -->
   <BuildFueledStove.onMapInstruction>Постройте топливную плиту внутри этого помещения</BuildFueledStove.onMapInstruction>
@@ -108,13 +110,17 @@
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
   <EndStockpileDesignating.text>Щёлкните правой кнопкой мыши для выхода из режима проектирования.</EndStockpileDesignating.text>
+  <!-- EN: Press L2 to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.textController>Нажмите кнопку L2 для выхода из режима проектирования.</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
   <EquipWeapons.onMapInstruction>Возьмите это оружие</EquipWeapons.onMapInstruction>
   <!-- EN: Please have your colonists equip weapons. -->
   <EquipWeapons.rejectInputMessage>Пожалуйста, экипируйте своих поселенцев оружием.</EquipWeapons.rejectInputMessage>
   <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
-  <EquipWeapons.text>Снабдите поселенцев подходящим оружием. Для этого:\n\n1. Выберите поселенца.\n2. Щёлкните правой кнопкой мыши по оружию.\n3. Выберите «Взять оружие» в контекстном меню.\n\nПовторите так для каждого поселенца.</EquipWeapons.text>
+  <EquipWeapons.text>Снабдите поселенцев подходящим оружием. Для этого:\n\n1. Выберите поселенца.\n2. Щёлкните правой кнопкой мыши по оружию.\n3. Выберите «Взять оружие» в контекстном меню.\n\nПовторите то же самое для каждого поселенца.</EquipWeapons.text>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press L2.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.textController>Снабдите поселенцев подходящим оружием. Для этого:\n\n1. Выберите поселенца.\n2. Наведите указатель на оружие и нажмите L2.\n3. Выберите «Взять оружие» в контекстном меню.\n\nПовторите то же самое для каждого поселенца.</EquipWeapons.textController>
   
   <!-- EN: Please expand the build roof area a bit, just for practice. -->
   <ExpandAreaBuildRoof.rejectInputMessage>Пожалуйста, попрактикуйтесь в расширении области крыши.</ExpandAreaBuildRoof.rejectInputMessage>
@@ -147,9 +153,13 @@
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
   <MapCameraDolly.text>Итак, вы на поверхности!\n\nПопробуйте переместить камеру.\n\nИспользуйте клавиши {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} или зажмите среднюю кнопку мыши и перемещайте камеру.\n\nПопробуйте!</MapCameraDolly.text>
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now! -->
+  <MapCameraDolly.textController>Итак, вы на поверхности!\n\nПеремещайте камеру левым стиком.\n\nПопробуйте!</MapCameraDolly.textController>
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
   <MapCameraZoom.text>Отлично!\n\nУвеличивайте и уменьшайте масштаб с помощью колёсика мыши или клавишами {Key:MapZoom_In} и {Key:MapZoom_Out}.\n\nПопробуйте!</MapCameraZoom.text>
+  <!-- EN: Great!\n\nYou can also zoom in and out with the bumpers.\n\nTry it now! -->
+  <MapCameraZoom.textController>Отлично!\n\nУвеличивайте и уменьшайте масштаб с помощью шифтов.\n\nПопробуйте!</MapCameraZoom.textController>
   
   <!-- EN: Designate all this\nfor mining -->
   <MineSteel.onMapInstruction>Пометьте это\nдля добычи</MineSteel.onMapInstruction>
@@ -170,6 +180,8 @@
   
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
   <Pause.text>Теперь приостановите время.\n\nИграйте без спешки. Делайте паузу, когда хотите, и раздавайте необходимые приказы поселенцам.\n\nПопробуйте поставить игру на паузу с помощью клавиши {Key:TogglePause} или кнопок управления временем в нижней правой части экрана.</Pause.text>
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the Y button, or by using the time controls in the bottom right. -->
+  <Pause.textController>Теперь приостановите время.\n\nИграйте без спешки. Делайте паузу, когда хотите, и раздавайте необходимые приказы поселенцам.\n\nПопробуйте поставить игру на паузу с помощью кнопки Y или кнопок управления временем в нижней правой части экрана.</Pause.textController>
   
   <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
   <RandomizeCharacter.rejectInputMessage>Пожалуйста, попробуйте сначала создать персонажа со случайными характеристиками.</RandomizeCharacter.rejectInputMessage>
@@ -192,9 +204,13 @@
   <SetToGrowRice.rejectInputMessage>Пожалуйста, выберите рис для посева.</SetToGrowRice.rejectInputMessage>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
   <SetToGrowRice.text>Решите, что поселенцы посадят в размеченной области.\n\n1. Щелчком правой кнопкой мыши выйдите из режима проектирования.\n2. Щёлкните по полю для выделения.\n3. Выберите в списке культур рис.</SetToGrowRice.text>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press L2 to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.textController>Решите, что поселенцы посадят в размеченной области.\n\n1. Нажатием кнопки L2 выйдите из режима проектирования.\n2. Щёлкните по полю для выделения.\n3. Выберите в списке культур рис.</SetToGrowRice.textController>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>Ускорьте время.\n\nПопробуйте доступные режимы с помощью клавиш {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast} и {Key:TimeSpeed_Superfast} или кнопок управления временем в нижней правой части экрана.</TimeControls.text>
+  <!-- EN: You can also speed up time.\n\nTry controlling time with the back buttons, or with the time controls in the bottom right. -->
+  <TimeControls.textController>Ускорьте время.\n\nПопробуйте доступные режимы с помощью задних кнопок контроллера или кнопок управления временем в нижней правой части экрана.</TimeControls.textController>
   
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>Пожалуйста, распустите поселенцев.</UndraftAll.rejectInputMessage>
