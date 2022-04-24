@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: target -->
-  <BlindingCeremony.roles.0.label>цель</BlindingCeremony.roles.0.label>
+  <BlindingCeremony.roles.0.label>ослепляемый</BlindingCeremony.roles.0.label> <!-- Мужской род, для совместимости с MessageRitualRoleMustBeHumanlike и MessageRitualRoleMustHaveEyes -->
   <!-- EN: the person to blind -->
   <BlindingCeremony.roles.0.missingDesc>тот, кого будут ослеплять</BlindingCeremony.roles.0.missingDesc>
   <!-- EN: cutter -->
@@ -10,7 +10,7 @@
   <!-- EN: the person who performs the blinding -->
   <BlindingCeremony.roles.1.missingDesc>тот, кто будет ослеплять</BlindingCeremony.roles.1.missingDesc>
   <!-- EN: Target is not reachable. -->
-  <BlindingCeremony.stages.0.failTriggers.0.desc>Цель недоступна.</BlindingCeremony.stages.0.failTriggers.0.desc>
+  <BlindingCeremony.stages.0.failTriggers.0.desc>Ослепляемый недоступен.</BlindingCeremony.stages.0.failTriggers.0.desc>
   
   <!-- EN: participate -->
   <BurnCircle.spectatorGerund>участвовать</BurnCircle.spectatorGerund>
@@ -70,7 +70,7 @@
   <!-- EN: an executioner -->
   <Execution.roles.0.missingDesc>тот, кто проводит казнь</Execution.roles.0.missingDesc>
   <!-- EN: prisoner -->
-  <Execution.roles.1.label>пленник</Execution.roles.1.label>
+  <Execution.roles.1.label>жертва</Execution.roles.1.label> <!-- Женский род, чтобы было совместимо с MessageRitualRoleMustBePrisoner -->
   <!-- EN: a prisoner -->
   <Execution.roles.1.missingDesc>тот, кого будут казнить</Execution.roles.1.missingDesc>
   <!-- EN: Spectators must be willing to watch the execution. -->
@@ -162,7 +162,7 @@
   <SacrificePrisoner.stages.0.failTriggers.0.desc>Пленник недоступен.</SacrificePrisoner.stages.0.failTriggers.0.desc>
   
   <!-- EN: target -->
-  <ScarificationCeremony.roles.0.label>цель</ScarificationCeremony.roles.0.label>
+  <ScarificationCeremony.roles.0.label>шрамируемый</ScarificationCeremony.roles.0.label> <!-- Мужской род, для совместимости с MessageRitualRoleMustBeHumanlike -->
   <!-- EN: the person to scarify -->
   <ScarificationCeremony.roles.0.missingDesc>тот, кто подвергнется шрамированию</ScarificationCeremony.roles.0.missingDesc>
   <!-- EN: cutter -->
@@ -170,7 +170,7 @@
   <!-- EN: the person who performs the scarification -->
   <ScarificationCeremony.roles.1.missingDesc>тот, кто будет проводить шрамирование</ScarificationCeremony.roles.1.missingDesc>
   <!-- EN: Target is not reachable. -->
-  <ScarificationCeremony.stages.0.failTriggers.0.desc>Цель недоступна.</ScarificationCeremony.stages.0.failTriggers.0.desc>
+  <ScarificationCeremony.stages.0.failTriggers.0.desc>Шрамируемый недоступен.</ScarificationCeremony.stages.0.failTriggers.0.desc>
   
   <!-- EN: participate -->
   <SmokeCircle.spectatorGerund>участвовать</SmokeCircle.spectatorGerund>

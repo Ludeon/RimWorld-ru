@@ -682,23 +682,23 @@
   <!-- EN: {0_labelShort} must hold one of these roles -->
   <MessageRitualRoleRequired>{0_labelShort} {0_gender ? должен : должна} быть в одной из следующих ролей</MessageRitualRoleRequired>
   <!-- EN: {0} must be a prisoner. -->
-  <MessageRitualRoleMustBePrisoner>{0} {0_gender ? должен быть пленником : должна быть пленницей}.</MessageRitualRoleMustBePrisoner>
+  <MessageRitualRoleMustBePrisoner>{0} должна быть пленником.</MessageRitualRoleMustBePrisoner> <!-- Будут вставлены label'ы из Ritual_Behaviors.xml: SacrificePrisoner.sacrifice, Execution.prisoner -->
   <!-- EN: {0} must be an animal. -->
-  <MessageRitualRoleMustBeAnimal>{0} {0_gender ? должен : должна} быть животным.</MessageRitualRoleMustBeAnimal>
+  <MessageRitualRoleMustBeAnimal>{0} должна быть животным.</MessageRitualRoleMustBeAnimal> <!-- Будет вставлен label из Ritual_Behaviors.xml: SacrificeAnimal.sacrifice -->
   <!-- EN: {0} must be a human. -->
-  <MessageRitualRoleMustBeHumanlike>{0} {0_gender ? должен : должна} быть человеком.</MessageRitualRoleMustBeHumanlike>
+  <MessageRitualRoleMustBeHumanlike>{0} должен быть человеком.</MessageRitualRoleMustBeHumanlike> <!-- Будут вставлены label'ы из Ritual_Behaviors.xml: GladiatorDuel."duelist escort", BlindingCeremony.target, ScarificationCeremony.target, Conversion.convertee, Execution.executioner. Или "Spectators" из Misc_Gameplay.xml -->
   <!-- EN: No roles available for {0_labelShort}. -->
   <MessageRitualNoRolesAvailable>Нет доступных ролей для {0_labelShort}.</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
   <MessageRitualNotOfPlayerIdeo>{0_labelShort} не является последователем ни одной из идеолигий поселения.</MessageRitualNotOfPlayerIdeo>
   <!-- EN: {0} must have eyes -->
-  <MessageRitualRoleMustHaveEyes>{0} {0_gender ? должен : должна} иметь глаза.</MessageRitualRoleMustHaveEyes>
+  <MessageRitualRoleMustHaveEyes>{0} должен иметь глаза</MessageRitualRoleMustHaveEyes> <!-- Будет вставлен label из Ritual_Behaviors.xml: BlindingCeremony.target -->
   <!-- EN: {0_labelShort} does not require further scarification. -->
   <MessageRitualRoleMustRequireScarification>{0_labelShort} более не нуждается в шрамировании.</MessageRitualRoleMustRequireScarification>
   <!-- EN: {0} must be a prisoner or slave. -->
-  <MessageRitualRoleMustBePrisonerOrSlave>{0} {0_gender ? должен : должна} быть пленником или рабом.</MessageRitualRoleMustBePrisonerOrSlave>
+  <MessageRitualRoleMustBePrisonerOrSlave>{0} должен быть пленником или рабом.</MessageRitualRoleMustBePrisonerOrSlave> <!-- Будет вставлен label из Ritual_Behaviors.xml: GladiatorDuel.duelist -->
   <!-- EN: {0_labelShort} must be capable of fighting. -->
-  <MessageRitualRoleMustBeCapableOfFighting>{0} {0_gender ? должен быть способен : должна быть способна} сражаться.</MessageRitualRoleMustBeCapableOfFighting>
+  <MessageRitualRoleMustBeCapableOfFighting>{0} должен быть способен сражаться.</MessageRitualRoleMustBeCapableOfFighting> <!-- Будет вставлен label из Ritual_Behaviors.xml: GladiatorDuel.duelist -->
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>эту роль не сможет взять на себя кто-либо ещё.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
@@ -708,7 +708,7 @@
   <!-- EN: {0_labelShort} must be capable of wardening. -->
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} {0_gender ? должен быть способен : должна быть способна} надзирать.</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->
-  <MessageRitualRoleMustBeCapableOfGeneric>{0} {0_gender ? должен быть способен : должна быть способна} {1}.</MessageRitualRoleMustBeCapableOfGeneric>
+  <MessageRitualRoleMustBeCapableOfGeneric>{0} должен быть способен {1}.</MessageRitualRoleMustBeCapableOfGeneric> <!-- Будет вставлен label из Ritual_Behaviors.xml: GladiatorDuel."duelist escort" -->
   <!-- EN: prisoners cannot {0}. -->
   <MessageRitualRoleMustNotBePrisonerToSpectate>пленники не могут {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
   <!-- EN: only {0} can {1}. -->
@@ -718,7 +718,7 @@
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>До роли «{0}» допускаются только поселенцы.</MessageRitualRoleMustBeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
-  <MessageRitualRoleMustHaveLargerBodySize>{0} {0_gender ? должен : должна} быть животным с размером тела не меньше {1}.</MessageRitualRoleMustHaveLargerBodySize>
+  <MessageRitualRoleMustHaveLargerBodySize>{0} должна быть животным с размером тела не меньше {1}.</MessageRitualRoleMustHaveLargerBodySize> <!-- Будет вставлен label из Ritual_Behaviors.xml: SacrificeAnimal.sacrifice -->
   <!-- EN: {0_labelShort} is in a mental state. -->
   <MessageRitualPawnMentalState>{0_labelShort} в состоянии нервного срыва.</MessageRitualPawnMentalState>
   <!-- EN: {0_labelShort} is already {1}. -->
@@ -726,7 +726,7 @@
   <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
   <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} может быть только наблюдателем.</MessageRitualCannotAssignAnyRoleFromSpectating>
   <!-- EN: {0} cannot be an imprisoned wild man/woman. -->
-  <MessageRitualRoleMustNotBeImprisonedWildMan>{0} не может быть пленённым дикарём или дикаркой.</MessageRitualRoleMustNotBeImprisonedWildMan>
+  <MessageRitualRoleMustNotBeImprisonedWildMan>{0} не может быть пленённым дикарём или дикаркой.</MessageRitualRoleMustNotBeImprisonedWildMan> <!-- Будет вставлен label из Ritual_Behaviors.xml: GladiatorDuel.duelist -->
   <!-- EN: {0} must be free. -->
   <MessageRitualRoleMustNotBeImprisoned>{0} {0_gender ? должен быть свободным : должна быть свободной}.</MessageRitualRoleMustNotBeImprisoned>
 
