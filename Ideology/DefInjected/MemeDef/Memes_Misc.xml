@@ -1329,7 +1329,7 @@
     <li>intro(tag=meme_Rancher)           ->Первые из тех, кто разводил [ranchingAnimal] на [place_summary] [place_name], построили великий [altarName] [deity0_name].</li>
     <li>conflict(tag=meme_Rancher)        ->И презрел могущественный [foeLeader] всех [memberNamePlural] и их пути, и скупил все луга, чтобы выращивать[Vegetable].</li>
     <li>founderJoin(tag=meme_Rancher)     ->Но [founder_born] спаситель, [founderName], весенним утром в простом хлеву средь животных, а родителями [founder_possessive] были [rancherParent1] и [rancherParent2].</li>
-    <li>victory(tag=meme_Rancher)         ->Наконец, [founder_rode] [founderName] к [place_community] на лихом коне, и [founder_challenged] [place_personalWeapon], и [founder_challenged] [foeLeader] на поединок честный в полдень жаркий. Не отказал [foeLeader], ибо потерял бы тогда он доверие [foeSoldiers] своих. И был в тот полдень убит [foeLeader].</li>
+    <li>victory(tag=meme_Rancher)         ->Наконец, [founder_rode] [founderName] к [place_community] на лихом коне, и [founder_sheathed] [place_personalWeapon], и [founder_challenged] [foeLeader] на поединок честный в полдень жаркий. Не отказал [foeLeader], ибо потерял бы тогда он доверие [foeSoldiers] своих. И был в полдень тот убит [foeLeader].</li>
     <li>setup(tag=meme_Rancher)           ->Фермеры повсюду подвергались преследованиям и вынуждены были бежать в сельскую местность, чтобы там построить своё миролюбивое пасторальное сообщество.</li>
     <li>story(uses=1,tag=meme_Rancher)    ->Верующие расселились по земле и росли числом, живя в безмятежности на своих ранчо и фермах.</li>
     <li>lessonIntro(tag=meme_Rancher)         ->Там, в полях, приятель, старики поговаривают:</li>
@@ -1360,8 +1360,8 @@
     <li>founder_born(founder_gender==Female)->родилась</li>
     <li>founder_challenged(founder_gender==Male)->вызвал</li>
     <li>founder_challenged(founder_gender==Female)->вызвала</li>
-    <li>founder_challenged(founder_gender==Male)->достал</li>
-    <li>founder_challenged(founder_gender==Female)->достала</li>
+    <li>founder_sheathed(founder_gender==Male)->достал</li>
+    <li>founder_sheathed(founder_gender==Female)->достала</li>
     <li>founder_rode(founder_gender==Male)->прискакал</li>
     <li>founder_rode(founder_gender==Female)->прискакала</li>
   </Rancher.descriptionMaker.rules.rulesStrings>
