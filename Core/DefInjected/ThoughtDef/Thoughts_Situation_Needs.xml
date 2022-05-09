@@ -99,31 +99,31 @@
   
   <!-- Thought_Situational, ThoughtWorker_NeedFood. Label: {PAWN}. Description: {PAWN} -->
   <!-- EN: hungry -->
-  <NeedFood.stages.hungry.label>недоедание</NeedFood.stages.hungry.label>
+  <NeedFood.stages.hungry.label>недоедает</NeedFood.stages.hungry.label>
   <!-- EN: I'm really hungry. -->
   <NeedFood.stages.hungry.description>Пора бы чего-нибудь поесть.</NeedFood.stages.hungry.description>
   <!-- EN: ravenously hungry -->
-  <NeedFood.stages.ravenously_hungry.label>сильное недоедание</NeedFood.stages.ravenously_hungry.label>
+  <NeedFood.stages.ravenously_hungry.label>сильно недоедает</NeedFood.stages.ravenously_hungry.label>
   <!-- EN: These hunger pangs are hard to ignore. -->
   <NeedFood.stages.ravenously_hungry.description>На этот голод сложно не обращать внимания.</NeedFood.stages.ravenously_hungry.description>
   <!-- EN: malnourished -->
-  <NeedFood.stages.malnourished.label>незначительное голодание</NeedFood.stages.malnourished.label>
+  <NeedFood.stages.malnourished.label>незначительно голодает</NeedFood.stages.malnourished.label>
   <!-- EN: It's been so long since I ate. I'm all fuzzy and it's hard to focus. My body is starting to waste away. -->
   <NeedFood.stages.malnourished.description>Нельзя так долго не есть! Перед глазами плывёт, не могу ни на чём сосредоточиться. Кажется, я начинаю терять силы.</NeedFood.stages.malnourished.description>
   <!-- EN: badly malnourished -->
-  <NeedFood.stages.badly_malnourished.label>лёгкое голодание</NeedFood.stages.badly_malnourished.label>
+  <NeedFood.stages.badly_malnourished.label>слегка голодает</NeedFood.stages.badly_malnourished.label>
   <!-- EN: I can feel my body wasting away. My stomach hurts like never before. -->
   <NeedFood.stages.badly_malnourished.description>Я чувствую, что теряю силы. У меня никогда так сильно не болел живот...</NeedFood.stages.badly_malnourished.description>
   <!-- EN: starving -->
-  <NeedFood.stages.starving.label>среднее голодание</NeedFood.stages.starving.label>
+  <NeedFood.stages.starving.label>средне голодает</NeedFood.stages.starving.label>
   <!-- EN: I can barely think about anything but food. My skin is stretching over my bones. Am I going to die? -->
   <NeedFood.stages.starving.description>Я не могу думать ни о чем, кроме еды. Сквозь кожу уже кости видны. Я умру?</NeedFood.stages.starving.description>
   <!-- EN: advanced starvation -->
-  <NeedFood.stages.advanced_starvation.label>сильное голодание</NeedFood.stages.advanced_starvation.label>
+  <NeedFood.stages.advanced_starvation.label>сильно голодает</NeedFood.stages.advanced_starvation.label>
   <!-- EN: I can barely move or think about anything but food. My stomach hurts like never before. I feel like I'm going to pass out. -->
   <NeedFood.stages.advanced_starvation.description>Я еле двигаюсь, все мысли только о еде. Ещё никогда так сильно не болел живот. Такое ощущение, что я скоро протяну ноги...</NeedFood.stages.advanced_starvation.description>
   <!-- EN: extreme starvation -->
-  <NeedFood.stages.extreme_starvation.label>экстремальное голодание</NeedFood.stages.extreme_starvation.label>
+  <NeedFood.stages.extreme_starvation.label>экстремально голодает</NeedFood.stages.extreme_starvation.label>
   <!-- EN: Food... food... anything... please... -->
   <NeedFood.stages.extreme_starvation.description>Еда... еедаа... хоть что-нибудь... что угодно... пожалуйста...</NeedFood.stages.extreme_starvation.description>
   
@@ -151,15 +151,15 @@
   
   <!-- Thought_Situational, ThoughtWorker_NeedJoy. Label: {PAWN}. Description: {PAWN} -->
   <!-- EN: recreation-starved -->
-  <NeedJoy.stages.recreationstarved.label>крайнее недовольство</NeedJoy.stages.recreationstarved.label>
+  <NeedJoy.stages.recreationstarved.label>крайне {PAWN_gender ? недоволен : недовольна}</NeedJoy.stages.recreationstarved.label>
   <!-- EN: It's been so long since I did anything for fun on my own time. -->
   <NeedJoy.stages.recreationstarved.description>Работа, работа... Когда же наконец можно будет расслабиться?!</NeedJoy.stages.recreationstarved.description>
   <!-- EN: recreation-deprived -->
-  <NeedJoy.stages.recreationdeprived.label>сильное недовольство</NeedJoy.stages.recreationdeprived.label>
+  <NeedJoy.stages.recreationdeprived.label>сильно {PAWN_gender ? недоволен : недовольна}</NeedJoy.stages.recreationdeprived.label>
   <!-- EN: We need more variation in recreation activities, and I need time to enjoy them. This place is really dull. -->
   <NeedJoy.stages.recreationdeprived.description>Мне нужно больше разных видов досуга, больше свободного времени и поменьше унылой работы!</NeedJoy.stages.recreationdeprived.description>
   <!-- EN: recreation unfulfilled -->
-  <NeedJoy.stages.recreation_unfulfilled.label>лёгкое недовольство</NeedJoy.stages.recreation_unfulfilled.label>
+  <NeedJoy.stages.recreation_unfulfilled.label>слегка {PAWN_gender ? недоволен : недовольна}</NeedJoy.stages.recreation_unfulfilled.label>
   <!-- EN: We need more variation in the recreation activities, and I need time to enjoy them. -->
   <NeedJoy.stages.recreation_unfulfilled.description>Мне нужно больше возможностей поднять себе настроение и больше свободного времени.</NeedJoy.stages.recreation_unfulfilled.description>
   <!-- EN: recreation satisfied -->
@@ -173,11 +173,11 @@
   
   <!-- Thought_Situational, ThoughtWorker_NeedOutdoors. Label: {PAWN}. Description: {PAWN} -->
   <!-- EN: entombed underground -->
-  <NeedOutdoors.stages.entombed_underground.label>погребение под землёй</NeedOutdoors.stages.entombed_underground.label>
+  <NeedOutdoors.stages.entombed_underground.label>{PAWN_gender ? Погребён : Погребена} под землёй</NeedOutdoors.stages.entombed_underground.label>
   <!-- EN: I've been underground too long. I feel like the weight of this mountain is crushing me. I need to see the sky and feel the wind. -->
   <NeedOutdoors.stages.entombed_underground.description>Я уже не помню, что такое солнечный свет. Эта гора давит на меня всей своей массой! Ещё чуть-чуть, и у меня крыша поедет!</NeedOutdoors.stages.entombed_underground.description>
   <!-- EN: trapped underground -->
-  <NeedOutdoors.stages.trapped_underground.label>заточение под землёй</NeedOutdoors.stages.trapped_underground.label>
+  <NeedOutdoors.stages.trapped_underground.label>{PAWN_gender ? Заточён : Заточена} под землёй</NeedOutdoors.stages.trapped_underground.label>
   <!-- EN: How long have I been underground? I need to get out in the fresh air and spend some time under the sky. -->
   <NeedOutdoors.stages.trapped_underground.description>Сколько времени я уже под землёй? Месяц? Год? Надо срочно выбраться наружу, хоть глазком взглянуть на небо!</NeedOutdoors.stages.trapped_underground.description>
   <!-- EN: cabin fever -->
@@ -195,15 +195,15 @@
   
   <!-- Thought_Situational, ThoughtWorker_NeedRest. Label: {PAWN}. Description: {PAWN} -->
   <!-- EN: drowsy -->
-  <NeedRest.stages.drowsy.label>усталость</NeedRest.stages.drowsy.label>
+  <NeedRest.stages.drowsy.label>{PAWN_gender ? Устал : Устала}</NeedRest.stages.drowsy.label>
   <!-- EN: I haven't slept in a while. It's hard to keep focus. -->
   <NeedRest.stages.drowsy.description>Сейчас бы вздремнуть.</NeedRest.stages.drowsy.description>
   <!-- EN: tired -->
-  <NeedRest.stages.tired.label>сильная усталость</NeedRest.stages.tired.label>
+  <NeedRest.stages.tired.label>сильно {PAWN_gender ? устал : устала}</NeedRest.stages.tired.label>
   <!-- EN: I'm so tired. I just want to lay down and rest for a few minutes... -->
   <NeedRest.stages.tired.description>Чем дальше, тем тяжелее. Нужно отдохнуть.</NeedRest.stages.tired.description>
   <!-- EN: exhausted -->
-  <NeedRest.stages.exhausted.label>бессилие</NeedRest.stages.exhausted.label>
+  <NeedRest.stages.exhausted.label>{PAWN_gender ? Обессилел : Обессилела}</NeedRest.stages.exhausted.label>
   <!-- EN: I'm so exhausted I can barely stand. My eyelids have lead weights on them. Let me sleep... -->
   <NeedRest.stages.exhausted.description>Я еле держусь на ногах... Глаза слипаются... Дайте мне поспать...</NeedRest.stages.exhausted.description>
   
