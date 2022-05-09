@@ -80,11 +80,26 @@
     <li>memeMoralist->atoner</li>
   -->
   <Guilty.generalRules.rulesStrings>
-    <li>memeAdjective->низкий</li>
-    <li>memeAdjective->недостойный</li>
-    <li>memeAdjective->постыдный</li>
-    <li>memeAdjective->позорный</li>
-    <li>memeAdjective->кающийся</li>
+    <li>memeAdjective_masc->низкий</li>
+    <li>memeAdjective_masc->недостойный</li>
+    <li>memeAdjective_masc->постыдный</li>
+    <li>memeAdjective_masc->позорный</li>
+    <li>memeAdjective_masc->кающийся</li>
+    <li>memeAdjective_fem->низкая</li>
+    <li>memeAdjective_fem->недостойная</li>
+    <li>memeAdjective_fem->постыдная</li>
+    <li>memeAdjective_fem->позорная</li>
+    <li>memeAdjective_fem->кающаяся</li>
+    <li>memeAdjective_neutral->низкое</li>
+    <li>memeAdjective_neutral->недостойное</li>
+    <li>memeAdjective_neutral->постыдное</li>
+    <li>memeAdjective_neutral->позорное</li>
+    <li>memeAdjective_neutral->кающееся</li>
+    <li>memeAdjective_plural->низкие</li>
+    <li>memeAdjective_plural->недостойные</li>
+    <li>memeAdjective_plural->постыдные</li>
+    <li>memeAdjective_plural->позорные</li>
+    <li>memeAdjective_plural->кающиеся</li>
     <li>memeHyphenPrefix->недо</li>
     <li>memeConcept->греха</li>
     <li>memeConcept->раскаяния</li>
@@ -155,9 +170,9 @@
   <Loyalist.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Loyalist)        ->[deity0_name] [deity_ordered] честному народу сражаться только против тех, кто сражается не за правое дело.</li>
     <li>episode(uses=1,tag=meme_Loyalist)  ->Началась война с неверующими. [believer_one] из верующих, [believer_nameFull], ища собственную выгоду, [believer_lead] дикарей на землю [deity0_name]. И [deity_rage] [deity0_name] в ярость от такого предательства и [deity_struck] на н[believer_possessive] кару 10 тысяч раз.</li>
-    <li>intro(tag=meme_Loyalist)           ->[memeAdjective] община на [place_summary] [place_name] поклонялась [deity0_name] в [deity0_possessive] [altarRoomLabel], и были они непоколебимы в своей вере.</li>
+    <li>intro(tag=meme_Loyalist)           ->[memeAdjective_fem] община на [place_summary] [place_name] поклонялась [deity0_name] в [deity0_possessive] [altarRoomLabel], и были они непоколебимы в своей вере.</li>
     <li>conflict(tag=meme_Loyalist)        ->[foeLeader] заслал [foeSoldiers] как шпионов в ряды [memberNamePlural], дабы разделить их.</li>
-    <li>founderJoin(tag=meme_Loyalist)     ->[founderName], [memeAdjective] [place_job], [founder_suffered] пыткам от [foeSoldiers], но [founder_refused] клясться в верности [foeLeader].</li>
+    <li>founderJoin(tag=meme_Loyalist)     ->[founderName], [memeAdjective_masc] [place_job], [founder_suffered] пыткам от [foeSoldiers], но [founder_refused] клясться в верности [foeLeader].</li>
     <li>victory(tag=meme_Loyalist)         ->С силой, дарованной [deity0_name], [founderName] и [memberNamePlural] были неразделимы. Они одолели [foeSoldiers] с помощью [place_personalWeapon] и изгнали [foeLeader] с [place_name].</li>
     <li>setup(tag=meme_Loyalist)           ->С самого начала движение [founderName] притеснялось правительством и другими конфессиями. Но [founder_pronoun] никогда не [founder_allowed] гневу взять над собой верх и никогда не [founder_commited] злодейств, которые себе позволяли другие, но и от сражений никогда не [founder_ran].</li>
     <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] [founder_punished] всех, кто хотел навредить неверующим, как и тех, кто приглашал их в свой дом.</li>
@@ -206,9 +221,18 @@
     <li>memeMoralist->loyalizer</li>
   -->
   <Loyalist.generalRules.rulesStrings>
-    <li>memeAdjective->верный</li>
-    <li>memeAdjective->патриотичный</li>
-    <li>memeAdjective->преданный</li>
+    <li>memeAdjective_masc->верный</li>
+    <li>memeAdjective_masc->патриотичный</li>
+    <li>memeAdjective_masc->преданный</li>
+    <li>memeAdjective_fem->верная</li>
+    <li>memeAdjective_fem->патриотичная</li>
+    <li>memeAdjective_fem->преданная</li>
+    <li>memeAdjective_neutral->верное</li>
+    <li>memeAdjective_neutral->патриотичное</li>
+    <li>memeAdjective_neutral->преданное</li>
+    <li>memeAdjective_plural->верные</li>
+    <li>memeAdjective_plural->патриотичные</li>
+    <li>memeAdjective_plural->преданные</li>
     <li>memeConcept->семьи</li>
     <li>memeConcept->клятвы</li>
     <li>memeMoralist->лоялизатор</li>
@@ -337,13 +361,34 @@
     <li>memeLeaderNoun->victor</li>
   -->
   <Supremacist.generalRules.rulesStrings>
-    <li>memeAdjective->высший</li>
-    <li>memeAdjective->верховный</li>
-    <li>memeAdjective->великий</li>
-    <li>memeAdjective->главный</li>
-    <li>memeAdjective->идеальный</li>
-    <li>memeAdjective->первый</li>
-    <li>memeAdjective->сильный</li>
+    <li>memeAdjective_masc->высший</li>
+    <li>memeAdjective_masc->верховный</li>
+    <li>memeAdjective_masc->великий</li>
+    <li>memeAdjective_masc->главный</li>
+    <li>memeAdjective_masc->идеальный</li>
+    <li>memeAdjective_masc->первый</li>
+    <li>memeAdjective_masc->сильный</li>
+    <li>memeAdjective_fem->высшая</li>
+    <li>memeAdjective_fem->верховная</li>
+    <li>memeAdjective_fem->великая</li>
+    <li>memeAdjective_fem->главная</li>
+    <li>memeAdjective_fem->идеальная</li>
+    <li>memeAdjective_fem->первая</li>
+    <li>memeAdjective_fem->сильная</li>
+    <li>memeAdjective_neutral->высшее</li>
+    <li>memeAdjective_neutral->верховное</li>
+    <li>memeAdjective_neutral->великое</li>
+    <li>memeAdjective_neutral->главное</li>
+    <li>memeAdjective_neutral->идеальное</li>
+    <li>memeAdjective_neutral->первое</li>
+    <li>memeAdjective_neutral->сильное</li>
+    <li>memeAdjective_plural->высшие</li>
+    <li>memeAdjective_plural->верховные</li>
+    <li>memeAdjective_plural->великие</li>
+    <li>memeAdjective_plural->главные</li>
+    <li>memeAdjective_plural->идеальные</li>
+    <li>memeAdjective_plural->первые</li>
+    <li>memeAdjective_plural->сильные</li>
     <li>memeCreed->армия</li>
     <li>memeCreed->легион</li>
     <li>memeHyphenPrefix->супер</li>
