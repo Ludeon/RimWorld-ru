@@ -120,21 +120,21 @@
     <li>r_logentry(recipient_part_destroyed_count!=0)->[WEAPON_projectile_label] [INITIATOR_definite] [skillAdv] [destroyed] [destroyed_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0,p=2)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] и [destroyed] [destroyed_targets] у [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0,p=2)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_participle] [destroyed_targets] у [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count!=0)->[destroyed_targets] [RECIPIENT_definite] [destroyed]ся попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count!=0)->[destroyed_targets] [RECIPIENT_definite] [destroyed]ся [destroyed_suffix] попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count!=0)->[destroyed_targets] [RECIPIENT_definite] [destroyed]ся попаданием {lookup: [WEAPON_projectile_label]; Case; 1} [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count!=0)->[destroyed_targets] [RECIPIENT_definite] [destroyed]ся [destroyed_suffix] попаданием {lookup: [WEAPON_projectile_label]; Case; 1} [INITIATOR_definite].</li>
     <!-- various damaged options; don't show if something was destroyed -->
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0)->[WEAPON_projectile_label] [INITIATOR_definite] [damaged] [damaged_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0)->[WEAPON_projectile_label] [INITIATOR_definite] [skillAdv] [damaged] [damaged_targets] [RECIPIENT_definite] [destroyed_suffix].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0,p=2)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] и [damaged] [damaged_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0,p=2)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_participle] [damaged_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0)->[damaged_targets] [RECIPIENT_definite] [damaged]ся попаданием [WEAPON_projectile_label] [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0)->[damaged_targets] [RECIPIENT_definite] [damaged]ся попаданием {lookup: [WEAPON_projectile_label]; Case; 1} [INITIATOR_definite].</li>
     <!-- damaged/destroyed hybrid -->
     <li>r_logentry(recipient_part_destroyed_count!=0,recipient_part_damaged_count!=0,p=3)->[WEAPON_projectile_label] [INITIATOR_definite] [destroyed] [destroyed_targets] [RECIPIENT_definite] и [damaged] [RECIPIENT_possessive] [damaged_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0,recipient_part_damaged_count!=0,p=6)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_participle] [destroyed_targets] [RECIPIENT_definite] и [damaged_participle] [RECIPIENT_possessive] [damaged_targets].</li>
     <!-- don't mention damage or destruction; uncommon, but intended as a fallback -->
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] попадает в [RECIPIENT_definite] своим [WEAPON_projectile_label].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] попадает в [RECIPIENT_definite] своим {lookup: [WEAPON_projectile_label]; Case; 4}.</li>
     <li>r_logentry(p=0.2)->[WEAPON_projectile_label] [INITIATOR_definite] попадает в [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] своим [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] и попадает в [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] своим {lookup: [WEAPON_projectile_label]; Case; 4} [missed] [ORIGINALTARGET_definite] и попадает в [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.4)->[WEAPON_projectile_label] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] и попадает в [RECIPIENT_definite].</li>
     <!-- fallback, also a little variety -->
     <li>weapon_projectile_label(p=0.05)->выстрел</li>
@@ -219,7 +219,7 @@
     <li>r_logentry(p=0.2)->[WEAPON_projectile_label] [INITIATOR_definite] попадает в [damaged_target_possessive_opt] вместо [ORIGINALTARGET_definite], [deflected_adverb].</li>
     <li>weapon_projectile_label(p=0.05)->выстрел</li>
     <li>damaged_target_possessive_opt->[RECIPIENT_definite]</li>
-    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->[recipient_part_damaged0_label] [RECIPIENT_definite]</li>
+    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->{lookup: [recipient_part_damaged0_label]; Case; 3} [RECIPIENT_definite]</li>
     <li>deflected_consequence_projectile->но лишь [scraped] [RECIPIENT_possessive] броню</li>
     <li>deflected_consequence_projectile->но лишь [ricochet] от [RECIPIENT_possessive] брони</li>
     <li>deflected_consequence_projectile->но лишь оставляет [scratch] на [RECIPIENT_possessive] броне</li>
@@ -266,12 +266,12 @@
   -->
   <Combat_RangedFire.rulePack.rulesStrings>
     <!-- Includes: Combat_SkillIncludes -->
-    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] из [INITIATOR_possessive] [WEAPON_label].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] в [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] из [INITIATOR_possessive] {lookup: [WEAPON_label]; Case; 1}.</li>
+    <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] {lookup: [WEAPON_label]; Case; 3} в [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [aburst] [shot_a] [WEAPON_projectile_label] в [RECIPIENT_definite].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [aburst] [shot_a] {lookup: [WEAPON_projectile_label]; Case; 3} в [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] {lookup: [WEAPON_projectile_label]; Case; 3}.</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [INITIATOR_possessive] {lookup: [WEAPON_label]; Case; 3}.</li>
     <li>shot_a->[skillAdv] [shot_a_verb]</li>
     <li>shot_a(p=2)->[shot_a_verb]</li>
     <li>shot(p=2)->[shot_verb]</li>
@@ -318,10 +318,10 @@
     <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [WEAPON_projectile_label] в [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [threw] [WEAPON_projectile_label] в [RECIPIENT_definite].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [INITIATOR_possessive] [WEAPON_projectile_label].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [WEAPON_projectile_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] {lookup: [WEAPON_projectile_label]; Case; 3} в [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [threw] {lookup: [WEAPON_projectile_label]; Case; 3} в [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [INITIATOR_possessive] {lookup: [WEAPON_projectile_label]; Case; 3}.</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] {lookup: [WEAPON_projectile_label]; Case; 3}.</li>
     <li>threw(p=2)->[threwverb]</li>
     <li>threw->[threwadverb] [threwverb]</li>
     <li>threw->[skillAdv] [threwverb]</li>

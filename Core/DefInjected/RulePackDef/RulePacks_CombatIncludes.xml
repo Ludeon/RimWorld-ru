@@ -153,10 +153,10 @@
     <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [TOOL_label] [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
-    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
-    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] и [recipient_part1_label]</li>
-    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label] и [recipient_part2_label]</li>
-    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label] и [recipient_part3_label]</li>
+    <li>targetlist(recipient_part_count==1)->{lookup: [recipient_part0_label]; Case; 3}</li>
+    <li>targetlist(recipient_part_count==2)->{lookup: [recipient_part0_label]; Case; 3} и {lookup: [recipient_part1_label]; Case; 3}</li>
+    <li>targetlist(recipient_part_count==3)->{lookup: [recipient_part0_label]; Case; 3}, {lookup: [recipient_part1_label]; Case; 3} и {lookup: [recipient_part2_label]; Case; 3}</li>
+    <li>targetlist->{lookup: [recipient_part0_label]; Case; 3}, {lookup: [recipient_part1_label]; Case; 3}, {lookup: [recipient_part2_label]; Case; 3} и {lookup: [recipient_part3_label]; Case; 3}</li>
     <li>damaged_participle->раня</li>
     <li>damaged_participle->поражая</li>
     <li>damaged_participle->повреждая</li>
@@ -357,17 +357,17 @@
   -->
   <Combat_WoundIncludes.rulePack.rulesStrings>
     <li>destroyed_targets(recipient_part_destroyed_count==0)->ничего</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] и [recipient_part_destroyed1_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label] и [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->{lookup: [recipient_part_destroyed0_label]; Case; 3}</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->{lookup: [recipient_part_destroyed0_label]; Case; 3} и {lookup: [recipient_part_destroyed1_label]; Case; 3}</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->{lookup: [recipient_part_destroyed0_label]; Case; 3}, {lookup: [recipient_part_destroyed1_label]; Case; 3} и {lookup: [recipient_part_destroyed2_label]; Case; 3}</li>
     <!-- fallback for 4+ -->
-    <li>destroyed_targets(recipient_part_destroyed_count!=0,recipient_part_destroyed_count!=1,recipient_part_destroyed_count!=2,recipient_part_destroyed_count!=3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label] и [recipient_part_destroyed3_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count!=0,recipient_part_destroyed_count!=1,recipient_part_destroyed_count!=2,recipient_part_destroyed_count!=3)->{lookup: [recipient_part_destroyed0_label]; Case; 3}, {lookup: [recipient_part_destroyed1_label]; Case; 3}, {lookup: [recipient_part_destroyed2_label]; Case; 3} и {lookup: [recipient_part_destroyed3_label]; Case; 3}</li>
     <li>damaged_targets(recipient_part_damaged_count==0)->ничего</li>
-    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] и [recipient_part_damaged1_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label] и [recipient_part_damaged2_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->{lookup: [recipient_part_damaged0_label]; Case; 3}</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->{lookup: [recipient_part_damaged0_label]; Case; 3} и {lookup: [recipient_part_damaged1_label]; Case; 3}</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->{lookup: [recipient_part_damaged0_label]; Case; 3}, {lookup: [recipient_part_damaged1_label]; Case; 3} и {lookup: [recipient_part_damaged2_label]; Case; 3}</li>
     <!-- fallback for 4+ -->
-    <li>damaged_targets(recipient_part_damaged_count!=0,recipient_part_damaged_count!=1,recipient_part_damaged_count!=2,recipient_part_damaged_count!=3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label] и [recipient_part_damaged3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count!=0,recipient_part_damaged_count!=1,recipient_part_damaged_count!=2,recipient_part_damaged_count!=3)->{lookup: [recipient_part_damaged0_label]; Case; 3}, {lookup: [recipient_part_damaged1_label]; Case; 3}, {lookup: [recipient_part_damaged2_label]; Case; 3} и {lookup: [recipient_part_damaged3_label]; Case; 3}</li>
     <!-- в творительном падеже: "экспертным попаданием чего-то там"  -->
   </Combat_WoundIncludes.rulePack.rulesStrings>
   

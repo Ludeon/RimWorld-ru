@@ -70,8 +70,8 @@
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] пытается кинуть [TOOL_label] в глаза [RECIPIENT_definite], но [RECIPIENT_definite] уворачивается.</li>
-    <li>r_logentry->[INITIATOR_definite] пытается кинуть [TOOL_label] в глаза [RECIPIENT_definite], но [RECIPIENT_definite] вовремя закрывает лицо.</li>
+    <li>r_logentry->[INITIATOR_definite] пытается кинуть {lookup: [TOOL_label]; Case; 3} в глаза [RECIPIENT_definite], но [RECIPIENT_definite] уворачивается.</li>
+    <li>r_logentry->[INITIATOR_definite] пытается кинуть {lookup: [TOOL_label]; Case; 3} в глаза [RECIPIENT_definite], но [RECIPIENT_definite] вовремя закрывает лицо.</li>
   </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   
   <!-- EN:
@@ -79,15 +79,15 @@
     <li>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] бросает [TOOL_label] в глаза [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] пинает [TOOL_label] в глаза [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] бросает {lookup: [TOOL_label]; Case; 3} в глаза [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] пинает {lookup: [TOOL_label]; Case; 3} в глаза [RECIPIENT_definite].</li>
   </Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] пытается кинуть [TOOL_label] в глаза [RECIPIENT_definite], но промахивается.</li>
+    <li>r_logentry->[INITIATOR_definite] пытается кинуть {lookup: [TOOL_label]; Case; 3} в глаза [RECIPIENT_definite], но промахивается.</li>
   </Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
   
   <!-- EN:

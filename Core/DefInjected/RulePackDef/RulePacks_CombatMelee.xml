@@ -96,16 +96,16 @@
   -->
   <Combat_Hit.rulePack.rulesStrings>
     <!-- Includes: Combat_MeleeIncludes, Combat_MeleeDamageIncludes, Combat_WoundIncludes, Combat_SkillIncludes -->
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [strikeAdv] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite][flavortext_situation] [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged] [recipient_part0_label] [RECIPIENT_definite], [flavortext_consequence].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [damaged] [recipient_part0_label] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [damaged] {lookup: [recipient_part0_label]; Case; 3} [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [strikeAdv] [damaged] {lookup: [recipient_part0_label]; Case; 3} [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite][flavortext_situation] [damaged] {lookup: [recipient_part0_label]; Case; 3} [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged] {lookup: [recipient_part0_label]; Case; 3} [RECIPIENT_definite], [flavortext_consequence].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [damaged] {lookup: [recipient_part0_label]; Case; 3} [RECIPIENT_definite].</li>
     <!-- combined high priority, if we destroyed something -->
     <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] [destroyed] [destroyed_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] [destroyed] [destroyed_targets] [RECIPIENT_definite] [destroyed_suffix].</li>
     <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] [skillAdv] [destroyed] [destroyed_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] при помощи [implement] [destroyed] [destroyed_targets] [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] при помощи {lookup: [implement]; Case; 1} [destroyed] [destroyed_targets] [RECIPIENT_definite].</li>
     <li>result(recipient_part_destroyed_count!=0,recipient_part_damaged_count==0,p=1)->[destroyed_participle] [RECIPIENT_possessive] [destroyed_targets]</li>
     <li>result(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0,p=1)->[damaged_participle] [RECIPIENT_possessive] [damaged_targets]</li>
     <li>result(recipient_part_destroyed_count!=0,recipient_part_damaged_count!=0,p=1)->[destroyed_participle] [RECIPIENT_possessive] [destroyed_targets] и [damaged_participle] [RECIPIENT_possessive] [damaged_targets]</li>

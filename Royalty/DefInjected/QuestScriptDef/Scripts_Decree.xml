@@ -56,8 +56,8 @@
   -->
   <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
     <li>questDescription->[decreeIntro]\n\nВам нужно убить на охоте или забить [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
-    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
-    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->{lookup: [animalToHunt_indefinite]; Case; 3}</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] {lookup: [animalToHunt_labelPlural]; Case; 3}</li>
   </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[animalToHunt_label] hunting decree</li>
