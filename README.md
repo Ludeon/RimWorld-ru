@@ -40,25 +40,11 @@
 
 ### Автоматизированный способ
 
-Если у вас последняя версия игры, и не хочется проделывать каждый раз однотипные действия, можете воспользоваться .ps скриптом (только для Windows 10). При запуске скрипт скачает архив с **последней версией перевода** и положит в нужные папки:
+Если у вас **последняя** версия игры, и не хочется проделывать каждый раз однотипные действия, можете воспользоваться скриптом по ссылке ниже (только для Windows 10):
 
-```
-chcp 1251
-powershell.exe -Command "Invoke-WebRequest -OutFile ./master.zip https://github.com/Ludeon/RimWorld-ru/archive/master.zip
-powershell.exe "Add-Type -A 'System.IO.Compression.FileSystem';[IO.Compression.ZipFile]::ExtractToDirectory('master.zip', '1');"
-RD /s /q "Data\Core\Languages\Russian (Русский)\"
-RD /s /q "Data\Royalty\Languages\Russian (Русский)\"
-RD /s /q "Data\Ideology\Languages\Russian (Русский)\"
-del "Data\Core\Languages\Russian (Русский).tar"
-del "Data\Royalty\Languages\Russian (Русский).tar"
-del "Data\Ideology\Languages\Russian (Русский).tar"
-xcopy "1\RimWorld-ru-master\Core" "Data\Core\Languages\Russian (Русский)\"  /H /Y /C /R /S
-xcopy "1\RimWorld-ru-master\Royalty" "Data\Royalty\Languages\Russian (Русский)\"  /H /Y /C /R /S
-xcopy "1\RimWorld-ru-master\Ideology" "Data\Ideology\Languages\Russian (Русский)\"  /H /Y /C /R /S
-RD /s /q 1
-del master.zip
-```
-Скрипт нужно сохранить в файл с расширением .bat и положить корневую папку игры. Перед запуском убедитесь, что ваша версия игры соответствует версии перевода.
+https://github.com/asidsx/RimWorldRuslangAutoUpdater/blob/main/auto.bat
+
+Скрипт нужно сохранить в файл с расширением .bat и положить корневую папку игры. Скрипт скачает архив с **последней версией перевода** и положит в нужные папки. Стандартные файлы локализации из Стима скрипт **не удаляет.** В игре надо будет в списке языков выбрать `Russian (GitHub)`.
 
 Автор скрипта — Torin Douglas
 
@@ -67,6 +53,7 @@ del master.zip
 ### Активные
 * [Elevator89](https://github.com/Elevator89)
 * [Kamadz](https://github.com/Kamadz)
+* [BlitDev](https://github.com/BlitDev)
 
 ### Сделавшие весомый вклад в прошлом
 * [Dimonasdf](https://github.com/Dimonasdf)
