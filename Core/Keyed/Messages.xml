@@ -170,7 +170,7 @@
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
   <MessagePsylinkNoSensitivity>{PAWN_labelShort} не сможет пользоваться пси-связью, поскольку имеет нулевую психочувствительность.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
-  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} {PAWN_gender ? потерял : потеряла} уровень импланта {1} из-за: {2}. </MessageLostImplantLevelFromHediff>
+  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} {PAWN_gender ? потерял : потеряла} уровень импланта {1} из-за: {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
   <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} {PAWN_gender ? получил : получила} повреждение мозга на {1_numCase ? единицу : единицы : единиц} из-за: {2}.</MessageReceivedBrainDamageFromHediff>
   <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
@@ -340,7 +340,7 @@
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>Выбрано неподходящее место назначения.</MessageTransportPodsDestinationIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
-  <MessageTransportPodsDestinationIsTooFar>Каждая капсула должна иметь в баках хотя бы {0} единиц топлива, чтобы долететь сюда.</MessageTransportPodsDestinationIsTooFar>
+  <MessageTransportPodsDestinationIsTooFar>Каждая капсула должна иметь в баках хотя бы {0_numCase ? единицу : единицы : единиц} топлива, чтобы долететь сюда.</MessageTransportPodsDestinationIsTooFar>
   
   <!-- EN: The caravan has been reformed. -->
   <MessageReformedCaravan>Караван готов к пути.</MessageReformedCaravan>
@@ -359,7 +359,7 @@
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
   <MessageCantWearApparelMissingBodyParts>Невозможно надеть: у {1_labelShort}: отсутствуют нужные части тела.</MessageCantWearApparelMissingBodyParts>
   <!-- EN: This person refuses to remove this. -->
-  <MessageCantUnequipLockedApparel>Этот человек отказывается снимать эту одежду. </MessageCantUnequipLockedApparel>
+  <MessageCantUnequipLockedApparel>Этот человек отказывается снимать эту одежду.</MessageCantUnequipLockedApparel>
   <!-- EN: Cannot wear: This would replace apparel {1_labelShort} refues to remove. -->
   <MessageWouldReplaceLockedApparel>Невозможно надеть: {1_labelShort} отказывается снимать свою одежду.</MessageWouldReplaceLockedApparel>
   
@@ -371,7 +371,7 @@
   <!-- EN: {0} has run out of food. -->
   <MessageCaravanRanOutOfFood>{0} остался без еды.</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
-  <MessageCaravanDeathCorpseAddedToInventory>Караван подобрал тело {PAWN_definite}. Оно тяжёлое и замедляет движение, но его можно оставить во вкладке «Груз».</MessageCaravanDeathCorpseAddedToInventory>
+  <MessageCaravanDeathCorpseAddedToInventory>Караван подобрал тело {PAWN_definite}. Оно тяжёлое и замедляет движение, но его можно бросить, нажав соответствующую кнопку во вкладке «Груз».</MessageCaravanDeathCorpseAddedToInventory>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
   <MessageSelectOwnBaseToFormCaravan>Чтобы снарядить караван, выберите своё поселение или любое место, где есть ваши поселенцы.</MessageSelectOwnBaseToFormCaravan>
@@ -482,7 +482,7 @@
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>{0_gender ? изъят : изъята : изъято} {0}</GoodwillChangedReason_RemovedBodyPart>
   <!-- EN: removed {0} -->
-  <GoodwillChangedReason_RemovedImplant>удалён {0}</GoodwillChangedReason_RemovedImplant>
+  <GoodwillChangedReason_RemovedImplant>{0_gender ? удалён : удалена : удалено} {0}</GoodwillChangedReason_RemovedImplant>
   <!-- EN: downgraded {0} -->
   <GoodwillChangedReason_DowngradedImplant>понижен уровень импланта {0}</GoodwillChangedReason_DowngradedImplant>
   <!-- EN: needlessly installed {0} -->
@@ -607,7 +607,7 @@
   <MessageCantShootInMelee>В рукопашном бою невозможно стрелять.</MessageCantShootInMelee>
 
   <!-- EN: None of your {0} can accept this quest now. -->
-  <MessageNoColonistCanAcceptQuest>Ни один из ваших {replace: {0}; "члены племени"-"членов племени"; "поселенцы"-"поселенцев"} {0} не может принять это задание.</MessageNoColonistCanAcceptQuest>
+  <MessageNoColonistCanAcceptQuest>Ни один из ваших {lookup: {0}; Case; 1} не может принять это задание.</MessageNoColonistCanAcceptQuest>
   <!-- EN: Cannot accept this quest. -->
   <MessageCannotAcceptQuest>Невозможно принять задание.</MessageCannotAcceptQuest>
   <!-- EN: {0_definite} has accepted a quest: {1} -->

@@ -49,11 +49,11 @@
   <!-- EN: Add style category -->
   <AddStyleCategory>Добавить категорию стиля</AddStyleCategory>
   <!-- EN: Can't add more than {0} rituals. -->
-  <MaxRitualCount>Невозможно добавить больше {0} ритуалов.</MaxRitualCount>
+  <MaxRitualCount>Невозможно добавить больше {0_numCase ? ритуала : ритуалов : ритуалов}.</MaxRitualCount>
   <!-- EN: Can't add more than {0} relics. -->
-  <MaxRelicCount>Невозможно добавить больше {0} реликвий.</MaxRelicCount>
+  <MaxRelicCount>Невозможно добавить больше {0_numCase ? реликвии : реликвий : реликвий}.</MaxRelicCount>
   <!-- EN: can't have more than {0} specialists. -->
-  <MaxMultiRolesCount>нельзя иметь больше {0} специалистов.</MaxMultiRolesCount>
+  <MaxMultiRolesCount>нельзя иметь больше {0_numCase ? специалиста : специалистов : специалистов}.</MaxMultiRolesCount>
   <!-- EN: max {0} -->
   <MaxPreceptCount>максимум {0}</MaxPreceptCount>
   <!-- EN: Set gender -->
@@ -123,7 +123,7 @@
   <NoEmptyReliquary>нет доступного пустого реликвария</NoEmptyReliquary>
 
   <!-- EN: No {MEMBERNAME} warden -->
-  <NoWardenOfIdeo>Нет надзирателя {MEMBERNAME}</NoWardenOfIdeo>
+  <NoWardenOfIdeo>Отсутствует надзиратель-{MEMBERNAME}</NoWardenOfIdeo>
 
   <!-- EN: Remove current role -->
   <RemoveCurrentRole>Убрать текущую роль</RemoveCurrentRole>

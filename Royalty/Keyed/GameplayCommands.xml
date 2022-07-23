@@ -38,9 +38,9 @@
   <!-- EN: Use a special permit to call for a group of laborers from your ally. These workers can only do labor tasks, but you can control them like they were your own colonists. You are required to keep them safe. -->
   <CommandCallLaborersDesc>Воспользоваться особой привилегией, чтобы запросить группу рабочих у ваших союзников. Они будут выполнять только трудовые задачи, но вы сможете управлять ими, как своими поселенцами. Вы будете обязаны обеспечить их безопасность.</CommandCallLaborersDesc>
   <!-- EN: On cooldown. {0} days left. -->
-  <CommandOnCooldown>Нужно подождать. {0_numCase ? Остался : Осталось : Осталось} {0_numCase ? день : дня : дней}.</CommandOnCooldown>
+  <CommandOnCooldown>Нужно подождать. Осталось {0_numCase ? день : дня : дней}.</CommandOnCooldown>
   <!-- EN: {0} laborers -->
-  <CommandCallLaborersNumLaborers>{0} рабочих</CommandCallLaborersNumLaborers>
+  <CommandCallLaborersNumLaborers>{0_numCase ? рабочий : рабочих : рабочих}</CommandCallLaborersNumLaborers>
 
   <!-- Abilities -->
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
