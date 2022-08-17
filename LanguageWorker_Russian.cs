@@ -23,7 +23,7 @@ public class LanguageWorker_Russian : LanguageWorker
 		{
 			return plural;
 		}
-		if (TryLookUp("Case", str, 3, out var result) && TryLookUp("Case", plural, 3, out var result2))
+		if (TryLookUp("Case", str, 1, out var result) && TryLookUp("Case", plural, 1, out var result2))
 		{
 			return GetFormForNumber(count, str, result, result2);
 		}
