@@ -56,9 +56,9 @@
   <!-- EN: Belief in -->
   <BeliefInIdeo>Вера в</BeliefInIdeo>
   <!-- EN: Information about {0} -->
-  <Reward_RelicInfo>Информация о {0}</Reward_RelicInfo>
+  <Reward_RelicInfo>Информация про {0}</Reward_RelicInfo>
   <!-- EN: Info about {0} -->
-  <Reward_RelicInfoLabel>Информация о {0}</Reward_RelicInfoLabel>
+  <Reward_RelicInfoLabel>Информация про {0}</Reward_RelicInfoLabel>
   <!-- EN: Relic of {IDEO_name} -->
   <RelicOf>Реликвия {IDEO_name}</RelicOf>
   <!-- EN: altar -->
@@ -120,7 +120,7 @@
   <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
   <IdeoCertaintyTooltip>{PAWN_labelShort} {PAWN_gender ? уверен : уверена} в {IDEO} на {PERCENTAGE}</IdeoCertaintyTooltip>
   <!-- EN: Disabled by precept {0} -->
-  <DisabledByPrecept>Заблокировано принципом {0}</DisabledByPrecept>
+  <DisabledByPrecept>Заблокировано принципом {0}</DisabledByPrecept> <!-- Названия принципов не определяются переводом -->
   <!-- EN: Everyone -->
   <Everyone>Все</Everyone>
   <!-- EN: Narrative -->
@@ -170,7 +170,7 @@
   <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
   <RitualTargetEmptyGraveInfo>Пустая могила для оплакивания {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
-  <RitualTargetGraveInfoAbstract>В могиле находится труп {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <RitualTargetGraveInfoAbstract>В могиле покоится {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
   <!-- EN: A grave containing a corpse. -->
   <RitualTargetGraveInfoAbstractNoIdeo>В могиле находится труп.</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
@@ -247,7 +247,7 @@
   <!-- EN: Choose -->
   <RitualAttachedRewardChoose>Выбрать</RitualAttachedRewardChoose>
   <!-- EN: Can't use {0} with {1}. -->
-  <RitualAttachedRewardCantUseWithRitual>Нельзя использовать {0} с {1}.</RitualAttachedRewardCantUseWithRitual>
+  <RitualAttachedRewardCantUseWithRitual>Нельзя использовать {0} с ритуалом {1}.</RitualAttachedRewardCantUseWithRitual> <!-- {0} - Ritual_AttachableOutcomes_Special, их формы винительного и именительного падежей совпадают. {1} - имя ритуала, вне локализации -->
   <!-- EN: Requires any of memes -->
   <RitualAttachedRewardRequiredMemeAny>Требует хотя бы одну из черт</RitualAttachedRewardRequiredMemeAny>
   <!-- EN: Requires {0} faction -->
@@ -263,7 +263,7 @@
   <!-- EN: Upon any {0} outcome -->
   <RitualAttachedApplliesForOutcomes>При любом {0} исходе</RitualAttachedApplliesForOutcomes> <!-- Вместо {0} будет RitualAttachedOutcomes_Positive или RitualAttachedOutcomes_Negative -->
   <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>Шум от {0} привлёк любопытных животных!\n\nОни, видимо, привычны к людям, и потому прибиваются к вашему поселению.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
+  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>Шум от ритуала {0} привлёк любопытных животных!\n\nОни, видимо, привычны к людям, и потому прибиваются к вашему поселению.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
   <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>{0} пробуждает росток с семенной капсулой Гауранлен.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
   <!-- EN: Can't apply reward -->
@@ -372,7 +372,7 @@
   <!-- EN: Believers in {0} ({1}) -->
   <BelieversIn>Верующие в {0} ({1})</BelieversIn>
   <!-- EN: add {0} -->
-  <AddPrecept>добавить {0}</AddPrecept>
+  <AddPrecept>добавить {0}</AddPrecept> <!-- Подставляется Precept, IdeoBuilding или IdeoRelic, которые уже даны в винительном падеже -->
   <!-- EN: precept -->
   <Precept>принцип</Precept> <!-- Используется только в AddPrecept, где должно стоять в винительном падеже -->
   <!-- EN: building -->
@@ -646,7 +646,7 @@
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл оздоровления.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл оздоровления, а {PAWN_possessive} {HEDIFF_label} {HEDIFF_gender ? был вылечен : была вылечена : было вылечено : были вылечены}.</BiosculpterHealCompletedWithCureMessage>
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл оздоровления, а {PAWN_possessive} заболевание — {HEDIFF_label} — было вылечено.</BiosculpterHealCompletedWithCureMessage> <!-- Для Hediff нет подсимвола _gender -->
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл омоложения. Следующий цикл {PAWN_pronoun} ожидает пройти через {DEADLINE_numCase ? день : дня : дней}.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
