@@ -10,11 +10,11 @@
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
   <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>Особый предмет одежды, {DESIREDAPPAREL}, несовместим с одеждой для роли «{ROLE}»</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>Ношение {DESIREDAPPAREL} взаимно исключает ношение одежды, требуемой ролью «{ROLE}» ({ROLEAPPAREL}). Ни один {ROLE} не сможет сочетать одежду, требуемую для его роли, с особой одеждой.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>Ношение {lookup: {DESIREDAPPAREL}; Case; 1} взаимно исключает ношение одежды, требуемой ролью «{ROLE}» ({ROLEAPPAREL}). Ни один {ROLE} не сможет сочетать одежду, требуемую для его роли, с особой одеждой.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
-  <MessageRitualMissingTarget>Для {PRECEPT} требуется одно из сооружений</MessageRitualMissingTarget>
+  <MessageRitualMissingTarget>Для {lookup: {PRECEPT}; Case; 1} требуется одно из сооружений</MessageRitualMissingTarget> <!-- Может подставиться сгенерированное значение -->
   <!-- EN: {PRECEPT} needs an associated ritual. -->
-  <MessageBuildingMissingRitual>Для {PRECEPT} необходим соответствующий ритуал.</MessageBuildingMissingRitual>
+  <MessageBuildingMissingRitual>Для {lookup: {PRECEPT}; Case; 1} необходим соответствующий ритуал.</MessageBuildingMissingRitual> <!-- Может подставиться сгенерированное значение -->
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
   <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} отказывается это делать по идеолигиозным соображениям.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
@@ -69,7 +69,7 @@
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
-  <MessageCampDetected>Вы обнаружили рядом {CAMP_label}, который контролирует фракция {FACTION_name}.</MessageCampDetected>
+  <MessageCampDetected>Вы обнаружили рядом {lookup: {CAMP_label}; Case; 3}, который контролирует фракция {FACTION_name}.</MessageCampDetected>
 
   <!-- Charity -->
   <!-- EN: Charity refused -->
@@ -95,9 +95,9 @@
   <!-- EN: Cannot remove -->
   <CannotRemove>Невозможно убрать</CannotRemove>
   <!-- EN: Cannot remove {MEME} -->
-  <CannotRemoveMemeRequired>Невозможно убрать {MEME}</CannotRemoveMemeRequired>
+  <CannotRemoveMemeRequired>Невозможно убрать {lookup: {MEME}; Case; 3}</CannotRemoveMemeRequired>
   <!-- EN: Cannot remove {MEME}: Required by player faction. -->
-  <CannotRemoveMemeRequiredPlayer>Невозможно убрать {MEME}: необходимо для фракции игрока.</CannotRemoveMemeRequiredPlayer>
+  <CannotRemoveMemeRequiredPlayer>Невозможно убрать {lookup: {MEME}; Case; 3}: необходимо для фракции игрока.</CannotRemoveMemeRequiredPlayer>
   <!-- EN: Required by {FACTION_name}. -->
   <RequiredByFaction>Необходимо для {FACTION_name}.</RequiredByFaction>
   <!-- EN: Roles cannot have overlapping apparel requirements. -->
@@ -126,11 +126,11 @@
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>Внимание: {PAWNKINDLABELPLURAL} считаются священными животными у всех {PAWNS}, и им не будет причинён вред.</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>Внимание: {PAWNKINDLABELPLURAL} считаются священными животными у всех {lookup: {PAWNS}; Case; 1}, и им не будет причинён вред.</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
-  <MessageNewColonyMax>Выберите не более чем {0} {1} для переноса в новое поселение.</MessageNewColonyMax>
+  <MessageNewColonyMax>Выберите не более {0} {lookup: {1}; Case; 1} для переноса в новое поселение.</MessageNewColonyMax>
   <!-- EN: You must select at least 1 colonist. -->
   <MessageNewColoyRequiresOneColonist>Необходимо выбрать хотя бы 1 поселенца.</MessageNewColoyRequiresOneColonist>
 

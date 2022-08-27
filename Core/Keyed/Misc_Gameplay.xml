@@ -65,7 +65,7 @@
   <!-- EN: Total tend quality -->
   <DisappearsAtTotalTendQuality>Общее качество лечения</DisappearsAtTotalTendQuality>
   <!-- EN: no {0} -->
-  <MissingMedicalBillIngredient>нет {0}</MissingMedicalBillIngredient>
+  <MissingMedicalBillIngredient>нет {lookup: {0}; Case; 1}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
   <Immunity>Иммунитет выработан</Immunity>
   <!-- EN: {0} days to recover -->
@@ -111,7 +111,7 @@
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} в {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>Это действие заставит {PAWN_nameDef} потерять свой титул {TITLE}. Вы не получите никакой компенсации за отречение от титула.\n\nОно повлечёт за собой следующие последствия:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>Это действие заставит {PAWN_nameDef} потерять свой титул {lookup: {TITLE}; Case; 1}. Вы не получите никакой компенсации за отречение от титула.\n\nОно повлечёт за собой следующие последствия:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_pronoun} потеряет следующие привилегии</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
@@ -239,17 +239,17 @@
   <!-- EN: Ideal fermenting temperature -->
   <IdealFermentingTemperature>Идеальная температура для брожения</IdealFermentingTemperature>
   <!-- EN: {0} effect multiplier: {1} -->
-  <DrugEffectMultiplier>множитель эффекта от {0}: {1}</DrugEffectMultiplier>
+  <DrugEffectMultiplier>множитель эффекта от {lookup: {0}; Case; 1}: {1}</DrugEffectMultiplier>
   <!-- EN: Visiting {0}. -->
-  <CaravanVisiting>Посещает {0}.</CaravanVisiting>
+  <CaravanVisiting>Посещает {lookup: {0}; Case; 3}.</CaravanVisiting> <!-- Подставляется имя поселения, "мирные переговоры" или объект на карте. Падеж допустим -->
   <!-- EN: Entering {0}. -->
-  <CaravanEntering>Идёт к {0}.</CaravanEntering>
+  <CaravanEntering>Идёт к {lookup: {0}; Case; 2}.</CaravanEntering> <!-- Подставляется имя объекта на карте. Падеж допустим -->
   <!-- EN: Attacking {0}. -->
-  <CaravanAttacking>Нападает на {0}.</CaravanAttacking>
+  <CaravanAttacking>Нападает на {0}.</CaravanAttacking> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>Предлагает подарок {0}.</CaravanOfferingGifts>
+  <CaravanOfferingGifts>Предлагает подарок {0}.</CaravanOfferingGifts> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
   <!-- EN: Trading with {0} -->
-  <CaravanTrading>Торгует с {0}</CaravanTrading>
+  <CaravanTrading>Торгует с {0}</CaravanTrading> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Снято с трупа.</WasWornByCorpse>
   <!-- EN: T -->
@@ -399,7 +399,7 @@
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
   <PreciousLumpHostileThreat>Сканер показывает какую-то активность вокруг залежей. Скорее всего, там враги.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
-  <PreciousLumpLabel>залежи ресурса: {0}</PreciousLumpLabel>
+  <PreciousLumpLabel>залежи {lookup: {0}; Case; 1}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>не выбрана технология для исследования</NoActiveResearchProjectToFinish>
   <!-- EN: turret -->
@@ -421,7 +421,7 @@
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
-  <FilthLabelWithSource>{0} от {1} x{2}</FilthLabelWithSource>
+  <FilthLabelWithSource>{0} от {1} x{2}</FilthLabelWithSource> <!-- Невозможно применить падеж: вместо {1} могут подставляться списковые значения -->
   <!-- EN: Required -->
   <Required>Требуется</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
@@ -439,7 +439,7 @@
   <!-- EN: Brings raids every {0} -->
   <BringsRaidsEvery>Совершает налёты каждые {0}</BringsRaidsEvery>
   <!-- EN: Generates {0} every {1} -->
-  <GeneratesResourcesEvery>Производит {0} каждые {1}</GeneratesResourcesEvery>
+  <GeneratesResourcesEvery>Производит {lookup: {0}; Case; 3} каждые {1}</GeneratesResourcesEvery>
   <!-- EN: Foliage kill radius -->
   <FoliageKillRadius>Радиус уничтожения растений</FoliageKillRadius>
   <!-- EN: Radius expand rate -->
@@ -455,7 +455,7 @@
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>Расплодится через {0}</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>Сборка {0} завершится через {1}.</MechAssemblyCompleteIn>
+  <MechAssemblyCompleteIn>Сборка {lookup: {0}; Case; 1} завершится через {1}.</MechAssemblyCompleteIn>
   <!-- EN: Will assemble -->
   <MechAssemblyNextType>Соберёт</MechAssemblyNextType>
   <!-- EN: produced -->
@@ -463,7 +463,7 @@
   <!-- EN: harvested -->
   <PlantsHarvested>собрано</PlantsHarvested>
   <!-- EN: {0} killed -->
-  <PawnsKilled>{0} убито</PawnsKilled>
+  <PawnsKilled>{lookup: {0}; Case; 1} убито</PawnsKilled> <!-- {0} во множественном числе -->
   <!-- EN: Sent {0}, will return in {1} -->
   <PawnsLent>Отправлены {0}, вернутся через {1}</PawnsLent>
   <!-- EN: Dormant -->
@@ -591,7 +591,7 @@
   <!-- EN: Immune -->
   <TextMote_Immune>Иммунитет</TextMote_Immune>
   <!-- EN: {0} tended -->
-  <TextMote_Tended>{0} вылечено</TextMote_Tended>
+  <TextMote_Tended>{0} вылечено</TextMote_Tended> <!-- Нельзя применить gender, потому что существуют болезни во мн. числе, например, "волоконные механиты" -->
   <!-- EN: level {0} -->
   <TextMote_SkillUp>уровень {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
@@ -651,9 +651,9 @@
   <!-- EN: Not enclosed - build fences -->
   <PenSizeDesc_Unenclosed>Загон не огорожен — постройте ограду</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>Поместится животных {ANIMALDEF_label}</PenCapacityDesc>
+  <PenCapacityDesc>  {lookup: {ANIMALDEF_labelPlural}; Case; 1}</PenCapacityDesc> <!-- Отступ - для читаемости и чтобы избежать озаглавливания первой буквы -->
   <!-- EN: Example animals -->
-  <PenExampleAnimals>Животные для примера</PenExampleAnimals>
+  <PenExampleAnimals>Вместимость на примере</PenExampleAnimals> <!-- Несоответствие оригиналу - для читаемости: "Вместимость на примере: коров (лето): 10, коз (лето): 20, кур (лето): 50" -->
 
 
   <!-- Control -->
@@ -698,11 +698,11 @@
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>несёт {THING_label} на {DESTINATION}</ReportHaulingTo>
+  <ReportHaulingTo>несёт {lookup: {THING_label}; Case; 3} на {DESTINATION}</ReportHaulingTo>
   <!-- EN: burying {THING_label} in {DESTINATION}. -->
-  <ReportHaulingToGrave>хоронит {THING_label} в {DESTINATION}</ReportHaulingToGrave>
+  <ReportHaulingToGrave>хоронит {lookup: {THING_label}; Case; 3} в {DESTINATION}</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
-  <ReportHauling>несёт {1_label}</ReportHauling>
+  <ReportHauling>несёт {lookup: {1_label}; Case; 3}</ReportHauling>
   <!-- EN: hauling. -->
   <ReportHaulingUnknown>несёт груз</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
@@ -724,9 +724,9 @@
   <!-- EN: watching the aurora. -->
   <WatchingAurora>любуется полярным сиянием</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
-  <UsingVerb>применяет «{0}» к {1}</UsingVerb>
+  <UsingVerb>применяет «{lookup: {0}; Case; 3}» к {lookup: {1}; Case; 2}</UsingVerb>
   <!-- EN: using {0}. -->
-  <UsingVerbNoTarget>применяет «{0}}»</UsingVerbNoTarget>
+  <UsingVerbNoTarget>применяет «{lookup: {0}; Case; 3}»</UsingVerbNoTarget>
   <!-- EN: area -->
   <AreaLower>область</AreaLower>
   <!-- EN: cowering. -->
@@ -736,7 +736,7 @@
   <!-- EN: extinguishing fire. -->
   <ReportExtinguishingFire>тушит пожар</ReportExtinguishingFire>
   <!-- EN: extinguishing fire on {TARGET_label}. -->
-  <ReportExtinguishingFireOn>сбивает огонь с {TARGET_labelShort}</ReportExtinguishingFireOn>
+  <ReportExtinguishingFireOn>сбивает огонь с {lookup: {TARGET_labelShort}; Case; 1}</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>выкапывает труп</ReportDiggingUpCorpse>
 
@@ -782,15 +782,15 @@
 
   <!-- Generated recipes -->
   <!-- EN: make {0} -->
-  <RecipeMake>сделать {0}</RecipeMake>
+  <RecipeMake>сделать {lookup: {0}; Case; 3}</RecipeMake>
   <!-- EN: Make {0}. -->
-  <RecipeMakeDescription>Сделать {0}</RecipeMakeDescription>
+  <RecipeMakeDescription>Сделать {lookup: {0}; Case; 3}</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
-  <RecipeMakeJobString>Делает {0}</RecipeMakeJobString>
+  <RecipeMakeJobString>Делает {lookup: {0}; Case; 3}</RecipeMakeJobString>
   <!-- EN: administer {0} -->
-  <RecipeAdminister>дать {0}</RecipeAdminister>
+  <RecipeAdminister>дать {lookup: {0}; Case; 3}</RecipeAdminister>
   <!-- EN: Administering {0}. -->
-  <RecipeAdministerJobString>Даёт {0}</RecipeAdministerJobString>
+  <RecipeAdministerJobString>Даёт {lookup: {0}; Case; 3}</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>трезвенник будет недоволен</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
@@ -1290,7 +1290,7 @@
   <!-- EN: No resources below. -->
   <DeepDrillNoResources>Месторождение выработано.</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>Глубинное месторождение выработано. Теперь там можно добывать только {0}. Для продолжения добычи заново разрешите использование установки.</DeepDrillExhausted>
+  <DeepDrillExhausted>Глубинное месторождение выработано. Теперь там можно добывать только {lookup: {0}; Case; 3}. Для продолжения добычи заново разрешите использование установки.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>Ресурсы полностью истощены.</DeepDrillExhaustedNoFallback>
 
@@ -1432,9 +1432,9 @@
   <!-- EN: a reward possibly granted in the future -->
   <Reward_PossibleFutureReward>награда, которую будет возможно получить в будущем</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
-  <Reward_Title_Label>титул {TITLE}</Reward_Title_Label>
+  <Reward_Title_Label>титул {lookup: {TITLE}; Case; 1}</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
-  <Reward_Title>{PAWNNAME} принимает титул {TITLE} от фракции {FACTION}</Reward_Title>
+  <Reward_Title>{PAWNNAME} принимает титул {lookup: {TITLE}; Case; 1} от фракции {FACTION}</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>стоимость {0}</TotalValue>
   
@@ -1480,7 +1480,7 @@
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was cured. -->
-  <HealingCureHediff>{0_nameDef} больше не страдает от {1}.</HealingCureHediff>
+  <HealingCureHediff>{0_nameDef} больше не страдает от {lookup: {1}; Case; 1}.</HealingCureHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
   <HealingRestoreBodyPart>У {0_nameDef} снова есть {1}.</HealingRestoreBodyPart>
 
@@ -1626,6 +1626,6 @@
   <!-- EN: Ability ready: {0} -->
   <AbilityReadyLabel>Способность «{0}» готова к применению</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef} {0_gender ? готов : готова} применить «{1}».</AbilityReadyText>
+  <AbilityReadyText>{0_nameDef} {0_gender ? готов : готова} применить «{lookup: {1}; Case; 3}».</AbilityReadyText>
 
 </LanguageData>

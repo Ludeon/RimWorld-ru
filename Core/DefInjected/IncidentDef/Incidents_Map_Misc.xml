@@ -35,16 +35,16 @@
   <!-- EN: herd migration -->
   <HerdMigration.label>миграция животных</HerdMigration.label>
   <!-- EN: Animal migration: {0} -->
-  <HerdMigration.letterLabel>{0} мигрируют</HerdMigration.letterLabel>
+  <HerdMigration.letterLabel>{0} мигрируют</HerdMigration.letterLabel> <!-- В IncidentWorker_HerdMigration эта строка проходит через string.Format. Падежи применить нельзя -->
   <!-- EN: A group of {0} is passing through the area.\n\nThey won't attack unless provoked. -->
-  <HerdMigration.letterText>Мимо поселения крупным стадом мигрируют {0}.\n\nОни не нападут на вас, если их не провоцировать.</HerdMigration.letterText>
+  <HerdMigration.letterText>Мимо поселения крупным стадом мигрируют {0}.\n\nОни не нападут на вас, если их не провоцировать.</HerdMigration.letterText> <!-- В IncidentWorker_HerdMigration эта строка проходит через string.Format. Падежи применить нельзя -->
   
   <!-- EN: meteorite impact -->
   <MeteoriteImpact.label>метеорит</MeteoriteImpact.label>
   <!-- EN: Meteorite -->
   <MeteoriteImpact.letterLabel>Метеорит</MeteoriteImpact.letterLabel>
   <!-- EN: A large meteorite has struck ground in the area. It has left behind a lump of {0}. -->
-  <MeteoriteImpact.letterText>Крупный метеорит упал неподалёку. В месте падения можно найти {0}.</MeteoriteImpact.letterText>
+  <MeteoriteImpact.letterText>Крупный метеорит упал неподалёку. В месте падения можно найти {0}.</MeteoriteImpact.letterText> <!-- В IncidentWorker_MeteoriteImpact эта строка проходит через string.Format. Падежи применить нельзя -->
   
   <!-- EN: psychic drone -->
   <PsychicDrone.label>гул</PsychicDrone.label>

@@ -9,9 +9,9 @@
   <!-- EN: Throne must be placed indoors. -->
   <ThroneMustBePlacedInside>Трон нужно размещать в помещении.</ThroneMustBePlacedInside>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
-  <MinimumRoyalTitleInspectString>Минимальный титул ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
+  <MinimumRoyalTitleInspectString>Минимальный титул ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString> <!-- Подставляться будет титул в обоих родах: "рыцарь / дама" -->
   <!-- EN: Trading here requires title: {0} -->
-  <RequiresTradePermission>Торговля в этом месте требует наличия титула {0}</RequiresTradePermission>
+  <RequiresTradePermission>Торговля в этом месте требует наличия титула {0}</RequiresTradePermission> <!-- Подставляться будет титул в обоих родах: "рыцарь / дама" -->
   <!-- EN: Personal bedroom (partner allowed) -->
   <RequirementPersonalBedroom>Личная спальня (допускается наличие партнёра)</RequirementPersonalBedroom>
   
@@ -19,15 +19,15 @@
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>пси-тренер ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>Использовать пси-тренер, чтобы изучить {0}</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>Использовать пси-тренер, чтобы изучить «{lookup: {0}; Case; 3}»</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
   <PsycastNeurotrainerDescription>Сыворотка с дозой механитов, запрограммированных на обучение конкретной пси-способности.\n\nСыворотка вводится через глазное яблоко. После того, как механиты попадают в мозг пациента, они наделяют его определённой способностью, при необходимости преобразуя себя в нервную ткань.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} {USER_gender ? использовал : использовала} пси-тренер и {USER_gender ? изучил : изучила} способность «{1}».</AbilityNeurotrainerUsed>
+  <AbilityNeurotrainerUsed>{USER_labelShort} {USER_gender ? использовал : использовала} пси-тренер и {USER_gender ? изучил : изучила} «{lookup: {1}; Case; 3}».</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
   <PsycastNeurotrainerNoPsylink>Необходима пси-связь</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
-  <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} уже {USER_gender ? изучил : изучила} {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
+  <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} уже {USER_gender ? изучил : изучила} «{lookup: {1}; Case; 3}».</PsycastNeurotrainerAbilityAlreadyLearned>
 
   <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
   <Reward_RoyalFavor>принявший задание получит {1} ед. {lookup: {0_royalFavorLabel}; Case; 1} от фракции {0_name}</Reward_RoyalFavor>
@@ -131,7 +131,7 @@
   <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>Начать ритуал связывания</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
-  <BeginLinkingRitualNeedSubplants>Нужно {0} ед. {replace: {1}; "трава души"-"травы души"} (есть {2})</BeginLinkingRitualNeedSubplants>
+  <BeginLinkingRitualNeedSubplants>Нужно {0} ед. {lookup: {1}; Case; 1} (есть {2})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
   <BeginLinkingRitualNeedFocus>Требуется вид медитации: {0}</BeginLinkingRitualNeedFocus>
   <!-- EN: Max psylink level -->
@@ -153,9 +153,9 @@
   <!-- EN: Start bestowing ceremony for {0_labelShort} -->
   <BeginCeremony>Начать церемонию присвоения титула для {0_labelShort}</BeginCeremony>
   <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>Тронный зал {PAWN_definite} не удовлетворяет требованиям титула {TITLE}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>Тронный зал {PAWN_definite} не удовлетворяет требованиям титула {lookup: {TITLE}; Case; 1}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Эмиссар недоволен тем, что тронный зал {PAWN_definite} не удовлетворяет требованиям титула {TITLE}. Церемония присвоения титула отменена.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Эмиссар недоволен тем, что тронный зал {PAWN_definite} не удовлетворяет требованиям титула {lookup: {TITLE}; Case; 1}. Церемония присвоения титула отменена.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
   <!-- EN: bestowing ceremony -->
   <BestowingCeremonyLabel>церемония присвоения титула</BestowingCeremonyLabel>
   <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->

@@ -537,7 +537,7 @@
   <!-- EN: {0} focus objects -->
   <MeditationFocusObjects>Объекты для концентрации, {0}</MeditationFocusObjects>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
-  <MeditationFocusEnabledByTitle>обладает титулом: {TITLE} в ({FACTION_name}).</MeditationFocusEnabledByTitle>
+  <MeditationFocusEnabledByTitle>обладает титулом {lookup: {TITLE}; Case; 1} ({FACTION_name}).</MeditationFocusEnabledByTitle>
   <!-- EN: has childhood -->
   <MeditationFocusEnabledByChildhood>прожито детство</MeditationFocusEnabledByChildhood>
   <!-- EN: has adulthood -->
@@ -669,9 +669,9 @@
   <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
   <CaravanRoamerCannotReachSpots>{1_labelShort} не может достичь места сбора или точки выхода, ведомый ни одним из назначенных поселенцев.</CaravanRoamerCannotReachSpots>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
-  <CaravanItemIsUnreachableSingle>Ни один из поселенцев не может добраться до {0}.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableSingle>Ни один из поселенцев не может добраться до {lookup: {0}; Case; 1}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
-  <CaravanItemIsUnreachableMulti>Ни один из поселенцев не может добраться до {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <CaravanItemIsUnreachableMulti>Ни один из поселенцев не может добраться до {lookup: {1}; Case; 1} x{0}.</CaravanItemIsUnreachableMulti>
   <!-- EN: The caravan can't carry that much. -->
   <TooBigCaravanMassUsage>Караван не сможет нести так много.</TooBigCaravanMassUsage>
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
@@ -805,7 +805,7 @@
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
-  <LoadTransporters>Загрузить {replace: {0}; "транспортная капсула"-"транспортную капсулу"}</LoadTransporters>
+  <LoadTransporters>Загрузить {lookup: {0}; Case; 3}</LoadTransporters>
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
   <TooBigTransportersMassUsage>Масса назначенных пассажиров и груза слишком велика для транспортных капсул.</TooBigTransportersMassUsage>
   <!-- EN: The assigned people and items are too heavy for the shuttle. -->
@@ -819,13 +819,13 @@
   <!-- EN: {1_labelShort} can't reach the shuttle. -->
   <PawnCantReachTransporterSingle>{1_labelShort} не может добраться до челнока.</PawnCantReachTransporterSingle>
   <!-- EN: There is no path between the transport pods and the {0}. -->
-  <TransporterItemIsUnreachableSingle>Невозможно найти путь между транспортными капсулами и {0}.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableSingle>Невозможно найти путь между транспортными капсулами и {lookup: {0}; Case; 4}.</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the shuttle and the {0}. -->
-  <TransporterSingleItemIsUnreachableSingle>Невозможно найти путь между челноком и {0}.</TransporterSingleItemIsUnreachableSingle>
+  <TransporterSingleItemIsUnreachableSingle>Невозможно найти путь между челноком и {lookup: {0}; Case; 4}.</TransporterSingleItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
-  <TransporterItemIsUnreachableMulti>Невозможно найти путь между транспортными капсулами и {0}x {1}.</TransporterItemIsUnreachableMulti>
+  <TransporterItemIsUnreachableMulti>Невозможно найти путь между транспортными капсулами и {lookup: {1}; Case; 4} x{0}.</TransporterItemIsUnreachableMulti>
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
-  <TransporterSingleItemIsUnreachableMulti>Невозможно найти путь между челноком и {0}x {1}.</TransporterSingleItemIsUnreachableMulti>
+  <TransporterSingleItemIsUnreachableMulti>Невозможно найти путь между челноком и {lookup: {1}; Case; 4} x{0}.</TransporterSingleItemIsUnreachableMulti>
   <!-- EN: Only {0} colonists maximum allowed. -->
   <TransporterSingleTooManyColonists>Максимально допустимое число поселенцев: {0}.</TransporterSingleTooManyColonists>
   

@@ -272,7 +272,7 @@
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>{CHARGENOUN_plural} закончились</CommandReload_NoCharges>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
-  <CommandReload_NoAmmo>Для перезарядки необходимо {COUNT} {AMMO_label}</CommandReload_NoAmmo>
+  <CommandReload_NoAmmo>Для перезарядки необходимо {COUNT} ед. {lookup: {AMMO_label}; Case; 1}</CommandReload_NoAmmo> <!-- Подставляется CompProperties_Reloadable.ammoDef. Сейчас во всех случаях везде это неисчисляемое существительное: сталь, химтопливо и прочее. Отсюда ед.ч. р.п. -->
   
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
