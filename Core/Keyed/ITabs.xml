@@ -322,11 +322,11 @@
 
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
-  <RemoveSliderText>Выгрузить {0} ({{0}} шт)</RemoveSliderText>
+  <RemoveSliderText>Выгрузить {lookup: {0}; Case; 3} ({{0}} шт)</RemoveSliderText>
   <!-- EN: Contained items -->
   <ContainedItems>Содержимое</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
-  <ConfirmRemoveItemDialog>Вы уверены, что хотите выгрузить {0}?</ConfirmRemoveItemDialog>
+  <ConfirmRemoveItemDialog>Вы уверены, что хотите выгрузить {lookup: {0}; Case; 3}?</ConfirmRemoveItemDialog>
   
   <!-- Quests tab -->
   <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
@@ -382,7 +382,7 @@
   <!-- EN: The total nutrition that will be consumed each day by each type of animal in this pen. -->
   <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>Суммарное количество еды, потребляемое каждый день животными каждого вида в этом загоне.</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
   <!-- EN: Daily consumption per {ANIMALDEF_label} -->
-  <PenFoodTab_NutritionConsumedPerDay>Суточное потребление ({ANIMALDEF_label})</PenFoodTab_NutritionConsumedPerDay>
+  <PenFoodTab_NutritionConsumedPerDay>Суточное потребление {lookup: {ANIMALDEF_label}; Case; 1}</PenFoodTab_NutritionConsumedPerDay>
   <!-- EN: each {CONSUMEDAMOUNT} -->
   <PenFoodTab_NutritionConsumedEachAnimalLabel>{CONSUMEDAMOUNT} на особь</PenFoodTab_NutritionConsumedEachAnimalLabel>
   <!-- EN: Count that could be supported with no other animals in the pen -->

@@ -95,12 +95,12 @@
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
   <CannotNotAddRoleApparelDueToMeme>Черта {MEME} не позволяет добавлять требования к одежде для ролей.</CannotNotAddRoleApparelDueToMeme>
   <!-- EN: cannot be worn with {0_label} -->
-  <CannotBeWornWith>нельзя надеть с {0_label}</CannotBeWornWith>
+  <CannotBeWornWith>нельзя надеть с {lookup: {0_label}; Case; 4}</CannotBeWornWith>
 
   <!-- EN: Certainty reduction -->
   <AbilityIdeoConvertBreakdownLabel>Уменьшение уверенности</AbilityIdeoConvertBreakdownLabel>
   <!-- EN: Using {ABILITY} ability -->
-  <AbilityIdeoConvertBreakdownUsingAbility>Применение способности «{ABILITY}»</AbilityIdeoConvertBreakdownUsingAbility>
+  <AbilityIdeoConvertBreakdownUsingAbility>Применение «{lookup: {ABILITY}; Case; 1}»</AbilityIdeoConvertBreakdownUsingAbility>
   <!-- EN: {PAWN_labelShort}'s conversion power -->
   <AbilityIdeoConvertBreakdownConversionPower>Эффективность обращения {PAWN_labelShort}</AbilityIdeoConvertBreakdownConversionPower>
   <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
@@ -207,7 +207,7 @@
   <!-- EN: {0} style category affects -->
   <StyleCategoryDetails>{0} стиль влияет на</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
-  <OverriddenByStyle>Переопределено стилем {0}</OverriddenByStyle>
+  <OverriddenByStyle>Переопределено {lookup: {0}; Case; 4} стилем</OverriddenByStyle>
   <!-- EN: New buildables -->
   <IdeoMakesBuildingBuildable>Новые строения</IdeoMakesBuildingBuildable>
   <!-- EN: none usable for {PAWN_nameDef} -->
@@ -281,7 +281,7 @@
   <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
   <ChooseThingsForNewColonyDesc>Выберите, каких поселенцев, животных и реликвии взять с собой.</ChooseThingsForNewColonyDesc>
   <!-- EN: Choose up to {0} {1}. -->
-  <ChooseThingsDesc>Выберите до {0} {1}.</ChooseThingsDesc>
+  <ChooseThingsDesc>Выберите до {0} {lookup: {1}; Case; 1}.</ChooseThingsDesc>
   <!-- EN: Choose up to {0} people. -->
   <ChoosePeopleDesc>Выберите до {0} человек.</ChoosePeopleDesc>
   <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
@@ -307,12 +307,12 @@
   <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
   <AbandonArchotechStructuresWarningDialog>Вы покидаете место с сооружениями архотеков, которые вы ещё до конца не изучили.\n\nВы сможете потом поселиться здесь заново, но ваше прошлое поселение исчезнет навсегда.</AbandonArchotechStructuresWarningDialog>
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
-  <ItemQuantityTooltip>Количество {0}, которое можно взять с собой в новое поселение.\n\nМаксимальное разрешённое количество — {1}</ItemQuantityTooltip>
+  <ItemQuantityTooltip>Количество {lookup: {lookup: {0}; Plural; 1}; Case; 1}, которое можно взять с собой в новое поселение.\n\nМаксимальное разрешённое количество — {1}</ItemQuantityTooltip>
   <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
   <SoldColonyDescription>Ваше поселение продано. Его новые владельцы готовы доставить вас в нужное вам место.</SoldColonyDescription>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
-  <ConfirmHackEnenyTerminal>Взлом {0} оповестит противников и они нападут на вас. Вы действительно хотите взломать {0}?</ConfirmHackEnenyTerminal>
+  <ConfirmHackEnenyTerminal>Взлом {lookup: {0}; Case; 1} оповестит противников и они нападут на вас. Вы действительно хотите взломать {lookup: {0}; Case; 3}?</ConfirmHackEnenyTerminal>
 
   <!-- EN: Relics -->
   <RelicsSection>Реликвии</RelicsSection>

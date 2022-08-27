@@ -116,7 +116,7 @@
   <!-- EN: {0_pawnsPlural} waking in {1} -->
   <AlertHostilesWakingUp>{0_pawnsPlural} пробудятся через {1}</AlertHostilesWakingUp>
   <!-- EN: One or more {0_pawnsPlural} are waking up.\n\nThey will attack if they find you. -->
-  <AlertHostilesWakingUpDesc>Один или более {0_pawnsPlural} пробуждаются.\n\nОни нападут, если найдут вас.</AlertHostilesWakingUpDesc>
+  <AlertHostilesWakingUpDesc>Один или более {lookup: {0_pawnsPlural}; Case; 1} пробуждаются.\n\nОни нападут, если найдут вас.</AlertHostilesWakingUpDesc>
 
   <!-- EN: Cryptosleep caskets opening in {0} -->
   <AlertCasketOpening>Саркофаги криптосна откроются через {0}</AlertCasketOpening>
@@ -129,5 +129,5 @@
   <AlertSlaveRebellionLikelyRebelliousCount>У вас в поселении есть {REBELLIOUSCOUNT} рабов, которые могут начать восстание.</AlertSlaveRebellionLikelyRebelliousCount>
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
   <AlertSlaveRebellionLikelyMostRebellious>Восстания рабов ожидаются примерно раз в {COMBINEDTIME}. Обратите внимание, что вероятность поднять восстание рассчитывается индивидуально для каждого из рабов, и любой из них, кто поднимет восстание, может повести за собой остальных.\n\nК восстаниям наиболее склонен раб по имени {REBEL_labelShort}, и {REBEL_pronoun} будет их поднимать примерно раз в {INDIVIDUALTIME}. На это влияют следующие факторы:</AlertSlaveRebellionLikelyMostRebellious>
-
+  
 </LanguageData>

@@ -99,9 +99,9 @@
   <RecolorApparel>перекрасить одежду</RecolorApparel>
 
   <!-- EN: Hack {0} -->
-  <Hack>Взломать {0}</Hack>
+  <Hack>Взломать {lookup: {0}; Case; 3}</Hack>
   <!-- EN: Cannot hack {0} -->
-  <CannotHack>Невозможно взломать {0}</CannotHack>
+  <CannotHack>Невозможно взломать {lookup: {0}; Case; 3}</CannotHack>
   <!-- EN: Already hacked -->
   <AlreadyHacked>Уже взломано</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
@@ -129,7 +129,7 @@
   <RemoveCurrentRole>Убрать текущую роль</RemoveCurrentRole>
 
   <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
-  <EnterBiosculpterPod>Войти в биоскульптор для цикла {0} ({1})</EnterBiosculpterPod>
+  <EnterBiosculpterPod>Войти в биоскульптор для цикла {lookup: {0}; Case; 1} ({1})</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
   <BiosculpterBiotunedToAnother>Откалиброван для кого-то другого</BiosculpterBiotunedToAnother>
   <!-- EN: Must be {0} years old for age reversal. -->
@@ -147,7 +147,7 @@
   <!-- EN: Cannot enter -->
   <CannotEnter>Невозможно войти</CannotEnter>
   <!-- EN: Cannot start {0} cycle -->
-  <BiosculpterCannotStartCycle>Невозможно начать цикл {0}</BiosculpterCannotStartCycle>
+  <BiosculpterCannotStartCycle>Невозможно начать цикл {lookup: {0}; Case; 1}</BiosculpterCannotStartCycle>
   <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
   <BiosculpterMissingIngredients>Невозможно найти ингредиенты для цикла ({INGREDIENTS})</BiosculpterMissingIngredients>
   <!-- EN: Nobody around can use this -->
