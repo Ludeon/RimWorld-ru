@@ -74,8 +74,8 @@
   <NoMergeTarget>не с чем объединять</NoMergeTarget>
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
-  <!-- EN: need material -->
-  <MissingMaterials>нужны материалы</MissingMaterials>
+  <!-- EN: missing {0} -->
+  <MissingMaterials>требуется {0}</MissingMaterials>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>навык ниже требуемых {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -166,6 +166,8 @@
   <SurgeryViolationFellowFactionMember>надругательство над членом дружественной фракции</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
   <BeingCarriedBy>в руках у {0_labelShort}</BeingCarriedBy>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>уже назначено</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Съесть {lookup: {1_labelShort}; Case; 3}</ConsumeThing>
@@ -262,12 +264,12 @@
   <!-- EN: Too few -->
   <ReloadNotEnough>Недостаточно для перезарядки</ReloadNotEnough>
   
-  <!-- EN: Cannot pick up {1_label} -->
-  <CannotPickUp>Невозможно взять {lookup: {1_label}; Case; 3}</CannotPickUp>
+  <!-- EN: Cannot pick up {1_labelShort} -->
+  <CannotPickUp>Невозможно взять {lookup: {1_labelShort}; Case; 3}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>Невозможно взять {lookup: {1_label}; Case; 3} (всё)</CannotPickUpAll>
-  <!-- EN: Pick up {1_label} -->
-  <PickUp>Взять {lookup: {1_label}; Case; 3}</PickUp>
+  <!-- EN: Pick up {1_labelShort} x1 -->
+  <PickUpOne>Взять {lookup: {1_labelShort}; Case; 3} x1</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>Взять {lookup: {1_label}; Case; 3} (всё)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
@@ -518,5 +520,8 @@
   <RepairThing>Чинить {lookup: {0}; Case; 3}</RepairThing>
   <!-- EN: Cannot repair {0} -->
   <CannotRepair>Невозможно чинить {lookup: {0}; Case; 3}</CannotRepair>
-  
+
+  <!-- EN: Cannot enter -->
+  <CannotEnter>Невозможно войти</CannotEnter>
+
 </LanguageData>

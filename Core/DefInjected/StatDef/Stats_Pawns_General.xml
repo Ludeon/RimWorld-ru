@@ -46,11 +46,6 @@
   <!-- EN: A multiplier on the learning rate for all skills. -->
   <GlobalLearningFactor.description>Множитель эффективности обучения любому навыку.</GlobalLearningFactor.description>
   
-  <!-- EN: hunger rate multiplier -->
-  <HungerRateMultiplier.label>множитель голода</HungerRateMultiplier.label>
-  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
-  <HungerRateMultiplier.description>Показатель того, насколько быстро существо становится голодным.</HungerRateMultiplier.description>
-  
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>скорость выработки иммунитета</ImmunityGainSpeed.label>
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
@@ -70,6 +65,15 @@
   <MeatAmount.label>количество мяса</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <MeatAmount.description>Получаемое количество мяса в случае забоя существа. Число уменьшится, если существо забито неправильно или если перед смертью было покалечено.</MeatAmount.description>
+  
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>эффективность медитации</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>Количество пси-концентрации, которое этот персонаж восстанавливает за день медитации, без учёта бонуса от объектов концентрации.</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0} в день</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0} в день</MeditationFocusGain.formatStringUnfinalized>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>порог нервного срыва</MentalBreakThreshold.label>
@@ -93,6 +97,18 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>Максимальный уровень боли, при котором существо способно стоять на ногах.</PainShockThreshold.description>
   
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>порог нейроперегрева</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>Максимальный уровень нейроперегрева, который этот персонаж способен вынести.</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>скорость снижения нейроперегрева</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>Скорость, с которой этот персонаж понижает свой уровень нейроперегрева.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/с</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>психочувствительность</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
@@ -102,10 +118,5 @@
   <RestRateMultiplier.label>эффективность сна</RestRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
   <RestRateMultiplier.description>Показатель того, насколько быстро существо восстанавливает силы во время сна.</RestRateMultiplier.description>
-  
-  <!-- EN: toxic sensitivity -->
-  <ToxicSensitivity.label>чувствительность к токсинам</ToxicSensitivity.label>
-  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
-  <ToxicSensitivity.description>Множитель скорости накопления токсинов в организме персонажа.</ToxicSensitivity.description>
-  
+
 </LanguageData>

@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: activating TargetA. -->
+  <ActivateThing.reportString>активирует {lookup: {TargetA}; Case; 3}</ActivateThing.reportString>
+  
   <!-- EN: applying TargetB. -->
   <ApplyTechprint.reportString>применяет {lookup: {TargetB}; Case; 3}</ApplyTechprint.reportString>
   
@@ -12,6 +15,9 @@
   
   <!-- EN: beating fire out. -->
   <BeatFire.reportString>сбивает огонь</BeatFire.reportString>
+  
+  <!-- EN: Doing something. -->
+  <Carried.reportString>что-то делает</Carried.reportString>
   
   <!-- EN: Doing something. -->
   <CastAbilityOnThing.reportString>что-то делает</CastAbilityOnThing.reportString>
@@ -100,6 +106,9 @@
   <!-- EN: hauling TargetA. -->
   <HaulToTransporter.reportString>тащит {lookup: {TargetA}; Case; 3}</HaulToTransporter.reportString>
   
+  <!-- EN: idling. -->
+  <IdleWhileDespawned.reportString>простаивает</IdleWhileDespawned.reportString>
+  
   <!-- EN: igniting TargetA. -->
   <Ignite.reportString>поджигает {lookup: {TargetA}; Case; 3}</Ignite.reportString>
   
@@ -132,6 +141,9 @@
   
   <!-- EN: opening TargetA. -->
   <Open.reportString>открывает {lookup: {TargetA}; Case; 3}</Open.reportString>
+  
+  <!-- EN: picking up TargetA. -->
+  <PickupToHold.reportString>подбирает {lookup: {TargetA}; Case; 3}</PickupToHold.reportString>
   
   <!-- EN: rearming TargetA. -->
   <RearmTurret.reportString>перезаряжает {lookup: {TargetA}; Case; 3}</RearmTurret.reportString>
@@ -175,8 +187,8 @@
   <!-- EN: trading with TargetA. -->
   <TradeWithPawn.reportString>торгует с {TargetA}</TradeWithPawn.reportString>
   
-  <!-- EN: triggering firefoam popper. -->
-  <TriggerFirefoamPopper.reportString>активирует хлопушку с пожарной пеной</TriggerFirefoamPopper.reportString>
+  <!-- EN: triggering TargetA. -->
+  <TriggerObject.reportString>активирует {lookup: {TargetA}; Case; 3}</TriggerObject.reportString>
   
   <!-- EN: unloading TargetA. -->
   <UnloadInventory.reportString>разгружает {lookup: {TargetA}; Case; 3}</UnloadInventory.reportString>
@@ -204,6 +216,9 @@
   
   <!-- EN: standing. -->
   <Wait.reportString>стоит</Wait.reportString>
+  
+  <!-- EN: sleeping. -->
+  <Wait_Asleep.reportString>спит</Wait_Asleep.reportString>
   
   <!-- EN: watching for targets. -->
   <Wait_Combat.reportString>ищет цель</Wait_Combat.reportString>

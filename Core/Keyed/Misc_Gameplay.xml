@@ -24,6 +24,10 @@
   <Owners>Владельцы</Owners>
   <!-- EN: Assigned colonist -->
   <AssignedColonist>Назначенный поселенец</AssignedColonist>
+  <!-- EN: Uncomfortable room temperature -->
+  <BedUncomfortableTemperature>Некомфортная температура в помещении</BedUncomfortableTemperature>
+  <!-- EN: Unsafe room temperature -->
+  <BedUnsafeTemperature>Небезопасная температура в помещении</BedUnsafeTemperature>
   <!-- EN: Died on the {0} -->
   <DiedOn>Дата смерти: {0}</DiedOn>
   <!-- EN: Nobody -->
@@ -258,8 +262,10 @@
   <DeterioratingUnroofed>расположение не под крышей</DeterioratingUnroofed>
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>расположение на улице</DeterioratingOutdoors>
-  <!-- EN: Deteriorating because of -->
-  <DeterioratingBecauseOf>Ветшает из-за</DeterioratingBecauseOf>
+  <!-- EN: Deteriorating -->
+  <DeterioratingBecauseOf>Ветшает</DeterioratingBecauseOf>
+  <!-- EN: Will deteriorate in {0}. -->
+  <DeteriorateInDuration>Потеряет годность через {0}</DeteriorateInDuration>
   <!-- EN: Map -->
   <Map>Карта</Map>
   <!-- EN: {0} until enemies arrive -->
@@ -270,8 +276,8 @@
   <Room>Комната</Room>
   <!-- EN: Beauty here -->
   <BeautyHere>Красота</BeautyHere>
-  <!-- EN: No power -->
-  <NoPower>Нет питания</NoPower>
+  <!-- EN: no power -->
+  <NoPower>нет питания</NoPower>
   <!-- EN: Work speed penalty -->
   <WorkSpeedPenalty>Штраф к скорости работы</WorkSpeedPenalty>
   <!-- EN: Disabled -->
@@ -448,8 +454,8 @@
   <ViewHyperlink>Перейти к: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Взорвётся через {0_numCase ? день : дня : дней}</DetonationCountdown>
-  <!-- EN: Large fire explosion if damaged -->
-  <ExplosionOnDamageWarning>При повреждении произойдёт мощный огненный взрыв</ExplosionOnDamageWarning>
+  <!-- EN: Large fire explosion if damaged. -->
+  <ExplosionOnDamageWarning>При повреждении произойдёт мощный огненный взрыв.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Кластер механоидов</MechCluster>
   <!-- EN: Spawning in {0} -->
@@ -530,6 +536,10 @@
   <ThoughtFoodEatenFood>Еда</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
   <ThoughtFoodEatenIngredients>Ингредиенты</ThoughtFoodEatenIngredients>
+  <!-- EN: size -->
+  <Size>размер</Size>
+  <!-- EN: cost -->
+  <Cost>стоимость</Cost>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -669,16 +679,18 @@
   <ApparelPreventsShooting>{PAWN_nameDef} не может использовать оружие дальнего боя, пока носит {APPAREL_label}.</ApparelPreventsShooting>
 
   <!-- Snow -->
+  <!-- EN: Snow -->
+  <Snow>Снег</Snow>
   <!-- EN: No snow -->
   <SnowNone>Нет снега</SnowNone>
-  <!-- EN: Snow (dusting) -->
-  <SnowDusting>Снег (лёгкий)</SnowDusting>
-  <!-- EN: Snow (thin) -->
-  <SnowThin>Снег (мелкий)</SnowThin>
-  <!-- EN: Snow (medium) -->
-  <SnowMedium>Снег (средний)</SnowMedium>
-  <!-- EN: Snow (thick) -->
-  <SnowThick>Снег (глубокий)</SnowThick>
+  <!-- EN: dusting -->
+  <SnowDusting>лёгкий</SnowDusting>
+  <!-- EN: thin -->
+  <SnowThin>мелкий</SnowThin>
+  <!-- EN: medium -->
+  <SnowMedium>средний</SnowMedium>
+  <!-- EN: thick -->
+  <SnowThick>глубокий</SnowThick>
 
   <!-- Turrets -->
   <!-- EN: Installed -->
@@ -821,8 +833,6 @@
   <PawnTitleDescWrap>{0} в {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
   <PawnMainDescUnderFactionedWrap>{0} (гость фракции {1})</PawnMainDescUnderFactionedWrap>
-  <!-- EN: {0} under {1}\nHome faction: {2} -->
-  <PawnMainDescTempFactionedWrap>{0} (гость фракции {1})\nДомашняя фракция: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective}, {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
@@ -907,8 +917,8 @@
   <Indoors>Внутри</Indoors>
   <!-- EN: Unroofed -->
   <IndoorsUnroofed>Без крыши</IndoorsUnroofed>
-  <!-- EN: Outdoors -->
-  <Outdoors>Снаружи</Outdoors>
+  <!-- EN: outdoors -->
+  <Outdoors>снаружи</Outdoors>
 
   <!-- Rotting -->
   <!-- EN: Fresh -->
@@ -1377,8 +1387,8 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>Нейроперегрев: {0} / {1}\nСкорость падения: {2} / с ({3} с до нуля)</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>Скорость падения: {0} / с ({1} с до нуля)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>Нейроперегрев возрастает после применения пси-способностей. Превышение безопасного предела может вызвать пси-срыв, длящийся несколько дней.\n\nНейроперегрев со временем рассеивается. Процесс можно ускорить нося одежду из эльтекса или испытывая боль.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
@@ -1387,7 +1397,7 @@
   <PawnTooltipPsychicEntropyLimit>Переключить ограничитель нейроперегрева. Превышение безопасного предела может привести к пси-срыву, длящемуся несколько дней. Необратимого вреда нанесено не будет.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>Пси-концентрация: {0}</PawnTooltipPsyfocus>
-
+  
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
   <PawnTooltipGenderAndKindLabel>{1}, {0}</PawnTooltipGenderAndKindLabel>
@@ -1508,6 +1518,14 @@
   <RitualFinished>Ритуал {0} завершился.</RitualFinished>
   <!-- EN: ends in {0} -->
   <RitualEndsIn>завершится через {0}</RitualEndsIn>
+  <!-- EN: Can start any time -->
+  <RitualStartAnyTime>Можно начать в любое время</RitualStartAnyTime>
+  <!-- EN: Can start after event -->
+  <RitualStartEvent>Можно начать после события</RitualStartEvent>
+  <!-- EN: Focus objects -->
+  <RitualFocusObjects>Объекты для концентрации</RitualFocusObjects>
+  <!-- EN: Participating roles -->
+  <RitualParticipatingRoles>Роли участников</RitualParticipatingRoles>
   <!-- EN: Organizers -->
   <Organizers>Организаторы</Organizers>
   <!-- EN: Quality factors -->

@@ -37,14 +37,14 @@
   <!-- EN: Animal migration: {0} -->
   <HerdMigration.letterLabel>{0} мигрируют</HerdMigration.letterLabel> <!-- В IncidentWorker_HerdMigration эта строка проходит через string.Format. Падежи применить нельзя -->
   <!-- EN: A group of {0} is passing through the area.\n\nThey won't attack unless provoked. -->
-  <HerdMigration.letterText>Мимо поселения крупным стадом мигрируют {0}.\n\nОни не нападут на вас, если их не провоцировать.</HerdMigration.letterText> <!-- В IncidentWorker_HerdMigration эта строка проходит через string.Format. Падежи применить нельзя -->
+  <HerdMigration.letterText>Мимо поселения крупным стадом мигрируют {0}.\n\nОни не нападут на вас, если их не провоцировать.</HerdMigration.letterText> <!-- ToDo: Применить падеж -->
   
   <!-- EN: meteorite impact -->
   <MeteoriteImpact.label>метеорит</MeteoriteImpact.label>
   <!-- EN: Meteorite -->
   <MeteoriteImpact.letterLabel>Метеорит</MeteoriteImpact.letterLabel>
   <!-- EN: A large meteorite has struck ground in the area. It has left behind a lump of {0}. -->
-  <MeteoriteImpact.letterText>Крупный метеорит упал неподалёку. В месте падения можно найти {0}.</MeteoriteImpact.letterText> <!-- В IncidentWorker_MeteoriteImpact эта строка проходит через string.Format. Падежи применить нельзя -->
+  <MeteoriteImpact.letterText>Крупный метеорит упал неподалёку. В месте падения можно найти {0}.</MeteoriteImpact.letterText> <!-- ToDo: Применить падеж -->
   
   <!-- EN: psychic drone -->
   <PsychicDrone.label>гул</PsychicDrone.label>
@@ -87,9 +87,9 @@
   
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>дикарь</WildManWandersIn.label>
-  <!-- EN: {PAWN_kind} wanders in -->
+  <!-- EN: {0} wanders in -->
   <WildManWandersIn.letterLabel>{PAWN_kind}</WildManWandersIn.letterLabel>
-  <!-- EN: A person living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame or arrest {PAWN_objective}. -->
+  <!-- EN: A {1} living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame {PAWN_objective}. -->
   <WildManWandersIn.letterText>В эту местность забрёл человек, привыкший жить среди диких животных. {PAWN_possessive} зовут {0}.\n\nВы можете попробовать {PAWN_possessive} приручить.</WildManWandersIn.letterText>
   
 </LanguageData>

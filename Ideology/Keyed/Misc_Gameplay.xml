@@ -5,8 +5,6 @@
   <CustomizeIdeoligion>Редактирование идеолигии</CustomizeIdeoligion>
   <!-- EN: Choose your ideoligion -->
   <ChooseYourIdeoligion>Выбор идеолигии</ChooseYourIdeoligion>
-  <!-- EN: Random -->
-  <Random>Случайно</Random>
   <!-- EN: A random structure will be used for your ideoligion. -->
   <RandomStructureTip>Случайная структура вашей идеолигии.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
@@ -23,7 +21,7 @@
   <LoadSaved>Загрузить</LoadSaved>
   <!-- EN: Structure -->
   <Structure>Структура</Structure>
-  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
   <ChooseYourIdeoligionDesc>Во что должны верить ваши первые поселенцы? Их убеждения повлияют на игровой процесс и визуальное оформление. Эти убеждения вы сможете распространять среди других людей, или же принять чужие.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Создать свою</CreateCustom>
@@ -101,8 +99,10 @@
   <Styles>Стили</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Шанс получить принцип</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>Любимый цвет {PAWN_labelShort}. Ношение более {PERCENTAGE} одежды этого цвета или цвета {PAWN_possessive} идеолигии улучшат {PAWN_objective} настроение.\n\nЦвет одежды можно поменять на туалетном столике, используя красители.</FavoriteColorTooltip>
+  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <FavoriteColorTooltip>Любимый цвет {PAWN_labelShort}. Ношение более {PERCENTAGE} одежды этого цвета {ORIDEO} улучшат {PAWN_objective} настроение.\n\nЦвет одежды можно поменять на туалетном столике, используя красители.</FavoriteColorTooltip>
+  <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
+  <OrIdeoColor>или цвета {PAWN_possessive} идеолигии</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Окрасить в цвет идеолигии</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -165,15 +165,15 @@
   <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
   <UnableToLoadIdeoPreceptNotAllowed>Принцип «{PRECEPT}» не подходит для фракций, не управляемых игроком.</UnableToLoadIdeoPreceptNotAllowed>
 
-  <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
+  <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
   <RitualTargetGraveInfo>В могиле находится труп {PAWN_labelShort}.</RitualTargetGraveInfo>
-  <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
+  <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
   <RitualTargetEmptyGraveInfo>Пустая могила для оплакивания {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
-  <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
+  <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>В могиле покоится {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
-  <!-- EN: A grave containing a corpse. -->
+  <!-- EN: Grave containing a corpse -->
   <RitualTargetGraveInfoAbstractNoIdeo>В могиле находится труп.</RitualTargetGraveInfoAbstractNoIdeo>
-  <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
+  <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
   <RitualTargetEmptyGraveInfoAbstract>Пустая могила для оплакивания {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>Тело {PAWN_labelShort} сперва должно быть погребено</RitualTargetGraveInfoMustBeBuried>
@@ -183,8 +183,6 @@
   <RitualTargetGatherAltarOrRitualSpotInfo>Алтарь или другое ритуальное место.</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
   <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Алтарь, идеограмма или другое ритуальное место.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
-  <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>Диско-шар или ритуальное место. Диско-шар и колонки должны быть подключены.</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
   <RitualTargetLightBallIsNotPowered>Диско-шар обесточен.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
@@ -197,12 +195,10 @@
   <RitualTargetNoDrum>Нет барабанов.</RitualTargetNoDrum>
   <!-- EN: Need at least {0} unroofed cells nearby. -->
   <RitualTargetNeedUnroofedCells>Необходимо хотя бы {0_numCase ? клетка : клетки : клеток} без крыши.</RitualTargetNeedUnroofedCells>
-  <!-- EN: A lit campfire or ritual spot. -->
-  <RitualTargetCampfirePartyInfo>Зажжённый костёр или место для ритуала.</RitualTargetCampfirePartyInfo>
-  <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
-  <RitualTargetCampfireSkylanternsInfo>Зажжённый костёр или место для ритуала. Необходимо убрать крышу хотя бы в 25 клетках от зоны.</RitualTargetCampfireSkylanternsInfo>
-  <!-- EN: An unconnected Gauranlen tree. -->
-  <RitualTargetUnconnectedGaruanlenTreeInfo>Несвязанное древо Гауранлен.</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <!-- EN: a lit campfire -->
+  <RitualTargetCampfirePartyInfo>зажжённый костёр</RitualTargetCampfirePartyInfo>
+  <!-- EN: an unconnected Gauranlen tree -->
+  <RitualTargetUnconnectedGaruanlenTreeInfo>несвязанное древо Гауранлен</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Уже связанно с {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
@@ -215,8 +211,6 @@
   <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} не верит в идеолигиозное шрамирование и не хочет быть {PAWN_gender ? шрамированным : шрамированной}.</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
   <RitualScarificationWarnWimp>{PAWN_labelShort} хлюпик и не хочет быть {PAWN_gender ? шрамированным : шрамированной}.</RitualScarificationWarnWimp>
-  <!-- EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded. -->
-  <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} не верит в идеолигиозное ослепление и не хочет быть {PAWN_gender ? ослеплённым : ослеплённой}.</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} хлюпик и не хочет быть {PAWN_gender ? ослеплённым : ослеплённой}.</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
@@ -281,24 +275,12 @@
   <IdeoBuildingVariationOf>Это сооружение является разновидностью</IdeoBuildingVariationOf>
   <!-- EN: Minimum expectations -->
   <IdeoBuildingMinimumExpectations>Минимальные ожидания</IdeoBuildingMinimumExpectations>
-  <!-- EN: size -->
-  <Size>размер</Size>
-  <!-- EN: cost -->
-  <Cost>стоимость</Cost>
   <!-- EN: optional -->
   <Optional>необязательно</Optional>
   <!-- EN: expectations -->
   <Expectations>ожидания</Expectations>
-  <!-- EN: Can start any time -->
-  <RitualStartAnyTime>Можно начать в любое время</RitualStartAnyTime>
-  <!-- EN: Can start after event -->
-  <RitualStartEvent>Можно начать после события</RitualStartEvent>
-  <!-- EN: Focus objects -->
-  <RitualFocusObjects>Объекты для концентрации</RitualFocusObjects>
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
   <RitualRepeatPenaltyTip>Повторное проведение ритуала в течение {0_numCase ? дня : дней : дней} уменьшит его качество. С прошлого ритуала прошло {1_numCase ? день : дня : дней}, при повторном проведении его качество понизится на {2}. Этот штраф понизится до нуля через {3_numCase ? день : дня : дней}.</RitualRepeatPenaltyTip>
-  <!-- EN: Participating roles -->
-  <RitualParticipatingRoles>Роли участников</RitualParticipatingRoles>
   <!-- EN: For best quality, start the {0} at {1}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart1>Чтобы получить лучший результат, начните {0} у {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
@@ -336,8 +318,6 @@
   <!-- EN: Must be {0} -->
   <RoleRequirementLabelSupremeGender>Должно быть {0}</RoleRequirementLabelSupremeGender>
 
-  <!-- EN: Disabled work -->
-  <RoleDisabledWorkLabel>Недоступная работа</RoleDisabledWorkLabel>
   <!-- EN: Abilities -->
   <RoleGrantedAbilitiesLabel>Способности</RoleGrantedAbilitiesLabel>
   <!-- EN: Required apparel -->
@@ -647,8 +627,10 @@
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл оздоровления.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл оздоровления, а {PAWN_possessive} заболевание — {HEDIFF_label} — было вылечено.</BiosculpterHealCompletedWithCureMessage> <!-- Для Hediff нет подсимвола _gender -->
-  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл омоложения. Следующий цикл {PAWN_pronoun} ожидает пройти через {DEADLINE_numCase ? день : дня : дней}.</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл омоложения.</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <AgeReversalExpectationDeadline>Следующий цикл {PAWN_pronoun} ожидает пройти через {DEADLINE_numCase ? день : дня : дней}.</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл удовольствия.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
