@@ -19,16 +19,16 @@
 
   <!-- EN: {0} opportunity -->
   <RitualOpportunity>Можно провести {0}</RitualOpportunity>
-  <!-- EN: {0} opportunity for -->
-  <RitualOpportunityFor>Можно провести {0} для</RitualOpportunityFor>
-  <!-- EN: Expires in -->
-  <RitualExpiresIn>Истекает через</RitualExpiresIn>
-  <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
-  <RitualCompletionEffects>Если провести {RITUAL_labelDef}, произойдёт следующее</RitualCompletionEffects>
+  <!-- EN: {0} opportunity for {1} -->
+  <RitualOpportunityFor>Можно провести {0} для {1}</RitualOpportunityFor>
+  <!-- EN: Expires in {0}, on {1}. -->
+  <RitualExpiresIn>Истекает через {0}, {1}.</RitualExpiresIn>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>Чтобы начать ритуал, выберите {FOCUS} и нажмите «Начать {RITUAL_label}».</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>Чтобы начать ритуал, выберите что-либо из перечисленного и нажмите «Начать {RITUAL_label}».</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
-  <RitualTargetsExplanation>Чтобы начать ритуал выберите место проведения и нажмите «Начать {RITUAL_label}». Подходящие места проведения:\n{1} </RitualTargetsExplanation>
-  <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>Следующие роли участвуют в {RITUAL_label}:\n{1}</RitualRolesExplanation>
+  <RitualTargetsExplanation>Чтобы начать ритуал, выберите место проведения и нажмите «Начать {RITUAL_label}». Подходящие места проведения:\n{1} </RitualTargetsExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>Нажмите, чтобы перейти к целям</RitualJumpToTargets>
   <!-- EN: In order to perform {0} you need to fill these roles -->
@@ -75,8 +75,8 @@
   <AlertRitualComingDesc>Скоро будет можно провести следующие ритуалы</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>Возможность проведения ритуала истекает через {0_numCase ? день : дня : дней} и появляется ежегодно в тот же день.</AlertRitualComingExtra>
-  <!-- EN: {0} on {1}, {2} left -->
-  <AlertRitualComingEntry>{0} проводится {1}, осталось {2}</AlertRitualComingEntry>
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
+  <AlertRitualComingEntry>{0} проводится {1}, возможность для этого через появится {2}</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
   <AlertAgeReversalDemandNear>Требуется омоложение</AlertAgeReversalDemandNear>

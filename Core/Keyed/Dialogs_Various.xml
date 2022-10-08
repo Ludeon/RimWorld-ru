@@ -13,6 +13,22 @@
   <Close>Закрыть</Close>
   <!-- EN: Accept -->
   <Accept>Принять</Accept>
+  <!-- EN: Cancel -->
+  <Cancel>Отменить</Cancel>
+  <!-- EN: Reset -->
+  <Reset>Сбросить</Reset>
+  <!-- EN: Reset all -->
+  <ResetAll>Сбросить всё</ResetAll>
+  <!-- EN: Disable -->
+  <Disable>Отключить</Disable>
+  <!-- EN: Modify -->
+  <Modify>Изменить</Modify>
+  <!-- EN: Settle here anyways? -->
+  <ConfirmSettle>Всё равно высадиться здесь?</ConfirmSettle>
+  <!-- EN: add -->
+  <Add>добавить</Add>
+  <!-- EN: Cannot shoot -->
+  <CannotShoot>Невозможно стрелять</CannotShoot>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -179,8 +195,12 @@
   <FileIncompatibleWarning>Внимание: Этот файл был сохранён в версии {0}, сейчас вы используете версию {1}.\n\nЗагрузка этого файла может вызвать ошибки и сбои.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Несоответствие модов</ModsMismatchWarningTitle>
-  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
-  <ModsMismatchWarningText>Внимание: Этот файл был сохранён с набором модов, отличным от текущего. Это может вызвать, а может и не вызвать проблемы, в зависимости от содержания модов.\n\nФайл был сохранён с модами, подключёнными в следующем порядке:\n\n{0}\n\nСейчас моды подключены в другом порядке:\n\n{1}</ModsMismatchWarningText>
+  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
+  <ModsMismatchWarningText>Внимание: Этот файл был сохранён с набором модов, отличным от текущего. Это может вызвать, а может и не вызвать проблемы, в зависимости от содержания модов.</ModsMismatchWarningText>
+  <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
+  <ModsMismatchOrderChanged>Моды не были удалены или добавлены, но их порядок изменился.</ModsMismatchOrderChanged>
+  <!-- EN: Are you sure you want to load the mod list from this save file? -->
+  <ConfirmLoadSaveList>Вы уверены, что хотите загрузить набор модов из этого файла?</ConfirmLoadSaveList>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -254,10 +274,10 @@
   <WorkAmount>Объём работ</WorkAmount>
   <!-- EN: Minimum skills: -->
   <MinimumSkills>Минимальные навыки:</MinimumSkills>
-  <!-- EN: Requires {0} {1} -->
-  <BillRequires>Требуется {0} {1}</BillRequires>
-  <!-- EN: Requires {0} nutrition -->
-  <BillRequiresNutrition>Требуется {0} питательности</BillRequiresNutrition>
+  <!-- EN: Requires -->
+  <BillRequires>Требуется</BillRequires>
+  <!-- EN: nutrition -->
+  <BillNutrition>питательности</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
   <BillRequiresMayVary>Заметка: ингредиентов небольшого размера, например, золота, требуется в {0} раз больше.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
@@ -314,7 +334,7 @@
   <WarmupTime>Изготовка</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>Изготовка</MeleeWarmupTime>
-  <!-- EN: Ranged warmup -->
+  <!-- EN: Aiming time -->
   <RangedWarmupTime>Изготовка</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Перезарядка</CooldownTime>
@@ -434,8 +454,12 @@
   <ToleranceFallRate>Снижение толерантности</ToleranceFallRate>
   <!-- EN: New addiction min tolerance -->
   <MinimumToleranceForAddiction>Мин. толерантность для зав-ти</MinimumToleranceForAddiction>
-  <!-- EN: Safe dose interval -->
-  <SafeDoseInterval>Безопасный интервал приёма</SafeDoseInterval>
+  <!-- EN: Safe dose interval for adults -->
+  <SafeDoseInterval>Безопасный интервал приёма для взрослых</SafeDoseInterval>
+  <!-- EN: age {0}-{1} -->
+  <AgeXToY>возраст {0}-{1}</AgeXToY>
+  <!-- EN: age {0}+ -->
+  <AgePlus>возраст {0}+</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>Шанс формирования зависимости</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -528,7 +552,7 @@
   <MeditationFocuses>виды медитации</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
   <MeditationFocusesUnlocked>Разблокирует виды медитации</MeditationFocusesUnlocked>
-  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
   <MeditationFocusesPawnDesc>Виды медитации, которые доступны для данного персонажа. Во время медитации персонаж может концентрироваться на определённом предмете, чтобы улучшить свою пси-концентрацию — но только в том случае, если этот предмет предоставляет доступный персонажу вид медитации. Виды медитации в свою очередь определяются биографией персонажа, его характером, социальным статусом и так далее.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>Виды медитации, которые может предоставить данный предмет. Медитирующий персонаж может концентрироваться на этом объекте, чтобы улучшить свою пси-концентрацию, но только при возможности использовать один из доступных видов медитации. Доступные для персонажа виды медитации определяются биографией, характером, социальным статусом и так далее.</MeditationFocusesDesc>
@@ -1002,8 +1026,8 @@
   <ConfirmSendNotCompletelyLoadedPods>Группа капсул загружена не до конца. {1_labelShort} отсутствует. Всё равно запустить?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
-  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>Это место отстоит от поселений других фракций всего на {0} или менее клеток, и они будут считать, что вы посягаете на их территорию. Отношения с ними будут ухудшаться каждые {1_numCase ? день : дня : дней}.\n\nВсё равно высадиться здесь?</ConfirmSettleNearFactionBase>
+  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
+  <ConfirmSettleNearFactionBase>Это место отстоит от поселений других фракций всего на {0} или менее клеток, и они будут считать, что вы посягаете на их территорию. Отношения с ними будут ухудшаться каждые {1_numCase ? день : дня : дней}.</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
@@ -1020,6 +1044,8 @@
   <ConfirmCancelMonumentMarker>Вы уверены, что хотите удалить метку монумента?</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
+  <!-- EN: Cannot use {0} -->
+  <CannotUseAbility>Невозможно использовать «{lookup: {0}; Case; 3}»</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Требуется прямая видимость</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1034,15 +1060,17 @@
   <AbilityCastingTime>Время для подготовки</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>Цель вне прямой видимости.</AbilityCannotHitTarget>
+  <!-- EN: Target is out of range. -->
+  <AbilityOutOfRange>Цель вне радиуса действия.</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
   <AbilityCannotReachTarget>Цель вне досягаемости.</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>Недостаточно свободного места.</AbilityNotEnoughFreeSpace>
-  <!-- EN: {0} must target an empty area. -->
+  <!-- EN: Must target an empty area. -->
   <AbilityOccupiedCells>Следует указать свободную область.</AbilityOccupiedCells>
-  <!-- EN: {0} must target a walkable area. -->
+  <!-- EN: Must target a walkable area. -->
   <AbilityUnwalkable>Следует указать проходимую область.</AbilityUnwalkable>
-  <!-- EN: {0} must target an unroofed area. -->
+  <!-- EN: Must target an unroofed area. -->
   <AbilityRoofed>Следует указать область без крыши.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0_labelShort} в состоянии нервного срыва.</AbilityCantApplyToMentallyBroken>

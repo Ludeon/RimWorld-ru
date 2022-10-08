@@ -78,8 +78,8 @@
   <WorldGenerate>Создать</WorldGenerate>
   <!-- EN: Save and finish -->
   <WorldSaveAndFinish>Сохранить и закрыть</WorldSaveAndFinish>
-  <!-- EN: Reset -->
-  <Reset>Сбросить</Reset>
+  <!-- EN: Reset factions -->
+  <ResetFactions>Сбросить фракции</ResetFactions>
   <!-- EN: Globe coverage -->
   <PlanetCoverage>Размер карты мира</PlanetCoverage>
   <!-- EN: Overall rainfall -->
@@ -158,8 +158,12 @@
   <ModReorderConflict_MustLoadBefore>Невозможно переставить {0}: он должен загружаться перед {1}.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Деактивировать</Unsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe? -->
+  <ConfirmUnsubscribe>Вы уверены, что хотите отписаться?</ConfirmUnsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
-  <ConfirmUnsubscribe>Вы уверены, что хотите деактивировать мод {0}, отписавшись от него?</ConfirmUnsubscribe>
+  <ConfirmUnsubscribeFrom>Вы уверены, что хотите отписаться от мода {0}?</ConfirmUnsubscribeFrom>
+  <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
+  <ConfirmUnsubscribeFromMultiple>Вы уверены, что хотите отписаться от этих модов?\n\n{0}</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
   <Author>Автор</Author>
   <!-- EN: Workshop page -->
@@ -184,8 +188,10 @@
   <ModClickToGoToWebsite>Перейти на веб-сайт</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>Источник</Source>
-  <!-- EN: For game version(s) -->
-  <ModTargetVersion>Для версии(й) игры</ModTargetVersion>
+  <!-- EN: Game versions -->
+  <ModTargetVersion>Версии игры</ModTargetVersion>
+  <!-- EN: Mod version -->
+  <ModVersion>Версии мода</ModVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
@@ -204,7 +210,7 @@
   <ModWithSameIdAlreadyActive>Другой активный мод имеет тот же ID {0}.</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>Обнаружена циклическая зависимость модов, начиная с {0}.</ModCyclicDependency>
-  <!-- EN: This requires following mods to work: {0}. -->
+  <!-- EN: This requires the following mods to work: {0}. -->
   <ModUnsatisfiedDependency>Этот мод для нормальной работы требует наличие других модов: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Этот мод не предназначен для текущей версии RimWorld и, скорее всего, будет неправильно работать.</ModNotMadeForThisVersion>
@@ -462,7 +468,7 @@
   <DifficultyIdeologySection>Ideology</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>Бонус обращения в начале</Difficulty_LowPopConversionBoost_Label>
-  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
+  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
   <Difficulty_LowPopConversionBoost_Info>При наличии одного поселенца с начальной идеолигией игрока, шанс обращения других людей в эту идеолигию умножается на это значение. Результативность попыток обращения этого поселенца в другую идеолигию делится на это значение.\n\nПри наличии двух поселенцев с начальной идеолигией игрока влияние этой величины уменьшается вдвое.\n\При наличии трёх и более поселенцев с начальной идеолигией игрока это значение не учитывается.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
@@ -500,6 +506,8 @@
   <Elevation>Высота</Elevation>
   <!-- EN: Fertility -->
   <Fertility>Плодородность</Fertility>
+  <!-- EN: fertility -->
+  <FertilityLower>плодородность</FertilityLower>
   <!-- EN: Average temperature -->
   <AvgTemp>Средняя температура</AvgTemp>
   <!-- EN: Rainfall -->
@@ -558,20 +566,22 @@
   <IncapableOf>Недоступно</IncapableOf>
   <!-- EN: Abilities -->
   <Abilities>Способности</Abilities>
-  <!-- EN: Caused by backstory: {0} -->
-  <IncapableOfTooltipBackstory>Из-за биографии: {0}</IncapableOfTooltipBackstory>
-  <!-- EN: Caused by title: {0} -->
-  <IncapableOfTooltipTitle>Из-за титула: {0}</IncapableOfTooltipTitle>
-  <!-- EN: Caused by trait: {0} -->
-  <IncapableOfTooltipTrait>Из-за черты: {0}</IncapableOfTooltipTrait>
-  <!-- EN: Caused by: {0} -->
-  <IncapableOfTooltipHediff>Из-за: {0}</IncapableOfTooltipHediff>
+  <!-- EN: Caused by -->
+  <IncapableOfTooltipHediff>Из-за</IncapableOfTooltipHediff>
   <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>Недоступные виды работ:</IncapableOfTooltipWorkTypes>
-  <!-- EN: Caused by quest status: {0} -->
-  <IncapableOfTooltipQuest>Вызвано статусом задания: {0}</IncapableOfTooltipQuest>
-  <!-- EN: Caused by role: {0} -->
-  <IncapableOfTooltipRole>Вызвано ролью: {0}</IncapableOfTooltipRole>
+  <!-- EN: Caused by backstory -->
+  <IncapableOfTooltipBackstory>Из-за биографии</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title -->
+  <IncapableOfTooltipTitle>Из-за титула</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait -->
+  <IncapableOfTooltipTrait>Из-за черты</IncapableOfTooltipTrait>
+  <!-- EN: Caused by quest status -->
+  <IncapableOfTooltipQuest>Из-за статуса задания</IncapableOfTooltipQuest>
+  <!-- EN: Caused by role -->
+  <IncapableOfTooltipRole>Из-за роли</IncapableOfTooltipRole>
+  <!-- EN: Caused by gene -->
+  <IncapableOfTooltipGene>Из-за гена</IncapableOfTooltipGene>
   <!-- EN: Traits -->
   <Traits>Черты характера</Traits>
   <!-- EN: Permanent mood effect -->
@@ -645,7 +655,7 @@
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Генерация карты</GeneratingMapForNewEncounter>
 
-  <!-- EN: Click for more info -->
+  <!-- EN: Click for more info. -->
   <ClickForMoreInfo>Нажмите для информации</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>Более подробная информация отсутствует.</NoMoreInfoAvailable>
@@ -655,12 +665,10 @@
   <Factions>Фракции</Factions>
   <!-- EN: Gameplay problems can occur with more than {0} factions. -->
   <RecommendedFactionCount>В случае присутствия более {0_numCase ? фракции : фракций : фракций} с игровом процессом могут возникнуть проблемы.</RecommendedFactionCount>
-  <!-- EN: Maximum {0} visible factions allowed. -->
-  <TotalFactionsAllowed>Допускается не более {0_numCase ? видимой фракции : видимых фракций : видимых фракций} .</TotalFactionsAllowed>
-  <!-- EN: There can be no more than {0} {1}. -->
-  <MaxFactionsForType>Допускается не более {0_numCase ? фракции : фракций : фракций} фракций вида «{1}».</MaxFactionsForType>
-  <!-- EN: Restore defaults -->
-  <ResetFactionsToDefault>Восстановить умолчания</ResetFactionsToDefault>
+  <!-- EN: max {0} visible factions allowed -->
+  <TotalFactionsAllowed>не более {0_numCase ? видимой фракции : видимых фракций : видимых фракций}</TotalFactionsAllowed>
+  <!-- EN: max {0} -->
+  <MaxFactionsForType>не более {0}</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>Выберите фракции для этого мира. Можно выбрать до {0_numCase ? фракции : фракций : фракций}.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->

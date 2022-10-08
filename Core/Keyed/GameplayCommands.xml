@@ -128,13 +128,13 @@
 
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Копировать настройки</CommandCopyZoneSettingsLabel>
-  <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
-  <CommandCopyZoneSettingsDesc>Копировать настройки этой области для последующего применения к другим областям.</CommandCopyZoneSettingsDesc>
+  <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
+  <CommandCopyZoneSettingsDesc>Копировать настройки этого хранилища для последующего применения к другим хранилищам.</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>Установить настройки</CommandPasteZoneSettingsLabel>
-  <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
-  <CommandPasteZoneSettingsDesc>Установить ранее скопированные настройки к данной области.</CommandPasteZoneSettingsDesc>
+  <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
+  <CommandPasteZoneSettingsDesc>Применить ранее скопированные настройки к этому хранилищу.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
   <CommandAllowSow>Разрешить сеять</CommandAllowSow>
@@ -143,9 +143,9 @@
 
   <!-- EN: Allow cutting -->
   <CommandAllowCut>Разрешить рубить</CommandAllowCut>
-  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
   <CommandAllowCutDesc>Отключив эту опцию, вы запретите поселенцам рубить растения в этой области, однако они продолжат сеять новые растения в незанятых клетках, а также собирать урожай.</CommandAllowCutDesc>
-
+  
   <!-- Artillery -->
   <!-- EN: Set forced target -->
   <CommandSetForceAttackTarget>Выбрать цель обстрела</CommandSetForceAttackTarget>
@@ -555,7 +555,7 @@
   <CommandDropPawn>Бросить {0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>Бросить человека.</CommandDropPawnDesc>
-  
+
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>Принять наркотик...</TakeDrug>
@@ -580,5 +580,5 @@
   <CommandCancelRitualDesc>Прервать {RITUAL_labelDef} немедленно. Необходимость проведения ритуала останется. Позже вы сможете начать его заново.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>Вы уверены, что хотите прервать {RITUAL_labelDef}?</CommandCancelRitualConfirm>
-  
+
 </LanguageData>

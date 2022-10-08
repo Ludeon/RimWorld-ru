@@ -16,7 +16,7 @@
   <CannotDoThisWork>{1_labelShort} не может выполнять работу такого типа.</CannotDoThisWork>
   <!-- EN: (none) -->
   <NoneBrackets>(отсутствуют)</NoneBrackets>
-  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
+  <!-- EN: This colonist is not able to do any work of this type because of their health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>Этот поселенец не может выполнять работу такого типа из-за состояния своего здоровья.</IncapableOfWorkTypeBecauseOfCapacities>
   <!-- EN: E -->
   <EmergencyWorkMarker>!</EmergencyWorkMarker>
@@ -36,12 +36,12 @@
   <Priority4>Низкий приоритет</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
   <PawnFactionInfo>{0}\n\nФракция, к которой {1_nameDef} принадлежит в данный момент.\n\nНажмите для перехода к фракции.</PawnFactionInfo>
-  <!-- EN: Disabled by backstory: {0} -->
+  <!-- EN: Disabled by {0} backstory -->
   <WorkDisabledByBackstory>Заблокировано биографией: {0}</WorkDisabledByBackstory>
-  <!-- EN: Disabled by trait: {0} -->
+  <!-- EN: Disabled by {0} trait -->
   <WorkDisabledByTrait>Заблокировано чертой: {0}</WorkDisabledByTrait>
-  <!-- EN: Disabled by quest: {0} -->
-  <WorkDisabledByQuest>Заблокировано заданием: {0}</WorkDisabledByQuest>
+  <!-- EN: Disabled by quest '{0}' -->
+  <WorkDisabledByQuest>Заблокировано заданием «{0}»</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -78,6 +78,10 @@
   <PregnantIconDesc>Беременна ({0} / {1})</PregnantIconDesc>
   <!-- EN: Bonded to -->
   <BondedTo>Привязанность к</BondedTo>
+  <!-- EN: Sterilize animal. -->
+  <SterilizeAnimal>Стерилизовать животное.</SterilizeAnimal>
+  <!-- EN: Animal sterile. -->
+  <AnimalAlreadySterile>Животное стерильно.</AnimalAlreadySterile>
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
@@ -184,6 +188,8 @@
   <Research>Исследовать</Research>
   <!-- EN: Study -->
   <Study>Изучить</Study>
+  <!-- EN: Study {0} -->
+  <StudyThing>Изучить {0}</StudyThing>
   <!-- EN: Unresearched -->
   <Unresearched>Не изучено</Unresearched>
   <!-- EN: Finished -->
@@ -200,6 +206,8 @@
   <InsufficientTechprintsApplied>Применены не все требуемые чертежи ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>Условия не выполнены</PrerequisitesNotCompleted>
+  <!-- EN: Missing required research facilities -->
+  <MissingRequiredResearchFacilities>Отсутствует требуемое исследовательское оборудование</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
   <RequiredResearchBench>Требуемый стол для исследований</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
@@ -340,5 +348,9 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Создаёт нужду</CreatesNeed>
+
+  <!-- Misc -->
+  <!-- EN: Click to edit -->
+  <ClickToEdit>Нажмите для изменения</ClickToEdit>
 
 </LanguageData>

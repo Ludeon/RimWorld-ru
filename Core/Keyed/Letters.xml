@@ -13,7 +13,7 @@
 
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Лето</LetterLabelFirstSummerWarning>
-  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nTo prepare for winter, buy, steal, or make some parkas, or you'll freeze when you step outside. -->
   <FirstSummerWarning>Началось лето! Но зима всё ближе.\n\nИмейте в виду: ваши посевы не будут расти в холод, а потому убедитесь, что запасов продовольствия хватит на всю зиму. Чтобы еда не портилась, можно построить для неё помещение с охлаждением.\n\nИ постарайтесь купить, украсть или сделать несколько пуховиков, иначе с наступлением зимы вы замёрзнете, едва высунувшись наружу.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
@@ -45,8 +45,8 @@
   <!-- EN: Death -->
   <Death>Смерть</Death>
 
-  <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
-  <ShortCircuitRain>Из-за того, что {1_label} находится под дождём, возникает короткое замыкание, и начинается пожар.</ShortCircuitRain>
+  <!-- EN: A {1_label} has short-circuited due to precipitation and started a fire. -->
+  <ShortCircuitRain>Из-за воздействия атмосферных осадков в {lookup: {1_label}; Case; 5} возникает короткое замыкание, и начинается пожар.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
   <LetterLabelAreaRevealed>Открыта область</LetterLabelAreaRevealed>
@@ -76,8 +76,10 @@
   <LetterLabelBirthday>День рождения</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>У {0} сегодня хронологический день рождения! Биологический возраст {0} — {3}.\n\nХронологический возраст — {2}.\n\nИз-за того, что в состоянии криптосна люди не стареют, их хронологический возраст отличается от биологического.</BirthdayChronological>
-  <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
-  <BirthdayBiologicalAgeInjuries>{0_nameFull} {0_gender ? достиг : достигла} биологического возраста {1} лет.\n\nК сожалению, при этом у н{0_possessive} проявились следующие возрастные заболевания:\n{2}</BirthdayBiologicalAgeInjuries>
+  <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
+  <LetterBirthdayBiological>{0_nameFull} {0_gender ? достиг : достигла} биологического возраста {1} лет.</LetterBirthdayBiological>
+  <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
+  <BirthdayBiologicalAgeInjuries>К сожалению, при этом у н{0_possessive} проявились следующие возрастные заболевания</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Инфекция</LetterLabelNewDisease>
@@ -419,24 +421,12 @@
   <LetterPredatorHuntingColonist>{PREDATOR} охотится на {lookup: {PREY_definite}; Case; 3}!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
-  <!-- EN: {0} blocked {1} on: {2}. -->
-  <LetterDisease_Blocked>У этих людей {0} блокирует {lookup: {1}; Case; 3}: {2}.</LetterDisease_Blocked>
+  <!-- EN: {0} blocked {1} on -->
+  <LetterDisease_Blocked>У этих людей {0} блокирует {lookup: {1}; Case; 3}</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Болезнь: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>У {PAWN_label} {1}.\n\nУбедитесь, что у вас есть медицинская кровать и доктор. {PAWN_labelShort} нуждается в надлежащем лечении и постельном режиме.</LetterTraitDisease>
-
-  <!-- Surgery -->
-  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <LetterLabelSurgeryFailed>Операция над {PATIENT_labelShort} провалилась.</LetterLabelSurgeryFailed>
-  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} ошибку во время операции ({RECIPE_label}) над {PATIENT_labelShort}.</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} серьёзную ошибку во время операции ({RECIPE_label}) над {PATIENT_labelShort}.</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} нелепую ошибку во время операции ({RECIPE_label}) над {PATIENT_labelShort}.</MessageMedicalOperationFailureRidiculous>
-  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} фатальную ошибку во время оперирования {PATIENT_labelShort} из-за особой сложности операции: {2}</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -552,5 +542,15 @@
   <LetterLabelSiteCountdownStarted>Караван замечен</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
   <LetterTextSiteCountdownStarted>Ваш караван был замечен. Через {0} в это место придут {1} из фракции {2}.\n\nЧтобы избежать столкновения с ними, прикажите каравану продолжить путь. Время до прибытия противника указано на таймере.</LetterTextSiteCountdownStarted>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>{PAWN_nameDef} присоединяется</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>{PAWN_nameDef} желает присоединиться к вашей фракции.</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>{PAWN_nameDef} в восторге от пребывания в {MAP_definite} и хочет остаться с вами навсегда.</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>Принять</LetterJoinOfferAccept>
 
 </LanguageData>
