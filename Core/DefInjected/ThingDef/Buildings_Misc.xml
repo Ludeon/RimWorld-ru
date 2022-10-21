@@ -30,8 +30,8 @@
   <FirefoamPopper.label>хлопушка с пожарной пеной</FirefoamPopper.label>
   <!-- EN: When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually. -->
   <FirefoamPopper.description>При взаимодействии с огнём или ручной активации взрывается и разбрасывает в определённом радиусе вокруг себя пожарную пену.</FirefoamPopper.description>
-  <!-- EN: Trigger firefoam popper -->
-  <FirefoamPopper.comps.CompUsable.useLabel>Привести в действие пожарную хлопушку</FirefoamPopper.comps.CompUsable.useLabel>
+  <!-- EN: Trigger {0_label} -->
+  <FirefoamPopper.comps.CompUsable.useLabel>Привести в действие {lookup: {0_label}; Case; 3}</FirefoamPopper.comps.CompUsable.useLabel>
   
   <!-- EN: grave -->
   <Grave.label>могила</Grave.label>
