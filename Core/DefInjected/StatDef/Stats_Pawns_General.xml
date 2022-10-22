@@ -6,6 +6,9 @@
   <!-- EN: A multiplier on the learning rate for animals skill. -->
   <AnimalsLearningFactor.description>Множитель эффективности обучения животного любому навыку.</AnimalsLearningFactor.description>
   
+  <!-- EN: bed hunger rate multiplier -->
+  <BedHungerRateFactor.label>множитель голода во сне</BedHungerRateFactor.label>
+  
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>скорость езды в караване</CaravanRidingSpeedFactor.label>
   <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
@@ -60,6 +63,16 @@
   <LeatherAmount.label>количество кожи</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <LeatherAmount.description>Получаемое количество кожи в случае забоя существа. Число уменьшится, если существо забито неправильно или если перед смертью было покалечено.</LeatherAmount.description>
+  
+  <!-- EN: lifespan factor -->
+  <LifespanFactor.label>продолж-ть жизни</LifespanFactor.label>
+  <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
+  <LifespanFactor.description>Продолжительность жизни влияет на эффективный срок жизни существа, ускоряя или замедляя время до развития возрастных заболеваний. Продолжительность жизни более 100% замедляет наступление болезней и увеличивает общий срок жизни, а продолжительность жизни менее 100% ускоряет наступление болезней и сокращает срок жизни.</LifespanFactor.description>
+  
+  <!-- EN: max nutrition -->
+  <MaxNutrition.label>максимальная сытость</MaxNutrition.label>
+  <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
+  <MaxNutrition.description>Количество пищи, необходимое для полного заполнения желудка существа.</MaxNutrition.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>количество мяса</MeatAmount.label>
@@ -118,5 +131,15 @@
   <RestRateMultiplier.label>эффективность сна</RestRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
   <RestRateMultiplier.description>Показатель того, насколько быстро существо восстанавливает силы во время сна.</RestRateMultiplier.description>
+  
+  <!-- EN: toxic environment resistance -->
+  <ToxicEnvironmentResistance.label>устойчивость к токсичной среде</ToxicEnvironmentResistance.label>
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against toxic fallout and rot stink exposure, but not against direct attacks with venom or injected poison. -->
+  <ToxicEnvironmentResistance.description>Устойчивость существа к воздействию токсинов окружающей среды. Защищает от воздействия токсичных осадков и вони гниения, но не от прямых атак ядом или отравления.</ToxicEnvironmentResistance.description>
+  
+  <!-- EN: toxic resistance -->
+  <ToxicResistance.label>сопротивление токсинам</ToxicResistance.label>
+  <!-- EN: How well this creature resists toxic buildup. -->
+  <ToxicResistance.description>Насколько эффективно это существо противостоит накоплению токсинов.</ToxicResistance.description>
 
 </LanguageData>
