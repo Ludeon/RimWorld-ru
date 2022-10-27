@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+  <MessageColonistReaching2ndTrimesterPregnancy>{PAWN_labelShort} беременность перешла от 1 к 2-му триместр.</MessageColonistReaching2ndTrimesterPregnancy>
+  <MessageColonistReaching3rdTrimesterPregnancy>{PAWN_labelShort} беременность перешла от 2-го к 3-му триместру.</MessageColonistReaching3rdTrimesterPregnancy>
+  <MessageColonistInFinalStagesOfLabor>{PAWN_labelShort} роды подходят к концу.</MessageColonistInFinalStagesOfLabor>
+
+  <MessageMechChargerDestroyedMechGoesBerserk>Зарядная станция была уничтожена когда {PAWN_nameDef} был на зарядке! Ошибка в питании повредила его системный отсек, и теперь он будет убивать всех кого увидит.</MessageMechChargerDestroyedMechGoesBerserk>
+
+  <MessageCantUseOnResistingPerson>Невозможно использовать {ABILITY_label} на любого того кто будет активно сопротивляться.</MessageCantUseOnResistingPerson>
+  <MessageCannotUseOnSameXenotype>{0_labelShort} уже {0_xenotype} ксенотип.</MessageCannotUseOnSameXenotype>
+  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Ксеногермы могут быть имплантировано только в поселенцев , заключенных , и рабов.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
+  <MessageCannotImplantInTempFactionMembers>Невозможно имплантировать в времененного члена фракции.</MessageCannotImplantInTempFactionMembers>
+  <MessageXenogermCompleted>Ксеногерм был успешно завершён.</MessageXenogermCompleted>
+  <MessageXenogermCancelledMissingPack>Работа над ксеногермом на {0_labelShort} была отменена: Отсутствуют необходимые гены.</MessageXenogermCancelledMissingPack>
+  <MessageAbsorbingXenogermWillAngerFaction>Поглощение {PAWN_nameDef} ксеногерма разозлит {0}.</MessageAbsorbingXenogermWillAngerFaction>
+  <MessageCannotUseOnOtherFactions>{ABILITY_label} может быть использован только на поселенцах, заключенных, и рабов.</MessageCannotUseOnOtherFactions>
+
+  <MessageCaravanAddingEscortingMech>Авто-добавление {MECH_nameDef} в караван, если его сопровождает {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
+  <MessageCaravanRemovingEscortingMech>Авто-удаление {MECH_nameDef} из караване, если его сопровождает {OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
+
+  <MessageMechanitorCasketOpened>{0} был механитором. Вы можете извлечь {0_possessive} {1_label} и использовать на своём поселенце.</MessageMechanitorCasketOpened>
+  
+  <MessageNoBloodfeedersPrisonerInteractionReset>Некоторые поселенцы потребуют потребление крови. Вы можете высасывать кровь у заключенных назначив им статус кормителя кровью ,  когда последний кормитель кровью будет потерян, взаимодействие с ним будет установлено на "Не взаимодействовать".</MessageNoBloodfeedersPrisonerInteractionReset>
+
+  <MessagePregnancyTerminated>{PAWN_nameDef} беременность была успешна прервана.</MessagePregnancyTerminated>
+  
+  <!-- Pollution -->
+  <MessageWarningPollutedCell>Нужна не загрязненная поверхность.</MessageWarningPollutedCell>
+  <MessageWarningNotPollutedCell>Нужна загрязненная поврехность.</MessageWarningNotPollutedCell>
+  <MessagePlantDiedOfPollution>{0} погиб от загрязнения.</MessagePlantDiedOfPollution>
+  <MessagePlantDiedOfNoPollution>{0} погиб из-за отсутствия загрязнения.</MessagePlantDiedOfNoPollution>
+  <MessageWorldTilePollutionChanged>Загрязнение было увеличено из-за {0} в {1}.</MessageWorldTilePollutionChanged>
+  <MessageCocoonDisturbed>Кокон с насекомыми был встревожен и он открылся!</MessageCocoonDisturbed>
+  <MessageCocoonDisturbedPlural>Коконы с насекомыми были встревожены и открываются!</MessageCocoonDisturbedPlural>
+
+  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} должен быть без сознания прежде чем он сможет {PAWN_objective} для реимплантации {PAWN_possessive} ксеногерма.</MessageTargetMustBeDownedToForceReimplant>
+
+  <MessageWorkTypeDisabledAge>{0_nameDef} всего лишь {1} лет. {2} работа может быть доступна только с {3}.</MessageWorkTypeDisabledAge>
+
+  <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} теперь может выходить из глубокого сна без проблем для себя.</MessageDeathrestingPawnCanWakeSafely>
+
+  <MessageMechanitorLostControlOfMech>{0_nameDef} потерял контроль над {1_kindBase} механоидом</MessageMechanitorLostControlOfMech>
+  <MessageMechanitorDisconnectedFromMech>{0_nameDef} был отключен от {1_nameDef} механоида.</MessageMechanitorDisconnectedFromMech>
+
+  <!-- Xenogerm -->
+  <MetabolismTooLowToCreateXenogerm>Общее количество метаболизма выбранных генов должно быть не меньше {MIN} или больше, но сейчас выбрано лишь {AMOUNT}.</MetabolismTooLowToCreateXenogerm>
+  <ComplexityTooHighToCreateXenogerm>Общая генетическая комплексность выбранных генов должна быть не меньше {MAX} или более для создания ксеногерма, но сейчас выбрано лишь {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
+  <MessageNoSelectedGenepacks>Невозможно создать ксеногерм без генов.</MessageNoSelectedGenepacks>
+  <MessageNoSelectedGenes>Невозможно создать ксеногерм без генов.</MessageNoSelectedGenes>
+  <CanOnlyStoreNumGenepacks>{0_label} может хранить только {1} генов.</CanOnlyStoreNumGenepacks>
+  <XenotypeNameCannotBeEmpty>Название ксенотипа не может быть пустым.</XenotypeNameCannotBeEmpty>
+  <MessageGeneMissingPrerequisite>{0} отсутствует обязательный ген</MessageGeneMissingPrerequisite>
+
+  <MessageDeathrestCapacityChanged>{PAWN_nameDef} шкала глубокого сна была увеличена с {OLD} до{NEW}.</MessageDeathrestCapacityChanged>
+
+  <SanguophagesArrivingSoon>Сангофаг прибудет через несколько часов для встречи.</SanguophagesArrivingSoon>
+  <SanguophagesBegunMeeting>Сангофаги начали встречу.</SanguophagesBegunMeeting>
+  <SanguophagesLeavingTemperature>Сангофаги покидают вас из-за непригодных температурных условий.</SanguophagesLeavingTemperature>
+
+  <MessagePawnWokenFromSunlight>{PAWN_nameDef} был пробужден {PAWN_possessive} из глубокго сна, из-за воздействия солнечного света.</MessagePawnWokenFromSunlight>
+  <MessageBedExposedToSunlight>Кровать {BED_labelShort} {PAWN_nameDef} назначенная для глубокого сна была подвержена воздействию солнечного света. {PAWN_nameDef} cannot deathrest there.</MessageBedExposedToSunlight>
+
+  <!-- Mechanitor -->
+  <MessagePawnKilledRipscanner>{PAWN_nameDef} мозг был уничтожем ядерным рипсканнером.</MessagePawnKilledRipscanner> 
+
+  <MessageCannotResurrectDessicatedCorpse>Невозможно восстановить высохшие трупы.</MessageCannotResurrectDessicatedCorpse>
+
+  <MessageAboutToExplode>{0} вот вот взорвётся!</MessageAboutToExplode>
+
+  <!-- Childcare -->
+  <MessageChildcareDisabled>{FEEDER_labelShort} не может выполнять уход за детьми.</MessageChildcareDisabled>
+  <MessageChildcareNotAssigned>{FEEDER_labelShort} не назначен на уход за детьми.</MessageChildcareNotAssigned>
+
+  <MessageTooManyCustomXenotypes>У вас уже максимальное количество собственных ксенотипов. Вы можете удалить несколько , если хотите создавать новые.</MessageTooManyCustomXenotypes>
+  <MessageConflictingGenesPresent>Невозможно сохранить ксенотип с множеством несовместимых генов.</MessageConflictingGenesPresent>
+
+  <MessageDeathrestBuildingBound>{BUILDING_labelShort} был привязан к {PAWN_nameDef} ({CUR}/{MAX} шкала глубокого сна).</MessageDeathrestBuildingBound>
+
+  <MessageDevelopmentalStageSelectionDisabledByScenario>Выбор этапа отключен из-за сценария.</MessageDevelopmentalStageSelectionDisabledByScenario>
+
+  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef} имеет недостаточно крови чтобы сделать пакеты с кровью </MessagePawnHadNotEnoughBloodToProduceHemogenPack>
+  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} не имеет достаточно крови для пакета с кровью.</MessageCannotStartHemogenExtraction>
+
+  <MessageCannotPostponeGrowthMoment>Вы должны выбрать каким {PAWN_nameDef} вырастить в будущем.</MessageCannotPostponeGrowthMoment>
+
+  <MessageDraftedPawnCarryingBaby>Предупреждение: {0_labelShort} переносит ребёнка в боевом режиме.</MessageDraftedPawnCarryingBaby>
+
+</LanguageData>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <SelfShutdown>Автоматическая само-зарядка</SelfShutdown>
+  <CarryToRecharger>Перености до зарядной станции</CarryToRecharger>
+  <MustBeCarriedToRecharger>Должен быть перенёс до зарядной станции.</MustBeCarriedToRecharger>
+  <Danger>Опасноть</Danger>
+  <DamageType>{0} повреждён</DamageType>
+  <ContainedThings>Содержится {0_labelPlural}</ContainedThings>
+  <DurationUntilNextAtomization>Время до следующей атомизации</DurationUntilNextAtomization>
+  <FinishesIn>Закончится через</FinishesIn>
+  <WithLower>в</WithLower>
+  <TilesLower>плитки</TilesLower>
+  <CaravanMech>1 механоид</CaravanMech>
+  <CaravanMechsCount>{0} механоидов</CaravanMechsCount>
+
+  <!-- Job reports -->
+  <ReportRemovingMechlink>удаление {0}.</ReportRemovingMechlink>
+
+  <!-- Areas -->
+  <PollutionClear>Зона очистки загрязнения</PollutionClear>
+
+  <!-- Mechanitor -->
+  <Overseer>Следящий за механоидами</Overseer>
+  <OverseerNone>Никто (не под контролем)</OverseerNone>
+  <MayGoFeral>Может убрести в любой момент</MayGoFeral>
+  <Bandwidth>Пропускная способность</Bandwidth>
+  <BandwidthLower>пропускная способность</BandwidthLower>
+  <BandwidthGizmoTip>Механитор может упрвлять механоидом только если имеет досточную пропускную способность. Каждый механоид потребляет разное количество пропускной способности.\n\nВы можете увеличить количество пропускной способности построив узлы пропускной способности и настроив механитора в этом узле, или одев специализированную механиторскую одежду.</BandwidthGizmoTip>
+  <ControlGroup>Контролировать группу</ControlGroup>
+  <CurrentMechWorkMode>Текущий режим</CurrentMechWorkMode>
+  <AssignedMechs>Назначенные механоиды</AssignedMechs>
+  <BandNodeTunedTo>Настроен на</BandNodeTunedTo>
+  <BandNodeTuneTo>Настроить на </BandNodeTuneTo>
+  <BandNodeTuningTo>Настройка на</BandNodeTuningTo>
+  <BandNodeRetuneTo>Перенастройка</BandNodeRetuneTo>
+  <BandNodeTuningDesc>Настройки пропускной узел механитору. Настрока займёт {0} до завершения.</BandNodeTuningDesc>
+  <BandNodeRetuningDesc>Перенастройке этот узел пропускной способности, к другому механитору. Перенастройка займёт {0} до завершения.</BandNodeRetuningDesc>
+  <DropThingBandwidthApparel>Удаление{0} изменит {1_labelShort} пропускную способность с  {2} до {3}. Это означает что следующие механоиды не будут под контролемъ</DropThingBandwidthApparel>
+  <NoMechs>нету механоидов</NoMechs>
+  <Group>Группа</Group>
+  <Groups>Группы</Groups>
+  <LoadingMechGestator>Загрузка ресурсов для станции создания механоидов</LoadingMechGestator>
+  <InitMechGestationCycle>Инициализация цикла в станции для создания механоидаInitiating mech gestation cycle</InitMechGestationCycle>
+  <InitMechBirth>Инициализация создания механоида</InitMechBirth>
+  <MechEnergy>Энергия механоида</MechEnergy>
+  <Energy>Энергия</Energy>
+  <EnergyLower>энергия</EnergyLower>
+  <BandwidthUsage>Использования пропускной способности</BandwidthUsage>
+  <MechGestationBandwidthUsed>Использование механоидом пропускной способности</MechGestationBandwidthUsed>
+  <CannotSummon>Невозможно призвать {0} угрозу</CannotSummon>
+  <ReadyToSummonThreat>{0} угроза готова к призыву</ReadyToSummonThreat>
+  <Summon>Summon {0} угроза</Summon>
+  <NoReachableBossgroupCaller>Недоступно {0}</NoReachableBossgroupCaller>
+  <NoReservableBossgroupCaller>Не зарезервировано{0}</NoReservableBossgroupCaller>
+  <NoPoweredBossgroupCaller>Не подключено к электричеству {0}</NoPoweredBossgroupCaller>
+  <AlreadyUsed>уже используется</AlreadyUsed>
+  <Gestating>Создавание</Gestating>
+  <Escorting>Сопровождение {TARGET_labelShort}.</Escorting>
+  <Worker>Рабочий</Worker>
+  <WaitingFor>Ожидает</WaitingFor>
+  <Uncontrolled>Не подконтролем</Uncontrolled>
+
+  <!-- Sanguophage -->
+  <Hemogen>шкала крови</Hemogen>
+  <HemogenDesc>Кровь это необходимая для жизни сангофагов энергия. Обычные люди имеют кровь так что вы можете употреблять её для того чтобы выжить. Некоторые человеческие ксенотипы используют кровь только для способностей, пока другие употребляют её для того чтобы выжить.</HemogenDesc>
+  <DeathrestCapacity>вместимость для глубокого сна</DeathrestCapacity>
+  <DeathrestCapacityDesc>Это означает насколько много кроватей для глубокого сна может быть использовано человеком во время глубокого сна. Каждая из кроватей для глубокого сна даёт свою пользу, так что к лучшему только как можно большее количество назначать.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders.</DeathrestCapacityDesc>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} уже назначен на {CURRENT} / {MAX} (max) кроватей для глубокого сна.</PawnIsConnectedToBuildings>
+  <Wake>пробудить сейчас</Wake>
+  <WakeDesc>Пробудить челвоека из глубокого сна прямо сейчас.\n\n{PAWN_nameDef} находился в глубоком сне {DURATION}.</WakeDesc>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} необходимо быть глубоком сне хотя-бы {TOTAL}. Пробудив {PAWN_objective} раньше времени {PAWN_objective} будет себя неважно чуствовать, и {PAWN_pronoun} получит пользы от кроватей для глубокого сна.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Safe>{PAWN_nameDef} теперь может пробуждаться без последствий.</WakeExtraDesc_Safe>
+  <CannotWakeNotEnoughHemogen>Невозможно пробудить. Необходимо хотя-бы {0} крови.</CannotWakeNotEnoughHemogen>
+  <AutoWake>Авто-пробуждение</AutoWake>
+  <AutoWakeDesc>Когда включено, {PAWN_nameDef} автоматически пробудиться когда {PAWN_possessive} глубокий сон завершится.\n\nКогда выключено, {PAWN_pronoun} будет продолжать находиться в глубоком сне пока вы не пробудите {PAWN_objective} вручную.</AutoWakeDesc>
+  <IsDeathresting>{PAWN_nameDef} в глубоком сне.</IsDeathresting>
+  <CannotDeathrest>Невозможно погрузить в глубокий сон</CannotDeathrest>
+  <StartDeathrest>Начать глубокий сон</StartDeathrest>
+  <ConfirmExitDeathrestUnderMinDays>Безопасный глубокий сон занимает {MINDURATION}, но {PAWN_nameDef} находился в глубком сне только {CURDURATION}.\n\nПробуждение {PAWN_nameDef} прервёт {PAWN_possessive} глубокий сон, перевернёт {PAWN_possessive} метаболизм из равносесия и  {PAWN_objective} заболеет на несколько дней до восстановления.\n\nВы уверены что хотите раньше времени {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
+  <Deathresting>в глубоком сне</Deathresting>
+  <Complete>завершён</Complete>
+  <CanWakeSafely>теперь может пробуждаться без последствий.</CanWakeSafely>
+  <DisabledByGene>Недоступно из-за гена</DisabledByGene>
+  <WakeDisabledCriticalCondition>{PAWN_nameDef} в критическом состоянии.</WakeDisabledCriticalCondition>
+  <DrainRate>Степень истощенности</DrainRate>
+  <RegenerationRate>Степень регенерации</RegenerationRate>
+  <NextDeathrestNeed>{PAWN_nameDef} должен погрузиться в глубокий сон на {DURATION} чтобы избежать истощения.</NextDeathrestNeed>
+  <PawnShouldDeathrestNow>{PAWN_nameDef} должен погрузиться в глубокий сон как можно скорее чтобы избежать истощения.</PawnShouldDeathrestNow>
+  <ConsumeHemogenBelow>Потребление крови ниже</ConsumeHemogenBelow>
+  <NeverConsumeHemogen>Никогда не потреблять кровь.</NeverConsumeHemogen>
+  <WillKill>Убьёт</WillKill>
+  <WillCauseSeriousBloodloss>Вызовёт большую кровопотерю</WillCauseSeriousBloodloss>
+  <TooSmall>слишком маленький</TooSmall>
+
+  <!-- Deathrest buildings -->
+  <BoundTo>Назначена к</BoundTo>
+  <WillBindOnFirstUse>Навсегда будет назначена при первом использовании.</WillBindOnFirstUse>
+  <TimeActiveThisDeathrest>Время длительности глубокого сна</TimeActiveThisDeathrest>
+  <MinimumNeededToApply>Минимально необходимо {0} для применения</MinimumNeededToApply>
+  <CannotAssignBedCannotDeathrest>Невозможно погрузить в глубокий сон</CannotAssignBedCannotDeathrest>
+  <CannotAssignAlreadyBound>Уже назначено к {0_nameDef}</CannotAssignAlreadyBound>
+  <CannotAssignBedCannotBindToMoreBuildings>Не возможно привязать больше {BUILDING_labelPlural}</CannotAssignBedCannotBindToMoreBuildings>
+
+  <!-- Aptitudes -->
+  <Aptitude>способность</Aptitude>
+  <Aptitudes>способности</Aptitudes>
+  <AptitudePlural>способности</AptitudePlural>
+  <AptitudesDesc>Способности позволяют повышать навыки больше чем они были раньше.\n\nНапример, со способностью +1 к навыку поселенцу с уровнем навыка 5 позволит ему поднять моментально навык до 6.\n\nОбщее количество не может быть больше 20 уровня навыков , или меньше 1 уровня навыков.</AptitudesDesc>
+  <Total>общее количество</Total>
+  
+  <!-- Human pregnancy -->
+  <FatherTip>Отец</FatherTip>
+  <MotherTip>Генетическая мать</MotherTip>
+  <RitualTargetChildBirth>незанятая кровать</RitualTargetChildBirth>
+  <NoAppropriateBedChildBirth>Нету подходящей кровати для рождения ребёнка.</NoAppropriateBedChildBirth>
+  <NoDoctorChildBirth>Нету не одного доктора для родов.</NoDoctorChildBirth>
+  <CantUseThisBed>Невозможно использовать эту кровать.</CantUseThisBed>
+  <NotInLabor>Не при родах.</NotInLabor>
+  <Labor>роды</Labor>
+  <LaborDilation>растяжение</LaborDilation>
+  <PregnancyApproach_Normal>нормально</PregnancyApproach_Normal>
+  <PregnancyApproach_AvoidPregnancy>лучше избежать беременности</PregnancyApproach_AvoidPregnancy>
+  <PregnancyApproach_TryForBaby>попробовать для ребёнка</PregnancyApproach_TryForBaby>
+  <PregnancyChance>шанс на рождения ребёнка</PregnancyChance>
+  <PregnancyApproach>Приближение беременности</PregnancyApproach>
+  <ClickToChangePregnancyApproach>Нажмите чтобы изменить приближение беременности.</ClickToChangePregnancyApproach>
+  <PregnancyNotPossible>Беременность невозможна</PregnancyNotPossible>
+  <BirthRitualHealthyBabyChance>Шанс на здорового ребёнка с данным уровнем качества был {0_percentage}.</BirthRitualHealthyBabyChance>
+  <GivingBirth>Рождение.</GivingBirth>
+
+  <!-- Shield comp -->
+  <ShieldEnergy>Энергия щита</ShieldEnergy>
+  <ShieldTimeToRecovery>Время на восстановление щита</ShieldTimeToRecovery>
+
+  <!-- Genes -->
+  <Genes>гены</Genes>
+  <GenesDesc>Гены связанные с данным ксенотипом.</GenesDesc>
+  <Suppressed>подавлен</Suppressed>
+  <Active>активен</Active>
+  <SuppressedDesc>Эта черта характера была подавлена конфликтующим генетической чертой характера , или геном. Она не будет доступна пока все конфликты не будут устранены</SuppressedDesc>
+  <Trait>черта характера</Trait>
+  <Gene>ген</Gene>
+  <AddedByGene>Добавлено геном</AddedByGene>
+  <EjectAll>Ивзлечь всё</EjectAll>
+  <EjectAllDesc>Извлечь все гены и положить на землю.</EjectAllDesc>
+  <GenepacksStored>Гены хранятся</GenepacksStored>
+  <ForcedTraits>Принудительные черты характера</ForcedTraits>
+  <SuppressedTraits>Подавленные черты характера</SuppressedTraits>
+  <ForcedTraitsDesc>Эти черты характера будут добавлены. Все конфликтующие черты характера стали подавленными.</ForcedTraitsDesc>
+  <Complexity>Комплексность</Complexity>
+  <ComplexityDesc>Насколько комплексно можно добавить это в процесс при назначении генов.</ComplexityDesc>
+  <MaxComplexityDesc>Максимальная комплексность может быть получена постройкой генных процессоров вокруг сборщика генов.</MaxComplexityDesc>
+  <ComplexityTotal>Общая комплексность</ComplexityTotal>
+  <ComplexityTotalDesc>Общая комплексность использованных генов.</ComplexityTotalDesc>
+  <Metabolism>Метаболическая эффективность</Metabolism>
+  <MetabolismDesc>Общая метаболическая эффективность всех назначенных генов. Высокая эффективность означает человеку потребуется меньшая потребность в еде; низкая эффективность означает он должен питаться чаще.</MetabolismDesc>
+  <MetabolismTotal>Общая метаболическая эффективность</MetabolismTotal>
+  <MetabolismTotalDesc>Общая метаболическая эффективность всех генов в данном геноме. Высокая эффективность означает человеку потребуется меньшая потребность в еде; низкая эффективность означает он должен питаться чаще.</MetabolismTotalDesc>
+  <NumberOfGenes>Количество генов</NumberOfGenes>
+  <GenePriceFactors>Стоимость генных факторов</GenePriceFactors>
+  <AnyLower>любой</AnyLower>
+  <ArchitesTotal>Всего архитов</ArchitesTotal>
+  <ArchitesRequired>Архитовые капсулы</ArchitesRequired>
+  <ArchitesRequiredDesc>Архиты это архотехническая технология т.е механиты - микроскопические чипы которые способны на клеточном и молекулярном уровне изменять человека, созданные архотеками. Они способны на невозможные в нашем понимании вещи , и некоторые гены доступны только при их поддержке механитов созданных архотеками. Обычные люди не умеют создавать архиты - единственные способ найти их когда архотеки производят их для себя по неизвестным причинам.</ArchitesRequiredDesc>
+  <CancelXenogerm>Отменить ксеногерм</CancelXenogerm>
+  <CancelXenogermDesc>Останавливает работу над текущем ксеногермом.</CancelXenogermDesc>
+  <AllowAllGenepacks>Разрешить все гены</AllowAllGenepacks> 
+  <AllowAllGenepacksDesc>В любой момент поселенцам разрешено автоматически хранить любой ген в данном хранилище. Выключите если вы хотите хранить только уникальные и экзотические гены.</AllowAllGenepacksDesc> 
+  <ContainedGenepacksDesc>Гены на данным момент внутри данного хранилища.</ContainedGenepacksDesc> 
+  <GenepacksToLoadDesc>Гены назначены на загрузку в данное хранилище.</GenepacksToLoadDesc> 
+  <GenepacksIgnoredDesc>Не хранимые гены которые не назначены на хранение в данном хранилщеUnstored genepacks that are not designated to be loaded into this container.</GenepacksIgnoredDesc> 
+  <GenepacksToLoad>Гены для загрузки</GenepacksToLoad> 
+  <GenepacksToIgnore>Гены которые игнорировать для загрузки</GenepacksToIgnore> 
+  <EjectGenepackDesc>Извлечь данный ген из хранилища.</EjectGenepackDesc> 
+  <ConfirmRemoveGenepack>Вы точно хотите извлечь {0}? Он будет моментально ивзлечён прямо рядом на землю.</ConfirmRemoveGenepack> 
+  <MissingRequiredResearch>отсутствует требуемое исследование</MissingRequiredResearch>
+  <NoGenepacksAvailable>Нету доступных геном в ближайших гено-хранилищах.</NoGenepacksAvailable> 
+  <AddToLoadingListDesc>Разрешить этот ген быть загруженным в это хранилище.</AddToLoadingListDesc> 
+  <RemoveFromLoadingListDesc>Удалить этот ген из-за загрузочного листа.</RemoveFromLoadingListDesc> 
+  <Recombine>Рекомбинировать</Recombine>
+  <RecombineDesc>Создайте новый имплантируемый ксеногерм , используя данные генов из ваши библиотеки генов.</RecombineDesc>
+  <ContainedGenesDesc>Гены</ContainedGenesDesc>
+  <ImplantXenogerm>Приказать имплантацию ксеногерма</ImplantXenogerm>
+  <ImplantXenogermDesc>Имплантируйте ксеногерм в человека , и этого заменит его генетический код.\n\nЭто хирургическая операция, потребует доктора, медицинскую кровать и {MEDICINEAMOUNT} навык медицины.</ImplantXenogermDesc>
+  <ImplantXenogermWarningDesc>Имплантация ксеногерма погрузит {PAWN_nameDef} в кому т.к ксеногерму нужно время для интеграции в организм. В среднем это продлится {COMADURATION}. Продолжительность комы зависит от медицинских навыков врача и качества медицинских лекарств.</ImplantXenogermWarningDesc>
+  <ImplantXenogermWarningOverwriteXenogenes>Кроме того, имплантация ксеногерма перезапишет уже существующие ксеногены. {PAWN_nameDef} текущие гены '{XENOTYPE}'. {PAWN_pronoun} имеет следующие ксеногены:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningNewMetabolism>После имплантации, {PAWN_nameDef} будет иметь  количество метаболизма  {MET} и будет иметь множитель потребления еды {CONSUMPTION}.</ImplantXenogermWarningNewMetabolism>
+  <WouldYouLikeToContinue>Хотите ли вы продолжить?</WouldYouLikeToContinue>
+  <CancelImplanting>Отменить имплантацию</CancelImplanting>
+  <CancelImplantingDesc>Отменение имплантацию ксеногерма у {PAWN_nameDef}.</CancelImplantingDesc>
+  <Xenotype>Ксенотип</Xenotype>
+  <Unique>необычный</Unique>
+  <UniqueXenotypeDesc>Необычный человеческий набор ксеногенов , который никому до этого не был известен из существующих ксенотипов.</UniqueXenotypeDesc>
+  <FactorForMetabolism>Фактор для генетического метаболизма</FactorForMetabolism>
+  <Progress>Прогресс</Progress>
+  <InSunlight>На солнечном свете</InSunlight>
+  <ThingIsSkyExposed>{0_labelShort} подвергается воздействию неба.</ThingIsSkyExposed>
+  <InsertPerson>Положить человека</InsertPerson>
+  <InsertPersonGeneExtractorDesc>Положив человека в генный извлечитель, вы получите генетический материал который может быть использован для создания генов и последующей их трансплотации.\n\nИзвлечение генов болезненно ,  и отсавит пациента истощенным и сонным на несколько дней. Процесс может быть летален для тех у кого гены заново отрастают.</InsertPersonGeneExtractorDesc>
+  <ConfirmExtractXenogermWillKill>Предупреждение: {PAWN_nameDef} гены в данный момент заново отрасотают. Извлечение {PAWN_possessive} генов до их отрастания убьет {PAWN_objective}.\n\nВы точно хотите продолжить?</ConfirmExtractXenogermWillKill>
+  <GeneExtractionComplete>Gene extraction complete for {PAWN_nameDef}. Extracted</GeneExtractionComplete>
+  <InsertXenogerm>Вставить ксеногерм</InsertXenogerm>
+  <InsertXenogermDesc>Вставьте ксеногерм для того чтобы применить его во время взросления.</InsertXenogermDesc>
+  <WaitingForPawn>Ожидание {PAWN_nameDef}.</WaitingForPawn>
+  <ExtractingXenogermFrom>Извлечение генов из {PAWN_nameDef}.</ExtractingXenogermFrom>
+  <ExtractionPausedNoPower>Извлечение приостановлено: Нету энергии</ExtractionPausedNoPower>
+  <LastIngestedDurationAgo>Последний приём был {CHEMICAL_label} {DURATION}.</LastIngestedDurationAgo>
+  <NamedXenogerm>{NAME} ксеногерм </NamedXenogerm>
+  <InsertedThing>Вставлено {0}</InsertedThing>
+  <AssemblyPaused>Назначение приостановлено</AssemblyPaused>
+  <GenebankUnpowered>Гено-хранилище не имеет энергии</GenebankUnpowered>
+  <Deathless>бессмертен</Deathless>
+  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} нужно употреблять {0} постоянно для того чтобы выжить. Спустя {DEFICIENCYDURATION} без {0}, {PAWN_pronoun} будет страдать от {0} недостатка. После {COMADURATION}, {PAWN_pronoun} впадёт в кому. И после {DEATHDURATION}, {PAWN_pronoun} умрёт.</GeneDefChemicalNeedDurationDesc>
+  <ChemicalDependency>{CHEMICAL_label} зависимость</ChemicalDependency>
+  <Xenogerm>Ксеногерм</Xenogerm>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} будет в глубоком сне до тех пор пока  {PAWN_pronoun} не будет иметь смертельные ранения</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} будет находится в регенерационной коме до тех пока {PAWN_pronoun} имеет смертельные ранения.</PawnWillKeepRegeneratingLethalInjuries>
+  <DeathrestPaused>Глубокий сон был приостановлен</DeathrestPaused>
+  <LethalInjuries>Смертельные ранения</LethalInjuries>
+  <Deathrest>глубокий сон</Deathrest>
+  <Buildings>Постройки</Buildings>
+  <Capacity>вместимость</Capacity>
+  <MissingGeneRomanceChance>Не-{GENE} шанс завести отношения</MissingGeneRomanceChance>
+  <NotInGeneBank>Не в гено-хранилище</NotInGeneBank>
+
+  <!-- Child birth -->
+  <ChildBirthAlwaysHealthy_Desc>Назначить на помощь матери при родах. Доктор способен увеличить шансы на рождение здорового ребёнка.</ChildBirthAlwaysHealthy_Desc>
+  <UntilBabyIsBorn>до того как ребёнок родится</UntilBabyIsBorn>
+
+  <LearningDesireTooltip>Ребёнок может иметь желание изучать разнообразные активности в разное время.</LearningDesireTooltip>
+  <LearningDesireTooltip_CurrentDesire>{0_nameDef} текущие желание учится:</LearningDesireTooltip_CurrentDesire>
+  <DevelopmentHealthGizmoTooltip>Здоровое развитие , это средняя потребняться в обучении ребёнка после последнего дня рождения.\n\nРебёнок с большим развитием будет имеет большее количество выбора черт характера и интереса к навыкам в момент взросления.</DevelopmentHealthGizmoTooltip>
+
+  <MustNotBePlacedCloseToAnother>Должно быть поставлено не так близко к другому {0_label}</MustNotBePlacedCloseToAnother>
+  <PollutingTerrainProgress>Следующая загрязненная поверхность</PollutingTerrainProgress>
+  <PoisonedTerrain>Отравленная земля{0}</PoisonedTerrain>
+  <AssignMechToControlGroup>Назначьте контролировать группу механоидов {0}</AssignMechToControlGroup>
+  <CurrentMechEnergyFallPerDay>Потреблениеэнергии в день</CurrentMechEnergyFallPerDay>
+  <CannotAssignMechToControlGroup>Невозможно назначить контролировать группу {0}</CannotAssignMechToControlGroup>
+  <AssignMechAlreadyAssigned>Уже назначена</AssignMechAlreadyAssigned>
+
+  <!-- Lactation -->
+  <LactatingAddedNutritionPerDay>Употребление допольнительного  {0} питания в день необходимо для воспроизведения молока(скорость производства молока в данный момент {1_percentage} из-за текущего уровня голода).</LactatingAddedNutritionPerDay>
+  <LactatingStoppedBecauseFull>Вопсроизводство молока приостановлено потому что молока 100%</LactatingStoppedBecauseFull>
+  <LactatingStoppedBecauseHungry>Воспроизводство молока приостановлено из-за голода.</LactatingStoppedBecauseHungry>
+
+  <!-- Mech gestating -->
+  <CurrentGestationCycle>Текущий цикл создавания</CurrentGestationCycle>
+  <RemainingGestationCycles>Циклов осталось</RemainingGestationCycles>
+  <GestationCycles>Циклов всего</GestationCycles>
+  <GestatingMech>Создавание {0}</GestatingMech>
+  <GestatedMech>Создано {0}</GestatedMech>
+  <GestatedMechRequiresMechanitor>Требует {PAWN_nameDef} для завершения</GestatedMechRequiresMechanitor>
+  <GestationComplete>Создавание завершено</GestationComplete>
+  <ResurrectingMech>Восстановление {0}</ResurrectingMech>
+  <ResurrectedMech>Восстановлен {0}</ResurrectedMech>
+
+  <!-- Carrier -->
+  <MechCarrierRelease>Постройка переносчика {0}</MechCarrierRelease>
+  <MechCarrierDesc>Вы можете построить {0} {1}. Требующий{2} единиц {3} {4} для постройки. Если основное ядро уничтожится все привязанные к нему  {1} также умрут. {1} не может быть заряжен и умрёт тогда когда закончится энергия.</MechCarrierDesc>
+  <MechCarrierNotEnoughResources>Недостаточно ресурсов</MechCarrierNotEnoughResources>
+  <MechCarrierAutofillResources>Автозаполнение</MechCarrierAutofillResources>
+  <MechCarrierClickToSetAutofillAmount>Нажмите чтобы выбрать количество материалов для автозаполнения.</MechCarrierClickToSetAutofillAmount>
+  <MechCarrierAutofillDesc>Количество ресурсов для автозаполнение, означает максимально возможное количество которое могут положить ваши поселенцы в {0}. Ресурсы могут быть использованы для создания {1}.</MechCarrierAutofillDesc>
+
+  <!-- Mech power cell -->
+  <MechPowerCell>Энерго ячейка</MechPowerCell>
+  <MechPowerCellTip>Боевые механоиды имеют одноразовый источник энергии. Когда энерго ячейка заканчивается, механоид погибает.</MechPowerCellTip>
+  
+
+  <!-- Bossgroup -->
+  <BossgroupAvailableIn>доступен в {0}.</BossgroupAvailableIn>
+  <RequiresMechanitor>требует механитора</RequiresMechanitor>
+
+  <!-- Abilities -->
+  <AbilityDisabledNoHemogenGene>{0_labelShort} не имеет крови.</AbilityDisabledNoHemogenGene>
+  <AbilityDisabledNoHemogen>{0_labelShort} не имеет достаточно крови.</AbilityDisabledNoHemogen>
+  <AbilityStartRitualDisabledChild>дети не могут делать этого.</AbilityStartRitualDisabledChild>
+  <AbilityStartRitualNoMembersOfIdeo>требует {0}.</AbilityStartRitualNoMembersOfIdeo>
+  <AbilityHemogenCost>Требует крови</AbilityHemogenCost>
+  <AbilityHemogenGain>Стандартное количество потребления крови</AbilityHemogenGain>
+  <AbilityMechSmokepopCharged>Дымовой-пуск доступен</AbilityMechSmokepopCharged>
+  <AbilityMechSmokepopRecharging>Дымовой-пуск станет доступен через {0}</AbilityMechSmokepopRecharging>
+  <AbilityMechFirefoampopCharged>Огнетушительная пена доступна</AbilityMechFirefoampopCharged>
+  <AbilityMechFirefoampopRecharging>Огнетушительная пена станет доступна через {0}</AbilityMechFirefoampopRecharging>
+
+  <PollutedTerrain>Загрязнения {0}</PollutedTerrain>
+
+  <!-- Growth vat -->
+  <Biostarvation>Биологическое голодание</Biostarvation>
+  <BiostarvationExplanation>Одна или более капсул для взросления , испытывают биологическое голодания из-за недостатка питания.\n\nКогда биологическое голодание достигнет 100%, в находящиеся люди внутри погибнут.</BiostarvationExplanation>
+  <InsertPersonGrowthVatDesc>Вставя человека в капсулу для взросления. Они будут расти в 20 раз быстрее обычного.</InsertPersonGrowthVatDesc>
+  <InsertEmbryoGrowthVatDesc>Вставьте эмбрион в капсулу для взросления. И после вынашивания плода в течении 18 дней вы получите младенца из капсулы, будем надеяться что он будет здоровым.</InsertEmbryoGrowthVatDesc>
+  <ImplantEmbryo>Вставить эмбрион</ImplantEmbryo>
+  <CannotInsertEmbryo>Невозможно вставить эмбрион</CannotInsertEmbryo>
+  <EmbryoAlreadyInside>Уже содержит эмбрион внутри.</EmbryoAlreadyInside>
+  <ImplantNoEmbryos>Нету эмбрионов</ImplantNoEmbryos>
+  <EmbryoTimeUntilBirth>Время до рождения</EmbryoTimeUntilBirth>
+  <EmbryoBirthQuality>Качество рождения</EmbryoBirthQuality>
+  <EmbryoSelected>Выбранный эмбрион</EmbryoSelected>
+  <PersonSelected>Выбран человек</PersonSelected>
+  <NoPawnsCanEnterGrowthVat>Нету подходящих людей которые не имеют биологического голодания. Чтобы положить в капсулу для взросления, человек должно быть не меньше {0} лет и не иметь биологического голодания.</NoPawnsCanEnterGrowthVat>
+  <AgingSpeed>Скорость роста</AgingSpeed>
+
+  <!-- Mech charger -->
+  <WasteLevel>Уровень трат</WasteLevel>
+
+  <!-- Dissolution -->
+  <DissolutionRateIndoors>в помещении</DissolutionRateIndoors>
+  <DissolutionRain>дождь</DissolutionRain>
+  <DissolvesEvery>Один пакет с отходами разлагается каждые {0}</DissolvesEvery>
+  <DissolutionFrozen>Заморожено (не разлагается).</DissolutionFrozen>
+
+  <CellsPerDay>{0} клеток / в день</CellsPerDay>
+
+  <WrongDevelopmentalStageForClothing>{0} невозможно одеть одежду для  {1}</WrongDevelopmentalStageForClothing> 
+
+  <!-- Subcore scanner -->
+  <SubcoreScannerStart>Начать сканирование</SubcoreScannerStart>
+  <SubcoreScannerProduces>Производит</SubcoreScannerProduces>
+  <SubcoreScannerStartDesc>Когда {0} будет переполнен требуемым количеством материалов, {1}, выберете поселенца и нажмите правой кнопку мыши на {0} или на поселенца без сознания чтобы начать сканирование.</SubcoreScannerStartDesc>
+  <SubcoreScannerCompletesIn>Завершится через</SubcoreScannerCompletesIn>
+  <SubcoreScannerWaitingForOccupant>В ожидании подопытного</SubcoreScannerWaitingForOccupant>
+  <SubcoreScannerWaitingForIngredients>Ожидает материалы</SubcoreScannerWaitingForIngredients>
+  <SubcoreScannerPawnHasSickness>Имеет {0}</SubcoreScannerPawnHasSickness>
+  <SubcoreScannerBabyNotAllowed>Детям запрещено</SubcoreScannerBabyNotAllowed>
+  <InsertPersonSubcoreScannerDesc>Вставьте человека в {0}.</InsertPersonSubcoreScannerDesc>
+
+  <DurationHours>Продолжительность (часов)</DurationHours>
+
+  <!-- Age -->
+  <Adult>взрослый</Adult>
+  <Adults>взрослые</Adults>
+  <Child>ребёнок</Child>
+  <Children>дети</Children>
+  <Baby>младенец</Baby>
+  <Babies>младенцы</Babies>
+  <Person>человек</Person>
+  <FeralChild>убредший ребенок</FeralChild>
+  <WearableBy>Надето</WearableBy>
+
+  <Reward_ReimplantXenogerm_Label>Имплантация ксеногерма</Reward_ReimplantXenogerm_Label>
+  <Reward_ReimplantXenogerm_Desc>Один из членов группы реимплантирует ксеногерм в одного из ваших поселенцев на ваш выбор, это превратит поселенца в одного из них. Поселенец будет по прежнему принадлежать вашему поселению и фракции.</Reward_ReimplantXenogerm_Desc>
+
+  <!-- Mech resurrection -->
+  <MechResurrectionCharges>Заряды для восстановления механоида</MechResurrectionCharges>
+
+  <!-- Mechs -->
+  <MechStunPulseWarning>Механоид получает смертельное ЭМИ повреждение</MechStunPulseWarning>
+  <IsLowEnergySelfShutdown>{PAWN_nameDef} войдёт в авто-отключения от низкого количества энергии.</IsLowEnergySelfShutdown>
+  
+  <!-- Pollution -->
+  <ShowPollutionOverlayToggleButton>Включить отображение загрязнений. Показывает какая территория была загрязнена.\n\nВоздействие загрязненной поверхности ,  может вызвать токсичное отравление и привести к смерти. Большинство растений не может расти на загрязненной поверхности.</ShowPollutionOverlayToggleButton>
+  <TilePollutionNone>Пусто</TilePollutionNone>
+  <TilePollutionLight>Немного</TilePollutionLight>
+  <TilePollutionModerate>Умеренно</TilePollutionModerate>
+  <TilePollutionExtreme>Много</TilePollutionExtreme>
+  <TilePollution>Загрязнение</TilePollution>
+  <TilePollutionNearby>Рядом загрязнение</TilePollutionNearby>
+  <NearbyPollutionTip>Количество загрязнений на всех клетках  {0} в данном радиусе. С увеличением дистанции от загрязненной клетки, действие загрязненния уменьшается:\n\n{1}\n\nЧем больше рядом загрязнения , тем больше шанс того при разложении у вас появится кислотный туман.</NearbyPollutionTip>
+  <NoxiousHazeInterval>Эта клетка будет иметь кислотный дым каждые {0} дней в среднем.</NoxiousHazeInterval>
+  <NoxiousHazeNeverOccurring>Эта клетка никогда не будет иметь кислотный дым.</NoxiousHazeNeverOccurring>
+  <NearbyPollutionTilesAway>удаленны от клетки</NearbyPollutionTilesAway>
+  <PollutionLower>низкое загрязнение</PollutionLower>
+  <CannotAbsorbPollution>Невозможно поглощать загрязнения: Постройки слишком близко</CannotAbsorbPollution>
+  <CanAbsorbPollution>Может поглощать загрязнение вблизи поверхности</CanAbsorbPollution>
+  <AbsorbingPollutionNext>Поглощение загрязнения: В следующие {0}</AbsorbingPollutionNext>
+  <TerrainPollutionTip>Показывает насколько загрязнена территория в клетке.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain.</TerrainPollutionTip>
+
+  <!-- Research -->
+  <StudyRequirementTip>Требует обучения</StudyRequirementTip>
+
+  <!-- Insect -->
+  <TriggerRadius>Агро радиус</TriggerRadius>
+  <DormantCompOpening>Открывается</DormantCompOpening>
+  
+  <!-- Fertility -->
+  <SurgeryDisableReasonOvumExtracted>семя было уже извлечено</SurgeryDisableReasonOvumExtracted>
+  <Fertilize>Оплодотворить</Fertilize>
+  <FertilizeCannotFloatOption>Невозможно оплодотворить</FertilizeCannotFloatOption>
+  <FertilizeGizmoDescription>Выберете мужчину для оплодотворения искуственной яйцеклетки и создания эмбриона. Эмбрион может быть имплантирован в женщину чтобы начать беременность, или в капсуле для взросления. Биологическими родителями будет женщина которая предоставила яйцеклетку и мужчина который оплодотворил яйцеклетку.</FertilizeGizmoDescription>
+  <FertilizeCancel>Невозможно отмените оплодотворение {0}</FertilizeCancel>
+  <CannotSterile>стерилизовать</CannotSterile>
+  <CannotPregnant>забеременить</CannotPregnant>
+  <CannotMustBeAge>возраст должен быть не менее {0}</CannotMustBeAge>
+  <CannotImplantingOtherEmbryo>уже имеет эмбрион</CannotImplantingOtherEmbryo>
+  <DisabledOption>{0} ({1})</DisabledOption>
+  <FertilizeDisabledNoMales>Не один мужчина не может оплодотворить эту яйцеклетку.</FertilizeDisabledNoMales>
+  
+  <ImplantLabel>Имплантировать эмбрион</ImplantLabel>
+  <ImplantDescription>Имплантируйте этот эмбрион в суррогатную мать чтобы начать беременность.</ImplantDescription>
+  <InsertGrowthVatLabel>Вставить в капсулу для взросления</InsertGrowthVatLabel>
+
+  <ImplantCannotFloatOption>Невозможно имплантировать</ImplantCannotFloatOption>
+  <ImplantDisabledNoWomen>Нету подходящей женщины которая могла быть стать суррогатной матерью.</ImplantDisabledNoWomen>
+  <ImplantDisabledNoVats>Нету доступную капсул для взросления.</ImplantDisabledNoVats>
+  <ImplantSurgeryLabel>Имплантировать {0}</ImplantSurgeryLabel>
+  <ImplantSurgeryConfirm>Шанс успеха на имплантацию {0} в{1} из {2}.\n\nУспех имплантации зависит от оплодотворения матери. Шанс будет меньше если мать будет слишком старой или слишком молодой.</ImplantSurgeryConfirm>
+  <ImplantEmbryoCancelVat>Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue?</ImplantEmbryoCancelVat>
+  <ImplantFailedMessage>Имплантация {0} в {1} не удалась.</ImplantFailedMessage>
+  <ImplantEmbryoCancel>Отмена имплантирование эмбриона</ImplantEmbryoCancel>
+  <EmbryoEjectedFromGrowthVat>Ваш {0} был извлечён из капсулы для взросления и был уничтожен.</EmbryoEjectedFromGrowthVat>
+  <EmbryoEjectedFromGrowthVatBiostarvation>Ваш {0} был уничтожен в капсуле для взросления из-за биологического голодания.</EmbryoEjectedFromGrowthVatBiostarvation>
+
+  <IvfPregnancyLetterText>{0} успешно забеременела из-за установленого эмбриона!</IvfPregnancyLetterText>
+  <IvfPregnancyLetterParents>У ребёнка будет генетический состав {0} и {1}.</IvfPregnancyLetterParents>
+
+  <!-- Projectile interceptor -->
+  <ProjectileInterceptorTip>Щит с малым углом , способный остановить снаряды или шрапнель. Он деактивируется моментально при взрыве ЭМИ.</ProjectileInterceptorTip>
+
+  <!-- Remote mech shield -->
+  <RemoteMechShieldTip>Дистанционный щит созданный механитором. Он способен остановить снаряды или шрапнель , но не может отражать атаки в ближнем бою или огоньIt will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP</RemoteMechShieldTip>
+
+  <!-- Thoughtdef fallbacks -->
+  <MyChildIsHappy>мой ребёнок счастлив</MyChildIsHappy>
+  <MyChildIsSad>мой ребёнок грустный</MyChildIsSad> 
+
+</LanguageData>

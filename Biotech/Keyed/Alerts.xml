@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <AlertMechLacksOverseer>Неподконтрольные механоиды!</AlertMechLacksOverseer>
+  <AlertMechLacksOverseerDesc>Один или более механоидов не под контролем. Подключите механоидов к механитору с досточной пропускной способностью.\n\nЕсли механоиды останутся не под контролем больше чем один день , они убредут. Когда это произойдёт они присоединяться к {0} и станут вашими врагами. Если хотя-бы один механоид убредёт , остальные не подконтрольные механоиды вблизи "убрёдшего" уйдут вместе с ним .\n\nУбрёдшие механоиды не могут быть восстановлены при помощи "гестатора" после смерти.</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerUncontrolled>Эти механоиды не под вашим контролем!</AlertMechLacksOverseerUncontrolled>
+  <AlertMechLacksOverseerMayGoFeral>Эти механоиды не подконтролем и могут убрести в любой момент.</AlertMechLacksOverseerMayGoFeral>
+
+  <AlertWarqueenHasLowResources>{0} имеет мало ресурсы</AlertWarqueenHasLowResources>
+  <AlertWarqueenHasLowResourcesDesc>Один или более {0} имеет мало ресурсов. Они будут неспособны создавать механоидов если у них закончатся ресурсы.</AlertWarqueenHasLowResourcesDesc>
+
+  <AlertLowDeathrestPawn>{PAWN} нужен "Глубокий сон"! </AlertLowDeathrestPawn>
+  <AlertLowDeathrestPawns>{NUMCULPRITS} требуют "Глубокого сна"</AlertLowDeathrestPawns>
+  <AlertLowDeathrestDesc>Поселенец долгое время не был в состоянии "Глубокого сна". Если он будет долгое время без "Глубокого сна" , он начнёт страдать от жажды "Глубокого сна".\n\nЧтобы ввести поселенца в состояние "Глубокого сна", выберете поселенца нажмиие правой кнопки мыши по назначенной ему кровати , или по саркофагу "Глубокого сна".\n\nЭти поселенцы нуждаются в "Глубоком сне".:\n{CULPRITS}</AlertLowDeathrestDesc>
+
+  <AlertLowHemogen>Низкий уровень жажды крови</AlertLowHemogen>
+  <AlertLowHemogenDesc>Поселенец имеет низкий уровень жажды крови. Когда показатель будет на нуле, поселенец будет иметь сильное до боли желания крови.\n\nПоите поселенцев кровью чтобы избежать этого. Вы можете хранить кровь в пакетах , извлекая её медицинским путём не из крово-зависимого человека.\n\nЭти поселенцы имеют низкий показатель крови</AlertLowHemogenDesc>
+
+  <AlertRechargerFull>Зарядная станция заполнена!</AlertRechargerFull>
+  <AlertRechargerFullDesc>Некоторые зарядные станции , заполнены токсичными отходами. Механоиды не могут заряжаться пока токсичные отходы не будут убраны.\n\nВыберете поселенца и уберите токсичные отходы.</AlertRechargerFullDesc>
+
+  <AlertNeedMechChargers>Нужны зарядные станции для механоидов.</AlertNeedMechChargers>
+  <AlertNeedMechChargersDesc>У вас недостаточно зарядных станций для текущего количества механоидов. Если механоид разрядится , он перейдёт в состояние сна само-зарядки и будет заряжаться сам, но очень долго.\n\nПостройте больше зарядных станций такого типа:\n\n{0}\n\nПримечание: Только обычные механоиды могут использовать маленькие зарядные станции. Стандартные и более механоиды требуют больших зарядных станций.</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargerBasicMechtech>Исследуйте "Обычное мехостроение" и далее для постройки зарядных станций.</AlertNeedMechChargerBasicMechtech>
+
+  <AlertReimplantationAvailable>Доступна реимплантация</AlertReimplantationAvailable>
+  <AlertReimplantationAvailableDesc>{0_nameDef} ждёт для реимплантации {0_possessive} ксеногерма для реимплантации в ваших поселенцев.</AlertReimplantationAvailableDesc>
+
+  <AlertLowBabyFood>Малое количество еды у младенцев</AlertLowBabyFood>
+  <AlertLowBabyFoodDesc>У вас опасно мало еды для младенцев.\n\n    Младенцы требуют еду: {0}\n    Срок хранения детской еды: {1}\n\nКупите, найдите или сделайте сами еду для младенцев. {2}.</AlertLowBabyFoodDesc>
+  <AlertNoBabyFeeder>Нету кормильца для младенцев</AlertNoBabyFeeder>
+  <AlertNoBabyFeederDesc>Не один из {FACTION_pawnsPlural} назначенных кормильцев для кормления детей не кормит детей, или они безсознания или ранены.\n\nНазначьте одного из {FACTION_pawnsPlural} для ухода за детьми, или назначьте для кормёжки {FACTION_pawnSingular} чтобы кормить младенцев с  Особым приоритетом во вкладке кормления младенцев, и убедитесь что хотя бы одному из них не нужна помощь.</AlertNoBabyFeederDesc>
+
+  <AlertNoBabyFoodCaravan>Недостаточно еды в караване</AlertNoBabyFoodCaravan>
+  <AlertNoBabyFoodCaravanDesc>Младенцы в этом караване не имеют еды , и не имеют кормильца {FACTION_pawnsPlural} назначенных кормить их.</AlertNoBabyFoodCaravanDesc>
+
+  <AlertToxicBuildup>Токсическое отравление</AlertToxicBuildup>
+  <AlertToxicBuildupDesc>Эти поселенцы имеют серьёзное токсическое отравление:\n\n{0}\n\nОтведите в сторону от токсичных поверхностей их.\n\nТоксичное отравление было вызвано многими факторами, токсичным дымом , токсичным газом, и загрязненной поверхностью.</AlertToxicBuildupDesc>
+
+  <AlertNeedBabyCribs>Младенцам требуется кроватка.</AlertNeedBabyCribs>
+  <AlertNeedBabyCribsDesc>У вас больше младенцев чем кроваток.\n\nСделайте больше кроваток, или если у вас нету ресурсов на постройку, поставьте спальное место для младенцев.</AlertNeedBabyCribsDesc>
+  <AlertNeedSlaveCribs>Нужны кроватки для рабов-младенцев</AlertNeedSlaveCribs>
+  <AlertNeedSlaveCribsDesc>У вас больше младенцев-рабов чем у вас кроваток для них.\n\nСделайте больше кроваток , или назначьте им кроватки младенцев из поселения.\n\nЕсли у вас нету ресурсов, спальное место для младенцев можно установить в любой момент.</AlertNeedSlaveCribsDesc>
+
+  <AlertPollutedTerrain>Загрязненная территория</AlertPollutedTerrain>
+  <AlertPollutedTerrainDesc>Человек или животное было отравлено токсичным загрязнением, на зараженной поверхности. В любой время поселенец будет получать токсичное отравление, и когда оно достигнет последней стадии поселенец умрёт.\n\nЭти поселенцы были подвержены отравлению:\n\n{0}\n\nДержите людей в стороне от зараженной поверхности, или найдите способ защитить их от негативных эффектов. Специальная одеждаCertain apparel, импланта и гено-модификации могут защитить от токсичного отравления. Загрязненная поверхность не может быть покрыта полом , но может быть убрана руками или другими методами.</AlertPollutedTerrainDesc>
+
+  <AlertMechMissingBodyPart>У механоида отсутствует часть тела</AlertMechMissingBodyPart>
+  <AlertMechsMissingBodyPart>У механоида отсутствуют части тела</AlertMechsMissingBodyPart>
+  <AlertMechMissingBodyPartDesc>Один или более из ваших механоидов не имеют частей тела. Механитор может починить утерянные конечности.\n\nМеханоиды с потерянными частями тела менее функциональны.</AlertMechMissingBodyPartDesc>
+
+  <AlertMechNeedsRepair>Требуется починка механоида</AlertMechNeedsRepair>
+  <AlertMechNeedsRepairDescPrefix>Эти механоиды повреждены и требуют ремонта</AlertMechNeedsRepairDescPrefix>
+  <AlertMechNeedsRepairDesc>Прикажите механитору починить механоидов , или выберете механоида вручную и включите "авто-починку". Починка механоида потребует энергии. При малом количестве энергии , механоид не сможет двигаться и кому-то надо будет перетащить его на зарядную станцию.</AlertMechNeedsRepairDesc>
+  
+  <AlertToxifierGeneratorStopped>{0} больше не работает</AlertToxifierGeneratorStopped>
+  <AlertToxifierGeneratorStoppedDesc>Ваш {0} не производит энергию , из-за отсутствия плодородной земли рядом для преобразования.\n\nОчистите загрязненную поверхность при помощи очистителей загрязнения, или назначьте уборочную зону загрязнений вручную.</AlertToxifierGeneratorStoppedDesc>
+
+  <AlertPsychicBondedPawnsSeparated>Дистанция психической связанности</AlertPsychicBondedPawnsSeparated>
+  <AlertPsychicBondedPawnsSeparatedDesc>Некоторые поселенцы обладающие психической связанностью были разлучены , и получают негативные эффекты с увеличением расстояния. Чтобы избежать этого , поселенцы с психической связанностью должны быть в одном и том же поселении, караване, челноке. Кроме того они не должны быть разлучены крипстосном , или любым другим анабиозом.\n\nМогут пострадать следующие поселенцы</AlertPsychicBondedPawnsSeparatedDesc>
+
+  <AlertGenebankUnpowered>Гено-хранилище требует энерги.</AlertGenebankUnpowered>
+  <AlertGenebankUnpoweredDesc>Гено-хранилище не получает достаточноэлектроэнергии, так что гены начинают медленно разрушаться. Влсполните необходимое количество энергии чтобы изжбежать разрушения генов.\n\nКогда пуступит энергия , гено-хранилище начнёт медленно восстанавливать гены.</AlertGenebankUnpoweredDesc>
+
+</LanguageData>

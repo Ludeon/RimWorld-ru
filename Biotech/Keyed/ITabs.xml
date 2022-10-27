@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <RecipeRequiresMechanitor>Этот рецепт {0} требует механитора для работы над ним. Не один из ваших поселенца не является механитором, так что никто не будет делать этого.</RecipeRequiresMechanitor>
+
+  <GenepackPlural>Гены</GenepackPlural>
+  <TraitsDevelopLaterBaby>Черты характера откроются когда ребёнок чуть повзрослеет</TraitsDevelopLaterBaby>
+  <SkillsDevelopLaterBaby>Навыки откроются когда ребёнок чуть позврослеет</SkillsDevelopLaterBaby>
+  <TabGenes>Гены</TabGenes>
+
+  <ViewGenes>Просмотреть гены</ViewGenes>
+  <ViewGenesDesc>Нажмите что посмотреть гены {PAWN_nameDef}.</ViewGenesDesc>
+
+  <!-- Feeding tab (human babies) -->
+  <TabFeeding>Кормёжка</TabFeeding>
+  <AutofeedSectionHeader>Автоматитеские настройки кормёжки</AutofeedSectionHeader>
+  <AutofeedModeNever>никогда</AutofeedModeNever>
+  <AutofeedModeChildcare>уход за детьми</AutofeedModeChildcare>
+  <AutofeedModeUrgent>особый приоритет</AutofeedModeUrgent>
+  <AutofeedNone>Никто не может покормить детей.</AutofeedNone>
+  <AutofeedModeTooltipNever>{FEEDER_nameDef} не будет автоматически кормить {BABY_nameDef}.</AutofeedModeTooltipNever>
+  <AutofeedModeTooltipChildcare>{FEEDER_nameDef} будет кормить {BABY_nameDef} в обычном порядке.</AutofeedModeTooltipChildcare>
+  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} будет кормить {BABY_nameDef} в любой момент, неважно день или ночь это даже если {FEEDER_nameDef} не назначен на уход за детьми или он несовместим с уходом за детьми.</AutofeedModeTooltipUrgent>
+  <BabyFoodConsumables>Потребляемая еда</BabyFoodConsumables>
+
+  <!-- Social tab (human babies) -->
+  <IdeoExposureSectionHeader>идеологическое предрасположение</IdeoExposureSectionHeader>
+  <IdeoExposureNoExposure>{BABY_labelShort} не будет предрасположен не к одной из идеологий пока что.</IdeoExposureNoExposure>
+  <IdeoExposureNoExposureDetail>{BABY_pronoun} может быть предрасположен к идеологии , взаимодействуя в членами той или иной идеологии. Эти взаимодействия могут проявляться например при кормёжке, переноске, игре с ним , и т.д. В возрасте  {CHILDAGE} {BABY_labelShort} присоединится к одной из  идеологий к которой {BABY_pronoun} был предрасположен.</IdeoExposureNoExposureDetail>
+  <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort} на {PERCENT} предпочитает присоединиться к идеологии {IDEO_name}.</IdeoExposurePointsTooltipJoinLikelihood>
+  <IdeoExposurePointsTooltipJoinDescription>Так как {BABY_labelShort} взаимодействует с членами определенной иделогии {BABY_pronoun} будет более предрасположен присоединиться к данной идеологии. {BABY_labelShort} присоединиться ведь {BABY_pronoun} был предрасположен к этому с {CHILDAGE} лет.</IdeoExposurePointsTooltipJoinDescription>
+  <IdeoExposurePointsTooltipExposureDescription>Идеологическое предрасположение зависит от предрасположительных очков. Взаимодействия по типу кормёжки, переноски, или игры с ним будет заставлять {BABY_labelShort} набирать очки предрасположения зависимо от членов какой идеологии он был просвещён ведь {BABY_pronoun} взаимодействовал с ними.</IdeoExposurePointsTooltipExposureDescription>
+  <IdeoExposurePointsTooltipIdeoExposure>{IDEO_name} очки предрасположения</IdeoExposurePointsTooltipIdeoExposure>
+  <IdeoExposurePointsTooltipTotalExposure>Всего очков предрасположения</IdeoExposurePointsTooltipTotalExposure>
+
+  <!-- Social tab (romance) -->
+  <TryRomanceButtonLabel>Завести отношения</TryRomanceButtonLabel>
+  <TryRomanceNoOptsMessage>Нет никаких вариантов что {0_labelShort} будет ухаживать или завёдет отношения.</TryRomanceNoOptsMessage>
+  <CantRomanceTargetUnreachable>недоступно</CantRomanceTargetUnreachable>
+  <CantRomanceTargetSleeping>спит</CantRomanceTargetSleeping>
+  <CantRomanceTargetDowned>не способен двигаться</CantRomanceTargetDowned>
+  <CantRomanceTargetDrafted>в боевом режиме</CantRomanceTargetDrafted>
+  <CantRomanceTargetMentalState>в неврном срыве</CantRomanceTargetMentalState>
+  <CantRomanceTargetIncest>близкородственный</CantRomanceTargetIncest>
+  <CantRomanceTargetOpinion>низкие отношения</CantRomanceTargetOpinion>
+  <CantRomanceTargetSexuality>не подходящая ориентация</CantRomanceTargetSexuality>
+  <CantRomanceTargetPrisoner>заклбченный</CantRomanceTargetPrisoner>
+  <CantRomanceTargetYoung>слишком молод</CantRomanceTargetYoung>
+  <CantRomanceTargetZeroChance>нету шансов</CantRomanceTargetZeroChance>
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort} не может завести отношения потому что {0_pronoun} заключенный.</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessageSlave>{0_labelShort} не может завести отношения потому что {0_pronoun} раб.</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageAsexual>{0_labelShort} не может завести отношения потому что {0_pronoun} имеет черту характера бессексуалность.</CantRomanceInitiateMessageAsexual>
+  <CantRomanceInitiateMessageDowned>{0_labelShort} не может завести отношения потому что {0_pronoun} без сознания.</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDrafted>{0_labelShort} не может завести отношения потому что {0_pronoun} в бою.</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageMentalState>{0_labelShort} не может завести отношения потому что {0_pronoun} в нервном срыве.</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageTalk>{0_labelShort} не может завести отношения потому что {0_pronoun} не может говорить.</CantRomanceInitiateMessageTalk>
+  <CantRomanceInitiateMessageCooldown>{0_labelShort} попытался завести отношение недавно и должен подождать {1} прежде чем попробовать снова.</CantRomanceInitiateMessageCooldown>
+  <TryRomanceFailedMessage>{0_labelShort} попытка завести отношения с {1_labelShort} была неудачной.</TryRomanceFailedMessage>
+  <RomanceExistingRelationshipWarning>Завести с {INITIATOR_nameDef} отношения {TARGET_nameDef} может развить недовольство у её партнера, привести к потери отношения, и вызвать ссору.</RomanceExistingRelationshipWarning>
+  <RomanceChance>Шанс завести отношения</RomanceChance>
+  <RomanceChanceExistingRelation>уже {PAWN_nameDef} {RELATION}</RomanceChanceExistingRelation>
+  <RomanceChanceCant>Невозможно завести отношения</RomanceChanceCant>
+  <RomanceChanceAgeFactor>Близкий возраст</RomanceChanceAgeFactor>
+  <RomanceChanceBeautyFactor>Красота</RomanceChanceBeautyFactor>
+  <RomanceChanceOpinionFactor>Отношения</RomanceChanceOpinionFactor>
+  <RomanceChancePartnerFactor>Отношения партнера</RomanceChancePartnerFactor>
+  <RomanceFailedUnexpected>{0_labelShort} не может завести отношения с {1_labelShort}</RomanceFailedUnexpected>
+  <RomanceWarningMonogamous>{0_nameDef} уже имеет отношения.</RomanceWarningMonogamous>
+  <RomanceWarningPolygamous>{0_nameDef} уже имеет {1} партнеров.</RomanceWarningPolygamous>
+
+  <!-- Guest tab (prisoners) -->
+  <FactorForGenes>Множитель для генов</FactorForGenes>
+  <PrisonBreakingDisabledDueToGene>Попытка побега невозможна из-за {GENE_label} гена.</PrisonBreakingDisabledDueToGene>
+
+</LanguageData>
