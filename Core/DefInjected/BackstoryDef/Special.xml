@@ -1,33 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: [PAWN_nameDef] is a child. The story of [PAWN_possessive] childhood is still being written. -->
-  <Child27.baseDesc>TODO</Child27.baseDesc>
+  <Child27.baseDesc>{PAWN_nameDef} — ребёнок. История {PAWN_possessive} детства всё ещё пишется.</Child27.baseDesc>
   <!-- EN: child -->
-  <Child27.title>TODO</Child27.title>
+  <Child27.title>ребёнок</Child27.title>
   <!-- EN: child -->
-  <Child27.titleShort>TODO</Child27.titleShort>
+  <Child27.titleShort>ребёнок</Child27.titleShort>
   
   <!-- EN: [PAWN_nameDef] became an adult in our colony. [PAWN_possessive] story is still being written. -->
-  <Colonist97.baseDesc>TODO</Colonist97.baseDesc>
+  <Colonist97.baseDesc>{PAWN_nameDef} {PAWN_gender ? повзрослел : повзрослела} в нашем поселении. {PAWN_possessive} история всё ещё пишется.</Colonist97.baseDesc>
   <!-- EN: colonist -->
-  <Colonist97.title>TODO</Colonist97.title>
+  <Colonist97.title>поселенец</Colonist97.title>
+  <Colonist97.titleFemale>поселенка</Colonist97.titleFemale>
   <!-- EN: colonist -->
-  <Colonist97.titleShort>TODO</Colonist97.titleShort>
+  <Colonist97.titleShort>поселенец</Colonist97.titleShort>
+  <Colonist97.titleShortFemale>поселенка</Colonist97.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] grew up in our colony. -->
-  <ColonyChild59.baseDesc>TODO</ColonyChild59.baseDesc>
+  <ColonyChild59.baseDesc>{PAWN_nameDef} {PAWN_gender ? вырос : выросла} в нашем поселении.</ColonyChild59.baseDesc>
   <!-- EN: colony child -->
-  <ColonyChild59.title>TODO</ColonyChild59.title>
+  <ColonyChild59.title>сын поселения</ColonyChild59.title>
+  <ColonyChild59.titleFemale>дочь поселения</ColonyChild59.titleFemale>
   <!-- EN: colonist -->
-  <ColonyChild59.titleShort>TODO</ColonyChild59.titleShort>
+  <ColonyChild59.titleShort>поселенец</ColonyChild59.titleShort>
+  <ColonyChild59.titleShortFemale>поселенка</ColonyChild59.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] is a baby. [PAWN_possessive] life revolves around milk and naps. -->
-  <Newborn79.baseDesc>TODO</Newborn79.baseDesc>
+  <Newborn79.baseDesc>{PAWN_nameDef} — младенец. {PAWN_possessive} жизнь вращается вокруг молока и сна.</Newborn79.baseDesc>
   <!-- EN: newborn -->
-  <Newborn79.title>TODO</Newborn79.title>
+  <Newborn79.title>новорождённый</Newborn79.title>
+  <Newborn79.titleFemale>новорождённая</Newborn79.titleFemale>
   <!-- EN: newborn -->
-  <Newborn79.titleShort>TODO</Newborn79.titleShort>
+  <Newborn79.titleShort>новорождённый</Newborn79.titleShort>
+  <Newborn79.titleShortFemale>новорождённая</Newborn79.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] grew up in our tribe. -->
   <TribeChild19.baseDesc>{PAWN_nameDef} {PAWN_gender ? вырос : выросла} в нашем племени.</TribeChild19.baseDesc>
@@ -54,4 +60,4 @@
   <!-- EN: child -->
   <VatgrownChild11.titleShort>ребёнок</VatgrownChild11.titleShort>
   
-</LanguageData> 
+</LanguageData>
