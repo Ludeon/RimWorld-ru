@@ -262,6 +262,8 @@
   <DeterioratingUnroofed>расположение не под крышей</DeterioratingUnroofed>
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>расположение на улице</DeterioratingOutdoors>
+  <!-- EN: protected -->
+  <Protected>укрыто</Protected>
   <!-- EN: Deteriorating -->
   <DeterioratingBecauseOf>Ветшает</DeterioratingBecauseOf>
   <!-- EN: Will deteriorate in {0}. -->
@@ -336,6 +338,10 @@
   <SkillRequirements>Требования</SkillRequirements>
   <!-- EN: Products -->
   <Products>Результат</Products>
+  <!-- EN: Requires -->
+  <Requires>Требуется</Requires>
+  <!-- EN: {0}x any of -->
+  <NumAnyOf>{0}x любого из</NumAnyOf>
   <!-- EN: {0} of {1} -->
   <Relationship>для {1} — {0}</Relationship>
   <!-- EN: Prisoner -->
@@ -536,6 +542,18 @@
   <ThoughtFoodEatenFood>Еда</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
   <ThoughtFoodEatenIngredients>Ингредиенты</ThoughtFoodEatenIngredients>
+  <!-- EN: Shield pack -->
+  <ShieldInbuilt>Барьерный проектор</ShieldInbuilt>
+  <!-- EN: Punctured - will explode soon. -->
+  <PuncturedWillExplode>Пробита — скоро взорвётся.</PuncturedWillExplode>
+  <!-- EN: Click to open research window -->
+  <ClickToOpenResearchTab>Нажмите, чтобы открыть окно технологий</ClickToOpenResearchTab>
+  <!-- EN: Target belongs to another faction. -->
+  <TargetBelongsToNPCFaction>Цель принадлежит другой фракции.</TargetBelongsToNPCFaction>
+  <!-- EN: more -->
+  <MoreLower>больше</MoreLower>
+  <!-- EN: Requires -->
+  <RequiredTechprintTip>Требуется</RequiredTechprintTip>
   <!-- EN: size -->
   <Size>размер</Size>
   <!-- EN: cost -->
@@ -664,7 +682,50 @@
   <PenCapacityDesc>  {lookup: {ANIMALDEF_labelPlural}; Case; 1}</PenCapacityDesc> <!-- Отступ - для читаемости и чтобы избежать озаглавливания первой буквы -->
   <!-- EN: Example animals -->
   <PenExampleAnimals>Вместимость на примере</PenExampleAnimals> <!-- Несоответствие оригиналу - для читаемости: "Вместимость на примере: коров (лето): 10, коз (лето): 20, кур (лето): 50" -->
+  <!-- EN: No exterior access - Animals cannot be moved in or out. -->
+  <NoExteriorAccess>Нет входа — животных нельзя завести или вывести.</NoExteriorAccess>
 
+  <!-- Cell Inspector -->
+  <!-- EN: Beauty -->
+  <Beauty_Label>Красота</Beauty_Label>
+  <!-- EN: Zone -->
+  <Zone_Label>Область</Zone_Label>
+  <!-- EN: Roof -->
+  <Roof_Label>Крыша</Roof_Label>
+  <!-- EN: Terrain -->
+  <Terrain_Label>Поверхность</Terrain_Label>
+  <!-- EN: Snow -->
+  <Snow_Label>Снег</Snow_Label>
+  <!-- EN: Walk speed -->
+  <WalkSpeed_Label>Скорость передвижения</WalkSpeed_Label>
+  <!-- EN: Fertility -->
+  <Fertility_Label>Плодородность</Fertility_Label>
+  <!-- EN: Temperature -->
+  <Temperature_Label>Температура</Temperature_Label>
+  <!-- EN: Light level -->
+  <LightLevel_Label>Освещённость</LightLevel_Label>
+  <!-- EN: Biome -->
+  <Biome_Label>Биом</Biome_Label>
+  <!-- EN: Hilliness -->
+  <Hilliness_Label>Рельеф</Hilliness_Label>
+  <!-- EN: Road -->
+  <Road_Label>Дорога</Road_Label>
+  <!-- EN: Movement difficulty -->
+  <MovementDifficulty_Label>Сложность передвижения</MovementDifficulty_Label>
+  <!-- EN: Pollution -->
+  <Pollution_Label>Загрязнение</Pollution_Label>
+  
+  <!-- EN: Faction -->
+  <Faction_Label>Фракция</Faction_Label>
+  <!-- EN: Relationship -->
+  <Relationship_Label>Отношения</Relationship_Label>
+  <!-- EN: Colonists -->
+  <CaravanColonists_Label>Поселенцы</CaravanColonists_Label>
+  <!-- EN: Status -->
+  <CaravanStatus_Label>Статус</CaravanStatus_Label>
+  <!-- EN: Time to destination -->
+  <CaravanTTD_Label>Время до прибытия</CaravanTTD_Label>
+  
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
@@ -707,6 +768,22 @@
   <ShellLoaded>В стволе: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Не заряжен</ShellNotLoaded>
+  <!-- EN: Already active -->
+  <AlreadyActive>Уже активно</AlreadyActive>
+  <!-- EN: Order activation -->
+  <OrderActivation>Приказать активировать</OrderActivation>
+  <!-- EN: Order a colonist to activate {THING_definite}. -->
+  <OrderActivationDesc>Приказать поселенцу активировать {lookup: {THING_labelShort}; Case; 3}.</OrderActivationDesc>
+  <!-- EN: Must be activated by a colonist. -->
+  <MustBeActivatedByColonist>Должно быть активировано поселенцем.</MustBeActivatedByColonist>
+  <!-- EN: No nearby fire -->
+  <NoNearbyFire>Вблизи нет огня</NoNearbyFire>
+  <!-- EN: No nearby fire. No fuel was used. -->
+  <NoNearbyFireNoFuelUsed>Вблизи нет огня. Топливо не использовалось.</NoNearbyFireNoFuelUsed>
+  <!-- EN: Choose who should activate this. -->
+  <ChooseWhoShouldActivate>Выберите, кто должен это активировать.</ChooseWhoShouldActivate>
+  <!-- EN: No fuel -->
+  <NoFuel>Нет топлива</NoFuel>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
@@ -751,6 +828,10 @@
   <ReportExtinguishingFireOn>сбивает огонь с {lookup: {TARGET_labelShort}; Case; 1}</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>выкапывает труп</ReportDiggingUpCorpse>
+  <!-- EN: being carried by {0_labelShort}. -->
+  <CarriedBy>в руках у {0_labelShort}.</CarriedBy> 
+  <!-- EN: inside {0_labelShort}. -->
+  <InContainer>внутри {lookup: {0_labelShort}; Case; 1}</InContainer> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -867,6 +948,8 @@
   <State>Состояние</State>
   <!-- EN: stun -->
   <StunLower>оглушение</StunLower>
+  <!-- EN: Slowed by damage -->
+  <SlowedByDamage>Замедлен уроном</SlowedByDamage>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
@@ -949,6 +1032,12 @@
   <!-- Meal -->
   <!-- EN: Ingredients -->
   <Ingredients>Ингредиенты</Ingredients>
+  <!-- EN: The ingredients used to make this meal. -->
+  <IngredientsDesc>Ингредиенты, необходимые для этого блюда.</IngredientsDesc>
+  <!-- EN: Dietary type -->
+  <DietaryType>Тип еды</DietaryType>
+  <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
+  <DietaryTypeDesc>Тип приготавливаемого блюда. Некоторые люди предпочитают еду только определённых типов.</DietaryTypeDesc>
   <!-- EN: only stacks with similar meals -->
   <OnlyStacksWithCompatibleMeals>можно объединить только с похожими блюдами</OnlyStacksWithCompatibleMeals>
 
@@ -971,6 +1060,10 @@
   <ReadyToHarvest>Можно собирать.</ReadyToHarvest>
   <!-- EN: Mature. -->
   <Mature>Созрело.</Mature>
+  <!-- EN: Average plant age -->
+  <AveragePlantAge>Средний возраст растения</AveragePlantAge>
+  <!-- EN: Oldest plant age -->
+  <OldestPlantAge>Максимальный возраст растения</OldestPlantAge>
   <!-- EN: Growing period -->
   <OutdoorGrowingPeriod>Период роста</OutdoorGrowingPeriod>
   <!-- EN: Never -->
@@ -991,6 +1084,10 @@
   <HarvestGerund>собирать</HarvestGerund>
   <!-- EN: cutting -->
   <CutGerund>рубить</CutGerund>
+  <!-- EN: Cut all blight -->
+  <CutAllBlight>Срезать всё заражённое</CutAllBlight>
+  <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
+  <CutAllBlightDesc>Уничтожить все заражённые растения. Заражённые растения не приносят еды и ресурсов, и должны быть уничтожены, пока болезнь не распространилась.</CutAllBlightDesc>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1055,6 +1152,8 @@
   <ShowExpandingIconsToggleButton>Отображение раскрываемых иконок вместо обычных для далёких объектов.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Видимость названий для форм рельефа.</ShowWorldFeaturesToggleButton>
+  <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
+  <ShowTemperatureOverlayToggleButton>Отображение температуры воздуха, в помещениях и снаружи.\n\nЕсли температура слишком низкая или слишком высокая, поселенцы будут недовольны. Нахождение в условиях экстремальных температур может привести к гипотермии, обморожению, тепловому удару, ожогам и смерти.</ShowTemperatureOverlayToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1311,6 +1410,8 @@
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>Обучение</LearningHelper>
+  <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
+  <LearningHelperTooltip>Внутриигровое обучение, призванное предоставить информацию, касающуюся текущего состояния вашего поселения.</LearningHelperTooltip>
   <!-- EN: Mark as learned -->
   <MarkLearned>Понятно</MarkLearned>
   <!-- EN: Already learned -->
@@ -1574,6 +1675,8 @@
   <AbilityDisabledNoCapacity>{0_labelShort} не может {1}.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>Настроение всех участников ритуала повысится на {0} на {1_numCase ? день : дня : дней}.</RitualOutcomeExtraDesc_Mood>
+  <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
+  <RitualOutcomeNoQuality>У этого ритуала нет модификаторов качества, поэтому ожидается наилучший результат</RitualOutcomeNoQuality>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>Выберите участников ритуала {RITUAL_labelDef}</ChooseParticipants>
@@ -1607,6 +1710,10 @@
   <RitualPredictedOutcomeDescParticipantCount>Участники</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>Ожидания {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
+  <!-- EN: Loved one present -->
+  <RitualOutcomeLovedOnePresentLabel>Присутствует близкий человек</RitualOutcomeLovedOnePresentLabel>
+  <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
+  <RitualOutcomeLovedOnePresentTip>Любой человек, которого {PAWN_labelShort} считает другом или больше.</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>Любое из</RitualOutcomeLabelAnyOfThese>
@@ -1633,6 +1740,16 @@
   <ThingOf>{0} из</ThingOf>
   <!-- EN: {0} of {1} -->
   <ThingOfSource>{0} из {1}</ThingOfSource>
+  <!-- EN: {0} of {1} and {2} -->
+  <ThingOfTwoSources>{0} из {1} и {2}</ThingOfTwoSources>
+
+  <!-- Gas types -->
+  <!-- EN: blind smoke -->
+  <BlindSmoke>слепящий дым</BlindSmoke>
+  <!-- EN: tox gas -->
+  <ToxGas>токсичный газ</ToxGas>
+  <!-- EN: rot stink -->
+  <RotStink>вонь гниения</RotStink>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1645,5 +1762,33 @@
   <AbilityReadyLabel>Способность «{0}» готова к применению</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} {0_gender ? готов : готова} применить «{lookup: {1}; Case; 3}».</AbilityReadyText>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <AbilityDisabledInRitual>{0_labelShort} принимает участие в {1}.</AbilityDisabledInRitual>
+  <!-- EN: Charges -->
+  <Charges>Заряжается</Charges>
+
+  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <PawnIsInMentalState>{0_nameDef} в состоянии агрессии.</PawnIsInMentalState>
+
+  <!-- EN: Disabled work -->
+  <DisabledWorkLabel>Недоступная работа</DisabledWorkLabel>
+
+  <!-- Glowers -->
+  <!-- EN: change color -->
+  <GlowerChangeColor>Изменить цвет</GlowerChangeColor>
+  <!-- EN: Change the color of the light. -->
+  <GlowerChangeColorDescription>Изменить цвет свечения.</GlowerChangeColorDescription>
+  <!-- EN: You must research {0} to change light color. -->
+  <GlowerChangeColorNeedsResearch>Нужно исследовать «{0}», чтобы изменить цвет освещения.</GlowerChangeColorNeedsResearch>
+
+  <!-- Shields -->
+  <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
+  <ShieldPersonalTip>Персональный щит, способный остановить баллистические снаряды и осколки. Не позволяет выстрелить самому владельцу щита и мгновенно отключается от ЭМИ.</ShieldPersonalTip>
+
+  <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
+  <UnrecruitableDesc>{PAWN_nameDef} настолько {PAWN_gender ? предан : предана} своему дому, что {PAWN_possessive} невозможно завербовать, если взять в плен.</UnrecruitableDesc>
+
+  <!-- EN: Random -->
+  <Random>Случайно</Random>
 
 </LanguageData>

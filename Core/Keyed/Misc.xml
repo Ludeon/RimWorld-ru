@@ -36,6 +36,8 @@
   <Yes>Да</Yes>
   <!-- EN: No -->
   <No>Нет</No>
+  <!-- EN: No {0} -->
+  <NoSubject>Нет {lookup: {0}; Case; 1}</NoSubject>
   <!-- EN: new -->
   <New>создать</New>
   <!-- EN: Gender -->
@@ -90,6 +92,10 @@
   <MoneyFormat>{0}₡</MoneyFormat>
   <!-- EN: Factors -->
   <Factors>Факторы</Factors>
+  <!-- EN: Uses -->
+  <Uses>Использует</Uses> <!-- Использует: заряды / всего зарядов -->
+  <!-- EN: Translation -->
+  <Translation>Перевод</Translation>
 
   <!-- Content generation-->
   
@@ -140,6 +146,12 @@
   <!-- EN: Unaffiliated -->
   <FactionUnaffiliated>Неаффилированная</FactionUnaffiliated>
 
+  <!-- EN: Continue anyway? -->
+  <StillWishContinue>Всё равно продолжить?</StillWishContinue>
+
+  <!-- EN: ba,bah,boo,buh,ga,gah,goo,nyah,na,nah,noo,woo,wah,wuh,ma,mah -->
+  <BabyTalk>ба,бах,бу,бух,га,гах,гу,ня,на,агу,ну,ву,вах,вух,ма,мах</BabyTalk>
+
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <!-- EN: {0} {1} -->
@@ -179,5 +191,15 @@
   <!-- Apparel Looks -->
   <!-- EN: variant of -->
   <VariantOf>вариант предмета</VariantOf>
+  
+  <!-- Familial relationships -->
+  <!-- EN: born to {0} -->
+  <BornOfParents>родители: {0}</BornOfParents>
+  <!-- EN: unknown parents -->
+  <ParentsUnknown>неизвестны</ParentsUnknown>
+  
+  <!-- Legal status -->
+  <!-- EN: colonist -->
+  <Colonist>поселенец</Colonist>
   
 </LanguageData>
