@@ -1037,7 +1037,7 @@
   <!-- EN: Dietary type -->
   <DietaryType>Тип еды</DietaryType>
   <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
-  <DietaryTypeDesc>Тип готовящегося блюда. Некоторые люди предпочитают еду определённого типа.</DietaryTypeDesc>
+  <DietaryTypeDesc>Тип приготавливаемого блюда. Некоторые люди предпочитают еду только определённых типов.</DietaryTypeDesc>
   <!-- EN: only stacks with similar meals -->
   <OnlyStacksWithCompatibleMeals>можно объединить только с похожими блюдами</OnlyStacksWithCompatibleMeals>
 
@@ -1153,7 +1153,7 @@
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Видимость названий для форм рельефа.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
-  <ShowTemperatureOverlayToggleButton>Отображение температуры. Показать температуру воздуха в команатах и снаружи.\n\nЕсли температура слишком низкая или слишком высокая, поселенцы будут недовольны. Нахождение в условиях экстремальных температур может привести к гипотермии, обморожению, тепловому удару, ожогам и смерти.</ShowTemperatureOverlayToggleButton>
+  <ShowTemperatureOverlayToggleButton>Отображение температуры воздуха, в помещениях и снаружи.\n\nЕсли температура слишком низкая или слишком высокая, поселенцы будут недовольны. Нахождение в условиях экстремальных температур может привести к гипотермии, обморожению, тепловому удару, ожогам и смерти.</ShowTemperatureOverlayToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1411,7 +1411,7 @@
   <!-- EN: Learning helper -->
   <LearningHelper>Обучение</LearningHelper>
   <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
-  <LearningHelperTooltip>Внутриигровое обучение, призванное предоставить информацию, касающуюся текущего состояния вашей колонии.</LearningHelperTooltip>
+  <LearningHelperTooltip>Внутриигровое обучение, призванное предоставить информацию, касающуюся текущего состояния вашего поселения.</LearningHelperTooltip>
   <!-- EN: Mark as learned -->
   <MarkLearned>Понятно</MarkLearned>
   <!-- EN: Already learned -->
@@ -1711,9 +1711,9 @@
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>Ожидания {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
-  <RitualOutcomeLovedOnePresentLabel>Присутствует билзкий человек</RitualOutcomeLovedOnePresentLabel>
+  <RitualOutcomeLovedOnePresentLabel>Присутствует близкий человек</RitualOutcomeLovedOnePresentLabel>
   <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
-  <RitualOutcomeLovedOnePresentTip>Любой человек, которого {PAWN_labelShort} считает другом или даже больше.</RitualOutcomeLovedOnePresentTip>
+  <RitualOutcomeLovedOnePresentTip>Любой человек, которого {PAWN_labelShort} считает другом или больше.</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>Любое из</RitualOutcomeLabelAnyOfThese>
@@ -1768,7 +1768,7 @@
   <Charges>Заряжается</Charges>
 
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInMentalState>{0_nameDef} в состоянии повышенной агрессии.</PawnIsInMentalState>
+  <PawnIsInMentalState>{0_nameDef} в состоянии агрессии.</PawnIsInMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Недоступная работа</DisabledWorkLabel>
@@ -1783,7 +1783,7 @@
 
   <!-- Shields -->
   <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
-  <ShieldPersonalTip>Персональный щит, способный остановить прилетающие снаряды и осколки. Не позволяет носителю стрелять; мгновенно отключается от ЭМИ. </ShieldPersonalTip>
+  <ShieldPersonalTip>Персональный щит, способный остановить баллистические снаряды и осколки. Не позволяет выстрелить самому владельцу щита и мгновенно отключается от ЭМИ.</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
   <UnrecruitableDesc>{PAWN_nameDef} настолько {PAWN_gender ? предан : предана} своему дому, что {PAWN_possessive} невозможно завербовать, если взять в плен.</UnrecruitableDesc>
