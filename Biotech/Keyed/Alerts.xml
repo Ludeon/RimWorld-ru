@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Uncontrolled mechs -->
+  <AlertMechLacksOverseer>Неуправляемые мехи</AlertMechLacksOverseer>
+  <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
+  <AlertMechLacksOverseerDesc>По крайней мере, один из ваших механоидов не контролируется. Выберите механитора с достаточной пропускной способностью и щелкните правой кнопкой мыши по механоиду, чтобы взять его под свой контроль.\n\n После дня отсутствия контроля механоид может стать диким; это означает, что он присоединится к {0} и станет враждебным по отношению к вам. По мере того, как механоид становится диким, он будет тянуть за собой других механоидов, находящихся поблизости.\n\n невозможно воскресить одичавшего механоида после его смерти от гестатора.</AlertMechLacksOverseerDesc>
+  <!-- EN: The following mechanoids are uncontrolled -->
+  <AlertMechLacksOverseerUncontrolled>Следующие механоиды являются неконтролируемыми</AlertMechLacksOverseerUncontrolled>
+  <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
+  <AlertMechLacksOverseerMayGoFeral>Следующие механоиды неуправляемы и могут одичать в любой момент</AlertMechLacksOverseerMayGoFeral>
+
+  <!-- EN: {0} is low on resources -->
+  <AlertWarqueenHasLowResources>{0} имеет мало ресурсов</AlertWarqueenHasLowResources>
+  <!-- EN: One or more {0} are low on resoures. They will be unable to produce mechs on command if they run out of resources. -->
+  <AlertWarqueenHasLowResourcesDesc>Один или несколько {0} ограничены в ресурсах. Вы не сможете производить мехов по команде, если у вас закончатся ресурсы.</AlertWarqueenHasLowResourcesDesc>
+
+  <!-- EN: {PAWN} needs deathrest -->
+  <AlertLowDeathrestPawn>Необходим смертельный сон</AlertLowDeathrestPawn>
+  <!-- EN: {NUMCULPRITS} colonists need deathrest -->
+  <AlertLowDeathrestPawns>Необходим смертельный сон {NUMCULPRITS}</AlertLowDeathrestPawns>
+  <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
+  <AlertLowDeathrestDesc>По крайней мере, один колонист уже давно не спал смертным сном. Если откладывать это слишком долго, это приведет к истощению.\n\n Чтобы погрузить колониста в сон смерти, выберите его, а затем щелкните правой кнопкой мыши на его кровати или гробе для сна смерти.\n\n Следующим колонистам требуется смертельный сон:\n{CULPRITS}</AlertLowDeathrestDesc>
+
+  <!-- EN: Low hemogen -->
+  <AlertLowHemogen>Мало гемогена</AlertLowHemogen>
+  <!-- EN: A colonist has low hemogen. At zero hemogen, they will develop a painful hemogen craving.\n\nFeed them hemogen packs to prevent this. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nThe following colonists have low hemogen -->
+  <AlertLowHemogenDesc>У колониста мало гемогена. Когда у него заканчивается гемоген, у него развивается болезненная тяга к гемогену.\n\n Кормите его пакетами с гемогеном, чтобы предотвратить это. Пакеты с гемогеном могут быть извлечены хирургическим путем у негемогенного человека.\n\n следующие колонисты имеют низкий уровень гемогена</AlertLowHemogenDesc>
+
+  <!-- EN: Recharger full -->
+  <AlertRechargerFull>Зарядная станция заполнена</AlertRechargerFull>
+  <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
+  <AlertRechargerFullDesc>На одной или нескольких станциях зарядки роботов количество упаковок с токсичными отходами достигло максимума. Роботы не смогут снова использовать эти зарядные станции, пока пакеты с токсичными отходами не будут вывезены.\n\n выберите колониста, а затем щелкните правой кнопкой мыши на зарядной станции, чтобы очистить ее.</AlertRechargerFullDesc>
+
+  <!-- EN: Need mech rechargers -->
+  <AlertNeedMechChargers>Требуется зарядная станция</AlertNeedMechChargers>
+  <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
+  <AlertNeedMechChargersDesc>У тебя нет зарядной станции для каждого механоида. Когда у робота заканчивается энергия, он переходит в спящий режим и очень медленно перезаряжается.\n\n Постройте больше следующих зарядных станций:\\n\n{0}\n\nNote: Только легкие механоиды могут использовать обычные зарядные станции для роботов. Для более тяжелых механоидов требуются большие зарядные станции для роботов.</AlertNeedMechChargersDesc>
+  <!-- EN: Research basic mechtech or higher to build rechargers. -->
+  <AlertNeedMechChargerBasicMechtech>Исследуйте базовый уровень - мехтеха или выше, чтобы создавать зарядные станции.</AlertNeedMechChargerBasicMechtech>
+
+  <!-- EN: Reimplantation available -->
+  <AlertReimplantationAvailable>Ксенокейм может быть имплантирован</AlertReimplantationAvailable>
+  <!-- EN: {0_nameDef} is waiting to reimplant {0_possessive} xenogerm into one of your colonists. -->
+  <AlertReimplantationAvailableDesc>{0_nameDef} ждет, чтобы вживить {0_possessive} зародыш ксенока в одного из ваших колонистов.</AlertReimplantationAvailableDesc>
+
+  <!-- EN: Low baby food -->
+  <AlertLowBabyFood>Мало детского питания</AlertLowBabyFood>
+  <!-- EN: You are dangerously low on baby food.\n\n    Babies needing food: {0}\n    Days worth of baby food in storage: {1}\n\nBuy, find or make some baby-edible food. This includes {2}. -->
+  <AlertLowBabyFoodDesc>У тебя в запасе опасно мало пригодной для ребенка пищи!\n\n Фактический {replace: есть {0} младенцы; "есть 1 младенец"-"есть 1 младенец"} зависит от питания. Питания, пригодного для кормления ребенка, по-прежнему хватает на {replace: {1} дней; "1 день"-"1 день"}.\n\n Покупайте, находите или готовьте еду, подходящую для ребенка, например {2}.</AlertLowBabyFoodDesc>
+  <!-- EN: No baby feeders -->
+  <AlertNoBabyFeeder>Нет кормления ребенка</AlertNoBabyFeeder>
+  <!-- EN: No {FACTION_pawnsPlural} are assigned to feed these babies, or they're all downed.\n\nAssign one of your {FACTION_pawnsPlural} to childcare or assign a lactating {FACTION_pawnSingular} to feed these babies with Urgent priority in the babies' feeding tab, and ensure at least one of them is not downed. -->
+  <AlertNoBabyFeederDesc>Никто из ваших {FACTION_pawnsPlural} не отвечает за кормление младенцев или не может этого сделать, потому что они лежат на земле.\n\n поручите свою {FACTION_pawnsPlural} заботу о детях или используйте вкладку кормления ребенка, чтобы поручить одному из вас, дающему молоко, кормить детей в первоочередном порядке. Убедитесь, что хотя бы один из них не лежит на земле.</AlertNoBabyFeederDesc>
+
+  <!-- EN: No baby food in caravan -->
+  <AlertNoBabyFoodCaravan>В караване нет детского питания</AlertNoBabyFoodCaravan>
+  <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
+  <AlertNoBabyFoodCaravanDesc>У младенцев в этом караване нет детского питания. Кроме того, никто из ваших кормильцев {FACTION_pawnsPlural} не назначен кормить их.</AlertNoBabyFoodCaravanDesc>
+
+  <!-- EN: Toxic buildup -->
+  <AlertToxicBuildup>Отравление токсинами</AlertToxicBuildup>
+  <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
+  <AlertToxicBuildupDesc>Эпизод У колонистов сильное отравление токсинами:\n\n{0}\n\n Держите их подальше от источников яда, чтобы они не умерли.\n\n отравление токсинами может быть вызвано многими причинами, такими как токсичные осадки, ядовитый газ и загрязненная почва.</AlertToxicBuildupDesc>
+
+  <!-- EN: Need baby cribs -->
+  <AlertNeedBabyCribs>Требуются детские кроватки</AlertNeedBabyCribs>
+  <!-- EN: You have more babies than cribs.\n\nMake more cribs or, if you have no resources to spare, place some baby sleeping spots for free. -->
+  <AlertNeedBabyCribsDesc>У тебя больше детей, чем детских кроваток.\n\n Постройте больше детских кроваток или, если не хватает ресурсов, разместите бесплатные детские спальные места.</AlertNeedBabyCribsDesc>
+  <!-- EN: Need slave cribs -->
+  <AlertNeedSlaveCribs>Детские кроватки, необходимые для детей-рабов</AlertNeedSlaveCribs>
+  <!-- EN: You have more slave babies than you have cribs marked for slave use.\n\nEither make more cribs or change a colonist crib to a slave crib.\n\nIf you have no resources, baby sleeping spots are free and can be placed instantly. -->
+  <AlertNeedSlaveCribsDesc>У тебя больше детей-рабов, чем детских кроваток, предназначенных для рабов.\н\Н либо постройте больше детских кроваток, либо ограничьте использование детской кроватки рабами.\n\n если у вас нет ресурсов для создания новых детских кроваток, вы все равно можете использовать детские спальные места, которые можно разместить сразу и бесплатно.</AlertNeedSlaveCribsDesc>
+
+  <!-- EN: Polluted terrain -->
+  <AlertPollutedTerrain>Загрязненная почва</AlertPollutedTerrain>
+  <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
+  <AlertPollutedTerrainDesc>Человек или животное страдают от отравления токсинами и находятся на зараженной почве. Каждый раз, когда кто-то оказывается на таких почвах, его отравление токсинами непрерывно усугубляется, пока он не умирает.\n\n Следующие люди или животные страдают:\n\n{0}\n\n держите их подальше от загрязненной почвы или найдите способ защитить их от нее. Определенная одежда, имплантаты и генные модификации обеспечивают защиту от отравления токсинами. Загрязненные полы нельзя застилать плиткой, ковровым покрытием и т. Д.․, но их можно мыть вручную или другими способами.</AlertPollutedTerrainDesc>
+
+  <!-- EN: Mechanoid missing part -->
+  <AlertMechMissingBodyPart>Меху не хватает деталей</AlertMechMissingBodyPart>
+  <!-- EN: Mechanoids missing parts -->
+  <AlertMechsMissingBodyPart>Мехам не хватает деталей</AlertMechsMissingBodyPart>
+  <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
+  <AlertMechMissingBodyPartDesc>У одного или нескольких ваших механоидов отсутствует какая-либо часть тела. Механитор может восстановить потерянные детали.\n\n следующих механоидов отсутствуют части тела</AlertMechMissingBodyPartDesc>
+
+  <!-- EN: Mechanoid repair needed -->
+  <AlertMechNeedsRepair>Необходим ремонт мехов</AlertMechNeedsRepair>
+  <!-- EN: These mechanoids are damaged and need repair -->
+  <AlertMechNeedsRepairDescPrefix>Следующие механоиды повреждены и нуждаются в ремонте</AlertMechNeedsRepairDescPrefix>
+  <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
+  <AlertMechNeedsRepairDesc>Прикажите механику отремонтировать мехи или выберите мехи и включите их автоматический ремонт. Ремонт робота требует энергии. Когда энергия робота становится слишком низкой, он больше не может двигаться, и его необходимо отнести на зарядную станцию.</AlertMechNeedsRepairDesc>
+
+  <!-- EN: {0} stopped -->
+  <AlertToxifierGeneratorStopped>{0} остановился</AlertToxifierGeneratorStopped>
+  <!-- EN: Your {0} is not producing power because it has no nearby fertile terrain to convert.\n\nClean polluted terrain with pollution pumps, or by assigning a pollution removal area. -->
+  <AlertToxifierGeneratorStoppedDesc>{0_gender ? Твой : Твоя} {0} больше не производит электричество,  потому что поблизости нет плодородной местности для преобразования.\n\n Очистите загрязненную местность с помощью насосов для удаления загрязнений или назначив зону удаления загрязнений.</AlertToxifierGeneratorStoppedDesc>
+
+  <!-- EN: Psychic bond distance -->
+  <AlertPsychicBondedPawnsSeparated>Нарушена психическая связь</AlertPsychicBondedPawnsSeparated>
+  <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
+  <AlertPsychicBondedPawnsSeparatedDesc>Некоторые колонисты с ментальной привязанностью были разлучены друг с другом и страдают от этого. Чтобы избежать этого, связанные люди должны находиться в одном и том же квадрате на карте мира, в одном и том же караване или на одном и том же транспортном средстве. Кроме того, они не должны находиться в состоянии, которое переводит их в своего рода искусственную спячку, например, в крипто-сон.\n\n следующие люди затронуты</AlertPsychicBondedPawnsSeparatedDesc>
+
+  <!-- EN: Gene bank needs power -->
+  <AlertGenebankUnpowered>Генный банк нуждается в электроэнергии</AlertGenebankUnpowered>
+  <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
+  <AlertGenebankUnpoweredDesc>Генный банк, содержащий генные пакеты, не получает питания. Восстановите питание генному банку, чтобы предотвратить распад генных пакетов и восстановить их.</AlertGenebankUnpoweredDesc>
+
+  <!-- EN: Deathrest complete -->
+  <AlertDeathrestComplete>Смертельный сон завершен</AlertDeathrestComplete><!-- text_todo -->
+  <!-- EN: These deathresters have completed their deathrest and can be awoken safely without negative side effects: -->
+  <AlertDeathrestCompleteDesc>Следующие люди завершили свой смертельный сон и могут быть спокойно разбужены без каких-либо побочных эффектов:</AlertDeathrestCompleteDesc><!-- text_todo -->
+
+  <!-- EN: {0} incoming -->
+  <AlertBossgroupIncoming>{0} приходит</AlertBossgroupIncoming><!-- text_todo -->
+  <!-- EN: Signaled by your mechanitor, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile mechanoids will arrive in a few hours or days. -->
+  <AlertBossgroupIncomingDesc>{0_gender ? Враждебный : враждебная : враждебной} {0}, {0_gender ? тот : который : который} был вызван вашим механитором, приближается в сопровождении {0_possessive}. Будьте готовы к этому. Это будет нелегкий бой. Вражеские механоиды прибудут через несколько часов или дней.</AlertBossgroupIncomingDesc><!-- text_todo -->
+
+</LanguageData>
