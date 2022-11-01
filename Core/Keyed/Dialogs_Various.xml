@@ -179,10 +179,28 @@
   <ZoneGainsName>Область теперь называется: «{0}».</ZoneGainsName>
   
   <!-- Pawn naming -->
+  <!-- EN: Chosen name is invalid. -->
+  <NameInvalid>Указанное имя недопустимо</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>Прозвище поселенца теперь {0}, и {PAWN_pronoun} — {PAWN_title}</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Новая кличка животного — {0}.</AnimalGainsName>
+  <!-- EN: rename person -->
+  <RenamePerson>переименовать</RenamePerson>
+  <!-- EN: mother -->
+  <Mother>мать</Mother>
+  <!-- EN: father -->
+  <Father>отец</Father>
+  <!-- EN: unknown -->
+  <Unknown>неизвестно</Unknown>
+  <!-- EN: first name -->
+  <FirstName>имя</FirstName>
+  <!-- EN: nickname -->
+  <NickName>прозвище</NickName>
+  <!-- EN: last name -->
+  <LastName>фамилия</LastName>
+  <!-- EN: suggested -->
+  <Suggested>предложено</Suggested>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -213,7 +231,19 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Вы уверены, что хотите навсегда отключить режим разработчика для этого компьютера?\n\nЭта опция предназначена для тех, кто хочет получить «чистый» игровой опыт, без соблазна использовать отладочные инструменты для того, чтобы получить преимущества по сравнению с «честной» игрой.\n\nРежим разработчика можно будет снова включить, но это потребует ручных изменений в конфигурационных файлах игры. Вам придётся самостоятельно найти в интернете нужную информацию об этом.</ConfirmPermanentlyDisableDevMode>
-  
+
+  <!-- Confirm reset learning helper -->
+  <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
+  <ConfirmResetLearningHelper>Вы уверены, что хотите сбросить обучение?\n\nОбучение начнётся заново.</ConfirmResetLearningHelper>
+
+  <!-- Backstory translation restart dialog -->
+  <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
+  <RestartAfterImportingLegacyBackstoryTanslations>Биографии теперь имплементированы как def, все более ранние биографии были импортированы в этот формат. Файл {0} был импортирован и перемещён в  {1}. Этот файл можно удалить.\n\nДля применения изменений требуется перезапуск игры.</RestartAfterImportingLegacyBackstoryTanslations>
+
+  <!-- Game start -->
+  <!-- EN: Must include exactly {SUMMARY} -->
+  <SelectedCharactersMustInclude>Нужно выбрать ровно {SUMMARY}</SelectedCharactersMustInclude>
+
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>Вы приземлитесь в холодном регионе. На первых этапах развития выжить в таких условиях крайне сложно. Если не хотите столкнуться с экстремальными трудностями, выберите другое место или сезон.</MapTemperatureDangerWarning>
@@ -814,6 +844,8 @@
   <TotalBodySize>Размеры каравана</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>Автоматически выбирать припасы</AutomaticallySelectTravelSupplies>
+  <!-- EN: This animal is sick. It is suffering from the following illnesses -->
+  <CaravanAnimalSick>Это животное больно. Оно страдает от следующих заболеваний</CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -978,6 +1010,8 @@
   <NoFoodRestrictionSelected>Диета не выбрана</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
+  <!-- EN: Default medicine settings -->
+  <DefaultMedicineSettings>Настройки по-умолчанию</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>Умолчания</MedGroupDefaults>
   <!-- EN: Colonist -->
@@ -1090,6 +1124,10 @@
   <AbilityCantApplyOnAsexual>Невозможно использовать: {0} — асексуал.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>Пол {1_labelShort} не подходит для {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: {0_labelShort} is too young. -->
+  <AbilityCantApplyTooYoung>{0_labelShort} {0_gender ? слишком молод : слишком молода}.</AbilityCantApplyTooYoung>
+  <!-- EN: Cannot target a baby. -->
+  <AbilityCantApplyOnBaby>Невозможно выбрать ребёнка как цель.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Стоимость пси-концентрации за каждую степень нервного срыва</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1219,5 +1257,69 @@
   <RoomRequirementNoProductionFacilities>нет производственного оборудования</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
   <RoomRequirementNoAltars>нет алтарей</RoomRequirementNoAltars>
+
+  <!-- EN: Lifestage max food factor -->
+  <LifeStageMaxFood>Множитель макс. еды от стадии роста</LifeStageMaxFood>
+
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>Расширить всё</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>Свернуть всё</CollapseAllCategories>
+
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>Краситель можно получать, выращивая нео-индигоферу или покупая его у торговцев.</TooltipDyeExplanation>
+
+  <!-- EN: Zoom range {0} -->
+  <ZoomRange>Область приближения {0}</ZoomRange>
+
+  <!-- Color picker -->
+  <!-- EN: color temperature -->
+  <ColorTemperature>температура цвета</ColorTemperature>
+  <!-- EN: choose a color -->
+  <ChooseAColor>выбрать цвет</ChooseAColor>
+  <!-- EN: red -->
+  <Red>красный</Red>
+  <!-- EN: green -->
+  <Green>зелёный</Green>
+  <!-- EN: blue -->
+  <Blue>синий</Blue>
+  <!-- EN: hue -->
+  <Hue>тон</Hue>
+  <!-- EN: sat -->
+  <Saturation>насыщенность</Saturation>
+  <!-- EN: value -->
+  <Value>яркость</Value>
+  <!-- EN: darklight -->
+  <Darklight>тёмный свет</Darklight>
+  <!-- EN: not darklight -->
+  <NotDarklight>обычный свет</NotDarklight>
+  <!-- EN: current color -->
+  <CurrentColor>текущий цвет</CurrentColor>
+  <!-- EN: old color -->
+  <OldColor>старый цвет</OldColor>
+  <!-- EN: Copy color -->
+  <CommandCopyColorLabel>Копировать цвет</CommandCopyColorLabel>
+  <!-- EN: Copy the current color to the clipboard. -->
+  <CommandCopyColorDesc>Скопировать текущий цвет.</CommandCopyColorDesc>
+  <!-- EN: Paste color -->
+  <CommandPasteColorLabel>Вставить цвет</CommandPasteColorLabel>
+  <!-- EN: Overwrite the color with the color in the clipboard. -->
+  <CommandPasteColorDesc>Заменить скопированным цветом.</CommandPasteColorDesc>
+  <!-- EN: The clipboard does not contain a valid color. -->
+  <ClipboardInvalidColor>Не скопирован подходящий цвет.</ClipboardInvalidColor>
+  <!-- EN: Color copied to clipboard. -->
+  <ColorCopiedSuccessfully>Цвет скопирован.</ColorCopiedSuccessfully>
+  <!-- EN: Updated color from the clipboard. -->
+  <ColorPastedSuccessfully>Цвет заменён скопированным.</ColorPastedSuccessfully>
+  <!-- EN: Change to normal light -->
+  <ToggleDarklightOff>Изменить на обычный свет</ToggleDarklightOff>
+  <!-- EN: Change the light color to its normal color. -->
+  <ToggleDarklightOffDesc>Изменить цвет освещения на обычный.</ToggleDarklightOffDesc>
+  <!-- EN: Change to darklight -->
+  <ToggleDarklightOn>Изменить на тёмный свет</ToggleDarklightOn>
+  <!-- EN: Change the light color to darklight. -->
+  <ToggleDarklightOnDesc>Изменить на тёмный свет.</ToggleDarklightOnDesc>
+  <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
+  <ColorTemperatureTooltip>Изменить температуру цвета. Важно: изменится только цвет, но не количество исходящего тепла.</ColorTemperatureTooltip>
 
 </LanguageData>
