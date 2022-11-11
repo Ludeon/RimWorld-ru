@@ -147,7 +147,7 @@
   <CommandAllowCutDesc>Отключив эту опцию, вы запретите поселенцам рубить растения в этой области, однако они продолжат сеять новые растения в незанятых клетках, а также собирать урожай.</CommandAllowCutDesc>
   
   <!-- EN: Select {0_label} -->
-  <CommandSelectStoredThing>Выбрать {0_label}</CommandSelectStoredThing>
+  <CommandSelectStoredThing>Выбрать {lookup: {0_label}; Case; 3}</CommandSelectStoredThing>
   <!-- EN: Select the item stored in here. -->
   <CommandSelectStoredThingDesc>Выбрать хранящийся здесь предмет.</CommandSelectStoredThingDesc>
 
@@ -569,13 +569,13 @@
   <!-- EN: Select the creature being carried. -->
   <CommandSelectCarriedPawnDesc>Выбрать переносимое существо.</CommandSelectCarriedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectCarriedThing>Выбрать {0_label}</CommandSelectCarriedThing>
+  <CommandSelectCarriedThing>Выбрать {lookup: {0_label}; Case; 3}</CommandSelectCarriedThing>
   <!-- EN: Select the carried item. -->
   <CommandSelectCarriedThingDesc>Выбрать переносимый предмет.</CommandSelectCarriedThingDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainerThing>Выбрать {0_label}</CommandSelectContainerThing>
+  <CommandSelectContainerThing>Выбрать {lookup: {0_label}; Case; 3}</CommandSelectContainerThing>
   <!-- EN: Select the containing item. -->
-  <CommandSelectContainerThingDesc>Выбрать предмет для хранения.</CommandSelectContainerThingDesc>
+  <CommandSelectContainerThingDesc>Выбрать контейнер.</CommandSelectContainerThingDesc>
   <!-- EN: Select {0_nameDef} -->
   <CommandSelectCarryingPawn>Выбрать {0_nameDef}</CommandSelectCarryingPawn>
   <!-- EN: Select the carrying creature. -->
@@ -618,7 +618,7 @@
   <!-- EN: Link settings -->
   <LinkStorageSettings>Сгруппировать хранилища</LinkStorageSettings>
   <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
-  <LinkStorageSettingsDesc>Связать настройки хранения для нескольких выбранных хранилищ.\n\nНастройками по-умолчанию для этой группы будут считаться настройки первого выбранного хранилища.</LinkStorageSettingsDesc>
+  <LinkStorageSettingsDesc>Связать настройки хранения для нескольких выбранных хранилищ.\n\nНастройками по умолчанию для этой группы будут считаться настройки первого выбранного хранилища.</LinkStorageSettingsDesc>
   <!-- EN: You must select two or more buildings to link their storage settings. -->
   <LinkStorageDisabledSelectTwo>Вы должны выбрать 2 или более хранилища, чтобы сгруппировать их.</LinkStorageDisabledSelectTwo>
   <!-- EN: Already linked. -->
@@ -628,14 +628,14 @@
   <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
   <UnlinkStorageSettingsDesc>Отмена группировки позволит устанавливать отдельные настройки для этого хранилища.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
-  <LinkedStorageSettings>Настройки сгруппированных хранилищ</LinkedStorageSettings>
+  <LinkedStorageSettings>Сгруппировано</LinkedStorageSettings>
   <!-- EN: {0} buildings -->
-  <NumBuildings>Хранилищ: {0}</NumBuildings>
+  <NumBuildings>{0_numCase ? хранилище : хранилища : хранилищ}</NumBuildings>
   <!-- EN: Stores -->
   <StoresThings>Хранит</StoresThings>
   <!-- EN: Select all linked -->
   <SelectAllLinked>Выбрать группу</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
-  <SelectAllLinkedDesc>Выбрать все хранилища это группы.</SelectAllLinkedDesc>
+  <SelectAllLinkedDesc>Выбрать все хранилища этой группы.</SelectAllLinkedDesc>
   
 </LanguageData>

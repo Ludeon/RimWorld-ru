@@ -46,7 +46,7 @@
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>нельзя атаковать члена дружественной фракции</CannotAttackSameFactionMember>
   <!-- EN: Incapable of firefighting. -->
-  <IncapableOfFirefighting>Пожаротушение недоступно</IncapableOfFirefighting>
+  <IncapableOfFirefighting>пожаротушение недоступно</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Занять {lookup: {1_labelShort}; Case; 3}</OrderManThing>
@@ -93,13 +93,13 @@
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>животное обучалось совсем недавно</AnimalInteractedTooRecently>
   <!-- EN: interacted with too recently -->
-  <PrisonerInteractedTooRecently>обучалось совсем недавно</PrisonerInteractedTooRecently>
+  <PrisonerInteractedTooRecently>контакт был совсем недавно</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>нет подходящей еды</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>нет еды</NoFood>
   <!-- EN: no food matching restrictions -->
-  <NoFoodMatchingRestrictions>нет подходящей еды для диеты</NoFoodMatchingRestrictions>
+  <NoFoodMatchingRestrictions>нет еды, подходящей для диеты</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>Отсутствует {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -254,7 +254,7 @@
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>неспособен {0}</IncapableOfCapacity>
   <!-- EN: Must have {0_label} -->
-  <MustHaveHediff>Необходимо {0_label}</MustHaveHediff>
+  <MustHaveHediff>требуется {0_label}</MustHaveHediff>
 
   <!-- EN: min skill -->
   <MinSkill>мин. уровень навыка</MinSkill>
@@ -286,7 +286,7 @@
   <!-- EN: Too few -->
   <ReloadNotEnough>Недостаточно для перезарядки</ReloadNotEnough>
   <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
-  <ReloadCannotCarryEnough>Невозможно перенести достаточное количество {AMMO_label} для перезарядки.</ReloadCannotCarryEnough>
+  <ReloadCannotCarryEnough>Невозможно перенести достаточное количество {lookup: {AMMO_label}; Case; 1} для восполнения 1 заряда.</ReloadCannotCarryEnough>  <!-- Подставляется CompProperties_Reloadable.ammoDef. Сейчас во всех случаях везде это неисчисляемое существительное: сталь, химтопливо и прочее. Отсюда ед.ч. р.п. -->
   
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>Невозможно взять {lookup: {1_labelShort}; Case; 3}</CannotPickUp>
@@ -553,8 +553,5 @@
   <CannotRomance>Невозможно флиртовать с {0}</CannotRomance>
   <!-- EN: Romance {0} -->
   <CanRomance>Флиртовать с {0}</CanRomance>
-
-  <!-- UNUSED -->
-  <PickUp>Взять {lookup: {1_label}; Case; 3}</PickUp>
 
 </LanguageData>

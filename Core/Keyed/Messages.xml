@@ -116,9 +116,9 @@
   <!-- EN: Must designate abandoned claimable structures or items. -->
   <MessageMustDesignateClaimable>Нужно указать древние захватываемые сооружения или предметы.</MessageMustDesignateClaimable>
   <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
-  <MessageMustDesignatePaintableBuildings>Нужно указать не покрашенные в {0_label} подлежащие покраске сооружения.</MessageMustDesignatePaintableBuildings>
+  <MessageMustDesignatePaintableBuildings>Нужно указать окрашиваемые сооружения, кроме тех, что уже покрашены в {0_label} цвет.</MessageMustDesignatePaintableBuildings>
   <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
-  <MessageMustDesignatePaintableFloors>Нужно указать не покрашенный в {0_label} подлежащий покраске пол.</MessageMustDesignatePaintableFloors>
+  <MessageMustDesignatePaintableFloors>Нужно указать окрашиваемые полы, кроме тех, что уже покрашены в {0_label} цвет.</MessageMustDesignatePaintableFloors>
   <!-- EN: Must designate painted buildings or floors. -->
   <MessageMustDesignatePainted>Нужно указать покрашенные сооружения или пол</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
@@ -140,7 +140,7 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Следует указать предметы, запрещённые для использования.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>Невозможно захватить {CLAIMABLE_labelShort}, пока рядом находятся боеспособные {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenThreatsAreNear>Невозможно захватить {lookup: {CLAIMABLE_labelShort}; Case; 3}, пока рядом находятся боеспособные {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
   <MessageCannotAdoptWhileThreatsAreNear>Невозможно забрать {CLAIMABLE_labelShort}, пока рядом находятся боеспособные {THREAT_factionPawnsPlural}.</MessageCannotAdoptWhileThreatsAreNear>
 
