@@ -63,7 +63,7 @@
   <!-- EN:
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->A shuttle of [asker_faction_name] has taken damage and is seeking a place to land. Its commander [asker_nameDef] wants to land at [map_definite].\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack the crashed shuttle site in an attempt to kill its occupants. You must defend them.\n\nThe shuttle contains [asker_nameDef][andOtherCivilians] and [soldierCountKinds]. The commander [andCivilians] must be rescued, but the [soldiers0_kind]s may be sacrificed.\n\nAfter [rescueDelay_duration], a rescue shuttle will come to pick up the survivors. You'll need to get them all on board within [leaveDelay_duration].</li>
+    <li>questDescription->A shuttle of [asker_faction_name] has taken damage and is seeking a place to land. Its commander [asker_nameDef] wants to land at [map_definite].\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack the crashed shuttle site in an attempt to kill its occupants. You must defend them.\n\nThe shuttle contains [asker_nameDef][andOtherCivilians] and [soldierCountKinds]. The commander [andCivilians] must be rescued, but the [soldiers0_kindPlural] may be sacrificed.\n\nAfter [rescueDelay_duration], a rescue shuttle will come to pick up the survivors. You'll need to get them all on board within [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, another [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] other [pawnLabelSingleOrPlural],</li>
@@ -71,12 +71,12 @@
     <li>andCivilians(civilians_count==2)->and [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->and [pawnLabelPlural]</li>
     <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
-    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kind]s</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
   -->
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->Челноку фракции [asker_faction_name] требуется аварийная посадка. Командир челнока, [asker_nameDef], хочет приземлиться в [map_definite].\n\nНа челнок будут нападать [enemyFaction_pawnsPlural] из фракции [enemyFaction_name] с целью убить всех пассажиров. Защитите его.\n\nВ челноке находятся: [asker_nameDef][andOtherCivilians] и [soldierCountKinds]. Командир [andCivilians] [shouldBeSaved], но жизнями [soldiers0_kind] можно пожертвовать.\n\nЧерез [rescueDelay_duration] за выжившими прибудет спасательный челнок. Вы должны будете погрузить их всех на борт в течение [leaveDelay_duration].</li>
+    <li>questDescription->Челноку фракции [asker_faction_name] требуется аварийная посадка. Командир челнока, [asker_nameDef], хочет приземлиться в [map_definite].\n\nНа челнок будут нападать [enemyFaction_pawnsPlural] из фракции [enemyFaction_name] с целью убить всех пассажиров. Защитите его.\n\nВ челноке находятся: [asker_nameDef][andOtherCivilians] и [soldierCountKinds]. Командир [andCivilians] [shouldBeSaved], и [soldiers0_kindPlural] готовы ради этого пожертвовать своими жизнями.\n\nЧерез [rescueDelay_duration] за выжившими прибудет спасательный челнок. Вы должны будете погрузить их всех на борт в течение [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, другой [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] других [pawnLabelGen],</li>
@@ -84,7 +84,7 @@
     <li>andCivilians(civilians_count==2)->и [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->и [pawnLabelPlural]</li>
     <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
-    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kind]</li> <!-- Пока нет kindPlural, нельзя получить множественное число  -->
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers0_kindPlural] в количестве [soldiers_count] человек</li>
     <li>shouldBeSaved(civilians_count==1)->должен быть спасён</li>
     <li>shouldBeSaved(civilians_count>=2)->должны быть спасены</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
