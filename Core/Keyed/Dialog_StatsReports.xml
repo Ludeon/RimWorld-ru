@@ -42,6 +42,8 @@
   <StatsReport_ShootingExampleDistances>Шанс попасть на большой дистанции</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Итого</StatsReport_FinalValue>
+  <!-- EN: Multiplier for {0} -->
+  <StatsReport_MultiplierFor>Множитель для {lookup: {0}; Case; 1}</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
   <StatsReport_MarketValueFromStuffsAndWork>Материал и работа</StatsReport_MarketValueFromStuffsAndWork>
   <!-- EN: Quality multiplier -->
@@ -51,7 +53,9 @@
   <!-- EN: Max gain -->
   <StatsReport_MaxGain>Максимально</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
-  <StatsReport_AgeMultiplier>Коэффициент возраста {0}</StatsReport_AgeMultiplier>
+  <StatsReport_AgeMultiplier>Коэффициент для возраста {0}</StatsReport_AgeMultiplier>
+  <!-- EN: Offset for age {0} -->
+  <StatsReport_AgeOffset>Прирост для возраста {0}</StatsReport_AgeOffset>
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>Коэффициент прочности {0}</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
@@ -134,7 +138,7 @@
   <StatsReport_Ideoligion>Идеолигия</StatsReport_Ideoligion>
   <!-- EN: Multiplier for malnutrition {0} -->
   <StatsReport_Malnutrition>Коэффициент за плохое питание {0}</StatsReport_Malnutrition>
-  
+
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>Возможные модификаторы</StatReport_PossibleOffsets>
   <!-- EN: Room impressiveness -->
@@ -300,10 +304,10 @@
   <Stat_Hediff_HungerRateOffset_Desc>Значение, на которое изменяется скорость возникновения голода.</Stat_Hediff_HungerRateOffset_Desc>
   <!-- EN: Rest fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Прирост усталости</Stat_Hediff_TirednessOffset_Name>
-  <!-- EN: An offset applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessOffset_Desc>Значение, на которое изменяется скорость возникновения усталости.</Stat_Hediff_TirednessOffset_Desc>
-  <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessFactor_Desc>Множитель, применяемый к скорости возникновения усталости.</Stat_Hediff_TirednessFactor_Desc>
+  <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
+  <Stat_Hediff_TirednessOffset_Desc>Значение, на которое изменяется скорость возникновения потребности во сне.</Stat_Hediff_TirednessOffset_Desc>
+  <!-- EN: A multiplier applied to the rate at which the creature's sleep need falls. -->
+  <Stat_Hediff_TirednessFactor_Desc>Множитель, применяемый к скорости возникновения потребности во сне.</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
   <Stat_Hediff_PreventsInfection_Desc>Предотвращается ли возникновение заражения.</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
@@ -364,8 +368,6 @@
   <Stat_Thing_Plant_AgeDesc>Сколько данное растение успело прожить.</Stat_Thing_Plant_AgeDesc>
   <!-- EN: Lifespan -->
   <Stat_Thing_Plant_Lifespan>Продолжительность жизни</Stat_Thing_Plant_Lifespan>
-  <!-- EN: How long this plant can survive after planting. Regardless of growth or damage, plants die if they become too old. -->
-  <Stat_Thing_Plant_LifespanDesc>Сколько это растение проживёт после посадки. Вне зависимости от стадии роста и полученного урона, растения стареют и умирают.</Stat_Thing_Plant_LifespanDesc>
   <!-- EN: Paintable -->
   <Stat_Building_Paintable>Можно покрасить</Stat_Building_Paintable>
   <!-- EN: Whether this can be painted using dye. -->

@@ -77,14 +77,6 @@
   <VeneratedAnimalsBodySizePerColonist>суммарный размер тел животных на поселенца поблизости</VeneratedAnimalsBodySizePerColonist>
   <!-- EN: Expecting at least {0} body size per colonist. -->
   <MinAnimalBodySizePerColonist>Необходимо хотя бы {0} ед. суммарного размера тел животных на поселенца.</MinAnimalBodySizePerColonist>
-  <!-- EN: Plant {0_label} -->
-  <PlantThing>Посадить {lookup: {0_label}; Case; 3}</PlantThing>
-  <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>Посадить {lookup: {0_label}; Case; 3} на выбранной территории</PlantThingDesc>
-  <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>Отменить посадку {lookup: {0_label}; Case; 1}</CancelPlantThing>
-  <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>Отменить посадку {lookup: {0_label}; Case; 1}.</CancelPlantThingDesc>
   <!-- EN: Disables -->
   <Disables>Блокирует</Disables>
   <!-- EN: Requires one of precepts -->
@@ -153,6 +145,8 @@
   <MealKindMeat>Содержит мясо</MealKindMeat>
   <!-- EN: Acceptable food for everyone -->
   <MealKindAny>Еда, подходящая всем</MealKindAny>
+  <!-- EN: this outfit -->
+  <WearingDesiredApparelMulti>свою одежду</WearingDesiredApparelMulti> <!-- Используется в ThoughtDef: WearingDesiredApparel -->
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>Невозможно загрузить идеолигию</UnableToLoadIdeoTitle>
@@ -205,6 +199,8 @@
   <RitualTargetConnectionTornGauranlenTree>Связь с {lookup: {TREE_definite}; Case; 4} оборвалась. Связывание можно повторить через {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Вам необходимо {0} ед. дерева для каждого участника (всего {2}). Сейчас у вас {1} ед.</RitualTargeWoodInfo>
+  <!-- EN: {0} must be able to reach ritual target. -->
+  <RitualTargetUnreachable>{0} должен иметь возможность добраться до цели ритуала.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
   <Accuse>Обвинить</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
@@ -233,6 +229,8 @@
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>В соответствии с качеством ритуала, число ваших очков развития возросло на {2} (с {0} до {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Can't award development points beyond {0}. -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>Нельзя получить больше {0_numCase ? очка : очков : очков} развития.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
   <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Из-за низкого качества ритуала вы не получили очков развития.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
@@ -289,6 +287,8 @@
   <RitualDevelopmentPoints>Очки развития</RitualDevelopmentPoints>
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
   <RitualDevelopmentPointsTip>Завершение этого ритуала принесёт {0}-{1_numCase ? очко : очка : очков} развития, в зависимости от его качества.</RitualDevelopmentPointsTip>
+  <!-- EN: {0} needs to be powered. -->
+  <RitualOutcomeBlockedNoPower>{lookup: {0}; Case; 3} нужно подключить.</RitualOutcomeBlockedNoPower>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Для рабов</ForSlaveUse>
@@ -314,9 +314,11 @@
   <!-- EN: Passive effects -->
   <RoleEffectsLabel>Пассивные эфф.</RoleEffectsLabel>
   <!-- EN: Must be {0} -->
-  <RoleRequirementLabelSameIdeo>Должно быть {0}</RoleRequirementLabelSameIdeo>
+  <RoleRequirementLabelSameIdeo>не {0}</RoleRequirementLabelSameIdeo> <!-- Описание причины невозможности действия. Вместо {0} будет memberName: "не архист" -->
   <!-- EN: Must be {0} -->
-  <RoleRequirementLabelSupremeGender>Должно быть {0}</RoleRequirementLabelSupremeGender>
+  <RoleRequirementLabelSupremeGender>не {0}</RoleRequirementLabelSupremeGender> <!-- Описание причины невозможности действия. Вместо {0} будет пол: "не мужчина" -->
+  <!-- EN: Cannot be child -->
+  <RoleRequirementCannotBe>не может быть ребёнком</RoleRequirementCannotBe>
 
   <!-- EN: Abilities -->
   <RoleGrantedAbilitiesLabel>Способности</RoleGrantedAbilitiesLabel>
@@ -649,5 +651,12 @@
   <OnCompletionOfCycle>По завершении цикла {lookup: {CYCLE}; Case; 1} произойдёт следующее</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
   <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} не имеет проблем со здоровьем, которые мог бы решить цикл {lookup: {CYCLE}; Case; 1}.\n\nПродолжить?</BiosculpterNoCoditionsToHeal>
+
+  <!-- EN: basic -->
+  <Basic>основной</Basic>
+  <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
+  <ChangeStyleDesc>Изменить стиль будущего сооружения. Изменения будут лишь визуальными и не будут влиять на геймплей.</ChangeStyleDesc>
+  <!-- EN: No available styles. -->
+  <ChangeStyleDisabledNoCategories>нет доступных стилей.</ChangeStyleDisabledNoCategories>
 
 </LanguageData>

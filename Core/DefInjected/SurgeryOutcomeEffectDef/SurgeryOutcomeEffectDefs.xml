@@ -13,9 +13,17 @@
   <SurgeryOutcomeBase.outcomes.3.letterLabel>Операция над {PATIENT_labelShort} провалилась</SurgeryOutcomeBase.outcomes.3.letterLabel>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
   <SurgeryOutcomeBase.outcomes.3.letterText>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} нелепую ошибку во время операции ({RECIPE_label}) над {PATIENT_labelShort}.</SurgeryOutcomeBase.outcomes.3.letterText>
+  <!-- EN: Surgery failed on {PATIENT_labelShort}: Sterilized -->
+  <SurgeryOutcomeBase.outcomes.4.letterLabel>Операция провалилась: {PATIENT_labelShort} {PATIENT_gender ? стерилизован : стерилизована}</SurgeryOutcomeBase.outcomes.4.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has failed while operating on {PATIENT_labelShort} ({RECIPE_label}), leaving {PATIENT_objective} sterile. -->
+  <SurgeryOutcomeBase.outcomes.4.letterText>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} ошибку во время операции ({RECIPE_label}) над {PATIENT_labelShort}, из-за которой {PATIENT_pronoun} {PATIENT_gender ? утратил : утратила} репродуктивные функции.</SurgeryOutcomeBase.outcomes.4.letterText>
+  <!-- EN: Surgery failed on {PATIENT_labelShort}: Sterilized -->
+  <SurgeryOutcomeBase.outcomes.5.letterLabel>Операция провалилась: {PATIENT_labelShort} {PATIENT_gender ? стерилизован : стерилизована}</SurgeryOutcomeBase.outcomes.5.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has failed while operating on {PATIENT_labelShort} ({RECIPE_label}), leaving {PATIENT_objective} sterile. -->
+  <SurgeryOutcomeBase.outcomes.5.letterText>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} ошибку во время операции ({RECIPE_label}) над {PATIENT_labelShort}, из-за которой {PATIENT_pronoun} {PATIENT_gender ? утратил : утратила} репродуктивные функции.</SurgeryOutcomeBase.outcomes.5.letterText>
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <SurgeryOutcomeBase.outcomes.4.letterLabel>Операция над {PATIENT_labelShort} провалилась</SurgeryOutcomeBase.outcomes.4.letterLabel>
+  <SurgeryOutcomeBase.outcomes.6.letterLabel>Операция над {PATIENT_labelShort} провалилась</SurgeryOutcomeBase.outcomes.6.letterLabel>
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <SurgeryOutcomeBase.outcomes.4.letterText>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} ошибку во время операции ({RECIPE_label}) над {PATIENT_labelShort}.</SurgeryOutcomeBase.outcomes.4.letterText>
+  <SurgeryOutcomeBase.outcomes.6.letterText>{SURGEON_labelShort} {SURGEON_gender ? совершил : совершила} ошибку во время операции ({RECIPE_label}) над {PATIENT_labelShort}.</SurgeryOutcomeBase.outcomes.6.letterText>
   
 </LanguageData>

@@ -252,8 +252,8 @@
   <CaravanAttacking>Нападает на {0}.</CaravanAttacking> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>Предлагает подарок {0}.</CaravanOfferingGifts> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
-  <!-- EN: Trading with {0} -->
-  <CaravanTrading>Торгует с {0}</CaravanTrading> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
+  <!-- EN: Trading with {0}. -->
+  <CaravanTrading>Торгует с {0}.</CaravanTrading> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Снято с трупа.</WasWornByCorpse>
   <!-- EN: T -->
@@ -262,6 +262,8 @@
   <DeterioratingUnroofed>расположение не под крышей</DeterioratingUnroofed>
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>расположение на улице</DeterioratingOutdoors>
+  <!-- EN: raining -->
+  <DeterioratingRaining>идёт дождь</DeterioratingRaining> 
   <!-- EN: protected -->
   <Protected>укрыто</Protected>
   <!-- EN: Deteriorating -->
@@ -280,8 +282,8 @@
   <BeautyHere>Красота</BeautyHere>
   <!-- EN: no power -->
   <NoPower>нет питания</NoPower>
-  <!-- EN: Work speed penalty -->
-  <WorkSpeedPenalty>Штраф к скорости работы</WorkSpeedPenalty>
+  <!-- EN: Work speed -->
+  <WorkSpeedPenalty>Скорость работы</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>Невозможно</DisabledCommand>
   <!-- EN: Ready for launch. -->
@@ -710,10 +712,14 @@
   <Hilliness_Label>Рельеф</Hilliness_Label>
   <!-- EN: Road -->
   <Road_Label>Дорога</Road_Label>
+  <!-- EN: River -->
+  <River_Label>Река</River_Label> 
   <!-- EN: Movement difficulty -->
   <MovementDifficulty_Label>Сложность передвижения</MovementDifficulty_Label>
   <!-- EN: Pollution -->
   <Pollution_Label>Загрязнение</Pollution_Label>
+  <!-- EN: Filth -->
+  <Filth_Label>Грязь</Filth_Label>
   
   <!-- EN: Faction -->
   <Faction_Label>Фракция</Faction_Label>
@@ -978,6 +984,8 @@
   <PowerNeeded>Потребляемая мощность</PowerNeeded>
   <!-- EN: Power output -->
   <PowerOutput>Энерговыработка</PowerOutput>
+  <!-- EN: {0} W when active -->
+  <PowerActiveNeeded>{0} Вт, когда активно</PowerActiveNeeded>
   <!-- EN: Stored -->
   <PowerBatteryStored>Заряд</PowerBatteryStored>
   <!-- EN: Efficiency -->
@@ -1749,7 +1757,7 @@
   <!-- EN: tox gas -->
   <ToxGas>токсичный газ</ToxGas>
   <!-- EN: rot stink -->
-  <RotStink>вонь гниения</RotStink>
+  <RotStink>трупный газ</RotStink>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1790,5 +1798,14 @@
 
   <!-- EN: Random -->
   <Random>Случайно</Random>
+
+  <!-- EN: Plant {0_label} -->
+  <PlantThing>Посадить {lookup: {0_label}; Case; 3}</PlantThing>
+  <!-- EN: Plant a {0_label} in a chosen area. -->
+  <PlantThingDesc>Посадить {lookup: {0_label}; Case; 3} на выбранной территории.</PlantThingDesc>
+  <!-- EN: Cancel planting {0_label} -->
+  <CancelPlantThing>Отменить посадку {lookup: {0_label}; Case; 1}</CancelPlantThing>
+  <!-- EN: Cancel planting the {0_label}. -->
+  <CancelPlantThingDesc>Отменить посадку {lookup: {0_label}; Case; 1}.</CancelPlantThingDesc>
 
 </LanguageData>
