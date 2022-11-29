@@ -7,33 +7,33 @@
   <!-- EN: deathrest capacity serum -->
   <DeathrestCapacitySerum.label>сыворотка торпорной вместимости</DeathrestCapacitySerum.label>
   <!-- EN: A serum that permanently increases the number of deathrest buildings a person can connect to during deathrest.\n\nThe serum can only be ingested by individuals with the deathrest gene. -->
-  <DeathrestCapacitySerum.description>Сыворотка, навсегда увеличивающая максимальное количество бонусов от торпора.\n\nЭту сыворотку можно ввести только людям с геном торпора.</DeathrestCapacitySerum.description>
+  <DeathrestCapacitySerum.description>Сыворотка, навсегда увеличивающая максимальное количество аппаратов, к которому может подключиться поселенец в состоянии торпора.\n\nЭту сыворотку можно ввести только людям с геном торпора.</DeathrestCapacitySerum.description>
   <!-- EN: Ingest {0_label} -->
-  <DeathrestCapacitySerum.comps.CompUsable.useLabel>Ввести {0_label}</DeathrestCapacitySerum.comps.CompUsable.useLabel>
+  <DeathrestCapacitySerum.comps.CompUsable.useLabel>Ввести {lookup: {0_label}; Case; 3}</DeathrestCapacitySerum.comps.CompUsable.useLabel>
   
   <!-- EN: nano structuring chip -->
   <NanostructuringChip.label>наноструктурирующий чип</NanostructuringChip.label>
   <!-- EN: A molecular-restructing mechanoid micro-organ. It is necessary to produce certain advanced mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
   <NanostructuringChip.description>Микроорган механоидов с функцией молекулярной перестройки. Необходим для создания сложных механоидов и снаряжения.\n\nМеханитор может изучить его, чтобы раскрыть секреты продвинутых технологий механоидов.</NanostructuringChip.description>
   <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <NanostructuringChip.comps.CompStudiable.completedLetterText>Изучив {PARENT_label}, {STUDIER_labelShort} {STUDIER_gender ? получил : получила} ценные данные, необходимые для исследования {RESEARCH}.\n\nЭти данные позволят вашим учёным проводить новые исследования.</NanostructuringChip.comps.CompStudiable.completedLetterText>
+  <NanostructuringChip.comps.CompStudiable.completedLetterText>Изучив {lookup: {PARENT_label}; Case; 3}, {STUDIER_labelShort} {STUDIER_gender ? получил : получила} ценные данные, необходимые для исследования {RESEARCH}.\n\nЭти данные позволят вашим учёным проводить новые исследования.</NanostructuringChip.comps.CompStudiable.completedLetterText> <!-- Вместо {RESEARCH} может подставиться список технологий через запятую. Падеж применить нельзя -->
   <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
-  <NanostructuringChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} изучен. Доступно новое исследование: {RESEARCH}</NanostructuringChip.comps.CompStudiable.completedLetterTitle>
+  <NanostructuringChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} {PARENT_gender ? изучен : изучена : изучено}. Доступны новые технологии: {RESEARCH}</NanostructuringChip.comps.CompStudiable.completedLetterTitle> <!-- Вместо {RESEARCH} может подставиться список технологий через запятую -->
   
   <!-- EN: powerfocus chip -->
   <PowerfocusChip.label>энергофокусирующий чип</PowerfocusChip.label>
   <!-- EN: An energy-focusing mechanoid micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
   <PowerfocusChip.description>Микроорган механоидов с функцией фокусирования энергии. Необходим для создания сложных механоидов и снаряжения.\n\nМеханитор может изучить его, чтобы раскрыть секреты продвинутых технологий механоидов.</PowerfocusChip.description>
   <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <PowerfocusChip.comps.CompStudiable.completedLetterText>Изучив {PARENT_label}, {STUDIER_labelShort} {STUDIER_gender ? получил : получила} ценные данные, необходимые для исследования {RESEARCH}.\n\nЭти данные позволят вашим учёным проводить новые исследования.</PowerfocusChip.comps.CompStudiable.completedLetterText>
+  <PowerfocusChip.comps.CompStudiable.completedLetterText>Изучив {lookup: {PARENT_label}; Case; 3}, {STUDIER_labelShort} {STUDIER_gender ? получил : получила} ценные данные, необходимые для исследования {RESEARCH}.\n\nЭти данные позволят вашим учёным проводить новые исследования.</PowerfocusChip.comps.CompStudiable.completedLetterText> <!-- Вместо {RESEARCH} может подставиться список технологий через запятую. Падеж применить нельзя -->
   <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
   <PowerfocusChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} изучен. Доступно новое исследование: {RESEARCH}</PowerfocusChip.comps.CompStudiable.completedLetterTitle>
   
   <!-- EN: 
   shell -->
-  <Shell_Toxic.label>ядовитый снаряд</Shell_Toxic.label>
+  <Shell_Toxic.label>токсичный снаряд</Shell_Toxic.label>
   <!-- EN: An artillery shell containing reagents that, when combined, generate deadly tox gas. When fired, it will stick into the ground and release tox gas for some time before expiring.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup that can be lethal. -->
-  <Shell_Toxic.description>Снаряд, заполенный реагентами, которые при контакте друг с другом производят смертельный ядовитый газ. После приземления снаряд некоторое время будет испускать из себя отраву.\n\nЯдовитый газ обжигает лёгкие и глаза, вызывая временные нарушения зрения и дыхания. Продолжительное нахождение в облаке ядовитого газа может привести к смерти.</Shell_Toxic.description>
+  <Shell_Toxic.description>Снаряд, заполненный реагентами, которые при контакте друг с другом производят опасный токсичный газ. После приземления снаряд будет испускать его из себя некоторое время.\n\nТоксичный газ обжигает лёгкие и глаза, вызывая временные нарушения зрения и дыхания. Продолжительное нахождение в облаке токсичного газа может привести к смерти.</Shell_Toxic.description>
   
   <!-- EN: tox shell -->
   <Shell_Toxic_Releasing.label>ядовитый снаряд</Shell_Toxic_Releasing.label>
@@ -46,9 +46,9 @@
   <!-- EN: A mechanoid-band synchronization micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
   <SignalChip.description>Микроорган позволяющий синхронизироваться с волнами связи механоидов. Необходим для создания сложных механоидов и снаряжения.\n\nМеханитор может изучить его, чтобы раскрыть секреты продвинутых технологий механоидов.</SignalChip.description>
   <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <SignalChip.comps.CompStudiable.completedLetterText>Изучив {PARENT_label}, {STUDIER_labelShort} {STUDIER_gender ? получил : получила} ценные данные, необходимые для исследования {RESEARCH}.\n\nЭти данные позволят вашим учёным проводить новые исследования.</SignalChip.comps.CompStudiable.completedLetterText>
+  <SignalChip.comps.CompStudiable.completedLetterText>Изучив {lookup: {PARENT_label}; Case; 3}, {STUDIER_labelShort} {STUDIER_gender ? получил : получила} ценные данные, необходимые для исследования {RESEARCH}.\n\nЭти данные позволят вашим учёным проводить новые исследования.</SignalChip.comps.CompStudiable.completedLetterText> <!-- Вместо {RESEARCH} может подставиться список технологий через запятую. Падеж применить нельзя -->
   <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
-  <SignalChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} изучен. Доступно новое исследование: {RESEARCH}</SignalChip.comps.CompStudiable.completedLetterTitle>
+  <SignalChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} {PARENT_gender ? изучен : изучена : изучено}. Доступны новые технологии: {RESEARCH}</SignalChip.comps.CompStudiable.completedLetterTitle> <!-- Вместо {RESEARCH} может подставиться список технологий через запятую -->
   
   <!-- EN: basic subcore -->
   <SubcoreBasic.label>базовое субъядро</SubcoreBasic.label>
@@ -68,6 +68,6 @@
   <!-- EN: toxic wastepack -->
   <Wastepack.label>мешок отходов</Wastepack.label>
   <!-- EN: A compacted package of toxic waste that will slowly dissolve if not frozen. The surface is heat-sealed for safe transport. Wastepacks will pollute the surrounding terrain if they dissolve, deteriorate, or are otherwise destroyed.\n\nToxic wastepacks are flammable. If burned or damaged, they will release tox gas. -->
-  <Wastepack.description>Мешок спрессованных отходов, который будет медленно растворяться, если его не заморозить. Запаян для безопасной транспортировки. Мешки с отходами будут загрязнять почву вокруг себя расворясь, ветшая или если будут уничтожены.\n\nОгнеопасно! При воспламенении или повреждении выделяет ядовитый газ.</Wastepack.description>
+  <Wastepack.description>Мешок спрессованных отходов, который будет медленно растворяться, если его не заморозить. Запаян для безопасной транспортировки. Если мешок с отходами растворится, разрушится в результате ветшания или будет иным способом уничтожен, он загрязнит почву вокруг себя.\n\nОгнеопасен! При воспламенении или повреждении выделяет ядовитый газ.</Wastepack.description>
   
 </LanguageData>
