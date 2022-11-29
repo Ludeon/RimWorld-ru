@@ -7,7 +7,7 @@
   <!-- EN: Summoning the {LEADERKIND_label} threat will summon the following hostile mechanoids:\n\n{PAWNS}\n\nThe mechanoids will arrive in the next few hours or days. Are you ready to fight? -->
   <BossgroupWarningDialog>Сигнал призыва {LEADERKIND_label} вызовет следующих враждебных механоидов:\n\n{PAWNS}\n\nМеханоиды прибудут в ближайшие несколько часов или дней. Вы готовы сражаться?</BossgroupWarningDialog>
   <!-- EN: {PAWN_labelShort} is downed. -->
-  <MechControllerDowned>{PAWN_labelShort} сбит с ног.</MechControllerDowned>
+  <MechControllerDowned>{PAWN_labelShort} {PAWN_gender ? обездвижен : обездвижена}.</MechControllerDowned>
   <!-- EN: {PAWN_labelShort} is a prisoner. -->
   <MechControllerImprisoned>{PAWN_labelShort} теперь {PAWN_gender ? заключенный : заключенная}.</MechControllerImprisoned>
   <!-- EN: {PAWN_labelShort} is inside {CONTAINER} -->
