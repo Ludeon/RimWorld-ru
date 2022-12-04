@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: my baby {BABY_nameDef} is sick -->
-  <BabySick.stages.my_baby_is_sick.label>{1_gender ? Мой сын: Моя дочь} {BABY_nameDef} {1_gender ? болен : больна}</BabySick.stages.my_baby_is_sick.label>
+  <BabySick.stages.my_baby_is_sick.label>{BABY_gender ? Мой сын: Моя дочь} {BABY_nameDef} {BABY_gender ? болен : больна}</BabySick.stages.my_baby_is_sick.label>
   <!-- EN: My baby is sick. I'm terrified something bad will happen to my baby. -->
   <BabySick.stages.my_baby_is_sick.description>{1_gender ? Мой сын: Моя дочь} плохо себя чувствует. Я переживаю, что с {1_gender ? ним : ней} что-то случится.</BabySick.stages.my_baby_is_sick.description>
   <!-- EN: my babies are sick -->
@@ -38,7 +38,7 @@
   <EnslavedChild.stages.enslaved_child.description>Это просто ужасно знать, что мой ребёнок вынужден прислуживать другим.</EnslavedChild.stages.enslaved_child.description>
   
   <!-- EN: my child {CHILD_nameDef} is happy -->
-  <MyChildHappy.stages.my_child_is_happy.label>{1_gender ? Мой сын: Моя дочь} {CHILD_nameDef} {1_gender ? счастлив : счастлива}</MyChildHappy.stages.my_child_is_happy.label>
+  <MyChildHappy.stages.my_child_is_happy.label>{CHILD_gender ? Мой сын: Моя дочь} {CHILD_nameDef} {CHILD_gender ? счастлив : счастлива}</MyChildHappy.stages.my_child_is_happy.label>
   <!-- EN: Nothing makes me feel better than my kid being happy. -->
   <MyChildHappy.stages.my_child_is_happy.description>Ничто так не согревает сердце, как осознание того, что мой ребёнок счастлив.</MyChildHappy.stages.my_child_is_happy.description>
   
@@ -53,7 +53,7 @@
   <MyChildrenSad.stages.my_children_are_unhappy.description>Я переживаю за своих детей, они несчастны. Я чувствую себя ужасно.</MyChildrenSad.stages.my_children_are_unhappy.description>
   
   <!-- EN: my child {CHILD_nameDef} is unhappy -->
-  <MyChildSad.stages.my_child_is_unhappy.label>{1_gender ? Мой сын: Моя дочь} {CHILD_nameDef} {1_gender ? несчастен: несчастна}</MyChildSad.stages.my_child_is_unhappy.label>
+  <MyChildSad.stages.my_child_is_unhappy.label>{CHILD_gender ? Мой сын: Моя дочь} {CHILD_nameDef} {CHILD_gender ? несчастен: несчастна}</MyChildSad.stages.my_child_is_unhappy.label>
   <!-- EN: I worry about my child. If they're not happy, I'm not happy. -->
   <MyChildSad.stages.my_child_is_unhappy.description>Я переживаю за своего ребёнка, он несчастен. Я чувствую себя ужасно.</MyChildSad.stages.my_child_is_unhappy.description>
   
