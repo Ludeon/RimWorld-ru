@@ -44,17 +44,17 @@
   <!-- EN: ideoligion exposure -->
   <IdeoExposureSectionHeader>влияние идеолигии</IdeoExposureSectionHeader>
   <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
-  <IdeoExposureNoExposure>{BABY_labelShort} пока не подвергался влиянию идеологии.</IdeoExposureNoExposure>
+  <IdeoExposureNoExposure>{BABY_labelShort} пока не подвергался влиянию идеолигии.</IdeoExposureNoExposure>
   <!-- EN: {BABY_pronoun} can be exposed to ideoligions by interacting with followers of an ideoligion. These interactions include being breastfed, carried, played with, and more. At the age of {CHILDAGE} {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to. -->
   <IdeoExposureNoExposureDetail>Когда другие поселенцы кормят {BABY_labelShort}, носят на себе, играют с {BABY_gender ? ним : ней} или иным способом взаимодействуют, {BABY_pronoun} подвергается влиянию их идеолигии. В возрасте {CHILDAGE_numCase ? года : лет : лет} {BABY_labelShort} примет ту идеолигию, которая оказала на н{PAWN_possessive} наибольшее влияние.</IdeoExposureNoExposureDetail>
   <!-- EN: {BABY_labelShort} is {PERCENT} likely to join the ideoligion {IDEO_name}. -->
   <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort} примет идеолигию {IDEO_name} с вероятностью {PERCENT}.</IdeoExposurePointsTooltipJoinLikelihood>
   <!-- EN: As {BABY_labelShort} interacts with followers of an ideoligion {BABY_pronoun} becomes more likely to join that ideoligion. {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to at the age of {CHILDAGE}. -->
-  <IdeoExposurePointsTooltipJoinDescription>Когда {BABY_labelShort} контактирует с последователями определённой идеологии, {BABY_pronoun} с большей вероятностью присоединится к этой идеологии, когда {BABY_objective} исполнится {CHILDAGE}.</IdeoExposurePointsTooltipJoinDescription>
+  <IdeoExposurePointsTooltipJoinDescription>Когда {BABY_labelShort} контактирует с последователями определённой идеолигии, {BABY_pronoun} с большей вероятностью присоединится к этой идеологии, когда {BABY_objective} исполнится {CHILDAGE}.</IdeoExposurePointsTooltipJoinDescription>
   <!-- EN: Ideoligion exposure is measured by exposure points. Interactions like being breastfed, carried, or played with will cause {BABY_labelShort} to gain exposure points for the ideoligions followed by those {BABY_pronoun} interacts with. -->
-  <IdeoExposurePointsTooltipExposureDescription>Влияние идеологии измеряется очками влияния. Различные активности с ребёнком, такие как кормление грудью, укачивание или игра, будут добавлять {BABY_labelShort} очки влияния той идеологии, к которой принадлежит взрослый.</IdeoExposurePointsTooltipExposureDescription>
+  <IdeoExposurePointsTooltipExposureDescription>Влияние идеолигии измеряется очками влияния. Различные активности с ребёнком, такие как кормление грудью, укачивание или игра, будут добавлять {BABY_labelShort} очки влияния той идеологии, к которой принадлежит взрослый.</IdeoExposurePointsTooltipExposureDescription>
   <!-- EN: {IDEO_name} exposure points -->
-  <IdeoExposurePointsTooltipIdeoExposure>Очки влияния идеологии {IDEO_name}</IdeoExposurePointsTooltipIdeoExposure>
+  <IdeoExposurePointsTooltipIdeoExposure>Очки влияния идеолигии {IDEO_name}</IdeoExposurePointsTooltipIdeoExposure>
   <!-- EN: Total exposure points -->
   <IdeoExposurePointsTooltipTotalExposure>Общие очки влияния</IdeoExposurePointsTooltipTotalExposure>
 
@@ -86,31 +86,31 @@
   <!-- EN: zero chance -->
   <CantRomanceTargetZeroChance>нет шансов</CantRomanceTargetZeroChance>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
-  <CantRomanceInitiateMessagePrisoner>{0_labelShort} не может ухаживать, так как {0_pronoun} в плену.</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort} не может флиртовать, так как {0_pronoun} в плену.</CantRomanceInitiateMessagePrisoner>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
-  <CantRomanceInitiateMessageSlave>{0_labelShort} не может ухаживать, так как {0_pronoun} в рабстве.</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageSlave>{0_labelShort} не может флиртовать, так как {0_pronoun} в рабстве.</CantRomanceInitiateMessageSlave>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
-  <CantRomanceInitiateMessageAsexual>{0_labelShort} не может ухаживать, так как {0_pronoun} {0_gender ? асексуален : асексуальна}.</CantRomanceInitiateMessageAsexual>
+  <CantRomanceInitiateMessageAsexual>{0_labelShort} не может флиртовать, так как {0_pronoun} {0_gender ? асексуален : асексуальна}.</CantRomanceInitiateMessageAsexual>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
-  <CantRomanceInitiateMessageDowned>{0_labelShort} не может ухаживать, так как {0_pronoun} {0_gender ? недееспособен : недееспособна}.</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDowned>{0_labelShort} не может флиртовать, так как {0_pronoun} {0_gender ? обездвижен : обездвижена}.</CantRomanceInitiateMessageDowned>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
-  <CantRomanceInitiateMessageDrafted>{0_labelShort} не может ухаживать, так как {0_pronoun} {0_gender ? призван : призвана}.</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageDrafted>{0_labelShort} не может флиртовать, так как {0_pronoun} {0_gender ? призван : призвана}.</CantRomanceInitiateMessageDrafted>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
-  <CantRomanceInitiateMessageMentalState>{0_labelShort} не может ухаживать, так как {0_pronoun} в неподходящем настроении.</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageMentalState>{0_labelShort} не может флиртовать, так как {0_pronoun} в неподходящем настроении.</CantRomanceInitiateMessageMentalState>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
-  <CantRomanceInitiateMessageTalk>{0_labelShort} не может ухаживать, так как {0_pronoun} не может говорить.</CantRomanceInitiateMessageTalk>
+  <CantRomanceInitiateMessageTalk>{0_labelShort} не может флиртовать, так как {0_pronoun} не может говорить.</CantRomanceInitiateMessageTalk>
   <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
-  <CantRomanceInitiateMessageCooldown>{0_labelShort} недавно уже {0_gender ? пытался : пыталась} ухаживать, и нужно подождать {1}.</CantRomanceInitiateMessageCooldown>
+  <CantRomanceInitiateMessageCooldown>{0_labelShort} недавно уже {0_gender ? пытался : пыталась} флиртовать, и нужно подождать {1}.</CantRomanceInitiateMessageCooldown>
   <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
-  <TryRomanceFailedMessage>Попытка {0_labelShort} ухаживать за {1_labelShort} была неудачной.</TryRomanceFailedMessage>
+  <TryRomanceFailedMessage>Попытка {0_labelShort} флиртовать с {1_labelShort} была неудачной.</TryRomanceFailedMessage>
   <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
-  <RomanceExistingRelationshipWarning>Попытка {INITIATOR_nameDef} ухаживать за {TARGET_nameDef} может вызвать негодование текущего партнёра, привести к ссорам и разрыву отношений.</RomanceExistingRelationshipWarning>
+  <RomanceExistingRelationshipWarning>Попытка {INITIATOR_nameDef} флиртовать с {TARGET_nameDef} может вызвать негодование текущего партнёра, привести к ссорам и разрыву отношений.</RomanceExistingRelationshipWarning>
   <!-- EN: Romance chance -->
   <RomanceChance>Шанс на успех</RomanceChance>
   <!-- EN: already {PAWN_nameDef}'s {RELATION} -->
   <RomanceChanceExistingRelation>уже {RELATION} {PAWN_nameDef}</RomanceChanceExistingRelation>
   <!-- EN: Cannot romance -->
-  <RomanceChanceCant>Не может ухаживать</RomanceChanceCant>
+  <RomanceChanceCant>Не может флиртовать</RomanceChanceCant>
   <!-- EN: Relative age -->
   <RomanceChanceAgeFactor>Относительный возраст</RomanceChanceAgeFactor>
   <!-- EN: Beauty -->
@@ -120,7 +120,7 @@
   <!-- EN: Opinion of partner -->
   <RomanceChancePartnerFactor>Отношение к партнёру</RomanceChancePartnerFactor>
   <!-- EN: {0_labelShort} was unable to romance {1_labelShort} -->
-  <RomanceFailedUnexpected>{0_labelShort} не {0_gender ? смог : смогла} ухаживать за {1_labelShort}</RomanceFailedUnexpected>
+  <RomanceFailedUnexpected>{0_labelShort} не {0_gender ? смог : смогла} флиртовать с {1_labelShort}</RomanceFailedUnexpected>
   <!-- EN: {0_nameDef} is already in a relationship. -->
   <RomanceWarningMonogamous>{0_nameDef} уже состоит в отношениях.</RomanceWarningMonogamous>
   <!-- EN: {0_nameDef} already has {1} partners. -->
