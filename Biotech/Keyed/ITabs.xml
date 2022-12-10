@@ -2,14 +2,14 @@
 <LanguageData>
 
   <!-- EN: The recipe {0} requires a mechanitor to work on it. None of your colonists are mechanitors, so nobody will do this bill. -->
-  <RecipeRequiresMechanitor>Для выполнения задания «{0}» требуется механитор. У вашем поселении нет механиторов, так что заняться этим никто не сможет. </RecipeRequiresMechanitor>
+  <RecipeRequiresMechanitor>Для выполнения задания «{0}» требуется механитор. В вашем поселении нет механиторов, так что заняться этим никто не сможет. </RecipeRequiresMechanitor>
 
   <!-- EN: genepacks -->
   <GenepackPlural>генные пакеты</GenepackPlural>
   <!-- EN: Traits develop later during childhood -->
-  <TraitsDevelopLaterBaby>Черты характера ребёнка определяются позже во время взросления.</TraitsDevelopLaterBaby>
+  <TraitsDevelopLaterBaby>Черты характера ребёнка определяются позже, в течение детства.</TraitsDevelopLaterBaby>
   <!-- EN: Skills develop later during childhood -->
-  <SkillsDevelopLaterBaby>Навыки ребёнка развиваются позже во время взросления.</SkillsDevelopLaterBaby>
+  <SkillsDevelopLaterBaby>Навыки ребёнка развиваются позже, в течение детства.</SkillsDevelopLaterBaby>
   <!-- EN: Genes -->
   <TabGenes>Гены</TabGenes>
 
@@ -32,7 +32,7 @@
   <!-- EN: Nobody can feed this baby. -->
   <AutofeedNone>Этого ребёнка некому покормить</AutofeedNone>
   <!-- EN: {FEEDER_nameDef} will not automatically feed {BABY_nameDef}. -->
-  <AutofeedModeTooltipNever>{FEEDER_nameDef} не будет автоматически кормить {BABY_nameDef}.</AutofeedModeTooltipNever>
+  <AutofeedModeTooltipNever>{FEEDER_nameDef} не будет самостоятельно кормить {BABY_nameDef}.</AutofeedModeTooltipNever>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} as childcare work. -->
   <AutofeedModeTooltipChildcare>{FEEDER_nameDef} будет кормить {BABY_nameDef} во время ухода за ребёнком.</AutofeedModeTooltipChildcare>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} day or night, even if {FEEDER_nameDef} is not assigned to childcare or is incapable of childcare. -->
@@ -42,13 +42,13 @@
 
   <!-- Social tab (human babies) -->
   <!-- EN: ideoligion exposure -->
-  <IdeoExposureSectionHeader>влияние идеологии</IdeoExposureSectionHeader>
+  <IdeoExposureSectionHeader>влияние идеолигии</IdeoExposureSectionHeader>
   <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
   <IdeoExposureNoExposure>{BABY_labelShort} пока не подвергался влиянию идеологии.</IdeoExposureNoExposure>
   <!-- EN: {BABY_pronoun} can be exposed to ideoligions by interacting with followers of an ideoligion. These interactions include being breastfed, carried, played with, and more. At the age of {CHILDAGE} {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to. -->
-  <IdeoExposureNoExposureDetail>Когда {BABY_labelShort} контактирует с другими поселенцами, например при кормлении грудью, укачивании или в игре, {BABY_pronoun} подвергается влиянию их идеологии. В возрасте {CHILDAGE} {BABY_labelShort} присоединится к одной из оказавших на н{PAWN_possessive} влияние идеологий.</IdeoExposureNoExposureDetail>
+  <IdeoExposureNoExposureDetail>Когда другие поселенцы кормят {BABY_labelShort}, носят на себе, играют с {BABY_gender ? ним : ней} или иным способом взаимодействуют, {BABY_pronoun} подвергается влиянию их идеолигии. В возрасте {CHILDAGE_numCase ? года : лет : лет} {BABY_labelShort} примет ту идеолигию, которая оказала на н{PAWN_possessive} наибольшее влияние.</IdeoExposureNoExposureDetail>
   <!-- EN: {BABY_labelShort} is {PERCENT} likely to join the ideoligion {IDEO_name}. -->
-  <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort} присоединится к идеологии {IDEO_name} с вероятностью {PERCENT}.</IdeoExposurePointsTooltipJoinLikelihood>
+  <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort} примет идеолигию {IDEO_name} с вероятностью {PERCENT}.</IdeoExposurePointsTooltipJoinLikelihood>
   <!-- EN: As {BABY_labelShort} interacts with followers of an ideoligion {BABY_pronoun} becomes more likely to join that ideoligion. {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to at the age of {CHILDAGE}. -->
   <IdeoExposurePointsTooltipJoinDescription>Когда {BABY_labelShort} контактирует с последователями определённой идеологии, {BABY_pronoun} с большей вероятностью присоединится к этой идеологии, когда {BABY_objective} исполнится {CHILDAGE}.</IdeoExposurePointsTooltipJoinDescription>
   <!-- EN: Ideoligion exposure is measured by exposure points. Interactions like being breastfed, carried, or played with will cause {BABY_labelShort} to gain exposure points for the ideoligions followed by those {BABY_pronoun} interacts with. -->
@@ -60,23 +60,23 @@
 
   <!-- Social tab (romance) -->
   <!-- EN: Romance -->
-  <TryRomanceButtonLabel>Ухаживать</TryRomanceButtonLabel>
+  <TryRomanceButtonLabel>Флиртовать</TryRomanceButtonLabel>
   <!-- EN: Nobody for {0_labelShort} to romance. -->
-  <TryRomanceNoOptsMessage>Нет никого, за кем {0_labelShort} {0_gender ? мог : могла} бы ухаживать.</TryRomanceNoOptsMessage>
+  <TryRomanceNoOptsMessage>Нет никого, с кем {0_labelShort} {0_gender ? мог : могла} бы флиртовать.</TryRomanceNoOptsMessage>
   <!-- EN: unreachable -->
-  <CantRomanceTargetUnreachable>цель недосягаема</CantRomanceTargetUnreachable>
+  <CantRomanceTargetUnreachable>цель вне досягаемости</CantRomanceTargetUnreachable>
   <!-- EN: sleeping -->
   <CantRomanceTargetSleeping>цель спит</CantRomanceTargetSleeping>
   <!-- EN: incapacitated -->
-  <CantRomanceTargetDowned>цель недееспособна</CantRomanceTargetDowned>
+  <CantRomanceTargetDowned>цель обездвижена</CantRomanceTargetDowned>
   <!-- EN: drafted -->
-  <CantRomanceTargetDrafted>цель призвана</CantRomanceTargetDrafted>
+  <CantRomanceTargetDrafted>цель в режиме призыва</CantRomanceTargetDrafted>
   <!-- EN: mental break -->
-  <CantRomanceTargetMentalState>цель в стрессе</CantRomanceTargetMentalState>
+  <CantRomanceTargetMentalState>цель в состоянии срыва</CantRomanceTargetMentalState>
   <!-- EN: incestuous -->
   <CantRomanceTargetIncest>родственник</CantRomanceTargetIncest>
   <!-- EN: low opinion -->
-  <CantRomanceTargetOpinion>низкое мнение</CantRomanceTargetOpinion>
+  <CantRomanceTargetOpinion>плохие отношения</CantRomanceTargetOpinion>
   <!-- EN: incompatible orientation -->
   <CantRomanceTargetSexuality>неподходящая ориентация</CantRomanceTargetSexuality>
   <!-- EN: prisoner -->
@@ -104,7 +104,7 @@
   <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
   <TryRomanceFailedMessage>Попытка {0_labelShort} ухаживать за {1_labelShort} была неудачной.</TryRomanceFailedMessage>
   <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
-  <RomanceExistingRelationshipWarning>Попытка {INITIATOR_nameDef} ухаживать за {TARGET_nameDef} может повлечь негодование партнёров, привести к разрывам отношений и спровоцировать ссоры.</RomanceExistingRelationshipWarning>
+  <RomanceExistingRelationshipWarning>Попытка {INITIATOR_nameDef} ухаживать за {TARGET_nameDef} может вызвать негодование текущего партнёра, привести к ссорам и разрыву отношений.</RomanceExistingRelationshipWarning>
   <!-- EN: Romance chance -->
   <RomanceChance>Шанс на успех</RomanceChance>
   <!-- EN: already {PAWN_nameDef}'s {RELATION} -->
@@ -116,19 +116,19 @@
   <!-- EN: Beauty -->
   <RomanceChanceBeautyFactor>Красота</RomanceChanceBeautyFactor>
   <!-- EN: Opinion -->
-  <RomanceChanceOpinionFactor>Мнение</RomanceChanceOpinionFactor>
+  <RomanceChanceOpinionFactor>Отношение</RomanceChanceOpinionFactor>
   <!-- EN: Opinion of partner -->
-  <RomanceChancePartnerFactor>Мнение о партнёре</RomanceChancePartnerFactor>
+  <RomanceChancePartnerFactor>Отношение к партнёру</RomanceChancePartnerFactor>
   <!-- EN: {0_labelShort} was unable to romance {1_labelShort} -->
   <RomanceFailedUnexpected>{0_labelShort} не {0_gender ? смог : смогла} ухаживать за {1_labelShort}</RomanceFailedUnexpected>
   <!-- EN: {0_nameDef} is already in a relationship. -->
   <RomanceWarningMonogamous>{0_nameDef} уже состоит в отношениях.</RomanceWarningMonogamous>
   <!-- EN: {0_nameDef} already has {1} partners. -->
-  <RomanceWarningPolygamous>{0_nameDef} уже имеет {1} партнёров.</RomanceWarningPolygamous>
+  <RomanceWarningPolygamous>{0_nameDef} уже имеет {1_numCase ? партнёра : партнёра : партнёров}.</RomanceWarningPolygamous>
 
   <!-- Guest tab (prisoners) -->
   <!-- EN: Multiplier for genes -->
-  <FactorForGenes>Множитель гена</FactorForGenes>
+  <FactorForGenes>Множитель для генов</FactorForGenes>
   <!-- EN: Prison breaking is disabled by {GENE_label} gene. -->
   <PrisonBreakingDisabledDueToGene>Побег из тюрьмы недоступен из-за гена «{GENE_label}».</PrisonBreakingDisabledDueToGene>
 
