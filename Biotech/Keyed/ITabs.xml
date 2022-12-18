@@ -26,7 +26,7 @@
   <!-- EN: never -->
   <AutofeedModeNever>не кормить</AutofeedModeNever>
   <!-- EN: childcare -->
-  <AutofeedModeChildcare>уход за ребёнком</AutofeedModeChildcare>
+  <AutofeedModeChildcare>при уходе</AutofeedModeChildcare>
   <!-- EN: urgent -->
   <AutofeedModeUrgent>всегда</AutofeedModeUrgent>
   <!-- EN: Nobody can feed this baby. -->
@@ -44,7 +44,7 @@
   <!-- EN: ideoligion exposure -->
   <IdeoExposureSectionHeader>влияние идеолигии</IdeoExposureSectionHeader>
   <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
-  <IdeoExposureNoExposure>{BABY_labelShort} пока не подвергался влиянию идеолигии.</IdeoExposureNoExposure>
+  <IdeoExposureNoExposure>{BABY_labelShort} пока не {BABY_gender ? подвергался : подвергалась} влиянию чьей-либо идеолигии.</IdeoExposureNoExposure>
   <!-- EN: {BABY_pronoun} can be exposed to ideoligions by interacting with followers of an ideoligion. These interactions include being breastfed, carried, played with, and more. At the age of {CHILDAGE} {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to. -->
   <IdeoExposureNoExposureDetail>Когда другие поселенцы кормят {BABY_labelShort}, носят на себе, играют с {BABY_gender ? ним : ней} или иным способом взаимодействуют, {BABY_pronoun} подвергается влиянию их идеолигии. В возрасте {CHILDAGE_numCase ? года : лет : лет} {BABY_labelShort} примет ту идеолигию, которая оказала на н{PAWN_possessive} наибольшее влияние.</IdeoExposureNoExposureDetail>
   <!-- EN: {BABY_labelShort} is {PERCENT} likely to join the ideoligion {IDEO_name}. -->
@@ -56,7 +56,7 @@
   <!-- EN: {IDEO_name} exposure points -->
   <IdeoExposurePointsTooltipIdeoExposure>Очки влияния идеолигии {IDEO_name}</IdeoExposurePointsTooltipIdeoExposure>
   <!-- EN: Total exposure points -->
-  <IdeoExposurePointsTooltipTotalExposure>Общие очки влияния</IdeoExposurePointsTooltipTotalExposure>
+  <IdeoExposurePointsTooltipTotalExposure>Всего очков влияния</IdeoExposurePointsTooltipTotalExposure>
 
   <!-- Social tab (romance) -->
   <!-- EN: Romance -->
@@ -94,9 +94,9 @@
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
   <CantRomanceInitiateMessageDowned>{0_labelShort} не может флиртовать, так как {0_pronoun} {0_gender ? обездвижен : обездвижена}.</CantRomanceInitiateMessageDowned>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
-  <CantRomanceInitiateMessageDrafted>{0_labelShort} не может флиртовать, так как {0_pronoun} {0_gender ? призван : призвана}.</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageDrafted>{0_labelShort} не может флиртовать, так как {0_pronoun} находится в режиме призыва.</CantRomanceInitiateMessageDrafted>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
-  <CantRomanceInitiateMessageMentalState>{0_labelShort} не может флиртовать, так как {0_pronoun} в неподходящем настроении.</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageMentalState>{0_labelShort} не может флиртовать, так как {0_pronoun} в состоянии нервного срыва.</CantRomanceInitiateMessageMentalState>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
   <CantRomanceInitiateMessageTalk>{0_labelShort} не может флиртовать, так как {0_pronoun} не может говорить.</CantRomanceInitiateMessageTalk>
   <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
@@ -112,13 +112,13 @@
   <!-- EN: Cannot romance -->
   <RomanceChanceCant>Не может флиртовать</RomanceChanceCant>
   <!-- EN: Relative age -->
-  <RomanceChanceAgeFactor>Относительный возраст</RomanceChanceAgeFactor>
+  <RomanceChanceAgeFactor>Разница в возрасте</RomanceChanceAgeFactor>
   <!-- EN: Beauty -->
   <RomanceChanceBeautyFactor>Красота</RomanceChanceBeautyFactor>
   <!-- EN: Opinion -->
   <RomanceChanceOpinionFactor>Отношение</RomanceChanceOpinionFactor>
   <!-- EN: Opinion of partner -->
-  <RomanceChancePartnerFactor>Отношение к партнёру</RomanceChancePartnerFactor>
+  <RomanceChancePartnerFactor>Отношение к тек. партнёру</RomanceChancePartnerFactor>
   <!-- EN: {0_labelShort} was unable to romance {1_labelShort} -->
   <RomanceFailedUnexpected>{0_labelShort} не {0_gender ? смог : смогла} флиртовать с {1_labelShort}</RomanceFailedUnexpected>
   <!-- EN: {0_nameDef} is already in a relationship. -->
