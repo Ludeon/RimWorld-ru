@@ -10,7 +10,7 @@
   <!-- EN: Danger -->
   <Danger>Опасность</Danger>
   <!-- EN: {0} damage -->
-  <DamageType>{0} урона</DamageType>
+  <DamageType>Урон ({0})</DamageType>
   <!-- EN: Contained {0_labelPlural} -->
   <ContainedThings>Содержал {0_labelPlural}</ContainedThings>
   <!-- EN: Time until next atomization -->
@@ -20,11 +20,11 @@
   <!-- EN: with -->
   <WithLower>с</WithLower>
   <!-- EN: tiles -->
-  <TilesLower>клетками</TilesLower>
+  <TilesLower>клеток</TilesLower>
   <!-- EN: 1 mech -->
-  <CaravanMech>1 механоидом</CaravanMech>
+  <CaravanMech>1 механоид</CaravanMech>
   <!-- EN: {0} mechs -->
-  <CaravanMechsCount>{0} механоидами</CaravanMechsCount>
+  <CaravanMechsCount>{0_numCase ? механоид : механоида : механоидов}</CaravanMechsCount>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -74,9 +74,9 @@
   <!-- EN: Groups -->
   <Groups>Группы</Groups>
   <!-- EN: Loading mech gestation resources -->
-  <LoadingMechGestator>Загрузка материалов для выращивания</LoadingMechGestator>
+  <LoadingMechGestator>Загрузка материалов для гестации</LoadingMechGestator>
   <!-- EN: Initiating mech gestation cycle -->
-  <InitMechGestationCycle>Начать цикл выращивания механоида</InitMechGestationCycle>
+  <InitMechGestationCycle>Начать цикл гестации механоида</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
   <InitMechBirth>Инициирует рождение механоида</InitMechBirth>
   <!-- EN: Mech energy -->
@@ -96,11 +96,11 @@
   <!-- EN: Summon {0} threat -->
   <Summon>Призвать {lookup: {0}; Case; 3}.</Summon>
   <!-- EN: No reachable {0} -->
-  <NoReachableBossgroupCaller>Нет {0} поблизости</NoReachableBossgroupCaller>
+  <NoReachableBossgroupCaller>Нет {lookup: {0}; Case; 1} поблизости</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
-  <NoReservableBossgroupCaller>Нет доступного {0}</NoReservableBossgroupCaller>
+  <NoReservableBossgroupCaller>Нет {0_gender ? доступного : доступной : доступного} {lookup: {0}; Case; 1}</NoReservableBossgroupCaller>
   <!-- EN: No powered {0} -->
-  <NoPoweredBossgroupCaller>Нет работающего {0}</NoPoweredBossgroupCaller>
+  <NoPoweredBossgroupCaller>Нет {0_gender ? работающего : работающей : работающего} {lookup: {0}; Case; 1}</NoPoweredBossgroupCaller>
   <!-- EN: already used -->
   <AlreadyUsed>уже используется</AlreadyUsed>
   <!-- EN: Gestating -->
@@ -154,7 +154,7 @@
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>можно безопасно пробудиться</CanWakeSafely>
   <!-- EN: Disabled by gene -->
-  <DisabledByGene>Неактивно из-за гена</DisabledByGene>
+  <DisabledByGene>Недоступно из-за гена</DisabledByGene>
   <!-- EN: {PAWN_nameDef} is in critical condition. -->
   <WakeDisabledCriticalCondition>{PAWN_nameDef} в критическом состоянии.</WakeDisabledCriticalCondition>
   <!-- EN: Drain rate -->
@@ -176,7 +176,7 @@
   <!-- EN: Will cause major blood loss -->
   <WillCauseSeriousBloodloss>Вызовет массивную кровопотерю</WillCauseSeriousBloodloss>
   <!-- EN: too small -->
-  <TooSmall>слишком маленький</TooSmall>
+  <TooSmall>ещё младенец</TooSmall>
 
   <!-- Deathrest buildings -->
   <!-- EN: Bound to -->
