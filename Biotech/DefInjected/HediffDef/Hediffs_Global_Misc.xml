@@ -6,7 +6,7 @@
   <!-- EN: Effects of various birth complications. If the baby can survive for 10 days, they will be strong enough to recover on their own.\n\nThe illness will wax and wane in strength over time, requiring different levels of tending and medicine to recover. -->
   <InfantIllness.description>Совокупность различных осложнений, возникших при родах. Если младенец выживет в течение 10 дней, он сможет самостоятельно поправиться.\n\nСостояние младенца будет то ухудшаться, то улучшаться, требуя изменения в качестве медикаментов и ухода.</InfantIllness.description>
   <!-- EN: {PAWN_labelShort}'s infant illness went from {1} to {2}. -->
-  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.notifyMessage>{1} форма болезни {PAWN_labelShort} теперь {2}.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.notifyMessage>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.notifyMessage>Послеродовые осложнения {PAWN_labelShort} перешли из {replace: {1}; "лёгкие"-"лёгкой"; "тяжёлые"-"тяжёлой"; "очень тяжёлые"-"очень тяжёлой"; "критические"-"критической"} формы в {replace: {2}; "лёгкие"-"лёгкую"; "тяжёлые"-"тяжёлую"; "очень тяжёлые"-"очень тяжёлую"; "критические"-"критическую"}.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.notifyMessage>
   <!-- EN: that are life threatening without exceptional medical care and glitterworld medicine. -->
   <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.descriptionExtra>угрожает жизни без передовых медикаментов и вмешательства высококлассного врача.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.descriptionExtra>
   <!-- EN: grave -->
@@ -32,7 +32,7 @@
   <!-- EN: extreme -->
   <InfantIllness.stages.extreme-0.label>очень тяжёлые</InfantIllness.stages.extreme-0.label>
   <!-- EN: extreme -->
-  <InfantIllness.stages.extreme-1.label>очень тяжёлые</InfantIllness.stages.extreme-1.label>
+  <InfantIllness.stages.extreme-1.label>критические</InfantIllness.stages.extreme-1.label>
   
   <!-- EN: lactating -->
   <Lactating.label>лактация</Lactating.label>
@@ -78,7 +78,7 @@
   <!-- EN: The condition of being about to give birth. Labor moves through multiple stages with different levels of pain and contractions. Each labor is different, and pain can rise and fall unpredictably over time. Labor ends when the baby is born. -->
   <PregnancyLabor.description>Роды совсем скоро начнутся. Они состоят из нескольких фаз, отличающихся интенсивностью схваток и болезненностью.</PregnancyLabor.description>
   <!-- EN: {PAWN_labelShort}'s labor went from {1} to {2}. -->
-  <PregnancyLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>{1} течение родов {PAWN_labelShort} теперь {2}.</PregnancyLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>
+  <PregnancyLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>Течение родов {PAWN_labelShort} из {replace: {1}; "лёгкое"-"лёгкого"; "тяжёлые"-"тяжёлого"; "очень тяжёлое"-"очень тяжёлого"} стало {replace: {2}; "лёгкое"-"лёгким"; "тяжёлое"-"тяжёлым"; "очень тяжёлое"-"очень тяжёлым"}.</PregnancyLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>
   <!-- EN: mild -->
   <PregnancyLabor.stages.mild.label>лёгкое</PregnancyLabor.stages.mild.label>
   <!-- EN: intense -->
@@ -94,7 +94,7 @@
   <!-- EN: pregnancy mood -->
   <PregnancyMood.label>антенатальная хандра</PregnancyMood.label>
   <!-- EN: This common side effect of pregnancy represents a rising and falling mood caused by unbalanced hormones. -->
-  <PregnancyMood.description>Перепады настроения, вызванные нарушением гормонального фона, распространённый побочный эффект беременности.</PregnancyMood.description>
+  <PregnancyMood.description>Перепады настроения, вызванные нарушением гормонального фона, — распространённый побочный эффект беременности.</PregnancyMood.description>
   
   <!-- EN: pregnant -->
   <PregnantHuman.label>беременность</PregnantHuman.label>
