@@ -224,7 +224,7 @@
   <!-- EN: labor -->
   <Labor>роды</Labor>
   <!-- EN: dilation -->
-  <LaborDilation>расширение шейки матки</LaborDilation>
+  <LaborDilation>раскрытие шейки матки</LaborDilation>
   <!-- EN: normal -->
   <PregnancyApproach_Normal>обычный</PregnancyApproach_Normal>
   <!-- EN: avoid pregnancy -->
@@ -308,7 +308,7 @@
   <!-- EN: Archite capsules -->
   <ArchitesRequired>Архитные капсулы</ArchitesRequired>
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
-  <ArchitesRequiredDesc>Архиты — это нанороботы, созданными сверхмощным архотеком. Они, как и другие образцы архотехнологий, способны на то, что учёным до сих пор кажется невозможным. Лучшее, на что человечество может надеяться, — это найти где-нибудь подобные чудеса технологий. Никакой речи о попытке воспроизвести их не идёт.</ArchitesRequiredDesc>
+  <ArchitesRequiredDesc>Архиты — это нанороботы, созданные сверхмощными архотеками. Они, как и другие образцы архотехнологий, способны на то, что учёным до сих пор кажется невозможным. Лучшее, на что человечество может надеяться, — это найти где-нибудь подобные чудеса технологий. Никакой речи о попытке воспроизвести их не идёт.</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
   <CancelXenogerm>Отменить сборку</CancelXenogerm>
   <!-- EN: Stop all work on the current xenogerm. -->
@@ -468,13 +468,13 @@
 
   <!-- Mech gestating -->
   <!-- EN: Current gestation cycle -->
-  <CurrentGestationCycle>Текущий цикл выращивания</CurrentGestationCycle>
+  <CurrentGestationCycle>Текущий цикл гестации</CurrentGestationCycle>
   <!-- EN: Gestation cycles remaining -->
-  <RemainingGestationCycles>Осталось циклов выращивания</RemainingGestationCycles>
+  <RemainingGestationCycles>Осталось циклов гестации</RemainingGestationCycles>
   <!-- EN: Gestation cycles -->
-  <GestationCycles>Циклы выращивания</GestationCycles>
+  <GestationCycles>Циклы гестации</GestationCycles>
   <!-- EN: Gestating {0} -->
-  <GestatingMech>Выращивает {0}</GestatingMech>
+  <GestatingMech>Выращивается {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>Выращен механоид: {0}</GestatedMech>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
@@ -482,13 +482,13 @@
   <!-- EN: Gestation complete -->
   <GestationComplete>Гестация завершена</GestationComplete>
   <!-- EN: Resurrecting {0} -->
-  <ResurrectingMech>Воскрешает {0}</ResurrectingMech>
+  <ResurrectingMech>Воскрешается {0}</ResurrectingMech>
   <!-- EN: Resurrected {0} -->
   <ResurrectedMech>Воскрешён механоид: {0}</ResurrectedMech>
 
   <!-- Carrier -->
   <!-- EN: Release {0} -->
-  <MechCarrierRelease>Выпустить {0}</MechCarrierRelease>
+  <MechCarrierRelease>Выпустить {lookup: {0}; Case; 3}</MechCarrierRelease>
   <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
   <MechCarrierDesc>Выпустить рой до {0} {lookup: {1}; Case; 2}. Создание каждого {2} стоит {3} {lookup: {4}; Case; 2}. При гибели родителя погибнет каждый {1}. {1} не может быть перезаряжен и погибнет после того, как заряд его энергоячейки иссякнет.</MechCarrierDesc>
   <!-- EN: Not enough resources -->
@@ -498,7 +498,7 @@
   <!-- EN: Click to set the desired autofill amount. -->
   <MechCarrierClickToSetAutofillAmount>Нажмите, чтобы установить желаемое количество для автоматического заполнения.</MechCarrierClickToSetAutofillAmount>
   <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
-  <MechCarrierAutofillDesc>Определяет максимальное число ресурсов, которые ваши поселенцы будут автоматически загружать в {0}. Ресурсы могут быть использованы для создания {1}.</MechCarrierAutofillDesc>
+  <MechCarrierAutofillDesc>Определяет максимальное число ресурсов, которые ваши поселенцы будут автоматически загружать в {lookup: {0}; Case; 3}. Ресурсы могут быть использованы для создания {lookup: {1}; Case; 1}.</MechCarrierAutofillDesc>
 
   <!-- Mech power cell -->
   <!-- EN: Power cell -->
@@ -515,13 +515,13 @@
 
   <!-- Abilities -->
   <!-- EN: {0_labelShort} is not hemogenic. -->
-  <AbilityDisabledNoHemogenGene>{0_labelShort} не {0_gender ? гемогеничный : гемогеничная}</AbilityDisabledNoHemogenGene>
+  <AbilityDisabledNoHemogenGene>{0_labelShort} не {0_gender ? гемогеничен : гемогенична}</AbilityDisabledNoHemogenGene>
   <!-- EN: {0_labelShort} does not have enough hemogen. -->
-  <AbilityDisabledNoHemogen>у {0_labelShort} не хватает гемогена. </AbilityDisabledNoHemogen>
+  <AbilityDisabledNoHemogen>у {0_labelShort} не хватает гемогена.</AbilityDisabledNoHemogen>
   <!-- EN: children cannot do this. -->
-  <AbilityStartRitualDisabledChild>дети не могут это делать</AbilityStartRitualDisabledChild>
+  <AbilityStartRitualDisabledChild>дети не могут этого делать.</AbilityStartRitualDisabledChild>
   <!-- EN: need a {0}. -->
-  <AbilityStartRitualNoMembersOfIdeo>нужен {0}</AbilityStartRitualNoMembersOfIdeo>
+  <AbilityStartRitualNoMembersOfIdeo>нужен {0}.</AbilityStartRitualNoMembersOfIdeo> <!-- Подставится ideo.memberName -->
   <!-- EN: Hemogen cost -->
   <AbilityHemogenCost>Затраты гемогена</AbilityHemogenCost>
   <!-- EN: Base hemogen gain -->
@@ -536,7 +536,7 @@
   <AbilityMechFirefoampopRecharging>Хлопушка с пожарной пеной перезарядится через {0}</AbilityMechFirefoampopRecharging>
 
   <!-- EN: Polluted {0} -->
-  <PollutedTerrain>Загрязнено {0}</PollutedTerrain>
+  <PollutedTerrain>{0_gender ? Загрязнённый : Загрязнённая : Загрязнённое} {0}</PollutedTerrain>
 
   <!-- Growth vat -->
   <!-- EN: Biostarvation -->
@@ -544,7 +544,7 @@
   <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
   <BiostarvationExplanation>В одном или нескольких инкубаторах присутствует недостаток электроэнергии или питательных веществ.\n\nЕсли инкубационный голод достигнет 100%, человек внутри инкубатора погибнет.</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
-  <InsertPersonGrowthVatDesc>Поместить человека в инкубатор. Это ускорит его процесс старения в 20 раз.</InsertPersonGrowthVatDesc>
+  <InsertPersonGrowthVatDesc>Поместить человека в инкубатор. Это ускорит его процесс взросления в 20 раз.</InsertPersonGrowthVatDesc>
   <!-- EN: Implant an embryo into the growth vat. After gestating for 18 days a fully formed baby will be produced by the vat, hopefully in good health. -->
   <InsertEmbryoGrowthVatDesc>Поместить эмбрион в инкубатор. Через 18 дней на свет появится полностью сформировавшийся ребёнок, скорее всего здоровый.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
@@ -560,13 +560,13 @@
   <!-- EN: Birth quality -->
   <EmbryoBirthQuality>Качество родов</EmbryoBirthQuality>
   <!-- EN: Embryo selected -->
-  <EmbryoSelected>Выбранный эмбрион</EmbryoSelected>
+  <EmbryoSelected>Выбран эмбрион</EmbryoSelected>
   <!-- EN: Person selected -->
-  <PersonSelected>Выбранный человек</PersonSelected>
+  <PersonSelected>Выбран человек</PersonSelected>
   <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
   <NoPawnsCanEnterGrowthVat>Нет не испытывающих инкубационный голод людей допустимого возраста. Чтобы быть помещённым в инкубатор, человеку должно быть как минимум {0_numCase ? год : года : лет} и он не должен испытывать инкубационный голод.</NoPawnsCanEnterGrowthVat>
   <!-- EN: Aging speed -->
-  <AgingSpeed>Скорость старения</AgingSpeed>
+  <AgingSpeed>Скорость взросления</AgingSpeed>
 
   <!-- Mech charger -->
   <!-- EN: Waste -->
@@ -574,19 +574,19 @@
 
   <!-- Dissolution -->
   <!-- EN: indoors -->
-  <DissolutionRateIndoors>на свежем воздухе</DissolutionRateIndoors>
+  <DissolutionRateIndoors>в помещении</DissolutionRateIndoors>
   <!-- EN: raining -->
   <DissolutionRain>идёт дождь</DissolutionRain>
   <!-- EN: One wastepack dissolves every {0} -->
-  <DissolvesEvery>Один мешок отходов растворяется раз в {0}</DissolvesEvery>
+  <DissolvesEvery>Каждые {0} разрушается один мешок отходов</DissolvesEvery>
   <!-- EN: Frozen (won't dissolve). -->
-  <DissolutionFrozen>Заморожен (не растворяется).</DissolutionFrozen>
+  <DissolutionFrozen>Заморожен (не разрушается).</DissolutionFrozen>
 
   <!-- EN: {0} cells / day -->
   <CellsPerDay>{0} клеток в день</CellsPerDay>
 
   <!-- EN: {0} cannot wear clothing for {1} -->
-  <WrongDevelopmentalStageForClothing>{0} не может носить одежду для {1}</WrongDevelopmentalStageForClothing> 
+  <WrongDevelopmentalStageForClothing>{0} не может носить одежду для следующих жизненных этапов: {1}</WrongDevelopmentalStageForClothing> <!-- Вместо {1} подставятся keyed-значения DevelopmentStage_* через запятую. Падежи нельзя применить -->
 
   <!-- Subcore scanner -->
   <!-- EN: Start scanner -->
@@ -594,9 +594,9 @@
   <!-- EN: Produces -->
   <SubcoreScannerProduces>Создаёт</SubcoreScannerProduces>
   <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
-  <SubcoreScannerStartDesc>После того как {0} будет заполнен необходимыми предметами, {1}, выберите поселенца или сражённого человека и нажмите правой кнопкой мыши на {0}, чтобы запустить церебральный анализатор.</SubcoreScannerStartDesc>
+  <SubcoreScannerStartDesc>После того как {0} будет заполнен необходимыми предметами: {1}, — выберите поселенца или сражённого человека и нажмите правой кнопкой мыши на {0}, чтобы запустить церебральный анализатор.</SubcoreScannerStartDesc>
   <!-- EN: Completes in -->
-  <SubcoreScannerCompletesIn>Процесс завершиться через</SubcoreScannerCompletesIn>
+  <SubcoreScannerCompletesIn>Процесс завершится через</SubcoreScannerCompletesIn>
   <!-- EN: Waiting for occupant -->
   <SubcoreScannerWaitingForOccupant>Ожидание пользователя</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
@@ -648,7 +648,7 @@
   
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
-  <ShowPollutionOverlayToggleButton>Переключить отображение загрязнения. Так можно увидеть, какие участки земли заражены.\n\nНахождение на заражённой почве вызывает накопление токсинов, которое может привести к смерти. Большая часть растительности неспособна выживать на заражённой почве.</ShowPollutionOverlayToggleButton>
+  <ShowPollutionOverlayToggleButton>Переключить отображение загрязнения. Так можно увидеть, какие участки земли заражены.\n\nНахождение на заражённой почве вызывает отравление токсинами, которое может привести к смерти. Большая часть растительности неспособна выживать на заражённой почве.</ShowPollutionOverlayToggleButton>
   <!-- EN: None -->
   <TilePollutionNone>Чисто</TilePollutionNone>
   <!-- EN: Light -->
@@ -662,9 +662,9 @@
   <!-- EN: Nearby pollution -->
   <TilePollutionNearby>Загрязнение поблизости</TilePollutionNearby>
   <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
-  <NearbyPollutionTip>Сумма уровней загрязнения всех клеток в радиусе {0}. Чем больше расстояние от загрязнённых клеток, тем меньше общий уровень загрязнения. :\n\n{1}\n\nЧем больше поблизости загрязнённых клеток, тем выше шанс возникновения кислотного смога.</NearbyPollutionTip>
+  <NearbyPollutionTip>Сумма уровней загрязнения всех клеток в радиусе {0}. Чем больше расстояние от загрязнённых клеток, тем меньше общий уровень загрязнения:\n\n{1}\n\nЧем больше поблизости загрязнённых клеток, тем выше шанс возникновения кислотного смога.</NearbyPollutionTip>
   <!-- EN: This tile will have acidic smog every {0} days on average. -->
-  <NoxiousHazeInterval>В этой клетке кислотный смог будет возникать в среднем раз в {0_numCase ? день : дня : дней}</NoxiousHazeInterval>
+  <NoxiousHazeInterval>В этой клетке кислотный смог будет возникать в среднем раз в {0_numCase ? день : дня : дней}.</NoxiousHazeInterval>
   <!-- EN: This tile will never have acidic smog. -->
   <NoxiousHazeNeverOccurring>В этой клетке кислотный смог возникать не будет.</NoxiousHazeNeverOccurring>
   <!-- EN: tiles away -->
@@ -678,7 +678,7 @@
   <!-- EN: Absorbing pollution: Next in {0} -->
   <AbsorbingPollutionNext>Очищает почву: следующий цикл через {0}</AbsorbingPollutionNext>
   <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
-  <TerrainPollutionTip>Насколько загрязнена почва в этой клетке.\n\nНахождение на заражённой почве вызывает накопление токсинов, которое может привести к смерти. Большая часть растительности неспособна выживать на заражённой почве.</TerrainPollutionTip>
+  <TerrainPollutionTip>Насколько загрязнена почва в этой клетке.\n\nНахождение на заражённой почве вызывает отравление токсинами, которое может привести к смерти. Большая часть растительности неспособна выживать на заражённой почве.</TerrainPollutionTip>
 
   <!-- Research -->
   <!-- EN: Requires study of -->
@@ -688,11 +688,11 @@
   <!-- EN: Trigger radius -->
   <TriggerRadius>Радиус активации</TriggerRadius>
   <!-- EN: Opening -->
-  <DormantCompOpening>открывается</DormantCompOpening>
+  <DormantCompOpening>Открывается</DormantCompOpening>
   
   <!-- Fertility -->
   <!-- EN: ova extracted recently -->
-  <SurgeryDisableReasonOvumExtracted>Недавно извлечены яйцеклетки</SurgeryDisableReasonOvumExtracted>
+  <SurgeryDisableReasonOvumExtracted>яйцеклетки недавно извлечены</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize -->
   <Fertilize>Оплодотворить</Fertilize>
   <!-- EN: Cannot fertilize -->
@@ -700,7 +700,7 @@
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
   <FertilizeGizmoDescription>Выберите мужчину для оплодотворения яйцеклетки. Готовый эмбрион можно затем имплантировать женщине или поместить в инкубатор для дальнейшего развития. Биологическими родителями будут считаться доноры женских и мужских гамет.</FertilizeGizmoDescription>
   <!-- EN: Cancel fertilization by {0} -->
-  <FertilizeCancel>Отменить оплодотворение с помощью {0}</FertilizeCancel>
+  <FertilizeCancel>Отменить оплодотворение при участии {0}</FertilizeCancel>
   <!-- EN: sterile -->
   <CannotSterile>бесплодие</CannotSterile>
   <!-- EN: pregnant -->
@@ -712,7 +712,7 @@
   <!-- EN: {0} ({1}) -->
   <DisabledOption>{0} ({1})</DisabledOption>
   <!-- EN: No men can fertilize this ovum. -->
-  <FertilizeDisabledNoMales>Нет способных оплодотворить мужчин.</FertilizeDisabledNoMales>
+  <FertilizeDisabledNoMales>Нет мужчин, способных к оплодотворению.</FertilizeDisabledNoMales>
   
   <!-- EN: Implant embryo -->
   <ImplantLabel>Имплантировать эмбрион</ImplantLabel>
@@ -730,11 +730,11 @@
   <!-- EN: Implant {0} -->
   <ImplantSurgeryLabel>Имплантировать {0}</ImplantSurgeryLabel>
   <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
-  <ImplantSurgeryConfirm>Шанс успешной имплантации {0} в {1} равен {2}.\n\nШанс успешной имплантации зависит от фертильности суррогатной матери. Вероятность успеха ниже, если мать слишком молода или слишком стара.</ImplantSurgeryConfirm>
+  <ImplantSurgeryConfirm>Шанс успешной имплантации {lookup: {0}; Case; 1} в {1} равен {2}.\n\nШанс успешной имплантации зависит от фертильности суррогатной матери. Вероятность успеха ниже, если мать слишком молода или слишком стара.</ImplantSurgeryConfirm>
   <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
   <ImplantEmbryoCancelVat>Если извлечь {0} из инкубатора, это приведёт к его гибели.\n\nВы хотите продолжить?</ImplantEmbryoCancelVat>
   <!-- EN: Implanting the {0} in {1} was unsuccessful. -->
-  <ImplantFailedMessage>Имплантация {0} в {1} закончилась неудачей.</ImplantFailedMessage>
+  <ImplantFailedMessage>Имплантация {lookup: {0}; Case; 1} в {1} закончилась неудачей.</ImplantFailedMessage>
   <!-- EN: Cancel embryo insertion -->
   <ImplantEmbryoCancel>Отменить загрузку эмбриона</ImplantEmbryoCancel>
   <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
@@ -753,7 +753,7 @@
 
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
-  <RemoteMechShieldTip>Удалённое защитное поле, проецируемое механитором. Может останавливать летящие на большой скорости предметы, но бесполезно против холодного оружия и высоких температур. Не позволяет вести огонь изнутри, выключается при воздействии ЭМИ.</RemoteMechShieldTip>
+  <RemoteMechShieldTip>Защитное поле, удалённо проецируемое механитором. Останавливает баллистические снаряды и осколки, но бесполезно против рукопашных атак и высокотемпературных воздействий. Не позволяет выстрелить самому владельцу щита и мгновенно отключается от ЭМИ.</RemoteMechShieldTip>
 
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->
