@@ -167,42 +167,42 @@
   -->
   <GrowthMomentFlavor.rulePack.rulesStrings>
     <li>r_root->[firstSentence] [secondSentence]</li>
-    <li>firstSentence(tierSection==4)->[PAWN_pronoun] продемонстрировал отличный [nounGrowth] и испытывает [adjGood] [nounAttitudeGood] в отношении [nounFutureGen].</li>
-    <li>firstSentence(tierSection==4)->[PAWN_pronoun] выработал интерес к нескольким видам занятий, когда [situationLearning].</li>
-    <li>firstSentence(tierSection==4)->Когда [PAWN_nameDef] [situationLearning], [PAWN_pronoun] выработал интерес к нескольким видам занятий.</li>
-    <li>firstSentence(tierSection==4)->За последний год [PAWN_pronoun] показал отличный [nounGrowth].</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] {PAWN_gender ? продемонстрировал : продемонстрировала} отличный [nounGrowth] и испытывает [adjGood] [nounAttitudeGood] в отношении [nounFutureGen].</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] {PAWN_gender ? выработал : выработала} интерес к нескольким видам занятий, когда [situationLearning].</li>
+    <li>firstSentence(tierSection==4)->Когда [PAWN_nameDef] [situationLearning], [PAWN_pronoun] {PAWN_gender ? выработал : выработала} интерес к нескольким видам занятий.</li>
+    <li>firstSentence(tierSection==4)->За последний год [PAWN_pronoun] {PAWN_gender ? показал : показала} отличный [nounGrowth].</li>
     <li>secondSentence(tierSection==4)->[PAWN_nameDef] хочет больше [situationLearning] и [situationFun].</li>
     <li>secondSentence(tierSection==4)->[PAWN_nameDef] нравится [situationLearning], но больше всего [PAWN_pronoun] любит [situationFun].</li>
     <li>secondSentence(tierSection==4)->[PAWN_nameDef] любит [situationLearning] и мечтает [situationAspirational].</li>
     <li>secondSentence(tierSection==4)->[PAWN_nameDef] надеется, что если [PAWN_pronoun] будет [situationLearning], [PAWN_pronoun] сможет в будущем [situationAspirational].</li>
-    <li>firstSentence(tierSection==3)->За последнее время [PAWN_pronoun] продемонстрировал [adjGood] [nounAttitudeGood] в отношении [nounFutureGen].</li>
+    <li>firstSentence(tierSection==3)->За последнее время [PAWN_pronoun] {PAWN_gender ? продемонстрировал : продемонстрировала} [adjGood] [nounAttitudeGood] в отношении [nounFutureGen].</li>
     <li>firstSentence(tierSection==3)->[PAWN_pronoun] испытывает [nounAttitudeGood] в отношении [nounFutureGen].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] заинтересовался новыми видами занятий, а также начал [situationLearning].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] показал отличный [nounGrowth].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] {PAWN_gender ? заинтересовался : заинтересовалась} новыми видами занятий, а также начал [situationLearning].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] {PAWN_gender ? показал : показала} отличный [nounGrowth].</li>
     <li>secondSentence(tierSection==3)->[PAWN_nameDef] рад, что редко чувствует себя [feelingBad], и хочет побольше [situationFun].</li>
-    <li>secondSentence(tierSection==3)->[PAWN_nameDef] любит [situationLearning], но больше всего рад [situationFun].</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] любит [situationLearning], но больше всего {PAWN_gender ? рад : рада} [situationFun].</li>
     <li>secondSentence(tierSection==3)->Когда [PAWN_nameDef] вырастет, [PAWN_pronoun] хочет [taskWork].</li>
     <li>secondSentence(tierSection==3)->Но больше всего [PAWN_nameDef] любит [situationFun].</li>
-    <li>firstSentence(tierSection==2)->[PAWN_pronoun] продемонстрировал определённый [nounGrowth] и хочет продолжать [situationLearning].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] {PAWN_gender ? продемонстрировал : продемонстрировала} определённый [nounGrowth] и хочет продолжать [situationLearning].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] испытывает сдержанный [nounAttitudeGood] в отношении дальнейшей учёбы.</li>
-    <li>firstSentence(tierSection==2)->Строя планы [nounFutureGen], [PAWN_pronoun] хотел бы [situationLearning].</li>
-    <li>firstSentence(tierSection==2)->Благодаря тому, что [PAWN_pronoun] мог [situationLearning], [PAWN_nameDef] заинтересовался новым видом занятия.</li>
+    <li>firstSentence(tierSection==2)->Строя планы [nounFutureGen], [PAWN_pronoun] {PAWN_gender ? хотел : хотела} бы [situationLearning].</li>
+    <li>firstSentence(tierSection==2)->Благодаря тому, что [PAWN_pronoun] мог [situationLearning], [PAWN_nameDef] {PAWN_gender ? заинтересовался : заинтересовалась} новым видом занятия.</li>
     <li>secondSentence(tierSection==2)->А ещё [PAWN_nameDef] любит [situationFun].</li>
-    <li>secondSentence(tierSection==2)->Однако [PAWN_nameDef] хотел бы почаще [situationFun].</li>
+    <li>secondSentence(tierSection==2)->Однако [PAWN_nameDef] {PAWN_gender ? хотел : хотела} бы почаще [situationFun].</li>
     <li>secondSentence(tierSection==2)->Тем не менее, [PAWN_nameDef] считает, что [taskWork] — это скучно.</li>
-    <li>secondSentence(tierSection==2)->В особенности [PAWN_nameDef] хотел бы сосредоточиться на том, чтобы [situationLearning].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] показал слабый [nounGrowth] и не имеет больших ожиданий в отношении [nounFutureGen].</li>
-    <li>firstSentence(tierSection==1)->Несмотря на оптимизм в отношении [nounFutureGen], [PAWN_pronoun] показал слабый [nounGrowth].</li>
+    <li>secondSentence(tierSection==2)->В особенности [PAWN_nameDef] {PAWN_gender ? хотел : хотела} бы сосредоточиться на том, чтобы [situationLearning].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] {PAWN_gender ? показал : показала} слабый [nounGrowth] и не имеет больших ожиданий в отношении [nounFutureGen].</li>
+    <li>firstSentence(tierSection==1)->Несмотря на оптимизм в отношении [nounFutureGen], [PAWN_pronoun] {PAWN_gender ? показал : показала} слабый [nounGrowth].</li>
     <li>firstSentence(tierSection==1)->[PAWN_pronoun] надеется, что жизнь станет лучше, начиная с [nounFutureGen].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] показал минимальный [nounGrowth], и жалуется на то, что [situationLearning] — это скучно.</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] {PAWN_gender ? показал : показала} минимальный [nounGrowth], и жалуется на то, что [situationLearning] — это скучно.</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] хочет больше [situationFun], но опасается, что [situationBad].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] часто чувствует себя [feelingBad], когда пытается [situationFun].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] почему-то боится, что когда [PAWN_pronoun] будет [situationFun], [situationBad].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] регулярно видит кошмарный сон о том, как [situationBad].</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] хочет больше [situationLearning], но [PAWN_objective] редко это удаётся.</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не показал [nounGrowth].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не проявил интереса ни к каким занятиям и почти не испытывает оптимизм в отношении [nounFutureGen].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не показал интереса к учёбе, и в особенности не любит [situationLearning].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не {PAWN_gender ? показал : показала} [nounGrowth].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не {PAWN_gender ? проявил : проявила} интереса ни к каким занятиям и почти не испытывает оптимизм в отношении [nounFutureGen].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не {PAWN_gender ? показал : показала} интереса к учёбе, и в особенности не любит [situationLearning].</li>
     <li>secondSentence(tierSection==0)->И вообще, [PAWN_nameDef] хочет только [situationFun].</li>
     <li>secondSentence(tierSection==0)->[PAWN_nameDef] постоянно сдерживает себя, опасаясь, что [situationBad].</li>
     <li>secondSentence(tierSection==0)->Вдобавок, [PAWN_nameDef] боится потерять здоровье из-за того, что [situationBad].</li>
@@ -218,11 +218,11 @@
     <li>adjGood->неиссякаемый</li>
     <li>adjGood->глубокий</li>
     <li>adjGood->искренний</li>
-    <li>feelingBad->одиноким</li>
-    <li>feelingBad->напуганным</li>
-    <li>feelingBad->уязвимым</li>
-    <li>feelingBad->подавленным</li>
-    <li>feelingBad->измученным</li>
+    <li>feelingBad->{PAWN_gender ? одиноким : одинокой}</li>
+    <li>feelingBad->{PAWN_gender ? напуганным : напуганной}</li>
+    <li>feelingBad->{PAWN_gender ? уязвимым : уязвимой}</li>
+    <li>feelingBad->{PAWN_gender ? подавленным : подавленной}</li>
+    <li>feelingBad->{PAWN_gender ? измученным : измученной}</li>
     <li>nounAttitudeGood->энтузиазм</li>
     <li>nounAttitudeGood->восторг</li>
     <li>nounAttitudeGood->оптимизм</li>
@@ -260,10 +260,10 @@
     <li>situationLearning->читать [topicLearningPrep]</li>
     <li>situationLearning->делать важную работу</li>
     <li>situationAspirational->поменять этот мир к лучшему</li>
-    <li>situationAspirational->стать богатым</li>
+    <li>situationAspirational->стать {PAWN_gender ? богатым : богатой}</li>
     <li>situationAspirational->спасти этот мир</li>
     <li>situationAspirational->помогать другим</li>
-    <li>situationAspirational->стать знаменитым</li>
+    <li>situationAspirational->стать {PAWN_gender ? знаменитым : знаменитой}</li>
     <li>situationAspirational->улететь с этой планеты</li>
     <li>situationBad->на н[PAWN_possessive] нападут [enemyNamePlural]</li>
     <li>situationBad->[PAWN_possessive] похитят [enemyNamePlural]</li>
