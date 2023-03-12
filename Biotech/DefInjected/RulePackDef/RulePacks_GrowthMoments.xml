@@ -197,16 +197,16 @@
     <li>firstSentence(tierSection==1)->[PAWN_pronoun] {PAWN_gender ? показал : показала} минимальный [nounGrowth], и жалуется на то, что [situationLearning] — это скучно.</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] хочет больше [situationFun], но опасается, что [situationBad].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] часто чувствует себя [feelingBad], когда пытается [situationFun].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] почему-то боится, что когда [PAWN_pronoun] будет [situationFun], [situationBad].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] почему-то боится, что [situationBad], когда [PAWN_pronoun] будет [situationFun].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] регулярно видит кошмарный сон о том, как [situationBad].</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] хочет больше [situationLearning], но [PAWN_objective] редко это удаётся.</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] не {PAWN_gender ? показал : показала} [nounGrowth].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не {PAWN_gender ? проявил : проявила} интереса ни к каким занятиям и почти не испытывает оптимизм в отношении [nounFutureGen].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не {PAWN_gender ? проявил : проявила} интереса ни к каким занятиям и почти не испытывает оптимизма в отношении [nounFutureGen].</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] не {PAWN_gender ? показал : показала} интереса к учёбе, и в особенности не любит [situationLearning].</li>
     <li>secondSentence(tierSection==0)->И вообще, [PAWN_nameDef] хочет только [situationFun].</li>
     <li>secondSentence(tierSection==0)->[PAWN_nameDef] постоянно сдерживает себя, опасаясь, что [situationBad].</li>
     <li>secondSentence(tierSection==0)->Вдобавок, [PAWN_nameDef] боится потерять здоровье из-за того, что [situationBad].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] боится снова увидеть кошмарный сон, в котором [PAWN_pronoun] сначала будет [situationFun], а потом из-за этого [situationBad].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] боится снова увидеть кошмарный сон, в котором [PAWN_pronoun] будет [situationFun], и из-за этого [situationBad].</li>
     <li>adjGood->огромный</li>
     <li>adjGood->бурный</li>
     <li>adjGood->неподдельный</li>
@@ -267,13 +267,13 @@
     <li>situationAspirational->улететь с этой планеты</li>
     <li>situationBad->на н[PAWN_possessive] нападут [enemyNamePlural]</li>
     <li>situationBad->[PAWN_possessive] похитят [enemyNamePlural]</li>
-    <li>situationBad->[PAWN_possessive] будет преследовать [enemyNameSingular]</li>
-    <li>situationBad->[PAWN_pronoun] вдохнёт токсичный газ</li>
-    <li>situationBad->[PAWN_pronoun] заболеет трупной чахоткой</li>
-    <li>situationBad->[PAWN_pronoun] заразится чумой</li>
-    <li>situationBad->[PAWN_pronoun] получит пищевое отравление</li>
-    <li>situationBad->[PAWN_pronoun] увидит смерть своих близких</li>
-    <li>situationBad->[PAWN_pronoun] поест на земле</li>
+    <li>situationBad->[PAWN_possessive] поймает [enemyNameSingular]</li>
+    <li>situationBad->вдохнёт токсичный газ</li>
+    <li>situationBad->заболеет трупной чахоткой</li>
+    <li>situationBad->заразится чумой</li>
+    <li>situationBad->получит пищевое отравление</li>
+    <li>situationBad->увидит смерть своих близких</li>
+    <li>situationBad->поест на земле</li>
     <li>topicLearningPrep->о вселенной</li>
     <li>topicLearningPrep->о науке</li>
     <li>topicLearningPrep->о других культурах</li>
