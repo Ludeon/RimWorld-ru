@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>situation(p=2)->safely</li>
+    <li>situation->at night</li>
+    <li>situation->in the cold</li>
+    <li>situation->while injured</li>
+    <li>situation(p=0.2)->while drunk</li>
+  -->
+  <LessonInteractionCommonSituations.rulePack.rulesStrings>
+    <li>situation(p=2)->безопасно</li>
+    <li>situation->ночью</li>
+    <li>situation->на морозе</li>
+    <li>situation->будучи раненным</li>
+    <li>situation(p=0.2)->будучи пьяным</li>
+  </LessonInteractionCommonSituations.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
+  -->
+  <LessonInteractionHowTo.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] [RECIPIENT_nameDef], как [action_with_tool].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef], как [action_with_tool].</li>
+  </LessonInteractionHowTo.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
+    <li>teach_test->quizzed</li>
+    <li>teach_test->tested</li>
+    <li>teach_test->grilled</li>
+    <li>teach_test->cross-examined</li>
+  -->
+  <LessonInteractionQuiz.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] знания [RECIPIENT_nameDef] [subject_action_with_tool] [situation].</li>
+    <li>teach_test->{INITIATOR_gender ? протестировал : протестировала}</li>
+    <li>teach_test->{INITIATOR_gender ? проверил : проверила}</li>
+    <li>teach_test->{INITIATOR_gender ? проэкзаменовал : проэкзаменовала}</li>
+    <li>teach_test->{INITIATOR_gender ? проконтролировал : проконтролировала}</li>
+  </LessonInteractionQuiz.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+    <li>study_verb->covered</li>
+    <li>study_verb->went over</li>
+    <li>study_verb->researched</li>
+    <li>study_verb->studied</li>
+  -->
+  <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] с [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] с [RECIPIENT_nameDef].</li>
+    <li>study_verb->{INITIATOR_gender ? проштудировал : проштудировала}</li>
+    <li>study_verb->{INITIATOR_gender ? разобрал : разобрала}</li>
+    <li>study_verb->{INITIATOR_gender ? исследовал : исследовала}</li>
+    <li>study_verb->{INITIATOR_gender ? изучил : изучила}</li>
+  </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>teach_adverb->calmly</li>
+    <li>teach_adverb->animatedly</li>
+    <li>teach_adverb->intently</li>
+    <li>teach_adverb->quickly</li>
+    <li>teach_adverb->lightheartedly</li>
+    <li>teach_adverb->carefully</li>
+  -->
+  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+    <li>teach_adverb->невозмутимо</li>
+    <li>teach_adverb->увлечённо</li>
+    <li>teach_adverb->внимательно</li>
+    <li>teach_adverb->быстро</li>
+    <li>teach_adverb->беззаботно</li>
+    <li>teach_adverb->осторожно</li>
+  </LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>teach_verb->demonstrated</li>
+    <li>teach_verb->explained</li>
+    <li>teach_verb->showed</li>
+    <li>teach_verb->taught</li>
+  -->
+  <LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+    <li>teach_verb->{INITIATOR_gender ? продемонстрировал : продемонстрировала}</li>
+    <li>teach_verb->{INITIATOR_gender ? объяснил : объяснила}</li>
+    <li>teach_verb->{INITIATOR_gender ? показал : показала}</li>
+    <li>teach_verb->{INITIATOR_gender ? научил : научила}</li> 
+  </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+    <li>talk_verb->talked about</li>
+    <li>talk_verb->gave an overview of</li>
+    <li>talk_verb->gave a summary of</li>
+    <li>talk_verb->lectured about</li>
+  -->
+  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject].</li>
+    <li>talk_verb->поговорил с [RECIPIENT_nameDef]</li>
+    <li>talk_verb->дал [RECIPIENT_nameDef] общие сведения</li>
+    <li>talk_verb->рассказал [RECIPIENT_nameDef]</li>
+    <li>talk_verb->провёл [RECIPIENT_nameDef] лекцию</li>  
+  </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+  
+</LanguageData>
