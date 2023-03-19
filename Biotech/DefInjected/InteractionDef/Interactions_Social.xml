@@ -42,7 +42,7 @@
     <li>reaction->захихикать</li>
     <li>reaction->улыбнуться</li>
     <li>reaction->рассмеяться</li>
-    <li>reaction->скорчиться от радости</li>
+    <li>reaction->расплыться в улыбке</li>
     <li>reaction->игриво пустить слюни</li>
     <li>reaction->весело взвизгнуть</li>
     <li>reaction->задорно рыгнуть</li>
@@ -55,7 +55,6 @@
     <li>interaction->{INITIATOR_gender ? пощекотал : пощекотала}</li>
     <li>interaction->{INITIATOR_gender ? приласкал : приласкала}</li>
     <li>interaction->{INITIATOR_gender ? обнял : обняла}</li>
-    <li>interaction->{INITIATOR_gender ? поподбрасывал : поподбрасывала}</li>
     <li>interaction->{INITIATOR_gender ? спел : спела} для</li>
     <li>interaction->{INITIATOR_gender ? рассказал : рассказала} сказку</li>
     <li>interaction->{INITIATOR_gender ? показал : показал} фокус</li>
@@ -107,6 +106,7 @@
     <li>animal_verb->гладить {lookup: [animal]; Case; 3}</li>
     <li>animal_verb->общаться c  {lookup: [animal]; Case; 4}</li>
     <li>animal_verb->заслужить доверие {lookup: [animal]; Case; 1}</li>
+    <!-- объекты animal есть в словарях, поэтому можем использовать lookup -->
     <li>animal->гигантский ленивец</li>
     <li>animal->мегапаук</li>
     <li>animal->трумбо</li>
@@ -130,7 +130,7 @@
   </LessonAnimals.logRulesInitiator.rulesStrings>
   
   <!-- EN: art lesson -->
-  <LessonArtistic.label>TODO</LessonArtistic.label>
+  <LessonArtistic.label>урок искусств</LessonArtistic.label>
   <!-- EN:
     <li>article_tool->a paint brush</li>
     <li>article_tool->a charcoal pencil</li>
@@ -151,10 +151,47 @@
     <li>subject->abstract art</li>
     <li>subject->mixing paints</li>
   -->
-  <LessonArtistic.logRulesInitiator.rulesStrings>TODO</LessonArtistic.logRulesInitiator.rulesStrings>
+  <LessonArtistic.logRulesInitiator.rulesStrings>
+    <li>action_with_tool->запечатлевать образы при помощи [tool_or_material_gen]</li>
+    <li>action_with_tool->работать с [tool_or_material_ins]</li>
+    <li>action_with_tool->работать [tool_ins]</li>
+    <li>action_with_tool->выражать себя при помощи [tool_or_material_gen]</li>
+    <li>subject_action_with_tool->о запечатлении образов при помощи [tool_or_material_gen]</li>
+    <li>subject_action_with_tool->о работе с [tool_or_material_ins]</li>
+    <li>subject_action_with_tool->о работе [tool_ins]</li>
+    <li>subject_action_with_tool->о творческой самореализации при помощи [tool_or_material_gen]</li>
+    <li>tool_or_material_gen->[tool_gen]</li>
+    <li>tool_or_material_acc->[tool_acc]</li>
+    <li>tool_or_material_ins->[tool_ins]</li>
+    <li>tool_or_material_gen->[material_gen]</li>
+    <li>tool_or_material_acc->[material_acc]</li>
+    <li>tool_or_material_ins->[material_ins]</li>
+    <li>tool_gen->кисти</li>
+    <li>tool_acc->кисть</li>
+    <li>tool_ins->кистью</li>
+    <li>tool_gen->угольного карандаша</li>
+    <li>tool_acc->угольный карандаш</li>
+    <li>tool_ins->угольным карандашом</li>
+    <li>tool_gen->зубила</li>
+    <li>tool_acc->зубило</li>
+    <li>tool_ins->зубилом</li>
+    <li>material_gen->холста</li>
+    <li>material_acc->холст</li>
+    <li>material_ins->холстом</li>
+    <li>material_gen->глины</li>
+    <li>material_acc->глину</li>
+    <li>material_ins->глиной</li>
+    <li>subject->о скульптурных материалах</li>
+    <li>subject->об известных художниках</li>
+    <li>subject->о знаменитых полотнах</li>
+    <li>subject->о галереях на утопических мирах</li>
+    <li>subject->о портретном искусстве</li>
+    <li>subject->об абстрактном искусстве</li>
+    <li>subject->о смешивании красок</li>
+  </LessonArtistic.logRulesInitiator.rulesStrings>
   
   <!-- EN: construction lesson -->
-  <LessonConstruction.label>TODO</LessonConstruction.label>
+  <LessonConstruction.label>урок строительства</LessonConstruction.label>
   <!-- EN:
     <li>article_tool->a hammer</li>
     <li>article_tool->a table saw</li>
@@ -174,10 +211,38 @@
     <li>subject->modeling software</li>
     <li>subject->blueprints</li>
   -->
-  <LessonConstruction.logRulesInitiator.rulesStrings>TODO</LessonConstruction.logRulesInitiator.rulesStrings>
+  <LessonConstruction.logRulesInitiator.rulesStrings>
+    <li>action_with_tool->пользоваться [tool_ins]</li>
+    <li>action_with_tool->работать [tool_ins]</li>
+    <li>action_with_tool->проверять [tool_acc]</li>
+    <li>subject_action_with_tool->о применении [tool_gen]</li>
+    <li>subject_action_with_tool->о работе [tool_ins]</li>
+    <li>subject_action_with_tool->об устройстве [tool_gen]</li>
+    <li>tool_gen->сварочного аппарата</li>
+    <li>tool_acc->сварочный аппарат</li>
+    <li>tool_ins->сварочным аппаратом</li>
+    <li>tool_gen->болгарки</li>
+    <li>tool_acc->болгарку</li>
+    <li>tool_ins->болгаркой</li>
+    <li>tool_gen->рулетки</li>
+    <li>tool_acc->рулетку</li>
+    <li>tool_ins->рулеткой</li>
+    <li>tool_gen->стремянки</li>
+    <li>tool_acc->стремянку</li>
+    <li>tool_ins->стремянкой</li>
+    <li>tool_gen->уровня</li>
+    <li>tool_acc->уровень</li>
+    <li>tool_ins->уровнем</li>
+    <li>subject->об архитектуре</li>
+    <li>subject->о приёмах в строительстве</li>
+    <li>subject->о способах демонтажа</li>
+    <li>subject->о строительных материалах</li>
+    <li>subject->о программах для проектирования</li>
+    <li>subject->о чертежах</li>
+  </LessonConstruction.logRulesInitiator.rulesStrings>
   
   <!-- EN: cooking lesson -->
-  <LessonCooking.label>TODO</LessonCooking.label>
+  <LessonCooking.label>урок кулинарии</LessonCooking.label>
   <!-- EN:
     <li>article_tool->a stove</li>
     <li>article_tool->a spatula</li>
@@ -200,10 +265,46 @@
     <li>situation->in a hurry</li>
     <li>situation->safely</li>
   -->
-  <LessonCooking.logRulesInitiator.rulesStrings>TODO</LessonCooking.logRulesInitiator.rulesStrings>
+  <LessonCooking.logRulesInitiator.rulesStrings>
+    <li>action_with_tool->чистить [tool_acc]</li>
+    <li>action_with_tool->готовить с помощью [tool_gen]</li>
+    <li>action_with_tool->пользоваться [tool_ins]</li>
+    <li>subject_action_with_tool->о чистке [tool_gen]</li>
+    <li>subject_action_with_tool->о готовке с помощью {tool_gen}</li>
+    <li>subject_action_with_tool->о применении [tool_gen]</li>
+    <li>tool_gen->плиты</li>
+    <li>tool_acc->плиту</li>
+    <li>tool_ins->плитой</li>
+    <li>tool_gen->лопатки</li>
+    <li>tool_acc->лопатку</li>
+    <li>tool_ins->лопаткой</li>
+    <li>tool_gen->духовки</li>
+    <li>tool_acc->духовку</li>
+    <li>tool_ins->духовкой</li>
+    <li>tool_gen->сотейника</li>
+    <li>tool_acc->сотейник</li>
+    <li>tool_ins->сотейником</li>
+    <li>tool_gen->дозатора пасты</li>
+    <li>tool_acc->дозатор пасты</li>
+    <li>tool_ins->дозатором пасты</li>
+    <li>tool_gen->разделочного стола</li>
+    <li>tool_acc->разделочный стол</li>
+    <li>tool_ins->разделочным столом</li>
+    <li>subject->о специях</li>
+    <li>subject->о сухих пайках</li>
+    <li>subject->о видах яиц</li>
+    <li>subject->о видах мяса</li>
+    <li>subject->о приправах</li>
+    <li>subject->о рецептах</li>
+    <li>subject->о вкусной и здоровой пище</li>
+    <li>situation->в караване</li>
+    <li>situation->вслепую</li>
+    <li>situation->быстро</li>
+    <li>situation->безопасно</li>
+  </LessonCooking.logRulesInitiator.rulesStrings>
   
   <!-- EN: crafting lesson -->
-  <LessonCrafting.label>TODO</LessonCrafting.label>
+  <LessonCrafting.label>урок ремесла</LessonCrafting.label>
   <!-- EN:
     <li>article_tool->a screwdriver</li>
     <li>article_tool->a pair of pliers</li>
@@ -230,17 +331,55 @@
     <li>situation->by candlelight</li>
     <li>situation(p=0.1)->while drunk</li>
   -->
-  <LessonCrafting.logRulesInitiator.rulesStrings>TODO</LessonCrafting.logRulesInitiator.rulesStrings>
+  <LessonCrafting.logRulesInitiator.rulesStrings>
+    <li>action_with_tool->пользоваться [tool_ins]</li>
+    <li>action_with_tool->работать с [tool_ins]</li>
+    <li>action_with_tool->проверять [tool_acc]</li>
+    <li>subject_action_with_tool->применении [tool_gen]</li>
+    <li>subject_action_with_tool->работе с [tool_ins]</li>
+    <li>subject_action_with_tool->устройстве [tool_gen]</li>
+    <li>tool_gen->отвёртки</li>
+    <li>tool_acc->отвёртку</li>
+    <li>tool_ins->отвёрткой</li>
+    <li>tool_gen->плоскогубцев</li>
+    <li>tool_acc->плоскогубцы</li>
+    <li>tool_ins->плоскогубцами</li>
+    <li>tool_gen->монтажных плат</li>
+    <li>tool_acc->монтажные платы</li>
+    <li>tool_ins->монтажными платами</li>
+    <li>tool_gen->швейной машинки</li>
+    <li>tool_acc->швейную машинку</li>
+    <li>tool_ins->швейной машинкой</li>
+    <li>tool_gen->верстака</li>
+    <li>tool_acc->верстак</li>
+    <li>tool_ins->верстаком</li>
+    <li>tool_gen->токарного станка</li>
+    <li>tool_acc->токарный станок</li>
+    <li>tool_ins->токарным станком</li>
+    <li>subject->об организации рабочего места</li>
+    <li>subject->о хранении инструментов</li>
+    <li>subject->о технических достижениях</li>
+    <li>subject->о гаджетах</li>
+    <li>subject->о видах ткани</li>
+    <li>subject->о техниках ткачества</li>
+    <li>subject->о пластинчатых доспехах</li>
+    <li>subject->о поясах с инструментами</li>
+    <li>subject->о бионике</li>
+    <li>situation->безопасно</li>
+    <li>situation->без инструкций</li>
+    <li>situation->при свечах</li>
+    <li>situation(p=0.1)->будучи пьяным</li>
+  </LessonCrafting.logRulesInitiator.rulesStrings>
   
   <!-- EN: lesson -->
-  <LessonGeneric.label>TODO</LessonGeneric.label>
+  <LessonGeneric.label>урок</LessonGeneric.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
   <LessonGeneric.logRulesInitiator.rulesStrings>TODO</LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
-  <LessonIntellectual.label>TODO</LessonIntellectual.label>
+  <LessonIntellectual.label>научная лекция</LessonIntellectual.label>
   <!-- EN:
     <li>subject->genetics</li>
     <li>subject->techprints</li>
@@ -258,7 +397,7 @@
   <LessonIntellectual.logRulesInitiator.rulesStrings>TODO</LessonIntellectual.logRulesInitiator.rulesStrings>
   
   <!-- EN: medical lesson -->
-  <LessonMedicine.label>TODO</LessonMedicine.label>
+  <LessonMedicine.label>урок медицины</LessonMedicine.label>
   <!-- EN:
     <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] how to [medical_verb] [hediff] to [RECIPIENT_nameDef].</li>
     <li>article_tool->a medicine pack</li>
@@ -293,10 +432,62 @@
     <li>subject->bedside manner</li>
     <li>subject->sterilization methods</li>
   -->
-  <LessonMedicine.logRulesInitiator.rulesStrings>TODO</LessonMedicine.logRulesInitiator.rulesStrings>
+  <LessonMedicine.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] [RECIPIENT_nameDef], как [medical_verb] [hediff].</li>
+    <li>action_with_tool->применять [tool_acc]</li>
+    <li>action_with_tool->работать с [tool_ins]</li>
+    <li>action_with_tool->проверять [tool_acc]</li>
+    <li>subject_action_with_tool->о применении [tool_gen]</li>
+    <li>subject_action_with_tool->о работе с [tool_ins]</li>
+    <li>subject_action_with_tool->о проверке [tool_gen]</li>
+    <li>tool_gen->{lookup: [tool]; Case; 1}</li>
+    <li>tool_gen->[tool_fixed_gen]</li>
+    <li>tool_acc->{lookup: [tool]; Case; 3}</li>
+    <li>tool_acc->[tool_fixed_acc]</li>
+    <li>tool_ins->{lookup: [tool]; Case; 4}</li>
+    <li>tool_ins->[tool_fixed_ins]</li>
+    <!-- объектов tool_fixed_gen* нет в словарях, поэтому падежные формы перечисляем прямо здесь -->
+    <li>tool_fixed_gen->аптечки</li>
+    <li>tool_fixed_acc->аптечку</li>
+    <li>tool_fixed_ins->аптечкой</li>
+    <li>tool_fixed_gen->бинта</li>
+    <li>tool_fixed_acc->бинт</li>
+    <li>tool_fixed_ins->бинтом</li>
+    <li>tool_fixed_gen->шприца</li>
+    <li>tool_fixed_acc->шприц</li>
+    <li>tool_fixed_ins->шприцем</li>
+    <li>tool_fixed_gen->скальпеля</li>
+    <li>tool_fixed_acc->скальпель</li>
+    <li>tool_fixed_ins->скальпелем</li>
+    <!-- объекты tool есть в словарях, поэтому можем использовать lookup -->
+    <li>tool->лечебный корень</li>
+    <li>tool->мониторы жизненных показателей</li>
+    <li>tool->сыворотка исцеления</li>
+    <li>tool->чип обезболивания</li>
+    <!-- hediff используются только в одном падеже. Нет смысла пользоваться словарём -->
+    <li>hediff->кровопотерю</li>
+    <li>hediff->сердечный приступ</li>
+    <li>hediff->тепловой удар</li>
+    <li>hediff->пищевое отравление</li>
+    <li>hediff->карциному</li>
+    <li>hediff->кишечных червей</li>
+    <li>hediff->мышечных паразитов</li>
+    <li>hediff->абазию</li>
+    <li>hediff->малярию</li>
+    <li>hediff->грипп</li>
+    <li>hediff->цирроз</li>
+    <li>medical_verb->диагностировать</li>
+    <li>medical_verb->предотвращать</li>
+    <li>medical_verb->лечить</li>
+    <li>subject->о дозировке при анестезии</li>
+    <li>subject->видах рака</li>
+    <li>subject->хирургических операциях</li>
+    <li>subject->постельном режиме</li>
+    <li>subject->методах стерилизации</li>
+  </LessonMedicine.logRulesInitiator.rulesStrings>
   
   <!-- EN: melee lesson -->
-  <LessonMelee.label>TODO</LessonMelee.label>
+  <LessonMelee.label>урок ближнего боя</LessonMelee.label>
   <!-- EN:
     <li>article_tool->an axe</li>
     <li>article_tool->a club</li>
@@ -323,10 +514,37 @@
     <li>action_gerund->using</li>
     <li>action_gerund->swinging</li>
   -->
-  <LessonMelee.logRulesInitiator.rulesStrings>TODO</LessonMelee.logRulesInitiator.rulesStrings>
+  <LessonMelee.logRulesInitiator.rulesStrings>
+    <li>action_with_tool->парировать {lookup: [tool]; Case; 4}</li>
+    <li>action_with_tool->драться {lookup: [tool]; Case; 4}</li>
+    <li>action_with_tool->противостоять {lookup: [tool]; Case; 3}</li>
+    <li>action_with_tool->ухаживать за {lookup: [tool]; Case; 4}</li>
+    <li>action_with_tool->применять {lookup: [tool]; Case; 3}</li>
+    <li>action_with_tool->бить {lookup: [tool]; Case; 4}</li>
+    <li>subject_action_with_tool->о приёмах парирования {lookup: [tool]; Case; 4}</li>
+    <li>subject_action_with_tool->о технике боя {lookup: [tool]; Case; 4}</li>
+    <li>subject_action_with_tool->об отражении ударов {lookup: [tool]; Case; 1}</li>
+    <li>subject_action_with_tool->об уходе за {lookup: [tool]; Case; 4}</li>
+    <li>subject_action_with_tool->о применении {lookup: [tool]; Case; 1}</li>
+    <li>subject_action_with_tool->об ударах {lookup: [tool]; Case; 4}</li>
+    <!-- объекты tool есть в словарях, поэтому можем использовать lookup -->
+    <li>tool->нож</li>
+    <li>tool->топор</li>
+    <li>tool->дубина</li>
+    <li>tool->гладиус</li>
+    <li>tool->локтевое лезвие</li>
+    <li>tool->кистевой коготь</li>
+    <li>tool->длинный меч</li>
+    <li>tool->мономеч</li>
+    <li>tool->плазменный меч</li>
+    <li>tool->копьё</li>
+    <li>tool->булава</li>
+    <li>tool->молот</li>
+    <li>tool->кулак</li>
+  </LessonMelee.logRulesInitiator.rulesStrings>
   
   <!-- EN: mining lesson -->
-  <LessonMining.label>TODO</LessonMining.label>
+  <LessonMining.label>урок горного дела</LessonMining.label>
   <!-- EN:
     <li>article_tool->a pickaxe</li>
     <li>article_tool->a deep drill</li>
@@ -349,7 +567,40 @@
     <li>subject->cave-dwelling insects</li>
     <li>situation(p=2)->underground</li>
   -->
-  <LessonMining.logRulesInitiator.rulesStrings>TODO</LessonMining.logRulesInitiator.rulesStrings>
+  <LessonMining.logRulesInitiator.rulesStrings>
+    <li>action_with_tool->использовать [tool_gen]</li>
+    <li>action_with_tool->добывать минералы, используя [tool_acc]</li>
+    <li>action_with_tool->работать [tool_ins]</li>
+    <li>action_with_tool->проверять [tool_acc]</li>
+    <li>subject_action_with_tool->об использовании [tool_gen]</li>
+    <li>subject_action_with_tool->о добыче минералов при помощи [tool_gen]</li>
+    <li>subject_action_with_tool->о работе [tool_gen]</li>
+    <li>subject_action_with_tool->об устройстве [tool_gen]</li>
+    <li>tool_gen->{lookup: [tool]; Case; 1}</li>
+    <li>tool_gen->[tool_fixed_gen]</li>
+    <li>tool_acc->{lookup: [tool]; Case; 3}</li>
+    <li>tool_acc->[tool_fixed_acc]</li>
+    <li>tool_ins->{lookup: [tool]; Case; 4}</li>
+    <li>tool_ins->[tool_fixed_ins]</li>
+    <!-- объекты tool есть в словарях, поэтому можем использовать lookup -->
+    <li>tool->буровая установка</li>
+    <li>tool->сканер минералов дальнего действия</li>
+    <li>tool->глубинный сканер</li>
+    <!-- объектов tool_fixed_gen* нет в словарях, поэтому падежные формы перечисляем прямо здесь -->
+    <li>tool_fixed_gen->кирки</li>
+    <li>tool_fixed_acc->кирку</li>
+    <li>tool_fixed_ins->киркой</li>
+    <li>tool_fixed_gen->лопаты</li>
+    <li>tool_fixed_acc->лопату</li>
+    <li>tool_fixed_ins->лопатой</li>
+    <li>subject->о месторождениях полезных ископаемых</li>
+    <li>subject->о драгоценных камнях</li>
+    <li>subject->о геологии</li>
+    <li>subject->о копании туннелей</li>
+    <li>subject->о седиментационном анализе</li>
+    <li>subject->о пещерных насекомых</li>
+    <li>situation(p=2)->под землёй</li>
+  </LessonMining.logRulesInitiator.rulesStrings>
   
   <!-- EN: gardening lesson -->
   <LessonPlants.label>урок садоводства</LessonPlants.label>
@@ -373,24 +624,34 @@
     <li>subject->gauranlen trees</li>
   -->
   <LessonPlants.logRulesInitiator.rulesStrings>
-    <li>action_with_tool->garden with</li>
-    <li>action_with_tool->use</li>
-    <li>action_with_tool->inspect</li>
-    <li>subject_action_with_tool->об использовании</li>
-    <li>subject_action_with_tool->gardening with</li>
-    <li>subject_action_with_tool->inspecting</li>
-    <li>tool->a sun lamp</li>
-    <li>tool->a hydroponics basin</li>
-    
-    <li>tool->a sprinkler</li>
-    <li>tool->a shovel</li>
-    <li>tool->pruning shears</li>
-    <li>subject->types of soil</li>
-    <li>subject->pesticides</li>
-    <li>subject->irrigation techniques</li>
-    <li>subject->varieties of cacti</li>
-    <li>subject->anima trees</li>
-    <li>subject->gauranlen trees</li>
+    <li>action_with_tool->заниматься садоводством, используя [tool_fixed_acc]</li>
+    <li>action_with_tool->пользоваться [tool_fixed_ins]</li>
+    <li>action_with_tool->проверять [tool_fixed_acc]</li>
+    <li>subject_action_with_tool->об использовании [tool_fixed_gen]</li>
+    <li>subject_action_with_tool->о работе [tool_fixed_ins]</li>
+    <li>subject_action_with_tool->об устройстве [tool_fixed_gen]</li>
+    <!-- объектов ниже о основном нет в словарях, поэтому падежные формы перечисляем прямо здесь -->
+    <li>tool_fixed_gen->солнечной лампы</li>
+    <li>tool_fixed_acc->солнечную лампу</li>
+    <li>tool_fixed_ins->солнечной лампой</li>
+    <li>tool_fixed_gen->гидропонного бассейна</li>
+    <li>tool_fixed_acc->гидропонный бассейн</li>
+    <li>tool_fixed_ins->гидропонным бассейном</li>
+    <li>tool_fixed_gen->дождевателя</li>
+    <li>tool_fixed_acc->дождеватель</li>
+    <li>tool_fixed_ins->дождевателем</li>
+    <li>tool_fixed_gen->лопаты</li>
+    <li>tool_fixed_acc->лопату</li>
+    <li>tool_fixed_ins->лопатой</li>
+    <li>tool_fixed_gen->секатора</li>
+    <li>tool_fixed_acc->секатор</li>
+    <li>tool_fixed_ins->секатором</li>
+    <li>subject->о типах почвы</li>
+    <li>subject->о пестицидах</li>
+    <li>subject->о техниках полива</li>
+    <li>subject->о разновидностях кактусов</li>
+    <li>subject->о древах души</li>
+    <li>subject->о древах Гауранлен</li>
   </LessonPlants.logRulesInitiator.rulesStrings>
   
   <!-- EN: shooting lesson -->
@@ -458,9 +719,9 @@
     <li>subject->о приёмах торга</li>
     <li>subject->о поддержании отношений</li>
     <li>subject->об этике общения по консоли связи</li>
-    <li>subject->укреплении морального духа</li>
-    <li>subject->неприличных словах</li>
-    <li>subject->языке жестов</li>
+    <li>subject->об укреплении морального духа</li>
+    <li>subject->о неприличных словах</li>
+    <li>subject->о языке жестов</li>
   </LessonSocial.logRulesInitiator.rulesStrings>
   
   <!-- EN: sanguophage chat -->
