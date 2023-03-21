@@ -335,9 +335,9 @@
     <li>action_with_tool->пользоваться [tool_ins]</li>
     <li>action_with_tool->работать с [tool_ins]</li>
     <li>action_with_tool->проверять [tool_acc]</li>
-    <li>subject_action_with_tool->применении [tool_gen]</li>
-    <li>subject_action_with_tool->работе с [tool_ins]</li>
-    <li>subject_action_with_tool->устройстве [tool_gen]</li>
+    <li>subject_action_with_tool->о применении [tool_gen]</li>
+    <li>subject_action_with_tool->о работе с [tool_ins]</li>
+    <li>subject_action_with_tool->об устройстве [tool_gen]</li>
     <li>tool_gen->отвёртки</li>
     <li>tool_acc->отвёртку</li>
     <li>tool_ins->отвёрткой</li>
@@ -376,7 +376,9 @@
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
-  <LessonGeneric.logRulesInitiator.rulesStrings>TODO</LessonGeneric.logRulesInitiator.rulesStrings>
+  <LessonGeneric.logRulesInitiator.rulesStrings>
+    <li>[INITIATOR_nameDef] {INITIATOR_gender ? провёл : провела} для [RECIPIENT_nameDef] урок</li>
+  </LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
   <LessonIntellectual.label>научная лекция</LessonIntellectual.label>
@@ -394,7 +396,20 @@
     <li>subject->seminal whitepapers</li>
     <li>subject->Johnson-Tanaka propulsion</li>
   -->
-  <LessonIntellectual.logRulesInitiator.rulesStrings>TODO</LessonIntellectual.logRulesInitiator.rulesStrings>
+  <LessonIntellectual.logRulesInitiator.rulesStrings>
+    <li>subject->о генетике</li>
+    <li>subject->о чертежах</li>
+    <li>subject->о функциях мультианализатора</li>
+    <li>subject->о философии</li>
+    <li>subject->о математике</li>
+    <li>subject->о биологии</li>
+    <li>subject->о химии</li>
+    <li>subject->о тайнах архотеков</li>
+    <li>subject->о корабельных реакторах</li>
+    <li>subject->о научном методе</li>
+    <li>subject->о фундаментальных открытиях</li>
+    <li>subject->о двигателях Джонсона-Танака</li>
+  </LessonIntellectual.logRulesInitiator.rulesStrings>
   
   <!-- EN: medical lesson -->
   <LessonMedicine.label>урок медицины</LessonMedicine.label>
@@ -679,11 +694,11 @@
     <li>action_with_tool->целиться из {lookup: [tool]; Case; 1}</li>
     <li>action_with_tool->стрелять из {lookup: [tool]; Case; 1}</li>
     <li>action_with_tool->ухаживать за {lookup: [tool]; Case; 4}</li>
-    <li>action_with_tool->перезаряжать {lookup: [tool]; Case; 3}</li>
+    <li>action_with_tool->заряжать {lookup: [tool]; Case; 3}</li>
     <li>subject_action_with_tool->о прицеливании из {lookup: [tool]; Case; 1}</li>
     <li>subject_action_with_tool->о стрельбе из {lookup: [tool]; Case; 1}</li>
     <li>subject_action_with_tool->об уходе за {lookup: [tool]; Case; 4}</li>
-    <li>subject_action_with_tool->о перезарядке {lookup: [tool]; Case; 1}</li>
+    <li>subject_action_with_tool->о заряжании {lookup: [tool]; Case; 1}</li>
     <!-- Ниже должны быть виды существующего в игре оружия, в именительном падеже, чтобы сработал lookup -->    
     <li>tool->винтовка</li>
     <li>tool->пистолет</li>
