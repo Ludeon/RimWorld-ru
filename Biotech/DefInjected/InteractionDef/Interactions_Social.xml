@@ -213,10 +213,10 @@
   -->
   <LessonConstruction.logRulesInitiator.rulesStrings>
     <li>action_with_tool->пользоваться [tool_ins]</li>
-    <li>action_with_tool->работать [tool_ins]</li>
+    <li>action_with_tool->работать с [tool_ins]</li>
     <li>action_with_tool->проверять [tool_acc]</li>
     <li>subject_action_with_tool->о применении [tool_gen]</li>
-    <li>subject_action_with_tool->о работе [tool_ins]</li>
+    <li>subject_action_with_tool->о работе с [tool_ins]</li>
     <li>subject_action_with_tool->об устройстве [tool_gen]</li>
     <li>tool_gen->сварочного аппарата</li>
     <li>tool_acc->сварочный аппарат</li>
@@ -297,10 +297,10 @@
     <li>subject->о приправах</li>
     <li>subject->о рецептах</li>
     <li>subject->о вкусной и здоровой пище</li>
-    <li>situation->в караване</li>
-    <li>situation->вслепую</li>
-    <li>situation->быстро</li>
-    <li>situation->безопасно</li>
+    <li>situation-> в караване</li>
+    <li>situation-> вслепую</li>
+    <li>situation-> быстро</li>
+    <li>situation-> безопасно</li>
   </LessonCooking.logRulesInitiator.rulesStrings>
   
   <!-- EN: crafting lesson -->
@@ -365,10 +365,10 @@
     <li>subject->о пластинчатых доспехах</li>
     <li>subject->о поясах с инструментами</li>
     <li>subject->о бионике</li>
-    <li>situation->безопасно</li>
-    <li>situation->без инструкций</li>
-    <li>situation->при свечах</li>
-    <li>situation(p=0.1)->будучи пьяным</li>
+    <li>situation-> безопасно</li>
+    <li>situation-> без инструкций</li>
+    <li>situation-> при свечах</li>
+    <li>situation(p=0.1)-> будучи пьяным</li>
   </LessonCrafting.logRulesInitiator.rulesStrings>
   
   <!-- EN: lesson -->
@@ -530,9 +530,9 @@
     <li>action_gerund->swinging</li>
   -->
   <LessonMelee.logRulesInitiator.rulesStrings>
-    <li>action_with_tool->парировать {lookup: [tool]; Case; 4}</li>
+    <li>action_with_tool->парировать удары {lookup: [tool]; Case; 4}</li>
     <li>action_with_tool->драться {lookup: [tool]; Case; 4}</li>
-    <li>action_with_tool->противостоять {lookup: [tool]; Case; 3}</li>
+    <li>action_with_tool->противостоять {lookup: [tool]; Case; 2}</li>
     <li>action_with_tool->ухаживать за {lookup: [tool]; Case; 4}</li>
     <li>action_with_tool->применять {lookup: [tool]; Case; 3}</li>
     <li>action_with_tool->бить {lookup: [tool]; Case; 4}</li>
@@ -583,7 +583,7 @@
     <li>situation(p=2)->underground</li>
   -->
   <LessonMining.logRulesInitiator.rulesStrings>
-    <li>action_with_tool->использовать [tool_gen]</li>
+    <li>action_with_tool->использовать [tool_acc]</li>
     <li>action_with_tool->добывать минералы, используя [tool_acc]</li>
     <li>action_with_tool->работать [tool_ins]</li>
     <li>action_with_tool->проверять [tool_acc]</li>
@@ -614,7 +614,7 @@
     <li>subject->о копании туннелей</li>
     <li>subject->о седиментационном анализе</li>
     <li>subject->о пещерных насекомых</li>
-    <li>situation(p=2)->под землёй</li>
+    <li>situation(p=2)-> под землёй</li>
   </LessonMining.logRulesInitiator.rulesStrings>
   
   <!-- EN: gardening lesson -->
