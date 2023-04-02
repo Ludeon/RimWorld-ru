@@ -270,26 +270,27 @@
     <li>action_with_tool->готовить с помощью [tool_gen]</li>
     <li>action_with_tool->пользоваться [tool_ins]</li>
     <li>subject_action_with_tool->о чистке [tool_gen]</li>
-    <li>subject_action_with_tool->о готовке с помощью {tool_gen}</li>
+    <li>subject_action_with_tool->о готовке с помощью [tool_gen]</li>
     <li>subject_action_with_tool->о применении [tool_gen]</li>
-    <li>tool_gen->плиты</li>
-    <li>tool_acc->плиту</li>
-    <li>tool_ins->плитой</li>
-    <li>tool_gen->лопатки</li>
-    <li>tool_acc->лопатку</li>
-    <li>tool_ins->лопаткой</li>
-    <li>tool_gen->духовки</li>
-    <li>tool_acc->духовку</li>
-    <li>tool_ins->духовкой</li>
-    <li>tool_gen->сотейника</li>
-    <li>tool_acc->сотейник</li>
-    <li>tool_ins->сотейником</li>
-    <li>tool_gen->дозатора пасты</li>
-    <li>tool_acc->дозатор пасты</li>
-    <li>tool_ins->дозатором пасты</li>
-    <li>tool_gen->разделочного стола</li>
-    <li>tool_acc->разделочный стол</li>
-    <li>tool_ins->разделочным столом</li>
+    <li>tool_gen->{lookup: [tool]; Case; 1}</li>
+    <li>tool_gen->[tool_fixed_gen]</li>
+    <li>tool_acc->{lookup: [tool]; Case; 3}</li>
+    <li>tool_acc->[tool_fixed_acc]</li>
+    <li>tool_ins->{lookup: [tool]; Case; 4}</li>
+    <li>tool_ins->[tool_fixed_ins]</li>
+    <li>tool_fixed_gen->лопатки</li>
+    <li>tool_fixed_acc->лопатку</li>
+    <li>tool_fixed_ins->лопаткой</li>
+    <li>tool_fixed_gen->духовки</li>
+    <li>tool_fixed_acc->духовку</li>
+    <li>tool_fixed_ins->духовкой</li>
+    <li>tool_fixed_gen->сотейника</li>
+    <li>tool_fixed_acc->сотейник</li>
+    <li>tool_fixed_ins->сотейником</li>
+    <li>tool->электроплита</li>
+    <li>tool->твердотопливная плита</li>
+    <li>tool->дозатор пасты</li>
+    <li>tool->разделочный стол</li>
     <li>subject->о специях</li>
     <li>subject->о сухих пайках</li>
     <li>subject->о видах яиц</li>
@@ -368,7 +369,6 @@
     <li>situation-> безопасно</li>
     <li>situation-> без инструкций</li>
     <li>situation-> при свечах</li>
-    <li>situation(p=0.1)-> будучи пьяным</li>
   </LessonCrafting.logRulesInitiator.rulesStrings>
   
   <!-- EN: lesson -->
@@ -377,7 +377,7 @@
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
   <LessonGeneric.logRulesInitiator.rulesStrings>
-    <li>[INITIATOR_nameDef] {INITIATOR_gender ? провёл : провела} для [RECIPIENT_nameDef] урок</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? провёл : провела} для [RECIPIENT_nameDef] урок</li>
   </LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
@@ -643,7 +643,7 @@
     <li>action_with_tool->пользоваться [tool_fixed_ins]</li>
     <li>action_with_tool->проверять [tool_fixed_acc]</li>
     <li>subject_action_with_tool->об использовании [tool_fixed_gen]</li>
-    <li>subject_action_with_tool->о работе [tool_fixed_ins]</li>
+    <li>subject_action_with_tool->о работе с [tool_fixed_ins]</li>
     <li>subject_action_with_tool->об устройстве [tool_fixed_gen]</li>
     <!-- объектов ниже о основном нет в словарях, поэтому падежные формы перечисляем прямо здесь -->
     <li>tool_fixed_gen->солнечной лампы</li>
@@ -699,7 +699,7 @@
     <li>subject_action_with_tool->о стрельбе из {lookup: [tool]; Case; 1}</li>
     <li>subject_action_with_tool->об уходе за {lookup: [tool]; Case; 4}</li>
     <li>subject_action_with_tool->о заряжании {lookup: [tool]; Case; 1}</li>
-    <!-- Ниже должны быть виды существующего в игре оружия, в именительном падеже, чтобы сработал lookup -->    
+    <!-- Ниже должны быть виды существующего в игре оружия, в именительном падеже, чтобы сработал lookup -->
     <li>tool->винтовка</li>
     <li>tool->пистолет</li>
     <li>tool->дробовик</li>

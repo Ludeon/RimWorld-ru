@@ -25,12 +25,6 @@
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] [RECIPIENT_nameDef], как [action_with_tool].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef], как[situation] [action_with_tool].</li>
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] [RECIPIENT_nameDef], как[situation] [action_with_tool].</li>
-    <!-- Добавлено несколько наречий в контексте объяснения -->
-    <li>teach_adverb->убедительно</li>
-    <li>teach_adverb->авторитетно</li>
-    <li>teach_adverb->предметно</li>
-    <li>teach_adverb->наглядно</li>
-    <li>teach_adverb->доходчиво</li>
   </LessonInteractionHowTo.rulePack.rulesStrings>
   
   <!-- EN:
@@ -58,22 +52,18 @@
     <li>study_verb->studied</li>
   -->
   <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [study_verb], как [action_with_tool].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [study_verb] [info] [subject].</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [study_verb], как[situation] [action_with_tool].</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [study_verb] [info] [subject].</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [teach_adverb] [study_verb], как[situation] [action_with_tool].</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [teach_adverb] [study_verb] [info] [subject].</li>
-    <!-- Добавлено несколько контекстных наречий -->
-    <li>teach_adverb->вдумчиво</li>
-    <li>teach_adverb->тщательно</li>
-    <li>teach_adverb->пристально</li>
-    <li>teach_adverb->внимательно</li>
-    <li>study_verb->проштудировали</li>
-    <li>study_verb->разобрали</li>
-    <li>study_verb->исследовали</li>
-    <li>study_verb->изучили</li>
-    <li>info->информацию</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [study_verb] о том, как [action_with_tool].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [study_verb] [subject].</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [study_verb] о том, как[situation] [action_with_tool].</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [study_verb] [subject].</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [study_adverb] [study_verb] о том, как[situation] [action_with_tool].</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] с [RECIPIENT_nameDef] [study_adverb] [study_verb] [subject].</li>
+    <li>study_verb->прочитали [info]</li>
+    <li>study_verb->проштудировали [info]</li>
+    <li>study_verb->разобрали [info]</li>
+    <li>study_verb->просмотрели [info]</li>
+    <li>study_verb->изучили [info]</li>
+    <li>info->пособие</li>
     <li>info->статью</li>
     <li>info->книгу</li>
   </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
@@ -87,12 +77,28 @@
     <li>teach_adverb->carefully</li>
   -->
   <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
-    <!-- Набор можно расширить в соответствующих контекстах -->
-    <li>teach_adverb->невозмутимо</li>
-    <li>teach_adverb->увлечённо</li>
-    <li>teach_adverb->быстро</li>
-    <li>teach_adverb->беззаботно</li>
-    <li>teach_adverb->осторожно</li>
+    <!-- Правила отличаются от оригинала, поскольку не все наречия сочетаются со всеми видами занятий. Самые лучшие наречия связаны только с одним видом занятия -->
+    <li>teach_adverb(p=3)->[common_adverb]</li>
+    <li>teach_adverb->убедительно</li>
+    <li>teach_adverb->авторитетно</li>
+    <li>teach_adverb->предметно</li>
+    <li>teach_adverb->наглядно</li>
+    <li>teach_adverb->доходчиво</li>
+    <li>study_adverb(p=3)->[common_adverb]</li>
+    <li>study_adverb->вдумчиво</li>
+    <li>study_adverb->тщательно</li>
+    <li>study_adverb->пристально</li>
+    <li>study_adverb->внимательно</li>
+    <li>talk_adverb(p=3)->[common_adverb]</li>
+    <li>talk_adverb->авторитетно</li>
+    <li>talk_adverb->подробно</li>
+    <li>talk_adverb->со знанием дела</li>
+    <li>talk_adverb->обстоятельно</li>
+    <li>common_adverb->невозмутимо</li>
+    <li>common_adverb->увлечённо</li>
+    <li>common_adverb->быстро</li>
+    <li>common_adverb->беззаботно</li>
+    <li>common_adverb->осторожно</li>
   </LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
   
   <!-- EN:
@@ -105,7 +111,7 @@
     <li>teach_verb->{INITIATOR_gender ? продемонстрировал : продемонстрировала}</li>
     <li>teach_verb->{INITIATOR_gender ? объяснил : объяснила}</li>
     <li>teach_verb->{INITIATOR_gender ? показал : показала}</li>
-    <li>teach_verb->{INITIATOR_gender ? научил : научила}</li> 
+    <li>teach_verb->{INITIATOR_gender ? научил : научила}</li>
   </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
   
   <!-- EN:
@@ -119,16 +125,12 @@
   <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject_action_with_tool].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject].</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject_action_with_tool].</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject].</li>
-    <li>teach_adverb->авторитетно</li>
-    <li>teach_adverb->подробно</li>
-    <li>teach_adverb->со знанием дела</li>
-    <li>teach_adverb->обстоятельно</li>
-    <li>talk_verb->поговорил с [RECIPIENT_nameDef]</li>
-    <li>talk_verb->дал [RECIPIENT_nameDef] общие сведения</li>
-    <li>talk_verb->рассказал [RECIPIENT_nameDef]</li>
-    <li>talk_verb->провёл [RECIPIENT_nameDef] лекцию</li>  
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [talk_adverb] [talk_verb] [subject_action_with_tool].</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [talk_adverb] [talk_verb] [subject].</li>
+    <li>talk_verb->{INITIATOR_gender ? поговорил : поговорила} с [RECIPIENT_nameDef]</li>
+    <li>talk_verb->{INITIATOR_gender ? дал : дала} [RECIPIENT_nameDef] общие сведения</li>
+    <li>talk_verb->{INITIATOR_gender ? рассказал : рассказала} [RECIPIENT_nameDef]</li>
+    <li>talk_verb->{INITIATOR_gender ? провёл : провела} [RECIPIENT_nameDef] лекцию</li>
   </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
   
 </LanguageData>
