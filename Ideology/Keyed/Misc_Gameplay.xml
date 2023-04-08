@@ -314,9 +314,9 @@
   <!-- EN: Passive effects -->
   <RoleEffectsLabel>Пассивные эфф.</RoleEffectsLabel>
   <!-- EN: Must be {0} -->
-  <RoleRequirementLabelSameIdeo>не {0}</RoleRequirementLabelSameIdeo> <!-- Описание причины невозможности действия. Вместо {0} будет memberName: "не архист" -->
+  <RoleRequirementLabelSameIdeo>нужен {0}</RoleRequirementLabelSameIdeo> <!-- Требование к персонажу. Используется в списке требований И как описание причины невозможности действия. Вместо {0} будет memberName: "нужен архист" -->
   <!-- EN: Must be {0} -->
-  <RoleRequirementLabelSupremeGender>не {0}</RoleRequirementLabelSupremeGender> <!-- Описание причины невозможности действия. Вместо {0} будет пол: "не мужчина" -->
+  <RoleRequirementLabelSupremeGender>{replace: {0}; "мужчина"-"нужен"; "женщина"-"нужна"} {0}</RoleRequirementLabelSupremeGender> <!-- Требование к персонажу. Используется в списке требований И как описание причины невозможности действия. Вместо {0} будет пол: "нужен мужчина" -->
   <!-- EN: Cannot be child -->
   <RoleRequirementCannotBe>не может быть ребёнком</RoleRequirementCannotBe>
 
