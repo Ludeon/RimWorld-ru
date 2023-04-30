@@ -27,6 +27,8 @@
   <MessageAbsorbingXenogermWillAngerFaction>Изъятие ксеносемени {PAWN_nameDef} разозлит фракцию {0}.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>Способность «{ABILITY_label}» можно использовать только на поселенцев, рабов или пленников.</MessageCannotUseOnOtherFactions>
+  <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} отказывается получать нежелательный ксенотип.</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>{MECH_nameDef} {MECH_gender ? был : была} автоматически {MECH_gender ? добавлен : добавлена} к каравану, так как {MECH_pronoun} сопровождает {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
@@ -43,6 +45,8 @@
   <MessagePregnancyTerminated>Беременность {PAWN_nameDef} была успешно прервана.</MessagePregnancyTerminated>
   
   <!-- Pollution -->
+  <!-- EN: {0} has been angered ({1}) -->
+  <MessageAngeredPollutedCell>Вы разозлили фракцию {0} ({1})</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
   <MessageWarningPollutedCell>Требуется незагрязнённая почва.</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
@@ -103,9 +107,14 @@
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
   <MessageBedExposedToSunlight>{PAWN_nameDef} не может использовать {BED_labelShort} для торпора, так как {BED_pronoun} находится на солнечном свету.</MessageBedExposedToSunlight>
 
+  <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} {PAWN_gender ? выброшен : выброшена} из генного экстрактора из-за нехватки энергии.</GeneExtractorNoPowerEjectedMessage>
+
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
-  <MessagePawnKilledRipscanner>Мозг {PAWN_nameDef} был уничтожен в результате сканирования душегубом.</MessagePawnKilledRipscanner>
+  <MessagePawnKilledRipscanner>Мозг {PAWN_nameDef} уничтожен в результате сканирования душегубом.</MessagePawnKilledRipscanner>
+  <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
+  <MessageSubcoreSoftscannerCompleted>Церебральный анализ {PAWN_nameDef} завершён.</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>Невозможно воскресить скелетированное тело.</MessageCannotResurrectDessicatedCorpse>
@@ -140,5 +149,14 @@
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>Внимание: {0_labelShort} сейчас носит ребёнка.</MessageDraftedPawnCarryingBaby>
+  <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef} переносит {BABY_nameDef} в место с менее опасной температурой.</MessageTakingBabyToSafeTemperature>
+
+  <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
+  <MessagePregnancyFailed>{MOTHER_nameDef} не смогла забеременеть от {FATHER_nameDef}</MessagePregnancyFailed>
+  <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
+  <MessageFerilizeFailed>{PAWN_nameDef} не смог оплодотворить яйцеклетку</MessageFerilizeFailed>
+  <!-- EN: Combined genes exceeded metabolism limits. -->
+  <CombinedGenesExceedMetabolismLimits>комбинируемые гены превысили ограничения метаболизма.</CombinedGenesExceedMetabolismLimits>
 
 </LanguageData>

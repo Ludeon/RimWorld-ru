@@ -166,7 +166,7 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef} следует как можно скорее погрузиться в торпор, чтобы избежать истощения.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>Определяет, будет ли {PAWN_nameDef} автоматически употреблять гемоген-пакеты, если {PAWN_possessive} уровень гемогена меньше {MIN}.\n\nАвтоматическое употребление сейчас {ONOFF}.</AutoTakeHemogenDesc><!-- text_todo -->
+  <AutoTakeHemogenDesc>Определяет, будет ли {PAWN_nameDef} самостоятельно употреблять гемоген-пакеты, если {PAWN_possessive} уровень гемогена меньше {MIN}.\n\nАвтоматическое употребление сейчас {ONOFF}.</AutoTakeHemogenDesc><!-- text_todo -->
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>Употреблять гемоген если уровень ниже</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -391,8 +391,8 @@
   <WaitingForPawn>Ждёт {PAWN_nameDef}.</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>Извлекаются гены из {PAWN_nameDef}.</ExtractingXenogermFrom>
-  <!-- EN: Extraction paused: No power -->
-  <ExtractionPausedNoPower>Извлечение приостановлено: нет энергии</ExtractionPausedNoPower>
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
+  <ExtractionPausedNoPower>Извлечение приостановлено: нет энергии (прервётся через {TIME})</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>Последний раз {CHEMICAL_label} {CHEMICAL_gender ? употреблён : употреблена : употреблено} {DURATION} назад.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
@@ -545,8 +545,8 @@
   <BiostarvationExplanation>В одном или нескольких инкубаторах присутствует недостаток электроэнергии или питательных веществ.\n\nЕсли инкубационный голод достигнет 100%, человек внутри инкубатора погибнет.</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
   <InsertPersonGrowthVatDesc>Поместить человека в инкубатор. Это ускорит его процесс взросления в 20 раз.</InsertPersonGrowthVatDesc>
-  <!-- EN: Implant an embryo into the growth vat. After gestating for 18 days a fully formed baby will be produced by the vat, hopefully in good health. -->
-  <InsertEmbryoGrowthVatDesc>Поместить эмбрион в инкубатор. Через 18 дней на свет появится полностью сформировавшийся ребёнок, скорее всего здоровый.</InsertEmbryoGrowthVatDesc>
+  <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
+  <InsertEmbryoGrowthVatDesc>Поместить эмбрион в инкубатор. Через {0} на свет появится полностью сформировавшийся ребёнок, скорее всего здоровый.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
   <ImplantEmbryo>Поместить эмбрион</ImplantEmbryo>
   <!-- EN: Cannot insert embryo -->
