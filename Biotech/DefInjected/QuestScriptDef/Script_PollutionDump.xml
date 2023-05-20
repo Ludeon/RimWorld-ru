@@ -7,7 +7,7 @@
   -->
   <PollutionDump.questContentRules.rulesStrings>
     <li>wastepacksLetterLabel->Отходы прибыли</li>
-	<li>wastepacksLetterText->Пакеты с токсичными отходами доставлены.</li>
+	<li>wastepacksLetterText->Мешки с токсичными отходами доставлены.</li>
   </PollutionDump.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==True)->A machine persona in an orbiting ship has a special request. She wishes to offload an excess of toxic wastepacks and hopes that you will store them responsibly.\n\nIf you accept, she will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
@@ -15,9 +15,9 @@
     <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has a special request. Someone has dumped an abundance of toxic wastepacks near one of [asker_possessive] settlements and [asker_pronoun] is unable to safely store them.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
   -->
   <PollutionDump.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==True)->У ИИ-личности на орбитальном корабле есть для вас особая просьба. Он хочет выгрузить избыток токсичных отходов и надеется, что вы позаботитесь об их хранении.\n\nЕсли вы возьмётесь за это, то она доставит [wastepackCount] пакетов с отходами в транспортных капсулах.\n\nЕсли хранить пакеты не в замороженном состоянии, то со временем они будут разлагаться, и их содержимое будет загрязнять окружающую среду.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->У [asker_nameFull], [asker_royalTitleInCurrentFaction] из [asker_faction_name], есть особая просьба. У н[asker_possessive] скопились токсичные отходы, которые [asker_pronoun] не хочет хранить.\n\nЕсли вы возьмётесь за это, то [asker_nameDef] доставит [wastepackCount] пакетов с отходами в транспортных капсулах.\n\nЕсли их не заморозить, то со временем пакеты разрушатся, и токсины отравят окружающую среду.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] из фракции [asker_faction_name] просит вас об одолжении. Кто-то сбросил токсичные отходы около [asker_possessive] поселения, и [asker_pronoun] не имеет возможности безопасно хранить их.\n\nЕсли вы возьмётесь за это дело, то [asker_nameDef] доставит [wastepackCount] пакетов с отходами в транспортных капсулах.\n\nПакеты должны хранится при отрицательной температуре, иначе они будут разлагаться и загрязнять окружающую среду.</li>
+    <li>questDescription(askerIsNull==True)->У ИИ-личности на орбитальном корабле есть для вас особая просьба. Он хочет выгрузить избыток токсичных отходов и надеется, что вы позаботитесь об их хранении.\n\nЕсли вы возьмётесь за это, то она доставит [wastepackCount] мешков с отходами в транспортных капсулах.\n\nЕсли хранить мешки не в замороженном состоянии, то со временем они будут разлагаться, и их содержимое будет загрязнять окружающую среду.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->У [asker_nameFull], [asker_royalTitleInCurrentFaction] из [asker_faction_name], есть особая просьба. У н[asker_possessive] скопились токсичные отходы, которые [asker_pronoun] не хочет хранить.\n\nЕсли вы возьмётесь за это, то [asker_nameDef] доставит [wastepackCount] мешков с отходами в транспортных капсулах.\n\nЕсли их не заморозить, то со временем мешки разрушатся, и токсины отравят окружающую среду.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] из фракции [asker_faction_name] просит вас об одолжении. Кто-то сбросил токсичные отходы около [asker_possessive] поселения, и [asker_pronoun] не имеет возможности безопасно хранить их.\n\nЕсли вы возьмётесь за это дело, то [asker_nameDef] доставит [wastepackCount] мешков с отходами в транспортных капсулах.\n\nМешки должны хранится при отрицательной температуре, иначе они будут разлагаться и загрязнять окружающую среду.</li>
   </PollutionDump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[waste] [dump]</li>
@@ -39,7 +39,7 @@
     <li>waste->отходов</li>
     <li>waste->ядовитых веществ</li>
     <li>waste->токсинов</li>
-    <li>waste->пакетов с отходами</li>
+    <li>waste->мешков с отходами</li>
     <li>dump->свалка</li>
     <li>dump->сброс</li>
     <li>dump->уничтожение</li>
