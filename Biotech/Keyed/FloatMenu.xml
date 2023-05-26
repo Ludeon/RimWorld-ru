@@ -78,7 +78,7 @@
   <!-- EN: Carry to {0_labelShort} -->
   <CarryToSpecificThing>Отнести к {lookup: {0_labelShort}; Case; 2}</CarryToSpecificThing>
   <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
-  <NoCasketOrBed>необходимы доступная кровать или торпорный саркофаг, не занятые и находящиеся в месте с безопасной температурой.</NoCasketOrBed>
+  <NoCasketOrBed>нет доступных свободных кроватей или торпорных саркофагов в местах с безопасной температурой.</NoCasketOrBed>
   <!-- EN: {PAWN_nameDef} is a temporary faction member. -->
   <TemporaryFactionMember>{PAWN_nameDef} — временный член фракции.</TemporaryFactionMember>
 
@@ -128,13 +128,13 @@
   <!-- EN: {HAULER_labelShort} cannot reach {BABY_labelShort} -->
   <BreastfeedFailReason_HaulerCannotReachBaby>{HAULER_labelShort} не может добраться до {BABY_labelShort}</BreastfeedFailReason_HaulerCannotReachBaby>
   <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
-  <BreastfeedFailReason_NoMomsAssignedToBaby>{BABY_labelShort} ни назначен кормящий {BABY_factionPawnSingular}</BreastfeedFailReason_NoMomsAssignedToBaby>
+  <BreastfeedFailReason_NoMomsAssignedToBaby>для {BABY_labelShort} не назначен кормящий {BABY_factionPawnSingular}</BreastfeedFailReason_NoMomsAssignedToBaby>
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
   <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} не назначена ухаживать за младенцами</BreastfeedFailReason_MomNotAssignedToChildcare>
   <!-- EN: {MOM_labelShort} is inside a container -->
   <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort} находится внутри контейнера</BreastfeedFailReason_MomInsideContainer> <!-- text_todo -->
   <!-- EN: {MOM_labelShort} is being carried -->
-  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} уже переносят</BreastfeedFailReason_MomBeingCarried> <!-- text_todo -->
+  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} сейчас переносят</BreastfeedFailReason_MomBeingCarried> <!-- text_todo -->
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
   <OrderImplantationIntoPawn>Вживить в {PAWN_nameDef}</OrderImplantationIntoPawn>
