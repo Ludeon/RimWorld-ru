@@ -11,9 +11,10 @@
   <!-- EN: {PAWN_labelShort} is a prisoner. -->
   <MechControllerImprisoned>{PAWN_labelShort} в плену.</MechControllerImprisoned>
   <!-- EN: {PAWN_labelShort} is inside {CONTAINER} -->
-  <MechControllerInsideContainer>{PAWN_labelShort} находится внутри {lookup: {CONTAINER}; Case; 3}</MechControllerInsideContainer>
+  <MechControllerInsideContainer>{PAWN_labelShort} находится внутри {lookup: {CONTAINER}; Case; 1}</MechControllerInsideContainer>
   <!-- EN: {PAWN_labelShort} has insufficient bandwidth -->
-  <MechControllerInsufficientBandwidth>{PAWN_labelShort} не хватает пропускной способностьи</MechControllerInsufficientBandwidth>
+  <MechControllerInsufficientBandwidth>У {PAWN_labelShort} недостаточно пропускной способности</MechControllerInsufficientBandwidth>
+
   <!-- EN: {PAWN_labelShort} is in a '{MENTALSTATE_label}' mental state. -->
   <MechControllerMentalState>{PAWN_labelShort} пребывает в состоянии: {MENTALSTATE_label}</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
@@ -25,17 +26,17 @@
 
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
-  <GestationCyclesCompleted>Завершённых гестационных циклов</GestationCyclesCompleted>
+  <GestationCyclesCompleted>Завершено циклов гестации</GestationCyclesCompleted>
   <!-- EN: Gathered ingredients -->
-  <FormerIngredients>Собранных ингридиентов</FormerIngredients>
+  <FormerIngredients>Собрано ингредиентов</FormerIngredients>
 
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
-  <ConfirmRipscanPawn>{PAWN_objective} погибнет от зондирования душегубом. Вы уверены, что хотите продолжить?</ConfirmRipscanPawn>
+  <ConfirmRipscanPawn>{PAWN_objective} погибнет от сканирования душегубом. Вы уверены, что хотите продолжить?</ConfirmRipscanPawn>
 
   <!-- Xenogerm -->
   <!-- EN: Assemble genes -->
-  <AssembleGenes>Собрать гены</AssembleGenes>
+  <AssembleGenes>Сборка генов</AssembleGenes>
   <!-- EN: Create xenotype -->
   <CreateXenotype>Создать ксенотип</CreateXenotype>
   <!-- EN: Select icon -->
@@ -73,19 +74,19 @@
   <!-- EN: Germline genes are naturally-inherited genes which are in every cell in an organism's body and don't require any external support. They are passed from parent to child. -->
   <EndogenesDesc>Наследуемые гены естественным образом присутствуют в каждой клетке организма и не требуют поддержания извне. Они передаются от родителей детям.</EndogenesDesc>
   <!-- EN: Member xenotypes -->
-  <MemberXenotypeChances>Ксенотипы этой фракции</MemberXenotypeChances>
+  <MemberXenotypeChances>Ксенотипы фракции</MemberXenotypeChances>
   <!-- EN: xenotype name -->
   <XenotypeName>название ксенотипа</XenotypeName>
   <!-- EN: Lock or unlock the xenotype's name. When locked, the xenotype name will not auto-regenerate when genepacks are added or removed. -->
   <LockNameButtonDesc>Заблокировать или разблокировать название ксенотипа. При блокировке имя не будет автоматически генерироваться при добавлении или удалении генных пакетов.</LockNameButtonDesc>
   <!-- EN: Xenotype name lock is on. Xenotype name will not regenerate when adding or removing genepacks. -->
-  <LockNameOn>Название ксенотипа заблокировано. Оно не будет автоматически генерироваться при добавлении или удалении генных пакетов.</LockNameOn>
+  <LockNameOn>Название ксенотипа заблокировано. Оно не будет изменяться при добавлении или удалении генных пакетов.</LockNameOn>
   <!-- EN: Xenotype name lock is off. Xenotype name will regenerate when adding or removing genepacks. -->
-  <LockNameOff>Название ксенотипа разблокировано. Оно будет автоматически генерироваться при добавлении или удалении генных пакетов.</LockNameOff>
+  <LockNameOff>Название ксенотипа разблокировано. Оно будет изменяться при добавлении или удалении генных пакетов.</LockNameOff>
   <!-- EN: Creating xenogerm -->
   <CreatingXenogerm>Создание ксеносемени</CreatingXenogerm>
   <!-- EN: This genepack is contained in an unpowered genebank. If added, production on the xenogerm will be suspended until power is restored. -->
-  <GenepackUnusableGenebankUnpowered>Этот генный пакет содержит обесточенный генный банк. При его добавлении, создание ксеносемени будет приостановлено, пока не будет подано электричество.</GenepackUnusableGenebankUnpowered>
+  <GenepackUnusableGenebankUnpowered>Этот генный пакет находится в обесточенном генном банке. При его добавлении, создание ксеносемени будет приостановлено, пока не будет подано электричество.</GenepackUnusableGenebankUnpowered>
   <!-- EN: This xenogerm requires more genetic complexity than the gene assembler and nearby powered gene processors can support. -->
   <GeneProcessorUnpowered>Для данного ксеносемени требуется большая генетическая сложность, чем могут обеспечить генный сборщик и ближайший включённый генный процессор. </GeneProcessorUnpowered>
   <!-- EN: Estimated recombination time -->
@@ -101,7 +102,7 @@
   <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
   <SelectAGeneToRandomizeName>Выберите хотя бы один ген для случайной генерации названия ксенотипа.</SelectAGeneToRandomizeName>
   <!-- EN: Select at least one gene to choose a name for this xenotype. -->
-  <SelectAGeneToChooseAName>Выберите хотя бы один ген, чтобы выбрать название ксенотипа.</SelectAGeneToChooseAName>
+  <SelectAGeneToChooseAName>Выберите хотя бы один ген, чтобы назвать ксенотип.</SelectAGeneToChooseAName>
 
   <!-- View genes -->
   <!-- EN: Inspect genes -->
