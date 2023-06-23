@@ -15,6 +15,6 @@
   <!-- EN: Start with {0}. -->
   <ScenPart_StartWithSpecificColonists>Начало с {0}.</ScenPart_StartWithSpecificColonists>
   <!-- EN: {COUNT} {KINDLABEL} -->
-  <PawnCount>{COUNT} {lookup: {KINDLABEL}; Case; 4}</PawnCount>
+  <PawnCount>{COUNT_numCase ? {lookup: {KINDLABEL}; Case; 4} : {lookup: {lookup: {KINDLABEL}; Plural; 1}; Case; 4} : {lookup: {lookup: {KINDLABEL}; Plural; 1}; Case; 4}}</PawnCount> <!-- По ключу KINDLABEL подставляется как PawnKindDef в нужной форме числа, так и XenotypeDef — в единственном числе. -->
   
 </LanguageData>
