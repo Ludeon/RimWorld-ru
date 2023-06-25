@@ -429,9 +429,9 @@
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
-  <CannotGenericAlreadyAm>Поселенец уже начал {0} {lookup: {2_labelShort}; Case; 3}</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>Поселенец уже начал {lookup: {0}; Imperfect; 1} {lookup: {2_labelShort}; Case; 3}</CannotGenericAlreadyAm>
   <!-- EN: Already {0} -->
-  <CannotGenericAlreadyAmCustom>Поселенец уже начал {0}</CannotGenericAlreadyAmCustom>
+  <CannotGenericAlreadyAmCustom>Поселенец уже начал {lookup: {0}; Imperfect; 1}</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Cannot prioritize: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>Невозможно выполнить: поселенец никогда не будет {0}</CannotPrioritizeWorkTypeDisabled>
