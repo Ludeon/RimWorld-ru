@@ -122,7 +122,7 @@
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>торпорная вместимость</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>Определяет максимальное количество аппаратов, к которым можно подключиться во время торпора. Каждый аппарат даёт определённый положительный эффект, чем их больше — тем лучше.\n\nТорпорную вместимость можно увеличить специальным сыворотками. Найти их можно у торговцев.</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>Определяет максимальное количество аппаратов, к которым можно подключиться во время торпора. Каждый аппарат даёт определённый положительный эффект, чем их больше — тем лучше.\n\nТорпорную вместимость можно увеличить специальными сыворотками. Найти их можно у торговцев.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
   <PawnIsConnectedToBuildings>{PAWN_nameDef} {PAWN_gender ? подключён : подключена} к {CURRENT} из {MAX} (максимум) аппаратов для торпора.</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
@@ -168,7 +168,7 @@
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
   <AutoTakeHemogenDesc>Определяет, будет ли {PAWN_nameDef} самостоятельно употреблять гемоген-пакеты, если {PAWN_possessive} уровень гемогена меньше {MIN}.\n\nАвтоматическое употребление сейчас {ONOFF}.</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
-  <ConsumeHemogenBelow>Употреблять гемоген если уровень ниже</ConsumeHemogenBelow>
+  <ConsumeHemogenBelow>Употреблять гемоген, если уровень ниже</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
   <NeverConsumeHemogen>Никогда не употреблять гемоген.</NeverConsumeHemogen>
   <!-- EN: Will kill -->
@@ -434,7 +434,7 @@
   <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
   <ChildBirthAlwaysHealthy_Desc>Собрать поселенцев, чтобы поддержать роженицу. Роды будет принимать врач.</ChildBirthAlwaysHealthy_Desc>
   <!-- EN: until the baby is born -->
-  <UntilBabyIsBorn>пока ребёнок не появится на свет</UntilBabyIsBorn>
+  <UntilBabyIsBorn>пока не родится ребёнок</UntilBabyIsBorn>
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>Дети хотят учиться разным вещам в разное время.</LearningDesireTooltip>
@@ -542,9 +542,9 @@
   <!-- EN: Biostarvation -->
   <Biostarvation>инкубационный голод</Biostarvation>
   <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
-  <BiostarvationExplanation>В одном или нескольких инкубаторах присутствует недостаток электроэнергии или питательных веществ.\n\nЕсли инкубационный голод достигнет 100%, человек внутри инкубатора погибнет.</BiostarvationExplanation>
+  <BiostarvationExplanation>В одном или нескольких инкубаторах наблюдается дефицит электроэнергии или питательных веществ, что вызывает инкубационный голод.\n\nЕсли инкубационный голод достигнет 100%, человек внутри инкубатора погибнет.</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
-  <InsertPersonGrowthVatDesc>Поместить человека в инкубатор. Это ускорит его процесс взросления в 20 раз.</InsertPersonGrowthVatDesc>
+  <InsertPersonGrowthVatDesc>Поместить человека в инкубатор. Процесс взросления этого человека ускорится в 20 раз.</InsertPersonGrowthVatDesc>
   <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
   <InsertEmbryoGrowthVatDesc>Поместить эмбрион в инкубатор. Через {0} на свет появится полностью сформировавшийся ребёнок, скорее всего здоровый.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
