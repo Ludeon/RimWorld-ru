@@ -282,9 +282,9 @@
   <!-- EN: Complexity -->
   <Complexity>Сложность</Complexity>
   <!-- EN: How much complexity this adds to the process of gene assembly. -->
-  <ComplexityDesc>Насколько сложен процесс создания ксеносемени с этим ксенотипом на генетическом сборщике.</ComplexityDesc>
+  <ComplexityDesc>Насколько сложен процесс создания ксеносемени с этим ксенотипом на генном сборщике.</ComplexityDesc>
   <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
-  <MaxComplexityDesc>Максимальная сложность может быть увеличена, если соорудить генетические процессоры рядом с генетическим сборщиком.</MaxComplexityDesc>
+  <MaxComplexityDesc>Максимальная сложность может быть увеличена, если соорудить генетические обработчики рядом с генным сборщиком.</MaxComplexityDesc>
   <!-- EN: Total complexity -->
   <ComplexityTotal>Общая сложность</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
@@ -292,7 +292,7 @@
   <!-- EN: Metabolic efficiency -->
   <Metabolism>Эффективность метаболизма</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
-  <MetabolismDesc>Общее влияние на обмен веществ генов, объединённых на генетическом сборщике. Высокая эффективность метаболизма уменьшит потребность в пище, а низкая — наоборот, увеличит.</MetabolismDesc>
+  <MetabolismDesc>Общее влияние на обмен веществ генов, объединённых на генном сборщике. Высокая эффективность метаболизма уменьшит потребность в пище, а низкая — наоборот, увеличит.</MetabolismDesc>
   <!-- EN: Metabolic efficiency -->
   <MetabolismTotal>Эффективность метаболизма</MetabolismTotal>
   <!-- EN: The total metabolic efficiency of all genes in the genome. High efficiency means a person needs less food; low efficiency means they must eat more. -->
@@ -306,7 +306,7 @@
   <!-- EN: Archite total -->
   <ArchitesTotal>Всего архитных</ArchitesTotal>
   <!-- EN: Archite capsules -->
-  <ArchitesRequired>Архитные капсулы</ArchitesRequired>
+  <ArchitesRequired>Капсулы с архитами</ArchitesRequired>
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
   <ArchitesRequiredDesc>Архиты — это нанороботы, созданные сверхмощными архотеками. Они, как и другие образцы архотехнологий, способны на то, что учёным до сих пор кажется невозможным. Лучшее, на что человечество может надеяться, — это найти где-нибудь подобные чудеса технологий. Никакой речи о попытке воспроизвести их не идёт.</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
@@ -346,21 +346,21 @@
   <!-- EN: Genes -->
   <ContainedGenesDesc>Гены</ContainedGenesDesc>
   <!-- EN: Order implantation -->
-  <ImplantXenogerm>Назначить имплантацию</ImplantXenogerm>
+  <ImplantXenogerm>Назначить вживление</ImplantXenogerm>
   <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
-  <ImplantXenogermDesc>Имплантировать ксеносемя в человека, чтобы частично переписать его гено́м.\n\nЭто хирургическая процедура, для её проведения потребуется врач, больничная кровать и {MEDICINEAMOUNT} ед. медикаментов.</ImplantXenogermDesc>
+  <ImplantXenogermDesc>Вживить ксеносемя в человека, чтобы частично переписать его гено́м.\n\nЭто хирургическая процедура, для её проведения потребуется врач, больничная кровать и {MEDICINEAMOUNT} ед. медикаментов.</ImplantXenogermDesc>
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
-  <ImplantXenogermWarningDesc>Имплантация ксеносемени погрузит {PAWN_nameDef} в коматозное состояние, которое будет длиться до окончания процесса обновления генома. В среднем процесс занимает {COMADURATION}. Продолжительность комы зависит от навыков врача, медицинского оборудования и чистоты помещения.</ImplantXenogermWarningDesc>
+  <ImplantXenogermWarningDesc>Вживление ксеносемени погрузит {PAWN_nameDef} в коматозное состояние, которое будет длиться до окончания процесса обновления генома. В среднем процесс занимает {COMADURATION}. Продолжительность комы зависит от навыков врача, медицинского оборудования и чистоты помещения.</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>Имплантация ксеносемени также перепишет имеющиеся сейчас кесеногены. Текущий ксенотип {PAWN_nameDef} — «{XENOTYPE}». {PAWN_pronoun} обладает следующими ксеногенами:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>Вживление ксеносемени также перепишет имеющиеся сейчас ксеногены. Текущий ксенотип {PAWN_nameDef} — «{XENOTYPE}». {PAWN_pronoun} обладает следующими ксеногенами:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
-  <ImplantXenogermWarningNewMetabolism>После имплантации эффективность метаболизма {PAWN_nameDef} будет равна {MET}, и потребность в пище составит {CONSUMPTION} от обычной.</ImplantXenogermWarningNewMetabolism>
+  <ImplantXenogermWarningNewMetabolism>После вживления эффективность метаболизма {PAWN_nameDef} будет равна {MET}, и потребность в пище составит {CONSUMPTION} от обычной.</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
   <WouldYouLikeToContinue>Хотите продолжить?</WouldYouLikeToContinue>
   <!-- EN: Cancel implanting -->
-  <CancelImplanting>Отменить имплантацию?</CancelImplanting>
+  <CancelImplanting>Отменить вживление?</CancelImplanting>
   <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
-  <CancelImplantingDesc>Отменить имплантацию ксеносемени в {PAWN_nameDef}.</CancelImplantingDesc>
+  <CancelImplantingDesc>Отменить вживление ксеносемени в {PAWN_nameDef}.</CancelImplantingDesc>
   <!-- EN: Xenotype -->
   <Xenotype>Ксенотип</Xenotype>
   <!-- EN: unique -->
@@ -578,9 +578,9 @@
   <!-- EN: raining -->
   <DissolutionRain>идёт дождь</DissolutionRain>
   <!-- EN: One wastepack dissolves every {0} -->
-  <DissolvesEvery>Каждые {0} разрушается один мешок отходов</DissolvesEvery>
+  <DissolvesEvery>Каждые {0} растворяется один мешок отходов</DissolvesEvery>
   <!-- EN: Frozen (won't dissolve). -->
-  <DissolutionFrozen>Заморожен (не разрушается).</DissolutionFrozen>
+  <DissolutionFrozen>Заморожен (не растворяется).</DissolutionFrozen>
 
   <!-- EN: {0} cells / day -->
   <CellsPerDay>{0} клеток в день</CellsPerDay>
@@ -630,9 +630,9 @@
   <WearableBy>Может носить</WearableBy>
 
   <!-- EN: Xenogerm implantation -->
-  <Reward_ReimplantXenogerm_Label>Имплантация ксеносемени</Reward_ReimplantXenogerm_Label>
+  <Reward_ReimplantXenogerm_Label>Вживление ксеносемени</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>Один из членов группы имплантирует своё ксеносемя в одного поселенца на ваш выбор. С генетической точки зрения этот поселенец станет одним из них, но останется членом вашей фракции и под вашим управлением.</Reward_ReimplantXenogerm_Desc>
+  <Reward_ReimplantXenogerm_Desc>Один из членов группы вживит своё ксеносемя в одного поселенца на ваш выбор. С генетической точки зрения этот поселенец станет одним из них, но останется членом вашей фракции и под вашим управлением.</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
