@@ -5,7 +5,7 @@
   <AbsorbXenogerm.reportString>вживляет себе ксеносемя TargetA</AbsorbXenogerm.reportString>
   
   <!-- EN: hauling TargetA to TargetB. -->
-  <CarryGenepackToContainer.reportString>переносит TargetA в TargetB</CarryGenepackToContainer.reportString>
+  <CarryGenepackToContainer.reportString>переносит {lookup: {TargetA}; Case; 3} в {lookup: {TargetB}; Case; 3}</CarryGenepackToContainer.reportString>
   
   <!-- EN: carrying TargetB to TargetA. -->
   <CarryToBuilding.reportString>переносит TargetB в TargetA</CarryToBuilding.reportString>
