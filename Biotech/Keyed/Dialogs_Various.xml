@@ -31,7 +31,7 @@
 
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
-  <ConfirmRipscanPawn>{PAWN_objective} погибнет от сканирования душегубом. Вы уверены, что хотите продолжить?</ConfirmRipscanPawn>
+  <ConfirmRipscanPawn>{PAWN_nameDef} погибнет от сканирования душегубом. Вы уверены, что хотите продолжить?</ConfirmRipscanPawn>
 
   <!-- Xenogerm -->
   <!-- EN: Assemble genes -->
@@ -65,7 +65,7 @@
   <!-- EN: Select xenogerm -->
   <SelectXenogerm>Выберите ксеносемя</SelectXenogerm>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are currently regrowing. If {PAWN_pronoun} implants {PAWN_possessive} xenogerm before {PAWN_possessive} genes are fully regrown, it will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <WarningPawnWillDieFromReimplanting>Внимание: генетический материал {PAWN_nameDef} ещё не до конца восстановился. Извлечение {PAWN_possessive} генов сейчас приведёт к смерти.\n\nВы уверены, что хотите продолжить?</WarningPawnWillDieFromReimplanting>
+  <WarningPawnWillDieFromReimplanting>Внимание: {PAWN_nameDef} ещё не до конца {PAWN_gender ? восстановил : восстановила} свой генетический материал. Если {PAWN_pronoun} сейчас вживит кому-то свои гены, то погибнет.\n\nВы уверены, что хотите продолжить?</WarningPawnWillDieFromReimplanting>
   <!-- EN: Not enough archite capsules. -->
   <NotEnoughArchites>Недостаточно капсул с архитами.</NotEnoughArchites>
   <!-- EN: Xenogenes are genes derived from an implanted xenogerm. If the xenogerm is removed or replaced, the xenogenes go with it. Since xenogenes are not part of the organism's own germline DNA, they are not passed to children. -->
@@ -85,16 +85,15 @@
   <!-- EN: Creating xenogerm -->
   <CreatingXenogerm>Создание ксеносемени</CreatingXenogerm>
   <!-- EN: This genepack is contained in an unpowered genebank. If added, production on the xenogerm will be suspended until power is restored. -->
-  <GenepackUnusableGenebankUnpowered>Этот генный пакет находится в обесточенном генном банке. При его добавлении, создание ксеносемени не начнётся, пока не будет подано электричество.</GenepackUnusableGenebankUnpowered>
-
+  <GenepackUnusableGenebankUnpowered>Этот генный пакет находится в обесточенном генном банке. При его добавлении создание ксеносемени не начнётся, пока не будет подано электричество.</GenepackUnusableGenebankUnpowered>
   <!-- EN: This xenogerm requires more genetic complexity than the gene assembler and nearby powered gene processors can support. -->
-  <GeneProcessorUnpowered>Для этого ксеносемени требуется бо́льшая генетическая сложность, чем могут обеспечить генный сборщик и ближайший включённый генный процессор. </GeneProcessorUnpowered>
+  <GeneProcessorUnpowered>Для этого ксеносемени требуется бо́льшая генетическая сложность, чем та, которую могут обеспечить генный сборщик и ближайший включённый генетический обработчик.</GeneProcessorUnpowered>
   <!-- EN: Estimated recombination time -->
   <RecombineDuration>Приблизительное время рекомбинации</RecombineDuration>
   <!-- EN: How long it would take for an average worker to combine the selected genes into a xenogerm. Recombination time increases with the total complexity of the genes in the xenogerm. -->
   <RecombineDurationDesc>Сколько времени займёт сборка генов в ксеносемя у обычного работника. Время рекомбинации увеличивается со сложностью генов в ксеносемени.</RecombineDurationDesc>
   <!-- EN: You must research {0_label} before you can assemble a xenogerm that requires archite capsules. -->
-  <MustResearchProject>Прежде чем собирать ксеносемя, требующее капсулы с архитами, нужно изучить технологию: {0_label}.</MustResearchProject>
+  <MustResearchProject>Прежде чем собирать ксеносемя, требующее капсулы с архитами, нужно изучить технологию «{0_label}».</MustResearchProject>
   <!-- EN: Assembling xenogerms with archite genes requires {0_label} research. -->
   <AssemblingRequiresResearch>Для сборки ксеносемян с архитными генами нужно изучить технологию «{0_label}».</AssemblingRequiresResearch>
   <!-- EN: You are currently combining a {XENOGERMNAME} xenogerm. If you start combining a new xenogerm, it will cancel your current xenogerm.\n\nAre you sure you want to continue? -->
@@ -118,9 +117,9 @@
   <!-- EN: overridden -->
   <Overridden>перезаписано</Overridden>
   <!-- EN: Overridden by xenogene -->
-  <OverriddenByGene>Перезаписано ксеносеменем</OverriddenByGene>
+  <OverriddenByGene>Подавлено геном</OverriddenByGene>
   <!-- EN: Overridden by identical gene -->
-  <OverriddenByIdenticalGene>Перезаписано идентичным геном</OverriddenByIdenticalGene>
+  <OverriddenByIdenticalGene>Подавлено идентичным геном</OverriddenByIdenticalGene>
   <!-- EN: More information is available on this xenotype's information screen. -->
   <MoreInfoInInfoScreen>Больше информации об этом ксенотипе можно получить в его описании.</MoreInfoInInfoScreen>
   <!-- EN: Takes effect after age -->
@@ -134,7 +133,7 @@
   <!-- EN: Selected genes -->
   <SelectedGenes>Выбранные гены</SelectedGenes>
   <!-- EN: custom -->
-  <Custom>сохраненное</Custom>
+  <Custom>сохранённое</Custom>
   <!-- EN: hybrid -->
   <Hybrid>гибрид</Hybrid>
   <!-- EN: Genes are heritable -->
@@ -152,21 +151,21 @@
   <!-- EN: Of the following genes, only one will apply and the others will be suppressed -->
   <GeneOneActive>Из следующих генов будет активен только один, а остальные будут подавляться</GeneOneActive>
   <!-- EN: Changing xenotype will randomize this colonist.\n\nContinue anyway? -->
-  <WarnChangingXenotypeWillRandomizePawn>Смена ксенотипа приведёт к случайной генерации этого поселенца.\n\nВсё равно продолжить??</WarnChangingXenotypeWillRandomizePawn>
+  <WarnChangingXenotypeWillRandomizePawn>Смена ксенотипа приведёт к случайной генерации этого поселенца.\n\nВсё равно продолжить?</WarnChangingXenotypeWillRandomizePawn>
   <!-- EN: Delete this xenotype. -->
   <DeleteThisXenotype>Удалить этот ксенотип</DeleteThisXenotype>
   <!-- EN: Ignore restrictions -->
   <IgnoreRestrictions>Игнорировать ограничения</IgnoreRestrictions>
   <!-- EN: Created xenotypes have no biostat limits. Genes requiring archite capsules can be added. -->
-  <IgnoreRestrictionsDesc>На создаваемый ксенотип не будут накладываться биологические ограничения. Разрешено добавить гены, требующие капсулы с архитами.
+  <IgnoreRestrictionsDesc>На создаваемый ксенотип не будут накладываться биологические ограничения. Разрешено добавление генов, требующих капсулы с архитами.</IgnoreRestrictionsDesc>
   <!-- EN: This xenotype breaks normal gameplay limits -->
   <XenotypeBreaksLimits>Этот ксенотип нарушает ограничения для нормального геймплея</XenotypeBreaksLimits>
   <!-- EN: It contains archite genes and is inheritable, but archite genes are usually never inheritable. -->
   <XenotypeBreaksLimits_Archites>Он содержит архитные гены и наследуется, но обычно архитные гены не передаются по наследству.</XenotypeBreaksLimits_Archites>
   <!-- EN: {STAT} is {VALUE}, which exceeds the normal limit of {MAX}. -->
-  <XenotypeBreaksLimits_Exceeds>У характеристики {STAT} значение {VALUE}, что превышает стандартное ограничение до {MAX}.</XenotypeBreaksLimits_Exceeds>
+  <XenotypeBreaksLimits_Exceeds>Значение характеристики «{STAT}» равно {VALUE}, что превышает стандартное ограничение: {MAX}.</XenotypeBreaksLimits_Exceeds>
   <!-- EN: {STAT} is {VALUE}, which is below the normal limit of {MIN}. -->
-  <XenotypeBreaksLimits_Below>У характеристики {STAT} значение {VALUE}, что ниже стандартного ограничения до {MIN}.</XenotypeBreaksLimits_Below>
+  <XenotypeBreaksLimits_Below>Значение характеристики «{STAT}» равно {VALUE}, что ниже стандартного ограничения: {MIN}.</XenotypeBreaksLimits_Below>
   <!-- EN: Save anyway? -->
   <SaveAnyway>Всё равно сохранить?</SaveAnyway>
   <!-- EN: Ignoring restrictions allows you to create impossible gene combinations by exceeding biostat limits. It also gives you access to powerful archite genes, which can make the game very easy.\n\nAre you sure you want to ignore restrictions? -->
@@ -192,13 +191,13 @@
   <!-- EN: Save template -->
   <SaveXenogermTemplate>Сохранить шаблон</SaveXenogermTemplate>
   <!-- EN: Cannot save a template with no {0}. -->
-  <CannotSaveXenogermTemplate>Нельзя сохранить шаблон без {0}</CannotSaveXenogermTemplate>
+  <CannotSaveXenogermTemplate>Нельзя сохранить шаблон без {lookup: {0}; Case; 1}.</CannotSaveXenogermTemplate>
   <!-- EN: {NAME} template saved -->
   <XenogermTemplateSaved>Шаблон «{NAME}» сохранён</XenogermTemplateSaved>
   <!-- EN: Missing {COUNT} genepacks for {NAME} template. -->
-  <MissingGenepacksForXenogerm>Для шаблона «{NAME}» не хватает {COUNT_numCase ? генный пакет : генных пакета : генных пакетов} .</MissingGenepacksForXenogerm>
+  <MissingGenepacksForXenogerm>Для шаблона «{NAME}» не хватает {COUNT_numCase ? генного пакета : генных пакетов : генных пакетов}.</MissingGenepacksForXenogerm>
   <!-- EN: Missing genepack for {NAME} template -->
-  <MissingGenepackForXenogerm>Для шаблона «{NAME}» не хватает генетического пакета</MissingGenepackForXenogerm>
+  <MissingGenepackForXenogerm>Для шаблона «{NAME}» не хватает генного пакета</MissingGenepackForXenogerm>
   <!-- EN: Delete this xenogerm. -->
   <DeleteThisXenogerm>Удалить это ксеносемя.</DeleteThisXenogerm>
 
