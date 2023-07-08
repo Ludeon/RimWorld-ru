@@ -54,11 +54,11 @@ https://github.com/asidsx/RimWorldRuslangAutoUpdater/blob/main/auto.bat
 ### Активные
 * [Elevator89](https://github.com/Elevator89)
 * [Kamadz](https://github.com/Kamadz)
-* [BlitDev](https://github.com/BlitDev)
+* [EcherArt](https://github.com/EcherArt)
+* [Reiquard](https://github.com/Reiquard)
 
 ### Сделавшие весомый вклад в прошлом
 * [Dimonasdf](https://github.com/Dimonasdf)
-* [EcherArt](https://github.com/EcherArt)
 * [Dandi](https://github.com/Dandi91)
 * [Humort](https://github.com/Humort)
 * [Tarakanhb](https://github.com/Tarakanhb)
