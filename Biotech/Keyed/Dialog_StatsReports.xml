@@ -10,6 +10,11 @@
   <!-- EN: unclothed -->
   <StatsReport_Unclothed>без одежды</StatsReport_Unclothed>
 
+  <!-- EN: Age rate multiplier -->
+  <StatsReport_AgeRateMultiplier>Скорость взросления</StatsReport_AgeRateMultiplier><!-- text_todo -->
+  <!-- EN: A multiplier on how quickly this person ages biologically based on their current age. -->
+  <StatsReport_AgeRateMultiplier_Desc>Показывает, насколько быстро взрослеет человек в зависимости от текущего возраста.</StatsReport_AgeRateMultiplier_Desc><!-- text_todo -->
+
   <!-- EN: Required weight class -->
   <StatsReport_RechargerWeightClass>Класс механоидов</StatsReport_RechargerWeightClass>
   <!-- EN: The weight class of mechanoid which can use this recharger. The following mechanoids are compatible -->
@@ -85,6 +90,10 @@
   <NeverAggroMentalBreak>Тяжёлые нервные срывы невозможны.</NeverAggroMentalBreak>
   <!-- EN: {0_label} addiction chance factor -->
   <AddictionChanceFactor>Шанс формирования зависимости от {lookup: {0_label}; Case; 1}</AddictionChanceFactor>
+  <!-- EN: {0_label} overdose chance factor -->
+  <OverdoseChanceFactor>Вероятность передозировки {lookup: {0_label}; Case; 4}</OverdoseChanceFactor><!-- text_todo -->
+  <!-- EN: {0_label} tolerance buildup factor -->
+  <ToleranceBuildupFactor>Множитель прироста толерантности к {lookup: {0_label}; Case; 2}</ToleranceBuildupFactor><!-- text_todo -->
   <!-- EN: Immune to {0_label} addiction. -->
   <AddictionImmune>Иммунитет к зависимости от {lookup: {0_label}; Case; 1}.</AddictionImmune>
   <!-- EN: Immune to food poisoning. -->
@@ -119,5 +128,17 @@
   <DevelopmentStage_Child>Ребёнок</DevelopmentStage_Child>
   <!-- EN: Adult -->
   <DevelopmentStage_Adult>Взрослый</DevelopmentStage_Adult>
+
+  <!-- EN: Growth vat speed -->
+  <StatsReport_GrowthVatSpeedFactor>Скорость роста в инкубаторе</StatsReport_GrowthVatSpeedFactor>
+
+  <!-- EN: Carriers cannot build a tolerance to {0_label}. -->
+  <GeneToleranceBuildupImmune>Носители этого гена не вырабатывают толерантность к {lookup: {0_label}; Case; 2}.</GeneToleranceBuildupImmune><!-- text_todo -->
+  <!-- EN: Carriers build a tolerance to {0_label} {1} as quickly. -->
+  <GeneToleranceBuildupFactor>Носители этого гена вырабатывают толерантность к {lookup: {0_label}; Case; 2} с интенсивностью {1}.</GeneToleranceBuildupFactor><!-- text_todo -->
+  <!-- EN: Carriers cannot overdose on {0_label}. -->
+  <GeneOverdoseImmune>Носители этого гена не могут получить передозировку {lookup: {0_label}; Case; 4}.</GeneOverdoseImmune><!-- text_todo -->
+  <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
+  <GeneOverdoseFactor>Носители этого гена получают передозировку {lookup: {0_label}; Case; 4} с изменённой в x{1} вероятностью.</GeneOverdoseFactor><!-- text_todo -->
 
 </LanguageData>

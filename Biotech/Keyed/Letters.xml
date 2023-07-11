@@ -44,9 +44,9 @@
   <LetterMechanitorCasketFound>Вы нашли саркофаг криптосна механитора!\n\nОткройте саркофаг, чтобы узнать, что находится внутри.</LetterMechanitorCasketFound>
   
   <!-- Pawns lost because map closed (including mechs) -->
-  <!-- EN: Your caravan has been lost. The following people, animals and mechs have been lost with it -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
   <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>Ваш караван потерян. Эти люди, животные и механоиды потеряны вместе с ним</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
-  <!-- EN: The following people, animals and mechs have been abandoned -->
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
   <LetterPawnsLostIncMechsBecauseMapClosed_Home>Эти люди, животные и механоиды оставлены на произвол судьбы</LetterPawnsLostIncMechsBecauseMapClosed_Home>
   
 
@@ -107,17 +107,21 @@
   <InbredBabyBorn>У младенца есть признаки генетических отклонений из-за бизкой родственной связи между родителями.</InbredBabyBorn>
 
   <!-- EN: {0_nameDef} has already been named. -->
-  <BabyAlreadyNamed>У {0_nameDef} уже есть имя</BabyAlreadyNamed>
+  <BabyAlreadyNamed>У {0_nameDef} уже есть имя.</BabyAlreadyNamed>
   <!-- EN: name baby -->
   <NameBaby>дать младенцу имя</NameBaby>
   <!-- EN: immediately -->
   <Immediately>сразу</Immediately>
   <!-- EN: within -->
   <Within>внутри</Within>
-  <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
-  <LetterPartNameBaby>Младенца назвали {0_nameFull}. Вы можете изменить {0_possessive} имя в течение {1} после рождения.</LetterPartNameBaby>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>Младенца назвали {0_nameFull}.</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>Вы можете изменить его имя, пока ему не исполнился {0}.</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>Вы можете изменить это имя.</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>Младенца назвали {0_nameFull}. Вы можете изменить {0_possessive} имя, пока {0_pronoun} младше {1} лет.</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>Младенца зовут {0_nameFull}. Вы можете изменить {0_possessive} имя, пока {0_objective} не исполнился {1}.</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>{PAWNNAME} взрослеет</BirthdayGrowthMoment>
@@ -128,7 +132,7 @@
   <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
   <BirthdayPickPassion>Выберите 1 навык, к которому у {0_nameDef} будет повышенный интерес</BirthdayPickPassion>
   <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassions>Выберите {1} навыка, чтобы повысить у {0_nameDef} интерес к ним</BirthdayPickPassions>
+  <BirthdayPickPassions>Выберите {1_numCase ? навык : навыка : навыков}, к которым у {0_nameDef} будет повышенный интерес</BirthdayPickPassions>
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
   <BirthdayPickTrait>Выберите новую черту характера для {0_nameDef}</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
@@ -138,9 +142,13 @@
   <!-- ^ последнее сообщение в превью по наведении курсора на сообщение о следующем этапе взросления -->
 
   <!-- EN: Passion was increased for {0}. -->
-  <BirthdayPassionArchive>Интерес к {lookup: {0}; Case; 2} повысился.</BirthdayPassionArchive>
+  <BirthdayPassionArchive>Интерес повысился к следующим навыкам: {0}.</BirthdayPassionArchive> <!-- Подставится либо один навык, либо список навыков. -->
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>Получена черта характера: {0}.</BirthdayTraitArchive>
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>Без черты характера</BirthdayNoTraitChoice>
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>{0} не получит новую черту характера.</BirthdayNoTraitChoiceTooltip>
   
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>Сделайте выбор, чтобы закрыть</BirthdayMakeChoices> <!-- Всплывает при попытке закрыть окно без выбора черт и навыков -->
@@ -151,7 +159,7 @@
   <!-- EN: Select a passion. -->
   <SelectPassionSingular>Выберите навык.</SelectPassionSingular><!--текст ошибки-->
   <!-- EN: Select {0} passions. -->
-  <SelectPassionsPlural>Выберите {0} навыка.</SelectPassionsPlural>
+  <SelectPassionsPlural>Выберите {0_numCase ? навык : навыка : навыков}.</SelectPassionsPlural>
   <!-- EN: Later -->
   <Later>Отложить</Later>
   
@@ -171,8 +179,16 @@
   <XenogermOrderedImplantedMedicineNeeded>\n\nУ вас недостаточно медикаментов для проведения вживления ксеносемени. Вживление невозможно, пока у вас не будет {MEDICINENEEDED} ед. медикаментов.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>Непроизвольный торпор</LetterLabelInvoluntaryDeathrest>
-  <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
-  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef} впадает в торпор.</LetterTextInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>Регенеративная кома</LetterLabelRegenerationComa>
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>Благодаря гену бессмертия {PAWN_nameDef} избегает смерти. {HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>Но в то же мгновение {PAWN_pronoun} впадает в торпор.</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>Но в то же мгновение {PAWN_pronoun} впадает в регенеративную кому.</LetterTextRegenerationComa>
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>В результате нейрошока, вызванного травматическим торпором, {PAWN_nameDef} {PAWN_gender ? потерял : потеряла} {XPLOSS_numCase ? единицу : единицы : единиц} опыта в навыке {lookup: {SKILL}; Case; 1}.</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>Получен смертельный урон.</DeathrestLethalDamage>
 
@@ -192,6 +208,11 @@
   <RefugeePodCrashBabyHasParent>Также в капсуле находится труп одного из {PAWN_possessive} родителей.</RefugeePodCrashBabyHasParent>
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreated>{BONDPAWN_nameDef} {BONDPAWN_gender ? искал : искала} себе пару и {BONDPAWN_gender ? сформировал : сформировала} психическую любовную связь с {OTHERPAWN_nameDef}. Состояние {OTHERPAWN_nameDef} улучшается из-за свзяи с {BONDPAWN_nameDef}, но если они окажутся на разных клетках мира, то оба начнут страдать от психического стресса. Если один из них умрёт, то другой обезумит.</LetterPsychicBondCreated>
+  <LetterPsychicBondCreated>{BONDPAWN_gender ? Ведомый : Ведомая} инстинктом, {BONDPAWN_nameDef} {BONDPAWN_gender ? сформировал : сформировала} психическую любовную связь с {OTHERPAWN_nameDef}.\n\nПсихическое состояние {OTHERPAWN_nameDef} улучшается из-за связи с {BONDPAWN_nameDef}, но если они окажутся на разных клетках мира, то оба начнут страдать от психического стресса. Если один из них умрёт, то другой обезумеет.</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>Психическая связь</LetterPsychicBondCreatedLovinLabel>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef} {BONDPAWN_gender ? сформировал : сформировала} психическую любовную связь с {OTHERPAWN_nameDef}.\n\nПсихическое состояние {OTHERPAWN_nameDef} улучшается из-за связи с {BONDPAWN_nameDef}, но если они окажутся на разных клетках мира, то оба начнут страдать от психического стресса. Если один из них умрёт, то другой обезумеет.</LetterPsychicBondCreatedLovinText>
 
 </LanguageData>
