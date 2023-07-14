@@ -33,7 +33,7 @@
   
   <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). Description: {PAWN} {OTHERPAWN} -->
   <!-- EN: tended by {0} -->
-  <TendedByMedicalSpecialist.stages.tended_by.label>{0} {1_gender ? оказал : оказала} помощь</TendedByMedicalSpecialist.stages.tended_by.label>
+  <TendedByMedicalSpecialist.stages.tended_by.label>{0} {0_gender ? оказал : оказала} помощь</TendedByMedicalSpecialist.stages.tended_by.label> <!-- Используется также в методе RoleEffect_GiveThoughtOnTend.Label, который передаёт всего один аргумент. -->
   <!-- EN: I received medical aid from one who carries the special healer status of my ideoligion. -->
   <TendedByMedicalSpecialist.stages.tended_by.description>Я {PAWN_gender ? получил : получила} медицинскую помощь от признанного лекаря моей идеолигии.</TendedByMedicalSpecialist.stages.tended_by.description>
   
