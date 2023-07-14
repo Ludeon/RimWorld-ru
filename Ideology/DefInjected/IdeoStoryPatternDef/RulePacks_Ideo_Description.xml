@@ -93,7 +93,7 @@
     <li>founder_created(founder_gender==Male)->создал</li>
     <li>founder_created(founder_gender==Female)->создала</li>
     <li>founder_struck(founder_gender==Male)->поражённый</li>
-    <li>founder_struck(founder_gender==Female)->поражённый</li>
+    <li>founder_struck(founder_gender==Female)->поражённая</li>
     <li>founder_studied(founder_gender==Male)->изучал</li>
     <li>founder_studied(founder_gender==Female)->изучала</li>
     <li>founder_experienced(founder_gender==Male)->испытал</li>
@@ -287,9 +287,9 @@
     <li>conflict->Однажды [foeLeader] [foeLeader_claimed], что уничтожит [deity0_name] с помощью [place_massWeapon].</li>
     <li>conflict->Зловещий [foeLeader] и [foeLeader_possessive] [foeSoldiers] поработили последователей [deity0_name].</li>
     <li>conflict->Затем [foeLeader_came ? пришёл : пришла] [foeLeader]. [foeLeader_possessive] [foeSoldiers], каждый из которых держал в руках [place_personalWeapon], убили многих последователей [deity0_name].</li>
-    <li>conflict->Пришли [foeSoldiers] по руководством [foeLeader]. Они поймали всех [memberNamePlural] в [place_community].</li>
-    <li>conflict->И был мир, пока [foeLeader] и [foeLeader_possessive] [foeSoldiers] не восстали против [deity0_name]. The [memberNamePlural] были вынуждены бежать в секретное место — [place_community].</li>
-    <li>founderJoin->[founder_hero] по имени [founderName], [founder_tried] убить [foeLeader]. Покушение провалилось, но [deity0_name] [deity_noticed] усилия [founderName] и [deity_made] [founder_possessive] своим пророком.</li>
+    <li>conflict->Пришли [foeSoldiers] под руководством [foeLeader]. Они поймали всех [memberNamePlural] в [place_community].</li>
+    <li>conflict->И был мир, пока [foeLeader] и [foeLeader_possessive] [foeSoldiers] не восстали против [deity0_name]. [memberNamePlural] были вынуждены бежать в секретное место — [place_community].</li>
+    <li>founderJoin->[founder_hero] по имени [founderName] [founder_tried] убить [foeLeader]. Покушение провалилось, но [deity0_name] [deity_noticed] усилия [founderName] и [deity_made] [founder_possessive] своим пророком.</li>
     <li>founderJoin->[deity0_name] [deity_came] к [place_job] [founderName] [revelationAdverb], пока [founder_they_was] на работе, и [deity_spoke] с [founder_to_them] о важности [memeConcept].</li>
     <li>founderJoin->[founderName] [founder_found] на [revelationObject], воплощение [deity0_name], говорившее с ним про праведность [memeConcept].</li>
     <li>founderJoin->Известный [place_job] по имени [founderName] [founder_brought] [memberNamePlural] вместе, и даже [founder_managed_to] завербовать несколько [foeSoldiers].</li>
