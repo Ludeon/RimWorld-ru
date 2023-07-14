@@ -31,8 +31,8 @@
     <li>victory(tag=meme_Collectivist)         ->И поступками своими [founder_united] [founder_pronoun] людей. И двинулись они в едином строю к дому, где были [foeLeader] и его [foeSoldiers]. И те, кто шёл впереди, пожертвовали собой ради всеобщей победы, и захвачен был [foeLeader].</li>
     <li>setup(tag=meme_Collectivist)           ->В мире, где каждый был сам за себя, [founderName] [founder_gathered] собрал рядом с собой большую семью из совершенно разных и не знакомых друг с другом людей.</li>
     <li>story(uses=1,tag=meme_Collectivist)    ->Некоторые лжепоследователи пытались нарушить общие правила и навязать свои собственные. [founderName] сурово [founder_punished] их.</li>
-    <li>lessonIntro(tag=meme_Collectivist)     ->Один [place_job] перестал работать на благо общества, но продолжил есть из общих запасов. Я [founder_took] [place_personalWeapon] и собственноручно [founder_killed] его. Люди вокруг были шокированы этим, но я им объяснил, что</li>
-    <li>lesson(tag=meme_Collectivist)              ->ни моя смерть, ни смерть кого-либо из вас не страшны, пока мы все вместе</li>
+    <li>lessonIntro(tag=meme_Collectivist)     ->Один [place_job] перестал работать на благо общества, но продолжил есть из общих запасов. Я [founder_took] [place_personalWeapon] и собственноручно [founder_killed] его. Люди вокруг были шокированы этим, но я им [founder_explained], что</li>
+    <li>lesson(tag=meme_Collectivist)              ->ни моя смерть, ни смерть кого-либо другого не страшна, пока мы все вместе</li>
     <li>lessonReinforcement(tag=meme_Collectivist) ->Если я, даже ценой своей жизни, научу этому всех людей во вселенной, это будет моим величайшим триумфом.</li>
     <li>archistBasis(tag=meme_Collectivist)    ->Все архотеки — части единого сверхразума.</li>
     <li>archistFact(tag=meme_Collectivist)     ->Архотекам не интересно судить нас каждого по отдельности. Они ждут тех, кто продемонстрирует своё достоинство, действуя как единое нравственное целое.</li>
@@ -64,6 +64,8 @@
     <li>founder_killed(founder_gender==Female)->убила</li>
     <li>founder_took(founder_gender==Male)->взял</li>
     <li>founder_took(founder_gender==Female)->взяла</li>
+    <li>founder_explained(founder_gender==Male)->объяснил</li>
+    <li>founder_explained(founder_gender==Female)->объяснила</li>
   </Collectivist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->unity</li>
