@@ -456,9 +456,9 @@
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
   <TreeBlockedByNearbyBuildingsDesc>Посадка {lookup: {PLANT_definite}; Case; 1} рядом с искусственными сооружениями приведёт к тому, что сила связи с ним будет ухудшаться со временем. Сила связи определяет максимальное количество дриад, которое оно сможет поддерживать.\n\nВы уверены, что хотите посадить древо здесь?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>Смена касты дриад у {lookup: {PLANT_definite}; Case; 1} требует времени и энергии.\n\nПосле того, как связанный человек инициирует этот процесс, все дриады спрячутся в коконы для трансформации на {DURATION_numCase ? день : дня : дней} .\n\nДриады, уже находящиеся в коконах, прервут текущую трансформацию, чтобы преобразоваться в выбранную касту.</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>Смена касты дриад у {lookup: {TREE_definite}; Case; 1} требует времени и энергии.\n\nПосле того как связанный человек инициирует этот процесс, все дриады спрячутся в коконы для трансформации на {DURATION_numCase ? день : дня : дней}.\n\nДриады, уже находящиеся в коконах, прервут текущую трансформацию, чтобы преобразоваться в выбранную касту.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
-  <ChangeModeDesc>Сменить тип дриад, созданных {lookup: {PLANT_definite}; Case; 4}.</ChangeModeDesc>
+  <ChangeModeDesc>Сменить тип дриад, созданных {lookup: {TREE_definite}; Case; 4}.</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
   <ConnectionStrengthFall>Падение силы связи</ConnectionStrengthFall>
   <!-- EN: Connection strength -->
@@ -480,7 +480,7 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>Желаемая</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} будет ухаживать за {lookup: {PLANT_definite}; Case; 4} настолько часто, чтобы обеспечить силу связи на этом уровне.\n\nЧем сильнее связь, тем больше дриад сможет поддерживать древо, но тем быстрее он будет падать, и тем чаще за древом придётся ухаживать.\n\nЩёлкните по полосе, чтобы задать желаемую силу связи.\n\nСила связи падает на {FALL} ед. каждый день.\n\nНа силу связи влияют близлежащие сооружения.</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} будет ухаживать за {lookup: {TREE_definite}; Case; 4} настолько часто, чтобы обеспечить силу связи на этом уровне.\n\nЧем сильнее связь, тем больше дриад сможет поддерживать древо, но тем быстрее он будет падать, и тем чаще за древом придётся ухаживать.\n\nЩёлкните по полосе, чтобы задать желаемую силу связи.\n\nСила связи падает на {FALL} ед. каждый день.\n\nНа силу связи влияют близлежащие сооружения.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>Ожидает {CONNECTEDPAWN_nameDef} для смены касты дриад.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
