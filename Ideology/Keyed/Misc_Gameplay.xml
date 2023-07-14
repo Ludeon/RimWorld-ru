@@ -306,13 +306,13 @@
 
   <!-- TextMotes -->
   <!-- EN: Slave suppression: {0} -->
-  <TextMote_SuppressionIncreased>Подавление рабов: {0}</TextMote_SuppressionIncreased>
+  <TextMote_SuppressionIncreased>Подавленность раба: {0}</TextMote_SuppressionIncreased>
 
   <!-- Role requirements -->
   <!-- EN: Requirements -->
   <RoleRequirementsLabel>Требования</RoleRequirementsLabel>
   <!-- EN: Passive effects -->
-  <RoleEffectsLabel>Пассивные эфф.</RoleEffectsLabel>
+  <RoleEffectsLabel>Пассивные эффекты</RoleEffectsLabel>
   <!-- EN: Must be {0} -->
   <RoleRequirementLabelSameIdeo>нужен {0}</RoleRequirementLabelSameIdeo> <!-- Требование к персонажу. Используется в списке требований И как описание причины невозможности действия. Вместо {0} будет memberName: "нужен архист" -->
   <!-- EN: Must be {0} -->
@@ -329,7 +329,7 @@
   <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
   <RoleBelieverCountDesc>Эта роль становится доступна, когда ваша фракция имеет {1} {0}. Она перестаёт быть доступной, когда у вас всего {3} {2}.</RoleBelieverCountDesc>
   <!-- EN: Raised by {0} levels. -->
-  <RoleExpectationOffset>Увеличены на {0} уровней.</RoleExpectationOffset>
+  <RoleExpectationOffset>Увеличены на {0_numCase ? уровень : уровня : уровней}.</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
   <RoleRaisedExpectation>{0} повысил свои ожидания.</RoleRaisedExpectation>
   <!-- EN: The {0} will have higher expectations in {1}. -->
@@ -535,15 +535,15 @@
   <!-- EN: Any of skills -->
   <RoleRequirementSkillAny>Любой из навыков</RoleRequirementSkillAny>
   <!-- EN: Won't use ranged weapons -->
-  <RoleEffectWontUseRangedWeapons>Не использовать оружие дальнего боя</RoleEffectWontUseRangedWeapons>
+  <RoleEffectWontUseRangedWeapons>Не может использовать оружие дальнего боя</RoleEffectWontUseRangedWeapons>
   <!-- EN: Won't use melee weapons -->
-  <RoleEffectWontUseMeleeWeapons>Не использовать оружие ближнего боя</RoleEffectWontUseMeleeWeapons>
+  <RoleEffectWontUseMeleeWeapons>Не может использовать оружие ближнего боя</RoleEffectWontUseMeleeWeapons>
   <!-- EN: {0} quality to crafting or construction -->
-  <RoleEffectProductionQualityOffset>{0} ед. качества к изделию или сооружению</RoleEffectProductionQualityOffset>
+  <RoleEffectProductionQualityOffset>Качество создаваемых изделий или возводимых сооружений: {0}</RoleEffectProductionQualityOffset>
   <!-- EN: Hunting revenge chance {0} -->
   <RoleEffectHuntingRevengeChance>Шанс ответного нападения при охоте {0}</RoleEffectHuntingRevengeChance>
   <!-- EN: Give thought -->
-  <RoleEffectGiveThoughtOnTended>Дать мысль</RoleEffectGiveThoughtOnTended>
+  <RoleEffectGiveThoughtOnTended>Даёт мысль</RoleEffectGiveThoughtOnTended>
 
   <!-- EN: Assign colonists to your ideoligion -->
   <AssignColonists>Обратить поселенцев</AssignColonists> <!-- Сокращено, чтобы уместить в UI -->
