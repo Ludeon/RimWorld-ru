@@ -25,7 +25,7 @@
   <Collectivist.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Collectivist)        ->[deity0_created] [deity0_name] всех мужчин и женщин по единому великому образу, а тех, кто не соответствовал, [deity0_threw] [deity0_pronoun] в огонь, чтобы истинные верующие жили в гармонии.</li>
     <li>episode(uses=1,tag=meme_Collectivist)  ->И [deity0_said] [deity0_name] всем: «Ни один из вас не стои́т выше других. Работайте все вместе, или все вместе погибнете».</li>
-    <li>intro(tag=meme_Collectivist)           ->Работали на [place_summary] [place_name] люди во всеобщей гармонии, и построили они великий [altarName], чтобы воздавать хвалу [deity0_name], [deity0_who] научил их истинной ценности [memeConcept].</li>
+    <li>intro(tag=meme_Collectivist)           ->Работали на [place_summary] [place_name] люди во всеобщей гармонии, и построили они великий [altarName], чтобы воздавать хвалу [deity0_name], [deity0_whotaught] их истинной ценности [memeConcept].</li>
     <li>conflict(tag=meme_Collectivist)        ->Но не смог [foeLeader] стать частью общества, и послал [foeSoldiers] своих на [place_community], где жили [memberNamePlural], чтобы посеять вражду между ними.</li>
     <li>founderJoin(tag=meme_Collectivist)     ->И [founder_threw] [place_job] по имени [founderName] прямо в огонь, в знак несогласия с [foeLeader], но [memberNamePlural] спасли [founder_possessive] и сделали своим лидером, ибо [founder_was] [founderName] [founder_devotion] своему сообществу.</li>
     <li>victory(tag=meme_Collectivist)         ->И поступками своими [founder_united] [founder_pronoun] людей. И двинулись они в едином строю к дому, где были [foeLeader] и его [foeSoldiers]. И те, кто шёл впереди, пожертвовали собой ради всеобщей победы, и захвачен был [foeLeader].</li>
@@ -44,9 +44,9 @@
     <li>deity0_said(deity0_gender==None)->молвило</li>
     <li>deity0_said(deity0_gender==Male)->молвил</li>
     <li>deity0_said(deity0_gender==Female)->молвила</li>
-    <li>deity0_who(deity0_gender==None)->которое</li>
-    <li>deity0_who(deity0_gender==Male)->который</li>
-    <li>deity0_who(deity0_gender==Female)->которая</li>
+    <li>deity0_whotaught(deity0_gender==None)->которое научило</li>
+    <li>deity0_whotaught(deity0_gender==Male)->который научил</li>
+    <li>deity0_whotaught(deity0_gender==Female)->которая научила</li>
     <li>deity0_created(deity0_gender==None)->создало</li>
     <li>deity0_created(deity0_gender==Male)->создал</li>
     <li>deity0_created(deity0_gender==Female)->создала</li>
