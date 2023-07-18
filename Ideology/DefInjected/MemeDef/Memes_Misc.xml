@@ -35,7 +35,7 @@
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
   <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_created] [deity0_name] [sacredAnimalList] и человека на [place_summary] [place_name], и растил их как детей своих.</li>
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_created] [deity0_name] [sacredAnimalList] и человека на [place_summary] [place_name], и [deity0_raised] их как детей своих.</li>
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->И [deity0_brought] [deity0_name] всех животных и людей вместе на [place_summary] [place_name] на великое сборище.</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_blessed] [deity0_name] [place_summary] [place_name], где жили [sacredAnimalListEnd], и [deity0_taught] людей этого места почитать этих животных.</li>
     <li>conflict(tag=meme_AnimalPersonhood)        ->И приказал злой [foeLeader] начать охоту на диких животных, и [foeSoldiers] [foeLeader_possessive] взяли в руки [place_personalWeapon].</li>
@@ -65,6 +65,9 @@
     <li>deity0_created(deity0_gender==None)->создало</li>
     <li>deity0_created(deity0_gender==Male)->создал</li>
     <li>deity0_created(deity0_gender==Female)->создала</li>
+    <li>deity0_raised(deity0_gender==None)->растило</li>
+    <li>deity0_raised(deity0_gender==Male)->растил</li>
+    <li>deity0_raised(deity0_gender==Female)->растила</li>
     <li>deity0_brought(deity0_gender==None)->свело</li>
     <li>deity0_brought(deity0_gender==Male)->свёл</li>
     <li>deity0_brought(deity0_gender==Female)->свела</li>
