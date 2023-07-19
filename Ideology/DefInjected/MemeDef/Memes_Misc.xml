@@ -1697,9 +1697,9 @@
   <TreeConnection.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_TreeConnection)        ->[deity0_rooted] [deity0_name] деревья в землю, но [deity0_made] их постоянно расти к небесам. Так [deity0_name] [deity0_gave] первый урок того, как познать [deity0_possessive].</li>
     <li>episode(uses=1,tag=meme_TreeConnection)  ->И обновляли леса [deity0_name] воздух, которым [deity0_possessive] люди дышали, и создавали полог из ветвей, под которым [deity0_possessive] люди прятались, и были житницей, где [deity0_possessive] люди находили себе пропитание.</li>
-    <li>intro(tag=meme_TreeConnection)           ->Когда первые [memberNamePlural] пришли на [place_summary] [place_name], они посадили священную рощу, где росло [TreeType], и где они могли бы воздавать хвалу [deity0_type] [deity0_name].</li>
+    <li>intro(tag=meme_TreeConnection)           ->Когда первые [memberNamePlural] пришли на [place_summary] [place_name], они посадили священную рощу, где [tree_grew], и где они могли бы воздавать хвалу [deity0_type] [deity0_name].</li>
     <li>conflict(tag=meme_TreeConnection)        ->И вырубил алчный [foeLeader] множество лесов для своих ферм и фабрик, и плакали [memberNamePlural] о деревьях убитых.</li>
-    <li>founderJoin(tag=meme_TreeConnection)     ->Но [founder_born] пророк [founderName] чудесным образом в дереве на [place_name], и в ветвях [founder_possessive] нашли родители.</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->Но [founder_born] [founder_prophet] [founderName] чудесным образом в дереве на [place_name], и в ветвях [old_tree] [founder_possessive] нашли родители.</li>
     <li>victory(tag=meme_TreeConnection)         ->Наконец, [founder_found] [founderName] спящего [foeLeader] на [place_powerCenter], и [founder_placed] жёлудь на грудь ему. И с яростной мощью [deity0_name] пророс жёлудь этот, и пронзил тело [foeLeader] корнями своими, неся месть нашу древоубийце.</li>
     <li>setup(tag=meme_TreeConnection)           ->В мире, лишённом глубины и смысла, [founderName] [founder_meditated] в лесу, соединясь с ветвью, корнем и листом, и [founder_founded] наше движение.</li>
     <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName] [founder_brought] уставших людей в лес, чтобы те могли отдохнуть в его тени, подышать свежим воздухом и восстановить свои силы.</li>
@@ -1713,6 +1713,10 @@
     <li>animistFact(tag=meme_TreeConnection)     ->Духи деревьев защищают тех, кто пребывает под их ветвями.</li>
     <li>animistFact(tag=meme_TreeConnection)     ->Духи деревьев сильны, ибо они соединяют силу воздуха над собой и силу земли под собой.</li>
     <li>animistFact(tag=meme_TreeConnection)     ->Когда дерево падает в лесу, его дух издаёт вопль, который слышат все другие духи.</li>
+    <li>tree_grew->рос [TreeType_masc]</li>
+    <li>tree_grew->росла [TreeType_fem]</li>
+    <li>old_tree->[TreeType_masc] старого</li>
+    <li>old_tree->[TreeType_fem] старой</li>
     <li>deity0_gave(deity0_gender==None)->дало</li>
     <li>deity0_gave(deity0_gender==Male)->дал</li>
     <li>deity0_gave(deity0_gender==Female)->дала</li>
@@ -1724,6 +1728,8 @@
     <li>deity0_rooted(deity0_gender==Female)->укоренила</li>
     <li>founder_born(founder_gender==Male)->родился</li>
     <li>founder_born(founder_gender==Female)->родилась</li>
+    <li>founder_prophet(founder_gender==Male)->пророк</li>
+    <li>founder_prophet(founder_gender==Female)->пророчица</li>
     <li>founder_placed(founder_gender==Male)->положил</li>
     <li>founder_placed(founder_gender==Female)->положила</li>
     <li>founder_found(founder_gender==Male)->нашёл</li>
@@ -1819,7 +1825,7 @@
     <li>episode(uses=1,tag=meme_Tunneler)  ->И [deity0_filled] [deity0_name] скалы полезными ископаемыми и ресурсами в дар тем, кто был достаточно мудр, чтобы проникнуть вглубь, чтобы стать ближе к н[deity0_objective].</li>
     <li>intro(tag=meme_Tunneler)           ->Когда первые поселенцы прибыли на [place_summary] [place_name], [deity0_created] [deity0_type] [deity0_name] сильнейшую солнечную вспышку, чтобы заставить их уйти под землю, чтобы они могли услышать мудрость [deity0_possessive] в тишине туннелей.</li>
     <li>conflict(tag=meme_Tunneler)        ->И решил клаустрофобный [foeLeader] применить [dangerousMining] для получения полезных ископаемых, и этим подверг опасности подземные дома, где жили [memberNamePlural].</li>
-    <li>founderJoin(tag=meme_Tunneler)     ->Но [founder_born] пророк [founderName] чудесным образом из камня на [place_name], и в покрытой грибком пещере [founder_possessive] нашли родители.</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->Но [founder_born] [founder_prophet] [founderName] чудесным образом из камня на [place_name], и в покрытой грибком пещере [founder_possessive] нашли родители.</li>
     <li>victory(tag=meme_Tunneler)         ->Наконец, прокопали [memberNamePlural] туннель под [place_powerCenter], где был [foeLeader], и применил [founderName] феромоны, чтобы призвать гигантских насекомых. И напали они на [foeSoldiers] [foeLeader]. И [founder_dragged] [founderName] [foeLeader] в недра, и [founder_imprisoned] его.</li>
     <li>dangerousMining->открытую добычу</li>
     <li>dangerousMining->чипированных насекомых</li>
@@ -1847,6 +1853,10 @@
     <li>deity0_created(deity0_gender==None)->создало</li>
     <li>deity0_created(deity0_gender==Male)->создал</li>
     <li>deity0_created(deity0_gender==Female)->создала</li>
+    <li>founder_born(founder_gender==Male)->родился</li>
+    <li>founder_born(founder_gender==Female)->родилась</li>
+    <li>founder_prophet(founder_gender==Male)->пророк</li>
+    <li>founder_prophet(founder_gender==Female)->пророчица</li>
     <li>founder_imprisoned(founder_gender==Male)->заточил</li>
     <li>founder_imprisoned(founder_gender==Female)->заточила</li>
     <li>founder_dragged(founder_gender==Male)->утянул</li>
