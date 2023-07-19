@@ -167,8 +167,8 @@
     <li>creation(tag=meme_Individualist)        ->[deity0_fashioned] [deity0_name] каждых мужчину и женщину индивидуально. Каждый является уникальным и драгоценным творением [deity0_possessive] божественной руки.</li>
     <li>episode(uses=1,tag=meme_Individualist)  ->И [deity0_said] [deity0_name] всем: «Каждый из вас — уникальное и священное создание, сотворённое по образу и подобию моему».</li>
     <li>intro(tag=meme_Individualist)           ->Слушали все [memberNamePlural], что [deity0_said] [deity0_name] каждому [revelationAdverb], ведя их на [place_summary] [place_name], где сияли уникальные дары для каждого из них.</li>
-    <li>conflict(tag=meme_Individualist)        ->И потребовал [foeLeader], чтобы все [memberNamePlural] носили униформу и работать у него в [place_community].</li>
-    <li>founderJoin(tag=meme_Individualist)     ->Но [founder_blessed благословлён был] [place_job] по имени [founderName], и [deity0_self] [deity0_name] [deity0_gave] [founder_objective] знание чудесное об уникальной силе, что несёт в себе каждый [memberName]. И [founder_pointed] [founderName] каждому, что ему нужно, чтобы стать лучшей версией себя.</li>
+    <li>conflict(tag=meme_Individualist)        ->И потребовал [foeLeader], чтобы все [memberNamePlural] носили униформу и работали у него в [place_community].</li>
+    <li>founderJoin(tag=meme_Individualist)     ->Но [founder_blessed] [place_job] по имени [founderName], и [deity0_self] [deity0_name] [deity0_gave] [founder_objective] знание чудесное об уникальной силе, что несёт в себе каждый [memberName]. И [founder_pointed] [founderName] каждому, что ему нужно, чтобы стать лучшей версией себя.</li>
     <li>victory(tag=meme_Individualist)         ->Наконец, собрались тайно [memberNamePlural] и даже многие [foeSoldiers]. И, научившись видеть ценность каждого человека, свергли [foeLeader].</li>
     <li>setup(tag=meme_Individualist)           ->Находясь по гнётом далёких властителей, требовавших от всех людей единообразия подчинения, [founderName] [founder_founded] сопротивление и разрушил этот мир насилия до основания, а затем построил новый мир свободы на его месте.</li>
     <li>story(uses=1,tag=meme_Individualist)    ->[founderName] [founder_broke] все социальные правила, навязываемые угнетателями, просто чтобы показать, что [founder_pronoun] [founder_could] это сделать.</li>
@@ -198,6 +198,8 @@
     <li>deity0_self(deity0_gender==None)->само</li>
     <li>deity0_self(deity0_gender==Male)->сам</li>
     <li>deity0_self(deity0_gender==Female)->сама</li>
+    <li>founder_blessed(founder_gender==Male)->благословлён был</li>
+    <li>founder_blessed(founder_gender==Female)->благословлена была</li>
     <li>founder_could(founder_gender==Male)->мог</li>
     <li>founder_could(founder_gender==Female)->могла</li>
     <li>founder_founded(founder_gender==Male)->возглавил</li>
