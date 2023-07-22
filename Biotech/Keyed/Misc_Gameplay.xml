@@ -25,6 +25,8 @@
   <CaravanMech>1 механоид</CaravanMech>
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0_numCase ? механоид : механоида : механоидов}</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>{BOSS} c {lookup: {APPAREL}; Case; 4}</BossWithApparel>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -113,6 +115,8 @@
   <WaitingFor>Ожидает</WaitingFor>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>Не управляется</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>приближается {0}</BossgroupIncoming>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
@@ -273,6 +277,10 @@
   <EjectAllDesc>Выбросить все генные пакеты на пол.</EjectAllDesc>
   <!-- EN: Genepacks stored -->
   <GenepacksStored>Хранимые генные пакеты</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>Помещать в генный банк</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>Если активно, носильщики будут самостоятельно помещать этот генный пакет в генный банк.</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>Добавленные черты</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -601,6 +609,8 @@
   <SubcoreScannerWaitingForOccupant>Ожидание пользователя</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>Ожидание предметов</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
+  <SubcoreScannerWaitingForIngredientsDesc>Сперва необходимо загрузить следующие предметы</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>{0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -693,6 +703,8 @@
   <SurgeryDisableReasonOvumExtracted>яйцеклетки недавно извлечены</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize -->
   <Fertilize>Оплодотворить</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <FertilizeThing>Оплодотворить {lookup: {0}; Case; 3}</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>Невозможно оплодотворить</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
