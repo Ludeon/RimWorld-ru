@@ -420,7 +420,7 @@
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
-  <CannotGenericWork>Невозможно {0} {lookup: {1}; Case; 3}</CannotGenericWork>
+  <CannotGenericWork>Невозможно {0} {replace: {lookup: {1}; Case; 3}; "область"-""}</CannotGenericWork> <!-- replace для исключения вариантов типа «Невозможно разобрать крышу область» -->
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>Невозможно {0}</CannotGenericWorkCustom>
 
@@ -464,7 +464,7 @@
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
-  <PrioritizeGeneric>{0} {lookup: {1}; Case; 3}</PrioritizeGeneric>
+  <PrioritizeGeneric>{0} {replace: {lookup: {1}; Case; 3}; "область"-""}</PrioritizeGeneric> <!-- replace для исключения вариантов типа «Разобрать крышу область» -->
   
   <!-- EN: Drop at edge -->
   <DropAtEdge>Сбросить с краю</DropAtEdge>

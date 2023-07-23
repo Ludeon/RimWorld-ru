@@ -30,7 +30,6 @@
   <!-- EN: Summon an enemy leader mechanoid along with escorts.\n\nIf you defeat the leader mechanoid, it will drop a special chip which you can use to advance your own mechanoid technology.\n\nThere are three leader mechanoid types, each summoned a different way, each dropping a different type of chip. -->
   <CommandCallBossgroupDesc>Призвать лидера враждебных механоидов вместе с сопровождающей его охраной.\n\nЕсли вы одержите над ним победу, то на его останках сможете найти особый чип, необходимый вам для дальнейшего развития технологий механоидов.\n\nСуществует три типа лидеров механоидов. Призыв каждого имеет свои особенности. И из каждого можно извлечь свой тип чипа.</CommandCallBossgroupDesc>
 
-
   <!-- EN: Toggle auto load {0} -->
   <CommandAutoLoad>Автозагрузка {lookup: {0}; Case; 4}</CommandAutoLoad>
   <!-- EN: If active, colonists will automatically load this with {0}. -->
@@ -46,11 +45,18 @@
   <!-- EN: Select all mechanoids controlled by this mechanitor. -->
   <CommandSelectAllMechsDesc>Выбрать всех механоидов, подконтрольных этому механитору.</CommandSelectAllMechsDesc>
 
-
   <!-- EN: Turret enabled -->
   <CommandToggleTurret>Турель включена</CommandToggleTurret>
   <!-- EN: Toggle turret being able to fire at will.\n\nWhen disabled, the turret will not automatically fire. This is useful while sneaking up on enemies. -->
   <CommandToggleTurretDesc>Включить или отключить режим самонаведения турели.\n\nЕсли турель выключена, механоид не будет самостоятельно использовать её. Это может оказаться полезным для незаметного приближения к противнику.</CommandToggleTurretDesc>
 
+  <!-- EN: Cancel scan -->
+  <CommandCancelSubcoreScan>Отменить сканирование</CommandCancelSubcoreScan>
+  <!-- EN: Cancel the scan process. The contained person will be ejected. -->
+  <CommandCancelSubcoreScanDesc>Прервать процесс сканирования. Человек, находящийся внутри, будет выброшен наружу.</CommandCancelSubcoreScanDesc>
 
+  <!-- EN: Force xenogerm implantation -->
+  <ForceXenogermImplantation>заставить вживить гены</ForceXenogermImplantation>
+  <!-- EN: Force this person to implant their xenogenes into another individual using a special injector organ. If this person's genes are currently regrowing, they will die in the process.\n\nWhen implanted, a xenogerm will overwrite the target's xenogenes. Germline genes will be unaffected. -->
+  <ForceXenogermImplantationDesc>Заставить вживить свои ксеногены в другого человека при помощи специального органа-инъектора. Если гены владельца в данный момент восстанавливаются, то он умрёт.\n\nПри вживлении ксеносемя перезапишет ксеногены цели, однако на наследуемые гены это никак не повлияет.</ForceXenogermImplantationDesc>
 </LanguageData>
