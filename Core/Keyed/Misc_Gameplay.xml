@@ -207,7 +207,7 @@
   <!-- EN: Days of food: {0} (rot in {1} days) -->
   <CaravanDaysOfFoodRot>Еды хватит на {0_numCase ? день : дня : дней}, начнёт портиться через {1_numCase ? день : дня : дней}</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
-  <AllCaravanMembersDowned>Остановка: все члены сражены.</AllCaravanMembersDowned>
+  <AllCaravanMembersDowned>Остановка: все участники обездвижены.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone is in a mental break. -->
   <AllCaravanMembersMentalBreak>Остановка: у всех нервный срыв.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
@@ -252,8 +252,8 @@
   <CaravanAttacking>Нападает на {0}.</CaravanAttacking> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>Предлагает подарок {0}.</CaravanOfferingGifts> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
-  <!-- EN: Trading with {0} -->
-  <CaravanTrading>Торгует с {0}</CaravanTrading> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
+  <!-- EN: Trading with {0}. -->
+  <CaravanTrading>Торгует с {0}.</CaravanTrading> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Снято с трупа.</WasWornByCorpse>
   <!-- EN: T -->
@@ -262,6 +262,8 @@
   <DeterioratingUnroofed>расположение не под крышей</DeterioratingUnroofed>
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>расположение на улице</DeterioratingOutdoors>
+  <!-- EN: raining -->
+  <DeterioratingRaining>идёт дождь</DeterioratingRaining> 
   <!-- EN: protected -->
   <Protected>укрыто</Protected>
   <!-- EN: Deteriorating -->
@@ -280,8 +282,8 @@
   <BeautyHere>Красота</BeautyHere>
   <!-- EN: no power -->
   <NoPower>нет питания</NoPower>
-  <!-- EN: Work speed penalty -->
-  <WorkSpeedPenalty>Штраф к скорости работы</WorkSpeedPenalty>
+  <!-- EN: Work speed -->
+  <WorkSpeedPenalty>Скорость работы</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>Невозможно</DisabledCommand>
   <!-- EN: Ready for launch. -->
@@ -355,7 +357,7 @@
   <!-- EN: Caravan movement speed -->
   <CaravanMovementSpeedFull>Скорость движения каравана</CaravanMovementSpeedFull>
   <!-- EN: downed -->
-  <DownedLower>сражён</DownedLower>
+  <DownedLower>обездвижен</DownedLower>
   <!-- EN: resting -->
   <Carried>отдыхает</Carried>
   <!-- EN: Rideable animals / people -->
@@ -558,6 +560,10 @@
   <Size>размер</Size>
   <!-- EN: cost -->
   <Cost>стоимость</Cost>
+  <!-- EN: Title -->
+  <BackstoryTitle>Призвание</BackstoryTitle><!-- text_todo -->
+  <!-- EN: person -->
+  <Person>человек</Person>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -710,10 +716,14 @@
   <Hilliness_Label>Рельеф</Hilliness_Label>
   <!-- EN: Road -->
   <Road_Label>Дорога</Road_Label>
+  <!-- EN: River -->
+  <River_Label>Река</River_Label> 
   <!-- EN: Movement difficulty -->
   <MovementDifficulty_Label>Сложность передвижения</MovementDifficulty_Label>
   <!-- EN: Pollution -->
   <Pollution_Label>Загрязнение</Pollution_Label>
+  <!-- EN: Filth -->
+  <Filth_Label>Грязь</Filth_Label>
   
   <!-- EN: Faction -->
   <Faction_Label>Фракция</Faction_Label>
@@ -978,6 +988,8 @@
   <PowerNeeded>Потребляемая мощность</PowerNeeded>
   <!-- EN: Power output -->
   <PowerOutput>Энерговыработка</PowerOutput>
+  <!-- EN: {0} W when active -->
+  <PowerActiveNeeded>{0} Вт, когда активно</PowerActiveNeeded>
   <!-- EN: Stored -->
   <PowerBatteryStored>Заряд</PowerBatteryStored>
   <!-- EN: Efficiency -->
@@ -1081,9 +1093,9 @@
   <!-- EN: Cut now -->
   <AutoCutNow>Срезать</AutoCutNow>
   <!-- EN: harvesting -->
-  <HarvestGerund>собирать</HarvestGerund>
+  <HarvestGerund>собрать</HarvestGerund>
   <!-- EN: cutting -->
-  <CutGerund>рубить</CutGerund>
+  <CutGerund>срубить</CutGerund>
   <!-- EN: Cut all blight -->
   <CutAllBlight>Срезать всё заражённое</CutAllBlight>
   <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
@@ -1153,11 +1165,11 @@
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Видимость названий для форм рельефа.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
-  <ShowTemperatureOverlayToggleButton>Отображение температуры воздуха, в помещениях и снаружи.\n\nЕсли температура слишком низкая или слишком высокая, поселенцы будут недовольны. Нахождение в условиях экстремальных температур может привести к гипотермии, обморожению, тепловому удару, ожогам и смерти.</ShowTemperatureOverlayToggleButton>
+  <ShowTemperatureOverlayToggleButton>Отображение температуры воздуха в помещениях и снаружи.\n\nЕсли температура слишком низкая или слишком высокая, поселенцы будут недовольны. Нахождение в условиях экстремальных температур может привести к гипотермии, обморожению, тепловому удару, ожогам и смерти.</ShowTemperatureOverlayToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
-  <FireOn>{1_label} горит</FireOn>
+  <FireOn>огонь на {lookup: {1_label}; Case; 5}</FireOn>
   <!-- EN: Burning -->
   <Burning>Горит</Burning>
   <!-- EN: fire size {0} -->
@@ -1242,6 +1254,8 @@
   <ShipReportHibernating>Модуль неактивен</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Модуль не готов</ShipReportNotReady>
+  <!-- EN: No settlement to return to. Form a settlement first. -->
+  <ShipNoSettlementToReturnTo>Нет поселения, в которое можно было бы вернуться. Сперва нужно основать поселение.</ShipNoSettlementToReturnTo> <!-- text_todo -->
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)Шарлон Вайтстоун(/Name) готов приступить к запуску реактора.\n\nОн предупреждает, что процесс займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание разного рода налётчиков и охотников за сокровищами. Убедитесь, что готовы к обороне.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1660,7 +1674,7 @@
   <!-- EN: {0} total quality was {1}, determined by these factors -->
   <RitualOutcomeQualitySpecific>Итоговое качество ритуала {0} составило {1}. На качество повлияли следующие факторы</RitualOutcomeQualitySpecific>
   <!-- EN: Outcome chances at {0} quality -->
-  <RitualOutcomeChances>Возможные результаты, когда качество {0}</RitualOutcomeChances>
+  <RitualOutcomeChances>Возможные результаты при качестве {0}</RitualOutcomeChances>
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>Ритуал проведён недавно</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
@@ -1711,7 +1725,7 @@
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>Ожидания {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
-  <RitualOutcomeLovedOnePresentLabel>Присутствует близкий человек</RitualOutcomeLovedOnePresentLabel>
+  <RitualOutcomeLovedOnePresentLabel>Близкий человек рядом</RitualOutcomeLovedOnePresentLabel>
   <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
   <RitualOutcomeLovedOnePresentTip>Любой человек, которого {PAWN_labelShort} считает другом или больше.</RitualOutcomeLovedOnePresentTip>
 
@@ -1749,7 +1763,7 @@
   <!-- EN: tox gas -->
   <ToxGas>токсичный газ</ToxGas>
   <!-- EN: rot stink -->
-  <RotStink>вонь гниения</RotStink>
+  <RotStink>трупный газ</RotStink>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1790,5 +1804,21 @@
 
   <!-- EN: Random -->
   <Random>Случайно</Random>
+
+  <!-- EN: Plant {0_label} -->
+  <PlantThing>Посадить {lookup: {0_label}; Case; 3}</PlantThing>
+  <!-- EN: Plant a {0_label} in a chosen area. -->
+  <PlantThingDesc>Посадить {lookup: {0_label}; Case; 3} на выбранной территории.</PlantThingDesc>
+  <!-- EN: Cancel planting {0_label} -->
+  <CancelPlantThing>Отменить посадку {lookup: {0_label}; Case; 1}</CancelPlantThing>
+  <!-- EN: Cancel planting the {0_label}. -->
+  <CancelPlantThingDesc>Отменить посадку {lookup: {0_label}; Case; 1}.</CancelPlantThingDesc>
+
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>поселенцы уже собрались по другому поводу.</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>Следующая речь будет готова через</AbilitySpeechCooldown>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>Начата на</AbilitySpeechTargetsLabel>
 
 </LanguageData>

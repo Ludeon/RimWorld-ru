@@ -127,6 +127,11 @@
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
   <PsychicSensitivity.description>Чувствительные люди больше других страдают от негативных воздействий и получают радость от позитивных. Более высокая психочувствительность также повышает порог нейроперегрева.</PsychicSensitivity.description>
   
+  <!-- EN: sleep fall rate -->
+  <RestFallRateFactor.label>множитель потребности сна</RestFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
+  <RestFallRateFactor.description>Множитель к скорости возникновения потребности во сне для этого человека.</RestFallRateFactor.description>
+  
   <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>эффективность сна</RestRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
@@ -134,12 +139,12 @@
   
   <!-- EN: toxic environment resistance -->
   <ToxicEnvironmentResistance.label>устойчивость к токсичной среде</ToxicEnvironmentResistance.label>
-  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against toxic fallout and rot stink exposure, but not against direct attacks with venom or injected poison. -->
-  <ToxicEnvironmentResistance.description>Устойчивость существа к воздействию токсинов окружающей среды. Защищает от воздействия токсичных осадков и вони гниения, но не от прямых атак ядом или отравления.</ToxicEnvironmentResistance.description>
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
+  <ToxicEnvironmentResistance.description>Устойчивость существа к воздействию токсинов окружающей среды. Защищает от воздействия ядовитого и трупного газов, токсичных осадков и загрязнённой почвы, но не от прямых атак ядом или отравления. Чем выше этот показатель, тем меньше тело персонажа подвержено отравлению токсинами от перечисленных факторов.</ToxicEnvironmentResistance.description>
   
   <!-- EN: toxic resistance -->
   <ToxicResistance.label>сопротивление токсинам</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
   <ToxicResistance.description>Насколько эффективно это существо противостоит отравлению токсинами.</ToxicResistance.description>
-
+  
 </LanguageData>

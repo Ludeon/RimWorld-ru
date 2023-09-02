@@ -115,8 +115,14 @@
   <MessageMustDesignateTameable>Нужно указать приручаемых животных.</MessageMustDesignateTameable>
   <!-- EN: Must designate abandoned claimable structures or items. -->
   <MessageMustDesignateClaimable>Нужно указать древние захватываемые сооружения или предметы.</MessageMustDesignateClaimable>
+  <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
+  <MessageMustDesignatePaintableBuildings>Нужно указать окрашиваемые сооружения, кроме тех, что уже покрашены в {0_label} цвет.</MessageMustDesignatePaintableBuildings>
+  <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
+  <MessageMustDesignatePaintableFloors>Нужно указать окрашиваемые полы, кроме тех, что уже покрашены в {0_label} цвет.</MessageMustDesignatePaintableFloors>
+  <!-- EN: Must designate painted buildings or floors. -->
+  <MessageMustDesignatePainted>Нужно указать покрашенные сооружения или пол.</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
-  <MessageMustDesignateDeconstructibleMechCluster>Вам нужно разгромить кластер механоидов прежде чем разбирать его.</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMustDesignateDeconstructibleMechCluster>Вам нужно разгромить кластер механоидов, прежде чем разбирать его.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Нужно указать неровную каменную поверхность.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Nothing can remove thick roofs. -->
@@ -124,7 +130,7 @@
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
   <MessageAlreadyInStorage>Этот объект уже находится на складе и будет перенесён на более приоритетный склад по мере необходимости.</MessageAlreadyInStorage>
   <!-- EN: Must designate corpse or downed character with strippable apparel. -->
-  <MessageMustDesignateStrippable>Нужно указать мёртвых или лежащих на земле людей, в одежде, которую можно снять.</MessageMustDesignateStrippable>
+  <MessageMustDesignateStrippable>Нужно указать мёртвых или обездвиженных людей в одежде, которую можно снять.</MessageMustDesignateStrippable>
   <!-- EN: Must designate tame animal that belongs to the colony. -->
   <MessageMustDesignateSlaughterable>Нужно указать приручённое животное, принадлежащее поселению.</MessageMustDesignateSlaughterable>
   <!-- EN: Must designate full graves or containers. -->
@@ -133,6 +139,10 @@
   <MessageMustDesignateForbiddable>Следует указать предметы, разрешённые для использования.</MessageMustDesignateForbiddable>
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Следует указать предметы, запрещённые для использования.</MessageMustDesignateUnforbiddable>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>Невозможно захватить {lookup: {CLAIMABLE_labelShort}; Case; 3}, пока рядом находятся боеспособные {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotAdoptWhileThreatsAreNear>Невозможно забрать {CLAIMABLE_labelShort}, пока рядом находятся боеспособные {THREAT_factionPawnsPlural}.</MessageCannotAdoptWhileThreatsAreNear>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} сопротивляется аресту!</MessageRefusedArrest>
@@ -141,6 +151,8 @@
   <MessageNoMedicalBeds>Нет доступных медицинских кроватей.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>Нет доступных спальных мест для животных.</MessageNoAnimalBeds>
+  <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
+  <MessageWarningNoMedicineForRestriction>Внимание: политика врачебного ухода {PAWN_nameDef} ({RESTRICTIONLABEL}) мешает провести эту операцию. Подумайте над изменением {PAWN_possessive} политики врачебного ухода.</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? умер : умерла}. Причина: {1}.</PawnDiedBecauseOf>
@@ -154,7 +166,7 @@
   <MessageInvoluntarySleep>{1_labelShort} падает в обморок от переутомления.</MessageInvoluntarySleep>
 
   <!-- EN: This operation will anger {0}. -->
-  <MessageMedicalOperationWillAngerFaction>Эта операция возмутит {lookup: {0}; Case; 3}.</MessageMedicalOperationWillAngerFaction>
+  <MessageMedicalOperationWillAngerFaction>Эта операция возмутит фракцию {0}.</MessageMedicalOperationWillAngerFaction>
 
   <!-- EN: {PAWN_nameDef} is pregnant! -->
   <MessageAnimalIsPregnant>{PAWN_nameDef} беременна!</MessageAnimalIsPregnant>
@@ -412,7 +424,7 @@
   <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>Это место теперь безопасно, но остались неисследованные области. Вы можете исследовать их или продолжить путь, перейдя на карту мира.</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
 
   <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
-  <MessageCantBanishDownedPawn>Невозможно изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не может ходить.</MessageCantBanishDownedPawn>
+  <MessageCantBanishDownedPawn>Невозможно изгнать {1_labelShort}, так как {1_pronoun} не может ходить.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
   <MessageSleepingPawnsWokenUp>{0} пробудились.</MessageSleepingPawnsWokenUp>
@@ -619,7 +631,7 @@
   <MessageMonumentDestroyedBecauseOfDisallowedBuilding>Монумент уничтожен, поскольку вы построили внутри него недопустимое сооружение.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
 
   <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
-  <MessageNoResearchBenchForTechprint>Невозможно применить чертёж: нет незанятого стола для исследований в зоне досягаемости.</MessageNoResearchBenchForTechprint>
+  <MessageNoResearchBenchForTechprint>Невозможно применить чертёж: нет доступного свободного исследовательского стола.</MessageNoResearchBenchForTechprint>
 
   <!-- EN: No valid destination found for {0} -->
   <NoValidDestinationFound>Не найдено точки назначения для способности {0}</NoValidDestinationFound>
@@ -685,6 +697,8 @@
   <MessageRitualRoleMustBeAnimal>{0} должна быть животным.</MessageRitualRoleMustBeAnimal> <!-- Будет вставлен label из Ritual_Behaviors.xml: SacrificeAnimal.sacrifice -->
   <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0} должен быть человеком.</MessageRitualRoleMustBeHumanlike> <!-- Будут вставлены label'ы из Ritual_Behaviors.xml: GladiatorDuel."duelist escort", BlindingCeremony.target, ScarificationCeremony.target, Conversion.convertee, Execution.executioner. Или "Spectators" из Misc_Gameplay.xml -->
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeABaby>{0} не может быть младенцем.</MessageRitualRoleCannotBeABaby>
   <!-- EN: No roles available for {0_labelShort}. -->
   <MessageRitualNoRolesAvailable>Нет доступных ролей для {0_labelShort}.</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
@@ -693,6 +707,8 @@
   <MessageRitualRoleMustHaveEyes>{0} должен иметь глаза</MessageRitualRoleMustHaveEyes> <!-- Будет вставлен label из Ritual_Behaviors.xml: BlindingCeremony.target -->
   <!-- EN: {0_labelShort} does not require further scarification. -->
   <MessageRitualRoleMustRequireScarification>{0_labelShort} более не нуждается в шрамировании.</MessageRitualRoleMustRequireScarification>
+  <!-- EN: {0_labelShort} does not require blinding. -->
+  <MessageRitualRoleMustRequireBlinding>{0_labelShort} не требует ритуального ослепления.</MessageRitualRoleMustRequireBlinding>
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0} должен быть пленником или рабом.</MessageRitualRoleMustBePrisonerOrSlave> <!-- Будет вставлен label из Ritual_Behaviors.xml: GladiatorDuel.duelist -->
   <!-- EN: {0_labelShort} must be capable of fighting. -->
@@ -715,6 +731,10 @@
   <MessageRitualRoleMustHaveIdeoToDoRole>только {0} может брать роль «{1}».</MessageRitualRoleMustHaveIdeoToDoRole>
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>До роли «{0}» допускаются только поселенцы.</MessageRitualRoleMustBeColonist>
+  <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
+  <MessageRitualWontAttendExtremeTemperature>{0_labelShort} не придёт из-за экстремальной температуры в месте проведения ритуала.</MessageRitualWontAttendExtremeTemperature>
+  <!-- EN: must be colonist and not enslaved for the {0} role. -->
+  <MessageRitualRoleMustBeFreeColonist>{0} должен быть свободным поселенцем.</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
   <MessageRitualRoleMustHaveLargerBodySize>{0} должна быть животным с размером тела не меньше {1}.</MessageRitualRoleMustHaveLargerBodySize> <!-- Будет вставлен label из Ritual_Behaviors.xml: SacrificeAnimal.sacrifice -->
   <!-- EN: {0_labelShort} is in a mental state. -->
@@ -727,6 +747,10 @@
   <MessageRitualRoleMustNotBeImprisonedWildMan>{0} не может быть пленённым дикарём или дикаркой.</MessageRitualRoleMustNotBeImprisonedWildMan> <!-- Будет вставлен label из Ritual_Behaviors.xml: GladiatorDuel.duelist -->
   <!-- EN: {0} must be free. -->
   <MessageRitualRoleMustNotBeImprisoned>{0} {0_gender ? должен быть свободным : должна быть свободной}.</MessageRitualRoleMustNotBeImprisoned>
+  <!-- EN: {0} cannot be a child. -->
+  <MessageRitualRoleCannotBeChild>{0} не может быть ребёнком.</MessageRitualRoleCannotBeChild>
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeBaby>{0} не может быть младенцем.</MessageRitualRoleCannotBeBaby>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>Перед тем, как продолжить, выберите место.</MessagePlayerMustSelectTile>
@@ -746,5 +770,23 @@
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>Внимание: {0} отмечено для рубки.</MessageWarningCutImportantPlant>
+
+  <!-- EN: {0_labelShort} is incapable of manipulation. -->
+  <MessageIncapableOfManipulation>{0_labelShort} не может работать.</MessageIncapableOfManipulation>
+
+  <!-- EN: {0_labelShort} activation canceled -->
+  <MessageActivationCanceled>Активация {lookup: {0_labelShort}; Case; 1} отменена</MessageActivationCanceled>
+
+  <!-- EN: Nothing is currently buildable in category -->
+  <NothingAvailableInCategory>Вы пока ничего не можете построить из этой категории</NothingAvailableInCategory>
+
+  <!-- EN: Storage settings linked for {0} buildings. -->
+  <SettingsLinkedFor>Сгруппировано {0_numCase ? сооружение : сооружения : сооружений}.</SettingsLinkedFor>
+  <!-- EN: Storage settings unlinked for {0} buildings. -->
+  <SettingsUnlinkedFor>Группировка отменена для {0_numCase ? сооружения : сооружений : сооружений}.</SettingsUnlinkedFor>
+  <!-- EN: Storage settings copied to clipboard. -->
+  <StorageSettingsCopiedToClipboard>Настройки хранилища скопированы в буфер обмена.</StorageSettingsCopiedToClipboard>
+  <!-- EN: Storage settings pasted from clipboard. -->
+  <StorageSettingsPastedFromClipboard>Настройки хранилища вставлены из буфера обмена.</StorageSettingsPastedFromClipboard>
 
 </LanguageData>

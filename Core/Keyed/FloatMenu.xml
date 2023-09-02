@@ -45,6 +45,8 @@
   <CannotAttackSelf>нельзя атаковать себя</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>нельзя атаковать члена дружественной фракции</CannotAttackSameFactionMember>
+  <!-- EN: Incapable of firefighting. -->
+  <IncapableOfFirefighting>пожаротушение недоступно</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Занять {lookup: {1_labelShort}; Case; 3}</OrderManThing>
@@ -76,6 +78,8 @@
   <AlreadyFilledLower>уже заполнен</AlreadyFilledLower>
   <!-- EN: missing {0} -->
   <MissingMaterials>требуется {0}</MissingMaterials>
+  <!-- EN: No medicine for restriction '{CATEGORY}'. -->
+  <NoMedicineMatchingCategory>Для политики врачебного ухода «{CATEGORY}» нет лекарств.</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>навык ниже требуемых {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -88,10 +92,14 @@
   <MissingRequiredSkillLevel>отсутствует требуемый уровень навыка</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>животное обучалось совсем недавно</AnimalInteractedTooRecently>
+  <!-- EN: interacted with too recently -->
+  <PrisonerInteractedTooRecently>контакт был совсем недавно</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>нет подходящей еды</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>нет еды</NoFood>
+  <!-- EN: no food matching restrictions -->
+  <NoFoodMatchingRestrictions>нет еды, подходящей для диеты</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>Отсутствует {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -99,7 +107,7 @@
   <!-- EN: animals skill too low - need {0} -->
   <AnimalsSkillTooLow>низкий навык Животноводства, требуется {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
-  <CantInteractAnimalDowned>животное сражено</CantInteractAnimalDowned>
+  <CantInteractAnimalDowned>животное обездвижено</CantInteractAnimalDowned>
   <!-- EN: animal sleeping -->
   <CantInteractAnimalAsleep>животное спит</CantInteractAnimalAsleep>
   <!-- EN: animal busy -->
@@ -158,14 +166,22 @@
   <InstallImplantNotAllowedForNonColonists>не является поселенцем</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>уже установлено</InstallImplantAlreadyInstalled>
+  <!-- EN: requires an existing {0} -->
+  <InstallImplantHediffRequired>требуется {0}</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>уже максимальный уровень</InstallImplantAlreadyMaxLevel>
+  <!-- EN: requires min level {0} -->
+  <InstallImplantMinLevel>требуется как минимум {0} уровень</InstallImplantMinLevel>
+  <!-- EN: psychically deaf -->
+  <InstallImplantPsychicallyDeaf>психическая глухота</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Улучшить {0} до уровня {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>надругательство над членом дружественной фракции</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
   <BeingCarriedBy>в руках у {0_labelShort}</BeingCarriedBy>
+  <!-- EN: full -->
+  <ContainerFull>нет места</ContainerFull>
   <!-- EN: already assigned -->
   <AlreadyAssigned>уже назначено</AlreadyAssigned>
   
@@ -190,9 +206,15 @@
   <Capture>Захватить {lookup: {1_label}; Case; 3}</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>Невозможно захватить</CannotCapture>
+  <!-- EN: unwaveringly loyal -->
+  <Unrecruitable>невозможно завербовать</Unrecruitable>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Спасти {lookup: {1_label}; Case; 3}</Rescue>
+  <!-- EN: Put {1_label} somewhere safe -->
+  <PutSomewhereSafe>Перенести {1_label} в безопасное место</PutSomewhereSafe>
+  <!-- EN: Taking {0_labelShort} to bed. -->
+  <TakingToBed>Несёт {0_labelShort} в кровать.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Невозможно спасти</CannotRescue>
 
@@ -233,6 +255,8 @@
   <Incapable>неспособен</Incapable>
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>неспособен {0}</IncapableOfCapacity>
+  <!-- EN: Must have {0_label} -->
+  <MustHaveHediff>требуется {0_label}</MustHaveHediff>
 
   <!-- EN: min skill -->
   <MinSkill>мин. уровень навыка</MinSkill>
@@ -251,9 +275,9 @@
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>Невозможно надеть {lookup: {1_labelShort}; Case; 3}</CannotWear>
   <!-- EN: Force equip {1_labelShort} -->
-  <ForceEquipApparel>Надеть {lookup: {1_labelShort}; Case; 3}</ForceEquipApparel>
+  <ForceEquipApparel>Вооружиться {lookup: {1_labelShort}; Case; 4}</ForceEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
-  <CannotEquipApparel>Невозможно надеть {lookup: {1_label}; Case; 3}</CannotEquipApparel>
+  <CannotEquipApparel>Невозможно вооружиться {lookup: {1_label}; Case; 4}</CannotEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>отсутствуют части тела</CannotWearBecauseOfMissingBodyParts>
   
@@ -263,6 +287,8 @@
   <ReloadFull>Полностью заряжено</ReloadFull>
   <!-- EN: Too few -->
   <ReloadNotEnough>Недостаточно для перезарядки</ReloadNotEnough>
+  <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
+  <ReloadCannotCarryEnough>Невозможно перенести достаточное количество {lookup: {AMMO_label}; Case; 1} для восполнения 1 заряда.</ReloadCannotCarryEnough>  <!-- Подставляется CompProperties_Reloadable.ammoDef. Сейчас во всех случаях везде это неисчисляемое существительное: сталь, химтопливо и прочее. Отсюда ед.ч. р.п. -->
   
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>Невозможно взять {lookup: {1_labelShort}; Case; 3}</CannotPickUp>
@@ -348,6 +374,10 @@
   <UseMedicalBed>Отдыхать до выздоровления</UseMedicalBed>
   <!-- EN: not injured -->
   <NotInjured>не ранен</NotInjured>
+  <!-- EN: no doctor -->
+  <NoDoctor>нет врача</NoDoctor>
+  <!-- EN: medical bed not for slaves -->
+  <NotForSlaves>медицинская кровать не для рабов</NotForSlaves>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>{0} уже спит здесь</SomeoneElseSleeping>
   
@@ -390,7 +420,7 @@
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
-  <CannotGenericWork>Невозможно {0} {lookup: {1}; Case; 3}</CannotGenericWork>
+  <CannotGenericWork>Невозможно {0} {replace: {lookup: {1}; Case; 3}; "область"-""}</CannotGenericWork> <!-- replace для исключения вариантов типа «Невозможно разобрать крышу область» -->
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>Невозможно {0}</CannotGenericWorkCustom>
 
@@ -399,9 +429,9 @@
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
-  <CannotGenericAlreadyAm>Поселенец уже начал {0} {lookup: {2_labelShort}; Case; 3}</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>Поселенец уже начал {lookup: {0}; Imperfect; 1} {lookup: {2_labelShort}; Case; 3}</CannotGenericAlreadyAm>
   <!-- EN: Already {0} -->
-  <CannotGenericAlreadyAmCustom>Поселенец уже начал {0}</CannotGenericAlreadyAmCustom>
+  <CannotGenericAlreadyAmCustom>Поселенец уже начал {lookup: {0}; Imperfect; 1}</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Cannot prioritize: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>Невозможно выполнить: поселенец никогда не будет {0}</CannotPrioritizeWorkTypeDisabled>
@@ -430,11 +460,11 @@
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>Вне разрешённой области</CannotPrioritizeForbiddenOutsideAllowedArea>
   <!-- EN: Cannot prioritize burying -->
-  <CannotPrioritizeBurying>Невозможно приоритезировать похороны</CannotPrioritizeBurying>
+  <CannotPrioritizeBurying>Невозможно начать похороны</CannotPrioritizeBurying>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
-  <PrioritizeGeneric>{0} {lookup: {1}; Case; 3}</PrioritizeGeneric>
+  <PrioritizeGeneric>{0} {replace: {lookup: {1}; Case; 3}; "область"-""}</PrioritizeGeneric> <!-- replace для исключения вариантов типа «Разобрать крышу область» -->
   
   <!-- EN: Drop at edge -->
   <DropAtEdge>Сбросить с краю</DropAtEdge>
@@ -523,5 +553,15 @@
 
   <!-- EN: Cannot enter -->
   <CannotEnter>Невозможно войти</CannotEnter>
+
+  <!-- Romance partner -->
+  <!-- EN: Cannot romance {0} -->
+  <CannotRomance>Невозможно флиртовать с {0}</CannotRomance>
+  <!-- EN: Romance {0} -->
+  <CanRomance>Флиртовать с {0}</CanRomance>
+
+  <!-- Feeding -->
+  <!-- EN: disliked food -->
+  <WarningFoodDisliked>нелюбимая еда</WarningFoodDisliked>
 
 </LanguageData>
