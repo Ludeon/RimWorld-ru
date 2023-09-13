@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- outcomeChances.*.label используется в OutcomeLetterLabel, RitualAttachedOutcomesInfo, RitualAttachedApplliesForOutcomes, RitualAttachedApplliesForOutcome, а также в списках после RitualDevelopmentPointRewards, RitualOutcomeChances -->
+  
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <AttendedFuneral.description>В зависимости от качества ритуала настроение его участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</AttendedFuneral.description>
   <!-- EN: moral guide present -->
@@ -223,7 +225,7 @@
   <!-- EN: The {0} was unimpressive. Lantern-making took too long and it all felt rather pointless. -->
   <CelebrationSkyLanterns.outcomeChances.1.description>Фестиваль прошёл посредственно. У всех осталось чувство, что время было потрачено впустую, так как на сборку фонариков ушло слишком много времени.</CelebrationSkyLanterns.outcomeChances.1.description>
   <!-- EN: Beautiful -->
-  <CelebrationSkyLanterns.outcomeChances.2.label>Красиво</CelebrationSkyLanterns.outcomeChances.2.label>
+  <CelebrationSkyLanterns.outcomeChances.2.label>красиво</CelebrationSkyLanterns.outcomeChances.2.label>
   <!-- EN: The {0} was beautiful. The drifting lanterns made everyone feel at peace. -->
   <CelebrationSkyLanterns.outcomeChances.2.description>Фестиваль был красивым. Фонарики, медленно уплывающие вдаль, принесли покой в сердца всех участников.</CelebrationSkyLanterns.outcomeChances.2.description>
   <!-- EN: The skylanterns lifted high and bright. Friendly visitors might see them and arrive with a gift. -->
@@ -325,7 +327,7 @@
   <!-- EN: Unforgettable -->
   <DestroyConsumableBuilding_Burnbong.outcomeChances.3.label>незабываемо</DestroyConsumableBuilding_Burnbong.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
-  <DestroyConsumableBuilding_Burnbong.outcomeChances.3.description>Встреча была незабываемой! Все узнали друг друга лучше и почувствовали себя как в одной семье.</DestroyConsumableBuilding_Burnbong.outcomeChances.3.description>
+  <DestroyConsumableBuilding_Burnbong.outcomeChances.3.description>Встреча была незабываемой! Все узнали друг друга лучше и почувствовали себя, как в одной семье.</DestroyConsumableBuilding_Burnbong.outcomeChances.3.description>
   <!-- EN: There's a 10% chance a random participant gains an inspiration. -->
   <DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>Случайный участник с вероятностью 10% может получить воодушевление.</DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>
   
@@ -467,15 +469,15 @@
   <!-- EN: required spectator count -->
   <RoleChange.comps.0.label>требуемое число зрителей</RoleChange.comps.0.label>
   <!-- EN: The required number of spectators must attend for the role change to apply. -->
-  <RoleChange.extraPredictedOutcomeDescriptions.0>Количество зрителей, требуемое для церемонии назначения новой роли.</RoleChange.extraPredictedOutcomeDescriptions.0>
+  <RoleChange.extraPredictedOutcomeDescriptions.0>Количество зрителей, требуемое для церемонии смены роли.</RoleChange.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Failed -->
-  <RoleChange.outcomeChances.0.label>Провал</RoleChange.outcomeChances.0.label>
+  <RoleChange.outcomeChances.0.label>провал</RoleChange.outcomeChances.0.label>
   <!-- EN: The role change was not attended by enough {IDEO_memberNamePlural}. -->
-  <RoleChange.outcomeChances.0.description>Церемония назначения роли не состоялось, потому что {IDEO_memberNamePlural} не пришли на неё в нужном количестве.</RoleChange.outcomeChances.0.description>
+  <RoleChange.outcomeChances.0.description>Церемония смены роли не состоялось, потому что {IDEO_memberNamePlural} не пришли на неё в нужном количестве.</RoleChange.outcomeChances.0.description>
   <!-- EN: Successful -->
-  <RoleChange.outcomeChances.1.label>Успех</RoleChange.outcomeChances.1.label>
+  <RoleChange.outcomeChances.1.label>успех</RoleChange.outcomeChances.1.label>
   <!-- EN: The role change ritual was completed. -->
-  <RoleChange.outcomeChances.1.description>Церемония назначения роли завершилась.</RoleChange.outcomeChances.1.description>
+  <RoleChange.outcomeChances.1.description>Церемония смены роли завершилась.</RoleChange.outcomeChances.1.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <Sacrifice.description>В зависимости от качества ритуала настроение его участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</Sacrifice.description>

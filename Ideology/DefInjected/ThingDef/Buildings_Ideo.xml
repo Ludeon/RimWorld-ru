@@ -23,16 +23,20 @@
   
   <!-- EN: biosculpter pod -->
   <BiosculpterPod.label>биоскульптор</BiosculpterPod.label>
-  <!-- EN: An immersive pod equipped with a biosculpting fluid injector and attached control system. It can perform a variety of biological alterations including age reversal and pleasure-giving. Each pod becomes biotuned to its user, and cannot be used by anyone else. Biotuning resets after 60 days. Believers in transhumanism believe biosculpter pods are of critical importance in their quest to transcend normal human physical limitations. -->
-  <BiosculpterPod.description>Капсула, оснащённая инжектором биоскульптурной жидкости и системой управления. Она используется для различных манипуляций с организмом на биологическом уровне — с её помощью можно пройти процедуру омоложения или вызвать чувство эйфории. После применения биоскульптор закрепляется за пользователем и не может быть использован другим человеком. Настройки сбрасываются через 60 дней. Для сторонников трансгуманизма биоскульпторы имеют решающее значение в их стремлении преодолеть границы слабой человеческой плоти.</BiosculpterPod.description>
-  <!-- EN: healing -->
-  <BiosculpterPod.comps.CompBiosculpterPod_HealingCycle.label>оздоровление</BiosculpterPod.comps.CompBiosculpterPod_HealingCycle.label>
-  <!-- EN: Heal all fresh wounds and one random permanent injury. -->
-  <BiosculpterPod.comps.CompBiosculpterPod_HealingCycle.description>Излечить все свежие раны и одну случайную постоянную травму.</BiosculpterPod.comps.CompBiosculpterPod_HealingCycle.description>
+  <!-- EN: An immersion pod full of bioactive gel. It can perform a variety of biological alterations including age reversal and pleasure-giving.\n\nThe pod biotunes to its user at the end of a cycle. While biotuned, it cannot be used by anyone else, but cycles will complete 25% more quickly. Biotuning resets if the pod is unused for 80 days.\n\nThe pod consumess 200W of power while working, but only 50W on standby. -->
+  <BiosculpterPod.description>Капсула, заполненная биоактивным гелем. Используется для различных манипуляций с организмом на биологическом уровне — с её помощью можно пройти процедуру омоложения или вызвать чувство эйфории.\n\nПо завершении цикла биоскульптор автоматически производит биокалибровку для последнего пользователя. Откалиброванный биоскульптор не может быть использован никем другим, но циклы в нём проходят на 25% быстрее. Биокалибровка сбрасывается через 80 дней с последнего применения капсулы.\n\nВ рабочем режиме капсула потребляет 200 Вт, а в режиме простоя — всего 50 Вт.</BiosculpterPod.description>
+  <!-- EN: medic -->
+  <BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.label>оздоровление</BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.label>
+  <!-- EN: Heal all fresh wounds, blood loss, and one random infectious disease. -->
+  <BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.description>Излечить все свежие раны, кровопотерю и одно случайное инфекционное заболевание.</BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.description>
+  <!-- EN: bioregeneration -->
+  <BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.label>биорегенерация</BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.label>
+  <!-- EN: Heal all fresh wounds, heal one random permanent injury, and restore small missing body parts like fingers and toes. -->
+  <BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.description>Излечить все свежие раны, одну случайную постоянную травму, а также восстановить небольшие части тела, такие как пальцы на руках или ногах.</BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.description>
   <!-- EN: age reversal -->
   <BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.label>омоложение</BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.label>
-  <!-- EN: Reverse one year of aging. -->
-  <BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.description>Обратить 1 год старения.</BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.description>
+  <!-- EN: Reverse {DURATION} of aging. -->
+  <BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.description>Обратить {DURATION} старения.</BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.description>
   <!-- EN: pleasure -->
   <BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.label>удовольствие</BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.label>
   <!-- EN: Temporarily reshape the nervous system to deliver elevated levels of happiness for a time. -->
@@ -53,11 +57,6 @@
   <!-- EN: A celebratory tree decorated with ornaments and lights traditionally made as part of Christmas celebrations. -->
   <ChristmasTree.description>Праздничное дерево, украшенное гирляндой и игрушками, традиционно изготовленными в рамках рождественских праздников.</ChristmasTree.description>
   
-  <!-- EN: standing darklamp -->
-  <Darklamp.label>напольная тёмная лампа</Darklamp.label>
-  <!-- EN: A low-powered electrical standing lamp that emits a dim light over a large area. People who prefer to work in darklight are happy with this light source. -->
-  <Darklamp.description>Маломощная напольная электрическая лампа, которая излучает тусклый свет на большой территории. Люди, которые предпочитают работать в тусклом освещении, будут довольны этим источником света.</Darklamp.description>
-  
   <!-- EN: darktorch -->
   <Darktorch.label>тёмный факел</Darktorch.label>
   <!-- EN: A specially-treated wooden torch that produces a dim light over a large area. People who prefer darklight work best with this light source. Can be automatically refueled with wood. Produces a small amount of heat. -->
@@ -65,8 +64,8 @@
   
   <!-- EN: fungus darktorch -->
   <DarktorchFungus.label>тёмный факел из грибов</DarktorchFungus.label>
-  <!-- EN: A specially-treated fungus torch that produces a dim light over a large area. People who prefer darklight work best with this light source. Can be automatically refueled with wood. Produces a small amount of heat. -->
-  <DarktorchFungus.description>Специально обработанный грибной факел, который излучает тусклый свет на большой территории. Люди, которые предпочитают работать в тусклом освещении, будут довольны этим источником света. Заправляется дровами. Выделяет небольшое количество тепла.</DarktorchFungus.description>
+  <!-- EN: A specially-treated fungus torch that produces a dim light over a large area. People who prefer darklight work best with this light source. Can be automatically refueled with raw fungus. Produces a small amount of heat. -->
+  <DarktorchFungus.description>Специально обработанный грибной факел, который излучает тусклый свет на большой территории. Люди, которые предпочитают работать в тусклом освещении, будут довольны этим источником света. Заправляется сырыми грибами. Выделяет небольшое количество тепла.</DarktorchFungus.description>
   
   <!-- EN: effigy -->
   <Effigy.label>пугало</Effigy.label>
@@ -86,9 +85,9 @@
   <!-- EN: neural supercharger -->
   <NeuralSupercharger.label>нейронный стимулятор</NeuralSupercharger.label>
   <!-- EN: A neuron-sensitizing device that can deliver one neural supercharge each day. A person with a neural supercharge will think and learn faster, but will also consume more food. The effect wears off in one day. Neural superchargers consume a lot of electricity. -->
-  <NeuralSupercharger.description>Устройство, используемое для получения нейронного заряда. Нейронный заряд повышает чувствительность нейронов, ускоряя работу мозга и усиливая эффективность обучения, ценой повышения аппетита. Эффект длится один день. Нейронные стимуляторы требуют большое количество энергии.</NeuralSupercharger.description>
+  <NeuralSupercharger.description>Устройство, используемое для получения нейростимуляции. Нейростимуляция повышает чувствительность нейронов, ускоряя работу мозга и усиливая эффективность обучения, ценой повышения аппетита. Эффект длится один день. Нейронные стимуляторы требуют большое количество энергии.</NeuralSupercharger.description>
   <!-- EN: Get neural supercharge -->
-  <NeuralSupercharger.comps.CompNeuralSupercharger.jobString>Получить нейронный заряд</NeuralSupercharger.comps.CompNeuralSupercharger.jobString>
+  <NeuralSupercharger.comps.CompNeuralSupercharger.jobString>Получить нейростимуляцию</NeuralSupercharger.comps.CompNeuralSupercharger.jobString>
   
   <!-- EN: pyre -->
   <Pyre.label>погребальный костёр</Pyre.label>

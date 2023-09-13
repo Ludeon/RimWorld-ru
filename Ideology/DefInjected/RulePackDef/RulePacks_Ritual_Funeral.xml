@@ -18,21 +18,25 @@
     <li>funeral->requiem</li>
   -->
   <NamerRitualFuneral.rulePack.rulesStrings>
-    <li>r_ritualName(p=2)->[memeAdjective] [funeral]</li>
+    <li>r_ritualName(p=0.50)->[memeAdjective_masc] [funeral_masc]</li>
+    <li>r_ritualName(p=1.25)->[memeAdjective_neutral] [funeral_neutral]</li>
+    <li>r_ritualName(p=0.25)->[memeAdjective_plural] [funeral_plural]</li>
     <li>r_ritualName->[funeral] [chosenTheme]</li>
-    <li>r_ritualName->[chosenAdjective] [funeral]</li>
+    <li>r_ritualName->[chosenAdjective] [funeral_masc]</li>
     <li>r_ritualName->[funeral] [keyDeity]</li>
     <li>r_ritualName->[funeral] [memeConcept]</li>
-    <li>r_ritualName->[funeral] [chosenIdeoName]</li>
     <li>r_ritualName(p=0.01)->[funeral]</li>
-    <li>funeral->похороны</li>
-    <li>funeral->оплакивание</li>
-    <li>funeral->панегирик</li>
-    <li>funeral->захоронение</li>
-    <li>funeral->погребение</li>
-    <li>funeral->предание земле</li>
-    <li>funeral->реквием</li>
-    <li>funeral->прощание</li>
+    <li>funeral(p=2)->[funeral_masc]</li>
+    <li>funeral(p=5)->[funeral_neutral]</li>
+    <li>funeral(p=1)->[funeral_plural]</li>
+    <li>funeral_masc->реквием</li>
+    <li>funeral_masc->панегирик</li>
+    <li>funeral_neutral->оплакивание</li>
+    <li>funeral_neutral->захоронение</li>
+    <li>funeral_neutral->погребение</li>
+    <li>funeral_neutral->предание земле</li>
+    <li>funeral_neutral->прощание</li>
+    <li>funeral_plural->похороны</li>
   </NamerRitualFuneral.rulePack.rulesStrings>
   
 </LanguageData>
