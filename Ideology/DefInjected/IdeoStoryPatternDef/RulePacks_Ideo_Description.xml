@@ -80,36 +80,36 @@
   -->
   <IdeologicalFounder.rules.rulesStrings>
     <li>story(priority=-999)-></li>
-    <li>setup->Среди прогнившего мира [founderName] [founder_saw] что всё не так и [founder_created] собственное движение.</li>
-    <li>setup->[founder_struck] пороками мира, [founderName] [founder_studied] историю и философию и открыла новую истину, которая ведёт нас.</li>
-    <li>setup->Однажды, трудясь на работе, [founderName] [founder_experienced] озарение. [founder_pronoun] [founder_dropped] инструменты и [founder_started] нести своё слово среди других рабочих.</li>
-    <li>setup->[founderName] [founder_was_sitting] 20 лет на скамейке в парке, размышляя о судьбах мира. [founder_pronoun] [founder_reflected] своё видение в книге, ставшей нашим священным писанием.</li>
+    <li>setup->Среди прогнившего мира [founderName] [rp_founder_saw] всё, что было неправильно, и [rp_founder_created] собственное движение.</li>
+    <li>setup->[rp_founder_struck] пороками мира, [founderName] [rp_founder_studied] историю и философию и [rp_founder_discovered] новую истину, ставшую нашим ориентиром.</li>
+    <li>setup->Однажды, трудясь на работе, [founderName] [rp_founder_experienced] озарение. [founder_pronoun] [rp_founder_dropped] инструменты и [rp_founder_started] нести своё слово среди других рабочих.</li>
+    <li>setup->Двадцать лет [founderName] [rp_founder_was_sitting] на скамейке в парке, размышляя о судьбах мира. [founder_pronoun] [rp_founder_reflected] своё видение в книге, ставшей нашим священным писанием.</li>
     <li>story(uses=1,priority=-10)->[memberNamePlural] не поняли бы значение [memeConcept] без наставлений [founderName].</li>
-    <li>story(uses=1,priority=-10)->Речь [founderName] на [ritualName] многих вдохновила на жизнь, где идея [memeConcept] — её основа.</li>
-    <li>story(uses=1,priority=-10)->Никто не понимал идею [memeConcept] лучше, чем [founderName]. [memberNamePlural] избрали [founder_possessive] [founder_first] [leaderTitle].</li>
-    <li>story(uses=1,priority=-10)->[founderName] везде [founder_carried] с собой [relic0_thingDef_label] «[relic0_name]», чтобы напоминать людям о том, как важна [memeAdjective_fem] жизнь.</li>
-    <li>founder_saw(founder_gender==Male)->видел</li>
-    <li>founder_saw(founder_gender==Female)->видела</li>
-    <li>founder_created(founder_gender==Male)->создал</li>
-    <li>founder_created(founder_gender==Female)->создала</li>
-    <li>founder_struck(founder_gender==Male)->поражённый</li>
-    <li>founder_struck(founder_gender==Female)->поражённая</li>
-    <li>founder_studied(founder_gender==Male)->изучал</li>
-    <li>founder_studied(founder_gender==Female)->изучала</li>
-    <li>founder_experienced(founder_gender==Male)->испытал</li>
-    <li>founder_experienced(founder_gender==Female)->испытала</li>
-    <li>founder_dropped(founder_gender==Male)->бросил</li>
-    <li>founder_dropped(founder_gender==Female)->бросила</li>
-    <li>founder_started(founder_gender==Male)->начал</li>
-    <li>founder_started(founder_gender==Female)->начала</li>
-    <li>founder_reflected(founder_gender==Male)->отразил</li>
-    <li>founder_reflected(founder_gender==Female)->отразила</li>
-    <li>founder_was_sitting(founder_gender==Male)->сидел</li>
-    <li>founder_was_sitting(founder_gender==Female)->сидела</li>
-    <li>founder_first(founder_gender==Male)->первым</li>
-    <li>founder_first(founder_gender==Female)->первой</li>
-    <li>founder_carried(founder_gender==Male)->носил</li>
-    <li>founder_carried(founder_gender==Female)->носила</li>
+    <li>story(uses=1,priority=-10)->Речь [founderName] во время ритуала [ritualName] многих вдохновила на жизнь, основа которой — идея [memeConcept].</li>
+    <li>story(uses=1,priority=-10)->Никто не понимал идею [memeConcept] лучше, чем [founderName], за что первые {lookup: [memberNamePlural]; Case; 0} наделили [founder_possessive] титулом «[leaderTitle]».</li>
+    <li>story(uses=1,priority=-10)->[founderName] везде [rp_founder_carried] с собой реликвию «[relic0_name]», потому что [relic0_thingDef_label] — лучшее напоминание людям о том, как важна [memeAdjective_fem] жизнь.</li>
+    <li>rp_founder_saw(founder_gender==Male)->увидел</li>
+    <li>rp_founder_saw(founder_gender==Female)->увидела</li>
+    <li>rp_founder_created(founder_gender==Male)->создал</li>
+    <li>rp_founder_created(founder_gender==Female)->создала</li>
+    <li>rp_founder_struck(founder_gender==Male)->поражённый</li>
+    <li>rp_founder_struck(founder_gender==Female)->поражённая</li>
+    <li>rp_founder_studied(founder_gender==Male)->изучил</li>
+    <li>rp_founder_studied(founder_gender==Female)->изучила</li>
+    <li>rp_founder_discovered(founder_gender==Male)->открыл</li>
+    <li>rp_founder_discovered(founder_gender==Female)->открыла</li>
+    <li>rp_founder_experienced(founder_gender==Male)->испытал</li>
+    <li>rp_founder_experienced(founder_gender==Female)->испытала</li>
+    <li>rp_founder_dropped(founder_gender==Male)->бросил</li>
+    <li>rp_founder_dropped(founder_gender==Female)->бросила</li>
+    <li>rp_founder_started(founder_gender==Male)->начал</li>
+    <li>rp_founder_started(founder_gender==Female)->начала</li>
+    <li>rp_founder_was_sitting(founder_gender==Male)->сидел</li>
+    <li>rp_founder_was_sitting(founder_gender==Female)->сидела</li>
+    <li>rp_founder_reflected(founder_gender==Male)->отразил</li>
+    <li>rp_founder_reflected(founder_gender==Female)->отразила</li>
+    <li>rp_founder_carried(founder_gender==Male)->носил</li>
+    <li>rp_founder_carried(founder_gender==Female)->носила</li>
   </IdeologicalFounder.rules.rulesStrings>
   
   <!-- EN:
@@ -177,27 +177,32 @@
   -->
   <IdeologicalLesson.rules.rulesStrings>
     <li>lesson(priority=-1)->всякое случается</li>
-    <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n - [lessonAttribution]</li>
+    <li>r_pattern->«[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]»\n\n - [lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution(p=2)->&lt;i>[attributionSource_titleCase]&lt;/i>, [founder_nameFull]</li>
-    <li>lessonAttribution->письмо [founder_nameFull] [believer_nameFull]</li>
+    <li>lessonAttribution->&lt;i>[attributionSource_titleCase]&lt;/i>, [founder_nameFull]</li>
+    <li>lessonAttribution->письмо [founder_nameFull] к [believer_nameFull]</li>
     <li>lessonAttribution->[founder_nameFull], из материалов [memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull] на своём смертном одре</li>
     <li>lessonAttribution->[founder_nameFull] прямо перед своей казнью</li>
-    <li>lessonAttribution->[speech] [founder_nameFull] на [TerrainFeature]</li>
-    <li>lessonAttribution->[speech] [founder_nameFull] в [Community]</li>
+    <li>lessonAttribution->[speech] [founder_nameFull] на [TerrainFeature_prep]</li>
+    <li>lessonAttribution->[speech] [founder_nameFull] в [Community_prep]</li>
     <li>attributionSource->идея [memeConcept]</li>
     <li>attributionSource->[memeAdjective_fem] идея [memeConcept]</li>
     <li>attributionSource->[memeAdjective_fem] жизнь</li>
-    <li>attributionSource->[attributionJob], Размышления</li>
-    <li>attributionSource->[attributionJob], Мемуары</li>
-    <li>attributionSource->[attributionJob], Мысли</li>
-    <li>attributionJob->[memeAdjective_masc] [place_job]</li>
-    <li>attributionJob->[place_job]</li>
-    <li>memeConference(p=3)->[conferencePrefix] [conferenceType], посвящённого теме [memeConcept]</li>
-    <li>memeConference(p=3)->[conferencePrefixFem] [conferenceTypeFem], посвящённой теме [memeConcept]</li>
-    <li>memeConference(p=2)->[conferenceType], посвящённый теме [memeConcept]</li>
-    <li>memeConference(p=2)->[conferenceTypeFem], посвящённая теме [memeConcept]</li>
+    <li>attributionSource->[attributionMemeAdjectivePlural] Размышления [attributionJob]</li>
+    <li>attributionSource->[attributionMemeAdjectivePlural] Мемуары [attributionJob]</li>
+    <li>attributionSource->[attributionMemeAdjectivePlural] Мысли [attributionJob]</li>
+    <li>attributionSource->[attributionMemeAdjectiveFemale] Жизнь [attributionJob]</li>
+    <li>attributionMemeAdjectivePlural->[memeAdjective_plural]</li>
+    <li>attributionMemeAdjectivePlural-></li>
+    <li>attributionMemeAdjectiveFemale->[memeAdjective_fem]</li>
+    <li>attributionMemeAdjectiveFemale-></li>
+    <li>attributionJob(founder_gender==Male)->{lookup: [place_job]; Case; 1}</li>
+    <li>attributionJob(founder_gender==Female)->{lookup: [place_job_fem]; Case; 1}</li>
+    <li>memeConference->[conferencePrefix] [conferenceType], посвящённого теме [memeConcept]</li>
+    <li>memeConference->[conferencePrefixFem] [conferenceTypeFem], посвящённой теме [memeConcept]</li>
+    <li>memeConference->[conferenceType], посвящённого теме [memeConcept]</li>
+    <li>memeConference->[conferenceTypeFem], посвящённой теме [memeConcept]</li>
     <li>memeConference->[memeHyphenPrefix_titleCase]-кон</li>
     <li>conferencePrefixFem->первой</li>
     <li>conferencePrefixFem->второй</li>
@@ -222,31 +227,29 @@
     <li>conferenceType->форума</li>
     <li>speech->речь</li>
     <li>speech->монолог</li>
-    <li>lessonIntro->Моим последователям было сложно принять одну вещь —</li>
-    <li>lessonIntro->Моим тяжелейшем преступлением было так долго не понимать, что</li>
-    <li>lessonIntro->Моя борьба с [foeLeader] казалась бесконечной. Но она научила меня кое-чему:</li>
-    <li>lessonIntro->Даже в детстве, на [place_summary] [place_name], у меня было понимание, что</li>
-    <li>lessonIntro->Во время школьных занятий в [place_community] ученик кинул в меня [thrownObject] и попал в голову. Тогда-то меня осенило, что</li>
-    <li>lessonIntro->Я говорю это не для того, чтобы вы прожили мою жизнь, а чтобы вы узнали то, что было постигнуто мной. Что</li>
+    <li>lessonIntro->Моим последователям было сложно принять одну вещь:</li>
+    <li>lessonIntro->Моим тяжелейшим преступлением было так долго не понимать, что</li>
+    <li>lessonIntro->Моя борьба с {lookup: [foeLeader]; Case; 4} казалась бесконечной. Но она научила меня кое-чему:</li>
+    <li>lessonIntro->Даже в детстве, проведённом [place_summary_prepon] {lookup: [place_summary]; Case; 5} [place_name], у меня было понимание, что</li>
+    <li>lessonIntro->Во время школьных занятий [place_community_with_prepin] один из учеников кинул в меня [thrownObject] и попал в голову. Тогда-то меня осенило, что</li>
+    <li>lessonIntro->Я говорю это не для того, чтобы ты прожил мою жизнь, а чтобы ты узнал то, чему я научился. Что</li>
     <li>lessonIntro->Когда врач закончил своё ужасное дело, мне наконец стало понятно, что</li>
-    <li>lessonIntro->С каждым годом, проведённым на [place_summary] [place_name], мне становилось понятно, что</li>
-    <li>lessonIntro->Вспоминая своё прошлое, я жалею, что мне не пришло раньше осознание того, что</li>
-    <li>lessonIntro->Они все казались мне потерянными. Я [founder_showed] им, что</li>
-    <li>lessonIntro->Они молили о праведном пути. Я [founder_showed] им, что</li>
+    <li>lessonIntro->С каждым годом, проведённым [place_summary_prepon] {lookup: [place_summary]; Case; 5} [place_name], мне становилось всё яснее, что</li>
+    <li>lessonIntro->Вспоминая своё прошлое, я жалею об упущенной возможности прийти к осознанию, что</li>
+    <li>lessonIntro->Они все казались мне потерянными. Я [rp_founder_showed] им, что</li>
+    <li>lessonIntro->Они молили о праведном пути. Я [rp_founder_showed] им, что</li>
     <li>thrownObject->книгу</li>
     <li>thrownObject->сэндвич</li>
-    <li>thrownObject->игрушечный [place_personalWeapon]</li>
-    <li>thrownObject->чучело [Animal]</li>
-    <li>doctor_possessive->его</li>
-    <li>doctor_possessive->её</li>
+    <li>thrownObject->игрушечную модель {lookup: [place_personalWeapon]; Case; 1}</li>
+    <li>thrownObject->чучело [Animal_gen]</li>
     <li>lessonReinforcement->С этим невозможно поспорить.</li>
     <li>lessonReinforcement->Только дураки считают иначе.</li>
-    <li>lessonReinforcement->И скоро это всем станет очевидно, как и нам.</li>
+    <li>lessonReinforcement->И скоро это всем станет очевидно так же, как и нам.</li>
     <li>lessonReinforcement->Всё, что происходило дальше, являлось лишь подтверждением этому.</li>
-    <li>lessonReinforcement->Как будто что-то прошептало это в моё сознание.</li>
+    <li>lessonReinforcement->Это словно отпечатано в моём сознании.</li>
     <li>lessonReinforcement->Я этого никогда не забуду.</li>
-    <li>founder_showed(founder_gender==Male)->показал</li>
-    <li>founder_showed(founder_gender==Female)->показала</li>
+    <li>rp_founder_showed(founder_gender==Male)->показал</li>
+    <li>rp_founder_showed(founder_gender==Female)->показала</li>
   </IdeologicalLesson.rules.rulesStrings>
   
   <!-- EN:

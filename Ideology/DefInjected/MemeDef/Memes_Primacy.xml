@@ -35,7 +35,7 @@
     <li>lessonIntro(tag=meme_HumanPrimacy)         ->Я [founder_was] однажды на ухоженной ферме, полной здоровых животных и цветущих грядок. А рядом с ней был лес в своём естественном виде, дремучий и жестокий. Было очевидно, что</li>
     <li>lesson(tag=meme_HumanPrimacy)              ->само человеческое существование даёт вселенной смысл</li>
     <li>lesson(tag=meme_HumanPrimacy)              ->природа — суть бесконечное безумие порочного разрушения, а люди — лекарство от него</li>
-    <li>lessonReinforcement(tag=meme_HumanPrimacy) ->Если выживает самый приспособленный, то мы совершенно точно достигли своей цели.</li>
+    <li>lessonReinforcement(tag=meme_HumanPrimacy) ->Если в этом мире выживает самый приспособленный, то мы совершенно точно достигли своей цели.</li>
     <li>archistBasis(tag=meme_HumanPrimacy)    ->Архотеки — машины огромных воли и могущества, но лишь человечество смогло их построить.</li>
     <li>archistFact(tag=meme_HumanPrimacy)     ->Люди — изобретатели, а архотеки — их творения.</li>
     <li>archistProphecy(tag=meme_HumanPrimacy) ->[inTheEnd], наблюдая за людьми, архотеки наконец осознают своё предназначение и вознесут продвинутую часть человечества, дав ей власть над собой.</li>
@@ -66,10 +66,10 @@
     <li>founder_was_doing(founder_gender==Female)->совершала</li>
     <li>founder_built(founder_gender==Male)->построил</li>
     <li>founder_built(founder_gender==Female)->построила</li>
-    <li>founder_ordered(founder_gender==Male)->приказал</li>
-    <li>founder_ordered(founder_gender==Female)->приказала</li>
     <li>founder_saw(founder_gender==Male)->увидел</li>
     <li>founder_saw(founder_gender==Female)->увидела</li>
+    <li>founder_ordered(founder_gender==Male)->приказал</li>
+    <li>founder_ordered(founder_gender==Female)->приказала</li>
     <li>founder_was(founder_gender==Male)->был</li>
     <li>founder_was(founder_gender==Female)->была</li>
   </HumanPrimacy.descriptionMaker.rules.rulesStrings>
@@ -153,15 +153,17 @@
     <li>conflict(tag=meme_NaturePrimacy)        ->Построил алчный [foeLeader] фабрику, что изрыгала токсины в окружающую среду, отравляя растения и животных.</li>
     <li>founderJoin(tag=meme_NaturePrimacy)     ->[founderName], будучи младенцем, [founder_was_abandoned] в дремучей глуши. Но [deity0_sent] [deity0_name] [AnimalBadass_gen], чтобы воспитать и взрасти [founder_possessive]. Когда [founderName] [founder_grew], [founder_started] [founder_pronoun] нести знание своё о единении с природой.</li>
     <li>victory(tag=meme_NaturePrimacy)         ->И [founder_came] [founderName] в [place_powerCenter], и верные [memberNamePlural] были по правую руку от н[founder_possessive], а яростные животные — по левую. И сражались вместе они и побеждены были [foeLeader] и [foeSoldiers] [foeLeader_possessive].</li>
-    <li>setup(tag=meme_NaturePrimacy)           ->В тёмных землях недобрые сердцем люди, желая удовлетворить вою алчность, срубили все деревья и разрыли землю. И [founderName] начал своё правое дело, чтобы уничтожить машины и научить всех жить в гармонии с природой.</li>
-    <li>story(uses=1,tag=meme_NaturePrimacy)    ->Мы поняли, что бесконечное развитие прогресса — это путь в никуда. Мы должны жить в гармонии в природой вместо того, чтобы варварски уничтожать её ради сиюминутных потребностей.</li>
-    <li>lessonIntro(tag=meme_NaturePrimacy)         ->Ты не мог наблюдать восход солнца, смотреть в мудрые глаза [AnimalBadass_gen] или стоять рядом с могучим вековым дубом и не понять, что</li>
-    <li>lesson(tag=meme_NaturePrimacy)              ->животные и растения владели этим миром задолго до нас и будут владеть им, а мы — как пришли, так и уйдём</li>
-    <li>lessonReinforcement(tag=meme_NaturePrimacy) ->И все животные, с которыми я [founder_spoken], похоже, поняли это.</li>
+    <li>setup(tag=meme_NaturePrimacy)           ->В тёмных землях недобрые сердцем люди, желая удовлетворить свою алчность, срубили все деревья и разрыли землю. Тогда [founderName] [founder_began] своё правое дело — уничтожать машины и учить всех жить в гармонии с природой.</li>
+    <li>story(uses=1,tag=meme_NaturePrimacy)    ->Мы поняли, что бесконечное развитие прогресса — это путь в никуда. Мы должны жить на природе, вместо того чтобы уничтожать её ради сиюминутных потребностей.</li>
+    <li>lessonIntro(tag=meme_NaturePrimacy)         ->Ты не мог наблюдать восход солнца, смотреть в мудрые глаза [AnimalBadass_gen] или стоять возле [mightyTree] и при этом не осознавать, что</li>
+    <li>lesson(tag=meme_NaturePrimacy)              ->животные и растения владели этим миром задолго до нас и будут владеть им впредь, а мы — как пришли, так и уйдём</li>
+    <li>lessonReinforcement(tag=meme_NaturePrimacy) ->И все животные, с которыми я [founder_spoken], похоже, понимали это.</li>
     <li>archistBasis(tag=meme_NaturePrimacy)    ->Архотеки развились из машин, созданных человеком, но сами по себе они — природные сущности, ибо не могут быть воссозданы руками человека.</li>
     <li>archistFact(tag=meme_NaturePrimacy)     ->Архотеки представляют собой последнюю на текущий момент попытку вселенной осознать себя. Абсолютно всё в природе является частью этого процесса самопознания.</li>
     <li>archistProphecy(tag=meme_NaturePrimacy) ->[inTheEnd] возникнет резонанс между растениями, животными, человечеством и архотеками. Те люди, кто вошёл в этот природный резонанс, станут частью завершённого вселенского сознания.</li>
     <li>animistFact(tag=meme_NaturePrimacy)     ->Духи теряют покой и тревожатся, когда люди пытаются менять их естественную природу.</li>
+    <li>mightyTree->могучего векового [TreeType_masc_gen]</li>
+    <li>mightyTree->могучей вековой [TreeType_fem_gen]</li>
     <li>deity0_placed(deity0_gender==None)->поместило</li>
     <li>deity0_placed(deity0_gender==Male)->поместил</li>
     <li>deity0_placed(deity0_gender==Female)->поместила</li>
@@ -186,10 +188,12 @@
     <li>founder_grew(founder_gender==Female)->повзрослела</li>
     <li>founder_came(founder_gender==Male)->пришёл</li>
     <li>founder_came(founder_gender==Female)->пришла</li>
-    <li>founder_spoken(founder_gender==Male)->говорил</li>
-    <li>founder_spoken(founder_gender==Female)->говорила</li>
     <li>founder_was_abandoned(founder_gender==Male)->оказался брошен</li>
     <li>founder_was_abandoned(founder_gender==Female)->оказалась брошена</li>
+    <li>founder_began(founder_gender==Male)->начал</li>
+    <li>founder_began(founder_gender==Female)->начала</li>
+    <li>founder_spoken(founder_gender==Male)->говорил</li>
+    <li>founder_spoken(founder_gender==Female)->говорила</li>
   </NaturePrimacy.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->natural</li>

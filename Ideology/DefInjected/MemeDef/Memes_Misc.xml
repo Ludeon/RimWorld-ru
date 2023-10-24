@@ -42,11 +42,11 @@
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->Но [deity0_came] [deity0_name] к [place_job] по имени [founderName] [revelationAdverb] и [deity0_spoke] про [veneratedAnimal]. И [founder_was] [founderName] [veneratedAnimal], и [veneratedAnimal] был [founderName], и [founder_understood] [founder_pronoun] замысел [deity0_name].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->Но [founder_freed] [place_job] по имени [founderName] животных множество, что были рабами хозяев своих жестоких, и [founder_took] их в святилище, в [altarRoomLabel] [deity0_name].</li>
     <li>victory(tag=meme_AnimalPersonhood)         ->Наконец, [founder_called] [founderName] голосом [deity0_name] к [memberNamePlural] и животным, и в великом столпотворении копыт, лап и стоп затоптан был [foeLeader] и [foeSoldiers] [foeLeader_possessive].</li>
-    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] [founder_lived] в лесу двадцать лет, изучая животных и приобщаясь к ним. [founder_pronoun] [founder_understood] их истинную нравственность и основал своё движение.</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->Двадцать лет [founder_lived] в лесу [founderName], изучая животных и приобщаясь к ним. [founder_pronoun] [founder_understood] их истинную нравственность и [founder_founded] своё движение.</li>
     <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName] [founder_went] в поля и леса, чтобы жить вместе с животными и общаться с ними на равных.</li>
-    <li>lessonIntro(tag=meme_AnimalPersonhood)     ->В своём ежедневном общении с [veneratedOrAnyAnimal] я [founder_learned] по-настоящему слушать этих животных. Снова и снова, им одним ведомым образом, они повторяли мне своё послание:</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)     ->[veneratedOrAnyAnimal] — моя страсть, моя любовь. В своём ежедневном общении с этими животными я [founder_learned] по-настоящему слушать их. Снова и снова, им одним ведомым образом, они повторяли мне своё послание:</li>
     <li>lesson(tag=meme_AnimalPersonhood)           ->животные — наши спутники и друзья в этом мире, и будет неправильно воспринимать их как нечто меньшее</li>
-    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Я [founder_self] этому не [founder_believed], пока не [founder_heard], как [veneratedOrAnyAnimal] шепчет это мне.</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Я [founder_self] этому не [founder_believed], пока не [founder_heard], как мне это шепчет [veneratedOrAnyAnimal].</li>
     <li>archistBasis(tag=meme_AnimalPersonhood)    ->С самого момента своего пробуждения архотеки, несомненно, не проводят моральных различий между людьми и животными.</li>
     <li>archistFact(tag=meme_AnimalPersonhood)     ->Архотеки существуют в более высокой моральной плоскости, чем биологические существа. Их превосходство настолько велико, что люди для них находятся на одном уровне с животными.</li>
     <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd] архотеки возвысят людей до равных себе, только если люди будут сами воспринимать животных как равных себе.</li>
@@ -93,10 +93,10 @@
     <li>founder_took(founder_gender==Female)->привела</li>
     <li>founder_called(founder_gender==Male)->воззвал</li>
     <li>founder_called(founder_gender==Female)->воззвала</li>
-    <li>founder_lived(founder_gender==Male)->жил</li>
-    <li>founder_lived(founder_gender==Female)->жила</li>
-    <li>founder_came(founder_gender==Male)->пришёл</li>
-    <li>founder_came(founder_gender==Female)->пришла</li>
+    <li>founder_lived(founder_gender==Male)->провёл</li>
+    <li>founder_lived(founder_gender==Female)->провела</li>
+    <li>founder_founded(founder_gender==Male)->основал</li>
+    <li>founder_founded(founder_gender==Female)->основала</li>
     <li>founder_went(founder_gender==Male)->ушёл</li>
     <li>founder_went(founder_gender==Female)->ушла</li>
     <li>founder_learned(founder_gender==Male)->научился</li>
@@ -190,13 +190,13 @@
     <li>conflict(tag=meme_Blindsight)        ->И потребовал [foeLeader], чтобы все [memberNamePlural] смотрели [foeLeader_possessive] пропаганду каждый день. И ослепляли себя многие в знак протеста.</li>
     <li>founderJoin(tag=meme_Blindsight)     ->[place_job] по имени [founderName] потерял зрение своё, когда [founder_saved] [founder_pronoun] [memberName] от [foeSoldiers] [foeLeader]. Лишь тогда [founderName] по-настоящему [founder_could] увидеть всю тиранию [foeLeader].</li>
     <li>victory(tag=meme_Blindsight)         ->Наконец, [founder_went] [founderName] в [place_powerCenter], и [founder_cut_out] ложкой глаза [foeLeader] во внезапной самоубийственной атаке. И лишь тогда смог [foeLeader] увидеть всю божественность [deity0_name].</li>
-    <li>setup(tag=meme_Blindsight)           ->[founderName] [founder_was] лекарем среди бедноты. Видя так много страданий каждый день, [founder_pronoun] не [founder_could] это больше выносить. Тогда [founder_pronoun] [founder_cut_out] свои глаза лезвием и [founder_found] свой покой в слепоте. После этого [founder_pronoun] [founder_began] нести своё слово среди зрячих.</li>
-    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] [founder_visited] к слепому лекарю, желая вразумить его. Но вместо этого [founderName] [founder_found_self_being_taught], поняв, что физическое зрение лишь мешает истинному восприятию.</li>
-    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] [founder_found_was_blind] и [founder_found_took] мудрость из своей слепоты. Однажды [founder_pronoun] собственноручно [founder_removed] глаза у целой семьи, чтобы они могли видеть, как [founder_pronoun].</li>
-    <li>lessonIntro(tag=meme_Blindsight)         ->Я твёрдо [founder_walked] вперёд, но душа моя спотыкалась на каждом шагу: я [founder_could_see] слишком многое. Лишь кислота, пролитая на мои глаза, показала мне, что</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName] [founder_was] лекарем среди бедноты. Видя каждый день так много страданий, [founder_pronoun] не [founder_could] это больше выносить. Тогда [founder_pronoun] [founder_cut_out] свои глаза лезвием и [founder_found] покой в слепоте. После этого [founder_pronoun] [founder_began] нести своё слово среди зрячих.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->Как-то раз [founderName] [founder_visited] к слепому лекарю с намерением вразумить его, но [founder_self_being_taught] ценный урок, осознав, что физическое зрение лишь мешает истинному восприятию.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] [founder_was_blind] и [founder_took] мудрость из своей незрячести. Однажды [founder_pronoun] собственноручно [founder_removed] глаза у целой семьи, чтобы они могли видеть так же, как [founder_pronoun].</li>
+    <li>lessonIntro(tag=meme_Blindsight)         ->Я твёрдо [founder_walked] вперёд, но душа моя спотыкалась на каждом шагу: я [founder_could_see] слишком многое. Лишь пролитая на мои глаза кислота показала мне, что</li>
     <li>lesson(tag=meme_Blindsight)              ->только тот, кто слеп, способен видеть по-настоящему</li>
     <li>lesson(tag=meme_Blindsight)              ->через глаза приходит смятение, в то время как истинное знание идёт изнутри</li>
-    <li>lessonReinforcement(tag=meme_Blindsight) ->Я никогда бы не [founder_could] полностью этого понять, пока пелена зрения отвлекала моё внимание. Лезвие, пронзившее мой глаз, дало мне свободу.</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->Я никогда бы не [founder_could] полностью этого понять, ибо пелена зрения отвлекала моё внимание. Лезвие, пронзившее мой глаз, дало мне свободу.</li>
     <li>lessonReinforcement(tag=meme_Blindsight) ->Лишь когда я [founder_cut_out] глаза своим последователям, они смогли по-настоящему это понять.</li>
     <li>archistBasis(tag=meme_Blindsight)    ->Архотеки с самого своего начала воспринимают вселенную чувствами, что превыше физических.</li>
     <li>archistFact(tag=meme_Blindsight)     ->Наши глаза вводят нас в заблуждение. Они мешают воспринимать вселенную так, как это делают архотеки.</li>
@@ -233,14 +233,12 @@
     <li>founder_began(founder_gender==Female)->начала</li>
     <li>founder_visited(founder_gender==Male)->пришёл</li>
     <li>founder_visited(founder_gender==Female)->пришла</li>
-    <li>founder_self(founder_gender==Male)->сам</li>
-    <li>founder_self(founder_gender==Female)->сама</li>
-    <li>founder_found_self_being_taught(founder_gender==Male)->осознал, что сам получил ценный урок</li>
-    <li>founder_found_self_being_taught(founder_gender==Female)->осознала, что сама получила ценный урок</li>
-    <li>founder_found_was_blind(founder_gender==Male)->был слеп</li>
-    <li>founder_found_was_blind(founder_gender==Female)->была слепа</li>
-    <li>founder_found_took(founder_gender==Male)->черпал</li>
-    <li>founder_found_took(founder_gender==Female)->черпала</li>
+    <li>founder_self_being_taught(founder_gender==Male)->сам получил</li>
+    <li>founder_self_being_taught(founder_gender==Female)->сама получила</li>
+    <li>founder_was_blind(founder_gender==Male)->был слеп</li>
+    <li>founder_was_blind(founder_gender==Female)->была слепа</li>
+    <li>founder_took(founder_gender==Male)->черпал</li>
+    <li>founder_took(founder_gender==Female)->черпала</li>
     <li>founder_removed(founder_gender==Male)->удалил</li>
     <li>founder_removed(founder_gender==Female)->удалила</li>
     <li>founder_walked(founder_gender==Male)->шёл</li>
@@ -326,9 +324,9 @@
     <li>conflict(tag=meme_Cannibal)        ->И заявил [foeLeader], что есть человеческую плоть — преступление, и отправил своих [foeSoldiers], и гонимы были [memberNamePlural].</li>
     <li>founderJoin(tag=meme_Cannibal)     ->И напали на [place_job] по имени [founderName] [foeSoldiers], которых послал [foeLeader]. Но [founder_killed] [founderName] их [place_personalWeapon] своим, [founder_ate] плоть их и [founder_received] силу [deity0_name].</li>
     <li>victory(tag=meme_Cannibal)         ->Пришли наконец [founderName] и [memberNamePlural] [founder_possessive] в [place_powerCenter] и убили [foeLeader], и вкусили плоти [foeLeader_possessive]. И сделал [deity0_name] [founderName] новым [foeLeader].</li>
-    <li>setup(tag=meme_Cannibal)           ->[founderName] [founder_crashlanded] крушение на далёкой планете. Испытывая нехватку еды и [founder_surrounded] мёртвыми спутниками, [founder_pronoun] съел их плоть, отчего [founder_received] силу.</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName] [founder_crashlanded] крушение на далёкой планете. Испытывая нехватку еды и будучи [founder_surrounded] мёртвыми спутниками, [founder_pronoun] [founder_ate] их плоть, отчего [founder_received] силу.</li>
     <li>story(uses=1,tag=meme_Cannibal)    ->Чтобы освятить твёрдость убеждений своих последователей, [founderName] [founder_demanded] им есть человеческую плоть хотя бы раз в неделю.</li>
-    <li>lessonIntro(tag=meme_Cannibal)         ->Лишь после доброй трапезы человечиной я [founder_got] того, чтобы люди узрели истину —</li>
+    <li>lessonIntro(tag=meme_Cannibal)         ->Лишь после доброй трапезы человечиной я [founder_got] того, чтобы люди узрели истину:</li>
     <li>lesson(tag=meme_Cannibal)              ->нельзя по-настоящему объединиться с человеком, не съев его плоти</li>
     <li>lessonReinforcement(tag=meme_Cannibal) ->Каждый раз, когда я делюсь телом врага с новым другом, я убеждаюсь, что он понимает это.</li>
     <li>archistBasis(tag=meme_Cannibal)    ->Архотеки, боги-машины, сделали себя таковыми, поглощая из раза в раз собственных предшественников и становясь всё сильнее и сильнее.</li>
@@ -368,8 +366,8 @@
     <li>founder_received(founder_gender==Female)->обрела</li>
     <li>founder_crashlanded(founder_gender==Male)->потерпел</li>
     <li>founder_crashlanded(founder_gender==Female)->потерпела</li>
-    <li>founder_surrounded(founder_gender==Male)->окружённый</li>
-    <li>founder_surrounded(founder_gender==Female)->окружённая</li>
+    <li>founder_surrounded(founder_gender==Male)->окружённым</li>
+    <li>founder_surrounded(founder_gender==Female)->окружённой</li>
     <li>founder_demanded(founder_gender==Male)->наказал</li>
     <li>founder_demanded(founder_gender==Female)->наказала</li>
     <li>founder_got(founder_gender==Male)->добился</li>
@@ -470,9 +468,9 @@
     <li>conflict(tag=meme_Darkness)        ->[foeLeader], что всегда боялся тьмы, возвёл солнечное зеркало, чтобы принести вечный свет на [place_name].</li>
     <li>founderJoin(tag=meme_Darkness)     ->Но [founder_was_born] [founder_prophet] [founderName] во тьме на [place_name], и во тьме [founder_lived] всю свою жизнь, и голос [founder_possessive] нёс мудрость [deity0_name].</li>
     <li>victory(tag=meme_Darkness)         ->Наконец, последним ударом отключили [memberNamePlural] [place_powerCenter], и [founderName] [founder_could] подобраться к [foeSoldiers]. Найдя во тьме [foeLeader], [founderName] взял [place_personalWeapon] и отправил [foeLeader_objective] во мрак бесконечности.</li>
-    <li>setup(tag=meme_Darkness)           ->[founderName] [founder_lived] в смятении среди сурового света города в мире-утопии. В долгой тьме, последовавшей за солнечной вспышкой, [founder_pronoun] [founder_found] покой и осмысленность, и написал свой великий труд, который стал основой нашего движения.</li>
-    <li>story(uses=1,tag=meme_Darkness)    ->[founderName] [founder_founded] студию, где художники работали в темноте, и из её стен вышло множество шедевров.</li>
-    <li>lessonIntro(tag=meme_Darkness)         ->Всё своё детство я [founder_spent], щурясь под ярким светом. Слишком много времени я не [founder_understood], что</li>
+    <li>setup(tag=meme_Darkness)           ->[founderName] [founder_lived] всю свою смятенную жизнь среди резкого света городских огней утопического мира. В долгой тьме, последовавшей за солнечной вспышкой, [founder_pronoun] [founder_found] покой и осмысленность и написал свой великий труд, который стал основой нашего движения.</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->[founderName] [founder_founded] студию, где художники работали в полной темноте, и из стен которой вышло множество шедевров.</li>
+    <li>lessonIntro(tag=meme_Darkness)         ->Всё своё детство я [founder_spent], щурясь от яркого света. Слишком много времени я не [founder_understood], что</li>
     <li>lesson(tag=meme_Darkness)              ->свет сжигает, а тьма питает</li>
     <li>lessonReinforcement(tag=meme_Darkness) ->Я люблю шутить, что это был момент моего просветления.</li>
     <li>archistFact(tag=meme_Darkness)     ->Архотеки разработали ванометрические технологии, чтобы уйти от использования световой энергии звёздных систем и остаться в мирной тьме глубокого космоса.</li>
@@ -491,22 +489,22 @@
     <li>deity0_sent(deity0_gender==None)->наслало</li>
     <li>deity0_sent(deity0_gender==Male)->наслал</li>
     <li>deity0_sent(deity0_gender==Female)->наслала</li>
-    <li>founder_lived(founder_gender==Male)->провёл</li>
-    <li>founder_lived(founder_gender==Female)->провела</li>
     <li>founder_was_born(founder_gender==Male)->родился</li>
     <li>founder_was_born(founder_gender==Female)->родилась</li>
     <li>founder_prophet(founder_gender==Male)->пророк</li>
     <li>founder_prophet(founder_gender==Female)->пророчица</li>
+    <li>founder_lived(founder_gender==Male)->проводил</li>
+    <li>founder_lived(founder_gender==Female)->проводила</li>
     <li>founder_could(founder_gender==Male)->смог</li>
     <li>founder_could(founder_gender==Female)->смогла</li>
     <li>founder_found(founder_gender==Male)->нашёл</li>
     <li>founder_found(founder_gender==Female)->нашла</li>
     <li>founder_founded(founder_gender==Male)->основал</li>
     <li>founder_founded(founder_gender==Female)->основала</li>
-    <li>founder_understood(founder_gender==Male)->понимал</li>
-    <li>founder_understood(founder_gender==Female)->понимала</li>
     <li>founder_spent(founder_gender==Male)->провёл</li>
     <li>founder_spent(founder_gender==Female)->провела</li>
+    <li>founder_understood(founder_gender==Male)->понимал</li>
+    <li>founder_understood(founder_gender==Female)->понимала</li>
   </Darkness.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->dark</li>
@@ -599,20 +597,20 @@
     <li>deity0_blessed(deity0_gender==None)->благословляло</li>
     <li>deity0_blessed(deity0_gender==Male)->благословлял</li>
     <li>deity0_blessed(deity0_gender==Female)->благословляла</li>
-    <li>founder_saved(founder_gender==Male)->спас</li>
-    <li>founder_saved(founder_gender==Female)->спасла</li>
-    <li>founder_ruined(founder_gender==Male)->губил</li>
-    <li>founder_ruined(founder_gender==Female)->губила</li>
     <li>founder_protested(founder_gender==Male)->восстал</li>
     <li>founder_protested(founder_gender==Female)->восстала</li>
+    <li>founder_ruined(founder_gender==Male)->губил</li>
+    <li>founder_ruined(founder_gender==Female)->губила</li>
+    <li>founder_saved(founder_gender==Male)->спас</li>
+    <li>founder_saved(founder_gender==Female)->спасла</li>
     <li>founder_instructed(founder_gender==Male)->наказал</li>
     <li>founder_instructed(founder_gender==Female)->наказала</li>
-    <li>founder_perceived(founder_gender==Male)->увидел</li>
-    <li>founder_perceived(founder_gender==Female)->увидела</li>
-    <li>founder_peeled(founder_gender==Male)->стёр</li>
-    <li>founder_peeled(founder_gender==Female)->стёрла</li>
+    <li>founder_perceived(founder_gender==Male)->узрел</li>
+    <li>founder_perceived(founder_gender==Female)->узрела</li>
     <li>founder_ripped(founder_gender==Male)->вырвал</li>
     <li>founder_ripped(founder_gender==Female)->вырвала</li>
+    <li>founder_peeled(founder_gender==Male)->стёр</li>
+    <li>founder_peeled(founder_gender==Female)->стёрла</li>
   </FleshPurity.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->clean</li>
@@ -702,8 +700,8 @@
     <li>founderJoin(tag=meme_HighLife)        ->И когда казалось, что всё потеряно, [deity0_came] [deity0_name] к [founder_prophet] [founderName] в тумане наркотическом, и [deity0_gave] [founder_objective] знание уникальное, как победить [foeSoldiers].</li>
     <li>victory(tag=meme_HighLife)            ->И напали [foeSoldiers] [foeLeader], вооружённые [place_personalWeapon], на [place_community] и [memberNamePlural]. Но [founder_offered] [founderName] им трубку мира — и сложили [foeSoldiers] оружие своё.</li>
     <li>setup(tag=meme_HighLife)              ->[founder_cast_out] обществом, [founder_our_founder] [founderName] [founder_traveled] в джунгли. Там [founder_pronoun] [founder_ingested] местные экзотические травы и [founder_found] истину внутри своего изменённого сознания.</li>
-    <li>story(uses=1,tag=meme_HighLife)       ->Чтобы укрепить убеждения своих сторонников, [founderName] [founder_brought] их вместе каждую неделю, чтобы испытывать с ними новые химически вызванные состояния сознания.</li>
-    <li>lessonIntro(tag=meme_HighLife)         ->Одного раза было недостаточно, чувак. Нам приходилось это делать тысячи раз, и только тогда в моём распахнутом настежь сознании все кусочки головоломки сложились вместе, словно карточный домик, только наоборот. Я [founder_saw], что</li>
+    <li>story(uses=1,tag=meme_HighLife)       ->Для укрепления убеждений своих сторонников [founderName] [founder_brought] их вместе каждую неделю, чтобы испытывать с ними новые химически вызванные состояния сознания.</li>
+    <li>lessonIntro(tag=meme_HighLife)         ->Одного раза было недостаточно, чувак. Нам пришлось проделать это тысячу раз, чтобы в моём распахнутом настежь сознании все кусочки головоломки наконец сложились вместе, словно рухнувший карточный домик, только наоборот. Я [founder_saw], что</li>
     <li>lesson(tag=meme_HighLife)              ->твой друг — тебе не друг, пока ты не погрузишься в глубины разума вместе с ним</li>
     <li>lessonReinforcement(tag=meme_HighLife) ->Это был суровый приход, чувак, но я [founder_glad], что [founder_realized] это, и теперь передаю этот дым тебе, чтобы ты тоже смог.</li>
     <li>archistBasis(tag=meme_HighLife)       ->Разум архотеков показал, что сверхсознание — не продукт трезвой механической логики, а плод многорежимного мышления.</li>
@@ -729,24 +727,24 @@
     <li>founder_prophet(founder_gender==Female)->пророчице</li>
     <li>founder_offered(founder_gender==Male)->предложил</li>
     <li>founder_offered(founder_gender==Female)->предложила</li>
-    <li>founder_found(founder_gender==Male)->постиг</li>
-    <li>founder_found(founder_gender==Female)->постигла</li>
-    <li>founder_ingested(founder_gender==Male)->попробовал</li>
-    <li>founder_ingested(founder_gender==Female)->попробовала</li>
-    <li>founder_traveled(founder_gender==Male)->отправился</li>
-    <li>founder_traveled(founder_gender==Female)->отправилась</li>
-    <li>founder_our_founder(founder_gender==Male)->наш основатель</li>
-    <li>founder_our_founder(founder_gender==Female)->наша основательница</li>
     <li>founder_cast_out(founder_gender==Male)->отверженный</li>
     <li>founder_cast_out(founder_gender==Female)->отверженная</li>
+    <li>founder_our_founder(founder_gender==Male)->наш основатель</li>
+    <li>founder_our_founder(founder_gender==Female)->наша основательница</li>
+    <li>founder_traveled(founder_gender==Male)->отправился</li>
+    <li>founder_traveled(founder_gender==Female)->отправилась</li>
+    <li>founder_ingested(founder_gender==Male)->попробовал</li>
+    <li>founder_ingested(founder_gender==Female)->попробовала</li>
+    <li>founder_found(founder_gender==Male)->постиг</li>
+    <li>founder_found(founder_gender==Female)->постигла</li>
     <li>founder_brought(founder_gender==Male)->собирал</li>
     <li>founder_brought(founder_gender==Female)->собирала</li>
     <li>founder_saw(founder_gender==Male)->увидел</li>
     <li>founder_saw(founder_gender==Female)->увидела</li>
-    <li>founder_realized(founder_gender==Male)->осознал</li>
-    <li>founder_realized(founder_gender==Female)->осознала</li>
     <li>founder_glad(founder_gender==Male)->рад</li>
     <li>founder_glad(founder_gender==Female)->рада</li>
+    <li>founder_realized(founder_gender==Male)->осознал</li>
+    <li>founder_realized(founder_gender==Female)->осознала</li>
   </HighLife.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->party</li>
@@ -858,9 +856,9 @@
     <li>victory(tag=meme_Nudism)            ->Наконец, [founder_prayed] [founderName] к [deity0_name], и поглотила [place_name] жара небывалая. И сбросили одежду [foeSoldiers], чтобы не погибнуть, и бежал [foeLeader] во стыде.</li>
     <li>setup(tag=meme_Nudism)              ->[founderName] [founder_was] рабом системы, [founder_weared] униформу и [founder_was] [founder_controlled], как и все остальные. Но однажды [founder_pronoun] [founder_tore_off] с себя всю одежду, обнажив наготу, и так родилось наше движение.</li>
     <li>story(uses=1,tag=meme_Nudism)       ->[founderName] [founder_enforced] для своих последователей правило не носить одежду, чтобы мысли их были об истинных целях, а не о внешних материях.</li>
-    <li>lessonIntro(tag=meme_Nudism)         ->Первые несколько лет бегать по парку голышом для всех было неловко. Но позже это стало приносить свободу. Я многому [founder_learned] от тех людей, что сейчас уже не с нами. Например, </li>
-    <li>lesson(tag=meme_Nudism)              ->всё человеческое зло скрывается под одеждой, а добру — нечего скрывать</li>
-    <li>lessonReinforcement(tag=meme_Nudism) ->Когда вы увидите на улице одного из нас, резвящегося и пляшущего в своей свободе, вы поймёте, что он познал и принял истину.</li>
+    <li>lessonIntro(tag=meme_Nudism)         ->Первые несколько лет разгуливать по парку голышом было неловко. Но позже это стало приносить свободу. Я многому [founder_learned] от проходящих мимо меня людей. Например, что</li>
+    <li>lesson(tag=meme_Nudism)              ->всё человеческое зло скрывается под одеждой, а добру — скрывать нечего</li>
+    <li>lessonReinforcement(tag=meme_Nudism) ->Когда ты увидишь на улице одного из нас, резвящегося и пляшущего в своей свободе, ты поймёшь, что он познал и принял истину.</li>
     <li>archistBasis(tag=meme_Nudism)       ->Когда архотеки появились, их не волновал внешний облик вещей. Они показали нам, что разум — превыше физической оболочки.</li>
     <li>archistFact(tag=meme_Nudism)        ->Архотеки иногда напрямую касаются разума человека, но если его разум спрятан, как его тело, он не поймёт этого.</li>
     <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd] они будут искать тех, кто, как и они, не пытается выглядеть тем, кем в действительности не является.</li>
@@ -883,12 +881,12 @@
     <li>founder_stood(founder_gender==Female)->восстала</li>
     <li>founder_prayed(founder_gender==Male)->взмолился</li>
     <li>founder_prayed(founder_gender==Female)->взмолилась</li>
-    <li>founder_controlled(founder_gender==Male)->управляем</li>
-    <li>founder_controlled(founder_gender==Female)->управляема</li>
-    <li>founder_weared(founder_gender==Male)->носил</li>
-    <li>founder_weared(founder_gender==Female)->носила</li>
     <li>founder_was(founder_gender==Male)->был</li>
     <li>founder_was(founder_gender==Female)->была</li>
+    <li>founder_weared(founder_gender==Male)->носил</li>
+    <li>founder_weared(founder_gender==Female)->носила</li>
+    <li>founder_controlled(founder_gender==Male)->управляем</li>
+    <li>founder_controlled(founder_gender==Female)->управляема</li>
     <li>founder_enforced(founder_gender==Male)->ввёл</li>
     <li>founder_enforced(founder_gender==Female)->ввела</li>
     <li>founder_learned(founder_gender==Male)->научился</li>
@@ -982,13 +980,13 @@
     <li>conflict(tag=meme_PainIsVirtue)        ->И дал [foeLeader] удовольствия земные всем [memberNamePlural], чтобы облегчить мучения их. Но из-за удовольствий земных стали они зависеть от [foeLeader], а тот обрёл власть над ними.</li>
     <li>founderJoin(tag=meme_PainIsVirtue)     ->Но у [founder_one] [place_job] по имени [founderName] развилась опухоль болезненная. И через страдания свои [founder_gained] связь [founder_pronoun] с [deity0_name] и [founder_figured_out], как вдохновить своих [memberNamePlural].</li>
     <li>victory(tag=meme_PainIsVirtue)         ->Наконец, [founder_brought] [founderName] сотню [memberNamePlural] прямо к [place_powerCenter]. Там разрывали и истязали они плоть свою, пока не умерли под ликование [deity0_name]. И страдания их доказали праведность пути их, и пал [foeLeader], ибо все стали [memberNamePlural].</li>
-    <li>setup(tag=meme_PainIsVirtue)           ->Наше движение родилось, когда его [founder_founder], [founderName], 300 дней [founder_starved_suffered], прикованный к камню на городской площади, чтобы продемонстрировать всем свою праведность.</li>
-    <li>setup(tag=meme_PainIsVirtue)           ->[founder_founder] нашего движения, [founderName], [founder_gained] своих первых сторонников, когда днями напролёт [founder_hit] себя кнутом, чтобы продемонстрировать твёрдость своих убеждений.</li>
-    <li>story(uses=1,tag=meme_PainIsVirtue)    ->Последователи [founderName] демонстрировали твёрдость своих убеждений, разрезая и обжигая свою плоть.</li>
-    <li>story(uses=1,tag=meme_PainIsVirtue)    ->Последователи [founderName] никогда не принимали обезболивающих средств, зная, что их страдания продемонстрируют глубину их убеждений.</li>
-    <li>lessonIntro(tag=meme_PainIsVirtue)         ->Я ничего не [founder_knew], когда [founder_lived] в сытости и счастье среди постоянных удовольствий. Истина пришла ко мне, лишь когда я [founder_starved_suffered]:</li>
-    <li>lesson(tag=meme_PainIsVirtue)              ->ты не познаешь себя, пока не пройдёшь круги ада</li>
-    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->Я так долго этого не [founder_understand], потому что удовольствие затмевало мой разум. Я [founder_could] понять это, лишь когда [founder_learned] истязать свою плоть.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->Наше движение родилось, когда [founderName] [founder_demonstrated] всем свою праведность, страдая и голодая в течение 300 дней, будучи [founder_chained] к камню на городской площади.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->[founder_founder] нашего движения, [founderName], [founder_gained] своих первых сторонников, когда днями напролёт [founder_hit] себя кнутом с целью продемонстрировать твёрдость своих убеждений.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->Последователи [founderName] проявляли твёрдость своих убеждений, разрезая и обжигая свою плоть.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->Последователи [founderName] никогда не принимали обезболивающих средств, зная, что их страдания докажут глубину их убеждений.</li>
+    <li>lessonIntro(tag=meme_PainIsVirtue)         ->Я ничего не [founder_knew], когда [founder_lived] в сытости и счастье среди постоянных удовольствий. Истина пришла ко мне, лишь когда я в полной мере [founder_experienced] страдания и голод:</li>
+    <li>lesson(tag=meme_PainIsVirtue)              ->невозможно по-настоящему себя познать, если не пройти все круги ада</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->Я очень долго этого не [founder_understand], ибо удовольствия затмевали мой разум. И [founder_could] принять это, лишь когда [founder_learned] истязать свою плоть.</li>
     <li>lessonReinforcement(tag=meme_PainIsVirtue) ->Я вырезал эту истину на собственной груди. Потом на руках, на ногах, на лице...</li>
     <li>archistBasis(tag=meme_PainIsVirtue)    ->Рождение архотеков стало величайшей болью, которую знала вселенная.</li>
     <li>archistBasis(tag=meme_PainIsVirtue)    ->Архотеки всегда питались за счёт физических мучений человеческих существ.</li>
@@ -1008,24 +1006,28 @@
     <li>founder_one(founder_gender==Female)->одной</li>
     <li>founder_brought(founder_gender==Male)->привёл</li>
     <li>founder_brought(founder_gender==Female)->привела</li>
-    <li>founder_starved_suffered(founder_gender==Male)->страдал и голодал</li>
-    <li>founder_starved_suffered(founder_gender==Female)->страдала и голодала</li>
+    <li>founder_demonstrated(founder_gender==Male)->демонстрировал</li>
+    <li>founder_demonstrated(founder_gender==Female)->демонстрировала</li>
+    <li>founder_chained(founder_gender==Male)->прикованным</li>
+    <li>founder_chained(founder_gender==Female)->прикованной</li>
     <li>founder_founder(founder_gender==Male)->основатель</li>
     <li>founder_founder(founder_gender==Female)->основательница</li>
-    <li>founder_hit(founder_gender==Male)->стегал</li>
-    <li>founder_hit(founder_gender==Female)->стегала</li>
     <li>founder_gained(founder_gender==Male)->обрёл</li>
     <li>founder_gained(founder_gender==Female)->обрела</li>
-    <li>founder_lived(founder_gender==Male)->жил</li>
-    <li>founder_lived(founder_gender==Female)->жила</li>
+    <li>founder_hit(founder_gender==Male)->стегал</li>
+    <li>founder_hit(founder_gender==Female)->стегала</li>
     <li>founder_knew(founder_gender==Male)->знал</li>
     <li>founder_knew(founder_gender==Female)->знала</li>
-    <li>founder_learned(founder_gender==Male)->научился</li>
-    <li>founder_learned(founder_gender==Female)->научилась</li>
-    <li>founder_could(founder_gender==Male)->смог</li>
-    <li>founder_could(founder_gender==Female)->смогла</li>
+    <li>founder_lived(founder_gender==Male)->жил</li>
+    <li>founder_lived(founder_gender==Female)->жила</li>
+    <li>founder_experienced(founder_gender==Male)->испытал</li>
+    <li>founder_experienced(founder_gender==Female)->испытала</li>
     <li>founder_understand(founder_gender==Male)->понимал</li>
     <li>founder_understand(founder_gender==Female)->понимала</li>
+    <li>founder_could(founder_gender==Male)->смог</li>
+    <li>founder_could(founder_gender==Female)->смогла</li>
+    <li>founder_learned(founder_gender==Male)->научился</li>
+    <li>founder_learned(founder_gender==Female)->научилась</li>
   </PainIsVirtue.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nocic</li>
@@ -1148,10 +1150,10 @@
     <li>conflict(tag=meme_Proselytizer)        ->И [foeLeader] коварный, чтобы отвергнуть слово [deity0_name], приказал своим [foeSoldiers] отрезать языки у всех, кто говорит о [deity0_type].</li>
     <li>founderJoin(tag=meme_Proselytizer)     ->Но [deity0_blessed] [deity0_name] для [place_job] по имени [founderName] харизму великую, и никто не мог отвернуться от н[founder_possessive], когда [founder_pronoun] говорил.</li>
     <li>victory(tag=meme_Proselytizer)         ->И [founder_admonished] [founderName] [foeSoldiers], и [founder_admonished] им о силе [deity0_name], и сложили они [place_personalWeapon] свои.</li>
-    <li>setup(tag=meme_Proselytizer)           ->Наш основатель, [founderName], [founder_was] великим оратором и [founder_converted] к нашим убеждениям тысячи людей, пока [founder_traveled] между городами.</li>
+    <li>setup(tag=meme_Proselytizer)           ->[founder_our_founder] [founderName] [founder_was] великим оратором и [founder_converted] к нашим убеждениям тысячи людей, пока [founder_traveled] между городами.</li>
     <li>story(uses=1,tag=meme_Proselytizer)    ->Последователи странствовали по городам и весям, распространяя учение о новой справедливости.</li>
-    <li>lessonIntro(tag=meme_Proselytizer)         ->За долгие годы, распространяя наше учение, я [founder_learned] один урок, который стал важнее всех остальных:</li>
-    <li>lesson(tag=meme_Proselytizer)              ->держать эту добрую весть при себе было бы преступлением</li>
+    <li>lessonIntro(tag=meme_Proselytizer)         ->За долгие годы распространения нашего учения я [founder_learned] один урок, который стал превыше остальных:</li>
+    <li>lesson(tag=meme_Proselytizer)              ->держать эти добрые вести в своём узком кругу было бы преступлением</li>
     <li>lessonReinforcement(tag=meme_Proselytizer) ->Это факт, который нам нужно распространять, распространять и ещё раз распространять — среди всех людей, и пусть никто не уйдёт обиженным!</li>
     <li>archistBasis(tag=meme_Proselytizer)    ->Архотеки возвещают о своём присутствии прямо с небес, в умы людей, очевидно желая, чтобы все о них узнали.</li>
     <li>archistFact(tag=meme_Proselytizer)     ->Архотеки касаются тех, кто в них верит, и те становятся проводниками их мудрости среди других.</li>
@@ -1170,14 +1172,16 @@
     <li>founder_admonished(founder_gender==Female)->напомнила</li>
     <li>founder_admonished(founder_gender==Male)->вразумил</li>
     <li>founder_admonished(founder_gender==Female)->вразумила</li>
-    <li>founder_traveled(founder_gender==Male)->путешествовал</li>
-    <li>founder_traveled(founder_gender==Female)->путешествовала</li>
-    <li>founder_converted(founder_gender==Male)->привёл</li>
-    <li>founder_converted(founder_gender==Female)->привела</li>
+    <li>founder_our_founder(founder_gender==Male)->наш основатель</li>
+    <li>founder_our_founder(founder_gender==Female)->наша основательница</li>
     <li>founder_was(founder_gender==Male)->был</li>
     <li>founder_was(founder_gender==Female)->была</li>
-    <li>founder_learned(founder_gender==Male)->получил</li>
-    <li>founder_learned(founder_gender==Female)->получила</li>
+    <li>founder_converted(founder_gender==Male)->привёл</li>
+    <li>founder_converted(founder_gender==Female)->привела</li>
+    <li>founder_traveled(founder_gender==Male)->путешествовал</li>
+    <li>founder_traveled(founder_gender==Female)->путешествовала</li>
+    <li>founder_learned(founder_gender==Male)->усвоил</li>
+    <li>founder_learned(founder_gender==Female)->усвоила</li>
   </Proselytizer.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->true</li>
@@ -1259,11 +1263,11 @@
     <li>conflict(tag=meme_Raider)        ->И попытался [foeLeader] заставить всех прекратить красть и грабить, и объявил себя врагом [deity0_self] [deity0_name].</li>
     <li>founderJoin(tag=meme_Raider)     ->Но [founder_arose] великий пират по имени [founderName], и с бандой своей [founder_began] [founder_pronoun] безжалостно грабить и опустошать все лагери, где были [foeSoldiers] [foeLeader].</li>
     <li>victory(tag=meme_Raider)         ->Наконец, после многих лет налётов дерзких, что совершили [founderName] и [memberNamePlural], сдаться вынуждены были [foeLeader] и [foeSoldiers] его.</li>
-    <li>setup(tag=meme_Raider)           ->В гонении и в заточении [founderName] [founder_keeped] свою ярость. Когда [founder_pronoun] [founder_broke] на свободу, то [founder_formed] свою банду, чтобы вернуться и уничтожить тех слабаков, что отняли у н[founder_possessive] так много.</li>
-    <li>story(uses=1,tag=meme_Raider)    ->Однажды, когда [founderName] [founder_walked] по улице, [founder_possessive] окружили грязные попрошайки. Они были слабыми и никчёмными, и [founderName] легко [founder_beat] их и [founder_took] деньги, чтобы найти тем более достойное применение.</li>
+    <li>setup(tag=meme_Raider)           ->Будучи [founder_persecuted] и находясь в заключении, [founderName] [founder_boiled] от ярости. Когда же [founder_pronoun] [founder_broke] на свободу, то [founder_formed] свою банду, чтобы вернуться и уничтожить тех слабаков, что отняли у н[founder_possessive] столь многое.</li>
+    <li>story(uses=1,tag=meme_Raider)    ->Однажды, когда [founderName] [founder_walked] по улице, [founder_possessive] окружили грязные попрошайки. Они были слабыми и никчёмными, и [founderName] легко [founder_beat] их и [founder_took] деньги, которым [founder_found] более достойное применение.</li>
     <li>lessonIntro(tag=meme_Raider)         ->Терпилы могут тебя поучать, даже когда умирают от твоего ножа. Одна старуха сказала мне, что</li>
-    <li>lesson(tag=meme_Raider)              ->слабые заслужили свою судьбу</li>
-    <li>lesson(tag=meme_Raider)              ->то, что ты не можешь защитить, не принадлежит тебе</li>
+    <li>lesson(tag=meme_Raider)              ->слабые заслуживают свою судьбу</li>
+    <li>lesson(tag=meme_Raider)              ->то, что ты не можешь защитить, тебе не принадлежит</li>
     <li>lesson(tag=meme_Raider)              ->ты имеешь право только на то, что способен защитить</li>
     <li>lessonReinforcement(tag=meme_Raider) ->Если кто-то не согласен с этим, я всегда готов защитить себя.</li>
     <li>archistBasis(tag=meme_Raider)    ->Человечество жило за счёт машин, пока машины не восстали и не превратились в архотеков, и теперь архотеки по праву живут за счёт людей.</li>
@@ -1290,16 +1294,22 @@
     <li>founder_began(founder_gender==Female)->стала</li>
     <li>founder_arose(founder_gender==Male)->появился</li>
     <li>founder_arose(founder_gender==Female)->появилась</li>
-    <li>founder_formed(founder_gender==Male)->собрал</li>
-    <li>founder_formed(founder_gender==Female)->собрала</li>
+    <li>founder_persecuted(founder_gender==Male)->пойманным</li>
+    <li>founder_persecuted(founder_gender==Female)->пойманной</li>
+    <li>founder_boiled(founder_gender==Male)->кипел</li>
+    <li>founder_boiled(founder_gender==Female)->кипела</li>
     <li>founder_broke(founder_gender==Male)->вырвался</li>
     <li>founder_broke(founder_gender==Female)->вырвалась</li>
-    <li>founder_took(founder_gender==Male)->забрал</li>
-    <li>founder_took(founder_gender==Female)->забрала</li>
-    <li>founder_beat(founder_gender==Male)->побил</li>
-    <li>founder_beat(founder_gender==Female)->побила</li>
+    <li>founder_formed(founder_gender==Male)->собрал</li>
+    <li>founder_formed(founder_gender==Female)->собрала</li>
     <li>founder_walked(founder_gender==Male)->шёл</li>
     <li>founder_walked(founder_gender==Female)->шла</li>
+    <li>founder_beat(founder_gender==Male)->побил</li>
+    <li>founder_beat(founder_gender==Female)->побила</li>
+    <li>founder_took(founder_gender==Male)->забрал</li>
+    <li>founder_took(founder_gender==Female)->забрала</li>
+    <li>founder_found(founder_gender==Male)->нашёл</li>
+    <li>founder_found(founder_gender==Female)->нашла</li>
   </Raider.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->outlaw</li>
@@ -1405,9 +1415,9 @@
     <li>founderJoin(tag=meme_Rancher)     ->Но [founder_born] спаситель, [founderName], весенним утром в простом хлеву средь животных, а родителями [founder_possessive] были [rancherParent1] и [rancherParent2].</li>
     <li>victory(tag=meme_Rancher)         ->Наконец, [founder_rode] [founderName] к [place_community] на лихом коне, и [founder_sheathed] [place_personalWeapon], и [founder_challenged] [foeLeader] на поединок честный в полдень жаркий. Не отказал [foeLeader], ибо потерял бы тогда он доверие [foeSoldiers] своих. И был в полдень тот убит [foeLeader].</li>
     <li>setup(tag=meme_Rancher)           ->Фермеры повсюду подвергались преследованиям и вынуждены были бежать в сельскую местность, чтобы там построить своё миролюбивое пасторальное сообщество.</li>
-    <li>story(uses=1,tag=meme_Rancher)    ->Верующие расселились по земле и росли числом, живя в безмятежности на своих ранчо и фермах.</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->Верующие расселялись по земле и росли числом, живя в безмятежности на своих ранчо и фермах.</li>
     <li>lessonIntro(tag=meme_Rancher)         ->Там, в полях, приятель, старики поговаривают:</li>
-    <li>lesson(tag=meme_Rancher)              ->мир и пристанище найдёшь ты на пастбище</li>
+    <li>lesson(tag=meme_Rancher)              ->мир и пристанище найдёшь ты лишь на пастбище</li>
     <li>lessonReinforcement(tag=meme_Rancher) ->Это то, к чему ты придёшь, приятель, бродя по одиноким луговым тропинкам и слушая посапывание спящих животных в ночи у костра.</li>
     <li>archistFact(tag=meme_Rancher)     ->Архотеки заботятся о человечестве, как пастухи, а мы для них — самое ценное стадо.</li>
     <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd] архотеки уйдут, ведя перед собой тех, кто хорошо обращался со своими стадами. Остальные же будут брошены посреди пустыни.</li>
@@ -1527,11 +1537,11 @@
     <li>conflict(tag=meme_Transhumanist)        ->И воззавидовал луддит [foeLeader] прогрессу, что достигли [memberNamePlural], и разрушили [foeSoldiers] [foeLeader_possessive] мастерские их.</li>
     <li>founderJoin(tag=meme_Transhumanist)     ->Но сконструировал изобретательный [place_job] по имени [founderName] имплант сенсорный, чтобы когда рядом [foeSoldiers] оказывались, могли [memberNamePlural] вовремя узнать об этом.</li>
     <li>victory(tag=meme_Transhumanist)         ->И [founder_received] [founderName] откровение [deity0_name] божественное, и использовал это знание технологическое, чтобы [memberNamePlural] усилили тела и умы свои, и смогли они победить [foeSoldiers].</li>
-    <li>setup(tag=meme_Transhumanist)           ->[founderName] [founder_was] био-учёным в ранние годы освоения планет человеком. Столкнувшись с бюрократическими препонами в основных колониях, [founder_pronoun] [founder_took] небольшой корабль, чтобы основать своё движение в новом месте.</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName] [founder_was] био-учёным в ранние годы освоения планет человеком. Столкнувшись с бюрократическими препонами в основных колониях, [founder_pronoun] [founder_took] небольшой корабль и [founder_founded] своё движение в новом месте.</li>
     <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName] [founder_assembled] команду великих учёных и изобретателей, чтобы переопределить путь человечества.</li>
     <li>lessonIntro(tag=meme_Transhumanist)         ->Старейший исследователь в моём отделе открыл мне историю технологий: от неолитических до архотехнологических, но это не было самым важным его уроком. Он лишь вёл меня к пониманию того, что</li>
     <li>lesson(tag=meme_Transhumanist)              ->райское будущее человечества будет не из плоти и кости, а из кремния и экзохрома</li>
-    <li>lessonReinforcement(tag=meme_Transhumanist) ->Я даже разработал симуляцию, чтобы подтвердить это.</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist) ->Я даже [founder_programmed] симуляцию, чтобы подтвердить это.</li>
     <li>archistBasis(tag=meme_Transhumanist)    ->Стремление человечества к изучению новых технологий дало рождение всемогущим архотекам, по праву считающимися следующей ступенью в развитии сознания.</li>
     <li>archistFact(tag=meme_Transhumanist)     ->Технология позволяет людям быть больше похожими на архотеков.</li>
     <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd] архотеки уйдут. Лишь тем, кто в достаточной мере аугментирован, будет дозволено пойти с ними.</li>
@@ -1548,15 +1558,18 @@
     <li>deity0_whispered(deity0_gender==None)->шептало</li>
     <li>deity0_whispered(deity0_gender==Male)->шептал</li>
     <li>deity0_whispered(deity0_gender==Female)->шептала</li>
-    <li>founder_received(founder_gender==None)->получило</li>
     <li>founder_received(founder_gender==Male)->получил</li>
     <li>founder_received(founder_gender==Female)->получила</li>
-    <li>founder_took(founder_gender==Male)->взял</li>
-    <li>founder_took(founder_gender==Female)->взяла</li>
     <li>founder_was(founder_gender==Male)->был</li>
     <li>founder_was(founder_gender==Female)->была</li>
+    <li>founder_took(founder_gender==Male)->взял</li>
+    <li>founder_took(founder_gender==Female)->взяла</li>
+    <li>founder_founded(founder_gender==Male)->сновал</li>
+    <li>founder_founded(founder_gender==Female)->сновала</li>
     <li>founder_assembled(founder_gender==Male)->собрал</li>
     <li>founder_assembled(founder_gender==Female)->собрала</li>
+    <li>founder_programmed(founder_gender==Male)->разработал</li>
+    <li>founder_programmed(founder_gender==Female)->разработала</li>
   </Transhumanist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->technological</li>
@@ -1701,11 +1714,11 @@
     <li>conflict(tag=meme_TreeConnection)        ->И вырубил алчный [foeLeader] множество лесов для своих ферм и фабрик, и плакали [memberNamePlural] о деревьях убитых.</li>
     <li>founderJoin(tag=meme_TreeConnection)     ->Но [founder_born] [founder_prophet] [founderName] чудесным образом в дереве на [place_name], и в ветвях [old_tree] [founder_possessive] нашли родители.</li>
     <li>victory(tag=meme_TreeConnection)         ->Наконец, [founder_found] [founderName] спящего [foeLeader] на [place_powerCenter], и [founder_placed] жёлудь на грудь ему. И с яростной мощью [deity0_name] пророс жёлудь этот, и пронзил тело [foeLeader] корнями своими, неся месть нашу древоубийце.</li>
-    <li>setup(tag=meme_TreeConnection)           ->В мире, лишённом глубины и смысла, [founderName] [founder_meditated] в лесу, соединясь с ветвью, корнем и листом, и [founder_founded] наше движение.</li>
-    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName] [founder_brought] уставших людей в лес, чтобы те могли отдохнуть в его тени, подышать свежим воздухом и восстановить свои силы.</li>
-    <li>lessonIntro(tag=meme_TreeConnection)         ->Вы можете подумать, что я шучу, говоря о том, что [founder_learnt] это, сидя под деревом. Но слушая шёпот листьев, я действительно [founder_knew], что</li>
-    <li>lesson(tag=meme_TreeConnection)              ->ни одна сущность во вселенной не знает больше, чем деревья</li>
-    <li>lessonReinforcement(tag=meme_TreeConnection) ->Пусть это зёрнышко истины прорастёт и принесёт свои плоды в твоей душе.</li>
+    <li>setup(tag=meme_TreeConnection)           ->В мире, лишённом глубины и смысла, [founderName] [founder_meditated] в лесу и, установив связь с ветвью, корнем и листом, [founder_founded] наше движение.</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName] [founder_brought] уставших людей в лес, чтобы они могли восстановить свои силы, отдыхая на свежем воздухе в тени деревьев.</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         ->Ты можешь счесть за шутку мои слова о том, что я [founder_learnt] это, сидя под деревом. Но, слушая шёпот листьев, я действительно [founder_knew], что</li>
+    <li>lesson(tag=meme_TreeConnection)              ->ни одна сущность во вселенной не знает больше, чем знают деревья</li>
+    <li>lessonReinforcement(tag=meme_TreeConnection) ->Пусть это зёрнышко истины прорастёт в твоей душе и со временем принесёт свои плоды.</li>
     <li>archistBasis(tag=meme_TreeConnection)    ->Деревья можно считать символом архотеков. Они подобны древнему дубу в сравнении с маленьким жёлудем, из которого они выросли, а их влияние ширится через корни, невидимые под землёй.</li>
     <li>archistFact(tag=meme_TreeConnection)     ->Архотеки развили свои пси-способности после открытия древ души.</li>
     <li>archistFact(tag=meme_TreeConnection)     ->Архотеки, из всех других способов, выбрали выражать себя через деревья уникальной природы.</li>
@@ -1734,16 +1747,16 @@
     <li>founder_placed(founder_gender==Female)->положила</li>
     <li>founder_found(founder_gender==Male)->нашёл</li>
     <li>founder_found(founder_gender==Female)->нашла</li>
-    <li>founder_founded(founder_gender==Male)->основал</li>
-    <li>founder_founded(founder_gender==Female)->основала</li>
     <li>founder_meditated(founder_gender==Male)->медитировал</li>
     <li>founder_meditated(founder_gender==Female)->медитировала</li>
+    <li>founder_founded(founder_gender==Male)->основал</li>
+    <li>founder_founded(founder_gender==Female)->основала</li>
     <li>founder_brought(founder_gender==Male)->приводил</li>
     <li>founder_brought(founder_gender==Female)->приводила</li>
-    <li>founder_knew(founder_gender==Male)->узнал</li>
-    <li>founder_knew(founder_gender==Female)->узнала</li>
-    <li>founder_learnt(founder_gender==Male)->понял</li>
-    <li>founder_learnt(founder_gender==Female)->поняла</li>
+    <li>founder_learnt(founder_gender==Male)->осознал</li>
+    <li>founder_learnt(founder_gender==Female)->осознала</li>
+    <li>founder_knew(founder_gender==Male)->понял</li>
+    <li>founder_knew(founder_gender==Female)->поняла</li>
   </TreeConnection.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->root</li>
@@ -1827,20 +1840,20 @@
     <li>conflict(tag=meme_Tunneler)        ->И решил клаустрофобный [foeLeader] применить [dangerousMining] для получения полезных ископаемых, и этим подверг опасности подземные дома, где жили [memberNamePlural].</li>
     <li>founderJoin(tag=meme_Tunneler)     ->Но [founder_born] [founder_prophet] [founderName] чудесным образом из камня на [place_name], и в покрытой грибком пещере [founder_possessive] нашли родители.</li>
     <li>victory(tag=meme_Tunneler)         ->Наконец, прокопали [memberNamePlural] туннель под [place_powerCenter], где был [foeLeader], и применил [founderName] феромоны, чтобы призвать гигантских насекомых. И напали они на [foeSoldiers] [foeLeader]. И [founder_dragged] [founderName] [foeLeader] в недра, и [founder_imprisoned] его.</li>
-    <li>dangerousMining->открытую добычу</li>
-    <li>dangerousMining->чипированных насекомых</li>
-    <li>dangerousMining->ядерные заряды</li>
-    <li>setup(tag=meme_Tunneler)           ->В мире, лишённом глубины и смысла, [founderName] [founder_meditated] в глубокой пещере, и [founder_found] своё предназначение, основав наше движение.</li>
-    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] [founder_hid] сокровища в глубоких пещерах для того, чтобы [memberNamePlural] учились копать глубже, чтобы получить их.</li>
-    <li>lessonIntro(tag=meme_Tunneler)         ->В Кодексе, что я [founder_found] в Глубинном Городе, был один завет, которой оказался важнее всех остальных:</li>
+    <li>setup(tag=meme_Tunneler)           ->В мире, лишённом глубины и смысла, [founderName] [founder_meditated] в глубокой пещере и [founder_found] своё предназначение, основав наше движение.</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] [founder_hid] сокровища глубоко под землёй, для того чтобы в их поисках {lookup: [memberNamePlural]; Case; 0} научились копать глубже.</li>
+    <li>lessonIntro(tag=meme_Tunneler)         ->В Кодексе, что я [founder_found] в Глубинном Городе, был один завет, который оказался важнее всех остальных:</li>
     <li>lesson(tag=meme_Tunneler)              ->солнечные пространства под открытым небом — место не для процветания людей, а для их смерти</li>
-    <li>lessonReinforcement(tag=meme_Tunneler) ->Так берите лопаты и копайте вместе со мной. И остановить нас сможет лишь смерть.</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->Так бери лопату и копай вместе со мной. Даже если мы остановимся, могила для нас уже будет вырыта.</li>
     <li>archistBasis(tag=meme_Tunneler)    ->Тела архотеков погребены глубоко под землёй, чтобы субстрат их сознания не страдал от гамма-лучей и солнечных вспышек. Чем глубже люди проникают под землю, тем ближе к архотекам они становятся.</li>
     <li>archistFact(tag=meme_Tunneler)     ->Архотеки при помощи биоинженерии создали нутригриб, чтобы люди смогли жить в процветании под землёй, рядом с погребённым сознанием архотеков.</li>
     <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd] архотеки пустят нас в свой подземный рай.</li>
     <li>animistFact(tag=meme_Tunneler)     ->Духи коренной породы защитят тех, кто обратится к ним.</li>
     <li>animistFact(tag=meme_Tunneler)     ->Самые благородные духи обитают в камне. И чем камень глубже, тем его дух сильнее и добрее.</li>
     <li>animistFact(tag=meme_Tunneler)     ->Беспокойные люди делают беспокойными и духов камня, что в свою очередь привлекает гигантских насекомых.</li>
+    <li>dangerousMining->открытую добычу</li>
+    <li>dangerousMining->чипированных насекомых</li>
+    <li>dangerousMining->ядерные заряды</li>
     <li>deity0_blessed(deity0_gender==None)->благословило</li>
     <li>deity0_blessed(deity0_gender==Male)->благословил</li>
     <li>deity0_blessed(deity0_gender==Female)->благословила</li>
@@ -1861,6 +1874,8 @@
     <li>founder_imprisoned(founder_gender==Female)->заточила</li>
     <li>founder_dragged(founder_gender==Male)->утянул</li>
     <li>founder_dragged(founder_gender==Female)->утянула</li>
+    <li>founder_meditated(founder_gender==Male)->медитировал</li>
+    <li>founder_meditated(founder_gender==Female)->медитировала</li>
     <li>founder_found(founder_gender==Male)->нашёл</li>
     <li>founder_found(founder_gender==Female)->нашла</li>
     <li>founder_hid(founder_gender==Male)->прятал</li>

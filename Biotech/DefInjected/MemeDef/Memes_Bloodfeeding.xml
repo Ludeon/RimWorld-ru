@@ -36,11 +36,11 @@
     <li>conflict(tag=meme_Bloodfeeding)        ->Но заявил [foeLeader], что пьющие кровь человеческую — отвратительны, и послал своих [foeSoldiers], и гонимы были [memberNamePlural].</li>
     <li>founderJoin(tag=meme_Bloodfeeding)     ->И напали на [place_job] по имени [founderName] [foeSoldiers], которых послал [foeLeader]. Но [founder_killed] [founderName] их [place_personalWeapon] своим, [founder_drank] крови их и [founder_received] силу [deity0_name].</li>
     <li>victory(tag=meme_Bloodfeeding)         ->Пришли наконец [founderName] и [memberNamePlural] [founder_possessive] в [place_powerCenter] и убили [foeLeader], и испили крови [foeLeader_possessive], и сожгли плоть [foeLeader_possessive]. И [deity0_made] [deity0_name] [founderName] новым [foeLeader], потому что [founder_proved] свою силу.</li>
-    <li>setup(tag=meme_Bloodfeeding)           ->[founderName] [founder_sought] взять под свой контроль сверхразумного архотека. Но вместо этого [founder_transformed], ибо мощь архотека — слишком велика.</li>
+    <li>setup(tag=meme_Bloodfeeding)           ->[founderName] [founder_sought] взять под свой контроль сверхразумного архотека. Но [founder_was_transformed], ибо мощь архотека — слишком велика.</li>
     <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName] [founder_gave] своим последователям дар жажды, чтобы они могли стать сильными.</li>
     <li>lessonIntro(tag=meme_Bloodfeeding)     ->Когда я впервые [founder_drank] крови, мне всё стало ясно. Я [founder_saw], что</li>
     <li>lesson(tag=meme_Bloodfeeding)          ->есть только два типа людей — слабые и сильные</li>
-    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->Пить кровь — значит быть сильным и чётко осознавать это.</li>
+    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->Испив крови, ты ясно это прочувствуешь, ибо станешь сильней.</li>
     <li>archistBasis(tag=meme_Bloodfeeding)    ->Архотеки, боги-машины, одарили человека Жаждой, дабы мог человек лучше познать их.</li>
     <li>archistFact(tag=meme_Bloodfeeding)     ->По мере расширения своего сознания архотеки должны наращивать свою основу, поглощая сущность других машин.</li>
     <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd] человек приблизится к архотекам, испив крови и познав истинную силу.</li>
@@ -79,8 +79,8 @@
     <li>founder_proved(founder_gender==Female)->доказала та</li>
     <li>founder_sought(founder_gender==Male)->хотел</li>
     <li>founder_sought(founder_gender==Female)->хотела</li>
-    <li>founder_transformed(founder_gender==Male)->был им изменён</li>
-    <li>founder_transformed(founder_gender==Female)->была им изменена</li>
+    <li>founder_was_transformed(founder_gender==Male)->сам был им изменён</li>
+    <li>founder_was_transformed(founder_gender==Female)->сама была им изменена</li>
     <li>founder_gave(founder_gender==Male)->дал</li>
     <li>founder_gave(founder_gender==Female)->дала</li>
     <li>founder_saw(founder_gender==Male)->увидел</li>
