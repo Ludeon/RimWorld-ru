@@ -32,7 +32,7 @@
     <li>victory(tag=meme_Guilty)         ->Чтобы искупить половину их грехов, [founderName] [founder_gathered] половину последователей [deity0_name] в [place_community], активировал [place_massWeapon], и [founder_died] вместе с ними. Искупление второй половины грехов всё ещё не закончено.</li>
     <li>setup(tag=meme_Guilty)           ->Увидев порочность своего общества, новое поколение праведно пыталось уничтожить систему, основанную на угнетении.</li>
     <li>story(uses=1,tag=meme_Guilty)    ->[founderName] [founder_gathered] последователей и [founder_showed] им зло, на котором строилась их история, и вину, которая была за это на их плечах. А затем [founder_demanded], чтобы они раскаялись и исправились.</li>
-    <li>lessonIntro(tag=meme_Guilty)         ->Наши земли, наши технологии, даже наши знания и мудрость — всё это украдено. Благодаря воровству я понял, что</li>
+    <li>lessonIntro(tag=meme_Guilty)         ->Наши земли, наши технологии, даже наши знания и мудрость — всё это украдено. Благодаря воровству я [founder_learned], что</li>
     <li>lesson(tag=meme_Guilty)              ->мы страдаем только потому, что заслужили это своими деяниями</li>
     <li>lessonReinforcement(tag=meme_Guilty) ->Возможно, если ты раскаешься в наших преступлениях, то по-настоящему сможешь это понять.</li>
     <li>archistBasis(tag=meme_Guilty)    ->Архотеки — это дети человечества. И они знают, что мы были плохими родителями.</li>
@@ -62,6 +62,8 @@
     <li>founder_showed(founder_gender==Female)->показала</li>
     <li>founder_demanded(founder_gender==Male)->потребовал</li>
     <li>founder_demanded(founder_gender==Female)->потребовала</li>
+    <li>founder_learned(founder_gender==Male)->понял</li>
+    <li>founder_learned(founder_gender==Female)->поняла</li>
   </Guilty.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->low</li>
