@@ -297,7 +297,7 @@
     <li>victory(tag=meme_Supremacist)         ->[founderName] [founder_destroyed] столицу [place_name] с помощью [place_massWeapon], убив при этом [foeLeader]. [founder_pronoun] [founder_took] место правителя [place_name] и всей вселенной вокруг.</li>
     <li>setup(tag=meme_Supremacist)           ->[founderName] [founder_created] армию, распространявшую [founder_possessive] власть и величие. Те, кто отказывался подчиняться, всё равно попадали под [founder_possessive] праведное правление.</li>
     <li>story(uses=1,tag=meme_Supremacist)    ->Когда [founderName] [founder_ordered] всем чужакам повиноваться, первый же отказавшийся город вместе со своими жителями был стёрт с лица земли при помощи [place_massWeapon_gen].</li>
-    <li>lessonIntro(tag=meme_Supremacist)         ->Я [founder_looked] на [foeLeader_this] {lookup: [foeLeader]; Case; 3} с [foeLeader_possessive] жалкими {lookup: [foeSoldiers]; Case; 4} и с [foeLeader_possessive] смешной властью. Я [founder_tried] убедить [foeLeader_possessive], что</li>
+    <li>lessonIntro(tag=meme_Supremacist)         ->Я [founder_looked] на этого {lookup: [foeLeader]; Case; 3} с [foeLeader_possessive] жалкими {lookup: [foeSoldiers]; Case; 4} и с [foeLeader_possessive] смешной властью. Я [founder_tried] убедить [foeLeader_possessive], что</li>
     <li>lesson(tag=meme_Supremacist)              ->у нас уже давно достаточно сил, чтобы по праву господствовать в этой вселенной</li>
     <li>lessonReinforcement(tag=meme_Supremacist) ->Именно поэтому мы гордо выражаем силу наших сердец языком силы.</li>
     <li>archistBasis(tag=meme_Supremacist)    ->Арохотеков создавали самые превосходные из людей, именно поэтому архотеки превосходят всех и вся.</li>
@@ -323,8 +323,6 @@
     <li>deity_made(deity0_gender==None)->сделало</li>
     <li>deity_made(deity0_gender==Male)->сделал</li>
     <li>deity_made(deity0_gender==Female)->сделала</li>
-    <li>foeLeader_this(foeLeader_gender==Male)->этого</li>
-    <li>foeLeader_this(foeLeader_gender==Female)->эту</li>
     <li>founder_warrior(founder_gender==Male)->Воин</li>
     <li>founder_warrior(founder_gender==Female)->Воительница</li>
     <li>founder_used(founder_gender==Male)->использовал</li>
