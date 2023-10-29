@@ -87,9 +87,8 @@
     <li>place_summary->планета-свалка</li>
     <li>place_summary_prepof->с</li>
     <li>place_summary_prepon->на</li>
-    <li>place_community->укреплённый аванпост мусорщиков</li>
-    <li>place_community->станция по переработке дождевой воды</li>
-    <li>place_community->город мусорщиков</li>
+    <li>place_community->[place_community_in]</li>
+    <li>place_community(p=2)->[place_community_on]</li>
     <li>place_community_on->укреплённый аванпост мусорщиков</li>
     <li>place_community_on->станция по переработке дождевой воды</li>
     <li>place_community_in->город мусорщиков</li>
@@ -332,10 +331,8 @@
     <li>place_summary->тихий аграрный мир</li>
     <li>place_summary_prepof->с</li>
     <li>place_summary_prepon->на</li>
-    <li>place_community->ратуша</li>
-    <li>place_community->завод удобрений</li>
-    <li>place_community->мегаэлеватор</li>
-    <li>place_community->водопроводная колонка</li>
+    <li>place_community->[place_community_in]</li>
+    <li>place_community(p=3)->[place_community_on]</li>
     <li>place_community_in->ратуша</li>
     <li>place_community_on->завод удобрений</li>
     <li>place_community_on->мегаэлеватор</li>
@@ -577,9 +574,8 @@
     <li>place_summary->райский тропический лес</li>
     <li>place_summary_prepof->из</li>
     <li>place_summary_prepon->в</li>
-    <li>place_community->клиника аугментации</li>
-    <li>place_community->гипер-яхта</li>
-    <li>place_community->стадион с нулевой гравитацией</li>
+    <li>place_community->[place_community_in]</li>
+    <li>place_community(p=2)->[place_community_on]</li>
     <li>place_community_in->клиника аугментации</li>
     <li>place_community_on->гипер-яхта</li>
     <li>place_community_on->стадион с нулевой гравитацией</li>
@@ -700,9 +696,8 @@
     <li>place_summary->тусклый вулканический мир</li>
     <li>place_summary_prepof->с</li>
     <li>place_summary_prepon->на</li>
-    <li>place_community->базальтовый остров</li>
-    <li>place_community->город у кратерного озера</li>
-    <li>place_community->деревня-дирижабль</li>
+    <li>place_community(p=2)->[place_community_in]</li>
+    <li>place_community->[place_community_on]</li>
     <li>place_community_on->базальтовый остров</li>
     <li>place_community_in->город у кратерного озера</li>
     <li>place_community_in->деревня-дирижабль</li>
@@ -816,9 +811,8 @@
     <li>place_summary->покрытая дремучими лесами луна</li>
     <li>place_summary_prepof->с</li>
     <li>place_summary_prepon->на</li>
-    <li>place_community->переоборудованный десантный корабль</li>
-    <li>place_community->лагерь с энергетическим барьером</li>
-    <li>place_community->центр связи</li>
+    <li>place_community(p=2)->[place_community_in]</li>
+    <li>place_community->[place_community_on]</li>
     <li>place_community_on->переоборудованный десантный корабль</li>
     <li>place_community_in->лагерь с энергетическим барьером</li>
     <li>place_community_in->центр связи</li>
@@ -878,9 +872,8 @@
     <li>place_summary->утопический мир</li>
     <li>place_summary_prepof->с</li>
     <li>place_summary_prepon->на</li>
-    <li>place_community->медицинский институт</li>
-    <li>place_community->космический лифт</li>
-    <li>place_community->завод робототехники</li>
+    <li>place_community->[place_community_in]</li>
+    <li>place_community(p=2)->[place_community_on]</li>
     <li>place_community_in->медицинский институт</li>
     <li>place_community_on->космический лифт</li>
     <li>place_community_on->завод робототехники</li>
@@ -943,9 +936,8 @@
     <li>place_summary->океанический мир</li>
     <li>place_summary_prepof->с</li>
     <li>place_summary_prepon->на</li>
-    <li>place_community->торговый атолл</li>
-    <li>place_community->плавучая деревня</li>
-    <li>place_community->завод по переработке ламинарии</li>
+    <li>place_community->[place_community_in]</li>
+    <li>place_community(p=2)->[place_community_on]</li>
     <li>place_community_on->торговый атолл</li>
     <li>place_community_in->плавучая деревня</li>
     <li>place_community_on->завод по переработке ламинарии</li>
@@ -1008,9 +1000,8 @@
     <li>place_summary->богатая минералами иссякшая планета</li>
     <li>place_summary_prepof->с</li>
     <li>place_summary_prepon->на</li>
-    <li>place_community->опустошённая шахта</li>
-    <li>place_community->завод по переработке руды</li>
-    <li>place_community->столовая с питательной пастой</li>
+    <li>place_community(p=2)->[place_community_in]</li>
+    <li>place_community->[place_community_on]</li>
     <li>place_community_in->опустошённая шахта</li>
     <li>place_community_on->завод по переработке руды</li>
     <li>place_community_in->столовая с питательной пастой</li>
@@ -1128,9 +1119,8 @@
     <li>place_summary->кишащий динозаврами степной мир</li>
     <li>place_summary_prepof->с</li>
     <li>place_summary_prepon->на</li>
-    <li>place_community->торговый аванпост</li>
-    <li>place_community->палаточный городок</li>
-    <li>place_community->курган мамонтов</li>
+    <li>place_community->[place_community_in]</li>
+    <li>place_community(p=2)->[place_community_on]</li>
     <li>place_community_on->торговый аванпост</li>
     <li>place_community_in->палаточный городок</li>
     <li>place_community_on->курган мамонтов</li>
