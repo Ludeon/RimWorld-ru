@@ -80,14 +80,14 @@
   -->
   <IdeologicalFounder.rules.rulesStrings>
     <li>story(priority=-999)-></li>
-    <li>setup->Среди прогнившего мира [founderName] [rp_founder_saw] всё, что было неправильно, и [rp_founder_created] собственное движение.</li>
-    <li>setup->[rp_founder_struck] пороками мира, [founderName] [rp_founder_studied] историю и философию и [rp_founder_discovered] новую истину, ставшую нашим ориентиром.</li>
-    <li>setup->Однажды, трудясь на работе, [founderName] [rp_founder_experienced] озарение. [founder_pronoun] [rp_founder_dropped] инструменты и [rp_founder_started] нести своё слово среди других рабочих.</li>
-    <li>setup->Двадцать лет [founderName] [rp_founder_was_sitting] на скамейке в парке, размышляя о судьбах мира. [founder_pronoun] [rp_founder_reflected] своё видение в книге, ставшей нашим священным писанием.</li>
+    <li>setup->Среди прогнившего мира [founderName] [founder_saw] всё, что было неправильно, и [founder_created] собственное движение.</li>
+    <li>setup->[founder_struck] пороками мира, [founderName] [founder_studied] историю и философию и [founder_discovered] новую истину, ставшую нашим ориентиром.</li>
+    <li>setup->Однажды, трудясь на работе, [founderName] [founder_experienced] озарение. [founder_pronoun] [founder_dropped] инструменты и [founder_started] нести своё слово среди других рабочих.</li>
+    <li>setup->Двадцать лет [founderName] [founder_was_sitting] на скамейке в парке, размышляя о судьбах мира. [founder_pronoun] [founder_reflected] своё видение в книге, ставшей нашим священным писанием.</li>
     <li>story(uses=1,priority=-10)->[memberNamePlural] не поняли бы значение [memeConcept] без наставлений [founderName].</li>
     <li>story(uses=1,priority=-10)->Речь [founderName] во время ритуала [ritualName] многих вдохновила на жизнь, основа которой — идея [memeConcept].</li>
     <li>story(uses=1,priority=-10)->Никто не понимал идею [memeConcept] лучше, чем [founderName], за что первые [memberNamePlural] наделили [founder_possessive] титулом «[leaderTitle]».</li>
-    <li>story(uses=1,priority=-10)->[founderName] везде [rp_founder_carried] с собой реликвию «[relic0_name]», потому что [relic0_thingDef_label] — лучшее напоминание людям о том, как важна [memeAdjective_fem] жизнь.</li>
+    <li>story(uses=1,priority=-10)->[founderName] везде [founder_carried] с собой реликвию «[relic0_name]», потому что [relic0_thingDef_label] — лучшее напоминание людям о том, как важна [memeAdjective_fem] жизнь.</li>
     <li>founder_saw(founder_gender==Male)->увидел</li>
     <li>founder_saw(founder_gender==Female)->увидела</li>
     <li>founder_created(founder_gender==Male)->создал</li>
@@ -237,8 +237,8 @@
     <li>lessonIntro->Когда врач закончил своё ужасное дело, мне наконец стало понятно, что</li>
     <li>lessonIntro->С каждым годом, проведённым [place_summary_prepon] {lookup: [place_summary]; Case; 5} [place_name], мне становилось всё яснее, что</li>
     <li>lessonIntro->Вспоминая своё прошлое, я жалею об упущенной возможности прийти к осознанию, что</li>
-    <li>lessonIntro->Они все казались мне потерянными. Я [rp_founder_showed] им, что</li>
-    <li>lessonIntro->Они молили о праведном пути. Я [rp_founder_showed] им, что</li>
+    <li>lessonIntro->Они все казались мне потерянными. Я [founder_showed] им, что</li>
+    <li>lessonIntro->Они молили о праведном пути. Я [founder_showed] им, что</li>
     <li>thrownObject->книгу</li>
     <li>thrownObject->сэндвич</li>
     <li>thrownObject->игрушечную модель {lookup: [place_personalWeapon]; Case; 1}</li>
@@ -249,8 +249,8 @@
     <li>lessonReinforcement->Всё, что происходило дальше, являлось лишь подтверждением этому.</li>
     <li>lessonReinforcement->Это словно отпечатано в моём сознании.</li>
     <li>lessonReinforcement->Я этого никогда не забуду.</li>
-    <li>rp_founder_showed(founder_gender==Male)->показал</li>
-    <li>rp_founder_showed(founder_gender==Female)->показала</li>
+    <li>founder_showed(founder_gender==Male)->показал</li>
+    <li>founder_showed(founder_gender==Female)->показала</li>
   </IdeologicalLesson.rules.rulesStrings>
   
   <!-- EN:
