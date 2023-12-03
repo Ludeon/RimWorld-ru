@@ -325,19 +325,19 @@
   <!-- EN: {CHARGENOUN_plural} remaining -->
   <Stat_Thing_ReloadChargesRemaining_Name>Осталось {lookup: {CHARGENOUN_plural}; Case; 1}</Stat_Thing_ReloadChargesRemaining_Name>
   <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
-  <Stat_Thing_ReloadChargesRemaining_Desc>Количество оставшихся {lookup: {CHARGENOUN_plural}; Case; 1} для данного объекта. Когда они закончатся, использование станет недоступно.</Stat_Thing_ReloadChargesRemaining_Desc>
+  <Stat_Thing_ReloadChargesRemaining_Desc>Количество оставшихся {lookup: {CHARGENOUN_plural}; Case; 1}. Когда они закончатся, использование станет недоступно.</Stat_Thing_ReloadChargesRemaining_Desc>
   <!-- EN: {CHARGENOUN_plural} -->
   <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
   <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
-  <Stat_Thing_ReloadMaxCharges_Desc>Максимальное количество {lookup: {CHARGENOUN_plural}; Case; 1} у данного объекта.</Stat_Thing_ReloadMaxCharges_Desc>
+  <Stat_Thing_ReloadMaxCharges_Desc>Максимальное количество {lookup: {CHARGENOUN_plural}; Case; 1}.</Stat_Thing_ReloadMaxCharges_Desc>
   <!-- EN: {CHARGENOUN} reload cost -->
-  <Stat_Thing_ReloadRefill_Name>Стоимость восполнения всех {lookup: {CHARGENOUN_plural}; Case; 1}</Stat_Thing_ReloadRefill_Name>
+  <Stat_Thing_ReloadRefill_Name>Стоимость всех {lookup: {CHARGENOUN_plural}; Case; 1}</Stat_Thing_ReloadRefill_Name>
   <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
-  <Stat_Thing_ReloadRefill_Desc>Необходимое количество предметов для полной перезарядки данного объекта.\n\nДанный объект можно перезарядить до того, как заряды кончатся, однако стоимость будет такой же, как если бы заряды кончились.</Stat_Thing_ReloadRefill_Desc>
+  <Stat_Thing_ReloadRefill_Desc>Необходимое количество ресурса для полной перезарядки.\n\nПредмет можно перезарядить до того, как {CHARGENOUN_plural} кончатся, однако стоимость будет такой же, как если бы {CHARGENOUN_plural} кончились.</Stat_Thing_ReloadRefill_Desc>
   <!-- EN: Reload cost per {CHARGENOUN} -->
-  <Stat_Thing_ReloadPerCharge_Name>Стоимость восполнения 1 {lookup: {CHARGENOUN}; Case; 1}</Stat_Thing_ReloadPerCharge_Name>
+  <Stat_Thing_ReloadPerCharge_Name>Стоимость 1 {lookup: {CHARGENOUN}; Case; 1}</Stat_Thing_ReloadPerCharge_Name>
   <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
-  <Stat_Thing_ReloadPerCharge_Desc>Необходимое количество предметов для перезарядки 1 {lookup: {CHARGENOUN}; Case; 1}. Можно перезарядить сразу несколько {lookup: {CHARGENOUN_plural}; Case; 1}.</Stat_Thing_ReloadPerCharge_Desc>
+  <Stat_Thing_ReloadPerCharge_Desc>Необходимое количество ресурса для перезарядки 1 {lookup: {CHARGENOUN}; Case; 1}. Можно перезарядить сразу несколько {lookup: {CHARGENOUN_plural}; Case; 1}.</Stat_Thing_ReloadPerCharge_Desc>
   <!-- EN: Vanish on exhaust -->
   <Stat_Thing_ReloadDestroyOnEmpty_Name>Исчезает при опустошении</Stat_Thing_ReloadDestroyOnEmpty_Name>
   <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
