@@ -29,10 +29,10 @@
     <li>intro(tag=meme_Guilty)           ->[memberNamePlural] с [place_summary] [place_name] пренебрегали служением [deity0_name], и это привело к тому, что [altarName] в [deity0_possessive] [altarRoomLabel] был разрушен.</li>
     <li>conflict(tag=meme_Guilty)        ->[foeLeader] одолжил денег [memberNamePlural], тратившим их на мирские утехи и позабывшим важность [memeConcept].</li>
     <li>founderJoin(tag=meme_Guilty)     ->[place_job] [founderName] [founder_enjoyed] милостью [foeLeader]. Во время [ritualName] [founder_pronoun] [founder_saw], как [foeSoldiers] [foeLeader] тайно убили [memberNamePlural] с помощью [place_personalWeapon]. [founderName] наконец [founder_understood] смысл [memeConcept], и [founder_recieved] благословение [deity0_name].</li>
-    <li>victory(tag=meme_Guilty)         ->Чтобы искупить половину их грехов, [founderName] [founder_gathered] половину последователей [deity0_name] в [place_community], активировал [place_massWeapon], и [founder_died] вместе с ними. Искупление второй половины грехов всё ещё не закончено.</li>
+    <li>victory(tag=meme_Guilty)         ->Чтобы искупить половину их грехов, [founderName] [guilty_founder_gathered] половину последователей [deity0_name] в [place_community], активировал [place_massWeapon], и [founder_died] вместе с ними. Искупление второй половины грехов всё ещё не закончено.</li>
     <li>setup(tag=meme_Guilty)           ->Увидев порочность своего общества, новое поколение праведно пыталось уничтожить систему, основанную на угнетении.</li>
-    <li>story(uses=1,tag=meme_Guilty)    ->[founderName] [founder_gathered] последователей и [founder_showed] им зло, на котором строилась их история, и вину, которая была за это на их плечах. А затем [founder_demanded], чтобы они раскаялись и исправились.</li>
-    <li>lessonIntro(tag=meme_Guilty)         ->Наши земли, наши технологии, даже наши знания и мудрость — всё это украдено. Благодаря воровству я [founder_learned], что</li>
+    <li>story(uses=1,tag=meme_Guilty)    ->[founderName] [guilty_founder_gathered] последователей и [guilty_founder_showed] им зло, на котором строилась их история, и вину, которая была за это на их плечах. А затем [guilty_founder_demanded], чтобы они раскаялись и исправились.</li>
+    <li>lessonIntro(tag=meme_Guilty)         ->Наши земли, наши технологии, даже наши знания и мудрость — всё это украдено. Благодаря воровству я [guilty_founder_learned], что</li>
     <li>lesson(tag=meme_Guilty)              ->мы страдаем только потому, что заслужили это своими деяниями</li>
     <li>lessonReinforcement(tag=meme_Guilty) ->Возможно, если ты раскаешься в наших преступлениях, то по-настоящему сможешь это понять.</li>
     <li>archistBasis(tag=meme_Guilty)    ->Архотеки — это дети человечества. И они знают, что мы были плохими родителями.</li>
@@ -54,16 +54,16 @@
     <li>founder_understood(founder_gender==Female)->осознала</li>
     <li>founder_recieved(founder_gender==Male)->получил</li>
     <li>founder_recieved(founder_gender==Female)->получила</li>
-    <li>founder_gathered(founder_gender==Male)->собрал</li>
-    <li>founder_gathered(founder_gender==Female)->собрала</li>
+    <li>guilty_founder_gathered(founder_gender==Male)->собрал</li>
+    <li>guilty_founder_gathered(founder_gender==Female)->собрала</li>
     <li>founder_died(founder_gender==Male)->умер</li>
     <li>founder_died(founder_gender==Female)->умерла</li>
-    <li>founder_showed(founder_gender==Male)->показал</li>
-    <li>founder_showed(founder_gender==Female)->показала</li>
-    <li>founder_demanded(founder_gender==Male)->потребовал</li>
-    <li>founder_demanded(founder_gender==Female)->потребовала</li>
-    <li>founder_learned(founder_gender==Male)->понял</li>
-    <li>founder_learned(founder_gender==Female)->поняла</li>
+    <li>guilty_founder_showed(founder_gender==Male)->показал</li>
+    <li>guilty_founder_showed(founder_gender==Female)->показала</li>
+    <li>guilty_founder_demanded(founder_gender==Male)->потребовал</li>
+    <li>guilty_founder_demanded(founder_gender==Female)->потребовала</li>
+    <li>guilty_founder_learned(founder_gender==Male)->понял</li>
+    <li>guilty_founder_learned(founder_gender==Female)->поняла</li>
   </Guilty.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->low</li>
@@ -176,8 +176,8 @@
     <li>conflict(tag=meme_Loyalist)        ->[foeLeader] заслал [foeSoldiers] как шпионов в ряды [memberNamePlural], дабы разделить их.</li>
     <li>founderJoin(tag=meme_Loyalist)     ->[founderName], [memeAdjective_masc] [place_job], [founder_suffered] пыткам от [foeSoldiers], но [founder_refused] клясться в верности [foeLeader].</li>
     <li>victory(tag=meme_Loyalist)         ->С силой, дарованной [deity0_name], [founderName] и [memberNamePlural] были неразделимы. Они одолели [foeSoldiers] с помощью [place_personalWeapon] и изгнали [foeLeader] с [place_name].</li>
-    <li>setup(tag=meme_Loyalist)           ->Движение, которое [founder_founded] [founderName], с самого начала притеснялось правительством и другими конфессиями. Но [founderName] никогда не [founder_allowed] гневу взять над собой верх, никогда не [founder_commited] злодейств, которые себе позволяли другие, однако и от сражений никогда не [founder_ran].</li>
-    <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] [founder_punished] всех, кто хотел навредить неверующим, равно как и тех, кто приглашал их в свой дом.</li>
+    <li>setup(tag=meme_Loyalist)           ->Движение, которое [loyalist_founder_founded] [founderName], с самого начала притеснялось правительством и другими конфессиями. Но [founderName] никогда не [loyalist_founder_allowed] гневу взять над собой верх, никогда не [loyalist_founder_commited] злодейств, которые себе позволяли другие, однако и от сражений никогда не [loyalist_founder_ran].</li>
+    <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] [loyalist_founder_punished] всех, кто хотел навредить неверующим, равно как и тех, кто приглашал их в свой дом.</li>
     <li>lessonIntro(tag=meme_Loyalist)         ->[foeLeader] обменивался любезностями со своими врагами, оставляя своих {lookup: [foeSoldiers]; Case; 1} умирать на поле боя. Мною была дана клятва никогда не быть похожим на н[foeLeader_possessive], ибо известно, что</li>
     <li>lesson(tag=meme_Loyalist)              ->ты любишь своих друзей только потому, что не любишь своих врагов</li>
     <li>lesson(tag=meme_Loyalist)              ->любить всех — значит не любить никого</li>
@@ -205,16 +205,16 @@
     <li>founder_suffered(founder_gender==Female)->подвергалась</li>
     <li>founder_refused(founder_gender==Male)->отказался</li>
     <li>founder_refused(founder_gender==Female)->отказалась</li>
-    <li>founder_founded(founder_gender==Male)->основал</li>
-    <li>founder_founded(founder_gender==Female)->основала</li>
-    <li>founder_allowed(founder_gender==Male)->позволял</li>
-    <li>founder_allowed(founder_gender==Female)->позволяла</li>
-    <li>founder_commited(founder_gender==Male)->совершал</li>
-    <li>founder_commited(founder_gender==Female)->совершала</li>
-    <li>founder_ran(founder_gender==Male)->бежал</li>
-    <li>founder_ran(founder_gender==Female)->бежала</li>
-    <li>founder_punished(founder_gender==Male)->наказывал</li>
-    <li>founder_punished(founder_gender==Female)->наказывала</li>
+    <li>loyalist_founder_founded(founder_gender==Male)->основал</li>
+    <li>loyalist_founder_founded(founder_gender==Female)->основала</li>
+    <li>loyalist_founder_allowed(founder_gender==Male)->позволял</li>
+    <li>loyalist_founder_allowed(founder_gender==Female)->позволяла</li>
+    <li>loyalist_founder_commited(founder_gender==Male)->совершал</li>
+    <li>loyalist_founder_commited(founder_gender==Female)->совершала</li>
+    <li>loyalist_founder_ran(founder_gender==Male)->бежал</li>
+    <li>loyalist_founder_ran(founder_gender==Female)->бежала</li>
+    <li>loyalist_founder_punished(founder_gender==Male)->наказывал</li>
+    <li>loyalist_founder_punished(founder_gender==Female)->наказывала</li>
   </Loyalist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->loyal</li>
@@ -295,9 +295,9 @@
     <li>conflict(tag=meme_Supremacist)        ->[foeLeader] принял закон, воспрещающий занимать [memberNamePlural] высшие позиции на [place_name].</li>
     <li>founderJoin(tag=meme_Supremacist)     ->[founder_warrior] по имени [founderName] [founder_used] [place_massWeapon], чтобы уничтожить [place_community]. [deity0_name] [deity_saw] безжалостность [founderName] и [deity_made] [founder_possessive] [founder_ruler] всего человечества.</li>
     <li>victory(tag=meme_Supremacist)         ->[founderName] [founder_destroyed] столицу [place_name] с помощью [place_massWeapon], убив при этом [foeLeader]. [founder_pronoun] [founder_took] место правителя [place_name] и всей вселенной вокруг.</li>
-    <li>setup(tag=meme_Supremacist)           ->[founderName] [founder_created] армию, распространявшую [founder_possessive] власть и величие. Те, кто отказывался подчиняться, всё равно попадали под [founder_possessive] праведное правление.</li>
-    <li>story(uses=1,tag=meme_Supremacist)    ->Когда [founderName] [founder_ordered] всем чужакам повиноваться, первый же отказавшийся город вместе со своими жителями был стёрт с лица земли при помощи [place_massWeapon].</li>
-    <li>lessonIntro(tag=meme_Supremacist)         ->Я [founder_looked] на этого {lookup: [foeLeader]; Case; 3} с [foeLeader_possessive] жалкими {lookup: [foeSoldiers]; Case; 4} и с [foeLeader_possessive] смешной властью. Я [founder_tried] убедить [foeLeader_possessive], что</li>
+    <li>setup(tag=meme_Supremacist)           ->[founderName] [supremacist_founder_created] армию, распространявшую [founder_possessive] власть и величие. Те, кто отказывался подчиняться, всё равно попадали под [founder_possessive] праведное правление.</li>
+    <li>story(uses=1,tag=meme_Supremacist)    ->Когда [founderName] [supremacist_founder_ordered] всем чужакам повиноваться, первый же отказавшийся город вместе со своими жителями был стёрт с лица земли при помощи [place_massWeapon].</li>
+    <li>lessonIntro(tag=meme_Supremacist)         ->Я [supremacist_founder_looked] на этого {lookup: [foeLeader]; Case; 3} с [foeLeader_possessive] жалкими {lookup: [foeSoldiers]; Case; 4} и с [foeLeader_possessive] смешной властью. Я [supremacist_founder_tried] убедить [foeLeader_possessive], что</li>
     <li>lesson(tag=meme_Supremacist)              ->у нас уже давно достаточно сил, чтобы по праву господствовать в этой вселенной</li>
     <li>lessonReinforcement(tag=meme_Supremacist) ->Именно поэтому мы гордо выражаем силу наших сердец языком силы.</li>
     <li>archistBasis(tag=meme_Supremacist)    ->Арохотеков создавали самые превосходные из людей, именно поэтому архотеки превосходят всех и вся.</li>
@@ -333,14 +333,14 @@
     <li>founder_destroyed(founder_gender==Female)->уничтожила</li>
     <li>founder_took(founder_gender==Male)->занял</li>
     <li>founder_took(founder_gender==Female)->заняла</li>
-    <li>founder_created(founder_gender==Male)->создал</li>
-    <li>founder_created(founder_gender==Female)->создала</li>
-    <li>founder_ordered(founder_gender==Male)->повелел</li>
-    <li>founder_ordered(founder_gender==Female)->повелела</li>
-    <li>founder_looked(founder_gender==Male)->взглянул</li>
-    <li>founder_looked(founder_gender==Female)->взглянула</li>
-    <li>founder_tried(founder_gender==Male)->попытался</li>
-    <li>founder_tried(founder_gender==Female)->попыталась</li>
+    <li>supremacist_founder_created(founder_gender==Male)->создал</li>
+    <li>supremacist_founder_created(founder_gender==Female)->создала</li>
+    <li>supremacist_founder_ordered(founder_gender==Male)->повелел</li>
+    <li>supremacist_founder_ordered(founder_gender==Female)->повелела</li>
+    <li>supremacist_founder_looked(founder_gender==Male)->взглянул</li>
+    <li>supremacist_founder_looked(founder_gender==Female)->взглянула</li>
+    <li>supremacist_founder_tried(founder_gender==Male)->попытался</li>
+    <li>supremacist_founder_tried(founder_gender==Female)->попыталась</li>
   </Supremacist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->supreme</li>
