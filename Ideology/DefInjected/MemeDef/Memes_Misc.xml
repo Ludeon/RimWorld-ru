@@ -36,7 +36,7 @@
   -->
   <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_AnimalPersonhood)        ->[animalPersonhood_deity0_breathed] [deity0_name] жизнь на {lookup: [place_summary]; Case; 5} [place_name] во всё сущее. И сотворены в устремлении этом были [sacredAnimalList] и человек. И [animalPersonhood_deity0_raised] [deity0_name] их в согласии и сплочении, ибо все они были отпрыски божьи. [andItWasSo]</li>
-    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->И [so] [animalPersonhood_deity0_brought] [deity0_name] вместе животных всех и людей всех, {lookup: [place_summary]; Case; 3} [place_name] населявших, на сборище великое.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[andBehold] [animalPersonhood_deity0_brought] [deity0_name] вместе животных всех и людей всех, {lookup: [place_summary]; Case; 3} [place_name] населявших, на сборище великое.</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_blessed] [deity0_name] [place_summary] [place_name], где жили [sacredAnimalListEnd], и [deity0_taught] людей этого места почитать этих животных.</li>
     <li>conflict(tag=meme_AnimalPersonhood)        ->И приказал злой [foeLeader] начать охоту на диких животных, и [foeSoldiers] [foeLeader_possessive] взяли в руки [place_personalWeapon].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->Но [deity0_came] [deity0_name] к [place_job] по имени [founderName] [revelationAdverb] и [deity0_spoke] про [veneratedAnimal]. И [founder_was] [founderName] [veneratedAnimal], и [veneratedAnimal] был [founderName], и [animalPersonhood_founder_understood] [founder_pronoun] замысел [deity0_name].</li>
@@ -185,7 +185,7 @@
   -->
   <Blindsight.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Blindsight)        ->[blindsight_deity0_looked_over] [deity0_name] в туман пустоты на протяжение вечности, и не было в нём ничего. Тогда [blindsight_deity0_tore_out] [deity0_pronoun] глаза свои, и родилась вселенная в разуме [deity0_possessive]. [andItWasSo]</li>
-    <li>episode(uses=1,tag=meme_Blindsight)  ->И [so] спросил бедняк слепой [deity0_possessive]: «Почто [blindsight_deity0_forsaken] Ты меня? Я не могу даже увидеть творения Твоего». И [blindsight_deity0_replied] [deity0_name]: «Не меньше видишь ты, но больше, ибо истина Моя сокрыта в разуме твоём».</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->[andBehold] спросил бедняк слепой [deity0_possessive]: «Почто [blindsight_deity0_forsaken] Ты меня? Я не могу даже увидеть творения Твоего». И [blindsight_deity0_replied] [deity0_name]: «Не меньше видишь ты, но больше, ибо истина Моя сокрыта в разуме твоём».</li>
     <li>intro(tag=meme_Blindsight)           ->[deity0_sent] [deity0_type] [deity0_name] мор ослепляющий на жителей [place_summary] [place_name], заставив их понять, что зрение — лишь помеха для божественного познания.</li>
     <li>conflict(tag=meme_Blindsight)        ->И потребовал [foeLeader], чтобы все [memberNamePlural] смотрели [foeLeader_possessive] пропаганду каждый день. И ослепляли себя многие в знак протеста.</li>
     <li>founderJoin(tag=meme_Blindsight)     ->[place_job] по имени [founderName] потерял зрение своё, когда [founder_saved] [founder_pronoun] [memberName] от [foeSoldiers] [foeLeader]. Лишь тогда [founderName] по-настоящему [blindsight_founder_could] увидеть всю тиранию [foeLeader].</li>
@@ -472,7 +472,7 @@
   -->
   <Darkness.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Darkness)        ->[darkness_deity0_cloaked] [deity0_name] тьмой вселенную, и [darkness_deity0_placed] [deity0_pronoun] человека внутри неё. Так [darkness_deity0_shared] [deity0_name] тьму с родом человеческим. [andItWasSo]</li>
-    <li>episode(uses=1,tag=meme_Darkness)  ->И [so] [darkness_deity0_created] [deity0_name] свет, и [darkness_deity0_said]: «Да будет свет, чтобы чрез тень, которую он порождает, смог человек познать Меня». [andItWasSo]</li>
+    <li>episode(uses=1,tag=meme_Darkness)  ->[andBehold] [darkness_deity0_created] [deity0_name] свет, и [darkness_deity0_said]: «Да будет свет, чтобы чрез тень, которую он порождает, смог человек познать Меня». [andItWasSo]</li>
     <li>intro(tag=meme_Darkness)           ->[deity0_sent] [deity0_type] [deity0_name] десятилетнее затмение, чтобы заставить первых поселенцев на [place_summary] [place_name] понять, что истина [deity0_name] лежит во тьме.</li>
     <li>conflict(tag=meme_Darkness)        ->[foeLeader], что всегда боялся тьмы, возвёл солнечное зеркало, чтобы принести вечный свет на [place_name].</li>
     <li>founderJoin(tag=meme_Darkness)     ->Но [founder_was_born] [founder_prophet] [founderName] во тьме на [place_name], и во тьме [darkness_founder_lived] всю свою жизнь, и голос [founder_possessive] нёс мудрость [deity0_name].</li>
@@ -1169,7 +1169,7 @@
   -->
   <Proselytizer.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Proselytizer)        ->[proselytizer_deity0_lifted_up] [deity0_name] десницу свою над несколькими избранными из смертных и [proselytizer_deity0_send] их нести слово [deity0_possessive]. И стали они нести слово [deity0_possessive], дабы все уверовали чрез них.</li>
-    <li>episode(uses=1,tag=meme_Proselytizer)  ->И [so] собрались [memberNamePlural] вместе все, и [proselytizer_deity0_said] [deity0_name] им: «Ступайте и распространяйте слово Моё по всем уголкам вселенной».</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[andBehold] собрались [memberNamePlural] вместе все, и [proselytizer_deity0_said] [deity0_name] им: «Ступайте и распространяйте слово Моё по всем уголкам вселенной».</li>
     <li>intro(tag=meme_Proselytizer)           ->Построили [memberNamePlural] великий [altarName] на [place_summary] [place_name], чтобы больше людей услышали слово [deity0_name] божественное.</li>
     <li>conflict(tag=meme_Proselytizer)        ->И [foeLeader] коварный, чтобы отвергнуть слово [deity0_name], приказал своим [foeSoldiers] отрезать языки у всех, кто говорит о [deity0_type].</li>
     <li>founderJoin(tag=meme_Proselytizer)     ->Но [deity0_blessed] [deity0_name] для [place_job] по имени [founderName] харизму великую, и никто не мог отвернуться от н[founder_possessive], когда [founder_pronoun] говорил.</li>
@@ -1285,7 +1285,7 @@
   -->
   <Raider.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Raider)        ->Бесконечной была война между божествами, но [raider_deity0_rose] [deity0_name] надо всеми прочими в умении своём карать и разрушать, и затрепетали духи слабые во страхе. [andItWasSo]</li>
-    <li>episode(uses=1,tag=meme_Raider)  ->И [so] [raider_deity0_looked_around] [deity0_name] вокруг, и [raider_deity0_saw] [deity0_pronoun] слабых, угнетённых и презренных, и [raider_deity0_slew] всех разом в сияющем великолепии своём.</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[andBehold] [raider_deity0_looked_around] [deity0_name] вокруг, и [raider_deity0_saw] [deity0_pronoun] слабых, угнетённых и презренных, и [raider_deity0_slew] всех разом в сияющем великолепии своём.</li>
     <li>intro(tag=meme_Raider)           ->[place_summary] [place_name] изначально был лагерем пиратским. И [deity0_ruled] там [deity0_name], изгнав всю прочую власть.</li>
     <li>conflict(tag=meme_Raider)        ->И попытался [foeLeader] заставить всех прекратить красть и грабить, и объявил себя врагом [deity0_self] [deity0_name].</li>
     <li>founderJoin(tag=meme_Raider)     ->Но [founder_arose] великий пират по имени [founderName], и с бандой своей [founder_began] [founder_pronoun] безжалостно грабить и опустошать все лагери, где были [foeSoldiers] [foeLeader].</li>
@@ -1439,7 +1439,7 @@
   -->
   <Rancher.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Rancher)        ->[rancher_deity0_created] [deity0_name] животных, и [rancher_deity0_saw] [deity0_pronoun], что это хорошо. И [rancher_deity0_created2] [deity0_name] человека, чтобы растил он животных в любви и заботе, и чтобы забивал он животных во славу творца своего. [andItWasSo]</li>
-    <li>episode(uses=1,tag=meme_Rancher)  ->И [so] [rancher_deity0_settled] [deity0_name] по суше зверей и животных благородных, и [rancher_deity0_said]: «Да возьмёте вы зверей и животных благородных, которых [rancher_deity0_created] Я, и да будете исполнены благодатью Моей чрез них». [andItWasSo]</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[andBehold] [rancher_deity0_settled] [deity0_name] по суше зверей и животных благородных, и [rancher_deity0_said]: «Да возьмёте вы зверей и животных благородных, которых [rancher_deity0_created] Я, и да будете исполнены благодатью Моей чрез них». [andItWasSo]</li>
     <li>intro(tag=meme_Rancher)           ->Первые из тех, кто разводил [ranchingAnimal] на [place_summary] [place_name], построили великий [altarName] [deity0_name].</li>
     <li>conflict(tag=meme_Rancher)        ->И презрел могущественный [foeLeader] всех [memberNamePlural] и их пути, и скупил все луга, чтобы выращивать[Vegetable].</li>
     <li>founderJoin(tag=meme_Rancher)     ->Но [founder_born] спаситель, [founderName], весенним утром в простом хлеву средь животных, а родителями [founder_possessive] были [rancherParent1] и [rancherParent2].</li>
@@ -1745,7 +1745,7 @@
   -->
   <TreeConnection.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_TreeConnection)        ->[treeConnection_deity0_rooted] [deity0_name] дерево в землю прочно, да [treeConnection_deity0_made] его расти к небесам неустанно. Так [treeConnection_deity0_gave] [deity0_pronoun] заповедь первую о том, как познать [deity0_possessive]. И [treeConnection_deity0_sprouted] [deity0_name] дерево всякое прочее по завету этому. [andItWasSo]</li>
-    <li>episode(uses=1,tag=meme_TreeConnection)  ->И [so] [treeConnection_deity0_planted] [deity0_name] леса заповедные, и освежали они воздух, которым люди дышали, и создавали они полог из ветвей, под которым люди укрывались, и были они житницей, где люди пропитание находили.</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->[andBehold] [treeConnection_deity0_planted] [deity0_name] леса заповедные, и освежали они воздух, которым люди дышали, и создавали они полог из ветвей, под которым люди укрывались, и были они житницей, где люди пропитание находили.</li>
     <li>intro(tag=meme_TreeConnection)           ->Когда первые [memberNamePlural] пришли на [place_summary] [place_name], они посадили священную рощу, где [tree_grew], и где они могли бы воздавать хвалу [deity0_type] [deity0_name].</li>
     <li>conflict(tag=meme_TreeConnection)        ->И вырубил алчный [foeLeader] множество лесов для своих ферм и фабрик, и плакали [memberNamePlural] о деревьях убитых.</li>
     <li>founderJoin(tag=meme_TreeConnection)     ->Но [founder_born] [founder_prophet] [founderName] чудесным образом в дереве на [place_name], и в ветвях [old_tree] [founder_possessive] нашли родители.</li>
@@ -1877,7 +1877,7 @@
   -->
   <Tunneler.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Tunneler)        ->[tunneler_deity0_born] [deity0_name] во чреве мира, глубоко под толщей земли. И [tunneler_deity0_saw] [deity0_pronoun], что не [tunneler_deity0_lone] средь ущелий и тоннелей глубочайших, и [tunneler_deity0_blessed] тех, кто разделял с н[deity0_objective] колыбель [deity0_possessive]. [andItWasSo]</li>
-    <li>episode(uses=1,tag=meme_Tunneler)  ->И [so] [tunneler_deity0_filled] [deity0_name] недра горные ископаемыми полезными и ресурсами ценными в дар тем, кто достаточно мудр, чтобы проникнуть вглубь и стать ближе к н[deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[andBehold] [tunneler_deity0_filled] [deity0_name] недра горные ископаемыми полезными и ресурсами ценными в дар тем, кто достаточно мудр, чтобы проникнуть вглубь и стать ближе к н[deity0_objective].</li>
     <li>intro(tag=meme_Tunneler)           ->Когда первые поселенцы прибыли на [place_summary] [place_name], [deity0_created] [deity0_type] [deity0_name] сильнейшую солнечную вспышку, чтобы заставить их уйти под землю, чтобы они могли услышать мудрость [deity0_possessive] в тишине туннелей.</li>
     <li>conflict(tag=meme_Tunneler)        ->И решил клаустрофобный [foeLeader] применить [dangerousMining] для получения полезных ископаемых, и этим подверг опасности подземные дома, где жили [memberNamePlural].</li>
     <li>founderJoin(tag=meme_Tunneler)     ->Но [founder_born] [founder_prophet] [founderName] чудесным образом из камня на [place_name], и в покрытой грибком пещере [founder_possessive] нашли родители.</li>
