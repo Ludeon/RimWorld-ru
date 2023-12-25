@@ -37,11 +37,13 @@
     <li>place_job->пилот-испытатель</li>
     <li>place_job->специалист по продажам</li>
     <li>place_job->оператор 3D-принтера</li>
-    <li>place_job_fem->оператор строительного дрона</li>
-    <li>place_job_fem->менеджер</li>
-    <li>place_job_fem->пилот-испытатель</li>
-    <li>place_job_fem->специалист по продажам</li>
-    <li>place_job_fem->оператор 3D-принтера</li>
+    <li>place_job_fem->[place_job]</li>
+    <li>place_job_gen->оператора строительного дрона</li>
+    <li>place_job_gen->менеджера</li>
+    <li>place_job_gen->пилота-испытателя</li>
+    <li>place_job_gen->специалиста по продажам</li>
+    <li>place_job_gen->оператора 3D-принтера</li>
+    <li>place_job_gen_fem->[place_job_gen]</li>
     <li>place_personalWeapon->тазер</li>
     <li>place_personalWeapon->плазменный сварочный аппарат</li>
     <li>place_massWeapon->[anEMPAttack]</li>
@@ -95,6 +97,16 @@
     <li>place_job_fem->лудильщица</li>
     <li>place_job_fem->охранник</li>
     <li>place_job_fem->разборщица</li>
+    <li>place_job_gen->мусорщика</li>
+    <li>place_job_gen->торговца</li>
+    <li>place_job_gen->лудильщика</li>
+    <li>place_job_gen->охранника</li>
+    <li>place_job_gen->разборщика</li>
+    <li>place_job_gen_fem->мусорщицы</li>
+    <li>place_job_gen_fem->торговки</li>
+    <li>place_job_gen_fem->лудильщицы</li>
+    <li>place_job_gen_fem->охранника</li>
+    <li>place_job_gen_fem->разборщицы</li>
     <li>place_personalWeapon->ружьё-самопал</li>
     <li>place_personalWeapon->импровизированный меч</li>
     <li>place_massWeapon->импровизированная ядерная бомба</li>
@@ -148,6 +160,16 @@
     <li>place_job_fem->мусорщица</li>
     <li>place_job_fem->повариха</li>
     <li>place_job_fem->охотница на лягушек</li>
+    <li>place_job_gen->шахтёра</li>
+    <li>place_job_gen->грибного фермера</li>
+    <li>place_job_gen->мусорщика</li>
+    <li>place_job_gen->повара</li>
+    <li>place_job_gen->охотника на лягушек</li>
+    <li>place_job_gen_fem->шахтёра</li>
+    <li>place_job_gen_fem->грибной фермерши</li>
+    <li>place_job_gen_fem->мусорщицы</li>
+    <li>place_job_gen_fem->поварихи</li>
+    <li>place_job_gen_fem->охотницы на лягушек</li>
     <li>place_personalWeapon->кирка</li>
     <li>place_personalWeapon->гидравлический арбалет</li>
     <li>place_massWeapon->[seismicDevice]</li>
@@ -201,6 +223,16 @@
     <li>place_job_fem->искательница оазисов</li>
     <li>place_job_fem->собирательница кактусов</li>
     <li>place_job_fem->пастушка</li>
+    <li>place_job_gen->собирателя воды</li>
+    <li>place_job_gen->свежевальщика ящеров</li>
+    <li>place_job_gen->искателя оазисов</li>
+    <li>place_job_gen->собирателя кактусов</li>
+    <li>place_job_gen->пастуха</li>
+    <li>place_job_gen_fem->собирательницы воды</li>
+    <li>place_job_gen_fem->свежевальщицы ящеров</li>
+    <li>place_job_gen_fem->искательницы оазисов</li>
+    <li>place_job_gen_fem->собирательницы кактусов</li>
+    <li>place_job_gen_fem->пастушки</li>
     <li>place_personalWeapon->песчаная стрела</li>
     <li>place_personalWeapon->дубина-кактус</li>
     <li>place_massWeapon->вызванная архотеком песчаная буря</li>
@@ -259,6 +291,18 @@
     <li>place_job_fem->учительница</li>
     <li>place_job_fem->командир ополчения</li>
     <li>place_job_fem->пилот челнока</li>
+    <li>place_job_gen->техника водоочистного агрегата</li>
+    <li>place_job_gen->марикультуролога</li>
+    <li>place_job_gen->врача</li>
+    <li>place_job_gen->учителя</li>
+    <li>place_job_gen->командира ополчения</li>
+    <li>place_job_gen->пилота челнока</li>
+    <li>place_job_gen_fem->техника водоочистного агрегата</li>
+    <li>place_job_gen_fem->марикультуролога</li>
+    <li>place_job_gen_fem->врача</li>
+    <li>place_job_gen_fem->учительницы</li>
+    <li>place_job_gen_fem->командира ополчения</li>
+    <li>place_job_gen_fem->пилота челнока</li>
     <li>place_personalWeapon->автоматический пистолет</li>
     <li>place_personalWeapon->пулемёт</li>
     <li>place_massWeapon->ядерный гранатомёт</li>
@@ -321,6 +365,16 @@
     <li>place_job_fem->водитель транспорта</li>
     <li>place_job_fem->школьная учительница</li>
     <li>place_job_fem->инженер-эколог</li>
+    <li>place_job_gen->помощника на ферме</li>
+    <li>place_job_gen->сборщика фруктов</li>
+    <li>place_job_gen->водителя транспорта</li>
+    <li>place_job_gen->школьного учителя</li>
+    <li>place_job_gen->инженера-эколога</li>
+    <li>place_job_gen_fem->помощницы на ферме</li>
+    <li>place_job_gen_fem->сборщицы фруктов</li>
+    <li>place_job_gen_fem->водителя транспорта</li>
+    <li>place_job_gen_fem->школьной учительницы</li>
+    <li>place_job_gen_fem->инженера-эколога</li>
     <li>place_personalWeapon->винтовка</li>
     <li>place_personalWeapon->коса</li>
     <li>place_massWeapon->бомбы из удобрений</li>
@@ -377,6 +431,16 @@
     <li>place_job_fem->охотница за артефактами</li>
     <li>place_job_fem->знающая туннели</li>
     <li>place_job_fem->восстановительница артефактов</li>
+    <li>place_job_gen->фермера</li>
+    <li>place_job_gen->проводника</li>
+    <li>place_job_gen->охотника за артефактами</li>
+    <li>place_job_gen->знающего туннели</li>
+    <li>place_job_gen->восстановителя артефактов</li>
+    <li>place_job_gen_fem->фермерши</li>
+    <li>place_job_gen_fem->проводника</li>
+    <li>place_job_gen_fem->охотницы за артефактами</li>
+    <li>place_job_gen_fem->знающей туннели</li>
+    <li>place_job_gen_fem->восстановительницы артефактов</li>
     <li>place_personalWeapon->импровизированный меч</li>
     <li>place_personalWeapon->импровизированный кинжал</li>
     <li>place_massWeapon->давно забытая ядерная бомба</li>
@@ -431,6 +495,16 @@
     <li>place_job_fem->диспетчер управления полётами</li>
     <li>place_job_fem->спортсменка нулевой гравитации</li>
     <li>place_job_fem->ведущая радио</li>
+    <li>place_job_gen->инженера системы жизнеобеспечения</li>
+    <li>place_job_gen->торговца</li>
+    <li>place_job_gen->диспетчера управления полётами</li>
+    <li>place_job_gen->спортсмена нулевой гравитации</li>
+    <li>place_job_gen->ведущего радио</li>
+    <li>place_job_gen_fem->инженера системы жизнеобеспечения</li>
+    <li>place_job_gen_fem->торговки</li>
+    <li>place_job_gen_fem->диспетчера управления полётами</li>
+    <li>place_job_gen_fem->спортсменки нулевой гравитации</li>
+    <li>place_job_gen_fem->ведущей радио</li>
     <li>place_personalWeapon->энергетическая винтовка</li>
     <li>place_personalWeapon->сварочный аппарат</li>
     <li>place_massWeapon->токсичный аэрозоль</li>
@@ -488,6 +562,16 @@
     <li>place_job_fem->работница протеиновой фермы</li>
     <li>place_job_fem->таксистка</li>
     <li>place_job_fem->оружейница</li>
+    <li>place_job_gen->уборщика улиц</li>
+    <li>place_job_gen->инженера очистки</li>
+    <li>place_job_gen->работника протеиновой фермы</li>
+    <li>place_job_gen->таксиста</li>
+    <li>place_job_gen->оружейника</li>
+    <li>place_job_gen_fem->уборщицы улиц</li>
+    <li>place_job_gen_fem->инженера очистки</li>
+    <li>place_job_gen_fem->работницы протеиновой фермы</li>
+    <li>place_job_gen_fem->таксистки</li>
+    <li>place_job_gen_fem->оружейницы</li>
     <li>place_personalWeapon->газовая бомба</li>
     <li>place_personalWeapon->токсичный огнемёт</li>
     <li>place_massWeapon->«грязные» ядерные бомбы</li>
@@ -544,6 +628,16 @@
     <li>place_job_fem->торговка люциферием</li>
     <li>place_job_fem->виртуальная звезда</li>
     <li>place_job_fem->пилот челнока</li>
+    <li>place_job_gen->гида</li>
+    <li>place_job_gen->артиста нулевой гравитации</li>
+    <li>place_job_gen->торговца люциферием</li>
+    <li>place_job_gen->виртуального кумира</li>
+    <li>place_job_gen->пилота челнока</li>
+    <li>place_job_gen_fem->гида</li>
+    <li>place_job_gen_fem->артистки нулевой гравитации</li>
+    <li>place_job_gen_fem->торговки люциферием</li>
+    <li>place_job_gen_fem->виртуальной звезды</li>
+    <li>place_job_gen_fem->пилота челнока</li>
     <li>place_personalWeapon->вибронож</li>
     <li>place_personalWeapon->энергетический пистолет</li>
     <li>place_massWeapon->дезинтегрирующая бактерия</li>
@@ -600,6 +694,16 @@
     <li>place_job_fem->доставщица еды</li>
     <li>place_job_fem->таксистка</li>
     <li>place_job_fem->работница сферы продаж</li>
+    <li>place_job_gen->клерка</li>
+    <li>place_job_gen->чиновника</li>
+    <li>place_job_gen->доставщика еды</li>
+    <li>place_job_gen->таксиста</li>
+    <li>place_job_gen->работника сферы продаж</li>
+    <li>place_job_gen_fem->клерка</li>
+    <li>place_job_gen_fem->чиновницы</li>
+    <li>place_job_gen_fem->доставщицы еды</li>
+    <li>place_job_gen_fem->таксистки</li>
+    <li>place_job_gen_fem->работницы сферы продаж</li>
     <li>place_personalWeapon->револьвер</li>
     <li>place_personalWeapon->нож</li>
     <li>place_massWeapon->[seismicDevice]</li>
@@ -653,6 +757,14 @@
     <li>place_job_fem->работница фермы лавовых улиток</li>
     <li>place_job_fem->ремонтница танковых гусениц</li>
     <li>place_job_fem->десантница-разведчица</li>
+    <li>place_job_gen->сейсмолога</li>
+    <li>place_job_gen->работника фермы лавовых улиток</li>
+    <li>place_job_gen->ремонтника танковых гусениц</li>
+    <li>place_job_gen->десантника-разведчика</li>
+    <li>place_job_gen_fem->сейсмолога</li>
+    <li>place_job_gen_fem->работницы фермы лавовых улиток</li>
+    <li>place_job_gen_fem->ремонтницы танковых гусениц</li>
+    <li>place_job_gen_fem->десантницы-разведчицы</li>
     <li>place_personalWeapon->обсидиановый кинжал</li>
     <li>place_personalWeapon->гарпунное ружьё</li>
     <li>place_massWeapon->вызванное архотеком извержение вулкана</li>
@@ -706,6 +818,16 @@
     <li>place_job_fem->рыбачка</li>
     <li>place_job_fem->собирательница</li>
     <li>place_job_fem->козья пастушка</li>
+    <li>place_job_gen->шамана</li>
+    <li>place_job_gen->охотника</li>
+    <li>place_job_gen->рыбака</li>
+    <li>place_job_gen->собирателя</li>
+    <li>place_job_gen->козьего пастуха</li>
+    <li>place_job_gen_fem->шаманки</li>
+    <li>place_job_gen_fem->охотницы</li>
+    <li>place_job_gen_fem->рыбачки</li>
+    <li>place_job_gen_fem->собирательницы</li>
+    <li>place_job_gen_fem->козьей пастушки</li>
     <li>place_personalWeapon->пилум</li>
     <li>place_personalWeapon->иклва</li>
     <li>place_massWeapon->смертельный гул</li>
@@ -759,6 +881,16 @@
     <li>place_job_fem->врач</li>
     <li>place_job_fem->повариха лагеря</li>
     <li>place_job_fem->инженер биолаборатории</li>
+    <li>place_job_gen->пограничного ботаника</li>
+    <li>place_job_gen->охотника за трофеями</li>
+    <li>place_job_gen->врача</li>
+    <li>place_job_gen->повара лагеря</li>
+    <li>place_job_gen->инженера биолаборатории</li>
+    <li>place_job_gen_fem->пограничного ботаника</li>
+    <li>place_job_gen_fem->охотницы за трофеями</li>
+    <li>place_job_gen_fem->врача</li>
+    <li>place_job_gen_fem->поварихи лагеря</li>
+    <li>place_job_gen_fem->инженера биолаборатории</li>
     <li>place_personalWeapon->снайперская винтовка</li>
     <li>place_personalWeapon->мачете</li>
     <li>place_massWeapon->газ с растительным нейротоксином</li>
@@ -812,6 +944,15 @@
     <li>place_job_fem->гений социальных медиа</li>
     <li>place_job_fem->спортсменка нулевой гравитации</li>
     <li>place_job_fem->контрабандистка утопических технологий</li>
+    <li>place_job_gen->кадета военно-космических сил</li>
+    <li>place_job_gen->фермера-ремесленника</li>
+    <li>place_job_gen->гения социальных медиа</li>
+    <li>place_job_gen->спортсмена нулевой гравитации</li>
+    <li>place_job_gen->контрабандиста утопических технологий</li>
+    <li>place_job_gen_fem->фермерши-ремесленницы</li>
+    <li>place_job_gen_fem->гения социальных медиа</li>
+    <li>place_job_gen_fem->спортсменки нулевой гравитации</li>
+    <li>place_job_gen_fem->контрабандистки утопических технологий</li>
     <li>place_personalWeapon->энергокопьё</li>
     <li>place_personalWeapon->синхромономеч</li>
     <li>place_massWeapon->антиматериальные боеголовки</li>
@@ -870,6 +1011,16 @@
     <li>place_job_fem->парусный мастер</li>
     <li>place_job_fem->капитан</li>
     <li>place_job_fem->сборщица водорослей</li>
+    <li>place_job_gen->рыбака</li>
+    <li>place_job_gen->ныряльщика за жемчугом</li>
+    <li>place_job_gen->парусного мастера</li>
+    <li>place_job_gen->капитана</li>
+    <li>place_job_gen->сборщика водорослей</li>
+    <li>place_job_gen_fem->рыбачки</li>
+    <li>place_job_gen_fem->ныряльщицы за жемчугом</li>
+    <li>place_job_gen_fem->парусного мастера</li>
+    <li>place_job_gen_fem->капитана</li>
+    <li>place_job_gen_fem->сборщицы водорослей</li>
     <li>place_personalWeapon->гарпун</li>
     <li>place_personalWeapon->колючая сеть</li>
     <li>place_massWeapon->сверхмощная торпеда</li>
@@ -922,11 +1073,13 @@
     <li>place_job->техник</li>
     <li>place_job->механик</li>
     <li>place_job->инженер системы жизнеобеспечения</li>
-    <li>place_job_fem->шахтёр</li>
-    <li>place_job_fem->прораб</li>
-    <li>place_job_fem->техник</li>
-    <li>place_job_fem->механик</li>
-    <li>place_job_fem->инженер системы жизнеобеспечения</li>
+    <li>place_job_fem->[place_job]</li>
+    <li>place_job_gen->шахтёра</li>
+    <li>place_job_gen->прораба</li>
+    <li>place_job_gen->техника</li>
+    <li>place_job_gen->механика</li>
+    <li>place_job_gen->инженера системы жизнеобеспечения</li>
+    <li>place_job_gen_fem->[place_job_gen]</li>
     <li>place_personalWeapon->шоковая дубинка</li>
     <li>place_personalWeapon->автоматический пистолет</li>
     <li>place_massWeapon->шахтёрская взрывчатка</li>
@@ -980,6 +1133,16 @@
     <li>place_job_fem->беглянка</li>
     <li>place_job_fem->обслуживающий работник</li>
     <li>place_job_fem->водитель транспорта</li>
+    <li>place_job_gen->заключённого</li>
+    <li>place_job_gen->охранника</li>
+    <li>place_job_gen->беглеца</li>
+    <li>place_job_gen->обслуживающего работника</li>
+    <li>place_job_gen->водителя транспорта</li>
+    <li>place_job_gen_fem->заключённой</li>
+    <li>place_job_gen_fem->охранника</li>
+    <li>place_job_gen_fem->беглянки</li>
+    <li>place_job_gen_fem->обслуживающего работника</li>
+    <li>place_job_gen_fem->водителя транспорта</li>
     <li>place_personalWeapon->заточка</li>
     <li>place_personalWeapon->пистолет-пулемёт</li>
     <li>place_massWeapon->самодельная химическая бомба</li>
@@ -1033,6 +1196,14 @@
     <li>place_job_fem->пастушка муффало</li>
     <li>place_job_fem->охотница</li>
     <li>place_job_fem->кожевенница по плотным шкурам</li>
+    <li>place_job_gen->наездника на динозаврах</li>
+    <li>place_job_gen->пастуха муффало</li>
+    <li>place_job_gen->охотника</li>
+    <li>place_job_gen->кожевенника по плотным шкурам</li>
+    <li>place_job_gen_fem->наездницы на динозаврах</li>
+    <li>place_job_gen_fem->пастушки муффало</li>
+    <li>place_job_gen_fem->охотницы</li>
+    <li>place_job_gen_fem->кожевенницы по плотным шкурам</li>
     <li>place_personalWeapon->бамбуковый посох</li>
     <li>place_personalWeapon->стрелы со взрывчаткой</li>
     <li>place_massWeapon->нашествие стада [megaFauna]</li>
