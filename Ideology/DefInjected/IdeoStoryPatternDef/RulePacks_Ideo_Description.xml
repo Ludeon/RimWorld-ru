@@ -186,7 +186,7 @@
     <li>lessonAttribution->[founder_nameFull] на своём смертном одре</li>
     <li>lessonAttribution->[founder_nameFull] прямо перед своей казнью</li>
     <li>lessonAttribution->[speech] [founder_nameFull] на [TerrainFeature_prep]</li>
-    <li>lessonAttribution->[speech] [founder_nameFull] в [Community]</li>
+    <li>lessonAttribution->[speech] [founder_nameFull] в [Community_prep]</li>
     <li>attributionSource->идея [memeConcept]</li>
     <li>attributionSource->[memeAdjective_fem] идея [memeConcept]</li>
     <li>attributionSource->[memeAdjective_fem] жизнь</li>
@@ -198,7 +198,8 @@
     <li>attributionMemeAdjectivePlural-></li>
     <li>attributionMemeAdjectiveFemale->[memeAdjective_fem]</li>
     <li>attributionMemeAdjectiveFemale-></li>
-    <li>attributionJob->[place_job]</li>
+    <li>attributionJob(founder_gender==Male)->[place_job_gen]</li>
+    <li>attributionJob(founder_gender==Female)->[place_job_gen_fem]</li>
     <li>memeConference->[conferencePrefix] [conferenceType], посвящённого теме [memeConcept]</li>
     <li>memeConference->[conferencePrefixFem] [conferenceTypeFem], посвящённой теме [memeConcept]</li>
     <li>memeConference->[conferenceType], посвящённого теме [memeConcept]</li>
@@ -229,19 +230,19 @@
     <li>speech->монолог</li>
     <li>lessonIntro->Моим последователям было сложно принять одну вещь:</li>
     <li>lessonIntro->Моим тяжелейшим преступлением было так долго не понимать, что</li>
-    <li>lessonIntro->Моя борьба с {lookup: [foeLeader]; Case; 4} казалась бесконечной. Но она научила меня кое-чему:</li>
-    <li>lessonIntro->Даже в детстве, проведённом на [place_summary] [place_name], у меня было понимание, что</li>
+    <li>lessonIntro->Моя борьба с [foeLeader_ins] казалась бесконечной. Но она научила меня кое-чему:</li>
+    <li>lessonIntro->Даже в детстве, проведённом [place_summary_prepon] [place_summary_pre] [place_name], у меня было понимание, что</li>
     <li>lessonIntro->Во время школьных занятий в [place_community] один из учеников кинул в меня [thrownObject] и попал в голову. Тогда-то меня осенило, что</li>
     <li>lessonIntro->Я говорю это не для того, чтобы ты прожил мою жизнь, а чтобы ты узнал то, чему я научился. Что</li>
     <li>lessonIntro->Когда врач закончил своё ужасное дело, мне наконец стало понятно, что</li>
-    <li>lessonIntro->С каждым годом, проведённым на [place_summary] [place_name], мне становилось всё яснее, что</li>
+    <li>lessonIntro->С каждым годом, проведённым [place_summary_prepon] [place_summary_pre] [place_name], мне становилось всё яснее, что</li>
     <li>lessonIntro->Вспоминая своё прошлое, я жалею об упущенной возможности прийти к осознанию, что</li>
     <li>lessonIntro->Они все казались мне потерянными. Я [founder_showed] им, что</li>
     <li>lessonIntro->Они молили о праведном пути. Я [founder_showed] им, что</li>
     <li>thrownObject->книгу</li>
     <li>thrownObject->сэндвич</li>
-    <li>thrownObject->игрушечную модель {lookup: [place_personalWeapon]; Case; 1}</li>
-    <li>thrownObject->чучело [Animal]</li>
+    <li>thrownObject->игрушечную модель [place_personalWeapon_gen]</li>
+    <li>thrownObject->чучело [Animal_gen]</li>
     <li>lessonReinforcement->С этим невозможно поспорить.</li>
     <li>lessonReinforcement->Только дураки считают иначе.</li>
     <li>lessonReinforcement->И скоро это всем станет очевидно так же, как и нам.</li>
