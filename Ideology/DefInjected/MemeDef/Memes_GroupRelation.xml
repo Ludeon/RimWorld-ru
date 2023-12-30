@@ -24,8 +24,8 @@
     <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
   -->
   <Guilty.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Guilty)        ->[deity0_name] [deity_bad], и великая вина легла на [deity0_possessive] душу, и в порыве эгоизма своего [deity_passed] [deity0_pronoun] эту вину на других избранных собою людей. И были все нечистыми от неё.</li>
-    <li>episode(uses=1,tag=meme_Guilty)  ->Последователи неумолимо шли вперёд, завоёвывая, сжигая и насилуя на своём пути, и горе [deity0_name] об их злодеяниях поглотило [deity0_possessive].</li>
+    <li>creation(tag=meme_Guilty)        ->[guilty_deity0_bad] [deity0_name] в бытии своём, за что вина великая лежала [guilty_deity0_uponobjective]. И в порыве эгоизма своего [guilty_deity0_passed] [deity0_pronoun] вину эту на народ собой избранный. И стали нечестивы все от вины этой.</li>
+    <li>episode(uses=1,tag=meme_Guilty)  ->И шли верующие вперёд неумолимо, и завоёвывали, и сжигали, и насиловали они на пути своём. Но [guilty_deity0_saw] [deity0_name] злодеяния их, и поглотила [deity0_possessive] скорбь великая.</li>
     <li>intro(tag=meme_Guilty)           ->[memberNamePlural] с [place_summary] [place_name] пренебрегали служением [deity0_name], и это привело к тому, что [altarName] в [deity0_possessive] [altarRoomLabel] был разрушен.</li>
     <li>conflict(tag=meme_Guilty)        ->[foeLeader] одолжил денег [memberNamePlural], тратившим их на мирские утехи и позабывшим важность [memeConcept].</li>
     <li>founderJoin(tag=meme_Guilty)     ->[place_job] [founderName] [founder_enjoyed] милостью [foeLeader]. Во время [ritualName] [founder_pronoun] [founder_saw], как [foeSoldiers] [foeLeader] тайно убили [memberNamePlural] с помощью [place_personalWeapon]. [founderName] наконец [founder_understood] смысл [memeConcept], и [founder_recieved] благословение [deity0_name].</li>
@@ -40,12 +40,18 @@
     <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd], если люди смогут отбросить свою гордость и пойти навстречу архотекам, те смогут возвысить нас на высший уровень существования.</li>
     <li>animistBasis(tag=meme_Guilty)    ->Племя злых духов было наказано и заточено в клетки из плоти. Мы и есть эти духи.</li>
     <li>animistFact(tag=meme_Guilty)     ->Мы никогда не сможем по-настоящему искупить вину за содеянное перед чистыми духами, живущими вокруг нас, но искреннее и постоянное раскаяние может помочь облегчить наше существование.</li>
-    <li>deity_bad(deity0_gender==None)->насиловало, убивало и крало</li>
-    <li>deity_bad(deity0_gender==Male)->насиловал, убивал и крал</li>
-    <li>deity_bad(deity0_gender==Female)->насиловала, убивала и крала</li>
-    <li>deity_passed(deity0_gender==None)->передало</li>
-    <li>deity_passed(deity0_gender==Male)->передал</li>
-    <li>deity_passed(deity0_gender==Female)->передала</li>
+    <li>guilty_deity0_bad(deity0_gender==None)->похищало, оскверняло и умерщвляло</li>
+    <li>guilty_deity0_bad(deity0_gender==Male)->похищал, осквернял и умерщвлял</li>
+    <li>guilty_deity0_bad(deity0_gender==Female)->похищала, оскверняла и умерщвляла</li>
+    <li>guilty_deity0_uponobjective(deity0_gender==None)->на нём</li>
+    <li>guilty_deity0_uponobjective(deity0_gender==Male)->на нём</li>
+    <li>guilty_deity0_uponobjective(deity0_gender==Female)->на ней</li>
+    <li>guilty_deity0_passed(deity0_gender==None)->возложило</li>
+    <li>guilty_deity0_passed(deity0_gender==Male)->возложил</li>
+    <li>guilty_deity0_passed(deity0_gender==Female)->возложила</li>
+    <li>guilty_deity0_saw(deity0_gender==None)->увидело</li>
+    <li>guilty_deity0_saw(deity0_gender==Male)->увидел</li>
+    <li>guilty_deity0_saw(deity0_gender==Female)->увидела</li>
     <li>founder_enjoyed(founder_gender==Male)->наслаждался</li>
     <li>founder_enjoyed(founder_gender==Female)->наслаждалась</li>
     <li>founder_saw(founder_gender==Male)->увидел</li>
@@ -170,8 +176,8 @@
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
   <Loyalist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Loyalist)        ->[deity0_name] [deity_ordered] честному народу сражаться только против тех, кто сражается не за правое дело.</li>
-    <li>episode(uses=1,tag=meme_Loyalist)  ->Началась война с неверующими. [believer_one] из верующих, [believer_nameFull], ища собственную выгоду, [believer_lead] дикарей на землю [deity0_name]. И [deity_rage] [deity0_name] в ярость от такого предательства и [deity_struck] на н[believer_possessive] кару 10 тысяч раз.</li>
+    <li>creation(tag=meme_Loyalist)        ->[loyalist_deity0_ordered] [deity0_name] народ честной бороться лишь с теми, кто в сражении своём причины праведной не имел. [andItWasSo]</li>
+    <li>episode(uses=1,tag=meme_Loyalist)  ->[andBehold] началась война с неверующими. И [believer_was] средь верующих [believer_greedy] [believer_nameFull], и [believer_lead] [believer_pronoun] дикарей в земли святые. И [loyalist_deity0_rage] [deity0_name] в ярость от предательства, и [loyalist_deity0_struck] на н[believer_possessive] кару десять тысяч раз.</li>
     <li>intro(tag=meme_Loyalist)           ->[memeAdjective_fem] община на [place_summary] [place_name] поклонялась [deity0_name] в [deity0_possessive] [altarRoomLabel], и были они непоколебимы в своей вере.</li>
     <li>conflict(tag=meme_Loyalist)        ->[foeLeader] заслал [foeSoldiers] как шпионов в ряды [memberNamePlural], дабы разделить их.</li>
     <li>founderJoin(tag=meme_Loyalist)     ->[founderName], [memeAdjective_masc] [place_job], [founder_suffered] пыткам от [foeSoldiers], но [founder_refused] клясться в верности [foeLeader].</li>
@@ -188,17 +194,19 @@
     <li>animistBasis(tag=meme_Loyalist)    ->Существует три племени духов: племя воинственных убийц, племя нытиков и пораженцев и благородное племя тех, кто остаётся сильными и преданными.</li>
     <li>animistFact(tag=meme_Loyalist)     ->Духи противостоят тем, кто предаёт их народ и друзей их народа. Предатели будут спотыкаться на каждом камне, давиться каждой крошкой хлеба, а вода их всегда будет тухлой на вкус.</li>
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid], что однажды будет рождён тот, кто проживёт свою жизнь в верности своему народу. После смерти его душа вспыхнет светом, поглощающим всех трусов и поджигателей войны.</li>
-    <li>deity_ordered(deity0_gender==None)->велело</li>
-    <li>deity_ordered(deity0_gender==Male)->велел</li>
-    <li>deity_ordered(deity0_gender==Female)->велела</li>
-    <li>deity_rage(deity0_gender==None)->пришло</li>
-    <li>deity_rage(deity0_gender==Male)->пришёл</li>
-    <li>deity_rage(deity0_gender==Female)->пришла</li>
-    <li>deity_struck(deity0_gender==None)->ниспослало</li>
-    <li>deity_struck(deity0_gender==Male)->ниспослал</li>
-    <li>deity_struck(deity0_gender==Female)->ниспослала</li>
-    <li>believer_one(believer_gender==Male)->один</li>
-    <li>believer_one(believer_gender==Female)->одна</li>
+    <li>loyalist_deity0_ordered(deity0_gender==None)->увещевало</li>
+    <li>loyalist_deity0_ordered(deity0_gender==Male)->увещевал</li>
+    <li>loyalist_deity0_ordered(deity0_gender==Female)->увещевала</li>
+    <li>loyalist_deity0_rage(deity0_gender==None)->пришло</li>
+    <li>loyalist_deity0_rage(deity0_gender==Male)->пришёл</li>
+    <li>loyalist_deity0_rage(deity0_gender==Female)->пришла</li>
+    <li>loyalist_deity0_struck(deity0_gender==None)->ниспослало</li>
+    <li>loyalist_deity0_struck(deity0_gender==Male)->ниспослал</li>
+    <li>loyalist_deity0_struck(deity0_gender==Female)->ниспослала</li>
+    <li>believer_was(believer_gender==Male)->был</li>
+    <li>believer_was(believer_gender==Female)->была</li>
+    <li>believer_greedy(believer_gender==Male)->корыстолюбец</li>
+    <li>believer_greedy(believer_gender==Female)->корыстолюбица</li>
     <li>believer_lead(believer_gender==Male)->привёл</li>
     <li>believer_lead(believer_gender==Female)->привела</li>
     <li>founder_suffered(founder_gender==Male)->подвергался</li>
@@ -289,8 +297,8 @@
     <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] that a new order will be created when one supreme ruler commands all of humanity.</li>
   -->
   <Supremacist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Supremacist)        ->Народ [place_summary] [place_name] утопал в распрях, и [deity0_name] [deity_tired] от этого беспорядка и [deity_gave] [memberNamePlural] законную власть над всеми.</li>
-    <li>episode(uses=1,tag=meme_Supremacist)  ->Верные сражались с неверными, и [deity0_name]  [deity_said], "Сражайтесь с ними везде, пока моё имя не будет почитаться во всей вселенной и пока не настанет в ней настоящий мир."</li>
+    <li>creation(tag=meme_Supremacist)        ->Утопали обитатели [place_summary_gen] [place_name] в распрях бесконечных. И [supremacist_deity0_tired] [deity0_name] от беспорядка этого, и [supremacist_deity0_gave] избранным своим власть законную. И стали [memberNamePlural] упрочивать власть эту.</li>
+    <li>episode(uses=1,tag=meme_Supremacist)  ->И противостояли верные неверным, и [supremacist_deity0_said] [deity0_name] им: «Сражайтесь во имя Моё с ними повсюду, пока не будут поклоняться Мне во всей вселенной и пока не воцарится в ней мир истинный».</li>
     <li>intro(tag=meme_Supremacist)           ->Народ [place_summary] [place_name] почитал [deity0_name]. [deity0_pronoun] [deity_saw], что они были верными последователями [memeConcept], и [deity_ordained] им править всеми остальными.</li>
     <li>conflict(tag=meme_Supremacist)        ->[foeLeader] принял закон, воспрещающий занимать [memberNamePlural] высшие позиции на [place_name].</li>
     <li>founderJoin(tag=meme_Supremacist)     ->[founder_warrior] по имени [founderName] [founder_used] [place_massWeapon], чтобы уничтожить [place_community]. [deity0_name] [deity_saw] безжалостность [founderName] и [deity_made] [founder_possessive] [founder_ruler] всего человечества.</li>
@@ -305,15 +313,15 @@
     <li>archistProphecy(tag=meme_Supremacist) ->Архотеки возьмут нас с собой, только когда мы добьёмся мирового господства.</li>
     <li>animistFact(tag=meme_Supremacist)     ->Могущественные духи решают, кому править. Они же дают силы тем, кто подчиняет своей воле других.</li>
     <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid], что новый порядок будет создан, когда один верховный лидер объединит под собой всё человечество.</li>
-    <li>deity_tired(deity0_gender==None)->устало</li>
-    <li>deity_tired(deity0_gender==Male)->устал</li>
-    <li>deity_tired(deity0_gender==Female)->устала</li>
-    <li>deity_gave(deity0_gender==None)->ниспослало</li>
-    <li>deity_gave(deity0_gender==Male)->ниспослал</li>
-    <li>deity_gave(deity0_gender==Female)->ниспослала</li>
-    <li>deity_said(deity0_gender==None)->сказало</li>
-    <li>deity_said(deity0_gender==Male)->сказал</li>
-    <li>deity_said(deity0_gender==Female)->сказала</li>
+    <li>supremacist_deity0_tired(deity0_gender==None)->устало</li>
+    <li>supremacist_deity0_tired(deity0_gender==Male)->устал</li>
+    <li>supremacist_deity0_tired(deity0_gender==Female)->устала</li>
+    <li>supremacist_deity0_gave(deity0_gender==None)->ниспослало</li>
+    <li>supremacist_deity0_gave(deity0_gender==Male)->ниспослал</li>
+    <li>supremacist_deity0_gave(deity0_gender==Female)->ниспослала</li>
+    <li>supremacist_deity0_said(deity0_gender==None)->сказало</li>
+    <li>supremacist_deity0_said(deity0_gender==Male)->сказал</li>
+    <li>supremacist_deity0_said(deity0_gender==Female)->сказала</li>
     <li>deity_saw(deity0_gender==None)->увидело</li>
     <li>deity_saw(deity0_gender==Male)->увидел</li>
     <li>deity_saw(deity0_gender==Female)->увидела</li>

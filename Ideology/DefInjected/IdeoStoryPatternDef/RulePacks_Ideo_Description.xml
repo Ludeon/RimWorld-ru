@@ -390,37 +390,62 @@
   -->
   <TheistMyth.rules.rulesStrings>
     <li>episode(priority=-1)-></li>
-    <li>creation->Целую вечность мир состоял из [Color] [materialOrigin] до тех пор, пока [deity0_name] не [deity_created] планеты и звёзды.</li>
-    <li>creation->В раздоре старого мира [deity0_name] [deity_created] великий пожар, из пепла последних эпох которого родился новый мир.</li>
-    <li>creation->[deity0_name] [deity_created] людей случайно, и с тех пор с любопытством наблюдает за ними.</li>
-    <li>creation->Сначала не было ничего. Потом [deity0_name], устав от вечной пустоты, [deity_created] мужчину и женщину из [bodilyOrigin].</li>
-    <li>episode(uses=1)->Наблюдая за человечеством, [deity0_name] [deity_found] их своими детьми и [deity_declared] своё верховенство над ними.</li>
-    <li>episode(uses=1)->Сквозь огромные звёздные пространства воля [deity0_name] поддерживала жизнь человечества в окружении пустоты.</li>
-    <li>episode(uses=1)->Многие пытались одолеть [deity0_possessive], но [deity0_name] с лёгкостью [deity_prevented] их, ибо [deity0_pronoun] [deity_was] [deity0_type].</li>
-    <li>episode(uses=1)->Страдания человечества приносили [deity0_name] горе.</li>
-    <li>deity_created(deity0_gender==None)->создало</li>
-    <li>deity_created(deity0_gender==Male)->создал</li>
-    <li>deity_created(deity0_gender==Female)->создала</li>
-    <li>deity_found(deity0_gender==None)->стало считать</li>
-    <li>deity_found(deity0_gender==Male)->стал считать</li>
-    <li>deity_found(deity0_gender==Female)->стала считать</li>
-    <li>deity_declared(deity0_gender==None)->провозгласило</li>
-    <li>deity_declared(deity0_gender==Male)->провозгласил</li>
-    <li>deity_declared(deity0_gender==Female)->провозгласила</li>
-    <li>deity_prevented(deity0_gender==None)->побеждало</li>
-    <li>deity_prevented(deity0_gender==Male)->побеждал</li>
-    <li>deity_prevented(deity0_gender==Female)->побеждала</li>
-    <li>deity_was(deity0_gender==None)->было</li>
-    <li>deity_was(deity0_gender==Male)->был</li>
-    <li>deity_was(deity0_gender==Female)->была</li>
-    <li>materialOrigin->глины</li>
-    <li>materialOrigin->газа</li>
-    <li>materialOrigin->воды</li>
-    <li>materialOrigin->пустоты</li>
-    <li>materialOrigin->песка</li>
+    <li>creation->Вечность целую [universeFilledColoredMaterial]. Но [deity0_created] [deity0_name] планеты и звёзды. [andItWasSo]</li>
+    <li>creation->[deity0_saw] [deity0_name], что мир старый раздоры терзают, и [deity0_whipped] на него огонь великий. И поглотил огонь мир старый, и превратил в пепел эпоху уходящую, и родился из пепла мир новый. [andItWasSo]</li>
+    <li>creation->[deity0_created] [deity0_name] людей в великом торжестве случая. И стали [deity0_objective] любопытны они, и [deity0_began] [deity0_pronoun] наблюдать за ними.</li>
+    <li>creation->В начале была пустота, и пустота была вечной, и [deity0_was] [deity0_name] посреди неё. Но [deity0_bored] [deity0_name] от пустоты вечной, и [deity0_created] [deity0_pronoun] мужчину из [bodilyOrigin], и [deity0_created] [deity0_pronoun] женщину из [bodilyOrigin]. [andItWasSo]</li>
+    <li>episode(uses=1)->И [deity0_looking] [deity0_name] за родом человеческим чутко, и [deity0_began] [deity0_pronoun] считать людей детьми своими, и [deity0_declared] [deity0_pronoun] верховенство своё над ними.</li>
+    <li>episode(uses=1)->И [deity0_extended] [deity0_name] волю свою сквозь пространства звёздные, чтобы поддерживать жизнь человечества, пустотой окружённого.</li>
+    <li>episode(uses=1)->И пытались многие одолеть [deity0_possessive], но [deity0_prevented] [deity0_name] им с лёгкостью, ибо [deity0_was] [deity0_pronoun] — [deity0_type].</li>
+    <li>episode(uses=1)->И [deity0_saw2] [deity0_name] страдания человечества, и приносили они [deity0_objective] горе великое.</li>
+    <li>deity0_created(deity0_gender==None)->создало</li>
+    <li>deity0_created(deity0_gender==Male)->создал</li>
+    <li>deity0_created(deity0_gender==Female)->создала</li>
+    <li>deity0_saw(deity0_gender==None)->увидело</li>
+    <li>deity0_saw(deity0_gender==Male)->увидел</li>
+    <li>deity0_saw(deity0_gender==Female)->увидела</li>	
+    <li>deity0_whipped(deity0_gender==None)->ниспослало</li>
+    <li>deity0_whipped(deity0_gender==Male)->ниспослал</li>
+    <li>deity0_whipped(deity0_gender==Female)->ниспослала</li>
+    <li>deity0_began(deity0_gender==None)->стало</li>
+    <li>deity0_began(deity0_gender==Male)->стал</li>
+    <li>deity0_began(deity0_gender==Female)->стала</li>
+    <li>deity0_was(deity0_gender==None)->было</li>
+    <li>deity0_was(deity0_gender==Male)->был</li>
+    <li>deity0_was(deity0_gender==Female)->была</li>
+    <li>deity0_bored(deity0_gender==None)->устало</li>
+    <li>deity0_bored(deity0_gender==Male)->устал</li>
+    <li>deity0_bored(deity0_gender==Female)->устала</li>
+    <li>deity0_looking(deity0_gender==None)->наблюдало</li>
+    <li>deity0_looking(deity0_gender==Male)->наблюдал</li>
+    <li>deity0_looking(deity0_gender==Female)->наблюдала</li>
+    <li>deity0_declared(deity0_gender==None)->провозгласило</li>
+    <li>deity0_declared(deity0_gender==Male)->провозгласил</li>
+    <li>deity0_declared(deity0_gender==Female)->провозгласила</li>
+    <li>deity0_extended(deity0_gender==None)->простирало</li>
+    <li>deity0_extended(deity0_gender==Male)->простирал</li>
+    <li>deity0_extended(deity0_gender==Female)->простирала</li>
+    <li>deity0_prevented(deity0_gender==None)->противостояло</li>
+    <li>deity0_prevented(deity0_gender==Male)->противостоял</li>
+    <li>deity0_prevented(deity0_gender==Female)->противостояла</li>
+    <li>deity0_saw2(deity0_gender==None)->видело</li>
+    <li>deity0_saw2(deity0_gender==Male)->видел</li>
+    <li>deity0_saw2(deity0_gender==Female)->видела</li>	
+    <li>universeFilledColoredMaterial->полнил собой вселенную [materialOrigin_masc] [Color]</li>
+    <li>universeFilledColoredMaterial->полнила собой вселенную [materialOrigin_fem] [Color_fem]</li>
+    <li>materialOrigin_masc->газ</li>
+    <li>materialOrigin_masc->песок</li>
+    <li>materialOrigin_fem->глина</li>
+    <li>materialOrigin_fem->вода</li>
+    <li>materialOrigin_fem->пустота</li>
     <li>bodilyOrigin->глины</li>
     <li>bodilyOrigin->камня</li>
     <li>bodilyOrigin->пота</li>
+    <li>andItWasSo(uses=1,priority=3)->и стало всё так.</li>
+    <li>andItWasSo(uses=1,priority=2)->и стало так.</li>
+    <li>andItWasSo-></li>
+    <li>andBehold(uses=1,priority=2)->и вот,</li>
+    <li>andBehold->и</li>
   </TheistMyth.rules.rulesStrings>
   
 </LanguageData>

@@ -24,8 +24,8 @@
     <li>animistFact(tag=meme_HumanPrimacy)     ->Nature's animals are the spirits of slaves, and demand to be taken into service.</li>
   -->
   <HumanPrimacy.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_HumanPrimacy)        ->[deity0_created] [deity0_name] природу и [deity0_presented] её человеку, чтобы служила она ему во веки веков.</li>
-    <li>episode(uses=1,tag=meme_HumanPrimacy)  ->И боролись люди со зверьми в лесах, и [deity0_saw] [deity0_name] борьбу их, и [deity0_presented] им оружие, чтобы помочь укротить природу.</li>
+    <li>creation(tag=meme_HumanPrimacy)        ->[humanPrimacy_deity0_created] [deity0_name] природу, и [humanPrimacy_deity0_saw] [deity0_pronoun], что это хорошо, и [humanPrimacy_deity0_presented] природу в дар человеку, чтобы служила она ему во веки веков. [andItWasSo]</li>
+    <li>episode(uses=1,tag=meme_HumanPrimacy)  ->И боролись люди со зверьми в лесах, и [humanPrimacy_deity0_saw2] [deity0_name] борьбу их, и [humanPrimacy_deity0_gave] оружие им, чтобы помочь обуздать природу.</li>
     <li>intro(tag=meme_HumanPrimacy)           ->Потерпели крушение поселенцы первые на [place_summary] [place_name] и столкнулись со зверями лютыми. И [deity0_intervened] [deity0_name], и [deity0_killed] зверей, отдав предпочтение роду людскому.</li>
     <li>conflict(tag=meme_HumanPrimacy)        ->И издал мизантроп [foeLeader] указ, дающий права равные и людям, и животным. И [deity0_wept] [deity0_name], ибо вынуждены [memberNamePlural] были отдать часть своих прав зверям грязным.</li>
     <li>founderJoin(tag=meme_HumanPrimacy)     ->Но [founder_founded] [place_job] по имени [founderName] ныне знаменитый ксенозоопарк на [place_name]. И [founder_used] [founder_pronoun] представления с забоем животных, чтобы продемонстрировать посетителям волю [deity0_name] дать человеку власть над природой.</li>
@@ -40,15 +40,21 @@
     <li>archistFact(tag=meme_HumanPrimacy)     ->Люди — изобретатели, а архотеки — их творения.</li>
     <li>archistProphecy(tag=meme_HumanPrimacy) ->[inTheEnd], наблюдая за людьми, архотеки наконец осознают своё предназначение и вознесут продвинутую часть человечества, дав ей власть над собой.</li>
     <li>animistFact(tag=meme_HumanPrimacy)     ->Духи животных — это духи рабов, и они должны нести пользу людям.</li>
-    <li>deity0_presented(deity0_gender==None)->даровало</li>
-    <li>deity0_presented(deity0_gender==Male)->даровал</li>
-    <li>deity0_presented(deity0_gender==Female)->даровала</li>
-    <li>deity0_created(deity0_gender==None)->создало</li>
-    <li>deity0_created(deity0_gender==Male)->создал</li>
-    <li>deity0_created(deity0_gender==Female)->создала</li>
-    <li>deity0_saw(deity0_gender==None)->узрело</li>
-    <li>deity0_saw(deity0_gender==Male)->узрел</li>
-    <li>deity0_saw(deity0_gender==Female)->узрела</li>
+    <li>humanPrimacy_deity0_created(deity0_gender==None)->создало</li>
+    <li>humanPrimacy_deity0_created(deity0_gender==Male)->создал</li>
+    <li>humanPrimacy_deity0_created(deity0_gender==Female)->создала</li>
+    <li>humanPrimacy_deity0_saw(deity0_gender==None)->увидело</li>
+    <li>humanPrimacy_deity0_saw(deity0_gender==Male)->увидел</li>
+    <li>humanPrimacy_deity0_saw(deity0_gender==Female)->увидела</li>
+    <li>humanPrimacy_deity0_presented(deity0_gender==None)->преподнесло</li>
+    <li>humanPrimacy_deity0_presented(deity0_gender==Male)->преподнёс</li>
+    <li>humanPrimacy_deity0_presented(deity0_gender==Female)->преподнесла</li>
+    <li>humanPrimacy_deity0_saw2(deity0_gender==None)->узрело</li>
+    <li>humanPrimacy_deity0_saw2(deity0_gender==Male)->узрел</li>
+    <li>humanPrimacy_deity0_saw2(deity0_gender==Female)->узрела</li>
+    <li>humanPrimacy_deity0_gave(deity0_gender==None)->даровало</li>
+    <li>humanPrimacy_deity0_gave(deity0_gender==Male)->даровал</li>
+    <li>humanPrimacy_deity0_gave(deity0_gender==Female)->даровала</li>
     <li>deity0_killed(deity0_gender==None)->убило</li>
     <li>deity0_killed(deity0_gender==Male)->убил</li>
     <li>deity0_killed(deity0_gender==Female)->убила</li>
@@ -147,8 +153,8 @@
     <li>animistFact(tag=meme_NaturePrimacy)     ->Spirits become restless when humanity attempts to change them from their true nature.</li>
   -->
   <NaturePrimacy.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_NaturePrimacy)        ->[deity0_created] [deity0_name] природу и [deity0_placed] в неё человека как часть великого полотна жизни.</li>
-    <li>episode(uses=1,tag=meme_NaturePrimacy)  ->И боролись люди со зверьми в лесах, и [deity0_saw] [deity0_name] безжалостность их, и [deity0_struck] тех, кто причинял вред деревьям и животным.</li>
+    <li>creation(tag=meme_NaturePrimacy)        ->[naturePrimacy_deity0_created] [deity0_name] природу, и [naturePrimacy_deity0_saw] [deity0_pronoun], что это хорошо. И [naturePrimacy_deity0_placed] [deity0_pronoun] в природу человека, и стал человек частью полотна жизни великого.</li>
+    <li>episode(uses=1,tag=meme_NaturePrimacy)  ->И боролись люди со зверьми в лесах, и [naturePrimacy_deity0_saw2] [deity0_name] алчность их безжалостную, и [naturePrimacy_deity0_struck] тех, кто причинял вред деревьям и животным.</li>
     <li>intro(tag=meme_NaturePrimacy)           ->Первые поселенцы, что прибыли на [place_summary] [place_name], обезобразили естественный облик мира и убили многих животных. И [deity0_wiped] их [deity0_name] с лица земли за их неуважение к творениям [deity0_possessive].</li>
     <li>conflict(tag=meme_NaturePrimacy)        ->Построил алчный [foeLeader] фабрику, что изрыгала токсины в окружающую среду, отравляя растения и животных.</li>
     <li>founderJoin(tag=meme_NaturePrimacy)     ->[founderName], будучи младенцем, [founder_was_abandoned] в дремучей глуши. Но [deity0_sent] [deity0_name] [AnimalBadass_gen], чтобы воспитать и взрасти [founder_possessive]. Когда [founderName] [founder_grew], [founder_started] [founder_pronoun] нести знание своё о единении с природой.</li>
@@ -164,18 +170,21 @@
     <li>animistFact(tag=meme_NaturePrimacy)     ->Духи теряют покой и тревожатся, когда люди пытаются менять их естественную природу.</li>
     <li>mightyTree->могучего векового дуба</li>
     <li>mightyTree->могучей вековой сосны</li>
-    <li>deity0_placed(deity0_gender==None)->поместило</li>
-    <li>deity0_placed(deity0_gender==Male)->поместил</li>
-    <li>deity0_placed(deity0_gender==Female)->поместила</li>
-    <li>deity0_created(deity0_gender==None)->создало</li>
-    <li>deity0_created(deity0_gender==Male)->создал</li>
-    <li>deity0_created(deity0_gender==Female)->создала</li>
-    <li>deity0_struck(deity0_gender==None)->покарало</li>
-    <li>deity0_struck(deity0_gender==Male)->покарал</li>
-    <li>deity0_struck(deity0_gender==Female)->покарала</li>
-    <li>deity0_saw(deity0_gender==None)->узрело</li>
-    <li>deity0_saw(deity0_gender==Male)->узрел</li>
-    <li>deity0_saw(deity0_gender==Female)->узрела</li>
+    <li>naturePrimacy_deity0_created(deity0_gender==None)->создало</li>
+    <li>naturePrimacy_deity0_created(deity0_gender==Male)->создал</li>
+    <li>naturePrimacy_deity0_created(deity0_gender==Female)->создала</li>
+    <li>naturePrimacy_deity0_saw(deity0_gender==None)->увидело</li>
+    <li>naturePrimacy_deity0_saw(deity0_gender==Male)->увидел</li>
+    <li>naturePrimacy_deity0_saw(deity0_gender==Female)->увидела</li>
+    <li>naturePrimacy_deity0_placed(deity0_gender==None)->вписало</li>
+    <li>naturePrimacy_deity0_placed(deity0_gender==Male)->вписал</li>
+    <li>naturePrimacy_deity0_placed(deity0_gender==Female)->вписала</li>
+    <li>naturePrimacy_deity0_saw2(deity0_gender==None)->узрело</li>
+    <li>naturePrimacy_deity0_saw2(deity0_gender==Male)->узрел</li>
+    <li>naturePrimacy_deity0_saw2(deity0_gender==Female)->узрела</li>
+    <li>naturePrimacy_deity0_struck(deity0_gender==None)->покарало</li>
+    <li>naturePrimacy_deity0_struck(deity0_gender==Male)->покарал</li>
+    <li>naturePrimacy_deity0_struck(deity0_gender==Female)->покарала</li>
     <li>deity0_wiped(deity0_gender==None)->смело</li>
     <li>deity0_wiped(deity0_gender==Male)->смёл</li>
     <li>deity0_wiped(deity0_gender==Female)->смела</li>

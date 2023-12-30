@@ -23,8 +23,8 @@
     <li>animistFact(tag=meme_Collectivist)     ->Every spirit is simply an aspect of all the others, and those that try to stand alone are fall quickly.</li>
   -->
   <Collectivist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Collectivist)        ->[deity0_created] [deity0_name] всех мужчин и женщин по единому великому образу, а тех, кто не соответствовал, [deity0_threw] [deity0_pronoun] в огонь, чтобы истинные верующие жили в гармонии.</li>
-    <li>episode(uses=1,tag=meme_Collectivist)  ->И [deity0_said] [deity0_name] всем: «Ни один из вас не стои́т выше других. Работайте все вместе, или все вместе погибнете».</li>
+    <li>creation(tag=meme_Collectivist)        ->[collectivist_deity0_created] [deity0_name] мужчин всех и женщин всех по образу великому. И [collectivist_deity0_threw] [deity0_pronoun] в огонь тех, кто не подобал образу этому, чтобы верующие истинные в гармонии жили. [andItWasSo]</li>
+    <li>episode(uses=1,tag=meme_Collectivist)  ->[andBehold] [collectivist_deity0_said] [deity0_name] всем: «Да не возвысится ни один из вас средь прочих, и да будете вы работать все вместе или все вместе же и погибнете». [andItWasSo]</li>
     <li>intro(tag=meme_Collectivist)           ->Работали на [place_summary] [place_name] люди во всеобщей гармонии, и построили они великий [altarName], чтобы воздавать хвалу [deity0_name], [deity0_who_taught] их истинной ценности [memeConcept].</li>
     <li>conflict(tag=meme_Collectivist)        ->Но не смог [foeLeader] стать частью общества, и послал [foeSoldiers] своих на [place_community], где жили [memberNamePlural], чтобы посеять вражду между ними.</li>
     <li>founderJoin(tag=meme_Collectivist)     ->И [founder_threw] [place_job] по имени [founderName] прямо в огонь, в знак несогласия с [foeLeader], но [memberNamePlural] спасли [founder_possessive] и сделали своим лидером, ибо [founder_was] [founderName] [founder_devotion] своему сообществу.</li>
@@ -38,18 +38,18 @@
     <li>archistFact(tag=meme_Collectivist)     ->Архотекам не интересно судить нас каждого по отдельности. Они ждут тех, кто продемонстрирует своё достоинство, действуя как единое нравственное целое.</li>
     <li>archistProphecy(tag=meme_Collectivist) ->[inTheEnd] архотеки уйдут, когда найдут тех, кто покажет себя достойным партнёром для машинно-божественного сознания.</li>
     <li>animistFact(tag=meme_Collectivist)     ->Каждый дух — часть всех остальных, а те, кто пытается стоять особняком, быстро погибают.</li>
-    <li>deity0_threw(deity0_gender==None)->бросало</li>
-    <li>deity0_threw(deity0_gender==Male)->бросал</li>
-    <li>deity0_threw(deity0_gender==Female)->бросала</li>
-    <li>deity0_said(deity0_gender==None)->молвило</li>
-    <li>deity0_said(deity0_gender==Male)->молвил</li>
-    <li>deity0_said(deity0_gender==Female)->молвила</li>
+    <li>collectivist_deity0_created(deity0_gender==None)->создало</li>
+    <li>collectivist_deity0_created(deity0_gender==Male)->создал</li>
+    <li>collectivist_deity0_created(deity0_gender==Female)->создала</li>
+    <li>collectivist_deity0_threw(deity0_gender==None)->бросило</li>
+    <li>collectivist_deity0_threw(deity0_gender==Male)->бросил</li>
+    <li>collectivist_deity0_threw(deity0_gender==Female)->бросила</li>
+    <li>collectivist_deity0_said(deity0_gender==None)->сказало</li>
+    <li>collectivist_deity0_said(deity0_gender==Male)->сказал</li>
+    <li>collectivist_deity0_said(deity0_gender==Female)->сказала</li>
     <li>deity0_who_taught(deity0_gender==None)->которое научило</li>
     <li>deity0_who_taught(deity0_gender==Male)->который научил</li>
     <li>deity0_who_taught(deity0_gender==Female)->которая научила</li>
-    <li>deity0_created(deity0_gender==None)->создало</li>
-    <li>deity0_created(deity0_gender==Male)->создал</li>
-    <li>deity0_created(deity0_gender==Female)->создала</li>
     <li>founder_devotion(founder_gender==Male)->предан</li>
     <li>founder_devotion(founder_gender==Female)->предана</li>
     <li>founder_was(founder_gender==Male)->был</li>
@@ -166,8 +166,8 @@
     <li>animistFact(tag=meme_Individualist)     ->Every spirit lends its unique nature to our world, and they expect us to do the same.</li>
   -->
   <Individualist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Individualist)        ->[deity0_fashioned] [deity0_name] каждых мужчину и женщину индивидуально. Каждый является уникальным и драгоценным творением [deity0_possessive] божественной руки.</li>
-    <li>episode(uses=1,tag=meme_Individualist)  ->И [deity0_said] [deity0_name] всем: «Каждый из вас — уникальное и священное создание, сотворённое по образу и подобию моему».</li>
+    <li>creation(tag=meme_Individualist)        ->[individualist_deity0_fashioned] [deity0_name] мужчину каждого и женщину каждую в помыслах о самобытности. И был каждый уникальным и бесценным творением десницы [deity0_possessive] божьей. [andItWasSo]</li>
+    <li>episode(uses=1,tag=meme_Individualist)  ->[andBehold] [individualist_deity0_said] [deity0_name] всем: «Каждый из вас суть неповторимое и священное создание, которое [individualist_deity0_created] Я по образу и подобию Своему».</li>
     <li>intro(tag=meme_Individualist)           ->Слушали все [memberNamePlural], что [deity0_said] [deity0_name] каждому [revelationAdverb], ведя их на [place_summary] [place_name], где сияли уникальные дары для каждого из них.</li>
     <li>conflict(tag=meme_Individualist)        ->И потребовал [foeLeader], чтобы все [memberNamePlural] носили униформу и работали у него в [place_community].</li>
     <li>founderJoin(tag=meme_Individualist)     ->Но [founder_blessed] [place_job] по имени [founderName], и [deity0_self] [deity0_name] [deity0_gave] [founder_objective] знание чудесное об уникальной силе, что несёт в себе каждый [memberName]. И [founder_pointed] [founderName] каждому, что ему нужно, чтобы стать лучшей версией себя.</li>
@@ -183,12 +183,15 @@
     <li>archistProphecy(tag=meme_Individualist) ->[inTheEnd] архотеки уйдут. Они возьмут с собой лишь тех, кого они отметили, а остальных обрекут на разрушение в вечной вселенской энтропии.</li>
     <li>animistBasis(tag=meme_Individualist)    ->В начале времён существовал пантеон духов, и каждый из них был по-своему уникален. И они объединили свои силы, чтобы создать наш мир.</li>
     <li>animistFact(tag=meme_Individualist)     ->Каждый из духов вкладывает частицу своей уникальной природы в наш мир, и они ждут того же от нас.</li>
-    <li>deity0_fashioned(deity0_gender==None)->создавало</li>
-    <li>deity0_fashioned(deity0_gender==Male)->создавал</li>
-    <li>deity0_fashioned(deity0_gender==Female)->создавала</li>
-    <li>deity0_said(deity0_gender==None)->молвило</li>
-    <li>deity0_said(deity0_gender==Male)->молвил</li>
-    <li>deity0_said(deity0_gender==Female)->молвила</li>
+    <li>individualist_deity0_fashioned(deity0_gender==None)->создало</li>
+    <li>individualist_deity0_fashioned(deity0_gender==Male)->создал</li>
+    <li>individualist_deity0_fashioned(deity0_gender==Female)->создала</li>
+    <li>individualist_deity0_said(deity0_gender==None)->сказало</li>
+    <li>individualist_deity0_said(deity0_gender==Male)->сказал</li>
+    <li>individualist_deity0_said(deity0_gender==Female)->сказала</li>
+    <li>individualist_deity0_created(deity0_gender==None)->сотворило</li>
+    <li>individualist_deity0_created(deity0_gender==Male)->сотворил</li>
+    <li>individualist_deity0_created(deity0_gender==Female)->сотворила</li>
     <li>deity0_said(deity0_gender==None)->говорило</li>
     <li>deity0_said(deity0_gender==Male)->говорил</li>
     <li>deity0_said(deity0_gender==Female)->говорила</li>
