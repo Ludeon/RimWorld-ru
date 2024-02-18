@@ -137,7 +137,7 @@
   <!-- EN: insulting spree -->
   <TargetedInsultingSpree.label>поток брани</TargetedInsultingSpree.label>
   <!-- EN: Mental state: Insulting spree against {0} -->
-  <TargetedInsultingSpree.baseInspectLine>Душевное состояние: поток брани в адрес {0}</TargetedInsultingSpree.baseInspectLine>
+  <TargetedInsultingSpree.baseInspectLine>Душевное состояние: поток брани в адрес {0}</TargetedInsultingSpree.baseInspectLine> <!-- Здесь не работает lookup из-за string.Format в коде -->
   <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
   <TargetedInsultingSpree.beginLetter>{0} находит выход своим эмоциям. Им становится {1}.\n\n{PAWN_pronoun} будет ходить за своей жертвой, осыпая её оскорблениями.</TargetedInsultingSpree.beginLetter>
   <TargetedInsultingSpree.beginLetterLabel>поток брани</TargetedInsultingSpree.beginLetterLabel>
