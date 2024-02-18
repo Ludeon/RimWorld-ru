@@ -180,7 +180,8 @@
     <li>r_pattern->«[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]»\n\n - [lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
     <li>lessonAttribution->&lt;i>[attributionSource_titleCase]&lt;/i>, [founder_nameFull]</li>
-    <li>lessonAttribution->&lt;i>[attributionSource_titleCase]&lt;/i>, [founder_nameFull]</li> <!-- Временное решение проблемы отсутствия веса (p=2) -->
+    <li>lessonAttribution->&lt;i>[attributionSource_titleCase]&lt;/i>, [founder_nameFull]</li>
+    <!-- Временное решение проблемы отсутствия веса (p=2) -->
     <li>lessonAttribution->письмо [founder_nameFull] к [believer_nameFull]</li>
     <li>lessonAttribution->[founder_nameFull], из материалов [memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull] на своём смертном одре</li>
@@ -404,7 +405,7 @@
     <li>deity0_created(deity0_gender==Female)->создала</li>
     <li>deity0_saw(deity0_gender==None)->увидело</li>
     <li>deity0_saw(deity0_gender==Male)->увидел</li>
-    <li>deity0_saw(deity0_gender==Female)->увидела</li>	
+    <li>deity0_saw(deity0_gender==Female)->увидела</li>
     <li>deity0_whipped(deity0_gender==None)->ниспослало</li>
     <li>deity0_whipped(deity0_gender==Male)->ниспослал</li>
     <li>deity0_whipped(deity0_gender==Female)->ниспослала</li>
@@ -431,7 +432,7 @@
     <li>deity0_prevented(deity0_gender==Female)->противостояла</li>
     <li>deity0_saw2(deity0_gender==None)->видело</li>
     <li>deity0_saw2(deity0_gender==Male)->видел</li>
-    <li>deity0_saw2(deity0_gender==Female)->видела</li>	
+    <li>deity0_saw2(deity0_gender==Female)->видела</li>
     <li>universeFilledColoredMaterial->полнил собой вселенную [materialOrigin_masc] [Color]</li>
     <li>universeFilledColoredMaterial->полнила собой вселенную [materialOrigin_fem] [Color_fem]</li>
     <li>materialOrigin_masc->газ</li>
