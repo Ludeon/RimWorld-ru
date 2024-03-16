@@ -66,7 +66,9 @@
     <li>second->krome</li>
   -->
   <NamerIdeoRelic.rulePack.rulesStrings>
-    <li>r_ideoRelicName(p=2)->[first][second]</li>
+    <li>r_ideoRelicName->[first][second]</li>
+    <li>r_ideoRelicName(p=0.6)->[second_noun] [first_attr]</li>
+    <li>r_ideoRelicName(p=0.4)->[second_noun] [memeConcept]</li>
     <li>r_ideoRelicName->[thingLabel] [memeConcept]</li>
     <li>r_ideoRelicName->[memeAdjective_masc] [thingLabel]</li>
     <li>r_ideoRelicName->[memeHyphenPrefix]-[thingLabel]</li>
@@ -83,35 +85,36 @@
     <li>relic_neutral->сокровище</li>
     <li>relic_neutral->наследие</li>
     <li>first(p=5)->[memeHyphenPrefix]</li>
-    <li>first->длинно</li>
-    <li>first->небо</li>
-    <li>first->звёздо</li>
-    <li>first->глубоко</li>
-    <li>first->далёко</li>
-    <li>first->мёртво</li>
-    <li>first->живо</li>
-    <li>first->свето</li>
-    <li>first->тёмно</li>
-    <li>first->конце</li>
-    <li>first->хор</li>
-    <li>first->ан</li>
-    <li>first->экс</li>
-    <li>first->тон</li>
-    <li>first->доу</li>
-    <li>first->бор</li>
-    <li>first->вен</li>
-    <li>first->ксан</li>
-    <li>first->арль</li>
-    <li>first->гекс</li>
-    <li>first->бакс</li>
-    <li>first->цел</li>
-    <li>first->лок</li>
-    <li>first->поул</li>
-    <li>first->лод</li>
-    <li>second->зов</li>
-    <li>second->нос</li>
-    <li>second->вестник</li>
-    <li>second->лжец</li>
+    <li>first(p=15)->[first_prefix]-</li>
+    <li>first_attr->времён</li>
+    <li>first_attr->небес</li>
+    <li>first_attr->звёзд</li>
+    <li>first_attr->бездны</li>
+    <li>first_attr->дали</li>
+    <li>first_attr->смерти</li>
+    <li>first_attr->жизни</li>
+    <li>first_attr->света</li>
+    <li>first_attr->тьмы</li>
+    <li>first_attr->конца</li>
+    <li>first_prefix->хор</li>
+    <li>first_prefix->ан</li>
+    <li>first_prefix->экс</li>
+    <li>first_prefix->тон</li>
+    <li>first_prefix->доу</li>
+    <li>first_prefix->бор</li>
+    <li>first_prefix->вен</li>
+    <li>first_prefix->ксан</li>
+    <li>first_prefix->арль</li>
+    <li>first_prefix->гекс</li>
+    <li>first_prefix->бакс</li>
+    <li>first_prefix->цел</li>
+    <li>first_prefix->лок</li>
+    <li>first_prefix->поул</li>
+    <li>first_prefix->лод</li>
+    <li>second_noun->вестник</li>
+    <li>second_noun->предтеча</li>
+    <li>second_noun->глашатай</li>
+    <li>second_noun->наветник</li>
     <li>second->звено</li>
     <li>second->связь</li>
     <li>second->петля</li>
@@ -125,6 +128,7 @@
     <li>second->свет</li>
     <li>second->тень</li>
     <li>second->локус</li>
+    <li>second->форма</li>
     <li>second->плеть</li>
     <li>second->кром</li>
   </NamerIdeoRelic.rulePack.rulesStrings>
