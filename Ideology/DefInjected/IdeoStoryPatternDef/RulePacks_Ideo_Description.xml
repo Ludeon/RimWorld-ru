@@ -179,9 +179,7 @@
     <li>lesson(priority=-1)->всякое случается</li>
     <li>r_pattern->«[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]»\n\n - [lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution->&lt;i>[attributionSource_titleCase]&lt;/i>, [founder_nameFull]</li>
-    <li>lessonAttribution->&lt;i>[attributionSource_titleCase]&lt;/i>, [founder_nameFull]</li>
-    <!-- Временное решение проблемы отсутствия веса (p=2) -->
+    <li>lessonAttribution(p=2)->&lt;i>[attributionSource_titleCase]&lt;/i>, [founder_nameFull]</li>
     <li>lessonAttribution->письмо [founder_nameFull] к [believer_nameFull]</li>
     <li>lessonAttribution->[founder_nameFull], из материалов [memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull] на своём смертном одре</li>
@@ -201,8 +199,8 @@
     <li>attributionMemeAdjectiveFemale-></li>
     <li>attributionJob(founder_gender==Male)->[place_job_gen]</li>
     <li>attributionJob(founder_gender==Female)->[place_job_gen_fem]</li>
-    <li>memeConference->[conferencePrefix] [conferenceType], посвящённого теме [memeConcept]</li>
-    <li>memeConference->[conferencePrefixFem] [conferenceTypeFem], посвящённой теме [memeConcept]</li>
+    <li>memeConference(p=1.5)->[conferencePrefix] [conferenceType], посвящённого теме [memeConcept]</li>
+    <li>memeConference(p=1.5)->[conferencePrefixFem] [conferenceTypeFem], посвящённой теме [memeConcept]</li>
     <li>memeConference->[conferenceType], посвящённого теме [memeConcept]</li>
     <li>memeConference->[conferenceTypeFem], посвящённой теме [memeConcept]</li>
     <li>memeConference->[memeHyphenPrefix_titleCase]-кон</li>
