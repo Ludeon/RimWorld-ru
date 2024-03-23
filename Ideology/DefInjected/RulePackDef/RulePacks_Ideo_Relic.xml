@@ -66,9 +66,10 @@
     <li>second->krome</li>
   -->
   <NamerIdeoRelic.rulePack.rulesStrings>
-    <li>r_ideoRelicName(p=1.2)->[first][second]</li>
-    <li>r_ideoRelicName(p=0.5)->[second_noun] [first_attr]</li>
-    <li>r_ideoRelicName(p=0.3)->[second_noun] [memeConcept]</li>
+    <li>r_ideoRelicName(p=0.4)->[memeHyphenPrefix][second]</li>
+    <li>r_ideoRelicName(p=0.8)->[first]-[second]</li>
+    <li>r_ideoRelicName(p=0.5)->[genericSubject] [genericConcept]</li>
+    <li>r_ideoRelicName(p=0.3)->[genericSubject] [memeConcept]</li>
     <li>r_ideoRelicName->[thingLabel] [memeConcept]</li>
     <li>r_ideoRelicName->[memeAdjective_masc] [thingLabel]</li>
     <li>r_ideoRelicName->[memeHyphenPrefix]-[thingLabel]</li>
@@ -84,37 +85,21 @@
     <li>relic_fem->реликвия</li>
     <li>relic_neutral->сокровище</li>
     <li>relic_neutral->наследие</li>
-    <li>first(p=5)->[memeHyphenPrefix]</li>
-    <li>first(p=15)->[first_prefix]-</li>
-    <li>first_attr->времён</li>
-    <li>first_attr->небес</li>
-    <li>first_attr->звёзд</li>
-    <li>first_attr->бездны</li>
-    <li>first_attr->дали</li>
-    <li>first_attr->смерти</li>
-    <li>first_attr->жизни</li>
-    <li>first_attr->света</li>
-    <li>first_attr->тьмы</li>
-    <li>first_attr->конца</li>
-    <li>first_prefix->хор</li>
-    <li>first_prefix->ан</li>
-    <li>first_prefix->экс</li>
-    <li>first_prefix->тон</li>
-    <li>first_prefix->доу</li>
-    <li>first_prefix->бор</li>
-    <li>first_prefix->вен</li>
-    <li>first_prefix->ксан</li>
-    <li>first_prefix->арль</li>
-    <li>first_prefix->гекс</li>
-    <li>first_prefix->бакс</li>
-    <li>first_prefix->цел</li>
-    <li>first_prefix->лок</li>
-    <li>first_prefix->поул</li>
-    <li>first_prefix->лод</li>
-    <li>second_noun->вестник</li>
-    <li>second_noun->предтеча</li>
-    <li>second_noun->глашатай</li>
-    <li>second_noun->наветник</li>
+    <li>first->хор</li>
+    <li>first->ан</li>
+    <li>first->экс</li>
+    <li>first->тон</li>
+    <li>first->доу</li>
+    <li>first->бор</li>
+    <li>first->вен</li>
+    <li>first->ксан</li>
+    <li>first->арль</li>
+    <li>first->гекс</li>
+    <li>first->бакс</li>
+    <li>first->цел</li>
+    <li>first->лок</li>
+    <li>first->поул</li>
+    <li>first->лод</li>
     <li>second->звено</li>
     <li>second->связь</li>
     <li>second->петля</li>
@@ -131,6 +116,20 @@
     <li>second->форма</li>
     <li>second->плеть</li>
     <li>second->кром</li>
+    <li>genericSubject->вестник</li>
+    <li>genericSubject->предтеча</li>
+    <li>genericSubject->глашатай</li>
+    <li>genericSubject->наветник</li>
+    <li>genericConcept->времён</li>
+    <li>genericConcept->небес</li>
+    <li>genericConcept->звёзд</li>
+    <li>genericConcept->бездны</li>
+    <li>genericConcept->дали</li>
+    <li>genericConcept->смерти</li>
+    <li>genericConcept->жизни</li>
+    <li>genericConcept->света</li>
+    <li>genericConcept->тьмы</li>
+    <li>genericConcept->конца</li>
   </NamerIdeoRelic.rulePack.rulesStrings>
   
 </LanguageData>
