@@ -5,31 +5,81 @@
   <AirConditioning.label>кондиционеры</AirConditioning.label>
   <!-- EN: Build coolers to make people comfortable in hot weather, or to construct freezers for storing perishable goods. -->
   <AirConditioning.description>Предназначены для охлаждения помещений в жару или обустройства холодильников.</AirConditioning.description>
+  <!-- EN:
+    <li>subject->air conditioning</li>
+    <li>subject_story->visited the hottest town on the planet</li>
+    <li>subject_story->worked at the ice caps, in an interstellar warehouse kept near to absolute zero</li>
+    <li>subject_story->learned all about air conditioning and freezers, then returned home</li>
+    <li>subject_gerund->building air conditioning units</li>
+  -->
+  <AirConditioning.generalRules.rulesStrings>TODO</AirConditioning.generalRules.rulesStrings>
   
   <!-- EN: autodoor -->
   <Autodoors.label>автодвери</Autodoors.label>
   <!-- EN: Build autodoors which automatically open when someone approaches, without slowing anyone down. -->
   <Autodoors.description>Двери с датчиками и электромеханизмом позволят поселенцам не тратить время на их открывание.</Autodoors.description>
+  <!-- EN:
+    <li>subject->autodoors</li>
+    <li>subject->automatic doors</li>
+    <li>subject_story->was recruited by a robotics security firm, opening the door to a career as an automation tester</li>
+    <li>subject_story->prototyped unique models of autodoors</li>
+    <li>subject_story->worked very hard to ensure the doors made a satisfying 'hiss' when they opened or closed</li>
+    <li>subject_gerund->constructing autodoors</li>
+  -->
+  <Autodoors.generalRules.rulesStrings>TODO</Autodoors.generalRules.rulesStrings>
   
   <!-- EN: battery -->
   <Batteries.label>аккумуляторы</Batteries.label>
   <!-- EN: Build batteries for storing electricity. -->
   <Batteries.description>Изготовление аккумуляторов для хранения электроэнергии.</Batteries.description>
+  <!-- EN:
+    <li>subject->batteries</li>
+    <li>subject_story->discovered that an acid lake on the leaden shores of a deathworld worked as a natural battery</li>
+    <li>subject_story->was in charge of maintaining the life support if the colony lost power</li>
+    <li>subject_story->worked in the scrapworlds, repairing machines and batteries</li>
+    <li>subject_gerund->building batteries</li>
+  -->
+  <Batteries.generalRules.rulesStrings>TODO</Batteries.generalRules.rulesStrings>
   
   <!-- EN: biofuel refining -->
   <BiofuelRefining.label>перегонка биосырья</BiofuelRefining.label>
   <!-- EN: Build biofuel refineries to make chemfuel from biological matter like wood or foodstuffs. -->
   <BiofuelRefining.description>Конструирование перегонных аппаратов для получения химического топлива из органики, например древесины или пищевого сырья.</BiofuelRefining.description>
+  <!-- EN:
+    <li>subject->biofuel</li>
+    <li>subject_story->was trapped when a generation ship lost power. She used her knowledge of refining to turn human remains into biofuel and restart the engines</li>
+    <li>subject_story->used automated biorefineries to begin the long terraforming process on an iceworld</li>
+    <li>subject_story->started a distillery to make moonshine but, realizing it was undrinkable, sold it as chemfuel instead</li>
+    <li>subject_gerund->refining biofuel</li>
+  -->
+  <BiofuelRefining.generalRules.rulesStrings>TODO</BiofuelRefining.generalRules.rulesStrings>
   
   <!-- EN: blowback operation -->
   <BlowbackOperation.label>энергия отдачи</BlowbackOperation.label>
   <!-- EN: Craft low-power blowback-operated guns like autopistols and machine pistols. -->
   <BlowbackOperation.description>Позволяет конструировать автоматическое и полуавтоматическое огнестрельное оружие, например самозарядные и автоматические пистолеты.</BlowbackOperation.description>
+  <!-- EN:
+    <li>subject->pistols</li>
+    <li>subject->blowback firearms</li>
+    <li>subject_story->utilized machine pistols in the trench fighting that overtook the planet</li>
+    <li>subject_story->sold low-powered autopistols to law enforcement in the orbitals</li>
+    <li>subject_story->crafted blowback-operated guns for near-sighted conscripts</li>
+    <li>subject_gerund->crafting blowback firearms</li>
+  -->
+  <BlowbackOperation.generalRules.rulesStrings>TODO</BlowbackOperation.generalRules.rulesStrings>
   
   <!-- EN: advanced lights -->
   <ColoredLights.label>продвинутое освещение</ColoredLights.label>
   <!-- EN: Build powerful outdoors lights. Additionally, customize the color of electric lights and reduce their power consumption by half. This does not affect sun lamps. -->
-  <ColoredLights.description>Позволяет конструировать мощные уличные светильники. Также даёт возможность изменить цвет обычных электрических светильников, уменьшая их энергопотребление вдвое. Не относится к солнечным лампам.</ColoredLights.description>
+  <ColoredLights.description>Возможность изменить цвет обычных электрических светильников, уменьшая их энергопотребление вдвое. Не относится к солнечным лампам.</ColoredLights.description>
+  <!-- EN:
+    <li>subject->advanced lighting</li>
+    <li>subject_story->installed floodlights all around the prison world's many security perimeters</li>
+    <li>subject_story->made sure that the planet's dark side was well-lit</li>
+    <li>subject_story->moved into running concerts for interstellar troubadours, specializing in controlling the ship's massive lighting rigs</li>
+    <li>subject_gerund->building advanced lights</li>
+  -->
+  <ColoredLights.generalRules.rulesStrings>TODO</ColoredLights.generalRules.rulesStrings>
   
   <!-- EN: electricity -->
   <Electricity.label>электричество</Electricity.label>
@@ -39,100 +89,275 @@
   <Electricity.discoveredLetterText>Ваше поселение приручило стихию, которую чужеземцы называют «электричеством». С его помощью можно кардинально преобразить жизнь вашей общины.\n\nТеперь вам доступна вкладка «Энергия» меню строительства. В ней вы найдете генераторы, кабели и прочие электрические приспособления. Вкладка «Энергия» также отображает электрическую сеть и подключённые к ней генераторы и другую электрику.</Electricity.discoveredLetterText>
   <!-- EN: About: Electricity -->
   <Electricity.discoveredLetterTitle>Подробнее: электричество</Electricity.discoveredLetterTitle>
+  <!-- EN:
+    <li>subject->electricity</li>
+    <li>subject_story->was struck by lighting and became determined to harness it</li>
+    <li>subject_story->created the first generator and lightbulb on a medieval world</li>
+    <li>subject_story->was executed on a feudal world for the blasphemy of creating light</li>
+    <li>subject_gerund->harnessing electricity</li>
+  -->
+  <Electricity.generalRules.rulesStrings>TODO</Electricity.generalRules.rulesStrings>
   
   <!-- EN: firefoam -->
   <Firefoam.label>пожарная пена</Firefoam.label>
   <!-- EN: Construct firefoam poppers, automatic fire-safety devices which spread fire-retardant foam in response to encroaching flames. -->
   <Firefoam.description>Особая огнезащитная пена позволяет эффективно тушить пожары. Ей можно заправить специальные противопожарные устройства, хлопушки, которые при приближении огня распылят пену вокруг себя.</Firefoam.description>
+  <!-- EN:
+    <li>subject->firefoam poppers</li>
+    <li>subject->fire safety devices</li>
+    <li>subject_story->headed up an agency promulgating fire safety to the whole population</li>
+    <li>subject_story->became a firefighter</li>
+    <li>subject_story->was saved by the poppers when an oil fire spiraled out of control</li>
+    <li>subject_gerund->constructing firefoam poppers</li>
+    <li>subject_gerund->suppressing fires with poppers</li>
+  -->
+  <Firefoam.generalRules.rulesStrings>TODO</Firefoam.generalRules.rulesStrings>
   
   <!-- EN: flak armor -->
   <FlakArmor.label>бронезащита</FlakArmor.label>
   <!-- EN: Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly. -->
   <FlakArmor.description>Одежда со вшитыми металлическими бронепластинами даёт защиту от путь и осколков, но её немалый вес слегка затрудняет передвижение.</FlakArmor.description>
+  <!-- EN:
+    <li>subject->flak armor</li>
+    <li>subject_story->supplied flak armor to the militias that ran the cities</li>
+    <li>subject_story->learned to sew metal plates into clothing, to protect kin from the roving gangs</li>
+    <li>subject_story->survived a rifle bullet thanks to the metal plate sewn into the breast pocket</li>
+    <li>subject_gerund->crafting flak armor</li>
+  -->
+  <FlakArmor.generalRules.rulesStrings>TODO</FlakArmor.generalRules.rulesStrings>
   
   <!-- EN: foam turret -->
   <FoamTurret.label>пенные турели</FoamTurret.label>
   <!-- EN: Produce a turret which can be activated to spray fire-extinguishing foam. -->
   <FoamTurret.description>Позволяет сооружать турели, распыляющие пожарную пену при активации.</FoamTurret.description>
+  <!-- EN:
+    <li>subject->foam turrets</li>
+    <li>subject->fire suppression turrets</li>
+    <li>subject_story->redesigned gun turrets to put out fires, not create them</li>
+    <li>subject_story->incorporated heat sensors and foam ejectors into a standard turret chassis</li>
+    <li>subject_story->was praised after installing cheap foam turrets in public areas and saving many lives</li>
+    <li>subject_gerund->constructing fire suppression turrets</li>
+    <li>subject_gerund->suppressing fires with turrets</li>
+  -->
+  <FoamTurret.generalRules.rulesStrings>TODO</FoamTurret.generalRules.rulesStrings>
   
   <!-- EN: gas operation -->
   <GasOperation.label>отвод пороховых газов</GasOperation.label>
   <!-- EN: Craft high-power guns like chain shotguns, LMGs, and heavy SMGs. -->
   <GasOperation.description>Позволяет конструировать более продвинутое автоматическое и полуавтоматическое огнестрельное оружие: автоматические дробовики, пистолеты-пулемёты и ручные пулемёты.</GasOperation.description>
+  <!-- EN:
+    <li>subject->heavy weaponry</li>
+    <li>subject->high-power firearms</li>
+    <li>subject_story->equipped the special weapons squads of the tyrant's guard with light machine guns</li>
+    <li>subject_story->supplied several planetary armies with heavy firearms</li>
+    <li>subject_story->designed new types of high-power gun, still known today</li>
+    <li>subject_gerund->crafting heavy firearms</li>
+  -->
+  <GasOperation.generalRules.rulesStrings>TODO</GasOperation.generalRules.rulesStrings>
   
   <!-- EN: geothermal power -->
   <GeothermalPower.label>геотермальная энергия</GeothermalPower.label>
   <!-- EN: Build geothermal power plants on top of steam geysers, for uninterrupted power. -->
   <GeothermalPower.description>Строительство геотермальных электростанций на паровых гейзерах для непрерывной выработки электроэнергии.</GeothermalPower.description>
+  <!-- EN:
+    <li>subject->geothermal power</li>
+    <li>subject_story->studied steam power and established geothermal plants throughout the region</li>
+    <li>subject_story->tapped the power of a dormant volcano to power the local grid</li>
+    <li>subject_story->argued with the local population who wanted to preserve the scenic geysers, not use them for power</li>
+    <li>subject_gerund->tapping geothermal energy</li>
+    <li>subject_gerund->building geothermal power plants</li>
+  -->
+  <GeothermalPower.generalRules.rulesStrings>TODO</GeothermalPower.generalRules.rulesStrings>
   
   <!-- EN: gunsmithing -->
   <Gunsmithing.label>огнестрельное оружие</Gunsmithing.label>
   <!-- EN: Craft simple manually-operated guns like revolvers, pump shotguns, bolt-action rifles, and incendiary launchers. -->
   <Gunsmithing.description>К простому огнестрельному оружию относятся револьверы, помповые дробовики, винтовки с продольным затвором, а также реактивные огнемёты.</Gunsmithing.description>
+  <!-- EN:
+    <li>subject->simple firearms</li>
+    <li>subject_story->built a unique 12-shot revolver and won shoot-out after shoot-out</li>
+    <li>subject_story->specialized in simple gunsmithing, providing shotguns and rifles for hunters</li>
+    <li>subject_story->set up as a gunsmith, achieving fame across the sector</li>
+    <li>subject_gerund->gunsmithing</li>
+    <li>subject_gerund->crafting firearms</li>
+  -->
+  <Gunsmithing.generalRules.rulesStrings>TODO</Gunsmithing.generalRules.rulesStrings>
   
   <!-- EN: gun turrets -->
   <GunTurrets.label>пулемётные турели</GunTurrets.label>
   <!-- EN: Produce simple automated gun turrets. -->
   <GunTurrets.description>Изготовление простых автоматических пулемётных турелей.</GunTurrets.description>
+  <!-- EN:
+    <li>subject->gun turrets</li>
+    <li>subject_story->worked on AI routines, to enable gun turrets to identify friends and foes</li>
+    <li>subject_story->designed a modular gun turret holster, capable of taking any weapon type</li>
+    <li>subject_story->disabled the enemy's turrets remotely, before leading the charge</li>
+    <li>subject_gerund->constructing automated gun turrets</li>
+  -->
+  <GunTurrets.generalRules.rulesStrings>TODO</GunTurrets.generalRules.rulesStrings>
   
   <!-- EN: hydroponics -->
   <Hydroponics.label>гидропоника</Hydroponics.label>
   <!-- EN: Build hydroponics basins to rapidly grow crops indoors regardless of the terrain or weather outside. -->
   <Hydroponics.description>Создание гидропонных резервуаров для быстрого выращивания растений в помещении вне зависимости от почвы и погоды снаружи.</Hydroponics.description>
+  <!-- EN:
+    <li>subject->hydroponics</li>
+    <li>subject_story->joined a generation ship crew as their crop specialist</li>
+    <li>subject_story->established a hydroponics facility to feed the hungry</li>
+    <li>subject_story->traveled around, teaching artificial plant growth to new colonists</li>
+    <li>subject_gerund->building hydroponics</li>
+    <li>subject_gerund->growing plants indoors</li>
+  -->
+  <Hydroponics.generalRules.rulesStrings>TODO</Hydroponics.generalRules.rulesStrings>
   
   <!-- EN: IEDs -->
   <IEDs.label>мины</IEDs.label>
   <!-- EN: Build improvised traps from any kind of mortar shell. -->
   <IEDs.description>Изготовление и установка мин нажимного действия из артиллерийских снарядов.</IEDs.description>
+  <!-- EN:
+    <li>subject->improvised explosive traps</li>
+    <li>subject_story->disarmed the leftover shells of the war, sending them onto the new frontline as mines</li>
+    <li>subject_story->came under mortar fire, only surviving by crafting traps from the enemy's many dud shells</li>
+    <li>subject_story->advocated for the rights of small settlements, where unexploded munitions were a constant peril</li>
+    <li>subject_gerund->crafting improvised explosive traps</li>
+  -->
+  <IEDs.generalRules.rulesStrings>TODO</IEDs.generalRules.rulesStrings>
   
   <!-- EN: machining -->
   <Machining.label>механика</Machining.label>
   <!-- EN: Build machining tables to craft guns, grenades, flak armor, and to shred dead mechanoids for resources. -->
   <Machining.description>Позволяет создавать верстаки, на которых можно собирать оружие и оборудование, а также перерабатывать мёртвых механоидов.</Machining.description>
+  <!-- EN:
+    <li>subject->machining</li>
+    <li>subject_story->gathered the remains of dead mechanoids and shredded them for resources</li>
+    <li>subject_story->quietly built an arsenal of self-made weapons in the basement of a suburban home</li>
+    <li>subject_story->built machining tables for many gunsmiths, despite being a pacifist</li>
+    <li>subject_gerund->building machining equipment</li>
+    <li>subject_gerund->machining</li>
+  -->
+  <Machining.generalRules.rulesStrings>TODO</Machining.generalRules.rulesStrings>
   
   <!-- EN: mortars -->
   <Mortars.label>миномёты</Mortars.label>
   <!-- EN: Build mortars which can lob shells long distances - even over walls. -->
   <Mortars.description>Миномёты позволяют запускать снаряды на большие расстояния поверх препятствий.</Mortars.description>
+  <!-- EN:
+    <li>subject->artillery</li>
+    <li>subject->mortars</li>
+    <li>subject_story->was instrumental in the glasshouse siege that overthrew the town council</li>
+    <li>subject_story->developed a collapsible, lightweight mortar tube for the local police</li>
+    <li>subject_story->demolished the many derelict buildings from a distance, with explosive shells</li>
+    <li>subject_gerund->crafting mortars</li>
+    <li>subject_gerund->constructing simple artillery</li>
+  -->
+  <Mortars.generalRules.rulesStrings>TODO</Mortars.generalRules.rulesStrings>
   
   <!-- EN: nutrient paste -->
   <NutrientPaste.label>питательная паста</NutrientPaste.label>
   <!-- EN: Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks, while requiring no labor at all. -->
   <NutrientPaste.description>Особые дозаторы позволяют эффективно и автоматизированно производить питательную пасту из сырых пищевых продуктов.</NutrientPaste.description>
+  <!-- EN:
+    <li>subject->nutrient paste</li>
+    <li>subject_story->worked in a factory canteen and devised nutrient paste as a way to avoid all labor</li>
+    <li>subject_story->lost their taste of smell to disease, so devised a cheap, flavorless nutrient paste</li>
+    <li>subject_story->advocated for the recycling of all organic matter into nutrient paste, even corpses</li>
+    <li>subject_gerund->building nutrient paste dispensers</li>
+  -->
+  <NutrientPaste.generalRules.rulesStrings>TODO</NutrientPaste.generalRules.rulesStrings>
   
   <!-- EN: packaged survival meal -->
   <PackagedSurvivalMeal.label>сухие пайки</PackagedSurvivalMeal.label>
   <!-- EN: Produce packaged survival meals which never go bad. Great for traveling. -->
   <PackagedSurvivalMeal.description>Консервированная и герметично упакованная еда, которая не портится и идеально подходит для путешествий.</PackagedSurvivalMeal.description>
+  <!-- EN:
+    <li>subject->packaged survival meals</li>
+    <li>subject->non-perishable food</li>
+    <li>subject_story-> knew, when disaster struck, there were enough packaged meals to survive until rescuers arrived</li>
+    <li>subject_story->established a social kitchen, which donated survival meals to all outgoing vessels</li>
+    <li>subject_story->discovered survival meals in the mountains that were hundreds of years old</li>
+    <li>subject_gerund->preparing survival meals</li>
+  -->
+  <PackagedSurvivalMeal.generalRules.rulesStrings>TODO</PackagedSurvivalMeal.generalRules.rulesStrings>
   
   <!-- EN: prosthetics -->
   <Prosthetics.label>протезирование</Prosthetics.label>
   <!-- EN: Build inexpensive prosthetic body parts to replace lost limbs. Requires a skilled doctor to attach. -->
   <Prosthetics.description>Конструирование несложных протезов для замены утраченных конечностей. Для установки требуется опытный врач.</Prosthetics.description>
+  <!-- EN:
+    <li>subject->prosthesis</li>
+    <li>subject_story->had a limb replaced with a prosthetic, to show how easy it was</li>
+    <li>subject_story->opened a prosthetics clinic</li>
+    <li>subject_story->began crafting bespoke fake limbs for the many war veterans in the area</li>
+    <li>subject_gerund->crafting prosthetics</li>
+  -->
+  <Prosthetics.generalRules.rulesStrings>TODO</Prosthetics.generalRules.rulesStrings>
   
   <!-- EN: smokepop packs -->
   <SmokepopBelt.label>дымовые ранцы</SmokepopBelt.label>
   <!-- EN: Build smokepop packs which allow the wearer to deploy a defensive smokescreen. -->
   <SmokepopBelt.description>Дымовые ранцы используют для постановки дымовых завес.</SmokepopBelt.description>
+  <!-- EN:
+    <li>subject->smokescreen</li>
+    <li>subject_story->worked as a hauler for bands, using smokepops for special effects</li>
+    <li>subject_story->established a defensive smokepop perimeter around the local towns, to keep the wildlife back</li>
+    <li>subject_story->used smokepop packs to train new firefighters, without the peril of actual fire</li>
+    <li>subject_gerund->building smokepop packs</li>
+    <li>subject_gerund->deploying smokescreens</li>
+  -->
+  <SmokepopBelt.generalRules.rulesStrings>TODO</SmokepopBelt.generalRules.rulesStrings>
   
   <!-- EN: solar panel -->
   <SolarPanels.label>солнечные батареи</SolarPanels.label>
   <!-- EN: Build solar panels for electricity generation. -->
   <SolarPanels.description>Панели с солнечными батареями предназначены для преобразования солнечного света в электроэнергию.</SolarPanels.description>
+  <!-- EN:
+    <li>subject->solar panels</li>
+    <li>subject->solar energy</li>
+    <li>subject_story->established a multi-spectrum solar farm</li>
+    <li>subject_story->studied ways of maximizing the percentage of solar energy captured</li>
+    <li>subject_story->left on a sundiver to see a fly-by of a star's photosphere</li>
+    <li>subject_gerund->building solar panels</li>
+  -->
+  <SolarPanels.generalRules.rulesStrings>TODO</SolarPanels.generalRules.rulesStrings>
   
   <!-- EN: sterile materials -->
   <SterileMaterials.label>стерильные материалы</SterileMaterials.label>
   <!-- EN: Construct sterile tiles to make cleanrooms for safer and more effective medical treatment, research, and cooking. -->
   <SterileMaterials.description>Укладка стерильной плитки для создания чистых помещений для более безопасного и эффективного лечения, исследования, приготовления пищи.</SterileMaterials.description>
+  <!-- EN:
+    <li>subject->sterile surfaces</li>
+    <li>subject_story->prevented many deaths by insisting on effective, consistent sterilization of all equipment</li>
+    <li>subject_story->started a kibble kitchen which, uniquely for the system, was known to be free of food poisoning</li>
+    <li>subject_story->established a decorative tile factory, with a sideline in medical equipment and sterile tiles</li>
+    <li>subject_gerund->sterilizing surfaces</li>
+    <li>subject_gerund->constructing sterilized surfaces</li>
+  -->
+  <SterileMaterials.generalRules.rulesStrings>TODO</SterileMaterials.generalRules.rulesStrings>
   
   <!-- EN: tube television -->
   <TubeTelevision.label>ЭЛТ-телевизоры</TubeTelevision.label>
   <!-- EN: Produce tube televisions for recreational watching. -->
   <TubeTelevision.description>Изготовление телевизоров на электронно-лучевых трубках. Просмотр телепередач — один из видов развлечения.</TubeTelevision.description>
+  <!-- EN:
+    <li>subject->tube televisions</li>
+    <li>subject_story->designed a faux-retro television set that could pick up interstellar signals</li>
+    <li>subject_story->moved into broadcasting, producing programmes just for the archaic tube televisions</li>
+    <li>subject_story->ensured that everyone knew the dangers of cathode ray tubes</li>
+    <li>subject_gerund->producing tube televisions</li>
+  -->
+  <TubeTelevision.generalRules.rulesStrings>TODO</TubeTelevision.generalRules.rulesStrings>
   
   <!-- EN: watermill generator -->
   <WatermillGenerator.label>водяные генераторы</WatermillGenerator.label>
   <!-- EN: Build watermill generators on rivers to generate a steady supply of power. -->
   <WatermillGenerator.description>Водяные генераторы превращают течение воды в стабильный источник электроэнергии.</WatermillGenerator.description>
+  <!-- EN:
+    <li>subject->watermill generators</li>
+    <li>subject_story->watched twigs and leaves get pulled downstream and envisioned the power there</li>
+    <li>subject_story->hooked cabling up to an ancient flour mill on a feudalworld</li>
+    <li>subject_story->beached a paddle steamer on a ruinworld's shores and converted it into a watermill</li>
+    <li>subject_gerund->watermill generators</li>
+  -->
+  <WatermillGenerator.generalRules.rulesStrings>TODO</WatermillGenerator.generalRules.rulesStrings>
   
 </LanguageData>
