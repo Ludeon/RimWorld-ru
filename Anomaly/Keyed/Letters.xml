@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Inhumanization -->
+  <ReHumanizedLabel>Человечность восстановлена</ReHumanizedLabel>
+  <ReHumanizedText>{0_nameDef} восстанавливает свою человечность. Состояние «Обесчеловечивание» снято.</ReHumanizedText>
+  <WarningFromLabel>{0_nameDef} предупреждает</WarningFromLabel>
+
+  <!-- Hate chanters -->
+  <HateChantersLabel>Поющие гимн злобы</HateChantersLabel>
+  <HateChantersText>К вам нагрянули Поющие гимн злобы. Сектанты собираются провести ритуал, чтобы наслать на ваших поселенцев психическую ярость и довести их до безумия. Гимн будет становиться все громче и громче, если сектантов не остановить.</HateChantersText>
+  <HateChantersAttackingLabel>Сектанты атакуют</HateChantersAttackingLabel>
+  <HateChantersAttackingText>Сектанты допели гимн злобы и выходят из ритуального транса.\n\nГотовьтесь к обороне.</HateChantersAttackingText>
+
+  <!-- Psychic rituals -->
+  <PsychicRitualCompleteLabel>{0}: завершён</PsychicRitualCompleteLabel>
+
+  <VoidProvocationCompletedText>{INVOKER_nameDef} заканчивает ритуал «{RITUAL_definite}», испуская психический импульс, который привлечёт тёмных тварей.</VoidProvocationCompletedText>
+  <VoidProvocationSucceeded>Будьте готовы к тому, что грядёт.</VoidProvocationSucceeded>
+  <VoidProvocationFailed>К сожалению, ваш зов остался без ответа.</VoidProvocationFailed>
+  <VoidProvocationDarkPsychicShock>В процессе {INVOKER_nameDef} {INVOKER_gender ? увидел : увидела} нечто за гранью человеческого понимания. От психического шока {INVOKER_objective} впадает в кратковременную кому.</VoidProvocationDarkPsychicShock>
+  <PhilophagyCompleteText>{INVOKER_nameDef} завершает ритуал «{RITUAL_definite}», в результате которого {TARGET_nameDef} передаёт {INVOKER_gender ? ему : ей} свои навыки и воспоминания.</PhilophagyCompleteText>
+  <PawnGainedXPInSkill>{0_nameDef} получает {1} ед. опыта в навыке «{2_label}»</PawnGainedXPInSkill>
+  <PawnLostXPInSkill>{0_nameDef} теряет {1} ед. опыта в навыке «{2_label}»</PawnLostXPInSkill>
+  <PhilophagySkillLevelGained>уровень навыка поднимается с {0} до {1}.</PhilophagySkillLevelGained>
+  <PhilophagySkillLevelLost>уровень навыка снижается с {0} до {1}.</PhilophagySkillLevelLost>
+  <PhilophagySkillLevelRemains>остаётся на уровне навыка {0}.</PhilophagySkillLevelRemains>
+  <PhilophagyDamagedTarget>В процессе {TARGET_nameDef} получает повреждение мозга, и теперь {TARGET_gender ? он : она} в коме.</PhilophagyDamagedTarget>
+
+  <ImbueDeathRefuralCompleteText>{0_nameDef} получает лекарство от смерти. Теперь {0_pronoun} может самостоятельно воскреснуть после смерти.\n\nОднако в процессе {0_nameDef} получает повреждение мозга, в результате которого теряет в общей сложности {1} ед. опыта своих навыков.</ImbueDeathRefuralCompleteText>
+
+  <SummonAnimalsSuccessText>{0_nameDef} завершает ритуал «{RITUAL_definite}». Скоро на вашей территории появится стадо животных.</SummonAnimalsSuccessText>
+  <SummonAnimalsFailureText>{0_nameDef} {0_gender ? завершил : завершила} ритуал «{RITUAL_definite}», но что-то пошло совсем не так! Ритуал ввергнул животных в безумие! В вашу сторону движется агрессивное стадо!</SummonAnimalsFailureText>
+  
+  <SummonShamblersCompleteText>{0_nameDef} успешно завершает ритуал «{RITUAL_definite}». Готовьтесь к их прибытию.</SummonShamblersCompleteText>
+
+  <AttackingFromMultipleDirections>Они атакуют с нескольких направлений.</AttackingFromMultipleDirections> 
+
+  <ChronophagyCompleteText>{0_nameDef} успешно завершает ритуал «{RITUAL_definite}». Ритуал даёт следующие эффекты:</ChronophagyCompleteText>
+  <ChronophagyTargetAged>{0_nameDef} {0_gender ? постарел : постарела} на {1} г.</ChronophagyTargetAged>
+  <ChronophagyInvokerRejuvenated>{0_nameDef} {0_gender ? помолодел : помолодела} на {1} г.</ChronophagyInvokerRejuvenated>
+  <ChronophagyTargetDiedOfOldAge>{0_nameDef} не {0_gender ? смог : смогла} выдержать старения из-за ритуала хронофагии и {0_gender ? умер : умерла} от старости.</ChronophagyTargetDiedOfOldAge>
+  <ChronophagyTargetOldAgeDiseases>Хотя {0_nameDef} и {0_gender ? пережил : пережила} ритуал хронофагии, {0_pronoun} {0_gender ? заработал : заработала} следующие болезни:</ChronophagyTargetOldAgeDiseases>
+  <ChronophagyInvokerCuredDiseases>Кроме того, в процессе ритуала {0_nameDef} {0_gender ? исцелился : исцелилась} от следующих болезней:</ChronophagyInvokerCuredDiseases>
+  <ChronophagyCurrentAge>и теперь {0_possessive} возраст — {0} лет</ChronophagyCurrentAge>
+
+  <PleasurePulseCompleteText>{0_nameDef} завершает ритуал «{RITUAL_definite}». В течение {1} все, на кого воздействует «{RITUAL_definite}», будут счастливее, но станут медленнее работать.</PleasurePulseCompleteText>
+
+  <NeurosisPulseCompleteText>{0_nameDef} завершает ритуал «{RITUAL_definite}». В течение {1} все, кто слышал пульсацию, будут быстрее работать, но проявлять больше раздражительности.</NeurosisPulseCompleteText>
+
+  <BloodRainCompleteText>{0_nameDef} завершает ритуал «{RITUAL_definite}». С неба начинают падать густые красные капли. Не выпускайте поселенцев из помещений, чтобы они не впали в ярость.</BloodRainCompleteText>
+
+  <BrainwipeCompleteText>{INVOKER_nameDef} завершает ритуал «{RITUAL_definite}», и теперь {TARGET_nameDef} страдает от хаотичной потери памяти.</BrainwipeCompleteText>
+  <BrainwipeTargetComa>{TARGET_pronoun} будет лежать в коме ещё {1}.</BrainwipeTargetComa>
+  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} теперь не отличается непоколебимой верностью.</BrainwipeUnwaveringlyLoyal>
+  <BrainwipeRehumanized>{TARGET_nameDef} восстанавливает человечность.</BrainwipeRehumanized>
+
+  <PsychophagyCompleteText>{INVOKER_nameDef} завершает ритуал «{RITUAL_definite}» и поглощает псионическую сущность. Жертва — {TARGET_nameDef}.</PsychophagyCompleteText>
+  <PsychophagyTargetSurvived>{TARGET_nameDef} теперь психически {TARGET_gender ? глух : глуха}. В процессе {TARGET_nameDef} {TARGET_gender ? получил : получила} повреждение мозга, {TARGET_objective} {TARGET_gender ? впал : впала} в кому.</PsychophagyTargetSurvived>
+  
+  <PsychicRitualTargetBrainLiquified>В процессе {TARGET_nameDef} {TARGET_gender ? получил : получила} разжижение мозга. {TARGET_objective} умирает.</PsychicRitualTargetBrainLiquified>
+
+  <SummonFleshbeastsPlayerCompleteText>{0_nameDef} завершает ритуал «{RITUAL_definite}». Из-под земли вылезают биошматы!</SummonFleshbeastsPlayerCompleteText>
+
+  <GhoulInfusionCompleteText>{INVOKER_nameDef} завершает ритуал. Благодаря внедрению в тело биоферрита {TARGET_nameDef} меняется. Изменения касаются и {TARGET_possessive} психики, и тела — {TARGET_nameDef} превращается в упыря. {INVOKER_nameDef} знает, что {TARGET_nameDef} будет выполнять все отданные по псионической связи приказы. {INVOKER_objective} теперь хозяин, а {TARGET_nameDef} — раб.\n\nУпыри питаются сырым мясом. Голодный упырь может стать враждебным.</GhoulInfusionCompleteText>
+  
+  <AttackersMayCastRitualMultipleTimes>Ритуал могут провести несколько раз. Их нужно остановить.</AttackersMayCastRitualMultipleTimes>
+
+  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} завершает ритуал «{RITUAL_definite}». Манипуляция пространством и временем удалась, и {INVOKER_nameDef} ликует. Похищение, цель которого — {TARGET_nameDef} из фракции {FACTION_name}, прошло как по маслу. Однако жуткая природа ритуала привела к тому, что {TARGET_nameDef} {PAWN_gender ? впал : впала} в краткосрочную кому.</SkipAbductionPlayerCompleteText>
+
+  <FleshmassResponseLabel>Реакция биомассы</FleshmassResponseLabel> 
+  <FleshmassResponseText>Смерть биомассы вызвала агрессивную реакцию! Комок плоти содрогается, порождая новых биошматов себе в защиту.</FleshmassResponseText> 
+
+  <!-- Void awakening -->
+  <VoidAwakeningStageOneStructuresActivatedLabel>Меркнущее небо</VoidAwakeningStageOneStructuresActivatedLabel>
+  <VoidAwakeningStageTwoStructuresActivatedLabel>Объекты активированы</VoidAwakeningStageTwoStructuresActivatedLabel>
+  <VoidAwakeningStageOneStructuresActivatedText>После активации второго объекта тьма начинает сгущаться. Скоро на вас опустится неестественная темнота. Подготовьте колонию. Запасайтесь ресурсами, стройте светильники, создавайте ракеты-дизрапторы и укрепляйте оборону. Лишь те, у кого есть свет, будут в безопасности.\n\nЖдите появления новых искажённых объектов.</VoidAwakeningStageOneStructuresActivatedText>
+  <VoidAwakeningStageTwoStructuresActivatedText>Все пустотные объекты активированы. Пространство вокруг монолита пустоты начинает мерцать. Будьте готовы.</VoidAwakeningStageTwoStructuresActivatedText> 
+  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} телепортируется</VoidAwakeningFinalStructuresActivatedLabel> 
+  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} активирует монолит и перемещается из нашего пространства-времени в иное.\n\n{STUDIER_pronoun} оказывается в комнате с зазубренными металлическими шипами. Каждая поверхность источает тёмную жидкость, а воздух буквально вибрирует от силы. Этот металлический ад — путь, ведущий к нечеловеческому сверхразуму.\n\n{STUDIER_nameDef} обнаруживает узел пустоты, транслирующий влияние кошмарного разума в наш мир. Взаимодействуйте с ним, чтобы принять его силу или уничтожить и полностью оборвав связь.</VoidAwakeningFinalStructuresActivatedText> 
+  <VoidAwakeningShamblerArrivalLabel>Нападение шамблеров</VoidAwakeningShamblerArrivalLabel>
+  <VoidAwakeningShamblerArrivalText>Пустотные объекты привлекли в колонию орду шамблеров. Будьте готовы!</VoidAwakeningShamblerArrivalText>
+  <VoidAwakeningFleshbeastBurrowLabel>Биошматы прорываются наружу</VoidAwakeningFleshbeastBurrowLabel>
+  <VoidAwakeningFleshbeastBurrowText>Монолит испустил мощный псионный импульс, который привлёк в колонию тёмных тварей.\n\nИз-под земли доносятся зычные вопли и скрежет когтей. Биошматы роют тоннели на поверхность. Будьте готовы!</VoidAwakeningFleshbeastBurrowText>
+  <VoidAwakeningMetalhorrorArrivalLabel>Атака металлической жути</VoidAwakeningMetalhorrorArrivalLabel>
+  <VoidAwakeningMetalhorrorArrivalText>Возле монолита пустоты появляется металлическая жуть. Будьте готовы!</VoidAwakeningMetalhorrorArrivalText>
+  <VoidAwakeningEntityArrivalLabel>Атака тёмной твари</VoidAwakeningEntityArrivalLabel> 
+  <VoidAwakeningEntityArrivalText>После активации пустотный объект испустил искажённый псионный импульс, на который сбегаются тёмные твари. Готовьтесь!</VoidAwakeningEntityArrivalText>
+  <VoidAwakeningBreadcrumbLetterLabel>Принять пустоту</VoidAwakeningBreadcrumbLetterLabel>
+  <VoidAwakeningBreadcrumbLetterText>Во время взаимодействия с пустотным объектом {PAWN_nameDef} {PAWN_gender ? заглянул : заглянула} в пустоту. В своём минутном видении {PAWN_pronoun} {PAWN_gender ? плыл : плыла} по чёрному бездонному океану и {PAWN_gender ? проникался : проникалась} его нечеловеческой силой.\n\n{PAWN_nameDef} считает, что если принять пустоту, то можно научиться контролировать её силу. Возможно, канал стоит активировать полностью, и тогда перед вами откроются совершенно новые горизонты.</VoidAwakeningBreadcrumbLetterText>
+
+  <!-- Void node -->
+  <VoidNodeReturnedLabel>{PAWN_nameDef} возвращается</VoidNodeReturnedLabel>
+  <VoidNodeReturnedMessage>{PAWN_nameDef} вновь появляется в этом мире.</VoidNodeReturnedMessage>
+  <EmbracedVoidText>{PAWN_nameDef} вновь появляется в этом мире.\n\n{PAWN_pronoun} выглядит жутко. {PAWN_possessive} тело как будто иссушили нечеловеческие мыслительные процессы пустоты. {PAWN_nameDef} смотрит на мир пустыми глазами без тени человечности.\n\n{PAWN_nameDef} и душой, и телом {PAWN_gender ? един : едина} с тёмной пустотой, полной нечеловеческой ярости. Эта новая связь придаёт сил, и {PAWN_nameDef} больше не нуждается в таких человеческих вещах, как еда и сон. К тому же, пустота дарует способность внушать страх.\n\nМонолит пробудился. С тех пор как {PAWN_nameDef} {PAWN_gender ? вернулся : вернулась} в этот мир, он гудит ещё громче, напоминая о том, что связь с пустотой теперь установлена навсегда.</EmbracedVoidText>
+  <DisruptedLinkText>{PAWN_nameDef} вновь появляется в этом мире. {PAWN_pronoun} страшно {PAWN_gender ? устал : устала}, но в остальном совершенно {PAWN_gender ? здоров : здорова}.\n\nЗакрыв канал в пустоту, {PAWN_nameDef} ставит жирный крест на всех попытках сверхъестественного войти в наш мир. Тёмные твари бездыханными пали на землю.\n\n{PAWN_possessive} имя навеки войдёт в легенды как пример невероятного героизма.</DisruptedLinkText>
+  <RewardFleshcraftingAbility>ваяние из плоти</RewardFleshcraftingAbility>
+  <RewardSlaughterAbility>забойщик</RewardSlaughterAbility>
+  <RewardShamblerControlAbility>контроль над шамблерами</RewardShamblerControlAbility>
+
+  <!-- Duplicate sickness -->
+  <DuplicateSicknessLabel>Недомогание из-за дупликации</DuplicateSicknessLabel>
+  <DuplicateSicknessText>И {0_nameDef}, и двойник {0_possessive} чувствуют себя нехорошо. Похоже, их состояние связано с процессом дупликации, и оно ухудшается. Псионная связь между ними заставляет их медленно терять сознание. Им не станет лучше, пока один из них не умрет.</DuplicateSicknessText>
+
+  <!-- Frenzied animals -->
+  <FrenziedAnimalsLabel>Разъярённые животные</FrenziedAnimalsLabel>
+  <FrenziedAnimalsText>На вашу территорию забрели агрессивные {0}, доведённые до безумия вашим ритуалом. Они будут рыскать по окрестностям в поисках человечины.\n\nЭти животные не будут пробиваться через закрытые двери, если, конечно, не увидят, как в них забегают ваши поселенцы. Спрячьтесь заранее — и вы будете в безопасности. Они также не нападут на турели, если вы отключите их.\n\nПодождите один-два дня, и {0} уйдут. Вы также можете напасть на них сами.</FrenziedAnimalsText>
+
+  <!-- Ghouls -->
+  <GhoulBetrayalLabel>Предательство упыря</GhoulBetrayalLabel>
+  <GhoulBetrayalText>{PAWN_nameDef} впадает в безумие из-за своей всепоглощающей тяги к сырому мясу!</GhoulBetrayalText>
+  
+  <!-- Distress signal -->
+  <DistressSignalLabel>Сигнал бедствия</DistressSignalLabel>
+  <DistressSignalText>Вы перехватили сигнал бедствия из ближайшего лагеря фракции {FACTION_name}.\n\nКто-то перепуганным голосом просит помочь им как можно скорее. В обмен на помощь он предлагает всё, что только есть у них в лагере, включая мощные архо-осколки.\n\nКогда потерпевший пытается объяснить, что именно случилось, связь обрывается.</DistressSignalText>
+  <DistressSignalAmbushLabel>Засада</DistressSignalAmbushLabel>
+  <DistressSignalAmbushText>Из хтонической норы рядом с вами лезут биошматы!</DistressSignalAmbushText>
+
+  <!-- Chimeras -->
+  <ChimeraAssaultLabel>Приближаются химеры</ChimeraAssaultLabel>
+  <ChimeraAssaultText>Рядом объявилась группа жутких звероподобных монстров-химер.\n\nЭти искорёженные твари будут следить за вашей колонией и выжидать момент. Они очень нервные и могут напасть, если вы их спровоцируете.</ChimeraAssaultText>
+
+  <!-- Unnatural darkness -->
+  <DarknessLiftingEarlyLetterLabel>Тьма отступает</DarknessLiftingEarlyLetterLabel>
+  <DarknessLiftingEarlyLetterText>Последний из кошмарных столбов разрушен. Неестественная темнота начала рассеиваться. Колонисты вздыхают с облегчением.</DarknessLiftingEarlyLetterText>
+  <PawnAttackedInDarknessLabel>{0_nameDef} {PAWN_gender ? подвергся : подверглась} нападению</PawnAttackedInDarknessLabel>
+  <PawnAttackedInDarknessText>Что-то во тьме атакует... {0_nameDef} в опасности!\n\nЭти атаки будут продолжаться, пока {0_pronoun} не окажется в безопасном светлом месте.</PawnAttackedInDarknessText>
+  <NoctolAttackLetterLabel>Атака ноктолов</NoctolAttackLetterLabel>
+  <NoctolAttackLetterText>Во тьме заметно какое-то движение. Из непроглядной черноты доносится нечеловеческий стрёкот.\n\nЧёрные насекомоподобные ноктолы вскоре нанесут удар.</NoctolAttackLetterText>
+  <DarknessWarningLetterLabel>Близость тьмы</DarknessWarningLetterLabel>
+  <DarknessWarningLetterText>На поселение скоро опустится тьма. В безопасности будут лишь те, на кого светят лампы, факелы и осветительные ракеты.\n\nЧтобы поселенцы не забредали в темноту, вы можете ограничить их передвижения на вкладке «Режим дня», отметив разрешённые места.</DarknessWarningLetterText>
+  <DarknessWaveringLetterLabel>Тьма колеблется</DarknessWaveringLetterLabel>
+  <DarknessWaveringLetterText>После уничтожения ноктолита в тьме на мгновение образуется крохотная трещина, которую почти сразу же вновь заполняет чернота.\n\nУничтожьте оставшиеся ноктолиты, чтобы неестественная темнота рассеялась.</DarknessWaveringLetterText>
+
+  <!-- Shambler Swarms -->
+  <LetterLabelShamblerSwarmArrived>Приближаются шамблеры</LetterLabelShamblerSwarmArrived>
+  <LetterLabelShamblerArrived>Приближается шамблер</LetterLabelShamblerArrived>
+  <LetterShamblerSwarmArrived>К вам ковыляет группа из {0} гниющих трупов. Какая-то нечеловеческая сила оживила эти тела и приказала им убивать.\n\nТеперь они будут бродить в этой области. Если они увидят человека, то нападут, если же нет, то уйдут через несколько дней.\n\nЗахватив и изучив кого-нибудь из них, вы можете получить знания об аномалии.</LetterShamblerSwarmArrived>
+  <LetterShamblerArrived>К вам ковыляет гниющий труп. Какая-то нечеловеческая сила оживила это тело и приказала ему убивать.\n\nТеперь он будет бродить в этой области. Если он увидит человека, то нападёт, если же нет, то уйдёт через несколько дней.\n\nЗахватив и изучив его, вы можете получить знания об аномалии.</LetterShamblerArrived>
+  <LetterLabelShamblerAnimalsArrived>Шамблеры-{0}</LetterLabelShamblerAnimalsArrived>
+  <LetterShamblerAnimalsArrived>Осторожно: {0}! К вам ковыляет группа из гниющих трупов. Какая-то нечеловеческая сила оживила эти тела и приказала им убивать.\n\nТеперь они будут бродить в этой области. Если они увидят человека, то нападут, если же нет, то уйдут через несколько дней.\n\nЗахватив и изучив кого-нибудь из них, вы можете получить знания об аномалии.</LetterShamblerAnimalsArrived>
+
+  <!-- Ghoul pod crash -->
+  <GhoulPodCrashLabel>Крушение капсулы</GhoulPodCrashLabel>
+  <GhoulPodCrashText>Невдалеке приземлилась транспортная капсула, которая перевозила голодного агрессивного упыря.\n\nПока что упырь оглушён, но вскоре он придёт в себя и будет нападать на всех, кого увидит. Его можно поймать и приковать к платформе для дальнейшего изучения.\n\nПоймайте или убейте его, пока он не очнулся.</GhoulPodCrashText>
+  <GhoulPodCrashStartingPawnText>Невдалеке приземлилась транспортная капсула, которая перевозила голодного агрессивного упыря. При внимательном осмотре выяснилось, что это {PAWN_nameDef}, бывший член вашего экипажа.\n\nПока что упырь оглушён, но вскоре он придёт в себя и будет нападать на всех, кого увидит. Его можно поймать и приковать к платформе для дальнейшего изучения.\n\nПоймайте или убейте его, пока он не очнулся.</GhoulPodCrashStartingPawnText>
+
+  <!-- Entity codex -->
+  <LetterLabelEntityDiscovery>Доступны новые исследования</LetterLabelEntityDiscovery>
+  <LetterTextEntityDiscoveryResearch>Ваша находка — {ENTITY_definite} — открыла вам новые научные горизонты. Теперь вы можете исследовать следующие аномалии:</LetterTextEntityDiscoveryResearch>
+
+  <!-- Nociosphere -->
+  <NociosphereDefeatedLabel>Ноциосфера побеждена</NociosphereDefeatedLabel>
+  <NociosphereDefeatedText>Ноциосфера уничтожена, и после неё осталось немало ценных ресурсов.</NociosphereDefeatedText>
+  <NociosphereBecomingUnstableLabel>Ноциосфера дестабилизируется</NociosphereBecomingUnstableLabel> 
+  <NociosphereBecomingUnstableText>Энергетическое излучение ноциосферы начало меняться и адаптироваться. В течение 10 дней она перестанет реагировать на подавление.\n\nБез подавления ноциосфера активируется.</NociosphereBecomingUnstableText> 
+  <NociosphereBecomingUnstableTextExtraSendable>Повреждайте ноциосферу, отправляя её атаковать враждебные цели. Получив такую команду, ноциосфера ненадолго станет агрессивной по отношению ко всем живым существам.</NociosphereBecomingUnstableTextExtraSendable>
+  <NociosphereBecomingUnstableTextExtraNotSendable>Изучите ноциосферу, чтобы найти способ избавиться от неё.</NociosphereBecomingUnstableTextExtraNotSendable>
+  <NociosphereUnstableLabel>Ноциосфера нестабильна</NociosphereUnstableLabel>
+  <NociosphereUnstableText>Ноциосфера стала нестабильной и больше не реагирует на подавление. Когда её активность достигнет 100%, она пробудится.</NociosphereUnstableText>
+  <NociosphereUnstableTextExtraSendable>Избавьтесь от ноциосферы, отправив её в атаку на крупные силы противника. Выполнив приказ, она покинет вас насовсем.</NociosphereUnstableTextExtraSendable> 
+  <NociosphereUnstableTextExtraNotSendable>Готовьтесь к атаке ноциосферы.</NociosphereUnstableTextExtraNotSendable>>
+
+  <UnnaturalCorpseArrivalLabel>Странный труп</UnnaturalCorpseArrivalLabel>
+  <UnnaturalCorpseArrivalText>Странный труп, появившийся невесть откуда.\n\nПри детальном осмотре выяснилось, что он выглядит точь-в-точь как {PAWN_nameDef}. Его кожа липкая и тёплая на ощупь.\n\nИзучите труп, чтобы узнать о нём больше.</UnnaturalCorpseArrivalText>
+
+  <GoldenCubeArrivalLabel>Золотистый куб</GoldenCubeArrivalLabel>
+  <GoldenCubeArrivalText>Неподалёку приземлился странный куб. Тёплый на ощупь, сверкает, словно золото, и его невозможно поцарапать. Свет завораживающе играет на его поверхности.\n\n{PAWN_nameDef} чувствует необъяснимую тягу к кубу.\n\nИзучите куб, чтобы узнать о нём больше.</GoldenCubeArrivalText>
+
+  <VoidCuriosityLabel>Интерес к пустоте</VoidCuriosityLabel>
+  <VoidCuriosityText_Researched>{PAWN_nameDef} начинает увлекаться пустотой и хочет изучить её получше с помощью ритуала воззвания.\n\nРитуал воззвания к пустоте помогает искать и захватывать тёмных тварей. Пленников можно изучать в рамках исследовательских проектов в разделе «Аномалии», а также подключить к сборщику биоферрита.\n\nЧтобы провести ритуал воззвания к пустоте, определите место для псионических ритуалов.</VoidCuriosityText_Researched>
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef} начинает увлекаться пустотой и хочет изучить её получше с помощью ритуала воззвания.\n\nРитуал воззвания к пустоте помогает искать и захватывать тёмных тварей. Пленников можно изучать в рамках исследовательских проектов в разделе «Аномалии», а также подключить к сборщику биоферрита.\n\nЧтобы провести ритуал воззвания к пустоте, проведите соответствующее исследование и определите место для псионических ритуалов.</VoidCuriosityText_NotResearched>\n\n</LanguageData>

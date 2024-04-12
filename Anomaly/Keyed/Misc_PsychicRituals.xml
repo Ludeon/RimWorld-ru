@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <PsychicRitual>псионический ритуал</PsychicRitual>
+  <CastPsychicRitual>Начать псионический ритуал</CastPsychicRitual>
+  <CastPsychicRitualDesc>Выберите псионический ритуал</CastPsychicRitualDesc>
+  <CannotCastPsychicRitual>{0_labelShort} не может выполнить псионический ритуал «{1}», потому что {2}.</CannotCastPsychicRitual>
+  <PsychicRitualBegun>Псионический ритуал «{0}» начался.</PsychicRitualBegun>
+  <PsychicRitualCompleted>Псионический ритуал «{0}» завершён.</PsychicRitualCompleted>
+  <PsychicRitualAttending>наблюдает за псионическим ритуалом «{RITUALNAME}»</PsychicRitualAttending>
+  <ParticipatingInPsychicRitual>{0_labelShort} участвует в псионическом ритуале «{1}».</ParticipatingInPsychicRitual>
+  <AbilityDisabledInPsychicRitual>{0_labelShort} участвует в псионическом ритуале «{1}».</AbilityDisabledInPsychicRitual>
+  <PsychicRitual_LocationTargetting>выберите место</PsychicRitual_LocationTargetting>
+  <PsychicRitualExpectedQualityLabel>общее качество</PsychicRitualExpectedQualityLabel>
+  <PsychicRitualQualityFactorLabel>на качество влияют</PsychicRitualQualityFactorLabel>
+  <PsychicRitualExpectedDurationLabel>длительность</PsychicRitualExpectedDurationLabel>
+  <PsychicRitualRequiredOffering>нужное подношение</PsychicRitualRequiredOffering>
+  <CausedByPsychicRitual>Эффект псионического ритуала</CausedByPsychicRitual>
+  <PsychicRitualCooldownLabel>Пауза между ритуалами</PsychicRitualCooldownLabel>
+
+  <PsychicRitualSpotObstructed>Помехи в месте проведения псионического ритуала.</PsychicRitualSpotObstructed>
+  <PsychicRitualOnCooldown>Между псионическими ритуалами нужна пауза. Новый можно будет начать через {0}.</PsychicRitualOnCooldown>
+  <PsychicRitualCanBeCastAgain>Псионический ритуал «{0}» вновь доступен.</PsychicRitualCanBeCastAgain>
+  <NoBasicResearchForPsychicRitual>Базовый исследовательский проект аномалии не выбран.</NoBasicResearchForPsychicRitual>
+  <CantCastOnPocketMap>Псионический ритуал «{0}» нужно проводить на поверхности.</CantCastOnPocketMap>
+
+  <PsychicRitualFactionWarning>Предупреждение: если выполнить ритуал, целью которого будет {PAWN_nameDef}, это рассердит {PAWN_possessive} фракцию ({FACTION_name})</PsychicRitualFactionWarning>
+
+  <PsychicRitualWakingPawnWarning>{0} сейчас спит и проснётся, когда начнётся псионический ритуал.</PsychicRitualWakingPawnWarning>
+  <PsychicRitualUndraftPawnWarning>{0} сейчас в режиме призыва, но он отменится с началом псионического ритуала.</PsychicRitualUndraftPawnWarning>
+  <PsychicRitualWakingPawnsWarning>{0} сейчас спят и проснутся, когда начнётся псионический ритуал.</PsychicRitualWakingPawnsWarning>
+  <PsychicRitualUndraftPawnsWarning>{0} сейчас в режиме призыва, но он отменится с началом псионического ритуала.</PsychicRitualUndraftPawnsWarning>
+
+  <PsychicRitualLeft>{0_labelShort} покидает псионический ритуал «{1}».</PsychicRitualLeft>
+  <PsychicRitualLeftBecause>{0_labelShort} {0_gender ? покинул : покинула} псионический ритуал «{1}», так как {2}.</PsychicRitualLeftBecause>
+  <PsychicRitualCanceled>Псионический ритуал «{0}» отменён.</PsychicRitualCanceled>
+  <PsychicRitualCanceledBecause>Псионический ритуал «{0}» отменён, так как {1}.</PsychicRitualCanceledBecause>
+
+  <PsychicRitualOfferingsInsufficient>Нужно {0}, но доступно лишь {1}</PsychicRitualOfferingsInsufficient>
+
+  <CommandLeavePsychicRitual>покинуть псионический ритуал «{0}»</CommandLeavePsychicRitual>
+  <CommandLeavePsychicRitualDesc>Прекратить участие в псионическом ритуале «{0}». Ритуал будет идти, пока в нём участвует хотя бы один человек.</CommandLeavePsychicRitualDesc>
+
+  <CommandCancelPsychicRitual>отменить псионический ритуал «{0}»</CommandCancelPsychicRitual>
+  <CommandCancelPsychicRitualDesc>Отменить псионический ритуал «{0}» немедленно. Вы сможете возобновить его позже.</CommandCancelPsychicRitualDesc>
+  <CommandCancelPsychicRitualConfirm>Вы уверены, что хотите прервать псионический ритуал «{0}»?</CommandCancelPsychicRitualConfirm>
+
+  <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort} {PAWN_gender ? исчез : исчезла}</PsychicRitualLeaveReason_Vanished>
+  <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort} {PAWN_gender ? обездвижен : обездвижена}</PsychicRitualLeaveReason_Incapped>
+  <PsychicRitualLeaveReason_Killed>{PAWN_labelShort} {PAWN_gender ? мёртв : мертва}</PsychicRitualLeaveReason_Killed>
+  <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort} не член фракции «{FACTION_name}»</PsychicRitualLeaveReason_WrongFaction>
+  <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort} больше не на карте</PsychicRitualLeaveReason_ExitedMap>
+  <PsychicRitualLeaveReason_LeftVoluntarily>{PAWN_labelShort} занимается кое-чем поважнее</PsychicRitualLeaveReason_LeftVoluntarily>
+  <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort} в режиме призыва</PsychicRitualLeaveReason_Drafted>
+  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort} в состоянии нервного срыва</PsychicRitualLeaveReason_InMentalState>
+  <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort} истекает кровью</PsychicRitualLeaveReason_Bleeding>
+  <PsychicRitualLeaveReason_Burning>{PAWN_labelShort} горит</PsychicRitualLeaveReason_Burning>
+  <PsychicRitualLeaveReason_ExtremeTemperature>Температура возле цели настолько велика, что {PAWN_labelShort} в опасности</PsychicRitualLeaveReason_ExtremeTemperature>
+  <PsychicRitualLeaveReason_InsideBuilding>{BUILDING} ограничивает передвижение, а {PAWN_labelShort} сейчас там</PsychicRitualLeaveReason_InsideBuilding>
+  <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort} {PAWN_gender ? подобен : подобна} человеку</PsychicRitualLeaveReason_Humanlike>
+  <PsychicRitualLeaveReason_NonHumanlike>{PAWN_labelShort} не {PAWN_gender ? подобен : подобна} человеку</PsychicRitualLeaveReason_NonHumanlike>
+  <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort} в плену</PsychicRitualLeaveReason_Prisoner>
+  <PsychicRitualLeaveReason_Slave>{PAWN_labelShort} раб</PsychicRitualLeaveReason_Slave>
+  <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort} {PAWN_gender ? свободен : свободна}</PsychicRitualLeaveReason_Freeman>
+  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} — {STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
+  <PsychicRitualLeaveReason_CannotReachTarget>{PAWN_labelShort} не может добраться до указанного места</PsychicRitualLeaveReason_CannotReachTarget>
+  <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort} спит</PsychicRitualLeaveReason_Sleeping>
+  <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} не человек</PsychicRitualLeaveReason_Mutant>
+  <PsychicRitualLeaveReason_IdeoUnwilling>{PAWN_possessive} идеолигия ({IDEO_name}) мешает участию</PsychicRitualLeaveReason_IdeoUnwilling> 
+  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} псионически {PAWN_gender ? невосприимчив : невосприимчива}</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort} — временный член фракции</PsychicRitualLeaveReason_TemporaryFactionMember>
+  <PsychicRitualLeaveReason_PawnBusyWithLord>{PAWN_labelShort} {PAWN_gender ? занят : занята} другими делами</PsychicRitualLeaveReason_PawnBusyWithLord>
+  <PsychicRitualLeaveReason_ForcedByQuest>{PAWN_labelShort} {PAWN_gender ? занят : занята} другими делами</PsychicRitualLeaveReason_ForcedByQuest>
+
+  <!-- PsychicRitualToils-->
+  <PsychicRitualToil_Goto_JobReport_Moving>выдвигается на своё место</PsychicRitualToil_Goto_JobReport_Moving>
+  <PsychicRitualToil_Goto_JobReport_Waiting>ждёт, пока все займут своё место</PsychicRitualToil_Goto_JobReport_Waiting>
+
+  <PsychicRitualToil_GatherOfferings_OfferingUnavailable>{PAWN_labelShort} не {PAWN_gender ? смог : смогла} найти достаточно подношений ({1})</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
+  <PsychicRitualToil_GatherOfferings_JobReport>собирает подношения</PsychicRitualToil_GatherOfferings_JobReport>
+
+  <PsychicRitualToil_InvokeHorax_JobReport_Invoker>возглавляет псионический ритуал</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
+  <PsychicRitualToil_InvokeHorax_JobReport_Chanter>подпитывает псионический ритуал</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
+  <PsychicRitualToil_InvokeHorax_JobReport_Target>цель псионического ритуала</PsychicRitualToil_InvokeHorax_JobReport_Target>
+  <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>{0} не может сделать подношение ({1})</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
+  <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>{PAWN_labelShort} не на своём месте</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
+  <PsychicRitualToil_InvokeHorax_JobReport_Defender>защищает псионический ритуал</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
+
+  <PsychicRitualToil_GatherForInvocation_Report>ожидает:</PsychicRitualToil_GatherForInvocation_Report>
+  <PsychicRitualToil_InvokeHorax_Report>заклинает пустоту</PsychicRitualToil_InvokeHorax_Report>
+
+  <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort} уничтожается</PsychicRitualDef_TargetDestroyed>
+
+  <PsychicRitualDef_InvocationCircle_AreaMustBeClear>в месте проведения не должно быть ничего лишнего</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>{PAWN_labelShort} — психочувствительность</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>Насколько {PAWN_labelShort} в резонансе с псионическими феноменами.</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>Эти объекты помогают сфокусировать псионическую силу ритуала.</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>Воздействие идеолигии</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>Насколько на псионический ритуал влияют идеолигические убеждения.</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
+
+  <!-- PsychicRitualDef_InvokationCircle messages -->
+  <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>{0} начинает выполнять псионический ритуал «{1}».</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
+  <PsychicRitualAreaObstructed>помехи в месте проведения псионического ритуала</PsychicRitualAreaObstructed>
+
+  <!-- Animal summoning -->
+  <NotEnoughAnimals>Недостаточно животных в этом биоме.</NotEnoughAnimals>
+
+  <!-- Shambler summoning -->
+  <NoNearbyShamblers>Рядом нет шамблеров.</NoNearbyShamblers>
+
+  <!-- Pit gate summoning -->
+  <PitGateAlreadyExists>На карте уже есть хтонические врата.</PitGateAlreadyExists>
+  
+  <!-- Chronophagy -->
+  <InvokerTooYoung>Заклинателю должно быть не менее {0} лет.</InvokerTooYoung>
+  <PsychicRitualTargetTooYoung>Цели должно быть не менее {0} лет.</PsychicRitualTargetTooYoung>
+  <CronophagyAgeChange>Новый возраст поселенцев: {INVOKER_labelShort} — {1}, {TARGET_labelShort} — {3}.</CronophagyAgeChange>
+  
+  <!-- Philophagy -->
+  <PhilophagyTransferReport>{INVOKER_labelShort} похитит {1} ед. опыта навыка «{SKILL_label}». {TARGET_labelShort} их потеряет.</PhilophagyTransferReport>
+</LanguageData>

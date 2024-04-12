@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+  <!-- Shamblers -->
+  <ShamblerRegenerating>Регенерирует, чтобы восстать вновь.</ShamblerRegenerating>
+  <ShamblerRising>Восстаёт.</ShamblerRising>
+  <ShamblerStanding>Безмолвно стоит.</ShamblerStanding>
+  <ShamblerShuffling>Безмолвно шаркает ногами.</ShamblerShuffling>
+  <LetterText_ShamblerGorehulk>Осторожно: в этой группе шамблер — кровавая туша.</LetterText_ShamblerGorehulk>
+  <LetterText_ShamblerGorehulkPlural>Осторожно: в этой группе несколько шамблеров — кровавых туш.</LetterText_ShamblerGorehulkPlural>
+  <LetterText_ShamblerChimera>Осторожно: в этой группе шамблер-химера.</LetterText_ShamblerChimera>
+  <LetterText_ShamblerChimeraPlural>Осторожно: в этой группе несколько шамблеров-химер.</LetterText_ShamblerChimeraPlural>
+
+  <MessageRitualCannotBeMutant>Нелюди не могут участвовать в ритуалах.</MessageRitualCannotBeMutant>
+
+  <!-- Revenant -->
+  <LetterLabelRevenantRevealed>Атака ревенанта</LetterLabelRevenantRevealed>
+  <LetterRevenantRevealed>Ревенант показал себя!</LetterRevenantRevealed>
+  <LetterRevenantRevealedFirst>Ревенант показал себя и охотится за одним из ваших поселенцев!</LetterRevenantRevealedFirst> 
+  <LetterLabelRevenantSmearDiscovered>Найдено пятно ревенанта</LetterLabelRevenantSmearDiscovered>
+  <LetterRevenantSmearDiscovered>{0} обнаруживает на земле чёрную слизь. Она неестественно выглядит и пахнет чем-то до мерзости кислым. Пятно свежее и влажное — значит, тварь проходила тут недавно...</LetterRevenantSmearDiscovered>
+  <LetterLabelRevenantKilled>Ревенант убит</LetterLabelRevenantKilled>
+  <LetterRevenantKilled>Ревенант мёртв! Те, кто были под гипнозом, теперь поправятся.\n\nОт тела чудовища остался один хребет. Вы можете подобрать и изучить его, либо же уничтожить.</LetterRevenantKilled>
+  <LetterLabelPawnHypnotized>{PAWN_nameDef} под гипнозом</LetterLabelPawnHypnotized>
+  <LetterPawnHypnotized>{PAWN_nameDef} попадает под гипноз ревенанта и теперь безостановочно несёт какой-то кошмарный бред.\n\nУбийство ревенанта завершит гипнотический транс.\n\nС помощью своих псионных способностей ревенант затуманивает разум окружающих и ускользает от восприятия, однако его всё равно можно выследить по чёрными пятнам. Ревенанта можно обнаружить, если он попадёт под взрыв, пожарную пену, ЭМИ, огонь или ракету-дизраптор.\n\nЕсли ревенанта не убить, он будет и дальше гипнотизировать жертв.</LetterPawnHypnotized>
+  <LetterRevenantFleshChunkLabel>Кусок плоти ревенанта</LetterRevenantFleshChunkLabel>
+  <LetterRevenantFleshChunkText>Кусок плоти, отпавшей от раненого ревенанта. Вы можете проанализировать его, чтобы узнать, как выследить ревенанта.</LetterRevenantFleshChunkText>
+  <LetterRevenantSeenLabel>Ревенант замечен</LetterRevenantSeenLabel>
+  <LetterRevenantSeen>{PAWN_nameDef} замечает прячущегося ревенанта!</LetterRevenantSeen>
+  <InTrance>В трансе.</InTrance>
+  <LetterLabelRevenantEmergence>Появление ревенанта</LetterLabelRevenantEmergence>
+  <LetterRevenantEmergence>Ревенант восстановился из своего хребта! Уничтожьте его, пока он не успел уйти.\n\nВ процессе ревенант мутировал и приобрёл новую биосигнатуру.</LetterRevenantEmergence>
+
+  <!-- Sightstealers -->
+  <LetterLabelSightstealerRevealed>Взглядокрад раскрыт</LetterLabelSightstealerRevealed>
+  <LetterSightstealerRevealed>Из ниоткуда появилось жуткое существо!</LetterSightstealerRevealed>
+  <MessageSightstealerRevealed>Появление взглядокрада!</MessageSightstealerRevealed>
+  <LetterLabelSightstealerHowl>Крик взглядокрада</LetterLabelSightstealerHowl>
+  <LetterSightstealerHowl>Ваши поселенцы слышат вдалеке крики взглядокрадов.\n\nПока что сложно понять, где они и сколько их. Они могут добраться до вас и через минуту, и через несколько дней.</LetterSightstealerHowl>
+  <LetterLabelSightstealerHowlBig>Вой взглядокрадов</LetterLabelSightstealerHowlBig>
+  <LetterSightstealerHowlBig>Ваши поселенцы слышат, как вдалеке воет от ярости орда взглядокрадов. Скоро они будут у вас.\n\nНеизвестно, когда они прибудут — может, прямо сейчас, а может, через несколько дней.</LetterSightstealerHowlBig>
+
+  <!-- Death Pall -->
+  <LetterLabelDeathPallEnded>Пелена смерти спадает</LetterLabelDeathPallEnded> 
+  <LetterDeathPallEnded>Пелена смерти спадает. Оживлённые трупы скоро вернутся в своё естественное состояние.</LetterDeathPallEnded>
+  
+  <!-- Pit Gate -->
+  <LetterLabelGateClosing>Хтонические врата закрываются</LetterLabelGateClosing>
+  <LetterGateClosing>Хтонические врата закрываются! Вход вот-вот обрушится.\n\nХтонические врата с самого начала были нестабильны, и вскоре земля наконец сомкнётся.</LetterGateClosing>
+  <MustPlaceNextToPitGate>Нужно разместить вплотную к хтоническим вратам.</MustPlaceNextToPitGate>
+  <PitGateClosedHumanityNote>Хтонические врата закрыты</PitGateClosedHumanityNote>
+  <PitGateCollapsing>Хтонические врата осыпаются</PitGateCollapsing> 
+  <PitGateSettling>Хтонические врата успокаиваются</PitGateSettling> 
+  <ViewUndercave>Осмотреть подвратную пещеру</ViewUndercave> 
+  <ViewUndercaveDesc>Просмотр карты подземного пространства в этом месте.</ViewUndercaveDesc>
+  <ViewSurface>Осмотреть поверхность</ViewSurface>
+  <ViewSurfaceDesc>Просмотр карты поверхности в этом месте.</ViewSurfaceDesc>
+  <EmergenceWarningLabel>Нора трясётся</EmergenceWarningLabel>
+  <EmergenceWarningText>Земля у вас под ногами трясётся, а доносящиеся из норы нечеловеческие крики становятся всё ближе. Скоро оттуда что-то появится.</EmergenceWarningText>
+
+  <!-- Pit Burrow -->
+  <DesignatorFillIn>Засыпать</DesignatorFillIn>
+  <DesignatorFillInDesc>Засыпать хтоническую нору.</DesignatorFillInDesc>
+
+    <!-- Undercave -->
+  <EnterPitGate>Войти в хтонические врата</EnterPitGate> 
+  <ExitPitGate>Выбраться на поверхность</ExitPitGate>
+  <LetterLabelGateEntered>Логово биошматов</LetterLabelGateEntered> 
+  <LetterGateEntered>Хтонические врата привели вас в огромную систему пещер, кишащую биошматами.\n\nПроходы между пещерами забиты биомассой, не дающей пройти дальше. Атакуйте её, чтобы расчистить путь.\n\nСистема пещер кажется нестабильной. Если пробиться за биомассу, возможно, вы сможете устроить обвал и закрыть врата.</LetterGateEntered> 
+  <LetterLabelDreadmeldWarning>Звуки шевеления</LetterLabelDreadmeldWarning> 
+  <LetterDreadmeldWarning>{PAWN_nameDef} приближается к биомассе... {PAWN_pronoun} чувствует, как за её тёплой поверхностью что-то шевелится и пульсирует. Стена плоти скрывает за собой огромное живое существо.</LetterDreadmeldWarning> 
+  <LetterLabelUndercaveCollapsing>Подвратная пещера неустойчива</LetterLabelUndercaveCollapsing> 
+  <LetterUndercaveCollapsing>Смерть жуткоплава ввергла биомассу в шок и вызвала дестабилизацию пещер. Поддерживающая своды биомасса уже начала распадаться. Не пройдёт и половины дня, как пещеры обрушатся.\n\nВыбирайтесь на поверхность, пока ещё не слишком поздно!</LetterUndercaveCollapsing>
+
+  <!-- Holding platform -->
+  <HoldingThing>Существо на платформе:</HoldingThing>
+  <RemoveFromPlatform>Убрать: {0_labelShort}</RemoveFromPlatform>
+  <RemoveFromPlatformDesc>Убрать тварь с фиксирующей платформы.</RemoveFromPlatformDesc>
+  <ReleasingEntity>{GERUND} {TARGETLABEL} c</ReleasingEntity>
+  <TransferringEntity>{GERUND} {TARGETLABEL}</TransferringEntity>
+  <SelectHoldingPlatform>Выберите фиксирующую платформу</SelectHoldingPlatform>
+  <LetterLabelEscapingFromHoldingPlatform>Побег твари</LetterLabelEscapingFromHoldingPlatform> 
+  <LetterEscapingFromHoldingPlatform>Следующие твари вырвались из оков:\n\n{0}\n\nЧтобы не дать существам сбежать, стройте более надёжные изоляторы. Чтобы повысить надёжность фиксирующей платформы, выбирайте крепкие стены и двери, хорошее освещение и специальные средства для удержания тварей.</LetterEscapingFromHoldingPlatform> 
+  <HoldingPlatformRequiresStrength>требуется: {0}</HoldingPlatformRequiresStrength>
+  <NoHoldingPlatformsAvailable>Нет доступных фиксирующих платформ.</NoHoldingPlatformsAvailable>
+  
+  
+  <!-- Obelisks -->
+  <MutatorObeliskLetterLabel>Активация обелиска</MutatorObeliskLetterLabel>
+  <MutatorObeliskLetter>Обелиск активируется! Он наливается мрачной энергией, и воздух вокруг него потрескивает от напряжения. Он вот-вот взорвётся, но до этого успеет искорёжить тела всех, кто ему попадётся.</MutatorObeliskLetter>
+
+  <ObeliskTentacleLetterLabel>Мутация через обелиск</ObeliskTentacleLetterLabel>
+  <ObeliskTentacleLetter>Во время взаимодействия с обелиском {PAWN_nameDef} чувствует покалывание в руке. Ещё пара секунд, и {PAWN_possessive} кожа расходится в стороны, а из раны вырывается новая плоть. Вместо одной из рук у пострадавшего теперь растёт гибкое щупальце!\n\n{PAWN_nameDef} теряет немного крови, но в остальном чувствует себя хорошо.</ObeliskTentacleLetter>
+
+  <ObeliskFleshWhipLetterLabel>Мутация через обелиск</ObeliskFleshWhipLetterLabel>
+  <ObeliskFleshWhipLetter>Во время взаимодействия с обелиском {PAWN_nameDef} чувствует покалывание в руке. Ещё пара секунд, и {PAWN_possessive} кожа расходится в стороны, а из раны вырывается новая плоть. Вместо одной из рук у пострадавшего теперь растёт гибкое щупальце с костяным клинком на конце!\n\n{PAWN_nameDef} теряет немного крови, но в остальном чувствует себя хорошо. Хоть щупальце и смотрится кошмарно, зато из него выйдет отличное оружие ближнего боя.</ObeliskFleshWhipLetter>
+
+  <MutatorObeliskFailedArmLetterLabel>Взаимодействие с обелиском</MutatorObeliskFailedArmLetterLabel>
+  <MutatorObeliskFailedArmLetter>Во время взаимодействия с обелиском {PAWN_nameDef} чувствует мимолётное покалывание в руке, но ощущение вскоре проходит.\n\nНа этот раз {PAWN_nameDef} избегает мутаций.</MutatorObeliskFailedArmLetter>
+
+  <ObeliskFleshmassStomachLetterLabel>Мутация через обелиск</ObeliskFleshmassStomachLetterLabel>
+  <ObeliskFleshmassStomachLetter>Во время взаимодействия с обелиском {PAWN_nameDef} чувствует внезапную боль в желудке. После некоторых мучений {PAWN_possessive} желудок превращается в массу полуразумной плоти. Новообразование выделяет сильную кислоту, которая причиняет боль, но защищает от пищевого отравления.</ObeliskFleshmassStomachLetter>
+
+  <MutatorObeliskFailedStomachLetterLabel>Взаимодействие с обелиском</MutatorObeliskFailedStomachLetterLabel>
+  <MutatorObeliskFailedStomachLetter>Во время взаимодействия с обелиском {PAWN_nameDef} чувствует боль в области желудка, но ощущение вскоре проходит.\n\nНа этот раз {PAWN_nameDef} избегает мутаций.</MutatorObeliskFailedStomachLetter>
+
+  <ObeliskFleshmassLungLetterLabel>Мутация через обелиск</ObeliskFleshmassLungLetterLabel>
+  <ObeliskFleshmassLungLetter>Во время взаимодействия с обелиском {PAWN_nameDef} чувствует острую боль в груди. После некоторых мучений {PAWN_possessive} лёгкое превращается в массу полуразумной плоти. Ткани новообразования постоянно обновляются, что защищает от таких болезней, как трупная чахотка и астма.</ObeliskFleshmassLungLetter>
+
+  <MutatorObeliskFailedLungLetterLabel>Взаимодействие с обелиском</MutatorObeliskFailedLungLetterLabel>
+  <MutatorObeliskFailedLungLetter>Во время взаимодействия с обелиском {PAWN_nameDef} чувствует внезапную боль в груди, но ощущение вскоре проходит.\n\nНа этот раз {PAWN_nameDef} избегает мутаций.</MutatorObeliskFailedLungLetter>
+
+  <ObeliskAnimalMutationLetterLabel>Мутация через обелиск</ObeliskAnimalMutationLetterLabel>
+  <ObeliskAnimalMutationLetter>Во время взаимодействия с обелиском {PAWN_nameDef} замечает внезапный всплеск энергии. «Благодаря» обелиску {ANIMAL} превращается в ужасного биошмата.</ObeliskAnimalMutationLetter>
+
+  <ObeliskTreeMutationLetterLabel>Мутация через обелиск</ObeliskTreeMutationLetterLabel>
+  <ObeliskTreeMutationLetter>Во время взаимодействия с обелиском {PAWN_nameDef} замечает внезапный всплеск энергии. Обелиск превращает ближайшее дерево в древо-предвестник. Эти чудовищные деревья способны питаться трупами и сырым мясом.</ObeliskTreeMutationLetter>
+
+  <ObeliskDuplicationLetterLabel>Дупликация через обелиск</ObeliskDuplicationLetterLabel>
+  <ObeliskDuplicationLetter>Во время взаимодействия с обелиском {PAWN_nameDef} видит яркую вспышку света, после чего рядом оказывается {PAWN_objective} точная копия. Двойник утверждает, что на самом деле {PAWN_pronoun} — {PAWN_gender ? настоящий : настоящая} {PAWN_nameDef}. У вас стало на одного поселенца больше.</ObeliskDuplicationLetter>
+
+  <ObeliskDuplicationFailedLetterLabel>Ошибка обелиска</ObeliskDuplicationFailedLetterLabel>
+  <ObeliskDuplicationFailedLetter>{PAWN_nameDef} пытается активировать обелиск, но ничего не выходит. Почему-то обелиск не может запустить процесс дупликации, когда его целью является {PAWN_nameDef}.</ObeliskDuplicationFailedLetter>
+  
+  <ObeliskDuplicationSuccessMessage>{PAWN_nameDef} успешно запускает дупликацию через обелиск.</ObeliskDuplicationSuccessMessage>
+
+  <ObeliskHostileDuplicateLetterLabel>Враждебная копия из обелиска</ObeliskHostileDuplicateLetterLabel>
+  <ObeliskHostileDuplicateLetter>Во время взаимодействия с обелиском {PAWN_nameDef} видит яркую вспышку света, после чего рядом оказывается {PAWN_objective} точная копия. Лицо двойника искажено от гнева — он явно задумал недоброе!</ObeliskHostileDuplicateLetter>
+
+  <DuplicatorObeliskLetterLabel>Активация обелиска</DuplicatorObeliskLetterLabel>
+  <DuplicatorObeliskLetter>Обелиск активируется! Воздух вокруг него потрескивает от энергии. Скоро начнут появляться враждебные двойники ваших поселенцев.\n\nБерегитесь: через обелиск проходит нестабильная энергия. Он в любой момент может взорваться.</DuplicatorObeliskLetter>
+
+  <ObeliskAbductorLetterLabel>Исчезновение поселенцев</ObeliskAbductorLetterLabel>
+  <ObeliskAbductorLetter>Кривой обелиск, потрескивая от энергии, искажает вокруг себя пространство-время. Рядом с ним начинает пропадать всё живое. Такими темпами скоро не останется никого.\n\nБерегитесь: через обелиск проходит нестабильная энергия. Он в любой момент может взорваться.</ObeliskAbductorLetter>
+  
+  <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} исчезает</ObeliskAbductedDisappearingLetterLabel>
+  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef} замечает активность кривого обелиска. В нём срабатывает какой-то таинственный механизм, и {PAWN_nameDef} начинает таять на глазах. Вскоре {PAWN_pronoun} исчезнет совсем.</ObeliskAbductedDisappearingLetter>
+  
+  <ObeliskAbductedLetterLabel>{PAWN_nameDef} вновь появляется</ObeliskAbductedLetterLabel>
+  <ObeliskAbductedLetter>{PAWN_nameDef} перемещается в странную комнату. Её стены из непонятного серого материала, а воздух абсолютно недвижим. {PAWN_nameDef} совершенно не представляет, что это за место, и как отсюда вернуться домой.\n\nНеподалёку видна заклинившая дверь — похоже, её можно попробовать открыть. Чтобы открыть такую дверь, щёлкните по ней правой кнопкой мыши.\n\nИзучив обелиск, другие поселенцы могут выяснить, что случилось с пропавшими, и найти способ помочь. Но если атаковать обелиск, то он может похитить кого-нибудь ещё.</ObeliskAbductedLetter>
+
+  <MutatorObeliskMutated>{PAWN_nameIndef} превращается в биошмата.</MutatorObeliskMutated>
+  <MutatorObeliskSpawned>Из-под земли появляется биошмат.</MutatorObeliskSpawned>
+
+  <ObeliskActivateDesc>Полностью активировать кривой обелиск.</ObeliskActivateDesc>
+  <ObeliskActivateDescWarning>Предупреждение: кривой обелиск нестабилен. Его полная активация вызовет опасную реакцию и заставит обелиск самоуничтожиться.</ObeliskActivateDescWarning>
+
+  <ObeliskDeactivateMissingShards>Осколков для деактивации: {0}</ObeliskDeactivateMissingShards>
+  
+  <!-- Activity / Supression -->
+  <ActivityLevel>Уровень активности</ActivityLevel>
+  <IsPsychicallySuppressed>Психическое подавление</IsPsychicallySuppressed>
+  <ActivityIncrease>Увеличить вероятность</ActivityIncrease>
+  <NotInSealedRoom>Не в закрытой комнате</NotInSealedRoom>
+  <EnergyHarvesting>Сбор энергии</EnergyHarvesting>
+  <Unstable>Нестабильность</Unstable>
+  <BaseLevel>Уровень базы</BaseLevel>
+  <IsActive>Активно</IsActive>
+  <Resisted>сопротивление</Resisted>
+  <HealthFactor>Есть повреждения</HealthFactor>
+  <Deactivated>Отключено.</Deactivated> <!-- -->
+
+  <CommandSent>Поселенец {PAWN_labelShort} отправлен.</CommandSent>
+  <CannotActivateEntity>Невозможно активировать тварь</CannotActivateEntity>
+  <CannotActivateEntityPlatform>Тварь должна быть на платформе</CannotActivateEntityPlatform>
+  
+  <ActivityGizmo>Активность</ActivityGizmo>
+  <ActivitySuppressionTooltipTitle>Автоматическое подавление</ActivitySuppressionTooltipTitle>
+  <ActivitySuppressionTooltipDisabled>Сейчас автоматическое подавление отключёно. Включите, и {PAWN_labelShort} не останется без внимания надзирателей.</ActivitySuppressionTooltipDisabled>
+  <ActivitySuppressionTooltipDesc>Со временем уровень активности будет возрастать. Активность возрастает быстрее, если {0} получает повреждения или провокации.\n\nЕсли активность достигнет 100%, {0} пробудится.\n\nНадзиратели могут подавлять существа, чтобы поддерживать безопасный уровень активности. Они будут проводить подавление, если активность вырастет выше указанного уровня: {LEVEL}\n\nТвари с более высоким уровнем активности дадут больше знаний при изучении.</ActivitySuppressionTooltipDesc>
+  <ActivitySuppressionToggleTooltipDesc>Это определяет, будет ли {PAWN_labelShort} автоматически подавляться, если активность ниже {LEVEL}.\n\nСейчас автоматическое подавление {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
+
+  <!-- Activity Descs -->
+  <ActivityLevelDesc>уровень активности</ActivityLevelDesc>
+  <PsychicallySuppressedDesc>психическое подавление</PsychicallySuppressedDesc>
+
+  <!-- Entity study -->
+  <CaptureEntity>Захватить</CaptureEntity>
+  <CaptureEntityDesc>{0_definite} будет у вас в плену. Существо нужно удерживать на фиксирующей платформе. После фиксации его можно будет изучать.</CaptureEntityDesc>
+  <CancelCapture>Отменить захват</CancelCapture>
+  <CancelCaptureDesc>Отменить захват твари {0_definite}.</CancelCaptureDesc>
+  <ReadyToStudy>можно изучать</ReadyToStudy>
+  <NoActiveResearchProject>Не выбран активный проект исследования аномалии в категории знаний {0}.</NoActiveResearchProject>
+  <Capturable>Можно поймать</Capturable>
+  <RequiresHoldingPlatform>Нужно разместить на фиксирующей платформе.</RequiresHoldingPlatform>
+  <ChooseNociosphereDest>Выберите, куда телепортировать ноциосферу.</ChooseNociosphereDest>
+  <TransferEntity>Переместить: {0_definite}</TransferEntity>
+  <TransferEntityDesc>Переместить захваченную тварь на другую фиксирующую платформу.</TransferEntityDesc>
+  <CancelTransfer>Отменить перемещение</CancelTransfer>
+  <CancelTransferDesc>Отменить перемещение захваченной твари на другую фиксирующую платформу.</CancelTransferDesc>
+  
+  <!-- Metalhorrors -->
+  <EmergedFrom>Бывший носитель:</EmergedFrom>
+  <Emerging>Появление металлической жути</Emerging>
+  
+  <ImplantSourceUnknown>Вживлена перед прибытием в ваше поселение</ImplantSourceUnknown>
+  <InsectImplant>Вживлена инсектоидом</InsectImplant>
+  <SleepImplant>Вживлена во время сна (кем): {SOURCE_nameDef}</SleepImplant>
+  <SurgeryImplant>Вживлена во время операции, хирург: {SOURCE_nameDef}</SurgeryImplant>
+  <FoodImplant>Вживлена во время принятия пищи, повар: {SOURCE_nameDef}</FoodImplant>
+  <UnnaturalHealingImplant>Вживлена во время неестественного заживления, доктор: {SOURCE_nameDef}</UnnaturalHealingImplant>
+  <FeedingImplant>Вживлено во время принятия пищи (кем): {SOURCE_nameDef}</FeedingImplant>
+
+  <MetalhorrorEmergingLabel>Появление металлической жути</MetalhorrorEmergingLabel>
+  <MetalhorrorEmergingDesc>Наружу лезет металлическая жуть! Ужасное создание, вооружённое клинками, сквозь плоть и кожу выбирается из своего носителя. Носитель металлической жути:</MetalhorrorEmergingDesc>
+  <MetalhorrorEmergingPluralDesc>Наружу лезет металлическая жуть! Ужасные создания, вооружённые клинками, сквозь плоть и кожу выбираются из своих носителей. Носители металлической жути:</MetalhorrorEmergingPluralDesc>
+  <MetalhorrorEmergingDescAppended>Эти ужасные металлические паразиты контролируют сознание носителей с помощью сети тончайших волокон, пронизывающих тело и мозг. Они заставляют жертву заражать металлической жутью других.</MetalhorrorEmergingDescAppended>
+  
+  <MetalhorrorSurgicalInspectionDetails>Эти доктора заражены металлической жутью. Повинуясь её воле, они соврали о результатах хирургической диагностики.</MetalhorrorSurgicalInspectionDetails>
+  
+  <MetalhorrorReasonInteraction>Металлическая жуть появляется из поселенца по имени {INFECTED_nameDef}, так как {PAWN_nameDef} замечает её во время социального взаимодействия.</MetalhorrorReasonInteraction>
+  <MetalhorrorReasonInterrogation>Металлическая жуть появляется из поселенца по имени {INFECTED_nameDef}, так как {PAWN_nameDef} замечает её во время допроса.</MetalhorrorReasonInterrogation>
+  <MetalhorrorReasonHostDied>Металлическая жуть появляется из поселенца по имени {INFECTED_nameDef}, так как {INFECTED_nameDef} погибает.</MetalhorrorReasonHostDied>
+  <MetalhorrorReasonSurgeryInspected>Металлическая жуть появляется из поселенца по имени {INFECTED_nameDef}, так как {PAWN_nameDef} замечает её во время хирургической диагностики.</MetalhorrorReasonSurgeryInspected>
+  <MetalhorrorReasonRandom>Металлическая жуть появляется из поселенца по имени {INFECTED_nameDef} по неизвестной причине.</MetalhorrorReasonRandom>
+  <MetalhorrorReasonTriedToLeaveMap>Металлическая жуть появляется из поселенца по имени {INFECTED_nameDef}, чувствуя, что носитель покидает поселение.</MetalhorrorReasonTriedToLeaveMap>
+  
+  <MetalhorrorDetected>Обнаружена металлическая жуть</MetalhorrorDetected>
+  <InteractionDetectedDesc>{PAWN_nameDef} во время разговора замечает, что {INFECTED_nameDef} ведёт себя как-то странно. Сочетание неестественного поведения, странных призвуков в голосе и едва заметных металлических червячков в глазах заставляет насторожиться... {PAWN_nameDef} подозревает, что {INFECTED_nameDef} — носитель металлической жути.</InteractionDetectedDesc>
+  <InterrogationDetectedDesc>{PAWN_nameDef} во время допроса замечает, что {INFECTED_nameDef} ведёт себя как-то странно. Сочетание неестественного поведения, странных призвуков в голосе и едва заметных металлических червячков в глазах заставляет насторожиться... {PAWN_nameDef} подозревает, что {INFECTED_nameDef} — носитель металлической жути.</InterrogationDetectedDesc>
+  
+  <MetalhorrorNoticedDetailsAppended>Металлическая жуть — это паразиты, контролирующие разум носителя. {INFECTED_objective} помогает им заражать окружающих.\n\nЧем больше времени с момента заражения, тем металлическая жуть сильнее. Когда металлическая жуть понимает, что её обнаружили, она вырывается из тела носителя. Это весьма малоприятный процесс, но носитель, как правило, выживает.\n\nЕдинственный достоверный способ выявить носителя металлической жути — изучить ошмётки плоти металлической жути для определения её биосигнатуры, после чего попросить надёжного доктора провести хирургическую диагностику.\n\nОбнаружив металлическую жуть, вы сможете извлечь её из носителя с помощью хирургической диагностики. Но после этого будьте готовы к бою.</MetalhorrorNoticedDetailsAppended>
+  
+  <LetterGrayFleshDiscoveredLabel>Серая плоть</LetterGrayFleshDiscoveredLabel>
+  <LetterGrayFleshDiscovered>{PAWN_nameDef} обнаруживает полоску странных тканей. Она похожа на человеческую кожу, посеревшую от крохотных металлических частиц. Возможно, она отвалилась от кого-то при разжижении плоти.\n\nВозможно, не все в поселении — те, за кого себя выдают.\n\nЕсть несколько способов обнаружить самозванцев:\n\n{METHODS}\n\nПредупреждение: некоторые паразиты могут контролировать разум и даже передаваться другим.</LetterGrayFleshDiscovered>
+  
+  <LetterInterrogationUnlocked>Теперь вы можете допрашивать пленников.</LetterInterrogationUnlocked>
+  
+  <LetterGrayFleshMethodOne>Арестуйте кого-нибудь и прикажите надзирателю допросить его. На выяснение личности может уйти несколько дней.</LetterGrayFleshMethodOne>
+  <LetterGrayFleshMethodTwo>Соберите побольше образцов серой плоти и проанализируйте её, чтобы определить биосигнатуру цели. После вы сможете искать эту биосигнатуру с помощью хирургической диагностики. На сбор образцов может уйти много времени. Диагностическая операция инвазивна.</LetterGrayFleshMethodTwo>
+  <LetterGrayFleshMethodThree>Казните или изгоняйте тех, кого подозреваете.</LetterGrayFleshMethodThree>
+  
+  <LetterMetalhorrorReawakeningLabel>Пробуждение металлической жути</LetterMetalhorrorReawakeningLabel>
+  <LetterMetalhorrorReawakening>Металлическая жуть была потревожена и пробуждается вновь.</LetterMetalhorrorReawakening>
+
+  <MessageMetalHorrorDormant>Металлическая жуть начинает впадать в спячку. Она пробудится вновь, если её потревожить.</MessageMetalHorrorDormant>
+  
+  <MetalhorrorDormant>В спячке. Пробудится, если потревожить.</MetalhorrorDormant>
+  
+  <!-- Surgical inspection -->
+  <LetterSurgicallyInspectedLabel>Результаты хирургической диагностики</LetterSurgicallyInspectedLabel>
+  <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef} проводит обширную хирургическую диагностику пациенту по имени {PATIENT_nameDef}.</LetterSurgicallyInspectedHeader>
+  <LetterSurgicallyInspectedNothing>{DOCTOR_pronoun} утверждает, что не {DOCTOR_gender ? обнаружил : обнаружила} патологий. Однако у {DOCTOR_gender ? него : неё} могут найтись причины для лжи...</LetterSurgicallyInspectedNothing>
+  
+  <!-- Death refusal -->
+  <DeathRefusalUseSingular>использовать</DeathRefusalUseSingular>
+  <DeathRefusalUsePlural>использует</DeathRefusalUsePlural>
+  <SelfResurrecting>Самовоскрешение</SelfResurrecting>
+
+  <!-- Harbinger Tree -->
+  <HarbingerTreeConsumption>возле древа-предвестника</HarbingerTreeConsumption>
+  <HarbingerTreeSprouted>Проросло новое древо-предвестник.</HarbingerTreeSprouted>
+  <HarbingerTreeConsuming>Ест плоть.</HarbingerTreeConsuming>
+  <HarbingerTreeNotConsuming>Будет поедать трупы и мясо, лежащие рядом.</HarbingerTreeNotConsuming>
+  <ConsumedByHarbingerTree>Поедается древом-предвестником.</ConsumedByHarbingerTree>
+  <FleshConsumption>поедание плоти</FleshConsumption>
+  <CreateCorpseStockpile>Создание трупохранилища</CreateCorpseStockpile>
+  <CreateCorpseStockpileDesc>Вы можете создать трупохранилище вокруг древа-предвестника.\n\nЭти деревья будут поедать сырое мясо и трупы, которые оставили рядом. Сытые деревья растут быстрее и порождают новую поросль.</CreateCorpseStockpileDesc>
+
+  <VoidNodeDisabled>Узел пустоты отключён.</VoidNodeDisabled>
+
+  <!-- Creepjoiners -->
+  <LetterCreeperAppearedAppended>{PAWN_pronoun} хочет поговорить. Вы можете отправить к {PAWN_gender ? нему : ней} любого поселенца.</LetterCreeperAppearedAppended>
+  <LetterCreeperInviteJoins>{PAWN_nameDef} хочет присоединиться</LetterCreeperInviteJoins>
+  <LetterCreeperInviteAppend>{PAWN_pronoun} может принести пользу поселению, но вы чувствуете, что вам что-то недоговаривают.</LetterCreeperInviteAppend>
+  
+  <AcceptCreeper>Пусть {PAWN_nameDef} присоединяется</AcceptCreeper>
+  <CaptureCreeper>Пусть {SPEAKER_nameDef} возьмёт чужака в плен</CaptureCreeper>
+  <RejectCreeper>Пусть {PAWN_nameDef} уходит прочь</RejectCreeper>
+  
+  <!-- Unnatural healing ability -->
+  <LetterUnnaturalHealingLabel>Неестественное заживление</LetterUnnaturalHealingLabel>
+  <LetterUnnaturalHealing>{CASTER_nameDef} завершает процесс психического исцеления, цель: {PAWN_nameDef}.</LetterUnnaturalHealing>
+  <LetterUnnaturalHealingTentacle>Но что-то пошло совсем не так.\n\n{PAWN_nameDef} с ужасом смотрит, как {PAWN_possessive} руку раздирает странное новообразование. Теперь вместо руки у {PAWN_gender ? него : неё} растёт щупальце из биомассы!</LetterUnnaturalHealingTentacle>
+  
+  <!-- Transmutation ability -->
+  <MessageTransmutedItem>{PAWN_nameDef} запускает трансмутацию. {ORIGINAL} — теперь {TRANSMUTED}.</MessageTransmutedItem>
+  <MessageTransmutedStuff>{PAWN_nameDef} запускает трансмутацию. {ORIGINAL_labelShortIndef} — теперь {TRANSMUTED_labelShortIndef}.</MessageTransmutedStuff>
+  <MessageTransmutedStuffPlural>{PAWN_nameDef} запускает трансмутацию. {ORIGINAL_labelPluralIndef} — теперь {TRANSMUTED_labelPluralIndef}.</MessageTransmutedStuffPlural>
+  
+  <!-- Electroharvester -->
+  <ElectroharvesterNoEntity>Нет зафиксированной твари.</ElectroharvesterNoEntity>
+  <ElectroharvesterNoPlatform>Не подключён к фиксирующей платформе.</ElectroharvesterNoPlatform>
+  
+  <!-- Fleshmass Heart -->
+  <FleshmassHeartInvulnerable>Неуязвимо. Для уничтожения проанализируете нервные сгустки биомассы.</FleshmassHeartInvulnerable>
+  <FleshmassHeartGrowing>Растущая биомасса.</FleshmassHeartGrowing>
+  <FleshmassHeartCollecting>Собирает биомассу для новой вспышки роста...</FleshmassHeartCollecting>
+  <MessageHeartAttack>Сердце биомассы трепещет!</MessageHeartAttack>
+  <LetterLabelFleshmassHeartDestroyed>Сердце биомассы побеждено</LetterLabelFleshmassHeartDestroyed>
+  <LetterFleshmassHeartDestroyed>Сердце биомассы уничтожено. От него осталось разбитое, но всё ещё работающее ядро— жуткое сплетение плоти и архотехнологий. Ядро порождает плоть и вызывает мутации даже после распада окружающей его биомассы.\n\nВы можете захватить ядро, чтобы провести тщательные исследования, или же уничтожить его, чтобы навсегда покончить с этим кошмаром. Если оставить ядро, оно может превратиться в новое сердце биомассы.</LetterFleshmassHeartDestroyed>
+  <NerveBundleGrewMessage>Сердце биомассы отрастило новый нервный пучок.</NerveBundleGrewMessage>
+  <NeuralLumpDroppedMessage>Нервный пучок выбросил нервный сгусток. Проанализируйте его, чтобы узнать о сердце биомассы больше.</NeuralLumpDroppedMessage>
+  <DestroyHeartDisabled>Нужно собрать и проанализировать нервные сгустки биомассы. Сгустков проанализировано</DestroyHeartDisabled>
+  <SpitterAttacking>Биомассомёт атакует!</SpitterAttacking>
+  <SpitterGatheringSpit>Сбор кислоты. Готовность через</SpitterGatheringSpit>
+  <SpitterReadyToSpit>Готов к плевку кислотой.</SpitterReadyToSpit>
+
+  <ActiveFleshmassInspect>Активная биомасса. При уничтожении может породить биошматов.</ActiveFleshmassInspect>
+
+  <!-- Misc -->
+  <LetterLabelFleshTentacleAttack>Атака щупальца из биомассы</LetterLabelFleshTentacleAttack>
+  <LetterFleshTentacleAttack>{PAWN_nameDef} хорошо переносит операцию. Однако искажённая масса плоти, которая раньше была {PAWN_possessive} щупальцем, бросается в атаку!</LetterFleshTentacleAttack>
+  <Biosignature>Биосигнатура</Biosignature>
+  <BlissLobotomy>Блаженство от лоботомии</BlissLobotomy>
+  <HP>оз</HP>
+  <Analyzed>проанализировано</Analyzed>
+  
+  <MessageShardDropped>{0} роняет тёмный архо-осколок. Его можно подобрать и использовать.</MessageShardDropped>
+  
+  <!-- Blood rain -->
+  <Berserk_BloodRain>Кровавый дождь не проходит бесследно... {0} впадает в безрассудную ярость!</Berserk_BloodRain>
+  <Manhunter_BloodRain>Кровавый дождь не проходит бесследно... {0} впадает в убийственную ярость!</Manhunter_BloodRain>
+  <MentalBreakReason_BloodRage>Это произошло из-за накопления кровавой ярости.</MentalBreakReason_BloodRage>
+  
+  <!-- Unnatural corpses -->
+  <LetterLabelCorpseDisappeared>Исчезновение трупа</LetterLabelCorpseDisappeared>
+  <LetterCorpseDisappeared>Странный мертвец исчез.</LetterCorpseDisappeared>
+  <LetterCorpseDisappearedPawnAliveAppend>{PAWN_nameDef} начинает успокаиваться.</LetterCorpseDisappearedPawnAliveAppend>
+
+  <LetterLabelCorpseReappeared>Появление трупа</LetterLabelCorpseReappeared>
+  <LetterCorpseReappeared>Вновь невесть откуда появляется труп, который выглядит точь-в-точь как {PAWN_nameDef}.</LetterCorpseReappeared>
+  
+  <MessageCorpseEscaped>Труп, который выглядит как {PAWN_nameDef}, каким-то образом вырвался из заточения.</MessageCorpseEscaped>
+  <MessageUnnaturalCorpseResurrect>{PAWN_nameDef} не желает воскресать. Реакция отсутствует.</MessageUnnaturalCorpseResurrect>
+  <MessagePawnFainted>Странный мертвец выглядит так, что {PAWN_nameDef} падает в обморок.</MessagePawnFainted>
+  <MessageAwokenReappeared>Странный мертвец появляется там, где стоит {PAWN_nameDef}, и быстро приближается!</MessageAwokenReappeared>
+  <MessageAwokenVanished>Странный мертвец пропал. Но это не значит, что {PAWN_nameDef} в безопасности... Мертвец ещё вернётся.</MessageAwokenVanished>
+  <MessageAwokenAttacking>Пробуждённый труп нападает, его цель — {PAWN_nameDef}!</MessageAwokenAttacking>
+  <MessageAwokenKilledVictim>{PAWN_nameDef} теперь без мозга. Пробуждённый труп добился своего.</MessageAwokenKilledVictim>
+  <MessageAwokenDisappeared>Пробуждённый труп исчез.</MessageAwokenDisappeared>
+
+  <MentalBreakReason_MysteriousCorpse>Это всё из-за странного мертвеца.</MentalBreakReason_MysteriousCorpse>
+
+  <UnnaturalCorpseStudyLetter>Прогресс в исследовании странного мертвеца</UnnaturalCorpseStudyLetter>
+  <UnnaturalCorpseStudyLetterDesc>Исследования позволили вам узнать о странном мертвеце больше. Архо-осколок внутри него псионически связывает его с разумом поселенца по имени {VICTIM_nameDef}. Если труп уничтожить, со временем он восстановится и телепортируется на любое расстояние, лишь бы {VICTIM_nameDef} {VICTIM_gender ? был : была} рядом. \n\n{RESEARCHER_nameDef} считает, что должен быть способ уничтожить мертвеца насовсем, но для этого нужны дальнейшие исследования.</UnnaturalCorpseStudyLetterDesc>
+
+  <UnnaturalCorpseStudyCompletedLetter>Исследование странного мертвеца завершёно</UnnaturalCorpseStudyCompletedLetter>
+  <UnnaturalCorpseStudyCompletedLetterDesc>Благодаря исследованиям вы выяснили, как безопасно вынуть архо-осколок из мертвеца, чтобы избавить {VICTIM_nameDef} от мучений. Однако это также покончит с возможностью изучать мертвеца дальше.</UnnaturalCorpseStudyCompletedLetterDesc>
+
+  <UnnaturalCorpseDeactivatedLetter>Осколок мертвеца</UnnaturalCorpseDeactivatedLetter>
+  <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_nameDef} извлекает архо-осколок из странного мертвеца. Мертвец тут же начинает раздуваться и лопается, забрызгав всё вокруг.</UnnaturalCorpseDeactivatedLetterDesc>
+  <UnnaturalCorpseDeactivatedLetterDescAppended>{PAWN_nameDef} уже чувствует себя лучше.</UnnaturalCorpseDeactivatedLetterDescAppended>
+  
+  <UnnaturalCorpseDeactivate>Уничтожить странного мертвеца</UnnaturalCorpseDeactivate>
+  <UnnaturalCorpseDeactivateDesc>Уничтожить странного мертвеца насовсем.</UnnaturalCorpseDeactivateDesc>
+  <UnnaturalCorpseGuiLabel>Выберите, кто должен уничтожить мертвеца.</UnnaturalCorpseGuiLabel>
+  <UnnaturalCorpseJobString>уничтожить</UnnaturalCorpseJobString>
+  <UnnaturalCorpseActivatingEnroute>уничтожает: {0}</UnnaturalCorpseActivatingEnroute>
+  <UnnaturalCorpseActivating>уничтожает: {0} ({1} сек.)</UnnaturalCorpseActivating>
+  
+  <UnnaturalCorpseAwakeningLetter>Странный мертвец</UnnaturalCorpseAwakeningLetter>
+  <UnnaturalCorpseAwakeningLetterDesc>{PAWN_nameDef} чувствует, что странный мертвец становится всё сильнее и сильнее. В нём забрезжил какой-то ужасный интеллект.\n\nВ следующие несколько дней произойдёт нечто ужасное.</UnnaturalCorpseAwakeningLetterDesc>
+
+  <UnnaturalCorpseAwokenLetter>Мертвец пробуждается</UnnaturalCorpseAwokenLetter>
+  <UnnaturalCorpseAwokenLetterDesc>Странный мертвец восстал и идёт туда, где {PAWN_nameDef}!\n\nМертвец будет преследовать жертву вечно, как бы далеко она ни забралась.\n\nВы должны поскорее его уничтожить.</UnnaturalCorpseAwokenLetterDesc>
+
+  <UnnaturalCorpseAwokenDefeatedLetter>Странный мертвец уничтожен!</UnnaturalCorpseAwokenDefeatedLetter>
+  <UnnaturalCorpseAwokenDefeatedLetterDesc>Странный мертвец не достиг своей цели и был уничтожен!\n\n{PAWN_nameDef} {PAWN_gender ? избавлен : избавлена} от докучливого преследователя.</UnnaturalCorpseAwokenDefeatedLetterDesc>
+
+  <!-- Golden Cube -->
+  <MessageGoldenCubeSeverityIncreased>{PAWN_labelShort} чувствует ещё более сильную одержимость золотистым кубом.</MessageGoldenCubeSeverityIncreased>
+  <MessageGoldenCubeWithdrawal>{PAWN_labelShort} чувствует ломку без куба.</MessageGoldenCubeWithdrawal>
+  <MessageGoldenCubeWithdrawalIncreased>{PAWN_labelShort} чувствует ещё более сильную ломку без куба.</MessageGoldenCubeWithdrawalIncreased>
+  <MessageGoldenCubeInterest>{PAWN_labelShort} чувствует интерес к золотистому кубу.</MessageGoldenCubeInterest>
+  <MessageGoldenCubeSculptureDestroyed>{PAWN_labelShort} в ярости из-за того, что {PAWN_possessive} скульптура куба уничтожена. {PAWN_pronoun} может впасть в буйство.</MessageGoldenCubeSculptureDestroyed>
+  
+  <CannotDisableCube>{PAWN_labelShort} отказывается деактивировать золотистый куб.</CannotDisableCube>
+  
+  <LetterLabelGoldenCubeComa>Кубическая кома: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
+  <LetterGoldenCubeComa>{PAWN_labelShort} больше не в силах терпеть кубическую ломку и впадает в кому. {PAWN_pronoun} будет в коме, пока псионная связь с золотистым кубом не рассеется полностью.</LetterGoldenCubeComa>
+  
+  <MentalBreakReason_CubeSculpting>Срыв вызван {PAWN_possessive} одержимостью кубом.</MentalBreakReason_CubeSculpting>
+  
+  <CubeMaterialDirt>земля</CubeMaterialDirt>
+  <CubeMaterialStone>камень</CubeMaterialStone>
+  <CubeMaterialSand>песок</CubeMaterialSand>
+  <CubeMaterialScrap>металлолом</CubeMaterialScrap>
+  
+  <ReportBuildingCubeEnroute>ваяет скульптуру.</ReportBuildingCubeEnroute>
+  
+  <!-- Slaughter ability -->
+  <MessageSlaughterNoFlesh>Нельзя забить: {PAWN_labelShort} не имеет плоти.</MessageSlaughterNoFlesh>
+  <MessageSlaughterTooBig>Нельзя забить: {PAWN_labelShort} слишком больших размеров.</MessageSlaughterTooBig>
+  
+  <!-- Labyrinth -->
+  <GeneratingLabyrinth>Вход в лабиринт</GeneratingLabyrinth>
+  <MessagePawnVanished>{PAWN_nameDef} {PAWN_gender ? исчез : исчезла}.</MessagePawnVanished>
+  <MessagePawnReappeared>{PAWN_nameDef} вновь появляется.</MessagePawnReappeared>
+  
+  <FloorEtchingsInspectorExit>К выходу</FloorEtchingsInspectorExit>
+  
+  <LetterLabelObeliskDiscovered>Кривой обелиск</LetterLabelObeliskDiscovered>
+  <LetterObeliskDiscovered>{PAWN_nameDef} обнаруживает большой обелиск. Он выглядит почти идентичным тому, что перенёс {PAWN_possessive} сюда. Возможно, если его активировать, получится вернуться домой.\n\nВыберите поселенца и щёлкните правой кнопкой по обелиску, чтобы активировать его.</LetterObeliskDiscovered>
+  
+  <LetterLabelFloorEtchings>Надпись на земле</LetterLabelFloorEtchings>
+  <LetterFloorEtchings>{PAWN_nameDef} {PAWN_gender ? расшифровал : расшифровала} надписи на земле.\n\n{RAMBLINGS}\n\nПохоже, они указывают на то, что к выходу нужно идти на {DIRECTION} отсюда.</LetterFloorEtchings>
+
+  <LetterLabelFloorEtchingRamblings>Надпись на земле</LetterLabelFloorEtchingRamblings>
+  <LetterFloorEtchingsRamblings>{PAWN_nameDef} {PAWN_gender ? расшифровал : расшифровала} надписи на земле.</LetterFloorEtchingsRamblings>
+
+  <LetterLabelLabyrinthExit>Поселенцы вернулись</LetterLabelLabyrinthExit>
+  <LetterLabyrinthExit>Гудящий обелиск вернул похищенных поселенцев и почти сразу растворился в воздухе.\n\nБудьте осторожны: обелиск мог вернуть и других существ.</LetterLabyrinthExit>
+
+  <GrayDoorJammed>Заело. Придётся открывать силой.</GrayDoorJammed>
+  <ActivatedByProximity>Срабатывает при приближении.</ActivatedByProximity>
+
+  <!-- Void monolith -->
+  <MonolithActivateDisabledPawns>Нет доступных целей.</MonolithActivateDisabledPawns>
+  <VoidMonolithInvestigatedText>Тёмная металлическая поверхность монолита тёплая на ощупь, и {PAWN_nameDef} как будто слышит изнутри тихий гул. Линии на его пыльной поверхности сплетаются в жуткие узоры, и кажется, что узоры шевелятся.\n\n{PAWN_nameDef} сосредотачивается на узорах, пытаясь понять их значение.\n\nГул усиливается. Узоры уже плывут у {PAWN_gender ? несчастного : несчастной} {PAWN_nameDef} перед глазами, но поверхность не меняется. Пустое пространство вокруг словно наполняется силой. {PAWN_nameDef} начинает видеть какую-то тёмную фигуру.\n\nАномалия пробуждается...</VoidMonolithInvestigatedText>
+  <VoidMonolithInvestigate>Не отвлекаться от аномалии</VoidMonolithInvestigate>
+  <VoidMonolithWalkAway>Уйти прочь</VoidMonolithWalkAway>
+  <VoidMonolithViewQuest>Открыть задание</VoidMonolithViewQuest>
+  <VoidMonolithViewResearch>Просмотр исследования аномалий</VoidMonolithViewResearch>
+  <CurrentMonolithLevel>Текущий уровень монолита</CurrentMonolithLevel>
+  <VoidMonolithUndiscovered>Исследуйте, чтобы узнать больше.</VoidMonolithUndiscovered>
+  <VoidMonolithRequiredEntityCategory>Чтобы перевести монолит на следующий уровень, вы должны обнаружить не менее {0} тварей уровня {1}.</VoidMonolithRequiredEntityCategory>
+  <DiscoveredCount>Обнаружено: {0}</DiscoveredCount>
+  <VoidMonolithAllEntitiesDiscovered>Обнаружены все нужные твари.</VoidMonolithAllEntitiesDiscovered>
+  <VoidMonolithRequiresDiscovery>Требуется для повышения уровня</VoidMonolithRequiresDiscovery>
+  <VoidMonolithRequiresDiscoveryShort>Необнаруженные твари</VoidMonolithRequiresDiscoveryShort>
+  <VoidMonolithRequiresCategory>Необходимо обнаружить не менее {0} тварей монолита ({1})</VoidMonolithRequiresCategory>
+  <VoidMonolithVisionLabel>Тревожное видение</VoidMonolithVisionLabel>
+  <VoidMonolithVisionText>{PAWN_nameDef} видит странный сон, в котором тёмная жуткая тень расползается по Вселенной, поглощая всё на своём пути. Тень отбрасывал полуразрушенный монолит.\n\nОчнувшись от видения, {PAWN_nameDef} {PAWN_gender ? почувствовал : почувствовала} странную тягу к монолиту. Он зовёт...</VoidMonolithVisionText>
+  <VoidMonolithChooseActivator>Выберите, кому отдать эту команду.</VoidMonolithChooseActivator>
+  <VoidMonolithActivatorDowned>Цель обездвижена</VoidMonolithActivatorDowned>
+  <VoidMonolithActivatorMentalState>Цель в состоянии нервного срыва</VoidMonolithActivatorMentalState>
+  <VoidMonolithActivatorBusy>Цель занята</VoidMonolithActivatorBusy>
+  <VoidMonolithActivatorIncapable>Цель этого не может</VoidMonolithActivatorIncapable>
+  <MonolithArrivalLabel>Появление монолита</MonolithArrivalLabel>
+  <MonolithArrivalText>Взаимодействие с псионическим сигналом вызвало появление странного объекта.</MonolithArrivalText>
+  <MonolithArrivalTextExt>Он очень похож на монолит, который вы встречали раньше. Возможно, это он и есть.</MonolithArrivalTextExt>
+  <CantActivateMonolith>Нельзя {0} монолит</CantActivateMonolith>
+
+  <MonolithTwistingAlert>Монолит меняет форму</MonolithTwistingAlert>
+  <MonolithTwistingExplanation>Ваше присутствие заставляет монолит искажаться и менять форму. Скоро процесс будет завершён. Будьте готовы.</MonolithTwistingExplanation>
+  <MonolithAutoActivatingLabel>Упавший монолит</MonolithAutoActivatingLabel>
+  <MonolithAutoActivatingText>Волна жути накрывает ваших поселенцев. Упавший монолит пробуждается. Мало-помалу он начинает меняться и искажаться, превращаясь в нечто новое.\n\nВсего через несколько дней процесс будет завершён. Будьте готовы.</MonolithAutoActivatingText>
+  <MonolithAutoActivatedLabel>Монолит пустоты</MonolithAutoActivatedLabel>
+  <MonolithAutoActivatedText>Превращение монолита почти завершёно...</MonolithAutoActivatedText>
+
+  <LetterLabelGrayPallDescending>Серая пелена</LetterLabelGrayPallDescending>
+  <LetterGrayPallDescending>На поселение опустился зернистый туман. Он пахнет древностью и раздражает кожу. Его неестественная серость навевает жуть.</LetterGrayPallDescending>
+
+  <!-- Void Awakening -->
+  <VoidAwakeningConfirmationText>Пробуждение монолита пустоты на несколько дней окутает ваше поселение тьмой и привлечёт сильных тварей. Готовьтесь основательно:\n\n- Запаситесь едой, строительными материалами и оружием.\n- Позаботьтесь об освещении и запасах энергии. Не полагайтесь на солнечные генераторы.\n- Убедитесь, что ваша колония хорошо защищена, а поселенцы готовы сражаться.\n\nКогда вы пробудите монолит пустоты, пути назад уже не будет.\n\nУверены, что хотите продолжить?</VoidAwakeningConfirmationText>
+  <VoidNodeLetter>{PAWN_nameDef} видит перед собой бурлящую сферу из пси-энергии. Её поверхность вздувается и опадает, искривляя пространство вокруг.\n\n{PAWN_nameDef} чувствует, как она проникает в {PAWN_possessive} разум, и это ощущение нельзя объяснить ничем человеческим. Оно не поддаётся логике. {PAWN_nameDef} словно плывёт в пустоте. {PAWN_pronoun} стоит на берегу бесконечного чёрного океана силы, и тот манит окунуться в свои глубины.\n\n{PAWN_nameDef} с трудом возвращается к реальности.\n\nСоседние архо-устройства поддерживают сферу, но их связь неустойчива. Нарушив её, {PAWN_nameDef} может закрыть канал между мирами и положить конец феномену, который вносит сумятицу в ваш дом.\n\nИли же {PAWN_pronoun} может войти в сферу и слиться с пустотой. Неизвестно, что лежит по ту сторону и какие тёмные силы можно обрести после такого отрицающего человечность поступка.</VoidNodeLetter>
+  <VoidNodeDisrupt>Разрушить связь</VoidNodeDisrupt>
+  <VoidNodeEmbrace>Принять пустоту</VoidNodeEmbrace>
+  <VoidNodePostpone>Отложить</VoidNodePostpone>
+  <DisruptTheLinkCredits>Псионические потоки дестабилизируются и архо-машины издают визг. Водоворот пустоты мерцает. {PAWN_nameDef} чувствует, что она одновременно выходит за пределы и схлопывается в себя.\n\nМеталлическая пещера начинает меняться, и её форма становится похожей на желудочек огромного сердца. Не успев даже вскрикнуть, {PAWN_nameDef} перестаёт существовать.\n\n{PAWN_nameDef} {PAWN_gender ? отверг : отвергла} зов пустоты.\n\n{PAWN_possessive} история продолжается...</DisruptTheLinkCredits>
+  <EmbraceTheVoidCredits>{PAWN_nameDef} шагает в пустоту, и чёрный океан заполняет {PAWN_possessive} изнутри, захлёстывая органы чувств, пропитывая каждую клетку тела и проникая в каждую мысль.\n\nОтныне узел пустоты нацелен не на весь мир, а на одного-единственного человека. Пустотные объекты издают нечеловеческий визг, оторванные от своего иномирного фундамента, а после исчезают.\n\n{PAWN_nameDef} {PAWN_gender ? ответил : ответила} на зов пустоты.\n\n{PAWN_possessive} история продолжается...</EmbraceTheVoidCredits>
+  <StructureActivatedMessage>{PAWN_nameDef} {PAWN_gender ? активировал : активировала} объект ({STRUCTURE_definite})</StructureActivatedMessage>
+  <StructuresActivatedAlertLabel>Объекты активированы</StructuresActivatedAlertLabel>
+  <StructuresActivatedAlertDescription>Активируйте пустотные объекты, чтобы завершить пробуждение монолита.</StructuresActivatedAlertDescription>
+  <GleamingMonolithInterrupted>{PAWN_nameDef} больше не чувствует связи с монолитом пустоты. Его нужно активировать снова.</GleamingMonolithInterrupted>
+
+  <!-- HediffComp_GiveLovinMTBFactor -->
+  <IncreasesChanceOfLovin>Интимная близость случается чаще.</IncreasesChanceOfLovin>
+
+  <UnnaturalCorpse>Странный мертвец ({0_label})</UnnaturalCorpse>
+
+  <!-- Studiable -->
+  <KnowledgeFactorOutdoors>Знания от исследований уменьшены</KnowledgeFactorOutdoors>
+
+  <!-- Unnatural darkness -->
+  <EmergenceIn>До появления {0}</EmergenceIn>
+  <EmergenceInDesc>Что-то появится из-под земли через {0}.</EmergenceInDesc>
+  
+  <!-- Bioferrite harvester -->
+  <BioferriteHarvesterContained>Биоферрита внутри</BioferriteHarvesterContained>
+  <BioferriteHarvesterPerDay>в день</BioferriteHarvesterPerDay>
+  <BioferriteHarvesterEjectContents>Извлечь содержимое</BioferriteHarvesterEjectContents>
+  <BioferriteHarvesterEjectContentsDesc>Извлечь весь содержащийся здесь {0}.</BioferriteHarvesterEjectContentsDesc>
+  <BioferriteHarvesterToggleUnloading>Включить выгрузку биоферрита</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloadingDesc>Когда активно, поселенцы будут автоматически выгружать биоферрит из сборщика по мере его заполнения.</BioferriteHarvesterToggleUnloadingDesc>
+  
+  <!-- Proximity detector -->
+  <ProximityDetectorCreatureDetected>Обнаружено невидимое существо.</ProximityDetectorCreatureDetected>
+  
+  <!-- Frenzy inducer -->
+  <FrenzyInducerEffectDescription>Создаёт стимулирующее поле.</FrenzyInducerEffectDescription>
+  <MentalBreakReason_FrenzyInducer>Это случилось благодаря воздействию индуктора прилива сил.</MentalBreakReason_FrenzyInducer>
+  
+  <!-- Sleep suppressor -->
+  <SleepSuppressorEffectDescription>испускает импульсы, которые мешают спать.</SleepSuppressorEffectDescription>
+  
+  <!-- Devourer -->
+  <DigestedBy>Переваривается пожирателем: {0_labelShort}.</DigestedBy>
+
+  <!-- Chimeras -->
+  <MessageChimeraModeChangeSingular>Химера {0}</MessageChimeraModeChangeSingular>
+  <MessageChimeraModeChangePlural>Химеры {0}</MessageChimeraModeChangePlural>
+  <MessageChimeraWithdrawing>уже в отступлении.</MessageChimeraWithdrawing>
+
+  <LetterChimerasAttackingLabel>Химеры атакуют</LetterChimerasAttackingLabel>
+  <LetterChimerasAttacking>Химеры начали атаку!</LetterChimerasAttacking>\n\n</LanguageData>
