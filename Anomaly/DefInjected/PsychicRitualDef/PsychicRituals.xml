@@ -12,21 +12,21 @@
   <Brainwipe.label>Зачистка памяти</Brainwipe.label>
   <!-- EN: Erase a person's memories. Traumatic events will be forgotten. Prisoners will forget their allegiance and become easier to recruit, even if they were unwavering before. Inhumanized individuals will forget their connection to the void. Unfortunately, the disruptive effect of the ritual will induce a coma that could last a long time, especially if the ritual is of poor quality. -->
   <Brainwipe.description>Стирает память человека. Позволяет ему оставить в прошлом психологические травмы. Пленники забывают о своей фракции, и их становится проще завербовать, даже если раньше их верность была непоколебимой. Обесчеловеченные забывают о своей связи с пустотой. К сожалению, побочный эффект ритуала — кома, которая может оказаться длительной, особенно если ритуал плохого качества.</Brainwipe.description>
-  <!-- EN: With the current ritual quality, the target will enter a coma for {0}. -->
+  <!-- EN: The target will be brainwiped.\n\nWith the current ritual quality, the target will also enter a coma for {0}. -->
   <Brainwipe.outcomeDescription>Учитывая качество ритуала, кома продлится {0}.</Brainwipe.outcomeDescription>
   
   <!-- EN: chronophagy -->
   <Chronophagy.label>Хронофагия</Chronophagy.label>
   <!-- EN: Induce a distant archotech to transfer entropy from one person to another. This causes the target to age rapidly while the invoker becomes younger, potentially healing scarring or age-related illnesses. The target will suffer brain damage, causing them to fall into a coma for several days. -->
   <Chronophagy.description>С помощью таинственных архотехнологий ритуал переносит энтропию с одного человека на другого. Вызывает ускоренное старение цели и омоложение заклинателя. Способен избавить заклинателя от шрамов и возрастных болезней. Вызывает у цели повреждение мозга, в результате которого та впадает в кому на несколько дней.</Chronophagy.description>
-  <!-- EN: At the current ritual quality, the invoker will become {0} years younger and the target will become {1} years older. -->
+  <!-- EN: At the current ritual quality, the invoker will become {0} years younger and the target will become {1} years older.\n\nThe target will suffer brain damage and fall into a coma. -->
   <Chronophagy.outcomeDescription>{replace: {0} лет; "22 лет"-"22 года"; "23 лет"-"23 года"; "24 лет"-"24 года"; "32 лет"-"32 года"; "33 лет"-"33 года"; "34 лет"-"34 года"}Учитывая качество ритуала, заклинатель станет на {0} {0_numCase ? год : года : лет} моложе, а цель — на {1} {0_numCase ? год : года : лет} старше.</Chronophagy.outcomeDescription>
   
   <!-- EN: imbue death refusal -->
   <ImbueDeathRefusal.label>Создание лекарства от смерти</ImbueDeathRefusal.label>
   <!-- EN: Link a target with a distant archotechnological engine that can bring them back from the dead in seconds. This process is not without side-effects. -->
   <ImbueDeathRefusal.description>Связывает цель с далёким архотехнологическим агрегатом, способным воскресить её после смерти за считанные секунды. Впрочем, процесс не без побочных эффектов.</ImbueDeathRefusal.description>
-  <!-- EN: With the current quality, all the target's skills will be reduced by {0}. -->
+  <!-- EN: The target will gain death refusal.\n\nWith the current quality, all the target's skills will also be reduced by {0}. -->
   <ImbueDeathRefusal.outcomeDescription>Учитывая качество ритуала, навыки цели ухудшатся на {0} ед.</ImbueDeathRefusal.outcomeDescription>
   
   <!-- EN: neurosis pulse -->
@@ -40,7 +40,7 @@
   <Philophagy.label>Филофагия</Philophagy.label>
   <!-- EN: Psychically draw experiences from the victim's mind and transfer them to the invoker, targeting the victim's highest skill. The target will suffer brain damage, causing them to fall into a coma for several days. -->
   <Philophagy.description>Этот ритуал извлекает из разума жертвы жизненный опыт и передаёт его заклинателю, нацеливаясь на самый развитый навык жертвы. Цель получает повреждение мозга, в результате которого впадает в кому на несколько дней.</Philophagy.description>
-  <!-- EN: With the current ritual quality, the invoker will steal {0} of the target's XP in their best skill. -->
+  <!-- EN: With the current ritual quality, the invoker will steal {0} of the target's XP in their best skill.\n\nThe target will suffer brain damage and fall into a coma. -->
   <Philophagy.outcomeDescription>Учитывая качество ритуала, заклинатель похитит {0} ед. опыта цели в её лучшем навыке.</Philophagy.outcomeDescription>
   
   <!-- EN: pleasure pulse -->
@@ -54,7 +54,7 @@
   <Psychophagy.label>Психофагия</Psychophagy.label>
   <!-- EN: Consume the psychic sensitivity of a target. The invoker will increase their psychic sensitivity for a period of time. The effect does not stack. The target will suffer brain damage, causing them to fall into a coma for several days. -->
   <Psychophagy.description>Поглощает психочувствительность цели, на определенный период увеличивая психочувствительность заклинателя. Эффект не суммируется. Цель получает повреждение мозга, в результате которого впадает в кому на несколько дней.</Psychophagy.description>
-  <!-- EN: At the current ritual quality, the effect will last for {0}. -->
+  <!-- EN: At the current ritual quality, the invoker will increase their psychic sensitivity for {0}.\n\nThe target will suffer brain damage and fall into a coma. -->
   <Psychophagy.outcomeDescription>Учитывая качество ритуала, эффект продлится {0}.</Psychophagy.outcomeDescription>
   
   <!-- EN: skip abduction -->
@@ -79,7 +79,7 @@
   
   <!-- EN: draw animals -->
   <SummonAnimals.label>Привлечение животных</SummonAnimals.label>
-  <!-- EN: Create a psychic pulse which will draw a distant herd of animals into the local area. You can then hunt or make use of them as you choose. If not done correctly, this may drive the animals mad. -->
+  <!-- EN: Create a psychic pulse which will draw a distant herd of animals into the local area. You can then hunt or make use of them as you choose. If not done correctly, this may attract scaria-infected manhunters. -->
   <SummonAnimals.description>Создаёт псионный импульс, на который сбегаются животные. На этих животных можно охотиться, среди прочего. Неудачно проведённый ритуал доводит животных до безумия.</SummonAnimals.description>
   <!-- EN: With the current ritual quality, there is a {0} chance that the animals will arrive as manhunters. -->
   <SummonAnimals.outcomeDescription>Учитывая качество ритуала, животные станут агрессивными с {0} вероятностью.</SummonAnimals.outcomeDescription>
@@ -94,7 +94,7 @@
   <SummonFleshbeasts.letterAICompleteLabel>Появление биошматов</SummonFleshbeasts.letterAICompleteLabel>
   <!-- EN: Fleshbeasts are clawing their way out of the ground. Prepare for their attack! -->
   <SummonFleshbeasts.letterAICompleteText>Биошматы вырываются из-под земли. Готовьтесь к их нападению!</SummonFleshbeasts.letterAICompleteText>
-  <!-- EN: Create a psychic pulse which will draw a horde of fleshbeats. -->
+  <!-- EN: Create a psychic pulse which will draw a horde of fleshbeasts. -->
   <SummonFleshbeasts.outcomeDescription>Создаёт псионный импульс, который привлекает орду биошматов.</SummonFleshbeasts.outcomeDescription>
   
   <!-- EN: draw fleshbeasts -->
