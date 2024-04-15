@@ -226,14 +226,14 @@
     <li>PersonalCharacteristic->[PersonalCharacteristic_plural]</li>
     <li>PersonFamily_gen->[PersonFamily_masc_gen]</li>
     <li>PersonFamily_gen->[PersonFamily_fem_gen]</li>
-    <li>HisWeapon->свой [Weapon_masc]</li>
-    <li>HisWeapon->свою [Weapon_fem_acc]</li>
+    <li>HisWeapon(p=4)->свой [Weapon_masc]</li>
+    <li>HisWeapon(p=6)->свою [Weapon_fem_acc]</li>
     <li>HisWeapon->своё [Weapon_neutral]</li>
-    <li>Weapon->[Weapon_masc]</li>
-    <li>Weapon->[Weapon_fem]</li>
+    <li>Weapon(p=4)->[Weapon_masc]</li>
+    <li>Weapon(p=6)->[Weapon_fem]</li>
     <li>Weapon->[Weapon_neutral]</li>
-    <li>Weapon_acc->[Weapon_masc]</li>
-    <li>Weapon_acc->[Weapon_fem_acc]</li>
+    <li>Weapon_acc(p=4)->[Weapon_masc]</li>
+    <li>Weapon_acc(p=6)->[Weapon_fem_acc]</li>
     <li>Weapon_acc->[Weapon_neutral]</li>
     <li>TerrainFeature->[TerrainFeature_masc]</li>
     <li>TerrainFeature->[TerrainFeature_fem]</li>
