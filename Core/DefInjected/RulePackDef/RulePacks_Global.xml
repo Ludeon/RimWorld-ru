@@ -94,6 +94,8 @@
     <li>Enemies_gen->Words/Nouns/People_Enemies_Genitive_Plural</li>
     <li>Apparel->Words/Nouns/Apparel</li>
     <li>Gore->Words/Nouns/Gore</li>
+    <li>Mechanoid_masc->Words/Nouns/Mechanoids_Masc</li>
+    <li>Mechanoid_fem->Words/Nouns/Mechanoids_Female</li>
     <li>Mechanoid_masc_gen->Words/Nouns/Mechanoids_Genitive_Masc</li>
     <li>Mechanoid_fem_gen->Words/Nouns/Mechanoids_Genitive_Female</li>
     <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
@@ -205,6 +207,8 @@
     <li>Outlander->[PersonAlly]</li>
     <li>Outlanders_gen->[PersonJobs_gen]</li>
     <li>Outlanders_gen->[PersonAllies_gen]</li>
+    <li>Mechanoid(p=6)->[Mechanoid_masc]</li>
+    <li>Mechanoid->[Mechanoid_fem]</li>
     <li>Mechanoid_gen(p=6)->[Mechanoid_masc_gen]</li>
     <li>Mechanoid_gen->[Mechanoid_fem_gen]</li>
     <li>PersonalCharacteristic->[PersonalCharacteristic_masc]</li>
