@@ -90,6 +90,7 @@
     <li>PersonAllies_gen->Words/Nouns/People_Allies_Genitive_Plural</li>
     <li>PersonBadass->Words/Nouns/People_Badass</li>
     <li>Enemy->Words/Nouns/People_Enemies</li>
+    <li>Enemy_gen->Words/Nouns/People_Enemies_Genitive</li>
     <li>Enemies->Words/Nouns/People_Enemies_Plural</li>
     <li>Enemies_gen->Words/Nouns/People_Enemies_Genitive_Plural</li>
     <li>Apparel->Words/Nouns/Apparel</li>
@@ -177,6 +178,10 @@
     <li>Character(p=4)->[Animal]</li>
     <li>Character(p=3)->[Enemy]</li>
     <li>Character->[Mechanoid]</li>
+    <li>Character_gen(p=6)->[PersonJob_masc_gen]</li>
+    <li>Character_gen(p=4)->[Animal_gen]</li>
+    <li>Character_gen(p=3)->[Enemy_gen]</li>
+    <li>Character_gen->[Mechanoid_gen]</li>
     <li>Quantity_adjphrase->группа</li>
     <li>Quantity_adjphrase->несколько</li>
     <li>Quantity_adjphrase->десятки</li>
