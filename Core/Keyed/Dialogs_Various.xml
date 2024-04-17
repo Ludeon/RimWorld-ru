@@ -201,6 +201,10 @@
   <LastName>фамилия</LastName>
   <!-- EN: suggested -->
   <Suggested>предлагается</Suggested>
+  
+  <!-- Choose new wanderers -->
+  <!-- EN: Choose new wanderers -->
+  <ChooseNewWanderers>Выбрать новых странников</ChooseNewWanderers>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -336,6 +340,12 @@
   <IncludeFromAll>Искать везде</IncludeFromAll>
   <!-- EN: Look in {0} -->
   <IncludeSpecific>Искать в области {0}</IncludeSpecific>
+  <!-- EN: Stockpiles -->
+  <StockpilePlural>Склады</StockpilePlural>
+  <!-- EN: Shelves -->
+  <ShelfPlural>Стеллажи</ShelfPlural>
+  <!-- EN: Groups -->
+  <GroupPlural>Группы</GroupPlural>
   
   <!-- Info card -->
   <!-- EN: Damage -->
@@ -516,6 +526,8 @@
   <PerDay>{0} в день</PerDay>
   <!-- EN: {0} / hour -->
   <PerHour>{0} в час</PerHour>
+  <!-- EN: {0} XP / hour -->
+  <XpPerHour>{0} опыта в час</XpPerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>Вьючное животное</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -598,6 +610,8 @@
   <MeditationFocusEnabledByAdulthood>прожита взрослая жизнь</MeditationFocusEnabledByAdulthood>
   <!-- EN: has trait -->
   <MeditationFocusEnabledByTrait>имеет черту характера</MeditationFocusEnabledByTrait>
+  <!-- EN: has health condition -->
+  <MeditationFocusEnabledByHediff>имеет проблему со здоровьем</MeditationFocusEnabledByHediff> 
   <!-- EN: does not have trait -->
   <MeditationFocusDisabledByTrait>не имеет черты характера</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
@@ -698,6 +712,14 @@
   <NextTraderRestock>Список обновится через {0_numCase ? день : дня : дней}</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>Люди и животные</PawnsTabShort>
+  
+  <!-- Select caravan settlement -->
+  <!-- EN: Select colony to send caravan -->
+  <SelectCaravanOrigin>Выберите поселение, чтобы отправить караван</SelectCaravanOrigin> 
+  <!-- EN: Send a caravan from {0}. -->
+  <SelectCaravanDesc>Отправить караван из {0}.</SelectCaravanDesc> 
+  <!-- EN: Colonists -->
+  <SelectCaravanColonists>Поселенцы</SelectCaravanColonists>
   
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
@@ -1166,6 +1188,8 @@
   <AbilityCantApplyDowned>{0_labelShort} {0_gender ? обездвижен : обездвижена : обездвижено}.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>Невозможно использовать: {0} — асексуал.</AbilityCantApplyOnAsexual>
+  <!-- EN: {PAWN_labelShort} has no healable injuries. -->
+  <AbilityCannotCastNoHealableInjury>У {PAWN_labelShort} нет ран, требующих лечения.</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>Пол {1_labelShort} не подходит для {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
@@ -1365,5 +1389,19 @@
   <ToggleDarklightOnDesc>Изменить на тёмный свет.</ToggleDarklightOnDesc>
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
   <ColorTemperatureTooltip>Изменить температуру цвета. Важно: изменится только цвет, но не количество исходящего тепла.</ColorTemperatureTooltip>
+
+  <!-- EN: {0_labelShort} is psychically deaf. -->
+  <CannotShootPawnIsPsychicallyDeaf>{0_labelShort} психически {0_gender ? глух : глуха}.</CannotShootPawnIsPsychicallyDeaf>
+
+  <!-- EN: Search the current map. -->
+  <SearchTheMap>Искать на текущей карте</SearchTheMap>
+  <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
+  <SearchTheMapDesc>Искать на текущей карте предметы, сооружения, людей, животных, растения и прочее.</SearchTheMapDesc>
+  <!-- EN: {0} results found -->
+  <MapSearchResults>{0_numCase ? результат : результата : результатов}</MapSearchResults>
+  <!-- EN: 1 result found -->
+  <MapSearchResultSingular>1 результат</MapSearchResultSingular>
+  <!-- EN: Searching -->
+  <Searching>Идёт поиск</Searching>
 
 </LanguageData>

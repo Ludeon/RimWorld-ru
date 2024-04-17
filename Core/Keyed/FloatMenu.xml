@@ -158,6 +158,8 @@
   <IncapableOfDeconstruction>не может разбирать</IncapableOfDeconstruction>
   <!-- EN: incapable of mining -->
   <IncapableOfMining>не может разрабатывать породу</IncapableOfMining>
+  <!-- EN: tree marked for extraction -->
+  <TreeMarkedForExtraction>дерево назначено для извлечения</TreeMarkedForExtraction>
   <!-- EN: angers faction -->
   <AngersFaction>разозлит фракцию</AngersFaction>
   <!-- EN: no body part -->
@@ -192,6 +194,9 @@
   <CannotGoNoPath>Невозможно пройти сюда: нет прохода</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>Идти сюда</GoHere>
+
+  <!-- EN: Clean {0} -->
+  <CleanRoom>Убраться в {lookup: {0}; Case; 5}</CleanRoom>
   
   <!-- EN: Arrest {0} -->
   <Arrest>Арестовать {lookup: {0}; Case; 3}</Arrest>
@@ -212,6 +217,8 @@
   <Unrecruitable>непоколебимая верность</Unrecruitable>
   <!-- EN: not recruitable -->
   <UnrecruitableNoFaction>невозможно завербовать</UnrecruitableNoFaction> 
+  <!-- EN: Transfer {0_label} -->
+  <TransferEntity>Переместить: {0_definite}</TransferEntity> 
 
   <!-- EN: Rescue {1_labelShort} -->
   <Rescue>Спасти {lookup: {1_labelShort}; Case; 3}</Rescue>
@@ -240,6 +247,8 @@
   <CryptosleepCasketOccupied>Уже занято</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>Нет доступных свободных кроватей для пленников в закрытом помещении с безопасной температурой.</NoPrisonerBed>
+  <!-- EN: No prisoner bed available. -->
+  <NoPrisonerBedShort>Нет подходящих кроватей для пленников.</NoPrisonerBedShort>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
   <NoNonPrisonerBed>Нет доступных свободных кроватей для поселенцев в местах с безопасной температурой.</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
@@ -569,6 +578,14 @@
   <!-- Feeding -->
   <!-- EN: disliked food -->
   <WarningFoodDisliked>нелюбимая еда</WarningFoodDisliked>
+  <!-- EN: Unsuitable food -->
+  <FoodNotSuitable>Неподходящая еда</FoodNotSuitable>
+
+  <!-- EN: Unsuitable drug -->
+  <DrugNotSuitable>Неподходящий препарат</DrugNotSuitable>
+  
+  <!-- EN: Prioritize extinguishing fires -->
+  <ExtinguishFiresNearby>Тушить пожары</ExtinguishFiresNearby>
 
   <!-- Analysis -->
   <!-- EN: already analyzed -->
