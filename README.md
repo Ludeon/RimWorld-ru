@@ -70,8 +70,9 @@ https://github.com/asidsx/RimWorldRuslangAutoUpdater/blob/main/auto.bat
 ## Желающим помочь проекту:
 Процесс перевода и организация командной работы описаны в [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
 
+
 ### Руководство по GitHub для нетехнарей
-[Страница на вики](https://github.com/Ludeon/RimWorld-ru/wiki/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82-%D1%81-Git-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-GitHub-Desktop)
+[Страница с руководством на вики](https://github.com/Ludeon/RimWorld-ru/wiki/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82-%D1%81-Git-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-GitHub-Desktop)
 
 
 Обсуждение всех вопросов происходит в [чате Телеграма](https://t.me/joinchat/CEY0QEO8s3S-29d_uv1SaQ) и в [группе ВКонтакте](https://vk.com/rimworld_russian).
