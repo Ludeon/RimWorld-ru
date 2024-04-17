@@ -61,7 +61,6 @@
     <li>threatsInfoMechRaidsSingleAnimal->По неизвестной причине за животным охотится рой механоидов.</li>
     <li>threatsInfoMechRaidsMultiAnimal->По неизвестной причине за животными охотится рой механоидов.</li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->Организация по защите животных хочет, чтобы вы приютили [lodgersLabelAcc] по имени [lodgers0_nameDef] в [map_definite] на [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
-
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nАктивисты организации по защите животных выкрали [lodgers0_nameDef] с церемонии ритуального жертвоприношения, проходящей на территории фракции [enemyFaction_name]. Теперь [enemyFaction_pawnsPlural] в ярости и жаждут мести. Если вы приютите [lodgers0_nameDef] у себя, [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
@@ -89,13 +88,11 @@
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из фракции [asker_faction_name] просит об одолжении. [asker_pronoun] хочет, чтобы вы на [shuttleDelayTicks_duration] приютили [asker_possessive] любимого питомца, [lodgersLabelAcc] по имени [lodgers0_nameDef], в [map_definite]. [healthInfo][threatsInfo5][commonDescEnding]</li>
-
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] является подарком, обещанным на свадьбу ребёнку [asker_nameDef]. В попытке сорвать свадебную церемонию, за [lodgers0_nameDef] были высланы [enemyFaction_pawnsPlural] из фракции [enemyFaction_name]. Если вы примете [lodgers0_nameDef] у себя, [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из фракции [asker_faction_name] просит об одолжении. [asker_pronoun] хочет, чтобы вы на [shuttleDelayTicks_duration] приютили [lodgersCount] [lodgersLabelPluralGen] в [map_definite]. Эти [lodgersLabelPlural] — [asker_possessive] любимые питомцы, и [asker_pronoun] хочет, чтобы они повидали мир за пределами [asker_possessive] двора. [healthInfo][threatsInfo6][commonDescEnding]</li>
-
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nЖелая насолить [asker_nameDef], за этими животными охотятся [enemyFaction_pawnsPlural] из фракции [enemyFaction_name]. Если вы примете их у себя, [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
