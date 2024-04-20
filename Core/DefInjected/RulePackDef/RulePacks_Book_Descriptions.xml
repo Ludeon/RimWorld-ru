@@ -374,9 +374,9 @@
     <li>storySource->своём опыте кочевого образа жизни</li>
     <li>storySource->своём увлечении путешествиями во времени</li>
     <li>storySource->своей связи с легендарным артефактом</li>
-    <li>writingQualitySentence(quality[greater_than]4)->[excellentDesc][excellentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->[decentDesc][decentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]2)->[awfulDesc] [awfulExtra]</li>
+    <li>writingQualitySentence(quality>4)->[excellentDesc][excellentExtra]</li>
+    <li>writingQualitySentence(quality&lt;5,quality>1)->[decentDesc][decentExtra]</li>
+    <li>writingQualitySentence(quality&lt;2)->[awfulDesc] [awfulExtra]</li>
     <li>excellentDesc->[storyElement] волнительного [story_no_ending]я заставляет бешено колотиться сердце</li>
     <li>excellentDesc->Это вдумчивое исследование человеческого духа</li>
     <li>excellentDesc->[story_no_ending]е глубоко проницательно в отношении сложности мироустройства</li>
