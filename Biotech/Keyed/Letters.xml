@@ -124,7 +124,7 @@
   <LetterPartNameBabyAdopt>Младенца зовут {0_nameFull}. Вы можете изменить {0_possessive} имя, пока {0_objective} не исполнился {1}.</LetterPartNameBabyAdopt> <!-- Вместо {1} игра всегда подставляет "1 день" -->
 
   <!-- EN: Growth moment for {PAWNNAME} -->
-  <BirthdayGrowthMoment>{PAWNNAME} взрослеет</BirthdayGrowthMoment>
+  <BirthdayGrowthMoment>{PAWNNAME} {0_gender ? повзрослел : повзрослела}</BirthdayGrowthMoment>
   <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
   <BirthdayBiologicalGrowthMoment>{0_nameFull} {0_gender ? достиг : достигла} {1} лет и {0_gender ? перешёл : перешла} на следующий этап взросления.</BirthdayBiologicalGrowthMoment>
   <!-- EN: {0_nameDef} is now old enough to do the following work -->
@@ -136,7 +136,7 @@
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
   <BirthdayPickTrait>Выберите новую черту характера для {0_nameDef}</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
-  <BirthdayGrowthTier>При взрослении, у {0_nameDef} был {1} этап роста. Чем выше этап роста, тем больше новых черт характера можно выработать и к большему числу навыков проявить интерес. Количество навыков, из которых можно выбирать, также увеличится. Чем лучше удовлетворена потребность детей в обучении, тем быстрее увеличивается этап роста. С каждым новым этапом взросления отсчёт этапа роста начинается с нуля.</BirthdayGrowthTier>
+  <BirthdayGrowthTier>При переходе на следующий этап взросления у {0_nameDef} был {1} уровень развития. Чем выше это значение, тем больше новых черт характера ребёнок может выработать и к большему числу навыков проявить интерес. Удовлетворение потребности ребёнка в обучении ускоряет повышение уровня его развития. На каждом новом этапе взросления отсчёт уровня развития начинается с нуля.</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
   <BirthdayChooseHowPawnWillGrow>Откройте это сообщение, чтобы выбрать, как {0_nameDef} будет развиваться.</BirthdayChooseHowPawnWillGrow> <!-- Последнее сообщение в превью по наведении курсора на сообщение о следующем этапе взросления -->
 
