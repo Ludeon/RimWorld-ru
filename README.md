@@ -10,7 +10,8 @@
 ### Стандартный способ
 
 1. Скачать архив, **соответствующий вашей версии игры (это важно!):**
-	* Последняя актуальная 1.4 + Royalty + Ideology + Biotech: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
+	* Последняя актуальная 1.5 + Royalty + Ideology + Biotech + Anomaly: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
+	* 1.4 + Royalty + Ideology + Biotech: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.4.3901.zip)
 	* 1.3 + Royalty + Ideology: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.3.3389.zip)
 	* 1.2 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.2.2900.zip)
 	* 1.1 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2654.zip)
@@ -27,6 +28,8 @@
 	В папку `<путь к папке игры>\Data\Ideology\Languages\` нужно положить папку `Ideology` из архива и переименовать её в `Russian`.
 
 	В папку `<путь к папке игры>\Data\Biotech\Languages\` нужно положить папку `Biotech` из архива и переименовать её в `Russian`.
+
+	В папку `<путь к папке игры>\Data\Anomaly\Languages\` нужно положить папку `Anomaly` из архива и переименовать её в `Russian`.
 
 	Если среди папок локализации были старые папки с тем же именем, их следует удалить и на их место положить новые, под старым именем.
 
