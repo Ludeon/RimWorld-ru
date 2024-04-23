@@ -18,6 +18,8 @@
   <StatsReport_RelevantHediffs>Влияющее состояние здоровья</StatsReport_RelevantHediffs>
   <!-- EN: Life stage -->
   <StatsReport_LifeStage>Жизненный этап</StatsReport_LifeStage>
+  <!-- EN: Shambler crawling -->
+  <StatsReport_ShamblerCrawling>TODO</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
   <StatsReport_Material>Материал</StatsReport_Material>
   <!-- EN: Character quality -->
@@ -42,6 +44,8 @@
   <StatsReport_ShootingExampleDistances>Шанс попасть на большой дистанции</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Итого</StatsReport_FinalValue>
+  <!-- EN: Max value -->
+  <StatsReport_MaxValue>TODO</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
   <StatsReport_MultiplierFor>Множитель для {lookup: {0}; Case; 1}</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
@@ -59,7 +63,7 @@
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>Коэффициент прочности {0}</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
-  <StatsReport_ReloadMarketValue>Стоимость перезарядки ({COUNT} ед. {lookup: {AMMO_label}; Case; 1})</StatsReport_ReloadMarketValue> <!-- Подставляется CompProperties_Reloadable.ammoDef. Сейчас во всех случаях везде это неисчисляемое существительное: сталь, химтопливо и прочее. Отсюда ед.ч. р.п. -->
+  <StatsReport_ReloadMarketValue>Стоимость перезарядки ({COUNT} ед. {lookup: {AMMO_label}; Case; 1})</StatsReport_ReloadMarketValue>
   <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
   <StatsReport_ReloadRemainingChargesMultipler>Множитель для оставшихся {lookup: {CHARGENOUN_plural}; Case; 1} ({0})</StatsReport_ReloadRemainingChargesMultipler>
   <!-- EN: Multiplier for mood {0} -->
@@ -158,6 +162,8 @@
   <!-- EN: Satisfies user's title requirements -->
   <StatsReport_SatisfiesTitle>Удовлетворяет титулу пользователя</StatsReport_SatisfiesTitle>
 
+  <!-- EN: Age -->
+  <Stat_Age_Label>TODO</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
   <Stat_RecreationType_Desc>Развлечения бывают разных видов, в зависимости от занятия. Поселенцам наскучивают одни и те же виды развлечения, поэтому важно делать их досуг как можно более разнообразным.</Stat_RecreationType_Desc>
   <!-- EN: All recreation types -->
@@ -200,6 +206,10 @@
   <Stat_Thing_Apparel_CountsAsClothingNudity_Name>Одежда (для нудиста)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
   <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Будет ли нудист считать этот объект предметом одежды. Если нет, то его ношение не будет раздражать нудиста.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <!-- EN: Gender -->
+  <Stat_Thing_Apparel_Gender>TODO</Stat_Thing_Apparel_Gender>
+  <!-- EN: Certain apparel is generally preferred by one gender. Anyone else may be unhappy wearing it. -->
+  <Stat_Thing_Apparel_Gender_Desc>TODO</Stat_Thing_Apparel_Gender_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>Части тела, укрываемые этим предметом одежды или экипировки.\n\nБроня не защищает части тела, которые она не укрывает.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -294,6 +304,8 @@
   <Stat_Hediff_Pain_Desc>Количество причиняемой боли.</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
   <Stat_Hediff_PartEfficiency_Desc>Прирост или падение эффективности затрагиваемых частей тела.</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: How efficiently this functions compared to a natural body part. -->
+  <Stat_Hediff_PartEfficiencyAbsolute_Desc>TODO</Stat_Hediff_PartEfficiencyAbsolute_Desc>
   <!-- EN: The mental abilities this affects. -->
   <Stat_Hediff_Affects_Desc>Затрагиваемые ментальные способности.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
@@ -302,7 +314,7 @@
   <Stat_Hediff_HungerRateFactor_Desc>Множитель, применяемый к скорости возникновения голода.</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
   <Stat_Hediff_HungerRateOffset_Desc>Значение, на которое изменяется скорость возникновения голода.</Stat_Hediff_HungerRateOffset_Desc>
-  <!-- EN: Rest fall rate -->
+  <!-- EN: Sleep fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Прирост усталости</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
   <Stat_Hediff_TirednessOffset_Desc>Значение, на которое изменяется скорость возникновения потребности во сне.</Stat_Hediff_TirednessOffset_Desc>
@@ -376,6 +388,14 @@
   <Stat_Building_PaintColor>Цвет краски</Stat_Building_PaintColor>
   <!-- EN: The color this building was painted. -->
   <Stat_Building_PaintColorDesc>Цвет, в который постройка была покрашена.</Stat_Building_PaintColorDesc>
+  <!-- EN: Resources to make -->
+  <Stat_Building_ResourcesToMake>TODO</Stat_Building_ResourcesToMake>
+  <!-- EN: The resources required to construct this. -->
+  <Stat_Building_ResourcesToMakeDesc>TODO</Stat_Building_ResourcesToMakeDesc>
+  <!-- EN: The weapon mounted on this creature. -->
+  <Stat_Thing_TurretDesc>TODO</Stat_Thing_TurretDesc>
+  <!-- EN: The ingredients needed to make this. -->
+  <Stat_Thing_Ingredients>TODO</Stat_Thing_Ingredients>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -526,5 +546,9 @@
   <Stat_Source_OfficialExpansionReport>Этот контент — из официального дополнения</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>Этот контент — из мода</Stat_Source_ModReport>
-  
+
+  <!-- EN: Contained book beauty -->
+  <ContainedBookBeauty>TODO</ContainedBookBeauty>
+  <!-- EN: {0} hits -->
+  <Stat_TrapDamageHitCount>TODO</Stat_TrapDamageHitCount>
 </LanguageData>
