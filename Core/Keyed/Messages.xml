@@ -660,6 +660,12 @@
   <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
   <MessageBedDestroyed>{0}, назначенная {1_nameDef}, уничтожена.</MessageBedDestroyed>
 
+  <!-- Lord jobs -->
+  <!-- EN: You need {0_indefinite}. -->
+  <MessageLordJobNeedsAtLeastOneRolePawn>Нужен {0_indefinite}.</MessageLordJobNeedsAtLeastOneRolePawn>
+  <!-- EN: You need at least {1} {0}. -->
+  <MessageLordJobNeedsAtLeastNumRolePawn>Нужны {0} в количестве хотя бы {1_numCase ? человека : человек : человек}.</MessageLordJobNeedsAtLeastNumRolePawn>
+
   <!-- Rituals -->
   <!-- EN: spectate -->
   <Spectate>наблюдать</Spectate>
@@ -675,10 +681,6 @@
   <MessageRitualNeedsAtLeastOnePerson>Нужен как минимум один участник.</MessageRitualNeedsAtLeastOnePerson>
   <!-- EN: You need at least one spectator. -->
   <MessageRitualNeedsAtLeastOneSpectator>Нужен как минимум один наблюдатель.</MessageRitualNeedsAtLeastOneSpectator>
-  <!-- EN: You need a {0}. -->
-  <MessageRitualNeedsAtLeastOneRolePawn>Нужен {0}.</MessageRitualNeedsAtLeastOneRolePawn>
-  <!-- EN: You need at least {1} {0}. -->
-  <MessageRitualNeedsAtLeastNumRolePawn>Нужны {0} в количестве хотя бы {1_numCase ? человека : человек : человек}.</MessageRitualNeedsAtLeastNumRolePawn> <!-- role.Label подставляется сразу во множественном числе -->
   <!-- EN: {0_labelShort} is downed. -->
   <MessageRitualPawnDowned>{0_labelShort} {0_gender ? обездвижен : обездвижена}.</MessageRitualPawnDowned>
   <!-- EN: {0_labelShort} is currently escaping. -->
