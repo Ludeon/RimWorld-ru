@@ -442,4 +442,652 @@
     <li>date_form->[date]</li>
   </Description_Novel.rulePack.rulesStrings>
   
+  <Description_SkillBook.rulePack.rulesFiles>
+    <li>AnimalWorld_gen->Names/Worlds/Genitive/AnimalWorld</li>
+    <li>Asteroid_gen->Names/Worlds/Genitive/Asteroid</li>
+    <li>CoreWorld_gen->Names/Worlds/Genitive/CoreWorld</li>
+    <li>DeadWorld_gen->Names/Worlds/Genitive/DeadWorld</li>
+    <li>DeathWorld_gen->Names/Worlds/Genitive/DeathWorld</li>
+    <li>DinoWorld_gen->Names/Worlds/Genitive/DinoWorld</li>
+    <li>FeudalWorld_gen->Names/Worlds/Genitive/FeudalWorld</li>
+    <li>GlassWorld_gen->Names/Worlds/Genitive/GlassWorld</li>
+    <li>GlitterWorld_gen->Names/Worlds/Genitive/GlitterWorld</li>
+    <li>IceWorld_gen->Names/Worlds/Genitive/IceWorld</li>
+    <li>IndWorld_gen->Names/Worlds/Genitive/IndWorld</li>
+    <li>MedievalWorld_gen->Names/Worlds/Genitive/MedievalWorld</li>
+    <li>MidWorld_gen->Names/Worlds/Genitive/MidWorld</li>
+    <li>MineWorld_gen->Names/Worlds/Genitive/MineWorld</li>
+    <li>OceanicWorld_gen->Names/Worlds/Genitive/OceanicWorld</li>
+    <li>PrisonWorld_gen->Names/Worlds/Genitive/PrisonWorld</li>
+    <li>RimWorld_gen->Names/Worlds/Genitive/RimWorld</li>
+    <li>RuinWorld_gen->Names/Worlds/Genitive/RuinWorld</li>
+    <li>ShellWorld_gen->Names/Worlds/Genitive/ShellWorld</li>
+    <li>SteamWorld_gen->Names/Worlds/Genitive/SteamWorld</li>
+    <li>ToxicWorld_gen->Names/Worlds/Genitive/ToxicWorld</li>
+    <li>TranscendentWorld_gen->Names/Worlds/Genitive/TranscendentWorld</li>
+    <li>TrashWorld_gen->Names/Worlds/Genitive/TrashWorld</li>
+    <li>UrbWorld_gen->Names/Worlds/Genitive/UrbWorld</li>
+    <li>WarWorld_gen->Names/Worlds/Genitive/WarWorld</li>
+    <li>AnimalWorld_pre->Names/Worlds/Prepositional/AnimalWorld</li>
+    <li>Asteroid_pre->Names/Worlds/Prepositional/Asteroid</li>
+    <li>CoreWorld_pre->Names/Worlds/Prepositional/CoreWorld</li>
+    <li>DeadWorld_pre->Names/Worlds/Prepositional/DeadWorld</li>
+    <li>DeathWorld_pre->Names/Worlds/Prepositional/DeathWorld</li>
+    <li>DinoWorld_pre->Names/Worlds/Prepositional/DinoWorld</li>
+    <li>FeudalWorld_pre->Names/Worlds/Prepositional/FeudalWorld</li>
+    <li>GlassWorld_pre->Names/Worlds/Prepositional/GlassWorld</li>
+    <li>GlitterWorld_pre->Names/Worlds/Prepositional/GlitterWorld</li>
+    <li>IceWorld_pre->Names/Worlds/Prepositional/IceWorld</li>
+    <li>IndWorld_pre->Names/Worlds/Prepositional/IndWorld</li>
+    <li>MedievalWorld_pre->Names/Worlds/Prepositional/MedievalWorld</li>
+    <li>MidWorld_pre->Names/Worlds/Prepositional/MidWorld</li>
+    <li>MineWorld_pre->Names/Worlds/Prepositional/MineWorld</li>
+    <li>OceanicWorld_pre->Names/Worlds/Prepositional/OceanicWorld</li>
+    <li>PrisonWorld_pre->Names/Worlds/Prepositional/PrisonWorld</li>
+    <li>RimWorld_pre->Names/Worlds/Prepositional/RimWorld</li>
+    <li>RuinWorld_pre->Names/Worlds/Prepositional/RuinWorld</li>
+    <li>ShellWorld_pre->Names/Worlds/Prepositional/ShellWorld</li>
+    <li>SteamWorld_pre->Names/Worlds/Prepositional/SteamWorld</li>
+    <li>ToxicWorld_pre->Names/Worlds/Prepositional/ToxicWorld</li>
+    <li>TranscendentWorld_pre->Names/Worlds/Prepositional/TranscendentWorld</li>
+    <li>TrashWorld_pre->Names/Worlds/Prepositional/TrashWorld</li>
+    <li>UrbWorld_pre->Names/Worlds/Prepositional/UrbWorld</li>
+    <li>WarWorld_pre->Names/Worlds/Prepositional/WarWorld</li>
+  </Description_SkillBook.rulePack.rulesFiles>
+  <!-- EN:
+    <li>subject->[subject_primary]</li>
+    <li>desc->[discussion].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
+    <li>discussion->This [textbook] provides [useful_information] about [subject][detail]</li>
+    <li>discussion->This [textbook] establishes the author's authority on the subject of [subject][detail]</li>
+    <li>discussion->Those seeking [understanding_synonym] [subject] head to this [notable_adjective] [textbook][detail]</li>
+    <li>discussion->A standardized [textbook] on [subject][detail]</li>
+    <li>discussion->An early edition of the author's [textbook] on [subject][detail]</li>
+    <li>detail->. The [precis_synonym] focuses on the more skilled aspects of the subject</li>
+    <li>detail->. It is a succinct [precis_synonym] of a complex subject</li>
+    <li>detail->. The [precis_synonym] says that, when [ANYPAWN_label] wrote this, it was the cutting edge in the field</li>
+    <li>detail->. A quote on the [note_location] says, 'True [students] of [subject] cannot ignore [ANYPAWN_label]'s book'</li>
+    <li>students->students</li>
+    <li>students->lovers</li>
+    <li>students->practitioners</li>
+    <li>detail->. It takes you through the subject step-by-step</li>
+    <li>detail(quality[less_than]4)->, even though the author rushes through the subject</li>
+    <li>detail(quality[greater_than]3)->. It is a comprehensive treatment of the subject</li>
+    <li>detail->. The author claims in [ANYPAWN_possessive] [precis_synonym] that fraudulent copies of this book exist but that this is not one</li>
+    <li>detail(quality[less_than]4)->, though perhaps the attempt to communicate its ideas through an imagined dialogue was a mistake</li>
+    <li>detail->. The author's rhetoric in the [precis_synonym] does not distract from the core concepts</li>
+    <li>production->The [precis_synonym] says that this was printed by hand on [worldname]</li>
+    <li>production->The [precis_synonym] says that the University of [worldname] made this a set text</li>
+    <li>production->The [precis_synonym] says that, though these notes were made for [ANYPAWN_label]'s personal use, they have been widely shared</li>
+    <li>production->The useful parts of this [textbook] are hidden among the biographical details</li>
+    <li>production->A handwritten [note] on the [note_location] says that the [worldname] print-house shut down after the [worldname] Riots, so these later editions are rare</li>
+    <li>production->An inscribed [note] says that most copies of this [textbook] were lost during the [worldname] Incident</li>
+    <li>production->The [precis_synonym] makes clear that readers with knowledge of archotech information dissemination techniques tend to avoid this [textbook] series - but not why</li>
+    <li>production->From the [note_location], it is clear that the [subject] proselytes of [worldname] spent a fortune printing copies of this book, and then having it widely distributed</li>
+    <li>production->The [note_location] explains that the early copies of this book were handwritten by [ANYPAWN_label] [ANYPAWN_objective]self</li>
+    <li>production->The Duchess of [worldname] sponsored this [textbook], with the condition that it be freely available</li>
+    <li>production->A note says that a subscription of the booksellers of [coreworld] produced the first edition of this [textbook]</li>
+    <li>production->At the book's rear, the publisher advertises a larger series that tackles all subjects necessary for survival on the rim</li>
+    <li>production->The publishers perhaps could have been more forthright in their editorial duties, given the sloppy grammar</li>
+    <li>quality_statement->[exterior_quality] [page_quality]</li>
+    <li>anecdote->Given the large gap between [ANYPAWN_nameFull]'s birth year and the publication date of this book, it is unlikely that [ANYPAWN_pronoun] lived to see this published</li>
+    <li>anecdote->On the [note_location], someone has pasted an excoriating review of the book</li>
+    <li>anecdote->The [precis_synonym] indicates that this book passed through the public library system of [urbworld]</li>
+    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull] was known for being a master of many subjects</li>
+    <li>anecdote->According to the [note_location], the people of [worldname] still talk of [ANYPAWN_nameFull] and reminisce about [ANYPAWN_possessive] love of [subject]</li>
+    <li>anecdote->According to the [note_location], a freak entanglement accident killed the author, [ANYPAWN_nameFull], shortly after publication</li>
+    <li>anecdote->According to the [precis_synonym], [ANYPAWN_nameFull] spent [ANYPAWN_possessive] days teaching in the academy on [coreworld]. This book is taken from [ANYPAWN_possessive] lectures</li>
+    <li>anecdote->According to the [precis_synonym], [ANYPAWN_nameFull]'s knowledge of [subject] was so renowned that people would stop [ANYPAWN_objective] in the street to question [ANYPAWN_objective] about it</li>
+    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull] was impoverished and sold the rights to this series for very little</li>
+    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull] was blind from birth, so never saw [ANYPAWN_possessive] book</li>
+    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull]'s first draft of the textbook infamously featured fifty pages of digression. It was cut for the second edition</li>
+    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull]'s reputation was so terrible that [ANYPAWN_pronoun] published this book under a pseudonym</li>
+    <li>anecdote->According to the [note_location], as a child, [ANYPAWN_nameFull] was so idle that [ANYPAWN_possessive] parents despaired. This textbook is a vindication of [ANYPAWN_possessive] skill</li>
+    <li>anecdote->According to the [precis_synonym], it was during [ANYPAWN_nameFull]'s fourth marriage that [ANYPAWN_pronoun] conceived of a textbook on [subject]. (This led to [ANYPAWN_possessive] fourth divorce)</li>
+    <li>textbook->primer</li>
+    <li>textbook->manual</li>
+    <li>textbook->textbook</li>
+    <li>textbook(p=6)->book</li>
+    <li>textbook->workbook</li>
+    <li>textbook->reference book</li>
+    <li>textbook->compendium</li>
+    <li>textbook->guidebook</li>
+    <li>textbook->booklet</li>
+    <li>textbook->syllabus</li>
+    <li>textbook->coursebook</li>
+    <li>textbook->reference book</li>
+    <li>textbook->school book</li>
+    <li>textbook->encyclopedia</li>
+    <li>textbook->handbook</li>
+    <li>textbook->tradebook</li>
+    <li>textbook->work</li>
+    <li>precis_synonym->précis</li>
+    <li>precis_synonym->frontispiece</li>
+    <li>precis_synonym->abstract</li>
+    <li>precis_synonym->synopsis</li>
+    <li>precis_synonym->outline</li>
+    <li>precis_synonym->digest</li>
+    <li>note_location->front cover</li>
+    <li>note_location->back cover</li>
+    <li>note_location->front flap</li>
+    <li>note_location->back flap</li>
+    <li>note_location->first page</li>
+    <li>note_location->last page</li>
+    <li>note_location->margins</li>
+    <li>note_location->title page</li>
+    <li>note_location->footnote</li>
+    <li>note_location->endnote</li>
+    <li>note_location->author's biography</li>
+    <li>note_location->shipping label</li>
+    <li>note->note</li>
+    <li>note->addendum</li>
+    <li>note->postscript</li>
+    <li>note->afterword</li>
+    <li>note->appendix</li>
+    <li>note->coda</li>
+    <li>note->footnote</li>
+    <li>note->endnote</li>
+    <li>useful_information->useful tidbits of information</li>
+    <li>useful_information->useful information</li>
+    <li>useful_information->interesting facts</li>
+    <li>useful_information->valuable insights</li>
+    <li>useful_information->practical insights</li>
+    <li>useful_information->helpful tips</li>
+    <li>useful_information->informative details</li>
+    <li>understanding_synonym->knowledge of</li>
+    <li>understanding_synonym->self-improvement in</li>
+    <li>understanding_synonym->an understanding of</li>
+    <li>understanding_synonym->scholarship in</li>
+    <li>understanding_synonym->erudition in</li>
+    <li>understanding_synonym->expertise in</li>
+    <li>understanding_synonym->a philosophy of</li>
+    <li>understanding_synonym->the ethics of</li>
+    <li>notable_adjective->famous</li>
+    <li>notable_adjective->obscure</li>
+    <li>notable_adjective->iconic</li>
+    <li>notable_adjective->classic</li>
+    <li>notable_adjective->common</li>
+    <li>notable_adjective->familiar</li>
+    <li>notable_adjective->timeless</li>
+    <li>notable_adjective->lopsided</li>
+    <li>notable_adjective->harmonious</li>
+    <li>notable_adjective->elegant</li>
+    <li>notable_adjective->simple</li>
+    <li>notable_adjective->functional</li>
+    <li>notable_adjective->urbworld</li>
+    <li>notable_adjective->Glitterworld</li>
+    <li>notable_adjective->primitive</li>
+    <li>notable_adjective->decorative</li>
+    <li>exterior_quality(quality[greater_than]4)->The exterior of this book is finely bound and</li>
+    <li>exterior_quality(quality[greater_than]4)->A masterpiece of the printer's art, this book shines and</li>
+    <li>exterior_quality(quality[greater_than]4)->Its leather cover is rough yet</li>
+    <li>exterior_quality(quality[greater_than]4)->Though the cover is very plain,</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->This textbook has seen better days, but</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Despite being a second-hand schoolbook,</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->This book has had many owners, but</li>
+    <li>exterior_quality(quality[less_than]2)->The front of this book seems attractive but</li>
+    <li>exterior_quality(quality[less_than]2)->Someone has torn away the first third of the book and</li>
+    <li>exterior_quality(quality[less_than]2)->The cover is soaked in a strong-smelling liquid and</li>
+    <li>exterior_quality(quality[less_than]2)->At first sight nothing is wrong with the book, but</li>
+    <li>page_quality->the pages [page_condition]</li>
+    <li>page_condition(quality[greater_than]4)->[page_excellent]</li>
+    <li>page_condition(quality[less_than]5,quality[greater_than]1)->[page_decent]</li>
+    <li>page_condition(quality[less_than]2)->[page_awful]</li>
+    <li>page_excellent->are in amazing condition, as if never touched</li>
+    <li>page_excellent->are in great condition</li>
+    <li>page_excellent->are pristine</li>
+    <li>page_excellent->are bright and clean</li>
+    <li>page_excellent->are uniquely well-preserved</li>
+    <li>page_decent->are in a decent condition</li>
+    <li>page_decent->are legible, if crumpled</li>
+    <li>page_decent->are perfectly readable</li>
+    <li>page_decent->are decent, if slightly scored</li>
+    <li>page_awful->appear to be written on crumbling parchment</li>
+    <li>page_awful->are badly damaged</li>
+    <li>page_awful->are stained with a dark substance</li>
+    <li>page_awful->are illegible</li>
+    <li>page_awful->have been annotated in an unreadable hand</li>
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorne</li>
+    <li>animalworld->Rhydell</li>
+    <li>animalworld->Zoutera</li>
+    <li>animalworld->Thylacine</li>
+    <li>animalworld->Jiai</li>
+    <li>animalworld->Steller's World</li>
+    <li>animalworld->Aukton</li>
+    <li>asteroid->Iwamura</li>
+    <li>asteroid->Atura</li>
+    <li>asteroid->Widdershins</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Aesh 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Aryn Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prime</li>
+    <li>coreworld->Glossolia</li>
+    <li>coreworld->Barbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Haspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Ardar</li>
+    <li>deadworld->Kremhild</li>
+    <li>deadworld->Melisandz</li>
+    <li>deathworld->Creticon</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Rayth</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->JNovahex</li>
+    <li>deathworld->Carthago</li>
+    <li>deathworld->Grimcore</li>
+    <li>dinoworld->Oubanyen</li>
+    <li>dinoworld->Zoutera</li>
+    <li>dinoworld->Einio</li>
+    <li>dinoworld->Baryonyx</li>
+    <li>dinoworld->N'cilo</li>
+    <li>dinoworld->Venator</li>
+    <li>dinoworld->Brach</li>
+    <li>feudalworld->Aracena VI</li>
+    <li>feudalworld->Nuchadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fieth</li>
+    <li>feudalworld->Bloch Regis</li>
+    <li>feudalworld->Carlosphere</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Thebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Shechem</li>
+    <li>glassworld->Yelhazor</li>
+    <li>glitterworld->Kalthas IV</li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda </li>
+    <li>glitterworld->Rogia</li>
+    <li>glitterworld->Utmaior</li>
+    <li>glitterworld->Caspian</li>
+    <li>glitterworld->Kenerella</li>
+    <li>iceworld->Yttak</li>
+    <li>iceworld->Dedchenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtwale</li>
+    <li>iceworld->Jaqua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Irithir</li>
+    <li>indworld->New China</li>
+    <li>indworld->Hudders</li>
+    <li>indworld->Iver</li>
+    <li>indworld->Achesta</li>
+    <li>indworld->Oods</li>
+    <li>indworld->Iladelf</li>
+    <li>medievalworld->Chelis</li>
+    <li>medievalworld->Vinna</li>
+    <li>medievalworld->Cassone</li>
+    <li>medievalworld->Jork</li>
+    <li>medievalworld->Cochmar</li>
+    <li>medievalworld->Alin</li>
+    <li>medievalworld->Dubrognago</li>
+    <li>midworld->Khalderia</li>
+    <li>midworld->Elsin</li>
+    <li>midworld->Haihan</li>
+    <li>midworld->Seolure</li>
+    <li>midworld->Panga</li>
+    <li>midworld->New London CXI </li>
+    <li>midworld->San Delenda</li>
+    <li>mineworld->Xanides</li>
+    <li>mineworld->Bingham</li>
+    <li>mineworld->Saarhi</li>
+    <li>mineworld->Grasbeg</li>
+    <li>mineworld->Chuqui</li>
+    <li>mineworld->Olimpia</li>
+    <li>mineworld->Orme</li>
+    <li>oceanicworld->Wavia</li>
+    <li>oceanicworld->Wadka</li>
+    <li>oceanicworld->Gichen</li>
+    <li>oceanicworld->Port Yam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Thonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Aldgate</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Hoalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Chateau D'Ouen</li>
+    <li>rimworld->Filson</li>
+    <li>rimworld->La Grand</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Twig Falls</li>
+    <li>rimworld->Old Boise</li>
+    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Earth</li>
+    <li>ruinworld->Ilwaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pichu</li>
+    <li>ruinworld->Perdida</li>
+    <li>ruinworld->Hisarlik</li>
+    <li>ruinworld->Helike</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Destria</li>
+    <li>shellworld->Trophic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xinthia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corliss</li>
+    <li>steamworld->Borassic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Heron</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Architonnerre</li>
+    <li>steamworld->Escapement</li>
+    <li>toxicworld->Scylla</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Oxy VI</li>
+    <li>toxicworld->Sangwine</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Imbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Immanence VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Einsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samydi</li>
+    <li>transcendentworld->Samsarr</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Reepsyk</li>
+    <li>trashworld->Mystras</li>
+    <li>urbworld->Euterpe</li>
+    <li>urbworld->Avenna</li>
+    <li>urbworld->Essalon</li>
+    <li>urbworld->Enike</li>
+    <li>urbworld->Adocia</li>
+    <li>urbworld->N'toch</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Kemia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samnium</li>
+    <li>warworld->Kyrus</li>
+    <li>warworld->Punica</li>
+    <li>warworld->Cimbria XII</li>
+    <li>warworld->Barkitos</li>
+  -->
+  <Description_SkillBook.rulePack.rulesStrings>
+    <li>subject_gen(uses=2)->[subject_primary]</li>
+    <li>desc->[discussion][detail].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
+    <li>discussion->[thisTextbook] содержит [useful_information] по вопросам [subject_gen]</li>
+    <li>discussion->[thisTextbook] подтверждает компетенцию автора [in_the_field] [subject_gen]</li>
+    <li>discussion->[thisNotableTextbook] — находка для тех, кто [seeking_understanding] [in_the_field] [subject_gen]</li>
+    <li>discussion(p=0.5)->Этот стандартизированный [textbook_masc] посвящён вопросам [subject_gen]</li>
+    <li>discussion(p=0.5)->Эта стандартизированная [textbook_fem] посвящена вопросам [subject_gen]</li>
+    <li>discussion->[thisTextbook] представляет собой раннее издание сочинений автора [in_the_field] [subject_gen]</li>
+    <li>thisTextbook->этот [textbook_masc]</li>
+    <li>thisTextbook->эта [textbook_fem]</li>
+    <li>textbook_masc->справочник</li>
+    <li>textbook_masc->сборник упражнений</li>
+    <li>textbook_masc->сборник задач</li>
+    <li>textbook_masc->путеводитель</li>
+    <li>textbook_masc->самоучитель</li>
+    <li>textbook_masc->конспект</li>
+    <li>textbook_masc->учебник</li>
+    <li>textbook_masc->школьный учебник</li>
+    <li>textbook_masc->задачник</li>
+    <li>textbook_fem(p=5)->книга</li>
+    <li>textbook_fem->хрестоматия</li>
+    <li>textbook_fem->справочная книга</li>
+    <li>textbook_fem->энциклопедия</li>
+    <li>textbook_fem->настольная книга</li>
+    <li>useful_information->ценные крупицы знаний</li>
+    <li>useful_information->полезные указания</li>
+    <li>useful_information->интересные факты</li>
+    <li>useful_information->важные сведения</li>
+    <li>useful_information->практические идеи</li>
+    <li>useful_information->дельные советы</li>
+    <li>useful_information->познавательные подробности</li>
+    <li>in_the_field(uses=1)->в области</li>
+    <li>thisNotableTextbook(p=7)->этот [notable_adjective_masc] [textbook_masc]</li>
+    <li>thisNotableTextbook(p=7)->эта [notable_adjective_fem] [textbook_fem]</li>
+    <li>thisNotableTextbook->[thisTextbook] [notable_of]</li>
+    <li>notable_adjective_masc->известный</li>
+    <li>notable_adjective_masc->малопонятный</li>
+    <li>notable_adjective_masc->знаковый</li>
+    <li>notable_adjective_masc->классический</li>
+    <li>notable_adjective_masc->типичный</li>
+    <li>notable_adjective_masc->обычный</li>
+    <li>notable_adjective_masc->нестареющий</li>
+    <li>notable_adjective_masc->предвзятый</li>
+    <li>notable_adjective_masc->согласованный</li>
+    <li>notable_adjective_masc->изысканный</li>
+    <li>notable_adjective_masc->незатейливый</li>
+    <li>notable_adjective_masc->функциональный</li>
+    <li>notable_adjective_masc->простой</li>
+    <li>notable_adjective_masc->красочный</li>
+    <li>notable_adjective_fem->известная</li>
+    <li>notable_adjective_fem->малопонятная</li>
+    <li>notable_adjective_fem->знаковая</li>
+    <li>notable_adjective_fem->классическая</li>
+    <li>notable_adjective_fem->типичная</li>
+    <li>notable_adjective_fem->обычная</li>
+    <li>notable_adjective_fem->нестареющая</li>
+    <li>notable_adjective_fem->предвзятая</li>
+    <li>notable_adjective_fem->согласованная</li>
+    <li>notable_adjective_fem->изысканная</li>
+    <li>notable_adjective_fem->незатейливая</li>
+    <li>notable_adjective_fem->функциональная</li>
+    <li>notable_adjective_fem->простая</li>
+    <li>notable_adjective_fem->красочная</li>
+    <li>notable_of->с урбанизированного мира</li>
+    <li>notable_of->с утопического мира</li>
+    <li>seeking_understanding->старается получить знания</li>
+    <li>seeking_understanding->ищет развития</li>
+    <li>seeking_understanding->преследует цель достичь понимания</li>
+    <li>seeking_understanding->рвётся к знаниям</li>
+    <li>seeking_understanding->стремится к развитию</li>
+    <li>seeking_understanding->желает приобрести опыт</li>
+    <li>seeking_understanding->пытается разобраться</li>
+    <li>seeking_understanding->добивается познания</li>
+    <li>detail->. [in_the_precis] основное внимание уделяется более сложным аспектам рассматриваемого предмета</li>
+    <li>detail->. [in_the_precis] раскрывается вся сложность рассматриваемого предмета</li>
+    <li>detail->. [in_the_precis] [skillBookAuthor] пишет, что работал[author_ending] над этим изданием во времена актуальных разработок в рассматриваемой сфере</li>
+    <li>detail->. Надпись на [note_location] гласит: «Истинно интересующиеся темой [subject_gen] не в праве проходить мимо [thisTextbookSynonym_gen]»</li>
+    <li>detail->. Страницы шаг за шагом знакомят любопытствующего читателя с рассматриваемым предметом</li>
+    <li>detail(quality&lt;4)->, правда, в своём изложении [skillBookAuthor] перескакивает с темы на тему</li>
+    <li>detail(quality>3)->. Страницы заключают в себе всеобъемлющее изложение рассматриваемого предмета</li>
+    <li>detail->. [in_the_precis] [skillBookAuthor] заверяет читателя в подлинности [thisTextbookSynonym_gen] на фоне существования поддельных копий</li>
+    <li>detail(quality&lt;4)->, хотя, возможно, попытка донести свои идеи посредством воображаемого диалога была ошибкой</li>
+    <li>detail->. Авторская риторика [in_the_precis] не отвлекает от ключевых идей</li>
+    <li>in_the_precis(uses=1)->в предисловии</li>
+    <li>in_the_precis(uses=1)->во вводной части</li>
+    <li>in_the_precis(uses=1)->в аннотации</li>
+    <li>in_the_precis(uses=1)->в кратком обзоре</li>
+    <li>in_the_precis(uses=1)->во введении</li>
+    <li>skillBookAuthor(uses=1,priority=2)->[ANYPAWN_nameFull]</li>
+    <li>skillBookAuthor->[ANYPAWN_label]</li>
+    <li>author_ending(ANYPAWN_gender==Male)-></li>
+    <li>author_ending(ANYPAWN_gender==Female)->а</li>
+    <li>author_ending2(ANYPAWN_gender==Male)-></li>
+    <li>author_ending2(ANYPAWN_gender==Female)->ла</li>
+    <li>note_location(uses=1)->передней обложке</li>
+    <li>note_location(uses=1)->задней обложке</li>
+    <li>note_location(uses=1)->форзаце</li>
+    <li>note_location(uses=1)->нахзаце</li>
+    <li>note_location(uses=1)->первой странице</li>
+    <li>note_location(uses=1)->последней странице</li>
+    <li>note_location(uses=1)->полях</li>
+    <li>note_location(uses=1)->титульном листе</li>
+    <li>note_location(uses=1)->авантитуле</li>
+    <li>note_location(uses=1)->листе с именным указателем</li>
+    <li>note_location(uses=1)->листе с биографией автора</li>
+    <li>note_location(uses=1)->товарной этикетке</li>
+    <li>thisTextbookSynonym_gen->этого [textbook_synonym_masc]</li>
+    <li>thisTextbookSynonym_gen->этой [textbook_synonym_fem]</li>
+    <li>textbook_synonym_masc(uses=1,p=3)->труда</li>
+    <li>textbook_synonym_masc(uses=1)->трактата</li>
+    <li>textbook_synonym_fem(uses=1,p=3)->работы</li>
+    <li>textbook_synonym_fem(uses=1)->монографии</li>
+    <li>textbook_synonym_fem(priority=-1)->книги</li>
+    <li>anecdote->Маловероятно, что [skillBookAuthor] дожил[author_ending] до момента публикации [thisTextbookSynonym_gen], учитывая разницу между датами [ANYPAWN_possessive] рождения и этого события</li>
+    <li>anecdote->На [note_location] кто-то написал язвительную рецензию на эту книгу</li>
+    <li>anecdote->[noteTellsThat] эта книга прошла через систему общественных библиотек на [UrbWorld_pre]</li>
+    <li>anecdote->Согласно информации [in_the_precis], [skillBookAuthor] был[author_ending] специалистом многих дисциплин</li>
+    <li>anecdote->[noteTellsThat] [skillBookAuthor] до сих пор является объектом обсуждения среди жителей [worldname_gen] благодаря [ANYPAWN_possessive] любви к теме [subject_gen]</li>
+    <li>anecdote->[noteTellsThat] [skillBookAuthor] умер[author_ending2] в результате нелепого происшествия вскоре после того, как опубликовал[author_ending] первый тираж [thisTextbookSynonym_gen]</li>
+    <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] преподавал[author_ending] в академии [CoreWorld_gen]. [ANYPAWN_possessive] лекции легли в основу [thisTextbookSynonym_gen]</li>
+    <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] был[author_ending] широко [author_renowned] глубокими познаниями [in_the_field] [subject_gen], и потому люди часто подходили к н[ANYPAWN_objective] на улице с вопросами</li>
+    <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] обеднел[author_ending] и продал[author_ending] права на эту книжную серию за очень небольшую сумму</li>
+    <li>anecdote->[noteTellsThat] [skillBookAuthor] от рождения был[author_ending] слеп[author_ending], поэтому так и не увидел[author_ending] своей вышедшей в свет [textbook_synonym_fem]</li>
+    <li>anecdote->[noteTellsThat] [skillBookAuthor] в своём черновом варианте [thisTextbookSynonym_gen] включил[author_ending] отступление на пятьдесят страниц. Во втором издании оно было вырезано </li>
+    <li>anecdote->[noteTellsThat] [skillBookAuthor] имел[author_ending] настолько ужасную репутацию, что опубликовал[author_ending] небольшой тираж [thisTextbookSynonym_gen] под псевдонимом</li>
+    <li>anecdote->[noteTellsThat] в детстве [skillBookAuthor] был[author_ending] очень ленив[author_ending], и [ANYPAWN_possessive] родители потеряли всякую надежду. Популярностью [thisTextbookSynonym_gen] [ANYPAWN_pronoun] реабилитировал[author_ending] себя</li>
+    <li>anecdote->[noteTellsThat] именно во время своего четвёртого брака [skillBookAuthor] задумал[author_ending] написать книгу по теме [subject_gen]. Это привело к [ANYPAWN_possessive] четвёртому разводу</li>
+    <li>noteTellsThat->информация на [note_location] [tells], что</li>
+    <li>noteTellsThat->надпись на [note_location] [tells], что</li>
+    <li>noteTellsThat->в заметке на [note_location] [written], что</li>
+    <li>tells(uses=1)->сообщает</li>
+    <li>tells(uses=1)->говорит</li>
+    <li>tells(uses=1)->упоминает</li>
+    <li>tells(uses=1)->поясняет</li>
+    <li>tells(priority=-1)->указывает</li>
+    <li>written(p=4)->[tells]ся</li>
+    <li>written(uses=1)->сказано</li>
+    <li>written(uses=1)->указано</li>
+    <li>written(uses=1)->изложено</li>
+    <li>written(uses=1)->написано</li>
+    <li>author_renowned(ANYPAWN_gender==Male)->известен</li>
+    <li>author_renowned(ANYPAWN_gender==Female)->известна</li>
+    <li>production->[in_the_precis] [written], что этот экземпляр был вручную отпечатан в одной из типографий на [worldname_pre]</li>
+    <li>production->[in_the_precis] [written], что университет [worldname_gen] включил последнее издание [thisTextbookSynonym_gen] в список учебных пособий</li>
+    <li>production->[in_the_precis] [written], что, хотя эти записи [skillBookAuthor] делал[author_ending] для личного пользования, они получили широкое распространение</li>
+    <li>production->Наиболее полезные сведения [thisTextbookSynonym_gen] кроются среди биографических подробностей</li>
+    <li>production->В рукописном [note_no_ending]и [written], что типографии на [worldname_pre] прекратили работу после беспорядков на [worldname_pre], поэтому последние издания [thisTextbookSynonym_gen] считаются раритетом</li>
+    <li>production->Рукописное [note_no_ending]е на [note_location] [tells], что большинство экземпляров [thisTextbookSynonym_gen] были утеряны во время инцидента на [worldname_pre]</li>
+    <li>production->[in_the_precis] [written], что читатели, знакомые с методами архотеков, касающимися распространения информации, как правило, избегают этой серии книг — но не объясняется почему</li>
+    <li>production->[note_no_ending]е на [note_location] [tells], что ярые адепты изложенных на этих страницах идей потратили целое состояние на печать копий [thisTextbookSynonym_gen], а затем и на широкое распространение за пределами [worldname_gen]</li>
+    <li>production->[note_no_ending]е на [note_location] [tells], что первые экземпляры [thisTextbookSynonym_gen] [skillBookAuthor] написал[author_ending] от руки</li>
+    <li>production->Герцогиня [worldname_gen] спонсировала выпуск [thisTextbookSynonym_gen] с условием дальнейшего свободного распространения</li>
+    <li>production->В примечании [written], что первый тираж [thisTextbookSynonym_gen] был выпущен на деньги, собранные по подписке букинистов на [CoreWorld_pre]</li>
+    <li>production->В конце [thisTextbookSynonym_gen] издатель рекламирует более крупную серию, в которой рассматриваются все темы, необходимые для выживания на окраинных мирах</li>
+    <li>production->Учитывая нелепые грамматические ошибки, следует заметить, что издателям стоило бы решительнее выполнять свои редакторские обязанности</li>
+    <li>note_no_ending->замечани</li>
+    <li>note_no_ending->послеслови</li>
+    <li>note_no_ending->дополнени</li>
+    <li>note_no_ending->заключени</li>
+    <li>note_no_ending->примечани</li>
+    <li>note_no_ending->пояснени</li>
+    <li>quality_statement(quality>4)->[exterior_excellent] [page_excellent]</li>
+    <li>quality_statement(quality&lt;5,quality>1)->[exterior_decent] [page_decent]</li>
+    <li>quality_statement(quality&lt;2)->[exterior_awful] [page_awful]</li>
+    <li>exterior_excellent->Переплёт книги ладно скроен, а</li>
+    <li>exterior_excellent->Обложка этого шедевра печатного искусства лоснится, а</li>
+    <li>exterior_excellent->Кожаная обложка на ощупь шероховата, но</li>
+    <li>exterior_excellent->Хотя обложка очень простая,</li>
+    <li>page_excellent->страницы в отличном состоянии, будто к ним никто не притрагивался</li>
+    <li>page_excellent->страницы в превосходном состоянии</li>
+    <li>page_excellent->страницы будто только вышли из-под пресса</li>
+    <li>page_excellent->страницы аккуратные и красочные</li>
+    <li>page_excellent->страницы сохранили свой первозданный вид</li>
+    <li>exterior_decent->Пособие знавало лучшие времена, но</li>
+    <li>exterior_decent->Несмотря на подержанность этого школьного пособия,</li>
+    <li>exterior_decent->Книга прошла через многие руки, но</li>
+    <li>page_decent->страницы всё ещё в приличном состоянии</li>
+    <li>page_decent->страницы почти как новые, пусть и немного помяты</li>
+    <li>page_decent->текст на страницах прекрасно читается</li>
+    <li>page_decent->страницы, не считая некоторых помятостей, в отличном состоянии</li>
+    <li>exterior_awful->Обложка книги кажется привлекательной, но</li>
+    <li>exterior_awful->Переплёт книги был кем-то разодран, а</li>
+    <li>exterior_awful->Обложка пропитана сильно пахнущей жидкостью, а</li>
+    <li>exterior_awful->На первый взгляд книга неплоха, однако</li>
+    <li>page_awful->страницы, похоже, вот-вот рассыпятся</li>
+    <li>page_awful->страницы сильно повреждены</li>
+    <li>page_awful->страницы испятнаны каким-то тёмным веществом</li>
+    <li>page_awful->текст на страницах едва ли разборчив</li>
+    <li>page_awful->страницы разрисованы детскими каракулями</li>
+    <!-- Названия миров вынесены в отдельные файлы со ссылкой на них в Description_SkillBook.rulePack.rulesFiles -->
+    <li>worldname_gen->[GlitterWorld_gen]</li>
+    <li>worldname_gen->[UrbWorld_gen]</li>
+    <li>worldname_gen->[DeadWorld_gen]</li>
+    <li>worldname_gen->[ShellWorld_gen]</li>
+    <li>worldname_gen->[RuinWorld_gen]</li>
+    <li>worldname_gen->[MedievalWorld_gen]</li>
+    <li>worldname_gen->[SteamWorld_gen]</li>
+    <li>worldname_gen->[MidWorld_gen]</li>
+    <li>worldname_gen->[RimWorld_gen]</li>
+    <li>worldname_gen->[CoreWorld_gen]</li>
+    <li>worldname_gen->[ToxicWorld_gen]</li>
+    <li>worldname_gen->[GlassWorld_gen]</li>
+    <li>worldname_gen->[TranscendentWorld_gen]</li>
+    <li>worldname_gen->[IndWorld_gen]</li>
+    <li>worldname_gen->[PrisonWorld_gen]</li>
+    <li>worldname_gen->[FeudalWorld_gen]</li>
+    <li>worldname_gen->[TrashWorld_gen]</li>
+    <li>worldname_gen->[IceWorld_gen]</li>
+    <li>worldname_gen->[DinoWorld_gen]</li>
+    <li>worldname_gen->[WarWorld_gen]</li>
+    <li>worldname_gen->[OceanicWorld_gen]</li>
+    <li>worldname_gen->[MineWorld_gen]</li>
+    <li>worldname_gen->[AnimalWorld_gen]</li>
+    <li>worldname_gen->[Asteroid_gen]</li>
+    <li>worldname_pre(uses=1)->[GlitterWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[UrbWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[DeadWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[ShellWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[RuinWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[MedievalWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[SteamWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[MidWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[RimWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[CoreWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[ToxicWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[GlassWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[TranscendentWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[IndWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[PrisonWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[FeudalWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[TrashWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[IceWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[DinoWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[WarWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[OceanicWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[MineWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[AnimalWorld_pre]</li>
+    <li>worldname_pre(uses=1)->[Asteroid_pre]</li>
+  </Description_SkillBook.rulePack.rulesStrings>
+  
 </LanguageData>
