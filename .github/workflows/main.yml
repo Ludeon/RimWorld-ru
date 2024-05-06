@@ -1,14 +1,7 @@
 on:
   workflow_dispatch:
-  push:
-    branches:
-    - main
-  pull_request:
-    branches:
-    - main
 
 jobs:
-
   check-pawn-gender-macro:
     runs-on: ubuntu-latest
     env:
