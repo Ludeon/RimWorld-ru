@@ -19,6 +19,6 @@ jobs:
             exit 0
           else
             echo "Found same values in PAWN_gender macro"
-            grep -r -i -o --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : \1а}" ./
+            grep -r -i -n --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : \1а}" ./
             exit 1
           fi
