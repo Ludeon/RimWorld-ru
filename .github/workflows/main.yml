@@ -1,7 +1,24 @@
+name: main-tests
 on:
   workflow_dispatch:
 
 jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Say Hello
+        run: echo "Hello world!"
+      -
+        name: Do stuff
+        run: |
+          echo "Step 1..."
+          echo "Step 2..."
+          echo "Step 3..."
+      -
+        name: Say Goodbye
+        run: echo "Goodbye!"
+
   check-pawn-gender-macro:
     runs-on: ubuntu-latest
     env:
@@ -13,4 +30,3 @@ jobs:
       - name: Find bad lines
         run: |
           grep -r -i -o --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : (\1)}" ./ | wc -l
-  
