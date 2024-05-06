@@ -13,12 +13,12 @@ jobs:
 
       - name: Find bad lines
         run: |
-          if [ $(grep -r -i -o --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : (\1)а}" ./ | wc -l) == 0 ];
+          if [ $(grep -r -i -o --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : \1а}" ./ | wc -l) == 0 ];
           then
             echo "No same values in the macro"
             exit 0
           else
             echo "Found same values in PAWN_gender macro"
-            grep -r -i -o --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : (\1)}" ./
+            grep -r -i -o --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : \1а}" ./
             exit 1
           fi
