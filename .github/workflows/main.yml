@@ -1,0 +1,22 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+
+jobs:
+
+  check-pawn-gender-macro:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.DOCUBOT_READORG_REPO_WORKFLOW_SCOPES }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Find bad lines
+        run: grep -r -i -o --include=\*.xml "\\{PAWN_gender \\? (.[^:]*?) : (\\1)\\}" ./ | wc -l
+  
