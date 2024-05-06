@@ -3,23 +3,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  say-hello:
-    runs-on: ubuntu-latest
-    steps:
-      -
-        name: Say Hello
-        run: echo "Hello world!"
-      -
-        name: Do stuff
-        run: |
-          echo "Step 1..."
-          echo "Step 2..."
-          echo "Step 3..."
-      -
-        name: Say Goodbye
-        run: echo "Goodbye!"
-
-  check-pawn-gender-macro:
+  check-pawn-gender-macro-same-value:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.DOCUBOT_READORG_REPO_WORKFLOW_SCOPES }}
@@ -29,7 +13,7 @@ jobs:
 
       - name: Find bad lines
         run: |
-          if [ $(grep -r -i -o --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : (\1)}" ./ | wc -l) == 0 ];
+          if [ $(grep -r -i -o --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : (\1)а}" ./ | wc -l) == 0 ];
           then
             echo "No same values in the macro"
             exit 0
