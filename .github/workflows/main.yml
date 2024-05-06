@@ -1,15 +1,20 @@
 name: main-tests
 on:
   workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Define branch name'     
+        required: true
+        default: 'master'
 
 jobs:
   check-pawn-gender-macro-same-value:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.DOCUBOT_READORG_REPO_WORKFLOW_SCOPES }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
 
       - name: Find bad lines
         run: |
