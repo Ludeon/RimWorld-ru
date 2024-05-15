@@ -442,58 +442,6 @@
     <li>date_form->[date]</li>
   </Description_Novel.rulePack.rulesStrings>
   
-  <Description_SkillBook.rulePack.rulesFiles>
-    <li>AnimalWorld_gen->Names/Worlds/Genitive/AnimalWorld</li>
-    <li>Asteroid_gen->Names/Worlds/Genitive/Asteroid</li>
-    <li>CoreWorld_gen->Names/Worlds/Genitive/CoreWorld</li>
-    <li>DeadWorld_gen->Names/Worlds/Genitive/DeadWorld</li>
-    <li>DeathWorld_gen->Names/Worlds/Genitive/DeathWorld</li>
-    <li>DinoWorld_gen->Names/Worlds/Genitive/DinoWorld</li>
-    <li>FeudalWorld_gen->Names/Worlds/Genitive/FeudalWorld</li>
-    <li>GlassWorld_gen->Names/Worlds/Genitive/GlassWorld</li>
-    <li>GlitterWorld_gen->Names/Worlds/Genitive/GlitterWorld</li>
-    <li>IceWorld_gen->Names/Worlds/Genitive/IceWorld</li>
-    <li>IndWorld_gen->Names/Worlds/Genitive/IndWorld</li>
-    <li>MedievalWorld_gen->Names/Worlds/Genitive/MedievalWorld</li>
-    <li>MidWorld_gen->Names/Worlds/Genitive/MidWorld</li>
-    <li>MineWorld_gen->Names/Worlds/Genitive/MineWorld</li>
-    <li>OceanicWorld_gen->Names/Worlds/Genitive/OceanicWorld</li>
-    <li>PrisonWorld_gen->Names/Worlds/Genitive/PrisonWorld</li>
-    <li>RimWorld_gen->Names/Worlds/Genitive/RimWorld</li>
-    <li>RuinWorld_gen->Names/Worlds/Genitive/RuinWorld</li>
-    <li>ShellWorld_gen->Names/Worlds/Genitive/ShellWorld</li>
-    <li>SteamWorld_gen->Names/Worlds/Genitive/SteamWorld</li>
-    <li>ToxicWorld_gen->Names/Worlds/Genitive/ToxicWorld</li>
-    <li>TranscendentWorld_gen->Names/Worlds/Genitive/TranscendentWorld</li>
-    <li>TrashWorld_gen->Names/Worlds/Genitive/TrashWorld</li>
-    <li>UrbWorld_gen->Names/Worlds/Genitive/UrbWorld</li>
-    <li>WarWorld_gen->Names/Worlds/Genitive/WarWorld</li>
-    <li>AnimalWorld_pre->Names/Worlds/Prepositional/AnimalWorld</li>
-    <li>Asteroid_pre->Names/Worlds/Prepositional/Asteroid</li>
-    <li>CoreWorld_pre->Names/Worlds/Prepositional/CoreWorld</li>
-    <li>DeadWorld_pre->Names/Worlds/Prepositional/DeadWorld</li>
-    <li>DeathWorld_pre->Names/Worlds/Prepositional/DeathWorld</li>
-    <li>DinoWorld_pre->Names/Worlds/Prepositional/DinoWorld</li>
-    <li>FeudalWorld_pre->Names/Worlds/Prepositional/FeudalWorld</li>
-    <li>GlassWorld_pre->Names/Worlds/Prepositional/GlassWorld</li>
-    <li>GlitterWorld_pre->Names/Worlds/Prepositional/GlitterWorld</li>
-    <li>IceWorld_pre->Names/Worlds/Prepositional/IceWorld</li>
-    <li>IndWorld_pre->Names/Worlds/Prepositional/IndWorld</li>
-    <li>MedievalWorld_pre->Names/Worlds/Prepositional/MedievalWorld</li>
-    <li>MidWorld_pre->Names/Worlds/Prepositional/MidWorld</li>
-    <li>MineWorld_pre->Names/Worlds/Prepositional/MineWorld</li>
-    <li>OceanicWorld_pre->Names/Worlds/Prepositional/OceanicWorld</li>
-    <li>PrisonWorld_pre->Names/Worlds/Prepositional/PrisonWorld</li>
-    <li>RimWorld_pre->Names/Worlds/Prepositional/RimWorld</li>
-    <li>RuinWorld_pre->Names/Worlds/Prepositional/RuinWorld</li>
-    <li>ShellWorld_pre->Names/Worlds/Prepositional/ShellWorld</li>
-    <li>SteamWorld_pre->Names/Worlds/Prepositional/SteamWorld</li>
-    <li>ToxicWorld_pre->Names/Worlds/Prepositional/ToxicWorld</li>
-    <li>TranscendentWorld_pre->Names/Worlds/Prepositional/TranscendentWorld</li>
-    <li>TrashWorld_pre->Names/Worlds/Prepositional/TrashWorld</li>
-    <li>UrbWorld_pre->Names/Worlds/Prepositional/UrbWorld</li>
-    <li>WarWorld_pre->Names/Worlds/Prepositional/WarWorld</li>
-  </Description_SkillBook.rulePack.rulesFiles>
   <!-- EN:
     <li>subject->[subject_primary]</li>
     <li>desc->[discussion].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
@@ -869,11 +817,11 @@
     <li>detail->. Авторская риторика [in_the_precis] не отвлекает от ключевых идей</li>
     <li>anecdote->Маловероятно, что [skillBookAuthor] [author_lived] до момента публикации [thisTextbookSynonym_gen], учитывая разницу между датами [ANYPAWN_possessive] рождения и этого события</li>
     <li>anecdote->На [note_location] кто-то написал язвительную рецензию на эту книгу</li>
-    <li>anecdote->[noteTellsThat] эта книга прошла через систему общественных библиотек на [UrbWorld_pre]</li>
+    <li>anecdote->[noteTellsThat] эта книга прошла через систему общественных библиотек на [urbworld_pre]</li>
     <li>anecdote->Согласно информации [in_the_precis], [skillBookAuthor] [author_was] специалистом многих дисциплин</li>
     <li>anecdote->[noteTellsThat] [skillBookAuthor] до сих пор является объектом обсуждения среди жителей [worldname_gen] благодаря [ANYPAWN_possessive] любви к теме [subject_gen]</li>
     <li>anecdote->[noteTellsThat] [skillBookAuthor] [author_died] в результате нелепого происшествия вскоре после того, как [author_published] первый тираж [thisTextbookSynonym_gen]</li>
-    <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] [author_taught] в академии [CoreWorld_gen]. [ANYPAWN_possessive] лекции легли в основу [thisTextbookSynonym_gen]</li>
+    <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] [author_taught] в академии [coreworld_gen]. [ANYPAWN_possessive] лекции легли в основу [thisTextbookSynonym_gen]</li>
     <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] [author_was] широко [author_renowned] глубокими познаниями [in_the_field] [subject_gen], и потому люди часто подходили к н[ANYPAWN_objective] на улице с вопросами</li>
     <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] [author_impoverished] и [author_sold] права на эту книжную серию за очень небольшую сумму</li>
     <li>anecdote->[noteTellsThat] [skillBookAuthor] от рождения [author_was] [author_blind], поэтому так и не [author_saw] своей вышедшей в свет [textbook_synonym_fem]</li>
@@ -891,7 +839,7 @@
     <li>production->[note_no_ending]е на [note_location] [tells], что ярые адепты изложенных на этих страницах идей потратили целое состояние на печать копий [thisTextbookSynonym_gen], а затем и на широкое распространение за пределами [worldname_gen]</li>
     <li>production->[note_no_ending]е на [note_location] [tells], что первые экземпляры [thisTextbookSynonym_gen] [skillBookAuthor] [author_wrote] от руки</li>
     <li>production->Герцогиня [worldname_gen] спонсировала выпуск [thisTextbookSynonym_gen] с условием дальнейшего свободного распространения</li>
-    <li>production->В примечании [written], что первый тираж [thisTextbookSynonym_gen] был выпущен на деньги, собранные по подписке букинистов на [CoreWorld_pre]</li>
+    <li>production->В примечании [written], что первый тираж [thisTextbookSynonym_gen] был выпущен на деньги, собранные по подписке букинистов на [coreworld_pre]</li>
     <li>production->В конце [thisTextbookSynonym_gen] издатель рекламирует более крупную серию, в которой рассматриваются все темы, необходимые для выживания на окраинных мирах</li>
     <li>production->Учитывая нелепые грамматические ошибки, следует заметить, что издателям стоило бы решительнее выполнять свои редакторские обязанности</li>
     <li>quality_statement(quality>4)->[exterior_excellent] [page_excellent]</li>
@@ -1069,55 +1017,404 @@
     <li>page_awful->страницы испятнаны каким-то тёмным веществом</li>
     <li>page_awful->текст на страницах едва ли разборчив</li>
     <li>page_awful->страницы разрисованы детскими каракулями</li>
-    <!-- Названия миров вынесены в отдельные файлы со ссылкой на них в Description_SkillBook.rulePack.rulesFiles -->
-    <li>worldname_gen->[GlitterWorld_gen]</li>
-    <li>worldname_gen->[UrbWorld_gen]</li>
-    <li>worldname_gen->[DeadWorld_gen]</li>
-    <li>worldname_gen->[ShellWorld_gen]</li>
-    <li>worldname_gen->[RuinWorld_gen]</li>
-    <li>worldname_gen->[MedievalWorld_gen]</li>
-    <li>worldname_gen->[SteamWorld_gen]</li>
-    <li>worldname_gen->[MidWorld_gen]</li>
-    <li>worldname_gen->[RimWorld_gen]</li>
-    <li>worldname_gen->[CoreWorld_gen]</li>
-    <li>worldname_gen->[ToxicWorld_gen]</li>
-    <li>worldname_gen->[GlassWorld_gen]</li>
-    <li>worldname_gen->[TranscendentWorld_gen]</li>
-    <li>worldname_gen->[IndWorld_gen]</li>
-    <li>worldname_gen->[PrisonWorld_gen]</li>
-    <li>worldname_gen->[FeudalWorld_gen]</li>
-    <li>worldname_gen->[TrashWorld_gen]</li>
-    <li>worldname_gen->[IceWorld_gen]</li>
-    <li>worldname_gen->[DinoWorld_gen]</li>
-    <li>worldname_gen->[WarWorld_gen]</li>
-    <li>worldname_gen->[OceanicWorld_gen]</li>
-    <li>worldname_gen->[MineWorld_gen]</li>
-    <li>worldname_gen->[AnimalWorld_gen]</li>
-    <li>worldname_gen->[Asteroid_gen]</li>
-    <li>worldname_pre(uses=1)->[GlitterWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[UrbWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[DeadWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[ShellWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[RuinWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[MedievalWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[SteamWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[MidWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[RimWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[CoreWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[ToxicWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[GlassWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[TranscendentWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[IndWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[PrisonWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[FeudalWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[TrashWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[IceWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[DinoWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[WarWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[OceanicWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[MineWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[AnimalWorld_pre]</li>
-    <li>worldname_pre(uses=1)->[Asteroid_pre]</li>
+    <li>worldname_gen->[glitterworld_gen]</li>
+    <li>worldname_gen->[urbworld_gen]</li>
+    <li>worldname_gen->[deadworld_gen]</li>
+    <li>worldname_gen->[shellworld_gen]</li>
+    <li>worldname_gen->[ruinworld_gen]</li>
+    <li>worldname_gen->[medievalworld_gen]</li>
+    <li>worldname_gen->[steamworld_gen]</li>
+    <li>worldname_gen->[midworld_gen]</li>
+    <li>worldname_gen->[rimworld_gen]</li>
+    <li>worldname_gen->[coreworld_gen]</li>
+    <li>worldname_gen->[toxicworld_gen]</li>
+    <li>worldname_gen->[glassworld_gen]</li>
+    <li>worldname_gen->[transcendentworld_gen]</li>
+    <li>worldname_gen->[indworld_gen]</li>
+    <li>worldname_gen->[prisonworld_gen]</li>
+    <li>worldname_gen->[feudalworld_gen]</li>
+    <li>worldname_gen->[trashworld_gen]</li>
+    <li>worldname_gen->[iceworld_gen]</li>
+    <li>worldname_gen->[dinoworld_gen]</li>
+    <li>worldname_gen->[warworld_gen]</li>
+    <li>worldname_gen->[oceanicworld_gen]</li>
+    <li>worldname_gen->[mineworld_gen]</li>
+    <li>worldname_gen->[animalworld_gen]</li>
+    <li>worldname_gen->[asteroid_gen]</li>
+    <li>worldname_pre(uses=1)->[glitterworld_pre]</li>
+    <li>worldname_pre(uses=1)->[urbworld_pre]</li>
+    <li>worldname_pre(uses=1)->[deadworld_pre]</li>
+    <li>worldname_pre(uses=1)->[shellworld_pre]</li>
+    <li>worldname_pre(uses=1)->[ruinworld_pre]</li>
+    <li>worldname_pre(uses=1)->[medievalworld_pre]</li>
+    <li>worldname_pre(uses=1)->[steamworld_pre]</li>
+    <li>worldname_pre(uses=1)->[midworld_pre]</li>
+    <li>worldname_pre(uses=1)->[rimworld_pre]</li>
+    <li>worldname_pre(uses=1)->[coreworld_pre]</li>
+    <li>worldname_pre(uses=1)->[toxicworld_pre]</li>
+    <li>worldname_pre(uses=1)->[glassworld_pre]</li>
+    <li>worldname_pre(uses=1)->[transcendentworld_pre]</li>
+    <li>worldname_pre(uses=1)->[indworld_pre]</li>
+    <li>worldname_pre(uses=1)->[prisonworld_pre]</li>
+    <li>worldname_pre(uses=1)->[feudalworld_pre]</li>
+    <li>worldname_pre(uses=1)->[trashworld_pre]</li>
+    <li>worldname_pre(uses=1)->[iceworld_pre]</li>
+    <li>worldname_pre(uses=1)->[dinoworld_pre]</li>
+    <li>worldname_pre(uses=1)->[warworld_pre]</li>
+    <li>worldname_pre(uses=1)->[oceanicworld_pre]</li>
+    <li>worldname_pre(uses=1)->[mineworld_pre]</li>
+    <li>worldname_pre(uses=1)->[animalworld_pre]</li>
+    <li>worldname_pre(uses=1)->[asteroid_pre]</li>
+    <li>animalworld_gen->Сорна</li>
+    <li>animalworld_gen->Райдела</li>
+    <li>animalworld_gen->Зоутеры</li>
+    <li>animalworld_gen->Тилацина</li>
+    <li>animalworld_gen->Цзяя</li>
+    <li>animalworld_gen->Мира Стеллера</li>
+    <li>animalworld_gen->Ауктона</li>
+    <li>animalworld_pre->Сорне</li>
+    <li>animalworld_pre->Райделе</li>
+    <li>animalworld_pre->Зоутере</li>
+    <li>animalworld_pre->Тилацине</li>
+    <li>animalworld_pre->Цзяе</li>
+    <li>animalworld_pre->Мире Стеллера</li>
+    <li>animalworld_pre->Ауктоне</li>
+    <li>asteroid_gen->Ивамуры</li>
+    <li>asteroid_gen->Атуры</li>
+    <li>asteroid_gen->Виддершинса</li>
+    <li>asteroid_gen->Раноми</li>
+    <li>asteroid_gen->Аэша-265</li>
+    <li>asteroid_gen->Такслоса</li>
+    <li>asteroid_gen->Сигмы Эрины</li>
+    <li>asteroid_pre->Ивамуре</li>
+    <li>asteroid_pre->Атуре</li>
+    <li>asteroid_pre->Виддершинсе</li>
+    <li>asteroid_pre->Раноми</li>
+    <li>asteroid_pre->Аэше-265</li>
+    <li>asteroid_pre->Такслосе</li>
+    <li>asteroid_pre->Сигме Эрины</li>
+    <li>coreworld_gen->Новаромы</li>
+    <li>coreworld_gen->Лутини</li>
+    <li>coreworld_gen->Зелгара</li>
+    <li>coreworld_gen->Новаромы</li>
+    <li>coreworld_gen->Корморы-Прайм</li>
+    <li>coreworld_gen->Глоссолии</li>
+    <li>coreworld_gen->Барбароса</li>
+    <li>coreworld_pre->Новароме</li>
+    <li>coreworld_pre->Лутини</li>
+    <li>coreworld_pre->Зелгаре</li>
+    <li>coreworld_pre->Новароме</li>
+    <li>coreworld_pre->Корморе-Прайм</li>
+    <li>coreworld_pre->Глоссолии</li>
+    <li>coreworld_pre->Барбаросе</li>
+    <li>deadworld_gen->Каллоса IX</li>
+    <li>deadworld_gen->Хаспии</li>
+    <li>deadworld_gen->Госта IV</li>
+    <li>deadworld_gen->Беримунда</li>
+    <li>deadworld_gen->Ардара</li>
+    <li>deadworld_gen->Кримхильды</li>
+    <li>deadworld_gen->Мелисанды</li>
+    <li>deadworld_pre->Каллосе IX</li>
+    <li>deadworld_pre->Хаспии</li>
+    <li>deadworld_pre->Госте IV</li>
+    <li>deadworld_pre->Беримунде</li>
+    <li>deadworld_pre->Ардаре</li>
+    <li>deadworld_pre->Кримхильде</li>
+    <li>deadworld_pre->Мелисанде</li>
+    <li>deathworld_gen->Кретикона</li>
+    <li>deathworld_gen->Зарты</li>
+    <li>deathworld_gen->Рэйта</li>
+    <li>deathworld_gen->Спектры</li>
+    <li>deathworld_gen->Иновахекса</li>
+    <li>deathworld_gen->Карфагена</li>
+    <li>deathworld_gen->Гримкора</li>
+    <li>deathworld_pre->Кретиконе</li>
+    <li>deathworld_pre->Зарте</li>
+    <li>deathworld_pre->Рэйте</li>
+    <li>deathworld_pre->Спектре</li>
+    <li>deathworld_pre->Иновахексе</li>
+    <li>deathworld_pre->Карфагене</li>
+    <li>deathworld_pre->Гримкоре</li>
+    <li>dinoworld_gen->Убаньена</li>
+    <li>dinoworld_gen->Зоутеры</li>
+    <li>dinoworld_gen->Эйнио</li>
+    <li>dinoworld_gen->Барионикса</li>
+    <li>dinoworld_gen->Н'кило</li>
+    <li>dinoworld_gen->Венатора</li>
+    <li>dinoworld_gen->Брача</li>
+    <li>dinoworld_pre->Убаньене</li>
+    <li>dinoworld_pre->Зоутере</li>
+    <li>dinoworld_pre->Эйнио</li>
+    <li>dinoworld_pre->Бариониксе</li>
+    <li>dinoworld_pre->Н'кило</li>
+    <li>dinoworld_pre->Венаторе</li>
+    <li>dinoworld_pre->Браче</li>
+    <li>feudalworld_gen->Арасены VI</li>
+    <li>feudalworld_gen->Нухада</li>
+    <li>feudalworld_gen->Филсона</li>
+    <li>feudalworld_gen->Фиета</li>
+    <li>feudalworld_gen->Блох-Региса</li>
+    <li>feudalworld_gen->Карлосферы</li>
+    <li>feudalworld_gen->Великой Дижу</li>
+    <li>feudalworld_pre->Арасене VI</li>
+    <li>feudalworld_pre->Нухаде</li>
+    <li>feudalworld_pre->Филсоне</li>
+    <li>feudalworld_pre->Фиете</li>
+    <li>feudalworld_pre->Блох-Регисе</li>
+    <li>feudalworld_pre->Карлосфере</li>
+    <li>feudalworld_pre->Великой Дижу</li>
+    <li>glassworld_gen->Цети V</li>
+    <li>glassworld_gen->Фив XIV</li>
+    <li>glassworld_gen->Наги</li>
+    <li>glassworld_gen->Мерва</li>
+    <li>glassworld_gen->Персея</li>
+    <li>glassworld_gen->Сихема</li>
+    <li>glassworld_gen->Елхазора</li>
+    <li>glassworld_pre->Цети V</li>
+    <li>glassworld_pre->Фивах XIV</li>
+    <li>glassworld_pre->Наге</li>
+    <li>glassworld_pre->Мерве</li>
+    <li>glassworld_pre->Персее</li>
+    <li>glassworld_pre->Сихеме</li>
+    <li>glassworld_pre->Елхазоре</li>
+    <li>glitterworld_gen->Калтаса IV</li>
+    <li>glitterworld_gen->Амен-Ти</li>
+    <li>glitterworld_gen->Софиамунды</li>
+    <li>glitterworld_gen->Рогии</li>
+    <li>glitterworld_gen->Утмайора</li>
+    <li>glitterworld_gen->Каспия</li>
+    <li>glitterworld_gen->Кенереллы</li>
+    <li>glitterworld_pre->Калтасе IV</li>
+    <li>glitterworld_pre->Амен-Ти</li>
+    <li>glitterworld_pre->Софиамунде</li>
+    <li>glitterworld_pre->Рогии</li>
+    <li>glitterworld_pre->Утмайоре</li>
+    <li>glitterworld_pre->Каспии</li>
+    <li>glitterworld_pre->Кенерелле</li>
+    <li>iceworld_gen->Иттака</li>
+    <li>iceworld_gen->Дедченко</li>
+    <li>iceworld_gen->Балторо</li>
+    <li>iceworld_gen->Фуртвейла</li>
+    <li>iceworld_gen->Йаквы</li>
+    <li>iceworld_gen->Кристенсена</li>
+    <li>iceworld_gen->Барнса</li>
+    <li>iceworld_pre->Иттаке</li>
+    <li>iceworld_pre->Дедченко</li>
+    <li>iceworld_pre->Балторо</li>
+    <li>iceworld_pre->Фуртвейле</li>
+    <li>iceworld_pre->Йакве</li>
+    <li>iceworld_pre->Кристенсене</li>
+    <li>iceworld_pre->Барнсе</li>
+    <li>indworld_gen->Ирифира</li>
+    <li>indworld_gen->Нового Китая</li>
+    <li>indworld_gen->Хаддерса</li>
+    <li>indworld_gen->Ивера</li>
+    <li>indworld_gen->Ачесты</li>
+    <li>indworld_gen->Удса</li>
+    <li>indworld_gen->Иладельфа</li>
+    <li>indworld_pre->Ирифире</li>
+    <li>indworld_pre->Новом Китае</li>
+    <li>indworld_pre->Хаддерсе</li>
+    <li>indworld_pre->Ивере</li>
+    <li>indworld_pre->Ачесте</li>
+    <li>indworld_pre->Удсе</li>
+    <li>indworld_pre->Иладельфе</li>
+    <li>medievalworld_gen->Челиса</li>
+    <li>medievalworld_gen->Винны</li>
+    <li>medievalworld_gen->Кассона</li>
+    <li>medievalworld_gen->Йорка</li>
+    <li>medievalworld_gen->Кочмара</li>
+    <li>medievalworld_gen->Алина</li>
+    <li>medievalworld_gen->Дуброгнаго</li>
+    <li>medievalworld_pre->Челисе</li>
+    <li>medievalworld_pre->Винне</li>
+    <li>medievalworld_pre->Кассоне</li>
+    <li>medievalworld_pre->Йорке</li>
+    <li>medievalworld_pre->Кочмаре</li>
+    <li>medievalworld_pre->Алине</li>
+    <li>medievalworld_pre->Дуброгнаго</li>
+    <li>midworld_gen->Халдерии</li>
+    <li>midworld_gen->Эльсина</li>
+    <li>midworld_gen->Хайхана</li>
+    <li>midworld_gen->Сеолура</li>
+    <li>midworld_gen->Панги</li>
+    <li>midworld_gen->Нью-Лондона CXI</li>
+    <li>midworld_gen->Сан-Деленды</li>
+    <li>midworld_pre->Халдерии</li>
+    <li>midworld_pre->Эльсине</li>
+    <li>midworld_pre->Хайхане</li>
+    <li>midworld_pre->Сеолуре</li>
+    <li>midworld_pre->Панге</li>
+    <li>midworld_pre->Нью-Лондоне CXI</li>
+    <li>midworld_pre->Сан-Деленде</li>
+    <li>mineworld_gen->Ксанида</li>
+    <li>mineworld_gen->Бингема</li>
+    <li>mineworld_gen->Саархи</li>
+    <li>mineworld_gen->Грасбега</li>
+    <li>mineworld_gen->Чуки</li>
+    <li>mineworld_gen->Олимпии</li>
+    <li>mineworld_gen->Орма</li>
+    <li>mineworld_pre->Ксаниде</li>
+    <li>mineworld_pre->Бингеме</li>
+    <li>mineworld_pre->Саархи</li>
+    <li>mineworld_pre->Грасбеге</li>
+    <li>mineworld_pre->Чуки</li>
+    <li>mineworld_pre->Олимпии</li>
+    <li>mineworld_pre->Орме</li>
+    <li>oceanicworld_gen->Вавии</li>
+    <li>oceanicworld_gen->Вадки</li>
+    <li>oceanicworld_gen->Гичена</li>
+    <li>oceanicworld_gen->Порт-Яма</li>
+    <li>oceanicworld_gen->Байи</li>
+    <li>oceanicworld_gen->Тониса</li>
+    <li>oceanicworld_gen->Мауи</li>
+    <li>oceanicworld_pre->Вавии</li>
+    <li>oceanicworld_pre->Вадке</li>
+    <li>oceanicworld_pre->Гичене</li>
+    <li>oceanicworld_pre->Порт-Яме</li>
+    <li>oceanicworld_pre->Байе</li>
+    <li>oceanicworld_pre->Тонисе</li>
+    <li>oceanicworld_pre->Мауи</li>
+    <li>prisonworld_gen->Иттака</li>
+    <li>prisonworld_gen->Альдгейта</li>
+    <li>prisonworld_gen->Боррена</li>
+    <li>prisonworld_gen->Хоало</li>
+    <li>prisonworld_gen->Касмины</li>
+    <li>prisonworld_gen->Порт-Бэзила</li>
+    <li>prisonworld_gen->Шато-д'Уэн</li>
+    <li>prisonworld_pre->Иттаке</li>
+    <li>prisonworld_pre->Альдгейте</li>
+    <li>prisonworld_pre->Боррене</li>
+    <li>prisonworld_pre->Хоало</li>
+    <li>prisonworld_pre->Касмине</li>
+    <li>prisonworld_pre->Порт-Бэзиле</li>
+    <li>prisonworld_pre->Шато-д'Уэн</li>
+    <li>rimworld_gen->Филсона</li>
+    <li>rimworld_gen->Ла-Гранда</li>
+    <li>rimworld_gen->Даллеса</li>
+    <li>rimworld_gen->Твиг-Фоллз</li>
+    <li>rimworld_gen->Старого Бойсе</li>
+    <li>rimworld_gen->Врат Дьявола</li>
+    <li>rimworld_gen->Ларамьера</li>
+    <li>rimworld_pre->Филсоне</li>
+    <li>rimworld_pre->Ла-Гранде</li>
+    <li>rimworld_pre->Даллесе</li>
+    <li>rimworld_pre->Твиг-Фоллз</li>
+    <li>rimworld_pre->Старом Бойсе</li>
+    <li>rimworld_pre->Вратах Дьявола</li>
+    <li>rimworld_pre->Ларамьере</li>
+    <li>ruinworld_gen->Земли</li>
+    <li>ruinworld_gen->Ильвабы</li>
+    <li>ruinworld_gen->Зенноа</li>
+    <li>ruinworld_gen->Пикчу</li>
+    <li>ruinworld_gen->Пердиды</li>
+    <li>ruinworld_gen->Гиссарлыка</li>
+    <li>ruinworld_gen->Гелики</li>
+    <li>ruinworld_pre->Земле</li>
+    <li>ruinworld_pre->Ильвабе</li>
+    <li>ruinworld_pre->Зенноа</li>
+    <li>ruinworld_pre->Пикчу</li>
+    <li>ruinworld_pre->Пердиде</li>
+    <li>ruinworld_pre->Гиссарлыке</li>
+    <li>ruinworld_pre->Гелике</li>
+    <li>shellworld_gen->Боккокаро</li>
+    <li>shellworld_gen->Демрии</li>
+    <li>shellworld_gen->Трофика</li>
+    <li>shellworld_gen->Матрио</li>
+    <li>shellworld_gen->Самена</li>
+    <li>shellworld_gen->Ксинтии</li>
+    <li>shellworld_gen->Фербина</li>
+    <li>shellworld_pre->Боккокаро</li>
+    <li>shellworld_pre->Демрии</li>
+    <li>shellworld_pre->Трофике</li>
+    <li>shellworld_pre->Матрио</li>
+    <li>shellworld_pre->Самене</li>
+    <li>shellworld_pre->Ксинтии</li>
+    <li>shellworld_pre->Фербине</li>
+    <li>steamworld_gen->Корлиса</li>
+    <li>steamworld_gen->Борасса</li>
+    <li>steamworld_gen->Севери II</li>
+    <li>steamworld_gen->Герона</li>
+    <li>steamworld_gen->Малмсбури</li>
+    <li>steamworld_gen->Архитоннера</li>
+    <li>steamworld_gen->Анкера</li>
+    <li>steamworld_pre->Корлисе</li>
+    <li>steamworld_pre->Борассе</li>
+    <li>steamworld_pre->Севери II</li>
+    <li>steamworld_pre->Героне</li>
+    <li>steamworld_pre->Малмсбури</li>
+    <li>steamworld_pre->Архитоннере</li>
+    <li>steamworld_pre->Анкере</li>
+    <li>toxicworld_gen->Сциллы</li>
+    <li>toxicworld_gen->Мауро</li>
+    <li>toxicworld_gen->Цероспора</li>
+    <li>toxicworld_gen->Окси VI</li>
+    <li>toxicworld_gen->Сангвайна</li>
+    <li>toxicworld_gen->Солено</li>
+    <li>toxicworld_gen->Имбатуса</li>
+    <li>toxicworld_pre->Сцилле</li>
+    <li>toxicworld_pre->Мауро</li>
+    <li>toxicworld_pre->Цероспоре</li>
+    <li>toxicworld_pre->Окси VI</li>
+    <li>toxicworld_pre->Сангвайне</li>
+    <li>toxicworld_pre->Солено</li>
+    <li>toxicworld_pre->Имбатусе</li>
+    <li>transcendentworld_gen->Ксароха</li>
+    <li>transcendentworld_gen->Имманенса VI</li>
+    <li>transcendentworld_gen->Каббы</li>
+    <li>transcendentworld_gen->Эйнсофа</li>
+    <li>transcendentworld_gen->Митво</li>
+    <li>transcendentworld_gen->Самиди</li>
+    <li>transcendentworld_gen->Самсарра</li>
+    <li>transcendentworld_pre->Ксарохе</li>
+    <li>transcendentworld_pre->Имманенсе VI</li>
+    <li>transcendentworld_pre->Каббе</li>
+    <li>transcendentworld_pre->Эйнсофе</li>
+    <li>transcendentworld_pre->Митво</li>
+    <li>transcendentworld_pre->Самиди</li>
+    <li>transcendentworld_pre->Самсарре</li>
+    <li>trashworld_gen->Багуа-5</li>
+    <li>trashworld_gen->Пуобелла</li>
+    <li>trashworld_gen->Дени IX</li>
+    <li>trashworld_gen->Мсора</li>
+    <li>trashworld_gen->Хла'ама</li>
+    <li>trashworld_gen->Рипсика</li>
+    <li>trashworld_gen->Мистры</li>
+    <li>trashworld_pre->Багуа-5</li>
+    <li>trashworld_pre->Пуобелле</li>
+    <li>trashworld_pre->Дени IX</li>
+    <li>trashworld_pre->Мсоре</li>
+    <li>trashworld_pre->Хла'аме</li>
+    <li>trashworld_pre->Рипсике</li>
+    <li>trashworld_pre->Мистре</li>
+    <li>urbworld_gen->Эвтерпы</li>
+    <li>urbworld_gen->Авенны</li>
+    <li>urbworld_gen->Эссалона</li>
+    <li>urbworld_gen->Энике</li>
+    <li>urbworld_gen->Адосии</li>
+    <li>urbworld_gen->Н'тача</li>
+    <li>urbworld_gen->Барки</li>
+    <li>urbworld_pre->Эвтерпе</li>
+    <li>urbworld_pre->Авенне</li>
+    <li>urbworld_pre->Эссалоне</li>
+    <li>urbworld_pre->Энике</li>
+    <li>urbworld_pre->Адосии</li>
+    <li>urbworld_pre->Н'таче</li>
+    <li>urbworld_pre->Барке</li>
+    <li>warworld_gen->Кемии</li>
+    <li>warworld_gen->Вану</li>
+    <li>warworld_gen->Самния</li>
+    <li>warworld_gen->Кайруса</li>
+    <li>warworld_gen->Пуники</li>
+    <li>warworld_gen->Кимврии XII</li>
+    <li>warworld_gen->Баркитоса</li>
+    <li>warworld_pre->Кемии</li>
+    <li>warworld_pre->Вану</li>
+    <li>warworld_pre->Самнии</li>
+    <li>warworld_pre->Кайрусе</li>
+    <li>warworld_pre->Пунике</li>
+    <li>warworld_pre->Кимврии XII</li>
+    <li>warworld_pre->Баркитосе</li>
   </Description_SkillBook.rulePack.rulesStrings>
   
 </LanguageData>
