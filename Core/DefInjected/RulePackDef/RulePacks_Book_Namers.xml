@@ -539,11 +539,6 @@
     <li>randTheme->understanding</li>
   -->
   <Namer_TextBook.rulePack.rulesStrings>
-    <li>subject_gen->[subject_primary]</li>
-    <li>subj->{lookup: [subject_primary]; SkillDef_subject; 1}</li>
-    <li>subj2->{lookup: [subject_secondary]; SkillDef_subject; 1}</li>
-    <li>subj_gen->{lookup: [subject_primary]; SkillDef_subject; 2}</li>
-    <li>subj2_gen->{lookup: [subject_secondary]; SkillDef_subject; 2}</li>
     <li>title(p=4)->«[titleBasic]»</li>
     <li>title(length_subject_primary&lt;32)->«[basics] [subject_gen]»</li>
     <li>title(length_subject_primary&lt;24)->«[subj]. [textbookForStudents]»</li>
@@ -558,37 +553,16 @@
     <li>titleBasic->[subj] и [rand_noun]</li>
     <li>titleBasic(p=0.5)->[subj] или [rand_noun]</li>
     <li>titleBasic->[subj] [extra]</li>
-    <li>intro->в мире</li>
-    <li>intro->секреты</li>
-    <li>intro->загадки</li>
-    <li>intro->эволюция</li>
-    <li>intro->парадоксы</li>
-    <li>intro->философия</li>
-    <li>intro->эффективность</li>
-    <li>intro->квинтэссенция</li>
-    <li>rand_noun->хаос</li>
-    <li>rand_noun->жизнь</li>
-    <li>rand_noun->любовь</li>
-    <li>rand_noun->смерть</li>
-    <li>rand_noun->пираты</li>
-    <li>rand_noun->неудачи</li>
-    <li>rand_noun->невзгоды</li>
-    <li>rand_noun->сомнения</li>
-    <li>rand_noun->здоровье</li>
-    <li>rand_noun->бумалопы</li>
-    <li>rand_noun->развитие</li>
-    <li>rand_noun->смелость</li>
-    <li>rand_noun->мудрость</li>
-    <li>extra->для души</li>
-    <li>extra->в природе</li>
-    <li>extra->для жизни</li>
-    <li>extra->в разрезе</li>
-    <li>extra->наизнанку</li>
-    <li>extra->для выживания</li>
-    <li>extra->в средневековье</li>
-    <li>extra->под микроскопом</li>
-    <li>extra->на утопическом мире</li>
-    <li>extra->в сельской местности</li>
+    <li>titleTwoSubjects->[subj2] и [basics] [subject_gen]</li>
+    <li>titleTwoSubjects->[intro] [subj_gen] и [subj2_gen]</li>
+    <li>titleTwoSubjects->[subj], [subj2] и [rand_noun]</li>
+    <li>titleTwoSubjects->[subj], [subj2] или [rand_noun]</li>
+    <li>titleTwoSubjects->[subj] и [subj2] [extra]</li>
+    <li>subject_gen->[subject_primary]</li>
+    <li>subj->{lookup: [subject_primary]; SkillDef_subject; 1}</li>
+    <li>subj_gen->{lookup: [subject_primary]; SkillDef_subject; 2}</li>
+    <li>subj2->{lookup: [subject_secondary]; SkillDef_subject; 1}</li>
+    <li>subj2_gen->{lookup: [subject_secondary]; SkillDef_subject; 2}</li>
     <li>basics->азы</li>
     <li>basics->уроки</li>
     <li>basics->методы</li>
@@ -622,11 +596,19 @@
     <li>textbook->хрестоматия</li>
     <li>textbook->путеводитель</li>
     <li>textbook->энциклопедия</li>
-    <li>titleTwoSubjects->[subj2] и [basics] [subject_gen]</li>
-    <li>titleTwoSubjects->[intro] [subj_gen] и [subj2_gen]</li>
-    <li>titleTwoSubjects->[subj], [subj2] и [rand_noun]</li>
-    <li>titleTwoSubjects->[subj], [subj2] или [rand_noun]</li>
-    <li>titleTwoSubjects->[subj] и [subj2] [extra]</li>
+    <li>rand_noun->хаос</li>
+    <li>rand_noun->жизнь</li>
+    <li>rand_noun->любовь</li>
+    <li>rand_noun->смерть</li>
+    <li>rand_noun->пираты</li>
+    <li>rand_noun->неудачи</li>
+    <li>rand_noun->невзгоды</li>
+    <li>rand_noun->сомнения</li>
+    <li>rand_noun->здоровье</li>
+    <li>rand_noun->бумалопы</li>
+    <li>rand_noun->развитие</li>
+    <li>rand_noun->смелость</li>
+    <li>rand_noun->мудрость</li>
     <li>legacy(uses=1)->судьба</li>
     <li>legacy(uses=1)->история</li>
     <li>legacy(uses=1)->наследие</li>
@@ -643,6 +625,24 @@
     <li>legacy(uses=1)->рассуждения</li>
     <li>legacy(uses=1)->воспоминания</li>
     <li>legacy(uses=1)->жизненный путь</li>
+    <li>intro->в мире</li>
+    <li>intro->секреты</li>
+    <li>intro->загадки</li>
+    <li>intro->эволюция</li>
+    <li>intro->парадоксы</li>
+    <li>intro->философия</li>
+    <li>intro->эффективность</li>
+    <li>intro->квинтэссенция</li>
+    <li>extra->для души</li>
+    <li>extra->в природе</li>
+    <li>extra->для жизни</li>
+    <li>extra->в разрезе</li>
+    <li>extra->наизнанку</li>
+    <li>extra->для выживания</li>
+    <li>extra->в средневековье</li>
+    <li>extra->под микроскопом</li>
+    <li>extra->на утопическом мире</li>
+    <li>extra->в сельской местности</li>
   </Namer_TextBook.rulePack.rulesStrings>
   
 </LanguageData>
