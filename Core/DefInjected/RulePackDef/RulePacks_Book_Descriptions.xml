@@ -850,7 +850,6 @@
     <li>warworld->Barkitos</li>
   -->
   <Description_SkillBook.rulePack.rulesStrings>
-    <li>subject_gen(uses=2)->[subject_primary]</li>
     <li>desc->[discussion][detail].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
     <li>discussion->[thisTextbook] содержит [useful_information] по вопросам [subject_gen]</li>
     <li>discussion->[thisTextbook] подтверждает компетенцию автора [in_the_field] [subject_gen]</li>
@@ -858,6 +857,50 @@
     <li>discussion(p=0.5)->Этот стандартизированный [textbook_masc] посвящён вопросам [subject_gen]</li>
     <li>discussion(p=0.5)->Эта стандартизированная [textbook_fem] посвящена вопросам [subject_gen]</li>
     <li>discussion->[thisTextbook] представляет собой раннее издание сочинений автора [in_the_field] [subject_gen]</li>
+    <li>detail->. [in_the_precis] основное внимание уделяется более сложным аспектам рассматриваемого предмета</li>
+    <li>detail->. [in_the_precis] раскрывается вся сложность рассматриваемого предмета</li>
+    <li>detail->. [in_the_precis] [skillBookAuthor] пишет, что [author_worked] над этим изданием во времена актуальных разработок в рассматриваемой сфере</li>
+    <li>detail->. Надпись на [note_location] гласит: «Истинно интересующиеся темой [subject_gen] не в праве проходить мимо [thisTextbookSynonym_gen]»</li>
+    <li>detail->. Страницы шаг за шагом знакомят любопытствующего читателя с рассматриваемым предметом</li>
+    <li>detail(quality&lt;4)->, правда, в своём изложении [skillBookAuthor] перескакивает с темы на тему</li>
+    <li>detail(quality>3)->. Страницы заключают в себе всеобъемлющее изложение рассматриваемого предмета</li>
+    <li>detail->. [in_the_precis] [skillBookAuthor] заверяет читателя в подлинности [thisTextbookSynonym_gen] на фоне существования поддельных копий</li>
+    <li>detail(quality&lt;4)->, хотя, возможно, попытка донести свои идеи посредством воображаемого диалога была ошибкой</li>
+    <li>detail->. Авторская риторика [in_the_precis] не отвлекает от ключевых идей</li>
+    <li>anecdote->Маловероятно, что [skillBookAuthor] [author_lived] до момента публикации [thisTextbookSynonym_gen], учитывая разницу между датами [ANYPAWN_possessive] рождения и этого события</li>
+    <li>anecdote->На [note_location] кто-то написал язвительную рецензию на эту книгу</li>
+    <li>anecdote->[noteTellsThat] эта книга прошла через систему общественных библиотек на [UrbWorld_pre]</li>
+    <li>anecdote->Согласно информации [in_the_precis], [skillBookAuthor] [author_was] специалистом многих дисциплин</li>
+    <li>anecdote->[noteTellsThat] [skillBookAuthor] до сих пор является объектом обсуждения среди жителей [worldname_gen] благодаря [ANYPAWN_possessive] любви к теме [subject_gen]</li>
+    <li>anecdote->[noteTellsThat] [skillBookAuthor] [author_died] в результате нелепого происшествия вскоре после того, как [author_published] первый тираж [thisTextbookSynonym_gen]</li>
+    <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] [author_taught] в академии [CoreWorld_gen]. [ANYPAWN_possessive] лекции легли в основу [thisTextbookSynonym_gen]</li>
+    <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] [author_was] широко [author_renowned] глубокими познаниями [in_the_field] [subject_gen], и потому люди часто подходили к н[ANYPAWN_objective] на улице с вопросами</li>
+    <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] [author_impoverished] и [author_sold] права на эту книжную серию за очень небольшую сумму</li>
+    <li>anecdote->[noteTellsThat] [skillBookAuthor] от рождения [author_was] [author_blind], поэтому так и не [author_saw] своей вышедшей в свет [textbook_synonym_fem]</li>
+    <li>anecdote->[noteTellsThat] [skillBookAuthor] в своём черновом варианте [thisTextbookSynonym_gen] [author_included] отступление на пятьдесят страниц. Во втором издании оно было вырезано </li>
+    <li>anecdote->[noteTellsThat] [skillBookAuthor] [author_had] настолько ужасную репутацию, что [author_published] небольшой тираж [thisTextbookSynonym_gen] под псевдонимом</li>
+    <li>anecdote->[noteTellsThat] в детстве [skillBookAuthor] [author_was] очень [author_idle], и [ANYPAWN_possessive] родители потеряли всякую надежду. Популярностью [thisTextbookSynonym_gen] [ANYPAWN_pronoun] [author_rehabilitated] себя</li>
+    <li>anecdote->[noteTellsThat] именно во время своего четвёртого брака [skillBookAuthor] [author_conceived] написать книгу по теме [subject_gen]. Это привело к [ANYPAWN_possessive] четвёртому разводу</li>
+    <li>production->[in_the_precis] [written], что этот экземпляр был вручную отпечатан в одной из типографий на [worldname_pre]</li>
+    <li>production->[in_the_precis] [written], что университет [worldname_gen] включил последнее издание [thisTextbookSynonym_gen] в список учебных пособий</li>
+    <li>production->[in_the_precis] [written], что, хотя эти записи [skillBookAuthor] [author_made] для личного пользования, они получили широкое распространение</li>
+    <li>production->Наиболее полезные сведения [thisTextbookSynonym_gen] кроются среди биографических подробностей</li>
+    <li>production->В рукописном [note_no_ending]и [written], что типографии на [worldname_pre] прекратили работу после беспорядков на [worldname_pre], поэтому последние издания [thisTextbookSynonym_gen] считаются раритетом</li>
+    <li>production->Рукописное [note_no_ending]е на [note_location] [tells], что большинство экземпляров [thisTextbookSynonym_gen] были утеряны во время инцидента на [worldname_pre]</li>
+    <li>production->[in_the_precis] [written], что читатели, знакомые с методами архотеков, касающимися распространения информации, как правило, избегают этой серии книг — но не объясняется почему</li>
+    <li>production->[note_no_ending]е на [note_location] [tells], что ярые адепты изложенных на этих страницах идей потратили целое состояние на печать копий [thisTextbookSynonym_gen], а затем и на широкое распространение за пределами [worldname_gen]</li>
+    <li>production->[note_no_ending]е на [note_location] [tells], что первые экземпляры [thisTextbookSynonym_gen] [skillBookAuthor] [author_wrote] от руки</li>
+    <li>production->Герцогиня [worldname_gen] спонсировала выпуск [thisTextbookSynonym_gen] с условием дальнейшего свободного распространения</li>
+    <li>production->В примечании [written], что первый тираж [thisTextbookSynonym_gen] был выпущен на деньги, собранные по подписке букинистов на [CoreWorld_pre]</li>
+    <li>production->В конце [thisTextbookSynonym_gen] издатель рекламирует более крупную серию, в которой рассматриваются все темы, необходимые для выживания на окраинных мирах</li>
+    <li>production->Учитывая нелепые грамматические ошибки, следует заметить, что издателям стоило бы решительнее выполнять свои редакторские обязанности</li>
+    <li>quality_statement(quality>4)->[exterior_excellent] [page_excellent]</li>
+    <li>quality_statement(quality&lt;5,quality>1)->[exterior_decent] [page_decent]</li>
+    <li>quality_statement(quality&lt;2)->[exterior_awful] [page_awful]</li>
+    <li>subject_gen(uses=2)->[subject_primary]</li>
+    <li>thisNotableTextbook(p=7)->этот [notable_adjective_masc] [textbook_masc]</li>
+    <li>thisNotableTextbook(p=7)->эта [notable_adjective_fem] [textbook_fem]</li>
+    <li>thisNotableTextbook->[thisTextbook] [notable_of]</li>
     <li>thisTextbook->этот [textbook_masc]</li>
     <li>thisTextbook->эта [textbook_fem]</li>
     <li>textbook_masc->справочник</li>
@@ -874,17 +917,6 @@
     <li>textbook_fem->справочная книга</li>
     <li>textbook_fem->энциклопедия</li>
     <li>textbook_fem->настольная книга</li>
-    <li>useful_information->ценные крупицы знаний</li>
-    <li>useful_information->полезные указания</li>
-    <li>useful_information->интересные факты</li>
-    <li>useful_information->важные сведения</li>
-    <li>useful_information->практические идеи</li>
-    <li>useful_information->дельные советы</li>
-    <li>useful_information->познавательные подробности</li>
-    <li>in_the_field(uses=1)->в области</li>
-    <li>thisNotableTextbook(p=7)->этот [notable_adjective_masc] [textbook_masc]</li>
-    <li>thisNotableTextbook(p=7)->эта [notable_adjective_fem] [textbook_fem]</li>
-    <li>thisNotableTextbook->[thisTextbook] [notable_of]</li>
     <li>notable_adjective_masc->известный</li>
     <li>notable_adjective_masc->малопонятный</li>
     <li>notable_adjective_masc->знаковый</li>
@@ -915,6 +947,14 @@
     <li>notable_adjective_fem->красочная</li>
     <li>notable_of->с урбанизированного мира</li>
     <li>notable_of->с утопического мира</li>
+    <li>useful_information->ценные крупицы знаний</li>
+    <li>useful_information->полезные указания</li>
+    <li>useful_information->интересные факты</li>
+    <li>useful_information->важные сведения</li>
+    <li>useful_information->практические идеи</li>
+    <li>useful_information->дельные советы</li>
+    <li>useful_information->познавательные подробности</li>
+    <li>in_the_field(uses=1)->в области</li>
     <li>seeking_understanding->старается получить знания</li>
     <li>seeking_understanding->ищет развития</li>
     <li>seeking_understanding->преследует цель достичь понимания</li>
@@ -923,16 +963,6 @@
     <li>seeking_understanding->желает приобрести опыт</li>
     <li>seeking_understanding->пытается разобраться</li>
     <li>seeking_understanding->добивается познания</li>
-    <li>detail->. [in_the_precis] основное внимание уделяется более сложным аспектам рассматриваемого предмета</li>
-    <li>detail->. [in_the_precis] раскрывается вся сложность рассматриваемого предмета</li>
-    <li>detail->. [in_the_precis] [skillBookAuthor] пишет, что работал[author_ending] над этим изданием во времена актуальных разработок в рассматриваемой сфере</li>
-    <li>detail->. Надпись на [note_location] гласит: «Истинно интересующиеся темой [subject_gen] не в праве проходить мимо [thisTextbookSynonym_gen]»</li>
-    <li>detail->. Страницы шаг за шагом знакомят любопытствующего читателя с рассматриваемым предметом</li>
-    <li>detail(quality&lt;4)->, правда, в своём изложении [skillBookAuthor] перескакивает с темы на тему</li>
-    <li>detail(quality>3)->. Страницы заключают в себе всеобъемлющее изложение рассматриваемого предмета</li>
-    <li>detail->. [in_the_precis] [skillBookAuthor] заверяет читателя в подлинности [thisTextbookSynonym_gen] на фоне существования поддельных копий</li>
-    <li>detail(quality&lt;4)->, хотя, возможно, попытка донести свои идеи посредством воображаемого диалога была ошибкой</li>
-    <li>detail->. Авторская риторика [in_the_precis] не отвлекает от ключевых идей</li>
     <li>in_the_precis(uses=1)->в предисловии</li>
     <li>in_the_precis(uses=1)->во вводной части</li>
     <li>in_the_precis(uses=1)->в аннотации</li>
@@ -940,10 +970,32 @@
     <li>in_the_precis(uses=1)->во введении</li>
     <li>skillBookAuthor(uses=1,priority=2)->[ANYPAWN_nameFull]</li>
     <li>skillBookAuthor->[ANYPAWN_label]</li>
-    <li>author_ending(ANYPAWN_gender==Male)-></li>
-    <li>author_ending(ANYPAWN_gender==Female)->а</li>
-    <li>author_ending2(ANYPAWN_gender==Male)-></li>
-    <li>author_ending2(ANYPAWN_gender==Female)->ла</li>
+    <li>thisTextbookSynonym_gen->этого [textbook_synonym_masc]</li>
+    <li>thisTextbookSynonym_gen->этой [textbook_synonym_fem]</li>
+    <li>textbook_synonym_masc(uses=1,p=3)->труда</li>
+    <li>textbook_synonym_masc(uses=1)->трактата</li>
+    <li>textbook_synonym_fem(uses=1,p=3)->работы</li>
+    <li>textbook_synonym_fem(uses=1)->монографии</li>
+    <li>textbook_synonym_fem(priority=-1)->книги</li>
+    <li>noteTellsThat->информация на [note_location] [tells], что</li>
+    <li>noteTellsThat->надпись на [note_location] [tells], что</li>
+    <li>noteTellsThat->в заметке на [note_location] [written], что</li>
+    <li>written(p=4)->[tells]ся</li>
+    <li>written(uses=1)->сказано</li>
+    <li>written(uses=1)->указано</li>
+    <li>written(uses=1)->изложено</li>
+    <li>written(uses=1)->написано</li>
+    <li>tells(uses=1)->сообщает</li>
+    <li>tells(uses=1)->говорит</li>
+    <li>tells(uses=1)->упоминает</li>
+    <li>tells(uses=1)->поясняет</li>
+    <li>tells(priority=-1)->указывает</li>
+    <li>note_no_ending->замечани</li>
+    <li>note_no_ending->послеслови</li>
+    <li>note_no_ending->дополнени</li>
+    <li>note_no_ending->заключени</li>
+    <li>note_no_ending->примечани</li>
+    <li>note_no_ending->пояснени</li>
     <li>note_location(uses=1)->передней обложке</li>
     <li>note_location(uses=1)->задней обложке</li>
     <li>note_location(uses=1)->форзаце</li>
@@ -956,64 +1008,42 @@
     <li>note_location(uses=1)->листе с именным указателем</li>
     <li>note_location(uses=1)->листе с биографией автора</li>
     <li>note_location(uses=1)->товарной этикетке</li>
-    <li>thisTextbookSynonym_gen->этого [textbook_synonym_masc]</li>
-    <li>thisTextbookSynonym_gen->этой [textbook_synonym_fem]</li>
-    <li>textbook_synonym_masc(uses=1,p=3)->труда</li>
-    <li>textbook_synonym_masc(uses=1)->трактата</li>
-    <li>textbook_synonym_fem(uses=1,p=3)->работы</li>
-    <li>textbook_synonym_fem(uses=1)->монографии</li>
-    <li>textbook_synonym_fem(priority=-1)->книги</li>
-    <li>anecdote->Маловероятно, что [skillBookAuthor] дожил[author_ending] до момента публикации [thisTextbookSynonym_gen], учитывая разницу между датами [ANYPAWN_possessive] рождения и этого события</li>
-    <li>anecdote->На [note_location] кто-то написал язвительную рецензию на эту книгу</li>
-    <li>anecdote->[noteTellsThat] эта книга прошла через систему общественных библиотек на [UrbWorld_pre]</li>
-    <li>anecdote->Согласно информации [in_the_precis], [skillBookAuthor] был[author_ending] специалистом многих дисциплин</li>
-    <li>anecdote->[noteTellsThat] [skillBookAuthor] до сих пор является объектом обсуждения среди жителей [worldname_gen] благодаря [ANYPAWN_possessive] любви к теме [subject_gen]</li>
-    <li>anecdote->[noteTellsThat] [skillBookAuthor] умер[author_ending2] в результате нелепого происшествия вскоре после того, как опубликовал[author_ending] первый тираж [thisTextbookSynonym_gen]</li>
-    <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] преподавал[author_ending] в академии [CoreWorld_gen]. [ANYPAWN_possessive] лекции легли в основу [thisTextbookSynonym_gen]</li>
-    <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] был[author_ending] широко [author_renowned] глубокими познаниями [in_the_field] [subject_gen], и потому люди часто подходили к н[ANYPAWN_objective] на улице с вопросами</li>
-    <li>anecdote->[in_the_precis] [written], что [skillBookAuthor] обеднел[author_ending] и продал[author_ending] права на эту книжную серию за очень небольшую сумму</li>
-    <li>anecdote->[noteTellsThat] [skillBookAuthor] от рождения был[author_ending] слеп[author_ending], поэтому так и не увидел[author_ending] своей вышедшей в свет [textbook_synonym_fem]</li>
-    <li>anecdote->[noteTellsThat] [skillBookAuthor] в своём черновом варианте [thisTextbookSynonym_gen] включил[author_ending] отступление на пятьдесят страниц. Во втором издании оно было вырезано </li>
-    <li>anecdote->[noteTellsThat] [skillBookAuthor] имел[author_ending] настолько ужасную репутацию, что опубликовал[author_ending] небольшой тираж [thisTextbookSynonym_gen] под псевдонимом</li>
-    <li>anecdote->[noteTellsThat] в детстве [skillBookAuthor] был[author_ending] очень ленив[author_ending], и [ANYPAWN_possessive] родители потеряли всякую надежду. Популярностью [thisTextbookSynonym_gen] [ANYPAWN_pronoun] реабилитировал[author_ending] себя</li>
-    <li>anecdote->[noteTellsThat] именно во время своего четвёртого брака [skillBookAuthor] задумал[author_ending] написать книгу по теме [subject_gen]. Это привело к [ANYPAWN_possessive] четвёртому разводу</li>
-    <li>noteTellsThat->информация на [note_location] [tells], что</li>
-    <li>noteTellsThat->надпись на [note_location] [tells], что</li>
-    <li>noteTellsThat->в заметке на [note_location] [written], что</li>
-    <li>tells(uses=1)->сообщает</li>
-    <li>tells(uses=1)->говорит</li>
-    <li>tells(uses=1)->упоминает</li>
-    <li>tells(uses=1)->поясняет</li>
-    <li>tells(priority=-1)->указывает</li>
-    <li>written(p=4)->[tells]ся</li>
-    <li>written(uses=1)->сказано</li>
-    <li>written(uses=1)->указано</li>
-    <li>written(uses=1)->изложено</li>
-    <li>written(uses=1)->написано</li>
+    <li>author_worked(ANYPAWN_gender==Male)->работал</li>
+    <li>author_worked(ANYPAWN_gender==Female)->работала</li>
+    <li>author_lived(ANYPAWN_gender==Male)->дожил</li>
+    <li>author_lived(ANYPAWN_gender==Female)->дожила</li>
+    <li>author_was(ANYPAWN_gender==Male)->был</li>
+    <li>author_was(ANYPAWN_gender==Female)->была</li>
+    <li>author_died(ANYPAWN_gender==Male)->умер</li>
+    <li>author_died(ANYPAWN_gender==Female)->умерла</li>
+    <li>author_published(ANYPAWN_gender==Male)->опубликовал</li>
+    <li>author_published(ANYPAWN_gender==Female)->опубликовала</li>
+    <li>author_taught(ANYPAWN_gender==Male)->преподавал</li>
+    <li>author_taught(ANYPAWN_gender==Female)->преподавала</li>
     <li>author_renowned(ANYPAWN_gender==Male)->известен</li>
     <li>author_renowned(ANYPAWN_gender==Female)->известна</li>
-    <li>production->[in_the_precis] [written], что этот экземпляр был вручную отпечатан в одной из типографий на [worldname_pre]</li>
-    <li>production->[in_the_precis] [written], что университет [worldname_gen] включил последнее издание [thisTextbookSynonym_gen] в список учебных пособий</li>
-    <li>production->[in_the_precis] [written], что, хотя эти записи [skillBookAuthor] делал[author_ending] для личного пользования, они получили широкое распространение</li>
-    <li>production->Наиболее полезные сведения [thisTextbookSynonym_gen] кроются среди биографических подробностей</li>
-    <li>production->В рукописном [note_no_ending]и [written], что типографии на [worldname_pre] прекратили работу после беспорядков на [worldname_pre], поэтому последние издания [thisTextbookSynonym_gen] считаются раритетом</li>
-    <li>production->Рукописное [note_no_ending]е на [note_location] [tells], что большинство экземпляров [thisTextbookSynonym_gen] были утеряны во время инцидента на [worldname_pre]</li>
-    <li>production->[in_the_precis] [written], что читатели, знакомые с методами архотеков, касающимися распространения информации, как правило, избегают этой серии книг — но не объясняется почему</li>
-    <li>production->[note_no_ending]е на [note_location] [tells], что ярые адепты изложенных на этих страницах идей потратили целое состояние на печать копий [thisTextbookSynonym_gen], а затем и на широкое распространение за пределами [worldname_gen]</li>
-    <li>production->[note_no_ending]е на [note_location] [tells], что первые экземпляры [thisTextbookSynonym_gen] [skillBookAuthor] написал[author_ending] от руки</li>
-    <li>production->Герцогиня [worldname_gen] спонсировала выпуск [thisTextbookSynonym_gen] с условием дальнейшего свободного распространения</li>
-    <li>production->В примечании [written], что первый тираж [thisTextbookSynonym_gen] был выпущен на деньги, собранные по подписке букинистов на [CoreWorld_pre]</li>
-    <li>production->В конце [thisTextbookSynonym_gen] издатель рекламирует более крупную серию, в которой рассматриваются все темы, необходимые для выживания на окраинных мирах</li>
-    <li>production->Учитывая нелепые грамматические ошибки, следует заметить, что издателям стоило бы решительнее выполнять свои редакторские обязанности</li>
-    <li>note_no_ending->замечани</li>
-    <li>note_no_ending->послеслови</li>
-    <li>note_no_ending->дополнени</li>
-    <li>note_no_ending->заключени</li>
-    <li>note_no_ending->примечани</li>
-    <li>note_no_ending->пояснени</li>
-    <li>quality_statement(quality>4)->[exterior_excellent] [page_excellent]</li>
-    <li>quality_statement(quality&lt;5,quality>1)->[exterior_decent] [page_decent]</li>
-    <li>quality_statement(quality&lt;2)->[exterior_awful] [page_awful]</li>
+    <li>author_impoverished(ANYPAWN_gender==Male)->обеднел</li>
+    <li>author_impoverished(ANYPAWN_gender==Female)->обеднела</li>
+    <li>author_sold(ANYPAWN_gender==Male)->продал</li>
+    <li>author_sold(ANYPAWN_gender==Female)->продала</li>
+    <li>author_blind(ANYPAWN_gender==Male)->слеп</li>
+    <li>author_blind(ANYPAWN_gender==Female)->слепа</li>
+    <li>author_saw(ANYPAWN_gender==Male)->увидел</li>
+    <li>author_saw(ANYPAWN_gender==Female)->увидела</li>
+    <li>author_included(ANYPAWN_gender==Male)->включил</li>
+    <li>author_included(ANYPAWN_gender==Female)->включила</li>
+    <li>author_had(ANYPAWN_gender==Male)->имел</li>
+    <li>author_had(ANYPAWN_gender==Female)->имела</li>
+    <li>author_idle(ANYPAWN_gender==Male)->ленив</li>
+    <li>author_idle(ANYPAWN_gender==Female)->ленива</li>
+    <li>author_rehabilitated(ANYPAWN_gender==Male)->реабилитировал</li>
+    <li>author_rehabilitated(ANYPAWN_gender==Female)->реабилитировала</li>
+    <li>author_conceived(ANYPAWN_gender==Male)->задумал</li>
+    <li>author_conceived(ANYPAWN_gender==Female)->задумала</li>
+    <li>author_made(ANYPAWN_gender==Male)->делал</li>
+    <li>author_made(ANYPAWN_gender==Female)->делала</li>
+    <li>author_wrote(ANYPAWN_gender==Male)->написал</li>
+    <li>author_wrote(ANYPAWN_gender==Female)->написала</li>
     <li>exterior_excellent->Переплёт книги ладно скроен, а</li>
     <li>exterior_excellent->Обложка этого шедевра печатного искусства лоснится, а</li>
     <li>exterior_excellent->Кожаная обложка на ощупь шероховата, но</li>
