@@ -389,4 +389,260 @@
     <li>story->чаяния</li>
   </Namer_Novel.rulePack.rulesStrings>
   
+  <!-- EN:
+    <li>title->[titleBasic]</li>
+    <li>title(p=2)->[titleAuthored]</li>
+    <li>title(p=2)->[titleAuthoredNoSubject]</li>
+    <li>title(length_subject_primary[less_than]20,p=4)->[titleAuthoredOneSubject]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleBasicTwoSubjects]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleAuthoredTwoSubjects]</li>
+    <li>titleBasic(p=6)->[randAdjective] [subject_primary]</li>
+    <li>titleBasic(p=6)->[randNoun] and [subject_primary]</li>
+    <li>titleBasic->Lessons in [subject_primary]</li>
+    <li>titleBasic->Thinking About [subject_primary]</li>
+    <li>titleBasic->A Guide to [subject_primary]</li>
+    <li>titleBasic->Introduction to [subject_primary]</li>
+    <li>titleBasic->A Primer on [subject_primary]</li>
+    <li>titleBasic->Essentials of [subject_primary]</li>
+    <li>titleBasic->Mastery in [subject_primary]</li>
+    <li>titleBasic->The Fundamentals of [subject_primary]</li>
+    <li>titleBasic->Navigating [subject_primary]</li>
+    <li>titleBasic->Key Concepts in [subject_primary]</li>
+    <li>titleBasic->The Art of [subject_primary]</li>
+    <li>titleBasic->Masterclass: [subject_primary]</li>
+    <li>titleBasic->Decoding [subject_primary]</li>
+    <li>titleBasic->Advanced Techniques in [subject_primary]</li>
+    <li>titleBasic->Unlocking [subject_primary]</li>
+    <li>titleBasic->Practical Guide to [subject_primary]</li>
+    <li>titleBasic->Exploring [subject_primary]</li>
+    <li>titleBasic->Pro Tips: [subject_primary]</li>
+    <li>titleBasic->Understanding [subject_primary]</li>
+    <li>titleBasic->Journey Through [subject_primary]</li>
+    <li>titleBasic->The Way of [subject_primary]</li>
+    <li>titleBasic->Insights into [subject_primary]</li>
+    <li>titleBasic->Unraveling [subject_primary]</li>
+    <li>titleBasic->Secrets of [subject_primary]</li>
+    <li>titleBasic->Mastering [subject_primary]</li>
+    <li>titleBasic->In-depth Study of [subject_primary]</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Studies</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s [randAdjective] Studies</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Diary</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Chronicles</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Memoirs</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Journal</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Musings</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Adventures</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Reflections</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Exploration</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Testimonies</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Odyssey</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Journey</li>
+    <li>titleAuthoredNoSubject->The Life of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Story of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Legacy of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Adventures of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Diaries of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Wanderings of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Musings of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Testimonies of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Chronicles of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Memoirs of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] on [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Guide to [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Intro to [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Explores [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Insights on [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Manual on [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Perspectives on [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Handbook for [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Analysis of [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Approach to [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Discoveries in [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Musings on [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Study of [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Investigation into [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Research on [subject_primary]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] on [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Explores [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Insights on [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Manual on [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Perspectives on [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Handbook for [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Analysis of [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Approach to [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Discoveries in [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Musings on [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Study of [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Investigation into [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Research on [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->An Intro to [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->The Best of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Combining [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Lessons on [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Thinking About [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->A Guide to [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Introduction to [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->A Primer on [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Essentials of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Mastery in [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->The Fundamentals of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Navigating [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Key Concepts in [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->The Art of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Masterclass: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Decoding [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Advanced Techniques in [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Unlocking [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Practical Guide to [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Exploring [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Pro Tips: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Understanding [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Journey Through [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->The Way of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Insights into [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Unraveling [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Secrets of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Mastering [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->In-depth Study of [subjectsTuple]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=6)->[subject_primary] and [subject_secondary]</li>
+    <li>subjectsTuple->[subject_secondary], [subject_primary], and [randTheme]</li>
+    <li>subjectsTuple->[subject_primary] and [randTheme]</li>
+    <li>randNoun->Death</li>
+    <li>randNoun->Life</li>
+    <li>randNoun->Love</li>
+    <li>randNoun->Growth</li>
+    <li>randNoun->Courage</li>
+    <li>randNoun->Wisdom</li>
+    <li>randNoun->Health</li>
+    <li>randNoun->Boomalopes</li>
+    <li>randNoun->Pirates</li>
+    <li>randAdjective->Basic</li>
+    <li>randAdjective->Efficient</li>
+    <li>randAdjective->Thoughtful</li>
+    <li>randAdjective->Spectacular</li>
+    <li>randAdjective->Sloppy</li>
+    <li>randAdjective->Bad</li>
+    <li>randAdjective->Good</li>
+    <li>randAdjective->Glitterworld</li>
+    <li>randAdjective->Rural</li>
+    <li>randAdjective->Medieval</li>
+    <li>randAdjective->Inspired</li>
+    <li>randAdjective->Healthy</li>
+    <li>randAdjective->Nefarious</li>
+    <li>randAdjective->Chaotic</li>
+    <li>randAdjective->Funny</li>
+    <li>randTheme->knowledge</li>
+    <li>randTheme->self-improvement</li>
+    <li>randTheme->understanding</li>
+  -->
+  <Namer_TextBook.rulePack.rulesStrings>
+    <li>title(p=4)->«[titleBasic]»</li>
+    <li>title(length_subject_primary&lt;32)->«[basics] [subject_gen]»</li>
+    <li>title(length_subject_primary&lt;24)->«[subj]. [textbookForStudents]»</li>
+    <li>title(length_subject_primary&lt;18,has_subject_secondary==true,length_subject_secondary&lt;18,p=8)->«[titleTwoSubjects]»</li>
+    <li>title(length_subject_primary&lt;12,has_subject_secondary==true,length_subject_secondary&lt;12,p=8)->«[subj] и [subj2]. [textbookForStudents]»</li>
+    <li>title(length_subject_primary&lt;12,has_subject_secondary==true,length_subject_secondary&lt;12,p=4)->«[subj] и [subj2]», [ANYPAWN_nameFull]</li>
+    <li>title(length_subject_primary&lt;12,p=4)->«[titleBasic]», [ANYPAWN_nameFull]</li>
+    <li>title(length_subject_primary&lt;16)->«[subj] и [rand_noun]», [ANYPAWN_nameFull]</li>
+    <li>title(p=0.5)->«[legacy]», [ANYPAWN_nameFull]</li>
+    <li>title(p=0.5)->«[legacy] и [legacy]», [ANYPAWN_nameFull]</li>
+    <li>titleBasic->[intro] [subj_gen]</li>
+    <li>titleBasic->[subj] и [rand_noun]</li>
+    <li>titleBasic(p=0.5)->[subj] или [rand_noun]</li>
+    <li>titleBasic->[subj] [extra]</li>
+    <li>titleTwoSubjects->[subj2] и [basics] [subject_gen]</li>
+    <li>titleTwoSubjects->[intro] [subj_gen] и [subj2_gen]</li>
+    <li>titleTwoSubjects->[subj], [subj2] и [rand_noun]</li>
+    <li>titleTwoSubjects->[subj], [subj2] или [rand_noun]</li>
+    <li>titleTwoSubjects->[subj] и [subj2] [extra]</li>
+    <li>subject_gen->[subject_primary]</li>
+    <li>subj->{lookup: [subject_primary]; SkillDef_subject; 1}</li>
+    <li>subj_gen->{lookup: [subject_primary]; SkillDef_subject; 2}</li>
+    <li>subj2->{lookup: [subject_secondary]; SkillDef_subject; 1}</li>
+    <li>subj2_gen->{lookup: [subject_secondary]; SkillDef_subject; 2}</li>
+    <li>basics->азы</li>
+    <li>basics->уроки</li>
+    <li>basics->методы</li>
+    <li>basics->основы</li>
+    <li>basics->теория</li>
+    <li>basics->аспекты</li>
+    <li>basics->секреты</li>
+    <li>basics->принципы</li>
+    <li>basics->методология</li>
+    <li>basics->проблематика</li>
+    <li>textbookForStudents(quality&lt;4)->[textbook] для детей</li>
+    <li>textbookForStudents(quality&lt;4)->[textbook] для начинающих</li>
+    <li>textbookForStudents(quality&lt;4)->[textbook] для школьников</li>
+    <li>textbookForStudents(quality&lt;6,quality>2)->[textbook] для любителей</li>
+    <li>textbookForStudents(quality&lt;6,quality>2)->[textbook] для студентов</li>
+    <li>textbookForStudents(quality&lt;6,quality>2)->[textbook] для абитуриентов</li>
+    <li>textbookForStudents(quality>4)->[textbook] для магистров</li>
+    <li>textbookForStudents(quality>4)->[textbook] для бакалавров</li>
+    <li>textbookForStudents(quality>4)->[textbook] для специалистов</li>
+    <li>textbookForStudents(quality>4)->[textbook] для профессионалов</li>
+    <li>textbook->книга</li>
+    <li>textbook->доклад</li>
+    <li>textbook->учебник</li>
+    <li>textbook->пособие</li>
+    <li>textbook->реферат</li>
+    <li>textbook->конспект</li>
+    <li>textbook->задачник</li>
+    <li>textbook->справочник</li>
+    <li>textbook->компендиум</li>
+    <li>textbook->самоучитель</li>
+    <li>textbook->хрестоматия</li>
+    <li>textbook->путеводитель</li>
+    <li>textbook->энциклопедия</li>
+    <li>rand_noun->хаос</li>
+    <li>rand_noun->жизнь</li>
+    <li>rand_noun->любовь</li>
+    <li>rand_noun->смерть</li>
+    <li>rand_noun->пираты</li>
+    <li>rand_noun->неудачи</li>
+    <li>rand_noun->невзгоды</li>
+    <li>rand_noun->сомнения</li>
+    <li>rand_noun->здоровье</li>
+    <li>rand_noun->бумалопы</li>
+    <li>rand_noun->развитие</li>
+    <li>rand_noun->смелость</li>
+    <li>rand_noun->мудрость</li>
+    <li>legacy(uses=1)->судьба</li>
+    <li>legacy(uses=1)->история</li>
+    <li>legacy(uses=1)->наследие</li>
+    <li>legacy(uses=1)->познание</li>
+    <li>legacy(uses=1)->скитания</li>
+    <li>legacy(uses=1)->раздумья</li>
+    <li>legacy(uses=1)->достояние</li>
+    <li>legacy(uses=1)->прозрение</li>
+    <li>legacy(uses=1)->постижение</li>
+    <li>legacy(uses=1)->осмысление</li>
+    <li>legacy(uses=1)->соображения</li>
+    <li>legacy(uses=1)->размышления</li>
+    <li>legacy(uses=1)->приключения</li>
+    <li>legacy(uses=1)->рассуждения</li>
+    <li>legacy(uses=1)->воспоминания</li>
+    <li>legacy(uses=1)->жизненный путь</li>
+    <li>intro->в мире</li>
+    <li>intro->секреты</li>
+    <li>intro->загадки</li>
+    <li>intro->эволюция</li>
+    <li>intro->парадоксы</li>
+    <li>intro->философия</li>
+    <li>intro->эффективность</li>
+    <li>intro->квинтэссенция</li>
+    <li>extra->для души</li>
+    <li>extra->в природе</li>
+    <li>extra->для жизни</li>
+    <li>extra->в разрезе</li>
+    <li>extra->наизнанку</li>
+    <li>extra->для выживания</li>
+    <li>extra->в средневековье</li>
+    <li>extra->под микроскопом</li>
+    <li>extra->на утопическом мире</li>
+    <li>extra->в сельской местности</li>
+  </Namer_TextBook.rulePack.rulesStrings>
+  
 </LanguageData>
