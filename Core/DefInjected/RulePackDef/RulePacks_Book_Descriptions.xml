@@ -444,6 +444,643 @@
   
   <!-- EN:
     <li>subject->[subject_primary]</li>
+    <li>desc(p=3)->[maybe_intro][schematic_desc].</li>
+    <li>desc->[maybe_intro][schematic_desc].\n\n[maybe_medium][author_story]. [linkage][subject_consequence].</li>
+    <li>desc(p=2)->[maybe_medium][author_story]. [linkage][subject_primary_story]. [maybe_outro]</li>
+    <li>maybe_intro(p=6)-></li>
+    <li>maybe_intro->[appearance]. </li>
+    <li>maybe_intro->[subject_intro]. </li>
+    <li>maybe_subject_intro(p=6)-></li>
+    <li>maybe_subject_intro->[subject_intro]. </li>
+    <li>maybe_medium(p=6)-></li>
+    <li>maybe_medium->[medium]. </li>
+    <li>maybe_outro(p=5)-></li>
+    <li>maybe_outro->[aftermath]. </li>
+    <li>maybe_outro->[dates]. </li>
+    <li>maybe_outro->[appearance]. </li>
+    <li>maybe_physical_adjective-></li>
+    <li>maybe_physical_adjective->[physical_adjective] </li>
+    <li>maybe_date(p=3)-></li>
+    <li>maybe_date->[dates]</li>
+    <li>subject_intro->the [schematic_synonym] [shows_synonym_verb]s a [state_adjective] [diagram_type] about [subject]</li>
+    <li>subject_intro->in this [schematic_synonym], the [author] [shows_synonym_verb]s [ANYPAWN_possessive] [theory_synonym_adj] of [subject]</li>
+    <li>subject_intro->this [physical_adjective] [schematic_synonym] [contain_verb]s [schematic_synonym]s focused on [subject]</li>
+    <li>subject_intro->the [author] has employed [notable_adjective] [image_types] to communicate [ANYPAWN_possessive] [theory_synonym_adj] of [subject]</li>
+    <li>subject_intro->[device_synonym]s associated with [subject_primary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>
+    <li>subject_intro->the [schematic_synonym] [shows_synonym_verb]s a [state_adjective] [diagram_type] about [subject_primary] and [subject_secondary]</li>
+    <li>subject_intro->[device_synonym]s associated with [subject_primary] and [subject_secondary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>
+    <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
+    <li>schematic_desc_first->the ancient technology described here for [subject_primary_gerund] is [negative_adjective] compared to present systems</li>
+    <li>schematic_desc_first->this is only a fragment of a full [schematic_synonym] for [subject_primary_gerund] </li>
+    <li>schematic_desc_first->this [schematic_synonym] is [negative_adjective] in several places</li>
+    <li>schematic_desc_first->the [schematic_synonym] for [subject_primary_gerund] is incomplete</li>
+    <li>schematic_desc_first->[subject_primary_gerund] with these [schematic_synonym]s is complicated by contradictory annotations</li>
+    <li>schematic_desc_first->the author's [negative_adjective] understanding of [subject_primary_gerund] is apparent throughout</li>
+    <li>schematic_desc_first->part of the [schematic_synonym] has been torn away</li>
+    <li>schematic_desc_first->fire and soot have marred the paper</li>
+    <li>schematic_desc_first->the [schematic_synonym] for [subject_primary_gerund] is too [negative_adjective]</li>
+    <li>schematic_desc_first->the limited [other_subject] for [subject_primary_gerund] compromised this [schematic_synonym]</li>
+    <li>schematic_desc_first->imprecise details about [subject_primary_gerund] make implementing this [schematic_synonym] difficult</li>
+    <li>schematic_desc_first->this [negative_adjective] [schematic_synonym] sometimes causes errors when [subject_primary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_synonym] for [subject_primary_gerund] fails aesthetically</li>
+    <li>schematic_desc_first->a lack of imagination about [subject_primary_gerund] has limited this [schematic_synonym]</li>
+    <li>schematic_desc_first->this [schematic_container] provides many contradictory specifications for [subject_primary_gerund]</li>
+    <li>schematic_desc_first->disagreements over [other_subject] have left ambiguities in this [schematic_synonym] for [subject_primary_gerund]</li>
+    <li>schematic_desc_first->sloppy draftsmanship undermines the [author]'s meticulous plans for [subject_primary_gerund]</li>
+    <li>schematic_desc_first->worries about the [other_subject] for [subject_primary_gerund] limited this [schematic_synonym]</li>
+    <li>schematic_desc_first->this [schematic_synonym] for [subject_primary_gerund] has been copied repeatedly, obscuring its contents</li>
+    <li>schematic_desc_first->this [schematic_synonym] establishes no real connection between [subject_primary_gerund] and [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->[subject_primary_gerund] and [subject_secondary_gerund] are not easily paired</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_primary_gerund] and [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_tertiary_gerund] and [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_primary_gerund] and [subject_tertiary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on  [subject_primary_gerund], [subject_secondary_gerund] and [subject_tertiary_gerund]</li>
+    <li>schematic_desc_second(quality[less_than]2)->. This is frustrating for those learning the subject</li>
+    <li>schematic_desc_second(quality[less_than]2)->, making it valueless for most purposes</li>
+    <li>schematic_desc_second(quality[less_than]2)->, undermining the lessons that it communicates</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Only beginners will benefit from its lessons</li>
+    <li>schematic_desc_second(quality[less_than]2)->. A misleading schematic can be worse than having no schematic at all</li>
+    <li>schematic_desc_second(quality[less_than]2)->, rendering it of questionable utility</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, but the basics are present</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, but it still [contain_verb]s enough data to provide insights</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. However, this doesn't detract from its utility to experienced practitioners</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, though it still has some value to most students</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Beginners will still benefit from its teachings</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. However, only experts will notice the flaws</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Yet, the content is exceptional for the era</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, yet it conveys advanced concepts with ease</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, but it is still full of wisdom for all learners</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Despite this, every student will benefit from reading it, no matter how experienced</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, but the issues are minor compared to the wealth of knowledge it contains</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. However, the lessons it teaches are timeless</li>
+    <li>medium->An in-built sensory system [tells_verb]s to listeners [schematic_origin]</li>
+    <li>medium->Rolled inside is a sheaf of personal papers, [tells_verb]ing [schematic_origin]</li>
+    <li>medium->A sticker [tells_verb]s limited information about [schematic_origin]</li>
+    <li>medium->An included informational pamphlet [tells_verb]s [schematic_origin]</li>
+    <li>medium->Loose leaves of parchment [tells_verb] [schematic_origin]</li>
+    <li>medium->A second sheet of paper [tells_verb]s [schematic_origin]</li>
+    <li>medium->Inscribed stone tablets [tells_verb] [schematic_origin]</li>
+    <li>medium->A plasteel [schematic_container] is inscribed with [schematic_origin]</li>
+    <li>medium->A scrawled note falls out, which [tells_verb]s [schematic_origin]</li>
+    <li>medium->The rear of the document [tells_verb]s more about [schematic_origin]</li>
+    <li>medium->A recording plays, [tells_verb]ing [schematic_origin]</li>
+    <li>medium->[schematic_origin] would be a matter of conjecture, if not for notes on the document</li>
+    <li>medium(p=4)->[schematic_origin] is known but included in the document's notes</li>
+    <li>medium->An attached diary tells [schematic_origin]</li>
+    <li>medium->An archaic mechanism [tells_verb]s [schematic_origin]</li>
+    <li>medium->A miniature mechanoid whirrs into life, telling [schematic_origin]</li>
+    <li>tells_verb->tell</li>
+    <li>tells_verb->relay</li>
+    <li>tells_verb->recount</li>
+    <li>tells_verb->report</li>
+    <li>schematic_origin->the [notable_adjective] story of the schematic's creation</li>
+    <li>schematic_origin->how the author came to create the schematic</li>
+    <li>schematic_origin->the [notable_adjective] life of the schematic's author</li>
+    <li>schematic_origin->a story about this schematic's creation</li>
+    <li>schematic_origin->the origin of this [notable_adjective] diagram</li>
+    <li>schematic_origin->a [notable_adjective] tale about the author's life</li>
+    <li>schematic_origin->a rumor about why this [notable_adjective] document ended up on the Rim and who wrote it</li>
+    <li>author_story->[author_storyname][author_intent]</li>
+    <li>author_story->[author_storyname][learning_story]</li>
+    <li>author_story->[author_storyname][calltoadventure]</li>
+    <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
+    <li>author_storyname->the unnamed [authorTitle]</li>
+    <li>author_intent-> was hungry for knowledge about [subject] from a young age and questioned everyone in [ANYPAWN_possessive] hometown</li>
+    <li>author_intent-> dreamed of rejuvenating [subject], leading a scientific revolution on Kuhn[worldname]</li>
+    <li>author_intent-> made [subject] [ANYPAWN_possessive] life's work</li>
+    <li>author_intent-> shared [ANYPAWN_possessive] views on [subject] in a [physical_adjective] book, written [written_when]</li>
+    <li>author_intent-> knew of no calling finer than the study of [subject] and created this schematic [written_when]</li>
+    <li>author_intent-> happened across the secrets of [subject] in [ANYPAWN_possessive] mother's [physical_adjective] study</li>
+    <li>author_intent-> was severely ill as a child but used the time to study [subject]</li>
+    <li>author_intent-> wanted the world to know about [subject] and, [written_when], created this schematic</li>
+    <li>author_intent-> needed the galaxy to know about [subject]</li>
+    <li>author_intent-> was lured into a love of [subject] by a children's book series</li>
+    <li>author_intent-> never loved the study of [subject] but was obliged to do it</li>
+    <li>author_intent-> felt [subject] was [ANYPAWN_possessive] calling</li>
+    <li>learning_story-> traveled far and wide, seeking wisdom about [subject]</li>
+    <li>learning_story-> lived an identical day every day, working on [subject] in the cyclical cities of [midworld]</li>
+    <li>learning_story-> came up through a [subject]-focused slumschool on [urbworld]</li>
+    <li>learning_story-> graduated with honors in [subject] from the [worldname] Academy</li>
+    <li>learning_story-> taught [ANYPAWN_objective]self about [subject] on the feral world of [animalworld]</li>
+    <li>learning_story-> discovered a trove of lost schematics about [subject] in the ruins of [ruinworld]</li>
+    <li>learning_story-> traversed the blackened streets of [steamworld], chasing [subject] amidst the sootfall</li>
+    <li>learning_story-> somehow survived the toxin swamps of [toxicworld], where rumors spread of [subject] experts</li>
+    <li>learning_story-> scoured the melted suburbs of the glassed world of [glassworld], searching for knowledge of [subject]</li>
+    <li>learning_story-> orbited the transcendent sphere of [transcendentworld], learning of [subject] by intercepting comms traffic</li>
+    <li>learning_story-> went with the mules into the depths of [mineworld], listening to old miners tell stories of [subject] and learning its secrets</li>
+    <li>learning_story-> was an indentured [subject] expert on the coreworld of [coreworld]</li>
+    <li>learning_story-> owned the factories on the indworld of [indworld], indulging [ANYPAWN_possessive] love of [subject] whilst [ANYPAWN_possessive] workers slaved away</li>
+    <li>learning_story-> learned about [subject] incarcerated in Cellcity V on [prisonworld], forever protesting [ANYPAWN_possessive] innocence</li>
+    <li>learning_story-> pieced together this [subject] schematic in the hive-heaps of the trashworld [trashworld], collecting fragments discarded by idle glitterworld citizens</li>
+    <li>learning_story-> raised cloned apatovores on [dinoworld] and traded their meat for knowledge of [subject]</li>
+    <li>learning_story-> lived in the skyrippers of [urbworld], where knowledge of [subject] was common</li>
+    <li>learning_story-> was raised in the outer deadlands of [ruinworld], learning [subject] to survive</li>
+    <li>calltoadventure-> felt [ANYPAWN_possessive] life was stagnant. Then one day, [ANYPAWN_pronoun] found [subject]</li>
+    <li>calltoadventure-> was entrusted with starting a new colony, on [ANYPAWN_possessive] own, focused on [subject]</li>
+    <li>calltoadventure->'s older sibling passed away, leaving [ANYPAWN_objective] as the family [subject] specialist</li>
+    <li>calltoadventure-> learned of an abandoned Glitterworld colony that focused on [subject]</li>
+    <li>calltoadventure-> was on a solar cruiser when it was captured by [feudalworld] pirates. As a [subject] expert, they ransomed him for a high price</li>
+    <li>calltoadventure-> was blown off course to the deadworld of [deadworld], where [ANYPAWN_pronoun] learned about [subject]</li>
+    <li>calltoadventure-> discovered a data file about [subject] in a broken mechanoid and learned from it</li>
+    <li>calltoadventure-> followed a dirtmole down its burrow, where it taught [ANYPAWN_objective] about [subject]</li>
+    <li>calltoadventure-> was brought up by a [subject]-loving Yttakin clan on [iceworld]</li>
+    <li>calltoadventure-> was created by sanguophage cloners and found pleasure in [subject]</li>
+    <li>calltoadventure-> was raised on [warworld], escaping in a stolen cargo pod. The only reading for months was a [subject] manual</li>
+    <li>calltoadventure-> spent [ANYPAWN_possessive] lifetime travelling up through the layers of the shellworld [shellworld], chasing a malfunctioning [subject] mechanoid</li>
+    <li>calltoadventure-> escaped serfdom in the hamlets of [medievalworld] by stowing away on the starship of a trader who was an expert in [subject]</li>
+    <li>calltoadventure-> traveled to the rim and back, learning about [subject] on [rimworld]</li>
+    <li>calltoadventure-> sailed the seas of [oceanicworld], claiming to learn [subject] secrets from the living oceans themselves</li>
+    <li>calltoadventure-> was a zero-g scavenger across [worldname]'s asteroid belt, finding the secrets of [subject] on either [asteroid] A3 or [asteroid] 7DD</li>
+    <li>written_when-> the night before [ANYPAWN_possessive] execution</li>
+    <li>written_when-> in [ANYPAWN_possessive] early years</li>
+    <li>written_when-> during the Blue Period of [worldname]</li>
+    <li>written_when-> as part of [ANYPAWN_possessive] post-doctoral thesis</li>
+    <li>written_when-> in [ANYPAWN_possessive] wanderings across the rim</li>
+    <li>written_when-> in the ur-[worldname] clone facilities</li>
+    <li>written_when-> as the final part of the [notable_adjective] ka'[worldname] ritual</li>
+    <li>written_when-> idly, upon the back of a scrap of letter-scrip from [ANYPAWN_possessive] parents</li>
+    <li>written_when-> many years after they first conceived of it</li>
+    <li>written_when-> in [ANYPAWN_possessive] old age</li>
+    <li>written_when-> in the evenings, in time snatched from sleep</li>
+    <li>written_when-> when not caring for [ANYPAWN_possessive] children</li>
+    <li>written_when-> in a rush, on the way to the front</li>
+    <li>written_when-> at leisure, whilst sipping cooled drinks on [ANYPAWN_possessive] verandah</li>
+    <li>written_when-> at a young age, working alone while [ANYPAWN_possessive] peers played</li>
+    <li>subject_consequence(p=18)->[subject_primary_story]</li>
+    <li>subject_consequence->[digression]</li>
+    <li>digression->At one point, the story veers into a confusing discussion about [digression_subject]</li>
+    <li>digression->The schematic's narrative loses its way here, digressing into [digression_subject]</li>
+    <li>digression->the [author] has inserted a footnote here, about [digression_subject]</li>
+    <li>digression->It is unclear why the story turns to [digression_subject]</li>
+    <li>digression->It is a surprise that the schematic [contain_verb]s information about [digression_subject]</li>
+    <li>digression->The section on [digression_subject] is irrelevant</li>
+    <li>digression_subject->love and war</li>
+    <li>digression_subject->interminable, increasingly minor political distinctions</li>
+    <li>digression_subject->Glitterworld cuisine trends</li>
+    <li>digression_subject->the fashion markets of [animalworld] and [urbworld]</li>
+    <li>digression_subject->scurrilous gossip about the widespread use of love enhancers</li>
+    <li>digression_subject->the military dispositions of the [glitterworld] fleet a century earlier</li>
+    <li>digression_subject->the mysterious coreworld relationships with supermassive black holes</li>
+    <li>digression_subject->the deadworld of [deadworld] and rumors of its fate</li>
+    <li>digression_subject->the species variants on the dinosaur planet of [dinoworld]</li>
+    <li>digression_subject->[ANYPAWN_possessive] experience of feudalism on [feudalworld]</li>
+    <li>digression_subject->the lack of microbes in the fallen cities of [glassworld]</li>
+    <li>digression_subject->the short lives of the paupers of [indworld]</li>
+    <li>digression_subject->the adaptations of hi-ruin scavengers in the post [worldname]-war urbworlds</li>
+    <li>digression_subject->neutroamine barter in the rich skyrippers of [coreworld]</li>
+    <li>aftermath->The pages communicate nothing more of the [author]'s story</li>
+    <li>aftermath->A [note] in a different hand says that the [author] was last seen heading for [deathworld]</li>
+    <li>aftermath->Pages are torn out here</li>
+    <li>aftermath->The leaves are dotted with brown stains</li>
+    <li>aftermath->Despite [ANYPAWN_possessive] adventures, [ANYPAWN_pronoun] managed to create this schematic</li>
+    <li>aftermath->[ANYPAWN_pronoun] devoted [ANYPAWN_possessive] last years to this schematic</li>
+    <li>aftermath->Later, [ANYPAWN_pronoun] found peace in this work. [subject_chat]</li>
+    <li>aftermath->[ANYPAWN_possessive] story ends here, with a technical description of [ANYPAWN_possessive] work on [worldname]. [subject_chat]</li>
+    <li>subject_chat->the [author]'s work proves [ANYPAWN_objective] authoritative on [subject]</li>
+    <li>subject_chat->Few dispute the findings in this [subject] document</li>
+    <li>subject_chat->This document will be inspirational to anyone interested in [subject]</li>
+    <li>subject_chat->Though the diagrams are faded, the [author]'s lessons on [subject] are valuable</li>
+    <li>authorTitle->author</li>
+    <li>authorTitle->scribe</li>
+    <li>authorTitle->writer</li>
+    <li>linkage->this inspired [ANYPAWN_objective] and [ANYPAWN_pronoun] </li>
+    <li>linkage->this proved useful later when [ANYPAWN_pronoun] </li>
+    <li>linkage->using this knowledge, [ANYPAWN_pronoun] </li>
+    <li>linkage->[ANYPAWN_pronoun] found this useful when [ANYPAWN_pronoun] </li>
+    <li>linkage->that was why [ANYPAWN_pronoun] </li>
+    <li>linkage->on [worldname], [ANYPAWN_pronoun] used [ANYPAWN_possessive] insight and </li>
+    <li>linkage->to master it, [ANYPAWN_pronoun] traveled to [worldname] where [ANYPAWN_pronoun] </li>
+    <li>notable_adjective->famous</li>
+    <li>notable_adjective->obscure</li>
+    <li>notable_adjective->iconic</li>
+    <li>notable_adjective->classic</li>
+    <li>notable_adjective->common</li>
+    <li>notable_adjective->familiar</li>
+    <li>negative_adjective->rudimentary</li>
+    <li>negative_adjective->simplistic</li>
+    <li>negative_adjective->primitive</li>
+    <li>negative_adjective->mediocre</li>
+    <li>negative_adjective->inaccurate</li>
+    <li>negative_adjective->deficient</li>
+    <li>appearance(p=3)->[phys_desc]</li>
+    <li>appearance->[nonphys_desc]</li>
+    <li>phys_desc(quality[less_than]5,quality[greater_than]1)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]4)->[negative_physical_statement1]</li>
+    <li>phys_desc(quality[greater_than]3)->[positive_physical_statement1]</li>
+    <li>phys_desc(p=2)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]3)->this document [badsmells] of [stink]</li>
+    <li>phys_desc(quality[greater_than]4)->this document [smells] of [scent]</li>
+    <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
+    <li>nonphys_desc->[technical_nonphys_desc]</li>
+    <li>nonphys_desc->[academic_nonphys_desc]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] but [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] but [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] and [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. Also, [negative_physical_statement2]</li>
+    <li>negative_physical_statement->[negative_physical_statement1]</li>
+    <li>negative_physical_statement->[negative_physical_statement2]</li>
+    <li>negative_physical_statement1->jagged tears mar the calfskin cover</li>
+    <li>negative_physical_statement1->one of the [author]'s pupils signed the front leaf</li>
+    <li>negative_physical_statement1->a sour-tasting ichor coats it</li>
+    <li>negative_physical_statement2->the decayed cover sticks to the reader's hands</li>
+    <li>negative_physical_statement2->maggots have made their home beneath the foolscap and flies flutter out as the book is opened</li>
+    <li>negative_physical_statement2->the pages appear to be written on crumbling parchment</li>
+    <li>negative_physical_statement2->the pages are saturated with red ink</li>
+    <li>positive_physical_statement->[positive_physical_statement1]</li>
+    <li>positive_physical_statement->[positive_physical_statement2]</li>
+    <li>positive_physical_statement1->inside the pages are pristine</li>
+    <li>positive_physical_statement1->the pages are composed of a thin plasteel derivative</li>
+    <li>positive_physical_statement1->each page is made of a flexible, diamond-like structure</li>
+    <li>positive_physical_statement1->it is warm to the touch</li>
+    <li>positive_physical_statement2->it bears the kitemark of a respected coreworld publishing house - [coreworld] Schematics</li>
+    <li>positive_physical_statement2->the edges of the page are still un-cut</li>
+    <li>positive_physical_statement2->semi-precious plastics glisten on its surface</li>
+    <li>otherwordly_nonphys_desc->holding the [author]'s schematic, the room swims</li>
+    <li>otherwordly_nonphys_desc->just looking at the schematic hurts the reader's head</li>
+    <li>otherwordly_nonphys_desc->looking at the schematic, the runes seem to move in the corner of the reader's eye</li>
+    <li>otherwordly_nonphys_desc->whispers permeate the area around the [author]'s schematic</li>
+    <li>otherwordly_nonphys_desc->the [author]'s schematic bears the psychic imprint of something impossibly ancient</li>
+    <li>technical_nonphys_desc->the complexity of the schematic is beyond the average reader</li>
+    <li>technical_nonphys_desc->the notation is unusual, drawn from an extinct Impid dialect</li>
+    <li>technical_nonphys_desc->wires run through the pages of the schematic, though the device is nearly defunct</li>
+    <li>technical_nonphys_desc->the same mechanism is explained by the [author] in three different languages</li>
+    <li>academic_nonphys_desc->this schematic is dedicated to a genie tutor who inspired the [author]</li>
+    <li>academic_nonphys_desc->this document is marked with the crest of the institution which sponsored the [author]</li>
+    <li>badsmells->smells heavily</li>
+    <li>badsmells->has the stench</li>
+    <li>badsmells->smells weakly</li>
+    <li>badsmells->reeks</li>
+    <li>badsmells->stinks</li>
+    <li>stink->corpse slime</li>
+    <li>stink->brimstone and rotten eggs</li>
+    <li>stink->slow, ancient death</li>
+    <li>stink->something akin to Yttakin sweat</li>
+    <li>stink->Waster breath</li>
+    <li>stink->a Hussar locker room</li>
+    <li>smells->has a heady scent</li>
+    <li>smells->has an odor</li>
+    <li>smells->has a perfume</li>
+    <li>smells->has an aroma</li>
+    <li>scent->must, like the bottom of a grape barrel</li>
+    <li>scent->Highmate pheromones</li>
+    <li>scent->frankincense</li>
+    <li>scent->sandalwood</li>
+    <li>scent->sweet boomrat juice</li>
+    <li>scent->Glitterworld spice</li>
+    <li>scent->fresh Gauranlen seeds</li>
+    <li>conjunction->and </li>
+    <li>conjunction->but </li>
+    <li>conjunction->yet </li>
+    <li>conjunction->though </li>
+    <li>conjunction->besides </li>
+    <li>conjunction->. In addition,</li>
+    <li>author(p=4)->author</li>
+    <li>author(p=4)->writer</li>
+    <li>author->inventor</li>
+    <li>author->creator</li>
+    <li>author(p=2)->developer</li>
+    <li>author(p=4)->designer</li>
+    <li>author->engineer</li>
+    <li>author->artificer</li>
+    <li>author->boffin</li>
+    <li>author->specialist</li>
+    <li>author->technician</li>
+    <li>author->expert</li>
+    <li>author->craftsman</li>
+    <li>anAuthorDesc(p=2)->a</li>
+    <li>anAuthorDesc->a young</li>
+    <li>anAuthorDesc->an old</li>
+    <li>anAuthorDesc->a terrified</li>
+    <li>anAuthorDesc->a sorrowful</li>
+    <li>anAuthorDesc->an elderly</li>
+    <li>anAuthorDesc->a wise</li>
+    <li>anAuthorDesc->a headstrong</li>
+    <li>anAuthorDesc->a foolish</li>
+    <li>anAuthorDesc->an innocent</li>
+    <li>anAuthorDesc->a disturbed</li>
+    <li>anAuthorDesc->an eldritch</li>
+    <li>anAuthorDesc->an outrageous</li>
+    <li>anAuthorDesc->an archetypal</li>
+    <li>anAuthorDesc->a boring</li>
+    <li>anAuthorDesc->a crazed</li>
+    <li>anAuthorDesc->an immoral</li>
+    <li>anAuthorDesc->a moral</li>
+    <li>anAuthorDesc->an amoral</li>
+    <li>anAuthorDesc->a shadowy</li>
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorne</li>
+    <li>animalworld->Rhydell</li>
+    <li>animalworld->Zoutera</li>
+    <li>animalworld->Thylacine</li>
+    <li>animalworld->Jiai</li>
+    <li>animalworld->Steller's World</li>
+    <li>animalworld->Aukton</li>
+    <li>asteroid->Iwamura</li>
+    <li>asteroid->Atura</li>
+    <li>asteroid->Widdershins</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Aesh 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Aryn Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prime</li>
+    <li>coreworld->Glossolia</li>
+    <li>coreworld->Barbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Haspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Ardar</li>
+    <li>deadworld->Kremhild</li>
+    <li>deadworld->Melisandz</li>
+    <li>deathworld->Creticon</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Rayth</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->JNovahex</li>
+    <li>deathworld->Carthago</li>
+    <li>deathworld->Grimcore</li>
+    <li>dinoworld->Oubanyen</li>
+    <li>dinoworld->Zoutera</li>
+    <li>dinoworld->Einio</li>
+    <li>dinoworld->Baryonyx</li>
+    <li>dinoworld->N'cilo</li>
+    <li>dinoworld->Venator</li>
+    <li>dinoworld->Brach</li>
+    <li>feudalworld->Aracena VI</li>
+    <li>feudalworld->Nuchadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fieth</li>
+    <li>feudalworld->Bloch Regis</li>
+    <li>feudalworld->Carlosphere</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Thebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Shechem</li>
+    <li>glassworld->Yelhazor</li>
+    <li>glitterworld->Kalthas IV</li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda</li>
+    <li>glitterworld->Rogia</li>
+    <li>glitterworld->Utmaior</li>
+    <li>glitterworld->Caspian</li>
+    <li>glitterworld->Kenerella</li>
+    <li>iceworld->Yttak</li>
+    <li>iceworld->Dedchenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtwale</li>
+    <li>iceworld->Jaqua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Irithir</li>
+    <li>indworld->New China</li>
+    <li>indworld->Hudders</li>
+    <li>indworld->Iver</li>
+    <li>indworld->Achesta</li>
+    <li>indworld->Oods</li>
+    <li>indworld->Iladelf</li>
+    <li>medievalworld->Chelis</li>
+    <li>medievalworld->Vinna</li>
+    <li>medievalworld->Cassone</li>
+    <li>medievalworld->Jork</li>
+    <li>medievalworld->Cochmar</li>
+    <li>medievalworld->Alin</li>
+    <li>medievalworld->Dubrognago</li>
+    <li>midworld->Khalderia</li>
+    <li>midworld->Elsin</li>
+    <li>midworld->Haihan</li>
+    <li>midworld->Seolure</li>
+    <li>midworld->Panga</li>
+    <li>midworld->New London CXI </li>
+    <li>midworld->San Delenda</li>
+    <li>mineworld->Xanides</li>
+    <li>mineworld->Bingham</li>
+    <li>mineworld->Saarhi</li>
+    <li>mineworld->Grasbeg</li>
+    <li>mineworld->Chuqui</li>
+    <li>mineworld->Olimpia</li>
+    <li>mineworld->Orme</li>
+    <li>oceanicworld->Wavia</li>
+    <li>oceanicworld->Wadka</li>
+    <li>oceanicworld->Gichen</li>
+    <li>oceanicworld->Port Yam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Thonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Aldgate</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Hoalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Chateau D'Ouen</li>
+    <li>rimworld->Filson</li>
+    <li>rimworld->La Grand</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Twig Falls</li>
+    <li>rimworld->Old Boise</li>
+    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Earth</li>
+    <li>ruinworld->Ilwaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pichu</li>
+    <li>ruinworld->Perdida</li>
+    <li>ruinworld->Hisarlik</li>
+    <li>ruinworld->Helike</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Destria</li>
+    <li>shellworld->Trophic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xinthia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corliss</li>
+    <li>steamworld->Borassic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Heron</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Architonnerre</li>
+    <li>steamworld->Escapement</li>
+    <li>toxicworld->Scylla</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Oxy VI</li>
+    <li>toxicworld->Sangwine</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Imbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Immanence VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Einsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samydi</li>
+    <li>transcendentworld->Samsarr</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Reepsyk</li>
+    <li>trashworld->Mystras</li>
+    <li>urbworld->Euterpe</li>
+    <li>urbworld->Avenna</li>
+    <li>urbworld->Essalon</li>
+    <li>urbworld->Enike</li>
+    <li>urbworld->Adocia</li>
+    <li>urbworld->N'toch</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Kemia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samnium</li>
+    <li>warworld->Kyrus</li>
+    <li>warworld->Punica</li>
+    <li>warworld->Cimbria XII</li>
+    <li>warworld->Barkitos</li>
+    <li>schematic_container->manual</li>
+    <li>schematic_container->compendium</li>
+    <li>schematic_container->binder</li>
+    <li>schematic_container->folder</li>
+    <li>schematic_container->booklet</li>
+    <li>schematic_container->wrapping</li>
+    <li>schematic_container->holder</li>
+    <li>schematic_container->bundle</li>
+    <li>schematic_container->dossier</li>
+    <li>schematic_container->packet</li>
+    <li>schematic_container->case</li>
+    <li>schematic_container->container</li>
+    <li>physical_adjective->grubby</li>
+    <li>physical_adjective->tiny</li>
+    <li>physical_adjective->rough</li>
+    <li>physical_adjective->huge</li>
+    <li>physical_adjective->elegant</li>
+    <li>physical_adjective->simple</li>
+    <li>physical_adjective->new</li>
+    <li>physical_adjective->delicate</li>
+    <li>physical_adjective->ancient</li>
+    <li>physical_adjective->abandoned</li>
+    <li>physical_adjective->damaged</li>
+    <li>physical_adjective->worn</li>
+    <li>physical_adjective->warped</li>
+    <li>physical_adjective->archaic</li>
+    <li>physical_adjective->greasy</li>
+    <li>physical_adjective->warm</li>
+    <li>physical_adjective->lumpen</li>
+    <li>physical_adjective->wooden</li>
+    <li>physical_adjective->prickly</li>
+    <li>physical_adjective->singed</li>
+    <li>physical_adjective->smooth</li>
+    <li>physical_adjective->rustic</li>
+    <li>physical_adjective->functional</li>
+    <li>physical_adjective->obsolete</li>
+    <li>physical_adjective->puzzling</li>
+    <li>physical_adjective->precious</li>
+    <li>shows_synonym_verb->[shows_synonym_verb1]</li>
+    <li>shows_synonym_verb->[shows_synonym_verb2]</li>
+    <li>shows_synonym_verb1->depict</li>
+    <li>shows_synonym_verb1->portray</li>
+    <li>shows_synonym_verb1->present</li>
+    <li>shows_synonym_verb1->exhibit</li>
+    <li>shows_synonym_verb1->display</li>
+    <li>shows_synonym_verb2->show</li>
+    <li>shows_synonym_verb2->outline</li>
+    <li>shows_synonym_verb2->describe</li>
+    <li>contain_verb->contain</li>
+    <li>contain_verb->hold</li>
+    <li>contain_verb->bear</li>
+    <li>contain_verb->store</li>
+    <li>contain_verb->enclose</li>
+    <li>schematic_synonym->schematic</li>
+    <li>schematic_synonym->diagram</li>
+    <li>schematic_synonym->blueprint</li>
+    <li>schematic_synonym->design</li>
+    <li>schematic_synonym->prototype</li>
+    <li>schematic_synonym->product specification</li>
+    <li>schematic_synonym->instruction set</li>
+    <li>state_adjective->draft</li>
+    <li>state_adjective->finished</li>
+    <li>state_adjective->work-in-progress</li>
+    <li>state_adjective->complete</li>
+    <li>diagram_type->illustration</li>
+    <li>diagram_type->depiction</li>
+    <li>diagram_type->diagram</li>
+    <li>diagram_type->blueprint</li>
+    <li>diagram_type->infographic</li>
+    <li>diagram_type->schema</li>
+    <li>diagram_type->cutaway</li>
+    <li>diagram_type->graph</li>
+    <li>diagram_type->chart</li>
+    <li>theory_synonym_adj->theory</li>
+    <li>theory_synonym_adj->concept</li>
+    <li>theory_synonym_adj->notion</li>
+    <li>theory_synonym_adj->hypothesis</li>
+    <li>theory_synonym_adj->idea</li>
+    <li>device_synonym->mechanism</li>
+    <li>device_synonym->device</li>
+    <li>device_synonym->contrivance</li>
+    <li>device_synonym->invention</li>
+    <li>device_synonym->widget</li>
+    <li>device_synonym->creation</li>
+    <li>device_synonym->gadget</li>
+    <li>device_synonym->fixture</li>
+    <li>device_synonym->module</li>
+    <li>image_types->photographs</li>
+    <li>image_types->drawings</li>
+    <li>image_types->engravings</li>
+    <li>image_types->watercolors</li>
+    <li>image_types->blueprints</li>
+    <li>image_types->sketches</li>
+    <li>image_types->cartoons</li>
+    <li>other_subject->infrastructure</li>
+    <li>other_subject->personnel</li>
+    <li>other_subject->communication</li>
+    <li>other_subject->scope</li>
+    <li>other_subject->budget</li>
+    <li>other_subject->resources</li>
+    <li>dates->The schematic was published [date_form]</li>
+    <li>dates->The schematic was first printed [date_form]</li>
+    <li>dates->It's unclear exactly when the schematic was created</li>
+    <li>date_form->recently</li>
+    <li>date_form->many centuries ago</li>
+    <li>date_form->on the [date]</li>
+    <li>date_form->in [date_season]</li>
+  -->
+  <Description_Schematic.rulePack.rulesStrings>TODO</Description_Schematic.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>subject->[subject_primary]</li>
     <li>desc->[discussion].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
     <li>discussion->This [textbook] provides [useful_information] about [subject][detail]</li>
     <li>discussion->This [textbook] establishes the author's authority on the subject of [subject][detail]</li>
