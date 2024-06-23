@@ -253,6 +253,10 @@
   <NoNonPrisonerBed>Нет доступных свободных кроватей для поселенцев в местах с безопасной температурой.</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
   <NoAnimalBed>Нет доступных свободных кроватей для животных в местах с безопасной температурой.</NoAnimalBed>
+  <!-- EN: No reachable, unforbidden, un-reserved {0} -->
+  <NoItemReservedOrReachable>Нет {0_gender ? доступного свободного разрешённого : доступной свободной разрешённой : доступного свободного разрешённого} {lookup: {0}; Case; 1}</NoItemReservedOrReachable>
+  <!-- EN: No unforbidden, un-reserved {0} -->
+  <NoItemReserved>Нет {0_gender ? доступного свободного : доступной свободной : доступного свободного} {lookup: {0}; Case; 1}</NoItemReserved>
   <!-- EN: Reserved by someone else. -->
   <Reserved>Занято кем-то другим.</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
@@ -398,8 +402,12 @@
   
   <!-- EN: Trade with {0} -->
   <TradeWith>Торговать с {lookup: {0}; Case; 4}</TradeWith>
+  <!-- EN: Dismiss trader -->
+  <DismissTrader>Отказаться от торговли</DismissTrader>
   <!-- EN: Cannot trade -->
-  <CannotTrade>Не может торговать</CannotTrade>
+  <CannotTrade>Невозможно торговать</CannotTrade>
+  <!-- EN: Trader dismissed -->
+  <TraderDismissed>Вы отказались от торговли</TraderDismissed>
 
   <!-- EN: Open {0_label} -->
   <Open>Открыть {lookup: {0_label}; Case; 3}</Open>
@@ -424,6 +432,19 @@
   <OfferGifts>Вручить подарок</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>Торговать с {0}</TradeWithSettlement>
+  
+  <!-- EN: Enter {0} -->
+  <EnterPortal>Войти в {lookup: {0}; Case; 3}</EnterPortal>
+  <!-- EN: Entering {0} -->
+  <EnteringPortal>Входит в {lookup: {0}; Case; 3}</EnteringPortal>
+  <!-- EN: Enter {0} -->
+  <CommandEnterPortal>Войти в {lookup: {0}; Case; 3}</CommandEnterPortal>
+  <!-- EN: Select people and items to enter the {0}. -->
+  <CommandEnterPortalDesc>Выберите людей и вещи для входа в {lookup: {0}; Case; 3}.</CommandEnterPortalDesc>
+  <!-- EN: Cancel entering -->
+  <CommandCancelEnterPortal>Отменить вход</CommandCancelEnterPortal>
+  <!-- EN: Cancel loading people or items into this. -->
+  <CommandCancelEnterPortalDesc>Отменить проход людей и пронос вещей.</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -568,6 +589,11 @@
 
   <!-- EN: Cannot enter -->
   <CannotEnter>Невозможно войти</CannotEnter>
+  
+  <!-- EN: Cannot enter {0} -->
+  <CannotEnterPortal>Невозможно войти в {lookup: {0}; Case; 3}</CannotEnterPortal>
+  <!-- EN: closed -->
+  <PortalClosed>закрыто</PortalClosed>
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
@@ -584,6 +610,14 @@
   <!-- EN: Unsuitable drug -->
   <DrugNotSuitable>Неподходящий препарат</DrugNotSuitable>
   
+  <!-- Books -->
+  <!-- EN: Assign reading... -->
+  <AssignReading>Назначить чтение...</AssignReading>
+  <!-- EN: Read {0} -->
+  <AssignReadNow>Читать {0}</AssignReadNow>
+  <!-- EN: Cannot read {0} -->
+  <AssignCannotReadNow>Невозможно читать {0}</AssignCannotReadNow>
+
   <!-- EN: Prioritize extinguishing fires -->
   <ExtinguishFiresNearby>Тушить пожар</ExtinguishFiresNearby>
 
