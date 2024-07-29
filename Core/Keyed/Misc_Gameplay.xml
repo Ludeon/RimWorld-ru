@@ -417,11 +417,11 @@
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>не выбрана технология для исследования</NoActiveResearchProjectToFinish>
   <!-- EN: Current project -->
-  <CurrentProject>TODO</CurrentProject>
+  <CurrentProject>Текущее исследование</CurrentProject>
   <!-- EN: Research progress -->
-  <ResearchProgress>TODO</ResearchProgress>
+  <ResearchProgress>Прогресс исследования</ResearchProgress>
   <!-- EN: already has {0} -->
-  <AlreadyHasHediff>TODO</AlreadyHasHediff>
+  <AlreadyHasHediff>уже имеет {lookup: {0}; Case; 3}</AlreadyHasHediff>
   <!-- EN: turret -->
   <Turret>турель</Turret>
   <!-- EN: turrets -->
@@ -565,47 +565,47 @@
   <!-- EN: cost -->
   <Cost>стоимость</Cost>
   <!-- EN: Stunned by EMP -->
-  <StunnedByEMP>TODO</StunnedByEMP>
+  <StunnedByEMP>Оглушение от ЭМИ</StunnedByEMP>
   <!-- EN: Title -->
   <BackstoryTitle>Призвание</BackstoryTitle>
   <!-- EN: person -->
   <Person>человек</Person>
   <!-- EN: activated. -->
-  <Activated>TODO</Activated> 
+  <Activated>Сработала.</Activated> <!-- Используется только для серой статуи -->
   <!-- EN: Contains -->
   <Contains>Содержит</Contains>
   <!-- EN: Hostiles -->
-  <Hostiles>TODO</Hostiles>
+  <Hostiles>Враги</Hostiles>
   <!-- EN: Investigate -->
-  <Investigate>TODO</Investigate> 
+  <Investigate>Исследовать</Investigate> 
   <!-- EN: Activate -->
-  <Activate>TODO</Activate> 
+  <Activate>Активировать</Activate> 
   <!-- EN: Activation -->
-  <Activation>TODO</Activation> 
+  <Activation>Активация</Activation> 
   <!-- EN: complete -->
   <Complete>завершён</Complete>
   <!-- EN: Must be imprisoned. -->
-  <RequiresImprisonment>TODO</RequiresImprisonment> 
+  <RequiresImprisonment>Нужно заключить в тюрьму.</RequiresImprisonment> 
   <!-- EN: Prioritize hauling contents -->
-  <HaulFromSource>TODO</HaulFromSource>
+  <HaulFromSource>Перенести содержимое</HaulFromSource>
   <!-- EN: Use -->
-  <UseGizmo>TODO</UseGizmo>
+  <UseGizmo>Использовать</UseGizmo>
   <!-- EN: Order someone to use the {0}. -->
-  <UseGizmoTooltip>TODO</UseGizmoTooltip>
+  <UseGizmoTooltip>Приказать кому-нибудь использовать {lookup: {0}; Case; 3}</UseGizmoTooltip>
   <!-- EN: Choose who should use this -->
-  <UseGizmoMouse>TODO</UseGizmoMouse>
+  <UseGizmoMouse>Выберите, кто должен это использовать</UseGizmoMouse>
   <!-- EN: Select target -->
-  <TargetGizmoMouse>TODO</TargetGizmoMouse>
+  <TargetGizmoMouse>Выберите цель</TargetGizmoMouse>
   <!-- EN: Cannot use this -->
-  <CannotUseGizmoMouse>TODO</CannotUseGizmoMouse>
+  <CannotUseGizmoMouse>Невозможно использовать</CannotUseGizmoMouse>
   <!-- EN: Buildings -->
   <Buildings>Сооружения</Buildings>
   <!-- EN: not yet discovered -->
-  <NotYetDiscovered>TODO</NotYetDiscovered>
+  <NotYetDiscovered>ещё не открыто</NotYetDiscovered>
   <!-- EN: Crawling to safety. -->
-  <ReportStringCrawlingToSafety>TODO</ReportStringCrawlingToSafety>
+  <ReportStringCrawlingToSafety>Ползёт в безопасное место.</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
-  <ReportStringCrawlingToBed>TODO</ReportStringCrawlingToBed>
+  <ReportStringCrawlingToBed>Ползёт в кровать.</ReportStringCrawlingToBed>
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -689,13 +689,13 @@
   <!-- EN: New area -->
   <NewArea>Новая область</NewArea>
   <!-- EN: Invert -->
-  <InvertArea>Инв.</InvertArea>
+  <InvertArea>Инвертир.</InvertArea>
   <!-- EN: Expand -->
-  <ExpandArea>TODO</ExpandArea>
+  <ExpandArea>Расшир.</ExpandArea>
   <!-- EN: Shrink -->
-  <ShrinkArea>TODO</ShrinkArea>
+  <ShrinkArea>Уменьш.</ShrinkArea>
   <!-- EN: Maximum {0} areas allowed. -->
-  <MaxAreasReached>TODO</MaxAreasReached>
+  <MaxAreasReached>Можно создать максимум {0_numCase ? область : области : областей}.</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
@@ -738,7 +738,7 @@
   <NoExteriorAccess>Нет входа — животных нельзя завести или вывести.</NoExteriorAccess>
   
   <!-- EN: Must be connected to walls on both sides to function. -->
-  <DoorMustBeEnclosedByWalls>TODO</DoorMustBeEnclosedByWalls>
+  <DoorMustBeEnclosedByWalls>Для работы нужны стены с обеих сторон.</DoorMustBeEnclosedByWalls>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
@@ -798,7 +798,7 @@
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
   <ApparelPreventsShooting>{PAWN_nameDef} не может использовать оружие дальнего боя, пока носит {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
-  <CannotUseReason_PocketMap>TODO</CannotUseReason_PocketMap>
+  <CannotUseReason_PocketMap>Нельзя использовать в {lookup: {0}; Case; 5}</CannotUseReason_PocketMap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -894,9 +894,9 @@
   <!-- EN: inside {0_labelShort}. -->
   <InContainer>внутри {lookup: {0_labelShort}; Case; 1}</InContainer>
   <!-- EN: downed, cannot crawl. -->
-  <DownedCannotCrawl>TODO</DownedCannotCrawl> 
+  <DownedCannotCrawl>находится в обездвиженном состоянии, не может ползти</DownedCannotCrawl> 
   <!-- EN: downed, unconscious. -->
-  <DownedUnconscious>TODO</DownedUnconscious> 
+  <DownedUnconscious>находится в обездвиженном состоянии, без сознания</DownedUnconscious> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -1166,7 +1166,7 @@
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Свалка</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
-  <CorpseStockpile>TODO</CorpseStockpile>
+  <CorpseStockpile>Трупохранилище</CorpseStockpile>
   <!-- EN: Priority -->
   <Priority>Приоритет</Priority>
   <!-- EN: Clear all -->
@@ -1176,11 +1176,11 @@
   
   <!-- Storage Groups -->
   <!-- EN: Group -->
-  <StorageGroup>TODO</StorageGroup>
+  <StorageGroup>Группа</StorageGroup>
   <!-- EN: Name -->
-  <StorageLabel>TODO</StorageLabel>
+  <StorageLabel>Название</StorageLabel>
   <!-- EN: Storage group -->
-  <StorageGroupLabel>TODO</StorageGroupLabel>
+  <StorageGroupLabel>Группа хранилищ</StorageGroupLabel>
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
@@ -1196,11 +1196,11 @@
   
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSterilizeConfirm>TODO</AnimalSterilizeConfirm>
+  <AnimalSterilizeConfirm>Вы уверены, что хотите стерилизовать {PAWN_nameDef}? Это разозлит фракцию {FACTION_name}.</AnimalSterilizeConfirm>
   <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSlaughterConfirm>TODO</AnimalSlaughterConfirm>
+  <AnimalSlaughterConfirm>Вы уверены, что хотите забить {PAWN_nameDef}? Это разозлит фракцию {FACTION_name}.</AnimalSlaughterConfirm>
   <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalReleaseConfirm>TODO</AnimalReleaseConfirm>
+  <AnimalReleaseConfirm>Вы уверены, что хотите освободить {PAWN_nameDef}? Это разозлит фракцию {FACTION_name}.</AnimalReleaseConfirm>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
@@ -1242,7 +1242,7 @@
 
   <!-- Hotkeys -->
   <!-- EN: Hotkey -->
-  <HotKeyTip>TODO</HotKeyTip>
+  <HotKeyTip>Комбинация</HotKeyTip>
   
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1280,11 +1280,11 @@
   <!-- EN: Must be placed under thick roof. -->
   <MustPlaceUnderThickRoof>Следует размещать под толщей горной породы.</MustPlaceUnderThickRoof>
   <!-- EN: Must be placed against a wall. -->
-  <MustPlaceOnWall>TODO</MustPlaceOnWall>
+  <MustPlaceOnWall>Нужно расположить на стене.</MustPlaceOnWall>
   <!-- EN: Something is already placed on this wall. -->
-  <SomethingPlacedOnThisWall>TODO</SomethingPlacedOnThisWall>
+  <SomethingPlacedOnThisWall>Что-то уже находится на этой стене.</SomethingPlacedOnThisWall>
   <!-- EN: This building can not support attachments. -->
-  <CannotSupportAttachment>TODO</CannotSupportAttachment>
+  <CannotSupportAttachment>На этом сооружении нельзя ничего повесить.</CannotSupportAttachment>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>Следует размещать вплотную к центральной балке корабля.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1422,19 +1422,19 @@
   <!-- EN: In memory of:\n -->
   <GameOverInMemoryOf>Посвящается памяти:\n</GameOverInMemoryOf>
   <!-- EN: Keep watching -->
-  <GameOverKeepWatching>TODO</GameOverKeepWatching>
+  <GameOverKeepWatching>Наблюдать за происходящим</GameOverKeepWatching>
   <!-- EN: Keep watching for now -->
-  <GameOverKeepWatchingForNow>TODO</GameOverKeepWatchingForNow>
+  <GameOverKeepWatchingForNow>Наблюдать за происходящим</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
   <GameOverCreateNewWanderers>Создать новых странников</GameOverCreateNewWanderers>
   <!-- EN: Create new wanderers (must wait {0}h) -->
   <GameOverCreateNewWanderersWait>Создать новых странников (нужно подождать {0} ч)</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
-  <GameOverCreateNewWanderersText>TODO</GameOverCreateNewWanderersText>
+  <GameOverCreateNewWanderersText>Все поселенцы либо мертвы, либо ушли. Возможно, кто-то сможет найти применение руинам этого места.\n\nВыберите новых странников для вашего поселения и продолжите историю.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
   <!-- EN: No colony -->
-  <NoColony>TODO</NoColony>
+  <NoColony>Нет поселения</NoColony>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1448,9 +1448,9 @@
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>Ни с чем не взаимодействует</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
-  <FacilityMaxSimultaneousConnections>TODO</FacilityMaxSimultaneousConnections>
+  <FacilityMaxSimultaneousConnections>Максимум связей</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
-  <FacilityFrontBlocked>TODO</FacilityFrontBlocked>
+  <FacilityFrontBlocked>Передняя часть заблокирована.</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1640,9 +1640,9 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Добыча в лагере</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>TODO</Reward_Unknown> 
+  <Reward_Unknown>Непонятно, что именно произойдёт, когда вы примете это задание</Reward_Unknown> 
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>TODO</Reward_Unknown_Label> 
+  <Reward_Unknown_Label>Неизвестно</Reward_Unknown_Label> 
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>гости будут помогать вашим поселенцам и сражаться на вашей стороне</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1707,11 +1707,11 @@
   <CausedByHediff>Причина: {0}</CausedByHediff>
   
   <!-- EN: {DAMAGE_label} weakness -->
-  <DamageFactorWeakness>TODO</DamageFactorWeakness>
+  <DamageFactorWeakness>уязвимость к {lookup: {DAMAGE_label}; Case; 2}</DamageFactorWeakness>
   <!-- EN: {DAMAGE_label} resistance -->
-  <DamageFactorResistance>TODO</DamageFactorResistance>
+  <DamageFactorResistance>сопротивляемость {lookup: {DAMAGE_label}; Case; 2}</DamageFactorResistance>
   <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
-  <DamageFactor>TODO</DamageFactor>
+  <DamageFactor>Урон от {lookup: {DAMAGE_label}; Case; 1}, получаемый существом, умножается на это значение.</DamageFactor>
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was healed. -->
@@ -1727,9 +1727,9 @@
 
   <!-- LordJobs -->
   <!-- EN: Outcome chances at {0} quality -->
-  <LordJobOutcomeChances>TODO</LordJobOutcomeChances>
+  <LordJobOutcomeChances>Возможные результаты при качестве {0}</LordJobOutcomeChances>
   <!-- EN: Expected duration -->
-  <ExpectedLordJobDuration>TODO</ExpectedLordJobDuration>
+  <ExpectedLordJobDuration>Ожидаемая длительность</ExpectedLordJobDuration>
 
   <!-- Rituals -->
   <!-- EN: ritual -->
@@ -1874,7 +1874,7 @@
   <!-- EN: rot stink -->
   <RotStink>трупный газ</RotStink>
   <!-- EN: deadlife dust -->
-  <DeadlifeDust>TODO</DeadlifeDust> 
+  <DeadlifeDust>порошок мёртвой жизни</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1882,13 +1882,13 @@
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>способность в процессе восстановления. Её можно будет применить через {0}.</AbilityOnCooldown>
   <!-- EN: ability out of charges. -->
-  <AbilityNoCharges>TODO</AbilityNoCharges>
+  <AbilityNoCharges>число применений способности исчерпано.</AbilityNoCharges>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>способность уже добавлена в очередь.</AbilityAlreadyQueued>
   <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
-  <AbilityReadyLabel>Способность «{0}» у {PAWN_nameDef} готова к применению</AbilityReadyLabel>
+  <AbilityReadyLabel>Способность {PAWN_nameDef} готова к применению: {0}</AbilityReadyLabel>
   <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
-  <AbilitiesReadyLabel>TODO</AbilitiesReadyLabel>
+  <AbilitiesReadyLabel>Способности {PAWN_nameDef} готовы к применению: {0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} {0_gender ? готов : готова} применить «{lookup: {1}; Case; 3}».</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
@@ -1904,7 +1904,7 @@
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Недоступная работа</DisabledWorkLabel>
   <!-- EN: Disabled needs -->
-  <DisabledNeedsLabel>TODO</DisabledNeedsLabel>
+  <DisabledNeedsLabel>Недоступные потребности</DisabledNeedsLabel>
 
   <!-- Glowers -->
   <!-- EN: change color -->
@@ -1943,85 +1943,85 @@
   <!-- Books -->
 
   <!-- EN: Benefits -->
-  <Benefits>TODO</Benefits>
+  <Benefits>Польза</Benefits>
   <!-- EN: Dangers -->
-  <Dangers>TODO</Dangers>
+  <Dangers>Опасности</Dangers>
   <!-- EN: already unlocked -->
-  <AlreadyUnlocked>TODO</AlreadyUnlocked>
+  <AlreadyUnlocked>уже исследовано</AlreadyUnlocked>
   <!-- EN: when discovered -->
-  <WhenDiscovered>TODO</WhenDiscovered>
+  <WhenDiscovered>когда будет доступно</WhenDiscovered>
   
   <!-- EN: Was driven into a mental break after reading {0}. -->
-  <BookMentalBreakMessage>TODO</BookMentalBreakMessage>
+  <BookMentalBreakMessage>Это произошло после чтения книги {0}.</BookMentalBreakMessage> <!-- Появляется в тексте события срыва, аналогично MentalStateReason_Hediff -->
   <!-- EN: {0} done (complete in {1} hours) -->
-  <BookReadProgress>TODO</BookReadProgress>
+  <BookReadProgress>{1} прочитано (осталось {2_numCase ? час : часа : часов})</BookReadProgress> <!-- Не нашёл использования в файлах игры и коде -->
   
   <!-- EN: learning speed -->
-  <BookLearningModifier>TODO</BookLearningModifier>
+  <BookLearningModifier>скорость обучения</BookLearningModifier>
   <!-- EN: Mental break chance -->
-  <BookMentalBreak>TODO</BookMentalBreak>
+  <BookMentalBreak>Вероятность нервного срыва</BookMentalBreak>
   
   <!-- EN: {BOOK_labelShort} is not readable -->
-  <BookNotReadable>TODO</BookNotReadable>
+  <BookNotReadable>Книга {BOOK_labelShort} — нечитаемая</BookNotReadable>
   <!-- EN: {PAWN_nameDef} can't read -->
-  <BookCantRead>TODO</BookCantRead>
+  <BookCantRead>{PAWN_nameDef} не может читать</BookCantRead>
   <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
-  <BookCantBeStage>TODO</BookCantBeStage>
+  <BookCantBeStage>{PAWN_nameDef} {PAWN_gender ? должен : должна} перейти на один из жизненных этапов: {STAGES}</BookCantBeStage> <!-- {STAGES} - список этапов через запятую: "ребёнок, взрослый" -->
   <!-- EN: {PAWN_nameDef} is blind -->
-  <BookBlind>TODO</BookBlind>
+  <BookBlind>{PAWN_nameDef} {PAWN_gender ? слеп : слепа}</BookBlind>
   
   <!-- EN: max level {0} -->
-  <BookMaxLevel>TODO</BookMaxLevel>
+  <BookMaxLevel>макс. уровень {0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
-  <ReadingReportHeader>TODO</ReadingReportHeader>
+  <ReadingReportHeader>Чтение {0}: {1} прочитано (осталось {2_numCase ? час : часа : часов})</ReadingReportHeader> <!-- Не нашёл использования в файлах игры и коде -->
   
   <!-- EN: Assign reading -->
-  <ReadingDialogTitle>TODO</ReadingDialogTitle>
+  <ReadingDialogTitle>Назначить чтение</ReadingDialogTitle> <!-- Не нашёл использования в файлах игры и коде -->
   <!-- EN: Assign to {0} -->
-  <ReadingAssignTo>TODO</ReadingAssignTo>
+  <ReadingAssignTo>Назначить {0}</ReadingAssignTo> <!-- Не нашёл использования в файлах игры и коде -->
   <!-- EN: Assign -->
-  <ReadingAssign>TODO</ReadingAssign>
+  <ReadingAssign>Назначить</ReadingAssign> <!-- Не нашёл использования в файлах игры и коде -->
 
   <!-- EN: The books currently on this bookshelf. -->
-  <ContainedBooksDesc>TODO</ContainedBooksDesc>
+  <ContainedBooksDesc>Книги, хранящиеся в этом книжном шкафу.</ContainedBooksDesc>
   
   <!-- EN: Books stored -->
-  <BookshelfStoredInspect>TODO</BookshelfStoredInspect>
+  <BookshelfStoredInspect>Книг хранится</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
-  <BookshelfReadingBonusInspect>TODO</BookshelfReadingBonusInspect>
+  <BookshelfReadingBonusInspect>Бонус к чтению в комнате</BookshelfReadingBonusInspect>
 
   <!-- EN: Remove this book from the bookshelf. -->
-  <EjectBookTooltip>TODO</EjectBookTooltip>
+  <EjectBookTooltip>Убрать эту книгу из книжного шкафа...</EjectBookTooltip>
   
   <!-- Pushing -->
   <!-- EN: Push to... -->
-  <CommandPushTo>TODO</CommandPushTo>
+  <CommandPushTo>Толкать к...</CommandPushTo>
   <!-- EN: requires {0} -->
-  <RequiredCapacity>TODO</RequiredCapacity>
+  <RequiredCapacity>требуется способность к {lookup: {0}; Case; 2}</RequiredCapacity> <!-- Вставляется PawnCapacity: "Требуется способность к работе" -->
   
   <!-- EN: Unable to enter {0}, destination is blocked -->
-  <UnableToEnterPortal>TODO</UnableToEnterPortal>
+  <UnableToEnterPortal>Невозможно пройти через {lookup: {0}; Case; 3}: проход заблокирован</UnableToEnterPortal>
 
   <!-- EN: This category of research has not been discovered. -->
-  <ResearchNotDiscovered>TODO</ResearchNotDiscovered>
+  <ResearchNotDiscovered>Эта область исследований ещё не открыта.</ResearchNotDiscovered>
 
   <!-- EN: Emergence -->
-  <Emergence>TODO</Emergence>
+  <Emergence>Появление</Emergence>
   
   <!-- EN: remove {0} -->
-  <RemovePart>TODO</RemovePart>
+  <RemovePart>удалить {lookup: {0}; Case; 3}</RemovePart>
 
   <!-- EN: {GERUND} {TARGETLABEL} at -->
-  <DoWorkAtThing>TODO</DoWorkAtThing>
+  <DoWorkAtThing>{GERUND} {lookup: {TARGETLABEL}; Case; 3} на</DoWorkAtThing> <!-- "Изучить тварь на (платформе)" -->
   <!-- EN: can be studied in {0} -->
-  <CanBeStudiedInDuration>TODO</CanBeStudiedInDuration>
+  <CanBeStudiedInDuration>можно изучить через {0}</CanBeStudiedInDuration>
   
   <!-- EN: About to explode -->
-  <AboutToExplode>TODO</AboutToExplode>
+  <AboutToExplode>Сейчас взорвётся</AboutToExplode>
   
   <!-- EN: New Anomaly expansion available now! -->
-  <MainScreen_AnomalyAvailableNow>TODO</MainScreen_AnomalyAvailableNow>
+  <MainScreen_AnomalyAvailableNow>Доступно новое дополнение: Anomaly!</MainScreen_AnomalyAvailableNow>
   
   <!-- UNUSED -->
   <RadiusExpandRate>Скорость расширения</RadiusExpandRate>
