@@ -1954,7 +1954,7 @@
   <!-- EN: Was driven into a mental break after reading {0}. -->
   <BookMentalBreakMessage>Это произошло после чтения книги {0}.</BookMentalBreakMessage> <!-- Появляется в тексте события срыва, аналогично MentalStateReason_Hediff -->
   <!-- EN: {0} done (complete in {1} hours) -->
-  <BookReadProgress>{1} прочитано (осталось {2_numCase ? час : часа : часов})</BookReadProgress> <!-- Не нашёл использования в файлах игры и коде -->
+  <BookReadProgress>{0} прочитано (осталось {1_numCase ? час : часа : часов})</BookReadProgress> <!-- Не нашёл использования в файлах игры и коде -->
   
   <!-- EN: learning speed -->
   <BookLearningModifier>скорость обучения</BookLearningModifier>
@@ -1992,7 +1992,7 @@
   <BookshelfReadingBonusInspect>Бонус к чтению в комнате</BookshelfReadingBonusInspect>
 
   <!-- EN: Remove this book from the bookshelf. -->
-  <EjectBookTooltip>Убрать эту книгу из книжного шкафа...</EjectBookTooltip>
+  <EjectBookTooltip>Убрать эту книгу из книжного шкафа</EjectBookTooltip>
   
   <!-- Pushing -->
   <!-- EN: Push to... -->
