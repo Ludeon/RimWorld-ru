@@ -431,10 +431,9 @@
     <li>awfulExtra->каждый персонаж весьма скучен</li>
     <li>awfulExtra->протагониста едва ли возможно определить</li>
     <li>maybe_date-></li>
-    <li>maybe_date(p=1.5)->[paragraph][published] [date_form].</li>
-    <li>maybe_date(p=0.5)->[paragraph]За давностью лет от даты, когда [published], осталось лишь различимое: [date_season].</li>
-    <li>maybe_date->[paragraph]О времени написания этой книги совершенно ничего не известно.</li>
-    <li>paragraph->\n\n</li>
+    <li>maybe_date(p=1.5)->\n\n[published] [date_form].</li>
+    <li>maybe_date(p=0.5)->\n\nЗа давностью лет от даты, когда [published], осталось лишь различимое: [date_season].</li>
+    <li>maybe_date->\n\nО времени написания этой книги совершенно ничего не известно.</li>
     <li>published->книга была опубликована</li>
     <li>published->текст был впервые напечатан</li>
     <li>date_form->совсем недавно</li>
@@ -1079,7 +1078,7 @@
   -->
   <Description_Schematic.rulePack.rulesStrings>
     <li>desc(p=3)->[maybe_intro][schematicDesc].</li>
-    <li>desc->[maybe_intro][schematicDesc].[paragraph][maybe_medium][authorStory]. [subjectConsequence]</li>
+    <li>desc->[maybe_intro][schematicDesc].\n\n[maybe_medium][authorStory]. [subjectConsequence]</li>
     <li>desc(p=2)->[maybe_medium][authorStory]. [subjectConsequence_straight]. [maybe_outro]</li>
     <li>maybe_intro(p=6)-></li>
     <li>maybe_intro->[appearance]. </li>
@@ -1095,8 +1094,8 @@
     <li>subjectConsequence_straight->[linkage] [subject_primary_story]</li>
     <li>maybe_outro(p=5)-></li>
     <li>maybe_outro->[aftermath].</li>
-    <li>maybe_outro->[paragraph][dates].</li>
-    <li>maybe_outro->[paragraph][appearance].</li>
+    <li>maybe_outro->\n\n[dates].</li>
+    <li>maybe_outro->\n\n[appearance].</li>
     <li>appearance(p=3)->[physDesc]</li>
     <li>appearance->[nonphysDesc]</li>
     <li>subjectIntro->в [document_certain]е [shown_no_ending]ы [state_adj_plural] [diagrams], описывающие особенности [subject_gen]</li>
@@ -1220,14 +1219,14 @@
     <li>linkage->[eventually] [ANYPAWN_pronoun]</li>
     <li>linkage->[eventually] [ANYPAWN_pronoun] [author_ended_up] на [worldname_pre], где</li>
     <li>linkage->[eventually] [ANYPAWN_pronoun] [author_went_to] в дальний сектор [worldname_gen], где</li>
-    <li>aftermath->[paragraph]В [document_certain]е больше ничего не сообщается об истории автора</li>
-    <li>aftermath->[paragraph]В написанной другим почерком заметке говорится, что [schematicAuthor] [author_departed] в направлении [deathworld_gen]</li>
-    <li>aftermath->[paragraph]Последующие листы вырваны</li>
-    <li>aftermath->[paragraph]Оставшиеся листы окроплены коричневыми пятнами</li>
+    <li>aftermath->\n\nВ [document_certain]е больше ничего не сообщается об истории автора</li>
+    <li>aftermath->\n\nВ написанной другим почерком заметке говорится, что [schematicAuthor] [author_departed] в направлении [deathworld_gen]</li>
+    <li>aftermath->\n\nПоследующие листы вырваны</li>
+    <li>aftermath->\n\nОставшиеся листы окроплены коричневыми пятнами</li>
     <li>aftermath->Невзирая на пережитые приключения, [ANYPAWN_objective] удалось создать этот [document_certain]</li>
     <li>aftermath->[schematicAuthor] [author_devoted] этому [document_certain]у свои последние годы</li>
-    <li>aftermath->Впоследствии [schematicAuthor] [author_found2] покой в этой работе.[paragraph][subjectChat]</li>
-    <li>aftermath->История заканчивается техническим описанием того, как [schematicAuthor] [author_worked] на [worldname_pre].[paragraph][subjectChat]</li>
+    <li>aftermath->Впоследствии [schematicAuthor] [author_found2] покой в этой работе.\n\n[subjectChat]</li>
+    <li>aftermath->История заканчивается техническим описанием того, как [schematicAuthor] [author_worked] на [worldname_pre].\n\n[subjectChat]</li>
     <li>dates(p=1.5)->[published] [date_form]</li>
     <li>dates(p=0.5)->За давностью лет от даты, когда [published], осталось лишь различимое: [date_season]</li>
     <li>dates->О времени создания этого [document_certain]а совершенно ничего не известно</li>
@@ -1314,7 +1313,6 @@
     <li>technicalNonPhysDesc->один и тот же алгоритм объясняется автором на трёх разных языках</li>
     <li>academicNonPhysDesc->[document_certain] посвящён вдохновившему автора инжу-наставнику</li>
     <li>academicNonPhysDesc->[document_certain] помечен гербом учреждения, которое спонсировало автора</li>
-    <li>paragraph->\n\n</li>
     <li>subject_gen->[subject_primary_gen]</li>
     <li>subject_dat->[subject_primary_dat]</li>
     <li>subject_pre_about->[subject_primary_pre_about]</li>
