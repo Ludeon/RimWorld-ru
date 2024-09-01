@@ -369,24 +369,42 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target].</li>
-    <li>target(p=4)->[characteristic] [RECIPIENT_nameDef]</li>
-    <li>target->[characteristic] [PersonFamily_gen] [RECIPIENT_nameDef]</li>
+    <li>r_logentry->[INITIATOR_nameDef] [maybe_slight_adverb] [madefunof_target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof_target], [mention_participal] [target_char].</li>
+    <li>madefunof_target->подкалывает [RECIPIENT_nameDef]</li>
+    <li>madefunof_target->поддразнивает [RECIPIENT_nameDef]</li>
+    <li>madefunof_target->шутит над [RECIPIENT_nameDef]</li>
+    <li>madefunof_target->иронизирует над [RECIPIENT_nameDef]</li>
+    <li>mention_participal->отпуская [slight_adj] комментарий про</li>
+    <li>mention_participal->задавая [slight_adj] вопрос про</li>
+    <li>mention_participal->делая [slight_adj] комплимент про</li>
+    <li>mention_participal->[slight_adverb] говоря про</li>
+    <li>mention_participal->[slight_adverb] упоминая</li>
+    <li>mention_participal->[maybe_slight_adverb] высмеивая</li>
+    <li>target_char(p=4)->[RECIPIENT_possessive] [characteristic]</li>
+    <li>target_char->[characteristic] [RECIPIENT_possessive] [PersonFamily_gen]</li>
+    <li>maybe_slight_adverb-></li>
+    <li>maybe_slight_adverb(p=2)->[slight_adverb]</li>
+    <li>slight_adverb->едко</li>
+    <li>slight_adverb->ехидно</li>
+    <li>slight_adverb->колко</li>
+    <li>slight_adverb->обидно</li>
+    <li>slight_adverb->презрительно</li>
+    <li>slight_adverb->неуважительно</li>
+    <li>slight_adverb->брезгливо</li>
+    <li>slight_adj->едкий</li>
+    <li>slight_adj->ехидный</li>
+    <li>slight_adj->колкий</li>
+    <li>slight_adj->обидный</li>
+    <li>slight_adj->презрительный</li>
+    <li>slight_adj->неуважительный</li>
+    <li>slight_adj->двусмысленный</li>
+    <li>slight_adj->сомнительный</li>
+    <li>slight_adj->скользкий</li>
+    <li>slight_adj->непристойный</li>
+    <li>slight_adj->брезгливый</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
-    <li>madefunof->[madefunof_adverb] высмеивает</li>
-    <li>madefunof->[madefunof_adverb] шутит про</li>
-    <li>madefunof->[madefunof_adverb] говорит про</li>
-    <li>madefunof->[madefunof_adverb] упоминает</li>
-    <li>madefunof->говорит неприятные вещи про</li>
-    <li>madefunof->говорит двусмысленные вещи про</li>
-    <li>madefunof->отпускает колкий комментарий про</li>
-    <li>madefunof->задаёт ехидный вопрос про</li>
-    <li>madefunof->делает сомнительный комплимент про</li>
-    <li>madefunof_adverb->обидно</li>
-    <li>madefunof_adverb->презрительно</li>
-    <li>madefunof_adverb->неуважительно</li>
-    <li>madefunof_adverb->брезгливо</li>
   </Slight.logRulesInitiator.rulesStrings>
   
 </LanguageData>
