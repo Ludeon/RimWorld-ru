@@ -1220,12 +1220,12 @@
     <li>linkage->[eventually] [ANYPAWN_pronoun] [author_ended_up] на [worldname_pre], где</li>
     <li>linkage->[eventually] [ANYPAWN_pronoun] [author_went_to] в дальний сектор [worldname_gen], где</li>
     <li>aftermath->\n\nВ [document_certain]е больше ничего не сообщается об истории автора</li>
-    <li>aftermath->\n\nВ написанной другим почерком заметке говорится, что [schematicAuthor] [author_departed] в направлении [deathworld_gen]</li>
+    <li>aftermath->\n\nВ написанной другим почерком заметке говорится, что [schematicAuthor] [author_planned] побывать на [deathworld_pre]</li>
     <li>aftermath->\n\nПоследующие листы вырваны</li>
     <li>aftermath->\n\nОставшиеся листы окроплены коричневыми пятнами</li>
-    <li>aftermath->Невзирая на пережитые приключения, [ANYPAWN_objective] удалось создать этот [document_certain]</li>
+    <li>aftermath->\n\nНевзирая на многие сложности, [document_certain] всё же был создан</li>
     <li>aftermath->[schematicAuthor] [author_devoted] этому [document_certain]у свои последние годы</li>
-    <li>aftermath->Впоследствии [schematicAuthor] [author_found2] покой в этой работе.\n\n[subjectChat]</li>
+    <li>aftermath->В этой работе [schematicAuthor] [author_found2] покой.\n\n[subjectChat]</li>
     <li>aftermath->История заканчивается техническим описанием того, как [schematicAuthor] [author_worked] на [worldname_pre].\n\n[subjectChat]</li>
     <li>dates(p=1.5)->[published] [date_form]</li>
     <li>dates(p=0.5)->За давностью лет от даты, когда [published], осталось лишь различимое: [date_season]</li>
@@ -1243,7 +1243,7 @@
     <li>schematicOrigin->историю, связанную с появлением [schematic_synonym_gen_plural]</li>
     <li>schematicOrigin->о столь [notable_adj_no_ending]ой истории жизни автора</li>
     <li>schematicOrigin->о предыстории появления [schematic_synonym_gen_plural]</li>
-    <li>schematicOrigin->о событиях, предшествовавших появлению [notable_adj_no_ending]ых [schematic_synonym_gen_plural]</li>
+    <li>schematicOrigin->о событиях, предшествовавших появлению этих [notable_adj_no_ending]ых [schematic_synonym_gen_plural]</li>
     <li>schematicOrigin->[notable_adj_no_ending]ую историю из жизни автора</li>
     <li>schematicOrigin->о том, как эти [notable_adj_no_ending]ые [schematic_synonym_plural] могли оказаться на окраине и кто их автор</li>
     <li>writtenWhen->в ночь перед вынесением [ANYPAWN_objective] приговора</li>
@@ -1278,7 +1278,7 @@
     <li>subjectChat->Этот [document_certain] свидетельствует об авторитете автора в данной сфере</li>
     <li>subjectChat->Мало кто оспаривает выводы, содержащиеся в этом [document_certain]е</li>
     <li>subjectChat->Этот [document_certain] послужит источником вдохновения для всех, кто интересуется этими вопросами</li>
-    <li>subjectChat->Несмотря на то, что [diagrams] выцвели, наставления автора очень ценны</li>
+    <li>subjectChat->Несмотря на то что [diagrams] выцвели, наставления автора очень ценны</li>
     <li>published->[document_certain] был опубликован</li>
     <li>published->[document_certain] был впервые напечатан</li>
     <li>date_form->совсем недавно</li>
@@ -1348,11 +1348,11 @@
     <li>physical_adj_no_ending(quality>3,p=2)->изящн</li>
     <li>physical_adj_no_ending(quality>3,p=2)->нов</li>
     <li>notable_adj_no_ending->известн</li>
-    <li>notable_adj_no_ending->популярн</li>
     <li>notable_adj_no_ending->малопонятн</li>
+    <li>notable_adj_no_ending->символичн</li>
+    <li>notable_adj_no_ending->популярн</li>
     <li>notable_adj_no_ending->обычн</li>
     <li>notable_adj_no_ending->типичн</li>
-    <li>notable_adj_no_ending->традиционн</li>
     <li>images->иллюстрации</li>
     <li>images->фотографии</li>
     <li>images->рисунки</li>
@@ -1500,8 +1500,8 @@
     <li>author_inserted(ANYPAWN_gender==Female)->добавила</li>
     <li>author_went_to(ANYPAWN_gender==Male)->отправился</li>
     <li>author_went_to(ANYPAWN_gender==Female)->отправилась</li>
-    <li>author_departed(ANYPAWN_gender==Male)->отбыл</li>
-    <li>author_departed(ANYPAWN_gender==Female)->отбыла</li>
+    <li>author_planned(ANYPAWN_gender==Male)->собирался</li>
+    <li>author_planned(ANYPAWN_gender==Female)->собиралась</li>
     <li>author_devoted(ANYPAWN_gender==Male)->посвятил</li>
     <li>author_devoted(ANYPAWN_gender==Female)->посвятила</li>
     <li>author_found2(ANYPAWN_gender==Male)->обрёл</li>
