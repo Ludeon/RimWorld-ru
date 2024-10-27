@@ -70,7 +70,7 @@
   <!-- EN: emancipate -->
   <Emancipate>освободить</Emancipate>
   <!-- EN: remain {0} -->
-  <RemainX>оставить {lookup: {0}; Case; 4}</RemainX><!--выбор в диалоге взросления на 3 года-->
+  <RemainX>оставить {lookup: {0}; Case; 4}</RemainX>
   <!-- EN: {BABY_nameDef} adopted -->
   <LetterLabelAdopted>{BABY_nameDef} {BABY_gender ? принят : принята} в поселение</LetterLabelAdopted>
   <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
@@ -82,7 +82,7 @@
   <LetterTextThirdTrimester>До родов {0_nameDef} осталось меньше 6 дней. Вы можете подготовиться к этому событию:\n\n- Постройте родильную комнату с чистым полом и хорошей кроватью.\n- Найдите опытного доктора.\n- Во вкладке «Работа» назначьте как минимум одному поселенцу работу няни.\n- Запасите еду для младенцев, например детское питание, молоко или желе насекомых. Также {0_nameDef} сможет кормить грудью.\n- Постройте люльку. Чем выше качество люльки, тем счастливее будет младенец.\n\nДетское питание можно приготовить на плите или костре.</LetterTextThirdTrimester>
 
   <!-- EN: {0} vat birth -->
-  <LetterVatBirth>Выращен {0}</LetterVatBirth> <!--в игре подставится RitualOutcomeEffectDef.RitualOutcomePossibility.label: "Healhy vat birth (24h)" или "Выращен здоровый младенец (24ч)" -->
+  <LetterVatBirth>Выращен {0}</LetterVatBirth>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
   <LetterVatHealthyBaby>Эмбрион от {0_nameDef} и {1_nameDef} вырос в инкубаторе и стал здоровым младенцем!</LetterVatHealthyBaby>
   <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
@@ -117,11 +117,11 @@
   <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
   <LetterPartTempBabyName>Младенца назвали {0_nameFull}.</LetterPartTempBabyName>
   <!-- EN: You can change it until {0} after birth. -->
-  <LetterPartLiveBirthNameDeadline>Вы можете изменить его имя, пока ему не исполнился {0}.</LetterPartLiveBirthNameDeadline> <!-- Игра всегда подставляет "1 день". Поэтому "исполнился" можно оставить в мужском роде -->
+  <LetterPartLiveBirthNameDeadline>Вы можете изменить его имя, пока ему не исполнился {0}.</LetterPartLiveBirthNameDeadline>
   <!-- EN: Would you like to give the baby another name? -->
   <LetterPartStillbirthNameDeadline>Вы можете изменить это имя.</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>Младенца зовут {0_nameFull}. Вы можете изменить {0_possessive} имя, пока {0_objective} не исполнился {1}.</LetterPartNameBabyAdopt> <!-- Вместо {1} игра всегда подставляет "1 день" -->
+  <LetterPartNameBabyAdopt>Младенца зовут {0_nameFull}. Вы можете изменить {0_possessive} имя, пока {0_objective} не исполнился {1}.</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>{PAWNNAME} {0_gender ? повзрослел : повзрослела}</BirthdayGrowthMoment>
@@ -138,10 +138,10 @@
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
   <BirthdayGrowthTier>При переходе на следующий этап взросления у {0_nameDef} был {1} уровень развития. Чем выше это значение, тем больше новых черт характера ребёнок может выработать и к большему числу навыков проявить интерес. Удовлетворение потребности ребёнка в обучении ускоряет повышение уровня его развития. На каждом новом этапе взросления отсчёт уровня развития начинается с нуля.</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
-  <BirthdayChooseHowPawnWillGrow>Откройте это сообщение, чтобы выбрать, как {0_nameDef} будет развиваться.</BirthdayChooseHowPawnWillGrow> <!-- Последнее сообщение в превью по наведении курсора на сообщение о следующем этапе взросления -->
+  <BirthdayChooseHowPawnWillGrow>Откройте это сообщение, чтобы выбрать, как {0_nameDef} будет развиваться.</BirthdayChooseHowPawnWillGrow>
 
   <!-- EN: Passion was increased for {0}. -->
-  <BirthdayPassionArchive>Интерес повысился к следующим навыкам: {0}.</BirthdayPassionArchive> <!-- Подставится либо один навык, либо список навыков. -->
+  <BirthdayPassionArchive>Интерес повысился к следующим навыкам: {0}.</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>Получена черта характера: {0}.</BirthdayTraitArchive>
   <!-- EN: No trait -->
@@ -150,7 +150,7 @@
   <BirthdayNoTraitChoiceTooltip>{0} не получит новую черту характера.</BirthdayNoTraitChoiceTooltip>
 
   <!-- EN: Make choices to close -->
-  <BirthdayMakeChoices>Сделайте выбор, чтобы закрыть</BirthdayMakeChoices> <!-- Всплывает при попытке закрыть окно без выбора черт и навыков -->
+  <BirthdayMakeChoices>Сделайте выбор, чтобы закрыть</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
   <BirthdayNickname>{0} теперь имеет прозвище {1}.</BirthdayNickname>
   <!-- EN: Select a trait. -->

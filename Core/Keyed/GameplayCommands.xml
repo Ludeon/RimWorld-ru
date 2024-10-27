@@ -280,7 +280,7 @@
   <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
   <CommandReload_Cooldown>{COOLDOWNGERUND} {TIME}.</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
-  <CommandReload_NoAmmo>Для перезарядки необходимо {COUNT} ед. {lookup: {AMMO_label}; Case; 1}</CommandReload_NoAmmo> <!-- Подставляется CompProperties_Reloadable.ammoDef. Сейчас во всех случаях везде это неисчисляемое существительное: сталь, химтопливо и прочее. Отсюда ед.ч. р.п. -->
+  <CommandReload_NoAmmo>Для перезарядки необходимо {COUNT} ед. {lookup: {AMMO_label}; Case; 1}</CommandReload_NoAmmo>
   
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
@@ -440,7 +440,7 @@
   <!-- EN: Cancel load -->
   <CommandCancelLoad>Отменить погрузку</CommandCancelLoad>
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
-  <CommandCancelLoadDesc>Отменить погрузку вещей или людей и выгрузить то, что уже погружено.</CommandCancelLoadDesc> <!-- Применяется, помимо транспорта, также и в строениях-контейнерах: инкубатор, душегуб и пр. -->
+  <CommandCancelLoadDesc>Отменить погрузку вещей или людей и выгрузить то, что уже погружено.</CommandCancelLoadDesc>
   
   <!-- Launch group -->
   <!-- EN: Launch -->
@@ -665,5 +665,5 @@
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
   <CommandNoUsesLeft>Использований не осталось.</CommandNoUsesLeft>
-
+  
 </LanguageData>
