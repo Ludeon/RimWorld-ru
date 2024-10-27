@@ -129,7 +129,7 @@
   <!-- EN: Off -->
   <Off>Выкл</Off>
   <!-- EN: {0} {1} -->
-  <SourceToolLabel>{1} {lookup: {0}; Case; 1}</SourceToolLabel> <!-- "кулак человека", "пуля пистолета" -->
+  <SourceToolLabel>{1} {lookup: {0}; Case; 1}</SourceToolLabel>
   <!-- EN: Power -->
   <PowerSwitch_Power>Питание</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
@@ -247,15 +247,15 @@
   <!-- EN: {0} effect multiplier: {1} -->
   <DrugEffectMultiplier>множитель эффекта от {lookup: {0}; Case; 1}: {1}</DrugEffectMultiplier>
   <!-- EN: Visiting {0}. -->
-  <CaravanVisiting>Посещает {lookup: {0}; Case; 3}.</CaravanVisiting> <!-- Подставляется имя поселения, "мирные переговоры" или объект на карте. Падеж допустим -->
+  <CaravanVisiting>Посещает {lookup: {0}; Case; 3}.</CaravanVisiting>
   <!-- EN: Entering {0}. -->
-  <CaravanEntering>Идёт к {lookup: {0}; Case; 2}.</CaravanEntering> <!-- Подставляется имя объекта на карте. Падеж допустим -->
+  <CaravanEntering>Идёт к {lookup: {0}; Case; 2}.</CaravanEntering>
   <!-- EN: Attacking {0}. -->
-  <CaravanAttacking>Нападает на {0}.</CaravanAttacking> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
+  <CaravanAttacking>Нападает на {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>Предлагает подарок {0}.</CaravanOfferingGifts> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
+  <CaravanOfferingGifts>Предлагает подарок {0}.</CaravanOfferingGifts>
   <!-- EN: Trading with {0}. -->
-  <CaravanTrading>Торгует с {0}.</CaravanTrading> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
+  <CaravanTrading>Торгует с {0}.</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Снято с трупа.</WasWornByCorpse>
   <!-- EN: T -->
@@ -265,7 +265,7 @@
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>расположение на улице</DeterioratingOutdoors>
   <!-- EN: raining -->
-  <DeterioratingRaining>идёт дождь</DeterioratingRaining>
+  <DeterioratingRaining>идёт дождь</DeterioratingRaining> 
   <!-- EN: protected -->
   <Protected>укрыто</Protected>
   <!-- EN: Deteriorating -->
@@ -445,7 +445,7 @@
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
-  <FilthLabelWithSource>{0} от {1} x{2}</FilthLabelWithSource> <!-- Невозможно применить падеж: вместо {1} могут подставляться списковые значения -->
+  <FilthLabelWithSource>{0} от {1} x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
   <Required>Требуется</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
@@ -485,7 +485,7 @@
   <!-- EN: harvested -->
   <PlantsHarvested>собрано</PlantsHarvested>
   <!-- EN: {0} killed -->
-  <PawnsKilled>{lookup: {0}; Case; 1} убито</PawnsKilled> <!-- {0} во множественном числе -->
+  <PawnsKilled>{lookup: {0}; Case; 1} убито</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
   <PawnsLent>Отправлены {0}, вернутся через {1}</PawnsLent>
   <!-- EN: Dormant -->
@@ -575,7 +575,7 @@
   <!-- EN: person -->
   <Person>человек</Person>
   <!-- EN: activated. -->
-  <Activated>Сработала.</Activated> <!-- Используется только для серой статуи -->
+  <Activated>Сработала.</Activated> 
   <!-- EN: Contains -->
   <Contains>Содержит</Contains>
   <!-- EN: Hostiles -->
@@ -607,7 +607,7 @@
   <!-- EN: not yet discovered -->
   <NotYetDiscovered>ещё не открыто</NotYetDiscovered>
   <!-- EN: Crawling to safety. -->
-  <ReportStringCrawlingToSafety>ползёт в безопасное место</ReportStringCrawlingToSafety> <!-- Точка не нужна, а заглавная буква проставляется автоматом -->
+  <ReportStringCrawlingToSafety>ползёт в безопасное место</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>ползёт в кровать</ReportStringCrawlingToBed>
   
@@ -669,7 +669,7 @@
   <!-- EN: Immune -->
   <TextMote_Immune>Иммунитет</TextMote_Immune>
   <!-- EN: {0} tended -->
-  <TextMote_Tended>{0} вылечено</TextMote_Tended> <!-- Нельзя применить gender, потому что существуют болезни во мн. числе, например, "волоконные механиты" -->
+  <TextMote_Tended>{0} вылечено</TextMote_Tended>
   <!-- EN: level {0} -->
   <TextMote_SkillUp>уровень {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
@@ -735,9 +735,9 @@
   <!-- EN: Not enclosed - build fences -->
   <PenSizeDesc_Unenclosed>Загон не огорожен — постройте ограду</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>  {lookup: {ANIMALDEF_labelPlural}; Case; 1}</PenCapacityDesc> <!-- Отступ - для читаемости и чтобы избежать озаглавливания первой буквы -->
+  <PenCapacityDesc>  {lookup: {ANIMALDEF_labelPlural}; Case; 1}</PenCapacityDesc>
   <!-- EN: Example animals -->
-  <PenExampleAnimals>Вместимость на примере</PenExampleAnimals> <!-- Несоответствие оригиналу - для читаемости: "Вместимость на примере: коров (лето): 10, коз (лето): 20, кур (лето): 50" -->
+  <PenExampleAnimals>Вместимость на примере</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
   <NoExteriorAccess>Нет входа — животных нельзя завести или вывести.</NoExteriorAccess>
   
@@ -1694,7 +1694,7 @@
 
   <!-- Projectile interceptor -->
   <!-- EN: Intercepts {0} every {1} -->
-  <InterceptsProjectilesEvery>Перехватывает {0} каждые {1}</InterceptsProjectilesEvery> <!-- Вместо {0} подставится InterceptsProjectiles_GroundProjectiles или InterceptsProjectiles_AerialProjectiles -->
+  <InterceptsProjectilesEvery>Перехватывает {0} каждые {1}</InterceptsProjectilesEvery>
   <!-- EN: Intercepts {0} -->
   <InterceptsProjectiles>Перехватывает {0}</InterceptsProjectiles>
   <!-- EN: ground projectiles -->
@@ -1744,7 +1744,7 @@
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>Любой {0}</RitualTargetThingDefsInfo>
   <!-- EN: Attending {0} -->
-  <LordReportAttending>Посещает {0}</LordReportAttending> <!-- Имена ритуалов могут генериться процедурно -->
+  <LordReportAttending>Посещает {0}</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>Ритуал {0} отменён.</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
@@ -1956,9 +1956,9 @@
   <WhenDiscovered>когда будет доступно</WhenDiscovered>
   
   <!-- EN: Was driven into a mental break after reading {0}. -->
-  <BookMentalBreakMessage>Это произошло после чтения книги {0}.</BookMentalBreakMessage> <!-- Появляется в тексте события срыва, аналогично MentalStateReason_Hediff -->
+  <BookMentalBreakMessage>Это произошло после чтения книги {0}.</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
-  <BookReadProgress>{0} прочитано (осталось {1_numCase ? час : часа : часов})</BookReadProgress> <!-- Не нашёл использования в файлах игры и коде -->
+  <BookReadProgress>{0} прочитано (осталось {1_numCase ? час : часа : часов})</BookReadProgress>
   
   <!-- EN: learning speed -->
   <BookLearningModifier>скорость обучения</BookLearningModifier>
@@ -1970,7 +1970,7 @@
   <!-- EN: {PAWN_nameDef} can't read -->
   <BookCantRead>{PAWN_nameDef} не может читать</BookCantRead>
   <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
-  <BookCantBeStage>{PAWN_nameDef} {PAWN_gender ? должен : должна} перейти на один из жизненных этапов: {STAGES}</BookCantBeStage> <!-- {STAGES} - список этапов через запятую: "ребёнок, взрослый" -->
+  <BookCantBeStage>{PAWN_nameDef} {PAWN_gender ? должен : должна} перейти на один из жизненных этапов: {STAGES}</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
   <BookBlind>{PAWN_nameDef} {PAWN_gender ? слеп : слепа}</BookBlind>
   
@@ -1978,14 +1978,14 @@
   <BookMaxLevel>макс. уровень {0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
-  <ReadingReportHeader>Чтение {0}: {1} прочитано (осталось {2_numCase ? час : часа : часов})</ReadingReportHeader> <!-- Не нашёл использования в файлах игры и коде -->
+  <ReadingReportHeader>Чтение {0}: {1} прочитано (осталось {2_numCase ? час : часа : часов})</ReadingReportHeader>
   
   <!-- EN: Assign reading -->
-  <ReadingDialogTitle>Назначить чтение</ReadingDialogTitle> <!-- Не нашёл использования в файлах игры и коде -->
+  <ReadingDialogTitle>Назначить чтение</ReadingDialogTitle>
   <!-- EN: Assign to {0} -->
-  <ReadingAssignTo>Назначить {0}</ReadingAssignTo> <!-- Не нашёл использования в файлах игры и коде -->
+  <ReadingAssignTo>Назначить {0}</ReadingAssignTo>
   <!-- EN: Assign -->
-  <ReadingAssign>Назначить</ReadingAssign> <!-- Не нашёл использования в файлах игры и коде -->
+  <ReadingAssign>Назначить</ReadingAssign>
 
   <!-- EN: The books currently on this bookshelf. -->
   <ContainedBooksDesc>Книги, хранящиеся в этом книжном шкафу.</ContainedBooksDesc>
@@ -2002,7 +2002,7 @@
   <!-- EN: Push to... -->
   <CommandPushTo>Толкать к...</CommandPushTo>
   <!-- EN: requires {0} -->
-  <RequiredCapacity>требуется способность к {lookup: {0}; Case; 2}</RequiredCapacity> <!-- Вставляется PawnCapacity: "Требуется способность к работе" -->
+  <RequiredCapacity>требуется способность к {lookup: {0}; Case; 2}</RequiredCapacity>
   
   <!-- EN: Unable to enter {0}, destination is blocked -->
   <UnableToEnterPortal>Невозможно пройти через {lookup: {0}; Case; 3}: проход заблокирован</UnableToEnterPortal>
@@ -2017,7 +2017,7 @@
   <RemovePart>удалить {lookup: {0}; Case; 3}</RemovePart>
 
   <!-- EN: {GERUND} {TARGETLABEL} at -->
-  <DoWorkAtThing>{GERUND} {lookup: {TARGETLABEL}; Case; 3} на</DoWorkAtThing> <!-- "Изучить тварь на (платформе)" -->
+  <DoWorkAtThing>{GERUND} {lookup: {TARGETLABEL}; Case; 3} на</DoWorkAtThing>
   <!-- EN: can be studied in {0} -->
   <CanBeStudiedInDuration>можно изучить через {0}</CanBeStudiedInDuration>
   
@@ -2032,5 +2032,5 @@
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>заблокирован крышей</BlockedByRoof>
-
+  
 </LanguageData>
