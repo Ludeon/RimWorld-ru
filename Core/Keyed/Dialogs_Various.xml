@@ -124,9 +124,9 @@
   <!-- EN: (Permadeath) -->
   <PermadeathModeSaveSuffix>(«Ответственный» режим)</PermadeathModeSaveSuffix>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
-  <SaveIsFromDifferentGameVersion>Версия запущенной игры — {0}, данное сохранение относится к {1}, совершенно другой версии игры. \n\n Попытка загрузки данного сохранения скорее всего не увенчается успехом.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameVersion>Версия запущенной игры — {0}, данное сохранение относится к {1}, совершенно другой версии игры.\n\n Попытка загрузки данного сохранения скорее всего не увенчается успехом.</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
-  <SaveIsFromDifferentGameBuild>Версия запущенной игры — {0}, данное сохранение относится к {1}, другой сборке той же версии. \n\n Попытка загрузки данного сохранения может оказаться успешной.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromDifferentGameBuild>Версия запущенной игры — {0}, данное сохранение относится к {1}, другой сборке той же версии.\n\n Попытка загрузки данного сохранения может оказаться успешной.</SaveIsFromDifferentGameBuild>
   <!-- EN: Save data was saved with our game version and should work without issue. -->
   <SaveIsFromThisGameBuild>Данные сохранены этой версией игры и должны работать без проблем.</SaveIsFromThisGameBuild>
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
@@ -1025,7 +1025,7 @@
   <!-- EN: Food policy -->
   <FoodPolicy>Диета</FoodPolicy>
   <!-- EN: Allow food -->
-  <AllowFood>Разрешить еду</AllowFood>
+  <AllowFood>Диета</AllowFood> <!-- Отображается на вкладке "здоровье", рядом с дропдауном выбора диеты. Выглядит как "Диета: шикарная". Вариант "разрешить еду" некрасив и не единообразен с соседней строкой "уход" -->
   <!-- EN: Lavish -->
   <FoodRestrictionLavish>Шикарная</FoodRestrictionLavish>
   <!-- EN: Fine -->
@@ -1046,10 +1046,26 @@
   <ReadingPolicyTip>Управление политиками выбора книг, которые могут читать ваши поселенцы.</ReadingPolicyTip>
   <!-- EN: Reading policy -->
   <ReadingPolicy>Политика</ReadingPolicy>
-  
+  <!-- EN: Reading policy is in use. -->
+  <ReadingPolicyInUse>Политика чтения используется.</ReadingPolicyInUse>
+
+  <!-- EN: Anything -->
+  <AllReadingPolicy>Что угодно</AllReadingPolicy>
+  <!-- EN: None -->
+  <NoneReadingPolicy>Ничего</NoneReadingPolicy>
+  <!-- EN: Textbooks -->
+  <TextbookPolicy>Учебники</TextbookPolicy>
+  <!-- EN: Schematics -->
+  <SchematicPolicy>Техдокументация</SchematicPolicy>
+  <!-- EN: Novels -->
+  <NovelPolicy>Беллетристика</NovelPolicy>
+
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>Настройки по умолчанию</DefaultMedicineSettings>
+  <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
+  <DefaultMedicineSettingsDesc>Эти настройки по умолчанию применяются к существам, относящимся к соответствующим группам. Вы можете назначать существам индивидуальные настройки в их вкладке «Здоровье».\n\nОбратите внимание: если существо переходит из одной группы в другую, к нему автоматически применяются настройки по умолчанию для новой группы, даже при наличии индивидуальных настроек.</DefaultMedicineSettingsDesc>
+  
   <!-- EN: Defaults -->
   <MedGroupDefaults>Умолчания</MedGroupDefaults>
   
@@ -1403,5 +1419,5 @@
   <MapSearchResultSingular>1 результат</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>Идёт поиск</Searching>
-  
+
 </LanguageData>
