@@ -288,12 +288,12 @@
   <ActivityGizmo>Активность</ActivityGizmo>
   <!-- EN: Automatic suppression -->
   <ActivitySuppressionTooltipTitle>Автоматическое подавление</ActivitySuppressionTooltipTitle>
-  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {PAWN_labelShort}. -->
-  <ActivitySuppressionTooltipDisabled>Сейчас автоматическое подавление отключёно. Включите, и {PAWN_labelShort} не останется без внимания надзирателей.</ActivitySuppressionTooltipDisabled>
+  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
+  <ActivitySuppressionTooltipDisabled>Сейчас автоматическое подавление отключёно. Включите, и {0} не останется без внимания надзирателей.</ActivitySuppressionTooltipDisabled>
   <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
   <ActivitySuppressionTooltipDesc>Со временем уровень активности будет возрастать. Активность возрастает быстрее, если {0} получает повреждения или провокации.\n\nЕсли активность достигнет 100%, {0} пробудится.\n\nНадзиратели могут подавлять существа, чтобы поддерживать безопасный уровень активности. Они будут проводить подавление, если активность вырастет выше указанного уровня: {LEVEL}\n\nТвари с более высоким уровнем активности дадут больше знаний при изучении.</ActivitySuppressionTooltipDesc>
-  <!-- EN: This determines whether the {PAWN_labelShort} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
-  <ActivitySuppressionToggleTooltipDesc>Это определяет, будет ли {PAWN_labelShort} автоматически подавляться, если активность ниже {LEVEL}.\n\nСейчас автоматическое подавление {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
+  <!-- EN: This determines whether the {0} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
+  <ActivitySuppressionToggleTooltipDesc>Это определяет, будет ли {0} автоматически подавляться, если активность ниже {LEVEL}.\n\nСейчас автоматическое подавление {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
 
   <!-- Activity Descs -->
   <!-- EN: activity level -->
@@ -382,8 +382,8 @@
   <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
   <InterrogationDetectedDesc>{PAWN_nameDef} во время допроса замечает, что {INFECTED_nameDef} ведёт себя как-то странно. Сочетание неестественного поведения, странных призвуков в голосе и едва заметных металлических червячков в глазах заставляет насторожиться... {PAWN_nameDef} подозревает, что {INFECTED_nameDef} — носитель металлической жути.</InterrogationDetectedDesc>
   
-  <!-- EN: Metalhorrors are parasites that control the host and use {INFECTED_objective} to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
-  <MetalhorrorNoticedDetailsAppended>Металлическая жуть — это паразиты, контролирующие разум носителя. {INFECTED_objective} помогает им заражать окружающих.\n\nЧем больше времени с момента заражения, тем металлическая жуть сильнее. Когда металлическая жуть понимает, что её обнаружили, она вырывается из тела носителя. Это весьма малоприятный процесс, но носитель, как правило, выживает.\n\nЕдинственный достоверный способ выявить носителя металлической жути — изучить ошмётки плоти металлической жути для определения её биосигнатуры, после чего попросить надёжного доктора провести хирургическую диагностику.\n\nОбнаружив металлическую жуть, вы сможете извлечь её из носителя с помощью хирургической диагностики. Но после этого будьте готовы к бою.</MetalhorrorNoticedDetailsAppended>
+  <!-- EN: Metalhorrors are parasites that control the host and use them to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
+  <MetalhorrorNoticedDetailsAppended>Металлическая жуть — это паразит, контролирующий разум носителя, чтобы заражать окружающих.\n\nЧем больше времени с момента заражения, тем металлическая жуть сильнее. Когда металлическая жуть понимает, что её обнаружили, она вырывается из тела носителя. Это весьма малоприятный процесс, но носитель, как правило, выживает.\n\nЕдинственный достоверный способ выявить носителя металлической жути — изучить ошмётки плоти металлической жути для определения её биосигнатуры, после чего попросить надёжного доктора провести хирургическую диагностику.\n\nОбнаружив металлическую жуть, вы сможете извлечь её из носителя с помощью хирургической диагностики. Но после этого будьте готовы к бою.</MetalhorrorNoticedDetailsAppended>
   
   <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>Серая плоть</LetterGrayFleshDiscoveredLabel>
@@ -534,10 +534,10 @@
   <MessageShardDropped>{0} роняет тёмный архо-осколок. Его можно подобрать и использовать.</MessageShardDropped>
   
   <!-- Blood rain -->
-  <!-- EN: The blood rain has driven {0} into a berserk rage! -->
-  <Berserk_BloodRain>Кровавый дождь не проходит бесследно... {0} впадает в безрассудную ярость!</Berserk_BloodRain>
-  <!-- EN: The blood rain has driven {0} into a manhunting rage! -->
-  <Manhunter_BloodRain>Кровавый дождь не проходит бесследно... {0} впадает в убийственную ярость!</Manhunter_BloodRain>
+  <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
+  <Berserk_BloodRain>Кровавый дождь не проходит бесследно... {0_nameIndef} впадает в безрассудную ярость!</Berserk_BloodRain>
+  <!-- EN: The blood rain has driven {0_nameIndef} into a manhunting rage! -->
+  <Manhunter_BloodRain>Кровавый дождь не проходит бесследно... {0_nameIndef} впадает в убийственную ярость!</Manhunter_BloodRain>
   <!-- EN: This happened because of blood rage buildup. -->
   <MentalBreakReason_BloodRage>Это произошло из-за накопления кровавой ярости.</MentalBreakReason_BloodRage>
   
@@ -886,5 +886,8 @@
   <AnomalyFrequency_Intense>частые</AnomalyFrequency_Intense>
   <!-- EN: Overwhelming -->
   <AnomalyFrequency_Overwhelming>постоянные</AnomalyFrequency_Overwhelming>
+  
+  <!-- EN: Security doors only -->
+  <SecurityDoorsOnly>Только защитные двери</SecurityDoorsOnly>
   
 </LanguageData>
