@@ -1,0 +1,29 @@
+name: main-tests
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Define branch name'     
+        required: true
+        default: 'master'
+
+jobs:
+  check-pawn-gender-macro-same-value:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Find bad lines
+        run: |
+          if [ $(grep -r -o -i --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : \1}" ./ | wc -l) == 0 ];
+          then
+            echo "No same values in the macro"
+            exit 0
+          else
+            echo "Found same values in PAWN_gender macro"
+            grep -r -o -n -i --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : \1}" ./
+            exit 1
+          fi
