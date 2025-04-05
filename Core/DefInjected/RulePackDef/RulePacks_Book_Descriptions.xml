@@ -215,6 +215,79 @@
     <li>thisWritingQualityBook->Эта [writingQualityAdjective_fem] [bookType_fem]</li>
     <li>inThisWritingQualityBook->Это [writingQualityAdjective_masc] [bookType_masc], в котором</li>
     <li>inThisWritingQualityBook->Это [writingQualityAdjective_fem] [bookType_fem], в которой</li>
+    <li>followsAPersonJob->знакомит читателя с неким [PersonJob_masc_ins] и рассказывает</li>
+    <li>followsAPersonJob->описывает похождения одного [PersonJob_masc_gen], раскрывая подробности</li>
+    <li>followsAPersonJob->рассказывает об истории одного [PersonJob_masc_gen] —</li>
+    <li>followsAPersonJob->говорит от лица некоего [PersonJob_masc_gen]</li>
+    <li>storyStruggles->[struggles] [opponent]</li>
+    <li>storyStruggles->[seeks] [seekObjective]</li>
+    <li>writingQualitySentence(quality>4)->[excellentDesc][excellentExtra]</li>
+    <li>writingQualitySentence(quality&lt;5,quality>1)->[decentDesc][decentExtra]</li>
+    <li>writingQualitySentence(quality&lt;2)->[awfulDesc] [awfulExtra]</li>
+    <li>maybe_date-></li>
+    <li>maybe_date(p=1.5)->\n\n[published] [date_form].</li>
+    <li>maybe_date(p=0.5)->\n\nЗа давностью лет от даты, когда [published], осталось лишь различимое: [date_season].</li>
+    <li>maybe_date->\n\nО времени написания этой книги совершенно ничего не известно.</li>
+    <li>novelAuthor(ANYPAWN_gender==Male)->[ANYPAWN_nameFull]</li>
+    <li>novelAuthor(ANYPAWN_gender==Female)->[ANYPAWN_nameFull]</li>
+    <li>novelAuthor(ANYPAWN_gender==Male,p=2)->неназванный [authorTitle]</li>
+    <li>novelAuthor(ANYPAWN_gender==Female,p=2)->неназванная [authorTitle_fem]</li>
+    <li>tellsAStoryOf->рассказывает о</li>
+    <li>tellsAStoryOf->подробно рассказывает о</li>
+    <li>tellsAStoryOf->раскрывает историю о</li>
+    <li>tellsAStoryOf->рассказывает историю о</li>
+    <li>tellsAStoryOf->сплетает повествование о</li>
+    <li>tellsAStoryOf->рисует картину о</li>
+    <li>tellsAStoryOf->погружается в детали о</li>
+    <li>tellsAStoryOf->распутывает историю о</li>
+    <li>tellsAStoryOf->акцентирует внимание на</li>
+    <li>tellsAStoryOf->проливает свет на историю о</li>
+    <li>tellsAStoryOf->сплетает рассказ о</li>
+    <li>tellsAStoryOf->описывает впечатления о</li>
+    <li>tellsAStoryOf->пускается в рассказ о</li>
+    <li>tellsAStoryOf->описывает историю о</li>
+    <li>tellsAStoryOf->затрагивает историю о</li>
+    <li>tellsAStoryOf->представляет рассказ о</li>
+    <li>tellsAStoryOf->углубляется в историю о</li>
+    <li>tellsAStoryOf->освещает историю о</li>
+    <li>tellsAStoryOf->запечатлевает сагу о</li>
+    <li>tellsAStoryOf->рисует яркую картину о</li>
+    <li>tellsAStoryOf->плетёт гобелен о</li>
+    <li>tellsAStoryOf->представляет хронику о</li>
+    <li>storySource->своём личном опыте</li>
+    <li>storySource->своей юности</li>
+    <li>storySource->своём детстве</li>
+    <li>storySource->своей нации</li>
+    <li>storySource->своей родной планете</li>
+    <li>storySource->своём дедушке</li>
+    <li>storySource->своей бабушке</li>
+    <li>storySource->своём опыте участия в войне</li>
+    <li>storySource->своих глубочайших страхах</li>
+    <li>storySource->своей мечте совершить путешествие к звёздам</li>
+    <li>storySource->том, почему [ANYPAWN_pronoun] любит [Vegetables_acc]</li>
+    <li>storySource(ANYPAWN_gender==Male)->своей бытности [PersonJob_masc_ins]</li>
+    <li>storySource->том, почему [ANYPAWN_pronoun] предпочитает [Weapon_acc] другому оружию</li>
+    <li>storySource->своём опыте сражения против [Mechanoid_gen]</li>
+    <li>storySource->своей юности, проведённой в [Community_prep]</li>
+    <li>storySource->[ANYPAWN_possessive] гигантских размеров [Bodypart_pre]</li>
+    <li>storySource->своём потерянном друге</li>
+    <li>storySource->своей страсти к музыке</li>
+    <li>storySource->своём любопытстве к древним руинам</li>
+    <li>storySource->своей привязанности к семейной реликвии</li>
+    <li>storySource->своём очаровании таинственным изображением</li>
+    <li>storySource->своих усилиях по сохранению исчезающего языка</li>
+    <li>storySource->своих мечтах изобрести что-нибудь новаторское</li>
+    <li>storySource->своей связи с мифическим существом</li>
+    <li>storySource->своём вдохновении определёнными пейзажами</li>
+    <li>storySource(ANYPAWN_gender==Male)->своём стремлении стать известным [PersonJob_masc_ins]</li>
+    <li>storySource->своей борьбе с социальными волнениями</li>
+    <li>storySource->своей жажде приключений за горизонтом</li>
+    <li>storySource->своих былых пиратских приключениях в прошлом</li>
+    <li>storySource->своей привязанности к роботу-компаньону</li>
+    <li>storySource->своих тесных связях с тайным обществом</li>
+    <li>storySource->своём опыте кочевого образа жизни</li>
+    <li>storySource->своём увлечении путешествиями во времени</li>
+    <li>storySource->своей связи с легендарным артефактом</li>
     <li>writingQualityAdjective_masc(quality==6)->необычайно захватывающий</li>
     <li>writingQualityAdjective_masc(quality==5)->изящный и содержательный</li>
     <li>writingQualityAdjective_masc(quality==4)->продуманный и выразительный</li>
@@ -236,12 +309,6 @@
     <li>bookType_fem->повесть</li>
     <li>bookType_fem->биография</li>
     <li>bookType_fem->эпическая поэма</li>
-    <li>followsAPersonJob->знакомит читателя с неким [PersonJob_masc_ins] и рассказывает</li>
-    <li>followsAPersonJob->описывает похождения одного [PersonJob_masc_gen], раскрывая подробности</li>
-    <li>followsAPersonJob->рассказывает об истории одного [PersonJob_masc_gen] —</li>
-    <li>followsAPersonJob->говорит от лица некоего [PersonJob_masc_gen]</li>
-    <li>storyStruggles->[struggles] [opponent]</li>
-    <li>storyStruggles->[seeks] [seekObjective]</li>
     <li>struggles->борется</li>
     <li>struggles->сражается</li>
     <li>struggles->вступает в схватку</li>
@@ -305,79 +372,6 @@
     <li>seekObjective->старого друга в новом городе</li>
     <li>seekObjective->острые ощущения от забытого хобби</li>
     <li>seekObjective->хоть единственный миг искреннего счастья</li>
-    <li>novelAuthor(ANYPAWN_gender==Male)->[ANYPAWN_nameFull]</li>
-    <li>novelAuthor(ANYPAWN_gender==Female)->[ANYPAWN_nameFull]</li>
-    <li>novelAuthor(ANYPAWN_gender==Male,p=2)->неназванный [authorTitle]</li>
-    <li>novelAuthor(ANYPAWN_gender==Female,p=2)->неназванная [authorTitle_fem]</li>
-    <li>authorTitle->автор</li>
-    <li>authorTitle->романист</li>
-    <li>authorTitle->писатель</li>
-    <li>authorTitle->поэт</li>
-    <li>authorTitle->сказитель</li>
-    <li>authorTitle_fem->сочинительница</li>
-    <li>authorTitle_fem->романистка</li>
-    <li>authorTitle_fem->писательница</li>
-    <li>authorTitle_fem->поэтесса</li>
-    <li>authorTitle_fem->сказительница</li>
-    <li>tellsAStoryOf->рассказывает о</li>
-    <li>tellsAStoryOf->подробно рассказывает о</li>
-    <li>tellsAStoryOf->раскрывает историю о</li>
-    <li>tellsAStoryOf->рассказывает историю о</li>
-    <li>tellsAStoryOf->сплетает повествование о</li>
-    <li>tellsAStoryOf->рисует картину о</li>
-    <li>tellsAStoryOf->погружается в детали о</li>
-    <li>tellsAStoryOf->распутывает историю о</li>
-    <li>tellsAStoryOf->акцентирует внимание на</li>
-    <li>tellsAStoryOf->проливает свет на историю о</li>
-    <li>tellsAStoryOf->сплетает рассказ о</li>
-    <li>tellsAStoryOf->описывает впечатления о</li>
-    <li>tellsAStoryOf->пускается в рассказ о</li>
-    <li>tellsAStoryOf->описывает историю о</li>
-    <li>tellsAStoryOf->затрагивает историю о</li>
-    <li>tellsAStoryOf->представляет рассказ о</li>
-    <li>tellsAStoryOf->углубляется в историю о</li>
-    <li>tellsAStoryOf->освещает историю о</li>
-    <li>tellsAStoryOf->запечатлевает сагу о</li>
-    <li>tellsAStoryOf->рисует яркую картину о</li>
-    <li>tellsAStoryOf->плетёт гобелен о</li>
-    <li>tellsAStoryOf->представляет хронику о</li>
-    <li>storySource->своём личном опыте</li>
-    <li>storySource->своей юности</li>
-    <li>storySource->своём детстве</li>
-    <li>storySource->своей нации</li>
-    <li>storySource->своей родной планете</li>
-    <li>storySource->своём дедушке</li>
-    <li>storySource->своей бабушке</li>
-    <li>storySource->своём опыте участия в войне</li>
-    <li>storySource->своих глубочайших страхах</li>
-    <li>storySource->своей мечте совершить путешествие к звёздам</li>
-    <li>storySource->том, почему [ANYPAWN_pronoun] любит [Vegetables_acc]</li>
-    <li>storySource(ANYPAWN_gender==Male)->своей бытности [PersonJob_masc_ins]</li>
-    <li>storySource->том, почему [ANYPAWN_pronoun] предпочитает [Weapon_acc] другому оружию</li>
-    <li>storySource->своём опыте сражения против [Mechanoid_gen]</li>
-    <li>storySource->своей юности, проведённой в [Community_prep]</li>
-    <li>storySource->[ANYPAWN_possessive] гигантских размеров [Bodypart_pre]</li>
-    <li>storySource->своём потерянном друге</li>
-    <li>storySource->своей страсти к музыке</li>
-    <li>storySource->своём любопытстве к древним руинам</li>
-    <li>storySource->своей привязанности к семейной реликвии</li>
-    <li>storySource->своём очаровании таинственным изображением</li>
-    <li>storySource->своих усилиях по сохранению исчезающего языка</li>
-    <li>storySource->своих мечтах изобрести что-нибудь новаторское</li>
-    <li>storySource->своей связи с мифическим существом</li>
-    <li>storySource->своём вдохновении определёнными пейзажами</li>
-    <li>storySource(ANYPAWN_gender==Male)->своём стремлении стать известным [PersonJob_masc_ins]</li>
-    <li>storySource->своей борьбе с социальными волнениями</li>
-    <li>storySource->своей жажде приключений за горизонтом</li>
-    <li>storySource->своих былых пиратских приключениях в прошлом</li>
-    <li>storySource->своей привязанности к роботу-компаньону</li>
-    <li>storySource->своих тесных связях с тайным обществом</li>
-    <li>storySource->своём опыте кочевого образа жизни</li>
-    <li>storySource->своём увлечении путешествиями во времени</li>
-    <li>storySource->своей связи с легендарным артефактом</li>
-    <li>writingQualitySentence(quality>4)->[excellentDesc][excellentExtra]</li>
-    <li>writingQualitySentence(quality&lt;5,quality>1)->[decentDesc][decentExtra]</li>
-    <li>writingQualitySentence(quality&lt;2)->[awfulDesc] [awfulExtra]</li>
     <li>excellentDesc->[storyElement] волнительного [story_no_ending]я заставляет бешено колотиться сердце</li>
     <li>excellentDesc->Это вдумчивое исследование человеческого духа</li>
     <li>excellentDesc->[story_no_ending]е глубоко проницательно в отношении сложности мироустройства</li>
@@ -390,14 +384,6 @@
     <li>excellentExtra->. По меньшей мере трижды читатель испытает широкий спектр эмоций</li>
     <li>excellentExtra->. Повороты сюжета непредсказуемы, но в то же время кажутся неизбежными</li>
     <li>excellentExtra->. Персонажи будто превращаются в реальных людей</li>
-    <li>storyElement(uses=1)->завязка</li>
-    <li>storyElement(uses=1)->кульминация</li>
-    <li>storyElement(uses=1)->развязка</li>
-    <li>story_no_ending->повествовани</li>
-    <li>story_no_ending->произведени</li>
-    <li>story_no_ending->сочинени</li>
-    <li>story_no_ending->изложени</li>
-    <li>story_no_ending->бытописани</li>
     <li>decentDesc->[story_no_ending]е достойное</li>
     <li>decentDesc->[story_no_ending]е интересное и увлекательное</li>
     <li>decentDesc->[story_no_ending]е сосредоточенно на одной интересной идее</li>
@@ -430,15 +416,29 @@
     <li>awfulExtra->какие-либо интересные идеи напрочь отсутствуют</li>
     <li>awfulExtra->каждый персонаж весьма скучен</li>
     <li>awfulExtra->протагониста едва ли возможно определить</li>
-    <li>maybe_date-></li>
-    <li>maybe_date(p=1.5)->\n\n[published] [date_form].</li>
-    <li>maybe_date(p=0.5)->\n\nЗа давностью лет от даты, когда [published], осталось лишь различимое: [date_season].</li>
-    <li>maybe_date->\n\nО времени написания этой книги совершенно ничего не известно.</li>
     <li>published->книга была опубликована</li>
     <li>published->текст был впервые напечатан</li>
     <li>date_form->совсем недавно</li>
     <li>date_form->много столетий назад</li>
     <li>date_form->[date]</li>
+    <li>authorTitle->автор</li>
+    <li>authorTitle->романист</li>
+    <li>authorTitle->писатель</li>
+    <li>authorTitle->поэт</li>
+    <li>authorTitle->сказитель</li>
+    <li>authorTitle_fem->сочинительница</li>
+    <li>authorTitle_fem->романистка</li>
+    <li>authorTitle_fem->писательница</li>
+    <li>authorTitle_fem->поэтесса</li>
+    <li>authorTitle_fem->сказительница</li>
+    <li>storyElement(uses=1)->завязка</li>
+    <li>storyElement(uses=1)->кульминация</li>
+    <li>storyElement(uses=1)->развязка</li>
+    <li>story_no_ending->повествовани</li>
+    <li>story_no_ending->произведени</li>
+    <li>story_no_ending->сочинени</li>
+    <li>story_no_ending->изложени</li>
+    <li>story_no_ending->бытописани</li>
   </Description_Novel.rulePack.rulesStrings>
   
   <!-- EN:
