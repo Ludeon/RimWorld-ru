@@ -1098,12 +1098,12 @@
     <li>maybe_outro->\n\n[appearance].</li>
     <li>appearance(p=3)->[physDesc]</li>
     <li>appearance->[nonphysDesc]</li>
-    <li>subjectIntro->в [document_certain]е [shown_no_ending]ы [state_adj_plural] [diagrams], описывающие особенности [subject_gen]</li>
-    <li>subjectIntro->в [document_certain]е [shown_no_ending]о авторское исследование [subject_gen]</li>
-    <li>subjectIntro->[physical_adj_no_ending]ый [document_certain] содержит [diagrams], описывающие представления автора [subject_pre_about]</li>
-    <li>subjectIntro->автор использовал [notable_adj_no_ending]ые [images], чтобы передать своё представление [subject_pre_about]</li>
+    <li>subjectIntro->в этом [document_certain]е [shown_no_ending]ы [state_adj_plural] [diagrams], иллюстрирующие особенности [subject_gen]</li>
+    <li>subjectIntro->в этом [physical_adj_no_ending]ом [document_certain]е представлено авторское исследование [subject_gen]</li>
+    <li>subjectIntro->этот [physical_adj_no_ending]ый [document_certain] содержит [diagrams], иллюстрирующие представления автора [subject_pre_about]</li>
+    <li>subjectIntro->этот [document_certain] содержит [notable_adj_no_ending]ые [images], которыми автор передал свои представления [subject_pre_about]</li>
     <li>subjectIntro->в этом [physical_adj_no_ending]ом [document_certain]е [shown_no_ending]ы [images] [devices_gen], имеющих прямое отношение к [subject_dat]</li>
-    <li>subjectIntro(has_subject_secondary==true,p=2)->в [document_certain]е [shown_no_ending]ы [state_adj_plural] [diagrams], описывающие особенности [subject_gen] и [subject2_gen]</li>
+    <li>subjectIntro(has_subject_secondary==true,p=2)->в этом [document_certain]е [shown_no_ending]ы [state_adj_plural] [diagrams], иллюстрирующие особенности [subject_gen] и [subject2_gen]</li>
     <li>subjectIntro(has_subject_secondary==true,p=2)->в этом [physical_adj_no_ending]ом [document_certain]е [shown_no_ending]ы [images] [devices_gen], имеющих прямое отношение к [subject_dat] и [subject2_dat]</li>
     <li>schematicDesc_first->описанная здесь древняя технология [subject_primary_gerund] примитивна в сравнении с современными системами</li>
     <li>schematicDesc_first(p=0.5)->здесь представлен всего лишь фрагмент полного [schematic_synonym_gen_masc], описывающего технологию [subject_primary_gerund]</li>
@@ -1169,7 +1169,7 @@
     <li>authorStory_intent->[schematicAuthor] [author_turned] изучение [subject_gen] в дело всей своей жизни</li>
     <li>authorStory_intent->[schematicAuthor] [author_felt] необходимость поделиться своим пониманием [subject_gen] и [author_outlined] его в этом [physical_adj_no_ending]ом [document_common]е, который [author_created] [writtenWhen]</li>
     <li>authorStory_intent->[schematicAuthor] не [author_knew] более высокого призвания, чем изучение [subject_gen], и [author_created] этот [document_common] [writtenWhen]</li>
-    <li>authorStory_intent->[schematicAuthor] случайно [author_happened_across] на информацию [subject_pre_about] в [physical_adj_no_ending]ом кабинете [ANYPAWN_possessive] [PersonFamily_gen]</li>
+    <li>authorStory_intent->[schematicAuthor] случайно [author_happened_across] на информацию [subject_pre_about] в кабинете [ANYPAWN_possessive] [PersonFamily_gen]</li>
     <li>authorStory_intent->В детстве [schematicAuthor] тяжело [author_was_ill], но [author_used] это время для изучения [subject_gen]</li>
     <li>authorStory_intent->[schematicAuthor] [author_wanted], чтобы мир узнал [subject_pre_about], и [author_created] этот [document_common] [writtenWhen]</li>
     <li>authorStory_intent->[schematicAuthor] [author_wanted], чтобы вся галактика узнала [subject_pre_about]</li>
@@ -1322,12 +1322,12 @@
     <li>document_certain(uses=1)->конспект</li>
     <li>document_certain(uses=1)->реферат</li>
     <li>document_certain(priority=-1)->труд</li>
-    <li>shown_no_ending->продемонстрирован</li>
+    <li>shown_no_ending->приведен</li>
     <li>shown_no_ending->показан</li>
     <li>shown_no_ending->изображен</li>
     <li>shown_no_ending->представлен</li>
     <li>state_adj_plural->черновые</li>
-    <li>state_adj_plural->завершённые</li>
+    <li>state_adj_plural->подробные</li>
     <li>state_adj_plural->незавершённые</li>
     <li>state_adj_plural->комплексные</li>
     <li>diagrams->графики</li>
@@ -1335,18 +1335,19 @@
     <li>diagrams->диаграммы</li>
     <li>diagrams->инфографики</li>
     <li>diagrams->таблицы</li>
+    <li>physical_adj_no_ending->опалённ</li>
+    <li>physical_adj_no_ending->потёрт</li>
+    <li>physical_adj_no_ending->потрёпанн</li>
     <li>physical_adj_no_ending->стар</li>
-    <li>physical_adj_no_ending->крошечн</li>
-    <li>physical_adj_no_ending->миниатюрн</li>
-    <li>physical_adj_no_ending->огромн</li>
-    <li>physical_adj_no_ending->громадн</li>
+    <li>physical_adj_no_ending->толст</li>
+    <li>physical_adj_no_ending->объёмист</li>
+    <li>physical_adj_no_ending->увесист</li>
     <li>physical_adj_no_ending->незатейлив</li>
     <li>physical_adj_no_ending->незамысловат</li>
     <li>physical_adj_no_ending->скромн</li>
-    <li>physical_adj_no_ending(quality>3,p=2)->элегантн</li>
+    <li>physical_adj_no_ending(quality>3,p=2)->солидн</li>
     <li>physical_adj_no_ending(quality>3,p=2)->изысканн</li>
-    <li>physical_adj_no_ending(quality>3,p=2)->изящн</li>
-    <li>physical_adj_no_ending(quality>3,p=2)->нов</li>
+    <li>physical_adj_no_ending(quality>3,p=2)->красив</li>
     <li>notable_adj_no_ending->известн</li>
     <li>notable_adj_no_ending->малопонятн</li>
     <li>notable_adj_no_ending->символичн</li>
