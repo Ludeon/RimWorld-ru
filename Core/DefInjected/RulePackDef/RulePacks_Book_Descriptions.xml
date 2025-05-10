@@ -225,8 +225,8 @@
     <li>writingQualitySentence(quality&lt;5,quality>1)->[decentDesc][decentExtra]</li>
     <li>writingQualitySentence(quality&lt;2)->[awfulDesc] [awfulExtra]</li>
     <li>maybe_date-></li>
-    <li>maybe_date(p=1.5)->\n\n[published] [date_form].</li>
-    <li>maybe_date(p=0.5)->\n\nЗа давностью лет от даты, когда [published], осталось лишь различимое: [date_season].</li>
+    <li>maybe_date(p=1.5)->\n\n[published] [date_form]</li>
+    <li>maybe_date(p=0.5)->\n\nЗа давностью лет от даты, когда [published], осталось лишь различимое: [date_season]</li>
     <li>maybe_date->\n\nО времени написания этой книги совершенно ничего не известно.</li>
     <li>novelAuthor(ANYPAWN_gender==Male)->[ANYPAWN_nameFull]</li>
     <li>novelAuthor(ANYPAWN_gender==Female)->[ANYPAWN_nameFull]</li>
@@ -418,8 +418,8 @@
     <li>awfulExtra->протагониста едва ли возможно определить</li>
     <li>published->книга была опубликована</li>
     <li>published->текст был впервые напечатан</li>
-    <li>date_form->совсем недавно</li>
-    <li>date_form->много столетий назад</li>
+    <li>date_form->совсем недавно.</li>
+    <li>date_form->много столетий назад.</li>
     <li>date_form->[date]</li>
     <li>authorTitle->автор</li>
     <li>authorTitle->романист</li>
@@ -1094,7 +1094,7 @@
     <li>subjectConsequence_straight->[linkage] [subject_primary_story]</li>
     <li>maybe_outro(p=5)-></li>
     <li>maybe_outro->[aftermath].</li>
-    <li>maybe_outro->\n\n[dates].</li>
+    <li>maybe_outro->\n\n[dates]</li>
     <li>maybe_outro->\n\n[appearance].</li>
     <li>appearance(p=3)->[physDesc]</li>
     <li>appearance->[nonphysDesc]</li>
@@ -1229,7 +1229,7 @@
     <li>aftermath->История заканчивается техническим описанием того, как [schematicAuthor] [author_worked] на [worldname_pre].\n\n[subjectChat]</li>
     <li>dates(p=1.5)->[published] [date_form]</li>
     <li>dates(p=0.5)->За давностью лет от даты, когда [published], осталось лишь различимое: [date_season]</li>
-    <li>dates->О времени создания этого [document_certain]а совершенно ничего не известно</li>
+    <li>dates->О времени создания этой работы совершенно ничего не известно.</li>
     <li>physDesc(quality&lt;5,quality>1)->[physicalYetStatement]</li>
     <li>physDesc(quality&lt;4)->[negativePhysicalStatement_1]</li>
     <li>physDesc(quality>3)->[positivePhysicalStatement_1]</li>
@@ -1281,8 +1281,8 @@
     <li>subjectChat->Несмотря на то что [diagrams] выцвели, наставления автора очень ценны</li>
     <li>published->[document_certain] был опубликован</li>
     <li>published->[document_certain] был впервые напечатан</li>
-    <li>date_form->совсем недавно</li>
-    <li>date_form->много столетий назад</li>
+    <li>date_form->совсем недавно.</li>
+    <li>date_form->много столетий назад.</li>
     <li>date_form->[date]</li>
     <li>physicalYetStatement(quality&lt;5,quality>1)->[negativePhysicalStatement_1], но [positivePhysicalStatement_2]</li>
     <li>physicalYetStatement(quality&lt;5,quality>1)->[positivePhysicalStatement_1], но [negativePhysicalStatement_2]</li>
