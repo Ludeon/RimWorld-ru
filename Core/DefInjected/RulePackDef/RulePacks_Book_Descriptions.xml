@@ -1098,13 +1098,13 @@
     <li>maybe_outro->\n\n[appearance].</li>
     <li>appearance(p=3)->[physDesc]</li>
     <li>appearance->[nonphysDesc]</li>
-    <li>subjectIntro->в этом [document_certain]е [shown_no_ending]ы [state_adj_plural] [diagrams], иллюстрирующие особенности [subject_gen]</li>
-    <li>subjectIntro->в этом [physical_adj_no_ending]ом [document_certain]е представлено авторское исследование [subject_gen]</li>
-    <li>subjectIntro->этот [physical_adj_no_ending]ый [document_certain] содержит [diagrams], иллюстрирующие представления автора [subject_pre_about]</li>
-    <li>subjectIntro->этот [document_certain] содержит [notable_adj_no_ending]ые [images], которыми автор передал свои представления [subject_pre_about]</li>
-    <li>subjectIntro->в этом [physical_adj_no_ending]ом [document_certain]е [shown_no_ending]ы [images] [devices_gen], имеющих прямое отношение к [subject_dat]</li>
-    <li>subjectIntro(has_subject_secondary==true,p=2)->в этом [document_certain]е [shown_no_ending]ы [state_adj_plural] [diagrams], иллюстрирующие особенности [subject_gen] и [subject2_gen]</li>
-    <li>subjectIntro(has_subject_secondary==true,p=2)->в этом [physical_adj_no_ending]ом [document_certain]е [shown_no_ending]ы [images] [devices_gen], имеющих прямое отношение к [subject_dat] и [subject2_dat]</li>
+    <li>subjectIntro->в этом [document]е [shown_no_ending]ы [state_adj_plural] [diagrams], иллюстрирующие особенности [subject_gen]</li>
+    <li>subjectIntro->в этом [physical_adj_no_ending]ом [document]е представлено авторское исследование [subject_gen]</li>
+    <li>subjectIntro->этот [physical_adj_no_ending]ый [document] содержит [diagrams], иллюстрирующие представления автора [subject_pre_about]</li>
+    <li>subjectIntro->этот [document] содержит [notable_adj_no_ending]ые [images], которыми автор передал свои представления [subject_pre_about]</li>
+    <li>subjectIntro->в этом [physical_adj_no_ending]ом [document]е [shown_no_ending]ы [images] [devices_gen], имеющих прямое отношение к [subject_dat]</li>
+    <li>subjectIntro(has_subject_secondary==true,p=2)->в этом [document]е [shown_no_ending]ы [state_adj_plural] [diagrams], иллюстрирующие особенности [subject_gen] и [subject2_gen]</li>
+    <li>subjectIntro(has_subject_secondary==true,p=2)->в этом [physical_adj_no_ending]ом [document]е [shown_no_ending]ы [images] [devices_gen], имеющих прямое отношение к [subject_dat] и [subject2_dat]</li>
     <li>schematicDesc_first->описанная здесь древняя технология [subject_primary_gerund] примитивна в сравнении с современной концепцией</li>
     <li>schematicDesc_first(p=0.5)->здесь представлен всего лишь фрагмент полного [schematic_masc_gen], описывающего технологию [subject_primary_gerund]</li>
     <li>schematicDesc_first(p=0.5)->здесь представлен всего лишь фрагмент полной [schematic_fem_gen], описывающей технологию [subject_primary_gerund]</li>
@@ -1130,46 +1130,46 @@
     <li>schematicDesc_first(has_subject_secondary==true,has_subject_tertiary==true,p=2)->[attached_no_ending]ые [schematic_plural] описывают технологии как [subject_secondary_gerund], так и [subject_tertiary_gerund]</li>
     <li>schematicDesc_first(has_subject_secondary==true,has_subject_tertiary==true,p=3)->[attached_no_ending]ые [schematic_plural] описывают технологии [subject_primary_gerund], [subject_secondary_gerund] и [subject_tertiary_gerund]</li>
     <li>schematicDesc_second(quality&lt;2)->. Это усложняет освоение материала</li>
-    <li>schematicDesc_second(quality&lt;2)->, что делает этот [document_common] малопригодным для большинства задач</li>
-    <li>schematicDesc_second(quality&lt;2)->, что ставит под вопрос полезность этого [document_common]а</li>
-    <li>schematicDesc_second(quality&lt;2)->. Такой [document_common] может быть полезен разве что начинающим</li>
+    <li>schematicDesc_second(quality&lt;2)->, что делает этот [document_content] малопригодным для большинства задач</li>
+    <li>schematicDesc_second(quality&lt;2)->, что ставит под вопрос полезность этого [document_content]а</li>
+    <li>schematicDesc_second(quality&lt;2)->. Такой [document_content] может быть полезен разве что начинающим</li>
     <li>schematicDesc_second(quality&lt;2)->. Вводящая в заблуждение информация — это ещё хуже, чем её отсутствие</li>
-    <li>schematicDesc_second(quality&lt;2)->, что вызывает сомнения в пригодности этого [document_common]а</li>
-    <li>schematicDesc_second(quality&lt;5,quality>1)->, но основные постулаты изложены в этом [document_common]е во всей полноте</li>
-    <li>schematicDesc_second(quality&lt;5,quality>1)->, но всё же в этом [document_common]е имеется достаточно данных, чтобы извлечь из него полезную информацию</li>
-    <li>schematicDesc_second(quality&lt;5,quality>1)->, что, впрочем, не умаляет ценности этого [document_common]а для опытных практиков</li>
-    <li>schematicDesc_second(quality&lt;5,quality>1)->. Тем не менее этот [document_common] всё же имеет определённую ценность для большинства студентов</li>
-    <li>schematicDesc_second(quality&lt;5,quality>1)->. Однако начинающие специалисты всё равно смогут извлечь пользу из изложенных в этом [document_common]е положений</li>
-    <li>schematicDesc_second(quality&lt;5,quality>1)->. Хотя этого недостаточно, чтобы признать этот [document_common] бесполезным</li>
+    <li>schematicDesc_second(quality&lt;2)->, что вызывает сомнения в пригодности этого [document_content]а</li>
+    <li>schematicDesc_second(quality&lt;5,quality>1)->, но основные постулаты изложены в этом [document_content]е во всей полноте</li>
+    <li>schematicDesc_second(quality&lt;5,quality>1)->, но всё же в этом [document_content]е имеется достаточно данных, чтобы извлечь из него полезную информацию</li>
+    <li>schematicDesc_second(quality&lt;5,quality>1)->, что, впрочем, не умаляет ценности этого [document_content]а для опытных практиков</li>
+    <li>schematicDesc_second(quality&lt;5,quality>1)->. Тем не менее этот [document_content] всё же имеет определённую ценность для большинства студентов</li>
+    <li>schematicDesc_second(quality&lt;5,quality>1)->. Однако начинающие специалисты всё равно смогут извлечь пользу из изложенных в этом [document_content]е положений</li>
+    <li>schematicDesc_second(quality&lt;5,quality>1)->. Хотя этого недостаточно, чтобы признать этот [document_content] бесполезным</li>
     <li>schematicDesc_second(quality>4)->. Тем не менее содержание отличается исключительностью для той эпохи</li>
-    <li>schematicDesc_second(quality>4)->, однако в этом [document_common]е с лёгкостью излагаются прогрессивные подходы</li>
-    <li>schematicDesc_second(quality>4)->, но этот [document_common] всё равно полон мудрости для специалистов любой квалификации</li>
-    <li>schematicDesc_second(quality>4)->. Несмотря на это, изучение такого [document_common]а пойдет на пользу каждому студенту, независимо от его опыта</li>
-    <li>schematicDesc_second(quality>4)->, но эти проблемы незначительны по сравнению с тем богатством знаний, которые изложены в этом [document_common]е</li>
-    <li>schematicDesc_second(quality>4)->. Однако знания, изложенные в этом [document_common]е, неподвластны времени</li>
-    <li>medium->Встроенная в [document_certain] сенсорная система [tells_no_ending]ет [schematicOrigin]</li>
-    <li>medium->Содержащиеся внутри [document_certain]а свёрнутые личные бумаги [tells_no_ending]ют [schematicOrigin]</li>
-    <li>medium->Ограниченная информация на наклейке с обложки [document_certain]а [tells_no_ending]ет [schematicOrigin]</li>
-    <li>medium->Прилагаемая к [document_certain]у информационная брошюра [tells_no_ending]ет [schematicOrigin]</li>
-    <li>medium->Записи на незакреплённых листах [document_certain]а [tells_no_ending]ют [schematicOrigin]</li>
-    <li>medium->Текст на втором листе [document_certain]а [tells_no_ending]ет [schematicOrigin]</li>
-    <li>medium->Надписи на содержащихся в [document_certain]е каменных табличках [tells_no_ending]ют [schematicOrigin]</li>
-    <li>medium->Текст, выгравированный на пласталевой обложке [document_certain]а, [tells_no_ending]ет [schematicOrigin]</li>
-    <li>medium->Выпавшая из [document_certain]а нацарапанная записка [tells_no_ending]ет [schematicOrigin]</li>
-    <li>medium->Параграф в конце [document_certain]а [tells_no_ending]ет [schematicOrigin]</li>
-    <li>medium->Запись, воспроизводимая из встроенного в [document_certain] динамика, [tells_no_ending]ет [schematicOrigin]</li>
-    <li>medium->Примечания к [document_certain]у [tells_no_ending]ют [schematicOrigin]</li>
-    <li>medium->Записи в прилагаемом к [document_certain]у дневнике [tells_no_ending]ют [schematicOrigin]</li>
-    <li>medium->Прикреплённый к [document_certain]у архаичный механизм [tells_no_ending]ет [schematicOrigin]</li>
-    <li>medium->Оживший миниатюрный механоид, подключённый к [document_certain]у, с жужжанием [tells_no_ending]ет [schematicOrigin]</li>
+    <li>schematicDesc_second(quality>4)->, однако в этом [document_content]е с лёгкостью излагаются прогрессивные подходы</li>
+    <li>schematicDesc_second(quality>4)->, но этот [document_content] всё равно полон мудрости для специалистов любой квалификации</li>
+    <li>schematicDesc_second(quality>4)->. Несмотря на это, изучение такого [document_content]а пойдет на пользу каждому студенту, независимо от его опыта</li>
+    <li>schematicDesc_second(quality>4)->, но эти проблемы незначительны по сравнению с тем богатством знаний, которые изложены в этом [document_content]е</li>
+    <li>schematicDesc_second(quality>4)->. Однако знания, изложенные в этом [document_content]е, неподвластны времени</li>
+    <li>medium->Встроенная в [document] сенсорная система [tells_no_ending]ет [schematicOrigin]</li>
+    <li>medium->Содержащиеся внутри [document]а свёрнутые личные бумаги [tells_no_ending]ют [schematicOrigin]</li>
+    <li>medium->Ограниченная информация на наклейке с обложки [document]а [tells_no_ending]ет [schematicOrigin]</li>
+    <li>medium->Прилагаемая к [document]у информационная брошюра [tells_no_ending]ет [schematicOrigin]</li>
+    <li>medium->Записи на незакреплённых листах [document]а [tells_no_ending]ют [schematicOrigin]</li>
+    <li>medium->Текст на втором листе [document]а [tells_no_ending]ет [schematicOrigin]</li>
+    <li>medium->Надписи на содержащихся в [document]е каменных табличках [tells_no_ending]ют [schematicOrigin]</li>
+    <li>medium->Текст, выгравированный на пласталевой обложке [document]а, [tells_no_ending]ет [schematicOrigin]</li>
+    <li>medium->Выпавшая из [document]а нацарапанная записка [tells_no_ending]ет [schematicOrigin]</li>
+    <li>medium->Параграф в конце [document]а [tells_no_ending]ет [schematicOrigin]</li>
+    <li>medium->Запись, воспроизводимая из встроенного в [document] динамика, [tells_no_ending]ет [schematicOrigin]</li>
+    <li>medium->Примечания к [document]у [tells_no_ending]ют [schematicOrigin]</li>
+    <li>medium->Записи в прилагаемом к [document]у дневнике [tells_no_ending]ют [schematicOrigin]</li>
+    <li>medium->Прикреплённый к [document]у архаичный механизм [tells_no_ending]ет [schematicOrigin]</li>
+    <li>medium->Оживший миниатюрный механоид, подключённый к [document]у, с жужжанием [tells_no_ending]ет [schematicOrigin]</li>
     <li>authorStory_intent->[schematicAuthor] с юных лет [author_was_hungry] знаний [subject_pre_about] и [author_questioned] об этом всех в своём родном городе</li>
     <li>authorStory_intent->[schematicAuthor] [author_dreamed] возродить исследования [subject_gen] и совершить научную революцию на [worldname_pre]</li>
     <li>authorStory_intent->[schematicAuthor] [author_turned] изучение [subject_gen] в дело всей своей жизни</li>
-    <li>authorStory_intent->[schematicAuthor] [author_felt] необходимость поделиться своим пониманием [subject_gen] и [author_outlined] его в этом [physical_adj_no_ending]ом [document_common]е, который [author_created] [writtenWhen]</li>
-    <li>authorStory_intent->[schematicAuthor] не [author_knew] более высокого призвания, чем изучение [subject_gen], и [author_created] этот [document_common] [writtenWhen]</li>
+    <li>authorStory_intent->[schematicAuthor] [author_felt] необходимость поделиться своим пониманием [subject_gen] и [author_outlined] его в этом [physical_adj_no_ending]ом [document_content]е, который [author_created] [writtenWhen]</li>
+    <li>authorStory_intent->[schematicAuthor] не [author_knew] более высокого призвания, чем изучение [subject_gen], и [author_created] этот [document_content] [writtenWhen]</li>
     <li>authorStory_intent->[schematicAuthor] случайно [author_happened_across] на информацию [subject_pre_about] в кабинете [ANYPAWN_possessive] [PersonFamily_gen]</li>
     <li>authorStory_intent->В детстве [schematicAuthor] тяжело [author_was_ill], но [author_used] это время для изучения [subject_gen]</li>
-    <li>authorStory_intent->[schematicAuthor] [author_wanted], чтобы мир узнал [subject_pre_about], и [author_created] этот [document_common] [writtenWhen]</li>
+    <li>authorStory_intent->[schematicAuthor] [author_wanted], чтобы мир узнал [subject_pre_about], и [author_created] этот [document_content] [writtenWhen]</li>
     <li>authorStory_intent->[schematicAuthor] [author_wanted], чтобы вся галактика узнала [subject_pre_about]</li>
     <li>authorStory_intent->[schematicAuthor] [author_became_interested] изучением [subject_gen] благодаря серии детских книг</li>
     <li>authorStory_intent->[schematicAuthor] никогда не [author_loved] изучение [subject_gen], но [author_was] [author_obliged] этим заниматься</li>
@@ -1188,7 +1188,7 @@
     <li>authorStory_learning->[schematicAuthor] [author_was] наёмным экспертом по изучению [subject_gen] в компании центрального мира [coreworld]</li>
     <li>authorStory_learning->[schematicAuthor] [author_owned] фабриками на индустриальном мире [indworld]. В то время как [ANYPAWN_possessive] рабочие трудились не покладая рук, [ANYPAWN_pronoun] [author_indulged] изучению [subject_gen]</li>
     <li>authorStory_learning->[schematicAuthor] [author_learned] секреты [subject_gen], находясь в тюрьме Карцер-Сити V на [prisonworld_pre] и до момента освобождения постоянно заявляя о своей невиновности</li>
-    <li>authorStory_learning->Этот посвящённый [subject_dat] [document_common] [schematicAuthor] [author_created2] по кусочкам, находя выброшенные праздными жителями утопических миров фрагменты в кучах с отходами на мире-свалке [trashworld]</li>
+    <li>authorStory_learning->Этот посвящённый [subject_dat] [document] [schematicAuthor] [author_created2] по кусочкам, находя выброшенные праздными жителями утопических миров фрагменты в кучах с отходами на мире-свалке [trashworld]</li>
     <li>authorStory_learning->[schematicAuthor] [author_raised] на [dinoworld_pre] клонированных апатоядных животных и [author_traded] их мясо на информацию [subject_pre_about]</li>
     <li>authorStory_learning->[schematicAuthor] [author_lived2] среди небоскрёбов [urbworld_gen], где знание [subject_pre_about] было широко распространено</li>
     <li>authorStory_learning->[schematicAuthor] [author_grew_up] на внешних безжизненных просторах [ruinworld_gen], где [author_learned] секреты [subject_gen], для того чтобы выжить</li>
@@ -1217,12 +1217,12 @@
     <li>linkage->[eventually] [ANYPAWN_pronoun]</li>
     <li>linkage->[eventually] [ANYPAWN_pronoun] [author_ended_up] на [worldname_pre], где</li>
     <li>linkage->[eventually] [ANYPAWN_pronoun] [author_went_to] в дальний сектор [worldname_gen], где</li>
-    <li>aftermath->\n\nВ [document_certain]е больше ничего не сообщается об истории автора</li>
+    <li>aftermath->\n\nВ [document_content]е больше ничего не сообщается об истории автора</li>
     <li>aftermath->\n\nВ написанной другим почерком заметке говорится, что [schematicAuthor] [author_planned] побывать на [deathworld_pre]</li>
     <li>aftermath->\n\nПоследующие листы вырваны</li>
     <li>aftermath->\n\nОставшиеся листы окроплены коричневыми пятнами</li>
-    <li>aftermath->\n\nНевзирая на многие сложности, этот [document_certain] всё же был создан</li>
-    <li>aftermath->[schematicAuthor] [author_devoted] этому [document_certain]у свои последние годы</li>
+    <li>aftermath->\n\nНевзирая на многие сложности, этот [document_content] всё же был создан</li>
+    <li>aftermath->[schematicAuthor] [author_devoted] этому [document_content]у свои последние годы</li>
     <li>aftermath->В этой работе [schematicAuthor] [author_found2] покой.\n\n[subjectChat]</li>
     <li>aftermath->История заканчивается техническим описанием того, как [schematicAuthor] [author_worked] на [worldname_pre].\n\n[subjectChat]</li>
     <li>dates(p=1.5)->[published] [date_form]</li>
@@ -1232,8 +1232,8 @@
     <li>physDesc(quality&lt;4)->[negativePhysicalStatement_1]</li>
     <li>physDesc(quality>3)->[positivePhysicalStatement_1]</li>
     <li>physDesc(p=2)->[physicalYetStatement]</li>
-    <li>physDesc(quality&lt;3)->от этого [document_certain]а [badsmells] [stink]</li>
-    <li>physDesc(quality>4)->этот [document_certain] [smells] [scent]</li>
+    <li>physDesc(quality&lt;3)->от этого [document]а [badsmells] [stink]</li>
+    <li>physDesc(quality>4)->этот [document] [smells] [scent]</li>
     <li>nonphysDesc->[otherwordlyNonPhysDesc]</li>
     <li>nonphysDesc->[technicalNonPhysDesc]</li>
     <li>nonphysDesc->[academicNonPhysDesc]</li>
@@ -1273,12 +1273,12 @@
     <li>digressionSubject->о непродолжительности жизни нищих на [indworld_pre]</li>
     <li>digressionSubject->об адаптации мусорщиков на урбанизированных мирах, опустошённых глобальной войной с силами [worldname_gen]</li>
     <li>digressionSubject->об обмене нейтроамином в богатых небоскрёбах [coreworld_gen]</li>
-    <li>subjectChat->Этот [document_certain] свидетельствует об авторитете автора в данной сфере</li>
-    <li>subjectChat->Мало кто оспаривает выводы, содержащиеся в этом [document_certain]е</li>
-    <li>subjectChat->Этот [document_certain] послужит источником вдохновения для всех, кто интересуется этими вопросами</li>
+    <li>subjectChat->Этот [document_content] свидетельствует об авторитете автора в данной сфере</li>
+    <li>subjectChat->Мало кто оспаривает выводы, содержащиеся в этом [document_content]е</li>
+    <li>subjectChat->Этот [document_content] послужит источником вдохновения для всех, кто интересуется этими вопросами</li>
     <li>subjectChat->Несмотря на то что [diagrams] выцвели, наставления автора очень ценны</li>
-    <li>published->[document_certain] был опубликован</li>
-    <li>published->[document_certain] был впервые напечатан</li>
+    <li>published->[document_content] был опубликован</li>
+    <li>published->[document_content] был впервые напечатан</li>
     <li>date_form->совсем недавно.</li>
     <li>date_form->много столетий назад.</li>
     <li>date_form->[date]</li>
@@ -1286,40 +1286,42 @@
     <li>physicalYetStatement(quality&lt;5,quality>1)->[positivePhysicalStatement_1], но вот [negativePhysicalStatement_2]</li>
     <li>physicalYetStatement(quality>4)->[positivePhysicalStatement_1], а [positivePhysicalStatement_2]</li>
     <li>physicalYetStatement(quality&lt;2)->[negativePhysicalStatement_1], а [negativePhysicalStatement_2]</li>
-    <li>negativePhysicalStatement_1->изодранный переплёт этого [document_certain]а изготовлен из старой телячьей кожи</li>
-    <li>negativePhysicalStatement_1->истлевший и липнущий к рукам переплёт этого [document_certain]а изготовлен из грубого картона</li>
-    <li>negativePhysicalStatement_1->измазанный непонятным веществом с кисловатым запахом переплёт этого [document_certain]а изготовлен из ветхого коленкора</li>
+    <li>negativePhysicalStatement_1->изодранный переплёт этого [document]а изготовлен из старой телячьей кожи</li>
+    <li>negativePhysicalStatement_1->истлевший и липнущий к рукам переплёт этого [document]а изготовлен из грубого картона</li>
+    <li>negativePhysicalStatement_1->измазанный непонятным веществом с кисловатым запахом переплёт этого [document]а изготовлен из ветхого коленкора</li>
     <li>negativePhysicalStatement_2->титульный лист исписан одним из учеников автора</li>
     <li>negativePhysicalStatement_2->под обложкой завелись личинки, и из-под неё вылетают мухи</li>
     <li>negativePhysicalStatement_2->листы сделаны из рассохшегося пергамента</li>
     <li>negativePhysicalStatement_2->листы испачканы красными чернилами</li>
-    <li>positivePhysicalStatement_1->сияющий новизной переплёт этого [document_certain]а инкрустирован полудрагоценными пластиками</li>
-    <li>positivePhysicalStatement_1->переплёт этого приятно тёплого на ощупь [document_certain]а обрамлён золотом</li>
-    <li>positivePhysicalStatement_1->сверкающий чистотой сафьяновый переплёт этого [document_certain]а имеет фирменный оттиск авторитетного издательства центрального мира «Схематики [coreworld_gen]»</li>
+    <li>positivePhysicalStatement_1->сияющий новизной переплёт этого [document]а инкрустирован полудрагоценными пластиками</li>
+    <li>positivePhysicalStatement_1->переплёт этого приятно тёплого на ощупь [document]а обрамлён золотом</li>
+    <li>positivePhysicalStatement_1->сверкающий чистотой сафьяновый переплёт этого [document]а имеет фирменный оттиск авторитетного издательства центрального мира «Схематики [coreworld_gen]»</li>
     <li>positivePhysicalStatement_2->листы в безупречном состоянии</li>
     <li>positivePhysicalStatement_2->листы сделаны из тонкого пласталеподобного материала</li>
     <li>positivePhysicalStatement_2->каждый лист сделан из гибкой пластины с алмазоподобной структурой</li>
     <li>positivePhysicalStatement_2->листы будто только что были напечатаны</li>
-    <li>otherwordlyNonPhysDesc->если некоторое время подержать в руках этот [document_certain], всё вокруг начинает словно плыть перед глазами</li>
-    <li>otherwordlyNonPhysDesc->от одного взгляда на этот [document_certain] начинает болеть голова</li>
-    <li>otherwordlyNonPhysDesc->при взгляде на этот [document_certain] краем глаза можно заметить движение рун</li>
-    <li>otherwordlyNonPhysDesc->пространство вокруг этого [document_certain]а наполнено многоголосым шёпотом</li>
-    <li>otherwordlyNonPhysDesc->этот [document_certain] несёт на себе психический отпечаток чего-то невероятно древнего</li>
-    <li>technicalNonPhysDesc->сложность этого [document_certain]а выходит за рамки понимания обычного человека</li>
-    <li>technicalNonPhysDesc->необычная символика на страницах этого [document_certain]а заимствована из исчезнувшего импидского диалекта</li>
-    <li>technicalNonPhysDesc->страницы этого [document_certain]а пронизывают провода, но встроенный механизм практически не работает</li>
-    <li>technicalNonPhysDesc->в материалах этого [document_certain]а один и тот же алгоритм объясняется автором на трёх разных языках</li>
-    <li>academicNonPhysDesc->этот [document_certain] посвящён вдохновившему автора инжу-наставнику</li>
-    <li>academicNonPhysDesc->этот [document_certain] помечен гербом учреждения, которое спонсировало автора</li>
+    <li>otherwordlyNonPhysDesc->если некоторое время подержать в руках этот [document], всё вокруг начинает словно плыть перед глазами</li>
+    <li>otherwordlyNonPhysDesc->от одного взгляда на этот [document] начинает болеть голова</li>
+    <li>otherwordlyNonPhysDesc->при взгляде на этот [document] краем глаза можно заметить движение рун</li>
+    <li>otherwordlyNonPhysDesc->пространство вокруг этого [document]а наполнено многоголосым шёпотом</li>
+    <li>otherwordlyNonPhysDesc->этот [document] несёт на себе психический отпечаток чего-то невероятно древнего</li>
+    <li>technicalNonPhysDesc->сложность этого [document]а выходит за рамки понимания обычного человека</li>
+    <li>technicalNonPhysDesc->необычная символика на страницах этого [document]а заимствована из исчезнувшего импидского диалекта</li>
+    <li>technicalNonPhysDesc->страницы этого [document]а пронизывают провода, но встроенный механизм практически не работает</li>
+    <li>technicalNonPhysDesc->в материалах этого [document]а один и тот же алгоритм объясняется автором на трёх разных языках</li>
+    <li>academicNonPhysDesc->этот [document] посвящён вдохновившему автора инжу-наставнику</li>
+    <li>academicNonPhysDesc->этот [document] помечен гербом учреждения, которое спонсировало автора</li>
     <li>subject_gen->[subject_primary_gen]</li>
     <li>subject_dat->[subject_primary_dat]</li>
     <li>subject_pre_about->[subject_primary_pre_about]</li>
     <li>subject2_gen->[subject_secondary_gen]</li>
     <li>subject2_dat->[subject_secondary_dat]</li>
-    <li>document_certain(uses=1)->компендиум</li>
-    <li>document_certain(uses=1)->конспект</li>
-    <li>document_certain(uses=1)->реферат</li>
-    <li>document_certain(priority=-1)->труд</li>
+    <li>document(priority=1,uses=1)->[doc]</li>
+    <li>document->документ</li>
+    <li>doc->атлас</li>
+    <li>doc->альбом</li>
+    <li>doc->справочник</li>
+    <li>doc->журнал</li>
     <li>shown_no_ending->приведен</li>
     <li>shown_no_ending->показан</li>
     <li>shown_no_ending->изображен</li>
@@ -1388,8 +1390,11 @@
     <li>schematic_plural_gen->чертежей</li>
     <li>schematic_plural_gen->схем</li>
     <li>schematic_plural_gen->карт</li>
-    <li>document_common->документ</li>
-    <li>document_common->справочник</li>
+    <li>document_content(priority=1,uses=1)->[doc_content]</li>
+    <li>document_content->трактат</li>
+    <li>doc_content->компендиум</li>
+    <li>doc_content->конспект</li>
+    <li>doc_content->реферат</li>
     <li>tells_no_ending->рассказыва</li>
     <li>tells_no_ending->сообща</li>
     <li>tells_no_ending->пересказыва</li>
