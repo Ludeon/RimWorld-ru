@@ -585,7 +585,7 @@
   <!-- EN: Activate -->
   <Activate>Активировать</Activate> 
   <!-- EN: Activation -->
-  <Activation>Активация</Activation> 
+  <Activation>Активация</Activation>
   <!-- EN: complete -->
   <Complete>завершён</Complete>
   <!-- EN: Must be imprisoned. -->
@@ -1627,11 +1627,9 @@
   <Reward_Pawn_WalkIn>{0_age}-{0_gender ? летний : летняя} {0_title} по имени {0_nameDef} прибудет и присоединится к вам{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>{0_age}-{0_gender ? летний : летняя} {0_title} по имени {0_nameDef} присоединится к вам{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):
-\n{0} -->
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
   <Reward_Items>прибудут транспортные капсулы со следующим грузом (общей стоимостью {1}):\n\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):
-\n{0} -->
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
   <Reward_Items_Caravan>вы получите (общей стоимостью {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>отношения с фракцией {0_name} улучшатся на {1}</Reward_Goodwill>
@@ -1644,9 +1642,9 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Добыча в лагере</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>Непонятно, что именно произойдёт, когда вы примете это задание</Reward_Unknown> 
+  <Reward_Unknown>Непонятно, что именно произойдёт, когда вы примете это задание</Reward_Unknown>
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>Неизвестно</Reward_Unknown_Label> 
+  <Reward_Unknown_Label>Неизвестно</Reward_Unknown_Label>
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>гости будут помогать вашим поселенцам и сражаться на вашей стороне</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -2003,7 +2001,8 @@
   <CommandPushTo>Толкать к...</CommandPushTo>
   <!-- EN: requires {0} -->
   <RequiredCapacity>требуется способность к {lookup: {0}; Case; 2}</RequiredCapacity> <!-- Вставляется PawnCapacity: "Требуется способность к работе" -->
-  
+
+  <!-- Pocket Maps -->
   <!-- EN: Unable to enter {0}, destination is blocked -->
   <UnableToEnterPortal>Невозможно пройти через {lookup: {0}; Case; 3}: проход заблокирован</UnableToEnterPortal>
 
