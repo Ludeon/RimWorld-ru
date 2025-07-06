@@ -116,7 +116,7 @@
   <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
   <IdeoCertaintyTooltip>{PAWN_labelShort} {PAWN_gender ? уверен : уверена} в {IDEO} на {PERCENTAGE}</IdeoCertaintyTooltip>
   <!-- EN: Disabled by precept {0} -->
-  <DisabledByPrecept>Заблокировано принципом {0}</DisabledByPrecept> <!-- Названия принципов не определяются переводом -->
+  <DisabledByPrecept>Заблокировано принципом {0}</DisabledByPrecept>
   <!-- EN: Everyone -->
   <Everyone>Все</Everyone>
   <!-- EN: Narrative -->
@@ -150,7 +150,7 @@
   <!-- EN: Acceptable food for everyone -->
   <MealKindAny>Еда, подходящая всем</MealKindAny>
   <!-- EN: this outfit -->
-  <WearingDesiredApparelMulti>свою одежду</WearingDesiredApparelMulti> <!-- Используется в ThoughtDef: WearingDesiredApparel -->
+  <WearingDesiredApparelMulti>свою одежду</WearingDesiredApparelMulti>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>Невозможно загрузить идеолигию</UnableToLoadIdeoTitle>
@@ -249,21 +249,21 @@
   <!-- EN: Choose -->
   <RitualAttachedRewardChoose>Выбрать</RitualAttachedRewardChoose>
   <!-- EN: Can't use {0} with {1}. -->
-  <RitualAttachedRewardCantUseWithRitual>Нельзя использовать {0} с ритуалом {1}.</RitualAttachedRewardCantUseWithRitual> <!-- {0} - Ritual_AttachableOutcomes_Special, их формы винительного и именительного падежей совпадают. {1} - имя ритуала, вне локализации -->
+  <RitualAttachedRewardCantUseWithRitual>Нельзя использовать {0} с ритуалом {1}.</RitualAttachedRewardCantUseWithRitual>
   <!-- EN: Requires any of memes -->
   <RitualAttachedRewardRequiredMemeAny>Требует хотя бы одну из черт</RitualAttachedRewardRequiredMemeAny>
   <!-- EN: Requires {0} faction -->
   <RitualAttachedRewardRequiredFaction>Требует фракцию {0}</RitualAttachedRewardRequiredFaction>
   <!-- EN: positive -->
-  <RitualAttachedOutcomes_Positive>позитивном</RitualAttachedOutcomes_Positive> <!-- Используется в RitualAttachedApplliesForOutcomes -->
+  <RitualAttachedOutcomes_Positive>позитивном</RitualAttachedOutcomes_Positive>
   <!-- EN: negative -->
-  <RitualAttachedOutcomes_Negative>негативном</RitualAttachedOutcomes_Negative>  <!-- Используется в RitualAttachedApplliesForOutcomes -->
+  <RitualAttachedOutcomes_Negative>негативном</RitualAttachedOutcomes_Negative>
   <!-- EN: If the {0} is {1} -->
   <RitualAttachedOutcomesInfo>Если ритуал {0} прошёл {1}</RitualAttachedOutcomesInfo>
   <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcome>При исходе «{0}»</RitualAttachedApplliesForOutcome> <!-- Вместо {0} будет RitualOutcomeEffectDef.outcomeChances.*.label -->
+  <RitualAttachedApplliesForOutcome>При исходе «{0}»</RitualAttachedApplliesForOutcome>
   <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcomes>При любом {0} исходе</RitualAttachedApplliesForOutcomes> <!-- Вместо {0} будет RitualAttachedOutcomes_Positive или RitualAttachedOutcomes_Negative -->
+  <RitualAttachedApplliesForOutcomes>При любом {0} исходе</RitualAttachedApplliesForOutcomes>
   <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
   <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>Шум от ритуала {0} привлёк любопытных животных!\n\nОни, видимо, привычны к людям, и потому прибиваются к вашему поселению.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
@@ -322,9 +322,9 @@
   <!-- EN: Passive effects -->
   <RoleEffectsLabel>Пассивные эффекты</RoleEffectsLabel>
   <!-- EN: Must be {0} -->
-  <RoleRequirementLabelSameIdeo>нужен {0}</RoleRequirementLabelSameIdeo> <!-- Требование к персонажу. Используется в списке требований И как описание причины невозможности действия. Вместо {0} будет memberName: "нужен архист" -->
+  <RoleRequirementLabelSameIdeo>нужен {0}</RoleRequirementLabelSameIdeo>
   <!-- EN: Must be {0} -->
-  <RoleRequirementLabelSupremeGender>{replace: {0}; "мужчина"-"нужен"; "женщина"-"нужна"} {0}</RoleRequirementLabelSupremeGender> <!-- Требование к персонажу. Используется в списке требований И как описание причины невозможности действия. Вместо {0} будет пол: "нужен мужчина" -->
+  <RoleRequirementLabelSupremeGender>{replace: {0}; "мужчина"-"нужен"; "женщина"-"нужна"} {0}</RoleRequirementLabelSupremeGender>
   <!-- EN: Cannot be child -->
   <RoleRequirementCannotBe>не может быть ребёнком</RoleRequirementCannotBe>
 
@@ -362,13 +362,13 @@
   <!-- EN: Believers in {0} ({1}) -->
   <BelieversIn>Верующие в {0} ({1})</BelieversIn>
   <!-- EN: add {0} -->
-  <AddPrecept>добавить {0}</AddPrecept> <!-- Подставляется Precept, IdeoBuilding или IdeoRelic, которые уже даны в винительном падеже -->
+  <AddPrecept>добавить {0}</AddPrecept>
   <!-- EN: precept -->
-  <Precept>принцип</Precept> <!-- Используется только в AddPrecept, где должно стоять в винительном падеже -->
+  <Precept>принцип</Precept>
   <!-- EN: building -->
-  <IdeoBuilding>сооружение</IdeoBuilding> <!-- Используется только в AddPrecept, где должно стоять в винительном падеже -->
+  <IdeoBuilding>сооружение</IdeoBuilding>
   <!-- EN: relic -->
-  <IdeoRelic>реликвию</IdeoRelic> <!-- Используется только в AddPrecept, где должно стоять в винительном падеже -->
+  <IdeoRelic>реликвию</IdeoRelic>
   
   <!-- Beggars -->
   <!-- EN: Give {0} to {1_nameDef} -->
@@ -388,7 +388,7 @@
   <!-- EN: hacking speed -->
   <HackingSpeed>скорость взлома</HackingSpeed>
   <!-- EN: {0}'s -->
-  <HackingLastUser>У {0}</HackingLastUser> <!-- Составляется строка вида: "У Vasya скорость взлома: 42" -->
+  <HackingLastUser>У {0}</HackingLastUser>
   <!-- EN: hacked -->
   <Hacked>взломано</Hacked>
   <!-- EN: Terminals hacked -->
@@ -452,9 +452,9 @@
 
   <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
-  <ConnectedPawn>Связующий</ConnectedPawn> <!-- В игре будет выглядеть как "Связующий: Вася Пупкин" или "Связующий: никто" -->
+  <ConnectedPawn>Связующий</ConnectedPawn>
   <!-- EN: Nobody -->
-  <Nobody>Никто</Nobody> <!-- Ключ Nobody определён в оригинальных Keyed-файлах двумя разными значениями. Дубликат находится в Core\Keyed\Misc_Gameplay.xml. Текст перевода копирует значение оттуда, для однозначности -->
+  <Nobody>Никто</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
   <ConnectedPawnDesc>Человек, с которым связано {TREE_label}. Если связующий умрёт, {TREE_label} будет недоступно для связывания в течение {DURATION}.</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
@@ -554,7 +554,7 @@
   <RoleEffectGiveThoughtOnTended>Даёт мысль</RoleEffectGiveThoughtOnTended>
 
   <!-- EN: Assign colonists to your ideoligion -->
-  <AssignColonists>Обратить поселенцев</AssignColonists> <!-- Сокращено, чтобы уместить в UI -->
+  <AssignColonists>Обратить поселенцев</AssignColonists>
   <!-- EN: Remove new ideoligion -->
   <RemoveNewIdeoligion>Удалить новую идеолигию</RemoveNewIdeoligion>
   <!-- EN: Make this your primary ideoligion -->
@@ -626,9 +626,9 @@
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
   <BiosculpterEnteringMessage>{PAWN_labelShort} войдёт в биоскульптор и начнёт цикл {lookup: {CYCLE}; Case; 1}.</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
-  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} соберёт {INGREDIENTS} и начнёт цикл {lookup: {CYCLE}; Case; 1}.</BiosculpterLoadingStartedMessage> <!-- Вместо {INGREDIENTS} будет список -->
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} соберёт {INGREDIENTS} и начнёт цикл {lookup: {CYCLE}; Case; 1}.</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
-  <BiosculpterCarryStartedMessage>{PAWN_labelShort} соберёт {INGREDIENTS}, поместит {DOWNED_labelShort} в биоскульптор и начнёт цикл {lookup: {CYCLE}; Case; 1}.</BiosculpterCarryStartedMessage> <!-- Вместо {INGREDIENTS} будет список -->
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} соберёт {INGREDIENTS}, поместит {DOWNED_labelShort} в биоскульптор и начнёт цикл {lookup: {CYCLE}; Case; 1}.</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>{0} ед. еды</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -636,7 +636,7 @@
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл оздоровления.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл оздоровления, а {PAWN_possessive} заболевание — {HEDIFF_label} — было вылечено.</BiosculpterHealCompletedWithCureMessage> <!-- Для Hediff нет подсимвола _gender -->
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл оздоровления, а {PAWN_possessive} заболевание — {HEDIFF_label} — было вылечено.</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? прошёл : прошла} цикл омоложения.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->

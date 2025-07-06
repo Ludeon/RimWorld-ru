@@ -299,13 +299,13 @@
   <CannotWearBecauseOfMissingBodyParts>отсутствуют части тела</CannotWearBecauseOfMissingBodyParts>
   
   <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
-  <Reload>Зарядить {lookup: {GEAR_labelShort}; Case; 3} {lookup: {AMMO_label}; Case; 4}</Reload> <!-- Подставляется CompProperties_Reloadable.ammoDef. Сейчас во всех случаях везде это неисчисляемое существительное: сталь, химтопливо и прочее. Отсюда ед.ч. -->
+  <Reload>Зарядить {lookup: {GEAR_labelShort}; Case; 3} {lookup: {AMMO_label}; Case; 4}</Reload>
   <!-- EN: Full -->
   <ReloadFull>Полностью заряжено</ReloadFull>
   <!-- EN: Too few -->
   <ReloadNotEnough>Недостаточно для перезарядки</ReloadNotEnough>
   <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
-  <ReloadCannotCarryEnough>Невозможно перенести достаточное количество {lookup: {AMMO_label}; Case; 1} для восполнения 1 заряда.</ReloadCannotCarryEnough>  <!-- Подставляется CompProperties_Reloadable.ammoDef. Сейчас во всех случаях везде это неисчисляемое существительное: сталь, химтопливо и прочее. Отсюда ед.ч. р.п. -->
+  <ReloadCannotCarryEnough>Невозможно перенести достаточное количество {lookup: {AMMO_label}; Case; 1} для восполнения 1 заряда.</ReloadCannotCarryEnough>
   
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>Невозможно взять {lookup: {1_labelShort}; Case; 3}</CannotPickUp>
@@ -322,7 +322,7 @@
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUpSome>Невозможно взять {lookup: {1_labelShort}; Case; 3}</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->
-  <MaxPickUpAllowed>Можно взять максимум {0} ед. {lookup: {1_plural}; Case; 1}</MaxPickUpAllowed> <!-- Подставится строка OrderedTakeGroupDef.label: "наркотик" или "препарат". Имеется в макс. допустимое число предметов заданной категории: как одного вида, так и разных. Поэтому "ед.". В итоге получится, например: "5 ед. наркотиков" -->
+  <MaxPickUpAllowed>Можно взять максимум {0} ед. {lookup: {1_plural}; Case; 1}</MaxPickUpAllowed>
   
   <!-- EN: Cannot load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>Невозможно положить {lookup: {1_label}; Case; 3} во вьюк</CannotGiveToPackAnimal>
@@ -456,7 +456,7 @@
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
-  <CannotGenericWork>Невозможно {0} {replace: {lookup: {1}; Case; 3}; "область"-""}</CannotGenericWork> <!-- replace для исключения вариантов типа «Невозможно разобрать крышу область» -->
+  <CannotGenericWork>Невозможно {0} {replace: {lookup: {1}; Case; 3}; "область"-""}</CannotGenericWork>
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>Невозможно {0}</CannotGenericWorkCustom>
 
@@ -500,7 +500,7 @@
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
-  <PrioritizeGeneric>{0} {replace: {lookup: {1}; Case; 3}; "область"-""}</PrioritizeGeneric> <!-- replace для исключения вариантов типа «Разобрать крышу область» -->
+  <PrioritizeGeneric>{0} {replace: {lookup: {1}; Case; 3}; "область"-""}</PrioritizeGeneric>
   
   <!-- EN: Drop at edge -->
   <DropAtEdge>Сбросить с краю</DropAtEdge>
