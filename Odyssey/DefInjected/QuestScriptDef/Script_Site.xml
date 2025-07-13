@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>attackReason->claim the surveying scanner was sent to spy on their secret rituals</li>
+    <li>attackReason->say the surveying site infringes on their territory</li>
+    <li>attackReason->say they were sent to destroy the scanner as payback</li>
+    <li>attackReason->claim the surveying scanner is too close to one of their hidden stashes</li>
+    <li>attackReason->want to scrap the surveying equipment for parts</li>
+    <li>attackReason->claim that the surveying scanner is secretly a weapon and its activation has caused psychic disturbances</li>
+  -->
+  <SurveySite.questContentRules.rulesStrings>
+    <li>attackReason->заявляют, что сканер был отправлен для шпионажа за их тайными ритуалами</li>
+    <li>attackReason->утверждают, что место проведения обследования нарушает их территорию</li>
+    <li>attackReason->говорят, что их послали уничтожить сканер в отместку</li>
+    <li>attackReason->утверждают, что сканер оказался слишком близко к их тайнику</li>
+    <li>attackReason->хотят разобрать оборудование на запчасти</li>
+    <li>attackReason->заявляют, что сканер на самом деле является оружием, и его активация вызвала псионические возмущения</li>
+  </SurveySite.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help defending surveying equipment at a remote site.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, the AI is offering a valuable gravtech device.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has heard rumors of your gravship. [asker_pronoun] wants to survey a distant region and asks that you protect [asker_possessive] surveying equipment.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you protect [asker_possessive] surveying operation. If you do so, [asker_pronoun] will reward you handsomely.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
+  -->
+  <SurveySite.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Анонимный ИИ просит вас защитить оборудование для обследования на удаленном объекте.\n\nОперация займет от десяти до пятнадцати дней и потребует путешествия в отдаленный регион.\n\nВ обмен на ваши услуги ИИ предлагает ценное гравитехнологичное устройство.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] из фракции [asker_faction_name] слышал(а) слухи о вашем гравикорабле. [asker_pronoun] хочет провести обследование далекой территории и просит вас защитить [asker_possessive] свое оборудование.\n\nОперация займет от десяти до пятнадцати дней и потребует путешествия в отдаленный регион.\n\nВ обмен на ваши услуги [asker_nameDef] предлагает ценное гравитехнологичное устройство.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] из фракции [asker_faction_name], просит вас защитить [asker_possessive] операцию по обследованию. Если вы поможете, [asker_pronoun] щедро вознаградит вас.\n\nОперация займет от десяти до пятнадцати дней и потребует путешествия в отдаленный регион.\n\nВ обмен на ваши услуги [asker_nameDef] предлагает ценное гравитехнологичное устройство.</li>
+  </SurveySite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Surveying [site]</li>
+    <li>questName->[remote] Survey</li>
+    <li>questName(p=0.5)->Defending the Scanner</li>
+    <li>questName(p=0.5)->Remote Protection</li>
+    <li>site->Site</li>
+    <li>site->Station</li>
+    <li>site->Defense</li>
+    <li>site->Operation</li>
+    <li>remote->Remote</li>
+    <li>remote->Regional</li>
+    <li>remote->Distant</li>
+  -->
+  <SurveySite.questNameRules.rulesStrings>
+    <li>questName->Обследование: [site]</li>
+    <li>questName->[remote] Обследование</li>
+    <li>questName(p=0.5)->Оборона сканера</li>
+    <li>questName(p=0.5)->Удаленная защита</li>
+    <li>site->Объект</li>
+    <li>site->Станция</li>
+    <li>site->Оборона</li>
+    <li>site->Операция</li>
+    <li>remote->Удаленное</li>
+    <li>remote->Региональное</li>
+    <li>remote->Дальнее</li>
+  </SurveySite.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <SurveySite.LetterLabelQuestExpired.slateRef>Срок задания истек: [resolvedQuestName]</SurveySite.LetterLabelQuestExpired.slateRef>
+  <!-- EN: The scanner has gone offline. The quest [resolvedQuestName] has expired. -->
+  <SurveySite.LetterTextQuestExpired.slateRef>Сканер отключился. Время, отведенное для задания «[resolvedQuestName]», истекло.</SurveySite.LetterTextQuestExpired.slateRef>
+  <!-- EN: {BASETEXT}\n\nThe [enemyFaction_pawnsPlural] [attackReason]. -->
+  <SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>{BASETEXT}\n\n[enemyFaction_pawnsPlural] [attackReason].</SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>
+  <!-- EN: Quest completed -->
+  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>Задание выполнено</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>
+  <!-- EN: You have successfully completed the quest '[resolvedQuestName]'! -->
+  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>Вы успешно выполнили задание «[resolvedQuestName]»!</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>
