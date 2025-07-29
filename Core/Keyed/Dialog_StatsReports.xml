@@ -142,6 +142,8 @@
   <StatsReport_Ideoligion>Идеолигия</StatsReport_Ideoligion>
   <!-- EN: Multiplier for malnutrition {0} -->
   <StatsReport_Malnutrition>Коэффициент за плохое питание {0}</StatsReport_Malnutrition>
+  <!-- EN: Optimal room -->
+  <StatsReport_OptimalRoom>TODO</StatsReport_OptimalRoom>
 
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>Возможные модификаторы</StatReport_PossibleOffsets>
@@ -246,6 +248,14 @@
   <Stat_Race_RoamInterval_Desc>Насколько часто ручное животное будет пытаться убрести и покинуть карту.\n\nЖивотные убредают, только если есть прямой путь к краю карты. Чтобы этого не произошло, ставьте для них ограды, баррикады, стены и двери.\n\nЖивотноводы могут приводить животных обратно в загон.</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>Рекреационный эффект, получаемый при приёме этого вещества. Более высокие значения указывают, что вещество в большей степени покрывает потребность в развлечениях.</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The weight of this creature and their equipment. -->
+  <Stat_Mass_Desc>TODO</Stat_Mass_Desc>
+  <!-- EN: Base mass -->
+  <Stat_Mass_Base>TODO</Stat_Mass_Base>
+  <!-- EN: Mass from equipment -->
+  <Stat_Mass_Equipment>TODO</Stat_Mass_Equipment>
+  <!-- EN: Total mass -->
+  <Stat_Mass_Total>TODO</Stat_Mass_Total>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>Размер тела этого существа в сравнении с средним размером тела человека.</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -260,6 +270,12 @@
   <Stat_Thing_Weapon_BurstShotFireRate_Desc>Темп стрельбы этого оружия во время каждой очереди.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>Максимальная дальность выстрела.</Stat_Thing_Weapon_Range_Desc>
+  <!-- EN: Range multiplier -->
+  <Stat_Thing_Weapon_Range_Multiplier>TODO</Stat_Thing_Weapon_Range_Multiplier>
+  <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
+  <Stat_Thing_Weapon_Range_Clamped>TODO</Stat_Thing_Weapon_Range_Clamped>
+  <!-- EN: Aiming time multiplier -->
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>TODO</Stat_Thing_Weapon_WarmupTime_Multiplier>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>Радиус случайного разброса выстрелов для этого оружия.\n\nВысокие значения этого показателя говорят о том, что снаряды будут чаще отклоняться случайным образом от выбранной цели.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
@@ -396,6 +412,8 @@
   <Stat_Thing_TurretDesc>Оружие, установленное на существо.</Stat_Thing_TurretDesc>
   <!-- EN: The ingredients needed to make this. -->
   <Stat_Thing_Ingredients>Ингредиенты, требуемые для приготовления.</Stat_Thing_Ingredients>
+  <!-- EN: Working at this building will be slower if it's not in this room type. -->
+  <Stat_Building_OptimalRoom_Desc>TODO</Stat_Building_OptimalRoom_Desc>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -555,4 +573,14 @@
   <!-- EN: The amount of progress that has been made towards hacking this object. -->
   <Stat_Thing_HackingProgress>Прогресс взлома этого объекта.</Stat_Thing_HackingProgress>
 
+  <!-- EN: Multiplier for {0} terrain -->
+  <StatsReport_TerrainSpeedMultiplier>TODO</StatsReport_TerrainSpeedMultiplier>
+
+  <!-- EN: {0} trained -->
+  <StatsReport_Trainable>TODO</StatsReport_Trainable>
+  <!-- EN: Available training -->
+  <StatsReport_AvailableTraining>TODO</StatsReport_AvailableTraining>
+  <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
+  <StatsReport_AvailableTraining_Desc>TODO</StatsReport_AvailableTraining_Desc>
+  
 </LanguageData>
