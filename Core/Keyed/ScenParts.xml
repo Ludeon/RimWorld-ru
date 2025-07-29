@@ -25,6 +25,9 @@
 
   <!-- EN: The stat "{0}" will be universally multiplied by {1}. -->
   <ScenPart_StatFactor>Все значения параметра «{0}» в мире будут установлены в размере {1}.</ScenPart_StatFactor>
+  
+  <!-- EN: Select -->
+  <ScenPart_SelectQuestDef>TODO</ScenPart_SelectQuestDef>
 
   <!-- Pawn modifiers -->
   <!-- EN: {0} have a {1} chance to start with {2}. -->
@@ -56,6 +59,9 @@
   <ScenPart_StartWithSpecificColonists>Начало с {0}.</ScenPart_StartWithSpecificColonists>
   <!-- EN: {COUNT} {KINDLABEL} -->
   <PawnCount>{COUNT_numCase ? {lookup: {KINDLABEL}; Case; 4} : {lookup: {lookup: {KINDLABEL}; Plural; 1}; Case; 4} : {lookup: {lookup: {KINDLABEL}; Plural; 1}; Case; 4}}</PawnCount>
+  
+  <!-- EN: One or more parts in this scenario could not be loaded due to missing modded content.\n\nYou can load the scenario with all its required mods, or load it anyway without the missing scenario parts. -->
+  <ScenPart_Error>TODO</ScenPart_Error>
 
   <!-- ======================== Grouped ========================-->
 
@@ -71,5 +77,51 @@
   <ScenPart_CreateIncident>Происшествие создано</ScenPart_CreateIncident>
   <!-- EN: Can never build -->
   <ScenPart_DisallowBuilding>Запретить строительство</ScenPart_DisallowBuilding>
+
+  <!-- ======================== Layers ========================-->
+  
+  <!-- EN: Tag -->
+  <ScenPart_PlanetLayerTag>TODO</ScenPart_PlanetLayerTag>
+  <!-- EN: Must have a unique tag -->
+  <ScenPart_PlanetLayerTag_Error>TODO</ScenPart_PlanetLayerTag_Error>
+  
+  <!-- EN: Settings -->
+  <ScenPart_PlanetLayerSettings>TODO</ScenPart_PlanetLayerSettings>
+  <!-- EN: Use settings def -->
+  <ScenPart_PlanetLayerSettings_UseDef>TODO</ScenPart_PlanetLayerSettings_UseDef>
+  <!-- EN: Select -->
+  <ScenPart_PlanetLayerSettings_SelectDef>TODO</ScenPart_PlanetLayerSettings_SelectDef>
+  <!-- EN: Position -->
+  <ScenPart_PlanetLayerSettings_Position>TODO</ScenPart_PlanetLayerSettings_Position>
+  <!-- EN: Radius -->
+  <ScenPart_PlanetLayerSettings_Radius>TODO</ScenPart_PlanetLayerSettings_Radius>
+  <!-- EN: Use surface view angle -->
+  <ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>TODO</ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>
+  <!-- EN: View angle -->
+  <ScenPart_PlanetLayerSettings_ViewAngle>TODO</ScenPart_PlanetLayerSettings_ViewAngle>
+  <!-- EN: Extra camera height -->
+  <ScenPart_PlanetLayerSettings_ExtraCameraAltitude>TODO</ScenPart_PlanetLayerSettings_ExtraCameraAltitude>
+  <!-- EN: Subdivisions -->
+  <ScenPart_PlanetLayerSettings_Subdivisions>TODO</ScenPart_PlanetLayerSettings_Subdivisions>
+  <!-- EN: Background camera offset -->
+  <ScenPart_PlanetLayerSettings_BackgroundOffset>TODO</ScenPart_PlanetLayerSettings_BackgroundOffset>
+  <!-- EN: Background parallax per 100 cells -->
+  <ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>TODO</ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>
+  
+  <!-- EN: Connections -->
+  <ScenPart_PlanetLayerConnections>TODO</ScenPart_PlanetLayerConnections>
+  <!-- EN: Add connection -->
+  <ScenPart_PlanetLayerConnections_Add>TODO</ScenPart_PlanetLayerConnections_Add>
+  <!-- EN: No zoom -->
+  <ScenPart_PlanetLayerConnections_Zoom>TODO</ScenPart_PlanetLayerConnections_Zoom>
+  <!-- EN: Zoom in -->
+  <ScenPart_PlanetLayerConnections_ZoomIn>TODO</ScenPart_PlanetLayerConnections_ZoomIn>
+  <!-- EN: Zoom out -->
+  <ScenPart_PlanetLayerConnections_ZoomOut>TODO</ScenPart_PlanetLayerConnections_ZoomOut>
+  <!-- EN: Fuel cost -->
+  <ScenPart_PlanetLayerConnections_Fuel>TODO</ScenPart_PlanetLayerConnections_Fuel>
+  
+  <!-- EN: Planet layer -->
+  <ScenPart_ForcedMapPlanetLayer>TODO</ScenPart_ForcedMapPlanetLayer>
 
 </LanguageData>
