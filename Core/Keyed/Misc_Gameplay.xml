@@ -284,6 +284,8 @@
   <BeautyHere>Красота</BeautyHere>
   <!-- EN: no power -->
   <NoPower>нет питания</NoPower>
+  <!-- EN: not in {0} -->
+  <NotInRoomRole>TODO</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>Скорость работы</WorkSpeedPenalty>
   <!-- EN: Disabled -->
@@ -302,6 +304,8 @@
   <LaunchableInGroupHasSomethingLeftToLoad>погрузка ещё не окончена</LaunchableInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>За пределами максимальной дальности</TransportPodDestinationBeyondMaximumRange>
+  <!-- EN: No path to {LAYER_label} -->
+  <TransportPodDestinationNoPath>TODO</TransportPodDestinationNoPath>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>Недостаточно топлива</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -346,6 +350,10 @@
   <Products>Результат</Products>
   <!-- EN: Requires -->
   <Requires>Требуется</Requires>
+  <!-- EN: Replaces -->
+  <Replaces>TODO</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>TODO</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}x любого из</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -368,10 +376,14 @@
   <RideableAnimalsPerPeople>Ездовые животные / люди</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>Множитель от езды верхом на животных</MultiplierFromRiddenAnimals>
+  <!-- EN: Multiplier from bonuses -->
+  <MultiplierFromMoveSpeedBonus>TODO</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Множитель переносимого веса: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Это ездовое животное. Караванщики будут выбирать для верховой езды самых быстрых животных, чтобы максимально ускорить движение каравана.</RideableAnimalTip>
+  <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
+  <CaravanBonusTip>TODO</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>Караван перегружен и не может сдвинуться с места.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -568,6 +580,8 @@
   <RequiredTechprintTip>Требуется</RequiredTechprintTip>
   <!-- EN: size -->
   <Size>размер</Size>
+  <!-- EN: Total planning area -->
+  <TotalPlanningArea>TODO</TotalPlanningArea>
   <!-- EN: cost -->
   <Cost>стоимость</Cost>
   <!-- EN: Stunned by EMP -->
@@ -586,6 +600,8 @@
   <Investigate>Исследовать</Investigate> 
   <!-- EN: Activate -->
   <Activate>Активировать</Activate> 
+  <!-- EN: Deactivate -->
+  <Deactivate>TODO</Deactivate>
   <!-- EN: Activation -->
   <Activation>Активация</Activation>
   <!-- EN: complete -->
@@ -612,6 +628,21 @@
   <ReportStringCrawlingToSafety>ползёт в безопасное место</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>ползёт в кровать</ReportStringCrawlingToBed>
+  <!-- EN: flying -->
+  <Flying>TODO</Flying>
+  <!-- EN: Prevent cutting -->
+  <PreventCutting>TODO</PreventCutting>
+  <!-- EN: When on, colonists won't cut this plant. -->
+  <PreventCuttingDesc>TODO</PreventCuttingDesc>
+
+  <!-- EN: Resulting from trait -->
+  <ComesFromTrait>TODO</ComesFromTrait>
+  <!-- EN: Resulting from condition -->
+  <ComesFromHediff>TODO</ComesFromHediff>
+  <!-- EN: Adds need -->
+  <AddsNeed>TODO</AddsNeed>
+  <!-- EN: Adds needs -->
+  <AddsNeeds>TODO</AddsNeeds>
   <!-- EN: Disables need -->
   <DisablesNeed>Убирает потребность</DisablesNeed>
   <!-- EN: Disables needs -->
@@ -784,6 +815,8 @@
   <!-- EN: Filth -->
   <Filth_Label>Грязь</Filth_Label>
   
+  <!-- EN: Features -->
+  <Features_Label>TODO</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>Фракция</Faction_Label>
   <!-- EN: Relationship -->
@@ -809,6 +842,8 @@
   <ApparelPreventsShooting>{PAWN_nameDef} не может использовать оружие дальнего боя, пока носит {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>Нельзя использовать в {lookup: {0}; Case; 5}</CannotUseReason_PocketMap>
+  <!-- EN: Range reduced -->
+  <WeatherMaxRangeCap>TODO</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -1071,6 +1106,8 @@
   <PowerConsumptionHigh>высокое</PowerConsumptionHigh>
   <!-- EN: low -->
   <PowerConsumptionLow>низкое</PowerConsumptionLow>
+  <!-- EN: off -->
+  <PowerConsumptionOff>TODO</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -1155,6 +1192,8 @@
   <Blighted>Поражено болезнью</Blighted>
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>Погибает на свету</DyingBecauseExposedToLight>
+  <!-- EN: Dying from non-ideal terrain -->
+  <DyingBecauseOfTerrain>TODO</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
   <AutoCutNow>Срубить</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1171,8 +1210,12 @@
   <Zone>Область</Zone>
   <!-- EN: Growing zone -->
   <GrowingZone>Посадки</GrowingZone>
+  <!-- EN: growing -->
+  <GrowingGroup>TODO</GrowingGroup>
   <!-- EN: Stockpile zone -->
   <Stockpile>Склад</Stockpile>
+  <!-- EN: stockpile -->
+  <StockpileGroup>TODO</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Свалка</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1445,6 +1488,8 @@
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
   <!-- EN: No colony -->
   <NoColony>Нет поселения</NoColony>
+  <!-- EN: cannot reach any destination -->
+  <NoWandererDestination>TODO</NoWandererDestination>
   <!-- EN: must wait {0}h -->
   <GameOverCreateNewWanderersWait>нужно подождать {0} ч</GameOverCreateNewWanderersWait>
 
@@ -1591,6 +1636,8 @@
   <OutfitSoldier>Солдатская экипировка</OutfitSoldier>
   <!-- EN: Nudist -->
   <OutfitNudist>Костюм нудиста</OutfitNudist>
+  <!-- EN: Spacefarer -->
+  <OutfitSpacefarer>TODO</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1703,6 +1750,8 @@
   <InterceptsProjectilesEvery>Перехватывает {0} каждые {1}.</InterceptsProjectilesEvery>
   <!-- EN: Intercepts {0}. -->
   <InterceptsProjectiles>Перехватывает {0}.</InterceptsProjectiles>
+  <!-- EN: ground and aerial projectiles -->
+  <InterceptsProjectiles_BothProjectiles>TODO</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>снаряды с настильной траекторией</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
@@ -2028,6 +2077,8 @@
   
   <!-- EN: About to explode -->
   <AboutToExplode>Сейчас взорвётся</AboutToExplode>
+  <!-- EN: No fuel to eject -->
+  <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject>
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>Доступно новое дополнение: Anomaly!</MainScreen_AnomalyAvailableNow>
@@ -2037,6 +2088,8 @@
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>заблокирован крышей</BlockedByRoof>
+  <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
+  <BlockedByTerrain>TODO</BlockedByTerrain>
 
   <!-- Craters -->
   <!-- EN: Fill in -->
@@ -2055,6 +2108,34 @@
   <Hacked>взломано</Hacked>
   <!-- EN: Terminals hacked -->
   <TerminalsHacked>Терминалы взломаны</TerminalsHacked>
+  <!-- EN: Intellectual needed -->
+  <IntellectualSkillPrerequisite>TODO</IntellectualSkillPrerequisite>
+  <!-- EN: Auto hack -->
+  <AutoHack>TODO</AutoHack>
+  <!-- EN: When enabled, researchers will automatically hack this. -->
+  <AutoHackDesc>TODO</AutoHackDesc>
+
+  <!-- World -->
+  <!-- EN: View {LAYER_label} -->
+  <WorldSelectLayer>TODO</WorldSelectLayer>
+  <!-- EN: Jump to location -->
+  <WorldJumpTo>TODO</WorldJumpTo>
+  <!-- EN: Find a colony, caravan, or quest location on the world map. -->
+  <WorldJumpToDesc>TODO</WorldJumpToDesc>
+  <!-- EN: Nothing to jump to. -->
+  <NothingToJumpTo>TODO</NothingToJumpTo>
+  <!-- EN: cannot function in {0} -->
+  <CannotFunctionOnLayer>TODO</CannotFunctionOnLayer>
+  <!-- EN: New settlement -->
+  <NewSettlement>TODO</NewSettlement>
+  <!-- EN: Settled -->
+  <Settled>TODO</Settled>
+  <!-- EN: Abandoned -->
+  <Abandoned>TODO</Abandoned>
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
+  <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
+  <!-- EN: This will not affect you {GERUND} {LAYER}. -->
+  <ThisWillNotAffectLayer>TODO</ThisWillNotAffectLayer>
 
   <!-- Pocket maps -->
   <!-- EN: Enter {0} -->
@@ -2065,16 +2146,44 @@
   <CommandEnterPortalDesc>Выберите людей и вещи для прохода через {lookup: {0}; Case; 3}.</CommandEnterPortalDesc>
   <!-- EN: Cancel entering -->
   <CommandCancelEnterPortal>Отменить проход</CommandCancelEnterPortal>
+  <!-- EN: Cancel exiting -->
+  <CommandCancelExitPortal>TODO</CommandCancelExitPortal>
   <!-- EN: Cancel loading people or items into this. -->
   <CommandCancelEnterPortalDesc>Отменить проход людей и пронос вещей.</CommandCancelEnterPortalDesc>
+  <!-- EN: Exit {0} -->
+  <ExitPortal>TODO</ExitPortal>
+
   <!-- CompProjectileInterceptor -->
   <!-- EN: Shield energy -->
   <ShieldEnergy>Энергия щита</ShieldEnergy>
   <!-- EN: Shield cooldown -->
   <ShieldTimeToRecovery>Время восстановления</ShieldTimeToRecovery>
+  <!-- EN: Shield duration -->
+  <ShieldDuration>TODO</ShieldDuration>
+  <!-- EN: On cooldown -->
+  <ShieldOnCooldown>TODO</ShieldOnCooldown>
+  <!-- EN: Below minimum energy -->
+  <ShieldBelowMinHitpoints>TODO</ShieldBelowMinHitpoints>
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
   <ProjectileInterceptorTip>Защитное поле, способное останавливать летящие на большой скорости предметы. Выключается при воздействии ЭМИ.</ProjectileInterceptorTip>
 
+  <!-- EN: max {0} -->
+  <MaxOf>TODO</MaxOf>
+
+  <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
+  <CannotUseDueToHediff>TODO</CannotUseDueToHediff>
+
+  <!-- Scanner -->
+  <!-- EN: Blocked by roof -->
+  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed>
+  <!-- EN: Biome does not contain drillable resources -->
+  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock>
+  
+  <!-- Quests -->
+  <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
+  <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
+  <!-- EN: Cannot accept this quest without a permanent colony. -->
+  <CannotAcceptQuestNoMap>TODO</CannotAcceptQuestNoMap>
   
   <!-- UNUSED -->
   <NotAllFuelingPortSourcesInGroupHaveAnyFuel>нет топлива</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
