@@ -22,6 +22,8 @@
   <!-- EN: Not allowed -->
   <NotAllowed>Запрещено</NotAllowed>
   
+  <!-- EN: Attack {1_labelShort} -->
+  <Attack>TODO</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>Стрелять в {lookup: {1_labelShort}; Case; 3}</FireAt>
   <!-- EN: Remove -->
@@ -43,6 +45,8 @@
   <IsNotDraftedLower>{1_labelShort} не в режиме призыва</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>нельзя отдавать приказы неподконтрольным персонажам</CannotOrderNonControlledLower>
+  <!-- EN: cannot attack -->
+  <CannotAttack>TODO</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>нельзя атаковать себя</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -90,6 +94,8 @@
   <AboveAllowedSkill>навык выше допустимых {0}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>нет доступных клеток на карте мира</NoReachableOutsideCell>
+  <!-- EN: cannot exit map -->
+  <CannotExitMap>TODO</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>отсутствует требуемый уровень навыка</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -230,6 +236,8 @@
   <TakingToBed>Несёт {0_labelShort} в кровать.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Невозможно спасти</CannotRescue>
+  <!-- EN: Cannot rescue {PAWN_labelShort} -->
+  <CannotRescuePawn>TODO</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>Перенести {lookup: {1_labelShort}; Case; 3} в саркофаг криптосна</CarryToCryptosleepCasket>
@@ -291,12 +299,20 @@
   
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>Надеть {lookup: {1_labelShort}; Case; 3}</ForceWear>
+  <!-- EN: Force target to wear {1_labelShort}... -->
+  <ForceTargetToWear>TODO</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>Невозможно надеть {lookup: {1_labelShort}; Case; 3}</CannotWear>
+  <!-- EN: Cannot force target to wear {1_label} -->
+  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>Вооружиться {lookup: {1_labelShort}; Case; 4}</ForceEquipApparel>
+  <!-- EN: Force target to equip {1_labelShort}... -->
+  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>Невозможно вооружиться {lookup: {1_label}; Case; 4}</CannotEquipApparel>
+  <!-- EN: Cannot force target to equip {1_label} -->
+  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>отсутствуют части тела</CannotWearBecauseOfMissingBodyParts>
   
@@ -399,6 +415,8 @@
   <NoDoctor>нет врача</NoDoctor>
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>медицинская кровать не для рабов</NotForSlaves>
+  <!-- EN: Medical care disabled -->
+  <MedicalCareDisabled>TODO</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>{0} уже спит здесь</SomeoneElseSleeping>
   
@@ -490,7 +508,13 @@
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>{0} {replace: {lookup: {1}; Case; 3}; "область"-""}</PrioritizeGeneric>
-  
+  <!-- EN: Prioritize {0} -->
+  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
+
+  <!-- EN: Launch to {LOCATION_label} -->
+  <LaunchTo>TODO</LaunchTo>
+  <!-- EN: Are you sure you want to launch? -->
+  <LaunchToConfirmation>TODO</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>Сбросить с краю</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -619,8 +643,12 @@
   <!-- Hacking -->
   <!-- EN: Hack {0} -->
   <Hack>Взломать {lookup: {0}; Case; 3}</Hack>
+  <!-- EN: Choose a colonist to hack this. -->
+  <HackDesc>TODO</HackDesc>
   <!-- EN: Cannot hack {0} -->
   <CannotHack>Невозможно взломать {lookup: {0}; Case; 3}</CannotHack>
+  <!-- EN: Locked out -->
+  <LockedOut>TODO</LockedOut>
   <!-- EN: Already hacked -->
   <AlreadyHacked>Уже взломано</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
