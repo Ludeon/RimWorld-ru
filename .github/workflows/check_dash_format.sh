@@ -20,7 +20,8 @@ while IFS= read -r -d '' file; do
         # Ищем " - " (обычный пробел, дефис, пробел)
         if echo "$line" | grep -q ' - '; then
             if [[ "$file_printed" -eq 0 ]]; then
-                echo -e "\nФайл: \033[1;33m$file\033[0m"
+                echo
+                echo -e "Файл: \033[1;33m$file\033[0m"
                 file_printed=1
             fi
             echo -e "\033[1;31mПробел и дефис\n\033[1;32mстрока $line_number\033[0m: $line"
@@ -31,6 +32,7 @@ while IFS= read -r -d '' file; do
         # Ищем " - " (неразрывный пробел, дефис, пробел)
         if echo "$line" | grep -q ' - '; then
             if [[ "$file_printed" -eq 0 ]]; then
+                echo
                 echo -e "Файл: \033[1;33m$file\033[0m"
                 file_printed=1
             fi
@@ -42,6 +44,7 @@ while IFS= read -r -d '' file; do
         # Ищем " - " (обычный пробел, длинное тире, пробел)
         if echo "$line" | grep -q ' — '; then
             if [[ "$file_printed" -eq 0 ]]; then
+                echo
                 echo -e "Файл: \033[1;33m$file\033[0m"
                 file_printed=1
             fi
