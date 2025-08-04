@@ -1,22 +1,39 @@
 #!/bin/bash
 
-# Exit immediately if a command exits with a non-zero status
 set -e
 
 echo "Checking XML files for correct dash formatting..."
 
-# Find all .xml files recursively
 errors=0
+
 while IFS= read -r -d '' file; do
-    # Use grep to find lines with wrong format: " - "
-    if grep -P -n '(^|[^ ]) - ' "$file"; then
-        echo "Invalid dash format found in: $file"
-        errors=1
-    fi
+    # Проверим файл построчно
+    while IFS= read -r line || [[ -n "$line" ]]; do
+        # Пропускаем комментарии (строки, начинающиеся с <!-- с возможными пробелами)
+        if [[ "$line" =~ ^[[:space:]]*<!-- ]]; then
+            continue
+        fi
+
+        # Ищем " - " (обычный пробел, дефис, пробел)
+        if [[ "$line" =~ [^ ] -  ]]; then
+            echo "Invalid dash format in $file:"
+            echo "$line"
+            echo
+            errors=1
+        fi
+
+        # Ищем " - " (обычный пробел, длинное тире, пробел)
+        if [[ "$line" =~ [^ ] —  ]]; then
+            echo "Invalid dash format in $file:"
+            echo "$line"
+            echo
+            errors=1
+        fi
+    done < "$file"
 done < <(find . -type f -name "*.xml" -print0)
 
 if [ "$errors" -ne 0 ]; then
-    echo "Invalid dash formats detected. Use non-breaking space + em dash (Alt+0160 + —)."
+    echo "Found invalid dash formats. Use non-breaking space + em dash: Alt+0160 + —"
     exit 1
 else
     echo "All XML files use correct dash formatting."
