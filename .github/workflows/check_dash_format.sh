@@ -16,7 +16,7 @@ while IFS= read -r -d '' file; do
 
         # Ищем " - " (обычный пробел, дефис, пробел)
         if echo "$line" | grep -q ' - '; then
-            echo "Invalid dash format in $file:"
+            echo "Invalid dash format in \033[1;33m$file\033[0m"
             echo "$line"
             echo
             errors=1
@@ -24,7 +24,7 @@ while IFS= read -r -d '' file; do
 
         # Ищем " - " (обычный пробел, длинное тире, пробел)
         if echo "$line" | grep -q ' — '; then
-            echo "Invalid dash format in $file:"
+            echo "Invalid dash format in \033[1;33m$file\033[0m"
             echo "$line"
             echo
             errors=1
