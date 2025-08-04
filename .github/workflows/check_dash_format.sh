@@ -25,7 +25,6 @@ while IFS= read -r -d '' file; do
                 file_printed=1
             fi
             echo -e "\033[1;31mПробел и дефис\n\033[1;32mстрока $line_number\033[0m: $line"
-            echo
             errors=1
         fi
 
@@ -37,7 +36,6 @@ while IFS= read -r -d '' file; do
                 file_printed=1
             fi
             echo -e "\033[1;31mДефис вместо тире\n\033[1;32mстрока $line_number\033[0m: $line"
-            echo
             errors=1
         fi
 
@@ -49,15 +47,14 @@ while IFS= read -r -d '' file; do
                 file_printed=1
             fi
             echo -e "\033[1;31mОбычный пробел перед тире\n\033[1;32mстрока $line_number\033[0m: $line"
-            echo
             errors=1
         fi
     done < "$file"
 done < <(find . -type f -name "*.xml" -print0)
 
 if [ "$errors" -ne 0 ]; then
-    echo "Found invalid dash formats. Use non-breaking space + em dash: Alt+0160 + —"
+    echo "Обнаружены ошибки в формате тире в некоторых XML файлах: используйте неразрывный пробел и длинное тире: Alt+0160 + Alt+0151"
     exit 1
 else
-    echo "All XML files use correct dash formatting."
+    echo "Все файлы XML имеют верный формат тире."
 fi
