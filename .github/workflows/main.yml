@@ -27,3 +27,14 @@ jobs:
             grep -r -o -n -i --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : \1}" ./
             exit 1
           fi
+  dash-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Run dash format check
+        run: bash .github/workflows/check_dash_format.sh
