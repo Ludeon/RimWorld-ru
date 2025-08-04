@@ -8,8 +8,10 @@ errors=0
 
 while IFS= read -r -d '' file; do
     file_printed=0
+    line_number=0
     # Проверим файл построчно
     while IFS= read -r line || [[ -n "$line" ]]; do
+        ((line_number++))
         # Пропускаем комментарии (строки, начинающиеся с <!-- с возможными пробелами)
         if echo "$line" | grep -q '\s*^<!--'; then
             continue
@@ -18,10 +20,21 @@ while IFS= read -r -d '' file; do
         # Ищем " - " (обычный пробел, дефис, пробел)
         if echo "$line" | grep -q ' - '; then
             if [[ "$file_printed" -eq 0 ]]; then
-                echo -e "Invalid dash format in \033[1;33m$file\033[0m"
+                echo -e "Файл: \033[1;33m$file\033[0m"
                 file_printed=1
             fi
-            echo "$line"
+            echo "Пробел и дефис, строка \033[1;32m$line_number\033[0m: $line"
+            echo
+            errors=1
+        fi
+
+        # Ищем " - " (неразрывный пробел, дефис, пробел)
+        if echo "$line" | grep -q ' - '; then
+            if [[ "$file_printed" -eq 0 ]]; then
+                echo -e "Файл: \033[1;33m$file\033[0m"
+                file_printed=1
+            fi
+            echo "Дефис вместо тире, строка \033[1;32m$line_number\033[0m: $line"
             echo
             errors=1
         fi
@@ -29,10 +42,10 @@ while IFS= read -r -d '' file; do
         # Ищем " - " (обычный пробел, длинное тире, пробел)
         if echo "$line" | grep -q ' — '; then
             if [[ "$file_printed" -eq 0 ]]; then
-                echo -e "Invalid dash format in \033[1;33m$file\033[0m"
+                echo -e "Файл: \033[1;33m$file\033[0m"
                 file_printed=1
             fi
-            echo "$line"
+            echo "Обычный пробел перед тире, строка \033[1;32m$line_number\033[0m: $line"
             echo
             errors=1
         fi
