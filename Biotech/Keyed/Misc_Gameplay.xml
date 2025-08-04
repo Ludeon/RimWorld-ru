@@ -77,8 +77,10 @@
   <Groups>Группы</Groups>
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>Загрузка материалов для гестации</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>Осталось до конца цикла</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
-  <InitMechGestationCycle>Начать цикл гестации механоида</InitMechGestationCycle>
+  <InitMechGestationCycle>Начинает цикл гестации механоида</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
   <InitMechBirth>Инициирует рождение механоида</InitMechBirth>
   <!-- EN: Mech energy -->
@@ -479,6 +481,8 @@
   <GestatingMech>Выращивается {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>Выращен механоид: {0}</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>{PAWN_gender ? необходим : необходима} {PAWN_nameDef} для продолжения гестации</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>{PAWN_gender ? необходим : необходима} {PAWN_nameDef} для завершения</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
@@ -492,7 +496,7 @@
   <!-- EN: Release {0} -->
   <MechCarrierRelease>Выпустить {lookup: {0}; Case; 3}</MechCarrierRelease>
   <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
-  <MechCarrierDesc>Выпустить рой до {0} {lookup: {1}; Case; 3}. Создание каждого {lookup: {2}; Case; 1} стоит {3} ед. {lookup: {4}; Case; 1}. При гибели родителя погибнут все связанные {1}. Их нельзя перезарядить — после того как заряд их энергоячеек иссякает, {1} гибнут.</MechCarrierDesc> <!-- ToDo: Добавить в LanguageWorker_Russian функцию, вызывающую Pluralize с конкретным числом -->
+  <MechCarrierDesc>Выпустить рой до {0} {lookup: {1}; Case; 3}. Создание каждого {lookup: {2}; Case; 1} стоит {3} ед. {lookup: {4}; Case; 1}. При гибели родителя погибнут все связанные {1}. Их нельзя перезарядить — после того как заряд их энергоячеек иссякает, {1} гибнут.</MechCarrierDesc>
   <!-- EN: Not enough resources -->
   <MechCarrierNotEnoughResources>Недостаточно ресурсов</MechCarrierNotEnoughResources>
   <!-- EN: Autofill -->
@@ -764,5 +768,10 @@
   <MyChildIsHappy>мой ребёнок счастлив</MyChildIsHappy>
   <!-- EN: my child is sad -->
   <MyChildIsSad>мой ребёнок несчастлив</MyChildIsSad> 
+  
+  <!-- EN: Genetic {CHEMICAL_label} dependency -->
+  <GeneticChemicalDependency_Label>генетическая зависимость от {lookup: {CHEMICAL_label}; Case; 1}</GeneticChemicalDependency_Label>
+  <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
+  <GeneticChemicalDependency_Desc>Мне жизненно {CHEMICAL_gender ? необходим : необходима : необходимо} {CHEMICAL_label} из-за моей генетической зависимости. Прошло очень много времени с тех пор, как мне довелось {CHEMICAL_possessive} употребить.</GeneticChemicalDependency_Desc>
 
 </LanguageData>

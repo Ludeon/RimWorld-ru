@@ -45,7 +45,7 @@
   <Carver1.titleShortFemale>резчица</Carver1.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] specialized in cave complex excavation and construction. -->
-  <CaveBuilder81.description>[PAWN_nameDef] {PAWN_gender ? специализировался : специализировалась} на раскопках и создании пещерных комплексов.</CaveBuilder81.description>
+  <CaveBuilder81.description>{PAWN_nameDef} {PAWN_gender ? специализировался : специализировалась} на раскопках и создании пещерных комплексов.</CaveBuilder81.description>
   <!-- EN: cave builder -->
   <CaveBuilder81.title>строитель пещер</CaveBuilder81.title>
   <!-- EN: cave builder -->
@@ -59,14 +59,14 @@
   <Digger31.titleShort>копатель</Digger31.titleShort>
   
   <!-- EN: [PAWN_nameDef] carved living spaces and mined minerals from the sides of hills and mountains. [PAWN_pronoun] learned to feel at home picking through rock and shoring up cave walls. -->
-  <Digger66.description>{PAWN_nameDef} и {PAWN_possessive} племя высекли свой дом глубоко в склоне горы. С тех пор {PAWN_pronoun} умеет без труда пробиваться сквозь породу и укреплять пещерные своды.</Digger66.description>
+  <Digger66.description>{PAWN_nameDef} {PAWN_gender ? высекал : высекала} жилые помещения и {PAWN_gender ? добывал : добывала} минералы прямо в холмах и скалах. {PAWN_pronoun} {PAWN_gender ? научился : научилась} без труда пробиваться сквозь породу и укреплять пещерные своды.</Digger66.description>
   <!-- EN: digger -->
   <Digger66.title>копатель</Digger66.title>
   <!-- EN: digger -->
   <Digger66.titleShort>копатель</Digger66.titleShort>
   
   <!-- EN: [PAWN_nameDef] worked at dig sites, extracting valuable items and materials from ancient compacted ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools. -->
-  <Excavator55.description>{PAWN_nameDef} {PAWN_gender ? работал : работала} на раскопках, извлекая ценные предметы и материалы из древних уплотненных руин. {PAWN_pronoun} {PAWN_gender ? научился : научилась} обнаруживать в земле ценности и пользоваться различными землеройными инструментами</Excavator55.description>
+  <Excavator55.description>{PAWN_nameDef} {PAWN_gender ? работал : работала} на раскопках, извлекая ценные предметы и материалы из древних уплотнённых руин. {PAWN_pronoun} {PAWN_gender ? научился : научилась} обнаруживать в земле ценности и пользоваться различными землеройными инструментами</Excavator55.description>
   <!-- EN: excavator -->
   <Excavator55.title>землекоп</Excavator55.title>
   <!-- EN: excavator -->
@@ -169,7 +169,7 @@
   <PlankCutter72.titleShort>распиловщик</PlankCutter72.titleShort>
   
   <!-- EN: Since [PAWN_possessive] tribe made contact with local outlanders, [PAWN_nameDef] contracted [PAWN_possessive] services out as a guide. Frequent contact with ancient technology made [PAWN_objective] comfortable with the lost machines. -->
-  <Scout59.description>С тех пор, как {PAWN_possessive} племя наладило отношения с чужеземцами неподалёку, {PAWN_nameDef} {PAWN_gender ? предлагал : предлагала}  свои услуги в качестве проводника по местности. Частые контакты с артефактами древности многому научили {PAWN_objective} о давно забытых технологиях.</Scout59.description>
+  <Scout59.description>С тех пор, как {PAWN_possessive} племя наладило отношения с чужеземцами неподалёку, {PAWN_nameDef} {PAWN_gender ? предлагал : предлагала} свои услуги в качестве проводника по местности. Частые контакты с артефактами древности многому научили {PAWN_objective} о давно забытых технологиях.</Scout59.description>
   <!-- EN: scout -->
   <Scout59.title>разведчик</Scout59.title>
   <Scout59.titleFemale>разведчица</Scout59.titleFemale>
@@ -178,7 +178,7 @@
   <Scout59.titleShortFemale>разведчица</Scout59.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] prepared meals from the plants and animals brought in by gatherers, farmers, and hunters of [PAWN_possessive] tribe. [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self. -->
-  <StewKeeper95.description>{PAWN_nameDef} {PAWN_gender ? готовил : готовила} еду из растений и животных, принесенных собирателями, земледельцами и охотниками {PAWN_possessive} племени. {PAWN_pronoun} {PAWN_gender ? следил : следила}, чтобы пища была сытной, здоровой и хорошо хранилась. {PAWN_nameDef} регулярно {PAWN_gender ? обрабатывал : обрабатывала}, а порой и {PAWN_gender ? сам : сама} {PAWN_gender ? собирал : собирала} растения.</StewKeeper95.description>
+  <StewKeeper95.description>{PAWN_nameDef} {PAWN_gender ? готовил : готовила} еду из растений и животных, принесённых собирателями, земледельцами и охотниками {PAWN_possessive} племени. {PAWN_pronoun} {PAWN_gender ? следил : следила}, чтобы пища была сытной, здоровой и хорошо хранилась. {PAWN_nameDef} регулярно {PAWN_gender ? обрабатывал : обрабатывала}, а порой и {PAWN_gender ? сам : сама} {PAWN_gender ? собирал : собирала} растения.</StewKeeper95.description>
   <!-- EN: stew keeper -->
   <StewKeeper95.title>кухарь</StewKeeper95.title>
   <StewKeeper95.titleFemale>кухарка</StewKeeper95.titleFemale>
@@ -196,7 +196,7 @@
   <Tamer79.titleShortFemale>укротительница</Tamer79.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] built houses among, and sometimes suspended in, the trees for [PAWN_possessive] people to use while traveling or foraging. [PAWN_nameDef] learned how to best find and use wild plants, and how to fight off wild animals. -->
-  <TreehouseBuilder86.description>{PAWN_nameDef} {PAWN_gender ? строил : строила} жилища среди, а иногда и внутри деревьев, чтобы его племя могло ими пользоваться во время путешествий или поиска пищи. {PAWN_nameDef} {PAWN_gender ? научился : научилась} находить и использовать дикие растения, а также отбиваться от хищников.</TreehouseBuilder86.description>
+  <TreehouseBuilder86.description>{PAWN_nameDef} {PAWN_gender ? строил : строила} жилища среди, а иногда и внутри деревьев, чтобы {PAWN_possessive} племя могло ими пользоваться во время путешествий или поиска пищи. {PAWN_nameDef} {PAWN_gender ? научился : научилась} находить и использовать дикие растения, а также отбиваться от хищников.</TreehouseBuilder86.description>
   <!-- EN: treehouse builder -->
   <TreehouseBuilder86.title>строитель хижин</TreehouseBuilder86.title>
   <!-- EN: treehouse builder -->
