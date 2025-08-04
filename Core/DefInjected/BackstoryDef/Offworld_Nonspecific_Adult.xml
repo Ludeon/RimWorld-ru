@@ -48,8 +48,8 @@
   <!-- EN: cave explorer -->
   <CaveExplorer45.titleShort>спелеолог</CaveExplorer45.titleShort>
   
-  <!-- EN: [PAWN_nameDef] ran a high-class restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among kitchen workers for [PAWN_possessive] casual disdain for grunt work. -->
-  <Chef52.description>{PAWN_nameDef} {PAWN_gender ? был владельцем : была владелицей} первоклассного ресторана в одном из средних миров. Среди постоянных посетителей {PAWN_pronoun} {PAWN_gender ? обрёл : обрела} известность благодаря своему творческому подходу к кулинарии, но среди работников кухни у н{PAWN_possessive} была дурная репутация из-за пренебрежения тяжёлой работой.</Chef52.description>
+  <!-- EN: [PAWN_nameDef] was the star chef at a high-class coreworld restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among the kitchen staff for [PAWN_possessive] casual disdain for grunt work. -->
+  <Chef52.description>{PAWN_nameDef} {PAWN_gender ? был : была} «звёздным» шеф-поваром в первоклассном ресторане в одном из столичных миров. Среди постоянных посетителей {PAWN_pronoun} {PAWN_gender ? обрёл : обрела} известность благодаря своему творческому подходу к кулинарии, но среди персонала кухни у н{PAWN_possessive} была дурная репутация из-за пренебрежения тяжёлой работой.</Chef52.description>
   <!-- EN: chef -->
   <Chef52.title>повар среднего мира</Chef52.title>
   <Chef52.titleFemale>повариха средн. мира</Chef52.titleFemale>
@@ -58,7 +58,7 @@
   <Chef52.titleShortFemale>повариха</Chef52.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] worked as a low-ranking administrator for a moribund government bureaucracy. [PAWN_pronoun] is most at home filling out complicated paperwork and playing office politics. -->
-  <CivilServant2.description>{PAWN_nameDef}  {PAWN_gender ? был : была} администратором низшего звена в погрязшем в бюрократии и уже отживающем свой век правительстве. {PAWN_pronoun}  {PAWN_gender ? обожал : обожала} заполнять сложную документацию и участвовать в закулисных офисных интригах.</CivilServant2.description>
+  <CivilServant2.description>{PAWN_nameDef} {PAWN_gender ? был : была} администратором низшего звена в погрязшем в бюрократии и уже отживающем свой век правительстве. {PAWN_pronoun} {PAWN_gender ? обожал : обожала} заполнять сложную документацию и участвовать в закулисных офисных интригах.</CivilServant2.description>
   <!-- EN: civil servant -->
   <CivilServant2.title>госслужащий</CivilServant2.title>
   <CivilServant2.titleFemale>госслужащая</CivilServant2.titleFemale>
@@ -125,7 +125,7 @@
   <Defector78.titleShort>беглец</Defector78.titleShort>
   <Defector78.titleShortFemale>беглянка</Defector78.titleShortFemale>
   
-  <!-- EN: [PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] travelled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested. -->
+  <!-- EN: [PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] traveled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested. -->
   <Drifter67.description>Не имея особых планов на жизнь, {PAWN_nameDef} часто {PAWN_gender ? путешествовал : путешествовала}, перебиваясь случайными заработками, если их удавалось найти.\n\nКроме того, {PAWN_pronoun} время от времени {PAWN_gender ? работал : работала} над романом, который точно должен был стать бестселлером — {PAWN_nameDef} всего-то {PAWN_gender ? должен был : должна была} найти заинтересованного издателя.</Drifter67.description>
   <!-- EN: drifter -->
   <Drifter67.title>скиталец</Drifter67.title>
@@ -187,7 +187,7 @@
   <!-- EN: geologist -->
   <Geologist66.titleShort>геолог</Geologist66.titleShort>
   
-  <!-- EN: As an adult, [PAWN_nameDef] kept house and cared for children while [PAWN_possessive] spouse worked. -->
+  <!-- EN: As an adult, [PAWN_nameDef] kept house and cared for [PAWN_possessive] children while [PAWN_possessive] spouse worked. -->
   <Housemate8.description>Во взрослом возрасте {PAWN_nameDef} {PAWN_gender ? вёл : вела} домашнее хозяйство и {PAWN_gender ? заботился : заботилась} о детях, пока {PAWN_possessive} вторая половинка была на работе.</Housemate8.description>
   <!-- EN: housemate -->
   <Housemate8.title>домохозяин</Housemate8.title>
@@ -241,7 +241,7 @@
   <LivestockFarmer8.titleShortFemale>хозяйка ранчо</LivestockFarmer8.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] took down trees and collected wood in hilly passes and ravines. [PAWN_pronoun] learned both how to fell the trees safely, and how to manage the forest to keep it healthy. -->
-  <Logger95.description>{PAWN_nameDef} {PAWN_gender ? валил : валила} деревья и собирал древесину на холмистых перевалах и в оврагах. {PAWN_pronoun} {PAWN_gender ? научился : научилась} безопасно валить деревья и управлять лесом, чтобы поддерживать его в хорошем состоянии.</Logger95.description>
+  <Logger95.description>{PAWN_nameDef} {PAWN_gender ? валил : валила} деревья и {PAWN_gender ? собирал : собирала} древесину на холмистых перевалах и в оврагах. {PAWN_pronoun} {PAWN_gender ? научился : научилась} безопасно валить деревья и управлять лесом, чтобы поддерживать его в хорошем состоянии.</Logger95.description>
   <!-- EN: logger -->
   <Logger95.title>древотёс</Logger95.title>
   <!-- EN: logger -->
@@ -293,8 +293,8 @@
   <!-- EN: paramedic -->
   <Paramedic45.titleShort>парамедик</Paramedic45.titleShort>
   
-  <!-- EN: [PAWN_nameDef] kept the peace as a line officer in a municipal police force.\n\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting, and other police skills. -->
-  <Policeman45.description>{PAWN_nameDef} {PAWN_gender ? поддерживал : поддерживала} порядок на улицах города как обычный сотрудник полиции.\n\n{PAWN_pronoun} {PAWN_gender ? был обучен : была обучена} разрешению конфликтных ситуаций, силовому контролю, стрельбе и другим важным для полицейских навыкам.</Policeman45.description>
+  <!-- EN: [PAWN_nameDef] kept the peace as a line officer in a municipal social enforcement unit.\n\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting, and other police skills. -->
+  <Policeman45.description>{PAWN_nameDef} {PAWN_gender ? поддерживал : поддерживала} порядок на улицах города как обычный сотрудник правоохранительных органов.\n\n{PAWN_pronoun} {PAWN_gender ? был обучен : была обучена} разрешению конфликтных ситуаций, силовому контролю, стрельбе и другим важным для полицейских навыкам.</Policeman45.description>
   <!-- EN: policeman -->
   <Policeman45.title>офицер полиции</Policeman45.title>
   <!-- EN: policewoman -->
@@ -326,7 +326,7 @@
   <!-- EN: ranger -->
   <Ranger96.titleShort>егерь</Ranger96.titleShort>
   
-  <!-- EN: [PAWN_nameDef] was part of a revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\n[PAWN_pronoun] travelled [PAWN_possessive] homeworld, judging the young people [PAWN_pronoun] met to determine if they might be suitable for training. -->
+  <!-- EN: [PAWN_nameDef] was part of a revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\n[PAWN_pronoun] traveled [PAWN_possessive] homeworld, judging the young people [PAWN_pronoun] met to determine if they might be suitable for training. -->
   <Recruiter14.description>{PAWN_nameDef} — бывший член уважаемого ордена мастеров боевых искусств, печально известных как своими боевыми навыками, так и отказом от лечения собственных раненых.\n\nВ {PAWN_possessive} обязанности входило путешествовать по родному миру, отбирая молодых людей для обучения и тренировок в ордене.</Recruiter14.description>
   <!-- EN: recruiter -->
   <Recruiter14.title>вербовщик</Recruiter14.title>
@@ -352,7 +352,7 @@
   <Teacher20.titleShortFemale>учительница</Teacher20.titleShortFemale>
   
   <!-- EN: Working for a tyrannical dictator, [PAWN_nameDef] earned a reputation as an expert in 'persuasion.' Any prisoner who went down into the dungeons left with no secrets - and with [PAWN_nameDef]'s smile scarred permanently into their nightmares. -->
-  <Torturer37.description>Работая при средневековом монархе-тиране, {PAWN_nameDef} {PAWN_gender ? приобрёл : приобрела} репутацию эксперта в области «убеждения». У заключённых, попадающих к н{PAWN_objective} в темницу, не оставалось никаких секретов, зато {PAWN_possessive} улыбка до конца жизни преследовала их в кошмарах .</Torturer37.description>
+  <Torturer37.description>Работая при средневековом монархе-тиране, {PAWN_nameDef} {PAWN_gender ? приобрёл : приобрела} репутацию эксперта в области «убеждения». У заключённых, попадающих к н{PAWN_objective} в темницу, не оставалось никаких секретов, зато {PAWN_possessive} улыбка до конца жизни преследовала их в кошмарах.</Torturer37.description>
   <!-- EN: torturer -->
   <Torturer37.title>палач</Torturer37.title>
   <!-- EN: torturer -->

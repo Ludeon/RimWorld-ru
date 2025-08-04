@@ -69,7 +69,7 @@
   <!-- EN: {0} is needed but only {1} is available -->
   <PsychicRitualOfferingsInsufficient>Нужно {0}, но доступно лишь {1}</PsychicRitualOfferingsInsufficient>
   <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
-  <PsychicRitualTargetUnreachableByInvoker>TODO</PsychicRitualTargetUnreachableByInvoker>
+  <PsychicRitualTargetUnreachableByInvoker>{TARGET_labelShort} недоуступен для {INVOKER_labelShort}</PsychicRitualTargetUnreachableByInvoker>
 
   <!-- EN: leave the {0} psychic ritual -->
   <CommandLeavePsychicRitual>покинуть псионический ритуал «{0}»</CommandLeavePsychicRitual>
@@ -167,6 +167,8 @@
 
   <!-- EN: {TARGET_labelShort} was destroyed -->
   <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort} уничтожается</PsychicRitualDef_TargetDestroyed>
+  <!-- EN: {INVOKER_labelShort} cannot continue the psychic ritual -->
+  <PsychicRitualDef_InvocationCircle_InvokerLost>{INVOKER_labelShort} не может продолжать псионический ритуал</PsychicRitualDef_InvocationCircle_InvokerLost>
 
   <!-- EN: the area around the target site must be clear of obstructions -->
   <PsychicRitualDef_InvocationCircle_AreaMustBeClear>в месте проведения не должно быть ничего лишнего</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
@@ -211,5 +213,5 @@
   <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
   <PhilophagyTransferReport>{INVOKER_labelShort} похитит {1} ед. опыта навыка «{SKILL_label}». {TARGET_labelShort} их потеряет.</PhilophagyTransferReport>
   <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
-  <NoSkillsToTransfer>TODO</NoSkillsToTransfer>
+  <NoSkillsToTransfer>{TARGET_labelShort} не имеет навыков для передачи.</NoSkillsToTransfer>
 </LanguageData>

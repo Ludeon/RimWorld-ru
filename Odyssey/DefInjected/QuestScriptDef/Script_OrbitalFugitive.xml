@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help dealing with an outlaw named [fugitive_nameDef]. The AI claims [fugitive_nameDef] is wanted for [reason_AI].\n\n[fugitive_nameDef] has stolen a transport pod and has fled to an abandoned orbital platform.\n\nHaving heard rumors of your gravship, the AI requests that you travel to the abandoned platform and kill [fugitive_nameDef]. In return, it will reward you with a gravtech device.\n\nThe AI warns you that [fugitive_nameDef] may be in the company of hostile orbital pirates.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has sent us a message. A fugitive named [fugitive_nameDef] escaped from [asker_possessive] custody and used a transport pod to flee to an abandoned orbital platform. [fugitive_nameDef] was in custody for [reason].\n\nHaving heard rumors of your gravship, the [asker_faction_leaderTitle] asks that you travel to the abandoned platform and kill [fugitive_nameDef]. If you do so, [asker_nameDef] will reward you with a gravtech device.\n\n[asker_nameDef] warns you that [fugitive_nameDef] may be in the company of hostile orbital pirates.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you track down and kill a dangerous fugitive known as [fugitive_nameDef]. The fugitive is wanted for [reason_royal].\n\n[fugitive_nameDef] is hiding out on an abandoned orbital platform and may be guarded by orbital pirates. If you kill the fugitive, [asker_nameDef] will reward you with a gravtech device.</li>
+    <li>reason_AI->the destruction of multiple high-level subpersona cores</li>
+    <li>reason_AI->deorbiting an AI satellite</li>
+    <li>reason_AI->crimes on numerous distant planets</li>
+    <li>reason_AI->unlicensed orbital trafficking of psychic artifacts</li>
+    <li>reason_AI->[reason]</li>
+    <li>reason_royal->drunkenly insulting the [asker_royalTitleInCurrentFaction] in a wedding speech</li>
+    <li>reason_royal->attempting to assassinate the [asker_royalTitleInCurrentFaction]</li>
+    <li>reason_royal->accidentally detonating a firefoam pack in an imperial shuttle</li>
+    <li>reason_royal->the improper use of a tornado generator near an imperial settlement</li>
+    <li>reason_royal->trying to orchestrate a rebellion</li>
+    <li>reason_royal->treason</li>
+    <li>reason_royal->[reason]</li>
+    <li>reason->collaborating with a sanguophage cabal</li>
+    <li>reason->trafficking dangerous psychic artifacts</li>
+    <li>reason->grand larceny and multiple counts of corporate sabotage</li>
+    <li>reason->unauthorized genetic experimentation</li>
+    <li>reason->inciting inter-factional conflict</li>
+    <li>reason->drunkenly profaning a peace ritual</li>
+    <li>reason->the destruction of an orbital trade vessel</li>
+  -->
+  <OrbitalFugitive.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Анонимный ИИ просит вас помочь разобраться с преступником по имени [fugitive_nameDef]. ИИ утверждает, что [fugitive_nameDef] разыскивается за [reason_AI].\n\n[fugitive_nameDef] угнал транспортную капсулу и сбежал на заброшенную орбитальную платформу.\n\nУслышав слухи о вашем гравикорабле, ИИ просит отправиться на платформу и убить [fugitive_nameDef]. В обмен вы получите гравитехнологичное устройство.\n\nИИ предупреждает, что [fugitive_nameDef], возможно, в компании враждебных орбитальных пиратов.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] из фракции [asker_faction_name] прислал сообщение. Преступник по имени [fugitive_nameDef] сбежал из-под стражи [asker_possessive] и с помощью транспортной капсулы скрылся на заброшенной орбитальной платформе. [fugitive_nameDef] находился под стражей за [reason].\n\nУслышав слухи о вашем гравикорабле, [asker_faction_leaderTitle] просит вас отправиться на платформу и уничтожить [fugitive_nameDef]. Если вы выполните просьбу, [asker_nameDef] вознаградит вас гравитехнологичным устройством.\n\n[asker_nameDef] предупреждает, что [fugitive_nameDef], возможно, находится с враждебными орбитальными пиратами.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] из фракции [asker_faction_name], просит выследить и уничтожить опасного преступника по имени [fugitive_nameDef]. Он разыскивается за [reason_royal].\n\n[fugitive_nameDef] скрывается на заброшенной орбитальной платформе, возможно, под охраной орбитальных пиратов. Если вы его убьете, [asker_nameDef] наградит вас гравитехнологичном устройством.</li>
+    <li>reason_AI->уничтожение нескольких высокоуровневых ядер субперсон</li>
+    <li>reason_AI->выведение из орбиты спутника ИИ</li>
+    <li>reason_AI->преступления на множестве далеких планет</li>
+    <li>reason_AI->орбитальную торговлю псионическими артефактами без лицензии</li>
+    <li>reason_AI->[reason]</li>
+    <li>reason_royal->оскорбление [asker_royalTitleInCurrentFaction] в свадебной речи в состоянии опьянения</li>
+    <li>reason_royal->попытку убийства [asker_royalTitleInCurrentFaction]</li>
+    <li>reason_royal->случайный подрыв огнегасительного пакета в имперском шаттле</li>
+    <li>reason_royal->неправомерное использование генератора торнадо рядом с имперским поселением</li>
+    <li>reason_royal->попытку устроить мятеж</li>
+    <li>reason_royal->госизмену</li>
+    <li>reason_royal->[reason]</li>
+    <li>reason->сотрудничество с кабалом гемофагов</li>
+    <li>reason->торговлю опасными псионическими артефактами</li>
+    <li>reason->крупную кража и многочисленные акты корпоративного саботажа</li>
+    <li>reason->несанкционированные генетические эксперименты</li>
+    <li>reason->разжигание конфликта между фракциями</li>
+    <li>reason->оскорбление обряда мира в состоянии опьянения</li>
+    <li>reason->уничтожение орбитального торгового судна</li>
+  </OrbitalFugitive.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The Hunt for [fugitive_nameDef]</li>
+    <li>questName->A Bounty for [fugitive_nameDef]</li>
+    <li>questName->[fugitive_nameDef] the [criminal]</li>
+    <li>questName->The Orbital [criminal]</li>
+    <li>criminal->Criminal</li>
+    <li>criminal->Fugitive</li>
+    <li>criminal->Outlaw</li>
+    <li>criminal->Felon</li>
+    <li>criminal->Renegade</li>
+  -->
+  <OrbitalFugitive.questNameRules.rulesStrings>
+    <li>questName->Охота на [fugitive_nameDef]</li>
+    <li>questName->Награда за [fugitive_nameDef]</li>
+    <li>questName->[fugitive_nameDef] — [criminal]</li>
+    <li>questName->Орбитальный [criminal]</li>
+    <li>criminal->Преступник</li>
+    <li>criminal->Беглец</li>
+    <li>criminal->Изгой</li>
+    <li>criminal->Злодей</li>
+    <li>criminal->Ренегат</li>
+  </OrbitalFugitive.questNameRules.rulesStrings>
+  
+</LanguageData>

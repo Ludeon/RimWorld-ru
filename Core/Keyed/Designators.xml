@@ -53,16 +53,19 @@
   <!-- EN: Designate areas of rock to be mined out. -->
   <DesignatorMineDesc>Обозначить скалы для проведения горных работ.</DesignatorMineDesc>
 
+  <!-- EN: Mine vein -->
+  <DesignatorMineVein>Копать залежи</DesignatorMineVein>
+  <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
+  <DesignatorMineVeinDesc>Обозначить скалы для проведения горных работ. Поселенцы будут продолжать добычу, пока не будет выработана вся порода выбранного типа.</DesignatorMineVeinDesc>
+
   <!-- EN: Smooth surface -->
   <DesignatorSmoothSurface>Выровнять каменную поверхность</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
   <DesignatorSmoothSurfaceDesc>Обозначить необработанные каменные полы и стены для выравнивания.</DesignatorSmoothSurfaceDesc>
-
   <!-- EN: Smooth walls -->
   <DesignatorSmoothWalls>Выровнять каменную стену</DesignatorSmoothWalls>
   <!-- EN: Designate rough stone walls to be smoothed. -->
   <DesignatorSmoothWallsDesc>Обозначить необработанные каменные стены для выравнивания.</DesignatorSmoothWallsDesc>
-  
   <!-- EN: Smooth terrain -->
   <DesignatorSmoothFloors>Выровнять каменный пол</DesignatorSmoothFloors>
   <!-- EN: Designate rough stone terrain to be smoothed. -->
@@ -265,9 +268,9 @@
   <!-- EN: {0_label} cannot be built on this terrain. -->
   <TerrainCannotSupport>{0_label} невозможно построить на этой поверхности.</TerrainCannotSupport>
   <!-- EN: {0_label} requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordance>{0_label} требует поверхность, способную выдерживать {1_label}</TerrainCannotSupport_TerrainAffordance> <!-- TODO: Добавить падеж для TerrainAffordanceDef -->
+  <TerrainCannotSupport_TerrainAffordance>{0_label} требует поверхность, способную выдерживать {1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} из {lookup: {2_label}; Case; 1} требует поверхность, способную выдерживать {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff> <!-- TODO: Добавить падеж для TerrainAffordanceDef -->
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} из {lookup: {2_label}; Case; 1} требует поверхность, способную выдерживать {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>Место уже занято.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
