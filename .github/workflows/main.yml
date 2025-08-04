@@ -1,5 +1,9 @@
 name: main-tests
 on:
+  push:
+    branches:
+      - 'main'
+      - 'github-actions-test'
   workflow_dispatch:
     inputs:
       branch:
@@ -27,9 +31,9 @@ jobs:
             grep -r -o -n -i --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : \1}" ./
             exit 1
           fi
+
   dash-check:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
