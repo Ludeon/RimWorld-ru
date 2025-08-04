@@ -13,14 +13,14 @@ while IFS= read -r -d '' file; do
     while IFS= read -r line || [[ -n "$line" ]]; do
         line_number=$((line_number + 1))
         # Пропускаем комментарии (строки, начинающиеся с <!-- с возможными пробелами)
-        if echo "$line" | grep -q '\s*^<!--'; then
+        if echo "$line" | grep -q '^\s*<!--'; then
             continue
         fi
 
         # Ищем " - " (обычный пробел, дефис, пробел)
         if echo "$line" | grep -q ' - '; then
             if [[ "$file_printed" -eq 0 ]]; then
-                echo -e "Файл: \033[1;33m$file\033[0m"
+                echo -e "\nФайл: \033[1;33m$file\033[0m"
                 file_printed=1
             fi
             echo -e "\033[1;31mПробел и дефис\n\033[1;32mстрока $line_number\033[0m: $line"
