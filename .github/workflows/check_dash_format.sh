@@ -10,7 +10,7 @@ while IFS= read -r -d '' file; do
     # Проверим файл построчно
     while IFS= read -r line || [[ -n "$line" ]]; do
         # Пропускаем комментарии (строки, начинающиеся с <!-- с возможными пробелами)
-        if [[ "$line" =~ ^[[:space:]]*<!-- ]]; then
+        if echo "$line" | grep -q '\s*^<!--'; then
             continue
         fi
 
