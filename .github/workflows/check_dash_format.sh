@@ -7,6 +7,7 @@ echo "Checking XML files for correct dash formatting..."
 errors=0
 
 while IFS= read -r -d '' file; do
+    file_printed=0
     # Проверим файл построчно
     while IFS= read -r line || [[ -n "$line" ]]; do
         # Пропускаем комментарии (строки, начинающиеся с <!-- с возможными пробелами)
@@ -16,7 +17,10 @@ while IFS= read -r -d '' file; do
 
         # Ищем " - " (обычный пробел, дефис, пробел)
         if echo "$line" | grep -q ' - '; then
-            echo "Invalid dash format in \033[1;33m$file\033[0m"
+            if [[ "$file_printed" -eq 0 ]]; then
+                echo -e "Invalid dash format in \033[1;33m$file\033[0m"
+                file_printed=1
+            fi
             echo "$line"
             echo
             errors=1
@@ -24,7 +28,10 @@ while IFS= read -r -d '' file; do
 
         # Ищем " - " (обычный пробел, длинное тире, пробел)
         if echo "$line" | grep -q ' — '; then
-            echo "Invalid dash format in \033[1;33m$file\033[0m"
+            if [[ "$file_printed" -eq 0 ]]; then
+                echo -e "Invalid dash format in \033[1;33m$file\033[0m"
+                file_printed=1
+            fi
             echo "$line"
             echo
             errors=1
