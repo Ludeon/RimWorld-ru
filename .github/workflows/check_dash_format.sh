@@ -23,7 +23,7 @@ while IFS= read -r -d '' file; do
                 echo -e "Файл: \033[1;33m$file\033[0m"
                 file_printed=1
             fi
-            echo "Пробел и дефис, строка \033[1;32m$line_number\033[0m: $line"
+            echo -e "Пробел и дефис, строка \033[1;32m$line_number\033[0m: $line"
             echo
             errors=1
         fi
@@ -34,7 +34,7 @@ while IFS= read -r -d '' file; do
                 echo -e "Файл: \033[1;33m$file\033[0m"
                 file_printed=1
             fi
-            echo "Дефис вместо тире, строка \033[1;32m$line_number\033[0m: $line"
+            echo -e "Дефис вместо тире, строка \033[1;32m$line_number\033[0m: $line"
             echo
             errors=1
         fi
@@ -45,7 +45,7 @@ while IFS= read -r -d '' file; do
                 echo -e "Файл: \033[1;33m$file\033[0m"
                 file_printed=1
             fi
-            echo "Обычный пробел перед тире, строка \033[1;32m$line_number\033[0m: $line"
+            echo -e "Обычный пробел перед тире, строка \033[1;32m$line_number\033[0m: $line"
             echo
             errors=1
         fi
