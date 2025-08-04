@@ -2,38 +2,32 @@
 
 set -e
 
-echo "Проверка XML файлов на то, что теги с reportString не должны иметь точку в конце"
+echo "Проверка XML файлов на наличие точки в конце reportString"
 
 errors=0
 
 while IFS= read -r -d '' file; do
-    file_printed=0
-    line_number=0
-    # Проверим файл построчно
-    while IFS= read -r line || [[ -n "$line" ]]; do
-        line_number=$((line_number + 1))
-        # Пропускаем комментарии (строки, начинающиеся с <!-- с возможными пробелами)
-        if echo "$line" | grep -q '^\s*<!--'; then
-            continue
-        fi
-        # Находим тег с .reportString
-        if echo "$line" | grep -q '.reportString>'; then
-            # Находим точку перед закрытием тега
-            if echo "$line" | grep -q '\.<\/'; then
-                if [[ "$file_printed" -eq 0 ]]; then
-                    echo "        "
-                    echo -e "Файл: \033[1;33m$file\033[0m"
-                    file_printed=1
-                fi
-                echo -e "\033[1;31mТочка в конце reportString\n\033[1;32mстрока $line_number\033[0m: $line"
-                errors=1
-            fi
-        fi
-    done < "$file"
+    matches=$(perl -ne '
+        next if /^\s*<!--/;  # Пропустить комментарии
+        if (/.*\.reportString>([^<]*)\.<\/.*>/) {
+            printf "%d:%s", $., $_;
+        }
+    ' "$file")
+    
+    if [[ -n "$matches" ]]; then
+        echo -e "\nФайл: \033[1;33m$file\033[0m"
+        echo -e "$matches" | while IFS= read -r line; do
+            # Разделить строку: до двоеточия — номер строки, после — содержимое
+            line_number="${line%%:*}"
+            line_content="${line#*:}"
+            echo -e "\033[1;32m$line_number:\033[0m $line_content"
+        done
+        errors=1
+    fi
 done < <(find . -type f -name "*.xml" -print0)
 
 if [ "$errors" -ne 0 ]; then
-    echo "Обнаружены ошибки в формате некоторых XML файлах: уберите точку в конце reportString"
+    echo -e "\nОбнаружены ошибки: уберите точку в конце reportString"
     exit 1
 else
     echo "Все файлы XML имеют верный формат reportString"
