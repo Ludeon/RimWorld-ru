@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Checking XML files for correct dash formatting..."
+echo "Проверка XML файлов на форматирование неразрывного пробела и тире."
 
 errors=0
 
@@ -11,7 +11,7 @@ while IFS= read -r -d '' file; do
     line_number=0
     # Проверим файл построчно
     while IFS= read -r line || [[ -n "$line" ]]; do
-        ((line_number++))
+        line_number=$((line_number + 1))
         # Пропускаем комментарии (строки, начинающиеся с <!-- с возможными пробелами)
         if echo "$line" | grep -q '\s*^<!--'; then
             continue
