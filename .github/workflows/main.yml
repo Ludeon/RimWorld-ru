@@ -1,4 +1,4 @@
-name: main-tests
+name: spell-checks
 on:
   push:
     branches:
@@ -26,7 +26,7 @@ jobs:
         with:
           ref: ${{ github.event.inputs.branch }}
 
-      - name: Find bad lines
+      - name: Проверка разных значений для макроса PAWN_gender
         run: |
           if [ $(grep -r -o -i --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : \1}" ./ | wc -l) == 0 ];
           then
@@ -46,7 +46,7 @@ jobs:
         with:
           ref: ${{ github.event.inputs.branch }}
 
-      - name: Run dash format check
+      - name: Проверка на неразрывный пробел и длинное тире
         run: bash .github/workflows/check_dash_format.sh
 
   report-string-dot-check:
@@ -57,5 +57,5 @@ jobs:
         with:
           ref: ${{ github.event.inputs.branch }}
 
-      - name: Run dash format check
+      - name: Проверка на отсутсвие точки в конце тегов с reportString
         run: bash .github/workflows/check_report_string_dot.sh
