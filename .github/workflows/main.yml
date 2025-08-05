@@ -11,8 +11,7 @@ on:
         required: true
         default: 'master'
   pull_request:
-    types:
-      - opened
+    types: [opened, synchronize, reopened]
     branches:
       - 'master'
     # paths:
