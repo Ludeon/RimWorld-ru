@@ -10,6 +10,13 @@ on:
         description: 'Define branch name'     
         required: true
         default: 'master'
+  pull_request:
+    types:
+      - opened
+    branches:
+      - 'master'
+    # paths:
+      # - '**.xml'
 
 jobs:
   check-pawn-gender-macro-same-value:
