@@ -27,7 +27,7 @@ while IFS= read -r -d '' file; do
 done < <(find . -type f -name "*.xml" -print0)
 
 if [ "$errors" -ne 0 ]; then
-    echo -e "\nОбнаружены ошибки: уберите точку в конце reportString"
+    echo -e "\nОбнаружены ошибки. Нужно убрать точки в конце текстов в тегах с reportString"
     exit 1
 else
     echo "Все файлы XML имеют верный формат reportString"
