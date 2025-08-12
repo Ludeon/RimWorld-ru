@@ -102,13 +102,12 @@
   <AreYouSure>Вы уверены?</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <ChangingOwnerTypeBedWarning>Смена режима у кровати повлияет на тип всей комнаты (поскольку пленники не могут спать в одной комнате с поселенцами или рабами).\n\nЭти люди потеряют назначенные им кровати:</ChangingOwnerTypeBedWarning>
-
-
+  
   <!-- EN: Detonate -->
   <CommandDetonateLabel>Взорвать</CommandDetonateLabel>
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Начать обратный отсчёт.</CommandDetonateDesc>
-
+  
   <!-- EN: Hide -->
   <CommandHideZoneLabel>Скрыть</CommandHideZoneLabel>
   <!-- EN: Unhide -->
@@ -449,10 +448,10 @@
   <CommandLaunchGroupDesc>Отправиться в полёт к указанной точке.</CommandLaunchGroupDesc>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Как минимум одна капсула не подключена к топливному порту.</CommandLaunchGroupFailNotConnectedToFuelingPort>
-  <!-- EN: Some pod launchers in this group have no fuel. -->
-  <CommandLaunchGroupFailNoFuel>Как минимум одна капсула стоит без топлива.</CommandLaunchGroupFailNoFuel>
-  <!-- EN: Some pod launchers are under a roof. -->
-  <CommandLaunchGroupFailUnderRoof>Как минимум одна капсула находится под крышей.</CommandLaunchGroupFailUnderRoof>
+  <!-- EN: Roof blocking launch. -->
+  <CommandLaunchGroupFailUnderRoof>Запуску препятствует крыша.</CommandLaunchGroupFailUnderRoof>
+  <!-- EN: Not enough fuel to launch. -->
+  <CommandLaunchGroupFailNoFuel>Для запуска недостаточно топлива.</CommandLaunchGroupFailNoFuel>
   
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
@@ -615,15 +614,15 @@
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
   <CommandLeaveRitual>Покинуть {RITUAL_label}</CommandLeaveRitual>
-  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>Прекратить участие в {RITUAL_labelDef}. Этот ритуал продолжится, пока в нём участвует хотя бы один человек.</CommandLeaveRitualDesc>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The event will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>Прекратить участие в {RITUAL_labelDef}. Это событие продолжится, пока в нём участвует хотя бы один человек.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
   <CommandLeaveLastParticipant>Это последний участник {RITUAL_labelDef}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>Прервать {RITUAL_label}</CommandCancelRitual>
-  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>Прервать {RITUAL_labelDef} немедленно. Необходимость проведения ритуала останется. Позже вы сможете начать его заново.</CommandCancelRitualDesc>
+  <!-- EN: End the {RITUAL_labelDef} immediately. You can restart the event later. -->
+  <CommandCancelRitualDesc>Прервать {RITUAL_labelDef} немедленно. Позже вы сможете начать событие заново.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>Вы уверены, что хотите прервать {RITUAL_labelDef}?</CommandCancelRitualConfirm>
 

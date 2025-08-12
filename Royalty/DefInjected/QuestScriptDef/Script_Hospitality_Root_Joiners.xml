@@ -63,7 +63,7 @@
     <li>secretInfo->[enemyFaction_leaderTitle]</li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is fleeing a troubling political situation and wants to hide out at [map_definite] for [shuttleDelayTicks_duration]. [threatsInfo5][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef]'s enemies have hired [enemyFaction_name] to hunt [asker_objective]. [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]'s enemies provoked mechanoids into to hunting [asker_objective]. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]'s enemies provoked mechanoids into hunting [asker_objective]. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[asker_nameDef]'s enemies have somehow provoked mechanoids into hunting [asker_objective]. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to stay at [map_definite] for [shuttleDelayTicks_duration] with [lodgersCountMinusOne] court [allyAllies]. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
