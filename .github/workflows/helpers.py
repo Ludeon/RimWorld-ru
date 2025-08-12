@@ -11,6 +11,14 @@ DLC_DIR_NAMES = [
 ]
 
 
+TERM_COLORS = {
+    "red": "\033[91m",
+    "green": "\033[92m",
+    "yellow": "\033[93m",
+    "reset": "\033[0m"
+}
+
+
 def get_all_file_paths(dlc_dir):
     result = []
     for dirpath, _, filenames in os.walk(dlc_dir):
@@ -21,3 +29,16 @@ def get_all_file_paths(dlc_dir):
 
 def get_xml_file_paths(dlc_dir):
     return [path for path in get_all_file_paths(dlc_dir) if path.lower().endswith(".xml")]
+
+
+def color_text(text, color):
+    return f"{TERM_COLORS.get(color, TERM_COLORS['reset'])}{text}{TERM_COLORS['reset']}"
+
+def print_red(text):
+    print(color_text(text, "red"))
+
+def print_green(text):
+    print(color_text(text, "green"))
+
+def print_yellow(text):
+    print(color_text(text, "yellow"))

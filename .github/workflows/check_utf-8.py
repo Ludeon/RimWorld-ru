@@ -1,7 +1,7 @@
 import sys
 import os
 
-from helpers import DLC_DIR_NAMES, get_xml_file_paths, get_all_file_paths
+from helpers import DLC_DIR_NAMES, get_xml_file_paths, get_all_file_paths, print_red, print_green, print_yellow
 
 
 UTF8_BOM = b"\xef\xbb\xbf"
@@ -29,19 +29,21 @@ def search_bad_encoding(files) -> tuple[list, list]:
 
 def report_errors(dir_name, not_utf8_files, not_bom_files):
     print(f"Проверка {dir_name}: ", end='')
+    if not_utf8_files or not_bom_files:
+        print_red("ERROR")
+    else:
+        print_green("OK")
+        return
 
     if not_utf8_files:
-        print("\nФайлы не в кодировке UTF-8:")
+        print_yellow("Файлы не в кодировке UTF-8:")
         for f in not_utf8_files:
             print("  ", f)
 
     if not_bom_files:
-        print("\nФайлы UTF-8 без BOM:")
+        print_yellow("Файлы UTF-8 без BOM:")
         for f in not_bom_files:
             print("  ", f)
-
-    if not not_utf8_files and not not_utf8_files:
-        print("OK")
 
 
 def main():
