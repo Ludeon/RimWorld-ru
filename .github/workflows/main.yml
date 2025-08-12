@@ -59,3 +59,14 @@ jobs:
 
       - name: Проверка на отсутсвие точки в конце тегов с reportString
         run: bash .github/workflows/check_report_string_dot.sh
+
+  encoding-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Проверка кодировки
+        run: python .github/workflows/check_utf-8.py
