@@ -247,15 +247,15 @@
   <!-- EN: {0} effect multiplier: {1} -->
   <DrugEffectMultiplier>множитель эффекта от {lookup: {0}; Case; 1}: {1}</DrugEffectMultiplier>
   <!-- EN: Visiting {0}. -->
-  <CaravanVisiting>Посещает {lookup: {0}; Case; 3}.</CaravanVisiting> <!-- Подставляется имя поселения, "мирные переговоры" или объект на карте. Падеж допустим -->
+  <CaravanVisiting>Посещает {lookup: {0}; Case; 3}</CaravanVisiting> <!-- Подставляется имя поселения, "мирные переговоры" или объект на карте. Падеж допустим -->
   <!-- EN: Entering {0}. -->
-  <CaravanEntering>Идёт к {lookup: {0}; Case; 2}.</CaravanEntering> <!-- Подставляется имя объекта на карте. Падеж допустим -->
+  <CaravanEntering>Идёт к {lookup: {0}; Case; 2}</CaravanEntering> <!-- Подставляется имя объекта на карте. Падеж допустим -->
   <!-- EN: Attacking {0}. -->
-  <CaravanAttacking>Нападает на {0}.</CaravanAttacking> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
+  <CaravanAttacking>Нападает на {0}</CaravanAttacking> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>Предлагает подарок {0}.</CaravanOfferingGifts> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
+  <CaravanOfferingGifts>Предлагает подарок {0}</CaravanOfferingGifts> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
   <!-- EN: Trading with {0}. -->
-  <CaravanTrading>Торгует с {0}.</CaravanTrading> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
+  <CaravanTrading>Торгует с {0}</CaravanTrading> <!-- Подставляется только имя поселения. Падеж смысла не имеет -->
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Снято с трупа.</WasWornByCorpse>
   <!-- EN: T -->
@@ -276,8 +276,8 @@
   <Map>Карта</Map>
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>{0} до прибытия противников</CaravanDetectedRaidCountdown>
-  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
-  <CaravanDetectedRaidCountdownTip>Вражеские подкрепления прибудут в эту область через {0}.</CaravanDetectedRaidCountdownTip>
+  <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
+  <CaravanDetectedRaidCountdownTip>Враги узнали о вашем местонахождении. Они прибудут через {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Комната</Room>
   <!-- EN: Beauty here -->
@@ -472,16 +472,16 @@
   <ViewHyperlink>Перейти к: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Взорвётся через {0_numCase ? день : дня : дней}</DetonationCountdown>
-  <!-- EN: Large fire explosion if damaged. -->
-  <ExplosionOnDamageWarning>При повреждении произойдёт мощный огненный взрыв.</ExplosionOnDamageWarning>
+  <!-- EN: Large explosion if damaged. -->
+  <ExplosionOnDamageWarning>При повреждении произойдёт мощный взрыв.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Кластер механоидов</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>Расплодится через {0}</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>Сборка {lookup: {0}; Case; 1} завершится через {1}.</MechAssemblyCompleteIn>
-  <!-- EN: Will assemble -->
-  <MechAssemblyNextType>Соберёт</MechAssemblyNextType>
+  <!-- EN: {0} gestation completes in {1}. -->
+  <MechAssemblyCompleteIn>Выращивание {lookup: {0}; Case; 1} завершится через {1}.</MechAssemblyCompleteIn>
+  <!-- EN: Will gestate -->
+  <MechAssemblyNextType>Вырастит</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>произведено</ThingsProduced>
   <!-- EN: harvested -->
@@ -587,7 +587,7 @@
   <!-- EN: Activate -->
   <Activate>Активировать</Activate> 
   <!-- EN: Activation -->
-  <Activation>Активация</Activation> 
+  <Activation>Активация</Activation>
   <!-- EN: complete -->
   <Complete>завершён</Complete>
   <!-- EN: Must be imprisoned. -->
@@ -1125,14 +1125,14 @@
   <GrowthRate>Скорость роста</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
   <FullyGrownIn>Вырастет через {0}.</FullyGrownIn>
-  <!-- EN: Needs light level -->
-  <PlantNeedsLightLevel>Не растёт (Нужен свет)</PlantNeedsLightLevel>
-  <!-- EN: Resting -->
-  <PlantResting>Спит</PlantResting>
-  <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
-  <OutOfIdealTemperatureRange>Не идеальная температура (растёт со скоростью {0}% от нормы)</OutOfIdealTemperatureRange>
-  <!-- EN: Non-ideal temperature. Not growing. -->
-  <OutOfIdealTemperatureRangeNotGrowing>Неподходящая температура. Не растёт.</OutOfIdealTemperatureRangeNotGrowing>
+  <!-- EN: needs light level -->
+  <PlantNeedsLightLevel>нужна освещённость</PlantNeedsLightLevel> <!-- Вариант результирующей строки: «Скорость роста: 0% (нужна освещённость 51%)» -->
+  <!-- EN: resting -->
+  <PlantResting>спит</PlantResting>
+  <!-- EN: temperature growth multiplier {0}% -->
+  <OutOfIdealTemperatureRange>фактор температуры: {0}%</OutOfIdealTemperatureRange>
+  <!-- EN: out of temperature growth range -->
+  <OutOfIdealTemperatureRangeNotGrowing>неподходящая температура</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>Можно собирать.</ReadyToHarvest>
   <!-- EN: Mature. -->
@@ -1437,14 +1437,14 @@
   <GameOverKeepWatchingForNow>Наблюдать за происходящим</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
   <GameOverCreateNewWanderers>Создать новых странников</GameOverCreateNewWanderers>
-  <!-- EN: Create new wanderers (must wait {0}h) -->
-  <GameOverCreateNewWanderersWait>Создать новых странников (нужно подождать {0} ч)</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
   <GameOverCreateNewWanderersText>Все поселенцы либо мертвы, либо ушли. Возможно, кто-то сможет найти применение руинам этого места.\n\nВыберите новых странников для вашего поселения и продолжите историю.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
   <!-- EN: No colony -->
   <NoColony>Нет поселения</NoColony>
+  <!-- EN: must wait {0}h -->
+  <GameOverCreateNewWanderersWait>нужно подождать {0} ч</GameOverCreateNewWanderersWait>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1633,11 +1633,9 @@
   <Reward_Pawn_WalkIn>{0_age}-{0_gender ? летний : летняя} {0_title} по имени {0_nameDef} прибудет и присоединится к вам{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>{0_age}-{0_gender ? летний : летняя} {0_title} по имени {0_nameDef} присоединится к вам{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):
-\n{0} -->
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
   <Reward_Items>прибудут транспортные капсулы со следующим грузом (общей стоимостью {1}):\n\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):
-\n{0} -->
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
   <Reward_Items_Caravan>вы получите (общей стоимостью {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>отношения с фракцией {0_name} улучшатся на {1}</Reward_Goodwill>
@@ -1650,9 +1648,9 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Добыча в лагере</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>Непонятно, что именно произойдёт, когда вы примете это задание</Reward_Unknown> 
+  <Reward_Unknown>Непонятно, что именно произойдёт, когда вы примете это задание</Reward_Unknown>
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>Неизвестно</Reward_Unknown_Label> 
+  <Reward_Unknown_Label>Неизвестно</Reward_Unknown_Label>
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>гости будут помогать вашим поселенцам и сражаться на вашей стороне</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1699,10 +1697,10 @@
   <BiocodedCodedForSomeoneElse>биокодировано</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
-  <!-- EN: Intercepts {0} every {1} -->
-  <InterceptsProjectilesEvery>Перехватывает {0} каждые {1}</InterceptsProjectilesEvery> <!-- Вместо {0} подставится InterceptsProjectiles_GroundProjectiles или InterceptsProjectiles_AerialProjectiles -->
-  <!-- EN: Intercepts {0} -->
-  <InterceptsProjectiles>Перехватывает {0}</InterceptsProjectiles>
+  <!-- EN: Intercepts {0} every {1}. -->
+  <InterceptsProjectilesEvery>Перехватывает {0} каждые {1}.</InterceptsProjectilesEvery> <!-- Вместо {0} подставится InterceptsProjectiles_GroundProjectiles или InterceptsProjectiles_AerialProjectiles -->
+  <!-- EN: Intercepts {0}. -->
+  <InterceptsProjectiles>Перехватывает {0}.</InterceptsProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>снаряды с настильной траекторией</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
@@ -1785,10 +1783,10 @@
   <DragPawnsToRolesInfoController>Перетаскивайте или пользуйтесь кнопками.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Раб. Человек, принадлежащий другому человеку или людям.</RitualBeginSlaveDesc>
-  <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} сейчас спит, но {0_pronoun} проснётся, если {0_possessive} пригласить на ритуал.</RitualBeginSleepingDesc>
-  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>Некоторые из выбранных участников сейчас спят, но они проснутся, как только ритуал начнётся.</RitualBeginSleepingWarning>
+  <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
+  <RitualBeginSleepingDesc>{0_labelShort} сейчас спит, но {0_pronoun} проснётся, если {0_possessive} пригласить на событие.</RitualBeginSleepingDesc>
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
+  <RitualBeginSleepingWarning>Некоторые из выбранных участников сейчас спят, но они проснутся, как только событие начнётся.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>С этим лучше всего справится поселенец с ролью {0}.\n\nЕсли выбрать поселенца без этой роли, то вы не сможете получить следующие бонусы</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
@@ -2009,7 +2007,8 @@
   <CommandPushTo>Толкать к...</CommandPushTo>
   <!-- EN: requires {0} -->
   <RequiredCapacity>требуется способность к {lookup: {0}; Case; 2}</RequiredCapacity> <!-- Вставляется PawnCapacity: "Требуется способность к работе" -->
-  
+
+  <!-- Pocket Maps -->
   <!-- EN: Unable to enter {0}, destination is blocked -->
   <UnableToEnterPortal>Невозможно пройти через {lookup: {0}; Case; 3}: проход заблокирован</UnableToEnterPortal>
 
