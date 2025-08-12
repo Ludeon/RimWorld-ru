@@ -70,3 +70,14 @@ jobs:
 
       - name: Проверка кодировки
         run: python .github/workflows/check_utf-8.py
+
+  xml-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Проверка валидности XML
+        run: python .github/workflows/check_xml_format.py
