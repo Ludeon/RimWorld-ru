@@ -26,7 +26,7 @@ def report_errors(dir_name, bad_xml_files):
 
 
     if not bad_xml_files:
-        print_green("OK", "green")
+        print_green("OK")
 
 def main():
     has_errors = False
