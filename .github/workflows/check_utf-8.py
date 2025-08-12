@@ -7,7 +7,7 @@ from helpers import DLC_DIR_NAMES
 
 UTF8_BOM = b"\xef\xbb\xbf"
 
-def scan_for_bad_encoding(root_dir):
+def search_bad_encoding(root_dir) -> tuple[list, list]:
     not_utf8_files = []
     not_bom_files = []
 
@@ -29,26 +29,32 @@ def scan_for_bad_encoding(root_dir):
                     not_utf8_files.append(path)
 
     not_bom_files = sorted(list(set(not_bom_files) - set(not_utf8_files)))
+    not_utf8_files = sorted(not_utf8_files)
 
-    if not_utf8_files:
-        print("Файлы не в кодировке UTF-8:")
-        for f in not_utf8_files:
-            print("  ", f)
-
-    if not_bom_files:
-        print("Файлы UTF-8 без BOM:")
-        for f in not_bom_files:
-            print(" ", f)
-
-    return not_bom_files or not_utf8_files
+    return not_bom_files, not_utf8_files
 
 
 if __name__ == "__main__":
     has_error = False
     for dlc_dir in DLC_DIR_NAMES + ["RimWorldUniverse"]:
-        print(f"Проверка {dlc_dir}...")
-        has_error |= bool(scan_for_bad_encoding(dlc_dir))
+        print(f"Проверка {dlc_dir}: ", end='')
 
-    if has_error:
+        not_utf8_files, not_bom_files = search_bad_encoding(dlc_dir)
+
+        if not not_utf8_files and not not_utf8_files:
+            print("OK")
+            continue
+
+        if not_utf8_files:
+            print("\nФайлы не в кодировке UTF-8:")
+            for f in not_utf8_files:
+                print("  ", f)
+
+        if not_bom_files:
+            print("\nФайлы UTF-8 без BOM:")
+            for f in not_bom_files:
+                print(" ", f)
+
+    if not_utf8_files or not_bom_files:
         sys.exit(1)
     sys.exit(0)
