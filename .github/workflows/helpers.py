@@ -11,12 +11,13 @@ DLC_DIR_NAMES = [
 ]
 
 
-def get_xml_file_paths(dlc_dir):
+def get_all_file_paths(dlc_dir):
     result = []
     for dirpath, _, filenames in os.walk(dlc_dir):
         for name in filenames:
-            if not name.lower().endswith(".xml"):
-                continue
             result.append(os.path.join(dirpath, name))
-
     return result
+
+
+def get_xml_file_paths(dlc_dir):
+    return [path for path in get_all_file_paths(dlc_dir) if path.lower().endswith(".xml")]
