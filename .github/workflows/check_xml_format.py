@@ -1,4 +1,4 @@
-import sys
+﻿import sys
 import os
 import xml.etree.ElementTree as ET
 
@@ -15,25 +15,28 @@ def search_bad_xml(dlc_dir):
     return broken_files
 
 
-def report_errors(dir_name, bad_xml_files):
+def print_report(dir_name, bad_xml_files):
     print(f"Проверка {dir_name}: ", end='')
-
-    if bad_xml_files:
-        print_red("ERROR")
-        print_yellow("Файлы XML с ошибкой в формате:")
-        for f in bad_xml_files:
-            print("  ", f)
-
 
     if not bad_xml_files:
         print_green("OK")
+        return
+
+    print_red("ERROR")
+
+    print_yellow("Файлы XML с ошибкой в формате:")
+    for f in bad_xml_files:
+        print("  ", f)
+
 
 def main():
+    print("Проверка XML файлов на валидный формат")
+
     has_errors = False
 
     for dlc_dir in DLC_DIR_NAMES:
         bad_xml_files = search_bad_xml(dlc_dir)
-        report_errors(dlc_dir, bad_xml_files)
+        print_report(dlc_dir, bad_xml_files)
         has_errors |= bool(bad_xml_files)
     
     if has_errors:

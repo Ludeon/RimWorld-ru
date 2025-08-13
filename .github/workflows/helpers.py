@@ -1,4 +1,4 @@
-import os
+﻿import os
 
 
 DLC_DIR_NAMES = [
@@ -34,11 +34,11 @@ def get_xml_file_paths(dlc_dir):
 def color_text(text, color):
     return f"{TERM_COLORS.get(color, TERM_COLORS['reset'])}{text}{TERM_COLORS['reset']}"
 
-def print_red(text):
-    print(color_text(text, "red"))
+def print_red(text, **argv):
+    print(color_text(text, "red"), **argv)
 
-def print_green(text):
-    print(color_text(text, "green"))
+def print_green(text, **argv):
+    print(color_text(text, "green"), **argv)
 
-def print_yellow(text):
-    print(color_text(text, "yellow"))
+def print_yellow(text, **argv):
+    print(color_text(text, "yellow"), **argv)

@@ -1,4 +1,4 @@
-import sys
+﻿import sys
 import os
 
 from helpers import DLC_DIR_NAMES, get_xml_file_paths, get_all_file_paths, print_red, print_green, print_yellow
@@ -27,13 +27,14 @@ def search_bad_encoding(files) -> tuple[list, list]:
     return sorted(not_utf8_files), sorted(not_bom_files)
 
 
-def report_errors(dir_name, not_utf8_files, not_bom_files):
+def print_report(dir_name, not_utf8_files, not_bom_files):
     print(f"Проверка {dir_name}: ", end='')
-    if not_utf8_files or not_bom_files:
-        print_red("ERROR")
-    else:
+
+    if not not_utf8_files and not not_bom_files:
         print_green("OK")
         return
+
+    print_red("ERROR")
 
     if not_utf8_files:
         print_yellow("Файлы не в кодировке UTF-8:")
@@ -47,16 +48,18 @@ def report_errors(dir_name, not_utf8_files, not_bom_files):
 
 
 def main():
+    print("Проверка файлов перевода на валидную кодировку UTF-8 c BOM")
+
     has_errors = False
 
     for dlc_dir in DLC_DIR_NAMES:
         not_utf8_files, not_bom_files = search_bad_encoding(get_xml_file_paths(dlc_dir))
-        report_errors(dlc_dir, not_utf8_files, not_bom_files)
+        print_report(dlc_dir, not_utf8_files, not_bom_files)
         has_errors |= bool(not_utf8_files or not_bom_files)
 
     # separate check of not XML files
     not_utf8_files, not_bom_files = search_bad_encoding(get_all_file_paths("RimWorldUniverse"))
-    report_errors("RimWorldUniverse", not_utf8_files, not_bom_files)
+    print_report("RimWorldUniverse", not_utf8_files, not_bom_files)
     has_errors |= bool(not_utf8_files or not_bom_files)
 
     if has_errors:
