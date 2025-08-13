@@ -16,6 +16,7 @@ class ErrorLine:
     line_num: int
     content: str
     reason: str
+    match: re.Match
 
 
 def check_file(filepath) -> list[ErrorLine]:
@@ -29,12 +30,12 @@ def check_file(filepath) -> list[ErrorLine]:
             # remove comments at the end
             line = re.sub(r"<!--.*$", "", line)
 
-            if re.search(f"[^{NBSP}]- ", line):
-                err_lines.append(ErrorLine(filepath, i, line, "Неразрывный пробел и дефис (нужно длинное тире — (Alt+0151))"))
-            if re.search(r" - ", line):
-                err_lines.append(ErrorLine(filepath, i, line, "Пробел и дефис (нужны неразрывный пробел и длинное тире (Alt+0160 + Alt+0151))"))
-            if re.search(f" {EM_DASH} ", line):
-                err_lines.append(ErrorLine(filepath, i, line, "Обычный пробел перед тире (нужен неразрывный пробел (Alt+0160))"))
+            if match := re.search(f"{NBSP}- ", line):
+                err_lines.append(ErrorLine(filepath, i, line, "Неразрывный пробел и дефис (нужно длинное тире — (Alt+0151))", match))
+            if match := re.search(r" - ", line):
+                err_lines.append(ErrorLine(filepath, i, line, "Пробел и дефис (нужны неразрывный пробел и длинное тире (Alt+0160 + Alt+0151))", match))
+            if match := re.search(f" {EM_DASH} ", line):
+                err_lines.append(ErrorLine(filepath, i, line, "Обычный пробел перед тире (нужен неразрывный пробел (Alt+0160))", match))
 
     return err_lines
 
@@ -63,7 +64,9 @@ def print_report(err_lines: list[ErrorLine]):
 
         print_red(err.reason)
         print_green(err.line_num, end=': ')
-        print(err.content.strip())
+        print(err.content[:err.match.start()].lstrip(), end='')
+        print_red(err.match.group(), end='')
+        print(err.content[err.match.end():], end='')
 
 
 def main():

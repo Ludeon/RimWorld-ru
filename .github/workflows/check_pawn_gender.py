@@ -14,7 +14,7 @@ class ErrorLine:
     file: str
     line_num: int
     content: str
-    match: str
+    match: re.Match
 
 
 def check_file(filepath) -> list[ErrorLine]:
