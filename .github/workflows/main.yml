@@ -47,7 +47,7 @@ jobs:
           ref: ${{ github.event.inputs.branch }}
 
       - name: Проверка на неразрывный пробел и длинное тире
-        run: bash .github/workflows/check_dash_format.sh
+        run: python .github/workflows/check_dash_format.py
 
   report-string-dot-check:
     runs-on: ubuntu-latest
