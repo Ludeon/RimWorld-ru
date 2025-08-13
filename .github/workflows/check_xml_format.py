@@ -15,9 +15,7 @@ def search_bad_xml(dlc_dir):
     return broken_files
 
 
-def print_report(dir_name, bad_xml_files):
-    print(f"Проверка {dir_name}: ", end='')
-
+def print_report(bad_xml_files):
     if not bad_xml_files:
         print_green("OK")
         return
@@ -35,8 +33,9 @@ def main():
     has_errors = False
 
     for dlc_dir in DLC_DIR_NAMES:
+        print(f"Проверка {dlc_dir}: ", end='')
         bad_xml_files = search_bad_xml(dlc_dir)
-        print_report(dlc_dir, bad_xml_files)
+        print_report(bad_xml_files)
         has_errors |= bool(bad_xml_files)
     
     if has_errors:

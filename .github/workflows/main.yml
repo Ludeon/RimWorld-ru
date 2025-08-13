@@ -27,16 +27,7 @@ jobs:
           ref: ${{ github.event.inputs.branch }}
 
       - name: Проверка разных значений для макроса PAWN_gender
-        run: |
-          if [ $(grep -r -o -i --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : \1}" ./ | wc -l) == 0 ];
-          then
-            echo "No same values in the macro"
-            exit 0
-          else
-            echo "Found same values in PAWN_gender macro"
-            grep -r -o -n -i --include=\*.xml "{PAWN_gender ? \(.[^:]*\) : \1}" ./
-            exit 1
-          fi
+        run: python .github/workflows/check_pawn_gender.py
 
   dash-check:
     runs-on: ubuntu-latest
@@ -57,8 +48,8 @@ jobs:
         with:
           ref: ${{ github.event.inputs.branch }}
 
-      - name: Проверка на отсутсвие точки в конце тегов с reportString
-        run: bash .github/workflows/check_report_string_dot.sh
+      - name: Проверка на отсутствие точки в конце тегов с reportString
+        run: python .github/workflows/check_report_string_dot.py
 
   encoding-check:
     runs-on: ubuntu-latest

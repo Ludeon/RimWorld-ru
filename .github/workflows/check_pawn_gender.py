@@ -1,21 +1,20 @@
-﻿import os
+#!/usr/bin/env python3
+import os
 import re
 import sys
 from dataclasses import dataclass
 
-from helpers import DLC_DIR_NAMES, get_xml_file_paths, print_red, print_green, print_yellow
+from helpers import DLC_DIR_NAMES, get_xml_file_paths, get_all_file_paths, print_red, print_green, print_yellow
 
 
-NBSP = "\u00A0"
-EM_DASH = "—"
-
+pattern = re.compile(r"{PAWN_gender\s*\?\s*(.[^:]*)\s*:\s*\1}")
 
 @dataclass
 class ErrorLine:
     file: str
     line_num: int
     content: str
-    reason: str
+    match: str
 
 
 def check_file(filepath) -> list[ErrorLine]:
@@ -29,17 +28,13 @@ def check_file(filepath) -> list[ErrorLine]:
             # remove comments at the end
             line = re.sub(r"<!--.*$", "", line)
 
-            if re.search(f"[^{NBSP}]- ", line):
-                err_lines.append(ErrorLine(filepath, i, line, "Неразрывный пробел и дефис (нужно длинное тире — (Alt+0151))"))
-            if re.search(r" - ", line):
-                err_lines.append(ErrorLine(filepath, i, line, "Пробел и дефис (нужны неразрывный пробел и длинное тире (Alt+0160 + Alt+0151))"))
-            if re.search(f" {EM_DASH} ", line):
-                err_lines.append(ErrorLine(filepath, i, line, "Обычный пробел перед тире (нужен неразрывный пробел (Alt+0160))"))
+            if match := pattern.search(line):
+                err_lines.append(ErrorLine(filepath, i, line, match))
 
     return err_lines
 
 
-def search_bad_dash_format_file_lines(files) -> list[ErrorLine]:
+def search_bad_pawn_gender(files) -> list[ErrorLine]:
     err_lines = []
     for f in files:
         err_lines.extend(check_file(f))
@@ -61,19 +56,21 @@ def print_report(err_lines: list[ErrorLine]):
             print_yellow(f"Файл: {err.file}")
             prev_file = err.file
 
-        print_red(err.reason)
+        # print_red(err.match)
         print_green(err.line_num, end=': ')
-        print(err.content.strip())
+        print(err.content[:err.match.start()].lstrip(), end='')
+        print_red(err.match.group(), end='')
+        print(err.content[err.match.end():], end='')
 
 
 def main():
-    print("Проверка XML файлов на форматирование неразрывного пробела и тире")
+    print("Проверка макросов PAWN_gender на разное значение в подставляемых значениях")
 
     has_errors = False
 
     for dlc_dir in DLC_DIR_NAMES:
         print(f"Проверка {dlc_dir}: ", end='')
-        err_lines = search_bad_dash_format_file_lines(get_xml_file_paths(dlc_dir))
+        err_lines = search_bad_pawn_gender(get_xml_file_paths(dlc_dir))
         print_report(err_lines)
         has_errors |= bool(err_lines)
 

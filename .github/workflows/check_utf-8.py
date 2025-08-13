@@ -27,9 +27,7 @@ def search_bad_encoding(files) -> tuple[list, list]:
     return sorted(not_utf8_files), sorted(not_bom_files)
 
 
-def print_report(dir_name, not_utf8_files, not_bom_files):
-    print(f"Проверка {dir_name}: ", end='')
-
+def print_report(not_utf8_files, not_bom_files):
     if not not_utf8_files and not not_bom_files:
         print_green("OK")
         return
@@ -53,13 +51,15 @@ def main():
     has_errors = False
 
     for dlc_dir in DLC_DIR_NAMES:
+        print(f"Проверка {dlc_dir}: ", end='')
         not_utf8_files, not_bom_files = search_bad_encoding(get_xml_file_paths(dlc_dir))
-        print_report(dlc_dir, not_utf8_files, not_bom_files)
+        print_report(not_utf8_files, not_bom_files)
         has_errors |= bool(not_utf8_files or not_bom_files)
 
     # separate check of not XML files
+    print(f"Проверка RimWorldUniverse: ", end='')
     not_utf8_files, not_bom_files = search_bad_encoding(get_all_file_paths("RimWorldUniverse"))
-    print_report("RimWorldUniverse", not_utf8_files, not_bom_files)
+    print_report(not_utf8_files, not_bom_files)
     has_errors |= bool(not_utf8_files or not_bom_files)
 
     if has_errors:
