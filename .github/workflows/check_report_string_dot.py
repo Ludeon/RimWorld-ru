@@ -7,7 +7,7 @@ from helpers import DLC_DIR_NAMES, get_xml_file_paths, get_all_file_paths, print
 
 
 # regexp to search for tag ends with reportString with dot in the end of the content
-pattern = re.compile(r".*\.reportString>([^<]*)\.<\/")
+pattern = re.compile(r".*\..*[rR]eportString>([^<]*)\.<\/")
 
 
 @dataclass
