@@ -67,9 +67,9 @@
     <li>strikeAdv->horribly</li>
     <li>strikeAdv->savagely</li>
     <li>strikeAdv->viciously</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a disgusting wound</li>
     <li>flavortext_consequence->leaving a horrific wound</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
@@ -96,10 +96,10 @@
     <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->, гримасничая,</li>
     <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->, смеясь,</li>
     <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->, ухмыляясь,</li>
-    <li>flavortext_consequence(recipient_flesh==Normal)->заставляя [RECIPIENT_possessive] [wince] [painevent]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Normal)->заставляя [RECIPIENT_possessive] [wince] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->сбивая [RECIPIENT_possessive] с ног</li>
     <li>flavortext_consequence->оставляя страшные раны</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->оставляя омерзительно выглядящие раны</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->оставляя омерзительно выглядящие раны</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -123,20 +123,20 @@
     <li>destroyed(p=0.5)->demolished</li>
     <li>destroyed(p=0.5)->ruined</li>
     <li>destroyed(p=0.5)->wrecked</li>
-    <li>wince(recipient_flesh==Normal)->wince</li>
-    <li>wince(recipient_flesh==Normal)->grimace</li>
-    <li>wince(recipient_flesh==Normal)->cringe</li>
-    <li>wince(recipient_flesh==Normal)->groan</li>
-    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
-    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
+    <li>wince(RECIPIENT_flesh==Normal)->wince</li>
+    <li>wince(RECIPIENT_flesh==Normal)->grimace</li>
+    <li>wince(RECIPIENT_flesh==Normal)->cringe</li>
+    <li>wince(RECIPIENT_flesh==Normal)->groan</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->scream</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->shout</li>
     <li>wince->recoil</li>
     <li>wince->stumble</li>
     <li>painstate->in</li>
     <li>painstate->with</li>
     <li>painstate->from the</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
-    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->with misery</li>
     <li>painevent->from the injury</li>
     <li>painevent->from the wound</li>
     <li>to->to</li>
@@ -173,9 +173,9 @@
     <li>wince->дёрнуться</li>
     <li>painstate->от</li>
     <li>painstate->из-за</li>
-    <li>painevent(recipient_flesh==Normal)->[painstate] боли</li>
-    <li>painevent(recipient_flesh==Normal)->в муках</li>
-    <li>painevent(recipient_flesh==Normal)->в унижении</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->[painstate] боли</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->в муках</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->в унижении</li>
     <li>painevent->из-за ранения</li>
     <li>painevent->от полученной раны</li>
   </Combat_MeleeIncludes.rulePack.rulesStrings>

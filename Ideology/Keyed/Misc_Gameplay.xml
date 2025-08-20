@@ -91,17 +91,17 @@
   <Styles>Стили</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Шанс получить принцип</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>Любимый цвет {PAWN_labelShort}. Ношение более {PERCENTAGE} одежды этого цвета {ORIDEO} улучшат {PAWN_objective} настроение.\n\nЦвет одежды можно поменять на туалетном столике, используя красители.</FavoriteColorTooltip>
+  <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <FavoriteColorTooltip>Любимый цвет {PAWN_labelShort}: {COLOR}\nНошение более {PERCENTAGE} одежды этого цвета {ORIDEO} улучшит {PAWN_objective} настроение.\n\nЦвет одежды можно поменять на туалетном столике, используя красители.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor>или цвета {PAWN_possessive} идеолигии</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Окрасить в цвет идеолигии</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Окрасить любимым цветом</SetFavoriteColor>
-  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
   <FavoriteColorPickerTip>Любимый цвет {PAWN_nameDef}. Ношение более 60% одежды этого цвета или цвета {PAWN_possessive} идеолигии улучшит {PAWN_objective} настроение.</FavoriteColorPickerTip>
-  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
   <IdeoColorPickerTip>Цвет идеолигии {PAWN_nameDef}. Ношение более 60% одежды этого цвета или {PAWN_possessive} любимого цвета улучшит {PAWN_objective} настроение.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Редактировать идеолигию фракции</ConfigureIdeoligion>
@@ -382,18 +382,6 @@
   <!-- EN: Slave -->
   <OutfitSlave>Раб</OutfitSlave>
 
-  <!-- Hacking -->
-  <!-- EN: Hack progress -->
-  <HackProgress>Прогресс взлома</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>скорость взлома</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>У {0}</HackingLastUser> <!-- Составляется строка вида: "У Vasya скорость взлома: 42" -->
-  <!-- EN: hacked -->
-  <Hacked>взломано</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>Терминалы взломаны</TerminalsHacked>
-
   <!-- EN: Relic info found -->
   <RelicInfoFound>Найдена информация о реликвии</RelicInfoFound>
   <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
@@ -666,5 +654,7 @@
   <ChangeStyleDesc>Изменить стиль будущего сооружения. Изменения будут лишь визуальными и не будут влиять на геймплей.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>нет доступных стилей.</ChangeStyleDisabledNoCategories>
+  <!-- EN: Spacedrone self-destructs in {0} -->
+  <SpacedroneSelfDestructsIn>Космический дрон самоуничтожится через {0}</SpacedroneSelfDestructsIn>
 
 </LanguageData>

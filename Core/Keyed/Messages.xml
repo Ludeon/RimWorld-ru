@@ -150,8 +150,8 @@
   <MessageMustDesignateUnforbiddable>Следует указать предметы, запрещённые для использования.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
   <MessageCannotClaimWhenThreatsAreNear>Невозможно захватить {lookup: {CLAIMABLE_labelShort}; Case; 3}, пока рядом находятся боеспособные {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenThreatsAreNear>
-  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhileThreatsAreNear>Невозможно забрать {CLAIMABLE_labelShort}, пока рядом находятся боеспособные {THREAT_factionPawnsPlural}.</MessageCannotAdoptWhileThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
+  <MessageCannotAdoptWhileThreatsAreNear>Невозможно забрать {CLAIMABLE_labelShort}, пока рядом находится {THREAT}.</MessageCannotAdoptWhileThreatsAreNear>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} сопротивляется аресту!</MessageRefusedArrest>
@@ -406,11 +406,11 @@
   <MessageYouHaveToReformCaravanNow>Нужно отправляться прямо сейчас! Все, кто останется, будут брошены на произвол судьбы.</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>{0} из фракции {1} нападают на ваших {lookup: {2}; Case; 3}.</MessageDefendersAttacking>
-  <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
-  <MessageMechanoidsAssembled>Сборка механоидов завершена, и они будут защищать свой кластер.</MessageMechanoidsAssembled>
-  <!-- EN: Remaining mechanoids to assemble -->
-  <MessageMechanoidsLeftToAssemble>Оставшиеся механоиды для сборки</MessageMechanoidsLeftToAssemble>
+  <MessageDefendersAttacking>{0} из фракции {1} атакуют ваших {lookup: {2}; Case; 3}.</MessageDefendersAttacking>
+  <!-- EN: Mechanoids have been gestated and will defend their cluster. -->
+  <MessageMechanoidsAssembled>Выращивание механоидов завершено, и они будут защищать свой кластер.</MessageMechanoidsAssembled>
+  <!-- EN: Remaining mechanoids to gestate -->
+  <MessageMechanoidsLeftToAssemble>Оставшиеся механоиды для выращивания</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>Маяк механоидов вызвал подкрепление. Оно прибыло в капсулах.</MessageMechanoidsReinforcementsDrop>
 
@@ -823,5 +823,10 @@
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>Невозможно прыгнуть: беженец</MessageLodgersCantFarskip>
+
+  <!-- EN: Cannot call shuttle -->
+  <CannotCallShuttle>Невозможно запросить челнок</CannotCallShuttle>
+  <!-- EN: The shuttle has arrived. -->
+  <MessageShuttleArrived>Челнок прибыл.</MessageShuttleArrived>
 
 </LanguageData>

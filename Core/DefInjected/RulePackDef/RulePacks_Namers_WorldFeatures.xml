@@ -206,12 +206,10 @@
   <!-- EN:
     <li>r_name->lake [narrative_name]</li>
     <li>terrain_word(p=6)->lake</li>
-    <li>terrain_word->sea</li>
     <li>terrain_word->pond</li>
     <li>terrain_word->basin</li>
     <li>terrain_word->reservoir</li>
     <li>terrain_word(p=0.3)->puddle</li>
-    <li>terrain_word(p=0.3)->lagoon</li>
     <li>terrain_word(p=0.3)->loch</li>
   -->
   <NamerLake.rulePack.rulesStrings>
@@ -219,6 +217,7 @@
     <li>r_name->[prefix_proper_neutral] [lake_neutral]</li>
     <li>lake_neutral(p=8)->оз.</li>
     <li>lake_neutral->море</li>
+    <li>lake_neutral->вдхр.</li>
   </NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
@@ -292,10 +291,9 @@
   </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>r_name(p=0.1)->lake [narrative_name]</li>
     <li>terrain_word(p=6)->sea</li>
+    <li>terrain_word->lagoon</li>
     <li>terrain_word->ocean</li>
-    <li>terrain_word->lake</li>
   -->
   <NamerSea.rulePack.rulesStrings>
     <li>r_name->море [suffix_proper]</li>
