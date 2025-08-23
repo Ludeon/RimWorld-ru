@@ -1,0 +1,74 @@
+﻿name: spell-checks
+on:
+  push:
+    branches:
+      - 'main'
+      - 'github-actions-test'
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Define branch name'     
+        required: true
+        default: 'master'
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - 'master'
+    # paths:
+      # - '**.xml'
+
+jobs:
+  check-pawn-gender-macro-same-value:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Проверка разных значений для макроса PAWN_gender
+        run: python .github/workflows/check_pawn_gender.py
+
+  dash-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Проверка на неразрывный пробел и длинное тире
+        run: python .github/workflows/check_dash_format.py
+
+  report-string-dot-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Проверка на отсутствие точки в конце тегов с reportString
+        run: python .github/workflows/check_report_string_dot.py
+
+  encoding-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Проверка кодировки
+        run: python .github/workflows/check_utf-8.py
+
+  xml-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Проверка валидности XML
+        run: python .github/workflows/check_xml_format.py

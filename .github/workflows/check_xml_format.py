@@ -1,0 +1,46 @@
+﻿import sys
+import os
+import xml.etree.ElementTree as ET
+
+from helpers import DLC_DIR_NAMES, get_xml_file_paths, print_red, print_green, print_yellow
+
+
+def search_bad_xml(dlc_dir):
+    broken_files = []
+    for path in get_xml_file_paths(dlc_dir):
+        try:
+            ET.parse(path)
+        except Exception:
+            broken_files.append(path)
+    return broken_files
+
+
+def print_report(bad_xml_files):
+    if not bad_xml_files:
+        print_green("OK")
+        return
+
+    print_red("ERROR")
+
+    print_yellow("Файлы XML с ошибкой в формате:")
+    for f in bad_xml_files:
+        print("  ", f)
+
+
+def main():
+    print("Проверка XML файлов на валидный формат")
+
+    has_errors = False
+
+    for dlc_dir in DLC_DIR_NAMES:
+        print(f"Проверка {dlc_dir}: ", end='')
+        bad_xml_files = search_bad_xml(dlc_dir)
+        print_report(bad_xml_files)
+        has_errors |= bool(bad_xml_files)
+    
+    if has_errors:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
