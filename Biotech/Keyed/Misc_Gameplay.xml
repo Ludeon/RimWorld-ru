@@ -124,11 +124,11 @@
   <!-- EN: hemogen -->
   <Hemogen>гемоген</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
-  <HemogenDesc>Гемоген — это соединение в человеческой крови, хранящее в себе запас особой биологической энергии. У первозданных людей его внутреннее производство и потребление сбалансировано. Представители же некоторых других ксенотипов могут использовать его как «топливо» для определённых способностей, а кому-то постоянное употребление гемогена необходимо просто для того, чтобы выжить.</HemogenDesc>
+  <HemogenDesc>Гемоген — это соединение в человеческой крови, хранящее в себе запас особой биологической энергии. У первозданных людей его внутреннее производство и потребление сбалансировано. Представители же некоторых других ксенотипов могут использовать его как «топливо» для определённых способностей, а кому-то постоянное употребление гемогена необходимо просто для того, чтобы выжить.</HemogenDesc>
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>торпорная вместимость</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>Определяет максимальное количество аппаратов, к которым можно подключиться во время торпора. Каждый аппарат даёт определённый положительный эффект, чем их больше — тем лучше.\n\nТорпорную вместимость можно увеличить специальными сыворотками. Найти их можно у торговцев.</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>Определяет максимальное количество аппаратов, к которым можно подключиться во время торпора. Каждый аппарат даёт определённый положительный эффект, чем их больше — тем лучше.\n\nТорпорную вместимость можно увеличить специальными сыворотками. Найти их можно у торговцев.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
   <PawnIsConnectedToBuildings>{PAWN_nameDef} {PAWN_gender ? подключён : подключена} к {CURRENT} из {MAX} (максимум) аппаратов для торпора.</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
@@ -294,11 +294,11 @@
   <!-- EN: metabolic efficiency -->
   <Metabolism>эффективность метаболизма</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
-  <MetabolismDesc>Общее влияние на обмен веществ генов, объединённых на генном сборщике. Высокая эффективность метаболизма уменьшит потребность в пище, а низкая — наоборот, увеличит.</MetabolismDesc>
+  <MetabolismDesc>Общее влияние на обмен веществ генов, объединённых на генном сборщике. Высокая эффективность метаболизма уменьшит потребность в пище, а низкая — наоборот, увеличит.</MetabolismDesc>
   <!-- EN: Metabolic efficiency -->
   <MetabolismTotal>Эффективность метаболизма</MetabolismTotal>
   <!-- EN: The total metabolic efficiency of all genes in the genome. High efficiency means a person needs less food; low efficiency means they must eat more. -->
-  <MetabolismTotalDesc>Общее влияние на обмен веществ всех генов этого генома. Высокая эффективность метаболизма уменьшает потребность в пище, а низкая — наоборот, увеличивает.</MetabolismTotalDesc>
+  <MetabolismTotalDesc>Общее влияние на обмен веществ всех генов этого генома. Высокая эффективность метаболизма уменьшает потребность в пище, а низкая — наоборот, увеличивает.</MetabolismTotalDesc>
   <!-- EN: Number of genes -->
   <NumberOfGenes>Число генов</NumberOfGenes>
   <!-- EN: Gene price factors -->
@@ -310,7 +310,7 @@
   <!-- EN: Archite capsules -->
   <ArchitesRequired>Капсулы с архитами</ArchitesRequired>
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
-  <ArchitesRequiredDesc>Архиты — это нанороботы, созданные сверхмощными архотеками. Они, как и другие образцы архотехнологий, способны на то, что учёным до сих пор кажется невозможным. Лучшее, на что человечество может надеяться, — это найти где-нибудь подобные чудеса технологий. Никакой речи о попытке воспроизвести их не идёт.</ArchitesRequiredDesc>
+  <ArchitesRequiredDesc>Архиты — это нанороботы, созданные сверхмощными архотеками. Они, как и другие образцы архотехнологий, способны на то, что учёным до сих пор кажется невозможным. Лучшее, на что человечество может надеяться, — это найти где-нибудь подобные чудеса технологий. Никакой речи о попытке воспроизвести их не идёт.</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
   <CancelXenogerm>Отменить сборку</CancelXenogerm>
   <!-- EN: Stop all work on the current xenogerm. -->
@@ -354,7 +354,7 @@
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
   <ImplantXenogermWarningDesc>Вживление ксеносемени погрузит {PAWN_nameDef} в коматозное состояние, которое будет длиться до окончания процесса обновления генома. В среднем процесс занимает {COMADURATION}. Продолжительность комы зависит от навыков врача, медицинского оборудования и чистоты помещения.</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>Вживление ксеносемени также перепишет имеющиеся сейчас ксеногены. Текущий ксенотип {PAWN_nameDef} — «{XENOTYPE}». {PAWN_pronoun} обладает следующими ксеногенами:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>Вживление ксеносемени также перепишет имеющиеся сейчас ксеногены. Текущий ксенотип {PAWN_nameDef} — «{XENOTYPE}». {PAWN_pronoun} обладает следующими ксеногенами:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
   <ImplantXenogermWarningNewMetabolism>После вживления эффективность метаболизма {PAWN_nameDef} будет равна {MET}, и потребность в пище составит {CONSUMPTION} от обычной.</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
@@ -380,7 +380,7 @@
   <!-- EN: Insert person -->
   <InsertPerson>Поместить человека</InsertPerson>
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
-  <InsertPersonGeneExtractorDesc>Поместить человека в генный экстрактор. При извлечении генетического материала будет создан генный пакет со случайным набором генов.\n\nИзвлечение генов — болезненная процедура, побочным эффектом которой является недомогание в течение нескольких дней. Извлечение генов до полного восстановления генетического материала приводит к смерти.</InsertPersonGeneExtractorDesc>
+  <InsertPersonGeneExtractorDesc>Поместить человека в генный экстрактор. При извлечении генетического материала будет создан генный пакет со случайным набором генов.\n\nИзвлечение генов — болезненная процедура, побочным эффектом которой является недомогание в течение нескольких дней. Извлечение генов до полного восстановления генетического материала приводит к смерти.</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
   <ConfirmExtractXenogermWillKill>Внимание: генетический материал {PAWN_nameDef} ещё не до конца восстановился. Извлечение {PAWN_possessive} генов сейчас приведёт к смерти.\n\nВы уверены, что хотите продолжить?</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
@@ -408,7 +408,7 @@
   <!-- EN: deathless -->
   <Deathless>несмертный</Deathless>
   <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
-  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} {PAWN_gender ? должен : должна} регулярно употреблять {lookup: {0}; Case; 3}, чтобы выжить. После {DEFICIENCYDURATION} без этого вещества начнётся ломка. Через {COMADURATION} — наступит кома. После {DEATHDURATION} без {lookup: {0}; Case; 1} {PAWN_nameDef} погибнет.</GeneDefChemicalNeedDurationDesc>
+  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} {PAWN_gender ? должен : должна} регулярно употреблять {lookup: {0}; Case; 3}, чтобы выжить. После {DEFICIENCYDURATION} без этого вещества начнётся ломка. Через {COMADURATION} — наступит кома. После {DEATHDURATION} без {lookup: {0}; Case; 1} {PAWN_nameDef} погибнет.</GeneDefChemicalNeedDurationDesc>
   <!-- EN: {CHEMICAL_label} dependency -->
   <ChemicalDependency>Зависимость от {lookup: {CHEMICAL_label}; Case; 1}</ChemicalDependency>
   <!-- EN: Xenogerm -->
@@ -439,7 +439,7 @@
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>Дети хотят учиться разным вещам в разное время.</LearningDesireTooltip>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
-  <DevelopmentHealthGizmoTooltip>Развитие — это средняя удовлетворённость потребности в обучении с последнего дня рождения.\n\nУ хорошо развитого ребёнка выбор интересов к навыкам и черт характера будет богаче.</DevelopmentHealthGizmoTooltip>
+  <DevelopmentHealthGizmoTooltip>Развитие — это средняя удовлетворённость потребности в обучении с последнего дня рождения.\n\nУ хорошо развитого ребёнка выбор интересов к навыкам и черт характера будет богаче.</DevelopmentHealthGizmoTooltip>
 
   <!-- EN: Must not be placed close to another {0_label} -->
   <MustNotBePlacedCloseToAnother>Нельзя разместить рядом с другим {lookup: {0_label}; Case; 4}</MustNotBePlacedCloseToAnother>
