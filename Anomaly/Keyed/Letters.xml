@@ -73,7 +73,7 @@
   <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
   <ChronophagyInvokerCuredDiseases>Кроме того, в процессе ритуала {0_nameDef} {0_gender ? исцелился : исцелилась} от следующих болезней:</ChronophagyInvokerCuredDiseases>
   <!-- EN: and is now {0} years old -->
-  <ChronophagyCurrentAge>и теперь {0_possessive} возраст — {0} лет</ChronophagyCurrentAge>
+  <ChronophagyCurrentAge>и теперь {0_possessive} возраст — {0} лет</ChronophagyCurrentAge>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
   <PleasurePulseCompleteText>{0_nameDef} завершает ритуал «{RITUAL_definite}». В течение {1} все, на кого воздействует «{RITUAL_definite}», будут счастливее, но станут медленнее работать.</PleasurePulseCompleteText>
@@ -94,7 +94,7 @@
   <BrainwipeRehumanized>{TARGET_nameDef} восстанавливает человечность.</BrainwipeRehumanized>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
-  <PsychophagyCompleteText>{INVOKER_nameDef} завершает ритуал «{RITUAL_definite}» и поглощает псионическую сущность. Жертва — {TARGET_nameDef}.</PsychophagyCompleteText>
+  <PsychophagyCompleteText>{INVOKER_nameDef} завершает ритуал «{RITUAL_definite}» и поглощает псионическую сущность. Жертва — {TARGET_nameDef}.</PsychophagyCompleteText>
   <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
   <PsychophagyTargetSurvived>{TARGET_nameDef} теперь психически {TARGET_gender ? глух : глуха}. В процессе {TARGET_nameDef} {TARGET_gender ? получил : получила} повреждение мозга, {TARGET_objective} {TARGET_gender ? впал : впала} в кому.</PsychophagyTargetSurvived>
   
@@ -105,13 +105,13 @@
   <SummonFleshbeastsPlayerCompleteText>{0_nameDef} завершает ритуал «{RITUAL_definite}». Из-под земли вылезают биошматы!</SummonFleshbeastsPlayerCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
-  <GhoulInfusionCompleteText>{INVOKER_nameDef} завершает ритуал. Благодаря внедрению в тело биоферрита {TARGET_nameDef} меняется. Изменения касаются и {TARGET_possessive} психики, и тела — {TARGET_nameDef} превращается в упыря. {INVOKER_nameDef} знает, что {TARGET_nameDef} будет выполнять все отданные по псионической связи приказы. {INVOKER_objective} теперь хозяин, а {TARGET_nameDef} — раб.\n\nУпыри питаются сырым мясом. Голодный упырь может стать враждебным.</GhoulInfusionCompleteText>
+  <GhoulInfusionCompleteText>{INVOKER_nameDef} завершает ритуал. Благодаря внедрению в тело биоферрита {TARGET_nameDef} меняется. Изменения касаются и {TARGET_possessive} психики, и тела — {TARGET_nameDef} превращается в упыря. {INVOKER_nameDef} знает, что {TARGET_nameDef} будет выполнять все отданные по псионической связи приказы. {INVOKER_objective} теперь хозяин, а {TARGET_nameDef} — раб.\n\nУпыри питаются сырым мясом. Голодный упырь может стать враждебным.</GhoulInfusionCompleteText>
   
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
   <AttackersMayCastRitualMultipleTimes>Ритуал могут провести несколько раз. Их нужно остановить.</AttackersMayCastRitualMultipleTimes>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
-  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} завершает ритуал «{RITUAL_definite}». Манипуляция пространством и временем удалась, и {INVOKER_nameDef} ликует. Похищение, цель которого — {TARGET_nameDef} из фракции {FACTION_name}, прошло как по маслу. Однако жуткая природа ритуала привела к тому, что {TARGET_nameDef} {PAWN_gender ? впал : впала} в краткосрочную кому.</SkipAbductionPlayerCompleteText>
+  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} завершает ритуал «{RITUAL_definite}». Манипуляция пространством и временем удалась, и {INVOKER_nameDef} ликует. Похищение, цель которого — {TARGET_nameDef} из фракции {FACTION_name}, прошло как по маслу. Однако жуткая природа ритуала привела к тому, что {TARGET_nameDef} {PAWN_gender ? впал : впала} в краткосрочную кому.</SkipAbductionPlayerCompleteText>
 
   <!-- EN: Fleshmass response -->
   <FleshmassResponseLabel>Реакция биомассы</FleshmassResponseLabel> 
@@ -130,7 +130,7 @@
   <!-- EN: {STUDIER_nameDef} teleported -->
   <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} телепортируется</VoidAwakeningFinalStructuresActivatedLabel> 
   <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
-  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} активирует монолит и перемещается из нашего пространства-времени в иное.\n\n{STUDIER_pronoun} оказывается в комнате с зазубренными металлическими шипами. Каждая поверхность источает тёмную жидкость, а воздух буквально вибрирует от силы.\n\nЭтот металлический ад — путь, ведущий к нечеловеческому сверхразуму.</VoidAwakeningFinalStructuresActivatedText> 
+  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} активирует монолит и перемещается из нашего пространства-времени в иное.\n\n{STUDIER_pronoun} оказывается в комнате с зазубренными металлическими шипами. Каждая поверхность источает тёмную жидкость, а воздух буквально вибрирует от силы.\n\nЭтот металлический ад — путь, ведущий к нечеловеческому сверхразуму.</VoidAwakeningFinalStructuresActivatedText> 
   <!-- EN: Shambler assault -->
   <VoidAwakeningShamblerArrivalLabel>Нападение шамблеров</VoidAwakeningShamblerArrivalLabel>
   <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
@@ -250,7 +250,7 @@
   <!-- EN: New research available -->
   <LetterLabelEntityDiscovery>Доступны новые исследования</LetterLabelEntityDiscovery>
   <!-- EN: Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects -->
-  <LetterTextEntityDiscoveryResearch>Ваша находка — {ENTITY_definite} — открыла вам новые научные горизонты. Теперь вы можете исследовать следующие аномалии:</LetterTextEntityDiscoveryResearch>
+  <LetterTextEntityDiscoveryResearch>Ваша находка — {ENTITY_definite} — открыла вам новые научные горизонты. Теперь вы можете исследовать следующие аномалии:</LetterTextEntityDiscoveryResearch>
 
   <!-- Nociosphere -->
   <!-- EN: Nociosphere defeated -->
