@@ -66,9 +66,11 @@
     <li>second->krome</li>
   -->
   <NamerIdeoRelic.rulePack.rulesStrings>
-    <li>r_ideoRelicName(p=2)->[first][second]</li>
+    <li>r_ideoRelicName(p=0.4)->[memeHyphenPrefix][second]</li>
+    <li>r_ideoRelicName(p=0.8)->[first]-[second]</li>
+    <li>r_ideoRelicName(p=0.5)->[generic_subject] [generic_concept]</li>
+    <li>r_ideoRelicName(p=0.3)->[generic_subject] [memeConcept]</li>
     <li>r_ideoRelicName->[thingLabel] [memeConcept]</li>
-    <li>r_ideoRelicName->[memeAdjective_masc] [thingLabel]</li>
     <li>r_ideoRelicName->[memeHyphenPrefix]-[thingLabel]</li>
     <li>r_ideoRelicName(p=0.25)->[memeAdjective_masc] [relic_masc]</li>
     <li>r_ideoRelicName(p=0.25)->[memeAdjective_fem] [relic_fem]</li>
@@ -82,17 +84,6 @@
     <li>relic_fem->реликвия</li>
     <li>relic_neutral->сокровище</li>
     <li>relic_neutral->наследие</li>
-    <li>first(p=5)->[memeHyphenPrefix]</li>
-    <li>first->длинно</li>
-    <li>first->небо</li>
-    <li>first->звёздо</li>
-    <li>first->глубоко</li>
-    <li>first->далёко</li>
-    <li>first->мёртво</li>
-    <li>first->живо</li>
-    <li>first->свето</li>
-    <li>first->тёмно</li>
-    <li>first->конце</li>
     <li>first->хор</li>
     <li>first->ан</li>
     <li>first->экс</li>
@@ -108,10 +99,6 @@
     <li>first->лок</li>
     <li>first->поул</li>
     <li>first->лод</li>
-    <li>second->зов</li>
-    <li>second->нос</li>
-    <li>second->вестник</li>
-    <li>second->лжец</li>
     <li>second->звено</li>
     <li>second->связь</li>
     <li>second->петля</li>
@@ -125,8 +112,23 @@
     <li>second->свет</li>
     <li>second->тень</li>
     <li>second->локус</li>
+    <li>second->форма</li>
     <li>second->плеть</li>
     <li>second->кром</li>
+    <li>generic_subject->вестник</li>
+    <li>generic_subject->предтеча</li>
+    <li>generic_subject->глашатай</li>
+    <li>generic_subject->наветник</li>
+    <li>generic_concept->времён</li>
+    <li>generic_concept->небес</li>
+    <li>generic_concept->звёзд</li>
+    <li>generic_concept->бездны</li>
+    <li>generic_concept->дали</li>
+    <li>generic_concept->смерти</li>
+    <li>generic_concept->жизни</li>
+    <li>generic_concept->света</li>
+    <li>generic_concept->тьмы</li>
+    <li>generic_concept->конца</li>
   </NamerIdeoRelic.rulePack.rulesStrings>
   
 </LanguageData>
