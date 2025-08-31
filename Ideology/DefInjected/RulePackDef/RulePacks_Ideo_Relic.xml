@@ -71,7 +71,6 @@
     <li>r_ideoRelicName(p=0.5)->[generic_subject] [generic_concept]</li>
     <li>r_ideoRelicName(p=0.3)->[generic_subject] [memeConcept]</li>
     <li>r_ideoRelicName->[thingLabel] [memeConcept]</li>
-    <li>r_ideoRelicName->{replace: [memeAdjective_masc] [thingLabel]; "ый Чаша"-"ая Чаша"; "ий Чаша"-"ая Чаша"; "ой Чаша"-"ая Чаша"; "ый Рукоять"-"ая Рукоять"; "ий Рукоять"-"ая Рукоять"; "ой Рукоять"-"ая Рукоять"; "ый Скрижаль"-"ая Скрижаль"; "ий Скрижаль"-"ая Скрижаль"; "ой Скрижаль"-"ая Скрижаль"}</li>
     <li>r_ideoRelicName->[memeHyphenPrefix]-[thingLabel]</li>
     <li>r_ideoRelicName(p=0.25)->[memeAdjective_masc] [relic_masc]</li>
     <li>r_ideoRelicName(p=0.25)->[memeAdjective_fem] [relic_fem]</li>
