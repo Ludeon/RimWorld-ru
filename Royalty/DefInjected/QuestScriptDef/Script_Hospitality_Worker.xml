@@ -42,6 +42,10 @@
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>[letterSubject], гость, которого вы должны были защищать, пропал без вести. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>Гость пропал: {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>[letterSubject], гость, которого вы должны были защищать, пропал без вести. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>Гость пропал: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has run wild. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>[letterSubject], гость, которого вы должны были защищать, одичал. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>
@@ -56,7 +60,11 @@
   <!-- EN: Shuttle destroyed -->
   <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>Челнок уничтожен</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>Челнок, отправленный забрать [lodgersLabelSingOrPlural_acc], был уничтожен. [lodgers_pronoun] [lodgers_will_leave] поселение пешком. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
+  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>Челнок, отправленный забрать [lodgersLabelSingOrPlural_acc], был уничтожен. [lodgersLabelSingOrPlural] [lodgers_will_leave] поселение пешком. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Shuttle left behind -->
+  <Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>Челнок оставлен</Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>
+  <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been left behind. [lodgersLabelSingOrPluralDef] will now leave on foot. -->
+  <Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>Челнок, отправленный забрать [lodgersLabelSingOrPlural_acc], был оставлен. [lodgersLabelSingOrPlural] [lodgers_will_leave] поселение пешком.</Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>
   <!-- EN: Quest completed -->
   <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>Задание выполнено</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] said [lodgersPronoun] [lodgersWasWere] willing to reward quality accommodation. The average mood of [lodgersLabelSingOrPluralDef] was {AVERAGEMOOD} during [theirHisHer] stay, so your goodwill with [asker_faction_name] has increased by {GOODWILL} -->

@@ -20,10 +20,10 @@
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
     <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull], лидер фракции [asker_faction_name], нуждается в дополнительной рабочей силе, чтобы [dutyDescription].\n\n[asker_pronoun] просит вас выделить для н[asker_possessive] [colonistCountToLend] на [lendForDays] дней.\n\n[willSendShuttle]</li>
-    <li>disease->грипп</li>
-    <li>disease->чума</li>
-    <li>disease->малярия</li>
-    <li>disease->инфекция</li>
+    <li>disease_gen->гриппа</li>
+    <li>disease_gen->чумы</li>
+    <li>disease_gen->малярии</li>
+    <li>disease_gen->инфекции</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из фракции [asker_faction_name] хочет [dutyRoyalDescription].\n\n[asker_pronoun] просит вас выделить для этой цели [colonistCountToLend] на [lendForDays] дней.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->одного поселенца[minAgeOrOlder]</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] поселенцев[minAgeOrOlder]</li>
@@ -69,13 +69,13 @@
       <li>dutyDescription->собрать урожай</li>
       <li>dutyDescription->укрепить поселение</li>
       <li>dutyDescription->основать поселение</li>
-      <li>dutyDescription->следить за налётчиками</li>
+      <li>dutyDescription->выследить налётчиков</li>
       <li>dutyDescription->разбить госпиталь</li>
-      <li>dutyDescription->сдержать вспышку заболевания [disease]</li>
+      <li>dutyDescription->сдержать вспышку [disease_gen]</li>
     </rulesStrings>
   </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
-  <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS} вернулись, после того как помогли [asker_nameFull] из фракции [asker_faction_name] [dutyDescription].</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS} вернулись в поселение, после того как помогли [asker_nameFull] из фракции [asker_faction_name] [dutyDescription].</PawnLend.LetterTextReturnAfterHelping.slateRef>
   <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
   <PawnLend.DutyRulesRoyal.slateRef>
     <rulesStrings>
@@ -97,6 +97,10 @@
   <PawnLend.LetterLabelShuttleDestroyed.slateRef>Челнок уничтожен</PawnLend.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
   <PawnLend.LetterTextShuttleDestroyed.slateRef>Челнок, отправленный забрать [colonistCountToLend], был уничтожен.</PawnLend.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Shuttle abandoned -->
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>Челнок оставлен</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
+  <!-- EN: The shuttle sent to collect colonists has been left behind. -->
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>Челнок, отправленный забрать [colonistCountToLend], был оставлен.</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
   <!-- EN: Colonists returned -->
   <PawnLend.LetterLabelColonistsReturned.slateRef>Поселенцы вернулись</PawnLend.LetterLabelColonistsReturned.slateRef>
   

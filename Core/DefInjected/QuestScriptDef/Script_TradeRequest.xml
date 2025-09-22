@@ -2,14 +2,18 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Одно из соседних поселений, [settlement_label], связывается с вами с предложением об обмене. Они хотели бы приобрести:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](стоимостью [requestedThingMarketValue_money])\n\nЕсли вы хотите заключить эту сделку, отправьте караван с указанными товарами. Расчётное время в пути — [estimatedTravelTime_duration].</li>
+    <li>questDescription->Одно из соседних поселений, [settlement_label], связывается с вами с предложением об обмене. Они хотели бы приобрести:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](стоимостью [requestedThingMarketValue_money])\n\nЕсли вы хотите заключить эту сделку, отправьте караван с указанными товарами.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->качеством от нормального и выше </li>
     <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> Расчётное время в пути — [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Caravan to [settlement_label]</li>
