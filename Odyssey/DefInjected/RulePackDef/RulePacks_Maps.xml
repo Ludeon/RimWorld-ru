@@ -417,7 +417,7 @@
     <li>emotionalState_fem->чувственная</li>
     <li>emotionalState_plural->чувственные</li>
     <li>emotionalState_neu->чувственное</li>
-    <li>mapType(p=4)_fem->карта</li>
+    <li>mapType_fem(p=4)->карта</li>
     <li>mapType_fem->схема</li>
     <li>mapType_mas->атлас</li>
     <li>mapType_mas->обзорный доклад</li>
@@ -657,10 +657,10 @@
     <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
     <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
     <li>PlaceOutlander->[CapSylE][SylE][SylE][place_end]</li>
-    <li>mapSubjectAdj(p=6)_mas->[direction_mas]</li>
-    <li>mapSubjectAdj(p=6)_fem->[direction_fem]</li>
-    <li>mapSubjectAdj(p=6)_neu->[direction_neu]</li>
-    <li>mapSubjectAdj(p=6)_plural->[direction_plural]</li>
+    <li>mapSubjectAdj_mas(p=6)->[direction_mas]</li>
+    <li>mapSubjectAdj_fem(p=6)->[direction_fem]</li>
+    <li>mapSubjectAdj_neu(p=6)->[direction_neu]</li>
+    <li>mapSubjectAdj_plural(p=6)->[direction_plural]</li>
     <li>mapSubjectAdj_mas->древний</li>
     <li>mapSubjectAdj_fem->древняя</li>
     <li>mapSubjectAdj_plural->древние</li>
@@ -829,14 +829,14 @@
     <li>direction_fem->западная</li>
     <li>direction_plural->западные</li>
     <li>direction_neu->западное</li>
-    <li>direction(p=0.2)_mas->подземный</li>
-    <li>direction(p=0.2)_fem->подземная</li>
-    <li>direction(p=0.2)_plural->подземные</li>
-    <li>direction(p=0.2)_neu->подземное</li>
-    <li>direction(p=0.2)_mas->подземельный</li>
-    <li>direction(p=0.2)_fem->подземельная</li>
-    <li>direction(p=0.2)_plural->подземельные</li>
-    <li>direction(p=0.2)_neu->подземельное</li>
+    <li>direction_mas(p=0.2)->подземный</li>
+    <li>direction_fem(p=0.2)->подземная</li>
+    <li>direction_plural(p=0.2)->подземные</li>
+    <li>direction_neu(p=0.2)->подземное</li>
+    <li>direction_mas(p=0.2)->подземельный</li>
+    <li>direction_fem(p=0.2)->подземельная</li>
+    <li>direction_plural(p=0.2)->подземельные</li>
+    <li>direction_neu(p=0.2)->подземельное</li>
     <li>mapSubject->дороги</li>
     <li>mapSubject->тропы</li>
     <li>mapSubject->пути</li>
@@ -1052,9 +1052,9 @@
     <li>map_mas->[mapNoun_mas]</li>
     <li>map_fem->[mapNoun_fem]</li>
     <li>map_neu->[mapNoun_neu]</li>
-    <li>map(p=2)_mas->[mapNoun_mas]: [place]</li>
-    <li>map(p=2)_fem->[mapNoun_fem]: [place]</li>
-    <li>map(p=2)_neu->[mapNoun_neu]: [place]</li>
+    <li>map_mas(p=2)->[mapNoun_mas]: [place]</li>
+    <li>map_fem(p=2)->[mapNoun_fem]: [place]</li>
+    <li>map_neu(p=2)->[mapNoun_neu]: [place]</li>
     <li>map_mas->[mapNoun_mas]: [mapSubject]</li>
     <li>map_fem->[mapNoun_fem]: [mapSubject]</li>
     <li>map_neu->[mapNoun_neu]: [mapSubject]</li>
@@ -1068,12 +1068,12 @@
     <li>mapNoun_mas->обзорный доклад</li>
     <li>mapNoun_neu->исследование</li>
     <li>mapNoun_mas->памфлет</li>
-    <li>mapType(p=2)_mas->[Animal_mas]</li>
-    <li>mapType(p=2)_fem->[Animal_fem]</li>
-    <li>mapType(p=2)_neu->[Animal_neu]</li>
-    <li>mapType(p=2)_mas->[TreeType_mas]</li>
-    <li>mapType(p=2)_fem->[TreeType_fem]</li>
-    <li>mapType(p=2)_neu->[TreeType_neu]</li>
+    <li>mapType_mas(p=2)->[Animal_mas]</li>
+    <li>mapType_fem(p=2)->[Animal_fem]</li>
+    <li>mapType_neu(p=2)->[Animal_neu]</li>
+    <li>mapType_mas(p=2)->[TreeType_mas]</li>
+    <li>mapType_fem(p=2)->[TreeType_fem]</li>
+    <li>mapType_neu(p=2)->[TreeType_neu]</li>
     <li>mapType_adj->контурная</li>
     <li>mapType_adj->топографическая</li>
     <li>mapType_adj->рельефная</li>
