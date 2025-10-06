@@ -61,11 +61,11 @@
     <li>r_name->[AdjectiveBadass_mas] [spaceCollectiveNoun_mas]</li>
     <li>r_name->[AdjectiveBadass_fem] [spaceCollectiveNoun_fem]</li>
     <li>r_name->[spaceNoun] [ConceptBadass]</li>
-    <li>r_name(p=2)->[spaceNoun] [NamePerson_gen]</li>
-    <li>r_name(p=2)->[spaceCollectiveNoun] [NamePerson_gen]</li>
-    <li>r_name(p=2)->[spaceAdj_plural] [spaceCollectiveNoun_plural] [NamePerson_gen]</li>
-    <li>r_name(p=2)->[spaceAdj_mas] [spaceCollectiveNoun_mas] [NamePerson_gen]</li>
-    <li>r_name(p=2)->[spaceAdj_fem] [spaceCollectiveNoun_fem] [NamePerson_gen]</li>
+    <li>r_name(p=2)->[spaceNoun] [NamePerson]</li>
+    <li>r_name(p=2)->[spaceCollectiveNoun] [NamePerson]</li>
+    <li>r_name(p=2)->[spaceAdj_plural] [spaceCollectiveNoun_plural] [NamePerson]</li>
+    <li>r_name(p=2)->[spaceAdj_mas] [spaceCollectiveNoun_mas] [NamePerson]</li>
+    <li>r_name(p=2)->[spaceAdj_fem] [spaceCollectiveNoun_fem] [NamePerson]</li>
     <li>spaceAdj_plural->Орбитальные</li>
     <li>spaceAdj_mas->Орбитальный</li>
     <li>spaceAdj_fem->Орбитальная</li>
@@ -135,7 +135,7 @@
   -->
   <NamerFactionTradersGuild.rulePack.rulesStrings>
     <li>r_name->[tradeAdj_mas] [tradeNoun_mas]</li>
-    <li>[tradeAdj_fem] [tradeNoun_fem]</li>
+    <li>r_name->[tradeAdj_fem] [tradeNoun_fem]</li>
     <li>tradeAdj_mas->купеческий</li>
     <li>tradeAdj_fem->купеческая</li>
     <li>tradeAdj_mas->орбитальный</li>
