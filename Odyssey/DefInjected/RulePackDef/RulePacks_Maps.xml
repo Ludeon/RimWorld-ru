@@ -274,7 +274,7 @@
     <li>mapContents->выцветшие линии сетки. В каждом секторе есть [mapSubjectAdj_plural] [mapSubject]</li>
     <li>mapContents->[Quantity_adjphrase] [mapSubject], изображенные в стиле [artstyle_adj]. Под каждым — [AdjectiveAny_mas] [Animal_mas]</li>
     <li>mapContents->[Quantity_adjphrase] [mapSubject], изображенные в стиле [artstyle_adj]. Под каждым — [AdjectiveAny_fem] [Animal_fem]</li>
-    <li>|mapContents->[Quantity_adjphrase] [mapSubject], изображенные в стиле [artstyle_adj]. Под каждым — [AdjectiveAny_neu] [Animal_neu]</li>
+    <li>mapContents->[Quantity_adjphrase] [mapSubject], изображенные в стиле [artstyle_adj]. Под каждым — [AdjectiveAny_neu] [Animal_neu]</li>
     <li>maybe_specialFact-></li>
     <li>maybe_specialFact->[specialFact]</li>
     <li>specialFact->В обычном свете метки невидимы. Однако в полной темноте появляются призрачные символы и спектральные линии, светящиеся бледным серебром.</li>
@@ -1034,7 +1034,7 @@
     <li>maybeAdjective_mas->[adjective_mas]]</li>
     <li>maybeAdjective_fem->[adjective_fem]</li>
     <li>maybeAdjective_neu->[adjective_neu]</li>
-    <li>maybeAdjective_plural->[adjective_plural]  </li>
+    <li>maybeAdjective_plural->[adjective_plural]</li>
     <li>adjective_mas->[AdjectiveAny_mas]]</li>
     <li>adjective_fem->[AdjectiveAny_fem]</li>
     <li>adjective_neu->[AdjectiveAny_neu]</li>
@@ -1046,7 +1046,7 @@
     <li>adjective_mas->[AdjectiveLarge_mas]]</li>
     <li>adjective_fem->[AdjectiveLarge_fem]</li>
     <li>adjective_neu->[AdjectiveLarge_neu]</li>
-    <li>adjective_plural->[AdjectiveLarge_plural]  </li>
+    <li>adjective_plural->[AdjectiveLarge_plural]</li>
     <li>maybeThe-></li>
     <li>maybeThe-></li>
     <li>map_mas->[mapNoun_mas]</li>
@@ -1061,8 +1061,8 @@
     <li>map_mas->[mapNoun_mas]: [mapSubjectAdj_plural] [mapSubject]</li>
     <li>map_fem->[mapNoun_fem]: [mapSubjectAdj_plural] [mapSubject]</li>
     <li>map_neu->[mapNoun_neu]: [mapSubjectAdj_plural] [mapSubject]</li>
-    <li>mapNoun(p=5)_fem->карта</li>
-    <li>mapNoun(p=2)_mas>атлас</li>
+    <li>mapNoun_fem(p=2)->карта</li>
+    <li>mapNoun_mas(p=2)->атлас</li>
     <li>mapNoun_mas->альманах</li>
     <li>mapNoun_fem->схема</li>
     <li>mapNoun_mas->обзорный доклад</li>
