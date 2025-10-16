@@ -116,7 +116,7 @@
   <!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
   <CommandHidePlanDesc>Отображение планировки.\n\nЧтобы скрыть или показать все области, нажмите правую кнопку мыши.</CommandHidePlanDesc>
   <!-- EN: Hide/unhide this zone.\n\nRight-click to hide or unhide all zones. -->
-  <CommandHideZoneDesc>Скрыть/показать область.\n\nЧтобы скрыть или показать все области, нажмите правую кнопку мыши.</CommandHideZoneDesc>
+  <CommandHideZoneDesc>Скрыть/показать область.\n\Чтобы скрыть или показать все области, нажмите правую кнопку мыши.</CommandHideZoneDesc>
   
   <!-- EN: Show all zones -->
   <ShowAllZones>Показать все области</ShowAllZones>
@@ -430,21 +430,21 @@
   <CommandAddToCaravan>Добавить к каравану</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>Добавить этого человека или животное к снаряжаемому каравану.</CommandAddToCaravanDesc>
-  
+    
   <!-- Force caravan depart -->
   <!-- EN: Force caravan departure -->
   <CommandForceCaravanDepart>Отправить караван немедленно</CommandForceCaravanDepart>
   <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
-  <CommandForceCaravanDepartDesc>Отправить караван в путь, не дожидаясь завершения загрузки. Непогруженные вещи, а также участники, неспособные присоединиться в данный момент, будут оставлены.</CommandForceCaravanDepartDesc>
+  <CommandForceCaravanDepartDesc>Отправить караван немедленно, взяв только то, что уже загружено. Непогруженные вещи, а также участники, неспособные присоединиться в данный момент, будут оставлены.</CommandForceCaravanDepartDesc>
   <!-- EN: Are you sure you want to depart? -->
-  <ConfirmForceDepartIntro>Вы уверены, что хотите немедленно отправить этот караван?</ConfirmForceDepartIntro>
+  <ConfirmForceDepartIntro>Вы уверены, что хотите отправиться немедленно?</ConfirmForceDepartIntro>
   <!-- EN: The following items are still being loaded and will be left behind: -->
-  <ConfirmForceDepartItemsStillLoading>Эти вещи ещё не погружены и будут оставлены:</ConfirmForceDepartItemsStillLoading>
+  <ConfirmForceDepartItemsStillLoading>Эти вещи ещё не погружены и останутся позади:</ConfirmForceDepartItemsStillLoading>
   <!-- EN: The following people won't be a part of the caravan: -->
-  <ConfirmForceDepartPawnsNotLeaving>Эти люди не войдут в состав каравана:</ConfirmForceDepartPawnsNotLeaving>
+  <ConfirmForceDepartPawnsNotLeaving>Эти люди не смогут отправиться с караваном:</ConfirmForceDepartPawnsNotLeaving>
   <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
-  <ConfirmForceDepartItemsOnPawnsNotLeaving>Эти вещи будут оставлены, потому что являются грузом людей, которые не войдут в состав каравана:</ConfirmForceDepartItemsOnPawnsNotLeaving>
-  
+  <ConfirmForceDepartItemsOnPawnsNotLeaving>Эти вещи находятся во вьюках животных, которые не поедут с караваном, и останутся позади:</ConfirmForceDepartItemsOnPawnsNotLeaving>
+
   <!-- Show map -->
   <!-- EN: Zoom in -->
   <CommandShowMap>Увеличить масштаб</CommandShowMap>
@@ -741,12 +741,19 @@
   <!-- EN: No uses left. -->
   <CommandNoUsesLeft>Использований не осталось.</CommandNoUsesLeft>
 
-  <!-- Auto-build pod -->
-  <!-- EN: Auto build transport pod -->
+  <!-- Map Portal -->
+  <!-- EN: View {0} -->
+  <CommandViewPocketMapLabel>Смотреть {0}</CommandViewPocketMapLabel>
+  <!-- EN: View the connected {0} map. -->
+  <CommandViewPocketMapDesc>Просмотреть подключенную {0} карту</CommandViewPocketMapDesc>
+  <!-- EN: View surface -->
+  <CommandViewSurface>Посмотреть поверхность</CommandViewSurface>
+  <!-- EN: View the connected surface map. -->
+  <CommandViewSurfaceDesc>Посмотреть поверхность подключенной карты.</CommandViewSurfaceDesc>
   <AutoBuildTransportPod>Автоматичес-\nки строить транспортную капсулу</AutoBuildTransportPod>
   <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
   <AutoBuildTransportPodDesc>Если активно, при возможности поселенцы будут самостоятельно строить новую транспортную капсулу.</AutoBuildTransportPodDesc>
-  
+
   <!-- Hacking gizmo -->
   <!-- EN: Hack... -->
   <HackGizmo>Взломать...</HackGizmo>
