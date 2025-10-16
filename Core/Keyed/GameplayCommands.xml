@@ -116,7 +116,7 @@
   <!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
   <CommandHidePlanDesc>Отображение планировки.\n\nЧтобы скрыть или показать все области, нажмите правую кнопку мыши.</CommandHidePlanDesc>
   <!-- EN: Hide/unhide this zone.\n\nRight-click to hide or unhide all zones. -->
-  <CommandHideZoneDesc>Скрыть/показать область.\n\nЧтобы скрыть или показать все области, нажмите правую кнопку мыши.</CommandHideZoneDesc>
+  <CommandHideZoneDesc>Скрыть/показать область.\n\Чтобы скрыть или показать все области, нажмите правую кнопку мыши.</CommandHideZoneDesc>
   
   <!-- EN: Show all zones -->
   <ShowAllZones>Показать все области</ShowAllZones>
@@ -152,6 +152,41 @@
   <CommandCopyPlanSelectionMouse>Выделить область для копирования</CommandCopyPlanSelectionMouse>
   <!-- EN: Paste selected area -->
   <CommandCopyPlanSelectionPasteMouse>Разместить скопированную область</CommandCopyPlanSelectionPasteMouse>
+
+  <!-- EN: Show all zones -->
+  <ShowAllZones>Показать все зоны</ShowAllZones>
+  <!-- EN: Hide all zones -->
+  <HideAllZones>Скрыть все зоны</HideAllZones>
+  <!-- EN: Show all {0} zones -->
+  <ShowAllZoneTypes>Показать все {0} зоны</ShowAllZoneTypes>
+  <!-- EN: Hide all {0} zones -->
+  <HideAllZoneTypes>Скрыть все {0} зоны</HideAllZoneTypes>
+  <!-- EN: planning -->
+  <Planning>Планирование</Planning>
+  
+  <!-- EN: Change color -->
+  <CommandChangeColorPlanLabel>Изменить цвет</CommandChangeColorPlanLabel>
+  <!-- EN: Change the color of this plan. -->
+  <CommandChangeColorPlanDesc>Изменить цвет этого плана</CommandChangeColorPlanDesc>
+  
+  <!-- EN: Delete -->
+  <CommandDeletePlanLabel>Удалить</CommandDeletePlanLabel>
+  <!-- EN: Delete this plan. -->
+  <CommandDeletePlanDesc>Удалить этот план</CommandDeletePlanDesc>
+  
+  <!-- EN: Copy -->
+  <CommandCopyPlanLabel>Скопировать</CommandCopyPlanLabel>
+  <!-- EN: Copy this plan. -->
+  <CommandCopyPlanDesc>Скопировать этот план</CommandCopyPlanDesc>
+  
+  <!-- EN: Copy selection... -->
+  <CommandCopyPlanSelectionLabel>Сделать копию выделенного…</CommandCopyPlanSelectionLabel>
+  <!-- EN: Copy all plans within a selected area. -->
+  <CommandCopyPlanSelectionDesc>Скопировать все планы в пределах выбранной области</CommandCopyPlanSelectionDesc>
+  <!-- EN: Select area to copy -->
+  <CommandCopyPlanSelectionMouse>Скопировать выделенную область</CommandCopyPlanSelectionMouse>
+  <!-- EN: Paste selected area -->
+  <CommandCopyPlanSelectionPasteMouse>Вставивить выделенную область</CommandCopyPlanSelectionPasteMouse>
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>Удалить</CommandDeleteZoneLabel>
@@ -430,6 +465,20 @@
   <CommandAddToCaravan>Добавить к каравану</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>Добавить этого человека или животное к снаряжаемому каравану.</CommandAddToCaravanDesc>
+    
+  <!-- Force caravan depart -->
+  <!-- EN: Force caravan departure -->
+  <CommandForceCaravanDepart>Отправить караван немедленно</CommandForceCaravanDepart>
+  <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
+  <CommandForceCaravanDepartDesc>Отправить караван немедленно, взяв только то, что уже загружено. Те, кто не готов к пути, останутся позади.</CommandForceCaravanDepartDesc>
+  <!-- EN: Are you sure you want to depart? -->
+  <ConfirmForceDepartIntro>Вы уверены, что хотите отправиться?</ConfirmForceDepartIntro>
+  <!-- EN: The following items are still being loaded and will be left behind: -->
+  <ConfirmForceDepartItemsStillLoading>Эти предметы ещё не погружены и останутся позади:</ConfirmForceDepartItemsStillLoading>
+  <!-- EN: The following people won't be a part of the caravan: -->
+  <ConfirmForceDepartPawnsNotLeaving>Эти поселенцы не смогут отправиться с караваном:</ConfirmForceDepartPawnsNotLeaving>
+  <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
+  <ConfirmForceDepartItemsOnPawnsNotLeaving>Эти вещи находятся во вьюках животных, которые не поедут с караваном, и останутся позади:</ConfirmForceDepartItemsOnPawnsNotLeaving>
   
   <!-- Force caravan depart -->
   <!-- EN: Force caravan departure -->
@@ -459,7 +508,7 @@
   <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>Нет ни одного не сломленного человека в сознании, способного вести переговоры и торговать.</CommandTradeFailNoNegotiator>
   <!-- EN: None of your people have the required faction permission: {0} -->
-  <CommandTradeFailNeedPermit>Никто из ваших людей не имеет нужной привилегии: {0}</CommandTradeFailNeedPermit>
+  <CommandTradeFailNeedPermit>Никто из ваших колониситов не имеет нужной привилегии: {0}</CommandTradeFailNeedPermit>
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
@@ -741,11 +790,19 @@
   <!-- EN: No uses left. -->
   <CommandNoUsesLeft>Использований не осталось.</CommandNoUsesLeft>
 
-  <!-- Auto-build pod -->
-  <!-- EN: Auto build transport pod -->
+  <!-- Map Portal -->
+  <!-- EN: View {0} -->
+  <CommandViewPocketMapLabel>Смотреть {0}</CommandViewPocketMapLabel>
+  <!-- EN: View the connected {0} map. -->
+  <CommandViewPocketMapDesc>Просмотреть подключенную {0} карту</CommandViewPocketMapDesc>
+  <!-- EN: View surface -->
+  <CommandViewSurface>Посмотреть поверхность</CommandViewSurface>
+  <!-- EN: View the connected surface map. -->
+  <CommandViewSurfaceDesc>Посмотреть поверхность подключенной карты.</CommandViewSurfaceDesc>
   <AutoBuildTransportPod>Автоматичес-\nки строить транспортную капсулу</AutoBuildTransportPod>
   <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
   <AutoBuildTransportPodDesc>Если активно, при возможности поселенцы будут самостоятельно строить новую транспортную капсулу.</AutoBuildTransportPodDesc>
+
   
   <!-- Hacking gizmo -->
   <!-- EN: Hack... -->
