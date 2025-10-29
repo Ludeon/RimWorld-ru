@@ -10,14 +10,15 @@
 ### Стандартный способ
 
 1. Скачать архив, **соответствующий вашей версии игры (это важно!):**
-	* Последняя актуальная 1.5 + Royalty + Ideology + Biotech + Anomaly: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
-	* 1.4 + Royalty + Ideology + Biotech: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.4.3901.zip)
-	* 1.3 + Royalty + Ideology: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.3.3389.zip)
-	* 1.2 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.2.2900.zip)
-	* 1.1 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/release-1.1.2654.zip)
-	* Release: [1.0](https://github.com/Ludeon/RimWorld-ru/archive/release-1.0.2150.zip)
-	* Beta: [B-18](https://github.com/Ludeon/RimWorld-ru/archive/beta-18.zip), [B-19](https://github.com/Ludeon/RimWorld-ru/archive/beta-19.zip)
-	* Alpha : [A-15](https://github.com/Ludeon/RimWorld-ru/archive/alpha-15.zip), [A-16](https://github.com/Ludeon/RimWorld-ru/archive/alpha-16.zip), [A-17](https://github.com/Ludeon/RimWorld-ru/archive/alpha-17.zip)
+	* Последняя актуальная 1.6 + Royalty + Ideology + Biotech + Anomaly + Odyssey: [архив](https://github.com/Ludeon/RimWorld-ru/archive/master.zip)
+	* 1.5 + Royalty + Ideology + Biotech + Anomaly: [архив](https://github.com/Ludeon/RimWorld-ru/archive/1.5.zip)
+	* 1.4 + Royalty + Ideology + Biotech: [архив](https://github.com/Ludeon/RimWorld-ru/archive/1.4.zip)
+	* 1.3 + Royalty + Ideology: [архив](https://github.com/Ludeon/RimWorld-ru/archive/1.3.zip)
+	* 1.2 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/1.2.zip)
+	* 1.1 + Royalty: [архив](https://github.com/Ludeon/RimWorld-ru/archive/1.1.zip)
+	* Release: [1.0](https://github.com/Ludeon/RimWorld-ru/archive/1.0.zip)
+	* Beta: [B-18](https://github.com/Ludeon/RimWorld-ru/archive/b-18.zip), [B-19](https://github.com/Ludeon/RimWorld-ru/archive/b-19.zip)
+	* Alpha : [A-15](https://github.com/Ludeon/RimWorld-ru/archive/a-15.zip), [A-16](https://github.com/Ludeon/RimWorld-ru/archive/a-16.zip), [A-17](https://github.com/Ludeon/RimWorld-ru/archive/a-17.zip)
 
 2. **(Для версий, начиная с 1.1)** Подменить папки локализации папками из архива:
 	
@@ -31,7 +32,11 @@
 
 	В папку `<путь к папке игры>\Data\Anomaly\Languages\` нужно положить папку `Anomaly` из архива и переименовать её в `Russian`.
 
+	В папку `<путь к папке игры>\Data\Odyssey\Languages\` нужно положить папку `Odyssey` из архива и переименовать её в `Russian`.
+
 	Если среди папок локализации были старые папки с тем же именем, их следует удалить и на их место положить новые, под старым именем.
+  
+  Если в вас нет какого-либо из перечисленных дополнений, то копировать соответствующую папку локализации никуда не нужно
 
 	**В версиях игры до 1.0 включительно** архив локализации надо распаковать в папку `<путь к папке игры>\Mods\Core\Languages\Russian` так, чтобы файл LanguageInfo.xml находился непосредственно в этой папке.
 
@@ -58,11 +63,11 @@ https://github.com/asidsx/RimWorldRuslangAutoUpdater/blob/main/auto.bat
 
 ### Активные
 * [Elevator89](https://github.com/Elevator89)
-* [Kamadz](https://github.com/Kamadz)
-* [EcherArt](https://github.com/EcherArt)
 * [Reiquard](https://github.com/Reiquard)
 
 ### Сделавшие весомый вклад в прошлом
+* [Kamadz](https://github.com/Kamadz)
+* [EcherArt](https://github.com/EcherArt)
 * [Dimonasdf](https://github.com/Dimonasdf)
 * [Dandi](https://github.com/Dandi91)
 * [Humort](https://github.com/Humort)
