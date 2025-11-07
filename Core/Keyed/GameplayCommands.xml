@@ -113,8 +113,45 @@
   <!-- EN: Unhide -->
   <CommandUnhideLabel>Показать</CommandUnhideLabel>
   
+  <!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
+  <CommandHidePlanDesc>Отображение планировки.\n\nЧтобы скрыть или показать все области, нажмите правую кнопку мыши.</CommandHidePlanDesc>
   <!-- EN: Hide/unhide this zone.\n\nRight-click to hide or unhide all zones. -->
   <CommandHideZoneDesc>Скрыть/показать область.\n\nЧтобы скрыть или показать все области, нажмите правую кнопку мыши.</CommandHideZoneDesc>
+  
+  <!-- EN: Show all zones -->
+  <ShowAllZones>Показать все области</ShowAllZones>
+  <!-- EN: Hide all zones -->
+  <HideAllZones>Скрыть все области</HideAllZones>
+  <!-- EN: Show all {0} zones -->
+  <ShowAllZoneTypes>Показать все области {0}</ShowAllZoneTypes>
+  <!-- EN: Hide all {0} zones -->
+  <HideAllZoneTypes>Скрыть все области {0}</HideAllZoneTypes>
+  <!-- EN: planning -->
+  <Planning>планировки</Planning>
+  
+  <!-- EN: Change color -->
+  <CommandChangeColorPlanLabel>Изменить цвет</CommandChangeColorPlanLabel>
+  <!-- EN: Change the color of this plan. -->
+  <CommandChangeColorPlanDesc>Изменить цвет планировки.</CommandChangeColorPlanDesc>
+  
+  <!-- EN: Delete -->
+  <CommandDeletePlanLabel>Удалить</CommandDeletePlanLabel>
+  <!-- EN: Delete this plan. -->
+  <CommandDeletePlanDesc>Удалить планировку.</CommandDeletePlanDesc>
+  
+  <!-- EN: Copy -->
+  <CommandCopyPlanLabel>Копировать</CommandCopyPlanLabel>
+  <!-- EN: Copy this plan. -->
+  <CommandCopyPlanDesc>Копировать планировку.</CommandCopyPlanDesc>
+  
+  <!-- EN: Copy selection... -->
+  <CommandCopyPlanSelectionLabel>Копировать выделение...</CommandCopyPlanSelectionLabel>
+  <!-- EN: Copy all plans within a selected area. -->
+  <CommandCopyPlanSelectionDesc>Копировать планировку в выделенной области.</CommandCopyPlanSelectionDesc>
+  <!-- EN: Select area to copy -->
+  <CommandCopyPlanSelectionMouse>Выделить область для копирования</CommandCopyPlanSelectionMouse>
+  <!-- EN: Paste selected area -->
+  <CommandCopyPlanSelectionPasteMouse>Разместить скопированную область</CommandCopyPlanSelectionPasteMouse>
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>Удалить</CommandDeleteZoneLabel>
@@ -357,6 +394,16 @@
   <CommandSettleFailNoColonists>Здесь нет никого, кто мог бы основать поселение.</CommandSettleFailNoColonists>
   <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>Рядом враги.</CommandSettleFailEnemies>
+  <!-- EN: Cannot settle here. -->
+  <CommandSettleFailGeneric>Здесь нельзя основать поселение.</CommandSettleFailGeneric>
+
+  <!-- Camp -->
+  <!-- EN: Camp -->
+  <CommandCamp>Разбить лагерь</CommandCamp>
+  <!-- EN: Set up a temporary camp that can quickly be abandoned. -->
+  <CommandCampDesc>Разбить временный лагерь, который можно быстро покинуть.</CommandCampDesc>
+  <!-- EN: Cannot camp here. -->
+  <CommandCampFailExistingWorldObject>Здесь нельзя разбить лагерь.</CommandCampFailExistingWorldObject>
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
@@ -383,6 +430,20 @@
   <CommandAddToCaravan>Добавить к каравану</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>Добавить этого человека или животное к снаряжаемому каравану.</CommandAddToCaravanDesc>
+
+  <!-- Force caravan depart -->
+  <!-- EN: Force caravan departure -->
+  <CommandForceCaravanDepart>Отправить караван немедленно</CommandForceCaravanDepart>
+  <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
+  <CommandForceCaravanDepartDesc>Отправить караван в путь, не дожидаясь завершения загрузки. Непогруженные вещи, а также участники, неспособные присоединиться в данный момент, будут оставлены.</CommandForceCaravanDepartDesc>
+  <!-- EN: Are you sure you want to depart? -->
+  <ConfirmForceDepartIntro>Вы уверены, что хотите немедленно отправить этот караван?</ConfirmForceDepartIntro>
+  <!-- EN: The following items are still being loaded and will be left behind: -->
+  <ConfirmForceDepartItemsStillLoading>Эти вещи ещё не погружены и будут оставлены:</ConfirmForceDepartItemsStillLoading>
+  <!-- EN: The following people won't be a part of the caravan: -->
+  <ConfirmForceDepartPawnsNotLeaving>Эти люди не войдут в состав каравана:</ConfirmForceDepartPawnsNotLeaving>
+  <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
+  <ConfirmForceDepartItemsOnPawnsNotLeaving>Эти вещи будут оставлены, потому что являются грузом людей, которые не войдут в состав каравана:</ConfirmForceDepartItemsOnPawnsNotLeaving>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
@@ -433,27 +494,41 @@
   <!-- Refueling -->
   <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>Заправлять автоматически</CommandToggleAllowAutoRefuel>
-  <!-- EN: Sets whether or not automatic refueling is allowed. -->
-  <CommandToggleAllowAutoRefuelDesc>Разрешить или запретить поселенцам самостоятельную заправку.</CommandToggleAllowAutoRefuelDesc>
-  
+  <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <CommandToggleAllowAutoRefuelDesc>Определяет, будут ли поселенцы самостоятельно заправлять топливом это сооружение до значения {0}.\n\nАвтоматическая заправка сейчас {ONOFF}.</CommandToggleAllowAutoRefuelDesc>
+  <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <CommandToggleAllowAutoRefuelDescMult>Определяет, будут ли поселенцы самостоятельно заправлять топливом эти сооружения.\n\nАвтоматическая заправка сейчас {ONOFF}.</CommandToggleAllowAutoRefuelDescMult>
+
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
   <CommandCancelLoad>Отменить погрузку</CommandCancelLoad>
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>Отменить погрузку вещей или людей и выгрузить то, что уже погружено.</CommandCancelLoadDesc> <!-- Применяется, помимо транспорта, также и в строениях-контейнерах: инкубатор, душегуб и пр. -->
-  
+  <!-- EN: Unload all -->
+  <CommandUnload>Разгрузить</CommandUnload>
+  <!-- EN: Eject all contents from the {0}. -->
+  <CommandUnloadDesc>Извлечь всё содержимое {lookup: {0}; Case; 1}.</CommandUnloadDesc>
+
   <!-- Launch group -->
   <!-- EN: Launch -->
   <CommandLaunchGroup>Запустить</CommandLaunchGroup>
   <!-- EN: Take off and fly to a destination. -->
   <CommandLaunchGroupDesc>Отправиться в полёт к указанной точке.</CommandLaunchGroupDesc>
+  <!-- EN: Must be loaded first. -->
+  <CommandLaunchGroupFailNotLoaded>Сначала необходимо загрузить.</CommandLaunchGroupFailNotLoaded>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Как минимум одна капсула не подключена к топливному порту.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <!-- EN: Roof blocking launch. -->
   <CommandLaunchGroupFailUnderRoof>Запуску препятствует крыша.</CommandLaunchGroupFailUnderRoof>
   <!-- EN: Not enough fuel to launch. -->
   <CommandLaunchGroupFailNoFuel>Для запуска недостаточно топлива.</CommandLaunchGroupFailNoFuel>
-  
+  <!-- EN: Over mass capacity. -->
+  <CommandLaunchGroupFailOverMassCapacity>Превышена грузоподъёмность</CommandLaunchGroupFailOverMassCapacity> <!-- Строка дополняется до вида «Превышена грузоподъёмность: 160/150 кг.»; здесь точка опущена, но добавлена в строке MassUsageString -->
+  <!-- EN: On cooldown. -->
+  <CommandLaunchGroupCooldown>Нужно подождать.</CommandLaunchGroupCooldown>
+  <!-- EN: {0} / {1} kg -->
+  <MassUsageString>{0}/{1} кг.</MassUsageString>
+
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
   <CommandLoadTransporter>Начать погрузку в группу из {0}</CommandLoadTransporter>
@@ -665,5 +740,19 @@
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
   <CommandNoUsesLeft>Использований не осталось.</CommandNoUsesLeft>
+
+  <!-- Auto-build pod -->
+  <!-- EN: Auto build transport pod -->
+  <AutoBuildTransportPod>Автоматичес-\nки строить транспортную капсулу</AutoBuildTransportPod>
+  <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
+  <AutoBuildTransportPodDesc>Если активно, при возможности поселенцы будут самостоятельно строить новую транспортную капсулу.</AutoBuildTransportPodDesc>
+  
+  <!-- Hacking gizmo -->
+  <!-- EN: Hack... -->
+  <HackGizmo>Взломать...</HackGizmo>
+  <!-- EN: Cannot hack -->
+  <CannotChooseHacker>Невозможно взломать</CannotChooseHacker>
+  <!-- EN: Choose hacker -->
+  <CommandChooseHacker>Выбрать хакера</CommandChooseHacker>
   
 </LanguageData>
