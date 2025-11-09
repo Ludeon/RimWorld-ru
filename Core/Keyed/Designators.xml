@@ -16,6 +16,11 @@
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>Разобрать и вернуть часть ресурсов.</DesignatorDeconstructDesc>
 
+  <!-- EN: Deconstruct conduit -->
+  <DesignatorDeconstructConduit>Разобрать кабель</DesignatorDeconstructConduit>
+  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
+  <DesignatorDeconstructConduitDesc>Разобрать кабель и вернуть часть ресурсов.</DesignatorDeconstructConduitDesc>
+
   <!-- EN: Uninstall -->
   <DesignatorUninstall>Убрать</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
@@ -181,6 +186,11 @@
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Вскрыть контейнер или могилу.</DesignatorOpenDesc>
   
+  <!-- EN: Eject fuel -->
+  <DesignatorEjectFuel>Извлечь топливо</DesignatorEjectFuel>
+  <!-- EN: Eject all contained fuel onto the ground. -->
+  <DesignatorEjectFuelDesc>Извлечь всё содержащееся здесь топливо наружу.</DesignatorEjectFuelDesc>
+
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Забить</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
@@ -190,6 +200,8 @@
   <DesignatorTame>Приручить</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Отметить животных для приручения.</DesignatorTameDesc>
+  <!-- EN: Scaria infected animals can't be tamed. -->
+  <CantTameScaria>Нельзя приручить животных, заражённых агриозом.</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>Отпустить на волю</DesignatorReleaseAnimalToWild>
@@ -240,6 +252,16 @@
   <!-- EN: Grabbed color -->
   <GrabbedColor>Выбранный цвет</GrabbedColor>
 
+  <!-- EN: Expand plan -->
+  <DesignatorExpandPlan>Расширить планировку</DesignatorExpandPlan>
+  <!-- EN: New plan -->
+  <NewPlan>Новая планировка</NewPlan>
+  
+  <!-- EN: Shrink plan -->
+  <DesignatorPlanShrinkSingular>Уменьшить планировку</DesignatorPlanShrinkSingular>
+  <!-- EN: Remove plans. -->
+  <DesignatorPlanShrinkDesc>Удалить клетки планировки.</DesignatorPlanShrinkDesc>
+
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>Материал не выбран</UnchosenStuff>
@@ -259,6 +281,10 @@
   <WouldBlockInteractionSpot>{0} будет блокировать точку взаимодействия {lookup: {1}; Case; 1}.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>Здесь уже есть {0}.</TerrainIsAlready>
+  <!-- EN: There is already foundation here. -->
+  <FoundationAlreadyExists>Здесь уже есть основание.</FoundationAlreadyExists>
+  <!-- EN: The existing terrain here cannot be removed. -->
+  <TerrainUnremovable>Существующая здесь поверхность не может быть убрана.</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>Поверхность уже отмечена для выравнивания.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -296,9 +322,14 @@
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
-  <ExpandOrCreateZone>Расширить {0} или\nСоздать {1}</ExpandOrCreateZone>
+  <ExpandOrCreateZone>Расширить «{0}»\nили создать новую область типа «{1}»</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
-  <CreateNewZone>Создать {0}</CreateNewZone>
+  <CreateNewZone>Создать новую область типа «{0}»</CreateNewZone>
+  
+  <!-- EN: Expand {0} or\nCreate new plan -->
+  <ExpandOrCreatePlan>Расширить «{0}»\nили создать новую планировку</ExpandOrCreatePlan>
+  <!-- EN: Create new plan -->
+  <CreateNewPlan>Создать новую планировку</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->
