@@ -23,7 +23,7 @@
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
   <LetterRelationsChange_HostileGoodwillDescription>Они не будут торговать с вами. Более того, периодически они будут нападать на ваши поселения и караваны. Если вы желаете улучшить ваши отношения, то всё ещё можно отправить им подарок с караваном или транспортной капсулой.\n\nЭто произошло, поскольку ваша репутация в их глазах упала до {1} или ниже, и равняется {0}. Для улучшения отношений нужно вновь заслужить репутацию как минимум до {2} единиц.</LetterRelationsChange_HostileGoodwillDescription>
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription_NoGifting>TODO</LetterRelationsChange_HostileGoodwillDescription_NoGifting>
+  <LetterRelationsChange_HostileGoodwillDescription_NoGifting>Они не будут торговать с вами. Более того, периодически они будут нападать на ваши поселения и караваны.\n\nЭто произошло, поскольку ваша репутация в их глазах упала до {1} или ниже, и равняется {0}. Для улучшения отношений нужно вновь заслужить репутацию как минимум до {2} единиц.</LetterRelationsChange_HostileGoodwillDescription_NoGifting>
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>Отношения с фракцией {0} улучшились. Они более не враждебны по отношению к вам.</LetterRelationsChange_NeutralFromHostile>
@@ -298,7 +298,7 @@
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>{0}, поселение противника, разгромлено.\n\nУ вас есть {1}, чтобы собрать ресурсы, после чего караван будет атакован противниками. Подкрепления противников будут прибывать до тех пор, пока вы не продолжите путь. Вы можете сделать это прямо сейчас, перейдя на карту мира, выбрав разбитое поселение и нажав кнопку «Продолжить путь».</LetterFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed. -->
-  <LetterFactionBaseDefeatedNoRaids>TODO</LetterFactionBaseDefeatedNoRaids>
+  <LetterFactionBaseDefeatedNoRaids>{0}, поселение противника, разгромлено.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>Так как это поселение было последней базой фракции {0}, она прекращает своё существование.</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -420,7 +420,7 @@
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
   <LetterRescueQuestFinished>Вы спасли {PAWN_nameDef}, и {PAWN_pronoun} решает присоединиться к вашей группе.</LetterRescueQuestFinished>
   <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
-  <LetterRescueQuestFinishedCaravanExtra>TODO</LetterRescueQuestFinishedCaravanExtra>
+  <LetterRescueQuestFinishedCaravanExtra>\n\nВы можете взять {PAWN_objective} с собой. Для этого перейдите к карте мира, выберите текущее место и нажмите кнопку «Продолжить путь».</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -442,23 +442,23 @@
   <!-- EN: Quest active: {0} -->
   <LetterLabelQuestAutomaticallyAcceptedTitle>Активное задание: «{0}»</LetterLabelQuestAutomaticallyAcceptedTitle>
   <!-- EN: {DISCOVEREDFROM} a new quest. -->
-  <LetterNewQuest>TODO</LetterNewQuest>
+  <LetterNewQuest>новое задание</LetterNewQuest> <!-- Подставится одна из строк QuestDiscoveredFrom* -->
   <!-- EN: A new quest is available. -->
-  <LetterNewQuestFromUnknown>TODO</LetterNewQuestFromUnknown>
+  <LetterNewQuestFromUnknown>Доступно новое задание</LetterNewQuestFromUnknown>
   <!-- EN: The quest is called '{0}'. -->
-  <LetterQuestIsNamed>TODO</LetterQuestIsNamed>
+  <LetterQuestIsNamed>Задание называется "{0}"</LetterQuestIsNamed>
   <!-- EN: It will expire in {0}. -->
   <LetterQuestActiveNowTime>Срок истекает через {0}.</LetterQuestActiveNowTime>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>Если вы не примете задание в течение {0}, оно станет недоступным.</LetterQuestRequiresAcceptance>
   <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered -->
-  <QuestDiscoveredFromBook>TODO</QuestDiscoveredFromBook>
+  <QuestDiscoveredFromBook>В книге {BOOK_labelNoParenthesis} {READER_nameDef} узнаёт про</QuestDiscoveredFromBook>
   <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
-  <QuestDiscoveredFromTrader>TODO</QuestDiscoveredFromTrader>
+  <QuestDiscoveredFromTrader>В разговоре с торговцем по имени {TRADER_nameDef} {NEGOTIATOR_nameDef} узнаёт про</QuestDiscoveredFromTrader>
   <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
-  <QuestDiscoveredFromBeggar>TODO</QuestDiscoveredFromBeggar>
+  <QuestDiscoveredFromBeggar>В качестве благодарности за оказанное милосердие попрошайка по имени {RECEIVER_nameDef} делится с {GIVER_nameDef} тайной.\n\nВы узнаёте про</QuestDiscoveredFromBeggar>
   <!-- EN: You have discovered -->
-  <QuestDiscoveredFromDebug>TODO</QuestDiscoveredFromDebug>
+  <QuestDiscoveredFromDebug>Вы узнали про</QuestDiscoveredFromDebug>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->

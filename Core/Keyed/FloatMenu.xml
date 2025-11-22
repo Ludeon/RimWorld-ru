@@ -23,7 +23,7 @@
   <NotAllowed>Запрещено</NotAllowed>
   
   <!-- EN: Attack {1_labelShort} -->
-  <Attack>TODO</Attack>
+  <Attack>Атаковать {1_labelShort}</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>Стрелять в {lookup: {1_labelShort}; Case; 3}</FireAt>
   <!-- EN: Remove -->
@@ -46,7 +46,7 @@
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>нельзя отдавать приказы неподконтрольным персонажам</CannotOrderNonControlledLower>
   <!-- EN: cannot attack -->
-  <CannotAttack>TODO</CannotAttack>
+  <CannotAttack>нельзя атаковать</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>нельзя атаковать себя</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -95,7 +95,7 @@
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>нет доступных клеток на карте мира</NoReachableOutsideCell>
   <!-- EN: cannot exit map -->
-  <CannotExitMap>TODO</CannotExitMap>
+  <CannotExitMap>невозможно покинуть место</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>отсутствует требуемый уровень навыка</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -237,7 +237,7 @@
   <!-- EN: Cannot rescue -->
   <CannotRescue>Невозможно спасти</CannotRescue>
   <!-- EN: Cannot rescue {PAWN_labelShort} -->
-  <CannotRescuePawn>TODO</CannotRescuePawn>
+  <CannotRescuePawn>Невозможно спасти {PAWN_labelShort}</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>Перенести {lookup: {1_labelShort}; Case; 3} в саркофаг криптосна</CarryToCryptosleepCasket>
@@ -300,19 +300,19 @@
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>Надеть {lookup: {1_labelShort}; Case; 3}</ForceWear>
   <!-- EN: Force target to wear {1_labelShort}... -->
-  <ForceTargetToWear>TODO</ForceTargetToWear>
+  <ForceTargetToWear>Одеть в {lookup: {1_labelShort}; Case; 3}...</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
-  <CannotWear>Невозможно надеть {lookup: {1_labelShort}; Case; 3}</CannotWear>
+  <CannotWear>Невозможно надеть {lookup: {1_label}; Case; 3}</CannotWear>
   <!-- EN: Cannot force target to wear {1_label} -->
-  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
+  <CannotForceTargetToWear>Невозможно одеть в {lookup: {1_label}; Case; 3}</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>Вооружиться {lookup: {1_labelShort}; Case; 4}</ForceEquipApparel>
   <!-- EN: Force target to equip {1_labelShort}... -->
-  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
+  <ForceTargetToEquipApparel>Вооружить {lookup: {1_label}; Case; 4}...</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>Невозможно вооружиться {lookup: {1_label}; Case; 4}</CannotEquipApparel>
   <!-- EN: Cannot force target to equip {1_label} -->
-  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
+  <CannotForceTargetToEquipApparel>Невозможно вооружить {lookup: {1_label}; Case; 4}</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>отсутствуют части тела</CannotWearBecauseOfMissingBodyParts>
   
@@ -416,7 +416,7 @@
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>медицинская кровать не для рабов</NotForSlaves>
   <!-- EN: Medical care disabled -->
-  <MedicalCareDisabled>TODO</MedicalCareDisabled>
+  <MedicalCareDisabled>Врачебный уход отключён</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>{0} уже спит здесь</SomeoneElseSleeping>
   
@@ -509,12 +509,12 @@
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>{0} {replace: {lookup: {1}; Case; 3}; "область"-""}</PrioritizeGeneric> <!-- replace для исключения вариантов типа «Разобрать крышу область» -->
   <!-- EN: Prioritize {0} -->
-  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
+  <PrioritizeGenericSimple>{0}</PrioritizeGenericSimple>
 
   <!-- EN: Launch to {LOCATION_label} -->
-  <LaunchTo>TODO</LaunchTo>
+  <LaunchTo>Запустить к цели: {LOCATION_label}</LaunchTo> <!-- Предлоги "на", "в" и "к" не подходят в общем случае -->
   <!-- EN: Are you sure you want to launch? -->
-  <LaunchToConfirmation>TODO</LaunchToConfirmation>
+  <LaunchToConfirmation>Вы уверены, что хотите произвести запуск?</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>Сбросить с краю</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -644,11 +644,11 @@
   <!-- EN: Hack {0} -->
   <Hack>Взломать {lookup: {0}; Case; 3}</Hack>
   <!-- EN: Choose a colonist to hack this. -->
-  <HackDesc>TODO</HackDesc>
+  <HackDesc>Выберите поселенца, который будет взламывать.</HackDesc>
   <!-- EN: Cannot hack {0} -->
   <CannotHack>Невозможно взломать {lookup: {0}; Case; 3}</CannotHack>
   <!-- EN: Locked out -->
-  <LockedOut>TODO</LockedOut>
+  <LockedOut>Заблокировано</LockedOut>
   <!-- EN: Already hacked -->
   <AlreadyHacked>Уже взломано</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
