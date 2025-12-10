@@ -39,6 +39,8 @@
   <MessageVisitorsDangerousTemperature>{0} из фракции {1} уходят из-за опасных температурных условий.</MessageVisitorsDangerousTemperature>
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
   <MessageVisitorsAnomalousWeather>{0} из фракции {1} уходят из-за опасных погодных условий.</MessageVisitorsAnomalousWeather>
+  <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
+  <MessageVisitorsDangerousConditions>{0} из фракции {1} уходят из-за опасных условий.</MessageVisitorsDangerousConditions>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0}, {0_gender ? который : которую : которое} {1_gender ? носил : носила} {1_nameFull}, {0_gender ? износился : износилась : износилось} окончательно и {0_gender ? рассыпался : рассыпалась : рассыпалось} в прах.</MessageWornApparelDeterioratedAway>
@@ -79,6 +81,10 @@
   <MessageAnimalManhuntsOnTameFailed>Внимание: при неудачной попытке приручения {ANIMAL_kindBasePlural} нападают с вероятностью {1}.</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>Только поселенцы с чертой «любимец насекомых» может приручить {lookup: {INSECT_indefinite}; Case; 3}.</MessageInsectTameDesignated>
+  <!-- EN: No colonists are assigned to hunt. -->
+  <MessageNoHuntersAvailable>Ни один из поселенцев не назначен охотиться.</MessageNoHuntersAvailable>
+  <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
+  <MessageNoHuntersWithProperWeapon>У охотника нет оружия для охоты. Снабдите его подходящим оружием дальнего боя.</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>Внимание: {PAWN_labelShort} — враждебное существо, и будет нападать на вашего поселенца, пока тот будет пытаться его приручить.</MessageInsectsHostileOnTaming>
@@ -108,6 +114,8 @@
   <MessageMustDesignateHarvestable>Нужно указать созревшие собираемые растения.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>Нужно указать достаточно выросшие растения.</MessageMustDesignateHarvestableWood>
+  <!-- EN: Prevent cutting is enabled for this plant. -->
+  <MessageMustPlantCuttingForbidden>Это растение защищено от вырубки.</MessageMustPlantCuttingForbidden>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Нужно указать растения.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -149,9 +157,15 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Следует указать предметы, запрещённые для использования.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>Невозможно захватить {lookup: {CLAIMABLE_labelShort}; Case; 3}, пока рядом находятся боеспособные {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenPawnThreatsAreNear>Невозможно захватить {lookup: {CLAIMABLE_labelShort}; Case; 3}, пока рядом находятся боеспособные {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenPawnThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotAdoptWhilePawnThreatsAreNear>Невозможно забрать {CLAIMABLE_labelShort}, пока рядом находятся боеспособные {THREAT_factionPawnsPlural}.</MessageCannotAdoptWhilePawnThreatsAreNear>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>Невозможно захватить {lookup: {CLAIMABLE_labelShort}; Case; 3}, пока рядом находится {THREAT}.</MessageCannotClaimWhenThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
   <MessageCannotAdoptWhileThreatsAreNear>Невозможно забрать {CLAIMABLE_labelShort}, пока рядом находится {THREAT}.</MessageCannotAdoptWhileThreatsAreNear>
+  <!-- EN: Cannot remove foundation that supports a building. -->
+  <MessageCannotRemoveSupportingFoundation>Нельзя убрать основание, на котором находится сооружение.</MessageCannotRemoveSupportingFoundation>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} сопротивляется аресту!</MessageRefusedArrest>
@@ -279,6 +293,8 @@
   <MessagePawnLostWhileFormingCaravan>{0} {0_gender ? исключён : исключена} из каравана.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>Подготовка каравана отменена.</MessagePawnLostWhileFormingCaravan_AllLost>
+  <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
+  <MessageForceSendingCaravan_AllLost>Отсутствуют поселенцы, способные снарядить караван. Подготовка каравана отменена.</MessageForceSendingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>Подготовка каравана продолжится, как только все оправятся после нервного срыва.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -358,12 +374,16 @@
   <MessageFinishedLoadingTransporterSingle>Загрузка челнока завершена.</MessageFinishedLoadingTransporterSingle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoTransporters>Ваши {1} не могут завершить погрузку из-за отсутствия доступа к некоторым людям или вещам: {2_labelShort}.</MessageCantLoadMoreIntoTransporters>
+  <MessageCantLoadMoreIntoTransporters>Ваши {1} не могут завершить загрузку транспортных капсул из-за отсутствия доступа к некоторым людям или вещам: {2_labelShort}.</MessageCantLoadMoreIntoTransporters>
+  <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
+  <MessageCantLoadMoreIntoShuttle>Ваши {1} не могут завершить загрузку челнока из-за отсутствия доступа к некоторым людям или вещам: {2_labelShort}.</MessageCantLoadMoreIntoShuttle>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoPortal>Ваши {1} не могут завершить проход в {lookup: {0}; Case; 3} из-за отсутствия доступа к некоторым людям или вещам: {2_labelShort}.</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>Выбрано неподходящее место назначения.</MessageTransportPodsDestinationIsInvalid>
+  <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
+  <MessageWorldObjectIsInvalid>{OBJECT_labelCap} — неподходящее место назначения.</MessageWorldObjectIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>Каждая капсула должна иметь в баках хотя бы {0_numCase ? единицу : единицы : единиц} топлива, чтобы долететь сюда.</MessageTransportPodsDestinationIsTooFar>
   
@@ -786,6 +806,10 @@
   <CannotPlantThing>Невозможно посадить {lookup: {0_labelShort}; Case; 3}</CannotPlantThing>
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>Грунт должен быть более плодородным.</MessageWarningNotEnoughFertility>
+  <!-- EN: Temperature too extreme. -->
+  <CannotPlantExtremeTemp>Температура слишком экстремальная.</CannotPlantExtremeTemp>
+  <!-- EN: Plants cannot grow on this terrain. -->
+  <CannotPlantMissingTerrainTag>Растения не могут расти на этой поверхности.</CannotPlantMissingTerrainTag>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>заблокировано {lookup: {0_label}; Case; 4}.</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
@@ -794,6 +818,8 @@
   <TooCloseToOtherPlant>Слишком близко к {lookup: {0_label}; Case; 2}.</TooCloseToOtherPlant>
   <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>Слишком близко к месту посадки {lookup: {0}; Case; 1}.</TooCloseToOtherSeedPlantCell>
+  <!-- EN: Cannot be placed on {0}. -->
+  <MessageCannotBePlacedOn>Нельзя посадить в {lookup: {0}; Case; 3}.</MessageCannotBePlacedOn>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>Внимание: {0} отмечено для рубки.</MessageWarningCutImportantPlant>
@@ -825,10 +851,20 @@
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>Невозможно прыгнуть: беженец</MessageLodgersCantFarskip>
+  
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
+  <MessageHackerLockedOut>Попытка взлома обнаружена. {HACKER_nameDef} {HACKER_gender ? заблокирован : заблокирована} на {DURATION}.</MessageHackerLockedOut>
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
+  <MessageHackerLockedOutPermanently>Попытка взлома обнаружена. {HACKER_nameDef} {HACKER_gender ? заблокирован : заблокирована} навсегда.</MessageHackerLockedOutPermanently>
+  <!-- EN: {0_labelShort} can be hacked again. -->
+  <MessageHackableUnlocked>{lookup: {0_labelShort}; Case; 3} снова можно взламывать.</MessageHackableUnlocked>
 
   <!-- EN: Shuttle cannot land here -->
   <ShuttleCannotLand>Челнок не может приземлиться здесь</ShuttleCannotLand>
   <!-- EN: The shuttle has arrived. -->
   <MessageShuttleArrived>Челнок прибыл.</MessageShuttleArrived>
+
+  <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
+  <MessageGroundPenetratingScannerNoBedrock>Внимание: {THING_labelCap} не будет работать в этом биоме</MessageGroundPenetratingScannerNoBedrock>
 
 </LanguageData>
