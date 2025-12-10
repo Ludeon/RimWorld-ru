@@ -247,6 +247,10 @@
   <!-- Game start -->
   <!-- EN: Must include exactly {SUMMARY} -->
   <SelectedCharactersMustInclude>Нужно выбрать ровно {SUMMARY}</SelectedCharactersMustInclude>
+  <!-- EN: All colonists must be {0} -->
+  <SelectedCharactersMustBeOfAllowedDevelopmentalStages>Все поселенцы должны быть на стадиях развития: {0}</SelectedCharactersMustBeOfAllowedDevelopmentalStages>
+  <!-- EN: At least one colonist must be capable of {0} -->
+  <SelectedCharacterMustBeCapableOf>Хотя бы один поселенец должен быть способен к {lookup: {0}; Case; 2}</SelectedCharacterMustBeCapableOf>
 
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
@@ -700,6 +704,8 @@
   <TradeModeTip>Вернуться в режим торговли</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{FACTION_name} не желает отправлять караван, поскольку {NEGOTIATOR_nameDef} не имеет нужного титула, {TITLE}.</TradeCaravanRequestDeniedDueTitle>
+  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <OrbitalTradeRequestDeniedDueTitle>{FACTION_name} не желает отправлять орбитального торговца, поскольку {NEGOTIATOR_nameDef} не имеет нужного титула, {TITLE}.</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -727,7 +733,11 @@
   <!-- EN: Send -->
   <Send>Отправить</Send>
   <!-- EN: Number available to send with the caravan. -->
-  <FormCaravanColonyThingCountTip>Количество единиц ресурса, которое поселение может передать каравану.</FormCaravanColonyThingCountTip>
+  <FormCaravanColonyThingCountTip>Количество, которое поселение может передать каравану.</FormCaravanColonyThingCountTip>
+  <!-- EN: Number available to transport. -->
+  <TransporterColonyThingCountTip>Количество, которое поселение может отправить.</TransporterColonyThingCountTip>
+  <!-- EN: Number available to transfer. -->
+  <TransferMapPortalColonyThingCountTip>Количество, которое поселение может отправить.</TransferMapPortalColonyThingCountTip>
   <!-- EN: People and animals -->
   <PawnsTab>Люди и животные</PawnsTab>
   <!-- EN: Items -->
@@ -948,6 +958,8 @@
   <DuplicatePolicyTip>Создать копию выбранной политики</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>Переименовать политику</RenamePolicyTip>
+  <!-- EN: Make this policy the default policy given to new colonists. -->
+  <DefaultPolicyTip>Назначить политикой по умолчанию для новых поселенцев</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>Вы уверены, что хотите удалить политику: {0}?</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1059,6 +1071,8 @@
   <SchematicPolicy>Техдокументация</SchematicPolicy>
   <!-- EN: Novels -->
   <NovelPolicy>Беллетристика</NovelPolicy>
+  <!-- EN: Maps -->
+  <MapPolicy>Карты</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1413,6 +1427,10 @@
   <SearchTheMap>Искать на текущей карте</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>Искать на текущей карте предметы, сооружения, людей, животных, растения и прочее.</SearchTheMapDesc>
+  <!-- EN: Search the world -->
+  <SearchTheWorld>Искать на карте мира</SearchTheWorld>
+  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
+  <SearchTheWorldDesc>Искать на карте мира особенности местности, ориентиры, задания или поселения.</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>{0_numCase ? результат : результата : результатов}</MapSearchResults>
   <!-- EN: 1 result found -->
