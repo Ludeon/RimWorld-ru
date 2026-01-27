@@ -284,6 +284,8 @@
   <BeautyHere>Красота</BeautyHere>
   <!-- EN: no power -->
   <NoPower>нет питания</NoPower>
+  <!-- EN: not in {0} -->
+  <NotInRoomRole>нет в {lookup: {0}; Case; 5}</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>Скорость работы</WorkSpeedPenalty>
   <!-- EN: Disabled -->
@@ -302,6 +304,8 @@
   <LaunchableInGroupHasSomethingLeftToLoad>погрузка ещё не окончена</LaunchableInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>За пределами максимальной дальности</TransportPodDestinationBeyondMaximumRange>
+  <!-- EN: No path to {LAYER_label} -->
+  <TransportPodDestinationNoPath>Нет пути до {lookup: {LAYER_label}; Case; 1}</TransportPodDestinationNoPath>  
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>Недостаточно топлива</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -345,7 +349,11 @@
   <!-- EN: Products -->
   <Products>Результат</Products>
   <!-- EN: Requires -->
-  <Requires>Требуется</Requires>
+  <Requires>Требует</Requires>
+  <!-- EN: Replaces -->
+  <Replaces>Заменяет</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>отсутствует {0}</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}x любого из</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -368,10 +376,14 @@
   <RideableAnimalsPerPeople>Ездовые животные / люди</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>Множитель от езды верхом на животных</MultiplierFromRiddenAnimals>
+  <!-- EN: Multiplier from bonuses -->
+  <MultiplierFromMoveSpeedBonus>Множитель от бонусов скорости</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Множитель переносимого веса: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Это ездовое животное. Караванщики будут выбирать для верховой езды самых быстрых животных, чтобы максимально ускорить движение каравана.</RideableAnimalTip>
+  <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
+  <CaravanBonusTip>Этот поселенец даёт бонус к скорости каравана. Итоговая прибавка равна среднему бонусу всех членов каравана.</CaravanBonusTip> 
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>Караван перегружен и не может сдвинуться с места.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -547,9 +559,9 @@
   <!-- EN: completed -->
   <StudyCompleted>выполнено</StudyCompleted>
   <!-- EN: Attack this to destroy it. -->
-  <AttackToDestroy>Атакуйте, чтобы разрушить.</AttackToDestroy>
+  <AttackToDestroy>Атакуйте, чтобы разрушить</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
-  <RemoveByAttackingTooltip>Атакуйте, чтобы удалить.</RemoveByAttackingTooltip>
+  <RemoveByAttackingTooltip>Атакуйте, чтобы удалить</RemoveByAttackingTooltip>
   <!-- EN: Food -->
   <ThoughtFoodEatenFood>Еда</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
@@ -568,6 +580,8 @@
   <RequiredTechprintTip>Требуется</RequiredTechprintTip>
   <!-- EN: size -->
   <Size>размер</Size>
+  <!-- EN: Total planning area -->
+  <TotalPlanningArea>Общая площадь планировки</TotalPlanningArea>
   <!-- EN: cost -->
   <Cost>стоимость</Cost>
   <!-- EN: Stunned by EMP -->
@@ -586,6 +600,8 @@
   <Investigate>Исследовать</Investigate> 
   <!-- EN: Activate -->
   <Activate>Активировать</Activate> 
+  <!-- EN: Deactivate -->
+  <Deactivate>Деактивировать</Deactivate>
   <!-- EN: Activation -->
   <Activation>Активация</Activation>
   <!-- EN: complete -->
@@ -612,6 +628,21 @@
   <ReportStringCrawlingToSafety>ползёт в безопасное место</ReportStringCrawlingToSafety> <!-- Точка не нужна, а заглавная буква проставляется автоматом -->
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>ползёт в кровать</ReportStringCrawlingToBed>
+  <!-- EN: flying -->
+  <Flying>летит</Flying>
+  <!-- EN: Prevent cutting -->
+  <PreventCutting>Запретить рубку</PreventCutting>
+  <!-- EN: When on, colonists won't cut this plant. -->
+  <PreventCuttingDesc>Если включено, поселенцы не будут срезать это растение.</PreventCuttingDesc>
+
+  <!-- EN: Resulting from trait -->
+  <ComesFromTrait>Результат черты характера</ComesFromTrait>
+  <!-- EN: Resulting from condition -->
+  <ComesFromHediff>Результат состояния</ComesFromHediff>
+  <!-- EN: Adds need -->
+  <AddsNeed>Добавляет потребность</AddsNeed>
+  <!-- EN: Adds needs -->
+  <AddsNeeds>Добавляет потребности</AddsNeeds>  
   <!-- EN: Disables need -->
   <DisablesNeed>Убирает потребность</DisablesNeed>
   <!-- EN: Disables needs -->
@@ -784,6 +815,8 @@
   <!-- EN: Filth -->
   <Filth_Label>Грязь</Filth_Label>
   
+  <!-- EN: Features -->
+  <Features_Label>Особенности</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>Фракция</Faction_Label>
   <!-- EN: Relationship -->
@@ -809,6 +842,8 @@
   <ApparelPreventsShooting>{PAWN_nameDef} не может использовать оружие дальнего боя, пока носит {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>Нельзя использовать в {lookup: {0}; Case; 5}</CannotUseReason_PocketMap>
+  <!-- EN: Range reduced -->
+  <WeatherMaxRangeCap>Дальность уменьшена</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -952,7 +987,7 @@
   <!-- EN: make {0} -->
   <RecipeMake>изготовить {lookup: {0}; Case; 3}</RecipeMake>
   <!-- EN: Make {0}. -->
-  <RecipeMakeDescription>Изготовить {lookup: {0}; Case; 3}</RecipeMakeDescription>
+  <RecipeMakeDescription>Изготовьте {lookup: {0}; Case; 3}</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
   <RecipeMakeJobString>Изготавливает {lookup: {0}; Case; 3}</RecipeMakeJobString>
   <!-- EN: administer {0} -->
@@ -1071,6 +1106,8 @@
   <PowerConsumptionHigh>высокое</PowerConsumptionHigh>
   <!-- EN: low -->
   <PowerConsumptionLow>низкое</PowerConsumptionLow>
+  <!-- EN: off -->
+  <PowerConsumptionOff>выключено</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -1155,6 +1192,8 @@
   <Blighted>Поражено болезнью</Blighted>
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>Погибает на свету</DyingBecauseExposedToLight>
+  <!-- EN: Dying from non-ideal terrain -->
+  <DyingBecauseOfTerrain>Погибает из-за неподходящей местности</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
   <AutoCutNow>Срубить</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1171,8 +1210,12 @@
   <Zone>Область</Zone>
   <!-- EN: Growing zone -->
   <GrowingZone>Посадки</GrowingZone>
+  <!-- EN: growing -->
+  <GrowingGroup>прорастает</GrowingGroup>
   <!-- EN: Stockpile zone -->
   <Stockpile>Склад</Stockpile>
+  <!-- EN: stockpile -->
+  <StockpileGroup>склад</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Свалка</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1243,10 +1286,10 @@
   <LockNorthUpToggleButton>Зафиксировать камеру так, чтобы север был сверху.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>Отображение зон дня и ночи.</UsePlanetDayNightSystemToggleButton>
-  <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>TODO</ShowBasesExpandingIconsToggleButton>
+  <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
+  <ShowBasesExpandingIconsToggleButton>Отображение раскрываемых иконок вместо обычных для далёких объектов.</ShowBasesExpandingIconsToggleButton>
   <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>TODO</ShowImportantExpandingIconsToggleButton>
+  <ShowImportantExpandingIconsToggleButton>Переключить отображение увеличивающихся иконок для важных мест, таких как ваша колония, локации заданий и активные карты.</ShowImportantExpandingIconsToggleButton>  
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Видимость названий для форм рельефа.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1445,6 +1488,8 @@
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
   <!-- EN: No colony -->
   <NoColony>Нет поселения</NoColony>
+  <!-- EN: cannot reach any destination -->
+  <NoWandererDestination>Не удаётся добраться ни до одного пункта назначения</NoWandererDestination>
   <!-- EN: must wait {0}h -->
   <GameOverCreateNewWanderersWait>нужно подождать {0} ч</GameOverCreateNewWanderersWait>
 
@@ -1591,6 +1636,8 @@
   <OutfitSoldier>Солдатская экипировка</OutfitSoldier>
   <!-- EN: Nudist -->
   <OutfitNudist>Костюм нудиста</OutfitNudist>
+  <!-- EN: Spacefarer -->
+  <OutfitSpacefarer>Костюм космонафта</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1703,6 +1750,8 @@
   <InterceptsProjectilesEvery>Перехватывает {0} каждые {1}.</InterceptsProjectilesEvery> <!-- Вместо {0} подставится InterceptsProjectiles_GroundProjectiles или InterceptsProjectiles_AerialProjectiles -->
   <!-- EN: Intercepts {0}. -->
   <InterceptsProjectiles>Перехватывает {0}.</InterceptsProjectiles>
+  <!-- EN: ground and aerial projectiles -->
+  <InterceptsProjectiles_BothProjectiles>снаряды с настильной и навесной траекторией</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>снаряды с настильной траекторией</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
@@ -2028,6 +2077,8 @@
   
   <!-- EN: About to explode -->
   <AboutToExplode>Сейчас взорвётся</AboutToExplode>
+  <!-- EN: No fuel to eject -->
+  <RefuelableNoFuelToEject>Нет топлива - извлечь нечего</RefuelableNoFuelToEject>
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>Доступно новое дополнение: Anomaly!</MainScreen_AnomalyAvailableNow>
@@ -2037,13 +2088,15 @@
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>заблокирован крышей</BlockedByRoof>
+  <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
+  <BlockedByTerrain>Заблокировано рельефом (требуется поддержка местности {lookup: {0_label}; Case; 4})</BlockedByTerrain>
 
   <!-- Craters -->
   <!-- EN: Fill in -->
   <DesignatorFillIn>Засыпать</DesignatorFillIn>
   <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
-  <DesignatorFillInDesc>TODO</DesignatorFillInDesc>
-
+  <DesignatorFillInDesc>Отметьте этот кратер для засыпки. Поселенец, назначенный заниматься строительством, засыпет его.</DesignatorFillInDesc>
+  
   <!-- Hacking -->
   <!-- EN: Hack progress -->
   <HackProgress>Прогресс взлома</HackProgress>
@@ -2055,6 +2108,34 @@
   <Hacked>взломано</Hacked>
   <!-- EN: Terminals hacked -->
   <TerminalsHacked>Терминалы взломаны</TerminalsHacked>
+  <!-- EN: Intellectual needed -->
+  <IntellectualSkillPrerequisite>Требуется навык интеллекта</IntellectualSkillPrerequisite>
+  <!-- EN: Auto hack -->
+  <AutoHack>Автоматический взлом</AutoHack>
+  <!-- EN: When enabled, researchers will automatically hack this. -->
+  <AutoHackDesc>Если включено, исследователи будут автоматически взламывать это.</AutoHackDesc>
+
+  <!-- World -->
+  <!-- EN: View {LAYER_label} -->
+  <WorldSelectLayer>Просмотреть {LAYER_label}</WorldSelectLayer>
+  <!-- EN: Jump to location -->
+  <WorldJumpTo>Переместится к точке назначения</WorldJumpTo>
+  <!-- EN: Find a colony, caravan, or quest location on the world map. -->
+  <WorldJumpToDesc>Выберете на карте мира колонию, караван или локацию задания.</WorldJumpToDesc>
+  <!-- EN: Nothing to jump to. -->
+  <NothingToJumpTo>Нет цели для прыжка.</NothingToJumpTo>
+  <!-- EN: cannot function in {0} -->
+  <CannotFunctionOnLayer>Не функционирует в {lookup: {0}; Case; 5}</CannotFunctionOnLayer>
+  <!-- EN: New settlement -->
+  <NewSettlement>Новое поселение</NewSettlement>
+  <!-- EN: Settled -->
+  <Settled>Заселено</Settled>
+  <!-- EN: Abandoned -->
+  <Abandoned>Брошено</Abandoned>
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
+  <CannotPerformPlanetLayer>Этого нельзя сделать {GERUND} {lookup: {LAYER}; Case; 5}</CannotPerformPlanetLayer>
+  <!-- EN: This will not affect you {GERUND} {LAYER}. -->
+  <ThisWillNotAffectLayer>Это не затронет вас {GERUND} {lookup: {LAYER}; Case; 5}.</ThisWillNotAffectLayer>
 
   <!-- Pocket maps -->
   <!-- EN: Enter {0} -->
@@ -2067,13 +2148,44 @@
   <CommandCancelEnterPortal>Отменить проход</CommandCancelEnterPortal>
   <!-- EN: Cancel loading people or items into this. -->
   <CommandCancelEnterPortalDesc>Отменить проход людей и пронос вещей.</CommandCancelEnterPortalDesc>
+  <!-- EN: Cancel exiting -->
+  <CommandCancelExitPortal>Отменить выход</CommandCancelExitPortal>
+  <!-- EN: Exit {0} -->
+  <ExitPortal>Покинуть {lookup: {0}; Case; 3}</ExitPortal>  
+  
   <!-- CompProjectileInterceptor -->
   <!-- EN: Shield energy -->
   <ShieldEnergy>Энергия щита</ShieldEnergy>
   <!-- EN: Shield cooldown -->
   <ShieldTimeToRecovery>Время восстановления</ShieldTimeToRecovery>
+  <!-- EN: Shield duration -->
+  <ShieldDuration>Время действия</ShieldDuration>
+  <!-- EN: On cooldown -->
+  <ShieldOnCooldown>Перезарядка</ShieldOnCooldown>
+  <!-- EN: Below minimum energy -->
+  <ShieldBelowMinHitpoints>Не хватает энергии</ShieldBelowMinHitpoints>
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
   <ProjectileInterceptorTip>Защитное поле, способное останавливать летящие на большой скорости предметы. Выключается при воздействии ЭМИ.</ProjectileInterceptorTip>
 
+  <!-- EN: max {0} -->
+  <MaxOf>макс. {0}</MaxOf>
+
+  <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
+  <CannotUseDueToHediff>Невозможно использовать {TARGETABLE_label}: у {TARGET_nameDef} уже есть {2}.</CannotUseDueToHediff>
+
+  <!-- Scanner -->
+  <!-- EN: Blocked by roof -->
+  <CannotUseScannerRoofed>Заблокировано крышей</CannotUseScannerRoofed>
+  <!-- EN: Biome does not contain drillable resources -->
+  <CannotUseScannerNoBedrock>В этом биоме нет ресурсов для добычи бурением.</CannotUseScannerNoBedrock>
+
+  <!-- Quests -->
+  <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
+  <CannotAcceptQuestFromLayer>Невозможно принять задание {GERUND} {lookup: {LAYER}; Case; 5}.</CannotAcceptQuestFromLayer>
+  <!-- EN: Cannot accept this quest without a permanent colony. -->
+  <CannotAcceptQuestNoMap>Невозможно принять задание без постоянного поселения.</CannotAcceptQuestNoMap>
+
+  <!-- EN: {0} of {1} -->
+  <GuildTradeShipName>{0} из {lookup: {1}; Case; 1}</GuildTradeShipName>
   
 </LanguageData>
