@@ -10,6 +10,8 @@
   <CannotLaunchNotEnoughFuel>недостаточно топлива</CannotLaunchNotEnoughFuel>
   <!-- EN: Cannot reach this destination -->
   <CannotLaunchDestination>Невозможно достичь этого пункта назначения</CannotLaunchDestination>
+  <!-- EN: Cannot land on the same tile -->
+  <CannotLandOnSameTile>TODO</CannotLandOnSameTile>
   <!-- EN: Connected substructure -->
   <ConnectedSubstructure>Подсоединенная надстройка</ConnectedSubstructure>
   <!-- EN: Substructure blueprints placed -->
@@ -56,6 +58,8 @@
   <GravshipBlockedBy>Заблокировано: {0_label}</GravshipBlockedBy>
   <!-- EN: Can't place in undiscovered area -->
   <GravshipBlockedByFog>Нельзя разместить в затуманенной области</GravshipBlockedByFog>
+  <!-- EN: Blocked by roof -->
+  <GravshipBlockedByRoof>TODO</GravshipBlockedByRoof>
   <!-- EN: Can't place outside map bounds -->
   <GravshipOutOfBounds>Нельзя разместить за пределами карты</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
@@ -104,6 +108,14 @@
   <MustBeOutside>должно быть снаружи</MustBeOutside>
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>блокируется надстройкой</BlockedBySubstructure>
+  <!-- EN: {PAWN_nameDef} cannot board {1} -->
+  <FailedToBoardGravship>TODO</FailedToBoardGravship>
+  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
+  <FailedToLeaveGravship>TODO</FailedToLeaveGravship>
+  <!-- EN: View range -->
+  <ViewRange>TODO</ViewRange>
+  <!-- EN: View the gravship’s current range on the world map. -->
+  <ViewRangeDesc>TODO</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
@@ -170,6 +182,8 @@
   <FishingSpotFrozen>Замерзло</FishingSpotFrozen>
   <!-- EN: Below minimum fish population -->
   <FishingSpotUnderTargetPopulation>Популяция рыбы ниже минимума</FishingSpotUnderTargetPopulation>
+  <!-- EN: stored fish exceed fishing zone settings -->
+  <FishingSpotOverTargetResourceCount>TODO</FishingSpotOverTargetResourceCount>
   <!-- EN: Fishing -->
   <TabFishing>Рыбалка</TabFishing>
   <!-- EN: Fish population -->
@@ -281,6 +295,8 @@
   <!-- EN: Unique weapon -->
   <UniqueWeapon>Уникальное оружие</UniqueWeapon>
 
+  <!-- EN: Reforming a caravan will abandon your gravship. Are you sure you want to continue?\n\nTo leave with your gravship, select the gravship's pilot console, then select 'launch'. -->
+  <ConfirmLoseGravship>TODO</ConfirmLoseGravship>
   <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
   <ConfirmLoseShuttle>Продолжение пути в караване приведёт к утере челнока. Вы уверены, что хотите продолжить?\n\nЧтобы покинуть место на челноке, выберите челнок и нажмите «Запустить».</ConfirmLoseShuttle>
 
@@ -303,6 +319,10 @@
   <AnimalsAttackTarget>Животные атакуют цель</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
   <AnimalsAttackTargetDesc>Приказать всем прирученным животным атаковать выбранную цель.</AnimalsAttackTargetDesc>
+  <!-- EN: Cancel attack -->
+  <CancelAttack>TODO</CancelAttack>
+  <!-- EN: Clear this animal's current target. -->
+  <CancelAttackDesc>TODO</CancelAttackDesc>
   <!-- EN: This animal does not have a master -->
   <NoMaster>У этого животного нет хозяина</NoMaster>
   <!-- EN: This animal's master is not on this map -->
