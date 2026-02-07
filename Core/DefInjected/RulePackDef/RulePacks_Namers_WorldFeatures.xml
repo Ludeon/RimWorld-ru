@@ -504,6 +504,109 @@
     <li>prefix_proper_neutral->[AdjectiveAny_neutral]</li>
     <li>prefix_proper_plural->[Color_plural]</li>
     <li>prefix_proper_plural->[AdjectiveAny_plural]</li>
+    <!-- <li>narrative_name->[forest_name]</li> -->
+    <!-- <li>narrative_name->[wasteland_name]</li> -->
+    <!-- закоменченные нужно проработать на предмет естественнности и необходимости -->
+    <li>narrative_name->[suffix_proper]</li>
+    <li>narrative_name_gen->[suffix_proper]</li>
+    <li>narrative_name_mas->[forest_masc] [suffix_proper]</li>
+    <li>narrative_name_mas->[AdjectiveAny] [forest_masc]</li>
+    <li>narrative_name_mas->[wasteland_masc] [suffix_proper]</li>
+    <li>narrative_name_mas->[AdjectiveAny] [wasteland_masc]</li>
+    <li>narrative_name_fem->[forest_fem] [suffix_proper]</li>
+    <li>narrative_name_fem->[AdjectiveAny_female] [forest_fem]</li>
+    <li>narrative_name_fem->[wasteland_fem] [suffix_proper]</li>
+    <li>narrative_name_fem->[AdjectiveAny_female] [wasteland_fem]</li>
+    <li>narrative_name_plural->[forest_plural] [suffix_proper]</li>
+    <li>narrative_name_plural->[wasteland_plural] [suffix_proper]</li>
+    <li>narrative_name_plural->[AdjectiveAny_plural] [wasteland_plural]</li>
+    <li>story_result->безумие</li>
+    <li>story_result->порок</li>
+    <li>story_result->disparate</li>
+    <li>story_result->чепуха</li>
+    <li>story_result->сбой</li>
+    <li>story_result->ошибка</li>
+    <li>story_result->промах</li>
+    <li>story_result->заблуждение</li>
+    <li>story_result->радость</li>
+    <li>story_result->восторг</li>
+    <li>story_result->изумление</li>
+    <li>story_result->гордость</li>
+    <li>story_result->драгоценность</li>
+    <li>story_result->награда</li>
+    <li>story_result->щедрость</li>
+    <li>story_result->честь</li>
+    <li>story_result->джекпот</li>
+    <li>story_result->трофей</li>
+    <li>story_result->самодовольство</li>
+    <li>story_result->высокомерие</li>
+    <li>story_result->позиция</li>
+    <li>story_result->потеря</li>
+    <li>story_result->долг</li>
+    <li>story_result->крах</li>
+    <li>story_result->разрушение</li>
+    <li>story_result->катаклизм</li>
+    <li>story_result->гибель</li>
+    <li>story_result->погибель</li>
+    <li>story_result->крушение</li>
+    <li>story_result->падение</li>
+    <li>story_result->конец</li>
+    <li>story_result->уход</li>
+    <li>story_result->достижение</li>
+    <li>story_result->финал</li>
+    <li>story_result->блеф</li>
+    <li>story_result->уловка</li>
+    <li>story_result->обман</li>
+    <li>story_result->видимость</li>
+    <li>story_result->мошенничество</li>
+    <!--<li>subname_neo->[Community_neo]</li>
+    <li>subname_neo->[townname_wordgen_neo]</li>
+    <li>subname_fem->[Community_fem]</li>
+    <li>subname_fem->[townname_wordgenFem]</li>
+    <li>subname_mas->[Community_mas]</li>
+    <li>subname_mas->[townname_wordgen_mas]</li>
+    <li>townname_near_fem->[subname_fem]-на-[TerrainFeature_prep]</li>
+    <li>townname_near_fem->[subname_fem]-у-[TerrainFeature_gen]</li>    
+    <li>townname_near_mas->[subname_mas]-на-[TerrainFeature_prep]</li>
+    <li>townname_near_mas->[subname_mas]-у-[TerrainFeature_gen]</li>
+    <li>townname_near_neo->[subname_neo]-на-[TerrainFeature_prep]</li>
+    <li>townname_near_neo->[subname_neo]-у-[TerrainFeature_gen]</li>
+    <li>townname_near_neo->[townname_wordgen_plural]-на-[TerrainFeature_prep]</li>
+    <li>townname_wordgen_plural->[SylE][End_plural]</li>
+    <li>townname_wordgen_plural->[SylE][SylE][End_plural]</li>
+    <li>townname_wordgen_neo->[Community_neo] [of_outlanders]</li>
+    <li>townname_wordgen_neo->[SylE][End_neo]</li>
+    <li>townname_wordgen_neo->[SylE][SylE][End_neo]</li>
+    <li>townname_wordgenFem->[Community_fem] [of_outlanders]</li>
+    <li>townname_wordgenFem->[SylE][End_fem]</li>
+    <li>townname_wordgenFem->[SylE][SylE][End_fem]</li>
+    <li>townname_wordgenFem->[TerrainFeature_fem][End_fem]</li>
+    <li>townname_wordgen_mas->[Community_mas] [of_outlanders]</li>
+    <li>townname_wordgen_mas->[SylE][End_mas]</li>
+    <li>townname_wordgen_mas->[SylE][SylE][End_mas]</li>
+    <li>townname_wordgen_mas->[TerrainFeature_mas][End_mas]</li> -->
+    <!-- subname_neo и townname_near пока исключены из перевода в виду неподходимости для наименований в Odyssey(слишком длинное название было)
+        townname_wordgen скопирован в odyssey, так как для названия заражённого поселения не игра не подхватывала отсюда. Здесь оставлено на случай, если в будущем понадобиться генерировать названия городов по родам-->
+    <!--<li>narrative_name(p=12)->[WordTribal]</li> -->
+    <!-- <li>narrative_name(p=12)->[PlaceOutlander]</li> -->
+    <!-- <li>narrative_name->[Color][NaturalObject]</li> -->
+    <!-- <li>narrative_name->[AdjectiveNatural][BodyPart]</li> -->
+    <!-- <li>narrative_name->[Animal]</li> -->
+    <!-- <li>narrative_name->[Color]</li> -->
+    <!-- <li>narrative_name->[Color][Animal]</li> -->
+    <!-- <li>narrative_name->[AdjectiveNatural][Animal]</li> -->
+    <!-- <li>narrative_name->[Animal][BodyPart]</li> -->
+    <!-- <li>narrative_name->[Color] [Animal]</li> -->
+    <!-- <li>narrative_name->[AdjectiveNatural] [Animal]</li> -->
+    <!-- <li>narrative_name->[Animal] [BodyPart]</li> -->
+    <!-- <li>storyname(p=50)->[story_result] [subject]</li> -->
+    <!-- <li>storyname(p=2)->[BodyPart] [subject] </li> -->
+    <!-- <li>storyname->[Gore] [subject]</li> -->
+    <!-- <li>subject(p=5)->[NamePerson]</li> -->
+    <!-- <li>subject->[Animal]</li> -->
+    <!-- <li>subject->[WordTribal]</li> -->
+    <!-- <li>subject->[PlaceOutlander]</li> -->
+    <!-- закоменченные нужно проработать на предмет естественнности и необходимости -->
   </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
 </LanguageData>
