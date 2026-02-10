@@ -8,7 +8,7 @@
     <li>terrain_word->ghost town</li>
   -->
   <NamerLandmark_AbandonedColonyOutlander.rulePack.rulesStrings>
-    <li>r_name->[terrain_word_mas] [narrative_name]</li>
+    <li>r_name(p=0.2)->[terrain_word_mas] [narrative_name]</li>
     <li>terrain_word_mas(p=2)->город</li>
     <li>terrain_word_mas->аванпост</li>
     <li>terrain_word_mas->проклятый</li>
@@ -49,10 +49,10 @@
     <li>terrain_word->rock pits</li>
   -->
   <NamerLandmark_AncientQuarry.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->[terrain_word_mas] [narrative_name]</li>
-    <li>r_name(p=0.2)->[terrain_word_plural] [narrative_name]</li>
+    <li>r_name->[terrain_word_mas] [narrative_name]</li>
+    <li>r_name->[terrain_word_plural] [narrative_name]</li>
     <li>terrain_word_mas->карьер</li>
-    <li>terrain_word_plural->раскопки</li>
+    <li>terrain_word_plural(p=0.2)->раскопки</li>
     <li>terrain_word_plural->шахты</li>
     <li>terrain_word_plural->каменные ямы</li>
   </NamerLandmark_AncientQuarry.rulePack.rulesStrings>
@@ -102,14 +102,14 @@
     <li>terrain_word->chain</li>
   -->
   <NamerLandmark_Archipelago.rulePack.rulesStrings>
-    <li>r_name(p=0.5)->[terrain_word_mas] [narrative_name]</li>
-    <li>r_name(p=0.4)->[terrain_word_plural] [narrative_name]</li>
+    <li>r_name(p=0.2)->[terrain_word_mas] [narrative_name]</li>
+    <li>r_name(p=0.2)->[terrain_word_plural] [narrative_name]</li>
     <li>r_name(p=0.2)->[terrain_word_fem] [narrative_name]</li>
     <li>terrain_word_mas(p=4)->остров</li>
-    <li>terrain_word_mas(p=2)->архипелаг</li>
+    <li>terrain_word_mas(p=3)->архипелаг</li>
     <li>terrain_word_mas->риф</li>
-    <li>terrain_word_plural(p=4)->острова</li>
-    <li>terrain_word_plural(p=2)->островки</li>
+    <li>terrain_word_plural(p=3)->острова</li>
+    <li>terrain_word_plural->островки</li>
     <li>terrain_word_plural->скалы</li>
     <li>terrain_word_plural->островочки</li>
     <li>terrain_word_plural->пески</li>
@@ -147,8 +147,8 @@
     <li>terrain_word->cove</li>
   -->
   <NamerLandmark_Bay.rulePack.rulesStrings>
-    <li>r_name-> [terrain_word_mas] [narrative_name]</li>
-    <li>r_name-> [terrain_word_fem] [narrative_name]</li>
+    <li>r_name(p=0.2)-> [terrain_word_mas] [narrative_name]</li>
+    <li>r_name(p=0.2)-> [terrain_word_fem] [narrative_name]</li>
     <li>terrain_word_mas->залив</li>
     <li>terrain_word_fem(p=6)->бухта</li>
     <li>terrain_word_fem->излучина</li>
@@ -165,9 +165,9 @@
     <li>terrain_word->caverns</li>
   -->
   <NamerLandmark_Cavern.rulePack.rulesStrings>
-    <li>r_name->[terrain_word_plural] [NamePerson]</li>
-    <li>r_name->[terrain_word_mas] [NamePerson]</li>
-    <li>r_name(p=2)->[terrain_word_fem] [NamePerson]</li>
+    <li>r_name(p=0.2)->[terrain_word_plural] [NamePerson]</li>
+    <li>r_name(p=0.2)->[terrain_word_mas] [NamePerson]</li>
+    <li>r_name(p=0.2)->[terrain_word_fem] [NamePerson]</li>
     <li>terrain_word_fem(p=2)->пещера</li>
     <li>terrain_word_mas->туннель</li>
     <li>terrain_word_fem->система пещер</li>
@@ -193,7 +193,7 @@
     <li>terrain_word->chemplant</li>
   -->
   <NamerLandmark_ChemfuelRefinery.rulePack.rulesStrings>
-    <li>r_name->[terrain_word_mas] [NamePerson]</li>
+    <li>r_name(p=0.2)->[terrain_word_mas] [NamePerson]</li>
     <li>terrain_word_mas(p=2)->нефтезавод</li>
     <li>terrain_word_mas->завод</li>
     <li>terrain_word_mas->химзавод</li>
@@ -222,7 +222,7 @@
     <li>terrain_word->islet</li>
   -->
   <NamerLandmark_CoastalIsland.rulePack.rulesStrings>
-    <li>r_name->[terrain_word_mas] [narrative_name]</li>
+    <li>r_name(p=0.2)->[terrain_word_mas] [narrative_name]</li>
     <li>terrain_word_mas(p=4)->остров</li>
     <li>terrain_word_mas(p=2)->островок</li>
     <li>terrain_word_mas->островочек</li>
@@ -298,7 +298,7 @@
     <li>ruin_adjective_mas->замерзший</li>
     <li>ruin_adjective_fem->замерзшая</li>
     <li>ruin_adjective_plural->замерзшие</li>
-    <li>terrain_word_plural->замерзшие развалины</li>
+    <li>terrain_word_plural(p=2)->замерзшие развалины</li>
     <li>terrain_word_mas->ледяной город</li>
     <li>terrain_word_mas->город</li>
   </NamerLandmark_FrozenRuins.rulePack.rulesStrings>
@@ -315,8 +315,8 @@
     <li>terrain_word(p=0.5)->military base</li>
   -->
   <NamerLandmark_Garrison.rulePack.rulesStrings>
-    <li>r_name(p=0.3)->[terrain_word_mas] [narrative_name]</li>
-    <li>r_name(p=0.3)->[terrain_word_fem] [narrative_name]</li>
+    <li>r_name(p=0.4)->[terrain_word_mas] [narrative_name]</li>
+    <li>r_name(p=0.4)->[terrain_word_fem] [narrative_name]</li>
     <li>r_name(p=0.4)->[terrain_word_mas] [NamePerson]</li>
     <li>r_name(p=0.4)->[terrain_word_fem] [NamePerson]</li>
     <li>terrain_word_mas(p=2)->гарнизон</li>
@@ -335,10 +335,10 @@
     <li>terrain_word->port</li>
   -->
   <NamerLandmark_Harbor.rulePack.rulesStrings>
-    <li>r_name->[terrain_word_mas] [NamePerson]</li>
-    <li>r_name->[terrain_word_fem] [NamePerson]</li>
-    <li>r_name(p=2)->[terrain_word_mas] [narrative_name]</li>
-    <li>r_name(p=2)->[terrain_word_fem] [narrative_name]</li>
+    <li>r_name(p=0.2)->[terrain_word_mas] [NamePerson]</li>
+    <li>r_name(p=0.2)->[terrain_word_fem] [NamePerson]</li>
+    <li>r_name(p=0.2)->[terrain_word_mas] [narrative_name]</li>
+    <li>r_name(p=0.2)->[terrain_word_fem] [narrative_name]</li>
     <li>terrain_word_mas->порт</li>
     <li>terrain_word_fem->гавань</li>
   </NamerLandmark_Harbor.rulePack.rulesStrings>
@@ -362,8 +362,8 @@
     <li>terrain_word->springs</li>
   -->
   <NamerLandmark_HotSprings.rulePack.rulesStrings>
-    <li>r_name(p=2)->[terrain_word_mas] [narrative_name]</li>
-    <li>r_name(p=2)->[terrain_word_plural] [narrative_name]</li>
+    <li>r_name->[terrain_word_mas] [narrative_name]</li>
+    <li>r_name->[terrain_word_plural] [narrative_name]</li>
     <li>r_name(p=0.2)->[terrain_word_fem] [NamePerson]</li>
     <li>terrain_word_fem->ванна</li>
     <li>terrain_word_mas(p=2)->горячий источник</li>
@@ -433,7 +433,7 @@
     <li>terrain_word->loch</li>
   -->
   <NamerLandmark_Lake.rulePack.rulesStrings>
-    <li>r_name(p=4)->[terrain_word_neu] [narrative_name]</li>
+    <li>r_name(p=3)->[terrain_word_neu] [narrative_name]</li>
     <li>r_name->[terrain_word_fem] [narrative_name]</li>
     <li>terrain_word_neu(p=4)->озеро</li>
     <li>terrain_word_neu->водохранилище</li>
@@ -446,8 +446,8 @@
     <li>terrain_word->launch pads</li>
   -->
   <NamerLandmark_LaunchSite.rulePack.rulesStrings>
-    <li>r_name(p=2)->[terrain_word_fem] [NamePerson]</li>
-    <li>r_name->[terrain_word_plural] [NamePerson]</li>
+    <li>r_name(p=0.4)->[terrain_word_fem] [NamePerson]</li>
+    <li>r_name(p=0.4)->[terrain_word_plural] [NamePerson]</li>
     <li>terrain_word_fem(p=2)->стартовая площадка</li>
     <li>terrain_word_plural->площадки для запуска</li>
   </NamerLandmark_LaunchSite.rulePack.rulesStrings>
@@ -473,7 +473,7 @@
     <li>terrain_word->lava pool</li>
   -->
   <NamerLandmark_LavaLake.rulePack.rulesStrings>
-    <li>r_name(p=2)->[terrain_word_mas] [narrative_name]</li>
+    <li>r_name->[terrain_word_mas] [narrative_name]</li>
     <li>r_name->[terrain_word_neu] [narrative_name]</li>
     <li>terrain_word_mas(p=2)->кратер</li>
     <li>terrain_word_mas->горн</li>
@@ -487,7 +487,7 @@
     <li>terrain_word->refuge</li>
   -->
   <NamerLandmark_Oasis.rulePack.rulesStrings>
-    <li>r_name(p=4)->[terrain_word_mas] [narrative_name]</li>
+    <li>r_name->[terrain_word_mas] [narrative_name]</li>
     <li>r_name->[terrain_word_neu] [narrative_name]</li>
     <li>terrain_word_mas(p=4)->оазис</li>
     <li>terrain_word_mas->приют</li>
@@ -506,8 +506,8 @@
   <NamerLandmark_Peninsula.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[terrain_word_mas] [narrative_name]</li>
     <li>r_name(p=0.2)->[terrain_word_fem] [narrative_name]</li>
-    <li>terrain_word_mas(p=2)->полуостров</li>
-    <li>terrain_word_fem->оконечность</li>
+    <li>terrain_word_mas(p=5)->полуостров</li>
+    <li>terrain_word_fem(p=2)->место</li>
     <li>terrain_word_mas->мыс</li>
     <li>terrain_word_fem->возвышенность</li>
     <li>terrain_word_mas->рог</li>
@@ -538,7 +538,7 @@
     <li>terrain_word->waterhole</li>
   -->
   <NamerLandmark_Pond.rulePack.rulesStrings>
-    <li>r_name(p=2)->[terrain_word_mas] [narrative_name]</li>
+    <li>r_name->[terrain_word_mas] [narrative_name]</li>
     <li>r_name->[terrain_word_fem] [narrative_name]</li>
     <li>terrain_word_mas(p=4)->пруд</li>
     <li>terrain_word_fem->лужа</li>
@@ -648,10 +648,10 @@
     <li>terrain_word->poison lake</li>
   -->
   <NamerLandmark_ToxicLake.rulePack.rulesStrings>
-    <li>r_name(p=0.4)->Яд от [NamePerson]</li>
-    <li>r_name(p=0.4)->Порча от [NamePerson]</li>
-    <li>r_name(p=0.4)->Свалка [narrative_name]</li>
-    <li>r_name(p=0.5)->[terrain_word_neu] [narrative_name]</li>
+    <li>r_name(p=0.05)->Яд от [NamePerson]</li>
+    <li>r_name(p=0.05)->Порча от [NamePerson]</li>
+    <li>r_name(p=0.05)->Свалка [narrative_name]</li>
+    <li>r_name(p=0.05)->[terrain_word_neu] [narrative_name]</li>
     <li>terrain_word_neu->токсичное озеро</li>
     <li>terrain_word_neu->ядовитое озеро</li>
   </NamerLandmark_ToxicLake.rulePack.rulesStrings>
@@ -667,8 +667,8 @@
     <li>terrain_word->divide</li>
   -->
   <NamerLandmark_Valley.rulePack.rulesStrings>
-    <li>r_name(p=4)->[terrain_word_fem] [narrative_name]</li>
-    <li>r_name(p=3)->[terrain_word_mas] [narrative_name]</li>
+    <li>r_name->[terrain_word_fem] [narrative_name]</li>
+    <li>r_name->[terrain_word_mas] [narrative_name]</li>
     <li>terrain_word_fem(p=4)->долина</li>
     <li>terrain_word_mas(p=3)->овраг</li>
     <li>terrain_word_mas(p=3)->каньон</li>
@@ -686,7 +686,7 @@
     <li>terrain_word->storehouse</li>
   -->
   <NamerLandmark_Warehouse.rulePack.rulesStrings>
-    <li>r_name(p=2)->[terrain_word_mas] [NamePerson]</li>
+    <li>r_name->[terrain_word_mas] [NamePerson]</li>
     <li>r_name->[terrain_word_neu] [NamePerson]</li>
     <li>terrain_word_mas(p=2)->склад</li>
     <li>terrain_word_mas->амбар</li>
@@ -702,9 +702,9 @@
     <li>terrain_word->fen</li>
   -->
   <NamerLandmark_Wetland.rulePack.rulesStrings>
-    <li>r_name(p=2)->[terrain_word_plural] [narrative_name]</li>
-    <li>r_name->[terrain_word_fem] [narrative_name]</li>
-    <li>r_name->[terrain_word_neu] [narrative_name]</li>
+    <li>r_name(p=0.2)->[terrain_word_plural] [narrative_name]</li>
+    <li>r_name(p=0.2)->[terrain_word_fem] [narrative_name]</li>
+    <li>r_name(p=0.2)->[terrain_word_neu] [narrative_name]</li>
     <li>terrain_word_plural(p=2)->болота</li>
     <li>terrain_word_fem->топь</li>
     <li>terrain_word_fem->хлябь</li>
