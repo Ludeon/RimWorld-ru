@@ -7,7 +7,6 @@
   <DamageLower>урона</DamageLower>
   <!-- EN: seconds per attack -->
   <SecondsPerAttackLower>секунд на атаку</SecondsPerAttackLower>
-
   <!-- EN: Base value -->
   <StatsReport_BaseValue>Базовое значение</StatsReport_BaseValue>
   <!-- EN: Relevant traits -->
@@ -63,7 +62,8 @@
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>Коэффициент прочности {0}</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
-  <StatsReport_ReloadMarketValue>Стоимость перезарядки ({COUNT} ед. {lookup: {AMMO_label}; Case; 1})</StatsReport_ReloadMarketValue> <!-- Подставляется CompProperties_Reloadable.ammoDef. Сейчас во всех случаях везде это неисчисляемое существительное: сталь, химтопливо и прочее. Отсюда ед.ч. р.п. -->
+  <StatsReport_ReloadMarketValue>Стоимость перезарядки ({COUNT} ед. {lookup: {AMMO_label}; Case; 1})</StatsReport_ReloadMarketValue>
+  <!-- Подставляется CompProperties_Reloadable.ammoDef. Сейчас во всех случаях везде это неисчисляемое существительное: сталь, химтопливо и прочее. Отсюда ед.ч. р.п. -->
   <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
   <StatsReport_ReloadRemainingChargesMultipler>Множитель для оставшихся {lookup: {CHARGENOUN_plural}; Case; 1} ({0})</StatsReport_ReloadRemainingChargesMultipler>
   <!-- EN: Multiplier for mood {0} -->
@@ -143,8 +143,7 @@
   <!-- EN: Multiplier for malnutrition {0} -->
   <StatsReport_Malnutrition>Коэффициент за плохое питание {0}</StatsReport_Malnutrition>
   <!-- EN: Optimal room -->
-  <StatsReport_OptimalRoom>TODO</StatsReport_OptimalRoom>
-
+  <StatsReport_OptimalRoom>Оптимальное помещение</StatsReport_OptimalRoom>
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>Возможные модификаторы</StatReport_PossibleOffsets>
   <!-- EN: Room impressiveness -->
@@ -163,7 +162,6 @@
   <StatsReport_NearbyArtificialStructures>Постройки рядом</StatsReport_NearbyArtificialStructures>
   <!-- EN: Satisfies user's title requirements -->
   <StatsReport_SatisfiesTitle>Удовлетворяет титулу пользователя</StatsReport_SatisfiesTitle>
-
   <!-- EN: Age -->
   <Stat_Age_Label>Возраст</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
@@ -249,13 +247,13 @@
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>Рекреационный эффект, получаемый при приёме этого вещества. Более высокие значения указывают, что вещество в большей степени покрывает потребность в развлечениях.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The weight of this creature and their equipment. -->
-  <Stat_Mass_Desc>TODO</Stat_Mass_Desc>
+  <Stat_Mass_Desc>Вес существа и его снаряжения</Stat_Mass_Desc>
   <!-- EN: Base mass -->
-  <Stat_Mass_Base>TODO</Stat_Mass_Base>
+  <Stat_Mass_Base>Вес существа</Stat_Mass_Base>
   <!-- EN: Mass from equipment -->
-  <Stat_Mass_Equipment>TODO</Stat_Mass_Equipment>
+  <Stat_Mass_Equipment>Вес снаряжения</Stat_Mass_Equipment>
   <!-- EN: Total mass -->
-  <Stat_Mass_Total>TODO</Stat_Mass_Total>
+  <Stat_Mass_Total>Общий вес</Stat_Mass_Total>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>Размер тела этого существа в сравнении с средним размером тела человека.</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -271,11 +269,11 @@
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>Максимальная дальность выстрела.</Stat_Thing_Weapon_Range_Desc>
   <!-- EN: Range multiplier -->
-  <Stat_Thing_Weapon_Range_Multiplier>TODO</Stat_Thing_Weapon_Range_Multiplier>
+  <Stat_Thing_Weapon_Range_Multiplier>Множитель дальности</Stat_Thing_Weapon_Range_Multiplier>
   <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
-  <Stat_Thing_Weapon_Range_Clamped>TODO</Stat_Thing_Weapon_Range_Clamped>
+  <Stat_Thing_Weapon_Range_Clamped>Снижено с {ORIGINAL} до {CAP} из-за погодных условий.</Stat_Thing_Weapon_Range_Clamped>
   <!-- EN: Aiming time multiplier -->
-  <Stat_Thing_Weapon_WarmupTime_Multiplier>TODO</Stat_Thing_Weapon_WarmupTime_Multiplier>
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>Множитель времени прицеливания</Stat_Thing_Weapon_WarmupTime_Multiplier>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>Радиус случайного разброса выстрелов для этого оружия.\n\nВысокие значения этого показателя говорят о том, что снаряды будут чаще отклоняться случайным образом от выбранной цели.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
@@ -413,8 +411,7 @@
   <!-- EN: The ingredients needed to make this. -->
   <Stat_Thing_Ingredients>Ингредиенты, требуемые для приготовления.</Stat_Thing_Ingredients>
   <!-- EN: Working at this building will be slower if it's not in this room type. -->
-  <Stat_Building_OptimalRoom_Desc>TODO</Stat_Building_OptimalRoom_Desc>
-
+  <Stat_Building_OptimalRoom_Desc>Эффективность работы этой постройки снижается, если оно размещено в помещении несоответствующего типа.</Stat_Building_OptimalRoom_Desc>
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
   <Stat_Thing_Drug_Chemical_Desc>Действующее вещество.\n\nВ некоторых случаях одно и то же действующее вещество может содержаться в разных препаратах. Они будут по-разному удовлетворять одну и ту же зависимость.</Stat_Thing_Drug_Chemical_Desc>
@@ -452,12 +449,10 @@
   <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Как быстро возникает потребность в новой дозе вещества.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
   <Stat_Thing_Drug_AddictionCost_Desc>Ежедневная стоимость приёма вещества в режиме, необходимом для удовлетворения потребности без риска развития ломки.\n\nДанное значение рассчитывается из показателя снижения потребности в веществе от дозы, скорости возрастания этой потребности и рыночной стоимости препарата.\n\nУчтите, что могут существовать другие способы удовлетворения потребности в одном и том же веществе, но с другими расценками.</Stat_Thing_Drug_AddictionCost_Desc>
-
   <!-- EN: Style -->
   <Stat_Thing_StyleLabel>Стиль</Stat_Thing_StyleLabel>
   <!-- EN: An object's style determines its appearance. This has no gameplay effect. Styles often form the differing methods of construction used by people of different beliefs and cultures. -->
   <Stat_Thing_StyleDesc>Стиль объекта определяет его внешний вид, не оказывая влияния на игровые механики. Стили часто обусловлены особенностями технологий строительства, применяемых людьми различных верований и культур.</Stat_Thing_StyleDesc>
-
   <!-- EN: Gestation time -->
   <Stat_Animal_GestationTime>Срок беременности</Stat_Animal_GestationTime>
   <!-- EN: The time this species takes to gestate its offspring or eggs. -->
@@ -554,33 +549,27 @@
   <Stat_Animal_WoolValuePerYear>Стоимость шерсти в год</Stat_Animal_WoolValuePerYear>
   <!-- EN: The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value. -->
   <Stat_Animal_WoolValuePerYearDesc>Рыночная стоимость шерсти, производимой этим существом за год.\n\nЭто значение вычисляется из количества шерсти в год и её цены.</Stat_Animal_WoolValuePerYearDesc>
-
   <!-- EN: How much of the total possible study you have performed on this object. -->
   <Stat_Studiable_Desc>Насколько хорошо вы изучили этот объект.</Stat_Studiable_Desc>
-
   <!-- EN: Source -->
   <Stat_Source_Label>Источник</Stat_Source_Label>
   <!-- EN: This content came from the official expansion -->
   <Stat_Source_OfficialExpansionReport>Этот контент — из официального дополнения</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>Этот контент — из мода</Stat_Source_ModReport>
-
   <!-- EN: Contained book beauty -->
   <ContainedBookBeauty>Красота книг внутри</ContainedBookBeauty>
   <!-- EN: {0} hits -->
   <Stat_TrapDamageHitCount>{0_numCase ? удар : удара : ударов}</Stat_TrapDamageHitCount>
-
   <!-- EN: The amount of progress that has been made towards hacking this object. -->
   <Stat_Thing_HackingProgress>Прогресс взлома этого объекта.</Stat_Thing_HackingProgress>
-
   <!-- EN: Multiplier for {0} terrain -->
-  <StatsReport_TerrainSpeedMultiplier>TODO</StatsReport_TerrainSpeedMultiplier>
-
+  <StatsReport_TerrainSpeedMultiplier>Множитель скорости для местности {0}</StatsReport_TerrainSpeedMultiplier>
   <!-- EN: {0} trained -->
-  <StatsReport_Trainable>TODO</StatsReport_Trainable>
+  <StatsReport_Trainable>{0} {0_gender? обучен : обучена}</StatsReport_Trainable>
   <!-- EN: Available training -->
-  <StatsReport_AvailableTraining>TODO</StatsReport_AvailableTraining>
+  <StatsReport_AvailableTraining>Доступные навыки для обучения</StatsReport_AvailableTraining>
   <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
-  <StatsReport_AvailableTraining_Desc>TODO</StatsReport_AvailableTraining_Desc>
-  
+  <StatsReport_AvailableTraining_Desc>Навыки, которым можно обучить это существо. Перечень зависит от обучаемости, размера тела и вида существа.</StatsReport_AvailableTraining_Desc>
+
 </LanguageData>
