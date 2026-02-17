@@ -67,9 +67,6 @@
     <li>r_weapon_name(p=0.5)->[weapon_type] [badass_concept_mas_gen]</li>
     <li>r_weapon_name(p=0.5)->[weapon_type] [badass_concept_fem_gen]</li>
     <li>r_weapon_name(p=0.5)->[weapon_type] [badass_concept_neu_gen]</li>
-    <li>r_weapon_name(p=0.5)->[weapon_adjective_mas] [weapon_type_mas]</li>
-    <li>r_weapon_name(p=0.5)->[weapon_adjective_fem] [weapon_type_fem]</li>
-    <li>r_weapon_name(p=0.5)->[weapon_adjective_neu] [weapon_type_neu]</li>
     <li>r_weapon_name(p=0.5)->[weapon_type] [badass_concept_mas_gen]</li>
     <li>r_weapon_name(p=0.5)->[weapon_type] [badass_concept_fem_gen]</li>
     <li>r_weapon_name(p=0.5)->[weapon_type] [badass_concept_neu_gen]</li>
@@ -82,15 +79,13 @@
     <li>r_weapon_name(p=0.3)->[badass_concept_mas] [ANYPAWN_nameIndef_gen]</li>
     <li>r_weapon_name(p=0.3)->[badass_concept_fem] [ANYPAWN_nameIndef_gen]</li>
     <li>r_weapon_name(p=0.3)->[badass_concept_neu] [ANYPAWN_nameIndef_gen]</li>
-    <li>weapon_noun_mas(p=2)->[weapon_type_mas]</li>
-    <li>weapon_noun_fem(p=2)->[weapon_type_fem]</li>
-    <li>weapon_noun_neu(p=2)->[weapon_type_neu]</li>
     <li>weapon_noun_mas->[badass_noun_mas]</li>
     <li>weapon_noun_fem->[badass_noun_fem]</li>
     <li>weapon_noun_mas->[badass_concept_mas]</li>
     <li>weapon_noun_fem->[badass_concept_fem]</li>
     <li>weapon_noun_neu->[badass_concept_neu]</li>
-    <li>weapon_adjective(p=2)->[trait_adjective]weapon_adjective(p=2)_mas->[trait_adjective_mas]</li>
+    <li>weapon_adjective(p=2)->[trait_adjective]</li>
+    <li>weapon_adjective_mas(p=2)->[trait_adjective_mas]</li>
     <li>weapon_adjective_fem(p=2)->[trait_adjective_fem]</li>
     <li>weapon_adjective_neu(p=2)->[trait_adjective_neu]</li>
     <li>weapon_adjective_mas->[badass_adjective_mas]</li>
@@ -182,6 +177,36 @@
     <li>badass_concept_fem_gen->любви</li>
     <li>badass_concept_mas->смех</li>
     <li>badass_concept_mas_gen->смеха</li>
+    <li>trait_adjective_mas->безумный</li>
+    <li>trait_adjective_fem->безумная</li>
+    <li>trait_adjective_neu->безумное</li>
+    <li>trait_adjective_mas->неумолимый</li>
+    <li>trait_adjective_fem->неумолимая</li>
+    <li>trait_adjective_neu->неумолимое</li>
+    <li>trait_adjective_mas->стальной</li>
+    <li>trait_adjective_fem->стальная</li>
+    <li>trait_adjective_neu->стальное</li>
+    <li>trait_adjective_mas->неукротимый</li>
+    <li>trait_adjective_fem->неукротимая</li>
+    <li>trait_adjective_neu->неукротимое</li>
+    <li>trait_adjective_mas->волевой</li>
+    <li>trait_adjective_fem->волевая</li>
+    <li>trait_adjective_neu->волевое</li>
+    <li>trait_adjective_mas->смелый</li>
+    <li>trait_adjective_fem->смелая</li>
+    <li>trait_adjective_neu->смелое</li>
+    <li>trait_adjective_mas->добрый</li>
+    <li>trait_adjective_fem->добрая</li>
+    <li>trait_adjective_neu->доброе</li>
+    <li>trait_adjective_mas->честный</li>
+    <li>trait_adjective_fem->честная</li>
+    <li>trait_adjective_neu->честное</li>
+    <li>trait_adjective_mas->хитрый</li>
+    <li>trait_adjective_fem->хитрая</li>
+    <li>trait_adjective_neu->хитрое</li>
+    <li>trait_adjective_mas->упорный</li>
+    <li>trait_adjective_fem->упорная</li>
+    <li>trait_adjective_neu->упорное</li>
   </NamerUniqueWeapon.rulePack.rulesStrings>
   
 </LanguageData>
