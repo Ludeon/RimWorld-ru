@@ -61,29 +61,26 @@
     <li>badass_concept->laughter</li>
   -->
   <NamerUniqueWeapon.rulePack.rulesStrings>
-    <li>r_weapon_name(p=2)->[weapon_adjective_masc] [weapon_noun_masc]</li>
-    <li>r_weapon_name(p=2)->[weapon_adjective_fem] [weapon_noun_fem]</li>
-    <li>r_weapon_name(p=2)->[weapon_adjective_neu] [weapon_noun_neu]</li>
+    <li>r_weapon_name(p=2)->[badass_adjective_masc] [weapon_noun_masc]</li>
+    <li>r_weapon_name(p=2)->[badass_adjective_fem] [weapon_noun_fem]</li>
+    <li>r_weapon_name(p=2)->[badass_adjective_neu] [weapon_noun_neu]</li>
     <li>r_weapon_name(p=2)->[weapon_type] [badass_concept_gen]</li>
-    <li>r_weapon_name(p=0.3)->[weapon_noun_masc] [ANYPAWN_nameIndef_gen]</li>
-    <li>r_weapon_name(p=0.3)->[weapon_noun_fem] [ANYPAWN_nameIndef_gen]</li>
-    <li>r_weapon_name(p=0.3)->[weapon_noun_neu] [ANYPAWN_nameIndef_gen]</li>
-    <li>r_weapon_name(p=0.3)->[weapon_adjective] [weapon_type] [ANYPAWN_nameIndef_gen]</li>
-    <li>r_weapon_name(p=0.3)->[weapon_adjective_masc] [weapon_noun_masc] [ANYPAWN_nameIndef_gen]</li>
-    <li>r_weapon_name(p=0.3)->[weapon_adjective_fem] [weapon_noun_fem] [ANYPAWN_nameIndef_gen]</li>
-    <li>r_weapon_name(p=0.3)->[weapon_adjective_neu] [weapon_noun_neu] [ANYPAWN_nameIndef_gen]</li>
-    <li>r_weapon_name(p=0.3)->[badass_concept_masc] [ANYPAWN_nameIndef_gen]</li>
-    <li>r_weapon_name(p=0.3)->[badass_concept_fem] [ANYPAWN_nameIndef_gen]</li>
-    <li>r_weapon_name(p=0.3)->[badass_concept_neu] [ANYPAWN_nameIndef_gen]</li>
+    <li>r_weapon_name(p=0.3)->[weapon_noun_masc] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[weapon_noun_fem] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[weapon_noun_neu] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[weapon_adjective] [weapon_type] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[badass_adjective_masc] [weapon_noun_masc] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[badass_adjective_fem] [weapon_noun_fem] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[badass_adjective_neu] [weapon_noun_neu] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[badass_concept_masc] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[badass_concept_fem] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[badass_concept_neu] [ANYPAWN_nameIndef]</li>
     <li>weapon_noun_masc->[badass_noun_masc]</li>
     <li>weapon_noun_fem->[badass_noun_fem]</li>
     <li>weapon_noun_masc->[badass_concept_masc]</li>
     <li>weapon_noun_fem->[badass_concept_fem]</li>
     <li>weapon_noun_neu->[badass_concept_neu]</li>
     <li>weapon_adjective(p=2)->[trait_adjective]</li>
-    <li>weapon_adjective_masc->[badass_adjective_masc]</li>
-    <li>weapon_adjective_fem->[badass_adjective_fem]</li>
-    <li>weapon_adjective_neu->[badass_adjective_neu]</li>
     <li>badass_adjective_masc->мрачный</li>
     <li>badass_adjective_fem->мрачная</li>
     <li>badass_adjective_neu->мрачное</li>

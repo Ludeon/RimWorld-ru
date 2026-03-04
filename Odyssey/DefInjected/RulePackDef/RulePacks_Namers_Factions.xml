@@ -38,27 +38,23 @@
     <li>spaceCollectiveNoun->Reapers</li>
   -->
   <NamerFactionSalvagers.rulePack.rulesStrings>
-    <li>r_name->[spaceAdj_plural] спасатели</li>
+    <li>r_name->[spaceAdj_plural] утилизаторы</li>
     <li>r_name->[spaceAdj_plural] падальщики</li>
     <li>r_name->[spaceAdj_plural] [AnimalBadass_plural]</li>
-    <li>r_name->[spaceAdj_plural] [AnimalBadass_plural]</li>
-    <li>r_name->[spaceAdj_plural] [Enemy_plural]</li>
-    <li>r_name->[Enemy_plural] c [spaceNoun_gen]</li>
+    <li>r_name->[spaceAdj_plural] [Enemies]</li>
+    <li>r_name->[Enemies] c [spaceNoun_gen]</li>
     <li>r_name->[group] с [spaceNoun_gen]</li>
-    <li>r_name->[spaceAdj_plural] [groupname_plural]</li>
-    <li>r_name->[spaceAdj_masc] [groupname_masc]</li>
-    <li>r_name->[spaceAdj_fem] [groupname_fem]</li>
+    <li>r_name->[spaceAdj_neu] [Group_neutral]</li>
+    <li>r_name->[spaceAdj_masc] [Group_masc]</li>
+    <li>r_name->[spaceAdj_fem] [Group_fem]</li>
     <li>r_name->[ColorBadass_plural] [spaceNoun_plural]</li>
     <li>r_name->[ColorBadass_masc] [spaceNoun_masc]</li>
     <li>r_name->[ColorBadass_fem] [spaceNoun_fem]</li>
     <li>r_name->[AdjectiveBadass_plural] [spaceNoun_plural]</li>
-    <li>r_name->[AdjectiveBadass_masc] [spaceNoun_masc]</li>
+    <li>r_name->[AdjectiveBadass] [spaceNoun_masc]</li>
     <li>r_name->[AdjectiveBadass_fem] [spaceNoun_fem]</li>
-    <li>r_name->[ColorBadass_plural] [spaceNoun_plural]</li>
-    <li>r_name->[ColorBadass_masc] [spaceNoun_masc]</li>
-    <li>r_name->[ColorBadass_fem] [spaceNoun_fem]</li>
     <li>r_name->[AdjectiveBadass_plural] [spaceCollectiveNoun_plural]</li>
-    <li>r_name->[AdjectiveBadass_masc] [spaceCollectiveNoun_masc]</li>
+    <li>r_name->[AdjectiveBadass] [spaceCollectiveNoun_masc]</li>
     <li>r_name->[AdjectiveBadass_fem] [spaceCollectiveNoun_fem]</li>
     <li>r_name->[spaceNoun_fem] [ConceptBadass]</li>
     <li>r_name->[spaceNoun_masc] [ConceptBadass]</li>
@@ -75,20 +71,25 @@
     <li>spaceAdj_plural->Орбитальные</li>
     <li>spaceAdj_masc->Орбитальный</li>
     <li>spaceAdj_fem->Орбитальная</li>
+    <li>spaceAdj_neu->Орбитальное</li>
     <li>spaceAdj_plural->Космические</li>
     <li>spaceAdj_masc->Космический</li>
     <li>spaceAdj_fem->Космическая</li>
+    <li>spaceAdj_neu->Космическое</li>
     <li>spaceAdj_plural->Астральные</li>
     <li>spaceAdj_masc->Астральный</li>
     <li>spaceAdj_fem->Астральная</li>
+    <li>spaceAdj_neu->Астральное</li>
     <li>spaceAdj_plural->Солнечные</li>
     <li>spaceAdj_masc->Солнечный</li>
     <li>spaceAdj_fem->Солнечная</li>
+    <li>spaceAdj_neu->Солнечное</li>
     <li>spaceAdj_plural->Небесные</li>
     <li>spaceAdj_masc->Небесный</li>
     <li>spaceAdj_fem->Небесная</li>
+    <li>spaceAdj_neu->Небесное</li>
     <li>spaceNoun_fem->Звезда</li>
-    <li>spaceNoun_plural->Звезды</li>
+    <li>spaceNoun_plural->Звёзды</li>
     <li>spaceNoun_gen->Звезды</li>
     <li>spaceNoun_fem->Луна</li>
     <li>spaceNoun_plural->Луны</li>
@@ -105,7 +106,6 @@
     <li>SpaceCollectiveNoun_fem->Армада</li>
     <li>SpaceCollectiveNoun_masc->Флот</li>
     <li>SpaceCollectiveNoun_fem->Флотилия</li>
-    <li>SpaceCollectiveNoun_masc->Флот</li>
     <li>SpaceCollectiveNoun_plural->Корсары</li>
     <li>SpaceCollectiveNoun_plural->Пираты</li>
     <li>SpaceCollectiveNoun_plural->Мародеры</li>
@@ -157,8 +157,8 @@
     <li>tradeAdj_fem->вселенская</li>
     <li>tradeAdj_masc->космический</li>
     <li>tradeAdj_fem->космическая</li>
-    <li>tradeAdj_masc->звезднорождённый</li>
-    <li>tradeAdj_fem->звезднорождённая</li>
+    <li>tradeAdj_masc->звёзднорождённый</li>
+    <li>tradeAdj_fem->звёзднорождённая</li>
     <li>tradeAdj_masc->безднорождённый</li>
     <li>tradeAdj_fem->безднорождённая</li>
     <li>tradeAdj_masc->внешний</li>
