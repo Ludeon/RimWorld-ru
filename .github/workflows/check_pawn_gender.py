@@ -4,7 +4,7 @@ import re
 import sys
 from dataclasses import dataclass
 
-from helpers import DLC_DIR_NAMES, get_xml_file_paths, get_all_file_paths, print_red, print_green, print_yellow
+from helpers import DLC_DIR_NAMES, get_xml_file_paths, print_red, print_green, print_yellow
 
 
 pattern = re.compile(r"{PAWN_gender\s*\?\s*(.[^:]*)\s*:\s*\1}")

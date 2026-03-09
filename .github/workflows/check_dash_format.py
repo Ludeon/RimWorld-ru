@@ -1,5 +1,4 @@
-﻿import os
-import re
+﻿import re
 import sys
 from dataclasses import dataclass
 
