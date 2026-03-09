@@ -132,7 +132,7 @@ def dlc_case_path(dlc_name):
     return os.path.join(dlc_name, 'WordInfo', 'Case.txt')
 
 def dlc_definjected_path(dlc_name):
-    return os.path.join(dlc_name, 'Definjected')
+    return os.path.join(dlc_name, 'DefInjected')
 
 def main():
     for dlc_name in DLC_DIR_NAMES[:1]:
