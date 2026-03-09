@@ -1,4 +1,6 @@
-﻿from helpers import print_red, get_xml_file_paths, print_yellow, DLC_DIR_NAMES
+﻿import sys
+
+from helpers import print_red, get_xml_file_paths, print_yellow, DLC_DIR_NAMES
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 import os
@@ -76,7 +78,9 @@ def extract_xml_labels(definjected_folder, group_dir) -> set[str]:
     return set(labels)
 
 
-def detect_entites_errors(group: EntitiesGroup, xml_groups: list[EntitiesGroup]):
+def detect_entites_errors(group: EntitiesGroup, xml_groups: list[EntitiesGroup]) -> bool:
+    has_error = False
+
     group_name_current = ""
     
     for entity in group.entities:
@@ -91,6 +95,8 @@ def detect_entites_errors(group: EntitiesGroup, xml_groups: list[EntitiesGroup])
                 break
         if matched:
             continue
+
+        has_error = True
         
         # print group name once
         if group_name_current == group.name:
@@ -110,6 +116,7 @@ def detect_entites_errors(group: EntitiesGroup, xml_groups: list[EntitiesGroup])
         #     if entity not in group.entities:
         #         print_yellow(f"Сущность {entity} есть в {group.name}, "
         #                      f"но её нет файле Case.txt")
+    return has_error
 
 
 def parse_definjected_files(definjected_folder) -> list[EntitiesGroup]:
@@ -119,14 +126,16 @@ def parse_definjected_files(definjected_folder) -> list[EntitiesGroup]:
         result.append(EntitiesGroup(name=group_dir, entities=labels))
     return result
     
-def process_case_file(dlc_name):
+def check_case_file(dlc_name) -> bool:
     print(f"DLC {dlc_name}")
     print(dlc_case_path(dlc_name) + "  vs  " + dlc_definjected_path(dlc_name))
     case_file_groups = parse_case_file(dlc_case_path(dlc_name))
     xml_files_groups = parse_definjected_files(dlc_definjected_path(dlc_name))
-
+    
+    has_error = False
     for group in case_file_groups:
-        detect_entites_errors(group, xml_files_groups)
+        has_error |= detect_entites_errors(group, xml_files_groups)
+    return has_error
 
 def dlc_case_path(dlc_name):
     return os.path.join(dlc_name, 'WordInfo', 'Case.txt')
@@ -135,8 +144,12 @@ def dlc_definjected_path(dlc_name):
     return os.path.join(dlc_name, 'DefInjected')
 
 def main():
+    has_error = False
     for dlc_name in DLC_DIR_NAMES[:1]:
-        process_case_file(dlc_name)
+        has_error |= check_case_file(dlc_name)
+    
+    if has_error:
+        sys.exit(1)
 
 
 if __name__ == '__main__':
