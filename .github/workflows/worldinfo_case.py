@@ -121,6 +121,7 @@ def parse_definjected_files(definjected_folder) -> list[EntitiesGroup]:
     
 def process_case_file(dlc_name):
     print(f"DLC {dlc_name}")
+    print(dlc_case_path(dlc_name) + "  vs  " + dlc_definjected_path(dlc_name))
     case_file_groups = parse_case_file(dlc_case_path(dlc_name))
     xml_files_groups = parse_definjected_files(dlc_definjected_path(dlc_name))
 
@@ -128,13 +129,13 @@ def process_case_file(dlc_name):
         detect_entites_errors(group, xml_files_groups)
 
 def dlc_case_path(dlc_name):
-    return os.path.abspath(os.path.join(dlc_name, 'WordInfo', 'Case.txt'))
+    return os.path.join(dlc_name, 'WordInfo', 'Case.txt')
 
 def dlc_definjected_path(dlc_name):
-    return os.path.abspath(os.path.join(dlc_name, 'Definjected'))
+    return os.path.join(dlc_name, 'Definjected')
 
 def main():
-    for dlc_name in DLC_DIR_NAMES:
+    for dlc_name in DLC_DIR_NAMES[:1]:
         process_case_file(dlc_name)
 
 
