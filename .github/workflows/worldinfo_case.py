@@ -1,4 +1,4 @@
-﻿from helpers import print_red, get_xml_file_paths, print_yellow
+﻿from helpers import print_red, get_xml_file_paths, print_yellow, DLC_DIR_NAMES
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 import os
@@ -101,7 +101,7 @@ def detect_entites_errors(group: EntitiesGroup, xml_groups: list[EntitiesGroup])
         
         if xml_group_for_entity:
             print_yellow(group_name + 
-                         f"`{entity}` есть в файле Case.txt в группе {group.name}, но находится в папке {xml_group_for_entity.name}")
+                         f"`{entity}` описан в файле Case.txt в группе {group.name}, но находится в папке {xml_group_for_entity.name}")
         else:
             print_red(group_name +
                          f"`{entity}` есть в файле Case.txt, но её нет ни в одном XML файле")
@@ -134,8 +134,8 @@ def dlc_definjected_path(dlc_name):
     return os.path.join(dlc_name, 'Definjected')
 
 def main():
-    process_case_file("Core")
-    # process_case_file("Royalty")
+    for dlc_name in DLC_DIR_NAMES:
+        process_case_file(dlc_name)
 
 
 if __name__ == '__main__':
