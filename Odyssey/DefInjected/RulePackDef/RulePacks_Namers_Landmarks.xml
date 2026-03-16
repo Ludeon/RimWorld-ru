@@ -177,10 +177,11 @@
     <li>terrain_word->fracture</li>
   -->
   <NamerLandmark_Chasm.rulePack.rulesStrings>
-    <li>r_name->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=2)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name->[terrain_word_masc] [suffix_proper]</li>
     <li>terrain_word_fem->пропасть</li>
     <li>terrain_word_fem->воронка</li>
-    <li>terrain_word_fem->провал</li>
+    <li>terrain_word_masc->провал</li>
   </NamerLandmark_Chasm.rulePack.rulesStrings>
   
   <!-- EN:
@@ -287,21 +288,11 @@
     <li>terrain_word->city</li>
   -->
   <NamerLandmark_FrozenRuins.rulePack.rulesStrings>
-    <li>r_name(p=0.15)->[ruin_adjective_plural] [suffix_proper]</li>
-    <li>r_name(p=0.15)->[ruin_adjective_masc] [suffix_proper]</li>
-    <li>r_name(p=0.15)->[ruin_adjective_fem] [suffix_proper]</li>
     <li>r_name(p=2)->[terrain_word_plural] [suffix_proper]</li>
-    <li>r_name->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name->[terrain_word_neu] [suffix_proper]</li>
-    <li>ruin_adjective_masc->замёрзший</li>
-    <li>ruin_adjective_masc->разрушенный</li>
-    <li>ruin_adjective_fem->замёрзшая</li>
-    <li>ruin_adjective_fem->разрушенная</li>
-    <li>ruin_adjective_plural->замёрзшие</li>
-    <li>ruin_adjective_plural->разрушенные</li>
+    <li>r_name(p=2)->[terrain_word_masc] [suffix_proper]</li>
     <li>terrain_word_plural->замёрзшие развалины</li>
     <li>terrain_word_masc->ледяной город</li>
-    <li>terrain_word_neu->разрушенное поселение</li>
+    <li>terrain_word_masc->город</li>
   </NamerLandmark_FrozenRuins.rulePack.rulesStrings>
   
   <!-- EN:
@@ -349,7 +340,6 @@
   <NamerLandmark_Hollow.rulePack.rulesStrings>
     <li>r_name(p=0.2)->укрытие [NamePerson]</li>
     <li>r_name->[terrain_word_fem] [suffix_proper]</li>
-    <li>terrain_word_neu->логово</li>
     <li>terrain_word_fem->впадина</li>
   </NamerLandmark_Hollow.rulePack.rulesStrings>
   
@@ -526,7 +516,7 @@
     <li>terrain_word_masc->водопой</li>
   </NamerLandmark_Pond.rulePack.rulesStrings>
   
-  <!-- EN: 200
+  <!-- EN:
     <li>r_name(p=0.4)->[ruin_adjective] [narrative_name]</li>
     <li>r_name(p=0.2)->[NamePerson]'s [story_result]</li>
     <li>ruin_adjective->ruined</li>
@@ -549,7 +539,7 @@
     <li>terrain_word_neu->поселение</li>
   </NamerLandmark_Ruins.rulePack.rulesStrings>
   
-  <!-- EN:200
+  <!-- EN:
     <li>r_name(p=0.3)->[NamePerson]'s [terrain_word]</li>
     <li>r_name(p=0.2)->[NamePerson]'s [mistake]</li>
     <li>r_name(p=0.2)->The [large] [terrain_word]</li>
@@ -608,7 +598,7 @@
     <li>dread_fem->тёмная</li>
   </NamerLandmark_TerraformingScar.rulePack.rulesStrings>
   
-  <!-- EN:200
+  <!-- EN:
     <li>r_name(p=0.05)->[NamePerson]'s poison</li>
     <li>r_name(p=0.05)->[NamePerson]'s blight</li>
     <li>r_name(p=0.05)->[NamePerson]'s dumping grounds</li>
