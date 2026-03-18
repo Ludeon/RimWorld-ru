@@ -308,14 +308,15 @@
   -->
   <NamerLandmark_Garrison.rulePack.rulesStrings>
     <li>r_name(p=4)->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name(p=3)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=4)->[terrain_word_fem] [suffix_proper]</li>
     <li>r_name(p=1.6)->[terrain_word_masc] [NamePerson]</li>
-    <li>r_name(p=1.2)->[terrain_word_fem] [NamePerson]</li>
+    <li>r_name(p=1.6)->[terrain_word_fem] [NamePerson]</li>
     <li>terrain_word_masc(p=2)->гарнизон</li>
     <li>terrain_word_masc->форт</li>
     <li>terrain_word_masc->арсенал</li>
     <li>terrain_word_fem->станция</li>
     <li>terrain_word_fem->база</li>
+    <li>terrain_word_fem->крепость</li>
     <li>terrain_word_fem(p=0.5)->цитадель</li>
     <li>terrain_word_fem(p=0.5)->военная база</li>
   </NamerLandmark_Garrison.rulePack.rulesStrings>
@@ -402,11 +403,9 @@
     <li>terrain_word->loch</li>
   -->
   <NamerLandmark_Lake.rulePack.rulesStrings>
-    <li>r_name(p=5)->[terrain_word_neu] [suffix_proper]</li>
-    <li>r_name->[terrain_word_masc] [suffix_proper]</li>
-    <li>terrain_word_neu(p=4)->озеро</li>
+    <li>r_name->[terrain_word_neu] [suffix_proper]</li>
+    <li>terrain_word_neu(p=5)->озеро</li>
     <li>terrain_word_neu->водохранилище</li>
-    <li>terrain_word_masc->водоём</li>
   </NamerLandmark_Lake.rulePack.rulesStrings>
   
   <!-- EN:
@@ -513,7 +512,7 @@
     <li>terrain_word_masc(p=4)->пруд</li>
     <li>terrain_word_fem->запруда</li>
     <li>terrain_word_masc->бассейн</li>
-    <li>terrain_word_masc->водопой</li>
+    <li>terrain_word_masc->водоём</li>
   </NamerLandmark_Pond.rulePack.rulesStrings>
   
   <!-- EN:
