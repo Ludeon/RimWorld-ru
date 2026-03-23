@@ -38,13 +38,26 @@
     <li>terrain_word->barrens</li>
   -->
   <NamerAridShrubland.rulePack.rulesStrings>
-    <li>r_name->[wasteland_name]</li>
-    <li>wasteland_neutral->Поле</li>
+    <li>r_name->[wasteland_masc] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_masc] [wasteland_masc]</li>
+    <li>r_name->[wasteland_fem] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] [wasteland_fem]</li>
+    <li>r_name->[wasteland_neutral] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_neutral] [wasteland_neutral]</li>
+    <li>r_name->[wasteland_plural] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_plural] [wasteland_plural]</li>
+    <li>wasteland_fem->Пустошь</li>
+    <li>wasteland_fem->Глушь</li>
+    <li>wasteland_fem(p=2)->равнина</li>
     <li>wasteland_fem(p=4)->степь</li>
     <li>wasteland_fem->Целина</li>
     <li>wasteland_fem->Пампа</li>
     <li>wasteland_fem->Прерия</li>
     <li>wasteland_fem->саванна</li>
+    <li>wasteland_masc->Простор</li>
+    <li>wasteland_neutral->плато</li>
+    <li>wasteland_neutral->Поле</li>
+    <li>wasteland_plural->Земли</li>
   </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -77,8 +90,18 @@
     <li>terrain_word->thicket</li>
   -->
   <NamerBorealForest.rulePack.rulesStrings>
-    <li>r_name->[forest_name]</li>
+    <li>r_name->[forest_masc] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_masc] [forest_masc]</li>
+    <li>r_name->[forest_fem] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] [forest_fem]</li>
+    <li>r_name->[forest_plural] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_plural] [forest_plural]</li>
+    <li>forest_masc(p=3)->лес</li>
+    <li>forest_fem->чаща</li>
+    <li>forest_fem->роща</li>
     <li>forest_fem(p=6)->тайга</li>
+    <li>forest_plural->дебри</li>
+    <li>forest_plural->леса</li>
     <li>forest_plural->Дебри</li>
   </NamerBorealForest.rulePack.rulesStrings>
   
@@ -107,7 +130,23 @@
     <li>terrain_word->barrens</li>
   -->
   <NamerDesert.rulePack.rulesStrings>
-    <li>r_name->[wasteland_name]</li>
+    <li>r_name->[wasteland_masc] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_masc] [wasteland_masc]</li>
+    <li>r_name->[wasteland_fem] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] [wasteland_fem]</li>
+    <li>r_name->[wasteland_neutral] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_neutral] [wasteland_neutral]</li>
+    <li>r_name->[wasteland_plural] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_plural] [wasteland_plural]</li>
+    <li>wasteland_fem->Пустошь</li>
+    <li>wasteland_fem->Глушь</li>
+    <li>wasteland_fem(p=2)->равнина</li>
+    <li>wasteland_fem(p=6)->пустыня</li>
+    <li>wasteland_masc->Простор</li>
+    <li>wasteland_masc->солончак</li>
+    <li>wasteland_neutral->плато</li>
+    <li>wasteland_plural->Земли</li>
+    <li>wasteland_plural(p=4)->пески</li>
     <li>prefix_proper_masc->плоский</li>
     <li>prefix_proper_masc->сухой</li>
     <li>prefix_proper_masc->выжженный</li>
@@ -140,9 +179,6 @@
     <li>prefix_proper_plural->горячие</li>
     <li>prefix_proper_plural->песчаные</li>
     <li>prefix_proper_plural->скалистые</li>
-    <li>wasteland_masc->солончак</li>
-    <li>wasteland_fem(p=6)->пустыня</li>
-    <li>wasteland_plural(p=4)->пески</li>
   </NamerDesert.rulePack.rulesStrings>
   
   <!-- EN:
@@ -152,9 +188,19 @@
     <li>terrain_word->thicket</li>
   -->
   <NamerForest.rulePack.rulesStrings>
-    <li>r_name->[forest_name]</li>
-    <li>forest_fem->Пуща</li>
+    <li>r_name->[forest_masc] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_masc] [forest_masc]</li>
+    <li>r_name->[forest_fem] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] [forest_fem]</li>
+    <li>r_name->[forest_plural] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_plural] [forest_plural]</li>
+    <li>forest_masc(p=3)->лес</li>
     <li>forest_masc->Бор</li>
+    <li>forest_fem->чаща</li>
+    <li>forest_fem->роща</li>
+    <li>forest_fem->Пуща</li>
+    <li>forest_plural->дебри</li>
+    <li>forest_plural->леса</li>
   </NamerForest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -365,7 +411,19 @@
     <li>terrain_word->tangle</li>
   -->
   <NamerTropicalRainforest.rulePack.rulesStrings>
-    <li>r_name->[forest_name]</li>
+    <li>r_name->[forest_masc] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_masc] [forest_masc]</li>
+    <li>r_name->[forest_fem] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] [forest_fem]</li>
+    <li>r_name->[forest_plural] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_plural] [forest_plural]</li>
+    <li>forest_masc(p=3)->лес</li>
+    <li>forest_fem->чаща</li>
+    <li>forest_fem->роща</li>
+    <li>forest_fem(p=3)->Cельва</li>
+    <li>forest_plural->дебри</li>
+    <li>forest_plural->леса</li>
+    <li>forest_plural(p=6)->джунгли</li>
     <li>prefix_proper_masc->влажный</li>
     <li>prefix_proper_masc->жаркий</li>
     <li>prefix_proper_masc->душный</li>
@@ -382,8 +440,6 @@
     <li>prefix_proper_plural->жаркие</li>
     <li>prefix_proper_plural->душные</li>
     <li>prefix_proper_plural->заросшие</li>
-    <li>forest_plural(p=6)->джунгли</li>
-    <li>forest_fem(p=3)->Cельва</li>
   </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -401,9 +457,22 @@
     <li>terrain_word->flats</li>
   -->
   <NamerTundra.rulePack.rulesStrings>
-    <li>r_name->[wasteland_name]</li>
+    <li>r_name->[wasteland_masc] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_masc] [wasteland_masc]</li>
+    <li>r_name->[wasteland_fem] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] [wasteland_fem]</li>
+    <li>r_name->[wasteland_neutral] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_neutral] [wasteland_neutral]</li>
+    <li>r_name->[wasteland_plural] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_plural] [wasteland_plural]</li>
+    <li>wasteland_fem->Пустошь</li>
+    <li>wasteland_fem->Глушь</li>
+    <li>wasteland_fem(p=2)->равнина</li>
     <li>wasteland_fem(p=8)->тундра</li>
     <li>wasteland_fem->Целина</li>
+    <li>wasteland_masc->Простор</li>
+    <li>wasteland_neutral->плато</li>
+    <li>wasteland_plural->Земли</li>
   </NamerTundra.rulePack.rulesStrings>
   
   <!-- EN:
@@ -468,31 +537,6 @@
     <li>story_result->fraud</li>
   -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
-    <li>forest_name->[forest_masc] [suffix_proper]</li>
-    <li>forest_name->[prefix_proper_masc] [forest_masc]</li>
-    <li>forest_name->[forest_fem] [suffix_proper]</li>
-    <li>forest_name->[prefix_proper_fem] [forest_fem]</li>
-    <li>forest_name->[forest_plural] [suffix_proper]</li>
-    <li>forest_name->[prefix_proper_plural] [forest_plural]</li>
-    <li>forest_masc(p=3)->лес</li>
-    <li>forest_fem->чаща</li>
-    <li>forest_fem->роща</li>
-    <li>forest_plural->дебри</li>
-    <li>forest_plural->леса</li>
-    <li>wasteland_name->[wasteland_masc] [suffix_proper]</li>
-    <li>wasteland_name->[prefix_proper_masc] [wasteland_masc]</li>
-    <li>wasteland_name->[wasteland_fem] [suffix_proper]</li>
-    <li>wasteland_name->[prefix_proper_fem] [wasteland_fem]</li>
-    <li>wasteland_name->[wasteland_neutral] [suffix_proper]</li>
-    <li>wasteland_name->[prefix_proper_neutral] [wasteland_neutral]</li>
-    <li>wasteland_name->[wasteland_plural] [suffix_proper]</li>
-    <li>wasteland_name->[prefix_proper_plural] [wasteland_plural]</li>
-    <li>wasteland_fem->Пустошь</li>
-    <li>wasteland_fem->Глушь</li>
-    <li>wasteland_fem(p=2)->равнина</li>
-    <li>wasteland_masc->Простор</li>
-    <li>wasteland_neutral->плато</li>
-    <li>wasteland_plural->Земли</li>
     <li>suffix_proper->[ConceptAny]</li>
     <li>suffix_proper(p=3)->[WordTribal]</li>
     <li>suffix_proper(p=3)->[PlaceOutlander]</li>
