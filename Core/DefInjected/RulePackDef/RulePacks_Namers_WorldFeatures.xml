@@ -14,16 +14,18 @@
     <li>terrain_word->chain</li>
   -->
   <NamerArchipelago.rulePack.rulesStrings>
-    <li>r_name->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name->[prefix_proper_masc] [terrain_word_masc]</li>
-    <li>r_name->[terrain_word_plural] [suffix_proper]</li>
-    <li>r_name->[prefix_proper_plural] [terrain_word_plural]</li>
+    <li>r_name(p=6)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=6)->[prefix_proper_masc] [terrain_word_masc]</li>
+    <li>r_name->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>r_name(p=6)->[terrain_word_plural] [suffix_proper]</li>
+    <li>r_name(p=6)->[prefix_proper_plural] [terrain_word_plural]</li>
     <li>terrain_word_masc(p=4)->архипелаг</li>
-    <li>terrain_word_masc->Риф</li>
-    <li>terrain_word_masc->Атолл</li>
+    <li>terrain_word_masc->риф</li>
+    <li>terrain_word_masc->атолл</li>
+    <li>terrain_word_fem->цепь</li>
     <li>terrain_word_plural(p=4)->о-ва</li>
-    <li>terrain_word_plural(p=1.5)->Земли</li>
-    <li>terrain_word_plural->Скалы</li>
+    <li>terrain_word_plural->скалы</li>
     <li>terrain_word_plural->рифы</li>
   </NamerArchipelago.rulePack.rulesStrings>
   
@@ -69,15 +71,14 @@
     <li>terrain_word->cove</li>
   -->
   <NamerBay.rulePack.rulesStrings>
-    <li>r_name->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name->[prefix_proper_masc] [terrain_word_masc]</li>
+    <li>r_name(p=2)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=2)->[prefix_proper_masc] [terrain_word_masc]</li>
     <li>r_name->[terrain_word_fem] [suffix_proper]</li>
     <li>r_name->[prefix_proper_fem] [terrain_word_fem]</li>
     <li>terrain_word_masc(p=4)->залив</li>
-    <li>terrain_word_masc->фьорд</li>
-    <li>terrain_word_fem(p=2)->бухта</li>
-    <li>terrain_word_fem(p=0.5)->губа</li>
-    <li>terrain_word_fem->гавань</li>
+    <li>terrain_word_masc->лим.</li>
+    <li>terrain_word_fem->бух.</li>
+    <li>terrain_word_fem->лаг.</li>
   </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
@@ -243,10 +244,10 @@
   <NamerIsland.rulePack.rulesStrings>
     <li>r_name->[terrain_word_masc] [suffix_proper]</li>
     <li>r_name->[terrain_word_masc] [prefix_proper_masc]</li>
-    <li>r_name->Земля [suffix_proper]</li>
-    <li>r_name->[prefix_proper_fem] Земля</li>
+    <li>r_name->земля [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] земля</li>
     <li>terrain_word_masc(p=4)->о.</li>
-    <li>terrain_word_masc->Риф</li>
+    <li>terrain_word_masc->риф</li>
   </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -329,11 +330,11 @@
   <NamerPeninsula.rulePack.rulesStrings>
     <li>r_name(p=2)->[terrain_word_masc] [suffix_proper]</li>
     <li>r_name(p=2)->[prefix_proper_masc] [terrain_word_masc]</li>
-    <li>r_name(p=0.1)->Мыс [prefix_proper_masc]</li>
-    <li>terrain_word_masc(p=4)->Мыс</li>
-    <li>terrain_word_masc->Выступ</li>
-    <li>terrain_word_masc->Рог</li>
+    <li>r_name(p=0.1)->мыс [prefix_proper_masc]</li>
     <li>terrain_word_masc(p=8)->п-ов</li>
+    <li>terrain_word_masc(p=4)->мыс</li>
+    <li>terrain_word_masc->выступ</li>
+    <li>terrain_word_masc->рог</li>
   </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
@@ -367,12 +368,12 @@
     <li>terrain_word->fen</li>
   -->
   <NamerSwamp.rulePack.rulesStrings>
-    <li>r_name->[terrain_word_fem] [suffix_proper]</li>
-    <li>r_name->[prefix_proper_fem] [terrain_word_fem]</li>
-    <li>r_name->[terrain_word_neutral] [suffix_proper]</li>
+    <li>r_name(p=2)->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>r_name(p=2)->[terrain_word_fem] [suffix_proper]</li>
     <li>r_name->[prefix_proper_neutral] [terrain_word_neutral]</li>
-    <li>r_name->[terrain_word_plural] [suffix_proper]</li>
+    <li>r_name->[terrain_word_neutral] [suffix_proper]</li>
     <li>r_name->[prefix_proper_plural] [terrain_word_plural]</li>
+    <li>r_name->[terrain_word_plural] [suffix_proper]</li>
     <li>prefix_proper_fem->влажная</li>
     <li>prefix_proper_fem->заросшая</li>
     <li>prefix_proper_fem->гнилая</li>
@@ -386,9 +387,9 @@
     <li>prefix_proper_plural->гнилые</li>
     <li>prefix_proper_plural->моховые</li>
     <li>terrain_word_fem->топь</li>
-    <li>terrain_word_fem->глушь</li>
     <li>terrain_word_fem->трясина</li>
     <li>terrain_word_fem->вязь</li>
+    <li>terrain_word_fem->хлябь</li>
     <li>terrain_word_neutral->болото</li>
     <li>terrain_word_plural->топи</li>
     <li>terrain_word_plural->болота</li>

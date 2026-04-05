@@ -111,16 +111,18 @@
     <li>terrain_word->chain</li>
   -->
   <NamerLandmark_Archipelago.rulePack.rulesStrings>
-    <li>r_name(p=2)->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name(p=3)->[terrain_word_plural] [suffix_proper]</li>
+    <li>r_name(p=5)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=5)->[prefix_proper_masc] [terrain_word_masc]</li>
     <li>r_name->[terrain_word_fem] [suffix_proper]</li>
-    <li>terrain_word_masc(p=3)->архипелаг</li>
+    <li>r_name->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>r_name(p=6)->[terrain_word_plural] [suffix_proper]</li>
+    <li>r_name(p=6)->[prefix_proper_plural] [terrain_word_plural]</li>
+    <li>terrain_word_masc(p=4)->архипелаг</li>
     <li>terrain_word_masc->риф</li>
-    <li>terrain_word_plural(p=4)->острова</li>
-    <li>terrain_word_plural->островки</li>
-    <li>terrain_word_plural->шхеры</li>
-    <li>terrain_word_fem->островная группа</li>
     <li>terrain_word_fem->цепь</li>
+    <li>terrain_word_plural(p=4)->острова</li>
+    <li>terrain_word_plural->скалы</li>
+    <li>terrain_word_plural->рифы</li>
   </NamerLandmark_Archipelago.rulePack.rulesStrings>
   
   <!-- EN:
@@ -128,7 +130,9 @@
     <li>terrain_word->circle</li>
   -->
   <NamerLandmark_Atoll.rulePack.rulesStrings>
+    <li>r_name->[prefix_proper_masc] [terrain_word_masc]</li>
     <li>r_name->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_neutral] [terrain_word_neutral]</li>
     <li>r_name->[terrain_word_neutral] [suffix_proper]</li>
     <li>terrain_word_masc->атолл</li>
     <li>terrain_word_neutral->кольцо</li>
@@ -157,12 +161,13 @@
   -->
   <NamerLandmark_Bay.rulePack.rulesStrings>
     <li>r_name(p=2)->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name(p=8)->[terrain_word_fem] [suffix_proper]</li>
-    <li>terrain_word_masc->залив</li>
-    <li>terrain_word_fem(p=6)->бухта</li>
-    <li>terrain_word_fem->излучина</li>
+    <li>r_name(p=2)->[prefix_proper_masc] [terrain_word_masc]</li>
+    <li>r_name->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>terrain_word_masc(p=4)->залив</li>
     <li>terrain_word_masc->лиман</li>
-    <li>terrain_word_fem->стоянка</li>
+    <li>terrain_word_fem->бухта</li>
+    <li>terrain_word_fem->лагуна</li>
   </NamerLandmark_Bay.rulePack.rulesStrings>
   
   <!-- EN:
@@ -239,9 +244,10 @@
   -->
   <NamerLandmark_CoastalIsland.rulePack.rulesStrings>
     <li>r_name->[terrain_word_masc] [suffix_proper]</li>
-    <li>terrain_word_masc(p=4)->остров</li>
-    <li>terrain_word_masc(p=2)->островок</li>
-    <li>terrain_word_masc->островочек</li>
+    <li>r_name->[terrain_word_masc] [prefix_proper_masc]</li>
+    <li>r_name->земля [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] земля</li>
+    <li>terrain_word_masc->остров</li>
   </NamerLandmark_CoastalIsland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -252,8 +258,8 @@
   <NamerLandmark_Crevasse.rulePack.rulesStrings>
     <li>r_name->[prefix_proper_masc] [terrain_word_masc]</li>
     <li>r_name->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name(p=2)->[terrain_word_fem] [suffix_proper]</li>
-    <li>r_name(p=2)->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>r_name(p=4)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=4)->[prefix_proper_fem] [terrain_word_fem]</li>
     <li>terrain_word_fem(p=3)->трещина</li>
     <li>terrain_word_fem->расщелина</li>
     <li>terrain_word_masc->разлом</li>
@@ -363,6 +369,7 @@
     <li>r_name->[terrain_word_fem] [suffix_proper]</li> 
     <li>terrain_word_masc->порт</li>
     <li>terrain_word_fem->гавань</li>
+    <li>terrain_word_fem(p=0.5)->стоянка</li>
   </NamerLandmark_Harbor.rulePack.rulesStrings>
   
   <!-- EN:
@@ -521,11 +528,11 @@
     <li>terrain_word->horn</li>
   -->
   <NamerLandmark_Peninsula.rulePack.rulesStrings>
-    <li>r_name(p=9)->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name->[terrain_word_fem] [suffix_proper]</li>
-    <li>terrain_word_masc(p=5)->полуостров</li>
-    <li>terrain_word_masc(p=2)->мыс</li>
-    <li>terrain_word_fem->оконечность</li>
+    <li>r_name(p=2)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=2)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=0.1)->мыс [prefix_proper_masc]</li>
+    <li>terrain_word_masc(p=8)->полуостров</li>
+    <li>terrain_word_masc(p=4)->мыс</li>
     <li>terrain_word_masc->выступ</li>
     <li>terrain_word_masc->рог</li>
   </NamerLandmark_Peninsula.rulePack.rulesStrings>
@@ -730,19 +737,21 @@
     <li>terrain_word->fen</li>
   -->
   <NamerLandmark_Wetland.rulePack.rulesStrings> 
-    <li>r_name(p=0.6)->[terrain_word_fem] [NamePerson]</li>
+    <li>r_name(p=0.4)->[terrain_word_fem] [NamePerson]</li>
     <li>r_name(p=0.2)->[terrain_word_neutral] [NamePerson]</li>
     <li>r_name(p=0.2)->[terrain_word_plural] [NamePerson]</li>
-    <li>r_name(p=3)->[prefix_proper_fem] [terrain_word_fem]</li>
-    <li>r_name(p=3)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=2)->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>r_name(p=2)->[terrain_word_fem] [suffix_proper]</li>
     <li>r_name->[prefix_proper_plural] [terrain_word_plural]</li>
     <li>r_name->[terrain_word_plural] [suffix_proper]</li>
     <li>r_name->[prefix_proper_neutral] [terrain_word_neutral]</li>
     <li>r_name->[terrain_word_neutral] [suffix_proper]</li>
     <li>terrain_word_fem->топь</li>
-    <li>terrain_word_fem->хлябь</li>
     <li>terrain_word_fem->трясина</li>
+    <li>terrain_word_fem->вязь</li>
+    <li>terrain_word_fem->хлябь</li>
     <li>terrain_word_neutral->болото</li>
+    <li>terrain_word_plural->топи</li>
     <li>terrain_word_plural->болота</li>
   </NamerLandmark_Wetland.rulePack.rulesStrings>
   
