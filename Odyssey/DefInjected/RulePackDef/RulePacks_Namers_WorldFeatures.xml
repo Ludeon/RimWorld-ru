@@ -17,24 +17,51 @@
     <li>terrain_word(p=0.3)->tract</li>
   -->
   <NamerGlacialPlain.rulePack.rulesStrings>
-    <li>r_name(p=0.6)->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name(p=0.4)->[prefix_proper_masc] [terrain_word_masc]</li>
-    <li>r_name(p=0.8)->[terrain_word_fem] [suffix_proper]</li>
-    <li>r_name(p=0.4)->[terrain_word_plural] [suffix_proper]</li>
-    <li>r_name(p=0.6)->[prefix_proper_plural] [terrain_word_plural]</li>
-    <li>r_name(p=0.5)->ледяное поле [suffix_proper]</li>
-    <li>terrain_word_masc->ледник</li>
-    <li>terrain_word_fem(p=0.5)->полярная шапка</li>
-    <li>terrain_word_fem(p=0.3)->ледниковая равнина</li>
+    <li>r_name(p=5)->ледник [suffix_proper]</li>         <!-- ледник Радоло -->
+    <li>r_name(p=5)->[prefix_proper_masc] ледник</li>     <!-- Синий ледник -->
+    <li>r_name(p=2)->[terrain_word_masc] [suffix_proper]</li>         <!-- простор Радоло -->
+    <li>r_name(p=2)->[prefix_proper_masc] [terrain_word_masc]</li>     <!-- Синий простор -->
+    <li>r_name(p=2)->[glacialPlain_adjective_masc] [terrain_word_masc] [suffix_proper]</li>         <!-- ледяной простор Радоло -->
+    <li>r_name(p=2)->[prefix_proper_masc] [glacialPlain_adjective_masc]  [terrain_word_masc]</li>     <!-- Синий ледяной простор -->
+    <li>r_name(p=2)->[terrain_word_fem] [suffix_proper]</li>    <!-- равнина Радоло -->
+    <li>r_name(p=2)->[prefix_proper_fem] [terrain_word_fem]</li>    <!-- Синяя равнина -->
+    <li>r_name(p=2)->[glacialPlain_adjective_fem] [terrain_word_fem] [suffix_proper]</li>    <!-- ледяная равнина Радоло -->
+    <li>r_name(p=2)->[prefix_proper_fem] [glacialPlain_adjective_fem] [terrain_word_fem]</li>    <!-- Синяя ледяная равнина -->
+    <li>r_name(p=5)->[terrain_word_plural] [suffix_proper]</li>  <!-- просторы Радоло -->
+    <li>r_name(p=5)->[prefix_proper_plural] [terrain_word_plural]</li>   <!-- Синие просторы -->
+    <li>r_name(p=5)->[glacialPlain_adjective_plural] [terrain_word_plural] [suffix_proper]</li>   <!-- ледяные просторы Радоло -->
+    <li>r_name(p=5)->[prefix_proper_plural] [glacialPlain_adjective_plural] [terrain_word_plural]</li>   <!-- Синие ледяные просторы -->
+    <li>r_name(p=1)->[terrain_word_neutral] [suffix_proper]</li>
+    <li>r_name(p=1)->[prefix_proper_neutral] [terrain_word_neutral]</li>
+    <li>r_name(p=1)->[glacialPlain_adjective_neutral] [terrain_word_neutral] [suffix_proper]</li>
+    <li>r_name(p=1)->[prefix_proper_neutral] [glacialPlain_adjective_neutral] [terrain_word_neutral]</li>
+    <li>terrain_word_masc->простор</li>
+    <li>terrain_word_masc->предел</li>
+    <li>terrain_word_fem->равнина</li>
+    <li>terrain_word_fem->долина</li>
+    <li>terrain_word_neutral->поле</li>
     <li>terrain_word_plural->поля</li>
     <li>terrain_word_plural->просторы</li>
     <li>terrain_word_plural->пределы</li>
-    <li>prefix_proper_masc(p=0.5)->величественный</li>
-    <li>prefix_proper_plural(p=2)->ледниковые</li>
-    <li>prefix_proper_plural->студеные</li>
-    <li>prefix_proper_plural->обледенелые</li>
-    <li>prefix_proper_plural(p=0.5)->величественные</li>
-    <li>prefix_proper_plural->замёрзшие</li>
+    <li>terrain_word_plural->равнины</li>
+    <li>terrain_word_plural->долины</li>
+    <!-- прилагательные ниже применять только в сочетании с suffix_proper или prefix_proper_masc -->
+    <li>glacialPlain_adjective_masc(p=2)->ледниковый</li>
+    <li>glacialPlain_adjective_masc->ледяной</li>
+    <li>glacialPlain_adjective_masc->обледенелый</li>
+    <li>glacialPlain_adjective_masc->замёрзший</li>
+    <li>glacialPlain_adjective_fem(p=2)->ледниковая</li>
+    <li>glacialPlain_adjective_fem->ледяная</li>
+    <li>glacialPlain_adjective_fem->обледенелая</li>
+    <li>glacialPlain_adjective_fem->замёрзшая</li>
+    <li>glacialPlain_adjective_neutral(p=2)->ледниковое</li>
+    <li>glacialPlain_adjective_neutral->ледяное</li>
+    <li>glacialPlain_adjective_neutral->обледенелое</li>
+    <li>glacialPlain_adjective_neutral->замёрзшее</li>
+    <li>glacialPlain_adjective_plural(p=2)->ледниковые</li>
+    <li>glacialPlain_adjective_plural->ледяные</li>
+    <li>glacialPlain_adjective_plural->обледенелые</li>
+    <li>glacialPlain_adjective_plural->замёрзшие</li>
   </NamerGlacialPlain.rulePack.rulesStrings>
   
   <!-- EN:
