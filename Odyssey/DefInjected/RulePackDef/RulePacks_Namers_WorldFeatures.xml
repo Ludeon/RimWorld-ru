@@ -78,22 +78,46 @@
   -->
   <NamerGlowforest.rulePack.rulesStrings>
     <li>r_name(p=4)->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name(p=0.5)->[prefix_proper_masc] [terrain_word_masc]</li>
-    <li>r_name(p=0.5)->[terrain_word_fem] [suffix_proper]</li>
-    <li>r_name->[terrain_word_neutral] [suffix_proper]</li>
-    <li>r_name->[prefix_proper_neutral] [terrain_word_neutral]</li>
-    <li>terrain_word_masc(p=3)->светолес</li>
-    <li>terrain_word_masc->грибной лес</li>
-    <li>terrain_word_masc->тёмный лес</li>
-    <li>terrain_word_fem->мицелиевая подстилка</li>
-    <li>terrain_word_neutral->темноземье</li>
-    <li>prefix_proper_masc->цветущий</li>
-    <li>prefix_proper_masc->зарастающий</li>
-    <li>prefix_proper_masc->корявый</li>
-    <li>prefix_proper_neutral(p=2)->грибное</li>
-    <li>prefix_proper_neutral->цветущее</li>
-    <li>prefix_proper_neutral->зарастающее</li>
-    <li>prefix_proper_neutral->корявое</li>
+    <li>r_name(p=4)->[prefix_proper_masc] [terrain_word_masc]</li>
+    <li>r_name(p=1)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=1)->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>r_name(p=1)->[terrain_word_neutral] [suffix_proper]</li>
+    <li>r_name(p=1)->[prefix_proper_neutral] [terrain_word_neutral]</li>
+    <li>r_name(p=1)->[terrain_word_plural] [suffix_proper]</li>
+    <li>r_name(p=1)->[prefix_proper_plural] [terrain_word_plural]</li>
+    <li>terrain_word_masc->[glowForest_masc]</li>
+    <li>terrain_word_fem->[glowForest_fem]</li>
+    <li>terrain_word_neutral->[glowForest_neutral]</li>
+    <li>terrain_word_plural->[glowForest_plural]</li>
+    <li>terrain_word_masc(p=0.2)->[glowForest_adjective_masc] [glowForest_masc]</li>
+    <li>terrain_word_fem(p=0.2)->[glowForest_adjective_fem] [glowForest_fem]</li>
+    <li>terrain_word_neutral(p=0.2)->[glowForest_adjective_neutral] [glowForest_neutral]</li>
+    <li>terrain_word_plural(p=0.2)->[glowForest_adjective_plural] [glowForest_plural]</li>
+    <li>glowForest_masc(p=3)->светолес</li>
+    <li>glowForest_masc->лес</li>
+    <li>glowForest_fem->мицелиевая подстилка</li><!-- Может заменить на "мицелий" или добавить несколько вариантов из Core -->
+    <li>glowForest_neutral->темноземье</li>
+    <li>glowForest_plural->леса</li>
+    <li>glowForest_adjective_masc(p=2)->грибной</li>
+    <li>glowForest_adjective_masc->цветущий</li>
+    <li>glowForest_adjective_masc->тёмный</li>
+    <li>glowForest_adjective_masc->зарастающий</li>
+    <li>glowForest_adjective_masc->корявый</li>
+    <li>glowForest_adjective_fem(p=2)->грибная</li>
+    <li>glowForest_adjective_fem->цветущая</li>
+    <li>glowForest_adjective_fem->тёмная</li>
+    <li>glowForest_adjective_fem->зарастающая</li>
+    <li>glowForest_adjective_fem->корявая</li>
+    <li>glowForest_adjective_neutral(p=2)->грибное</li>
+    <li>glowForest_adjective_neutral->цветущее</li>
+    <li>glowForest_adjective_neutral->тёмное</li>
+    <li>glowForest_adjective_neutral->зарастающее</li>
+    <li>glowForest_adjective_neutral->корявое</li>
+    <li>glowForest_adjective_plural(p=2)->грибные</li>
+    <li>glowForest_adjective_plural->цветущие</li>
+    <li>glowForest_adjective_plural->тёмные</li>
+    <li>glowForest_adjective_plural->зарастающие</li>
+    <li>glowForest_adjective_plural->корявые</li>
   </NamerGlowforest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -111,26 +135,30 @@
     <li>terrain_word->flats</li>
   -->
   <NamerGrasslands.rulePack.rulesStrings>
-    <li>r_name->[terrain_word_fem] [suffix_proper]</li>
-    <li>r_name(p=0.5)->[prefix_proper_fem] [terrain_word_fem]</li>
-    <li>r_name(p=2)->[terrain_word_plural] [suffix_proper]</li>
-    <li>r_name->[prefix_proper_plural] [terrain_word_plural]</li>
-    <li>terrain_word_fem->саванна</li>
-    <li>terrain_word_fem->степь</li>
-    <li>terrain_word_fem->низменность</li>
-    <li>terrain_word_plural->луга</li>
-    <li>terrain_word_plural->прерии</li>
-    <li>terrain_word_plural->равнины</li>
-    <li>prefix_proper_fem(p=0.5)->ровная</li>
-    <li>prefix_proper_fem(p=0.5)->продуваемая ветрами</li>
-    <li>prefix_proper_fem->сухая</li>
-    <li>prefix_proper_fem->волнистая</li>
-    <li>prefix_proper_fem->бескрайняя</li>
-    <li>prefix_proper_plural(p=0.5)->ровные</li>
-    <li>prefix_proper_plural(p=0.5)->продуваемые ветрами</li>
-    <li>prefix_proper_plural->сухие</li>
-    <li>prefix_proper_plural->волнистые</li>
-    <li>prefix_proper_plural->бескрайние</li>
+    <li>r_name(p=3)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=3)->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>r_name(p=6)->[terrain_word_plural] [suffix_proper]</li>
+    <li>r_name(p=6)->[prefix_proper_plural] [terrain_word_plural]</li>
+    <li>terrain_word_fem->[grasslands_fem]</li>
+    <li>terrain_word_plural->[grasslands_plural]</li>
+    <li>terrain_word_fem(p=0.2)->[grasslands_adjective_fem] [grasslands_fem]</li>
+    <li>terrain_word_plural(p=0.2)->[grasslands_adjective_plural] [grasslands_plural]</li>
+    <li>grasslands_fem->саванна</li>
+    <li>grasslands_fem->степь</li>
+    <li>grasslands_fem->низменность</li>
+    <li>grasslands_plural->луга</li>
+    <li>grasslands_plural->прерии</li>
+    <li>grasslands_plural->равнины</li>
+    <li>grasslands_adjective_fem(p=2)->ровная</li>
+    <li>grasslands_adjective_fem->продуваемая ветрами</li> <!-- Может заменить на "ветреная" -->
+    <li>grasslands_adjective_fem->сухая</li>
+    <li>grasslands_adjective_fem->волнистая</li>
+    <li>grasslands_adjective_fem->бескрайняя</li>
+    <li>grasslands_adjective_plural(p=2)->ровные</li>
+    <li>grasslands_adjective_plural->продуваемые ветрами</li>
+    <li>grasslands_adjective_plural->сухие</li>
+    <li>grasslands_adjective_plural->волнистые</li>
+    <li>grasslands_adjective_plural->бескрайние</li>
   </NamerGrasslands.rulePack.rulesStrings>
   
   <!-- EN:
@@ -150,28 +178,34 @@
     <li>terrain_word->range</li>
   -->
   <NamerLavaField.rulePack.rulesStrings>
-    <li>r_name(p=2)->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name(p=2)->[prefix_proper_masc] [terrain_word_masc]</li>
     <li>r_name(p=3)->лавовые поля [suffix_proper]</li>
-    <li>r_name->[terrain_word_neutral] [suffix_proper]</li>
-    <li>r_name->[prefix_proper_neutral] [terrain_word_neutral]</li>
-    <li>r_name->магмовое плато [suffix_proper]</li>
-    <li>terrain_word_masc->разлом</li>
-    <li>terrain_word_masc->вент</li>
-    <li>terrain_word_masc->горн</li>
-    <li>terrain_word_masc->хребет</li>
-    <li>terrain_word_neutral->инферно</li>
-    <li>terrain_word_neutral->плато</li>
-    <li>prefix_proper_masc(p=2)->вулканический</li>
-    <li>prefix_proper_masc->огненный</li>
-    <li>prefix_proper_masc->инфернальный</li>
-    <li>prefix_proper_masc->пылающий</li>
-    <li>prefix_proper_masc->жгучий</li>
-    <li>prefix_proper_neutral(p=2)->вулканическое</li>
-    <li>prefix_proper_neutral->огненное</li>
-    <li>prefix_proper_neutral->инфернальное</li>
-    <li>prefix_proper_neutral->пылающее</li>
-    <li>prefix_proper_neutral->жгучее</li>
+    <li>r_name(p=3)->[prefix_proper_masc] лавовые поля</li>
+    <li>r_name(p=4)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=4)->[prefix_proper_masc] [terrain_word_masc]</li>
+    <li>r_name(p=2)->[terrain_word_neutral] [suffix_proper]</li>
+    <li>r_name(p=2)->[prefix_proper_neutral] [terrain_word_neutral]</li>
+    <li>terrain_word_masc->[lavaField_masc]</li>
+    <li>terrain_word_neutral->[grasslands_plural]</li>
+    <li>terrain_word_masc(p=0.2)->[lavaField_adjective_masc] [lavaField_masc]</li>
+    <li>terrain_word_neutral(p=0.2)->[lavaField_adjective_neutral] [lavaField_neutral]</li>
+    <li>lavaField_masc->разлом</li>
+    <li>lavaField_masc->вент</li>
+    <li>lavaField_masc->горн</li>
+    <li>lavaField_masc->хребет</li>
+    <li>lavaField_neutral->инферно</li>
+    <li>lavaField_neutral->плато</li>
+    <li>lavaField_adjective_masc(p=2)->вулканический</li>
+    <li>lavaField_adjective_masc->огненный</li>
+    <li>lavaField_adjective_masc->инфернальный</li>
+    <li>lavaField_adjective_masc->пылающий</li>
+    <li>lavaField_adjective_masc->жгучий</li>
+    <li>lavaField_adjective_masc->лавовый</li>
+    <li>lavaField_adjective_neutral(p=2)->вулканическое</li>
+    <li>lavaField_adjective_neutral->огненное</li>
+    <li>lavaField_adjective_neutral->инфернальное</li>
+    <li>lavaField_adjective_neutral->пылающее</li>
+    <li>lavaField_adjective_neutral->жгучее</li>
+    <li>lavaField_adjective_neutral->лавовое</li>
   </NamerLavaField.rulePack.rulesStrings>
   
   <!-- EN:
@@ -195,46 +229,56 @@
     <li>terrain_word->bastion</li>
   -->
   <NamerScarlands.rulePack.rulesStrings>
-    <li>r_name(p=1.5)->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name(p=1.5)->[prefix_proper_masc] [terrain_word_masc]</li>
-    <li>r_name(p=0.5)->[terrain_word_fem] [suffix_proper]</li>
-    <li>r_name(p=0.5)->[prefix_proper_fem] [terrain_word_fem]</li>
-    <li>r_name(p=0.5)->[terrain_word_neutral] [suffix_proper]</li>
-    <li>r_name(p=0.5)->[prefix_proper_neutral] [terrain_word_neutral]</li>	
-    <li>r_name(p=8)->[terrain_word_plural] [suffix_proper]</li>
-    <li>r_name(p=4)->[prefix_proper_plural] [terrain_word_plural]</li>
-    <li>terrain_word_masc->пустырь</li>
-    <li>terrain_word_masc->реликт</li>
-    <li>terrain_word_masc->бастион</li>
-    <li>terrain_word_fem->мегапостройка</li>
-    <li>terrain_word_neutral->токсоземье</li>
-    <li>terrain_word_plural(p=6)->руины</li>
-    <li>terrain_word_plural(p=3)->шрами</li>
-    <li>terrain_word_plural->пустоши</li>
-    <li>terrain_word_plural->отбросы</li>
-    <li>terrain_word_plural->земли</li>
-    <li>prefix_proper_masc(p=2)->разрушенный</li>
-    <li>prefix_proper_masc->древний</li>
-    <li>prefix_proper_masc->старый</li>
-    <li>prefix_proper_masc->разбитый</li>
-    <li>prefix_proper_masc->погибший</li>
-    <li>prefix_proper_masc->пепельный</li>
-    <li>prefix_proper_fem(p=2)->разрушенная</li>
-    <li>prefix_proper_fem->древняя</li>
-    <li>prefix_proper_fem->старая</li>
-    <li>prefix_proper_fem->разбитая</li>
-    <li>prefix_proper_fem->погибшая</li>
-    <li>prefix_proper_fem->пепельная</li>
-    <li>prefix_proper_neutral(p=2)->разрушенное</li>
-    <li>prefix_proper_neutral->древнее</li>
-    <li>prefix_proper_neutral->старое</li>
-    <li>prefix_proper_neutral->разбитое</li>
-    <li>prefix_proper_neutral->погибшее</li>
-    <li>prefix_proper_neutral->пепельное</li>
-    <li>prefix_proper_plural->древние</li>
-    <li>prefix_proper_plural->старые</li>
-    <li>prefix_proper_plural->погибшие</li>
-    <li>prefix_proper_plural->пепельные</li>
+    <li>r_name(p=3)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=3)->[prefix_proper_masc] [terrain_word_masc]</li>
+    <li>r_name(p=1)->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name(p=1)->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>r_name(p=1)->[terrain_word_neutral] [suffix_proper]</li>
+    <li>r_name(p=1)->[prefix_proper_neutral] [terrain_word_neutral]</li>
+    <li>r_name(p=15)->[terrain_word_plural] [suffix_proper]</li>
+    <li>r_name(p=15)->[prefix_proper_plural] [terrain_word_plural]</li>
+    <li>terrain_word_masc->[ruin_masc]</li>
+    <li>terrain_word_fem->[ruin_fem]</li>
+    <li>terrain_word_neutral->[ruin_neutral]</li>
+    <li>terrain_word_plural->[ruin_plural]</li>
+    <li>terrain_word_masc(p=0.2)->[ruin_adjective_masc] [ruin_masc]</li>
+    <li>terrain_word_fem(p=0.2)->[ruin_adjective_fem] [ruin_fem]</li>
+    <li>terrain_word_neutral(p=0.2)->[ruin_adjective_neutral] [ruin_neutral]</li>
+    <li>terrain_word_plural(p=0.2)->[ruin_adjective_plural] [ruin_plural]</li>
+    <li>ruin_masc->пустырь</li>
+    <li>ruin_masc->реликт</li>
+    <li>ruin_masc->бастион</li>
+    <li>ruin_fem->мегапостройка</li>
+    <li>ruin_neutral->токсоземье</li>
+    <li>ruin_plural(p=6)->руины</li>
+    <li>ruin_plural(p=3)->шрами</li>
+    <li>ruin_plural->пустоши</li>
+    <li>ruin_plural->отбросы</li>
+    <li>ruin_plural->земли</li>
+    <li>ruin_adjective_masc(p=2)->разрушенный</li>
+    <li>ruin_adjective_masc->древний</li>
+    <li>ruin_adjective_masc->старый</li>
+    <li>ruin_adjective_masc->разбитый</li>
+    <li>ruin_adjective_masc->погибший</li>
+    <li>ruin_adjective_masc->пепельный</li>
+    <li>ruin_adjective_fem(p=2)->разрушенная</li>
+    <li>ruin_adjective_fem->древняя</li>
+    <li>ruin_adjective_fem->старая</li>
+    <li>ruin_adjective_fem->разбитая</li>
+    <li>ruin_adjective_fem->погибшая</li>
+    <li>ruin_adjective_fem->пепельная</li>
+    <li>ruin_adjective_neutral(p=2)->разрушенное</li>
+    <li>ruin_adjective_neutral->древнее</li>
+    <li>ruin_adjective_neutral->старое</li>
+    <li>ruin_adjective_neutral->разбитое</li>
+    <li>ruin_adjective_neutral->погибшее</li>
+    <li>ruin_adjective_neutral->пепельное</li>
+    <!-- <li>ruin_adjective_plural(p=2)->разрушенные</li> удалить или заменить с целью избежания избыточности "разрушенные руины"-->
+    <li>ruin_adjective_plural->древние</li>
+    <li>ruin_adjective_plural->старые</li>
+    <!-- <li>ruin_adjective_plural->разбитые</li> удалить или заменить с целью избежания избыточности "разбитые руины"-->
+    <li>ruin_adjective_plural->погибшие</li>
+    <li>ruin_adjective_plural->пепельные</li>
   </NamerScarlands.rulePack.rulesStrings>
   
 </LanguageData>
