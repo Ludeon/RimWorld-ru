@@ -77,14 +77,14 @@
     <li>terrain_word->dark forest</li>
   -->
   <NamerGlowforest.rulePack.rulesStrings>
-    <li>r_name(p=4)->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name(p=4)->[prefix_proper_masc] [terrain_word_masc]</li>
-    <li>r_name(p=1)->[terrain_word_fem] [suffix_proper]</li>
-    <li>r_name(p=1)->[prefix_proper_fem] [terrain_word_fem]</li>
-    <li>r_name(p=1)->[terrain_word_neutral] [suffix_proper]</li>
-    <li>r_name(p=1)->[prefix_proper_neutral] [terrain_word_neutral]</li>
-    <li>r_name(p=1)->[terrain_word_plural] [suffix_proper]</li>
-    <li>r_name(p=1)->[prefix_proper_plural] [terrain_word_plural]</li>
+    <li>r_name(p=2)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=2)->[prefix_proper_masc] [terrain_word_masc]</li>
+    <li>r_name->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>r_name->[terrain_word_neutral] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_neutral] [terrain_word_neutral]</li>
+    <li>r_name->[terrain_word_plural] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_plural] [terrain_word_plural]</li>
     <li>terrain_word_masc->[glowForest_masc]</li>
     <li>terrain_word_fem->[glowForest_fem]</li>
     <li>terrain_word_neutral->[glowForest_neutral]</li>
@@ -94,29 +94,29 @@
     <li>terrain_word_neutral(p=0.2)->[glowForest_adjective_neutral] [glowForest_neutral]</li>
     <li>terrain_word_plural(p=0.2)->[glowForest_adjective_plural] [glowForest_plural]</li>
     <li>glowForest_masc(p=3)->светолес</li>
-    <li>glowForest_masc->лес</li>
-    <li>glowForest_fem->мицелиевая подстилка</li><!-- Может заменить на "мицелий" или добавить несколько вариантов из Core -->
-    <li>glowForest_neutral->темноземье</li>
-    <li>glowForest_plural->леса</li>
-    <li>glowForest_adjective_masc(p=2)->грибной</li>
+    <li>glowForest_masc->грибной лес</li>
+    <li>glowForest_masc->мицелий</li>
+    <li>glowForest_fem(p=3)->грибница</li>
+    <li>glowForest_fem->грибная роща</li>
+    <li>glowForest_neutral->гриболесье</li>
+    <li>glowForest_neutral->светолесье</li>
+    <li>glowForest_plural->грибные леса</li>
+    <li>glowForest_plural->мицелии</li>
     <li>glowForest_adjective_masc->цветущий</li>
     <li>glowForest_adjective_masc->тёмный</li>
-    <li>glowForest_adjective_masc->зарастающий</li>
+    <li>glowForest_adjective_masc->заросший</li>
     <li>glowForest_adjective_masc->корявый</li>
-    <li>glowForest_adjective_fem(p=2)->грибная</li>
     <li>glowForest_adjective_fem->цветущая</li>
     <li>glowForest_adjective_fem->тёмная</li>
-    <li>glowForest_adjective_fem->зарастающая</li>
+    <li>glowForest_adjective_fem->заросшая</li>
     <li>glowForest_adjective_fem->корявая</li>
-    <li>glowForest_adjective_neutral(p=2)->грибное</li>
     <li>glowForest_adjective_neutral->цветущее</li>
     <li>glowForest_adjective_neutral->тёмное</li>
-    <li>glowForest_adjective_neutral->зарастающее</li>
+    <li>glowForest_adjective_neutral->заросшее</li>
     <li>glowForest_adjective_neutral->корявое</li>
-    <li>glowForest_adjective_plural(p=2)->грибные</li>
     <li>glowForest_adjective_plural->цветущие</li>
     <li>glowForest_adjective_plural->тёмные</li>
-    <li>glowForest_adjective_plural->зарастающие</li>
+    <li>glowForest_adjective_plural->заросшие</li>
     <li>glowForest_adjective_plural->корявые</li>
   </NamerGlowforest.rulePack.rulesStrings>
   
