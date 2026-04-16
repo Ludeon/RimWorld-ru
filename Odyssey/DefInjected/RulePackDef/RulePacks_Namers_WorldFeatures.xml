@@ -135,10 +135,10 @@
     <li>terrain_word->flats</li>
   -->
   <NamerGrasslands.rulePack.rulesStrings>
-    <li>r_name(p=3)->[terrain_word_fem] [suffix_proper]</li>
-    <li>r_name(p=3)->[prefix_proper_fem] [terrain_word_fem]</li>
-    <li>r_name(p=6)->[terrain_word_plural] [suffix_proper]</li>
-    <li>r_name(p=6)->[prefix_proper_plural] [terrain_word_plural]</li>
+    <li>r_name->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>r_name->[terrain_word_plural] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_plural] [terrain_word_plural]</li>
     <li>terrain_word_fem->[grasslands_fem]</li>
     <li>terrain_word_plural->[grasslands_plural]</li>
     <li>terrain_word_fem(p=0.2)->[grasslands_adjective_fem] [grasslands_fem]</li>
@@ -149,13 +149,11 @@
     <li>grasslands_plural->луга</li>
     <li>grasslands_plural->прерии</li>
     <li>grasslands_plural->равнины</li>
-    <li>grasslands_adjective_fem(p=2)->ровная</li>
-    <li>grasslands_adjective_fem->продуваемая ветрами</li> <!-- Может заменить на "ветреная" -->
+    <li>grasslands_adjective_fem->ветреная</li>
     <li>grasslands_adjective_fem->сухая</li>
     <li>grasslands_adjective_fem->волнистая</li>
     <li>grasslands_adjective_fem->бескрайняя</li>
-    <li>grasslands_adjective_plural(p=2)->ровные</li>
-    <li>grasslands_adjective_plural->продуваемые ветрами</li>
+    <li>grasslands_adjective_plural->ветреные</li>
     <li>grasslands_adjective_plural->сухие</li>
     <li>grasslands_adjective_plural->волнистые</li>
     <li>grasslands_adjective_plural->бескрайние</li>
