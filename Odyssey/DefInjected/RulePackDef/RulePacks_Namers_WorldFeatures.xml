@@ -19,22 +19,18 @@
   <NamerGlacialPlain.rulePack.rulesStrings>
     <li>r_name(p=5)->ледник [suffix_proper]</li>         <!-- ледник Радоло -->
     <li>r_name(p=5)->[prefix_proper_masc] ледник</li>     <!-- Синий ледник -->
-    <li>r_name(p=2)->[terrain_word_masc] [suffix_proper]</li>         <!-- (ледяной) простор Радоло -->
-    <li>r_name(p=2)->[prefix_proper_masc] [terrain_word_masc]</li>     <!-- Синий (ледяной) простор -->
-    <li>r_name(p=2)->[terrain_word_fem] [suffix_proper]</li>    <!-- (ледяная) равнина Радоло -->
-    <li>r_name(p=2)->[prefix_proper_fem] [terrain_word_fem]</li>    <!-- Синяя (ледяная) равнина -->
+    <li>r_name(p=2)->[terrain_word_masc] [suffix_proper]</li>         <!-- ледяной простор Радоло -->
+    <li>r_name(p=2)->[prefix_proper_masc] [terrain_word_masc]</li>     <!-- Синий ледяной простор -->
+    <li>r_name(p=2)->[terrain_word_fem] [suffix_proper]</li>    <!-- ледяная равнина Радоло -->
+    <li>r_name(p=2)->[prefix_proper_fem] [terrain_word_fem]</li>    <!-- Синяя ледяная равнина -->
     <li>r_name(p=1)->[terrain_word_neutral] [suffix_proper]</li>
     <li>r_name(p=1)->[prefix_proper_neutral] [terrain_word_neutral]</li>
-    <li>r_name(p=5)->[terrain_word_plural] [suffix_proper]</li>  <!-- (ледяные) просторы Радоло -->
-    <li>r_name(p=5)->[prefix_proper_plural] [terrain_word_plural]</li>   <!-- Синие (ледяные) просторы -->
-    <li>terrain_word_masc->[glacialPlain_masc]</li>
-    <li>terrain_word_fem->[glacialPlain_fem]</li>
-    <li>terrain_word_neutral->[glacialPlain_neutral]</li>
-    <li>terrain_word_plural->[glacialPlain_plural]</li>
-    <li>terrain_word_masc(p=0.2)->[glacialPlain_adjective_masc] [glacialPlain_masc]</li>
-    <li>terrain_word_fem(p=0.2)->[glacialPlain_adjective_fem] [glacialPlain_fem]</li>
-    <li>terrain_word_neutral(p=0.2)->[glacialPlain_adjective_neutral] [glacialPlain_neutral]</li>
-    <li>terrain_word_plural(p=0.2)->[glacialPlain_adjective_plural] [glacialPlain_plural]</li>
+    <li>r_name(p=5)->[terrain_word_plural] [suffix_proper]</li>  <!-- ледяные просторы Радоло -->
+    <li>r_name(p=5)->[prefix_proper_plural] [terrain_word_plural]</li>   <!-- Синие ледяные просторы -->
+    <li>terrain_word_masc->[glacialPlain_adjective_masc] [glacialPlain_masc]</li>
+    <li>terrain_word_fem->[glacialPlain_adjective_fem] [glacialPlain_fem]</li>
+    <li>terrain_word_neutral->[glacialPlain_adjective_neutral] [glacialPlain_neutral]</li>
+    <li>terrain_word_plural->[glacialPlain_adjective_plural] [glacialPlain_plural]</li>
     <li>glacialPlain_masc->простор</li>
     <li>glacialPlain_masc->предел</li>
     <li>glacialPlain_fem->равнина</li>
