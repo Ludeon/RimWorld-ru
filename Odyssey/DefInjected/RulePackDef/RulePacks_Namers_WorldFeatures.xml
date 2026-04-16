@@ -176,22 +176,24 @@
     <li>terrain_word->range</li>
   -->
   <NamerLavaField.rulePack.rulesStrings>
-    <li>r_name(p=3)->лавовые поля [suffix_proper]</li>
-    <li>r_name(p=3)->[prefix_proper_masc] лавовые поля</li>
-    <li>r_name(p=4)->[terrain_word_masc] [suffix_proper]</li>
-    <li>r_name(p=4)->[prefix_proper_masc] [terrain_word_masc]</li>
-    <li>r_name(p=2)->[terrain_word_neutral] [suffix_proper]</li>
-    <li>r_name(p=2)->[prefix_proper_neutral] [terrain_word_neutral]</li>
-    <li>terrain_word_masc->[lavaField_masc]</li>
-    <li>terrain_word_neutral->[grasslands_plural]</li>
-    <li>terrain_word_masc(p=0.2)->[lavaField_adjective_masc] [lavaField_masc]</li>
-    <li>terrain_word_neutral(p=0.2)->[lavaField_adjective_neutral] [lavaField_neutral]</li>
+    <li>r_name(p=3)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=3)->[prefix_proper_masc] [terrain_word_masc]</li>
+    <li>r_name(p=6)->[terrain_word_neutral] [suffix_proper]</li>
+    <li>r_name(p=6)->[prefix_proper_neutral] [terrain_word_neutral]</li>
+    <li>r_name(p=4)->[terrain_word_plural] [suffix_proper]</li>
+    <li>r_name(p=4)->[prefix_proper_plural] [terrain_word_plural]</li>
+    <li>terrain_word_masc->[lavaField_adjective_masc] [lavaField_masc]</li>
+    <li>terrain_word_neutral(p=2)->лавовое поле</li>
+    <li>terrain_word_neutral->инферно</li>
+    <li>terrain_word_neutral->[lavaField_adjective_neutral] [lavaField_neutral]</li>
+    <li>terrain_word_plural(p=2)->лавовые поля</li>
+    <li>terrain_word_plural->[lavaField_adjective_plural] [lavaField_plural]</li>
     <li>lavaField_masc->разлом</li>
-    <li>lavaField_masc->вент</li>
     <li>lavaField_masc->горн</li>
     <li>lavaField_masc->хребет</li>
-    <li>lavaField_neutral->инферно</li>
     <li>lavaField_neutral->плато</li>
+    <li>lavaField_plural->разломы</li>
+    <li>lavaField_plural->провалы</li>
     <li>lavaField_adjective_masc(p=2)->вулканический</li>
     <li>lavaField_adjective_masc->огненный</li>
     <li>lavaField_adjective_masc->инфернальный</li>
@@ -204,6 +206,12 @@
     <li>lavaField_adjective_neutral->пылающее</li>
     <li>lavaField_adjective_neutral->жгучее</li>
     <li>lavaField_adjective_neutral->лавовое</li>
+    <li>lavaField_adjective_plural(p=2)->вулканические</li>
+    <li>lavaField_adjective_plural->огненные</li>
+    <li>lavaField_adjective_plural->инфернальные</li>
+    <li>lavaField_adjective_plural->пылающие</li>
+    <li>lavaField_adjective_plural->жгучие</li>
+    <li>lavaField_adjective_plural->лавовые</li>
   </NamerLavaField.rulePack.rulesStrings>
   
   <!-- EN:
