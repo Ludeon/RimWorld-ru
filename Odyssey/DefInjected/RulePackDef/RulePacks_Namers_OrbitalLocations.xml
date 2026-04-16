@@ -9,12 +9,15 @@
     <li>terrain_word->moon</li>
   -->
   <NamerWorldObject_AsteroidBasic.rulePack.rulesStrings>
-    <li>r_name(p=0.3)->[terrain_word]</li>
-    <li>terrain_word(p=4)->астероид</li>
-    <li>terrain_word->скала</li>
-    <li>terrain_word->спутник</li>
-    <li>terrain_word->планетоид</li>
-    <li>terrain_word->луна</li>
+    <li>r_name(p=4)->[terrain_word_masc] [suffix_proper]</li>
+    <li>r_name(p=4)->[prefix_proper_masc] [terrain_word_masc]</li>
+    <li>r_name->[terrain_word_fem] [suffix_proper]</li>
+    <li>r_name->[prefix_proper_fem] [terrain_word_fem]</li>
+    <li>terrain_word_masc(p=4)->астероид</li>
+    <li>terrain_word_masc->спутник</li>
+    <li>terrain_word_masc->планетоид</li>
+    <li>terrain_word_fem->скала</li>
+    <li>terrain_word_fem->луна</li>
   </NamerWorldObject_AsteroidBasic.rulePack.rulesStrings>
   
 </LanguageData>
