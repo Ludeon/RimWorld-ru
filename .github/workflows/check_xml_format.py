@@ -1,5 +1,4 @@
 ﻿import sys
-import os
 import xml.etree.ElementTree as ET
 
 from helpers import DLC_DIR_NAMES, get_xml_file_paths, print_red, print_green, print_yellow

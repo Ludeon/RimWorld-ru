@@ -3,7 +3,7 @@ import re
 import sys
 from dataclasses import dataclass
 
-from helpers import DLC_DIR_NAMES, get_xml_file_paths, get_all_file_paths, print_red, print_green, print_yellow
+from helpers import DLC_DIR_NAMES, get_xml_file_paths, print_red, print_green, print_yellow
 
 
 # regexp to search for tag ends with reportString with dot in the end of the content
