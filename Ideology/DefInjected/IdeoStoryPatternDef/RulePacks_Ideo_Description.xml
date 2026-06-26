@@ -411,14 +411,14 @@
       intro:    [once]      -> «однажды»
       conflict: [onceTwice] -> «как-то»
     -->
-    <li>once(uses=1,priority=3)->однажды</li>
-    <li>once(uses=1,priority=2)->[once_Dummy]</li>
+    <li>once(uses=1,priority=2)->однажды</li>
+    <li>once(uses=1,priority=1)->[once_Dummy]</li>
     <li>once->как-то</li>
     <li>onceTwice->[once_Dummy][once]</li>
     <li>once_Dummy(uses=1)-></li>
     <!-- Переменная but_Dummy используется в некоторых intro, где в явном виде отсутствует союз «но», однако развитие сюжета также не предусматривает его наличие и в conflict. -->
     <li>but(uses=1)->но</li>
-    <li>butOrAnd(uses=1,priority=2)->[but][but_Dummy]</li>
+    <li>butOrAnd(uses=1,priority=1)->[but][but_Dummy]</li>
     <li>butOrAnd->и вот</li>
     <li>but_Dummy(uses=1)-></li>
     <li>revelationAdverb->в видении</li>
@@ -430,7 +430,7 @@
     <li>revelationObject->сияющую [Vegetable_fem_acc]</li>
     <li>revelationObject->древний [Weapon_masc]</li>
     <li>revelationObject->древнюю [Weapon_fem_acc]</li>
-    <li>soonerOrLater(uses=1,priority=2)->[soonerOrLater_Period]</li>
+    <li>soonerOrLater(uses=1,priority=1)->[soonerOrLater_Period]</li>
     <li>soonerOrLater->[soonerOrLater_Moment]</li>
     <li>soonerOrLater_Period(uses=1)->долго ли, коротко ли,</li>
     <li>soonerOrLater_Period(uses=1)->много ли, мало ли времени прошло,</li>
@@ -536,10 +536,10 @@
     <li>bodilyOrigin->глины</li>
     <li>bodilyOrigin->камня</li>
     <li>bodilyOrigin->пота</li>
-    <li>andItWasSo(uses=1,priority=3)->и стало всё так.</li>
-    <li>andItWasSo(uses=1,priority=2)->и стало так.</li>
+    <li>andItWasSo(uses=1,priority=2)->и стало всё так.</li>
+    <li>andItWasSo(uses=1,priority=1)->и стало так.</li>
     <li>andItWasSo-></li>
-    <li>andBehold(uses=1,priority=2)->и вот,</li>
+    <li>andBehold(uses=1,priority=1)->и вот,</li>
     <li>andBehold->и</li>
   </TheistMyth.rules.rulesStrings>
   
