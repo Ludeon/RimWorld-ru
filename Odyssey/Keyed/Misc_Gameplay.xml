@@ -11,7 +11,7 @@
   <!-- EN: Cannot reach this destination -->
   <CannotLaunchDestination>Невозможно достичь этого пункта назначения</CannotLaunchDestination>
   <!-- EN: Cannot land on the same tile -->
-  <CannotLandOnSameTile>TODO</CannotLandOnSameTile>
+  <CannotLandOnSameTile>Невозможно приземлиться на ту же клетку</CannotLandOnSameTile>
   <!-- EN: Connected substructure -->
   <ConnectedSubstructure>Подсоединённая надстройка</ConnectedSubstructure>
   <!-- EN: Substructure blueprints placed -->
@@ -59,7 +59,7 @@
   <!-- EN: Can't place in undiscovered area -->
   <GravshipBlockedByFog>Нельзя разместить в затуманенной области</GravshipBlockedByFog>
   <!-- EN: Blocked by roof -->
-  <GravshipBlockedByRoof>TODO</GravshipBlockedByRoof>
+  <GravshipBlockedByRoof>Заблокировано крышей</GravshipBlockedByRoof>
   <!-- EN: Can't place outside map bounds -->
   <GravshipOutOfBounds>Нельзя разместить за пределами карты</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
@@ -109,13 +109,13 @@
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>блокируется надстройкой</BlockedBySubstructure>
   <!-- EN: {PAWN_nameDef} cannot board {1} -->
-  <FailedToBoardGravship>TODO</FailedToBoardGravship>
+  <FailedToBoardGravship>{PAWN_nameDef} не может зайти на {1}</FailedToBoardGravship>
   <!-- EN: {PAWN_nameDef} cannot exit {1} -->
-  <FailedToLeaveGravship>TODO</FailedToLeaveGravship>
+  <FailedToLeaveGravship>{PAWN_nameDef} не может покинуть {1}</FailedToLeaveGravship>
   <!-- EN: View range -->
-  <ViewRange>TODO</ViewRange>
+  <ViewRange>Показать дальность полёта</ViewRange>
   <!-- EN: View the gravship’s current range on the world map. -->
-  <ViewRangeDesc>TODO</ViewRangeDesc>
+  <ViewRangeDesc>Показать текущую дальность полёта гравикорабля на карте мира.</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
@@ -183,7 +183,7 @@
   <!-- EN: below minimum fish population -->
   <FishingSpotUnderTargetPopulation>популяция рыбы ниже минимума</FishingSpotUnderTargetPopulation>
   <!-- EN: stored fish exceed fishing zone settings -->
-  <FishingSpotOverTargetResourceCount>TODO</FishingSpotOverTargetResourceCount>
+  <FishingSpotOverTargetResourceCount>рыбы на складе больше, чем указано для вылова</FishingSpotOverTargetResourceCount>
   <!-- EN: Fishing -->
   <TabFishing>Рыбалка</TabFishing>
   <!-- EN: Fish population -->
@@ -320,9 +320,9 @@
   <!-- EN: Direct all mastered animals to attack a specific target. -->
   <AnimalsAttackTargetDesc>Приказать всем приручённым животным атаковать выбранную цель.</AnimalsAttackTargetDesc>
   <!-- EN: Cancel attack -->
-  <CancelAttack>TODO</CancelAttack>
+  <CancelAttack>Отменить атаку</CancelAttack>
   <!-- EN: Clear this animal's current target. -->
-  <CancelAttackDesc>TODO</CancelAttackDesc>
+  <CancelAttackDesc>Приказать этому животному остановить атаку текущей цели.</CancelAttackDesc>
   <!-- EN: This animal does not have a master -->
   <NoMaster>У этого животного нет хозяина</NoMaster>
   <!-- EN: This animal's master is not on this map -->
