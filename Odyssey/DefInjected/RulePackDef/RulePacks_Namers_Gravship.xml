@@ -99,9 +99,9 @@
   -->
   <NamerGravship.rulePack.rulesStrings>
     <li>r_name(p=2)->[narrative_name]</li>
-    <li>r_name(p=1)->[ship_word_masc] [narrative_name_gen]</li>
-    <li>r_name(p=1)->[ship_word_fem] [narrative_name_gen]</li>
-    <li>r_name(p=1)->[ship_word_neu] [narrative_name_gen]</li>
+    <li>r_name(p=1)->[ship_word_masc] [thing_badass_gen]</li>
+    <li>r_name(p=1)->[ship_word_fem] [thing_badass_gen]</li>
+    <li>r_name(p=1)->[ship_word_neu] [thing_badass_gen]</li>
     <li>r_name(p=0.5)->[Color] [ship_word_masc]</li>
     <li>r_name(p=0.5)->[Color_fem] [ship_word_fem]</li>
     <li>r_name(p=0.5)->[Color_neutral] [ship_word_neu]</li>
@@ -127,44 +127,39 @@
     <li>narrative_name->[thing_badass_masc]</li>
     <li>narrative_name->[thing_badass_fem]</li>
     <li>narrative_name->[thing_badass_neu]</li>
-    <li>narrative_name_gen->[thing_badass_masc_gen]</li>
-    <li>narrative_name_gen->[thing_badass_fem_gen]</li>
-    <li>narrative_name_gen->[thing_badass_neu_gen]</li>
     <li>thing_badass_masc->[AnimalBadass_masc]</li>
     <li>thing_badass_fem->[AnimalBadass_fem]</li>
     <li>thing_badass_masc->охотник на [AnimalBadass_plural_gen]</li>
-    <li>thing_badass_masc_gen->охотника на [AnimalBadass_plural_gen]</li>
+    <li>thing_badass_gen->охотника на [AnimalBadass_plural_gen]</li>
     <li>thing_badass_masc->триумф</li>
-    <li>thing_badass_masc_gen->триумфа</li>
+    <li>thing_badass_gen->триумфа</li>
     <li>thing_badass_fem->победа</li>
-    <li>thing_badass_fem_gen->победы</li>
+    <li>thing_badass_gen->победы</li>
     <li>thing_badass_neu->правосудие</li>
-    <li>thing_badass_neu_gen->правосудия</li>
+    <li>thing_badass_gen->правосудия</li>
     <li>thing_badass_fem->боль</li>
-    <li>thing_badass_fem_gen->боли</li>
+    <li>thing_badass_gen->боли</li>
     <li>thing_badass_fem->агония</li>
-    <li>thing_badass_fem_gen->агонии</li>
+    <li>thing_badass_gen->агонии</li>
     <li>thing_badass_fem->месть</li>
-    <li>thing_badass_fem_gen->мести</li>
+    <li>thing_badass_gen->мести</li>
     <li>thing_badass_neu->страдание</li>
-    <li>thing_badass_neu_gen->страдания</li>
+    <li>thing_badass_gen->страдания</li>
     <li>thing_badass_fem->мука</li>
-    <li>thing_badass_fem_gen->муки</li>
+    <li>thing_badass_gen->муки</li>
     <li>thing_badass_fem->тирания</li>
-    <li>thing_badass_fem_gen->тирании</li>
+    <li>thing_badass_gen->тирании</li>
     <li>thing_badass_masc->ужас</li>
-    <li>thing_badass_masc_gen->ужаса</li>
+    <li>thing_badass_gen->ужаса</li>
     <li>thing_badass_masc->хаос</li>
-    <li>thing_badass_masc_gen->хаоса</li>
+    <li>thing_badass_gen->хаоса</li>
     <li>thing_badass_fem->анархия</li>
-    <li>thing_badass_fem_gen->анархии</li>
+    <li>thing_badass_gen->анархии</li>
     <li>storyname(p=50)->[story_result] [subject_gen]</li>
-    <li>storyname(p=2)->[BodyPart] [subject_gen]</li>
-    <li>storyname->[Gore] [subject_gen]</li>
-    <li>subject_gen(p=5)->[NamePerson]</li>
-    <li>subject_gen->[Animal_gen]</li>
-    <li>subject_gen->[WordTribal]</li>
-    <li>subject_gen->[PlaceOutlander]</li>
+    <li>subject_gen->[NamePerson]</li>
+    <li>subject_gen(p=2)->[Animal_gen]</li>
+    <li>subject_gen(p=2)->[WordTribal]</li>
+    <li>subject_gen(p=2)->[PlaceOutlander]</li>
     <li>story_result->радость</li>
     <li>story_result->легенда</li>
     <li>story_result->чудо</li>
