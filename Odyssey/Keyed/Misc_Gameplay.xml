@@ -121,15 +121,15 @@
   <!-- EN: Landmark -->
   <Landmark>Ориентир</Landmark>
   <!-- EN: {ANIMALKIND_label} habitat -->
-  <AnimalHabitat>место обитания: {ANIMALKIND_label}</AnimalHabitat>
+  <AnimalHabitat>местообитание {lookup: {lookup: {ANIMALKIND_label}; Plural; 1}; Case; 1}</AnimalHabitat>
   <!-- EN: {0} grove -->
-  <PlantGrove>роща {0}</PlantGrove>
+  <PlantGrove>заросли {lookup: {0}; Case; 1}</PlantGrove>
   <!-- EN: {0} -->
   <WildPlants>{0}</WildPlants>
   <!-- EN: {MINERAL_label} rich -->
-  <MineralRich>богато на {MINERAL_label}</MineralRich>
+  <MineralRich>{MINERAL_label}</MineralRich>
   <!-- EN: This area has more {MINERAL_label} deposits than normal. -->
-  <MineralRichDescription>В этой области есть несколько крупных залежей {MINERAL_label}.</MineralRichDescription>
+  <MineralRichDescription>В этой местности имеется больше {lookup: {MINERAL_label}; Case; 1}, чем обычно.</MineralRichDescription>
 
   <!-- Insect Lair -->
   <!-- EN: Cave entrance -->
