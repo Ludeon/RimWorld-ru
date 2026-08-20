@@ -10,7 +10,7 @@ Usage:
   ./script/setup.ps1 -Remove  # remove everything this script created
 #>
 
-[CmdletBinding()]
+[CmdletBinding(SupportsShouldProcess)]
 param(
     [switch]$Remove
 )
@@ -32,7 +32,7 @@ if ($Remove) {
         Set-DataLink -RepoRoot $repoRoot -Dlc $dlc -Remove
     }
     $dataRoot = "$repoRoot/.Data"
-    if ((Test-Path -LiteralPath $dataRoot) -and -not (Get-ChildItem -LiteralPath $dataRoot)) {
+    if ((Test-Path -LiteralPath $dataRoot) -and -not (Get-ChildItem -LiteralPath $dataRoot) -and $PSCmdlet.ShouldProcess($dataRoot, 'Remove')) {
         Remove-Item -LiteralPath $dataRoot -Force
     }
     Write-Host 'Done.'

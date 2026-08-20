@@ -5,7 +5,7 @@ repo, for reference while translating.
 #>
 
 function Set-DataLink {
-    [CmdletBinding()]
+    [CmdletBinding(SupportsShouldProcess)]
     param(
         [Parameter(Mandatory)][string]$RimWorldPath,
         [Parameter(Mandatory)][string]$RepoRoot,
@@ -16,7 +16,7 @@ function Set-DataLink {
     $dlcDataRoot = "$RepoRoot/.Data/$Dlc"
 
     if ($Remove) {
-        if (Test-Path -LiteralPath $dlcDataRoot) {
+        if ((Test-Path -LiteralPath $dlcDataRoot) -and $PSCmdlet.ShouldProcess($dlcDataRoot, 'Remove')) {
             Remove-Item -LiteralPath $dlcDataRoot -Recurse -Force
             Write-Verbose "Removed: $dlcDataRoot"
         }

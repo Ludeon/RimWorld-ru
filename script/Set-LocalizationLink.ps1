@@ -6,7 +6,7 @@ copied version. The link is named after this repo's own root folder name.
 #>
 
 function Set-LocalizationLink {
-    [CmdletBinding()]
+    [CmdletBinding(SupportsShouldProcess)]
     param(
         [Parameter(Mandatory)][string]$RimWorldPath,
         [Parameter(Mandatory)][string]$RepoRoot,
@@ -18,7 +18,7 @@ function Set-LocalizationLink {
     $linkPath = "$RimWorldPath/Data/$Dlc/Languages/$repoName"
 
     if ($Remove) {
-        if (Test-Path -LiteralPath $linkPath) {
+        if ((Test-Path -LiteralPath $linkPath) -and $PSCmdlet.ShouldProcess($linkPath, 'Remove')) {
             Remove-Item -LiteralPath $linkPath -Force -Recurse
             Write-Verbose "Removed: $linkPath"
         }

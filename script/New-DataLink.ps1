@@ -5,7 +5,7 @@ right target, warns and does nothing if the source doesn't exist.
 #>
 
 function New-DataLink {
-    [CmdletBinding()]
+    [CmdletBinding(SupportsShouldProcess)]
     param([string]$LinkPath, [string]$TargetPath)
 
     if (-not (Test-Path -LiteralPath $TargetPath)) {
@@ -18,6 +18,14 @@ function New-DataLink {
         if ($existing.LinkType -and $existing.Target -contains $TargetPath) {
             return # already set up correctly
         }
+    }
+
+    $linkType = $IsWindows ? 'Junction' : 'SymbolicLink'
+    if (-not $PSCmdlet.ShouldProcess($LinkPath, "Link to $TargetPath ($linkType)")) {
+        return
+    }
+
+    if (Test-Path -LiteralPath $LinkPath) {
         Remove-Item -LiteralPath $LinkPath -Force -Recurse
     }
 
@@ -26,7 +34,6 @@ function New-DataLink {
         New-Item -ItemType Directory -Path $parent -Force | Out-Null
     }
 
-    $linkType = $IsWindows ? 'Junction' : 'SymbolicLink'
     New-Item -ItemType $linkType -Path $LinkPath -Target $TargetPath | Out-Null
     Write-Verbose "OK  $LinkPath"
 }
