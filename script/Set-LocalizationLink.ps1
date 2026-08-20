@@ -6,6 +6,7 @@ copied version. The link is named after this repo's own root folder name.
 #>
 
 function Set-LocalizationLink {
+    [CmdletBinding()]
     param(
         [Parameter(Mandatory)][string]$RimWorldPath,
         [Parameter(Mandatory)][string]$RepoRoot,
@@ -19,7 +20,7 @@ function Set-LocalizationLink {
     if ($Remove) {
         if (Test-Path -LiteralPath $linkPath) {
             Remove-Item -LiteralPath $linkPath -Force -Recurse
-            Write-Host "Removed: $linkPath"
+            Write-Verbose "Removed: $linkPath"
         }
         return
     }

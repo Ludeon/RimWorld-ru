@@ -39,10 +39,10 @@ if ($Remove) {
     return
 }
 
-Write-Host "Using RimWorld: $RimWorldPath"
+Write-Verbose "Using RimWorld: $RimWorldPath"
 
 foreach ($dlc in $dlcs) {
-    Write-Host "`n${dlc}:"
+    Write-Verbose "${dlc}:"
     Set-LocalizationLink -RimWorldPath $RimWorldPath -RepoRoot $repoRoot -Dlc $dlc
     Set-DataLink -RimWorldPath $RimWorldPath -RepoRoot $repoRoot -Dlc $dlc
 }

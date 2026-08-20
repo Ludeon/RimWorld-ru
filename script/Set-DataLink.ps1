@@ -5,6 +5,7 @@ repo, for reference while translating.
 #>
 
 function Set-DataLink {
+    [CmdletBinding()]
     param(
         [Parameter(Mandatory)][string]$RimWorldPath,
         [Parameter(Mandatory)][string]$RepoRoot,
@@ -17,7 +18,7 @@ function Set-DataLink {
     if ($Remove) {
         if (Test-Path -LiteralPath $dlcDataRoot) {
             Remove-Item -LiteralPath $dlcDataRoot -Recurse -Force
-            Write-Host "Removed: $dlcDataRoot"
+            Write-Verbose "Removed: $dlcDataRoot"
         }
         return
     }

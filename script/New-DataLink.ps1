@@ -5,6 +5,7 @@ right target, warns and does nothing if the source doesn't exist.
 #>
 
 function New-DataLink {
+    [CmdletBinding()]
     param([string]$LinkPath, [string]$TargetPath)
 
     if (-not (Test-Path -LiteralPath $TargetPath)) {
@@ -27,5 +28,5 @@ function New-DataLink {
 
     $linkType = $IsWindows ? 'Junction' : 'SymbolicLink'
     New-Item -ItemType $linkType -Path $LinkPath -Target $TargetPath | Out-Null
-    Write-Host "  OK  $LinkPath"
+    Write-Verbose "OK  $LinkPath"
 }
