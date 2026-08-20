@@ -78,6 +78,19 @@ https://github.com/asidsx/RimWorldRuslangAutoUpdater/blob/main/auto.bat
 ## Желающим помочь проекту:
 Процесс перевода и организация командной работы описаны в [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
 
+### Настройка рабочего окружения
+
+Чтобы не копировать файлы перевода в игру руками при каждом изменении, в репозитории есть PowerShell-скрипты, которые связывают эту папку с локально установленной RimWorld через junction (Windows) или symlink (Linux/macOS). Требуется [PowerShell 7+](https://learn.microsoft.com/powershell/scripting/install/installing-powershell) (`pwsh`).
+
+```powershell
+./script/setup.ps1          # найти/подтвердить путь к игре и настроить всё сразу; безопасно запускать повторно
+./script/setup.ps1 -Remove  # убрать созданные ссылки
+```
+
+Скрипт настраивает две вещи для каждого установленного DLC:
+* игра начинает читать перевод прямо из репозитория (вместо `Data/<DLC>/Languages/Russian`);
+* в `.Data/**` появляются ссылки на английские исходники игры — удобно для сверки при переводе.
+
 Обсуждение всех вопросов происходит в [чате Телеграма](https://t.me/joinchat/CEY0QEO8s3S-29d_uv1SaQ) и в [группе ВКонтакте](https://vk.com/rimworld_russian).
 
 Тема на официальном форуме разработчика, посвящённая переводам: http://ludeon.com/forums/index.php?topic=2933.0
