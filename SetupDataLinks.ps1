@@ -4,20 +4,19 @@ Creates junction (Windows) or symlink (Linux/macOS) links in .Data/**
 pointing at the data of a locally installed RimWorld.
 
 Usage:
-  ./SetupDataLinks.ps1                          # auto-detect / prompt for path, safe to re-run
-  ./SetupDataLinks.ps1 -RimWorldPath 'C:\...\RimWorld'
-  ./SetupDataLinks.ps1 -Remove                  # remove .Data entirely
+  ./SetupDataLinks.ps1          # auto-detect / confirm / prompt for path, safe to re-run
+  ./SetupDataLinks.ps1 -Remove  # remove .Data entirely
 #>
 
 [CmdletBinding()]
 param(
-    [string]$RimWorldPath,
     [switch]$Remove
 )
 
 $ErrorActionPreference = 'Stop'
 
 . "$PSScriptRoot/Resolve-RimWorldPath.ps1"
+. "$PSScriptRoot/New-DataLink.ps1"
 
 $repoRoot = $PSScriptRoot
 $dataRoot = "$repoRoot/.Data"
@@ -33,36 +32,10 @@ if ($Remove) {
     return
 }
 
-$RimWorldPath = Resolve-RimWorldPath -RimWorldPath $RimWorldPath
+$RimWorldPath = Resolve-RimWorldPath
 Write-Host "Using RimWorld: $RimWorldPath"
 
 $dlcs = @('Core', 'Royalty', 'Ideology', 'Biotech', 'Anomaly', 'Odyssey')
-
-function New-DataLink {
-    param([string]$LinkPath, [string]$TargetPath)
-
-    if (-not (Test-Path -LiteralPath $TargetPath)) {
-        Write-Warning "Source not found, skipping: $TargetPath"
-        return
-    }
-
-    if (Test-Path -LiteralPath $LinkPath) {
-        $existing = Get-Item -LiteralPath $LinkPath -Force
-        if ($existing.LinkType -and $existing.Target -contains $TargetPath) {
-            return # already set up correctly
-        }
-        Remove-Item -LiteralPath $LinkPath -Force -Recurse
-    }
-
-    $parent = Split-Path -Parent $LinkPath
-    if (-not (Test-Path -LiteralPath $parent)) {
-        New-Item -ItemType Directory -Path $parent -Force | Out-Null
-    }
-
-    $linkType = $IsWindows ? 'Junction' : 'SymbolicLink'
-    New-Item -ItemType $linkType -Path $LinkPath -Target $TargetPath | Out-Null
-    Write-Host "  OK  $LinkPath"
-}
 
 foreach ($dlc in $dlcs) {
     Write-Host "$dlc..."

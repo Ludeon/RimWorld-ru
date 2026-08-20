@@ -1,7 +1,7 @@
 <#
-Resolves the path to a locally installed RimWorld: explicit parameter,
-then auto-detection, then an interactive prompt as a last resort.
-Validates the result.
+Resolves the path to a locally installed RimWorld: auto-detects a default
+path and asks the user to confirm it, falling back to an interactive
+prompt if there is no default or the user rejects it. Validates the result.
 #>
 
 function Find-DefaultRimWorldPath {
@@ -29,15 +29,16 @@ function Find-DefaultRimWorldPath {
 }
 
 function Resolve-RimWorldPath {
-    param(
-        [string]$RimWorldPath
-    )
+    $RimWorldPath = Find-DefaultRimWorldPath
 
-    if (-not $RimWorldPath) {
-        $RimWorldPath = Find-DefaultRimWorldPath
+    if ($RimWorldPath) {
+        $answer = Read-Host "Found RimWorld at '$RimWorldPath'. Use this path? [Y/n]"
+        if ($answer -match '^n') {
+            $RimWorldPath = $null
+        }
     }
 
-    if (-not $RimWorldPath -or -not (Test-Path -LiteralPath (Join-Path $RimWorldPath 'Data'))) {
+    if (-not $RimWorldPath) {
         $RimWorldPath = Read-Host 'Enter the path to the installed RimWorld folder (e.g. ...\Steam\steamapps\common\RimWorld)'
     }
 
