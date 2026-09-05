@@ -54,3 +54,6 @@ string GenderUtility.GetPossessive(this Gender gender)
 , который в зависимости от пола персонажа, подставит строку `"Prohis".Translate()`, `"Proits".Translate()` или `"Proher".Translate()` 
 
 Игра вновь обращается к Keyed-строке, но на этот раз по ключу `Prohis`, `Proits` или `Proher`, соответственно. Поиском по этим ключам по всем .xml файлам в папках Keyed локализации можно найти, что в файле `Core\Keyed\Grammar.xml` этим ключам соответствуют строки `его`, `его` и `её`.
+
+Полный список типов данных, подсимволов, которые для них доступны, и что
+каждый из них подставляет — см. [035-grammar-symbols.md](035-grammar-symbols.md).
