@@ -54,16 +54,28 @@
   <AncientGravReactor.comps.CompLetterOnRevealed.text>Вы обнаружили древний гравитационный реактор. Взломайте или уничтожьте его, чтобы получить гравиядро и прекратить выпадение токсичных осадкой.\n\nБудьте осторожны: при повреждении он может взорваться.</AncientGravReactor.comps.CompLetterOnRevealed.text>
   
   <!-- EN: ancient stockpile entrance -->
-  <AncientHatch.label>древний вход на склад</AncientHatch.label>
+  <AncientHatch.label>вход на древний склад</AncientHatch.label>
   <!-- EN: The entrance to a long-abandoned subterranean facility. Hack it to open the hatch. -->
   <AncientHatch.description>Вход в давно заброшенное подземное помещение. Взломайте, чтобы открыть люк.</AncientHatch.description>
   <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
   <AncientHatch.comps.CompHackable.hackedMessage>{HACKER_labelShort} завершает взлом {SUBJECT_labelNoParenthesisDef}.</AncientHatch.comps.CompHackable.hackedMessage>
   <!-- EN: Hack to open. -->
   <AncientHatch.comps.CompHackable.notHackedInspectString>Взломайте, чтобы открыть.</AncientHatch.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Sealed -->
+  <AncientHatch.comps.CompSealable.cannotEnterLabel>Запечатано</AncientHatch.comps.CompSealable.cannotEnterLabel>
+  <!-- EN: Cannot seal -->
+  <AncientHatch.comps.CompSealable.cannotSealLabel>Невозможно запечатать</AncientHatch.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <AncientHatch.comps.CompSealable.confirmSealText>Запечатывание древнего склада необратимо. Всё или все, кто останется внутри, будут потеряны навсегда.\n\nВы уверены, что хотите продолжить?</AncientHatch.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <AncientHatch.comps.CompSealable.sealCommandDesc>Навсегда запечатать вход. Всё и все, кто останется внутри, будут утеряны навсегда.</AncientHatch.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Seal entrance -->
+  <AncientHatch.comps.CompSealable.sealCommandLabel>Запечатать вход</AncientHatch.comps.CompSealable.sealCommandLabel>
+  <!-- EN: Permanently sealed. -->
+  <AncientHatch.comps.CompSealable.sealedInspectString>Запечатано навсегда.</AncientHatch.comps.CompSealable.sealedInspectString>
   
   <!-- EN: ancient stockpile exit -->
-  <AncientHatchExit.label>древний выход со склада</AncientHatchExit.label>
+  <AncientHatchExit.label>выход из древнего склада</AncientHatchExit.label>
   <!-- EN: A ladder which links to the surface hatch above. -->
   <AncientHatchExit.description>Лестница, ведущая к верхнему люку на поверхности.</AncientHatchExit.description>
   

@@ -10,8 +10,10 @@
   <CannotLaunchNotEnoughFuel>недостаточно топлива</CannotLaunchNotEnoughFuel>
   <!-- EN: Cannot reach this destination -->
   <CannotLaunchDestination>Невозможно достичь этого пункта назначения</CannotLaunchDestination>
+  <!-- EN: Cannot land on the same tile -->
+  <CannotLandOnSameTile>Невозможно приземлиться на ту же клетку</CannotLandOnSameTile>
   <!-- EN: Connected substructure -->
-  <ConnectedSubstructure>Подсоединенная надстройка</ConnectedSubstructure>
+  <ConnectedSubstructure>Подсоединённая надстройка</ConnectedSubstructure>
   <!-- EN: Substructure blueprints placed -->
   <SubstructureBlueprintsCount>Чертежи надстроек размещены</SubstructureBlueprintsCount>
   <!-- EN: not connected to grav engine -->
@@ -47,7 +49,7 @@
   <!-- EN: {0} chemfuel per tile -->
   <FuelPerTile>{0} химтоплива за клетку</FuelPerTile>
   <!-- EN: Heavy weapons systems: Requires signal jammer to approach -->
-  <RequiresSignalJammer>Тяжелые вооруженные системы: для приближения требуется глушитель сигнала</RequiresSignalJammer>
+  <RequiresSignalJammer>Системы тяжёлого вооружения: для приближения требуется глушитель сигнала</RequiresSignalJammer>
   <!-- EN: {0} landing site -->
   <GravshipLandingSite>место посадки: {0}</GravshipLandingSite>
   <!-- EN: Confirm landing area -->
@@ -56,6 +58,8 @@
   <GravshipBlockedBy>Заблокировано: {0_label}</GravshipBlockedBy>
   <!-- EN: Can't place in undiscovered area -->
   <GravshipBlockedByFog>Нельзя разместить в затуманенной области</GravshipBlockedByFog>
+  <!-- EN: Blocked by roof -->
+  <GravshipBlockedByRoof>Заблокировано крышей</GravshipBlockedByRoof>
   <!-- EN: Can't place outside map bounds -->
   <GravshipOutOfBounds>Нельзя разместить за пределами карты</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
@@ -65,7 +69,7 @@
   <!-- EN: Can't place on {0_label} -->
   <GravshipBlockedByTerrain>Нельзя разместить на {0_label}</GravshipBlockedByTerrain>
   <!-- EN: Must be connected to solid ground -->
-  <GravshipMustBeConnectedToLand>Должно быть соединено с твердой поверхностью</GravshipMustBeConnectedToLand>
+  <GravshipMustBeConnectedToLand>Должно быть соединено с твёрдой поверхностью</GravshipMustBeConnectedToLand>
   <!-- EN: Confirm landing zone to continue -->
   <ConfirmLandingToContinue>Подтвердите зону посадки для продолжения</ConfirmLandingToContinue>
   <!-- EN: a valid pilot console -->
@@ -104,6 +108,14 @@
   <MustBeOutside>должно быть снаружи</MustBeOutside>
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>блокируется надстройкой</BlockedBySubstructure>
+  <!-- EN: {PAWN_nameDef} cannot board {1} -->
+  <FailedToBoardGravship>{PAWN_nameDef} не может зайти на {1}</FailedToBoardGravship>
+  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
+  <FailedToLeaveGravship>{PAWN_nameDef} не может покинуть {1}</FailedToLeaveGravship>
+  <!-- EN: View range -->
+  <ViewRange>Показать дальность полёта</ViewRange>
+  <!-- EN: View the gravship’s current range on the world map. -->
+  <ViewRangeDesc>Показать текущую дальность полёта гравикорабля на карте мира.</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
@@ -111,7 +123,7 @@
   <!-- EN: {ANIMALKIND_label} habitat -->
   <AnimalHabitat>место обитания: {ANIMALKIND_label}</AnimalHabitat>
   <!-- EN: {0} grove -->
-  <PlantGrove>рощa {0}</PlantGrove>
+  <PlantGrove>роща {0}</PlantGrove>
   <!-- EN: {0} -->
   <WildPlants>{0}</WildPlants>
   <!-- EN: {MINERAL_label} rich -->
@@ -129,9 +141,9 @@
   <!-- EN: Insects are tunneling up from underneath the ground. Be prepared! -->
   <InsectAmbushLetterText>Насекомые прокладывают туннели из-под земли. Будьте готовы!</InsectAmbushLetterText>
   <!-- EN: Muffled chittering -->
-  <LetterLabelInsectQueenWarning>Приглушенный стрекот</LetterLabelInsectQueenWarning>
+  <LetterLabelInsectQueenWarning>Приглушённый стрекот</LetterLabelInsectQueenWarning>
   <!-- EN: Behind a nearby wall, {PAWN_nameDef} can hear muffled pulsations accompanied by a low chittering noise. Something massive lies behind the wall. -->
-  <LetterInsectQueenWarning>За ближайшей стеной {PAWN_nameDef} слышит приглушенные вибрации и низкий стрекот. За стеной скрывается нечто огромное.</LetterInsectQueenWarning>
+  <LetterInsectQueenWarning>За ближайшей стеной {PAWN_nameDef} слышит приглушённые вибрации и низкий стрекот. Там скрывается нечто огромное.</LetterInsectQueenWarning>
   
   <!-- Overlay -->
   <!-- EN: Toggle vacuum overlay. This displays which areas have vacuum and identifies leaks.\n\nWithout the right equipment, exposure to vacuum can be deadly. -->
@@ -170,6 +182,8 @@
   <FishingSpotFrozen>замёрзло</FishingSpotFrozen>
   <!-- EN: below minimum fish population -->
   <FishingSpotUnderTargetPopulation>популяция рыбы ниже минимума</FishingSpotUnderTargetPopulation>
+  <!-- EN: stored fish exceed fishing zone settings -->
+  <FishingSpotOverTargetResourceCount>рыбы на складе больше, чем указано для вылова</FishingSpotOverTargetResourceCount>
   <!-- EN: Fishing -->
   <TabFishing>Рыбалка</TabFishing>
   <!-- EN: Fish population -->
@@ -187,11 +201,11 @@
 
   <!-- Sand -->
   <!-- EN: Windswept sand -->
-  <Sand>Нанесенный ветром песок</Sand>
+  <Sand>Нанесённый ветром песок</Sand>
   <!-- EN: No sand -->
   <SandNone>Песка нет</SandNone>
   <!-- EN: dusting -->
-  <SandDusting>припорошен</SandDusting>
+  <SandDusting>припорошено</SandDusting>
   <!-- EN: thin -->
   <SandThin>тонкий слой</SandThin>
   <!-- EN: medium -->
@@ -199,7 +213,7 @@
   <!-- EN: thick -->
   <SandThick>толстый слой</SandThick>
   <!-- EN: Windswept sand -->
-  <Sand_Label>Нанесенный ветром песок</Sand_Label>
+  <Sand_Label>Нанесённый ветром песок</Sand_Label>
   <!-- EN: clearing sand. -->
   <JobClearingSand>очистка от песка.</JobClearingSand>
   <!-- EN: clearing sand -->
@@ -261,7 +275,7 @@
   <!-- EN: {PAWN_nameDef} begins to tear apart the hair-thin cerebral mesh inside the cerebrex core. The mesh twists and groans, as if alive. Electricity arcs among the latticework frame - then in an instant, all goes dark and lifeless.\n\nThe mechanoid whirring stops. Here, and all across the planet, mechanoids begin to permanently deactivate, no longer under the control of the mechhive.\n\nThe mechanoid threat is over. But your story continues... -->
   <OdysseyDestroyedCredits>{PAWN_nameDef} начинает разрывать тончайшую мозговую сеть внутри ядра церебрекса. Сеть изгибается и стонет, будто живая. По решетчатому каркасу пробегают электрические дуги — и в одно мгновение всё замирает, становится безжизненным.\n\nШум механоидов стихает. Здесь, да и по всей планете, механоиды начинают навсегда отключаться, больше они не под контролем мехроя.\n\nУгроза механоидов устранена. Но ваша история продолжается...</OdysseyDestroyedCredits>
   <!-- EN: {PAWN_nameDef} begins working to free a processing node buried within the core. The latticework frame convulses as if in agony. As {PAWN_nameDef} pulls the node free, the mesh begins to mend, repairing the damage. The core rebuilds its defences and closes.\n\nTurning the node over, {PAWN_nameDef} recoils as it sparks to life, pulsing in time with the core. In {PAWN_possessive} hand, {PAWN_nameDef} holds a weapon of untold power.\n\nThe story continues... -->
-  <OdysseyScavengedCredits>{PAWN_nameDef} начинает вытаскивать вычислительный узел из глубины ядра. Каркас судорожно содрогается, будто в агонии. Как только {PAWN_nameDef} вырывает узел, сеть начинает восстанавливаться, чинить повреждения. Ядро восстанавливает защиту и закрывается.\n\nПереворачивая узел, {PAWN_nameDef} отдергивает руку, когда тот загорается, пульсируя в такт сердцу ядра. В руке {PAWN_nameDef} держит оружие невероятной силы.\n\nИстория продолжается...</OdysseyScavengedCredits>
+  <OdysseyScavengedCredits>{PAWN_nameDef} начинает вытаскивать вычислительный узел из глубины ядра. Сетчатый каркас судорожно содрогается, будто в агонии. Когда {PAWN_nameDef} вырывает узел, сетка начинает затягиваться, устраняя повреждения. Ядро восстанавливает защиту и закрывается.\n\n{PAWN_nameDef} переворачивает узел и тут же отпрядывает — узел ожил и пульсирует в такт ядру. {PAWN_nameDef} держит в руке оружие невероятной силы.\n\nИстория продолжается...</OdysseyScavengedCredits>
 
   <!-- EN: {0} stabilizers remaining -->
   <CoreNotInteractableStabilizersRemaining>Осталось стабилизаторов: {0}</CoreNotInteractableStabilizersRemaining>
@@ -281,8 +295,10 @@
   <!-- EN: Unique weapon -->
   <UniqueWeapon>Уникальное оружие</UniqueWeapon>
 
+  <!-- EN: Reforming a caravan will abandon your gravship. Are you sure you want to continue?\n\nTo leave with your gravship, select the gravship's pilot console, then select 'launch'. -->
+  <ConfirmLoseGravship>Продолжение пути в караване приведёт к утере гравикорабля. Вы уверены, что хотите продолжить?\n\nЧтобы покинуть место на гравикорабле, выберите пульт пилота и нажмите «Запустить...».</ConfirmLoseGravship>
   <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
-  <ConfirmLoseShuttle>Продолжение пути в караване приведёт к утере челнока. Вы уверены, что хотите продолжить?\n\nЧтобы покинуть место на челноке, выберите челнок и нажмите «Запустить».</ConfirmLoseShuttle>
+  <ConfirmLoseShuttle>Продолжение пути в караване приведёт к утере челнока. Вы уверены, что хотите продолжить?\n\nЧтобы покинуть место на челноке, выберите его и нажмите «Запустить».</ConfirmLoseShuttle>
 
   <!-- EN: Discover a quest -->
   <BookHasQuest>Открыть задание</BookHasQuest>
@@ -302,7 +318,11 @@
   <!-- EN: Animals attack target -->
   <AnimalsAttackTarget>Животные атакуют цель</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
-  <AnimalsAttackTargetDesc>Приказать всем прирученным животным атаковать выбранную цель.</AnimalsAttackTargetDesc>
+  <AnimalsAttackTargetDesc>Приказать всем приручённым животным атаковать выбранную цель.</AnimalsAttackTargetDesc>
+  <!-- EN: Cancel attack -->
+  <CancelAttack>Отменить атаку</CancelAttack>
+  <!-- EN: Clear this animal's current target. -->
+  <CancelAttackDesc>Приказать этому животному остановить атаку текущей цели.</CancelAttackDesc>
   <!-- EN: This animal does not have a master -->
   <NoMaster>У этого животного нет хозяина</NoMaster>
   <!-- EN: This animal's master is not on this map -->
@@ -318,18 +338,10 @@
   <!-- EN: Allow digging -->
   <DigEnabled>Разрешить копание</DigEnabled>
 
-  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>Запечатывание древнего запаса необратимо. Всё или все, кто останется внутри, будут потеряны навсегда.\n\nВы уверены, что хотите продолжить?</ConfirmSealHatch>
-  <!-- EN: Cannot seal -->
-  <CannotChooseSealer>Невозможно запечатать</CannotChooseSealer>
-  <!-- EN: Sealed -->
-  <Sealed>Запечатано</Sealed>
-  <!-- EN: Permanently sealed. -->
-  <HatchSealed>Запечатано навсегда.</HatchSealed>
   <!-- EN: Unlocked. -->
   <HatchUnlocked>Открыто.</HatchUnlocked>
 
   <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
-  <GravshipShieldTip>Недолго существующая поверхность-рефлектор, блокирующая снаряды. Работает против обычных выстрелов и минометов. Немедленно отключается при попадании ЭМИ.</GravshipShieldTip> <!-- text_todo -->
+  <GravshipShieldTip>Временный импульсно-репульсорный щит, перехватывающий снаряды как с настильной, так и с навесной траекториями. Мгновенно отключается в случае воздействя ЭМИ.</GravshipShieldTip>
 
 </LanguageData>
