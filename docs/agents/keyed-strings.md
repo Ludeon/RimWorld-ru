@@ -7,52 +7,58 @@
 - Имя элемента является ключом
 - Текст внутри этого элемента является значением
 
-В коде доступ к этим данным осуществляется через методы расширения вида:
+Оригинальные Keyed-строки находятся по путям `.Data/**/Keyed/*.xml`. Локализованные — во всех остальных папках Keyed: `**/Keyed/*.xml`.
+
+## Как код обращается к строкам
 
 ```csharp
-TaggedString Translate(this string key, NamedArgument arg1, NamedArgument arg2...)
+TaggedString Translate(this string key)
+TaggedString Translate(this string key, NamedArgument arg1, NamedArgument arg2, ...)  // до 8 штук, либо params NamedArgument[]
 ```
 
-или через метод
+`NamedArgument` — структура `{ object arg; string label; }`. У неё есть неявное преобразование из большинства игровых типов (`Pawn`/`Thing`, `Def`, `Faction`, `Map`, `IntVec3`, `TargetInfo`, чисел, строк и т.д.), поэтому значение можно передать в `Translate(...)` напрямую, без обёртки — тогда `label` останется `null`. Явно задать `label` можно методом `.Named("ИМЯ")` (определён как extension-метод для тех же типов).
+
+Сами перегрузки `Translate(...)` с аргументами внутри вызывают более низкоуровневый
 
 ```csharp
 public static TaggedString GrammarResolverSimple.Formatted(TaggedString str, List<string> argsLabelsArg, List<object> argsObjectsArg)
 ```
 
-Эти методы обращаются за локализованной или оригинальной строкой, в зависимости от выбранного в игре языка:
+который и подставляет аргументы в плейсхолдеры строки.
 
-- Оригинальные Keyed-строки находятся по путям `.Data/**/Keyed/*.xml`
-- Локализованные Keyed-строки находятся во всех остальных папках Keyed:
-  `**/Keyed/*.xml`
+## Как разрешается плейсхолдер `{...}`
 
-## Пример
+Плейсхолдер в строке выглядит как `{ИДЕНТИФИКАТОР}` или `{ИДЕНТИФИКАТОР_подсимвол}`. `ИДЕНТИФИКАТОР` разрешается в методе `GrammarResolverSimple.TryResolveInner` так:
 
-В коде есть строка
+1. **Если `ИДЕНТИФИКАТОР` — число N.** Берётся N-й аргумент вызова, считая **все** аргументы подряд по порядку следования в вызове (`argsObjects[N]`), **независимо от того, был ли у этого конкретного аргумента задан `.Named(...)`**. Отсюда плейсхолдеры вида `{0}`, `{1}`, ...
+2. **Иначе.** Среди аргументов ищется тот, чей `label` (заданный через `.Named("ИДЕНТИФИКАТОР")`) точно совпадает с `ИДЕНТИФИКАТОР`.
+
+Если после идентификатора есть `_подсимвол`, для найденного объекта-аргумента вызывается `TryResolveSymbol`: он смотрит на C#-тип объекта (`Pawn`, `Thing`, `Gender` и т.д.) и подставляет соответствующие данные — склонение, род, притяжательную форму и т.п. Полный список подсимволов по типу — см. [grammar-symbols.md](grammar-symbols.md), либо `python tools/subsymbols.py <Тип>` (актуальнее, генерируется из кода игры).
+
+## Пример (иллюстрация механизма)
+
+В коде есть строка:
 
 ```csharp
-	command_Toggle2.defaultDesc = "BiosculpterAutoAgeReversalDescription".Translate(biotunedTo.Named("PAWN"), taggedString.Named("NEXTTREATMENT"));
+command_Toggle2.defaultDesc = "BiosculpterAutoAgeReversalDescription".Translate(biotunedTo.Named("PAWN"), taggedString.Named("NEXTTREATMENT"));
 ```
 
-Игра обращается к Keyed-строке по ключу `BiosculpterAutoAgeReversalDescription`. Это значит, что где-то в проекте существует Keyed-файл с элементом `BiosculpterAutoAgeReversalDescription`. И действительно, поиском по всем .xml файлам в папках Keyed локализации можно найти такой элемент в файле `Ideology\Keyed\FloatMenu.xml`:
+Ключу `BiosculpterAutoAgeReversalDescription` соответствует строка в `Ideology\Keyed\FloatMenu.xml`:
+
 ```xml
-  <BiosculpterAutoAgeReversalDescription>Разрешить {PAWN_labelShort} проходить ежегодный цикл омоложения в этом биоскульпторе, в соответствии с {PAWN_possessive} убеждениями. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+<BiosculpterAutoAgeReversalDescription>Разрешить {PAWN_labelShort} проходить ежегодный цикл омоложения в этом биоскульпторе, в соответствии с {PAWN_possessive} убеждениями. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
 ```
 
-В этой строке есть конструкция `{PAWN_possessive}`. В ней `PAWN` — это символ, а `possessive` — подсимвол.
-
-- Символ `PAWN` указывает, что вместо этой конструкции нужно подставить данные
-  персонажа, полученного в коде через `biotunedTo.Named("PAWN")`.
-- Подсимвол `possessive` указывает, какие именно данные нужно подставить. Этим
-  занимается метод `TryResolveSymbol` в классе `GrammarResolverSimple`.
-
-В данном примере в `TryResolveSymbol` в обработчике подсимвола `possessive` идёт обращение к методу
+`{PAWN_possessive}`: `PAWN` — символ (аргумент с `label == "PAWN"`, т.е. `biotunedTo`), `possessive` — подсимвол. За обработку подсимвола `possessive` отвечает ветка в `TryResolveSymbol`, которая для `Pawn` обращается к
 
 ```csharp
 string GenderUtility.GetPossessive(this Gender gender)
 ```
 
-, который в зависимости от пола персонажа, подставит строку `"Prohis".Translate()`, `"Proits".Translate()` или `"Proher".Translate()`
+Этот метод в зависимости от пола персонажа вернёт результат вызова `"Prohis".Translate()`, `"Proits".Translate()` или `"Proher".Translate()` — то есть подсимвол сам обращается к другому Keyed-ключу. Этим ключам в `Core\Keyed\Grammar.xml` соответствуют строки `его`, `его` и `её`.
 
-Игра вновь обращается к Keyed-строке, но на этот раз по ключу `Prohis`, `Proits` или `Proher`, соответственно. Поиском по этим ключам по всем .xml файлам в папках Keyed локализации можно найти, что в файле `Core\Keyed\Grammar.xml` этим ключам соответствуют строки `его`, `его` и `её`.
+Это показывает, что разрешение подсимвола может быть рекурсивным: подсимвол одного символа иногда сам является обращением к другой Keyed-строке.
 
-Полный список типов данных, подсимволов, которые для них доступны, и что каждый из них подставляет — см. [grammar-symbols.md](grammar-symbols.md), либо запусти `python tools/subsymbols.py <ТипC#>` для актуального (сгенерированного из кода игры) списка.
+## Как узнать, что конкретно подставляется в плейсхолдер
+
+Это отдельная практическая задача (например: "какие значения может принимать `{0_label}` в такой-то строке?") — пошаговый алгоритм для неё см. в [howto-resolve-placeholder.md](howto-resolve-placeholder.md).
