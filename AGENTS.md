@@ -22,8 +22,9 @@
 
 Подробности механики — в `docs/agents/`:
 
-- [`docs/agents/keyed-strings.md`](docs/agents/keyed-strings.md) — как работают Keyed-строки;
+- [`docs/agents/keyed-strings.md`](docs/agents/keyed-strings.md) — как работают Keyed-строки (формат, механизм подстановки аргументов);
 - [`docs/agents/def-injected.md`](docs/agents/def-injected.md) — как работают DefInjected-строки и TKeys;
+- [`docs/agents/howto-resolve-placeholder.md`](docs/agents/howto-resolve-placeholder.md) — пошаговый алгоритм: что конкретно может подставиться в плейсхолдер `{0}`/`{ИМЯ}`/`{ИМЯ_подсимвол}` в конкретной строке (общий и для Keyed, и для DefInjected — источник строки разный, механизм подстановки один);
 - [`docs/agents/grammar-symbols.md`](docs/agents/grammar-symbols.md) — какие подсимволы `{СИМВОЛ_подсимвол}` доступны для переменной данного типа;
 - [`docs/agents/defs.md`](docs/agents/defs.md) — устройство дефов (`Defs/*.xml`).
 
