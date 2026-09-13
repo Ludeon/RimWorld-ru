@@ -1,0 +1,27 @@
+name: RimWorld-ru
+version: 1.0.0
+schema: v1
+
+# Project-level конфиг Continue (версионируется вместе с репозиторием — не заменяет
+# личный ~/.continue/config.yaml каждого переводчика, а дополняет его). AGENTS.md
+# Continue подхватывает нативно из корня репозитория без дополнительной настройки —
+# трогать это не нужно.
+
+models:
+  # Отдельная запись именно для того, чтобы форсировать capabilities.tool_use: если
+  # автоопределение Continue не распознаёт конкретный тег как agent-capable, оно может
+  # молча не предъявить модели инструменты даже в Agent-режиме — тогда ответ вида "я не
+  # могу открыть файл" технически честный, а не нарушение AGENTS.md. Это не рекомендация
+  # именно этой модели — просто модель, на которой обнаружилась проблема; у каждого
+  # переводчика в личном конфиге может быть любая другая.
+  - name: Qwen2.5 Coder 7B (Ollama, tool_use forced)
+    provider: ollama
+    model: qwen2.5-coder:7b
+    roles:
+      - chat
+    capabilities:
+      - tool_use
+
+# Слэш-команда /resolve-placeholder описана отдельным файлом в prompts/resolve-placeholder.md
+# (так требует текущая документация Continue: https://docs.continue.dev/customize/deep-dives/prompts) —
+# workspace-каталог .continue/prompts/ подхватывается автоматически, добавлять его сюда не нужно.
