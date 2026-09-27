@@ -45,11 +45,11 @@ python tools/parse_placeholder.py "{точный текст}"
 
 ## Шаг 5: проверить рекурсию
 
-Подсимвол может сам обращаться к другому Keyed-ключу. Например, `{PAWN_possessive}` вызывает `GenderUtility.GetPossessive`, а та возвращает `"Prohis"`/`"Proher"`/`"Proits"`.Translate() — это `его`/`её`/`его` в `Core/Keyed/Grammar.xml`. В таком случае повтори шаги 1–4 для нового ключа.
+Подсимвол может сам обращаться к другому Keyed-ключу. Открой ветку `case "<подсимвол>":` из шага 4 и проверь, нет ли в ней (или в вызываемом из неё методе) `"Ключ".Translate()`. Если есть, повтори шаги 1–4 для этого ключа. Если такого вызова нет, рекурсии нет. Пример рекурсии: `{PAWN_possessive}` вызывает `GenderUtility.GetPossessive`, а та возвращает `"Prohis"`/`"Proher"`/`"Proits"`.Translate(), то есть `его`/`её`/`его` из `Core/Keyed/Grammar.xml`.
 
 ## Шаг 6: указать источник
 
-В ответе укажи файл и строку вызова. Не делай выводов по имени ключа, поля или по комментарию.
+В ответе укажи файл и строку **каждого** места вызова, откуда взят вывод. Если места вызова передают разные типы, покажи их все. Не делай выводов по имени ключа, поля или по комментарию. Файл, строку и тип бери только из того, что grep или чтение файла вернули в этом ответе.
 
 ---
 
@@ -63,11 +63,21 @@ python tools/parse_placeholder.py "{точный текст}"
 <FloatMenuContainmentRequires>{0_label} требует:</FloatMenuContainmentRequires>
 ```
 
-1. Грепом найден вызов в `FloatMenuOptionProvider_CarryingPawn.cs`:
-   `"FloatMenuContainmentRequires".Translate(carriedPawn).ToLower()`.
-2. `{0}` → первый аргумент, `carriedPawn`.
-3. Тип — `Pawn`: существо, которое несут, чтобы поместить в место изоляции.
-4. `label` у `Pawn` — отображаемое имя существа.
+1. Grep находит **два** вызова:
+   - `FloatMenuOptionProvider_CarryingPawn.cs`: `"FloatMenuContainmentRequires".Translate(carriedPawn).ToLower()`;
+   - `StudyUtility.cs`: `"FloatMenuContainmentRequires".Translate(entity).CapitalizeFirst()`.
+2. В обоих вызовах `{0}` — первый и единственный аргумент.
+3. Типы: `carriedPawn` — `Pawn` (существо, которое несут в место изоляции), `entity` — `Thing` (параметр метода `TargetHoldingPlatformForEntity`).
+4. `label` есть и у `Pawn`, и у `Thing`: это отображаемое название существа.
+5. Ветка `case "label":` для `Pawn` — `resolvedStr = pawn.LabelNoCountColored;`, для `Thing` — `resolvedStr = thing.Label;`. Вызова `.Translate()` в них нет, значит рекурсии нет.
+6. Источники:
+
+   | Место вызова | `{0}` | Тип | Ветка `label` |
+   |---|---|---|---|
+   | `.Decompiled/RimWorld/FloatMenuOptionProvider_CarryingPawn.cs:210` | `carriedPawn` | `Pawn` | `.Decompiled/Verse/GrammarResolverSimple.cs:328` |
+   | `.Decompiled/RimWorld/StudyUtility.cs:85` | `entity` (параметр, строка 13) | `Thing` | `.Decompiled/Verse/GrammarResolverSimple.cs:576` |
+
+Итог: на месте `{0_label}` будет название существа, которое помещают в место изоляции. В коде оно может прийти как `Pawn` или как `Thing`.
 
 ## Пример 2: DefInjected
 
@@ -81,3 +91,9 @@ python tools/parse_placeholder.py "{точный текст}"
 2. `{0}` → `base.Pawn`.
 3. Тип — `Pawn`: носитель хеддифа, у которого тяжесть превысила порог.
 4. `nameDef` у `Pawn` — имя персонажа.
+5. Ветка `case "nameDef":` для `Pawn` — `Find.ActiveLanguageWorker.WithDefiniteArticle(pawn.Name.ToStringShort, ...)`, а если имени нет `pawn.KindLabelDefinite()`. Вызова `.Translate()` в ней нет, значит рекурсии нет.
+6. Источники:
+   - вызов `.Formatted(...)`: `.Decompiled/Verse/HediffComp_MessageAboveSeverity.cs:17`;
+   - ветка `nameDef`: `.Decompiled/Verse/GrammarResolverSimple.cs:344`.
+
+Итог: на месте `{0_nameDef}` будет короткое имя носителя хеддифа, а у безымянного существа — название его вида (`KindLabel`).
