@@ -53,7 +53,7 @@ CI (`.github/workflows/main.yml`) прогоняет набор Python-пров�
 * отсутствие точки в конце `reportString` (`check_report_string_dot.py`);
 * кодировку файлов (UTF-8 с BOM) (`check_utf-8.py`);
 * валидность XML (`check_xml_format.py`);
-* соответствие `Case.txt` содержимому `DefInjected` в `WorldInfo` (`worldinfo_case.py`).
+* соответствие `Case.txt` содержимому `DefInjected` в `WordInfo` (`worldinfo_case.py`).
 
 Скрипт завершается с ненулевым кодом, если хотя бы одна проверка не прошла — так же, как соответствующий job в CI.
 
