@@ -84,6 +84,14 @@ function Set-Decompiled {
         Pop-Location
     }
 
+    # [assembly: BurstCompiler.StaticTypeReinit(...)] lines break the C# Dev Kit in VS Code.
+    $assemblyInfo = "$outDir/Properties/AssemblyInfo.cs"
+    if (Test-Path -LiteralPath $assemblyInfo) {
+        $text = Get-Content -LiteralPath $assemblyInfo -Raw
+        $text = $text -replace '(?m)^\[assembly: BurstCompiler\.StaticTypeReinit\(.*\r?\n', ''
+        Set-Content -LiteralPath $assemblyInfo -Value $text -NoNewline -Encoding utf8NoBOM
+    }
+
     # A solution file lets the C# extension in VS Code (see .vscode/settings.json) load the project.
     $projectGuid = [guid]::NewGuid().ToString().ToUpperInvariant()
     @"
