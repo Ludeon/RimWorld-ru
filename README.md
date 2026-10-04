@@ -76,7 +76,7 @@ https://github.com/asidsx/RimWorldRuslangAutoUpdater/blob/main/auto.bat
 * [Arex-rus](https://github.com/Arex-rus)
 
 ## Желающим помочь проекту:
-Процесс перевода и организация командной работы описаны в [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
+Процесс перевода, организация командной работы и настройка рабочего окружения для контрибьюторов описаны в [CONTRIBUTING.md](CONTRIBUTING.md) и в [wiki](https://github.com/Ludeon/RimWorld-ru/wiki).
 
 Обсуждение всех вопросов происходит в [чате Телеграма](https://t.me/joinchat/CEY0QEO8s3S-29d_uv1SaQ) и в [группе ВКонтакте](https://vk.com/rimworld_russian).
 
