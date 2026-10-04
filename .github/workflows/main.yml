@@ -73,7 +73,7 @@ jobs:
       - name: Проверка валидности XML
         run: python .github/workflows/check_xml_format.py
 
-  worldinfo-case-check:
+  wordinfo-case-check:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -81,5 +81,5 @@ jobs:
         with:
           ref: ${{ github.event.inputs.branch }}
 
-      - name: Проверка файлов Case.txt в папке WorldInfo
-        run: python .github/workflows/worldinfo_case.py
+      - name: Проверка файлов Case.txt в папке WordInfo
+        run: python .github/workflows/wordinfo_case.py

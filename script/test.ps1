@@ -21,7 +21,7 @@ $checks = @(
     'check_report_string_dot.py'
     'check_utf-8.py'
     'check_xml_format.py'
-    'worldinfo_case.py'
+    'wordinfo_case.py'
 )
 
 $python = Get-Command python3 -ErrorAction SilentlyContinue
