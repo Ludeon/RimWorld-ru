@@ -3,7 +3,8 @@
 One-command workspace setup. Links this repo's translation folders into a
 locally installed RimWorld (so the game reads translations straight from
 the repo) and links the game's English source data into .Data/** (for
-reference while translating), for every owned DLC.
+reference while translating), for every owned DLC. Also decompiles the
+game's C# code into .Decompiled/ (needs the .NET SDK).
 
 Usage:
   ./script/setup.ps1          # auto-detect / confirm / prompt for path, safe to re-run
@@ -21,6 +22,7 @@ $ErrorActionPreference = 'Stop'
 . "$PSScriptRoot/New-DataLink.ps1"
 . "$PSScriptRoot/Set-DataLink.ps1"
 . "$PSScriptRoot/Set-LocalizationLink.ps1"
+. "$PSScriptRoot/Set-Decompiled.ps1"
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $RimWorldPath = Resolve-RimWorldPath
@@ -31,6 +33,7 @@ if ($Remove) {
         Set-LocalizationLink -RimWorldPath $RimWorldPath -RepoRoot $repoRoot -Dlc $dlc -Remove
         Set-DataLink -RepoRoot $repoRoot -Dlc $dlc -Remove
     }
+    Set-Decompiled -RimWorldPath $RimWorldPath -RepoRoot $repoRoot -Remove
     $dataRoot = "$repoRoot/.Data"
     if ((Test-Path -LiteralPath $dataRoot) -and -not (Get-ChildItem -LiteralPath $dataRoot) -and $PSCmdlet.ShouldProcess($dataRoot, 'Remove')) {
         Remove-Item -LiteralPath $dataRoot -Force
@@ -46,5 +49,7 @@ foreach ($dlc in $dlcs) {
     Set-LocalizationLink -RimWorldPath $RimWorldPath -RepoRoot $repoRoot -Dlc $dlc
     Set-DataLink -RimWorldPath $RimWorldPath -RepoRoot $repoRoot -Dlc $dlc
 }
+
+Set-Decompiled -RimWorldPath $RimWorldPath -RepoRoot $repoRoot
 
 Write-Host "`nDone."
