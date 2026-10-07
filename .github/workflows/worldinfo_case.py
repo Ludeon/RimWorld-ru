@@ -73,6 +73,9 @@ def extract_xml_labels(definjected_folder, group_dir) -> set[str]:
                     or elem.tag.endswith(".labelFemale")
                     or elem.tag.endswith(".labelPlural")
                     or elem.tag.endswith(".labelShort")
+                    or elem.tag.endswith(".leaderTitle")
+                    or elem.tag.endswith(".pawnSingular")
+                    or elem.tag.endswith(".pawnsPlural")
             ):
                 labels.append(elem.text)
     return set(labels)
