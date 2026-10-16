@@ -1,4 +1,4 @@
-import os
+﻿import os
 import sys
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
