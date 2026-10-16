@@ -1,23 +1,64 @@
 ﻿import os
 import sys
+import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from itertools import groupby
 from enum import Enum
-
+from re import Pattern
 from helpers import print_red, print_yellow, get_xml_file_paths, DLC_DIR_NAMES
 
 
 GROUP_HEADER_PREFIX = '// '
 
-LABEL_TAG_SUFFIXES = (
-    "abel",
-    ".labelMale",
-    ".labelFemale",
-    ".labelPlural",
-    ".labelShort",
-)
+UNDEFINED_GROUP_NAME = "Undefined"
 
+@dataclass
+class EntityPattern:
+    def_injected_group: str
+    tag_pattern: Pattern[str]
+
+# BodyDef,BodyPartDef,BodyPartGroupDef,HediffDef,PawnCapacityDef,PawnKindDef,ThingDef,SitePartDef,ToolCapacityDef
+
+# Core:
+# ApparelLayerDef?
+# BiomeDef?
+# CultureDef? 
+# DesignatorDropdownGroupDef?
+# GatheringDef? GeneDef GoodwillSituationDef HairDef HediffDef HediffGiverSetDef HistoryAutoRecorderDef HistoryAutoRecorderGroupDef HistoryEventDef IncidentDef InfectionPathwayDef InspirationDef InstructionDef InteractionDef IssueDef JobDef JoyKindDef KeyBindingCategoryDef KeyBindingDef LifeStageDef MainButtonDef MechWeightClassDef MeditationFocusDef MentalBreakDef MentalStateDef NeedDef OptionCategoryDef OrderedTakeGroupDef PawnCapacityDef PawnColumnDef PawnKindDef PawnRelationDef PawnRenderTreeDef PawnsArrivalModeDef PlanetLayerDef PlanetLayerSettingsDef PreceptDef PrisonerInteractionModeDef QuestScriptDef RaidStrategyDef RecipeDef RecordDef ResearchProjectDef ResearchTabDef RitualOutcomeEffectDef RiverDef RoadDef RoofDef RoomRoleDef RoomStatDef RulePackDef ScenarioDef ScenPartDef SitePartDef SkillDef SpecialThingFilterDef StatCategoryDef StatDef StorytellerDef StuffCategoryDef StyleItemCategoryDef SurgeryOutcomeEffectDef TaleDef TattooDef TerrainAffordanceDef TerrainDef TerrainTemplateDef ThingCategoryDef ThingDef ThinkTreeDef ThoughtDef TileMutatorDef TimeAssignmentDef TipSetDef ToolCapacityDef TraderKindDef TrainabilityDef TrainableDef TraitDef TransferableSorterDef WeaponClassDef WeatherDef WorkGiverDef WorkTypeDef WorldObjectDef
+
+main_label_pattern = re.compile(r"^\w+\.label$")
+
+ENTITY_PATTERNS = [
+    EntityPattern("AbilityDef", re.compile(r"\.(label|verbProperties\.label)$")),
+    EntityPattern("BodyDef", re.compile(r"\.customLabel$")),
+    EntityPattern("BodyPartDef", re.compile(r"\.(label|labelShort)$")),
+    EntityPattern("BodyPartGroupDef", re.compile(r"\.(label|labelShort)$")),
+    EntityPattern("ChemicalDef", main_label_pattern),
+    EntityPattern("DamageDef", main_label_pattern),
+    EntityPattern("FactionDef", re.compile(r"\.(pawnsPlural|pawnSingular|royalFavorLabel|leaderTitle|leaderTitleFemale)$")),
+    EntityPattern("GameConditionDef", main_label_pattern),
+    EntityPattern("GeneDef", main_label_pattern),
+    EntityPattern("HediffDef", re.compile(r"^\w+\.(label|overrideLabel)$")),
+    EntityPattern("IssueDef", main_label_pattern),
+    EntityPattern("MapGeneratorDef", main_label_pattern),
+    EntityPattern("MemeDef", re.compile(r"\.(label|worshipRoomLabel|member)$")),
+    EntityPattern("MentalStateDef", main_label_pattern),
+    EntityPattern("MutantDef", re.compile(r"\.(label|labelNoLocation)$")),
+    EntityPattern("PawnCapacityDef", re.compile(r"\.label")),
+    EntityPattern("PawnKindDef", re.compile(r"\.(label|labelMale|labelFemale|labelPlural|labelMalePlural|labelFemalePlural)$")),
+    EntityPattern("PlanetLayerDef", main_label_pattern),
+    EntityPattern("PreceptDef", re.compile(r"IdeoRole_.*?\.label$")),
+    EntityPattern("RoomRoleDef", main_label_pattern),
+    EntityPattern("RoyalTitleDef", re.compile(r"\.(label|labelFemale)$")),
+    EntityPattern("ScenarioDef", re.compile(r"\.(xenotypeCounts|mutantCounts)\.\d+\.description$")), # Описание в xenotypeCounts/mutantCounts сценария подставляется в KINDLABEL ключа PawnCount.
+    EntityPattern("SitePartDef", main_label_pattern),
+    EntityPattern("SkillDef", main_label_pattern),
+    EntityPattern("StyleCategoryDef", main_label_pattern),
+    EntityPattern("ToolCapacityDef", main_label_pattern),
+    EntityPattern("WorldObjectDef", main_label_pattern),
+    EntityPattern("XenotypeDef", main_label_pattern),
+]
 
 @dataclass
 class EntitiesGroup:
@@ -63,22 +104,22 @@ def check_case_file(dlc_name: str) -> bool:
 def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[EntitiesGroup]) -> list[Issue]:
     issues = list()
 
-    for cased_group in cased_groups:
-        for cased_entity in cased_group.entities:
-            other_groups = set()
+    # for cased_group in cased_groups:
+    #     for cased_entity in cased_group.entities:
+    #         other_groups = set()
 
-            for xml_group in xml_groups:
-                if xml_group.name == cased_group.name:
-                    if cased_entity in xml_group.entities:
-                        continue # cased entity is in correct XML group - OK
-                else:
-                    if cased_entity in xml_group.entities:
-                        other_groups.add(xml_group.name)
+    #         for xml_group in xml_groups:
+    #             if xml_group.name == cased_group.name:
+    #                 if cased_entity in xml_group.entities:
+    #                     continue # cased entity is in correct XML group - OK
+    #             else:
+    #                 if cased_entity in xml_group.entities:
+    #                     other_groups.add(xml_group.name)
 
-            if len(other_groups) > 0:
-                issues.append(Issue(Severity.WARNING, group=cased_group.name, message=f"`{cased_entity}` есть в файле Case.txt в группе {cased_group.name}, но находится в папках {', '.join(other_groups)}"))
-            else:
-                issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"`{cased_entity}` есть в файле Case.txt, но её нет ни в одном XML файле"))
+    #         if len(other_groups) > 0:
+    #             issues.append(Issue(Severity.WARNING, group=cased_group.name, message=f"`{cased_entity}` есть в файле Case.txt в группе {cased_group.name}, но находится в папках {', '.join(other_groups)}"))
+    #         else:
+    #             issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"`{cased_entity}` есть в файле Case.txt, но её нет ни в одном XML файле"))
 
     for xml_group in xml_groups:
         for xml_entity in xml_group.entities:
@@ -88,9 +129,9 @@ def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[Entiti
                     found_in_cased += 1
 
             if found_in_cased == 0:
-                issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"`{xml_entity}` есть в папке {xml_group.name}, но её нет в файле Case.txt"))
+                issues.append(Issue(Severity.ERROR, group=xml_group.name, message=f"`{xml_entity}` есть в папке {xml_group.name}, но её нет в файле Case.txt"))
             elif found_in_cased > 1:
-                issues.append(Issue(Severity.MESSAGE, group=cased_group.name, message=f"`{xml_entity}` упомянута в файле Case.txt {found_in_cased} раз"))
+                issues.append(Issue(Severity.MESSAGE, group=xml_group.name, message=f"`{xml_entity}` упомянута в файле Case.txt {found_in_cased} раз"))
 
     return issues
 
@@ -112,15 +153,24 @@ def print_issues(issues: list[Issue]):
 
 
 def parse_case_file(path: str) -> list[EntitiesGroup]:
-    with open(path, encoding='utf-8') as f:
-        lines = f.readlines()
-
     result = []
-    next_group_start_idx = 0
-    while next_group_start_idx < (len(lines) - 1):
-        group, next_group_start_idx = parse_group(lines, next_group_start_idx)
-        if group:
-            result.append(group)
+    current_group_name = UNDEFINED_GROUP_NAME
+    current_group_entities = set()
+
+    with open(path, encoding='utf-8') as f:
+        for line in f.readlines():
+            line = line.strip()
+
+            if(line.startswith(GROUP_HEADER_PREFIX)):
+                result.append(EntitiesGroup(current_group_name, current_group_entities))
+                current_group_entities = set()
+                current_group_name = line.removeprefix(GROUP_HEADER_PREFIX)
+            elif not line:
+                continue
+            else:
+                current_group_entities.add(line.split(';')[0].strip())
+
+    result.append(EntitiesGroup(current_group_name, current_group_entities))
 
     return result
 
@@ -132,18 +182,9 @@ def parse_group(lines: list[str], start_index: int) -> tuple[EntitiesGroup | Non
     """
     group_lines = lines[start_index:]
 
-    header = group_lines[0].strip()
-    if not header.startswith(GROUP_HEADER_PREFIX):
-        print_red(f"При чтении строки {start_index} "
-                  "ожидалось, что будет указано имя файла в виде комментария `// ...`, "
-                  "но оно не было указано! Пропускаем всю группу.")
-        # skip all lines to the next group
-        for offset, line in enumerate(group_lines):
-            if line.startswith(GROUP_HEADER_PREFIX):
-                return None, start_index + offset
-        return None, len(lines)
+    first_line = group_lines[0].strip()
 
-    group_name = header.removeprefix(GROUP_HEADER_PREFIX)
+    group_name = first_line.removeprefix(GROUP_HEADER_PREFIX) if first_line.startswith(GROUP_HEADER_PREFIX) else UNDEFINED_GROUP_NAME
     entities = set()
     offset = 0
     for offset, line in enumerate(group_lines[1:], start=1):
@@ -176,9 +217,16 @@ def extract_xml_labels(definjected_folder: str, group_dir: str) -> set[str]:
     for path in xml_files:
         tree = ET.parse(path)
         for elem in tree.iter():
-            if elem.text is not None and elem.tag.endswith(LABEL_TAG_SUFFIXES):
+            if elem.text is not None and is_label_tag(group_dir, elem.tag):
                 labels.add(elem.text)
     return labels
+
+
+def is_label_tag(def_injected_group: str, def_injected_tag: str) -> bool:
+    return any(
+        pattern.def_injected_group == def_injected_group and 
+        pattern.tag_pattern.search(def_injected_tag) 
+        for pattern in ENTITY_PATTERNS)
 
 
 def dlc_case_path(dlc_name: str) -> str:
