@@ -75,7 +75,7 @@ def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[Entiti
                         other_groups.add(xml_group.name)
 
             if len(other_groups) > 0:
-                issues.append(Issue(Severity.WARNING, group=cased_group.name, message=f"`{cased_entity}` описан в файле Case.txt в группе {cased_group.name}, но находится в папках {', '.join(other_groups)}"))
+                issues.append(Issue(Severity.WARNING, group=cased_group.name, message=f"`{cased_entity}` есть в файле Case.txt в группе {cased_group.name}, но находится в папках {', '.join(other_groups)}"))
             else:
                 issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"`{cased_entity}` есть в файле Case.txt, но её нет ни в одном XML файле"))
 
@@ -87,9 +87,9 @@ def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[Entiti
                     found_in_cased += 1
 
             if found_in_cased == 0:
-                issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"Сущность {xml_entity} есть в папке {xml_group.name}, но её нет в файле Case.txt"))
+                issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"`{xml_entity}` есть в папке {xml_group.name}, но её нет в файле Case.txt"))
             elif found_in_cased > 1:
-                issues.append(Issue(Severity.MESSAGE, group=cased_group.name, message=f"Сущность {xml_entity} упомянута в файле Case.txt {found_in_cased} раз"))
+                issues.append(Issue(Severity.MESSAGE, group=cased_group.name, message=f"`{xml_entity}` упомянута в файле Case.txt {found_in_cased} раз"))
 
     return issues
 
