@@ -1,7 +1,9 @@
-import os
+﻿import os
 import sys
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
+from itertools import groupby
+from enum import Enum
 
 from helpers import print_red, print_yellow, get_xml_file_paths, DLC_DIR_NAMES
 
@@ -22,6 +24,17 @@ class EntitiesGroup:
     name: str
     entities: set[str]
 
+class Severity(Enum):
+    ERROR = 0
+    WARNING = 1
+    MESSAGE = 2
+
+@dataclass
+class Issue:
+    severity: Severity
+    group: str
+    message: str
+
 
 def main() -> None:
     has_error = False
@@ -38,13 +51,64 @@ def check_case_file(dlc_name: str) -> bool:
 
     print(f"DLC {dlc_name}")
     print(case_path + "  vs  " + definjected_path)
-    case_file_groups = parse_case_file(case_path)
-    xml_files_groups = parse_definjected_files(definjected_path)
+    cased_groups = parse_case_file(case_path)
+    xml_groups = parse_definjected_files(definjected_path)
 
-    has_error = False
-    for group in case_file_groups:
-        has_error |= detect_entities_errors(group, xml_files_groups)
-    return has_error
+    issues = detect_all_issues(cased_groups, xml_groups)
+    print_issues(issues);
+
+    return len(issues) > 0
+
+
+def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[EntitiesGroup]) -> list[Issue]:
+    issues = list()
+
+    for cased_group in cased_groups:
+        for cased_entity in cased_group.entities:
+            other_groups = set()
+
+            for xml_group in xml_groups:
+                if xml_group.name == cased_group.name:
+                    if cased_entity in xml_group.entities:
+                        continue # cased entity is in correct XML group - OK
+                else:
+                    if cased_entity in xml_group.entities:
+                        other_groups.add(xml_group.name)
+
+            if len(other_groups) > 0:
+                issues.append(Issue(Severity.WARNING, group=cased_group.name, message=f"`{cased_entity}` есть в файле Case.txt в группе {cased_group.name}, но находится в папках {', '.join(other_groups)}"))
+            else:
+                issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"`{cased_entity}` есть в файле Case.txt, но её нет ни в одном XML файле"))
+
+    for xml_group in xml_groups:
+        for xml_entity in xml_group.entities:
+            found_in_cased = 0
+            for cased_group in cased_groups:
+                if xml_entity in cased_group.entities:
+                    found_in_cased += 1
+
+            if found_in_cased == 0:
+                issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"`{xml_entity}` есть в папке {xml_group.name}, но её нет в файле Case.txt"))
+            elif found_in_cased > 1:
+                issues.append(Issue(Severity.MESSAGE, group=cased_group.name, message=f"`{xml_entity}` упомянута в файле Case.txt {found_in_cased} раз"))
+
+    return issues
+
+
+def print_issues(issues: list[Issue]):
+    issues_sorted = sorted(issues, key=lambda issue: issue.group)
+    grouped = groupby(issues_sorted, key=lambda issue: issue.group)
+
+    for group_name, group_issues in grouped:
+        print(f"    - группа {group_name}:")
+        for issue in group_issues:
+            prefix = "        "
+            if issue.severity == Severity.ERROR:
+                print_red(prefix + issue.message)
+            elif issue.severity == Severity.WARNING:
+                print_yellow(prefix + issue.message)
+            else:
+                print(prefix + issue.message)
 
 
 def parse_case_file(path: str) -> list[EntitiesGroup]:
@@ -115,45 +179,6 @@ def extract_xml_labels(definjected_folder: str, group_dir: str) -> set[str]:
             if elem.text is not None and elem.tag.endswith(LABEL_TAG_SUFFIXES):
                 labels.add(elem.text)
     return labels
-
-
-def detect_entities_errors(group: EntitiesGroup, xml_groups: list[EntitiesGroup]) -> bool:
-    has_error = False
-    header_printed = False
-
-    for entity in group.entities:
-        in_own_group = any(
-            xml_group.name == group.name and entity in xml_group.entities
-            for xml_group in xml_groups
-        )
-        if in_own_group:
-            continue
-
-        has_error = True
-
-        # print group name once
-        if header_printed:
-            prefix = "        "
-        else:
-            prefix = f"    - группа {group.name}:\n        "
-            header_printed = True
-
-        other_group = next(
-            (xml_group for xml_group in xml_groups if entity in xml_group.entities),
-            None,
-        )
-        if other_group:
-            print_yellow(prefix +
-                         f"`{entity}` описан в файле Case.txt в группе {group.name}, но находится в папке {other_group.name}")
-        else:
-            print_red(prefix +
-                      f"`{entity}` есть в файле Case.txt, но её нет ни в одном XML файле")
-
-        # for entity in xml_entities:
-        #     if entity not in group.entities:
-        #         print_yellow(f"Сущность {entity} есть в {group.name}, "
-        #                      f"но её нет файле Case.txt")
-    return has_error
 
 
 def dlc_case_path(dlc_name: str) -> str:
