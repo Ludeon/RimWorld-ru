@@ -59,6 +59,7 @@ def check_case_file(dlc_name: str) -> bool:
 
     return len(issues) > 0
 
+
 def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[EntitiesGroup]) -> list[Issue]:
     issues = list()
 
@@ -93,6 +94,7 @@ def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[Entiti
 
     return issues
 
+
 def print_issues(issues: list[Issue]):
     issues_sorted = sorted(issues, key=lambda issue: issue.group)
     grouped = groupby(issues_sorted, key=lambda issue: issue.group)
@@ -107,6 +109,7 @@ def print_issues(issues: list[Issue]):
                 print_yellow(prefix + issue.message)
             else:
                 print(prefix + issue.message)
+
 
 def parse_case_file(path: str) -> list[EntitiesGroup]:
     with open(path, encoding='utf-8') as f:
