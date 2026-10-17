@@ -35,7 +35,6 @@ ENTITY_PATTERNS = [
     EntityPattern("IssueDef", main_label_pattern),
     EntityPattern("MapGeneratorDef", main_label_pattern),
     EntityPattern("MemeDef", re.compile(r"\.(label|worshipRoomLabel|member)$")),
-    EntityPattern("MentalStateDef", main_label_pattern),
     EntityPattern("MutantDef", re.compile(r"\.(label|labelNoLocation)$")),
     EntityPattern("OrderedTakeGroupDef", main_label_pattern),
     EntityPattern("PawnCapacityDef", re.compile(r"\.(label|labelDrones|labelMechanoids|labelAnomalyEntity)$")),
