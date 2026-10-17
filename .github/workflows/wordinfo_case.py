@@ -43,7 +43,6 @@ ENTITY_PATTERNS = [
     EntityPattern("IssueDef", main_label_pattern),
     EntityPattern("MapGeneratorDef", main_label_pattern),
     EntityPattern("MemeDef", re.compile(r"\.(label|worshipRoomLabel|member)$")),
-    EntityPattern("MentalStateDef", main_label_pattern),
     EntityPattern("MutantDef", re.compile(r"\.(label|labelNoLocation)$")),
     EntityPattern("PawnCapacityDef", re.compile(r"\.label")),
     EntityPattern("PawnKindDef", re.compile(r"\.(label|labelMale|labelFemale|labelPlural|labelMalePlural|labelFemalePlural)$")),
