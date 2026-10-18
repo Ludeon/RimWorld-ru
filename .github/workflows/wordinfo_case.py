@@ -1,4 +1,5 @@
-﻿import os
+﻿from collections.abc import Iterator
+import os
 import sys
 import re
 import xml.etree.ElementTree as ET
@@ -106,23 +107,25 @@ def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[Entiti
     for cased_group in cased_groups:
         for cased_entity in cased_group.entities:
             other_groups = set()
+            own_groups = set()
             for xml_group in xml_groups:
-                if xml_group.name == cased_group.name:
-                    if cased_entity in xml_group.entities:
-                        continue # cased entity is in correct XML group - OK
-                else:
-                    if cased_entity in xml_group.entities:
+                if any(entry_fits_key(cased_entity, xml_entity) for xml_entity in xml_group.entities):
+                    if xml_group.name == cased_group.name:
+                        own_groups.add(xml_group.name)
+                    else:
                         other_groups.add(xml_group.name)
-            if len(other_groups) > 0:
-                issues.append(Issue(Severity.WARNING, group=cased_group.name, message=f"Entity `{cased_entity}` exists in Case.txt in group `{cased_group.name}`, but defined in folder(s): {', '.join(other_groups)}"))
-            else:
-                issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"Entity `{cased_entity}` exists in Case.txt, but not defined in any XML file"))
+
+            if len(own_groups) == 0:
+                if len(other_groups) > 0:
+                    issues.append(Issue(Severity.WARNING, group=cased_group.name, message=f"Entity `{cased_entity}` exists in Case.txt in group `{cased_group.name}`, but defined in folder(s): {', '.join(other_groups)}"))
+                else:
+                    issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"Entity `{cased_entity}` exists in Case.txt, but not defined in any XML file"))
 
     for xml_group in xml_groups:
         for xml_entity in xml_group.entities:
             cased_groups_with_entity = set()
             for cased_group in cased_groups:
-                if xml_entity in cased_group.entities:
+                if contains_key(xml_key=xml_entity, cased_entries=cased_group.entities):
                     cased_groups_with_entity.add(cased_group.name)
 
             if len(cased_groups_with_entity) == 0:
@@ -196,6 +199,22 @@ def is_label_tag(def_injected_group: str, def_injected_tag: str) -> bool:
         pattern.def_injected_group == def_injected_group and 
         pattern.tag_pattern.search(def_injected_tag) 
         for pattern in ENTITY_PATTERNS)
+
+
+def contains_key(cased_entries: set[str], xml_key: str) -> bool:
+    return any(key in cased_entries for key in _lookup_candidates(xml_key))
+
+
+def entry_fits_key(cased_entry: str, xml_key: str) -> bool:
+    return cased_entry in _lookup_candidates(xml_key)
+
+
+def _lookup_candidates(xml_key: str) -> Iterator[str]:
+    # Logic from LanguageWorker_Russian.TryLookup
+    num = len(xml_key)
+    while num > 0:
+        yield xml_key[:num]
+        num = xml_key.rfind(' ', 0, num)
 
 
 def dlc_case_path(dlc_name: str) -> str:
