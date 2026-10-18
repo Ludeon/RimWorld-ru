@@ -39,12 +39,19 @@ ENTITY_PATTERNS = [
     EntityPattern("PawnKindDef", re.compile(r"\.(label|labelMale|labelFemale|labelPlural|labelMalePlural|labelFemalePlural)$")),
     EntityPattern("PlanetLayerDef", main_label_pattern),
     EntityPattern("PreceptDef", re.compile(r"IdeoRole_.*?\.label$")),
+    EntityPattern("RecipeDef", re.compile(r"ingredients\.\d+\.filter\.customSummary$")), # MessageOutOfNearbyFuelFor, FUEL
+    EntityPattern("ThingCategoryDef", main_label_pattern), # MessageOutOfNearbyFuelFor, FUEL
     EntityPattern("RoomRoleDef", main_label_pattern),
     EntityPattern("RoyalTitleDef", re.compile(r"\.(label|labelFemale)$")),
     EntityPattern("ScenarioDef", re.compile(r"\.(xenotypeCounts|mutantCounts)\.\d+\.description$")), # Описание в xenotypeCounts/mutantCounts сценария подставляется в KINDLABEL ключа PawnCount.
     EntityPattern("SitePartDef", main_label_pattern),
     EntityPattern("SkillDef", main_label_pattern),
     EntityPattern("StyleCategoryDef", main_label_pattern),
+    EntityPattern("ThingDef", main_label_pattern),
+    EntityPattern("ThingDef", re.compile(r"\.comps\.\w+\.chargeNoun$")),
+    EntityPattern("ThingDef", re.compile(r"\.comps\.\w+\.label$")),  # For BiosculpterPod_*Cycle
+    EntityPattern("ThingDef", re.compile(r"\.tools\.\w+\.label$")),  # For combat logs
+    EntityPattern("ThingDef", re.compile(r"\.verbs\.\w+\.label$")),  # For combat logs
     EntityPattern("ToolCapacityDef", main_label_pattern),
     EntityPattern("WorldObjectDef", main_label_pattern),
     EntityPattern("XenotypeDef", main_label_pattern),
