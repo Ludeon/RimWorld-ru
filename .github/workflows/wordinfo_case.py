@@ -18,15 +18,6 @@ class EntityPattern:
     def_injected_group: str
     tag_pattern: Pattern[str]
 
-# BodyDef,BodyPartDef,BodyPartGroupDef,HediffDef,PawnCapacityDef,PawnKindDef,ThingDef,SitePartDef,ToolCapacityDef
-
-# Core:
-# ApparelLayerDef?
-# BiomeDef?
-# CultureDef? 
-# DesignatorDropdownGroupDef?
-# GatheringDef? GeneDef GoodwillSituationDef HairDef HediffDef HediffGiverSetDef HistoryAutoRecorderDef HistoryAutoRecorderGroupDef HistoryEventDef IncidentDef InfectionPathwayDef InspirationDef InstructionDef InteractionDef IssueDef JobDef JoyKindDef KeyBindingCategoryDef KeyBindingDef LifeStageDef MainButtonDef MechWeightClassDef MeditationFocusDef MentalBreakDef MentalStateDef NeedDef OptionCategoryDef OrderedTakeGroupDef PawnCapacityDef PawnColumnDef PawnKindDef PawnRelationDef PawnRenderTreeDef PawnsArrivalModeDef PlanetLayerDef PlanetLayerSettingsDef PreceptDef PrisonerInteractionModeDef QuestScriptDef RaidStrategyDef RecipeDef RecordDef ResearchProjectDef ResearchTabDef RitualOutcomeEffectDef RiverDef RoadDef RoofDef RoomRoleDef RoomStatDef RulePackDef ScenarioDef ScenPartDef SitePartDef SkillDef SpecialThingFilterDef StatCategoryDef StatDef StorytellerDef StuffCategoryDef StyleItemCategoryDef SurgeryOutcomeEffectDef TaleDef TattooDef TerrainAffordanceDef TerrainDef TerrainTemplateDef ThingCategoryDef ThingDef ThinkTreeDef ThoughtDef TileMutatorDef TimeAssignmentDef TipSetDef ToolCapacityDef TraderKindDef TrainabilityDef TrainableDef TraitDef TransferableSorterDef WeaponClassDef WeatherDef WorkGiverDef WorkTypeDef WorldObjectDef
-
 main_label_pattern = re.compile(r"^\w+\.label$")
 
 ENTITY_PATTERNS = [
@@ -103,34 +94,32 @@ def check_case_file(dlc_name: str) -> bool:
 def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[EntitiesGroup]) -> list[Issue]:
     issues = list()
 
-    # for cased_group in cased_groups:
-    #     for cased_entity in cased_group.entities:
-    #         other_groups = set()
-
-    #         for xml_group in xml_groups:
-    #             if xml_group.name == cased_group.name:
-    #                 if cased_entity in xml_group.entities:
-    #                     continue # cased entity is in correct XML group - OK
-    #             else:
-    #                 if cased_entity in xml_group.entities:
-    #                     other_groups.add(xml_group.name)
-
-    #         if len(other_groups) > 0:
-    #             issues.append(Issue(Severity.WARNING, group=cased_group.name, message=f"`{cased_entity}` есть в файле Case.txt в группе {cased_group.name}, но находится в папках {', '.join(other_groups)}"))
-    #         else:
-    #             issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"`{cased_entity}` есть в файле Case.txt, но её нет ни в одном XML файле"))
+    for cased_group in cased_groups:
+        for cased_entity in cased_group.entities:
+            other_groups = set()
+            for xml_group in xml_groups:
+                if xml_group.name == cased_group.name:
+                    if cased_entity in xml_group.entities:
+                        continue # cased entity is in correct XML group - OK
+                else:
+                    if cased_entity in xml_group.entities:
+                        other_groups.add(xml_group.name)
+            if len(other_groups) > 0:
+                issues.append(Issue(Severity.WARNING, group=cased_group.name, message=f"Entity `{cased_entity}` exists in Case.txt in group `{cased_group.name}`, but defined in folder(s): {', '.join(other_groups)}"))
+            else:
+                issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"Entity `{cased_entity}` exists in Case.txt, but not defined in any XML file"))
 
     for xml_group in xml_groups:
         for xml_entity in xml_group.entities:
-            found_in_cased = 0
+            cased_groups_with_entity = set()
             for cased_group in cased_groups:
                 if xml_entity in cased_group.entities:
-                    found_in_cased += 1
+                    cased_groups_with_entity.add(cased_group.name)
 
-            if found_in_cased == 0:
-                issues.append(Issue(Severity.ERROR, group=xml_group.name, message=f"`{xml_entity}` есть в папке {xml_group.name}, но её нет в файле Case.txt"))
-            elif found_in_cased > 1:
-                issues.append(Issue(Severity.MESSAGE, group=xml_group.name, message=f"`{xml_entity}` упомянута в файле Case.txt {found_in_cased} раз"))
+            if len(cased_groups_with_entity) == 0:
+                issues.append(Issue(Severity.ERROR, group=xml_group.name, message=f"Entity `{xml_entity}` defined in folder {xml_group.name}, but does not exist in Case.txt"))
+            elif len(cased_groups_with_entity) > 1:
+                issues.append(Issue(Severity.MESSAGE, group=xml_group.name, message=f"Entity `{xml_entity}` is mentioned in Case.txt {len(cased_groups_with_entity)} times in groups: {', '.join(cased_groups_with_entity)}"))
 
     return issues
 
@@ -172,34 +161,6 @@ def parse_case_file(path: str) -> list[EntitiesGroup]:
     result.append(EntitiesGroup(current_group_name, current_group_entities))
 
     return result
-
-
-def parse_group(lines: list[str], start_index: int) -> tuple[EntitiesGroup | None, int]:
-    """Parses one group of Case.txt starting at `start_index`.
-
-    Returns the parsed group (or None on error) and the index of the next group header.
-    """
-    group_lines = lines[start_index:]
-
-    first_line = group_lines[0].strip()
-
-    group_name = first_line.removeprefix(GROUP_HEADER_PREFIX) if first_line.startswith(GROUP_HEADER_PREFIX) else UNDEFINED_GROUP_NAME
-    entities = set()
-    offset = 0
-    for offset, line in enumerate(group_lines[1:], start=1):
-        line = line.strip()
-        if not line:
-            continue
-        if line.startswith(GROUP_HEADER_PREFIX):
-            break
-        entities.add(line.split(';')[0])
-
-    next_group_index = start_index + offset
-    if not entities:
-        print_red(f"При чтении группы строки {start_index} до строки {next_group_index} ожидалось, что будет собран список сущностей для {group_name}, но их не было!")
-        return None, next_group_index
-
-    return EntitiesGroup(group_name, entities), next_group_index
 
 
 def parse_definjected_files(definjected_folder: str) -> list[EntitiesGroup]:
