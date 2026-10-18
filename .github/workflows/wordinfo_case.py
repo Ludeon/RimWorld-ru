@@ -48,7 +48,8 @@ ENTITY_PATTERNS = [
     EntityPattern("SitePartDef", main_label_pattern),
     EntityPattern("SkillDef", main_label_pattern),
     EntityPattern("StyleCategoryDef", main_label_pattern),
-    EntityPattern("ThingDef", main_label_pattern),
+    EntityPattern("ThingDef", main_label_pattern), # main label, excluding implied "Frame_"
+    EntityPattern("ThingDef", re.compile(r"^(?!Frame_)\w+\.label$")), # main label, excluding implied "Frame_"
     EntityPattern("ThingDef", re.compile(r"\.comps\.\w+\.chargeNoun$")),
     EntityPattern("ThingDef", re.compile(r"\.comps\.\w+\.label$")),  # For BiosculpterPod_*Cycle
     EntityPattern("ThingDef", re.compile(r"\.tools\.\w+\.label$")),  # For combat logs
