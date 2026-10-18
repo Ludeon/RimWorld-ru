@@ -52,7 +52,6 @@ ENTITY_PATTERNS = [
     EntityPattern("ThingDef", re.compile(r"\.comps\.\w+\.chargeNoun$")),
     EntityPattern("ThingDef", re.compile(r"\.comps\.\w+\.label$")),  # For BiosculpterPod_*Cycle
     EntityPattern("ThingDef", re.compile(r"\.tools\.\w+\.label$")),  # For combat logs
-    EntityPattern("ThingDef", re.compile(r"\.verbs\.\w+\.label$")),  # For combat logs
     EntityPattern("ToolCapacityDef", main_label_pattern),
     EntityPattern("WorldObjectDef", main_label_pattern),
     EntityPattern("XenotypeDef", main_label_pattern),
