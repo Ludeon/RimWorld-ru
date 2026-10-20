@@ -73,7 +73,7 @@
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} не может найти снарядов для {lookup: {GUN_label}; Case; 1}.</MessageOutOfNearbyShellsFor>
   <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
-  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} не может найти {lookup: {FUEL}; Case; 3} для {lookup: {GUN_label}; Case; 1}.</MessageOutOfNearbyFuelFor>
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} не может найти {FUEL} для {lookup: {GUN_label}; Case; 1}.</MessageOutOfNearbyFuelFor> <!-- Вместо FUEL может подставитьтся ThingDef.label, ThingCategoryDef.label, RecipeDef.ingredients.*.filter.customSummary. Если дать всему падежи, то Case.txt раздуется -->
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Внимание: при попадании с расстояния винтовочного выстрела {ANIMAL_kindBasePlural} нападают с базовой вероятностью {1}. На это влияют как расстояние до цели, так и скрытность охотника.</MessageAnimalsGoPsychoHunted>

@@ -42,8 +42,6 @@ ENTITY_PATTERNS = [
     EntityPattern("PawnKindDef", re.compile(r"\.(label|labelMale|labelFemale|labelPlural|labelMalePlural|labelFemalePlural)$")),
     EntityPattern("PlanetLayerDef", main_label_pattern),
     EntityPattern("PreceptDef", re.compile(r"IdeoRole_.*?\.label$")),
-    EntityPattern("RecipeDef", re.compile(r"ingredients\.\d+\.filter\.customSummary$")), # MessageOutOfNearbyFuelFor, FUEL
-    EntityPattern("ThingCategoryDef", main_label_pattern), # MessageOutOfNearbyFuelFor, FUEL
     EntityPattern("RoomRoleDef", main_label_pattern),
     EntityPattern("RoyalTitleDef", re.compile(r"\.(label|labelFemale)$")),
     EntityPattern("ScenarioDef", re.compile(r"\.(xenotypeCounts|mutantCounts)\.\d+\.description$")), # Описание в xenotypeCounts/mutantCounts сценария подставляется в KINDLABEL ключа PawnCount.
