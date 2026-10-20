@@ -115,7 +115,7 @@
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} в {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>Это действие заставит {PAWN_nameDef} потерять свой титул {lookup: {TITLE}; Case; 1}. Вы не получите никакой компенсации за отречение от титула.\n\nОно повлечёт за собой следующие последствия:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>Это действие заставит {PAWN_nameDef} потерять свой титул {lookup: {TITLE}; Case; 1}. Вы не получите никакой компенсации за отречение от титула.\n\nОно повлечёт за собой следующие последствия:\n\n{EFFECTS}</RenounceTitleDescription> <!-- Вместо TITLE подставится TitleOfFaction: "рыцарь в Империя". Падеж сработает для первого слова после обрезки последних -->
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_pronoun} потеряет следующие привилегии</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
