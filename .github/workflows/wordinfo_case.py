@@ -16,7 +16,7 @@ UNDEFINED_GROUP_NAME = "Undefined"
 
 @dataclass
 class EntityPattern:
-    def_injected_group: str
+    group: str
     tag_pattern: Pattern[str]
 
 main_label_pattern = re.compile(r"^\w+\.label$")
@@ -56,6 +56,20 @@ ENTITY_PATTERNS = [
     EntityPattern("ToolCapacityDef", main_label_pattern),
     EntityPattern("WorldObjectDef", main_label_pattern),
     EntityPattern("XenotypeDef", main_label_pattern),
+    EntityPattern("Keyed", re.compile(r"^(SomeonesRoom|CouplesRoom)$")),    # For CleanRoom
+    EntityPattern("Keyed", re.compile(r"^Animal$")),                        # For CommandBedSetOwnerDesc
+    EntityPattern("Keyed", re.compile(r"^CaravanLeaderCaravanName$")),      # For GiveToCaravan
+    EntityPattern("Keyed", re.compile(r"^AnElectricalConduit$")),           # For ShortCircuit/ShortCircuitStartedFire
+    EntityPattern("Keyed", re.compile(r"^NamedXenogerm$")),                 # For InspectGenesDesc
+    EntityPattern("Keyed", re.compile(r"^(GenepackPlural|XenotypeName)$")), # For CannotSaveXenogermTemplate
+    EntityPattern("Keyed", re.compile(r"^(Slave|Colonist)$")),              # For RemainX and LetterChildLegalStatus
+    EntityPattern("Keyed", re.compile(r"^AreaLower$")),                     # For CannotGenericWork, PrioritizeGeneric, UsingVerb, RulePackDef.Event_AbilityUsed, JobDef.reportString
+    EntityPattern("Keyed", re.compile(r"^Burying$")),                       # For CannotGenericWork, PrioritizeGeneric
+    EntityPattern("Keyed", re.compile(r"^Quadrum(Aprimay|Jugust|Septober|Decembary)$")),   # For DateReadout
+    EntityPattern("Keyed", re.compile(r"^Season(Permanent)?(Spring|Summer|Fall|Winter)$")),         # For DateReadout
+    EntityPattern("Keyed", re.compile(r"^Location$")),                      # For ReleasingEntity, DoWorkAtThing, RopedToThing, UsingVerb, JumpToTargetCustom, 
+    EntityPattern("Keyed", re.compile(r"^(AnimalsLower|RelicLower|RelicsLower|ItemsLower|People)$")),   # For ChooseThingsDesc
+    EntityPattern("Keyed", re.compile(r"^(Male|Female|All)$")),             # For PreceptDef ApparelDesired_*.description, GameConditionDef PsychicSuppression description/letterText
 ]
 
 @dataclass
@@ -89,11 +103,12 @@ def main() -> None:
 def check_case_file(dlc_name: str) -> bool:
     case_path = dlc_case_path(dlc_name)
     definjected_path = dlc_definjected_path(dlc_name)
+    keyed_path = dlc_keyed_path(dlc_name)
 
     print(f"DLC {dlc_name}")
-    print(case_path + "  vs  " + definjected_path)
+    print(f"{case_path} vs {definjected_path} + {keyed_path}")
     cased_groups = parse_case_file(case_path)
-    xml_groups = parse_definjected_files(definjected_path)
+    xml_groups = get_xml_entities(definjected_path, keyed_path)
 
     issues = detect_all_issues(cased_groups, xml_groups)
     print_issues(issues);
@@ -176,28 +191,33 @@ def parse_case_file(path: str) -> list[EntitiesGroup]:
     return result
 
 
-def parse_definjected_files(definjected_folder: str) -> list[EntitiesGroup]:
-    return [
-        EntitiesGroup(name=group_dir, entities=extract_xml_labels(definjected_folder, group_dir))
-        for group_dir in os.listdir(definjected_folder)
-    ]
+def get_xml_entities(definjected_folder: str, keyed_folder: str) -> list[EntitiesGroup]:
+    entity_groups = list[EntitiesGroup]()
+    for def_type in os.listdir(definjected_folder):
+        def_type_entities = set()
+
+        for def_type_xml_file in get_xml_file_paths(os.path.join(definjected_folder, def_type)):
+            collect_entities_from_xml(def_type_xml_file, def_type, def_type_entities)
+
+        entity_groups.append(EntitiesGroup(name=def_type, entities=def_type_entities))
+
+    keyed_entities = set()
+    for keyed_xml_file in get_xml_file_paths(keyed_folder):
+        collect_entities_from_xml(keyed_xml_file, "Keyed", keyed_entities)
+
+    return entity_groups
 
 
-def extract_xml_labels(definjected_folder: str, group_dir: str) -> set[str]:
-    xml_files = get_xml_file_paths(os.path.join(definjected_folder, group_dir))
-
-    labels = set()
-    for path in xml_files:
-        tree = ET.parse(path)
-        for elem in tree.iter():
-            if elem.text is not None and is_label_tag(group_dir, elem.tag):
-                labels.add(elem.text)
-    return labels
+def collect_entities_from_xml(xml_file_path: str, group: str, entities: set[str]):
+    tree = ET.parse(xml_file_path)
+    for elem in tree.iter():
+        if elem.text is not None and is_entity_tag(group, elem.tag):
+            entities.add(elem.text)
 
 
-def is_label_tag(def_injected_group: str, def_injected_tag: str) -> bool:
+def is_entity_tag(group: str, def_injected_tag: str) -> bool:
     return any(
-        pattern.def_injected_group == def_injected_group and 
+        pattern.group == group and 
         pattern.tag_pattern.search(def_injected_tag) 
         for pattern in ENTITY_PATTERNS)
 
@@ -228,6 +248,10 @@ def dlc_case_path(dlc_name: str) -> str:
 
 def dlc_definjected_path(dlc_name: str) -> str:
     return os.path.join(dlc_name, 'DefInjected')
+
+
+def dlc_keyed_path(dlc_name: str) -> str:
+    return os.path.join(dlc_name, 'Keyed')
 
 
 if __name__ == '__main__':
