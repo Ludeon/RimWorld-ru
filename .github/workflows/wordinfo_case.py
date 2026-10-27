@@ -108,7 +108,7 @@ def check_case_file(dlc_name: str) -> bool:
     print(f"DLC {dlc_name}")
     print(f"{case_path} vs {definjected_path} + {keyed_path}")
     cased_groups = parse_case_file(case_path)
-    xml_groups = get_xml_entities(definjected_path, keyed_path)
+    xml_groups = get_xml_entities(ENTITY_PATTERNS, definjected_path, keyed_path)
 
     issues = detect_all_issues(cased_groups, xml_groups)
     print_issues(issues);
@@ -191,36 +191,30 @@ def parse_case_file(path: str) -> list[EntitiesGroup]:
     return result
 
 
-def get_xml_entities(definjected_folder: str, keyed_folder: str) -> list[EntitiesGroup]:
-    entity_groups = list[EntitiesGroup]()
-    for def_type in os.listdir(definjected_folder):
-        def_type_entities = set()
+def get_xml_entities(entityPatterns: list[EntityPattern], definjected_folder: str, keyed_folder: str) -> list[EntitiesGroup]:
+    entity_groups = dict[str, EntitiesGroup]()
 
-        for def_type_xml_file in get_xml_file_paths(os.path.join(definjected_folder, def_type)):
-            collect_entities_from_xml(def_type_xml_file, def_type, def_type_entities)
+    for entityPattern in entityPatterns:
+        folder = keyed_folder if entityPattern.group == "Keyed" else os.path.join(definjected_folder, entityPattern.group)
 
-        entity_groups.append(EntitiesGroup(name=def_type, entities=def_type_entities))
+        group = entity_groups.setdefault(entityPattern.group, EntitiesGroup(name=entityPattern.group, entities=set()))
+             
+        for xml_file in get_xml_file_paths(folder):
+            collect_entities_from_xml(entityPattern, xml_file, group.name, group.entities)
 
-    keyed_entities = set()
-    for keyed_xml_file in get_xml_file_paths(keyed_folder):
-        collect_entities_from_xml(keyed_xml_file, "Keyed", keyed_entities)
-
-    return entity_groups
+    return list(entity_groups.values())
 
 
-def collect_entities_from_xml(xml_file_path: str, group: str, entities: set[str]):
+def collect_entities_from_xml(entityPattern: EntityPattern, xml_file_path: str, group: str, entities: set[str]):
     tree = ET.parse(xml_file_path)
     for elem in tree.iter():
-        if elem.text is not None and is_entity_tag(group, elem.tag):
+        if elem.text is not None and is_entity_tag(entityPattern, group, elem.tag):
             entities.add(elem.text)
 
 
-def is_entity_tag(group: str, def_injected_tag: str) -> bool:
-    return any(
-        pattern.group == group and 
-        pattern.tag_pattern.search(def_injected_tag) 
-        for pattern in ENTITY_PATTERNS)
-
+def is_entity_tag(entityPattern: EntityPattern, group: str, def_injected_tag: str) -> bool:
+    return entityPattern.group == group and entityPattern.tag_pattern.search(def_injected_tag)
+ 
 
 def find_fitting_entry(cased_entries: set[str], xml_key: str) -> str:
     for key in _lookup_candidates(xml_key):
