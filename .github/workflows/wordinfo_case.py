@@ -21,7 +21,7 @@ class EntityPattern:
 
 main_label_pattern = re.compile(r"^\w+\.label$")
 
-ENTITY_PATTERNS = [
+CASE_ENTITY_PATTERNS = [
     EntityPattern("AbilityDef", re.compile(r"\.(label|verbProperties\.label)$")),
     EntityPattern("BodyDef", re.compile(r"\.customLabel$")),
     EntityPattern("BodyPartDef", re.compile(r"\.(label|labelShort)$")),
@@ -72,6 +72,18 @@ ENTITY_PATTERNS = [
     EntityPattern("Keyed", re.compile(r"^(Male|Female|All)$")),             # For PreceptDef ApparelDesired_*.description, GameConditionDef PsychicSuppression description/letterText
 ]
 
+PLURAL_ENTITY_PATTERNS = [
+    EntityPattern("MemeDef", re.compile(r"\.member$")),
+    EntityPattern("OrderedTakeGroupDef", main_label_pattern),
+    EntityPattern("RoyalTitleDef", re.compile(r"\.(label|labelFemale)$")),
+    EntityPattern("ScenarioDef", re.compile(r"\.(xenotypeCounts|mutantCounts)\.\d+\.description$")),
+    EntityPattern("ThingDef", main_label_pattern),
+    EntityPattern("XenotypeDef", main_label_pattern),
+    EntityPattern("Keyed", re.compile(r"^Animal$")),
+    EntityPattern("Keyed", re.compile(r"^(Male|Female)$")),
+]
+
+
 @dataclass
 class EntitiesGroup:
     name: str
@@ -94,63 +106,71 @@ class Issue:
 def main() -> None:
     has_error = False
     for dlc_name in DLC_DIR_NAMES[:1]:
-        has_error |= check_case_file(dlc_name)
+        has_error |= check_wordinfo_files(dlc_name)
 
     if has_error:
         sys.exit(1)
 
 
-def check_case_file(dlc_name: str) -> bool:
+def check_wordinfo_files(dlc_name: str) -> bool:
     case_path = dlc_case_path(dlc_name)
+    plural_path = dlc_plural_path(dlc_name)
     definjected_path = dlc_definjected_path(dlc_name)
     keyed_path = dlc_keyed_path(dlc_name)
 
     print(f"DLC {dlc_name}")
-    print(f"{case_path} vs {definjected_path} + {keyed_path}")
-    cased_groups = parse_case_file(case_path)
-    xml_groups = get_xml_entities(ENTITY_PATTERNS, definjected_path, keyed_path)
+    print(f"{plural_path} vs {definjected_path} + {keyed_path}")
+    
+    plural_actual_groups = get_wordinfo_entities(plural_path, index = 0)
+    plural_required_groups = get_xml_entities(PLURAL_ENTITY_PATTERNS, definjected_path, keyed_path)
+    plural_issues = detect_all_issues("Plural", plural_actual_groups, plural_required_groups)
+    print_issues(plural_issues)
 
-    issues = detect_all_issues(cased_groups, xml_groups)
-    print_issues(issues);
+    case_actual_groups = get_wordinfo_entities(case_path, index = 0)
+    case_required_xml_groups = get_xml_entities(CASE_ENTITY_PATTERNS, definjected_path, keyed_path)
+    case_required_plural_groups = get_wordinfo_entities(plural_path, index = 1)
+    case_required_groups = merge(case_required_xml_groups, case_required_plural_groups)
+    case_issues = detect_all_issues("Case", case_actual_groups, case_required_groups)
+    print_issues(case_issues)
 
-    errors_count = sum(1 for issue in issues if issue.severity == Severity.ERROR)
+    errors_count = sum(1 for issue in plural_issues if issue.severity == Severity.ERROR)
 
     return errors_count > 0
 
 
-def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[EntitiesGroup]) -> list[Issue]:
+def detect_all_issues(wordinfo_collection_name: str, actual_groups: list[EntitiesGroup], required_groups: list[EntitiesGroup]) -> list[Issue]:
     issues = list()
 
-    for cased_group in cased_groups:
-        for cased_entity in cased_group.entities:
-            other_entries = list()
-            own_entries = list()
-            for xml_group in xml_groups:
-                for xml_entity in xml_group.entities:
-                    if entry_fits_key(cased_entity, xml_entity):
-                        if xml_group.name == cased_group.name:
-                            own_entries.append(f"'{xml_entity}' ({xml_group.name})")
+    for actual_group in actual_groups:
+        for actual_entity in actual_group.entities:
+            other_group_matches = list()
+            own_group_matches = list()
+            for required_group in required_groups:
+                for required_entity in required_group.entities:
+                    if is_match(actual_entity, required_entity):
+                        if required_group.name == actual_group.name:
+                            own_group_matches.append(f"'{required_entity}' ({required_group.name})")
                         else:
-                            other_entries.append(f"'{xml_entity}' ({xml_group.name})")
+                            other_group_matches.append(f"'{required_entity}' ({required_group.name})")
 
-            if len(own_entries) == 0:
-                if len(other_entries) > 0:
-                    issues.append(Issue(Severity.WARNING, group=cased_group.name, entity=cased_entity, message=f"Cased entity `{cased_entity}` ({cased_group.name}) fits XML entity(es) in another folder(s): {', '.join(other_entries)}"))
+            if len(own_group_matches) == 0:
+                if len(other_group_matches) > 0:
+                    issues.append(Issue(Severity.WARNING, group=actual_group.name, entity=actual_entity, message=f"Actual {wordinfo_collection_name} entity `{actual_entity}` ({actual_group.name}) matches required entity(es) in another folder(s): {', '.join(other_group_matches)}"))
                 else:
-                    issues.append(Issue(Severity.ERROR, group=cased_group.name, entity=cased_entity, message=f"Cased entity `{cased_entity}` does not fit any XML entity"))
+                    issues.append(Issue(Severity.ERROR, group=actual_group.name, entity=actual_entity, message=f"Actual {wordinfo_collection_name} entity `{actual_entity}` does not match any required entity"))
 
-    for xml_group in xml_groups:
-        for xml_entity in xml_group.entities:
-            found_entries = list()
-            for cased_group in cased_groups:
-                fitting_cased_entry = find_fitting_entry(xml_key=xml_entity, cased_entries=cased_group.entities)
-                if(fitting_cased_entry != None):
-                    found_entries.append(f"'{fitting_cased_entry}' ({cased_group.name})")
+    for required_group in required_groups:
+        for required_entity in required_group.entities:
+            found_matches = list()
+            for actual_group in actual_groups:
+                matching_actual_entity = find_actual_match(required_entity=required_entity, actual_entities=actual_group.entities)
+                if(matching_actual_entity != None):
+                    found_matches.append(f"'{matching_actual_entity}' ({actual_group.name})")
 
-            if len(found_entries) == 0:
-                issues.append(Issue(Severity.ERROR, group=xml_group.name, entity=xml_entity, message=f"XML entity `{xml_entity}` ({xml_group.name}) has no matches in Case.txt"))
-            elif len(found_entries) > 1:
-                issues.append(Issue(Severity.INFO, group=xml_group.name, entity=xml_entity, message=f"XML entity `{xml_entity}` ({xml_group.name}) has {len(found_entries)} matches in Case.txt: {', '.join(found_entries)}"))
+            if len(found_matches) == 0:
+                issues.append(Issue(Severity.ERROR, group=required_group.name, entity=required_entity, message=f"Required entity `{required_entity}` ({required_group.name}) has no actual matches in {wordinfo_collection_name}"))
+            elif len(found_matches) > 1:
+                issues.append(Issue(Severity.INFO, group=required_group.name, entity=required_entity, message=f"Required entity `{required_entity}` ({required_group.name}) has {len(found_matches)} actual matches in {wordinfo_collection_name}: {', '.join(found_matches)}"))
 
     return issues
 
@@ -168,12 +188,12 @@ def print_issues(issues: list[Issue]):
             print(f"        {issue.severity.name}: {issue.message}")
 
 
-def parse_case_file(path: str) -> list[EntitiesGroup]:
+def get_wordinfo_entities(wordinfo_file_path: str, index: int) -> list[EntitiesGroup]:
     result = []
     current_group_name = UNDEFINED_GROUP_NAME
     current_group_entities = set()
 
-    with open(path, encoding='utf-8') as f:
+    with open(wordinfo_file_path, encoding='utf-8') as f:
         for line in f.readlines():
             line = line.strip()
 
@@ -184,11 +204,21 @@ def parse_case_file(path: str) -> list[EntitiesGroup]:
             elif not line:
                 continue
             else:
-                current_group_entities.add(line.split(';')[0].strip())
+                current_group_entities.add(line.split(';')[index].strip())
 
     result.append(EntitiesGroup(current_group_name, current_group_entities))
 
     return result
+
+
+def merge(groups_left: list[EntitiesGroup], groups_right: list[EntitiesGroup]) -> list[EntitiesGroup]:
+    merged = dict[str, EntitiesGroup]()
+
+    for group in groups_left + groups_right:
+        merged_group = merged.setdefault(group.name, EntitiesGroup(name=group.name, entities=set()))
+        merged_group.entities |= group.entities
+
+    return list(merged.values())
 
 
 def get_xml_entities(entityPatterns: list[EntityPattern], definjected_folder: str, keyed_folder: str) -> list[EntitiesGroup]:
@@ -216,28 +246,32 @@ def is_entity_tag(entityPattern: EntityPattern, group: str, def_injected_tag: st
     return entityPattern.group == group and entityPattern.tag_pattern.search(def_injected_tag)
  
 
-def find_fitting_entry(cased_entries: set[str], xml_key: str) -> str:
-    for key in _lookup_candidates(xml_key):
-        if key in cased_entries:
-            return key
+def find_actual_match(actual_entities: set[str], required_entity: str) -> str:
+    for candidate in get_lookup_candidates(required_entity):
+        if candidate in actual_entities:
+            return candidate
         
     return None
 
 
-def entry_fits_key(cased_entry: str, xml_key: str) -> bool:
-    return cased_entry in _lookup_candidates(xml_key)
+def is_match(actual_entity: str, required_entity: str) -> bool:
+    return actual_entity in get_lookup_candidates(required_entity)
 
 
-def _lookup_candidates(xml_key: str) -> Iterator[str]:
+def get_lookup_candidates(required_entity: str) -> Iterator[str]:
     # Logic from LanguageWorker_Russian.TryLookup
-    num = len(xml_key)
+    num = len(required_entity)
     while num > 0:
-        yield xml_key[:num]
-        num = xml_key.rfind(' ', 0, num)
+        yield required_entity[:num]
+        num = required_entity.rfind(' ', 0, num)
 
 
 def dlc_case_path(dlc_name: str) -> str:
     return os.path.join(dlc_name, 'WordInfo', 'Case.txt')
+
+
+def dlc_plural_path(dlc_name: str) -> str:
+    return os.path.join(dlc_name, 'WordInfo', 'Plural.txt')
 
 
 def dlc_definjected_path(dlc_name: str) -> str:
