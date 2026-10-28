@@ -65,15 +65,17 @@ class EntitiesGroup:
     name: str
     entities: set[str]
 
+
 class Severity(Enum):
     ERROR = 0
     WARNING = 1
-    MESSAGE = 2
+    INFO = 2
 
 @dataclass
 class Issue:
     severity: Severity
     group: str
+    entity: str
     message: str
 
 
@@ -98,7 +100,9 @@ def check_case_file(dlc_name: str) -> bool:
     issues = detect_all_issues(cased_groups, xml_groups)
     print_issues(issues);
 
-    return len(issues) > 0
+    errors_count = sum(1 for issue in issues if issue.severity == Severity.ERROR)
+
+    return errors_count > 0
 
 
 def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[EntitiesGroup]) -> list[Issue]:
@@ -106,50 +110,49 @@ def detect_all_issues(cased_groups: list[EntitiesGroup], xml_groups: list[Entiti
 
     for cased_group in cased_groups:
         for cased_entity in cased_group.entities:
-            other_groups = set()
-            own_groups = set()
+            other_entries = list()
+            own_entries = list()
             for xml_group in xml_groups:
-                if any(entry_fits_key(cased_entity, xml_entity) for xml_entity in xml_group.entities):
-                    if xml_group.name == cased_group.name:
-                        own_groups.add(xml_group.name)
-                    else:
-                        other_groups.add(xml_group.name)
+                for xml_entity in xml_group.entities:
+                    if entry_fits_key(cased_entity, xml_entity):
+                        if xml_group.name == cased_group.name:
+                            own_entries.append(f"'{xml_entity}' ({xml_group.name})")
+                        else:
+                            other_entries.append(f"'{xml_entity}' ({xml_group.name})")
 
-            if len(own_groups) == 0:
-                if len(other_groups) > 0:
-                    issues.append(Issue(Severity.WARNING, group=cased_group.name, message=f"Entity `{cased_entity}` exists in Case.txt in group `{cased_group.name}`, but defined in folder(s): {', '.join(other_groups)}"))
+            if len(own_entries) == 0:
+                if len(other_entries) > 0:
+                    issues.append(Issue(Severity.WARNING, group=cased_group.name, entity=cased_entity, message=f"Cased entity `{cased_entity}` ({cased_group.name}) fits XML entity(es) in another folder(s): {', '.join(other_entries)}"))
                 else:
-                    issues.append(Issue(Severity.ERROR, group=cased_group.name, message=f"Entity `{cased_entity}` exists in Case.txt, but not defined in any XML file"))
+                    issues.append(Issue(Severity.ERROR, group=cased_group.name, entity=cased_entity, message=f"Cased entity `{cased_entity}` does not fit any XML entity"))
 
     for xml_group in xml_groups:
         for xml_entity in xml_group.entities:
-            cased_groups_with_entity = set()
+            found_entries = list()
             for cased_group in cased_groups:
-                if contains_key(xml_key=xml_entity, cased_entries=cased_group.entities):
-                    cased_groups_with_entity.add(cased_group.name)
+                fitting_cased_entry = find_fitting_entry(xml_key=xml_entity, cased_entries=cased_group.entities)
+                if(fitting_cased_entry != None):
+                    found_entries.append(f"'{fitting_cased_entry}' ({cased_group.name})")
 
-            if len(cased_groups_with_entity) == 0:
-                issues.append(Issue(Severity.ERROR, group=xml_group.name, message=f"Entity `{xml_entity}` defined in folder {xml_group.name}, but does not exist in Case.txt"))
-            elif len(cased_groups_with_entity) > 1:
-                issues.append(Issue(Severity.MESSAGE, group=xml_group.name, message=f"Entity `{xml_entity}` is mentioned in Case.txt {len(cased_groups_with_entity)} times in groups: {', '.join(cased_groups_with_entity)}"))
+            if len(found_entries) == 0:
+                issues.append(Issue(Severity.ERROR, group=xml_group.name, entity=xml_entity, message=f"XML entity `{xml_entity}` ({xml_group.name}) has no matches in Case.txt"))
+            elif len(found_entries) > 1:
+                issues.append(Issue(Severity.INFO, group=xml_group.name, entity=xml_entity, message=f"XML entity `{xml_entity}` ({xml_group.name}) has {len(found_entries)} matches in Case.txt: {', '.join(found_entries)}"))
 
     return issues
 
 
 def print_issues(issues: list[Issue]):
-    issues_sorted = sorted(issues, key=lambda issue: issue.group)
-    grouped = groupby(issues_sorted, key=lambda issue: issue.group)
+    issues = sorted(issues, key=lambda issue: issue.message)
+    issues = sorted(issues, key=lambda issue: issue.entity)
+    issues = sorted(issues, key=lambda issue: issue.severity.value)
+    issues = sorted(issues, key=lambda issue: issue.group)
+    grouped = groupby(issues, key=lambda issue: issue.group)
 
     for group_name, group_issues in grouped:
-        print(f"    - группа {group_name}:")
+        print(f"    Group {group_name}:")
         for issue in group_issues:
-            prefix = "        "
-            if issue.severity == Severity.ERROR:
-                print_red(prefix + issue.message)
-            elif issue.severity == Severity.WARNING:
-                print_yellow(prefix + issue.message)
-            else:
-                print(prefix + issue.message)
+            print(f"        {issue.severity.name}: {issue.message}")
 
 
 def parse_case_file(path: str) -> list[EntitiesGroup]:
@@ -201,8 +204,12 @@ def is_label_tag(def_injected_group: str, def_injected_tag: str) -> bool:
         for pattern in ENTITY_PATTERNS)
 
 
-def contains_key(cased_entries: set[str], xml_key: str) -> bool:
-    return any(key in cased_entries for key in _lookup_candidates(xml_key))
+def find_fitting_entry(cased_entries: set[str], xml_key: str) -> str:
+    for key in _lookup_candidates(xml_key):
+        if key in cased_entries:
+            return key
+        
+    return None
 
 
 def entry_fits_key(cased_entry: str, xml_key: str) -> bool:
