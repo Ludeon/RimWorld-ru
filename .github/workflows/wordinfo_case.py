@@ -48,7 +48,7 @@ CASE_ENTITY_PATTERNS = [
     EntityPattern("SitePartDef", main_label_pattern),
     EntityPattern("SkillDef", main_label_pattern),
     EntityPattern("StyleCategoryDef", main_label_pattern),
-    EntityPattern("ThingDef", main_label_pattern), # main label, excluding implied "Frame_"
+    EntityPattern("ThingDef", main_label_pattern),
     EntityPattern("ThingDef", re.compile(r"\.meatLabel$")),
     EntityPattern("ThingDef", re.compile(r"\.comps\.\w+\.chargeNoun$")),
     EntityPattern("ThingDef", re.compile(r"\.comps\.\w+\.label$")),  # For BiosculpterPod_*Cycle
@@ -77,7 +77,7 @@ PLURAL_ENTITY_PATTERNS = [
     EntityPattern("OrderedTakeGroupDef", main_label_pattern),
     EntityPattern("RoyalTitleDef", re.compile(r"\.(label|labelFemale)$")),
     EntityPattern("ScenarioDef", re.compile(r"\.(xenotypeCounts|mutantCounts)\.\d+\.description$")),
-    EntityPattern("ThingDef", main_label_pattern),
+    EntityPattern("ThingDef", re.compile(r"^(?!Filth_)\w+\.label$")), # main label, excluding implied "Filth_"
     EntityPattern("XenotypeDef", main_label_pattern),
     EntityPattern("Keyed", re.compile(r"^Animal$")),
     EntityPattern("Keyed", re.compile(r"^(Male|Female)$")),
