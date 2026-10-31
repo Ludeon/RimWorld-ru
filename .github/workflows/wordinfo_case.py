@@ -103,43 +103,75 @@ class Issue:
     message: str
 
 
+@dataclass
+class WordInfoCollection:
+    dlc_name: str
+    actual_groups: list[EntitiesGroup]
+    required_groups: list[EntitiesGroup]
+
+
+@dataclass
+class DlcWordInfo:
+    name: str
+    plural: WordInfoCollection
+    case: WordInfoCollection
+
+
 def main() -> None:
+    dlcs = [load_dlc_wordinfo(dlc_name) for dlc_name in DLC_DIR_NAMES]
+
     has_error = False
-    for dlc_name in DLC_DIR_NAMES[:1]:
-        has_error |= check_wordinfo_files(dlc_name)
+    for dlc in dlcs:
+        has_error |= check_wordinfo_files(dlc, dlcs)
 
     if has_error:
         sys.exit(1)
 
 
-def check_wordinfo_files(dlc_name: str) -> bool:
+def load_dlc_wordinfo(dlc_name: str) -> DlcWordInfo:
     case_path = dlc_case_path(dlc_name)
     plural_path = dlc_plural_path(dlc_name)
     definjected_path = dlc_definjected_path(dlc_name)
     keyed_path = dlc_keyed_path(dlc_name)
 
-    print(f"DLC {dlc_name}")
-    print(f"{plural_path} vs {definjected_path} + {keyed_path}")
-    
     plural_actual_groups = get_wordinfo_entities(plural_path, index = 0)
     plural_required_groups = get_xml_entities(PLURAL_ENTITY_PATTERNS, definjected_path, keyed_path)
-    plural_issues = detect_all_issues("Plural", plural_actual_groups, plural_required_groups)
-    print_issues(plural_issues)
 
     case_actual_groups = get_wordinfo_entities(case_path, index = 0)
     case_required_xml_groups = get_xml_entities(CASE_ENTITY_PATTERNS, definjected_path, keyed_path)
     case_required_plural_groups = get_wordinfo_entities(plural_path, index = 1)
     case_required_groups = merge(case_required_xml_groups, case_required_plural_groups)
-    case_issues = detect_all_issues("Case", case_actual_groups, case_required_groups)
+
+    return DlcWordInfo(
+        name=dlc_name,
+        plural=WordInfoCollection(dlc_name, plural_actual_groups, plural_required_groups),
+        case=WordInfoCollection(dlc_name, case_actual_groups, case_required_groups),
+    )
+
+
+def check_wordinfo_files(dlc: DlcWordInfo, all_dlcs: list[DlcWordInfo]) -> bool:
+    other_dlcs = [other for other in all_dlcs if other.name != dlc.name]
+
+    print(f"DLC {dlc.name}")
+    print(f"{dlc_plural_path(dlc.name)} vs {dlc_definjected_path(dlc.name)} + {dlc_keyed_path(dlc.name)}")
+
+    plural_issues = detect_all_issues("Plural", dlc.plural, [other.plural for other in other_dlcs])
+    print_issues(plural_issues)
+
+    case_issues = detect_all_issues("Case", dlc.case, [other.case for other in other_dlcs])
     print_issues(case_issues)
 
-    errors_count = sum(1 for issue in plural_issues if issue.severity == Severity.ERROR)
+    errors_count = 0
+    errors_count += sum(1 for issue in plural_issues if issue.severity == Severity.ERROR)
+    errors_count += sum(1 for issue in case_issues if issue.severity == Severity.ERROR)
 
     return errors_count > 0
 
 
-def detect_all_issues(wordinfo_collection_name: str, actual_groups: list[EntitiesGroup], required_groups: list[EntitiesGroup]) -> list[Issue]:
+def detect_all_issues(wordinfo_collection_name: str, collection: WordInfoCollection, other_dlc_collections: list[WordInfoCollection]) -> list[Issue]:
     issues = list()
+    actual_groups = collection.actual_groups
+    required_groups = collection.required_groups
 
     for actual_group in actual_groups:
         for actual_entity in actual_group.entities:
@@ -155,7 +187,12 @@ def detect_all_issues(wordinfo_collection_name: str, actual_groups: list[Entitie
 
             if len(own_group_matches) == 0:
                 if len(other_group_matches) > 0:
-                    issues.append(Issue(Severity.WARNING, group=actual_group.name, entity=actual_entity, message=f"Actual {wordinfo_collection_name} entity `{actual_entity}` ({actual_group.name}) matches required entity(es) in another folder(s): {', '.join(other_group_matches)}"))
+                    issues.append(Issue(Severity.WARNING, group=actual_group.name, entity=actual_entity, message=f"Actual {wordinfo_collection_name} entity `{actual_entity}` ({actual_group.name}) matches required entity(es) in another group(s): {', '.join(other_group_matches)}"))
+                    continue
+
+                other_dlc_matches = find_required_matches_in_other_dlcs(actual_entity, other_dlc_collections)
+                if len(other_dlc_matches) > 0:
+                    issues.append(Issue(Severity.WARNING, group=actual_group.name, entity=actual_entity, message=f"Actual {wordinfo_collection_name} entity `{actual_entity}` ({actual_group.name}) is in wrong DLC, it matches required entity(es) in other DLC(s): {', '.join(other_dlc_matches)}"))
                 else:
                     issues.append(Issue(Severity.ERROR, group=actual_group.name, entity=actual_entity, message=f"Actual {wordinfo_collection_name} entity `{actual_entity}` does not match any required entity"))
 
@@ -168,11 +205,40 @@ def detect_all_issues(wordinfo_collection_name: str, actual_groups: list[Entitie
                     found_matches.append(f"'{matching_actual_entity}' ({actual_group.name})")
 
             if len(found_matches) == 0:
-                issues.append(Issue(Severity.ERROR, group=required_group.name, entity=required_entity, message=f"Required entity `{required_entity}` ({required_group.name}) has no actual matches in {wordinfo_collection_name}"))
+                other_dlc_matches = find_actual_matches_in_other_dlcs(required_entity, other_dlc_collections)
+                if len(other_dlc_matches) == 0:
+                    issues.append(Issue(Severity.ERROR, group=required_group.name, entity=required_entity, message=f"Required entity `{required_entity}` ({required_group.name}) has no actual matches in {wordinfo_collection_name}"))
+                elif all(is_required_in_own_dlc for _, is_required_in_own_dlc in other_dlc_matches):
+                    # Otherwise the "wrong DLC" warning is already reported for the actual entity in the other DLC
+                    issues.append(Issue(Severity.WARNING, group=required_group.name, entity=required_entity, message=f"Required entity `{required_entity}` ({required_group.name}) has actual matches in {wordinfo_collection_name} of other DLC(s) only: {', '.join(match for match, _ in other_dlc_matches)}"))
             elif len(found_matches) > 1:
                 issues.append(Issue(Severity.INFO, group=required_group.name, entity=required_entity, message=f"Required entity `{required_entity}` ({required_group.name}) has {len(found_matches)} actual matches in {wordinfo_collection_name}: {', '.join(found_matches)}"))
 
     return issues
+
+
+def find_required_matches_in_other_dlcs(actual_entity: str, other_dlc_collections: list[WordInfoCollection]) -> list[str]:
+    matches = list()
+    for other in other_dlc_collections:
+        for required_group in other.required_groups:
+            for required_entity in required_group.entities:
+                if is_match(actual_entity, required_entity):
+                    matches.append(f"'{required_entity}' ({required_group.name}, {other.dlc_name})")
+
+    return matches
+
+
+def find_actual_matches_in_other_dlcs(required_entity: str, other_dlc_collections: list[WordInfoCollection]) -> list[tuple[str, bool]]:
+    """Returns matches with flags whether the matching actual entity is also required in its own DLC"""
+    matches = list()
+    for other in other_dlc_collections:
+        for actual_group in other.actual_groups:
+            matching_actual_entity = find_actual_match(required_entity=required_entity, actual_entities=actual_group.entities)
+            if matching_actual_entity != None:
+                is_required_in_own_dlc = any(is_match(matching_actual_entity, entity) for group in other.required_groups for entity in group.entities)
+                matches.append((f"'{matching_actual_entity}' ({actual_group.name}, {other.dlc_name})", is_required_in_own_dlc))
+
+    return matches
 
 
 def print_issues(issues: list[Issue]):
@@ -192,6 +258,9 @@ def get_wordinfo_entities(wordinfo_file_path: str, index: int) -> list[EntitiesG
     result = []
     current_group_name = UNDEFINED_GROUP_NAME
     current_group_entities = set()
+
+    if not os.path.isfile(wordinfo_file_path):
+        return result
 
     with open(wordinfo_file_path, encoding='utf-8') as f:
         for line in f.readlines():
