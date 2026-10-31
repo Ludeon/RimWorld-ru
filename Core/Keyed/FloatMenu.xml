@@ -4,7 +4,7 @@
   <!-- EN: Call {0} -->
   <CallOnRadio>Связаться с {0}</CallOnRadio>
   <!-- EN: Cannot use: {0} -->
-  <CannotUseReason>Невозможно использовать {lookup: {0}; Case; 3}</CannotUseReason>
+  <CannotUseReason>Невозможно использовать: {0}</CannotUseReason>
   <!-- EN: Cannot use: EMP -->
   <CannotUseSolarFlare>Невозможно использовать: ЭМИ</CannotUseSolarFlare>
   <!-- EN: Cannot use: No power -->
@@ -218,7 +218,7 @@
   <!-- EN: Capture {1_labelShort} -->
   <Capture>Захватить {lookup: {1_labelShort}; Case; 3}</Capture>
   <!-- EN: capture {0_labelShort} -->
-  <CaptureLower>захватить {lookup: {1_labelShort}; Case; 3}</CaptureLower>
+  <CaptureLower>захватить {lookup: {0_labelShort}; Case; 3}</CaptureLower>
   <!-- EN: Cannot capture -->
   <CannotCapture>Невозможно захватить</CannotCapture>
   <!-- EN: unwaveringly loyal -->
@@ -555,7 +555,7 @@
   <!-- EN: Form caravan here -->
   <FormCaravanHere>Снарядить караван сюда</FormCaravanHere>
   <!-- EN: Give to {0} -->
-  <GiveToCaravan>Передать каравану {lookup: {0}; Case; 3}</GiveToCaravan>
+  <GiveToCaravan>Передать {lookup: {0}; Case; 2}</GiveToCaravan>  <!-- "Передать коровану Vasya" -->
   <!-- EN: Give as a gift to {0} ({1}) -->
   <GiveGiftViaTransportPods>Вручить как подарок фракции {0} ({1})</GiveGiftViaTransportPods>
   <!-- EN: Not part of launch group -->

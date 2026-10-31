@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN: leading TargetA to exit. -->
-  <PrepareCaravan_CollectAnimals.reportString>ведёт TargetA к выходу</PrepareCaravan_CollectAnimals.reportString>
+  <PrepareCaravan_CollectAnimals.reportString>ведёт {lookup: {TargetA}; Case; 3} к выходу</PrepareCaravan_CollectAnimals.reportString>
   
   <!-- EN: leading TargetA to caravan spot. -->
-  <PrepareCaravan_GatherAnimals.reportString>ведёт TargetA к месту сбора каравана</PrepareCaravan_GatherAnimals.reportString>
+  <PrepareCaravan_GatherAnimals.reportString>ведёт {lookup: {TargetA}; Case; 3} к месту сбора каравана</PrepareCaravan_GatherAnimals.reportString>
   
   <!-- EN: preparing to leave. -->
   <PrepareCaravan_GatherDownedPawns.reportString>собирается в путь</PrepareCaravan_GatherDownedPawns.reportString>
@@ -14,6 +14,6 @@
   <PrepareCaravan_GatherItems.reportString>собирает припасы</PrepareCaravan_GatherItems.reportString>
   
   <!-- EN: taking TargetA back to a pen. -->
-  <ReturnedCaravan_PenAnimals.reportString>возвращает TargetA в загон</ReturnedCaravan_PenAnimals.reportString>
+  <ReturnedCaravan_PenAnimals.reportString>возвращает {lookup: {TargetA}; Case; 3} в загон</ReturnedCaravan_PenAnimals.reportString>
   
 </LanguageData>

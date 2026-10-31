@@ -42,14 +42,14 @@
   <Mining.deathMessage>{PAWN_nameDef} {PAWN_gender ? убит : убита : убито}.</Mining.deathMessage>
   
   <!-- EN: nerve -->
-  <Nerve.label>не выдержали нервы</Nerve.label>
+  <Nerve.label>паралич</Nerve.label> <!-- NerveSpiker даёт этот тип урона -->
   <!-- EN: {0} has been killed by nerve shock. -->
-  <Nerve.deathMessage>{0} умирает от нейронного шока.</Nerve.deathMessage>
+  <Nerve.deathMessage>{PAWN_nameDef} {PAWN_gender ? умер : умерла : умерло} от паралича.</Nerve.deathMessage>
   
   <!-- EN: nerve stun -->
-  <NerveStun.label>нейронное оглушение</NerveStun.label>
+  <NerveStun.label>паралич</NerveStun.label> <!-- Drone_Wasp даёт этот тип урона -->
   <!-- EN: {0} has been killed. -->
-  <NerveStun.deathMessage>{0} умирает насильственной смертью.</NerveStun.deathMessage>
+  <NerveStun.deathMessage>{PAWN_nameDef} {PAWN_gender ? убит : убита : убито}.</NerveStun.deathMessage>
   
   <!-- EN: rotting -->
   <Rotting.label>гниение</Rotting.label>

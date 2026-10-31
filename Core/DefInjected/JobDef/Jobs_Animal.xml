@@ -8,15 +8,15 @@
   <LayEgg.reportString>откладывает яйца</LayEgg.reportString>
   
   <!-- EN: maintaining TargetA. -->
-  <Maintain.reportString>обслуживает TargetA</Maintain.reportString>
+  <Maintain.reportString>обслуживает {lookup: {TargetA}; Case; 3}</Maintain.reportString>
   
   <!-- EN: mating with TargetA. -->
-  <Mate.reportString>спаривается с TargetA</Mate.reportString>
+  <Mate.reportString>спаривается с {lookup: {TargetA}; Case; 4}</Mate.reportString>
   
   <!-- EN: nuzzling TargetA. -->
-  <Nuzzle.reportString>ласкается к TargetA</Nuzzle.reportString>
+  <Nuzzle.reportString>ласкается к {lookup: {TargetA}; Case; 2}</Nuzzle.reportString>
   
   <!-- EN: hunting TargetA. -->
-  <PredatorHunt.reportString>охотится на TargetA</PredatorHunt.reportString>
+  <PredatorHunt.reportString>охотится на {lookup: {TargetA}; Case; 3}</PredatorHunt.reportString>
   
 </LanguageData>
